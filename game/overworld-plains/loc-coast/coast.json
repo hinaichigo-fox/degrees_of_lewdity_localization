@@ -1,0 +1,346 @@
+[
+  {
+    "passage": "Coast Path Mer",
+    "filepath": "overworld-plains/loc-coast/coast.twee",
+    "key": "4_5_3_7|",
+    "original": "You walk down a thin road near the docks, leading away from Mer Street. It feeds into a warehouse, but to one side is a sandy trail, hidden among tufts of spiky grass. It takes you into the hills that flank the town, snaking the tops of the cliffs facing the sea.",
+    "translation": "",
+    "pos": 34
+  },
+  {
+    "passage": "Coast Path Mer",
+    "filepath": "overworld-plains/loc-coast/coast.twee",
+    "key": "7_5_3_7|",
+    "original": "Few know the path is here.",
+    "translation": "",
+    "pos": 308
+  },
+  {
+    "passage": "Coast Path Mer",
+    "filepath": "overworld-plains/loc-coast/coast.twee",
+    "key": "10_5_3_7|",
+    "original": "<<link [[Next|Coast Path]]>><</link>>",
+    "translation": "",
+    "pos": 345
+  },
+  {
+    "passage": "Coast Path",
+    "filepath": "overworld-plains/loc-coast/coast.twee",
+    "key": "16_5_3_7|",
+    "original": "You're on the thin coastal path east of town, above a cliff facing the sea.",
+    "translation": "",
+    "pos": 37
+  },
+  {
+    "passage": "Coast Path",
+    "filepath": "overworld-plains/loc-coast/coast.twee",
+    "key": "20_5_3_7|",
+    "original": "White rose bushes flower here, unbothered by the wind.",
+    "translation": "",
+    "pos": 134
+  },
+  {
+    "passage": "Coast Path",
+    "filepath": "overworld-plains/loc-coast/coast.twee",
+    "key": "24_5_3_7|",
+    "original": "<<icon \"tending/white_rose.png\">> <<link [[Search for seeds (0:30)|Coast Path White Rose]]>><<pass 30>><<pain 6>><<tending 6>><<set $plants_known.push(\"white_rose\")>><</link>><<gpain>><<gtending>>",
+    "translation": "",
+    "pos": 245
+  },
+  {
+    "passage": "Coast Path",
+    "filepath": "overworld-plains/loc-coast/coast.twee",
+    "key": "28_5_3_7|",
+    "original": "<<walkicon>><<link [[Walk east along the coast (2:00)|Coast Path East]]>><<athletics 4>><<pass 120>><</link>>",
+    "translation": "",
+    "pos": 484
+  },
+  {
+    "passage": "Coast Path",
+    "filepath": "overworld-plains/loc-coast/coast.twee",
+    "key": "31_5_3_7|",
+    "original": "<<runicon>><<link [[Jog east along the coast (1:30)|Coast Path East]]>><<athletics 5>><<pass 90>><<tiredness 2>><<set $speed to \"jog\">><</link>><<athleticsdifficulty 250 700>><<gtiredness>>",
+    "translation": "",
+    "pos": 726
+  },
+  {
+    "passage": "Coast Path",
+    "filepath": "overworld-plains/loc-coast/coast.twee",
+    "key": "34_5_3_7|",
+    "original": "<<runicon>><<link [[Run east along the coast (1:00)|Coast Path East]]>><<athletics 6>><<pass 60>><<tiredness 3>><<set $speed to \"run\">><</link>><<athleticsdifficulty 650 1000>><<gtiredness>>",
+    "translation": "",
+    "pos": 974
+  },
+  {
+    "passage": "Coast Path",
+    "filepath": "overworld-plains/loc-coast/coast.twee",
+    "key": "41_5_3_7|",
+    "original": "<<glideicon>><<link [[Soar east (<<print getTimeString(_hoursPassed, _minutesPassed)>>)|Coast Path East]]>><<set $fatigueMod to _fatigueMod>><<set $flightTime to _flightTime>><<pass _flightTime>><<set $speed to \"fly\">><</link>><<flight_text>><<gtiredness>>",
+    "translation": "",
+    "pos": 1268
+  },
+  {
+    "passage": "Coast Path",
+    "filepath": "overworld-plains/loc-coast/coast.twee",
+    "key": "46_5_3_7|",
+    "original": "<<entertownicon>><<link [[Enter town (0:30)|Mer Street]]>><<pass 30>><</link>>",
+    "translation": "",
+    "pos": 1554
+  },
+  {
+    "passage": "Coast Path White Rose",
+    "filepath": "overworld-plains/loc-coast/coast.twee",
+    "key": "52_5_3_7|",
+    "original": "You search the bushes for seeding flowers. You're careful to avoid the thorns, but prick yourself a little.",
+    "translation": "",
+    "pos": 40
+  },
+  {
+    "passage": "Coast Path White Rose",
+    "filepath": "overworld-plains/loc-coast/coast.twee",
+    "key": "54_5_3_7|",
+    "original": "<span class=\"gold\">You can now grow <<icon \"tending/white_rose.png\">> white roses.</span>",
+    "translation": "",
+    "pos": 157
+  },
+  {
+    "passage": "Coast Path White Rose",
+    "filepath": "overworld-plains/loc-coast/coast.twee",
+    "key": "56_5_3_7|",
+    "original": "<<link [[Next|Coast Path]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 256
+  },
+  {
+    "passage": "Coast Path Cabbage",
+    "filepath": "overworld-plains/loc-coast/coast.twee",
+    "key": "63_5_3_7|",
+    "original": "You look more closely at the leafy bushes dotting the clifftop. They're wild cabbages. You take some seeds.",
+    "translation": "",
+    "pos": 35
+  },
+  {
+    "passage": "Coast Path Cabbage",
+    "filepath": "overworld-plains/loc-coast/coast.twee",
+    "key": "65_5_3_7|",
+    "original": "<span class=\"gold\">You can now grow <<icon \"tending/cabbage.png\">> cabbages.</span>",
+    "translation": "",
+    "pos": 152
+  },
+  {
+    "passage": "Coast Path Cabbage",
+    "filepath": "overworld-plains/loc-coast/coast.twee",
+    "key": "67_5_3_7|",
+    "original": "<<link [[Next|Coast Path Farmland]]>><</link>>",
+    "translation": "",
+    "pos": 245
+  },
+  {
+    "passage": "Coast Path Meadow",
+    "filepath": "overworld-plains/loc-coast/coast.twee",
+    "key": "74_5_3_7|",
+    "original": "Tucked away in a hidden corner of the meadow is a thin path leading into a thicket, nestled between two hills. It takes you north, and emerges at the top of the cliffs facing the sea.",
+    "translation": "",
+    "pos": 34
+  },
+  {
+    "passage": "Coast Path Meadow",
+    "filepath": "overworld-plains/loc-coast/coast.twee",
+    "key": "77_5_3_7|",
+    "original": "Few know the path is here.",
+    "translation": "",
+    "pos": 228
+  },
+  {
+    "passage": "Coast Path Meadow",
+    "filepath": "overworld-plains/loc-coast/coast.twee",
+    "key": "80_5_3_7|",
+    "original": "<<link [[Next|Coast Path Farmland]]>><</link>>",
+    "translation": "",
+    "pos": 265
+  },
+  {
+    "passage": "Coast Path Farmland",
+    "filepath": "overworld-plains/loc-coast/coast.twee",
+    "key": "86_5_3_7|",
+    "original": "You're on a thin coastal path north of the farmlands, above a cliff facing the sea.",
+    "translation": "",
+    "pos": 37
+  },
+  {
+    "passage": "Coast Path Farmland",
+    "filepath": "overworld-plains/loc-coast/coast.twee",
+    "key": "92_5_3_7|",
+    "original": "<<walkicon \"west\">><<link [[Walk west along the coast (2:00)|Coast Path West]]>><<pass 120>><</link>>",
+    "translation": "",
+    "pos": 152
+  },
+  {
+    "passage": "Coast Path Farmland",
+    "filepath": "overworld-plains/loc-coast/coast.twee",
+    "key": "95_5_3_7|",
+    "original": "<<icon \"tending/cabbage.png\">> <<link [[Search for seeds (0:30)|Coast Path Cabbage]]>><<pass 30>><<tending 6>><<set $plants_known.push(\"cabbage\")>><</link>><<gtending>>",
+    "translation": "",
+    "pos": 302
+  },
+  {
+    "passage": "Coast Path Farmland",
+    "filepath": "overworld-plains/loc-coast/coast.twee",
+    "key": "99_5_3_7|",
+    "original": "<<runicon  \"west\">><<link [[Jog west along the coast (1:30)|Coast Path West]]>><<pass 90>><<tiredness 2>><<set $speed to \"jog\">><</link>><<athleticsdifficulty 250 700>><<gtiredness>>",
+    "translation": "",
+    "pos": 609
+  },
+  {
+    "passage": "Coast Path Farmland",
+    "filepath": "overworld-plains/loc-coast/coast.twee",
+    "key": "102_5_3_7|",
+    "original": "<<runicon \"west\">><<link [[Run west along the coast (1:00)|Coast Path West]]>><<pass 60>><<tiredness 5>><<set $speed to \"run\">><</link>><<athleticsdifficulty 650 1000>><<gtiredness>>",
+    "translation": "",
+    "pos": 847
+  },
+  {
+    "passage": "Coast Path Farmland",
+    "filepath": "overworld-plains/loc-coast/coast.twee",
+    "key": "108_5_3_7|",
+    "original": "<<glideicon \"west\">><<link [[Soar west (<<print getTimeString(_hoursPassed, _minutesPassed)>>)|Coast Path West]]>><<set $fatigueMod to _fatigueMod>><<set $flightTime to _flightTime>><<pass _flightTime>><<set $speed to \"fly\">><</link>><<flight_text>><<gtiredness>>",
+    "translation": "",
+    "pos": 1120
+  },
+  {
+    "passage": "Coast Path Farmland",
+    "filepath": "overworld-plains/loc-coast/coast.twee",
+    "key": "113_5_3_7|",
+    "original": "<<farmicon \"meadow\">><<link [[Enter the meadow (0:30)|Meadow]]>><<pass 30>><</link>>",
+    "translation": "",
+    "pos": 1404
+  },
+  {
+    "passage": "Coast Path East",
+    "filepath": "overworld-plains/loc-coast/coast.twee",
+    "key": "121_5_3_7|",
+    "original": "You run and jump. The wind catches you, and carries you along the trail.",
+    "translation": "",
+    "pos": 57
+  },
+  {
+    "passage": "Coast Path East",
+    "filepath": "overworld-plains/loc-coast/coast.twee",
+    "key": "124_5_3_7|",
+    "original": "You follow the path east. It sometimes runs along the very top of the cliffs. At other times, it dips partway down, so that the route squeezes between a rock face on one side and a sheer drop on the other.",
+    "translation": "",
+    "pos": 148
+  },
+  {
+    "passage": "Coast Path East",
+    "filepath": "overworld-plains/loc-coast/coast.twee",
+    "key": "129_5_3_7|",
+    "original": "You jog against the wind. <span class=\"green\">The sea air <<if Weather.is(\"clear\") and Time.dayState is \"day\">>and sunshine<</if>> is refreshing.</span>",
+    "translation": "",
+    "pos": 453
+  },
+  {
+    "passage": "Coast Path East",
+    "filepath": "overworld-plains/loc-coast/coast.twee",
+    "key": "131_5_3_7|",
+    "original": "You jog against the wind. <span class=\"red\">You feel a little worn out.</span><<gtiredness>><<tiredness 2>>",
+    "translation": "",
+    "pos": 618
+  },
+  {
+    "passage": "Coast Path East",
+    "filepath": "overworld-plains/loc-coast/coast.twee",
+    "key": "137_5_3_7|",
+    "original": "You run against the wind. <span class=\"green\">The sea air <<if Weather.is(\"clear\") and Time.dayState is \"day\">>and sunshine<</if>> is refreshing.</span>",
+    "translation": "",
+    "pos": 839
+  },
+  {
+    "passage": "Coast Path East",
+    "filepath": "overworld-plains/loc-coast/coast.twee",
+    "key": "139_5_3_7|",
+    "original": "You jog against the wind. <span class=\"red\">You feel a little worn out.</span><<gtiredness>><<tiredness 5>>",
+    "translation": "",
+    "pos": 1004
+  },
+  {
+    "passage": "Coast Path East",
+    "filepath": "overworld-plains/loc-coast/coast.twee",
+    "key": "144_5_3_7|",
+    "original": "You see fields in the distance.",
+    "translation": "",
+    "pos": 1155
+  },
+  {
+    "passage": "Coast Path East",
+    "filepath": "overworld-plains/loc-coast/coast.twee",
+    "key": "147_5_3_7|",
+    "original": "<<link [[Next|Coast Path Farmland]]>><</link>>",
+    "translation": "",
+    "pos": 1197
+  },
+  {
+    "passage": "Coast Path West",
+    "filepath": "overworld-plains/loc-coast/coast.twee",
+    "key": "155_5_3_7|",
+    "original": "You run and jump. The wind catches you, and carries you along the trail.",
+    "translation": "",
+    "pos": 57
+  },
+  {
+    "passage": "Coast Path West",
+    "filepath": "overworld-plains/loc-coast/coast.twee",
+    "key": "158_5_3_7|",
+    "original": "You follow the path west. Wild grasses and other plants intrude on it, sometimes swallowing it all, but it's not hard to find again. It always hugs the cliff.",
+    "translation": "",
+    "pos": 148
+  },
+  {
+    "passage": "Coast Path West",
+    "filepath": "overworld-plains/loc-coast/coast.twee",
+    "key": "163_5_3_7|",
+    "original": "You jog against the wind. <span class=\"green\">The sea air <<if Weather.is(\"clear\") and Time.dayState is \"day\">>and sunshine<</if>> is refreshing.</span>",
+    "translation": "",
+    "pos": 406
+  },
+  {
+    "passage": "Coast Path West",
+    "filepath": "overworld-plains/loc-coast/coast.twee",
+    "key": "165_5_3_7|",
+    "original": "You jog against the wind. <span class=\"red\">You feel a little worn out.</span><<gtiredness>><<tiredness 2>>",
+    "translation": "",
+    "pos": 571
+  },
+  {
+    "passage": "Coast Path West",
+    "filepath": "overworld-plains/loc-coast/coast.twee",
+    "key": "171_5_3_7|",
+    "original": "You run against the wind. <span class=\"green\">The sea air <<if Weather.is(\"clear\") and Time.dayState is \"day\">>and sunshine<</if>> is refreshing.</span>",
+    "translation": "",
+    "pos": 792
+  },
+  {
+    "passage": "Coast Path West",
+    "filepath": "overworld-plains/loc-coast/coast.twee",
+    "key": "173_5_3_7|",
+    "original": "You jog against the wind. <span class=\"red\">You feel a little worn out.</span><<gtiredness>><<tiredness 5>>",
+    "translation": "",
+    "pos": 957
+  },
+  {
+    "passage": "Coast Path West",
+    "filepath": "overworld-plains/loc-coast/coast.twee",
+    "key": "178_5_3_7|",
+    "original": "You see the town in the distance.",
+    "translation": "",
+    "pos": 1108
+  },
+  {
+    "passage": "Coast Path West",
+    "filepath": "overworld-plains/loc-coast/coast.twee",
+    "key": "181_5_3_7|",
+    "original": "<<link [[Next|Coast Path]]>><</link>>",
+    "translation": "",
+    "pos": 1152
+  }
+]

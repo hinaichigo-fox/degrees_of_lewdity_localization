@@ -1,0 +1,4850 @@
+[
+  {
+    "passage": "Farm Road 1",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "6_5_3_7|",
+    "original": "You walk deeper into the countryside. The buildings become sparser, though collections of homes still dot the hills.<<athletics 1>>",
+    "translation": "",
+    "pos": 129
+  },
+  {
+    "passage": "Farm Road 1",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "10_5_3_7|",
+    "original": "You walk towards town. The homes become more numerous, dotting the hills in clusters.<<athletics 1>>",
+    "translation": "",
+    "pos": 318
+  },
+  {
+    "passage": "Farm Road 1",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "13_5_3_7|",
+    "original": "You are on the road that connects the town and surrounding farmlands. Collections of homes dot the hills.",
+    "translation": "",
+    "pos": 442
+  },
+  {
+    "passage": "Farm Road 1",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "19_5_3_7|",
+    "original": "Your $farm.steed steed grazes in an empty field.",
+    "translation": "",
+    "pos": 601
+  },
+  {
+    "passage": "Farm Road 1",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "29_5_3_7|",
+    "original": "You hear a screech of wheels behind you. A car is fast approaching, and isn't leaving much room between it and the thorny bushes along your side of the road.",
+    "translation": "",
+    "pos": 848
+  },
+  {
+    "passage": "Farm Road 1",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "32_5_3_7|",
+    "original": "<<link [[Jump into the bushes|Farm Road Jump]]>><<pain 6>><</link>><<gpain>>",
+    "translation": "",
+    "pos": 1020
+  },
+  {
+    "passage": "Farm Road 1",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "35_5_3_7|",
+    "original": "<<link [[Stand your ground|Farm Road Stand]]>><<def 1>><</link>><<defianttext>>",
+    "translation": "",
+    "pos": 1136
+  },
+  {
+    "passage": "Farm Road 1",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "46_5_3_7|",
+    "original": "<<skinicon \"hitchhike\">><<link [[Hitchhike (0:15)|Farm Hitchhike]]>><<pass 15>><</link>>",
+    "translation": "",
+    "pos": 1380
+  },
+  {
+    "passage": "Farm Road 1",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "49_5_3_7|",
+    "original": "<span class=\"blue\">You're too exposed to hitchhike!</span>",
+    "translation": "",
+    "pos": 1488
+  },
+  {
+    "passage": "Farm Road 1",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "52_5_3_7|",
+    "original": "<<roadicon>><<link [[Walk into the countryside (0:30)|Farm Road 2]]>><<set $phase to 1>><<tiredness 3>><</link>><<gtiredness>>",
+    "translation": "",
+    "pos": 1564
+  },
+  {
+    "passage": "Farm Road 1",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "57_5_3_7|",
+    "original": "<<steedicon>><<link [[Ride to the farm (0:15)|Farm Ride Farm]]>><<if $worn.lower.name is \"naked\" and $worn.under_lower.name is \"naked\">><<pain 6>><</if>><<tiredness 2>><<loadNPC 0 \"saddled_steed\">><<pass 15>><</link>><<gtiredness>>",
+    "translation": "",
+    "pos": 1765
+  },
+  {
+    "passage": "Farm Road 1",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "60_5_3_7|",
+    "original": "<<steedicon>><<link [[Ride to the farm (0:30)|Farm Ride Farm]]>><<if $worn.lower.name is \"naked\" and $worn.under_lower.name is \"naked\">><<pain 9>><</if>><<tiredness 3>><<loadNPC 0 \"saddled_steed\">><<pass 30>><</link>><<gtiredness>>",
+    "translation": "",
+    "pos": 2022
+  },
+  {
+    "passage": "Farm Road 1",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "65_5_3_7|",
+    "original": "<<entertownicon>><<link [[Enter town (0:05)|Harvest Street]]>><<pass 5>><</link>>",
+    "translation": "",
+    "pos": 2294
+  },
+  {
+    "passage": "Farm Road 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "76_5_3_7|",
+    "original": "You walk deeper into the countryside. There are few buildings here, barring the occasional manor.<<athletics 1>>",
+    "translation": "",
+    "pos": 129
+  },
+  {
+    "passage": "Farm Road 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "80_5_3_7|",
+    "original": "You walk towards town. You see the occasional building, stately manors tucked among the hills and trees.<<athletics 1>>",
+    "translation": "",
+    "pos": 300
+  },
+  {
+    "passage": "Farm Road 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "83_5_3_7|",
+    "original": "You are on the road that connects the town and surrounding farmlands. Several manors dot the hills around you.",
+    "translation": "",
+    "pos": 443
+  },
+  {
+    "passage": "Farm Road 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "92_5_3_7|",
+    "original": "A dog barks at you from behind an ornate gate.<<gstress>><<stress 6>>",
+    "translation": "",
+    "pos": 741
+  },
+  {
+    "passage": "Farm Road 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "104_5_3_7|",
+    "original": "<<skinicon \"hitchhike\">><<link [[Hitchhike (0:15)|Farm Hitchhike]]>><<pass 15>><</link>>",
+    "translation": "",
+    "pos": 995
+  },
+  {
+    "passage": "Farm Road 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "107_5_3_7|",
+    "original": "<span class=\"blue\">You're too exposed to hitchhike!</span>",
+    "translation": "",
+    "pos": 1103
+  },
+  {
+    "passage": "Farm Road 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "110_5_3_7|",
+    "original": "<<roadicon>><<link [[Walk deeper into the countryside (0:30)|Farm Road 3]]>><<set $phase to 1>><<tiredness 3>><</link>><<gtiredness>>",
+    "translation": "",
+    "pos": 1179
+  },
+  {
+    "passage": "Farm Road 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "112_5_3_7|",
+    "original": "<<roadicon>><<link [[Walk towards town (0:30)|Farm Road 1]]>><<set $phase to 2>><<tiredness 3>><</link>><<gtiredness>>",
+    "translation": "",
+    "pos": 1320
+  },
+  {
+    "passage": "Farm Road 3",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "123_5_3_7|",
+    "original": "You walk deeper into the countryside. The trees become thicker, until the road is surrounded.<<athletics 1>>",
+    "translation": "",
+    "pos": 78
+  },
+  {
+    "passage": "Farm Road 3",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "127_5_3_7|",
+    "original": "You walk towards town. The road drops into a thicket, trees surrounding you on both sides.<<athletics 1>>",
+    "translation": "",
+    "pos": 245
+  },
+  {
+    "passage": "Farm Road 3",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "130_5_3_7|",
+    "original": "You are on the road that connects the town and surrounding farmlands. The road is surrounded by trees.",
+    "translation": "",
+    "pos": 374
+  },
+  {
+    "passage": "Farm Road 3",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "139_5_3_7|",
+    "original": "A breeze blows through the trees, swaying the boughs and caressing your face.<<lstress>><<stress 6>>",
+    "translation": "",
+    "pos": 664
+  },
+  {
+    "passage": "Farm Road 3",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "151_5_3_7|",
+    "original": "<<skinicon \"hitchhike\">><<link [[Hitchhike (0:15)|Farm Hitchhike]]>><<pass 15>><</link>>",
+    "translation": "",
+    "pos": 949
+  },
+  {
+    "passage": "Farm Road 3",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "154_5_3_7|",
+    "original": "<span class=\"blue\">You're too exposed to hitchhike!</span>",
+    "translation": "",
+    "pos": 1057
+  },
+  {
+    "passage": "Farm Road 3",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "157_5_3_7|",
+    "original": "<<roadicon>><<link [[Walk deeper into the countryside (0:30)|Farm Road 4]]>><<set $phase to 1>><<tiredness 3>><</link>><<gtiredness>>",
+    "translation": "",
+    "pos": 1133
+  },
+  {
+    "passage": "Farm Road 3",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "159_5_3_7|",
+    "original": "<<roadicon>><<link [[Walk towards town (0:30)|Farm Road 2]]>><<set $phase to 2>><<tiredness 3>><</link>><<gtiredness>>",
+    "translation": "",
+    "pos": 1274
+  },
+  {
+    "passage": "Farm Road 4",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "170_5_3_7|",
+    "original": "You walk deeper into the countryside. The road bends upwards, crowning a hill and emerging from the trees. The sea greets you on the horizon.<<athletics 1>>",
+    "translation": "",
+    "pos": 129
+  },
+  {
+    "passage": "Farm Road 4",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "174_5_3_7|",
+    "original": "You walk towards town. The surrounding countryside becomes less wild, but more hilly. You crown one of the hills, and the sea greets you on the horizon.<<athletics 1>>",
+    "translation": "",
+    "pos": 344
+  },
+  {
+    "passage": "Farm Road 4",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "177_5_3_7|",
+    "original": "You are on the road that connects the town and surrounding farmlands. You're atop a hill, and can view the sea on the horizon.",
+    "translation": "",
+    "pos": 535
+  },
+  {
+    "passage": "Farm Road 4",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "186_5_3_7|",
+    "original": "A strong wind rushes over the crest, almost blowing you over.",
+    "translation": "",
+    "pos": 849
+  },
+  {
+    "passage": "Farm Road 4",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "189_5_3_7|",
+    "original": "It snatches the $worn.head.name from your head!<<headstrip>>",
+    "translation": "",
+    "pos": 1037
+  },
+  {
+    "passage": "Farm Road 4",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "192_5_3_7|",
+    "original": "<<link [[Chase after it|Farm Road Chase]]>><</link>>",
+    "translation": "",
+    "pos": 1114
+  },
+  {
+    "passage": "Farm Road 4",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "194_5_3_7|",
+    "original": "<<link [[Leave it|Farm Road Leave]]>><</link>>",
+    "translation": "",
+    "pos": 1178
+  },
+  {
+    "passage": "Farm Road 4",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "209_5_3_7|",
+    "original": "<<skinicon \"hitchhike\">><<link [[Hitchhike (0:15)|Farm Hitchhike]]>><<pass 15>><</link>>",
+    "translation": "",
+    "pos": 1440
+  },
+  {
+    "passage": "Farm Road 4",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "212_5_3_7|",
+    "original": "<span class=\"blue\">You're too exposed to hitchhike!</span>",
+    "translation": "",
+    "pos": 1548
+  },
+  {
+    "passage": "Farm Road 4",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "215_5_3_7|",
+    "original": "<<roadicon>><<link [[Walk deeper into the countryside (0:30)|Farm Road 5]]>><<set $phase to 1>><<tiredness 3>><</link>><<gtiredness>>",
+    "translation": "",
+    "pos": 1624
+  },
+  {
+    "passage": "Farm Road 4",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "217_5_3_7|",
+    "original": "<<roadicon>><<link [[Walk towards town (0:30)|Farm Road 3]]>><<set $phase to 2>><<tiredness 3>><</link>><<gtiredness>>",
+    "translation": "",
+    "pos": 1765
+  },
+  {
+    "passage": "Farm Road 5",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "228_5_3_7|",
+    "original": "You walk deeper into the countryside. The hills become flatter, and the ground more barren. Brown bushes struggle through the earth. Strange, thorny growths strangle the trees.<<athletics 1>>",
+    "translation": "",
+    "pos": 129
+  },
+  {
+    "passage": "Farm Road 5",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "232_5_3_7|",
+    "original": "You walk towards town. The fields give way to a barren, tortured plain. Brown bushes struggle through the earth. Strange, thorny growth strangle the trees.<<athletics 1>>",
+    "translation": "",
+    "pos": 379
+  },
+  {
+    "passage": "Farm Road 5",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "235_5_3_7|",
+    "original": "You are on the road that connects the town and surrounding farmlands. The road is surrounded by a barren plain. Brown bushes struggle through the earth. Strange, thorny growths strangle the trees.",
+    "translation": "",
+    "pos": 573
+  },
+  {
+    "passage": "Farm Road 5",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "244_5_3_7|",
+    "original": "You hear a terrible screech. <<if $syndromebird isnot 1>><<gstress>><<stress 6>><</if>>",
+    "translation": "",
+    "pos": 957
+  },
+  {
+    "passage": "Farm Road 5",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "256_5_3_7|",
+    "original": "<<skinicon \"hitchhike\">><<link [[Hitchhike (0:15)|Farm Hitchhike]]>><<pass 15>><</link>>",
+    "translation": "",
+    "pos": 1229
+  },
+  {
+    "passage": "Farm Road 5",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "259_5_3_7|",
+    "original": "<span class=\"blue\">You're too exposed to hitchhike!</span>",
+    "translation": "",
+    "pos": 1337
+  },
+  {
+    "passage": "Farm Road 5",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "262_5_3_7|",
+    "original": "<<roadicon>><<link [[Walk deeper into the countryside (0:30)|Farm Road 6]]>><<set $phase to 1>><<tiredness 3>><</link>><<gtiredness>>",
+    "translation": "",
+    "pos": 1413
+  },
+  {
+    "passage": "Farm Road 5",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "264_5_3_7|",
+    "original": "<<roadicon>><<link [[Walk towards town (0:30)|Farm Road 4]]>><<set $phase to 2>><<tiredness 3>><</link>><<gtiredness>>",
+    "translation": "",
+    "pos": 1554
+  },
+  {
+    "passage": "Farm Road 6",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "275_5_3_7|",
+    "original": "You walk deeper into the countryside. The land becomes greener and more organised, split by hedges into separate fields.<<athletics 1>>",
+    "translation": "",
+    "pos": 129
+  },
+  {
+    "passage": "Farm Road 6",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "279_5_3_7|",
+    "original": "You walk towards town. Fields still flank the road on both sides.<<athletics 1>>",
+    "translation": "",
+    "pos": 323
+  },
+  {
+    "passage": "Farm Road 6",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "282_5_3_7|",
+    "original": "You are on the road that connects the town and surrounding farmlands. Fields flank the road on both sides.",
+    "translation": "",
+    "pos": 426
+  },
+  {
+    "passage": "Farm Road 6",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "293_5_3_7|",
+    "original": "A naked <<print ($pronoun is \"f\" ? \"girl\" : \"boy\")>> with cow ears, horns and tail stops grazing and walks up to the fence around <<bhis>> field. <<bHe>> moos at you.",
+    "translation": "",
+    "pos": 818
+  },
+  {
+    "passage": "Farm Road 6",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "296_5_3_7|",
+    "original": "A <<beasttype>> stops grazing and walks up to the fence around its field. It moos at you.",
+    "translation": "",
+    "pos": 1011
+  },
+  {
+    "passage": "Farm Road 6",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "299_5_3_7|",
+    "original": "<<link [[Pet|Farm Road Pet]]>><<stress -6>><</link>><<lstress>>",
+    "translation": "",
+    "pos": 1125
+  },
+  {
+    "passage": "Farm Road 6",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "301_5_3_7|",
+    "original": "<<link [[Ignore|Farm Road 6]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 1198
+  },
+  {
+    "passage": "Farm Road 6",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "311_5_3_7|",
+    "original": "<<skinicon \"hitchhike\">><<link [[Hitchhike (0:15)|Farm Hitchhike]]>><<pass 15>><</link>>",
+    "translation": "",
+    "pos": 1427
+  },
+  {
+    "passage": "Farm Road 6",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "314_5_3_7|",
+    "original": "<span class=\"blue\">You're too exposed to hitchhike!</span>",
+    "translation": "",
+    "pos": 1535
+  },
+  {
+    "passage": "Farm Road 6",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "317_5_3_7|",
+    "original": "<<farmicon>><<link [[Enter the farmlands (0:05)|Farmland]]>><<pass 5>><</link>>",
+    "translation": "",
+    "pos": 1611
+  },
+  {
+    "passage": "Farm Road 6",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "319_5_3_7|",
+    "original": "<<roadicon>><<link [[Walk towards town (0:30)|Farm Road 5]]>><<set $phase to 2>><<tiredness 3>><</link>><<gtiredness>>",
+    "translation": "",
+    "pos": 1698
+  },
+  {
+    "passage": "Farm Hitchhike",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "328_5_3_7|",
+    "original": "You stand at the side of the road and wait for a car to pass. No one drives by. Few travel the countryside at night.",
+    "translation": "",
+    "pos": 69
+  },
+  {
+    "passage": "Farm Hitchhike",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "334_5_3_7|",
+    "original": "You stand at the side of the road and stick out your thumb.",
+    "translation": "",
+    "pos": 238
+  },
+  {
+    "passage": "Farm Hitchhike Undies",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "343_5_3_7|",
+    "original": "You stand at the side of the road and wait for a car to pass. No one drives by. Few travel the countryside at night.",
+    "translation": "",
+    "pos": 69
+  },
+  {
+    "passage": "Farm Hitchhike Undies",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "349_5_3_7|",
+    "original": "You stand at the side of the road and stick out your thumb.",
+    "translation": "",
+    "pos": 238
+  },
+  {
+    "passage": "Farm Hitchhike Run",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "358_5_3_7|",
+    "original": "You dodge the <<persons>> grasp and run off the road. They chase after you, <span class=\"green\">but you manage to lose them</span> in the wild.",
+    "translation": "",
+    "pos": 39
+  },
+  {
+    "passage": "Farm Hitchhike Run",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "362_5_3_7|",
+    "original": "You hide within a copse until they give up the search, and you hear them drive away.",
+    "translation": "",
+    "pos": 208
+  },
+  {
+    "passage": "Farm Hitchhike Run",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "368_5_3_7|",
+    "original": "You dodge the <<persons>> grasp and run off the road. They chase after you, <span class=\"red\">and tackle you to the dirt.</span>",
+    "translation": "",
+    "pos": 353
+  },
+  {
+    "passage": "Farm Hitchhike Run",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "371_5_3_7|",
+    "original": "<<link [[Next|Farm Hitchhike Rape]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 494
+  },
+  {
+    "passage": "Farm Hitchhike Rape",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "395_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Farm Hitchhike Rape Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 254
+  },
+  {
+    "passage": "Farm Hitchhike Rape",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "397_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Farm Hitchhike Rape]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 353
+  },
+  {
+    "passage": "Farm Hitchhike Rape Finish",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "404_5_3_7|",
+    "original": "They leave you lying near the side of the road, and drive away.",
+    "translation": "",
+    "pos": 72
+  },
+  {
+    "passage": "Farm Hitchhike Rape Finish",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "406_5_3_7|",
+    "original": "<<tearful>> you stagger to your feet.",
+    "translation": "",
+    "pos": 147
+  },
+  {
+    "passage": "Farm Hitchhike Rape Finish",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "412_5_3_7|",
+    "original": "You shove the <<person1>><<person>> into a ditch, and leap over <<him>>, disappearing into a thicket.",
+    "translation": "",
+    "pos": 260
+  },
+  {
+    "passage": "Farm Hitchhike Rape Finish",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "414_5_3_7|",
+    "original": "<<tearful>> you hide in a copse of trees. You wait until they give up the search, and you hear them drive away<<pass 5>>",
+    "translation": "",
+    "pos": 373
+  },
+  {
+    "passage": "Farm Hitchhike Pair",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "424_5_3_7|",
+    "original": "You climb over the <<person1>><<person>>, and sit above the gearbox. It's not a comfortable position, and the driver puts <<his>> hand awfully close to your <<genitals>> whenever <<he>> changes gear.",
+    "translation": "",
+    "pos": 34
+  },
+  {
+    "passage": "Farm Hitchhike Pair",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "427_5_3_7|",
+    "original": "Despite the awkward position, the journey is smooth. The <<person2>><<person>> won't stop talking, with the <<person1>><<person>> nodding along and giving an occasional single word response.",
+    "translation": "",
+    "pos": 244
+  },
+  {
+    "passage": "Farm Hitchhike Pair",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "430_5_3_7|",
+    "original": "<<link [[Keep riding|Farm Hitchhike Pair Journey]]>><</link>>",
+    "translation": "",
+    "pos": 445
+  },
+  {
+    "passage": "Farm Hitchhike Pair",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "433_5_3_7|",
+    "original": "<<link [[Reward them with your hand|Farm Hitchhike Pair Handjob]]>><</link>><<promiscuous3>>",
+    "translation": "",
+    "pos": 549
+  },
+  {
+    "passage": "Farm Hitchhike Pair Handjob",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "443_5_3_7|",
+    "original": "You place your hand on the <<persons>> thigh. <<He>> glances at you as your hand creeps closer to <<his>> crotch. You flick up <<his>> skirt, revealing <<his>> penis.",
+    "translation": "",
+    "pos": 89
+  },
+  {
+    "passage": "Farm Hitchhike Pair Handjob",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "446_5_3_7|",
+    "original": "\"I like where this is going,\" the <<person2>><<person>> says to your left. <<He>> will get <<his>> turn. For now you focus on the <<person1>><<person>>, running your fingers up to and over <<his>> length. <<Hes>> soon erect.",
+    "translation": "",
+    "pos": 270
+  },
+  {
+    "passage": "Farm Hitchhike Pair Handjob",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "449_5_3_7|",
+    "original": "You place your hand on the <<persons>> thigh. <<He>> glances at you as your hand creeps closer to <<his>> crotch. You flick up <<his>> skirt, revealing <<his>> pussy.",
+    "translation": "",
+    "pos": 518
+  },
+  {
+    "passage": "Farm Hitchhike Pair Handjob",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "452_5_3_7|",
+    "original": "\"I like where this is going,\" the <<person2>><<person>> says to your left. <<He>> will get <<his>> turn. For now you focus on the <<person1>><<person>>, running your fingers up to and over <<his>> labia. <<He>> moans softly.",
+    "translation": "",
+    "pos": 699
+  },
+  {
+    "passage": "Farm Hitchhike Pair Handjob",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "457_5_3_7|",
+    "original": "You place your hand on the <<persons>> thigh. <<He>> glances at you as your hand creeps closer to <<his>> crotch. You tug down the front of <<his>> trousers, revealing <<his>> penis.",
+    "translation": "",
+    "pos": 994
+  },
+  {
+    "passage": "Farm Hitchhike Pair Handjob",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "460_5_3_7|",
+    "original": "\"I like where this is going,\" the <<person2>><<person>> says to your left. <<He>> will get <<his>> turn. For now you focus on the <<person1>><<person>>, running your fingers up to and over <<his>> length. <<Hes>> soon erect.",
+    "translation": "",
+    "pos": 1191
+  },
+  {
+    "passage": "Farm Hitchhike Pair Handjob",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "463_5_3_7|",
+    "original": "You place your hand on the <<persons>> thigh. <<He>> glances at you as your hand creeps closer to <<his>> crotch. You tug down the front of <<his>> trousers, revealing <<his>> pussy.",
+    "translation": "",
+    "pos": 1439
+  },
+  {
+    "passage": "Farm Hitchhike Pair Handjob",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "466_5_3_7|",
+    "original": "\"I like where this is going,\" the <<person2>><<person>> says to your left. <<He>> will get <<his>> turn. For now you focus on the <<person1>><<person>>, running your fingers up to and over <<his>> labia. <<He>> moans softly.",
+    "translation": "",
+    "pos": 1636
+  },
+  {
+    "passage": "Farm Hitchhike Pair Handjob",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "472_5_3_7|",
+    "original": "You rest your other hand on the <<person2>><<persons>> thigh. <<He>> <<npcUndressText $NPCList[1] \"lower\" \"self\">> in anticipation, revealing <<his>>",
+    "translation": "",
+    "pos": 1902
+  },
+  {
+    "passage": "Farm Hitchhike Pair Handjob",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "474_5_3_7|",
+    "original": "$NPCList[1].penisdesc. You don't disappoint, and take <<his>> shaft in your hand.",
+    "translation": "",
+    "pos": 2091
+  },
+  {
+    "passage": "Farm Hitchhike Pair Handjob",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "476_5_3_7|",
+    "original": "pussy. You don't disappoint, and press a finger against <<his>> clit.",
+    "translation": "",
+    "pos": 2183
+  },
+  {
+    "passage": "Farm Hitchhike Pair Handjob",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "481_5_3_7|",
+    "original": "The <<person1>><<persons>> control of the wheel becomes unsteady as <<he>> approaches <<his>> peak.",
+    "translation": "",
+    "pos": 2280
+  },
+  {
+    "passage": "Farm Hitchhike Pair Handjob",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "484_5_3_7|",
+    "original": "<<link [[Finish them off|Farm Hitchhike Pair Finish]]>><</link>>",
+    "translation": "",
+    "pos": 2390
+  },
+  {
+    "passage": "Farm Hitchhike Pair Handjob",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "487_5_3_7|",
+    "original": "<<link [[Rub your ass against the gear stick|Farm Hitchhike Pair Gear]]>><</link>><<promiscuous4>>",
+    "translation": "",
+    "pos": 2549
+  },
+  {
+    "passage": "Farm Hitchhike Pair Gear",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "494_5_3_7|",
+    "original": "You bounce your <<bottom>> against the gear stick as you fondle the pair. You bounce a little too hard, and the stick shifts downward.",
+    "translation": "",
+    "pos": 42
+  },
+  {
+    "passage": "Farm Hitchhike Pair Gear",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "497_5_3_7|",
+    "original": "The engine roars and the car speeds up. Frantic, both the <<fullGroup>> grope for the stick, but their rough fondling finds your <<genitals>> instead.<<ggarousal>><<arousal 2000 \"genitals\">>",
+    "translation": "",
+    "pos": 195
+  },
+  {
+    "passage": "Farm Hitchhike Pair Gear",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "500_5_3_7|",
+    "original": "<<orgasm>> The pair withdraw their hands as you lean forward, gripping their thighs for support. Your movement shifts the gear stick again, and the car returns to a more reasonable pace.",
+    "translation": "",
+    "pos": 428
+  },
+  {
+    "passage": "Farm Hitchhike Pair Gear",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "502_5_3_7|",
+    "original": "You withdraw from their clumsy probing, shifting the gear back into its proper place, just in time for the <<person1>><<person>> to avoid swerving into a ditch.",
+    "translation": "",
+    "pos": 625
+  },
+  {
+    "passage": "Farm Hitchhike Pair Gear",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "506_5_3_7|",
+    "original": "<<link [[Next|Farm Hitchhike Pair Finish]]>><</link>>",
+    "translation": "",
+    "pos": 804
+  },
+  {
+    "passage": "Farm Hitchhike Pair Finish",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "512_5_3_7|",
+    "original": "You continue the assault, playing with the pair until they shudder into orgasm. The <<person2>><<person>> clutches <<his>> seat. The <<person1>><<person>> almost swerves off the road.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Hitchhike Pair Finish",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "525_5_3_7|",
+    "original": "They seem satisfied. The <<person2>><<person>> spends the rest of the journey in a quiet daze.",
+    "translation": "",
+    "pos": 443
+  },
+  {
+    "passage": "Farm Hitchhike Pair Finish",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "529_5_3_7|",
+    "original": "You are driven into town. You give the pair a sly wink as you bid them farewell.",
+    "translation": "",
+    "pos": 579
+  },
+  {
+    "passage": "Farm Hitchhike Pair Finish",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "532_5_3_7|",
+    "original": "<<link [[Next|Harvest Street]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 672
+  },
+  {
+    "passage": "Farm Hitchhike Pair Finish",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "535_5_3_7|",
+    "original": "You arrive in the farmlands. You give the pair a sly wink as you bid them farewell.",
+    "translation": "",
+    "pos": 765
+  },
+  {
+    "passage": "Farm Hitchhike Pair Finish",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "538_5_3_7|",
+    "original": "<<link [[Next|Farmland]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 861
+  },
+  {
+    "passage": "Farm Hitchhike Pair Journey",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "547_5_3_7|",
+    "original": "You are driven into town, and bid the pair farewell.",
+    "translation": "",
+    "pos": 45
+  },
+  {
+    "passage": "Farm Hitchhike Pair Journey",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "550_5_3_7|",
+    "original": "<<link [[Next|Harvest Street]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 110
+  },
+  {
+    "passage": "Farm Hitchhike Pair Journey",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "553_5_3_7|",
+    "original": "You arrive in the farmlands, and bid the pair farewell.",
+    "translation": "",
+    "pos": 203
+  },
+  {
+    "passage": "Farm Hitchhike Pair Journey",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "556_5_3_7|",
+    "original": "<<link [[Next|Farmland]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 271
+  },
+  {
+    "passage": "Farm Hitchhike Pair Refuse",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "563_5_3_7|",
+    "original": "You step away from the car. \"Suit yourself,\" the <<person>> says. The window shuts, and they drive away.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Hitchhike Pair Refuse 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "572_5_3_7|",
+    "original": "You step away from the car. The <<person1>><<person>> laughs. \"Where'd you think you're going?\" <<he>> says as <<he>> and the <<person2>><<person>> climb from the car. \"We don't bite. Much.\"",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Hitchhike Pair Refuse 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "575_5_3_7|",
+    "original": "<<link [[Next|Farm Hitchhike Rape]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 214
+  },
+  {
+    "passage": "Farm Hitchhike Exposed",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "581_5_3_7|",
+    "original": "\"I can take you there,\" the <<person>> says. \"But first,",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Hitchhike Exposed",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "584_5_3_7|",
+    "original": "give me your dress. Don't worry, I'll give it back.\"",
+    "translation": "",
+    "pos": 148
+  },
+  {
+    "passage": "Farm Hitchhike Exposed",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "586_5_3_7|",
+    "original": "give me your clothes. Don't worry, I'll give them back.\"",
+    "translation": "",
+    "pos": 213
+  },
+  {
+    "passage": "Farm Hitchhike Exposed",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "590_5_3_7|",
+    "original": "<<Hes>> serious,",
+    "translation": "",
+    "pos": 291
+  },
+  {
+    "passage": "Farm Hitchhike Exposed",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "594_5_3_7|",
+    "original": "but at least you're wearing something beneath.",
+    "translation": "",
+    "pos": 393
+  },
+  {
+    "passage": "Farm Hitchhike Exposed",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "598_5_3_7|",
+    "original": "<<link [[Give up your clothes (0:15)|Farm Hitchhike Exposed Full]]>><</link>><<exhibitionist2>>",
+    "translation": "",
+    "pos": 498
+  },
+  {
+    "passage": "Farm Hitchhike Exposed",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "601_5_3_7|",
+    "original": "<<link [[Refuse|Farm Hitchhike Exposed Refuse]]>><</link>>",
+    "translation": "",
+    "pos": 617
+  },
+  {
+    "passage": "Farm Hitchhike Exposed",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "604_5_3_7|",
+    "original": "and you're not wearing underwear beneath.",
+    "translation": "",
+    "pos": 698
+  },
+  {
+    "passage": "Farm Hitchhike Exposed",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "608_5_3_7|",
+    "original": "<<link [[Give up your clothes (0:15)|Farm Hitchhike Exposed Full]]>><</link>><<exhibitionist3>>",
+    "translation": "",
+    "pos": 798
+  },
+  {
+    "passage": "Farm Hitchhike Exposed",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "611_5_3_7|",
+    "original": "<<link [[Refuse|Farm Hitchhike Exposed Refuse]]>><</link>>",
+    "translation": "",
+    "pos": 917
+  },
+  {
+    "passage": "Farm Hitchhike Exposed",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "616_5_3_7|",
+    "original": "and you're not wearing a bra or anything beneath.",
+    "translation": "",
+    "pos": 1133
+  },
+  {
+    "passage": "Farm Hitchhike Exposed",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "620_5_3_7|",
+    "original": "<<link [[Give up your clothes (0:15)|Farm Hitchhike Exposed Full]]>><</link>><<exhibitionist2>>",
+    "translation": "",
+    "pos": 1241
+  },
+  {
+    "passage": "Farm Hitchhike Exposed",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "623_5_3_7|",
+    "original": "<<link [[Refuse|Farm Hitchhike Exposed Refuse]]>><</link>>",
+    "translation": "",
+    "pos": 1360
+  },
+  {
+    "passage": "Farm Hitchhike Exposed",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "626_5_3_7|",
+    "original": "and you're not wearing anything beneath.",
+    "translation": "",
+    "pos": 1441
+  },
+  {
+    "passage": "Farm Hitchhike Exposed",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "630_5_3_7|",
+    "original": "<<link [[Give up your clothes (0:15)|Farm Hitchhike Exposed Full]]>><</link>><<exhibitionist3>>",
+    "translation": "",
+    "pos": 1540
+  },
+  {
+    "passage": "Farm Hitchhike Exposed",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "633_5_3_7|",
+    "original": "<<link [[Refuse|Farm Hitchhike Exposed Refuse]]>><</link>>",
+    "translation": "",
+    "pos": 1659
+  },
+  {
+    "passage": "Farm Hitchhike Exposed",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "638_5_3_7|",
+    "original": "and you're not wearing a top beneath.",
+    "translation": "",
+    "pos": 1790
+  },
+  {
+    "passage": "Farm Hitchhike Exposed",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "642_5_3_7|",
+    "original": "<<link [[Give up your clothes (0:15)|Farm Hitchhike Exposed Full]]>><</link>><<exhibitionist2>>",
+    "translation": "",
+    "pos": 1886
+  },
+  {
+    "passage": "Farm Hitchhike Exposed",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "645_5_3_7|",
+    "original": "<<link [[Refuse|Farm Hitchhike Exposed Refuse]]>><</link>>",
+    "translation": "",
+    "pos": 2005
+  },
+  {
+    "passage": "Farm Hitchhike Exposed",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "648_5_3_7|",
+    "original": "and you're not wearing anything beneath.",
+    "translation": "",
+    "pos": 2085
+  },
+  {
+    "passage": "Farm Hitchhike Exposed",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "652_5_3_7|",
+    "original": "<<link [[Give up your clothes (0:15)|Farm Hitchhike Exposed Full]]>><</link>><<exhibitionist3>>",
+    "translation": "",
+    "pos": 2183
+  },
+  {
+    "passage": "Farm Hitchhike Exposed",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "655_5_3_7|",
+    "original": "<<link [[Refuse|Farm Hitchhike Exposed Refuse]]>><</link>>",
+    "translation": "",
+    "pos": 2302
+  },
+  {
+    "passage": "Farm Hitchhike Exposed",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "661_5_3_7|",
+    "original": "give me your shirt. Don't worry, I'll give it back.\"",
+    "translation": "",
+    "pos": 2437
+  },
+  {
+    "passage": "Farm Hitchhike Exposed",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "664_5_3_7|",
+    "original": "<<Hes>> serious,",
+    "translation": "",
+    "pos": 2502
+  },
+  {
+    "passage": "Farm Hitchhike Exposed",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "667_5_3_7|",
+    "original": "but at least you're wearing something underneath.",
+    "translation": "",
+    "pos": 2562
+  },
+  {
+    "passage": "Farm Hitchhike Exposed",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "670_5_3_7|",
+    "original": "<<link [[Give up your top (0:15)|Farm Hitchhike Exposed Top]]>><</link>>",
+    "translation": "",
+    "pos": 2626
+  },
+  {
+    "passage": "Farm Hitchhike Exposed",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "672_5_3_7|",
+    "original": "<<link [[Refuse|Farm Hitchhike Exposed Refuse]]>><</link>>",
+    "translation": "",
+    "pos": 2708
+  },
+  {
+    "passage": "Farm Hitchhike Exposed",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "675_5_3_7|",
+    "original": "and you're not wearing anything underneath.",
+    "translation": "",
+    "pos": 2871
+  },
+  {
+    "passage": "Farm Hitchhike Exposed",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "679_5_3_7|",
+    "original": "<<link [[Give up your top (0:15)|Farm Hitchhike Exposed Top]]>><</link>><<exhibitionist2>>",
+    "translation": "",
+    "pos": 2970
+  },
+  {
+    "passage": "Farm Hitchhike Exposed",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "682_5_3_7|",
+    "original": "<<link [[Refuse|Farm Hitchhike Exposed Refuse]]>><</link>>",
+    "translation": "",
+    "pos": 3082
+  },
+  {
+    "passage": "Farm Hitchhike Exposed",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "685_5_3_7|",
+    "original": "but <<he>> does say <<he>> will return it.",
+    "translation": "",
+    "pos": 3161
+  },
+  {
+    "passage": "Farm Hitchhike Exposed",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "688_5_3_7|",
+    "original": "<<link [[Give up your top (0:15)|Farm Hitchhike Exposed Top]]>><</link>>",
+    "translation": "",
+    "pos": 3218
+  },
+  {
+    "passage": "Farm Hitchhike Exposed",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "690_5_3_7|",
+    "original": "<<link [[Refuse|Farm Hitchhike Exposed Refuse]]>><</link>>",
+    "translation": "",
+    "pos": 3300
+  },
+  {
+    "passage": "Farm Hitchhike Exposed",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "694_5_3_7|",
+    "original": "give me your bottoms. Don't worry, I'll give it back.\"",
+    "translation": "",
+    "pos": 3385
+  },
+  {
+    "passage": "Farm Hitchhike Exposed",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "697_5_3_7|",
+    "original": "<<Hes>> serious,",
+    "translation": "",
+    "pos": 3452
+  },
+  {
+    "passage": "Farm Hitchhike Exposed",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "700_5_3_7|",
+    "original": "but at least you're wearing something underneath.",
+    "translation": "",
+    "pos": 3512
+  },
+  {
+    "passage": "Farm Hitchhike Exposed",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "704_5_3_7|",
+    "original": "<<link [[Give up your bottoms (0:15)|Farm Hitchhike Exposed Bottom]]>><</link>><<exhibitionist2>>",
+    "translation": "",
+    "pos": 3617
+  },
+  {
+    "passage": "Farm Hitchhike Exposed",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "707_5_3_7|",
+    "original": "<<link [[Refuse|Farm Hitchhike Exposed Refuse]]>><</link>>",
+    "translation": "",
+    "pos": 3735
+  },
+  {
+    "passage": "Farm Hitchhike Exposed",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "710_5_3_7|",
+    "original": "and you're wearing nothing beneath.",
+    "translation": "",
+    "pos": 3813
+  },
+  {
+    "passage": "Farm Hitchhike Exposed",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "714_5_3_7|",
+    "original": "<<link [[Give up your bottoms (0:15)|Farm Hitchhike Exposed Bottom]]>><</link>><<exhibitionist3>>",
+    "translation": "",
+    "pos": 3904
+  },
+  {
+    "passage": "Farm Hitchhike Exposed",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "717_5_3_7|",
+    "original": "<<link [[Refuse|Farm Hitchhike Exposed Refuse]]>><</link>>",
+    "translation": "",
+    "pos": 4022
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Undies",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "725_5_3_7|",
+    "original": "\"I can take you there,\" the <<person>> says. \"But first, give me your clothes. Don't worry, I'll let you dress before we part.\" <<Hes>> serious.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Undies",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "729_5_3_7|",
+    "original": "<<link [[Give up your clothes (0:15)|Farm Hitchhike Exposed Undies 2]]>><</link>><<exhibitionist3>>",
+    "translation": "",
+    "pos": 207
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Undies",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "732_5_3_7|",
+    "original": "<<link [[Refuse|Farm Hitchhike Exposed Refuse]]>><</link>>",
+    "translation": "",
+    "pos": 321
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Undies 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "738_5_3_7|",
+    "original": "You remove your clothing, and hold it out for the <<person>>, naked.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Undies 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "743_5_3_7|",
+    "original": "\"Thanks,\" <<he>> says. \"See ya.\" <<He>> drives away, still holding your clothes.",
+    "translation": "",
+    "pos": 139
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Undies 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "745_5_3_7|",
+    "original": "You run after <<him>>, but <<he>> doesn't stop. <<if $leftarm is \"bound\" and $rightarm is \"bound\">><<else>>You cover your <<undies>> with your hands.<</if>><<gtrauma>><<gstress>><<trauma 6>><<stress 6>>",
+    "translation": "",
+    "pos": 231
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Undies 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "751_5_3_7|",
+    "original": "\"Thanks,\" <<he>> says. \"See ya.\" <<He>> drives away, still holding your clothes.",
+    "translation": "",
+    "pos": 529
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Undies 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "753_5_3_7|",
+    "original": "You run after <<him>>, until <<he>> slows to a stop. You hear <<him>> laughing. \"Get in,\" <<he>> says, opening the door to the seat beside <<him>>.<<gstress>><<stress 6>>",
+    "translation": "",
+    "pos": 621
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Undies 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "756_5_3_7|",
+    "original": "<<link [[Next|Farm Hitchhike Exposed Journey]]>><</link>>",
+    "translation": "",
+    "pos": 804
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Refuse",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "763_5_3_7|",
+    "original": "You step away from the <<person>>. \"Suit yourself,\" <<he>> says, before driving away.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Full",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "774_5_3_7|",
+    "original": "You remove your $worn.upper.name, revealing your $worn.under_upper.name and $worn.under_lower.name. The <<person>> ogles you, and snatches the clothes from your hands.",
+    "translation": "",
+    "pos": 94
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Full",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "778_5_3_7|",
+    "original": "You remove your $worn.upper.name, revealing your $worn.under_upper.name and <<genitals>> beneath. The <<person>> ogles you, and snatches the clothes from your hands.",
+    "translation": "",
+    "pos": 296
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Full",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "783_5_3_7|",
+    "original": "You remove your $worn.upper.name, revealing your <<breasts>> and $worn.under_lower.name. The <<person>> ogles you, and snatches the clothes from your hands.",
+    "translation": "",
+    "pos": 628
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Full",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "786_5_3_7|",
+    "original": "You remove your $worn.upper.name, revealing your <<breasts>> and <<genitals>> beneath. The <<person>> ogles you, and snatches the clothes from your hands.",
+    "translation": "",
+    "pos": 818
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Full",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "791_5_3_7|",
+    "original": "You remove your $worn.upper.name, revealing your <<breasts>> and $worn.under_lower.name.",
+    "translation": "",
+    "pos": 1054
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Full",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "793_5_3_7|",
+    "original": "You remove your $worn.upper.name, revealing your <<breasts>> and <<genitals>> beneath.",
+    "translation": "",
+    "pos": 1155
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Full",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "795_5_3_7|",
+    "original": "The <<person>> ogles you, and snatches the clothes from your hands.<<exhibitionism2>>",
+    "translation": "",
+    "pos": 1252
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Full",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "800_5_3_7|",
+    "original": "\"Thanks,\" <<he>> says. \"See ya.\" <<He>> drives away, still holding your clothes.",
+    "translation": "",
+    "pos": 1382
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Full",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "802_5_3_7|",
+    "original": "You run after <<him>>, but <<he>> doesn't stop. <<if $leftarm is \"bound\" and $rightarm is \"bound\">><<else>>You cover your <<undies>> with your hands.<</if>><<gtrauma>><<gstress>><<trauma 6>><<stress 6>>",
+    "translation": "",
+    "pos": 1474
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Full",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "808_5_3_7|",
+    "original": "\"Thanks,\" <<he>> says. \"See ya.\" <<He>> drives away, still holding your clothes.",
+    "translation": "",
+    "pos": 1772
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Full",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "810_5_3_7|",
+    "original": "You run after <<him>>, until <<he>> slows to a stop. You hear <<him>> laughing. \"Get in,\" <<he>> says, opening the door to the seat beside <<him>>.<<gstress>><<stress 6>>",
+    "translation": "",
+    "pos": 1864
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Full",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "813_5_3_7|",
+    "original": "<<link [[Next|Farm Hitchhike Exposed Journey]]>><</link>>",
+    "translation": "",
+    "pos": 2047
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Bottom",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "821_5_3_7|",
+    "original": "You tug off your $worn.lower.name, exposing your $worn.under_lower.name. The <<person>> ogles you, and snatches the bottoms from your hands.",
+    "translation": "",
+    "pos": 53
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Bottom",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "824_5_3_7|",
+    "original": "You tug off your $worn.lower.name, exposing your $worn.under_lower.name. The <<person>> ogles you, and snatches the bottoms from your hands.",
+    "translation": "",
+    "pos": 224
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Bottom",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "830_5_3_7|",
+    "original": "\"Thanks,\" <<he>> says. \"See ya.\" <<He>> drives away, still holding your bottoms. You run after <<him>>, but <<he>> doesn't stop. <<if $leftarm is \"bound\" and $rightarm is \"bound\">><<else>>You cover your <<undies>> with your hands.<</if>><<gtrauma>><<gstress>><<trauma 6>><<stress 6>>",
+    "translation": "",
+    "pos": 429
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Bottom",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "836_5_3_7|",
+    "original": "\"Thanks,\" <<he>> says. \"See ya.\" <<He>> drives away, still holding your bottoms. You run after <<him>>, until <<he>> slows to a stop. You hear <<him>> laughing. \"Get in,\" <<he>> says, opening the door to the seat beside <<him>>.<<gstress>><<stress 6>>",
+    "translation": "",
+    "pos": 793
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Bottom",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "839_5_3_7|",
+    "original": "<<link [[Next|Farm Hitchhike Exposed Journey]]>><</link>>",
+    "translation": "",
+    "pos": 1057
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Top",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "847_5_3_7|",
+    "original": "You tug off your $worn.upper.name, exposing your $worn.under_upper.name. The <<person>> ogles you, and snatches the top from your hands. <<incgbreastinsecurity>>",
+    "translation": "",
+    "pos": 53
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Top",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "851_5_3_7|",
+    "original": "You tug off your $worn.upper.name, exposing your <<breasts>>. The <<person>> ogles you, and snatches the top from your hands. <<incgbreastinsecurity>>",
+    "translation": "",
+    "pos": 321
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Top",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "855_5_3_7|",
+    "original": "You tug off your $worn.upper.name, exposing your <<breasts>>. The <<person>> ogles you, and snatches the top from your hands. <<incgbreastinsecurity>>",
+    "translation": "",
+    "pos": 514
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Top",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "862_5_3_7|",
+    "original": "\"Thanks,\" <<he>> says. \"See ya.\" <<He>> drives away, still holding your top. You run after <<him>>, but <<he>> doesn't stop. <<if $leftarm is \"bound\" and $rightarm is \"bound\">><<else>>You cover your chest with your hands.<</if>><<gtrauma>><<gstress>><<trauma 6>><<stress 6>>",
+    "translation": "",
+    "pos": 720
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Top",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "868_5_3_7|",
+    "original": "\"Thanks,\" <<he>> says. \"See ya.\" <<He>> drives away, still holding your top. You run after <<him>>, until <<he>> slows to a stop. You hear <<him>> laughing. \"Get in,\" <<he>> says, opening the door to the seat beside <<him>>.<<gstress>><<stress 6>>",
+    "translation": "",
+    "pos": 1075
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Top",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "871_5_3_7|",
+    "original": "<<link [[Next|Farm Hitchhike Exposed Journey]]>><</link>>",
+    "translation": "",
+    "pos": 1335
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Journey",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "878_5_3_7|",
+    "original": "You sit beside the <<person>> as <<he>> drives, though <<he>> spends almost as much time looking at your <<lewdness>> as at the road.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Journey",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "881_5_3_7|",
+    "original": "<<He>> comes to a stop, and turns to you.",
+    "translation": "",
+    "pos": 157
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Journey",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "884_5_3_7|",
+    "original": "\"I'm gonna need a little more from you,\" <<he>> says, stroking your $worn.lower.name while leaning over you to open the door on your side. \"Take this off. Or get out.\"",
+    "translation": "",
+    "pos": 234
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Journey",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "888_5_3_7|",
+    "original": "<<link [[Give up your bottom|Farm Hitchhike Exposed Bottom 2]]>><<trauma 6>><<stress 6>><</link>><<gtrauma>><<gstress>>",
+    "translation": "",
+    "pos": 455
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Journey",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "891_5_3_7|",
+    "original": "You're not wearing anything beneath.",
+    "translation": "",
+    "pos": 594
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Journey",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "894_5_3_7|",
+    "original": "<<link [[Give up your bottom|Farm Hitchhike Exposed Bottom 2]]>><<trauma 6>><<stress 6>><</link>><<gtrauma>><<gstress>>",
+    "translation": "",
+    "pos": 645
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Journey",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "897_5_3_7|",
+    "original": "<<link [[Refuse|Farm Hitchhike Exposed Refuse 2]]>><</link>>",
+    "translation": "",
+    "pos": 782
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Journey",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "901_5_3_7|",
+    "original": "\"I'm gonna need a little more from you,\" <<he>> says, stroking your $worn.under_upper.name while leaning over you to open the door on your side. \"Take this off. Or get out.\"",
+    "translation": "",
+    "pos": 893
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Journey",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "905_5_3_7|",
+    "original": "<<link [[Give up your underwear|Farm Hitchhike Exposed Full 2]]>><<trauma 6>><<stress 6>><</link>><<gtrauma>><<gstress>>",
+    "translation": "",
+    "pos": 1135
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Journey",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "908_5_3_7|",
+    "original": "<<link [[Give up your top|Farm Hitchhike Exposed Top 2]]>><<trauma 6>><<stress 6>><</link>><<gtrauma>><<gstress>>",
+    "translation": "",
+    "pos": 1360
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Journey",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "911_5_3_7|",
+    "original": "<<link [[Give up your top|Farm Hitchhike Exposed Top 2]]>><<trauma 6>><<stress 6>><</link>><<gtrauma>><<gstress>>",
+    "translation": "",
+    "pos": 1493
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Journey",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "914_5_3_7|",
+    "original": "<<link [[Refuse|Farm Hitchhike Exposed Refuse 2]]>><</link>>",
+    "translation": "",
+    "pos": 1624
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Journey",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "918_5_3_7|",
+    "original": "\"I'm gonna need a little more from you,\" <<he>> says, stroking your $worn.under_lower.name while leaning over you to open the door on your side. \"Take this off. Or get out.\"",
+    "translation": "",
+    "pos": 1735
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Journey",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "921_5_3_7|",
+    "original": "<<link [[Give up your bottoms|Farm Hitchhike Exposed Under Bottom]]>><<trauma 6>><<stress 6>><</link>><<gtrauma>><<gstress>>",
+    "translation": "",
+    "pos": 1921
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Journey",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "923_5_3_7|",
+    "original": "<<link [[Refuse|Farm Hitchhike Exposed Refuse 2]]>><</link>><<physiquedifficulty 1 $physiquemax>>",
+    "translation": "",
+    "pos": 2053
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Journey",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "926_5_3_7|",
+    "original": "\"It's a long journey,\" <<he>> says while leaning over you to open the door on your side \"Step outside a moment.\"",
+    "translation": "",
+    "pos": 2167
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Journey",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "929_5_3_7|",
+    "original": "<<link [[Step outside|Farm Hitchhike Exposed Step]]>><</link>>",
+    "translation": "",
+    "pos": 2292
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Full 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "937_5_3_7|",
+    "original": "You shuffle out of your $worn.under_upper.name, and hand it to the <<person>>.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Full 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "940_5_3_7|",
+    "original": "<<He>> holds it to <<his>> face and sniffs. \"Alright,\" <<he>> says. \"Now get out. Just for a moment. I won't drive away.\"",
+    "translation": "",
+    "pos": 121
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Full 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "943_5_3_7|",
+    "original": "<<getouticon>><<link [[Get out|Farm Hitchhike Exposed Step]]>><<trauma 6>><<stress 6>><</link>><<gtrauma>><<gstress>>",
+    "translation": "",
+    "pos": 253
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Full 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "945_5_3_7|",
+    "original": "<<ind>><<link [[Refuse|Farm Hitchhike Exposed Refuse 2]]>><</link>><<physiquedifficulty 1 $physiquemax>>",
+    "translation": "",
+    "pos": 376
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Top 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "951_5_3_7|",
+    "original": "You shuffle out of your $worn.under_upper.name, and hand it to the <<person>>.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Top 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "954_5_3_7|",
+    "original": "<<He>> holds it to <<his>> face and sniffs. \"Alright,\" <<he>> says. \"Now get out. Just for a moment. I won't drive away.\"",
+    "translation": "",
+    "pos": 121
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Top 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "957_5_3_7|",
+    "original": "<<getouticon>><<link [[Get out|Farm Hitchhike Exposed Step]]>><<trauma 6>><<stress 6>><</link>><<gtrauma>><<gstress>>",
+    "translation": "",
+    "pos": 253
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Top 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "959_5_3_7|",
+    "original": "<<ind>><<link [[Refuse|Farm Hitchhike Exposed Refuse 2]]>><</link>><<physiquedifficulty 1 $physiquemax>>",
+    "translation": "",
+    "pos": 376
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Bottom 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "965_5_3_7|",
+    "original": "You shuffle out of your $worn.lower.name, and hand it to the <<person>>.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Bottom 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "968_5_3_7|",
+    "original": "<<He>> holds it to <<his>> face and sniffs. \"Alright,\" <<he>> says. \"Now get out. Just for a moment. I won't drive away.\"",
+    "translation": "",
+    "pos": 110
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Bottom 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "971_5_3_7|",
+    "original": "<<getouticon>><<link [[Get out|Farm Hitchhike Exposed Step]]>><<trauma 6>><<stress 6>><</link>><<gtrauma>><<gstress>>",
+    "translation": "",
+    "pos": 242
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Bottom 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "973_5_3_7|",
+    "original": "<<ind>><<link [[Refuse|Farm Hitchhike Exposed Refuse 2]]>><</link>><<physiquedifficulty 1 $physiquemax>>",
+    "translation": "",
+    "pos": 365
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Under Bottom",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "979_5_3_7|",
+    "original": "You shuffle out of your $worn.under_lower.name, and hand it to the <<person>>.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Under Bottom",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "982_5_3_7|",
+    "original": "<<He>> holds it to <<his>> face and sniffs. \"Alright,\" <<he>> says. \"Now get out. Just for a moment. I won't drive away.\"",
+    "translation": "",
+    "pos": 121
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Under Bottom",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "985_5_3_7|",
+    "original": "<<getouticon>><<link [[Get out|Farm Hitchhike Exposed Step]]>><<trauma 6>><<stress 6>><</link>><<gtrauma>><<gstress>>",
+    "translation": "",
+    "pos": 253
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Under Bottom",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "987_5_3_7|",
+    "original": "<<ind>><<link [[Refuse|Farm Hitchhike Exposed Refuse 2]]>><</link>><<physiquedifficulty 1 $physiquemax>>",
+    "translation": "",
+    "pos": 376
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Step",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "993_5_3_7|",
+    "original": "You climb from the car. \"Close it.\" You do so, leaving you outside. <<covered>>",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Step",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "996_5_3_7|",
+    "original": "The <<person>> observes you for a moment. <<He>> beats the wheel with the tips of <<his>> fingers, as if considering leaving you here without clothes. \"Alright,\" <<he>> says at last. \"You can come back in.\"",
+    "translation": "",
+    "pos": 103
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Refuse 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1005_5_3_7|",
+    "original": "\"This is wrong,\" you say. \"Take me where I want to go. And give me back my clothes!\"",
+    "translation": "",
+    "pos": 48
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Refuse 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1007_5_3_7|",
+    "original": "\"Fuck you,\" you say. \"We had an agreement. Take me where I want to go. And give me back my clothes.\"",
+    "translation": "",
+    "pos": 174
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Refuse 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1009_5_3_7|",
+    "original": "\"I'm not playing your game,\" you say. \"Take me where I want to go, and give me back my clothes.\"",
+    "translation": "",
+    "pos": 285
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Refuse 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1014_5_3_7|",
+    "original": "\"You'll do as I say,\" the <<person>> sneers, grasping your neck.",
+    "translation": "",
+    "pos": 401
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Refuse 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1017_5_3_7|",
+    "original": "<<He>> tries to push you from the car, <span class=\"green\">but you resist.</span> You push <<his>> arms away and kick <<him>> in the face. You feel something come loose.",
+    "translation": "",
+    "pos": 492
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Refuse 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1020_5_3_7|",
+    "original": "<<He>> clutches <<his>> face in one hand, while holding the other up in surrender. \"F-fine,\" <<he>> says. \"You violent psycho.\"",
+    "translation": "",
+    "pos": 674
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Refuse 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1023_5_3_7|",
+    "original": "<<He>> wipes the blood away while you get dressed.",
+    "translation": "",
+    "pos": 828
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Refuse 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1026_5_3_7|",
+    "original": "<<link [[Next|Farm Hitchhike Defiant]]>><</link>>",
+    "translation": "",
+    "pos": 891
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Refuse 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1029_5_3_7|",
+    "original": "<span class=\"red\"><<He>> shoves you from the car,</span> where you roll onto the dusty road. <<He>> slams the door shut, and drives away. <<stealclothes>>",
+    "translation": "",
+    "pos": 957
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Journey 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1045_5_3_7|",
+    "original": "<<He>> lets you dress as you drive into town. You're still adjusting your clothes when you exist <<his>> car. <<He>> drives away.",
+    "translation": "",
+    "pos": 34
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Journey 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1048_5_3_7|",
+    "original": "<<link [[Next|Harvest Street]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 176
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Journey 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1053_5_3_7|",
+    "original": "<<He>> lets you dress as you arrive at the farmlands. You're still adjusting your clothes when you exist <<his>> car. <<He>> drives away.",
+    "translation": "",
+    "pos": 271
+  },
+  {
+    "passage": "Farm Hitchhike Exposed Journey 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1056_5_3_7|",
+    "original": "<<link [[Next|Farmland]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 421
+  },
+  {
+    "passage": "Farm Hitchhike Kneel Refuse",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1064_5_3_7|",
+    "original": "\"Suit yourself,\" the <<person>> says. <<He>> closes the door and drives away.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Hitchhike Kneel Refuse 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1073_5_3_7|",
+    "original": "The <<person>> glances over <<his>> shoulder, then steps from the car. \"Wandering around dressed like that,\" <<he>> says. <<He>> grasps your arm and tries to wrestle you to the ground.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Hitchhike Kneel Refuse 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1076_5_3_7|",
+    "original": "<<link [[Next|Farm Hitchhike Rape]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 208
+  },
+  {
+    "passage": "Farm Hitchhike Kneel",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1082_5_3_7|",
+    "original": "You kneel in front of the <<person>>. <<He>> grasps your hair with one hand while <<if $pronoun is \"m\">>unzipping <<his>> fly<<else>>lifting <<his>> skirt<</if>> with the other. <<He>> pushes your face against <<his>> <<if $NPCList[0].penis isnot \"none\">>erect <<print $NPCList[0].penisdesc>><<else>>pussy<</if>>.<<promiscuity4>>",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Hitchhike Kneel",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1084_5_3_7|",
+    "original": "<<link [[Next|Farm Hitchhike Oral]]>><<set $sexstart to 1>><</link>>",
+    "translation": "",
+    "pos": 344
+  },
+  {
+    "passage": "Farm Hitchhike Oral",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1106_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Farm Hitchhike Oral Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 257
+  },
+  {
+    "passage": "Farm Hitchhike Oral",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1108_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Farm Hitchhike Oral]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 356
+  },
+  {
+    "passage": "Farm Hitchhike Oral Finish",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1116_5_3_7|",
+    "original": "\"Good <<girl>>,\" <<he>> says, leaning back in <<his>> seat. \"Get in.\"",
+    "translation": "",
+    "pos": 94
+  },
+  {
+    "passage": "Farm Hitchhike Oral Finish",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1118_5_3_7|",
+    "original": "<<tearful>> you climb in the back.",
+    "translation": "",
+    "pos": 175
+  },
+  {
+    "passage": "Farm Hitchhike Oral Finish",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1122_5_3_7|",
+    "original": "\"Where are you going anyway?\"",
+    "translation": "",
+    "pos": 237
+  },
+  {
+    "passage": "Farm Hitchhike Oral Finish",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1125_5_3_7|",
+    "original": "<<link [[Town|Farm Hitchhike Oral End]]>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 279
+  },
+  {
+    "passage": "Farm Hitchhike Oral Finish",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1127_5_3_7|",
+    "original": "<<link [[Farms|Farm Hitchhike Oral End]]>><<set $phase to 2>><</link>>",
+    "translation": "",
+    "pos": 356
+  },
+  {
+    "passage": "Farm Hitchhike Oral Finish",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1130_5_3_7|",
+    "original": "You shove the <<person>> back into <<his>> car, and run. You take cover within a copse just off the road, until you hear <<him>> drive away.",
+    "translation": "",
+    "pos": 464
+  },
+  {
+    "passage": "Farm Hitchhike Oral Finish",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1132_5_3_7|",
+    "original": "<<tearful>> you return to the road.",
+    "translation": "",
+    "pos": 616
+  },
+  {
+    "passage": "Farm Hitchhike Oral Finish",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1138_5_3_7|",
+    "original": "\"Fine,\" the <<person>> says. \"But I'm not helping.\" <<He>> slams the door shut and drives away.",
+    "translation": "",
+    "pos": 727
+  },
+  {
+    "passage": "Farm Hitchhike Oral Finish",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1140_5_3_7|",
+    "original": "<<tearful>> you walk to the side of the road.",
+    "translation": "",
+    "pos": 834
+  },
+  {
+    "passage": "Farm Hitchhike Ask",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1157_5_3_7|",
+    "original": "\"I'm heading to town anyway,\" the <<person>> says. \"Hop in.\"",
+    "translation": "",
+    "pos": 54
+  },
+  {
+    "passage": "Farm Hitchhike Ask",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1159_5_3_7|",
+    "original": "\"I'm heading out there anyway,\" the <<person>> says. \"Hop in.\"",
+    "translation": "",
+    "pos": 127
+  },
+  {
+    "passage": "Farm Hitchhike Ask",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1162_5_3_7|",
+    "original": "<<He>> leans back and opens a door.",
+    "translation": "",
+    "pos": 210
+  },
+  {
+    "passage": "Farm Hitchhike Ask",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1165_5_3_7|",
+    "original": "The backseat is covered in empty pizza boxes. \"Just shove them to the floor,\" <<he>> adds, sheepish.",
+    "translation": "",
+    "pos": 277
+  },
+  {
+    "passage": "Farm Hitchhike Ask",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1167_5_3_7|",
+    "original": "The interior is clean and unremarkable.",
+    "translation": "",
+    "pos": 404
+  },
+  {
+    "passage": "Farm Hitchhike Ask",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1169_5_3_7|",
+    "original": "The interior is lit by a purple glow, and the seats look made from an exotic animal hide.",
+    "translation": "",
+    "pos": 470
+  },
+  {
+    "passage": "Farm Hitchhike Ask",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1171_5_3_7|",
+    "original": "The interior is clean and smart.",
+    "translation": "",
+    "pos": 586
+  },
+  {
+    "passage": "Farm Hitchhike Ask",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1173_5_3_7|",
+    "original": "The interior smells like wet dog.",
+    "translation": "",
+    "pos": 631
+  },
+  {
+    "passage": "Farm Hitchhike Ask",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1177_5_3_7|",
+    "original": "<<getinicon>><<link [[Get in (0:15)|Farm Hitchhike Journey]]>><</link>>",
+    "translation": "",
+    "pos": 686
+  },
+  {
+    "passage": "Farm Hitchhike Ask",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1179_5_3_7|",
+    "original": "<<refuseicon>><<link [[Refuse|Farm Hitchhike Refuse]]>><</link>>",
+    "translation": "",
+    "pos": 765
+  },
+  {
+    "passage": "Farm Hitchhike Ask",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1182_5_3_7|",
+    "original": "\"I'm going in the opposite direction,\" the <<person>> says. \"Sorry.\" <<He>> closes <<his>> window.",
+    "translation": "",
+    "pos": 846
+  },
+  {
+    "passage": "Farm Hitchhike Ask",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1185_5_3_7|",
+    "original": "<<link [[Step away|Farm Hitchhike Step]]>><</link>>",
+    "translation": "",
+    "pos": 957
+  },
+  {
+    "passage": "Farm Hitchhike Ask",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1188_5_3_7|",
+    "original": "<<link [[Beg (0:15)|Farm Hitchhike Beg]]>><<sub 1>><</link>><<submissivetext>>",
+    "translation": "",
+    "pos": 1046
+  },
+  {
+    "passage": "Farm Hitchhike Beg",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1196_5_3_7|",
+    "original": "You rush forward <<if $pain gte 40>>, tears streaming down your cheeks,<<else>> and bang on the window<</if>>. \"Please don't leave me out here!\" you say. \"There are horrible people out, and I'm all alone, and, and...\"",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Hitchhike Beg",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1199_5_3_7|",
+    "original": "The <<person>> hesitates, then leans back to open one of the back doors. \"Get in.\"",
+    "translation": "",
+    "pos": 241
+  },
+  {
+    "passage": "Farm Hitchhike Beg",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1202_5_3_7|",
+    "original": "You thank the <<person>> and climb in the back.",
+    "translation": "",
+    "pos": 334
+  },
+  {
+    "passage": "Farm Hitchhike Beg",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1207_5_3_7|",
+    "original": "You stare out the window as the <<person>> drives, watching the hills roll by. <<He>> takes a peculiar route down a side road, but emerges on Harvest Street all the same. You climb from the car, and <<he>> drives away.",
+    "translation": "",
+    "pos": 413
+  },
+  {
+    "passage": "Farm Hitchhike Beg",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1210_5_3_7|",
+    "original": "<<link [[Next|Harvest Street]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 644
+  },
+  {
+    "passage": "Farm Hitchhike Beg",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1213_5_3_7|",
+    "original": "You stare out the window as the <<person>> drives, watching the hills roll by. <<He>> takes a peculiar route down a side road, but emerges in the farmlands all the same. You climb from the car, and <<he>> drives away.",
+    "translation": "",
+    "pos": 737
+  },
+  {
+    "passage": "Farm Hitchhike Beg",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1216_5_3_7|",
+    "original": "<<link [[Next|Farmland]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 967
+  },
+  {
+    "passage": "Farm Hitchhike Step",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1223_5_3_7|",
+    "original": "You step away from the car, and the <<person>> drives away.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Hitchhike Refuse",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1232_5_3_7|",
+    "original": "You step away from the car. The <<person>> shrugs and drives away.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Hitchhike Journey",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1241_5_3_7|",
+    "original": "You climb in. The <<person>> pulls away as soon as the door closes.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Road Passout",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1251_5_3_7|",
+    "original": "You're jolted awake by a rumble. You're in a back of a van. You struggle to your feet and look around, but can see no obvious way out. The van comes to a stop, and a <<person>> throws open the van doors.",
+    "translation": "",
+    "pos": 78
+  },
+  {
+    "passage": "Farm Road Passout",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1254_5_3_7|",
+    "original": "You see the interior of a barn. The <<person>> isn't alone. Three others stand with <<him>>, examining you.",
+    "translation": "",
+    "pos": 292
+  },
+  {
+    "passage": "Farm Road Passout",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1257_5_3_7|",
+    "original": "<<person2>>\"You weren't lying,\" a <<person>> says. \"Good stock.<<if $pregnancyspeechdisable is \"f\">> Would make a fine breeder.<</if>>\"",
+    "translation": "",
+    "pos": 410
+  },
+  {
+    "passage": "Farm Road Passout",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1260_5_3_7|",
+    "original": "<<person3>><<if $pregnancyspeechdisable is \"f\">>\"Breeder?\"<<else>>\"Personally,\"<</if>> a <<person>> interjects. \"I'm more interested in the produce. Gonna make a killing.\" <<He>> advances on you, a metal chain and collar in <<his>> hand.",
+    "translation": "",
+    "pos": 556
+  },
+  {
+    "passage": "Farm Road Passout",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1263_5_3_7|",
+    "original": "<<link [[Protest|Street Van Protest]]>><<def 1>><<stress 6>><<trauma -6>><</link>><<gstress>><<ltrauma>>",
+    "translation": "",
+    "pos": 804
+  },
+  {
+    "passage": "Farm Road Passout",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1265_5_3_7|",
+    "original": "<<link [[Fight|Street Van Fight]]>><<def 1>><<set $fightstart to 1>><</link>>",
+    "translation": "",
+    "pos": 914
+  },
+  {
+    "passage": "Farm Road Passout",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1267_5_3_7|",
+    "original": "<<link [[Submit|Street Van Submit]]>><<sub 1>><<trauma 6>><<stress 6>><</link>><<gtrauma>><<gstress>>",
+    "translation": "",
+    "pos": 997
+  },
+  {
+    "passage": "Farm Road Jump",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1273_5_3_7|",
+    "original": "You leap aside, avoiding the speeding vehicle.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Road Jump",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1277_5_3_7|",
+    "original": "You tear yourself free from the tangle. Your clothes snag on the thorns.",
+    "translation": "",
+    "pos": 223
+  },
+  {
+    "passage": "Farm Road Stand",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1289_5_3_7|",
+    "original": "You turn to face the oncoming vehicle. It flashes its lights. You hold up your middle finger, and force it to drive around you.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Road Chase",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1297_5_3_7|",
+    "original": "You chase after your headwear, off the road and down the ridge of a hill. It settles on a tree branch.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Road Chase",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1300_5_3_7|",
+    "original": "You jump in the air, and just about reach it. <<large_text>>",
+    "translation": "",
+    "pos": 149
+  },
+  {
+    "passage": "Farm Road Chase",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1302_5_3_7|",
+    "original": "It's too high to reach, so you pick up a nearby stick to help. You manage to hook it on the end.",
+    "translation": "",
+    "pos": 220
+  },
+  {
+    "passage": "Farm Road Chase",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1308_5_3_7|",
+    "original": "You hear a buzz. A swarm of bees emerge from a hive, agitated by the moving branch. You run back to the road in a panic.<<gtrauma>><<gstress>><<trauma 6>><<stress 6>>",
+    "translation": "",
+    "pos": 369
+  },
+  {
+    "passage": "Farm Road Chase",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1313_5_3_7|",
+    "original": "You return to the road, your $worn.head.name back where it belongs.",
+    "translation": "",
+    "pos": 582
+  },
+  {
+    "passage": "Farm Road Leave",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1322_5_3_7|",
+    "original": "You decide not to run off the road in pursuit, and continue without your headwear.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Road Pet",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1331_5_3_7|",
+    "original": "You pet the <<beasttypes>> head. <<bHe>> moos again and licks your fingers.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Saddle",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1344_5_3_7|",
+    "original": "You saddle your $farm.steed <<beasttype>>, and climb atop.",
+    "translation": "",
+    "pos": 44
+  },
+  {
+    "passage": "Farm Saddle",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1348_5_3_7|",
+    "original": "<<steedicon>><<link [[Ride to town (0:15)|Farm Ride Town]]>><<if $worn.lower.name is \"naked\" and $worn.under_lower.name is \"naked\">><<pain 6>><</if>><<tiredness 2>><<pass 15>><</link>><<gtiredness>>",
+    "translation": "",
+    "pos": 140
+  },
+  {
+    "passage": "Farm Saddle",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1351_5_3_7|",
+    "original": "<<steedicon>><<link [[Ride to town (0:30)|Farm Ride Town]]>><<if $worn.lower.name is \"naked\" and $worn.under_lower.name is \"naked\">><<pain 9>><</if>><<tiredness 3>><<pass 30>><</link>><<gtiredness>>",
+    "translation": "",
+    "pos": 355
+  },
+  {
+    "passage": "Farm Saddle",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1354_5_3_7|",
+    "original": "<<animalicon \"horse_pick\">><<link [[Saddle a different horse (0:10)|Farm Steed]]>><<pass 10>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 568
+  },
+  {
+    "passage": "Farm Saddle",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1356_5_3_7|",
+    "original": "<<getouticon>><<link [[Dismount|Farm Work]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 688
+  },
+  {
+    "passage": "Farm Saddle New",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1367_5_3_7|",
+    "original": "You saddle the <<beasttype>>.",
+    "translation": "",
+    "pos": 97
+  },
+  {
+    "passage": "Farm Saddle New",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1370_5_3_7|",
+    "original": "\"I'm grateful for your trust,\" <<bhe>> says, bowing <<bhis>> head. \"It'll be nice to stretch my legs.\"",
+    "translation": "",
+    "pos": 185
+  },
+  {
+    "passage": "Farm Saddle New",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1372_5_3_7|",
+    "original": "<<bHe>> licks your shoulder.",
+    "translation": "",
+    "pos": 300
+  },
+  {
+    "passage": "Farm Saddle New",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1376_5_3_7|",
+    "original": "\"As you wish,\" <<bhe>> says. \"Don't expect me to enter that hive the humans live in. The smell is unbearable.\"",
+    "translation": "",
+    "pos": 399
+  },
+  {
+    "passage": "Farm Saddle New",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1378_5_3_7|",
+    "original": "<<bHe>> remains passive as you work.",
+    "translation": "",
+    "pos": 522
+  },
+  {
+    "passage": "Farm Saddle New",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1382_5_3_7|",
+    "original": "\"Careful <<girl>>,\" <<bhe>> says. \"Or I'll be riding you.\"",
+    "translation": "",
+    "pos": 601
+  },
+  {
+    "passage": "Farm Saddle New",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1384_5_3_7|",
+    "original": "<<bHe>> bites at you, but allows you to finish.",
+    "translation": "",
+    "pos": 672
+  },
+  {
+    "passage": "Farm Saddle New",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1393_5_3_7|",
+    "original": "You climb upon <<bhis>> back, and spur <<bhim>> to a trot. The force surprises you, <span class=\"green\">but you manage to hold on.</span> The wind blows your hair as you circle the yard.",
+    "translation": "",
+    "pos": 875
+  },
+  {
+    "passage": "Farm Saddle New",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1397_5_3_7|",
+    "original": "<<steedicon>><<link [[Ride to town (0:15)|Farm Ride Town]]>><<if $worn.lower.name is \"naked\" and $worn.under_lower.name is \"naked\">><<pain 6>><</if>><<tiredness 2>><<pass 15>><</link>><<gtiredness>>",
+    "translation": "",
+    "pos": 1102
+  },
+  {
+    "passage": "Farm Saddle New",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1400_5_3_7|",
+    "original": "<<steedicon>><<link [[Ride to town (0:30)|Farm Ride Town]]>><<if $worn.lower.name is \"naked\" and $worn.under_lower.name is \"naked\">><<pain 9>><</if>><<tiredness 3>><<pass 30>><</link>><<gtiredness>>",
+    "translation": "",
+    "pos": 1320
+  },
+  {
+    "passage": "Farm Saddle New",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1403_5_3_7|",
+    "original": "<<getouticon>><<link [[Dismount|Farm Work]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1536
+  },
+  {
+    "passage": "Farm Saddle New",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1406_5_3_7|",
+    "original": "You climb upon <<bhis>> back, and spur <<bhim>> to a trot. <span class=\"red\">The force jolts you from your seat.</span> The <<if $monster gte 1>>centaur laughs<<else>>horse whinnies<</if>>. <<gpain>><<pain 4>>",
+    "translation": "",
+    "pos": 1619
+  },
+  {
+    "passage": "Farm Saddle New",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1408_5_3_7|",
+    "original": "<i><span class=\"purple\">D</span> Thigh Skill or higher required. There's a riding school nearby.</i>",
+    "translation": "",
+    "pos": 1840
+  },
+  {
+    "passage": "Farm Saddle New",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1411_5_3_7|",
+    "original": "<<link [[Next|Farm Work]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1953
+  },
+  {
+    "passage": "Farm Steed",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1419_5_3_7|",
+    "original": "You enter the field to observe the <<farm_text_many horse>>.",
+    "translation": "",
+    "pos": 48
+  },
+  {
+    "passage": "Farm Steed",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1422_5_3_7|",
+    "original": "You approach the stable to observe the <<farm_text_many horse>>.",
+    "translation": "",
+    "pos": 129
+  },
+  {
+    "passage": "Farm Steed",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1425_5_3_7|",
+    "original": "Perhaps you could ride one to town.",
+    "translation": "",
+    "pos": 204
+  },
+  {
+    "passage": "Farm Steed",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1429_5_3_7|",
+    "original": "Your eyes fall on one <<beasttype>> in particular. <<bHe>> looks back, and shakes <<bhis>> <<print $NPCList[0].hair>> mane.",
+    "translation": "",
+    "pos": 277
+  },
+  {
+    "passage": "Farm Steed",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1432_5_3_7|",
+    "original": "<<animalicon \"horse_pick\">><<link [[Choose another (0:10)|Farm Steed Choose]]>><<endevent>><<pass 10>><</link>>",
+    "translation": "",
+    "pos": 411
+  },
+  {
+    "passage": "Farm Steed",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1434_5_3_7|",
+    "original": "<<steedicon>><<link [[Saddle (0:10)|Farm Saddle New]]>><<pass 10>><</link>>",
+    "translation": "",
+    "pos": 528
+  },
+  {
+    "passage": "Farm Steed",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1436_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Farm Work]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 609
+  },
+  {
+    "passage": "Farm Steed Choose",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1443_5_3_7|",
+    "original": "You examine another steed, a <<beasttype>> with a <<print $NPCList[0].hair>> mane.",
+    "translation": "",
+    "pos": 38
+  },
+  {
+    "passage": "Farm Steed Choose",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1446_5_3_7|",
+    "original": "<<animalicon \"horse_pick\">><<link [[Choose another (0:10)|Farm Steed Choose]]>><<endevent>><<pass 10>><</link>>",
+    "translation": "",
+    "pos": 131
+  },
+  {
+    "passage": "Farm Steed Choose",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1448_5_3_7|",
+    "original": "<<steedicon>><<link [[Saddle (0:10)|Farm Saddle New]]>><<pass 10>><</link>>",
+    "translation": "",
+    "pos": 248
+  },
+  {
+    "passage": "Farm Steed Choose",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1450_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Farm Work]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 329
+  },
+  {
+    "passage": "Farm Ride Town",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1457_5_3_7|",
+    "original": "You put your clothes on.",
+    "translation": "",
+    "pos": 99
+  },
+  {
+    "passage": "Farm Ride Town",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1464_5_3_7|",
+    "original": "You spur your steed to a trot, and ride for town with the wind in your hair.",
+    "translation": "",
+    "pos": 263
+  },
+  {
+    "passage": "Farm Ride Town",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1468_5_3_7|",
+    "original": "As you bounce slightly with the <<beasttype>>'s movement, the saddle chafes against your exposed <<bottom>>, irritating you. You scowl and endure the unpleasant pressure. <<gpain>>",
+    "translation": "",
+    "pos": 424
+  },
+  {
+    "passage": "Farm Ride Farm",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1478_5_3_7|",
+    "original": "You spur your steed to a trot, and ride into the countryside.",
+    "translation": "",
+    "pos": 62
+  },
+  {
+    "passage": "Farm Ride Farm",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1482_5_3_7|",
+    "original": "As you bounce slightly with the <<beasttype>>'s movement, the saddle chafes against your exposed <<bottom>>, irritating you. You scowl and endure the unpleasant pressure. <<gpain>>",
+    "translation": "",
+    "pos": 208
+  },
+  {
+    "passage": "Farm Ride Soothe",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1495_5_3_7|",
+    "original": "You pat the <<beasttype>>'s head. \"It's okay,\" you say. \"It's just a car.\"",
+    "translation": "",
+    "pos": 39
+  },
+  {
+    "passage": "Farm Ride Soothe",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1499_5_3_7|",
+    "original": "<span class=\"green\">\"Sorry,\"</span> <<bhe>> replies. \"I'm acting like a foal. Thank you.\"",
+    "translation": "",
+    "pos": 150
+  },
+  {
+    "passage": "Farm Ride Soothe",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1501_5_3_7|",
+    "original": "<span class=\"green\"><<bHe>> seems less agitated.</span>",
+    "translation": "",
+    "pos": 252
+  },
+  {
+    "passage": "Farm Ride Soothe",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1507_5_3_7|",
+    "original": "You pat the <<beasttype>>'s head, hoping to calm <<bhim>>, <span class=\"red\">but your touch startles <<bhim>> further.</span><<llrespect>><<farm_horses -3>>",
+    "translation": "",
+    "pos": 370
+  },
+  {
+    "passage": "Farm Ride Soothe",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1510_5_3_7|",
+    "original": "\"J-just leave me alone,\" <<bhe>> says.",
+    "translation": "",
+    "pos": 552
+  },
+  {
+    "passage": "Farm Ride Charge",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1522_5_3_7|",
+    "original": "You direct the horse away from the ditch with your knees, <span class=\"green\">and your surety calms <<bhim>>.</span>",
+    "translation": "",
+    "pos": 73
+  },
+  {
+    "passage": "Farm Ride Charge",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1524_5_3_7|",
+    "original": "\"Sorry,\" <<bhe>> says. \"I'm acting like a foal. Thank you.\"",
+    "translation": "",
+    "pos": 214
+  },
+  {
+    "passage": "Farm Ride Charge",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1529_5_3_7|",
+    "original": "You pull on the bridle, trying to direct it away from the ditch. <span class=\"red\"><<bHe>> doesn't appreciate your interference.</span>",
+    "translation": "",
+    "pos": 335
+  },
+  {
+    "passage": "Farm Ride Charge",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1531_5_3_7|",
+    "original": "\"Don't test my patience,\" <<bhe>> says. \"Don't think I won't throw you off.\"",
+    "translation": "",
+    "pos": 495
+  },
+  {
+    "passage": "Farm Ride Charge",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1534_5_3_7|",
+    "original": "<<bHe>> rears on <<his>> hind legs, threatening to throw you off, before continuing the journey.<<llrespect>><<farm_horses -3>>",
+    "translation": "",
+    "pos": 595
+  },
+  {
+    "passage": "Farm Ride Ignore",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1545_5_3_7|",
+    "original": "You ignore your <<beasttype>>'s agitation. <<bHe>> calms down, but remains on edge.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Ride Break",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1553_5_3_7|",
+    "original": "You let the <<beasttype>> munch on some grass at the side of the road until <<bhe>> is ready to continue.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Ride Push",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1563_5_3_7|",
+    "original": "You spur your <<beasttype>> into keeping up the pace. <<bHe>> manages it, <span class=\"green\">finding a second wind.</span>",
+    "translation": "",
+    "pos": 74
+  },
+  {
+    "passage": "Farm Ride Push",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1566_5_3_7|",
+    "original": "You spur your <<beasttype>> into keeping up the pace. <<bHe>> manages it, <span class=\"red\">but <<if $monster is 1>>voice<<else>>neigh<</if>>s a complaint.</span><<llrespect>><<farm_horses -3>>",
+    "translation": "",
+    "pos": 218
+  },
+  {
+    "passage": "Farm Ride Hand",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1575_5_3_7|",
+    "original": "You dismount the <<beasttype>>, and kneel beneath <<bhim>>.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Ride Hand",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1578_5_3_7|",
+    "original": "<<bHis>> <<print $NPCList[0].penisdesc>> is already erect and waiting. You cup one of <<bhis>> testes, then run your fingers along the shaft before grasping it.",
+    "translation": "",
+    "pos": 113
+  },
+  {
+    "passage": "Farm Ride Hand",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1580_5_3_7|",
+    "original": "<<bHis>> pussy glistens in anticipation. You push a finger between the folds, then another.",
+    "translation": "",
+    "pos": 284
+  },
+  {
+    "passage": "Farm Ride Hand",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1584_5_3_7|",
+    "original": "\"That's it,\" the <<beasttype>> sighs. \"It won't take long. I've been pent up all day.\"",
+    "translation": "",
+    "pos": 420
+  },
+  {
+    "passage": "Farm Ride Hand",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1586_5_3_7|",
+    "original": "The <<beasttype>> neighs <<bhis>> approval.",
+    "translation": "",
+    "pos": 517
+  },
+  {
+    "passage": "Farm Ride Hand",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1591_5_3_7|",
+    "original": "The <<beasttype>>'s body spasms. Not long now. <span class=\"pink\">You hear an engine.</span> A car approaches, and will arrive any moment.",
+    "translation": "",
+    "pos": 605
+  },
+  {
+    "passage": "Farm Ride Hand",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1594_5_3_7|",
+    "original": "\"D-don't stop,\" the <<beasttype>> says. \"I'm almost there.\"",
+    "translation": "",
+    "pos": 778
+  },
+  {
+    "passage": "Farm Ride Hand",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1597_5_3_7|",
+    "original": "<<link [[Keep going|Farm Ride Hand 2]]>><<farm_horses 1>><</link>><<skill_difficulty `currentSkillValue(\"handskill\")` \"Hand Skill\" 1 1000>><<grespect>>",
+    "translation": "",
+    "pos": 859
+  },
+  {
+    "passage": "Farm Ride Hand",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1599_5_3_7|",
+    "original": "<<link [[Stop|Farm Ride Hand Stop]]>><<farm_horses -3>><</link>><<llrespect>>",
+    "translation": "",
+    "pos": 1018
+  },
+  {
+    "passage": "Farm Ride Hand",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1602_5_3_7|",
+    "original": "The <<beasttype>>'s body spasms as <<bhe>> reaches <<bhis>> peak.",
+    "translation": "",
+    "pos": 1112
+  },
+  {
+    "passage": "Farm Ride Hand",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1604_5_3_7|",
+    "original": "Voluminous ejaculate shoots from <<bhis>> tip, splattering over the floor, then pooling beneath it. Job done, you climb back in the saddle.",
+    "translation": "",
+    "pos": 1219
+  },
+  {
+    "passage": "Farm Ride Hand",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1607_5_3_7|",
+    "original": "Your fingers slick, you climb back in the saddle, and spur <<bhim>> to a trot.",
+    "translation": "",
+    "pos": 1382
+  },
+  {
+    "passage": "Farm Ride Hand 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1619_5_3_7|",
+    "original": "Your fingers work as fast as they can,",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Ride Hand 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1622_5_3_7|",
+    "original": "<span class=\"green\">and you manage to milk the <<print $NPCList[0].penisdesc>> of its cum</span> before the car arrives.",
+    "translation": "",
+    "pos": 151
+  },
+  {
+    "passage": "Farm Ride Hand 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1624_5_3_7|",
+    "original": "<span class=\"green\">and you manage to have the <<beasttype>> shuddering in orgasm</span> before the car arrives.",
+    "translation": "",
+    "pos": 284
+  },
+  {
+    "passage": "Farm Ride Hand 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1626_5_3_7|",
+    "original": "You climb back in the saddle, and spur <<bhim>> to a trot.",
+    "translation": "",
+    "pos": 407
+  },
+  {
+    "passage": "Farm Ride Hand 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1630_5_3_7|",
+    "original": "<span class=\"red\">and only manage to milk the <<print $NPCList[0].penisdesc>> of its cum just as the car arrives.</span>",
+    "translation": "",
+    "pos": 526
+  },
+  {
+    "passage": "Farm Ride Hand 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1632_5_3_7|",
+    "original": "<span class=\"red\">and only manage to have the <<beasttype>> shuddering in orgasm</span> just as the car arrives.",
+    "translation": "",
+    "pos": 659
+  },
+  {
+    "passage": "Farm Ride Hand 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1634_5_3_7|",
+    "original": "You hope they didn't see, but the mocking honk suggests they did.<<ggtrauma>><<gstress>><<famebestiality 3>><<trauma 12>><<stress 6>>",
+    "translation": "",
+    "pos": 782
+  },
+  {
+    "passage": "Farm Ride Hand Stop",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1643_5_3_7|",
+    "original": "You stand up.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Ride Hand Stop",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1646_5_3_7|",
+    "original": "\"Damn you,\" the <<beasttype>> says as <<bhe>> humps the air.",
+    "translation": "",
+    "pos": 50
+  },
+  {
+    "passage": "Farm Ride Hand Stop",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1648_5_3_7|",
+    "original": "The <<beasttype>> neighs <<bhis>> frustration.",
+    "translation": "",
+    "pos": 121
+  },
+  {
+    "passage": "Farm Ride Hand Stop",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1651_5_3_7|",
+    "original": "A little semen spurts from <<bhis>> <<print $NPCList[0].penisdesc>>, but not much.",
+    "translation": "",
+    "pos": 215
+  },
+  {
+    "passage": "Farm Ride Hand Stop",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1653_5_3_7|",
+    "original": "<<bHis>> body shakes in what you think is an orgasm, but not a strong one.",
+    "translation": "",
+    "pos": 308
+  },
+  {
+    "passage": "Farm Ride Hand Stop",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1658_5_3_7|",
+    "original": "\"I-I'm sorry,\" you say. \"But I don't want people to see you so undignified.\"",
+    "translation": "",
+    "pos": 436
+  },
+  {
+    "passage": "Farm Ride Hand Stop",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1660_5_3_7|",
+    "original": "\"Don't be so undignified,\" you say.",
+    "translation": "",
+    "pos": 554
+  },
+  {
+    "passage": "Farm Ride Hand Stop",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1662_5_3_7|",
+    "original": "\"Do you want people to see you like this?\"",
+    "translation": "",
+    "pos": 600
+  },
+  {
+    "passage": "Farm Ride Hand Stop",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1666_5_3_7|",
+    "original": "<<bHe>> calms down before the car appears, but shakes <<bhis>> <<if $monster is 1>>head<<else>>mane<</if>>. You climb back into the saddle, and spur <<bhim>> to a trot.",
+    "translation": "",
+    "pos": 661
+  },
+  {
+    "passage": "Farm Ride Force",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1676_5_3_7|",
+    "original": "You spur and berate the <<beasttype>>.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Ride Force",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1680_5_3_7|",
+    "original": "<span class=\"green\">\"Fine,\"</span> <<bhe>> says. \"Can't blame me for trying.\"",
+    "translation": "",
+    "pos": 136
+  },
+  {
+    "passage": "Farm Ride Force",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1682_5_3_7|",
+    "original": "With a neigh, <span class=\"green\"><<bhe>> trots forward once more.</span>",
+    "translation": "",
+    "pos": 226
+  },
+  {
+    "passage": "Farm Ride Force",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1686_5_3_7|",
+    "original": "<span class=\"red\"><<bHe>> throws an angry glance over your shoulder.</span> \"I'm moving,\" <<bhe>> says. \"But you'll pay for this later.\"",
+    "translation": "",
+    "pos": 342
+  },
+  {
+    "passage": "Farm Ride Force",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1688_5_3_7|",
+    "original": "<span class=\"red\"><<bHe>> rears on <<bhis>> hind legs,</span> almost throwing you off, then breaks into a trot.",
+    "translation": "",
+    "pos": 491
+  },
+  {
+    "passage": "Farm Ride Foot",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1700_5_3_7|",
+    "original": "You dismount. If the <<beasttype>> is so stubborn, then so be it. <<bHe>> huffs as you walk away.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Ride Foot",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1705_5_3_7|",
+    "original": "<<link [[Next|Farm Road 4]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 145
+  },
+  {
+    "passage": "Farm Ride Foot",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1707_5_3_7|",
+    "original": "<<link [[Next|Farm Road 3]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 206
+  },
+  {
+    "passage": "Farm Ride Rape",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1739_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Farm Ride Rape Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 478
+  },
+  {
+    "passage": "Farm Ride Rape",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1741_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Farm Ride Rape]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 572
+  },
+  {
+    "passage": "Farm Ride Rape Finish",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1752_5_3_7|",
+    "original": "\"Good fucktoy,\" <<bhe>> says.",
+    "translation": "",
+    "pos": 103
+  },
+  {
+    "passage": "Farm Ride Rape Finish",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1755_5_3_7|",
+    "original": "<<tearful>> you climb back into the saddle.",
+    "translation": "",
+    "pos": 144
+  },
+  {
+    "passage": "Farm Ride Rape Finish",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1763_5_3_7|",
+    "original": "You smack the <<beasttype>> <<if $monster is 1>>in the face<<else>>on the nose<</if>>. <<bHe>> turns and flees.",
+    "translation": "",
+    "pos": 267
+  },
+  {
+    "passage": "Farm Ride Rape Finish",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1766_5_3_7|",
+    "original": "<<tearful>> you return to the road.",
+    "translation": "",
+    "pos": 391
+  },
+  {
+    "passage": "Farm Ride Rape Finish",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1773_5_3_7|",
+    "original": "<<link [[Next|Farm Road 4]]>><</link>>",
+    "translation": "",
+    "pos": 494
+  },
+  {
+    "passage": "Farm Ride Rape Finish",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1776_5_3_7|",
+    "original": "<<link [[Next|Farm Road 3]]>><</link>>",
+    "translation": "",
+    "pos": 552
+  },
+  {
+    "passage": "Farm Ride Faster",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1784_5_3_7|",
+    "original": "You spur your <<beasttype>> to a gallop. Hooves thunder behind as Remy's goons try to keep up.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Ride Faster",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1786_5_3_7|",
+    "original": "<span class=\"green\">They are unable to.</span> You leave them far behind.<<lstress>><<stress -6>>",
+    "translation": "",
+    "pos": 168
+  },
+  {
+    "passage": "Farm Ride Faster",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1791_5_3_7|",
+    "original": "<span class=\"red\">Your steed's strength wavers,</span> and the riders catch up with you. One rides ahead, and they box you against the hedge, forcing you to stop. They wheel around to face you.<<gstress>><<stress 6>>",
+    "translation": "",
+    "pos": 314
+  },
+  {
+    "passage": "Farm Ride Faster",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1794_5_3_7|",
+    "original": "\"Remy sent us,\" the <<person2>><<person>> on the left says. \"To make sure you were okay. Dangerous for a <<girl>> to be riding alone.\"<<gstress>><<stress 6>>",
+    "translation": "",
+    "pos": 543
+  },
+  {
+    "passage": "Farm Ride Faster",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1797_5_3_7|",
+    "original": "\"We'll escort you the rest of the way,\" the <<person3>><<person>> on the right adds. \"For a fee. <<printmoney 5000>> should do.\"",
+    "translation": "",
+    "pos": 713
+  },
+  {
+    "passage": "Farm Ride Faster",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1801_5_3_7|",
+    "original": "<<link [[Pay (£50)|Farm Ride Pay]]>><<money -5000>><</link>>",
+    "translation": "",
+    "pos": 879
+  },
+  {
+    "passage": "Farm Ride Faster",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1804_5_3_7|",
+    "original": "<<link [[Refuse politely|Farm Ride Polite]]>><<farm_aggro 1>><</link>><<gaggro>>",
+    "translation": "",
+    "pos": 957
+  },
+  {
+    "passage": "Farm Ride Faster",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1806_5_3_7|",
+    "original": "<<link [[Refuse angrily|Farm Ride Angry]]>><<farm_aggro 1>><</link>><<gaggro>>",
+    "translation": "",
+    "pos": 1045
+  },
+  {
+    "passage": "Farm Ride Confront",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1814_5_3_7|",
+    "original": "You rein in the <<beasttype>>, and turn to face the approaching riders. They pull up some distance away.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Ride Confront",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1817_5_3_7|",
+    "original": "\"Remy sent us,\" the <<person2>><<person>> on the left says. \"To make sure you were okay. Dangerous for a <<girl>> to be riding alone.\"<<gstress>><<stress 6>>",
+    "translation": "",
+    "pos": 128
+  },
+  {
+    "passage": "Farm Ride Confront",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1820_5_3_7|",
+    "original": "\"We'll escort you the rest of the way,\" the <<person3>><<person>> on the right adds. \"For a fee. <<printmoney 5000>> should do.\"",
+    "translation": "",
+    "pos": 296
+  },
+  {
+    "passage": "Farm Ride Confront",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1824_5_3_7|",
+    "original": "<<link [[Pay (£50)|Farm Ride Pay]]>><<money -5000>><</link>>",
+    "translation": "",
+    "pos": 459
+  },
+  {
+    "passage": "Farm Ride Confront",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1827_5_3_7|",
+    "original": "<<link [[Refuse politely|Farm Ride Polite]]>><<farm_aggro 1>><</link>><<gaggro>>",
+    "translation": "",
+    "pos": 534
+  },
+  {
+    "passage": "Farm Ride Confront",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1829_5_3_7|",
+    "original": "<<link [[Refuse angrily|Farm Ride Angry]]>><<farm_aggro 1>><</link>><<gaggro>>",
+    "translation": "",
+    "pos": 620
+  },
+  {
+    "passage": "Farm Ride Pay",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1837_5_3_7|",
+    "original": "You pay the pair. \"Wise,\" the <<person2>><<person>> says. \"Go on then. Lead the way.\"",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Ride Pay",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1840_5_3_7|",
+    "original": "They follow behind for the rest of the journey.",
+    "translation": "",
+    "pos": 109
+  },
+  {
+    "passage": "Farm Ride Polite",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1849_5_3_7|",
+    "original": "\"S-sorry,\" you say. \"But I'll be okay on my own.\"",
+    "translation": "",
+    "pos": 48
+  },
+  {
+    "passage": "Farm Ride Polite",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1851_5_3_7|",
+    "original": "\"Thanks for the offer,\" you say. \"But I can handle myself.\"",
+    "translation": "",
+    "pos": 139
+  },
+  {
+    "passage": "Farm Ride Polite",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1853_5_3_7|",
+    "original": "\"Thanks,\" you say. \"But I'll be alright alone.",
+    "translation": "",
+    "pos": 209
+  },
+  {
+    "passage": "Farm Ride Polite",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1857_5_3_7|",
+    "original": "\"Suit yourself,\" the <<person2>><<person>> scoffs. \"We'll be near.\" They spur to a trot, and ride past you.",
+    "translation": "",
+    "pos": 274
+  },
+  {
+    "passage": "Farm Ride Angry",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1867_5_3_7|",
+    "original": "\"I-I'm not paying you,\" you say. \"Go away.\"",
+    "translation": "",
+    "pos": 48
+  },
+  {
+    "passage": "Farm Ride Angry",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1869_5_3_7|",
+    "original": "\"Fuck you,\" you say. \"And fuck Remy.\"",
+    "translation": "",
+    "pos": 133
+  },
+  {
+    "passage": "Farm Ride Angry",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1871_5_3_7|",
+    "original": "\"Tell Remy I won't be extorted,\" you say. \"Go.\"",
+    "translation": "",
+    "pos": 181
+  },
+  {
+    "passage": "Farm Ride Angry",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1875_5_3_7|",
+    "original": "The <<person2>><<person>> laughs. \"Suit yourself <<girl>>. We'll be near.\" They spur to a trot, and ride past you.",
+    "translation": "",
+    "pos": 247
+  },
+  {
+    "passage": "Farm Ride Aggro Faster",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1885_5_3_7|",
+    "original": "You spur your <<beasttype>> to a gallop. Hooves thunder behind as Remy's goons try to keep up.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Ride Aggro Faster",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1887_5_3_7|",
+    "original": "<span class=\"green\">They are unable to.</span> You leave them far behind.<<lstress>><<stress -6>>",
+    "translation": "",
+    "pos": 170
+  },
+  {
+    "passage": "Farm Ride Aggro Faster",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1892_5_3_7|",
+    "original": "<span class=\"red\">Your steed's strength wavers,</span> and the riders catch up with you. One of them, a <<person2>><<person>>, <span class=\"red\">hurls a lasso</span> at your <<beasttype>>'s neck. <<He>> misses, but reels the rope back in.<<gstress>><<stress 6>>",
+    "translation": "",
+    "pos": 316
+  },
+  {
+    "passage": "Farm Ride Aggro Faster",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1895_5_3_7|",
+    "original": "<<His>> colleague, a <<person3>><<person>>, rides alongside you, <span class=\"red\">and tries to shove you from the saddle.</span>",
+    "translation": "",
+    "pos": 590
+  },
+  {
+    "passage": "Farm Ride Aggro Faster",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1898_5_3_7|",
+    "original": "<span class=\"red\">Your steed is on the verge of panic.</span> <<bHe>> veers back and forth across the road. It's hard to stay in the saddle.",
+    "translation": "",
+    "pos": 732
+  },
+  {
+    "passage": "Farm Ride Aggro Faster",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1901_5_3_7|",
+    "original": "<<link [[Punch the closest rider|Farm Ride Punch]]>><</link>><<physiquedifficulty 1 16000>>",
+    "translation": "",
+    "pos": 885
+  },
+  {
+    "passage": "Farm Ride Aggro Faster",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1903_5_3_7|",
+    "original": "<<link [[Grab the lasso|Farm Ride Grab]]>><</link>><<skill_difficulty `currentSkillValue(\"handskill\")` \"Hand Skill\" 1 1000>>",
+    "translation": "",
+    "pos": 984
+  },
+  {
+    "passage": "Farm Ride Aggro Faster",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1905_5_3_7|",
+    "original": "<<link [[Reassure your steed|Farm Ride Reassure]]>><</link>><<tendingdifficulty 1 1000>>",
+    "translation": "",
+    "pos": 1116
+  },
+  {
+    "passage": "Farm Ride Aggro Confront",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1912_5_3_7|",
+    "original": "You rein in the <<beasttype>>, and turn to face the approaching riders. They don't slow. One of them, a <<person2>><<person>>, <span class=\"red\">hurls a lasso</span> at your <<beasttype>>'s neck. <<He>> misses, but reels the rope back in.<<gstress>><<stress 6>>",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Ride Aggro Confront",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1915_5_3_7|",
+    "original": "<<His>> colleague, a <<person3>><<person>>, rides alongside you, <span class=\"red\">and tries to shove you from the saddle.</span>",
+    "translation": "",
+    "pos": 285
+  },
+  {
+    "passage": "Farm Ride Aggro Confront",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1918_5_3_7|",
+    "original": "<span class=\"red\">Your steed is on the verge of panic.</span> <<bHe>> wheels around and gallops of <<bhis>> own accord, veering back and forth across the road. It's hard to stay in the saddle.",
+    "translation": "",
+    "pos": 425
+  },
+  {
+    "passage": "Farm Ride Aggro Confront",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1921_5_3_7|",
+    "original": "<<link [[Punch the closest rider|Farm Ride Punch]]>><</link>><<physiquedifficulty 1 16000>>",
+    "translation": "",
+    "pos": 628
+  },
+  {
+    "passage": "Farm Ride Aggro Confront",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1923_5_3_7|",
+    "original": "<<link [[Grab the lasso|Farm Ride Grab]]>><</link>><<skill_difficulty `currentSkillValue(\"handskill\")` \"Hand Skill\" 1 1000>>",
+    "translation": "",
+    "pos": 725
+  },
+  {
+    "passage": "Farm Ride Aggro Confront",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1925_5_3_7|",
+    "original": "<<link [[Reassure your steed|Farm Ride Reassure]]>><</link>><<tendingdifficulty 1 1000>>",
+    "translation": "",
+    "pos": 855
+  },
+  {
+    "passage": "Farm Ride Punch",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1932_5_3_7|",
+    "original": "You fist connects with the <<person3>><<person>>'s face, <span class=\"green\">knocking <<him>> from the saddle.</span> <<His>> colleague laughs, and readies the lasso for another attempt.",
+    "translation": "",
+    "pos": 38
+  },
+  {
+    "passage": "Farm Ride Punch",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1935_5_3_7|",
+    "original": "<<link [[Grab the lasso|Farm Ride Grab 2]]>><</link>><<skill_difficulty `currentSkillValue(\"handskill\")` \"Hand Skill\" 1 1000>>",
+    "translation": "",
+    "pos": 237
+  },
+  {
+    "passage": "Farm Ride Punch",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1937_5_3_7|",
+    "original": "<<link [[Reassure your steed|Farm Ride Reassure 2]]>><</link>><<tendingdifficulty 1 1000>>",
+    "translation": "",
+    "pos": 371
+  },
+  {
+    "passage": "Farm Ride Punch",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1940_5_3_7|",
+    "original": "<span class=\"red\">The <<person>> catches your fist,</span> and pulls you from the saddle. You tumble to the ground.<<ggpain>><<pain 8>>",
+    "translation": "",
+    "pos": 478
+  },
+  {
+    "passage": "Farm Ride Punch",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1943_5_3_7|",
+    "original": "Your steed gallops away alone. The pair chase after <<bhim>>, leaving you lying in the dirt.<<llrespect>><<farm_horses -3>>",
+    "translation": "",
+    "pos": 626
+  },
+  {
+    "passage": "Farm Ride Punch",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1946_5_3_7|",
+    "original": "<<tearful>> you rise to your feet.",
+    "translation": "",
+    "pos": 762
+  },
+  {
+    "passage": "Farm Ride Punch",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1951_5_3_7|",
+    "original": "<<link [[Next|Farm Road 4]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 834
+  },
+  {
+    "passage": "Farm Ride Punch",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1954_5_3_7|",
+    "original": "<<link [[Next|Farm Road 3]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 904
+  },
+  {
+    "passage": "Farm Ride Grab",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1963_5_3_7|",
+    "original": "The <<person2>><<person>> hurls the lasso at your <<beasttype>> once more, <span class=\"green\">but you catch it,</span> and pull the <<person2>><<person>> from <<his>> seat. <<He>> tumbles to the dirt.",
+    "translation": "",
+    "pos": 72
+  },
+  {
+    "passage": "Farm Ride Grab",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1966_5_3_7|",
+    "original": "<<His>> colleague laughs, and shoves you again.",
+    "translation": "",
+    "pos": 286
+  },
+  {
+    "passage": "Farm Ride Grab",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1969_5_3_7|",
+    "original": "<<link [[Punch|Farm Ride Punch 2]]>><</link>><<physiquedifficulty 1 16000>>",
+    "translation": "",
+    "pos": 346
+  },
+  {
+    "passage": "Farm Ride Grab",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1971_5_3_7|",
+    "original": "<<link [[Reassure your steed|Farm Ride Reassure 2]]>><</link>><<tendingdifficulty 1 1000>>",
+    "translation": "",
+    "pos": 429
+  },
+  {
+    "passage": "Farm Ride Grab",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1974_5_3_7|",
+    "original": "The <<person2>><<person>> hurls the lasso at your <<beasttype>> once more. You try to catch it, but it loops around your wrists. <span class=\"red\">The rider pulls you from your saddle.</span><<ggpain>><<gstress>><<pain 8>><<stress 6>>",
+    "translation": "",
+    "pos": 536
+  },
+  {
+    "passage": "Farm Ride Grab",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1976_5_3_7|",
+    "original": "Your steed gallops away alone. The pair chase after <<bhim>>, leaving you lying in the dirt.<<llrespect>><<farm_horses -3>>",
+    "translation": "",
+    "pos": 782
+  },
+  {
+    "passage": "Farm Ride Grab",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1979_5_3_7|",
+    "original": "<<tearful>> you rise to your feet.",
+    "translation": "",
+    "pos": 918
+  },
+  {
+    "passage": "Farm Ride Grab",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1984_5_3_7|",
+    "original": "<<link [[Next|Farm Road 4]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 990
+  },
+  {
+    "passage": "Farm Ride Grab",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1987_5_3_7|",
+    "original": "<<link [[Next|Farm Road 3]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1060
+  },
+  {
+    "passage": "Farm Ride Reassure",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1996_5_3_7|",
+    "original": "You whisper a couple of words into your <<beasttype>>'s ear. <span class=\"green\"><<bHe>> stops veering back and forth across the road,</span> and gallops with more surety.",
+    "translation": "",
+    "pos": 50
+  },
+  {
+    "passage": "Farm Ride Reassure",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "1999_5_3_7|",
+    "original": "The <<person2>><<person>> readies the lasso for another throw, while the <<person3>><<person>> tries to shove you from the saddle once more.",
+    "translation": "",
+    "pos": 234
+  },
+  {
+    "passage": "Farm Ride Reassure",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2002_5_3_7|",
+    "original": "<<link [[Punch the closest rider|Farm Ride Punch 2]]>><</link>><<physiquedifficulty 1 16000>>",
+    "translation": "",
+    "pos": 387
+  },
+  {
+    "passage": "Farm Ride Reassure",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2004_5_3_7|",
+    "original": "<<link [[Grab the lasso|Farm Ride Grab 2]]>><</link>><<skill_difficulty `currentSkillValue(\"handskill\")` \"Hand Skill\" 1 1000>>",
+    "translation": "",
+    "pos": 488
+  },
+  {
+    "passage": "Farm Ride Reassure",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2008_5_3_7|",
+    "original": "You whisper a couple of words into your <<beasttype>>'s ear, <span class=\"red\">but your voice trembles.</span> <<bHe>> rears on <<bhis>> hind legs, throwing you from the saddle.<<ggpain>><<gstress>><<pain 8>><<stress 6>>",
+    "translation": "",
+    "pos": 644
+  },
+  {
+    "passage": "Farm Ride Reassure",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2010_5_3_7|",
+    "original": "Your steed gallops away alone. The pair chase after <<bhim>>, leaving you lying in the dirt.<<llrespect>><<farm_horses -3>>",
+    "translation": "",
+    "pos": 876
+  },
+  {
+    "passage": "Farm Ride Reassure",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2013_5_3_7|",
+    "original": "<<tearful>> you rise to your feet.",
+    "translation": "",
+    "pos": 1012
+  },
+  {
+    "passage": "Farm Ride Reassure",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2017_5_3_7|",
+    "original": "<<link [[Next|Farm Road 4]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1083
+  },
+  {
+    "passage": "Farm Ride Reassure",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2020_5_3_7|",
+    "original": "<<link [[Next|Farm Road 3]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1153
+  },
+  {
+    "passage": "Farm Ride Punch 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2029_5_3_7|",
+    "original": "You fist connects with the <<person3>><<person>>'s face, <span class=\"green\">knocking <<him>> from the saddle.</span>",
+    "translation": "",
+    "pos": 70
+  },
+  {
+    "passage": "Farm Ride Punch 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2032_5_3_7|",
+    "original": "<span class=\"green\">You've seized control of the situation.</span> You spur your <<beasttype>> onward, leaving Remy's goons far behind.<<lstress>><<stress -6>>",
+    "translation": "",
+    "pos": 200
+  },
+  {
+    "passage": "Farm Ride Punch 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2037_5_3_7|",
+    "original": "<span class=\"red\">The <<person>> catches your fist,</span> and pulls you from the saddle. You tumble to the ground.<<ggpain>><<pain 8>>",
+    "translation": "",
+    "pos": 420
+  },
+  {
+    "passage": "Farm Ride Punch 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2040_5_3_7|",
+    "original": "Your steed gallops away alone. The pair chase after <<bhim>>, leaving you lying in the dirt.<<llrespect>><<farm_horses -3>>",
+    "translation": "",
+    "pos": 568
+  },
+  {
+    "passage": "Farm Ride Punch 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2043_5_3_7|",
+    "original": "<<tearful>> you rise to your feet.",
+    "translation": "",
+    "pos": 704
+  },
+  {
+    "passage": "Farm Ride Punch 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2048_5_3_7|",
+    "original": "<<link [[Next|Farm Road 4]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 776
+  },
+  {
+    "passage": "Farm Ride Punch 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2051_5_3_7|",
+    "original": "<<link [[Next|Farm Road 3]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 846
+  },
+  {
+    "passage": "Farm Ride Grab 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2060_5_3_7|",
+    "original": "The <<person2>><<person>> hurls the lasso at your <<beasttype>> once more, <span class=\"green\">but you catch it,</span> and pull the <<person2>><<person>> from <<his>> seat. <<He>> tumbles to the dirt.",
+    "translation": "",
+    "pos": 104
+  },
+  {
+    "passage": "Farm Ride Grab 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2062_5_3_7|",
+    "original": "<span class=\"green\">You've seized control of the situation.</span> You spur your <<beasttype>> onward, leaving Remy's goons far behind.<<lstress>><<stress -6>>",
+    "translation": "",
+    "pos": 317
+  },
+  {
+    "passage": "Farm Ride Grab 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2067_5_3_7|",
+    "original": "The <<person2>><<person>> hurls the lasso at your <<beasttype>> once more. You try to catch it, but it loops around your wrists. <span class=\"red\">The rider pulls you from your saddle.</span><<ggpain>><<gstress>><<pain 8>><<stress 6>>",
+    "translation": "",
+    "pos": 537
+  },
+  {
+    "passage": "Farm Ride Grab 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2069_5_3_7|",
+    "original": "Your steed gallops away alone. The pair chase after <<bhim>>, leaving you lying in the dirt.<<llrespect>><<farm_horses -3>>",
+    "translation": "",
+    "pos": 783
+  },
+  {
+    "passage": "Farm Ride Grab 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2072_5_3_7|",
+    "original": "<<tearful>> you rise to your feet.",
+    "translation": "",
+    "pos": 919
+  },
+  {
+    "passage": "Farm Ride Grab 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2076_5_3_7|",
+    "original": "<<link [[Next|Farm Road 4]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 990
+  },
+  {
+    "passage": "Farm Ride Grab 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2079_5_3_7|",
+    "original": "<<link [[Next|Farm Road 3]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1060
+  },
+  {
+    "passage": "Farm Ride Reassure 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2087_5_3_7|",
+    "original": "You whisper a couple of words into your <<beasttype>>'s ear. <span class=\"green\"><<bHe>> stops veering back and forth across the road,</span> and gallops with more surety.",
+    "translation": "",
+    "pos": 68
+  },
+  {
+    "passage": "Farm Ride Reassure 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2089_5_3_7|",
+    "original": "<span class=\"green\">You've seized control of the situation.</span> You spur your <<beasttype>> onward, leaving Remy's goons far behind.<<lstress>><<stress -6>>",
+    "translation": "",
+    "pos": 251
+  },
+  {
+    "passage": "Farm Ride Reassure 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2095_5_3_7|",
+    "original": "You whisper a couple of words into your <<beasttype>>'s ear, <span class=\"red\">but your voice trembles.</span> <<bHe>> rears on <<bhis>> hind legs, throwing you from the saddle.<<ggpain>><<gstress>><<pain 8>><<stress 6>>",
+    "translation": "",
+    "pos": 484
+  },
+  {
+    "passage": "Farm Ride Reassure 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2097_5_3_7|",
+    "original": "Your steed gallops away alone. The pair chase after <<bhim>>, leaving you lying in the dirt.<<llrespect>><<farm_horses -3>>",
+    "translation": "",
+    "pos": 716
+  },
+  {
+    "passage": "Farm Ride Reassure 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2099_5_3_7|",
+    "original": "<<tearful>> you rise to your feet.",
+    "translation": "",
+    "pos": 851
+  },
+  {
+    "passage": "Farm Ride Reassure 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2102_5_3_7|",
+    "original": "<<link [[Next|Farm Road 4]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 921
+  },
+  {
+    "passage": "Farm Ride Reassure 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2105_5_3_7|",
+    "original": "<<link [[Next|Farm Road 3]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 991
+  },
+  {
+    "passage": "Farm Hitchhike Accept",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2112_5_3_7|",
+    "original": "You smile at the <<person1>><<person>> and accept <<his>> offer. \"Good, I'd hate to keep you stranded here.\" <<He>> gestures for you to sit next to <<him>> in the passenger seat. You open the door and tell <<him>> where you're headed, before climbing inside.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Hitchhike Accept",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2115_5_3_7|",
+    "original": "The two of you engage in casual conversation. <<He>> asks you a few questions about where you're from and what your plans for the day are, but avoids anything too personal. You spend the majority of the ride gazing out of the window, watching the scenery. You're grateful you don't have to walk the long distance.",
+    "translation": "",
+    "pos": 308
+  },
+  {
+    "passage": "Farm Hitchhike Accept",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2117_5_3_7|",
+    "original": "\"Here we are,\" <<he>> says, interrupting your thoughts as <<he>> brings the car to a stop. The ride went by much faster than you expected.",
+    "translation": "",
+    "pos": 633
+  },
+  {
+    "passage": "Farm Hitchhike Accept",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2119_5_3_7|",
+    "original": "You thank <<him>> for taking you with <<him>> and get out of the vehicle. You wave <<him>> goodbye as <<he>> drives off.",
+    "translation": "",
+    "pos": 783
+  },
+  {
+    "passage": "Farm Hitchhike Accept",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2122_5_3_7|",
+    "original": "<<link [[Next|Harvest Street]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 936
+  },
+  {
+    "passage": "Farm Hitchhike Accept",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2124_5_3_7|",
+    "original": "<<link [[Next|Farmland]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 1025
+  },
+  {
+    "passage": "Farm Hitchhike Accept",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2128_5_3_7|",
+    "original": "You open the car door and sit beside the <<person1>><<person>>. Once inside, you hear a noise from behind you. You turn around and are met with the eyes of a <<person2>><<person>>. Immediately a pair of hands covers your mouth from behind.",
+    "translation": "",
+    "pos": 1130
+  },
+  {
+    "passage": "Farm Hitchhike Accept",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2130_5_3_7|",
+    "original": "A smirk spreads over the <<person1>><<persons>> face as <<he>> unbuckles <<his>> seat belt. \"I hope you don't mind I brought a friend along.\" <<He>> grabs you firmly and shoves you into the back seat.",
+    "translation": "",
+    "pos": 1381
+  },
+  {
+    "passage": "Farm Hitchhike Accept",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2132_5_3_7|",
+    "original": "The <<person2>><<person>> pins you down as the <<person1>><<person>> lunges for you. \"We were quite bored on this ride. Let's find out if you can entertain us.\"",
+    "translation": "",
+    "pos": 1593
+  },
+  {
+    "passage": "Farm Hitchhike Accept",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2134_5_3_7|",
+    "original": "<<link [[Next|Farm Hitchike Double Rape]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 1765
+  },
+  {
+    "passage": "Farm Hitchhike Decline",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2139_5_3_7|",
+    "original": "You shake your head and take a few steps backwards. The <<person1>><<person>> huffs in annoyance before rolling the window back up.",
+    "translation": "",
+    "pos": 12
+  },
+  {
+    "passage": "Farm Hitchhike Decline",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2140_5_3_7|",
+    "original": "\"Don't waste my time.\" You can hear <<him>> mumble before <<he>> drives off again.",
+    "translation": "",
+    "pos": 144
+  },
+  {
+    "passage": "Farm Hitchike Double Rape",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2163_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Farm Hitchike Double Rape Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 253
+  },
+  {
+    "passage": "Farm Hitchike Double Rape",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2165_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Farm Hitchike Double Rape]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 358
+  },
+  {
+    "passage": "Farm Hitchike Double Rape Finish",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2173_5_3_7|",
+    "original": "They both finish, leaving you used on the empty seat of the back of the car. The <<person1>><<person>> laughs. \"What a shame we only had such a short ride together.\"",
+    "translation": "",
+    "pos": 83
+  },
+  {
+    "passage": "Farm Hitchike Double Rape Finish",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2174_5_3_7|",
+    "original": "The <<person2>><<person>> opens the door on <<his>> side and grabs you by your hair. <<He>> speaks. \"A slut like you was exactly what we were looking for. Thanks for providing us with such a fun time.\"",
+    "translation": "",
+    "pos": 250
+  },
+  {
+    "passage": "Farm Hitchike Double Rape Finish",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2175_5_3_7|",
+    "original": "Before you can react, <<he>> shoves you out of the car.",
+    "translation": "",
+    "pos": 453
+  },
+  {
+    "passage": "Farm Hitchike Double Rape Finish",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2177_5_3_7|",
+    "original": "You land on the ground. The shock causes you to lose all the air in your lungs. Next thing you hear is the sound of wheels driving off. <<pain 3>><<gpain>>",
+    "translation": "",
+    "pos": 520
+  },
+  {
+    "passage": "Farm Hitchike Double Rape Finish",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2179_5_3_7|",
+    "original": "It takes you a few moments to regain your energy and raise to your feet.",
+    "translation": "",
+    "pos": 687
+  },
+  {
+    "passage": "Farm Hitchike Double Rape Finish",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2181_5_3_7|",
+    "original": "You manage to fight them both off. Seizing the opportunity, you open the door and get out of the car.",
+    "translation": "",
+    "pos": 770
+  },
+  {
+    "passage": "Farm Hitchike Double Rape Finish",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2182_5_3_7|",
+    "original": "You run as fast as your feet allow you to. Looking over your shoulder without slowing down, you're checking if the two people are following you.",
+    "translation": "",
+    "pos": 873
+  },
+  {
+    "passage": "Farm Hitchike Double Rape Finish",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2183_5_3_7|",
+    "original": "To your relief, the car is driving in the opposite direction. <<trauma -1>><<ltrauma>>",
+    "translation": "",
+    "pos": 1019
+  },
+  {
+    "passage": "Farm Hitchike Double Rape Finish",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2189_5_3_7|",
+    "original": "<<link [[Next|Harvest Street]]>><<endevent>><<pass 1>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 1183
+  },
+  {
+    "passage": "Farm Hitchike Double Rape Finish",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2191_5_3_7|",
+    "original": "<<link [[Next|Farmland]]>><<endevent>><<pass 1>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 1280
+  },
+  {
+    "passage": "Farm Hitchhike Cost Accept",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2197_5_3_7|",
+    "original": "You tell the <<person>> where you want to go. <<He>> responds. \"Consider this your lucky day. That's exactly where I'm heading. Hop in, door is unlocked.\"",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Hitchhike Cost Accept",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2199_5_3_7|",
+    "original": "You get in the <<persons>> car and sit down in the passenger seat before closing the door. The two of you chat a little and <<he>> throws you a few quick glances, but keeps <<his>> eyes mostly on the road. You lean half against the door as you wait for the two of you to arrive at your destination.",
+    "translation": "",
+    "pos": 177
+  },
+  {
+    "passage": "Farm Hitchhike Cost Accept",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2201_5_3_7|",
+    "original": "After a short while, you notify <<him>> that <<he>> can drop you off now.",
+    "translation": "",
+    "pos": 485
+  },
+  {
+    "passage": "Farm Hitchhike Cost Accept",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2203_5_3_7|",
+    "original": "\"Sure.\" <<He>> brings the car to a stop. \"That'd be <<moneyGainDisplay 500>>.\"",
+    "translation": "",
+    "pos": 568
+  },
+  {
+    "passage": "Farm Hitchhike Cost Accept",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2205_5_3_7|",
+    "original": "You give <<him>> a puzzled look. <<He>> raises an eyebrow at you and tilts <<his>> head. \"What? Thought this ride was free?\" <<He>> presses a button and you can hear the sound of the doors locking. \"I'm not gonna repeat myself. Pay for it.\" <<His>> grip on the steering wheel tightens.",
+    "translation": "",
+    "pos": 656
+  },
+  {
+    "passage": "Farm Hitchhike Cost Accept",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2208_5_3_7|",
+    "original": "<<link [[Say that you can't afford it|Farm Hitchhike Cost Robbed]]>><</link>>",
+    "translation": "",
+    "pos": 975
+  },
+  {
+    "passage": "Farm Hitchhike Cost Accept",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2210_5_3_7|",
+    "original": "<<link [[Pay|Farm Hitchhike Cost Pay]]>><<money -50000>><</link>>",
+    "translation": "",
+    "pos": 1063
+  },
+  {
+    "passage": "Farm Hitchhike Cost Accept",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2213_5_3_7|",
+    "original": "<<link [[Refuse|Farm Hitchhike Cost Molest]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 1142
+  },
+  {
+    "passage": "Farm Hitchhike Cost Robbed",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2217_5_3_7|",
+    "original": "<<He>> stares at you. \"Give me all you've got, and we'll call it even\", <<he>> says. \"Your clothes too. I won't tell you again.\"",
+    "translation": "",
+    "pos": 12
+  },
+  {
+    "passage": "Farm Hitchhike Cost Robbed",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2219_5_3_7|",
+    "original": "<<link [[Accept the offer|Farm Hitchhike Cost Robbed 2]]>><<money `-$money`>><</link>>",
+    "translation": "",
+    "pos": 150
+  },
+  {
+    "passage": "Farm Hitchhike Cost Robbed",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2221_5_3_7|",
+    "original": "<<link [[Refuse|Farm Hitchhike Cost Molest]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 242
+  },
+  {
+    "passage": "Farm Hitchhike Cost Robbed 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2225_5_3_7|",
+    "original": "<<tearful>> you accept.<br>",
+    "translation": "",
+    "pos": 12
+  },
+  {
+    "passage": "Farm Hitchhike Cost Robbed 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2229_5_3_7|",
+    "original": "Satisfied, <<he>> unlocks the doors and let you out.",
+    "translation": "",
+    "pos": 79
+  },
+  {
+    "passage": "Farm Hitchhike Cost Robbed 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2232_5_3_7|",
+    "original": "<<link [[Next|Harvest Street]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 161
+  },
+  {
+    "passage": "Farm Hitchhike Cost Robbed 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2234_5_3_7|",
+    "original": "<<link [[Next|Farmland]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 248
+  },
+  {
+    "passage": "Farm Hitchhike Cost Pay",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2240_5_3_7|",
+    "original": "Gritting your teeth, you pay <<him>> the money <<he>> asked for. <<He>> snatches the money from your hands and counts it. Satisfied, <<he>> unlocks the doors again.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Hitchhike Cost Pay",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2241_5_3_7|",
+    "original": "You don't hide your annoyance as you swing the door open and slam it shut extra hard behind you. <<stress 2>><<gstress>>",
+    "translation": "",
+    "pos": 178
+  },
+  {
+    "passage": "Farm Hitchhike Cost Pay",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2244_5_3_7|",
+    "original": "<<link [[Next|Harvest Street]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 328
+  },
+  {
+    "passage": "Farm Hitchhike Cost Pay",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2246_5_3_7|",
+    "original": "<<link [[Next|Farmland]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 415
+  },
+  {
+    "passage": "Farm Hitchhike Cost Decline",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2251_5_3_7|",
+    "original": "You shake your head and tell the <<person>> that you're not interested.",
+    "translation": "",
+    "pos": 12
+  },
+  {
+    "passage": "Farm Hitchhike Cost Decline",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2252_5_3_7|",
+    "original": "<<He>> cocks an eyebrow in confusion. \"Are you sure? It's a long distance. But if you feel like walking, go ahead.\"<br>",
+    "translation": "",
+    "pos": 84
+  },
+  {
+    "passage": "Farm Hitchhike Cost Decline",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2253_5_3_7|",
+    "original": "The <<person>> doesn't spare you another look as <<he>> rolls the window back up and drives off.",
+    "translation": "",
+    "pos": 204
+  },
+  {
+    "passage": "Farm Hitchhike Cost Molest",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2259_5_3_7|",
+    "original": "You tell <<him>> you're not paying for the ride.",
+    "translation": "",
+    "pos": 31
+  },
+  {
+    "passage": "Farm Hitchhike Cost Molest",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2260_5_3_7|",
+    "original": "<<His>> expression darkens as <<he>> lunges in <<his>> seat forward to you. \"You will pay. And I can think of a way how.\"",
+    "translation": "",
+    "pos": 81
+  },
+  {
+    "passage": "Farm Hitchhike Cost Molest",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2279_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Farm Hitchhike Cost Molest Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 427
+  },
+  {
+    "passage": "Farm Hitchhike Cost Molest",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2281_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Farm Hitchhike Cost Molest]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 533
+  },
+  {
+    "passage": "Farm Hitchhike Cost Molest Finish",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2288_5_3_7|",
+    "original": "The <<person>> pushes <<himself>> off you and grins. \"Don't take rides from strangers if you're not willing to offer something in return.\"",
+    "translation": "",
+    "pos": 72
+  },
+  {
+    "passage": "Farm Hitchhike Cost Molest Finish",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2289_5_3_7|",
+    "original": "<<He>> unlocks the door and pushes you out with force. You can hardly catch your breath as you stumble and quickly try to regain your balance.",
+    "translation": "",
+    "pos": 212
+  },
+  {
+    "passage": "Farm Hitchhike Cost Molest Finish",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2291_5_3_7|",
+    "original": "With one last push, you throw the <<person>> off you.",
+    "translation": "",
+    "pos": 365
+  },
+  {
+    "passage": "Farm Hitchhike Cost Molest Finish",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2292_5_3_7|",
+    "original": "Seizing the opportunity, you hastily unlock the door and rush out of the car as fast as you can.",
+    "translation": "",
+    "pos": 420
+  },
+  {
+    "passage": "Farm Hitchhike Cost Molest Finish",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2293_5_3_7|",
+    "original": "You don't even bother to close the door behind you as you run until the car is out of sight again.<<trauma -1>><<ltrauma>>",
+    "translation": "",
+    "pos": 518
+  },
+  {
+    "passage": "Farm Hitchhike Cost Molest Finish",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2299_5_3_7|",
+    "original": "<<link [[Next|Harvest Street]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 718
+  },
+  {
+    "passage": "Farm Hitchhike Cost Molest Finish",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2301_5_3_7|",
+    "original": "<<link [[Next|Farmland]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 793
+  },
+  {
+    "passage": "Farm Hitchhike Assistant",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2309_5_3_7|",
+    "original": "\"Yeah, I can give you a lift. Hop on in!\" You climb into the passenger seat and set off down the road.",
+    "translation": "",
+    "pos": 24
+  },
+  {
+    "passage": "Farm Hitchhike Assistant",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2310_5_3_7|",
+    "original": "After a couple minutes of pleasant conversation, <<he>> asks, \"You ever driven before? You wanna try? These big empty country roads are a great place to learn if you're interested.\"",
+    "translation": "",
+    "pos": 127
+  },
+  {
+    "passage": "Farm Hitchhike Assistant",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2313_5_3_7|",
+    "original": "<<He>> pats <<his>> lap, offering you a seat.",
+    "translation": "",
+    "pos": 319
+  },
+  {
+    "passage": "Farm Hitchhike Assistant",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2316_5_3_7|",
+    "original": "<<getinicon>><<link [[Accept|Farm Hitchhike Assistant Driver]]>><<pass 2>><</link>>",
+    "translation": "",
+    "pos": 375
+  },
+  {
+    "passage": "Farm Hitchhike Assistant",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2318_5_3_7|",
+    "original": "<<refuseicon>><<link [[Decline|Farm Hitchhike Assistant Passenger]]>><<pass 10>><<set $phase2 to 0>><</link>>",
+    "translation": "",
+    "pos": 464
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2324_5_3_7|",
+    "original": "You agree and climb over to sit on <<his>> lap. The <<person>> walks you through the controls and lets you take over.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2325_5_3_7|",
+    "original": "The road is fairly straight, and with few cars out in the country, driving the old truck is relatively easy despite your inexperience.",
+    "translation": "",
+    "pos": 131
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2328_5_3_7|",
+    "original": "As you continue along, you feel the <<personsimple>> shift slightly beneath you. <<His>> hands creep over your inner thighs.",
+    "translation": "",
+    "pos": 276
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2330_5_3_7|",
+    "original": "You can feel <<his>> erection growing through <<his>> jeans.",
+    "translation": "",
+    "pos": 465
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2332_5_3_7|",
+    "original": "Your body reacts of its own accord, and you start feeling warm and excited, if somewhat distracted.<<garousal>><<arousal 400>>",
+    "translation": "",
+    "pos": 534
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2336_5_3_7|",
+    "original": "<<insufficientStat \"promiscuity\" \"to continue\">>",
+    "translation": "",
+    "pos": 698
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2338_5_3_7|",
+    "original": "<<link [[Continue driving|Farm Hitchhike Assistant Driver 2]]>><</link>><<promiscuous2>>",
+    "translation": "",
+    "pos": 757
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2341_5_3_7|",
+    "original": "<<link [[Stop driving|Farm Hitchhike Assistant Passenger]]>><<pass 12>><<set $phase2 to 1>><</link>>",
+    "translation": "",
+    "pos": 859
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2348_5_3_7|",
+    "original": "<<His>> hands begin to explore and feel up your body. Their touch is subtle at first, but becomes more firm the further you drive.",
+    "translation": "",
+    "pos": 24
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2350_5_3_7|",
+    "original": "You feel a heat building in you and squirm a little, but the <<person>> continues to pleasure you.",
+    "translation": "",
+    "pos": 172
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2351_5_3_7|",
+    "original": "<span class=\"pink\"><<He>> seems intent on bringing you to orgasm.</span><<garousal>><<arousal 1000>>",
+    "translation": "",
+    "pos": 271
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2355_5_3_7|",
+    "original": "<<insufficientStat \"promiscuity\" \"to continue\">>",
+    "translation": "",
+    "pos": 409
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2357_5_3_7|",
+    "original": "<<link [[Continue driving|Farm Hitchhike Assistant Driver 3]]>><</link>><<promiscuous3>>",
+    "translation": "",
+    "pos": 468
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 2",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2360_5_3_7|",
+    "original": "<<link [[Stop driving|Farm Hitchhike Assistant Passenger]]>><<pass 7>><<set $phase2 to 1>><</link>>",
+    "translation": "",
+    "pos": 570
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 3",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2367_5_3_7|",
+    "original": "You focus on driving and allow the <<person>> to continue <<his>> antics.",
+    "translation": "",
+    "pos": 40
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 3",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2369_5_3_7|",
+    "original": "<<His>> left hand starts wandering",
+    "translation": "",
+    "pos": 131
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 3",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2372_5_3_7|",
+    "original": "over",
+    "translation": "",
+    "pos": 218
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 3",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2374_5_3_7|",
+    "original": "under",
+    "translation": "",
+    "pos": 235
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 3",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2376_5_3_7|",
+    "original": "your _top.name",
+    "translation": "",
+    "pos": 251
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 3",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2378_5_3_7|",
+    "original": "to your chest, fingers rhythmically teasing your nipples<<if $player.breastsize gte 3>>\tand fondling your <<breasts>><</if>>.",
+    "translation": "",
+    "pos": 274
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 3",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2379_5_3_7|",
+    "original": "<<His>> right hand",
+    "translation": "",
+    "pos": 400
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 3",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2382_5_3_7|",
+    "original": "pushes up under",
+    "translation": "",
+    "pos": 498
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 3",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2384_5_3_7|",
+    "original": "slides over",
+    "translation": "",
+    "pos": 546
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 3",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2386_5_3_7|",
+    "original": "pushes down",
+    "translation": "",
+    "pos": 570
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 3",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2388_5_3_7|",
+    "original": "your _bottom.name and",
+    "translation": "",
+    "pos": 592
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 3",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2392_5_3_7|",
+    "original": "grasps your <<penis>>, slowly stroking up and down your length.",
+    "translation": "",
+    "pos": 708
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 3",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2394_5_3_7|",
+    "original": "teases your clit, gently rubbing your <<pussy>>.",
+    "translation": "",
+    "pos": 784
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 3",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2397_5_3_7|",
+    "original": "rubs your <<genitals>>.",
+    "translation": "",
+    "pos": 852
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 3",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2402_5_3_7|",
+    "original": "The arousal inside you builds, but you manage to stay on the road.",
+    "translation": "",
+    "pos": 976
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 3",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2403_5_3_7|",
+    "original": "When you get close to climaxing, you pull over to the side and put the truck in park",
+    "translation": "",
+    "pos": 1044
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 3",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2406_5_3_7|",
+    "original": "before finally letting go.",
+    "translation": "",
+    "pos": 1160
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 3",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2412_5_3_7|",
+    "original": "\"Well, that was fun,\" <<he>> says with a large grin. \"What do you say I drive for the rest of the trip?\"",
+    "translation": "",
+    "pos": 1247
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 3",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2415_5_3_7|",
+    "original": "A few minutes later, you arrive at your destination. With a smile and a wink, the <<person>> drops you off",
+    "translation": "",
+    "pos": 1366
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 3",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2418_5_3_7|",
+    "original": "before the <<personsimple>> suddenly stops. <<arousal -10>>",
+    "translation": "",
+    "pos": 1530
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 3",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2421_5_3_7|",
+    "original": "\"Well, that was fun,\" <<he>> says with a wicked grin. \"I think I'll drive for the rest of the trip.\"",
+    "translation": "",
+    "pos": 1604
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 3",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2422_5_3_7|",
+    "original": "<<He>> gestures for you to return to the passenger seat.",
+    "translation": "",
+    "pos": 1707
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 3",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2426_5_3_7|",
+    "original": "<<link [[Ask to finish|Farm Hitchhike Assistant Driver 4]]>><</link>><<promiscuous4>><<englishdifficulty 1 500>>",
+    "translation": "",
+    "pos": 1817
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 3",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2428_5_3_7|",
+    "original": "<<link [[Finish yourself|Farm Hitchhike Assistant Driver 5]]>><</link>><<promiscuous4>>",
+    "translation": "",
+    "pos": 1941
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 3",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2430_5_3_7|",
+    "original": "<<insufficientStat \"promiscuity\" \"to take things further\">>",
+    "translation": "",
+    "pos": 2043
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 3",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2433_5_3_7|",
+    "original": "<<link [[Accept it|Farm Hitchhike Assistant Passenger]]>><<pass 2>><<set $phase2 to 2>><</link>>",
+    "translation": "",
+    "pos": 2122
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 3",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2436_5_3_7|",
+    "original": "The arousal inside you builds, and you nearly lose control of the truck!",
+    "translation": "",
+    "pos": 2238
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 3",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2437_5_3_7|",
+    "original": "The <<personsimple>> quickly takes the wheel and steers you back onto the road, abruptly ending the fondling.",
+    "translation": "",
+    "pos": 2312
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 3",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2441_5_3_7|",
+    "original": "\"Maybe we should end the drivin' lesson there for today,\" <<he>> says, gesturing for you to return to the passenger seat.",
+    "translation": "",
+    "pos": 2476
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 3",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2442_5_3_7|",
+    "original": "The rest of the drive is a bit quiet as you calm down, but you are dropped off",
+    "translation": "",
+    "pos": 2599
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 4",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2451_5_3_7|",
+    "original": "\"P-please, don't stop,\" you beg, \"I was so close!\"",
+    "translation": "",
+    "pos": 48
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 4",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2453_5_3_7|",
+    "original": "\"You asshole, you know I wasn't done,\" you demand, \"come on, I'm almost there.\"",
+    "translation": "",
+    "pos": 140
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 4",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2455_5_3_7|",
+    "original": "\"I was almost done,\" you say, \"can you please go a little longer?\"",
+    "translation": "",
+    "pos": 230
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 4",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2460_5_3_7|",
+    "original": "\"Alright, you win,\" the <<person>> relents.",
+    "translation": "",
+    "pos": 339
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 4",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2461_5_3_7|",
+    "original": "<<He>> gets back to work, making sure you orgasm.",
+    "translation": "",
+    "pos": 384
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 4",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2464_5_3_7|",
+    "original": "You return to the passenger seat for the rest of the journey.",
+    "translation": "",
+    "pos": 477
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 4",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2465_5_3_7|",
+    "original": "The drive is a bit quiet as you calm down, but you are dropped off",
+    "translation": "",
+    "pos": 540
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 4",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2468_5_3_7|",
+    "original": "\"Aw,\" the <<person>> smirks, \"Sorry sweetie, but that's all I got for ya.\"",
+    "translation": "",
+    "pos": 653
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 4",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2471_5_3_7|",
+    "original": "You pout, but <<he>> refuses to budge.",
+    "translation": "",
+    "pos": 742
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 4",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2473_5_3_7|",
+    "original": "\"I know,\" the <<person>> smirks, \"but I think I like you livin' on the edge.\"",
+    "translation": "",
+    "pos": 824
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 4",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2476_5_3_7|",
+    "original": "You scowl, but <<he>> refuses to budge.",
+    "translation": "",
+    "pos": 916
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 4",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2478_5_3_7|",
+    "original": "\"Nope,\" the <<person>> smirks, \"I'm afraid that's all I got for ya.\"",
+    "translation": "",
+    "pos": 968
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 4",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2481_5_3_7|",
+    "original": "You roll your eyes, but <<he>> refuses to budge.",
+    "translation": "",
+    "pos": 1051
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 4",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2486_5_3_7|",
+    "original": "Frustrated, you return to the passenger seat for the remaining journey. The rest of the drive is silent, but you are dropped off",
+    "translation": "",
+    "pos": 1146
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 5",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2494_5_3_7|",
+    "original": "Obediently, you return to the passenger seat and buckle up before the <<person>> drives onwards.",
+    "translation": "",
+    "pos": 48
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 5",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2495_5_3_7|",
+    "original": "Whenever <<he>> is not looking, you sneak your hands to your <<genitals>> and try to climax.",
+    "translation": "",
+    "pos": 146
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 5",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2500_5_3_7|",
+    "original": "<<He>> does not say anything, although you think you catch a slight smile on <<his>> face after you orgasm.",
+    "translation": "",
+    "pos": 272
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 5",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2502_5_3_7|",
+    "original": "Defiantly, you stay seated on <<his>> lap and pick up where <<he>> left off, refusing to leave until you orgasm.",
+    "translation": "",
+    "pos": 421
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 5",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2507_5_3_7|",
+    "original": "<<He>> does not say anything, although you think you catch a slight smile on <<his>> face as you fix your clothing and return to the passenger seat for the remainder of the journey.",
+    "translation": "",
+    "pos": 567
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 5",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2509_5_3_7|",
+    "original": "You get out of the truck and make your way to the passenger side. Before getting in however, you move your hands to your <<genitalsandbreasts>> and quickly finish the job.",
+    "translation": "",
+    "pos": 759
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 5",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2514_5_3_7|",
+    "original": "<<He>> does not say anything, although you think you see a slight smile on <<his>> face after you climb back into the truck.",
+    "translation": "",
+    "pos": 964
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Driver 5",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2518_5_3_7|",
+    "original": "The rest of the drive is silent, but you are dropped off",
+    "translation": "",
+    "pos": 1173
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Passenger",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2527_5_3_7|",
+    "original": "You politely decline, drawing a small frown from the <<person>>.",
+    "translation": "",
+    "pos": 64
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Passenger",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2530_5_3_7|",
+    "original": "\"Alright, no worries. Driving ain't for everyone,\" <<he>> says with an obvious tone of disappointment.",
+    "translation": "",
+    "pos": 143
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Passenger",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2531_5_3_7|",
+    "original": "The rest of the drive is significantly less energetic than the first few minutes, but you are dropped off safely",
+    "translation": "",
+    "pos": 248
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Passenger",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2533_5_3_7|",
+    "original": "You pull off to the side of the road and firmly explain that you have driven enough for one day while returning to the passenger seat.",
+    "translation": "",
+    "pos": 396
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Passenger",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2536_5_3_7|",
+    "original": "<<He>> looks disappointed, but takes you the rest of the way regardless. You are dropped off",
+    "translation": "",
+    "pos": 545
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Passenger",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2538_5_3_7|",
+    "original": "Frustrated and horny, you return to the passenger seat for the rest of the journey.",
+    "translation": "",
+    "pos": 677
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Passenger",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2541_5_3_7|",
+    "original": "The rest of the drive is silent, but you arrive safely",
+    "translation": "",
+    "pos": 775
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Refuse",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2549_5_3_7|",
+    "original": "You step away from the truck. \"Alrighty then, have a nice day <<lass>>!\"",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Hitchhike Assistant Refuse",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2552_5_3_7|",
+    "original": "The window shuts, and <<he>> drives away.",
+    "translation": "",
+    "pos": 96
+  },
+  {
+    "passage": "Farm Hitchhike Assistant End",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2562_5_3_7|",
+    "original": "at Harvest Street all the same. You climb from the car, and <<he>> drives away.",
+    "translation": "",
+    "pos": 47
+  },
+  {
+    "passage": "Farm Hitchhike Assistant End",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2564_5_3_7|",
+    "original": "<<link [[Next|Harvest Street]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 138
+  },
+  {
+    "passage": "Farm Hitchhike Assistant End",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2566_5_3_7|",
+    "original": "in the farmlands all the same. You climb from the car, and <<he>> drives away.",
+    "translation": "",
+    "pos": 225
+  },
+  {
+    "passage": "Farm Hitchhike Assistant End",
+    "filepath": "overworld-plains/loc-farm/road.twee",
+    "key": "2568_5_3_7|",
+    "original": "<<link [[Next|Farmland]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 315
+  }
+]

@@ -1,0 +1,450 @@
+[
+  {
+    "passage": "Alex Gifts List",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "5_5_3_7|",
+    "original": "What would you like to give Alex?",
+    "translation": "",
+    "pos": 28
+  },
+  {
+    "passage": "Alex Gifts List",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "10_5_3_7|",
+    "original": "<<skinicon \"give\">><<link [[Give gift (0:05)|Alex Gifts]]>><<pass 5>><<give_gift Alex>><</link>>",
+    "translation": "",
+    "pos": 127
+  },
+  {
+    "passage": "Alex Gifts List",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "13_5_3_7|",
+    "original": "<<refuseicon>><<link [[Reconsider|Alex Gifts Reconsider]]>><</link>>",
+    "translation": "",
+    "pos": 241
+  },
+  {
+    "passage": "Alex Gifts Reconsider",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "19_5_3_7|",
+    "original": "Alex smiles at you.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Alex Gifts Reconsider",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "22_5_3_7|",
+    "original": "<<link [[Next|Farm Alex Bedroom]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 43
+  },
+  {
+    "passage": "Alex Gifts",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "32_5_3_7|",
+    "original": "\"I've brought you something,\" you say.",
+    "translation": "",
+    "pos": 134
+  },
+  {
+    "passage": "Alex Gifts",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "34_5_3_7|",
+    "original": "\"I made something,\" you say. \"Just for you.\"",
+    "translation": "",
+    "pos": 200
+  },
+  {
+    "passage": "Alex Gifts",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "36_5_3_7|",
+    "original": "\"I've made you a gift,\" you say. \"I hope you like it.\"",
+    "translation": "",
+    "pos": 258
+  },
+  {
+    "passage": "Alex Gifts",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "41_5_3_7|",
+    "original": "Alex grins. \"It's never the wrong time of day for such a breakfast,\" <<he>> says, grabbing a handy knife and fork from a drawer. <<He>> tucks in at once, pausing only to wipe grease from <<his>> chin.<<gglove>><<npcincr Alex love 3>>",
+    "translation": "",
+    "pos": 381
+  },
+  {
+    "passage": "Alex Gifts",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "44_5_3_7|",
+    "original": "<<link [[\"Tell \" + $NPCList[0].pronouns.him + \" to eat more gracefully\"|Alex Gifts Breakfast Tell]]>><<handheldon>><<npcincr Alex dom -1>><</link>><<ldom>>",
+    "translation": "",
+    "pos": 633
+  },
+  {
+    "passage": "Alex Gifts",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "46_5_3_7|",
+    "original": "<<link [[Just watch|Alex Gifts Breakfast Watch]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 802
+  },
+  {
+    "passage": "Alex Gifts",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "50_5_3_7|",
+    "original": "\"Apple crumble!\" Alex says as you place the dessert in front of <<him>>. \"My favourite!\" <<He>> tucks in, shovelling large spoonfuls into <<his>> mouth in one go.",
+    "translation": "",
+    "pos": 962
+  },
+  {
+    "passage": "Alex Gifts",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "52_5_3_7|",
+    "original": "\"The fruit has just the right amount of tartness,\" <<he>> says with <<his>> mouth full. \"You're a good cook.\"<<gglove>><<npcincr Alex love 3>>",
+    "translation": "",
+    "pos": 1142
+  },
+  {
+    "passage": "Alex Gifts",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "54_5_3_7|",
+    "original": "<<link [[Thank|Alex Gifts Crumble Thank]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 1302
+  },
+  {
+    "passage": "Alex Gifts",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "56_5_3_7|",
+    "original": "<<link [[Compliment|Alex Gifts Crumble Compliment]]>><<handheldon>><<npcincr Alex dom 1>><</link>><<gdom>>",
+    "translation": "",
+    "pos": 1382
+  },
+  {
+    "passage": "Alex Gifts",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "60_5_3_7|",
+    "original": "\"This looks fancy,\" Alex says, observing the steak in front of <<him>>. \"Like something prepared in a restaurant.\" <<He>> slices part of the meat, and seems surprised by its tenderness.",
+    "translation": "",
+    "pos": 1567
+  },
+  {
+    "passage": "Alex Gifts",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "62_5_3_7|",
+    "original": "\"Wow,\" <<he>> says through a mouthful. \"My <<if $pronoun is \"m\">>ma<<else>>pa<</if>> would love this.\"<<gglove>><<npcincr Alex love 3>>",
+    "translation": "",
+    "pos": 1770
+  },
+  {
+    "passage": "Alex Gifts",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "64_5_3_7|",
+    "original": "<<He>> eats a bit too fast. You're worried <<hes>> going to choke.",
+    "translation": "",
+    "pos": 1923
+  },
+  {
+    "passage": "Alex Gifts",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "67_5_3_7|",
+    "original": "<<link [[Get some water|Alex Gifts Steak Water]]>><<handheldon>><<npcincr Alex love 1>><</link>><<glove>>",
+    "translation": "",
+    "pos": 2008
+  },
+  {
+    "passage": "Alex Gifts",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "69_5_3_7|",
+    "original": "<<link [[Just wait|Alex Gifts Steak Wait]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 2127
+  },
+  {
+    "passage": "Alex Gifts",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "73_5_3_7|",
+    "original": "You place the <<recipe_name $gift.name>> in front of Alex. <<He>> licks <<his>> lips. \"Smells spicy,\" <<he>> says, lifting <<his>> cutlery. \"I hope it's really hot.\"",
+    "translation": "",
+    "pos": 2283
+  },
+  {
+    "passage": "Alex Gifts",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "75_5_3_7|",
+    "original": "<<He>> tucks in, showing no sign of pain at first, but it's not long before tears start to stream. <<He>> doesn't stop eating though, until the dish is empty.",
+    "translation": "",
+    "pos": 2466
+  },
+  {
+    "passage": "Alex Gifts",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "77_5_3_7|",
+    "original": "\"Thanks,\" <<he>> says, wiping <<his>> cheeks with a tissue. \"It's like you'd get at a restaurant, but more wholesome, somehow.\"<<glove>><<npcincr Alex love 1>>",
+    "translation": "",
+    "pos": 2642
+  },
+  {
+    "passage": "Alex Gifts",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "79_5_3_7|",
+    "original": "<<link [[Next|Farm Alex Bedroom]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 2819
+  },
+  {
+    "passage": "Alex Gifts",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "82_5_3_7|",
+    "original": "You hand Alex the <<recipe_name $gift.name>>. <<He>> swirls it around. \"Looks refreshing,\" <<he>> says. Then takes a sip. \"Mmm.\" <<He>> takes a gulp. \"That hits the spot.\"<<glove>><<npcincr Alex love 1>>",
+    "translation": "",
+    "pos": 2932
+  },
+  {
+    "passage": "Alex Gifts",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "85_5_3_7|",
+    "original": "<<He>> finishes the rest of the drink in one go, and releases a satisfied sigh as <<he>> slams the empty vessel against <<his>> desk. \"Thanks.\"",
+    "translation": "",
+    "pos": 3154
+  },
+  {
+    "passage": "Alex Gifts",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "88_5_3_7|",
+    "original": "<<link [[Next|Farm Alex Bedroom]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 3316
+  },
+  {
+    "passage": "Alex Gifts",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "91_5_3_7|",
+    "original": "You hold out the <<recipe_name $gift.name>>. Alex whistles. \"That looks delicious,\" <<he>> says. \"All for me? Thank you.\"",
+    "translation": "",
+    "pos": 3395
+  },
+  {
+    "passage": "Alex Gifts",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "93_5_3_7|",
+    "original": "<<He>> takes a bite. <<His>> enjoyment is clear at once. \"You're a good cook,\" <<he>> says. \"Better than <<if $pronoun is \"f\">>Mum<<else>>Dad<</if>>.\" Another bite. \"Don't tell <<him>> I said that.\"",
+    "translation": "",
+    "pos": 3534
+  },
+  {
+    "passage": "Alex Gifts",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "95_5_3_7|",
+    "original": "<<He>> puts down the plate. \"Don't hesitate to feed me again should the idea strike you.\"<<glove>><<npcincr Alex love 1>>",
+    "translation": "",
+    "pos": 3750
+  },
+  {
+    "passage": "Alex Gifts",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "97_5_3_7|",
+    "original": "<<link [[Next|Farm Alex Bedroom]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 3889
+  },
+  {
+    "passage": "Alex Gifts Breakfast Tell",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "106_5_3_7|",
+    "original": "\"You're spilling some,\" you say. \"I made it for you, not the carpet.\"",
+    "translation": "",
+    "pos": 51
+  },
+  {
+    "passage": "Alex Gifts Breakfast Tell",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "108_5_3_7|",
+    "original": "\"You eat like one of the pigs,\" you say.",
+    "translation": "",
+    "pos": 165
+  },
+  {
+    "passage": "Alex Gifts Breakfast Tell",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "110_5_3_7|",
+    "original": "\"I'd get in trouble eating so messily back in the orphanage,\" you say.",
+    "translation": "",
+    "pos": 219
+  },
+  {
+    "passage": "Alex Gifts Breakfast Tell",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "114_5_3_7|",
+    "original": "\"Sorry,\" Alex says with <<his>> mouth full. \"It's just too tasty.\" <<He>> cleans up the crumbs, and continues with a more measured pace.",
+    "translation": "",
+    "pos": 308
+  },
+  {
+    "passage": "Alex Gifts Breakfast Tell",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "117_5_3_7|",
+    "original": "<<link [[Next|Farm Alex Bedroom]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 455
+  },
+  {
+    "passage": "Alex Gifts Breakfast Watch",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "123_5_3_7|",
+    "original": "You watch Alex devour the meal. <<He>> reclines in <<his>> chair when finished, <<his>> eyes closed, and a satisfied smile on <<his>> face. \"Thanks,\" <<he>> says. \"Even better than <<if $pronoun is \"m\">>ma<<else>>pa<</if>> used to make.\"",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Alex Gifts Breakfast Watch",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "126_5_3_7|",
+    "original": "<<link [[Next|Farm Alex Bedroom]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 261
+  },
+  {
+    "passage": "Alex Gifts Crumble Thank",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "133_5_3_7|",
+    "original": "\"Thank you,\" you say. \"That means a lot.\"",
+    "translation": "",
+    "pos": 51
+  },
+  {
+    "passage": "Alex Gifts Crumble Thank",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "135_5_3_7|",
+    "original": "\"Thanks for appreciating me,\" you say.",
+    "translation": "",
+    "pos": 137
+  },
+  {
+    "passage": "Alex Gifts Crumble Thank",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "137_5_3_7|",
+    "original": "\"Thank you,\" you say.",
+    "translation": "",
+    "pos": 189
+  },
+  {
+    "passage": "Alex Gifts Crumble Thank",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "141_5_3_7|",
+    "original": "\"No problem,\" Alex says, losing some crumbs in the process. \"I'm lucky to have someone like you.\"",
+    "translation": "",
+    "pos": 229
+  },
+  {
+    "passage": "Alex Gifts Crumble Thank",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "144_5_3_7|",
+    "original": "<<He>> finishes the dessert, and stretches.",
+    "translation": "",
+    "pos": 337
+  },
+  {
+    "passage": "Alex Gifts Crumble Thank",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "147_5_3_7|",
+    "original": "<<link [[Next|Farm Alex Bedroom]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 391
+  },
+  {
+    "passage": "Alex Gifts Crumble Compliment",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "154_5_3_7|",
+    "original": "\"You work so hard on the farm,\" you say. \"So I did my best.\"",
+    "translation": "",
+    "pos": 51
+  },
+  {
+    "passage": "Alex Gifts Crumble Compliment",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "156_5_3_7|",
+    "original": "\"I need to keep your energy up,\" you say. \"You work so hard.\"",
+    "translation": "",
+    "pos": 156
+  },
+  {
+    "passage": "Alex Gifts Crumble Compliment",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "158_5_3_7|",
+    "original": "\"You work really hard on the farm,\" you say. \"So it's only fair.\"",
+    "translation": "",
+    "pos": 231
+  },
+  {
+    "passage": "Alex Gifts Crumble Compliment",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "162_5_3_7|",
+    "original": "Avery smiles with pride. \"Thanks,\" <<he>> says, dropping crumbs down <<his>> shirt. \"You're very kind.\"",
+    "translation": "",
+    "pos": 315
+  },
+  {
+    "passage": "Alex Gifts Crumble Compliment",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "165_5_3_7|",
+    "original": "<<He>> finishes the crumble, and burps in satisfaction.",
+    "translation": "",
+    "pos": 429
+  },
+  {
+    "passage": "Alex Gifts Crumble Compliment",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "168_5_3_7|",
+    "original": "<<link [[Next|Farm Alex Bedroom]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 495
+  },
+  {
+    "passage": "Alex Gifts Steak Water",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "174_5_3_7|",
+    "original": "You fetch some water for Alex. <<He>> gulps it down. \"Thanks, love,\" <<he>> says, before shovelling more steak into <<his>> mouth.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Alex Gifts Steak Water",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "177_5_3_7|",
+    "original": "<<He>> leans back when finished, and pats <<his>> stomach. \"You're a good chef.\"",
+    "translation": "",
+    "pos": 154
+  },
+  {
+    "passage": "Alex Gifts Steak Water",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "180_5_3_7|",
+    "original": "<<link [[Next|Farm Alex Bedroom]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 245
+  },
+  {
+    "passage": "Alex Gifts Steak Wait",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "186_5_3_7|",
+    "original": "You wait for Alex to finish. At one point, <<he>> chokes on an eager piece of steak, but holds <<his>> hand up to decline your help, and manages to cough it up.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Alex Gifts Steak Wait",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "189_5_3_7|",
+    "original": "<<He>> inhales, sighs, and smiles. \"You're a good chef.\"",
+    "translation": "",
+    "pos": 184
+  },
+  {
+    "passage": "Alex Gifts Steak Wait",
+    "filepath": "overworld-plains/loc-farm/gifts.twee",
+    "key": "192_5_3_7|",
+    "original": "<<link [[Next|Farm Alex Bedroom]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 251
+  }
+]

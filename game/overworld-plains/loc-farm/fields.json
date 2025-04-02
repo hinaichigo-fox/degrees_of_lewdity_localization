@@ -1,0 +1,762 @@
+[
+  {
+    "passage": "Farm Fields",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "7_5_3_7|",
+    "original": "The charred smell greets you before you see them. The fields are still black from Remy's sabotage. A sack of potato seeds lies half-spilled at the gate.",
+    "translation": "",
+    "pos": 162
+  },
+  {
+    "passage": "Farm Fields",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "10_5_3_7|",
+    "original": "<span class=\"gold\">You can now grow <<icon \"tending/potato.png\">> potatoes.</span>",
+    "translation": "",
+    "pos": 364
+  },
+  {
+    "passage": "Farm Fields",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "13_5_3_7|",
+    "original": "<span class=\"gold\">You can now grow <<icon \"tending/turnip.png\">> turnips.</span>",
+    "translation": "",
+    "pos": 492
+  },
+  {
+    "passage": "Farm Fields",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "16_5_3_7|",
+    "original": "You are in your fields.",
+    "translation": "",
+    "pos": 594
+  },
+  {
+    "passage": "Farm Fields",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "25_5_3_7|",
+    "original": "Alex rushes over. <span class=\"red\">\"Remy's here,\"</span> <<he>> says. \"We can do this. Go get ready, I'll",
+    "translation": "",
+    "pos": 830
+  },
+  {
+    "passage": "Farm Fields",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "27_5_3_7|",
+    "original": "check on $farm.tower_guard.\"",
+    "translation": "",
+    "pos": 965
+  },
+  {
+    "passage": "Farm Fields",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "29_5_3_7|",
+    "original": "see if I can spot them.\"",
+    "translation": "",
+    "pos": 1006
+  },
+  {
+    "passage": "Farm Fields",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "36_5_3_7|",
+    "original": "<<link [[Prepare|Farm Assault Wardrobe]]>><<endevent>><<set $phase to 2>><</link>>",
+    "translation": "",
+    "pos": 1087
+  },
+  {
+    "passage": "Farm Fields",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "44_5_3_7|",
+    "original": "The watchtower stands guard.",
+    "translation": "",
+    "pos": 1330
+  },
+  {
+    "passage": "Farm Fields",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "47_5_3_7|",
+    "original": "<<print $NPCList[0].name>> leans against the railing. A trail of smoke rises from <<him>>.",
+    "translation": "",
+    "pos": 1459
+  },
+  {
+    "passage": "Farm Fields",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "49_5_3_7|",
+    "original": "<<print $NPCList[0].name>> waves at you from the top.",
+    "translation": "",
+    "pos": 1608
+  },
+  {
+    "passage": "Farm Fields",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "51_5_3_7|",
+    "original": "You can see <<print $NPCList[0].name>>'s silhouette at the top.",
+    "translation": "",
+    "pos": 1720
+  },
+  {
+    "passage": "Farm Fields",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "53_5_3_7|",
+    "original": "<<print $NPCList[0].name>> leans against the railing, watching you.",
+    "translation": "",
+    "pos": 1800
+  },
+  {
+    "passage": "Farm Fields",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "57_5_3_7|",
+    "original": "The watchtower stands guard, though it's currently unoccupied.",
+    "translation": "",
+    "pos": 1909
+  },
+  {
+    "passage": "Farm Fields",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "60_5_3_7|",
+    "original": "<<laddericon>><<link [[Climb|Farm Tower]]>><</link>>",
+    "translation": "",
+    "pos": 1991
+  },
+  {
+    "passage": "Farm Fields",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "65_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave (0:05)|Farm Work]]>><<handheldon>><<pass 5>><</link>>",
+    "translation": "",
+    "pos": 2089
+  },
+  {
+    "passage": "Farm Tower",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "76_5_3_7|",
+    "original": "You climb the tower.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Tower",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "82_5_3_7|",
+    "original": "<<print $NPCList[0].name>> puts down <<his>> cigarette. \"What can I do for you?\"",
+    "translation": "",
+    "pos": 155
+  },
+  {
+    "passage": "Farm Tower",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "84_5_3_7|",
+    "original": "<<print $NPCList[0].name>> smiles at you. \"What's up?\"",
+    "translation": "",
+    "pos": 290
+  },
+  {
+    "passage": "Farm Tower",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "86_5_3_7|",
+    "original": "<<print $NPCList[0].name>> nods at you. \"Something amiss?\"",
+    "translation": "",
+    "pos": 399
+  },
+  {
+    "passage": "Farm Tower",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "88_5_3_7|",
+    "original": "<<print $NPCList[0].name>> checks you out. \"What brings your sexy ass up here?\"",
+    "translation": "",
+    "pos": 470
+  },
+  {
+    "passage": "Farm Tower",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "92_5_3_7|",
+    "original": "Security skill: <<guard_skill_text \"tower\">>",
+    "translation": "",
+    "pos": 571
+  },
+  {
+    "passage": "Farm Tower",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "94_5_3_7|",
+    "original": "Wage: <<printmoney $farm.tower_guard_wage>>",
+    "translation": "",
+    "pos": 623
+  },
+  {
+    "passage": "Farm Tower",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "99_5_3_7|",
+    "original": "The moor stretches to the horizon in one direction, and the sea in the other.",
+    "translation": "",
+    "pos": 708
+  },
+  {
+    "passage": "Farm Tower",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "102_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Farm Fields]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 804
+  },
+  {
+    "passage": "Farm Tower Pay",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "109_5_3_7|",
+    "original": "\"Thanks,\" <<print $NPCList[0].name>> says. \"I'll keep my watch up.\"",
+    "translation": "",
+    "pos": 60
+  },
+  {
+    "passage": "Farm Tower Pay",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "111_5_3_7|",
+    "original": "\"Cheers love.\" <<print $NPCList[0].name>>'s smile broadens. \"It's more lively out here than I expected.\"",
+    "translation": "",
+    "pos": 180
+  },
+  {
+    "passage": "Farm Tower Pay",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "113_5_3_7|",
+    "original": "<<print $NPCList[0].name>> nods again, then stares out over the moor.",
+    "translation": "",
+    "pos": 337
+  },
+  {
+    "passage": "Farm Tower Pay",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "115_5_3_7|",
+    "original": "\"Nice,\" <<print $NPCList[0].name>> says. \"I'd suggest another sort of payment, but I need the cash.\"",
+    "translation": "",
+    "pos": 417
+  },
+  {
+    "passage": "Farm Tower Pay",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "122_5_3_7|",
+    "original": "You climb down the tower.",
+    "translation": "",
+    "pos": 568
+  },
+  {
+    "passage": "Farm Tower Pay",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "125_5_3_7|",
+    "original": "<<link [[Leave|Farm Fields]]>><<saveNPC 0 \"farm_tower_guard\">><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 606
+  },
+  {
+    "passage": "Farm Tower Pay",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "128_5_3_7|",
+    "original": "<<He>> walks away.",
+    "translation": "",
+    "pos": 729
+  },
+  {
+    "passage": "Farm Tower Pay",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "131_5_3_7|",
+    "original": "<<link [[Leave|Farm Work]]>><<saveNPC 0 \"farm_tower_guard\">><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 760
+  },
+  {
+    "passage": "Farm Guard Pay Refuse",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "142_5_3_7|",
+    "original": "\"I-I can't afford it,\" you say. \"I'm really sorry.\"",
+    "translation": "",
+    "pos": 48
+  },
+  {
+    "passage": "Farm Guard Pay Refuse",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "144_5_3_7|",
+    "original": "\"Budgets too tight,\" you say. \"I'll be good for it next week.\"",
+    "translation": "",
+    "pos": 141
+  },
+  {
+    "passage": "Farm Guard Pay Refuse",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "146_5_3_7|",
+    "original": "\"I can't afford it,\" you say. \"I'll pay you back.\"",
+    "translation": "",
+    "pos": 214
+  },
+  {
+    "passage": "Farm Guard Pay Refuse",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "152_5_3_7|",
+    "original": "<<print $NPCList[0].name>> sighs. <span class=\"green\">\"That's fine,\"</span> <<he>> says. \"See you next week.\"",
+    "translation": "",
+    "pos": 363
+  },
+  {
+    "passage": "Farm Guard Pay Refuse",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "154_5_3_7|",
+    "original": "<<print $NPCList[0].name>> shrugs. <span class=\"green\">\"I can wait,\"</span> <<he>> says. \"But not forever.\"",
+    "translation": "",
+    "pos": 527
+  },
+  {
+    "passage": "Farm Guard Pay Refuse",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "156_5_3_7|",
+    "original": "<span class=\"green\">\"I understand,\"</span> <<print $NPCList[0].name>> says.",
+    "translation": "",
+    "pos": 689
+  },
+  {
+    "passage": "Farm Guard Pay Refuse",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "158_5_3_7|",
+    "original": "<<print $NPCList[0].name>> kicks at a mound of dirt. <span class=\"green\">\"I'll wait,\"</span> <<he>> says. \"But only because it's you.\"",
+    "translation": "",
+    "pos": 777
+  },
+  {
+    "passage": "Farm Guard Pay Refuse",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "161_5_3_7|",
+    "original": "<<He>> walks away.",
+    "translation": "",
+    "pos": 923
+  },
+  {
+    "passage": "Farm Guard Pay Refuse",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "166_5_3_7|",
+    "original": "<<link [[Next|Farm Work]]>><<saveNPC 0 \"farm_tower_guard\">><<set $farm.tower_guard_patience to 1>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 987
+  },
+  {
+    "passage": "Farm Guard Pay Refuse",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "170_5_3_7|",
+    "original": "<<print $NPCList[0].name>> <span class=\"red\">shakes <<his>> head.</span> \"Sorry,\" <<he>> says. \"I'd love to help for free, but I've bills to pay. See you around.\"",
+    "translation": "",
+    "pos": 1171
+  },
+  {
+    "passage": "Farm Guard Pay Refuse",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "172_5_3_7|",
+    "original": "<span class=\"red\">\"Sorry <<girl>>,\"</span> <<print $NPCList[0].name>> says. \"I can't mooch off my friends forever. See you.\"",
+    "translation": "",
+    "pos": 1388
+  },
+  {
+    "passage": "Farm Guard Pay Refuse",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "174_5_3_7|",
+    "original": "<span class=\"red\">\"That's it from me,</span> then,\" <<print $NPCList[0].name>> says. \"Good luck.\"",
+    "translation": "",
+    "pos": 1567
+  },
+  {
+    "passage": "Farm Guard Pay Refuse",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "176_5_3_7|",
+    "original": "<span class=\"red\">\"Sorry <<girl>>,\"</span> <<print $NPCList[0].name>> says. \"As much as I'd like to feed off your radiance, I need something solid. Bye.\"",
+    "translation": "",
+    "pos": 1677
+  },
+  {
+    "passage": "Farm Guard Pay Refuse",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "179_5_3_7|",
+    "original": "<<He>> leaves the farm.",
+    "translation": "",
+    "pos": 1851
+  },
+  {
+    "passage": "Farm Guard Pay Refuse",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "181_5_3_7|",
+    "original": "<span class=\"purple\">The watchtower will no longer operate until a replacement is found.</span>",
+    "translation": "",
+    "pos": 1886
+  },
+  {
+    "passage": "Farm Guard Pay Refuse",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "183_5_3_7|",
+    "original": "<<link [[Next|Farm Work]]>><<endevent>><<clearNPC \"farm_tower_guard\">><<set $farm.tower_guard to 0>><</link>>",
+    "translation": "",
+    "pos": 1993
+  },
+  {
+    "passage": "Farm Guard Pay Seduce",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "205_5_3_7|",
+    "original": "<span class=\"gold\">You feel more confident in your powers of seduction.</span>",
+    "translation": "",
+    "pos": 392
+  },
+  {
+    "passage": "Farm Guard Pay Seduce",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "211_5_3_7|",
+    "original": "\"A-are you sure there's no other way I can pay?\" you purr.",
+    "translation": "",
+    "pos": 547
+  },
+  {
+    "passage": "Farm Guard Pay Seduce",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "213_5_3_7|",
+    "original": "\"Oh, I'll pay you all right,\" you say. \"While you're on your back.\"",
+    "translation": "",
+    "pos": 647
+  },
+  {
+    "passage": "Farm Guard Pay Seduce",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "215_5_3_7|",
+    "original": "\"There's another way I can pay you,\" you purr.",
+    "translation": "",
+    "pos": 725
+  },
+  {
+    "passage": "Farm Guard Pay Seduce",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "221_5_3_7|",
+    "original": "<span class=\"green\">\"I was hoping you'd offer,\"</span> <<print $NPCList[0].name>> says. \"Didn't want to be a creep.\" You take <<his>> hand, and lead <<him>> to a secluded spot in the barn.",
+    "translation": "",
+    "pos": 894
+  },
+  {
+    "passage": "Farm Guard Pay Seduce",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "223_5_3_7|",
+    "original": "<<print $NPCList[0].name>> tries to speak, <span class=\"green\">but can only manage a gulp.</span> You take <<his>> hand, and lead <<him>> to a secluded spot in the barn.",
+    "translation": "",
+    "pos": 1137
+  },
+  {
+    "passage": "Farm Guard Pay Seduce",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "225_5_3_7|",
+    "original": "<span class=\"green\">\"Just this once,\"</span> <<print $NPCList[0].name>> says. \"I know it's hard out here.\" You take <<his>> hand, and lead <<him>> to a secluded spot in the barn.",
+    "translation": "",
+    "pos": 1361
+  },
+  {
+    "passage": "Farm Guard Pay Seduce",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "227_5_3_7|",
+    "original": "<span class=\"green\">\"Nice,\"</span> <<print $NPCList[0].name>> says. \"Let's do it in the barn.\"",
+    "translation": "",
+    "pos": 1552
+  },
+  {
+    "passage": "Farm Guard Pay Seduce",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "229_5_3_7|",
+    "original": "You find a secluded spot at the back.",
+    "translation": "",
+    "pos": 1660
+  },
+  {
+    "passage": "Farm Guard Pay Seduce",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "233_5_3_7|",
+    "original": "<<link [[Next|Farm Guard Sex]]>><<set $sexstart to 1>><</link>>",
+    "translation": "",
+    "pos": 1719
+  },
+  {
+    "passage": "Farm Guard Pay Seduce",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "237_5_3_7|",
+    "original": "<span class=\"red\">\"Sorry,\"</span> <<print $NPCList[0].name>> says. \"You're cute, but I've got bills to pay.\"",
+    "translation": "",
+    "pos": 1847
+  },
+  {
+    "passage": "Farm Guard Pay Seduce",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "239_5_3_7|",
+    "original": "\"You're a lewd one,\" <<print $NPCList[0].name>> says. <span class=\"red\">\"But if I took up every offer like that, I'd be destitute.\"</span>",
+    "translation": "",
+    "pos": 2010
+  },
+  {
+    "passage": "Farm Guard Pay Seduce",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "241_5_3_7|",
+    "original": "<span class=\"red\">\"Not interested,\"</span> <<print $NPCList[0].name>> says. \"Whores a plenty in town.\"",
+    "translation": "",
+    "pos": 2203
+  },
+  {
+    "passage": "Farm Guard Pay Seduce",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "243_5_3_7|",
+    "original": "\"Tempting,\" <<print $NPCList[0].name>> says. <span class=\"red\">\"But my wage could buy many cheaper <<girls>>.</span> Sorry.\"",
+    "translation": "",
+    "pos": 2318
+  },
+  {
+    "passage": "Farm Guard Pay Seduce",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "247_5_3_7|",
+    "original": "<<link [[Say you can't afford it right now|Farm Guard Pay Refuse]]>><</link>><<lltrust>>",
+    "translation": "",
+    "pos": 2483
+  },
+  {
+    "passage": "Farm Guard Sex",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "273_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Farm Guard Sex Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 292
+  },
+  {
+    "passage": "Farm Guard Sex",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "275_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Farm Guard Sex]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 386
+  },
+  {
+    "passage": "Farm Guard Sex Finish",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "284_5_3_7|",
+    "original": "\"Damn,\" <<print $NPCList[0].name>> says. \"Seduced again. Gonna be a tight week.\"",
+    "translation": "",
+    "pos": 142
+  },
+  {
+    "passage": "Farm Guard Sex Finish",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "286_5_3_7|",
+    "original": "\"Thanks love,\" <<print $NPCList[0].name>> says. \"Didn't know I was the type to roll around in hay until I met you.\"",
+    "translation": "",
+    "pos": 277
+  },
+  {
+    "passage": "Farm Guard Sex Finish",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "288_5_3_7|",
+    "original": "\"I'll get ready for work,\" <<print $NPCList[0].name>> says. \"Deal's a deal.\"",
+    "translation": "",
+    "pos": 447
+  },
+  {
+    "passage": "Farm Guard Sex Finish",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "290_5_3_7|",
+    "original": "\"Damn <<girl>>,\" <<print $NPCList[0].name>> says. \"You're good at this. Wanna brag to my friends, but also wanna keep you to myself. Decisions.\"",
+    "translation": "",
+    "pos": 536
+  },
+  {
+    "passage": "Farm Guard Sex Finish",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "292_5_3_7|",
+    "original": "Your employee leaves the barn.",
+    "translation": "",
+    "pos": 691
+  },
+  {
+    "passage": "Farm Guard Sex Finish",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "293_5_3_7|",
+    "original": "<<note \"+ Security Skill\" \"green\">><<note \"+ Wage\" \"red\">>",
+    "translation": "",
+    "pos": 723
+  },
+  {
+    "passage": "Farm Guard Sex Finish",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "295_5_3_7|",
+    "original": "<<tearful>> you brush off hay.",
+    "translation": "",
+    "pos": 793
+  },
+  {
+    "passage": "Farm Guard Sex Finish",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "304_5_3_7|",
+    "original": "<<link [[Next|Farm Work]]>><</link>>",
+    "translation": "",
+    "pos": 1054
+  },
+  {
+    "passage": "Farm Guard Sex Finish",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "307_5_3_7|",
+    "original": "\"Sorry,\" <<print $NPCList[0].name>> says, backing away. \"I misread things. Gimme my money, and I'll be on my way.\"",
+    "translation": "",
+    "pos": 1170
+  },
+  {
+    "passage": "Farm Guard Sex Finish",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "309_5_3_7|",
+    "original": "\"Alright alright!\" <<print $NPCList[0].name>> says, holding <<his>> hands up. \"I get it. No more touching. I'll just take my money.\"",
+    "translation": "",
+    "pos": 1339
+  },
+  {
+    "passage": "Farm Guard Sex Finish",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "311_5_3_7|",
+    "original": "\"Easy <<girl>>,\" <<print $NPCList[0].name>> says, backing off. \"Let's keep things civil. My money.\"",
+    "translation": "",
+    "pos": 1526
+  },
+  {
+    "passage": "Farm Guard Sex Finish",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "313_5_3_7|",
+    "original": "\"I like it rough, but damn,\" <<print $NPCList[0].name>> says. \"You can pay me another way if you insist.\"",
+    "translation": "",
+    "pos": 1638
+  },
+  {
+    "passage": "Farm Guard Sex Finish",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "320_5_3_7|",
+    "original": "<<link [[Say you can't afford it right now|Farm Guard Pay Refuse]]>><</link>><<lltrust>>",
+    "translation": "",
+    "pos": 1859
+  },
+  {
+    "passage": "Farm Guard Sex Finish",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "324_5_3_7|",
+    "original": "\"I'm coming!\" Alex enters the barn.",
+    "translation": "",
+    "pos": 2018
+  },
+  {
+    "passage": "Farm Guard Sex Finish",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "328_5_3_7|",
+    "original": "<<print $NPCList[0].name>> backs away from you. \"This isn't what this looks like,\" <<he>> says.",
+    "translation": "",
+    "pos": 2114
+  },
+  {
+    "passage": "Farm Guard Sex Finish",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "330_5_3_7|",
+    "original": "<<print $NPCList[0].name>> steps away from you. \"Sorry boss,\" <<he>> says. \"Er, bosses. I didn't mean nothing by it.\"",
+    "translation": "",
+    "pos": 2264
+  },
+  {
+    "passage": "Farm Guard Sex Finish",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "332_5_3_7|",
+    "original": "<<print $NPCList[0].name>> throws up <<his>> arms. \"I lost my cool,\" <<he>> says. \"I'm sorry.\"",
+    "translation": "",
+    "pos": 2436
+  },
+  {
+    "passage": "Farm Guard Sex Finish",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "334_5_3_7|",
+    "original": "<<print $NPCList[0].name>> stumbles away from you. \"It was <<pher>> idea,\" <<he>> says. \"I swear!\"",
+    "translation": "",
+    "pos": 2543
+  },
+  {
+    "passage": "Farm Guard Sex Finish",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "342_5_3_7|",
+    "original": "\"Get the fuck off <<if C.npc.Alex.dom gte 20>>my<<else>>our<</if>> farm,\" Alex says. \"You're fired.\"",
+    "translation": "",
+    "pos": 2741
+  },
+  {
+    "passage": "Farm Guard Sex Finish",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "345_5_3_7|",
+    "original": "<<print $NPCList[0].name>> opens <<his>> mouth to protest, but decides against it. <<He>> leaves the barn.",
+    "translation": "",
+    "pos": 2862
+  },
+  {
+    "passage": "Farm Guard Sex Finish",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "348_5_3_7|",
+    "original": "\"Are you okay?\" Alex asks as <<he>> helps you off the hay. \"I thought we could trust <<person2>><<him>>.<<person1>> I'll be more watchful in the future.\"<<ggdom>><<npcincr Alex dom 3>>",
+    "translation": "",
+    "pos": 2993
+  },
+  {
+    "passage": "Farm Guard Sex Finish",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "351_5_3_7|",
+    "original": "<span class=\"purple\">The watchtower will no longer operate until a replacement is found.</span>",
+    "translation": "",
+    "pos": 3190
+  },
+  {
+    "passage": "Farm Guard Sex Finish",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "353_5_3_7|",
+    "original": "<<link [[Next|Farm Work]]>><<endevent>><<clearNPC \"farm_tower_guard\">><<set $farm.tower_guard to 0>><</link>>",
+    "translation": "",
+    "pos": 3297
+  },
+  {
+    "passage": "Farm Guard Sex Finish",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "357_5_3_7|",
+    "original": "\"Fine,\" <<print $NPCList[0].name>> says. \"I'll take the money instead.\"",
+    "translation": "",
+    "pos": 3471
+  },
+  {
+    "passage": "Farm Guard Sex Finish",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "359_5_3_7|",
+    "original": "\"Suit yourself,\" <<print $NPCList[0].name>> says. \"I'm calm. How about the money?\"",
+    "translation": "",
+    "pos": 3597
+  },
+  {
+    "passage": "Farm Guard Sex Finish",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "361_5_3_7|",
+    "original": "\"Didn't expect you to work me up so easily,\" <<print $NPCList[0].name>> says. \"Now, about the money.\"",
+    "translation": "",
+    "pos": 3734
+  },
+  {
+    "passage": "Farm Guard Sex Finish",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "363_5_3_7|",
+    "original": "\"You little tease,\" <<print $NPCList[0].name>> says. \"Getting me all worked up like that. Hope you appreciate the willpower this takes. I'll take my money.\"",
+    "translation": "",
+    "pos": 3848
+  },
+  {
+    "passage": "Farm Guard Sex Finish",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "366_5_3_7|",
+    "original": "<<tearful>> you brush off the hay.",
+    "translation": "",
+    "pos": 4025
+  },
+  {
+    "passage": "Farm Guard Sex Finish",
+    "filepath": "overworld-plains/loc-farm/fields.twee",
+    "key": "372_5_3_7|",
+    "original": "<<link [[Say you can't afford it right now|Farm Guard Pay Refuse]]>><</link>><<lltrust>>",
+    "translation": "",
+    "pos": 4166
+  }
+]

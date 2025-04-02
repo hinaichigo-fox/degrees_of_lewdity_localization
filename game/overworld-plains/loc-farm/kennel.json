@@ -1,0 +1,2258 @@
+[
+  {
+    "passage": "Farm Kennel",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "6_5_3_7|",
+    "original": "You enter the kennel. The scent of <<beastsplural>> surrounds you. <<if $farm.kennel gte 1>>Here, you can train them to defend the farm.<</if>>",
+    "translation": "",
+    "pos": 120
+  },
+  {
+    "passage": "Farm Kennel",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "9_5_3_7|",
+    "original": "It doesn't take long for the first <<beasttype>> to notice you. Soon enough, the entire kennel looks your way. They cock their heads as they examine your tail, as if unsure what to make of it, before one barks approval.<<ggrespect>><<farm_dogs 3>>",
+    "translation": "",
+    "pos": 300
+  },
+  {
+    "passage": "Farm Kennel",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "13_5_3_7|",
+    "original": "It doesn't take long for the <<beastsplural>> to notice you. Your cat-like smell must be betraying your presence. They seem agitated. The smell is riling them up. You purr, but it doesn't help.<<llrespect>><<farm_dogs -3>>",
+    "translation": "",
+    "pos": 585
+  },
+  {
+    "passage": "Farm Kennel",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "17_5_3_7|",
+    "original": "They examine your wings, and back away. You remind them of something terrible.<<lrespect>><<farm_dogs -1>>",
+    "translation": "",
+    "pos": 847
+  },
+  {
+    "passage": "Farm Kennel",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "22_5_3_7|",
+    "original": "Their noses twitch. They can smell your milk, and it puts them at ease. They are used to cattle, after all.<<ggrespect>><<farm_dogs 3>>",
+    "translation": "",
+    "pos": 1041
+  },
+  {
+    "passage": "Farm Kennel",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "24_5_3_7|",
+    "original": "They barely seem to register your presence. They are used to cattle, after all.<<grespect>><<farm_dogs 1>>",
+    "translation": "",
+    "pos": 1191
+  },
+  {
+    "passage": "Farm Kennel",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "29_5_3_7|",
+    "original": "It doesn't take long for the first <<beasttype>> to notice you. Your fox-like smell must be betraying your presence. They cock their heads as they examine your tail, as if unsure what to make of it, before one barks hesitant approval.<<ggrespect>><<farm_dogs 1>>",
+    "translation": "",
+    "pos": 1345
+  },
+  {
+    "passage": "Farm Kennel",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "33_5_3_7|",
+    "original": "One <<beasttype>> looks up. Soon enough, the entire kennel looks your way.",
+    "translation": "",
+    "pos": 1632
+  },
+  {
+    "passage": "Farm Kennel",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "39_5_3_7|",
+    "original": "<<link [[Next|Farm Kennel]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1747
+  },
+  {
+    "passage": "Farm Kennel",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "42_5_3_7|",
+    "original": "You are in the kennel.",
+    "translation": "",
+    "pos": 1814
+  },
+  {
+    "passage": "Farm Kennel",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "44_5_3_7|",
+    "original": "The <<beastsplural>> await your words, their tails wagging.",
+    "translation": "",
+    "pos": 1872
+  },
+  {
+    "passage": "Farm Kennel",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "46_5_3_7|",
+    "original": "The <<beastsplural>> await your words.",
+    "translation": "",
+    "pos": 1970
+  },
+  {
+    "passage": "Farm Kennel",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "48_5_3_7|",
+    "original": "The <<beastsplural>> ignore you.",
+    "translation": "",
+    "pos": 2048
+  },
+  {
+    "passage": "Farm Kennel",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "50_5_3_7|",
+    "original": "A <<beasttype>> growls at you.",
+    "translation": "",
+    "pos": 2121
+  },
+  {
+    "passage": "Farm Kennel",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "52_5_3_7|",
+    "original": "The <<beastsplural>> watch you with unrestrained lust.",
+    "translation": "",
+    "pos": 2164
+  },
+  {
+    "passage": "Farm Kennel",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "54_5_3_7|",
+    "original": "<<if $farm.kennel gte 1>>Training equipment lines one wall.<</if>>",
+    "translation": "",
+    "pos": 2229
+  },
+  {
+    "passage": "Farm Kennel",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "58_5_3_7|",
+    "original": "<<animalicon \"dog\">><<link [[Train (1:00)|Farm Kennel Train]]>><<set $farm_kennel to 1>><<pass 60>><</link>>",
+    "translation": "",
+    "pos": 2336
+  },
+  {
+    "passage": "Farm Kennel",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "61_5_3_7|",
+    "original": "<<petshopicon \"treat\">><<link [[Give treats|Farm Kennel Treats]]>><</link>>",
+    "translation": "",
+    "pos": 2462
+  },
+  {
+    "passage": "Farm Kennel",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "63_5_3_7|",
+    "original": "<<petshopicon \"chew\">><<link [[Play|Farm Kennel Play]]>><<set $farm_kennel to 1>><</link>>",
+    "translation": "",
+    "pos": 2545
+  },
+  {
+    "passage": "Farm Kennel",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "65_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Farm Work]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 2643
+  },
+  {
+    "passage": "Widgets Kennel",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "73_5_3_7|",
+    "original": "They seem content with your presence.",
+    "translation": "",
+    "pos": 60
+  },
+  {
+    "passage": "Widgets Kennel",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "75_5_3_7|",
+    "original": "They tolerate your presence, and most look away after recognising you.",
+    "translation": "",
+    "pos": 137
+  },
+  {
+    "passage": "Widgets Kennel",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "77_5_3_7|",
+    "original": "<span class=\"pink\">You feel unwelcome.</span>",
+    "translation": "",
+    "pos": 248
+  },
+  {
+    "passage": "Widgets Kennel",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "79_5_3_7|",
+    "original": "You push away one as <<bhe>> tries to hump your leg. <span class=\"red\">They have little respect for you.</span>",
+    "translation": "",
+    "pos": 306
+  },
+  {
+    "passage": "Widgets Kennel",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "94_5_3_7|",
+    "original": "<<ind>><<link [[Feed all (20)|Farm Kennel Treats All]]>><<farm_dogs 3>><<kennel_treats -20>><</link>><<ggrespect>>",
+    "translation": "",
+    "pos": 679
+  },
+  {
+    "passage": "Widgets Kennel",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "98_5_3_7|",
+    "original": "<<ind>><<link [[Feed half (10)|Farm Kennel Treats Half]]>><<farm_dogs 2>><<kennel_treats -10>><</link>><<grespect>>",
+    "translation": "",
+    "pos": 842
+  },
+  {
+    "passage": "Widgets Kennel",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "102_5_3_7|",
+    "original": "<<ind>><<link [[Feed some (5)|Farm Kennel Treats Some]]>><<farm_dogs 1>><<kennel_treats -5>><</link>><<grespect>>",
+    "translation": "",
+    "pos": 1005
+  },
+  {
+    "passage": "Widgets Kennel",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "106_5_3_7|",
+    "original": "<<ind>><<link [[Feed one|Farm Kennel Treats One]]>><<kennel_treats -1>><</link>>",
+    "translation": "",
+    "pos": 1166
+  },
+  {
+    "passage": "Widgets Kennel",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "109_5_3_7|",
+    "original": "You're out of treats.",
+    "translation": "",
+    "pos": 1266
+  },
+  {
+    "passage": "Widgets Kennel",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "112_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Farm Work]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1305
+  },
+  {
+    "passage": "Widgets Kennel",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "117_5_3_7|",
+    "original": "<<link [[Play fetch (1:00)|Farm Kennel Play Fetch]]>><<tiredness 6>><<farm_dogs 3>><</link>><<ggrespect>>",
+    "translation": "",
+    "pos": 1422
+  },
+  {
+    "passage": "Widgets Kennel",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "119_5_3_7|",
+    "original": "<<link [[Race (1:00)|Farm Kennel Play Race]]>><<athletics 6>><<tiredness 6>><<pass 60>><</link>><<gathletics>>",
+    "translation": "",
+    "pos": 1535
+  },
+  {
+    "passage": "Widgets Kennel",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "124_5_3_7|",
+    "original": "<<link [[Private playtime (1:00)|Farm Kennel Play Lewd]]>><<pass 60>><</link>><<deviant3>>",
+    "translation": "",
+    "pos": 1794
+  },
+  {
+    "passage": "Widgets Kennel",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "130_5_3_7|",
+    "original": "<<link [[Play a special game (1:00)|Farm Kennel Play Gang]]>><<pass 60>><</link>><<deviant5>>",
+    "translation": "",
+    "pos": 1988
+  },
+  {
+    "passage": "Widgets Kennel",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "136_5_3_7|",
+    "original": "<<link [[Join them as a member of the kennel (1:00)|Farm Kennel Play Member]]>><<pass 60>><</link>><<deviant5>><<grespect>>",
+    "translation": "",
+    "pos": 2186
+  },
+  {
+    "passage": "Farm Kennel Treats",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "148_5_3_7|",
+    "original": "You open the locked cupboard in an adjoining room, and find the bag of treats.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Kennel Treats",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "151_5_3_7|",
+    "original": "It's empty. You can buy more treats from the pet shop in town.",
+    "translation": "",
+    "pos": 117
+  },
+  {
+    "passage": "Farm Kennel Treats",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "154_5_3_7|",
+    "original": "<<link [[Next|Farm Kennel]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 192
+  },
+  {
+    "passage": "Farm Kennel Treats",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "159_5_3_7|",
+    "original": "You carry it to the <<beastsplural>>.",
+    "translation": "",
+    "pos": 312
+  },
+  {
+    "passage": "Farm Kennel Treats",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "162_5_3_7|",
+    "original": "They gather around with an eager vigour. You don't need treats to hold their attention.",
+    "translation": "",
+    "pos": 386
+  },
+  {
+    "passage": "Farm Kennel Treats",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "167_5_3_7|",
+    "original": "They gather around with an eager vigour. The smell of treats has reached their noses.",
+    "translation": "",
+    "pos": 551
+  },
+  {
+    "passage": "Farm Kennel Treats",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "172_5_3_7|",
+    "original": "They gather around you.",
+    "translation": "",
+    "pos": 715
+  },
+  {
+    "passage": "Farm Kennel Treats",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "177_5_3_7|",
+    "original": "They might not respect you, but their desire for food outweighs that for now. They tolerate you.",
+    "translation": "",
+    "pos": 818
+  },
+  {
+    "passage": "Farm Kennel Treats",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "182_5_3_7|",
+    "original": "They rush at you, with no regard for your intentions or instructions. They want their treats.",
+    "translation": "",
+    "pos": 966
+  },
+  {
+    "passage": "Farm Kennel Treats",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "185_5_3_7|",
+    "original": "<<link [[Next|Farm Kennel Fight]]>><<handheldon>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 1074
+  },
+  {
+    "passage": "Farm Kennel Treats All",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "196_5_3_7|",
+    "original": "The <<beastsplural>> sit upright and await their treats. Not a single one acts out. They all wait with their mouths open. You feed them one by one. They devour their treats in moments, then lick your hand as you pet them.",
+    "translation": "",
+    "pos": 47
+  },
+  {
+    "passage": "Farm Kennel Treats All",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "199_5_3_7|",
+    "original": "They remain seated, watching you obediently.",
+    "translation": "",
+    "pos": 281
+  },
+  {
+    "passage": "Farm Kennel Treats All",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "202_5_3_7|",
+    "original": "<<link [[Hug|Farm Kennel Treats Hug]]>><<handheldon>><<farm_dogs 1>><</link>><<grespect>>",
+    "translation": "",
+    "pos": 338
+  },
+  {
+    "passage": "Farm Kennel Treats All",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "206_5_3_7|",
+    "original": "<<link [[Seduce|Farm Kennel Treats Seduce]]>><<handheldon>><</link>><<deviant2>>",
+    "translation": "",
+    "pos": 540
+  },
+  {
+    "passage": "Farm Kennel Treats All",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "210_5_3_7|",
+    "original": "<<link [[Breastfeed|Farm Kennel Treats Breastfeed]]>><<handheldon>><<farm_dogs 3>><</link>><<deviant3>><<ggrespect>>",
+    "translation": "",
+    "pos": 754
+  },
+  {
+    "passage": "Farm Kennel Treats All",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "217_5_3_7|",
+    "original": "The <<beastsplural>> gather around you. Not a single one acts out. They wait their turn as you hand out treats, then devour them in moments.",
+    "translation": "",
+    "pos": 941
+  },
+  {
+    "passage": "Farm Kennel Treats All",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "219_5_3_7|",
+    "original": "Some thank you as you hand them a treat.",
+    "translation": "",
+    "pos": 1106
+  },
+  {
+    "passage": "Farm Kennel Treats All",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "221_5_3_7|",
+    "original": "Some growl softly as you feed them.",
+    "translation": "",
+    "pos": 1159
+  },
+  {
+    "passage": "Farm Kennel Treats All",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "225_5_3_7|",
+    "original": "They lie with wagging tails as you leave the kennel.",
+    "translation": "",
+    "pos": 1216
+  },
+  {
+    "passage": "Farm Kennel Treats All",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "228_5_3_7|",
+    "original": "<<link [[Next|Farm Work]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1281
+  },
+  {
+    "passage": "Farm Kennel Treats All",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "232_5_3_7|",
+    "original": "The <<beastsplural>> relax around you. They're eager for the treats, but respect you enough to wait their turn. They devour them in moments.",
+    "translation": "",
+    "pos": 1374
+  },
+  {
+    "passage": "Farm Kennel Treats All",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "235_5_3_7|",
+    "original": "You walk away from the kennel, leaving them to lick their lips.",
+    "translation": "",
+    "pos": 1527
+  },
+  {
+    "passage": "Farm Kennel Treats All",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "238_5_3_7|",
+    "original": "<<link [[Next|Farm Work]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1603
+  },
+  {
+    "passage": "Farm Kennel Treats All",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "241_5_3_7|",
+    "original": "You have plenty of treats. You toss them freely to the <<beastsplural>>. They devour them in moments, then bark for more, their eyes shining with hunger.",
+    "translation": "",
+    "pos": 1668
+  },
+  {
+    "passage": "Farm Kennel Treats All",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "243_5_3_7|",
+    "original": "They demand more treats.",
+    "translation": "",
+    "pos": 1846
+  },
+  {
+    "passage": "Farm Kennel Treats All",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "245_5_3_7|",
+    "original": "Two release a guttural growl as they march closer.",
+    "translation": "",
+    "pos": 1883
+  },
+  {
+    "passage": "Farm Kennel Treats All",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "249_5_3_7|",
+    "original": "You back away, and manage to escape before the situation escalates.",
+    "translation": "",
+    "pos": 1955
+  },
+  {
+    "passage": "Farm Kennel Treats All",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "252_5_3_7|",
+    "original": "<<link [[Next|Farm Work]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 2035
+  },
+  {
+    "passage": "Farm Kennel Treats Seduce",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "259_5_3_7|",
+    "original": "You drop to the ground in front of a <<beasttype>>. <<bHe 0>> looks eager.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Kennel Treats Seduce",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "262_5_3_7|",
+    "original": "<<link [[Next|Farm Kennel Sex]]>><<set $sexstart to 1>><</link>>",
+    "translation": "",
+    "pos": 103
+  },
+  {
+    "passage": "Farm Kennel Sex",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "274_5_3_7|",
+    "original": "The other <<beastsplural>> watch.",
+    "translation": "",
+    "pos": 133
+  },
+  {
+    "passage": "Farm Kennel Sex",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "287_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Farm Kennel Sex Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 294
+  },
+  {
+    "passage": "Farm Kennel Sex",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "289_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Farm Kennel Sex]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 389
+  },
+  {
+    "passage": "Farm Kennel Sex Finish",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "299_5_3_7|",
+    "original": "<<tearful>> you leave the kennel. The <<beastsplural>> lie down, their tails wagging.<<ggrespect>><<farm_dogs 3>>",
+    "translation": "",
+    "pos": 80
+  },
+  {
+    "passage": "Farm Kennel Sex Finish",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "305_5_3_7|",
+    "original": "<<link [[Next|Farm Work]]>><</link>>",
+    "translation": "",
+    "pos": 237
+  },
+  {
+    "passage": "Farm Kennel Sex Finish",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "310_5_3_7|",
+    "original": "Scolded, the <<beasttype>> whimpers and backs away from you.",
+    "translation": "",
+    "pos": 313
+  },
+  {
+    "passage": "Farm Kennel Sex Finish",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "313_5_3_7|",
+    "original": "<<tearful>> you leave the kennel.",
+    "translation": "",
+    "pos": 386
+  },
+  {
+    "passage": "Farm Kennel Sex Finish",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "319_5_3_7|",
+    "original": "<<link [[Next|Farm Work]]>><</link>>",
+    "translation": "",
+    "pos": 463
+  },
+  {
+    "passage": "Farm Kennel Sex Finish",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "324_5_3_7|",
+    "original": "The <<beasttype>> backs away from you, afraid <<bhe 0>> has done something wrong.",
+    "translation": "",
+    "pos": 518
+  },
+  {
+    "passage": "Farm Kennel Sex Finish",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "327_5_3_7|",
+    "original": "<<tearful>> you leave the kennel.",
+    "translation": "",
+    "pos": 612
+  },
+  {
+    "passage": "Farm Kennel Sex Finish",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "333_5_3_7|",
+    "original": "<<link [[Next|Farm Work]]>><</link>>",
+    "translation": "",
+    "pos": 689
+  },
+  {
+    "passage": "Farm Kennel Treats Breastfeed",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "341_5_3_7|",
+    "original": "You offer a <<beasttype>> your <<breasts>>. <<bHe 0>> hesitates, then licks your bud. Milk flows into <<bhis 0>> mouth.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Kennel Treats Breastfeed",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "344_5_3_7|",
+    "original": "Satisfied, the <<beasttype>> lies down. Their tails wag as you return to the farm.",
+    "translation": "",
+    "pos": 162
+  },
+  {
+    "passage": "Farm Kennel Treats Breastfeed",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "347_5_3_7|",
+    "original": "<<link [[Next|Farm Work]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 255
+  },
+  {
+    "passage": "Farm Kennel Treats Hug",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "354_5_3_7|",
+    "original": "You give a <<beasttype>> a gentle hug. <<bHe 0>> seems to appreciate it. The <<beastsplural>> lie down as you leave, their tails wagging.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Kennel Treats Hug",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "357_5_3_7|",
+    "original": "<<link [[Next|Farm Work]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 161
+  },
+  {
+    "passage": "Farm Kennel Treats Half",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "364_5_3_7|",
+    "original": "You take out ten treats. The <<beastsplural>> put on their best behaviour, hoping to increase their odds. You hand out treats to the lucky, and suggest the rest might have a turn next time.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Kennel Treats Half",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "367_5_3_7|",
+    "original": "<<link [[Next|Farm Work]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 213
+  },
+  {
+    "passage": "Farm Kennel Treats Some",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "373_5_3_7|",
+    "original": "You take out five treats, and take a firm tone. \"If you bicker over them, I'm giving you none.\"",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Kennel Treats Some",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "376_5_3_7|",
+    "original": "The <<beastsplural>> put on their best behaviour, hoping to increase their odds. You hand the treats out. The recipients break the treats apart to share with the rest of the kennel.",
+    "translation": "",
+    "pos": 119
+  },
+  {
+    "passage": "Farm Kennel Treats Some",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "379_5_3_7|",
+    "original": "<<link [[Next|Farm Work]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 311
+  },
+  {
+    "passage": "Farm Kennel Treats One",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "385_5_3_7|",
+    "original": "You take out one treat.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Kennel Treats One",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "387_5_3_7|",
+    "original": "The <<beastsplural>> glare in defiance. They see only one treat, and they do not approve.",
+    "translation": "",
+    "pos": 70
+  },
+  {
+    "passage": "Farm Kennel Treats One",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "390_5_3_7|",
+    "original": "You hurl the treat across the kennel. The <<beastsplural>> lose interest in you at once, and run at the treat in a mad dash. You make your exit.",
+    "translation": "",
+    "pos": 172
+  },
+  {
+    "passage": "Farm Kennel Treats One",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "393_5_3_7|",
+    "original": "The <<beastsplural>> look disappointed, but not angry. They lie on the ground around you.",
+    "translation": "",
+    "pos": 337
+  },
+  {
+    "passage": "Farm Kennel Treats One",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "395_5_3_7|",
+    "original": "You toss the treat across the kennel. An older <<beasttype>> walks over, and breaks it into pieces to share out.",
+    "translation": "",
+    "pos": 438
+  },
+  {
+    "passage": "Farm Kennel Treats One",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "399_5_3_7|",
+    "original": "<<link [[Next|Farm Work]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 570
+  },
+  {
+    "passage": "Farm Kennel Fight",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "415_5_3_7|",
+    "original": "The other <<beastsplural>> watch.",
+    "translation": "",
+    "pos": 209
+  },
+  {
+    "passage": "Farm Kennel Fight",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "428_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Farm Kennel Fight Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 417
+  },
+  {
+    "passage": "Farm Kennel Fight",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "430_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Farm Kennel Fight]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 514
+  },
+  {
+    "passage": "Farm Kennel Fight Finish",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "440_5_3_7|",
+    "original": "You manage to keep the bag of treats close. None of the others try anything, for now.",
+    "translation": "",
+    "pos": 80
+  },
+  {
+    "passage": "Farm Kennel Fight Finish",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "443_5_3_7|",
+    "original": "<<tearful>> you struggle to your feet.",
+    "translation": "",
+    "pos": 178
+  },
+  {
+    "passage": "Farm Kennel Fight Finish",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "449_5_3_7|",
+    "original": "<<link [[Next|Farm Work]]>><</link>>",
+    "translation": "",
+    "pos": 284
+  },
+  {
+    "passage": "Farm Kennel Fight Finish",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "456_5_3_7|",
+    "original": "The <<beasttype>> backs away from you, cowed. The others don't try anything.<<ggrespect>><<farm_dogs 1>>",
+    "translation": "",
+    "pos": 424
+  },
+  {
+    "passage": "Farm Kennel Fight Finish",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "462_5_3_7|",
+    "original": "<<link [[Next|Farm Work]]>><</link>>",
+    "translation": "",
+    "pos": 596
+  },
+  {
+    "passage": "Farm Kennel Fight Finish",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "469_5_3_7|",
+    "original": "<<kennel_treats -100>>The <<beastsplural>> lose interest in you as you collapse. They tear apart the bag of treats, and feast.<<llrespect>><<farm_dogs -3>>",
+    "translation": "",
+    "pos": 715
+  },
+  {
+    "passage": "Farm Kennel Fight Finish",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "472_5_3_7|",
+    "original": "<<tearful>> you stagger from the kennel.",
+    "translation": "",
+    "pos": 883
+  },
+  {
+    "passage": "Farm Kennel Fight Finish",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "478_5_3_7|",
+    "original": "<<link [[Next|Farm Work]]>><</link>>",
+    "translation": "",
+    "pos": 967
+  },
+  {
+    "passage": "Farm Kennel Play",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "486_5_3_7|",
+    "original": "You decide to make things fun for the <<beastsplural>>.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Kennel Play",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "489_5_3_7|",
+    "original": "They gather around you, their tails wagging. They will obey without question.",
+    "translation": "",
+    "pos": 103
+  },
+  {
+    "passage": "Farm Kennel Play",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "492_5_3_7|",
+    "original": "How do you want to play with them?",
+    "translation": "",
+    "pos": 193
+  },
+  {
+    "passage": "Farm Kennel Play",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "497_5_3_7|",
+    "original": "They gather around you with vigour, their tails wagging.",
+    "translation": "",
+    "pos": 300
+  },
+  {
+    "passage": "Farm Kennel Play",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "500_5_3_7|",
+    "original": "How do you want to play with them?",
+    "translation": "",
+    "pos": 369
+  },
+  {
+    "passage": "Farm Kennel Play",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "505_5_3_7|",
+    "original": "They gather around you. They don't care for you.",
+    "translation": "",
+    "pos": 477
+  },
+  {
+    "passage": "Farm Kennel Play",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "508_5_3_7|",
+    "original": "How do you want to play with them?",
+    "translation": "",
+    "pos": 538
+  },
+  {
+    "passage": "Farm Kennel Play",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "513_5_3_7|",
+    "original": "They gather around you. They don't trust you much.",
+    "translation": "",
+    "pos": 668
+  },
+  {
+    "passage": "Farm Kennel Play",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "516_5_3_7|",
+    "original": "How do you want to play with them?",
+    "translation": "",
+    "pos": 731
+  },
+  {
+    "passage": "Farm Kennel Play",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "521_5_3_7|",
+    "original": "Unfortunately, they have a different sort of fun in mind. They rush you down.",
+    "translation": "",
+    "pos": 812
+  },
+  {
+    "passage": "Farm Kennel Play",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "526_5_3_7|",
+    "original": "<<link [[Next|Farm Kennel Gang Rape]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 940
+  },
+  {
+    "passage": "Farm Kennel Gang Rape",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "551_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Farm Kennel Gang Rape End]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 295
+  },
+  {
+    "passage": "Farm Kennel Gang Rape",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "553_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Farm Kennel Gang Rape]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 393
+  },
+  {
+    "passage": "Farm Kennel Gang Rape End",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "561_5_3_7|",
+    "original": "The <<beasttype>> recoils in pain and fear, but another is eager for a go.",
+    "translation": "",
+    "pos": 89
+  },
+  {
+    "passage": "Farm Kennel Gang Rape End",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "565_5_3_7|",
+    "original": "<<link [[Next|Farm Kennel Gang Rape]]>><</link>>",
+    "translation": "",
+    "pos": 203
+  },
+  {
+    "passage": "Farm Kennel Gang Rape End",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "567_5_3_7|",
+    "original": "The <<beasttype>> recoils in pain and fear.",
+    "translation": "",
+    "pos": 264
+  },
+  {
+    "passage": "Farm Kennel Gang Rape End",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "570_5_3_7|",
+    "original": "<<link [[Next|Farm Kennel Gang Rape End]]>><<set $finish to 1>><</link>>",
+    "translation": "",
+    "pos": 346
+  },
+  {
+    "passage": "Farm Kennel Gang Rape End",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "575_5_3_7|",
+    "original": "Satisfied, the <<beasttype>> moves and another takes its turn.",
+    "translation": "",
+    "pos": 531
+  },
+  {
+    "passage": "Farm Kennel Gang Rape End",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "579_5_3_7|",
+    "original": "<<link [[Next|Farm Kennel Gang Rape]]>><</link>>",
+    "translation": "",
+    "pos": 633
+  },
+  {
+    "passage": "Farm Kennel Gang Rape End",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "581_5_3_7|",
+    "original": "Satisfied, the <<beasttype>> moves away from you.",
+    "translation": "",
+    "pos": 694
+  },
+  {
+    "passage": "Farm Kennel Gang Rape End",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "584_5_3_7|",
+    "original": "<<link [[Next|Farm Kennel Gang Rape End]]>><<set $finish to 1>><</link>>",
+    "translation": "",
+    "pos": 782
+  },
+  {
+    "passage": "Farm Kennel Gang Rape End",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "588_5_3_7|",
+    "original": "The <<beasttype>> whimpers and flees.",
+    "translation": "",
+    "pos": 928
+  },
+  {
+    "passage": "Farm Kennel Gang Rape End",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "590_5_3_7|",
+    "original": "Satisfied, the <<beasttype>> leaves.",
+    "translation": "",
+    "pos": 1025
+  },
+  {
+    "passage": "Farm Kennel Gang Rape End",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "592_5_3_7|",
+    "original": "Feeling that you're more trouble than you're worth, the beasts flee.",
+    "translation": "",
+    "pos": 1122
+  },
+  {
+    "passage": "Farm Kennel Gang Rape End",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "594_5_3_7|",
+    "original": "The beasts leave you spent and shivering.",
+    "translation": "",
+    "pos": 1251
+  },
+  {
+    "passage": "Farm Kennel Gang Rape End",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "596_5_3_7|",
+    "original": "The beasts leave you spent and shivering.",
+    "translation": "",
+    "pos": 1354
+  },
+  {
+    "passage": "Farm Kennel Gang Rape End",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "599_5_3_7|",
+    "original": "<<tearful>> you stagger from the kennel.",
+    "translation": "",
+    "pos": 1416
+  },
+  {
+    "passage": "Farm Kennel Gang Rape End",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "603_5_3_7|",
+    "original": "<<link [[Next|Farm Work]]>><</link>>",
+    "translation": "",
+    "pos": 1498
+  },
+  {
+    "passage": "Farm Kennel Play Fetch",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "610_5_3_7|",
+    "original": "You take a ball from a cupboard, and throw it across the kennel.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Kennel Play Fetch",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "614_5_3_7|",
+    "original": "The <<beastsplural>> run and chase the ball, until one manages to get a solid grip. They bring it back to you, and wait for you to throw it again.",
+    "translation": "",
+    "pos": 120
+  },
+  {
+    "passage": "Farm Kennel Play Fetch",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "617_5_3_7|",
+    "original": "It's hard work keeping up with their energy, but you feel better for it.<<physique 4>>",
+    "translation": "",
+    "pos": 279
+  },
+  {
+    "passage": "Farm Kennel Play Fetch",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "620_5_3_7|",
+    "original": "<<link [[Next|Farm Work]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 378
+  },
+  {
+    "passage": "Farm Kennel Play Fetch",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "623_5_3_7|",
+    "original": "The <<beastsplural>> run and chase the ball, but are more interested in fighting amongst themselves than bringing it back to you. They continue until they tire themselves out.",
+    "translation": "",
+    "pos": 443
+  },
+  {
+    "passage": "Farm Kennel Play Fetch",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "626_5_3_7|",
+    "original": "<<link [[Next|Farm Work]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 631
+  },
+  {
+    "passage": "Farm Kennel Play Race",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "634_5_3_7|",
+    "original": "You let the <<beastsplural>> outside, and race them around the field.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Kennel Play Race",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "638_5_3_7|",
+    "original": "You manage to keep up with them, which they seem to appreciate.<<grespect>><<farm_dogs 1>>",
+    "translation": "",
+    "pos": 140
+  },
+  {
+    "passage": "Farm Kennel Play Race",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "641_5_3_7|",
+    "original": "You can't quite keep up with them, but you're able to follow behind. They seem happy for the exercise regardless, and are tired out by the time you return them to the kennel.",
+    "translation": "",
+    "pos": 292
+  },
+  {
+    "passage": "Farm Kennel Play Race",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "644_5_3_7|",
+    "original": "They outpace you at once, and you soon give up trying to follow. They seem happy for the exercise regardless, and are tired out by the time you return them to the kennel.",
+    "translation": "",
+    "pos": 487
+  },
+  {
+    "passage": "Farm Kennel Play Race",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "648_5_3_7|",
+    "original": "<<link [[Next|Farm Work]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 677
+  },
+  {
+    "passage": "Farm Kennel Play Lewd",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "654_5_3_7|",
+    "original": "You attach a collar and leash to a <<beasttype>>, and lead <<bhim>> into an adjoining room. You close the door behind you, and drop to the ground. The <<beasttype>> knows what's up.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Kennel Play Lewd",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "658_5_3_7|",
+    "original": "<<link [[Next|Farm Kennel Play Sex]]>><<set $sexstart to 1>><</link>>",
+    "translation": "",
+    "pos": 219
+  },
+  {
+    "passage": "Farm Kennel Play Sex",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "681_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Farm Kennel Play Sex Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 250
+  },
+  {
+    "passage": "Farm Kennel Play Sex",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "683_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Farm Kennel Play Sex]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 350
+  },
+  {
+    "passage": "Farm Kennel Play Sex Finish",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "693_5_3_7|",
+    "original": "<<tearful>> you rise to your feet. \"Good <<if $pronoun is \"f\">>girl<<else>>boy<</if>>,\" you say. The <<beasttype>>'s tail wags.",
+    "translation": "",
+    "pos": 80
+  },
+  {
+    "passage": "Farm Kennel Play Sex Finish",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "696_5_3_7|",
+    "original": "You return <<bhim 0>> to the kennel proper.",
+    "translation": "",
+    "pos": 220
+  },
+  {
+    "passage": "Farm Kennel Play Sex Finish",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "702_5_3_7|",
+    "original": "<<link [[Next|Farm Work]]>><</link>>",
+    "translation": "",
+    "pos": 307
+  },
+  {
+    "passage": "Farm Kennel Play Sex Finish",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "707_5_3_7|",
+    "original": "The <<beasttype>> yelps and backs away from you. <<tearful>> you climb to your feet.",
+    "translation": "",
+    "pos": 383
+  },
+  {
+    "passage": "Farm Kennel Play Sex Finish",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "710_5_3_7|",
+    "original": "You return <<bhim 0>> to the kennel proper.",
+    "translation": "",
+    "pos": 480
+  },
+  {
+    "passage": "Farm Kennel Play Sex Finish",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "716_5_3_7|",
+    "original": "<<link [[Next|Farm Work]]>><</link>>",
+    "translation": "",
+    "pos": 567
+  },
+  {
+    "passage": "Farm Kennel Play Sex Finish",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "721_5_3_7|",
+    "original": "The <<beasttype>> backs away from you. <<tearful>> you climb to your feet.",
+    "translation": "",
+    "pos": 622
+  },
+  {
+    "passage": "Farm Kennel Play Sex Finish",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "724_5_3_7|",
+    "original": "You return <<bhim 0>> to the kennel proper.",
+    "translation": "",
+    "pos": 709
+  },
+  {
+    "passage": "Farm Kennel Play Sex Finish",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "730_5_3_7|",
+    "original": "<<link [[Next|Farm Work]]>><</link>>",
+    "translation": "",
+    "pos": 796
+  },
+  {
+    "passage": "Farm Kennel Play Gang",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "738_5_3_7|",
+    "original": "The <<beastsplural>> wait obediently, until you give a seductive wiggle. The most dominant approaches first.<<deviancy5>>",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Kennel Play Gang",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "742_5_3_7|",
+    "original": "<<link [[Next|Farm Kennel Play Gang Sex]]>><<set $sexstart to 1>><</link>>",
+    "translation": "",
+    "pos": 172
+  },
+  {
+    "passage": "Farm Kennel Play Gang Sex",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "766_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Farm Kennel Play Gang Sex End]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 338
+  },
+  {
+    "passage": "Farm Kennel Play Gang Sex",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "768_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Farm Kennel Play Gang Sex]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 440
+  },
+  {
+    "passage": "Farm Kennel Play Gang Sex End",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "776_5_3_7|",
+    "original": "The <<beasttype>> recoils in pain and fear, but another is eager for a go.",
+    "translation": "",
+    "pos": 89
+  },
+  {
+    "passage": "Farm Kennel Play Gang Sex End",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "780_5_3_7|",
+    "original": "<<link [[Next|Farm Kennel Play Gang Sex]]>><</link>>",
+    "translation": "",
+    "pos": 203
+  },
+  {
+    "passage": "Farm Kennel Play Gang Sex End",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "782_5_3_7|",
+    "original": "The <<beasttype>> recoils in pain and fear.",
+    "translation": "",
+    "pos": 268
+  },
+  {
+    "passage": "Farm Kennel Play Gang Sex End",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "785_5_3_7|",
+    "original": "<<link [[Next|Farm Kennel Play Gang Sex End]]>><<set $finish to 1>><</link>>",
+    "translation": "",
+    "pos": 350
+  },
+  {
+    "passage": "Farm Kennel Play Gang Sex End",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "790_5_3_7|",
+    "original": "Satisfied, the <<beasttype>> moves and another takes its turn.",
+    "translation": "",
+    "pos": 539
+  },
+  {
+    "passage": "Farm Kennel Play Gang Sex End",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "794_5_3_7|",
+    "original": "<<link [[Next|Farm Kennel Play Gang Sex]]>><</link>>",
+    "translation": "",
+    "pos": 641
+  },
+  {
+    "passage": "Farm Kennel Play Gang Sex End",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "796_5_3_7|",
+    "original": "Satisfied, the <<beasttype>> moves away from you.",
+    "translation": "",
+    "pos": 706
+  },
+  {
+    "passage": "Farm Kennel Play Gang Sex End",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "799_5_3_7|",
+    "original": "<<link [[Next|Farm Kennel Play Gang Sex End]]>><<set $finish to 1>><</link>>",
+    "translation": "",
+    "pos": 794
+  },
+  {
+    "passage": "Farm Kennel Play Gang Sex End",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "802_5_3_7|",
+    "original": "The <<beastsplural>> give you satisfied licks as you rise to your feet.",
+    "translation": "",
+    "pos": 890
+  },
+  {
+    "passage": "Farm Kennel Play Gang Sex End",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "804_5_3_7|",
+    "original": "<<tearful>> you leave the kennel.",
+    "translation": "",
+    "pos": 973
+  },
+  {
+    "passage": "Farm Kennel Play Gang Sex End",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "808_5_3_7|",
+    "original": "<<link [[Next|Farm Work]]>><</link>>",
+    "translation": "",
+    "pos": 1048
+  },
+  {
+    "passage": "Farm Kennel Play Member",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "817_5_3_7|",
+    "original": "You lock the kennel door. The <<beastsplural>> give you a quizzical look as you drop to all fours and <<if _tf.foxTail or _tf.wolfTail or _tf.catTail or _tf.cowTail or _tf.birdTail>>wag your tail<<else>>shake your <<bottom>><</if>> but they seem happy to welcome you as one of them.",
+    "translation": "",
+    "pos": 53
+  },
+  {
+    "passage": "Farm Kennel Play Member",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "820_5_3_7|",
+    "original": "You walk on your hands and knees through the kennel.",
+    "translation": "",
+    "pos": 346
+  },
+  {
+    "passage": "Farm Kennel Play Member",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "823_5_3_7|",
+    "original": "<<link [[Next|Farm Kennel Play Member 2]]>><</link>>",
+    "translation": "",
+    "pos": 422
+  },
+  {
+    "passage": "Farm Kennel Play Member 2",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "829_5_3_7|",
+    "original": "You grow hungry, and crawl over to the feeding trench. The food doesn't look appealing, but the <<beastsplural>> on either side of you chow down.",
+    "translation": "",
+    "pos": 53
+  },
+  {
+    "passage": "Farm Kennel Play Member 2",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "833_5_3_7|",
+    "original": "You bite into the food. It tastes good. You eat your fill, then lie back with a full stomach. Others join you, and you're soon lying in the centre of a huge pile, surrounded by flicking tails.<<ltrauma>><<trauma -4>>",
+    "translation": "",
+    "pos": 233
+  },
+  {
+    "passage": "Farm Kennel Play Member 2",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "835_5_3_7|",
+    "original": "You try a little. It tastes horrible. You try to keep eating, the others have no trouble after all, but soon give up. You lie down before you get a sore stomach. Some of the others cuddle up to you.",
+    "translation": "",
+    "pos": 460
+  },
+  {
+    "passage": "Farm Kennel Play Member 2",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "839_5_3_7|",
+    "original": "<<link [[Next|Farm Kennel Play Member 3]]>><<canvas-model-override \"clear\">><</link>>",
+    "translation": "",
+    "pos": 677
+  },
+  {
+    "passage": "Farm Kennel Play Member 3",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "846_5_3_7|",
+    "original": "You wake up after a while. Seems you dozed off. The other <<beastsplural>> are licking each other clean. One marches up to you, and licks behind your ears.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Kennel Play Member 3",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "850_5_3_7|",
+    "original": "You eagerly lick behind one of the <<beastsplural>>'s ears in return. You flick your tongue in straight lines from the ear down to the back. It comes naturally.",
+    "translation": "",
+    "pos": 203
+  },
+  {
+    "passage": "Farm Kennel Play Member 3",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "853_5_3_7|",
+    "original": "<span class=\"lewd\">You feel a warm wetness on your <<genitals 1>></span>, and freeze in surprise. The <<beasttype>> responsible moves on soon enough.",
+    "translation": "",
+    "pos": 376
+  },
+  {
+    "passage": "Farm Kennel Play Member 3",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "856_5_3_7|",
+    "original": "Sharing this moment with the <<beastsplural>> gives you an odd sense of peace.<<lawareness>><<awareness -6>><<ltrauma>><<lstress>><<trauma -6>><<stress -6>>",
+    "translation": "",
+    "pos": 538
+  },
+  {
+    "passage": "Farm Kennel Play Member 3",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "860_5_3_7|",
+    "original": "You hesitate, then lick behind the <<beasttype>>'s ear in return. It tastes bad, like hair. Some gets stuck on your tongue as well. The <<beasttype>> seems to appreciate the effort though.",
+    "translation": "",
+    "pos": 716
+  },
+  {
+    "passage": "Farm Kennel Play Member 3",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "864_5_3_7|",
+    "original": "You rise to your feet. Time to return to the farm.",
+    "translation": "",
+    "pos": 924
+  },
+  {
+    "passage": "Farm Kennel Play Member 3",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "867_5_3_7|",
+    "original": "<<link [[Next|Farm Work]]>><<clotheson>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 985
+  },
+  {
+    "passage": "Farm Kennel Train",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "874_5_3_7|",
+    "original": "You round up the <<beastsplural>> for training.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Kennel Train",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "877_5_3_7|",
+    "original": "They obey, eager for your approval.",
+    "translation": "",
+    "pos": 95
+  },
+  {
+    "passage": "Farm Kennel Train",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "880_5_3_7|",
+    "original": "They obey without complaint.",
+    "translation": "",
+    "pos": 177
+  },
+  {
+    "passage": "Farm Kennel Train",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "883_5_3_7|",
+    "original": "They complain a little, but obey.",
+    "translation": "",
+    "pos": 253
+  },
+  {
+    "passage": "Farm Kennel Train",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "886_5_3_7|",
+    "original": "They look wary of you.",
+    "translation": "",
+    "pos": 335
+  },
+  {
+    "passage": "Farm Kennel Train",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "889_5_3_7|",
+    "original": "They growl at you.",
+    "translation": "",
+    "pos": 378
+  },
+  {
+    "passage": "Farm Kennel Train",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "891_5_3_7|",
+    "original": "\"Intruder!\" one barks.",
+    "translation": "",
+    "pos": 421
+  },
+  {
+    "passage": "Farm Kennel Train",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "893_5_3_7|",
+    "original": "\"Plaything!\" offers another. The rest agree.",
+    "translation": "",
+    "pos": 453
+  },
+  {
+    "passage": "Farm Kennel Train",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "895_5_3_7|",
+    "original": "Their lack of respect is clear.",
+    "translation": "",
+    "pos": 508
+  },
+  {
+    "passage": "Farm Kennel Train",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "899_5_3_7|",
+    "original": "What kind of training do you attempt?",
+    "translation": "",
+    "pos": 559
+  },
+  {
+    "passage": "Farm Kennel Train",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "902_5_3_7|",
+    "original": "<<link [[Strict|Farm Kennel Train Strict]]>><<stress 12>><<tiredness 12>><<farm_dogs 3>><</link>><<gstress>><<ggtiredness>><<gggrespect>>",
+    "translation": "",
+    "pos": 607
+  },
+  {
+    "passage": "Farm Kennel Train",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "904_5_3_7|",
+    "original": "<<link [[Mild|Farm Kennel Train Mild]]>><<stress 6>><<tiredness 6>><<farm_dogs 2>><</link>><<gstress>><<gtiredness>><<ggrespect>>",
+    "translation": "",
+    "pos": 750
+  },
+  {
+    "passage": "Farm Kennel Train",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "906_5_3_7|",
+    "original": "<<link [[Easygoing|Farm Kennel Train Easy]]>><<farm_dogs 1>><</link>><<grespect>>",
+    "translation": "",
+    "pos": 885
+  },
+  {
+    "passage": "Farm Kennel Train Strict",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "914_5_3_7|",
+    "original": "You don't need to yell during training. The <<beastsplural>> follow every command without issue. They jump when you tell them to jump, roll when you tell them to roll, and attack what you tell them to attack.",
+    "translation": "",
+    "pos": 47
+  },
+  {
+    "passage": "Farm Kennel Train Strict",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "917_5_3_7|",
+    "original": "<<link [[Next|Farm Work]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 268
+  },
+  {
+    "passage": "Farm Kennel Train Strict",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "923_5_3_7|",
+    "original": "You yell orders at the <<beastsplural>>. They obey without hesitation. You're not sure yelling was even necessary. They seem eager to train.",
+    "translation": "",
+    "pos": 362
+  },
+  {
+    "passage": "Farm Kennel Train Strict",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "927_5_3_7|",
+    "original": "You're just about to wrap things up when a <<beasttype>> runs up to you. <<bHe 0>>",
+    "translation": "",
+    "pos": 536
+  },
+  {
+    "passage": "Farm Kennel Train Strict",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "929_5_3_7|",
+    "original": "looks up at you. \"Can master stroke my head?\" <<bhe 0>> pleads.",
+    "translation": "",
+    "pos": 645
+  },
+  {
+    "passage": "Farm Kennel Train Strict",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "931_5_3_7|",
+    "original": "looks up at you, tail wagging.",
+    "translation": "",
+    "pos": 723
+  },
+  {
+    "passage": "Farm Kennel Train Strict",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "935_5_3_7|",
+    "original": "<<link [[Pat|Farm Kennel Train Pat]]>><<trauma -6>><<stress -6>><</link>><<ltrauma>><<lstress>>",
+    "translation": "",
+    "pos": 778
+  },
+  {
+    "passage": "Farm Kennel Train Strict",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "937_5_3_7|",
+    "original": "<<link [[Wrap things up|Farm Work]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 883
+  },
+  {
+    "passage": "Farm Kennel Train Strict",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "940_5_3_7|",
+    "original": "The training goes well. You wrap things up.<<grespect>><<farm_dogs 1>>",
+    "translation": "",
+    "pos": 961
+  },
+  {
+    "passage": "Farm Kennel Train Strict",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "943_5_3_7|",
+    "original": "<<link [[Next|Farm Work]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1046
+  },
+  {
+    "passage": "Farm Kennel Train Strict",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "949_5_3_7|",
+    "original": "You yell at the <<beastsplural>>, demanding they follow orders. They obey without much enthusiasm.",
+    "translation": "",
+    "pos": 1150
+  },
+  {
+    "passage": "Farm Kennel Train Strict",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "953_5_3_7|",
+    "original": "The training goes well, but at the end one <<beasttype>> limps up to you, and holds out <<bhis 0>> <<if $monster is 1>>foot<<else>>paw<</if>>.",
+    "translation": "",
+    "pos": 1282
+  },
+  {
+    "passage": "Farm Kennel Train Strict",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "956_5_3_7|",
+    "original": "<<link [[Tend to the paw|Farm Kennel Train Paw]]>><<stress 6>><<trauma -6>><</link>><<gstress>><<ltrauma>>",
+    "translation": "",
+    "pos": 1439
+  },
+  {
+    "passage": "Farm Kennel Train Strict",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "958_5_3_7|",
+    "original": "<<link [[Wrap things up|Farm Work]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1555
+  },
+  {
+    "passage": "Farm Kennel Train Strict",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "961_5_3_7|",
+    "original": "The training felt productive.<<grespect>><<farm_dogs 1>>",
+    "translation": "",
+    "pos": 1633
+  },
+  {
+    "passage": "Farm Kennel Train Strict",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "964_5_3_7|",
+    "original": "<<link [[Next|Farm Work]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1704
+  },
+  {
+    "passage": "Farm Kennel Train Strict",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "968_5_3_7|",
+    "original": "You yell at the <<beastsplural>>, demanding they follow orders. They ignore most of your commands, with only some of them obeying some of the time.",
+    "translation": "",
+    "pos": 1807
+  },
+  {
+    "passage": "Farm Kennel Train Strict",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "972_5_3_7|",
+    "original": "It's slow going, but you think you're getting through to some.<<grespect>><<farm_dogs 1>>",
+    "translation": "",
+    "pos": 1988
+  },
+  {
+    "passage": "Farm Kennel Train Strict",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "974_5_3_7|",
+    "original": "You hope the next training session goes better.",
+    "translation": "",
+    "pos": 2090
+  },
+  {
+    "passage": "Farm Kennel Train Strict",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "978_5_3_7|",
+    "original": "<<link [[Next|Farm Work]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 2159
+  },
+  {
+    "passage": "Farm Kennel Train Strict",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "981_5_3_7|",
+    "original": "You yell at the <<beastsplural>>, demanding they follow orders. <span class=\"red\">They ignore you.</span>",
+    "translation": "",
+    "pos": 2224
+  },
+  {
+    "passage": "Farm Kennel Train Strict",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "985_5_3_7|",
+    "original": "You end the training with a sigh, and feel disappointed as you leave the kennel.",
+    "translation": "",
+    "pos": 2363
+  },
+  {
+    "passage": "Farm Kennel Train Strict",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "987_5_3_7|",
+    "original": "<<link [[Next|Farm Work]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 2457
+  },
+  {
+    "passage": "Farm Kennel Train Strict",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "990_5_3_7|",
+    "original": "You end the training with a sigh, and head for the exit. <span class=\"red\">A <<beasttype>> steps in your way, and growls.</span> Others approach from behind.",
+    "translation": "",
+    "pos": 2525
+  },
+  {
+    "passage": "Farm Kennel Train Strict",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "993_5_3_7|",
+    "original": "<<link [[Force your way through|Farm Kennel Gang Rape]]>><<endevent>><<beastNEWinit 3 dog>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 2697
+  },
+  {
+    "passage": "Farm Kennel Train Strict",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "995_5_3_7|",
+    "original": "<<link [[Plead|Farm Kennel Train Strict Plead]]>><</link>>",
+    "translation": "",
+    "pos": 2837
+  },
+  {
+    "passage": "Farm Kennel Train Strict",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "997_5_3_7|",
+    "original": "<<link [[Submit|Farm Kennel Train Strict Submit]]>><<sub 1>><</link>>",
+    "translation": "",
+    "pos": 2905
+  },
+  {
+    "passage": "Farm Kennel Train Pat",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1005_5_3_7|",
+    "original": "You smile at the <<beasttype>>, and give <<bhis 0>> head a gentle pat. <<bHe 0>> closes <<bhis 0>> eyes in bliss. You feel warm inside.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Kennel Train Pat",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1008_5_3_7|",
+    "original": "<<link [[Next|Farm Work]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 159
+  },
+  {
+    "passage": "Farm Kennel Train Paw",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1016_5_3_7|",
+    "original": "You take a closer look. There's no visible injury, but you give it a careful run-over with your hands. You find a small rock wedged inside. It's easy to dislodge.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Kennel Train Paw",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1019_5_3_7|",
+    "original": "The grateful <<beasttype>> returns to the others as you wrap things up.",
+    "translation": "",
+    "pos": 186
+  },
+  {
+    "passage": "Farm Kennel Train Paw",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1022_5_3_7|",
+    "original": "<<link [[Next|Farm Work]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 268
+  },
+  {
+    "passage": "Farm Kennel Train Strict Plead",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1032_5_3_7|",
+    "original": "\"Please let me through,\" you try. The <<beastsplural>> remain firm. There's something they want from you.",
+    "translation": "",
+    "pos": 48
+  },
+  {
+    "passage": "Farm Kennel Train Strict Plead",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1036_5_3_7|",
+    "original": "<<link [[Next|Farm Kennel Gang Rape]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 203
+  },
+  {
+    "passage": "Farm Kennel Train Strict Plead",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1039_5_3_7|",
+    "original": "\"Lie down,\" you say, your voice firm. \"Right now.\"",
+    "translation": "",
+    "pos": 329
+  },
+  {
+    "passage": "Farm Kennel Train Strict Plead",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1041_5_3_7|",
+    "original": "The <<beastsplural>> hesitate, then the one blocking your path does as instructed. <<bHe 0>> watches you with lust-filled eyes as you leave the kennel.",
+    "translation": "",
+    "pos": 391
+  },
+  {
+    "passage": "Farm Kennel Train Strict Plead",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1044_5_3_7|",
+    "original": "<<link [[Next|Farm Work]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 555
+  },
+  {
+    "passage": "Farm Kennel Train Strict Plead",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1047_5_3_7|",
+    "original": "\"Let me through,\" you say. \"That's a command.\"",
+    "translation": "",
+    "pos": 620
+  },
+  {
+    "passage": "Farm Kennel Train Strict Plead",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1049_5_3_7|",
+    "original": "The <<beastsplural>> hesitate, then the one blocking your path does as instructed. <<bHe 0>> watches you with lust-filled eyes as you leave the kennel.",
+    "translation": "",
+    "pos": 678
+  },
+  {
+    "passage": "Farm Kennel Train Strict Plead",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1052_5_3_7|",
+    "original": "<<link [[Next|Farm Work]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 842
+  },
+  {
+    "passage": "Farm Kennel Train Strict Submit",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1061_5_3_7|",
+    "original": "You drop to the ground. You know what they want, and it'll be easier to give it.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Kennel Train Strict Submit",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1065_5_3_7|",
+    "original": "<<link [[Next|Farm Kennel Gang Rape]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 139
+  },
+  {
+    "passage": "Farm Kennel Train Mild",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1072_5_3_7|",
+    "original": "You set up a simple parkour. The goal for the <<beastsplural>> is to finish without your help.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Kennel Train Mild",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1076_5_3_7|",
+    "original": "They follow your orders with vigour, vying for your attention by putting in extra effort.",
+    "translation": "",
+    "pos": 142
+  },
+  {
+    "passage": "Farm Kennel Train Mild",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1079_5_3_7|",
+    "original": "<<link [[Wrap things up|Farm Work]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 244
+  },
+  {
+    "passage": "Farm Kennel Train Mild",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1083_5_3_7|",
+    "original": "<<link [[Reward the most impressive|Farm Kennel Train Mild One]]>><<handskill 6>><</link>><<deviant3>><<ghandskill>>",
+    "translation": "",
+    "pos": 415
+  },
+  {
+    "passage": "Farm Kennel Train Mild",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1087_5_3_7|",
+    "original": "<<link [[Reward them all|Farm Kennel Train Mild All]]>><<farm_dogs 3>><</link>><<deviant5>><<ggrespect>>",
+    "translation": "",
+    "pos": 588
+  },
+  {
+    "passage": "Farm Kennel Train Mild",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1095_5_3_7|",
+    "original": "They follow your orders without enthusiasm, but the training goes well.<<grespect>><<farm_dogs 1>>",
+    "translation": "",
+    "pos": 760
+  },
+  {
+    "passage": "Farm Kennel Train Mild",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1098_5_3_7|",
+    "original": "<<link [[Next|Farm Work]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 871
+  },
+  {
+    "passage": "Farm Kennel Train Mild",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1103_5_3_7|",
+    "original": "However, it's soon clear they have their own ideas. They don't outright ignore you, but many ignore the obstacles. You yell firm instructions, which helps a bit. It might be best to ignore the remaining troublemakers.",
+    "translation": "",
+    "pos": 966
+  },
+  {
+    "passage": "Farm Kennel Train Mild",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1106_5_3_7|",
+    "original": "<<link [[Discipline them|Farm Kennel Train Mild Discipline]]>><</link>>",
+    "translation": "",
+    "pos": 1196
+  },
+  {
+    "passage": "Farm Kennel Train Mild",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1108_5_3_7|",
+    "original": "<<link [[Wrap things up|Farm Work]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1275
+  },
+  {
+    "passage": "Farm Kennel Train Mild",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1113_5_3_7|",
+    "original": "However, it's soon clear that they have different ideas. They walk past the obstacles, and ignore the hoops.",
+    "translation": "",
+    "pos": 1352
+  },
+  {
+    "passage": "Farm Kennel Train Mild",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1116_5_3_7|",
+    "original": "<<link [[Give up|Farm Work]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1473
+  },
+  {
+    "passage": "Farm Kennel Train Mild",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1118_5_3_7|",
+    "original": "<<link [[Yell|Farm Kennel Train Mild Yell]]>><</link>><<tendingdifficulty 1 1000>>",
+    "translation": "",
+    "pos": 1532
+  },
+  {
+    "passage": "Farm Kennel Train Mild Discipline",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1125_5_3_7|",
+    "original": "You single out a <<beasttype>>, though you don't expect <<bhim 0>> to respond well.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Kennel Train Mild Discipline",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1129_5_3_7|",
+    "original": "<<bHe 0>> glares at you,",
+    "translation": "",
+    "pos": 141
+  },
+  {
+    "passage": "Farm Kennel Train Mild Discipline",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1131_5_3_7|",
+    "original": "<<bHe 0>> barks back,",
+    "translation": "",
+    "pos": 178
+  },
+  {
+    "passage": "Farm Kennel Train Mild Discipline",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1133_5_3_7|",
+    "original": "then bites your ankle before fleeing to hide amongst the rest.<<gpain>><<pain 4>>",
+    "translation": "",
+    "pos": 210
+  },
+  {
+    "passage": "Farm Kennel Train Mild Discipline",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1136_5_3_7|",
+    "original": "<<link [[Next|Farm Work]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 304
+  },
+  {
+    "passage": "Farm Kennel Train Mild Discipline",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1139_5_3_7|",
+    "original": "Your harsh words get through, a little.<<grespect>><<farm_dogs 1>>",
+    "translation": "",
+    "pos": 369
+  },
+  {
+    "passage": "Farm Kennel Train Mild Discipline",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1142_5_3_7|",
+    "original": "<<link [[Next|Farm Work]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 448
+  },
+  {
+    "passage": "Farm Kennel Train Mild Yell",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1150_5_3_7|",
+    "original": "You yell at the <<beastsplural>>, demanding they obey you.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Kennel Train Mild Yell",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1153_5_3_7|",
+    "original": "They growl back, <span class=\"green\">then back down.</span> Some attempt some of the obstacles, at least.<<ggrespect>><<farm_dogs 3>>",
+    "translation": "",
+    "pos": 97
+  },
+  {
+    "passage": "Farm Kennel Train Mild Yell",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1156_5_3_7|",
+    "original": "<<link [[Next|Farm Work]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 243
+  },
+  {
+    "passage": "Farm Kennel Train Mild Yell",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1159_5_3_7|",
+    "original": "<span class=\"red\">It does nothing but agitate them.</span> They advance on you, determined to put you in your place.",
+    "translation": "",
+    "pos": 308
+  },
+  {
+    "passage": "Farm Kennel Train Mild Yell",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1163_5_3_7|",
+    "original": "<<link [[Next|Farm Kennel Gang Rape]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 474
+  },
+  {
+    "passage": "Farm Kennel Train Mild One",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1172_5_3_7|",
+    "original": "The <<beastsplural>> did their best, but you choose one in particular to reward. <<bHis 0>> tail wags as you lead <<bhim 0>> into the adjoining room, and crouch beside <<bhim 0>>.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Kennel Train Mild One",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1176_5_3_7|",
+    "original": "<<bHes 0>> already erect in anticipation, eager for <<bhis 0>> reward. You give <<bhis 0>> belly a good rub first, your hand creeping down until you slide <<bhis 0>> cock into your palm.",
+    "translation": "",
+    "pos": 242
+  },
+  {
+    "passage": "Farm Kennel Train Mild One",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1179_5_3_7|",
+    "original": "You stroke <<bhis 0>> penis until it pulses, and releases spurts of hot fluid over the ground.",
+    "translation": "",
+    "pos": 446
+  },
+  {
+    "passage": "Farm Kennel Train Mild One",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1181_5_3_7|",
+    "original": "\"Th-thank you master,\" <<bhe 0>> pants.",
+    "translation": "",
+    "pos": 565
+  },
+  {
+    "passage": "Farm Kennel Train Mild One",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1185_5_3_7|",
+    "original": "<<bHes 0>> eager for <<bhis 0>> reward. You give <<bhis 0>> belly a good rub first, your hand creeping down until you slide a finger into <<bhis 0>> warm pussy.",
+    "translation": "",
+    "pos": 634
+  },
+  {
+    "passage": "Farm Kennel Train Mild One",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1188_5_3_7|",
+    "original": "You pump your finger in and out, until <<bhis 0>> body shudders in orgasm.",
+    "translation": "",
+    "pos": 812
+  },
+  {
+    "passage": "Farm Kennel Train Mild One",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1190_5_3_7|",
+    "original": "\"Th-thank you master,\" <<bhe 0>> pants.",
+    "translation": "",
+    "pos": 911
+  },
+  {
+    "passage": "Farm Kennel Train Mild One",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1195_5_3_7|",
+    "original": "Satisfied, the <<beasttype>> follows you back to the kennel.",
+    "translation": "",
+    "pos": 979
+  },
+  {
+    "passage": "Farm Kennel Train Mild One",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1198_5_3_7|",
+    "original": "<<link [[Next|Farm Work]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1050
+  },
+  {
+    "passage": "Farm Kennel Train Mild All",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1205_5_3_7|",
+    "original": "You remove your clothing, and drop to the ground. Despite their eager vigour, the <<beastsplural>> remain obedient until you give the order.",
+    "translation": "",
+    "pos": 23
+  },
+  {
+    "passage": "Farm Kennel Train Mild All",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1209_5_3_7|",
+    "original": "<<link [[Next|Farm Kennel Play Gang Sex]]>><<set $sexstart to 1>><</link>>",
+    "translation": "",
+    "pos": 209
+  },
+  {
+    "passage": "Farm Kennel Train Easy",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1216_5_3_7|",
+    "original": "You give the <<beastsplural>> an easy set of tasks, and let those who'd rather ignore you do so.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Kennel Train Easy",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1219_5_3_7|",
+    "original": "They all seem quite eager to pay attention however, and have no trouble following orders.<<grespect>><<farm_dogs 1>>",
+    "translation": "",
+    "pos": 144
+  },
+  {
+    "passage": "Farm Kennel Train Easy",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1222_5_3_7|",
+    "original": "A few wander off, but most seem eager to pay attention.",
+    "translation": "",
+    "pos": 307
+  },
+  {
+    "passage": "Farm Kennel Train Easy",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1225_5_3_7|",
+    "original": "Some follow your instructions, sometimes.",
+    "translation": "",
+    "pos": 410
+  },
+  {
+    "passage": "Farm Kennel Train Easy",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1228_5_3_7|",
+    "original": "This turns out to be most of them, though a few are happy to follow your commands sometimes.",
+    "translation": "",
+    "pos": 500
+  },
+  {
+    "passage": "Farm Kennel Train Easy",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1231_5_3_7|",
+    "original": "This turns out to be all of them, and you get little done.<<lrespect>><<farm_dogs -1>>",
+    "translation": "",
+    "pos": 613
+  },
+  {
+    "passage": "Farm Kennel Train Easy",
+    "filepath": "overworld-plains/loc-farm/kennel.twee",
+    "key": "1235_5_3_7|",
+    "original": "<<link [[Next|Farm Work]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 719
+  }
+]

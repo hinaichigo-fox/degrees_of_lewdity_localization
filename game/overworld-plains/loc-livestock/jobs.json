@@ -1,0 +1,3538 @@
+[
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "10_5_3_7|",
+    "original": "You're led down the small lane in the direction of the barn, but take a detour down a smaller path to the side, shielded by hedgerows. You bend around a corner, and come to a small stone building.",
+    "translation": "",
+    "pos": 225
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "13_5_3_7|",
+    "original": "The interior is dark, but clean. Farm equipment and machinery is neatly tucked to one side, leaving space in the middle for a table and pair of chairs.",
+    "translation": "",
+    "pos": 436
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "17_5_3_7|",
+    "original": "<<endevent>><<npc Harper>><<person1>>A <<personsimple>> wearing a white medical coat sits on one, jotting on a sheet of paper on the table. You recognise <<him>>.",
+    "translation": "",
+    "pos": 627
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "19_5_3_7|",
+    "original": "<<He>> stands up as Remy enters. \"I'm Doctor Harper,\" <<he>> says. \"Thank you for allowing this. We're not ready for human trials.\"",
+    "translation": "",
+    "pos": 805
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "21_5_3_7|",
+    "original": "\"It's my pleasure,\" Remy responds, taking the doctor's hand. \"Good to meet you in person.\"",
+    "translation": "",
+    "pos": 948
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "23_5_3_7|",
+    "original": "\"This must be the specimen.\" Harper says, <<his>> eyes flickering over your body. <<if $uncomfortable.nude is true>><<covered>><</if>> It's as if <<he>> doesn't recognise you.",
+    "translation": "",
+    "pos": 1050
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "25_5_3_7|",
+    "original": "Remy turns to you. <<endevent>><<npc Remy>><<person1>>\"Do what the good doctor says,\" <<he>> says as Harper tugs on a pair of gloves. \"It won't hurt. It might even be good for you.\"",
+    "translation": "",
+    "pos": 1241
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "28_5_3_7|",
+    "original": "<<link [[Obey|Livestock Job Harper Obey]]>><<sub 1>><<npcincr Remy dom 1>><<npcincr Harper dom 1>><<livestock_obey 5>><<transform cow 1>><</link>><<ggobey>>",
+    "translation": "",
+    "pos": 1439
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "30_5_3_7|",
+    "original": "<<link [[Resist|Livestock Job Harper Resist]]>><<def 1>><<npcincr Remy dom -1>><<npcincr Harper dom -1>><<livestock_obey -5>><</link>><<llobey>>",
+    "translation": "",
+    "pos": 1607
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "35_5_3_7|",
+    "original": "<<endevent>><<npc Harper>><<person1>>A <<personsimple>> wearing a white medical coat sits on one, jotting on a sheet of paper on the table.",
+    "translation": "",
+    "pos": 1816
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "37_5_3_7|",
+    "original": "<<He>> stands up as Remy enters. \"I'm Doctor Harper,\" <<he>> says. <<He>> looks young for a doctor. Can't be older than 25. \"Thank you for allowing this. We're not ready for human trials.\"",
+    "translation": "",
+    "pos": 1971
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "39_5_3_7|",
+    "original": "\"It's my pleasure,\" Remy responds, taking the doctor's hand. \"Good to meet you in person.\"",
+    "translation": "",
+    "pos": 2171
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "41_5_3_7|",
+    "original": "\"This must be the specimen.\" The doctor says, <<his>> eyes flickering over your body. <<if $uncomfortable.nude is true>><<covered>><</if>>",
+    "translation": "",
+    "pos": 2273
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "44_5_3_7|",
+    "original": "Remy turns to you. <<endevent>><<npc Remy>><<person1>>\"Do what the good doctor says,\" <<he>> says as Harper tugs on a pair of gloves. \"It won't hurt. It might even be good for you.\"",
+    "translation": "",
+    "pos": 2428
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "47_5_3_7|",
+    "original": "<<link [[Obey|Livestock Job Harper Obey]]>><<sub 1>><<npcincr Remy dom 1>><<npcincr Harper dom 1>><<livestock_obey 5>><<transform cow 1>><</link>><<ggobey>>",
+    "translation": "",
+    "pos": 2626
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "49_5_3_7|",
+    "original": "<<link [[Resist|Livestock Job Harper Resist]]>><<def 1>><<npcincr Remy dom -1>><<npcincr Harper dom -1>><<livestock_obey -5>><</link>><<llobey>>",
+    "translation": "",
+    "pos": 2794
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "55_5_3_7|",
+    "original": "You're led down the small lane in the direction of the barn, but take a detour down the smaller path to the side, shielded by hedgerows. You bend around a corner, and come to the small stone building.",
+    "translation": "",
+    "pos": 3028
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "58_5_3_7|",
+    "original": "The interior is as dark as ever. Farm equipment and machinery is neatly tucked to one side, leaving space in the middle for a table and pair of chairs.",
+    "translation": "",
+    "pos": 3243
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "62_5_3_7|",
+    "original": "Doctor Harper sits on one. \"Ah,\" <<he>> says, smiling. \"Our specimen.\" Remy hands <<him>> your leash, then stands behind you.",
+    "translation": "",
+    "pos": 3449
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "65_5_3_7|",
+    "original": "\"Today we're going to try a little technique that should improve your yield.\" <<His>> voice has taken on a soothing quality. \"Help you be the <<if $player.gender_appearance is \"m\">>bull<<else>>cow<</if>> you were meant to be.\"",
+    "translation": "",
+    "pos": 3589
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "68_5_3_7|",
+    "original": "<<He>> lifts a pen from the table beside <<him>>, and holds it in front of you. Remy's hands rest on the side of your head, gentle but firm, forcing you to look at the doctor. \"Focus on the pen,\" Harper says. \"There's nothing in the universe but this pen, and the sound of my voice.\"",
+    "translation": "",
+    "pos": 3830
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "71_5_3_7|",
+    "original": "<<link [[This feels nice|Livestock Job Hypnosis]]>><<control 15>><<livestock_obey 5>><<transform cow 2>><<trauma -6>><<stress -6>><<awareness -10>><</link>><<ggobey>><<ggcontrol>><<llawareness>><<ltrauma>><<lstress>>",
+    "translation": "",
+    "pos": 4128
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "73_5_3_7|",
+    "original": "<<link [[Resist|Livestock Job Hypnosis Resist]]>><<livestock_obey -5>><<stress 6>><</link>><<llobey>><<gstress>>",
+    "translation": "",
+    "pos": 4354
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "78_5_3_7|",
+    "original": "You're led down the small lane toward the barn. You don't stop there however, instead continuing further until you come to a rustic farmhouse.",
+    "translation": "",
+    "pos": 4545
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "81_5_3_7|",
+    "original": "The interior is cramped, but clean and well-decorated. You're led into a living room lined by chairs. They're occupied by <<people>>.",
+    "translation": "",
+    "pos": 4702
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "84_5_3_7|",
+    "original": "Doctor Harper rises from the seat closest to the door. <<endevent>><<npc Harper>><<person1>><<He>> holds out <<his>> hand. \"Again, thank you,\" <<he>> says as Remy takes it. \"I've brought my colleagues.\" <<He>> gestures at other figures seated around the room. They look a bit rough to be the doctor's colleagues. \"They wish to observe the effects.\"",
+    "translation": "",
+    "pos": 4850
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "86_5_3_7|",
+    "original": "Remy nods. \"Then I'll leave you to it.\"",
+    "translation": "",
+    "pos": 5208
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "88_5_3_7|",
+    "original": "Harper pulls a phial of pink liquid from <<his>> coat pocket. \"Could you remain a moment? It needs to drink this, and I have little experience handling beasts.\"",
+    "translation": "",
+    "pos": 5257
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "93_5_3_7|",
+    "original": "Remy gropes at the back of your head as the doctor opens the phial. <span class=\"lblue\">Your muzzle comes loose.</span> A sweet smell permeates the room.",
+    "translation": "",
+    "pos": 5512
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "98_5_3_7|",
+    "original": "<<endevent>><<npc Harper>><<person1>>The doctor presses it against your lips.",
+    "translation": "",
+    "pos": 5742
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "100_5_3_7|",
+    "original": "Remy and <<his>> farmhands stand nearby as the doctor opens the phial. A sweet smell permeates the room. <<endevent>><<npc Harper>><<person1>><<He>> presses it against your lips.",
+    "translation": "",
+    "pos": 5859
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "102_5_3_7|",
+    "original": "Remy has two of <<his>> farmhands restrain you. The doctor opens the phial. A sweet smell permeates the room. <<endevent>><<npc Harper>><<person1>><<He>> presses it against your lips.",
+    "translation": "",
+    "pos": 6052
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "106_5_3_7|",
+    "original": "<<link [[Obey|Livestock Job Harper 2 Obey]]>><<sub 1>><<npcincr Remy dom 1>><<npcincr Harper dom 1>><<livestock_obey 5>><<transform cow 1>><</link>><<ggobey>><<ggarousal>>",
+    "translation": "",
+    "pos": 6260
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "108_5_3_7|",
+    "original": "<<link [[Deceive|Livestock Job Harper 2 Deceive]]>><</link>><<skulduggerydifficulty 1 1000>><<garousal>>",
+    "translation": "",
+    "pos": 6441
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "110_5_3_7|",
+    "original": "<<link [[Struggle|Livestock Job Harper 2 Struggle]]>><<def 1>><<livestock_obey -5>><</link>><<physiquedifficulty 1 $physiquemax>><<llobey>>",
+    "translation": "",
+    "pos": 6555
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "115_5_3_7|",
+    "original": "You're led down the small lane toward the barn. You walk past it, continuing further until you come to the rustic farmhouse.",
+    "translation": "",
+    "pos": 6773
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "118_5_3_7|",
+    "original": "You're led into the cramped living room. Chairs line the edge. They're occupied by <<people>>.",
+    "translation": "",
+    "pos": 6912
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "121_5_3_7|",
+    "original": "<<endevent>><<npc Harper>><<person1>>Doctor Harper rises from the seat closest to the door. \"Again, thank you,\" <<he>> says. \"My colleagues and I are here to observe the long-term effects of the treatment.\"",
+    "translation": "",
+    "pos": 7021
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "124_5_3_7|",
+    "original": "Remy hands <<him>> your leash. \"Of course. May you find it enlightening. I'll be in the barn should you have trouble.\"",
+    "translation": "",
+    "pos": 7242
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "127_5_3_7|",
+    "original": "Harper tries to pull you into the middle of the room.",
+    "translation": "",
+    "pos": 7375
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "130_5_3_7|",
+    "original": "<<link [[Obey|Livestock Job Harper 3 Obey]]>><<sub 1>><<livestock_obey 5>><<transform cow 1>><</link>><<ggobey>>",
+    "translation": "",
+    "pos": 7443
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "132_5_3_7|",
+    "original": "<<link [[Struggle|Livestock Job Harper 3 Struggle]]>><<def 1>><<livestock_obey -5>><</link>><<physiquedifficulty 1 $physiquemax>><<llobey>>",
+    "translation": "",
+    "pos": 7565
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "136_5_3_7|",
+    "original": "You're led down the small lane toward the barn. You walk past it, continuing further until you come to the rustic farmhouse.",
+    "translation": "",
+    "pos": 7782
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "139_5_3_7|",
+    "original": "You're led into the cramped living room. Chairs line the edge. They're occupied by <<people>>.",
+    "translation": "",
+    "pos": 7921
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "142_5_3_7|",
+    "original": "<<endevent>><<npc Harper>><<person1>>Doctor Harper rises from the seat closest to the door. \"Again, thank you,\" <<he>> says. \"My colleagues and I are here to observe the long-term effects of the treatment.\"",
+    "translation": "",
+    "pos": 8030
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "145_5_3_7|",
+    "original": "Remy hands <<him>> your leash. \"Of course. May you find it enlightening. I'll be in the barn should you have trouble.\"",
+    "translation": "",
+    "pos": 8251
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "148_5_3_7|",
+    "original": "<<He>> lifts a pen from the table beside <<him>>, and holds it in front of you. Remy's hands rest on the side of your head, gentle but firm, forcing you to look at the doctor. \"Focus on the pen,\" Harper says. \"There's nothing in the universe but this pen, and the sound of my voice.\"",
+    "translation": "",
+    "pos": 8384
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "151_5_3_7|",
+    "original": "<<link [[This feels nice|Livestock Job Hypnosis 2]]>><<control 15>><<livestock_obey 5>><<transform cow 4>><<trauma -12>><<stress -12>><<awareness -20>><</link>><<ggobey>><<ggcontrol>><<llawareness>><<ltrauma>><<lstress>>",
+    "translation": "",
+    "pos": 8682
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "153_5_3_7|",
+    "original": "<<link [[Resist|Livestock Job Hypnosis Resist]]>><<livestock_obey -5>><<stress 6>><</link>><<llobey>><<gstress>>",
+    "translation": "",
+    "pos": 8912
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "163_5_3_7|",
+    "original": "Remy leads you down the small lane towards the barn. You arrive in front of it, but then turn toward the second, smaller barn opposite.",
+    "translation": "",
+    "pos": 9241
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "165_5_3_7|",
+    "original": "The interior is dusky. A mat has been placed in the centre, bathed in light from a couple of studio lamps and surrounded by stools. They're unoccupied. A camera rests on a tripod. A young <<personsimple>> with a stick in <<his>> mouth stares into it.",
+    "translation": "",
+    "pos": 9390
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "169_5_3_7|",
+    "original": "<<He>> pulls away from the camera and looks at you. \"Niki, I take it?\" Remy says beside you.",
+    "translation": "",
+    "pos": 9683
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "171_5_3_7|",
+    "original": "The young <<personsimple>> nods. \"We're ready when you are.\"",
+    "translation": "",
+    "pos": 9791
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "173_5_3_7|",
+    "original": "<<He>> pulls away from the camera and stares at you. You recognise <<him>>. It's Niki the photographer. <<if $uncomfortable.nude is true>><<covered>><</if>>",
+    "translation": "",
+    "pos": 9866
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "175_5_3_7|",
+    "original": "\"Niki, I take it?\" Remy says beside you.",
+    "translation": "",
+    "pos": 10038
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "177_5_3_7|",
+    "original": "Niki hesitates, <<his>> eyes lingering on you, then nods. \"We're ready when you are.\"",
+    "translation": "",
+    "pos": 10094
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "183_5_3_7|",
+    "original": "\"Good.\" Remy turns to you. \"We're just doing a practise shoot today, but you need to be good all the same.\"",
+    "translation": "",
+    "pos": 10281
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "186_5_3_7|",
+    "original": "<<link [[Next|Livestock Job Niki]]>><</link>>",
+    "translation": "",
+    "pos": 10403
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "191_5_3_7|",
+    "original": "Remy leads you down the small lane towards the barn. You arrive in front of it, but then are turned toward the second, smaller barn opposite.",
+    "translation": "",
+    "pos": 10557
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "194_5_3_7|",
+    "original": "The interior is dusky. The mat, lights and camera from before are set up. Niki operates the camera. A <<beasttype>> already sits before it, waiting beside a hay bale.",
+    "translation": "",
+    "pos": 10713
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "197_5_3_7|",
+    "original": "\"Lie on the mat,\" Remy whispers. \"There's a good <<girl>>.\"",
+    "translation": "",
+    "pos": 10894
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "200_5_3_7|",
+    "original": "<<link [[Obey|Livestock Job Pig Obey]]>><<set $farm_phase to 0>><<livestock_obey 5>><<sub 1>><<transform cow 1>><</link>><<ggobey>>",
+    "translation": "",
+    "pos": 10968
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "202_5_3_7|",
+    "original": "<<link [[Struggle|Livestock Job Pig Struggle]]>><<set $farm_phase to 0>><<livestock_obey -5>><<def 1>><</link>><<physiquedifficulty 1 $physiquemax>><<llobey>>",
+    "translation": "",
+    "pos": 11109
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "204_5_3_7|",
+    "original": "<<link [[Plead with Niki|Livestock Job Pig Plead]]>><<set $farm_phase to 0>><<livestock_obey -1>><</link>><<lobey>>",
+    "translation": "",
+    "pos": 11277
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "210_5_3_7|",
+    "original": "Remy leads you down the small lane towards the barn. You arrive in front of it, but then are turned toward the second, smaller barn opposite.",
+    "translation": "",
+    "pos": 11502
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "213_5_3_7|",
+    "original": "The interior is dusky. The mat, lights and camera from before are set up. A ring of stools sits around the edge. They're occupied by <<people>>. Three <<beastsplural>> sit on the mat, waiting beside a hay bale. Niki operates the camera.",
+    "translation": "",
+    "pos": 11658
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "216_5_3_7|",
+    "original": "\"Lie on the mat,\" Remy whispers. \"There's a good <<girl>>.\"",
+    "translation": "",
+    "pos": 11909
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "219_5_3_7|",
+    "original": "<<link [[Obey|Livestock Job Pig Obey]]>><<set $farm_phase to 1>><<livestock_obey 5>><<sub 1>><<transform cow 1>><</link>><<ggobey>>",
+    "translation": "",
+    "pos": 11983
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "221_5_3_7|",
+    "original": "<<link [[Struggle|Livestock Job Pig Struggle]]>><<set $farm_phase to 1>><<livestock_obey -5>><<def 1>><</link>><<physiquedifficulty 1 $physiquemax>><<llobey>>",
+    "translation": "",
+    "pos": 12124
+  },
+  {
+    "passage": "Livestock Job",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "223_5_3_7|",
+    "original": "<<link [[Plead with Niki|Livestock Job Pig Plead]]>><<set $farm_phase to 1>><<livestock_obey -1>><</link>><<lobey>>",
+    "translation": "",
+    "pos": 12292
+  },
+  {
+    "passage": "Livestock Job End",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "234_5_3_7|",
+    "original": "Remy leads you back to the field. <<He>> stops outside while the farmhands open the gate.",
+    "translation": "",
+    "pos": 58
+  },
+  {
+    "passage": "Livestock Job End",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "238_5_3_7|",
+    "original": "Reaching behind your head, <<he>> unties and <span class=\"lblue\">removes your $worn.face.name.</span>",
+    "translation": "",
+    "pos": 198
+  },
+  {
+    "passage": "Livestock Job End",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "245_5_3_7|",
+    "original": "\"You've been such a good <<girl>>,\" Remy says. <<He>> holds out <<his>> hand, and a farmhand hands <<him>> a sheet-covered basket. Remy removes the sheet, revealing a number of large, juicy apples.",
+    "translation": "",
+    "pos": 406
+  },
+  {
+    "passage": "Livestock Job End",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "248_5_3_7|",
+    "original": "Your heart skips a beat at the sight. You're so hungry, and they look so delicious. Your stomach growls.",
+    "translation": "",
+    "pos": 632
+  },
+  {
+    "passage": "Livestock Job End",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "250_5_3_7|",
+    "original": "They look so delicious. Certainly compared to the grass you've had to tolerate. Your stomach growls.",
+    "translation": "",
+    "pos": 749
+  },
+  {
+    "passage": "Livestock Job End",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "254_5_3_7|",
+    "original": "\"These are for you,\" Remy says, handing you the entire basket. <<if $cow gte 6 or $leftarm is \"bound\" and $rightarm is \"bound\">>You take the handle in your mouth.<</if>> \"Good <<girls>> get treats. Enjoy.\"",
+    "translation": "",
+    "pos": 871
+  },
+  {
+    "passage": "Livestock Job End",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "259_5_3_7|",
+    "original": "Just as you're about to crawl away, Remy holds you by your shoulders and removes the $worn.neck.name,",
+    "translation": "",
+    "pos": 1186
+  },
+  {
+    "passage": "Livestock Job End",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "260_5_3_7|",
+    "original": "\"One other thing before I go. I got you a new bell, for being such a good <<girl>>,\" <<he>> says while securing it around your neck.",
+    "translation": "",
+    "pos": 1291
+  },
+  {
+    "passage": "Livestock Job End",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "264_5_3_7|",
+    "original": "Just as you're about to crawl away, Remy holds you by your shoulders and secures something around your neck.",
+    "translation": "",
+    "pos": 1498
+  },
+  {
+    "passage": "Livestock Job End",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "265_5_3_7|",
+    "original": "\"One other thing before I go. I got you a new bell, for being such a good <<girl>>,\" <<he>> says before walking away.",
+    "translation": "",
+    "pos": 1610
+  },
+  {
+    "passage": "Livestock Job End",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "267_5_3_7|",
+    "original": "You give your head a small shake, and it rings. The sound is oddly soothing.",
+    "translation": "",
+    "pos": 1740
+  },
+  {
+    "passage": "Livestock Job End",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "272_5_3_7|",
+    "original": "The gate shuts behind you.",
+    "translation": "",
+    "pos": 1856
+  },
+  {
+    "passage": "Livestock Job End",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "275_5_3_7|",
+    "original": "<<link [[Eat the apples|Livestock Job Eat]]>><<stress -6>><<trauma -6>><<hunger -2000>><</link>><<lllhunger>><<ltrauma>><<lstress>>",
+    "translation": "",
+    "pos": 1895
+  },
+  {
+    "passage": "Livestock Job End",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "277_5_3_7|",
+    "original": "<<link [[Save them for someone else|Livestock Job Save]]>><</link>>",
+    "translation": "",
+    "pos": 2034
+  },
+  {
+    "passage": "Livestock Job End",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "282_5_3_7|",
+    "original": "\"You've been a good <<girl>>,\" Remy says. <<He>> pulls a shiny red apple from <<his>> pocket. \"This is for you.\" <<He>> holds it toward you.",
+    "translation": "",
+    "pos": 2208
+  },
+  {
+    "passage": "Livestock Job End",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "285_5_3_7|",
+    "original": "You lean forward and take a bite. It's so sweet and delicious. The juice runs down your chin. Remy turns the fruit for you, and you lean forward again, and again, until just the core is left. Remy holds out <<his>> fingers, and you lick the juice off.",
+    "translation": "",
+    "pos": 2363
+  },
+  {
+    "passage": "Livestock Job End",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "289_5_3_7|",
+    "original": "\"There's more where that came from,\" Remy says as <<he>> ruffles your hair. \"As long as you're a good <<if $player.gender_appearance is \"m\">>bull<<else>>cow<</if>>.\" <<He>> pulls you into the field.",
+    "translation": "",
+    "pos": 2656
+  },
+  {
+    "passage": "Livestock Job End",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "294_5_3_7|",
+    "original": "Just as you're about to crawl away, Remy holds you by your shoulders and removes the $worn.neck.name.",
+    "translation": "",
+    "pos": 2953
+  },
+  {
+    "passage": "Livestock Job End",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "295_5_3_7|",
+    "original": "\"One other thing before I go. I got you a new bell, for being such a good <<girl>>,\" <<he>> says while securing it around your neck.",
+    "translation": "",
+    "pos": 3059
+  },
+  {
+    "passage": "Livestock Job End",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "299_5_3_7|",
+    "original": "Just as you're about to crawl away, Remy holds you by your shoulders and secures something around your neck.",
+    "translation": "",
+    "pos": 3270
+  },
+  {
+    "passage": "Livestock Job End",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "300_5_3_7|",
+    "original": "\"One other thing before I go. I got you a new bell, for being such a good <<girl>>,\" <<he>> says before walking away.",
+    "translation": "",
+    "pos": 3383
+  },
+  {
+    "passage": "Livestock Job End",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "302_5_3_7|",
+    "original": "You give your head a small shake, and it rings. The sound is oddly soothing.",
+    "translation": "",
+    "pos": 3515
+  },
+  {
+    "passage": "Livestock Job End",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "307_5_3_7|",
+    "original": "You lick fruit off your chin as the gate clanks shut behind you.",
+    "translation": "",
+    "pos": 3635
+  },
+  {
+    "passage": "Livestock Job End",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "310_5_3_7|",
+    "original": "<<link [[Next|Livestock Field]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 3714
+  },
+  {
+    "passage": "Livestock Job End",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "314_5_3_7|",
+    "original": "\"You've been a good <<girl>>,\" Remy says. <<He>> pulls a shiny red apple from <<his>> pocket. \"This is for you.\" <<He>> holds it towards you. Your arms are bound, so you can't reach for it. \"I'll hold it while you eat,\" Remy says, as if reading your mind. \"<<if $player.gender_appearance is \"m\">>Bulls<<else>>Cows<</if>> don't have hands.\"",
+    "translation": "",
+    "pos": 3835
+  },
+  {
+    "passage": "Livestock Job End",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "316_5_3_7|",
+    "original": "<<link [[Eat|Livestock Job Eat One]]>><<npcincr Remy love 1>><<hunger -400>><<livestock_obey 1>><<transform cow 1>><</link>><<gobey>><<lhunger>>",
+    "translation": "",
+    "pos": 4188
+  },
+  {
+    "passage": "Livestock Job End",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "318_5_3_7|",
+    "original": "<<link [[Refuse|Livestock Job Eat Refuse]]>><<livestock_obey -1>><</link>><<lobey>>",
+    "translation": "",
+    "pos": 4342
+  },
+  {
+    "passage": "Livestock Job End",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "321_5_3_7|",
+    "original": "\"You've been a good <<girl>>,\" Remy says. <<He>> pulls a shiny red apple from <<his>> pocket. \"This is for you.\" <<He>> holds it toward you, but when you reach out <<he>> pulls it back. \"No no,\" <<he>> says. \"<<if $player.gender_appearance is \"m\">>Bulls<<else>>Cows<</if>> don't have hands. I'll hold it for you as you eat.\"",
+    "translation": "",
+    "pos": 4445
+  },
+  {
+    "passage": "Livestock Job End",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "324_5_3_7|",
+    "original": "<<link [[Eat|Livestock Job Eat One]]>><<npcincr Remy love 1>><<hunger -400>><<livestock_obey 1>><<transform cow 1>><</link>><<gobey>><<lhunger>>",
+    "translation": "",
+    "pos": 4784
+  },
+  {
+    "passage": "Livestock Job End",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "326_5_3_7|",
+    "original": "<<link [[Refuse|Livestock Job Eat Refuse]]>><<livestock_obey -1>><</link>><<lobey>>",
+    "translation": "",
+    "pos": 4938
+  },
+  {
+    "passage": "Livestock Job End",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "330_5_3_7|",
+    "original": "\"You're a temperamental one,\" Remy says. <<He>> pulls a shiny red apple from <<his>> pocket. \"This could be yours someday. If you behave yourself.\" <<He>> takes a bite.",
+    "translation": "",
+    "pos": 5073
+  },
+  {
+    "passage": "Livestock Job End",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "333_5_3_7|",
+    "original": "It looks so juicy. Your deprived stomach growls.",
+    "translation": "",
+    "pos": 5270
+  },
+  {
+    "passage": "Livestock Job End",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "335_5_3_7|",
+    "original": "It looks so sweet, so tasty compared to the alternative.",
+    "translation": "",
+    "pos": 5331
+  },
+  {
+    "passage": "Livestock Job End",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "339_5_3_7|",
+    "original": "Remy pulls you the rest of the way into the field. The gate clanks shut behind you.",
+    "translation": "",
+    "pos": 5409
+  },
+  {
+    "passage": "Livestock Job End",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "342_5_3_7|",
+    "original": "<<link [[Next|Livestock Field]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 5505
+  },
+  {
+    "passage": "Livestock Job End",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "345_5_3_7|",
+    "original": "\"You're a temperamental one,\" Remy says, pulling your leash. \"But you'll break. They always do.\" <<He>> shoves you through the gate. It clanks shut behind you.",
+    "translation": "",
+    "pos": 5576
+  },
+  {
+    "passage": "Livestock Job End",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "348_5_3_7|",
+    "original": "<<link [[Next|Livestock Field]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 5748
+  },
+  {
+    "passage": "Livestock Job Eat One",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "355_5_3_7|",
+    "original": "You lean forward and take a bite. It's so sweet and delicious. The juice runs down your chin. Remy turns the fruit for you, and you lean forward again, and again, until just the core is left.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Livestock Job Eat One",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "358_5_3_7|",
+    "original": "\"There's more where that came from,\" Remy says as <<he>> ruffles your hair. \"As long as you're good.\" <<He>> pulls you into the field. You lick fruit off your chin as the gate clanks shut behind you.",
+    "translation": "",
+    "pos": 215
+  },
+  {
+    "passage": "Livestock Job Eat One",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "361_5_3_7|",
+    "original": "<<link [[Next|Livestock Field]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 425
+  },
+  {
+    "passage": "Livestock Job Eat Refuse",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "368_5_3_7|",
+    "original": "\"I-I refuse,\" you say. Your stomach growls in protest. \"I'm a person.\"",
+    "translation": "",
+    "pos": 48
+  },
+  {
+    "passage": "Livestock Job Eat Refuse",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "370_5_3_7|",
+    "original": "\"I'm not cattle,\" you say. Your stomach growls in protest. \"Shove it up your ass.\"",
+    "translation": "",
+    "pos": 160
+  },
+  {
+    "passage": "Livestock Job Eat Refuse",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "372_5_3_7|",
+    "original": "\"No,\" you say. Your stomach growls in protest. \"I don't care how hungry I am.\"",
+    "translation": "",
+    "pos": 253
+  },
+  {
+    "passage": "Livestock Job Eat Refuse",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "376_5_3_7|",
+    "original": "Remy takes a bite of the apple <<himself>>. <<He>> closes <<his>> eyes in feigned enjoyment. \"So tasty,\" <<he>> says. <<He>> clutches your leash, and pulls you the rest of the way into the field. The gate clanks shut behind you.",
+    "translation": "",
+    "pos": 350
+  },
+  {
+    "passage": "Livestock Job Eat Refuse",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "379_5_3_7|",
+    "original": "<<link [[Next|Livestock Field]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 589
+  },
+  {
+    "passage": "Livestock Job Eat",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "385_5_3_7|",
+    "original": "You bite into one of the apples. It's so sweet. Once started, there's no stopping you. You eat the entire basket, careful to not waste a single drop of juice. You lie back on the grass, relieved and satiated.",
+    "translation": "",
+    "pos": 53
+  },
+  {
+    "passage": "Livestock Job Eat",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "388_5_3_7|",
+    "original": "<<link [[Next|Livestock Field]]>><<canvas-model-override \"clear\">><<endevent>><</link>>",
+    "translation": "",
+    "pos": 288
+  },
+  {
+    "passage": "Livestock Job Save",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "394_5_3_7|",
+    "original": "You cover the apples with the sheet.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Livestock Job Save",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "396_5_3_7|",
+    "original": "Your stomach growls in protest.",
+    "translation": "",
+    "pos": 75
+  },
+  {
+    "passage": "Livestock Job Save",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "401_5_3_7|",
+    "original": "<<link [[Next|Livestock Field]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 154
+  },
+  {
+    "passage": "Livestock Job Resist End",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "408_5_3_7|",
+    "original": "Remy pulls you back to the small lane. <<He>> doesn't turn toward the cattle field, but walks in the opposite direction instead, past the barn and across a thin paved road. There's another field here, but the gate is more mundane, and bordered by regular hedgerows.",
+    "translation": "",
+    "pos": 70
+  },
+  {
+    "passage": "Livestock Job Resist End",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "411_5_3_7|",
+    "original": "\"You're going to be useful,\" Remy says, tugging you toward an old plough. \"One way or another.\" Two farmhands grasp your arms. They pull you beneath, forcing you to bend a little. They tie your shoulders to the metal with thick rope.",
+    "translation": "",
+    "pos": 346
+  },
+  {
+    "passage": "Livestock Job Resist End",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "414_5_3_7|",
+    "original": "Remy sits on the plough and leans back. <<He>> unclips <<his>> whip.",
+    "translation": "",
+    "pos": 590
+  },
+  {
+    "passage": "Livestock Job Resist End",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "417_5_3_7|",
+    "original": "<<link [[Pull|Livestock Plough]]>><<sub 1>><<transform cow 1>><<npcincr Remy dom 1>><<tiredness 18>><</link>><<ggtiredness>>",
+    "translation": "",
+    "pos": 669
+  },
+  {
+    "passage": "Livestock Job Resist End",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "419_5_3_7|",
+    "original": "<<link [[Refuse|Livestock Plough Refuse]]>><<def 1>><<npcincr Remy dom -1>><<pain 6>><</link>><<gpain>>",
+    "translation": "",
+    "pos": 799
+  },
+  {
+    "passage": "Livestock Plough",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "430_5_3_7|",
+    "original": "You force yourself forward, pulling the plough behind you. It's a small satisfaction that Remy is surprised by the speed, and falls back into <<his>> chair.",
+    "translation": "",
+    "pos": 124
+  },
+  {
+    "passage": "Livestock Plough",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "433_5_3_7|",
+    "original": "You march across the field with slow but determined steps. Remy doesn't use the whip, seeming content with your performance.",
+    "translation": "",
+    "pos": 293
+  },
+  {
+    "passage": "Livestock Plough",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "435_5_3_7|",
+    "original": "You force yourself forward, straining to pull the plough behind you. It feels like an immovable weight, but then it gives. Remy's whip cracks at your side.",
+    "translation": "",
+    "pos": 470
+  },
+  {
+    "passage": "Livestock Plough",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "438_5_3_7|",
+    "original": "It's easier now that you have momentum, but progress is slow, and you feel like your muscles will give out at any moment. Remy doesn't use the whip again, seeming content with your performance.",
+    "translation": "",
+    "pos": 638
+  },
+  {
+    "passage": "Livestock Plough",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "440_5_3_7|",
+    "original": "You force yourself forward, straining to pull the plough behind you. You can't move it far before your strength gives out. You'd collapse if you weren't tied to the metal. Remy's whip cracks at your side.",
+    "translation": "",
+    "pos": 883
+  },
+  {
+    "passage": "Livestock Plough",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "443_5_3_7|",
+    "original": "You recover enough to pull again, but can only move it in short bursts. Remy berates you and cracks the whip, but the lash never touches you. <<He>> seems content with your effort.",
+    "translation": "",
+    "pos": 1100
+  },
+  {
+    "passage": "Livestock Plough",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "445_5_3_7|",
+    "original": "You try to pull the plough behind you. It takes everything you have, but you manage to move it. An inch. Remy's whip cracks at your side.",
+    "translation": "",
+    "pos": 1332
+  },
+  {
+    "passage": "Livestock Plough",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "448_5_3_7|",
+    "original": "You keep pulling, moving the plough in short bursts. Remy berates you and cracks the whip, but the lash never touches you. <<He>> seems content with your effort.",
+    "translation": "",
+    "pos": 1482
+  },
+  {
+    "passage": "Livestock Plough",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "450_5_3_7|",
+    "original": "You try to pull the plough, but it's no use. You're not strong enough. Remy's whip cracks at your side.",
+    "translation": "",
+    "pos": 1654
+  },
+  {
+    "passage": "Livestock Plough",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "453_5_3_7|",
+    "original": "You keep pulling, despite the hopelessness of the task. Remy berates you and cracks the whip, but the lash never touches you. <<He>> seems content with your effort.",
+    "translation": "",
+    "pos": 1770
+  },
+  {
+    "passage": "Livestock Plough",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "459_5_3_7|",
+    "original": "\"Stop,\" Remy says, just as you feel like you're about to collapse. \"That's enough for the day. Untie <<phim>>.\"",
+    "translation": "",
+    "pos": 1980
+  },
+  {
+    "passage": "Livestock Plough",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "462_5_3_7|",
+    "original": "The farmhands remove the rope from your small shoulders, and you almost fall to the soil. Remy marches over and grasps your leash. \"I'd have preferred you do the other job,\" <<he>> says. \"But stubborn beasts get hard labour. Remember that.\"",
+    "translation": "",
+    "pos": 2102
+  },
+  {
+    "passage": "Livestock Plough",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "465_5_3_7|",
+    "original": "<<He>> pulls you back to the cattle field, flanked by <<his>> cronies.",
+    "translation": "",
+    "pos": 2353
+  },
+  {
+    "passage": "Livestock Plough",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "467_5_3_7|",
+    "original": "<<He>> grasps the back of your muzzle, <span class=\"lblue\">unties it,</span> then pushes you through the gate. It clanks shut behind you.",
+    "translation": "",
+    "pos": 2464
+  },
+  {
+    "passage": "Livestock Plough",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "471_5_3_7|",
+    "original": "The gate clanks shut behind you.",
+    "translation": "",
+    "pos": 2668
+  },
+  {
+    "passage": "Livestock Plough",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "475_5_3_7|",
+    "original": "<<link [[Next|Livestock Field]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 2719
+  },
+  {
+    "passage": "Livestock Plough Refuse",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "486_5_3_7|",
+    "original": "You remain still, refusing to move.",
+    "translation": "",
+    "pos": 116
+  },
+  {
+    "passage": "Livestock Plough Refuse",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "488_5_3_7|",
+    "original": "\"I-I can't pull this,\" you say. \"I'm too weak.\"",
+    "translation": "",
+    "pos": 191
+  },
+  {
+    "passage": "Livestock Plough Refuse",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "490_5_3_7|",
+    "original": "\"Untie me at once,\" you demand. \"Or you'll be sorry.\"",
+    "translation": "",
+    "pos": 280
+  },
+  {
+    "passage": "Livestock Plough Refuse",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "492_5_3_7|",
+    "original": "\"I can't pull this,\" you say. \"I'm not strong enough.\"",
+    "translation": "",
+    "pos": 344
+  },
+  {
+    "passage": "Livestock Plough Refuse",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "496_5_3_7|",
+    "original": "Remy's cracks the whip once to your side, then follows it up with a lash to your back. You cry out in pain. \"If that's how you want it,\" <<he>> says, a hint of delight in <<his>> voice. \"So be it.\"",
+    "translation": "",
+    "pos": 417
+  },
+  {
+    "passage": "Livestock Plough Refuse",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "499_5_3_7|",
+    "original": "You brace for another lash, but the whip cracks again at your side.",
+    "translation": "",
+    "pos": 625
+  },
+  {
+    "passage": "Livestock Plough Refuse",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "502_5_3_7|",
+    "original": "<<link [[Pull|Livestock Plough]]>><<sub 1>><<transform cow 1>><<npcincr Remy dom 1>><<tiredness 18>><</link>><<ggtiredness>>",
+    "translation": "",
+    "pos": 703
+  },
+  {
+    "passage": "Livestock Plough Refuse",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "504_5_3_7|",
+    "original": "<<link [[Refuse|Livestock Plough Refuse 2]]>><<def 1>><<npcincr Remy dom -1>><<pain 12>><</link>><<willpowerdifficulty 1 400>><<ggpain>>",
+    "translation": "",
+    "pos": 833
+  },
+  {
+    "passage": "Livestock Plough Refuse 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "514_5_3_7|",
+    "original": "Remy lashes the whip against your back again, and again you cry out. <<He>> brings it down again, and again, each time more painful than the last.",
+    "translation": "",
+    "pos": 76
+  },
+  {
+    "passage": "Livestock Plough Refuse 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "516_5_3_7|",
+    "original": "<span class=\"green\">You remain obstinate.</span> Remy stands in <<his>> chair, planting <<his>> feet and readying <<his>> whip. \"So you're not a calf,\" <<he>> says. \"Fine.\"",
+    "translation": "",
+    "pos": 249
+  },
+  {
+    "passage": "Livestock Plough Refuse 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "520_5_3_7|",
+    "original": "<<link [[Pull|Livestock Plough]]>><<sub 1>><<transform cow 1>><<npcincr Remy dom 1>><<tiredness 18>><</link>><<ggtiredness>>",
+    "translation": "",
+    "pos": 465
+  },
+  {
+    "passage": "Livestock Plough Refuse 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "522_5_3_7|",
+    "original": "<<link [[Refuse|Livestock Plough Refuse 3]]>><<def 1>><<npcincr Remy dom -1>><<pain 12>><</link>><<willpowerdifficulty 300 700>><<ggpain>>",
+    "translation": "",
+    "pos": 597
+  },
+  {
+    "passage": "Livestock Plough Refuse 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "525_5_3_7|",
+    "original": "<span class=\"red\">You can't take it.</span> All pride flees your mind, and your muscles move.",
+    "translation": "",
+    "pos": 752
+  },
+  {
+    "passage": "Livestock Plough Refuse 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "528_5_3_7|",
+    "original": "<<link [[Next|Livestock Plough]]>><<transform cow 1>><<npcincr Remy dom 1>><<tiredness 18>><</link>><<ggtiredness>>",
+    "translation": "",
+    "pos": 890
+  },
+  {
+    "passage": "Livestock Plough Refuse 3",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "539_5_3_7|",
+    "original": "Remy brings the whip down once more. You grit your teeth as the leather assaults your back, pain surges through your body with every blow.",
+    "translation": "",
+    "pos": 76
+  },
+  {
+    "passage": "Livestock Plough Refuse 3",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "541_5_3_7|",
+    "original": "<span class=\"green\">You remain obstinate.</span> Remy ceases <<his>> assault. \"The-\" <<he>> pants. \"The barbs.\" The farmhands glance at each other. \"Now!\"",
+    "translation": "",
+    "pos": 241
+  },
+  {
+    "passage": "Livestock Plough Refuse 3",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "545_5_3_7|",
+    "original": "One of the farmhands runs from the field as Remy marches closer. <<He>> clutches your chin and raises it. \"Listen here, <<= $player.gender_appearance is \"m\" ? \"bull\" : \"cow\">>,\" <<he>> spits. \"I've broken stronger beasts than you. You do as I say, or I might get angry.\"",
+    "translation": "",
+    "pos": 439
+  },
+  {
+    "passage": "Livestock Plough Refuse 3",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "548_5_3_7|",
+    "original": "The farmhand returns, carrying a wooden case in both hands. Remy opens it, and pulls out another whip. <<He>> holds it in front of you. It's similar to the other, except studded with cruel barbs.",
+    "translation": "",
+    "pos": 722
+  },
+  {
+    "passage": "Livestock Plough Refuse 3",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "552_5_3_7|",
+    "original": "Remy returns to <<his>> seat. <<He>> holds the whip above <<his>> head, the length of it falling behind <<him>>.",
+    "translation": "",
+    "pos": 955
+  },
+  {
+    "passage": "Livestock Plough Refuse 3",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "555_5_3_7|",
+    "original": "<<link [[Pull|Livestock Plough]]>><<sub 1>><<transform cow 1>><<npcincr Remy dom 1>><<tiredness 18>><</link>><<ggtiredness>>",
+    "translation": "",
+    "pos": 1080
+  },
+  {
+    "passage": "Livestock Plough Refuse 3",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "557_5_3_7|",
+    "original": "<<link [[Refuse|Livestock Plough Refuse 4]]>><<def 1>><<npcincr Remy dom -1>><<pain 24>><</link>><<willpowerdifficulty 300 700>><<gggpain>>",
+    "translation": "",
+    "pos": 1212
+  },
+  {
+    "passage": "Livestock Plough Refuse 3",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "560_5_3_7|",
+    "original": "<span class=\"red\">You can't take it.</span> All pride flees your mind, and your muscles move.",
+    "translation": "",
+    "pos": 1368
+  },
+  {
+    "passage": "Livestock Plough Refuse 3",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "563_5_3_7|",
+    "original": "<<link [[Next|Livestock Plough]]>><<transform cow 1>><<npcincr Remy dom 1>><<tiredness 18>><</link>><<ggtiredness>>",
+    "translation": "",
+    "pos": 1506
+  },
+  {
+    "passage": "Livestock Plough Refuse 4",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "574_5_3_7|",
+    "original": "The barbs bite into your flesh. The minutes blur together. You're not sure you remain conscious.",
+    "translation": "",
+    "pos": 76
+  },
+  {
+    "passage": "Livestock Plough Refuse 4",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "576_5_3_7|",
+    "original": "It matters not. <span class=\"green\">You remain obstinate.</span>",
+    "translation": "",
+    "pos": 210
+  },
+  {
+    "passage": "Livestock Plough Refuse 4",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "580_5_3_7|",
+    "original": "Remy's blows become erratic. Some of them even miss. At last, <<he>> stops. \"T-Take,\" <<he>> pants. <<He>> sounds defeated. \"Take this creature back to the field. I'm done.\"",
+    "translation": "",
+    "pos": 318
+  },
+  {
+    "passage": "Livestock Plough Refuse 4",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "583_5_3_7|",
+    "original": "<<link [[Next|Livestock Plough Refuse 5]]>><<pass 60>><</link>>",
+    "translation": "",
+    "pos": 504
+  },
+  {
+    "passage": "Livestock Plough Refuse 4",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "586_5_3_7|",
+    "original": "<span class=\"red\">You can't take it.</span> All pride flees your mind, and your muscles move.",
+    "translation": "",
+    "pos": 584
+  },
+  {
+    "passage": "Livestock Plough Refuse 4",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "589_5_3_7|",
+    "original": "<<link [[Next|Livestock Plough]]>><<transform cow 1>><<npcincr Remy dom 1>><<tiredness 18>><</link>><<ggtiredness>>",
+    "translation": "",
+    "pos": 722
+  },
+  {
+    "passage": "Livestock Plough Refuse 5",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "598_5_3_7|",
+    "original": "\"I've never seen Remy like that,\" one of the farmhands says on the way back to the cattle field. \"Is <<person1>><<he>> losing <<his>> touch?\"",
+    "translation": "",
+    "pos": 52
+  },
+  {
+    "passage": "Livestock Plough Refuse 5",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "601_5_3_7|",
+    "original": "\"Nah,\" a <<person3>><<person>> responds as <<he>> <span class=\"lblue\">unties your $worn.face.name.</span> \"This one here's just a fighter. Was impressive, if hard to watch.\"",
+    "translation": "",
+    "pos": 239
+  },
+  {
+    "passage": "Livestock Plough Refuse 5",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "605_5_3_7|",
+    "original": "\"Nah,\" a <<person3>><<person>> responds. \"This one here's just a fighter. Was impressive, if hard to watch.\"",
+    "translation": "",
+    "pos": 479
+  },
+  {
+    "passage": "Livestock Plough Refuse 5",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "608_5_3_7|",
+    "original": "\"Never thought I'd see someone-\" <<person2>><<He>>catches <<himself>>. \"Ah, I mean something, that Remy couldn't break.\"",
+    "translation": "",
+    "pos": 601
+  },
+  {
+    "passage": "Livestock Plough Refuse 5",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "611_5_3_7|",
+    "original": "You arrive in front of the gates. \"It's not over for this poor thing,\" <<person3>>the <<person>> glances around. \"Hang on.\" <<He>> disappears into a small shed, and emerges with a basket covered with a white sheet.",
+    "translation": "",
+    "pos": 732
+  },
+  {
+    "passage": "Livestock Plough Refuse 5",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "613_5_3_7|",
+    "original": "<<He>> passes it to you. \"Might need help healing after that.\" You glimpse beneath the sheet. It's full of shiny, juicy apples. Your mouth waters and your stomach growls.",
+    "translation": "",
+    "pos": 956
+  },
+  {
+    "passage": "Livestock Plough Refuse 5",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "616_5_3_7|",
+    "original": "<<person2>>The <<person>> looks shocked. \"Remy's not gonna be happy,\" <<he>> says. <<person1>>\"<<Hes>> the only one allowed to give those out.\"",
+    "translation": "",
+    "pos": 1137
+  },
+  {
+    "passage": "Livestock Plough Refuse 5",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "618_5_3_7|",
+    "original": "\"Remy's not gonna find out. Like <<hes>> not gonna find out you said <<he>> lost <<his>> touch.\"",
+    "translation": "",
+    "pos": 1286
+  },
+  {
+    "passage": "Livestock Plough Refuse 5",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "620_5_3_7|",
+    "original": "The <<person2>><<persons>> face pales, and <<he>> drops the topic. The gate shuts behind you.",
+    "translation": "",
+    "pos": 1392
+  },
+  {
+    "passage": "Livestock Plough Refuse 5",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "623_5_3_7|",
+    "original": "<<link [[Eat the apples|Livestock Job Eat]]>><<stress -6>><<trauma -6>><<hunger -2000>><</link>><<lllhunger>><<ltrauma>><<lstress>>",
+    "translation": "",
+    "pos": 1496
+  },
+  {
+    "passage": "Livestock Plough Refuse 5",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "625_5_3_7|",
+    "original": "<<link [[Save them for someone else|Livestock Job Save]]>><</link>>",
+    "translation": "",
+    "pos": 1633
+  },
+  {
+    "passage": "Livestock Job Harper Obey",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "632_5_3_7|",
+    "original": "Harper steps closer. <<He>> pulls a stethoscope from behind <<his>> coat, and presses it against your chest. <<He>> listens for a moment, then",
+    "translation": "",
+    "pos": 62
+  },
+  {
+    "passage": "Livestock Job Harper Obey",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "635_5_3_7|",
+    "original": "grasps one of your <<breasts>> with <<his>> free hand. <<He>> gently fondles you.",
+    "translation": "",
+    "pos": 239
+  },
+  {
+    "passage": "Livestock Job Harper Obey",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "638_5_3_7|",
+    "original": "presses <<his>> thumb against your <<nipples>>. <<He>> rubs it in a circle, teasing you.",
+    "translation": "",
+    "pos": 370
+  },
+  {
+    "passage": "Livestock Job Harper Obey",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "643_5_3_7|",
+    "original": "<<He>> continues to listen as <<his>> hand wanders down your body.",
+    "translation": "",
+    "pos": 516
+  },
+  {
+    "passage": "Livestock Job Harper Obey",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "646_5_3_7|",
+    "original": "<<He>> tries to slip <<his>> fingers beneath your $worn.genitals.name, without success.",
+    "translation": "",
+    "pos": 609
+  },
+  {
+    "passage": "Livestock Job Harper Obey",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "648_5_3_7|",
+    "original": "<<His>> fingers brush against your <<genitals 1>>.",
+    "translation": "",
+    "pos": 707
+  },
+  {
+    "passage": "Livestock Job Harper Obey",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "654_5_3_7|",
+    "original": "<<He>> allows the stethoscope to fall, and licks <<his>> free forefinger, before reaching behind your <<bottom>>. You feel the finger press against your anus. It slides in without difficulty.",
+    "translation": "",
+    "pos": 872
+  },
+  {
+    "passage": "Livestock Job Harper Obey",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "656_5_3_7|",
+    "original": "<<He>> prods around inside you as <<his>> other hand",
+    "translation": "",
+    "pos": 1075
+  },
+  {
+    "passage": "Livestock Job Harper Obey",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "658_5_3_7|",
+    "original": "slowly strokes your thighs.",
+    "translation": "",
+    "pos": 1163
+  },
+  {
+    "passage": "Livestock Job Harper Obey",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "660_5_3_7|",
+    "original": "cups and squeezes your $worn.genitals.name, as if examining it<<if $player.vaginaExist>>, before spreading your <<pussy>><</if>>.",
+    "translation": "",
+    "pos": 1248
+  },
+  {
+    "passage": "Livestock Job Harper Obey",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "662_5_3_7|",
+    "original": "cups and buoys your <<penis>>, as if weighing it, before spreading your <<pussy>>.",
+    "translation": "",
+    "pos": 1435
+  },
+  {
+    "passage": "Livestock Job Harper Obey",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "664_5_3_7|",
+    "original": "cups and buoys your <<penis>>, as if weighing it.",
+    "translation": "",
+    "pos": 1551
+  },
+  {
+    "passage": "Livestock Job Harper Obey",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "666_5_3_7|",
+    "original": "spreads your <<pussy>>.",
+    "translation": "",
+    "pos": 1613
+  },
+  {
+    "passage": "Livestock Job Harper Obey",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "670_5_3_7|",
+    "original": "<<if $player.penisExist and $player.vaginaExist>><<He>> cups and buoys your <<penis>>, as if weighing it, before spreading your <<pussy>>.<<elseif $player.penisExist>><<He>> cups and buoys your <<penis>>, as if weighing it.<<else>><<His>> fingers spread your <<pussy>>, while another hovers in front, as if ready to plunge in at any moment.<</if>>",
+    "translation": "",
+    "pos": 1716
+  },
+  {
+    "passage": "Livestock Job Harper Obey",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "675_5_3_7|",
+    "original": "The examination continues for a while. You endure Harper's probing and prodding until <<he>> steps away from you, leaving your breath quickened. \"Everything seems fine,\" <<he>> says. \"I'll be in touch to discuss the next step.\"",
+    "translation": "",
+    "pos": 2122
+  },
+  {
+    "passage": "Livestock Job Harper Obey",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "678_5_3_7|",
+    "original": "<<link [[Next|Livestock Job End]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 2360
+  },
+  {
+    "passage": "Livestock Job Harper Refuse",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "683_5_3_7|",
+    "original": "Harper steps towards you, but you back away.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Livestock Job Harper Refuse",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "686_5_3_7|",
+    "original": "You try to speak, but the gag reduces your words to an unintelligible mumble.",
+    "translation": "",
+    "pos": 99
+  },
+  {
+    "passage": "Livestock Job Harper Refuse",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "688_5_3_7|",
+    "original": "\"P-please don't treat me like this,\" you say. \"You're scaring me.\"",
+    "translation": "",
+    "pos": 216
+  },
+  {
+    "passage": "Livestock Job Harper Refuse",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "690_5_3_7|",
+    "original": "\"I'm not a cow,\" you say. \"And I'm not gonna let you nutters treat me like this.\"",
+    "translation": "",
+    "pos": 324
+  },
+  {
+    "passage": "Livestock Job Harper Refuse",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "692_5_3_7|",
+    "original": "\"I'm not going to play along,\" you say. \"This isn't right.\"",
+    "translation": "",
+    "pos": 416
+  },
+  {
+    "passage": "Livestock Job Harper Refuse",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "696_5_3_7|",
+    "original": "\"I'm terribly sorry,\" Remy says. \"This will just take a moment.\" At that, two farmhands enter the building. Remy grasps the base of your leash and leans close.",
+    "translation": "",
+    "pos": 494
+  },
+  {
+    "passage": "Livestock Job Harper Refuse",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "699_5_3_7|",
+    "original": "\"You're not going to show me up in front of the doctor,\" <<he>> whispers. \"Let <<endevent>><<npc Harper>><<person1>><<him>> treat you, or we'll make you.\"",
+    "translation": "",
+    "pos": 664
+  },
+  {
+    "passage": "Livestock Job Harper Refuse",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "702_5_3_7|",
+    "original": "<<link [[Obey|Livestock Job Harper Obey]]>><<sub 1>><<livestock_obey 1>><<transform cow 1>><<npcincr Remy dom 1>><</link>><<gobey>>",
+    "translation": "",
+    "pos": 829
+  },
+  {
+    "passage": "Livestock Job Harper Refuse",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "704_5_3_7|",
+    "original": "<<link [[Resist|Livestock Job Harper Resist]]>><<def 1>><<livestock_obey -5>><<npcincr Remy dom -1>><</link>><<llobey>><<physiquedifficulty 1 $physiquemax>>",
+    "translation": "",
+    "pos": 966
+  },
+  {
+    "passage": "Livestock Job Harper Resist",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "713_5_3_7|",
+    "original": "You shove Remy away from you. <<His>> farmhands grasp your arms. You shake one off, then <span class=\"green\">punch the other in the nose.</span> <<He>> clutches <<his>> face and stumbles backwards, tripping over a bucket and falling to the floor.",
+    "translation": "",
+    "pos": 124
+  },
+  {
+    "passage": "Livestock Job Harper Resist",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "716_5_3_7|",
+    "original": "Remy reaches for <<his>> whip, but Harper interrupts <<him>>. <<endevent>><<npc Harper>><<person1>>\"That's enough,\" the doctor says. \"This serves as a reasonable test.\" <<He>> gathers <<his>> papers from the table. \"I'll be in touch to discuss the next stage.\"",
+    "translation": "",
+    "pos": 383
+  },
+  {
+    "passage": "Livestock Job Harper Resist",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "719_5_3_7|",
+    "original": "<<link [[Next|Livestock Job Resist End]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 656
+  },
+  {
+    "passage": "Livestock Job Harper Resist",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "724_5_3_7|",
+    "original": "You shove Remy away from you. <<His>> farmhands grasps your arms, and <span class=\"red\">you're unable to shake them off.</span> They hold you still.",
+    "translation": "",
+    "pos": 785
+  },
+  {
+    "passage": "Livestock Job Harper Resist",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "727_5_3_7|",
+    "original": "<<link [[Next|Livestock Job Harper Obey]]>><</link>>",
+    "translation": "",
+    "pos": 946
+  },
+  {
+    "passage": "Livestock Job Harper 2 Obey",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "735_5_3_7|",
+    "original": "Harper pours the liquid down your throat. It's even sweeter than it smells, and sticky. A warm feeling spreads from your abdomen, permeating your body until it reaches the tips of your fingers and toes.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Livestock Job Harper 2 Obey",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "740_5_3_7|",
+    "original": "Harper takes your hand and leads you into the middle of the room. <<His>> touch, even on such a mundane part of your body, sends a shiver down your spine. <<He>> grasps your arms and holds them behind your body. The audience leans forward in their seats.",
+    "translation": "",
+    "pos": 326
+  },
+  {
+    "passage": "Livestock Job Harper 2 Obey",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "743_5_3_7|",
+    "original": "<<link [[Next|Livestock Job Harper 2 Obey 2]]>><</link>>",
+    "translation": "",
+    "pos": 591
+  },
+  {
+    "passage": "Livestock Job Harper 2 Deceive",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "749_5_3_7|",
+    "original": "Harper pours the liquid into your mouth. It's even sweeter than it smells, and sticky. You hold it in your mouth, refusing to swallow. It isn't easy. Even there the liquid seeps into you, making you flush with an unnatural warmth.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Livestock Job Harper 2 Deceive",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "755_5_3_7|",
+    "original": "Harper takes your hand and leads you into the middle of the room. <<His>> touch, even on such a mundane part of your body, sends a shiver down your spine. Your throat quivers, <span class=\"green\">but you manage to keep yourself from swallowing.</span>",
+    "translation": "",
+    "pos": 401
+  },
+  {
+    "passage": "Livestock Job Harper 2 Deceive",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "757_5_3_7|",
+    "original": "The doctor grasps your arms and holds them behind your body. The audience leans forward in their seats.",
+    "translation": "",
+    "pos": 664
+  },
+  {
+    "passage": "Livestock Job Harper 2 Deceive",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "760_5_3_7|",
+    "original": "Harper takes your hand and leads you into the middle of the room. <<His>> touch, even on such a mundane part of your body, sends a shiver down your spine. Your throat quivers, <span class=\"red\">and you can't stop yourself from swallowing.</span>",
+    "translation": "",
+    "pos": 807
+  },
+  {
+    "passage": "Livestock Job Harper 2 Deceive",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "763_5_3_7|",
+    "original": "The doctor grasps your arms and holds them behind your body. The audience leans forward in their seats.",
+    "translation": "",
+    "pos": 1106
+  },
+  {
+    "passage": "Livestock Job Harper 2 Deceive",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "767_5_3_7|",
+    "original": "<<link [[Next|Livestock Job Harper 2 Obey 2]]>><</link>>",
+    "translation": "",
+    "pos": 1229
+  },
+  {
+    "passage": "Livestock Job Harper 2 Obey 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "773_5_3_7|",
+    "original": "\"As you can see,\" the doctor says, turning you on the spot to give each person a look at you from all angles. \"The treatment is already working.\"",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Livestock Job Harper 2 Obey 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "776_5_3_7|",
+    "original": "<<He>> points at your face. \"A <<if $player.gender_appearance is \"m\">>virile bull<<else>>fertile cow<</if>> like this would be foolish to leave unshackled at the best of times. With my treatment, it would be dangerous.",
+    "translation": "",
+    "pos": 239
+  },
+  {
+    "passage": "Livestock Job Harper 2 Obey 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "778_5_3_7|",
+    "original": "While you may be unable to see under a parasite such as this, there are the means to remove it when you are ready.\"",
+    "translation": "",
+    "pos": 511
+  },
+  {
+    "passage": "Livestock Job Harper 2 Obey 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "780_5_3_7|",
+    "original": "<<He>> runs <<his>> fingers over the front of the $worn.genitals.name causing you whimper from the wave of pleasure. \"<<pShes>> already ready for breeding.\"",
+    "translation": "",
+    "pos": 640
+  },
+  {
+    "passage": "Livestock Job Harper 2 Obey 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "782_5_3_7|",
+    "original": "While you may be unable to see under a device such as this, there are the means to remove it even when you don't have the key.\"",
+    "translation": "",
+    "pos": 809
+  },
+  {
+    "passage": "Livestock Job Harper 2 Obey 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "784_5_3_7|",
+    "original": "<<He>> runs <<his>> fingers over the front of the $worn.genitals.name. \"<<pShes>> already wet and dripping through the metal.\"",
+    "translation": "",
+    "pos": 950
+  },
+  {
+    "passage": "Livestock Job Harper 2 Obey 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "789_5_3_7|",
+    "original": "The audience murmurs about your hermaphroditism. \"You might be wondering,\" Harper continues. \"If all the livestock here are blessed with both male and female genitalia. They are not. This specimen is unique.\"",
+    "translation": "",
+    "pos": 1177
+  },
+  {
+    "passage": "Livestock Job Harper 2 Obey 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "793_5_3_7|",
+    "original": "<<He>> points at your <<genitals 1>>, semi-concealed behind your $worn.genitals.name. \"A <<if $player.gender_appearance is \"m\">>virile bull<<else>>fertile cow<</if>> like this would be foolish to leave unshackled at the best of times. With my treatment, it would be dangerous.\"",
+    "translation": "",
+    "pos": 1408
+  },
+  {
+    "passage": "Livestock Job Harper 2 Obey 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "796_5_3_7|",
+    "original": "<<He>> runs <<his>> fingers over the front of the device. <<if $player.penisExist>>\"<<pShes>> already erect and straining against the metal.\"<<else>>\"<<pShes>> already wet and dripping through the metal.\"<</if>>",
+    "translation": "",
+    "pos": 1698
+  },
+  {
+    "passage": "Livestock Job Harper 2 Obey 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "800_5_3_7|",
+    "original": "The audience murmurs about your hermaphroditism. \"You might be wondering,\" Harper continues. \"If all the livestock here are blessed with both male and female genitalia. They are not. This specimen is unique.\"",
+    "translation": "",
+    "pos": 1982
+  },
+  {
+    "passage": "Livestock Job Harper 2 Obey 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "804_5_3_7|",
+    "original": "<<He>> points at your <<if $player.penisExist>><<penis>>. \"<<pShes>> already erect and ready to <<if $pregnancyspeechdisable is \"f\">>breed<<else>>mate<</if>>.<<else>><<pussy>>. \"<<pShes>> already wet and ready to <<if $pregnancyspeechdisable is \"f\">>breed<<else>>mate<</if>>.<</if>>\" The audience leans forward in their seats, staring at your <<genitals 1>> with a lewd thirst in their eyes.",
+    "translation": "",
+    "pos": 2213
+  },
+  {
+    "passage": "Livestock Job Harper 2 Obey 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "808_5_3_7|",
+    "original": "<<link [[Next|Livestock Job Harper 2 Obey 3]]>><<pass 60>><</link>>",
+    "translation": "",
+    "pos": 2624
+  },
+  {
+    "passage": "Livestock Job Harper 2 Obey 3",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "814_5_3_7|",
+    "original": "The examination continues. Harper presents and speaks of your body in detail, highlighting every little tremble, every flush in the skin.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Livestock Job Harper 2 Obey 3",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "817_5_3_7|",
+    "original": "All the while you keep the sweet liquid in your mouth, preventing its full effects.",
+    "translation": "",
+    "pos": 172
+  },
+  {
+    "passage": "Livestock Job Harper 2 Obey 3",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "821_5_3_7|",
+    "original": "\"That concludes the examination,\" Harper says at last. Polite applause fills the small room. \"Next time it should be safe to get a little more hands-on. To test the lingering effects of the treatment.\"",
+    "translation": "",
+    "pos": 274
+  },
+  {
+    "passage": "Livestock Job Harper 2 Obey 3",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "824_5_3_7|",
+    "original": "Harper pats your head. \"Thank you for being cooperative,\" <<he>> says. <<He>> pauses a moment, then pulls your hair back, leans in, kisses your lips.",
+    "translation": "",
+    "pos": 486
+  },
+  {
+    "passage": "Livestock Job Harper 2 Obey 3",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "828_5_3_7|",
+    "original": "<span class=\"pink\"><<His>> eyes open in surprise as <<he>> tastes the pink fluid.</span>",
+    "translation": "",
+    "pos": 703
+  },
+  {
+    "passage": "Livestock Job Harper 2 Obey 3",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "832_5_3_7|",
+    "original": "<<link [[Endure|Livestock Job Harper 2 Endure]]>><<transform cow 1>><<livestock_obey 1>><<stress 6>><</link>><<gstress>><<gobey>>",
+    "translation": "",
+    "pos": 811
+  },
+  {
+    "passage": "Livestock Job Harper 2 Obey 3",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "834_5_3_7|",
+    "original": "<<link [[Pull away|Livestock Job Harper 2 Pull]]>><<livestock_obey -1>><</link>><<lobey>>",
+    "translation": "",
+    "pos": 946
+  },
+  {
+    "passage": "Livestock Job Harper 2 Obey 3",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "837_5_3_7|",
+    "original": "<<link [[Spit|Livestock Job Harper 2 Spit]]>><</link>>",
+    "translation": "",
+    "pos": 1061
+  },
+  {
+    "passage": "Livestock Job Harper 2 Endure",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "844_5_3_7|",
+    "original": "You remain still as the doctor violates your mouth with <<his>> tongue.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Livestock Job Harper 2 Endure",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "847_5_3_7|",
+    "original": "\"I take it the beast was well-behaved?\" says Remy from the door. Harper pulls away at once.",
+    "translation": "",
+    "pos": 95
+  },
+  {
+    "passage": "Livestock Job Harper 2 Endure",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "849_5_3_7|",
+    "original": "\"Y-yes,\" the doctor stutters. \"Very. Thank you again. I trust my next visit is still scheduled?\"",
+    "translation": "",
+    "pos": 192
+  },
+  {
+    "passage": "Livestock Job Harper 2 Endure",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "851_5_3_7|",
+    "original": "\"Of course.\" Remy takes your leash. \"Until we meet again.\"",
+    "translation": "",
+    "pos": 294
+  },
+  {
+    "passage": "Livestock Job Harper 2 Endure",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "855_5_3_7|",
+    "original": "Remy leads you outside. You spit out the pink fluid. If Remy notices, <<endevent>><<npc Remy>><<person1>><<he>> thinks nothing of it.",
+    "translation": "",
+    "pos": 383
+  },
+  {
+    "passage": "Livestock Job Harper 2 Endure",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "861_5_3_7|",
+    "original": "<<link [[Next|Livestock Job End]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 545
+  },
+  {
+    "passage": "Livestock Job Harper 2 Pull",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "867_5_3_7|",
+    "original": "You pull away from Harper. <<He>> tries to hold you still, but you persist and turn away from <<him>>.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Livestock Job Harper 2 Pull",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "870_5_3_7|",
+    "original": "\"Is our beast causing trouble?\" says Remy from the door. Harper ceases at once.",
+    "translation": "",
+    "pos": 126
+  },
+  {
+    "passage": "Livestock Job Harper 2 Pull",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "872_5_3_7|",
+    "original": "\"N-no,\" the doctor stutters. \"Just a little temperamental. Thank you again. I trust my next visit is still scheduled?\"",
+    "translation": "",
+    "pos": 211
+  },
+  {
+    "passage": "Livestock Job Harper 2 Pull",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "874_5_3_7|",
+    "original": "\"Of course.\" Remy takes your leash. \"Until we meet again.\"",
+    "translation": "",
+    "pos": 335
+  },
+  {
+    "passage": "Livestock Job Harper 2 Pull",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "878_5_3_7|",
+    "original": "Remy leads you outside. You spit out the pink fluid. If Remy notices, <<endevent>><<npc Remy>><<person1>><<he>> thinks nothing of it.",
+    "translation": "",
+    "pos": 424
+  },
+  {
+    "passage": "Livestock Job Harper 2 Pull",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "884_5_3_7|",
+    "original": "<<link [[Next|Livestock Job End]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 586
+  },
+  {
+    "passage": "Livestock Job Harper 2 Spit",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "890_5_3_7|",
+    "original": "You spit the pink fluid into Harper's mouth. <<He>> pulls away and wipes <<his>> chin. Almost at once, however, a change comes over <<him>>. <<He>> was already flushed, but there was a restraint there. Now, there's nothing but a mad thirst. <<He>> pounces on you, tackling you to the floor.",
+    "translation": "",
+    "pos": 41
+  },
+  {
+    "passage": "Livestock Job Harper 2 Spit",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "893_5_3_7|",
+    "original": "The audience crowds around, glad the show isn't over.",
+    "translation": "",
+    "pos": 342
+  },
+  {
+    "passage": "Livestock Job Harper 2 Spit",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "896_5_3_7|",
+    "original": "<<link [[Next|Livestock Job Harper 2 Rape]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 406
+  },
+  {
+    "passage": "Livestock Job Harper 2 Rape",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "920_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Livestock Job Harper 2 Rape Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 267
+  },
+  {
+    "passage": "Livestock Job Harper 2 Rape",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "922_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Livestock Job Harper 2 Rape]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 374
+  },
+  {
+    "passage": "Livestock Job Harper 2 Rape Finish",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "929_5_3_7|",
+    "original": "Reason returns to Harper's face, and <<he>> fumbles with <<his>> clothes as <<he>> rises to <<his>> feet.",
+    "translation": "",
+    "pos": 72
+  },
+  {
+    "passage": "Livestock Job Harper 2 Rape Finish",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "931_5_3_7|",
+    "original": "<<tearful>> you climb to your feet as well.",
+    "translation": "",
+    "pos": 189
+  },
+  {
+    "passage": "Livestock Job Harper 2 Rape Finish",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "936_5_3_7|",
+    "original": "<<link [[Next|Livestock Job Harper 2 Rape End]]>><</link>>",
+    "translation": "",
+    "pos": 275
+  },
+  {
+    "passage": "Livestock Job Harper 2 Rape Finish",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "940_5_3_7|",
+    "original": "You shove Harper away from you. <<He>> falls back on a chair. The hunger in <<his>> eyes has abated, but the audience encourages <<him>> to continue. Some look prepared to restrain you themselves.",
+    "translation": "",
+    "pos": 351
+  },
+  {
+    "passage": "Livestock Job Harper 2 Rape Finish",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "942_5_3_7|",
+    "original": "<<tearful>> you climb to your feet and brace yourself.",
+    "translation": "",
+    "pos": 559
+  },
+  {
+    "passage": "Livestock Job Harper 2 Rape Finish",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "947_5_3_7|",
+    "original": "<<link [[Next|Livestock Job Harper 2 Rape End]]>><</link>>",
+    "translation": "",
+    "pos": 656
+  },
+  {
+    "passage": "Livestock Job Harper 2 Rape End",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "955_5_3_7|",
+    "original": "\"That's not what we agreed to,\" says Remy from the door.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Livestock Job Harper 2 Rape End",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "957_5_3_7|",
+    "original": "\"I-I,\" the doctor stutters. \"There was an accident. I apologise. I trust my next visit is still scheduled?\"",
+    "translation": "",
+    "pos": 75
+  },
+  {
+    "passage": "Livestock Job Harper 2 Rape End",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "959_5_3_7|",
+    "original": "Remy laughs and takes your leash. \"It is. Until we meet again.\"",
+    "translation": "",
+    "pos": 188
+  },
+  {
+    "passage": "Livestock Job Harper 2 Rape End",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "962_5_3_7|",
+    "original": "<<link [[Next|Livestock Job End]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 262
+  },
+  {
+    "passage": "Livestock Job Harper 2 Struggle",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "970_5_3_7|",
+    "original": "You shove Harper away from you. Remy's farmhands hold your arms tight as the doctor makes a second attempt. You <<endevent>><<npc Harper>><<person1>>headbut <<him>>, <span class=\"green\">and the phial shatters on the ground.</span>",
+    "translation": "",
+    "pos": 88
+  },
+  {
+    "passage": "Livestock Job Harper 2 Struggle",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "974_5_3_7|",
+    "original": "Harper clutches <<his>> face. Blood drips between <<his>> fingers. The other visitors look amused. Remy does not. \"I'm so sorry,\" <<endevent>><<npc Remy>><<person1>><<he>> says, <span class=\"pink\">tying a muzzle around your face.</span><<facewear 23>> \"My animals are normally better behaved.\"",
+    "translation": "",
+    "pos": 363
+  },
+  {
+    "passage": "Livestock Job Harper 2 Struggle",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "976_5_3_7|",
+    "original": "Harper clutches <<his>> face. Blood drips between <<his>> fingers. The other visitors look amused. Remy does not. \"I'm so sorry,\" <<endevent>><<npc Remy>><<person1>><<he>> says, clutching the back of your collar. \"My animals are normally better behaved.\"",
+    "translation": "",
+    "pos": 669
+  },
+  {
+    "passage": "Livestock Job Harper 2 Struggle",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "980_5_3_7|",
+    "original": "Harper nods as if unbothered. <<He>> fumbles for a tissue.",
+    "translation": "",
+    "pos": 945
+  },
+  {
+    "passage": "Livestock Job Harper 2 Struggle",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "983_5_3_7|",
+    "original": "<<link [[Next|Livestock Job Resist End]]>><</link>>",
+    "translation": "",
+    "pos": 1016
+  },
+  {
+    "passage": "Livestock Job Harper 2 Struggle",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "988_5_3_7|",
+    "original": "You shove Harper away from you. Remy's farmhands hold your arms tight as the doctor makes a second attempt. You try to free yourself, <span class=\"red\">but the farmhands are too strong.</span>",
+    "translation": "",
+    "pos": 1133
+  },
+  {
+    "passage": "Livestock Job Harper 2 Struggle",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "991_5_3_7|",
+    "original": "<<link [[Next|Livestock Job Harper 2 Obey]]>><</link>>",
+    "translation": "",
+    "pos": 1338
+  },
+  {
+    "passage": "Livestock Job Harper 3 Obey",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "999_5_3_7|",
+    "original": "Harper pulls you into the middle of the room. You're surrounded by hungry eyes. <<if $uncomfortable.nude is true>><<covered>><</if>> \"This specimen,\" <<he>> begins, stepping behind you and grasping your arms. <<He>> pulls them back, making sure you can't cover. \"Has been administered certain treatments to improve yield. Observe.\"",
+    "translation": "",
+    "pos": 78
+  },
+  {
+    "passage": "Livestock Job Harper 3 Obey",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1005_5_3_7|",
+    "original": "<<He>> reaches around your body and takes your <<penis>> in <<his>> hand. You flinch at <<his>> touch. \"As you can see,\" <<he>> continues, rubbing your length. \"This one is of prodigious size.\"",
+    "translation": "",
+    "pos": 512
+  },
+  {
+    "passage": "Livestock Job Harper 3 Obey",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1008_5_3_7|",
+    "original": "A <<person2>><<person>> leans forward in <<his>> seat, awed by the size of your cock and leering with naked thirst.",
+    "translation": "",
+    "pos": 760
+  },
+  {
+    "passage": "Livestock Job Harper 3 Obey",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1011_5_3_7|",
+    "original": "<<He>> reaches around your body and takes your <<penis>> in <<his>> hand. <<His>> touch makes you jump. \"As you can see,\" <<he>> continues, rubbing your length. \"This one is almost ready to be milked.\"",
+    "translation": "",
+    "pos": 950
+  },
+  {
+    "passage": "Livestock Job Harper 3 Obey",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1015_5_3_7|",
+    "original": "A <<person2>><<person>> leans forward in <<his>> seat, leering.",
+    "translation": "",
+    "pos": 1262
+  },
+  {
+    "passage": "Livestock Job Harper 3 Obey",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1017_5_3_7|",
+    "original": "<<He>> reaches around your body and takes your <<penis>> in <<his>> hand. <<His>> touch makes you jump. \"Don't be fooled,\" <<he>> continues. \"It may be small, but it can still be very productive.",
+    "translation": "",
+    "pos": 1342
+  },
+  {
+    "passage": "Livestock Job Harper 3 Obey",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1021_5_3_7|",
+    "original": "\"It's so cute,\" a <<person2>><<person>> laughs. \"But if you say so.\"",
+    "translation": "",
+    "pos": 1593
+  },
+  {
+    "passage": "Livestock Job Harper 3 Obey",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1024_5_3_7|",
+    "original": "<<He>> reaches around your body and takes your <<penis>> in <<his>> hand. <<His>> touch makes you jump. \"Don't be fooled,\" <<he>> continues. \"This one is too small to produce, but that will soon change.\"",
+    "translation": "",
+    "pos": 1739
+  },
+  {
+    "passage": "Livestock Job Harper 3 Obey",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1026_5_3_7|",
+    "original": "\"It's so little and cute,\" a <<person2>><<person>> laughs. \"It's almost a shame.\"",
+    "translation": "",
+    "pos": 1956
+  },
+  {
+    "passage": "Livestock Job Harper 3 Obey",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1029_5_3_7|",
+    "original": "<<He>> reaches around your body and takes your <<penis>> over <<his>> finger. <<His>> touch makes you jump. \"Unfortunately,\" <<he>> continues. \"I'm not sure how we can help make this one productive.\"",
+    "translation": "",
+    "pos": 2115
+  },
+  {
+    "passage": "Livestock Job Harper 3 Obey",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1031_5_3_7|",
+    "original": "\"It's so tiny and cute,\" a <<person2>><<person>> laughs. \"It's a shame.\"",
+    "translation": "",
+    "pos": 2328
+  },
+  {
+    "passage": "Livestock Job Harper 3 Obey",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1037_5_3_7|",
+    "original": "<<link [[Next|Livestock Job Harper 3 Obey 2]]>><</link>>",
+    "translation": "",
+    "pos": 2501
+  },
+  {
+    "passage": "Livestock Job Harper 3 Obey",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1041_5_3_7|",
+    "original": "<<He>> reaches around your body and takes your <<breasts>> in <<his>> hands. <<His>> touch makes you jump. \"As you can see,\" <<he>> continues, rubbing your chest. \"This one is of prodigious size.\"",
+    "translation": "",
+    "pos": 2608
+  },
+  {
+    "passage": "Livestock Job Harper 3 Obey",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1045_5_3_7|",
+    "original": "A <<person2>><<person>> leans forward in <<his>> seat, awed by the size of your breasts and leering with a naked thirst.",
+    "translation": "",
+    "pos": 2859
+  },
+  {
+    "passage": "Livestock Job Harper 3 Obey",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1049_5_3_7|",
+    "original": "<<He>> reaches around your body and takes your <<breasts>> in <<his>> hands. <<His>> touch makes you jump. \"As you can see,\" <<he>> continues, rubbing your chest. \"This one is almost ready to be milked.\"",
+    "translation": "",
+    "pos": 3092
+  },
+  {
+    "passage": "Livestock Job Harper 3 Obey",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1053_5_3_7|",
+    "original": "A <<person2>><<person>> leans forward in <<his>> seat, leering.",
+    "translation": "",
+    "pos": 3409
+  },
+  {
+    "passage": "Livestock Job Harper 3 Obey",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1056_5_3_7|",
+    "original": "<<He>> reaches around your body and takes your <<breasts>> in <<his>> hands. <<His>> touch makes you jump. \"As you can see,\" <<he>> continues, rubbing your chest. \"These may be small, but they can still be very productive.\"",
+    "translation": "",
+    "pos": 3523
+  },
+  {
+    "passage": "Livestock Job Harper 3 Obey",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1060_5_3_7|",
+    "original": "\"So small and cute,\" a <<person2>><<person>> laughs. \"But if you say so.\"",
+    "translation": "",
+    "pos": 3801
+  },
+  {
+    "passage": "Livestock Job Harper 3 Obey",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1064_5_3_7|",
+    "original": "<<He>> reaches around your body and takes your <<breasts>> in <<his>> hands. <<His>> touch makes you jump. \"As you can see,\" <<he>> continues, rubbing your chest. \"This one is too small to produce, but that will soon change.\"",
+    "translation": "",
+    "pos": 3964
+  },
+  {
+    "passage": "Livestock Job Harper 3 Obey",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1068_5_3_7|",
+    "original": "\"So flat and cute,\" a <<person2>><<person>> laughs. \"It's almost a shame.\"",
+    "translation": "",
+    "pos": 4244
+  },
+  {
+    "passage": "Livestock Job Harper 3 Obey",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1073_5_3_7|",
+    "original": "<<link [[Next|Livestock Job Harper 3 Obey 2]]>><</link>>",
+    "translation": "",
+    "pos": 4421
+  },
+  {
+    "passage": "Livestock Job Harper 3 Obey 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1081_5_3_7|",
+    "original": "Harper continues to assault your <<penis>> in front of everyone, teasing without mercy.",
+    "translation": "",
+    "pos": 73
+  },
+  {
+    "passage": "Livestock Job Harper 3 Obey 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1084_5_3_7|",
+    "original": "Harper continues to assault your <<breasts>> in front of everyone, teasing without mercy.",
+    "translation": "",
+    "pos": 213
+  },
+  {
+    "passage": "Livestock Job Harper 3 Obey 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1091_5_3_7|",
+    "original": "The <<person>> unzips <<his>> fly, pulling out <<his>> <<print $NPCList[1].penisdesc>>. <<He>> starts masturbating, right in the middle of the room.",
+    "translation": "",
+    "pos": 437
+  },
+  {
+    "passage": "Livestock Job Harper 3 Obey 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1093_5_3_7|",
+    "original": "The <<person>> unzips <<his>> fly, revealing <<his>> moistened pussy. <<He>> starts masturbating, right in the middle of the room.",
+    "translation": "",
+    "pos": 598
+  },
+  {
+    "passage": "Livestock Job Harper 3 Obey 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1097_5_3_7|",
+    "original": "The <<person>> lifts the front of <<his>> skirt, revealing <<his>> <<print $NPCList[1].penisdesc>>. <<He>> starts masturbating, right in the middle of the room. <<He>> pulls down <<his>> top with <<his>> free hand, showing off <<his>> <<print $NPCList[1].breastsdesc>>. <<He>> plays with them as well.",
+    "translation": "",
+    "pos": 788
+  },
+  {
+    "passage": "Livestock Job Harper 3 Obey 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1099_5_3_7|",
+    "original": "The <<person>> lifts the front of <<his>> skirt, revealing <<his>> moistened pussy. <<He>> starts masturbating, right in the middle of the room. <<He>> pulls down <<his>> top with <<his>> free hand, showing off <<his>> <<print $NPCList[1].breastsdesc>>. <<He>> plays with them as well.",
+    "translation": "",
+    "pos": 1102
+  },
+  {
+    "passage": "Livestock Job Harper 3 Obey 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1104_5_3_7|",
+    "original": "Harper continues as if nothing were amiss. Others follow suit, and you're soon surrounded by masturbating <<people>>.",
+    "translation": "",
+    "pos": 1415
+  },
+  {
+    "passage": "Livestock Job Harper 3 Obey 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1107_5_3_7|",
+    "original": "Between the physical stimulation, and all the leering eyes, there's nothing you can do to stop the approaching wave. <<orgasm>>",
+    "translation": "",
+    "pos": 1567
+  },
+  {
+    "passage": "Livestock Job Harper 3 Obey 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1109_5_3_7|",
+    "original": "\"<<pShe>> came!\"",
+    "translation": "",
+    "pos": 1697
+  },
+  {
+    "passage": "Livestock Job Harper 3 Obey 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1113_5_3_7|",
+    "original": "\"Look at all that tasty cum.\"",
+    "translation": "",
+    "pos": 1793
+  },
+  {
+    "passage": "Livestock Job Harper 3 Obey 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1115_5_3_7|",
+    "original": "\"I was hoping for cum, if I'm honest.\"",
+    "translation": "",
+    "pos": 1837
+  },
+  {
+    "passage": "Livestock Job Harper 3 Obey 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1118_5_3_7|",
+    "original": "\"I can see <<pher>> juices.\"",
+    "translation": "",
+    "pos": 1898
+  },
+  {
+    "passage": "Livestock Job Harper 3 Obey 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1121_5_3_7|",
+    "original": "\"Do you think the doctor will let us have a lick?\"",
+    "translation": "",
+    "pos": 1943
+  },
+  {
+    "passage": "Livestock Job Harper 3 Obey 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1128_5_3_7|",
+    "original": "The <<person2>><<person>> shakes, and",
+    "translation": "",
+    "pos": 2024
+  },
+  {
+    "passage": "Livestock Job Harper 3 Obey 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1130_5_3_7|",
+    "original": "thick strings of cum erupt from <<his>> <<print $NPCList[1].penisdesc>>, <span class=\"purple\">landing on your hair.</span>",
+    "translation": "",
+    "pos": 2101
+  },
+  {
+    "passage": "Livestock Job Harper 3 Obey 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1133_5_3_7|",
+    "original": "juices stream from <<his>> pussy. <<He>> throws back <<his>> head and moans in climax.",
+    "translation": "",
+    "pos": 2265
+  },
+  {
+    "passage": "Livestock Job Harper 3 Obey 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1137_5_3_7|",
+    "original": "<<link [[Next|Livestock Job Harper 3 Obey End]]>><</link>>",
+    "translation": "",
+    "pos": 2370
+  },
+  {
+    "passage": "Livestock Job Harper 3 Obey End",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1143_5_3_7|",
+    "original": "<<endevent>><<npc Remy>><<person1>>Harper releases you as the front door opens. Remy enters, wiping sweat from <<his>> forehead. \"I must get this one back to the field,\" <<he>> says. \"Fresh air and exercise is important for a healthy yield.\"",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Livestock Job Harper 3 Obey End",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1146_5_3_7|",
+    "original": "\"Of course,\" Harper responds. \"Thank you once again.\"",
+    "translation": "",
+    "pos": 265
+  },
+  {
+    "passage": "Livestock Job Harper 3 Obey End",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1149_5_3_7|",
+    "original": "You feel the audience stares at your <<bottom>> as you're led outside. Some of them want to do more than look, you're sure.",
+    "translation": "",
+    "pos": 329
+  },
+  {
+    "passage": "Livestock Job Harper 3 Obey End",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1152_5_3_7|",
+    "original": "<<link [[Next|Livestock Job End]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 463
+  },
+  {
+    "passage": "Livestock Job Harper 3 Struggle",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1159_5_3_7|",
+    "original": "You grasp your own leash, and pull it away from Harper. <<He>> stumbles, almost tripping.",
+    "translation": "",
+    "pos": 38
+  },
+  {
+    "passage": "Livestock Job Harper 3 Struggle",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1162_5_3_7|",
+    "original": "At Remy's call, two farmhands enter and grasp your arms from behind. You shake one of them off, <span class=\"green\">and punch the other in the nose.</span>",
+    "translation": "",
+    "pos": 140
+  },
+  {
+    "passage": "Livestock Job Harper 3 Struggle",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1165_5_3_7|",
+    "original": "Both seem afraid to approach you. <<endevent>><<npc Remy>><<person1>>\"What are you waiting for?\" Remy asks. \"Restrain the beast.\" <<His>> cronies glance at each other, unwilling to make the first move.",
+    "translation": "",
+    "pos": 308
+  },
+  {
+    "passage": "Livestock Job Harper 3 Struggle",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1168_5_3_7|",
+    "original": "\"It's alright,\" <<endevent>><<npc Harper>><<person1>>Harper says, stabilising <<himself>> on the arm of a chair. \"The <<if $player.gender_appearance is \"m\">>bull<<else>>cow<</if>> needs to be cooperative. We can try again another day.\"",
+    "translation": "",
+    "pos": 522
+  },
+  {
+    "passage": "Livestock Job Harper 3 Struggle",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1172_5_3_7|",
+    "original": "\"I'm sorry for this terrible behaviour,\" Remy says, tugging your leash. \"Thank you for understanding.\"",
+    "translation": "",
+    "pos": 807
+  },
+  {
+    "passage": "Livestock Job Harper 3 Struggle",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1175_5_3_7|",
+    "original": "<<link [[Next|Livestock Job Resist End]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 922
+  },
+  {
+    "passage": "Livestock Job Harper 3 Struggle",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1179_5_3_7|",
+    "original": "You grasp your own leash, and pull it away from Harper. <<He>> stumbles, almost tripping.",
+    "translation": "",
+    "pos": 1003
+  },
+  {
+    "passage": "Livestock Job Harper 3 Struggle",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1182_5_3_7|",
+    "original": "At Remy's call, two farmhands enter and grasp your arms from behind. You try to shake them off, <span class=\"red\">but they hold firm.</span> Harper picks up your leash again.",
+    "translation": "",
+    "pos": 1105
+  },
+  {
+    "passage": "Livestock Job Harper 3 Struggle",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1185_5_3_7|",
+    "original": "The farmhands let go, but remain in the room, ready to intervene.",
+    "translation": "",
+    "pos": 1292
+  },
+  {
+    "passage": "Livestock Job Harper 3 Struggle",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1188_5_3_7|",
+    "original": "<<link [[Next|Livestock Job Harper 3 Obey]]>><</link>>",
+    "translation": "",
+    "pos": 1370
+  },
+  {
+    "passage": "Livestock Job Niki",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1197_5_3_7|",
+    "original": "The barn doors open, and a farmhand enters, holding a leash. The leash tightens. Whatever it's attached to refuses to enter.",
+    "translation": "",
+    "pos": 48
+  },
+  {
+    "passage": "Livestock Job Niki",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1199_5_3_7|",
+    "original": "With some tugging, and help from a couple of other farmhands, the beast is coerced into the building. It's a <<beasttype>>.",
+    "translation": "",
+    "pos": 182
+  },
+  {
+    "passage": "Livestock Job Niki",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1201_5_3_7|",
+    "original": "\"You've worked with animals before?\" Remy asks.",
+    "translation": "",
+    "pos": 315
+  },
+  {
+    "passage": "Livestock Job Niki",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1203_5_3_7|",
+    "original": "Niki hesitates. \"Yes.\"",
+    "translation": "",
+    "pos": 372
+  },
+  {
+    "passage": "Livestock Job Niki",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1205_5_3_7|",
+    "original": "\"Then this should be straightforward. Our animals are well-behaved. Even our cows and pigs get on well with each other.\" <<nnpc_He \"Remy\">> scratches behind your ear. \"They should be able to stay still for however long it takes.\"",
+    "translation": "",
+    "pos": 404
+  },
+  {
+    "passage": "Livestock Job Niki",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1208_5_3_7|",
+    "original": "<<link [[Cooperate|Livestock Job Niki Cooperate]]>><<transform cow 1>><<livestock_obey 5>><<sub 1>><</link>><<ggobey>>",
+    "translation": "",
+    "pos": 644
+  },
+  {
+    "passage": "Livestock Job Niki",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1210_5_3_7|",
+    "original": "<<link [[Defy|Livestock Job Niki Defy]]>><<livestock_obey -5>><<def 1>><</link>><<llobey>>",
+    "translation": "",
+    "pos": 768
+  },
+  {
+    "passage": "Livestock Job Niki Cooperate",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1216_5_3_7|",
+    "original": "Remy makes you kneel on the mat in front of the camera, and pulls the <<beasttype>> beside you. Niki takes over from there. <<nnpc_He \"Niki\">> takes some photos, then orders the farmhands to adjust the lighting.",
+    "translation": "",
+    "pos": 24
+  },
+  {
+    "passage": "Livestock Job Niki Cooperate",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1219_5_3_7|",
+    "original": "It's a while before Niki is satisfied, but eventually <<nnpc_he \"Niki\">> has you adopt different poses alongside the <<beasttype>>.",
+    "translation": "",
+    "pos": 246
+  },
+  {
+    "passage": "Livestock Job Niki Cooperate",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1222_5_3_7|",
+    "original": "Your <<penis>> and <<breasts>> seem to be the focus.",
+    "translation": "",
+    "pos": 406
+  },
+  {
+    "passage": "Livestock Job Niki Cooperate",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1224_5_3_7|",
+    "original": "Your <<breasts>> seem to be the focus.",
+    "translation": "",
+    "pos": 469
+  },
+  {
+    "passage": "Livestock Job Niki Cooperate",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1227_5_3_7|",
+    "original": "<<if $uncomfortable.nude is true>>You resist the urge to cover yourself.<</if>>",
+    "translation": "",
+    "pos": 576
+  },
+  {
+    "passage": "Livestock Job Niki Cooperate",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1228_5_3_7|",
+    "original": "Remy mentioned this was just a practise shoot, but you worry the pictures would still be distributed.",
+    "translation": "",
+    "pos": 657
+  },
+  {
+    "passage": "Livestock Job Niki Cooperate",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1230_5_3_7|",
+    "original": "Remy mentioned this was just a practise shoot, but you wonder if the pictures would still be distributed. The thought excites you.",
+    "translation": "",
+    "pos": 769
+  },
+  {
+    "passage": "Livestock Job Niki Cooperate",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1235_5_3_7|",
+    "original": "Remy watches from a distance. Usually watching you.",
+    "translation": "",
+    "pos": 947
+  },
+  {
+    "passage": "Livestock Job Niki Cooperate",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1238_5_3_7|",
+    "original": "<<link [[Next|Livestock Job Niki Cooperate 2]]>><</link>>",
+    "translation": "",
+    "pos": 1009
+  },
+  {
+    "passage": "Livestock Job Niki Cooperate 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1244_5_3_7|",
+    "original": "\"That's all I need,\" Niki says at last. \"We're ready for the proper shoots.\"",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Livestock Job Niki Cooperate 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1247_5_3_7|",
+    "original": "\"Excellent,\" Remy responds, walking over and picking up your leash. \"This good <<girl>> is gonna be <<bred>> by a pig.\"",
+    "translation": "",
+    "pos": 100
+  },
+  {
+    "passage": "Livestock Job Niki Cooperate 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1251_5_3_7|",
+    "original": "<<endevent>><<npc Remy>><<person1>>Niki ignores <<him>>, instead focusing on packing up <<endevent>><<npc Niki>><<person1>><<his>> things.",
+    "translation": "",
+    "pos": 254
+  },
+  {
+    "passage": "Livestock Job Niki Cooperate 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1254_5_3_7|",
+    "original": "<<link [[Next|Livestock Job End]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 403
+  },
+  {
+    "passage": "Livestock Job Niki Defy",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1260_5_3_7|",
+    "original": "Remy pulls you to the mat, followed by the <<beasttype>>. Niki takes over from there. <<nnpc_He \"Niki\">> takes some photos, then orders the farmhands to adjust the lighting.",
+    "translation": "",
+    "pos": 24
+  },
+  {
+    "passage": "Livestock Job Niki Defy",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1263_5_3_7|",
+    "original": "It's a while before Niki is satisfied, but eventually <<nnpc_he \"Niki\">> asks you to adopt poses beside the <<beasttype>>.",
+    "translation": "",
+    "pos": 208
+  },
+  {
+    "passage": "Livestock Job Niki Defy",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1266_5_3_7|",
+    "original": "You refuse.",
+    "translation": "",
+    "pos": 341
+  },
+  {
+    "passage": "Livestock Job Niki Defy",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1269_5_3_7|",
+    "original": "Your bound arms prevent you from covering, so you keep your back turned to the camera.",
+    "translation": "",
+    "pos": 443
+  },
+  {
+    "passage": "Livestock Job Niki Defy",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1271_5_3_7|",
+    "original": "You cover your <<genitals>> and <<breasts>> with your hands.",
+    "translation": "",
+    "pos": 542
+  },
+  {
+    "passage": "Livestock Job Niki Defy",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1275_5_3_7|",
+    "original": "Your nudity doesn't bother you, but you keep your back to the camera anyway.",
+    "translation": "",
+    "pos": 676
+  },
+  {
+    "passage": "Livestock Job Niki Defy",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1277_5_3_7|",
+    "original": "Your nudity doesn't bother you, but you cover yourself anyway.",
+    "translation": "",
+    "pos": 765
+  },
+  {
+    "passage": "Livestock Job Niki Defy",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1282_5_3_7|",
+    "original": "<<link [[Next|Livestock Job Niki Defy 2]]>><</link>>",
+    "translation": "",
+    "pos": 855
+  },
+  {
+    "passage": "Livestock Job Niki Defy 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1288_5_3_7|",
+    "original": "Remy storms over and grasps your leash. <<endevent>><<npc Remy>><<person1>>\"Refusing even this simple task,\" <<he>> says. \"Bad <<girl>>.\" <<He>> yanks your leash.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Livestock Job Niki Defy 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1291_5_3_7|",
+    "original": "Niki interrupts. \"It's alright. I got what I needed. We're ready for the proper shoots.\"",
+    "translation": "",
+    "pos": 186
+  },
+  {
+    "passage": "Livestock Job Niki Defy 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1294_5_3_7|",
+    "original": "\"You hear that,\" Remy says in a low voice. \"You're gonna get <<bred>> by a pig. Maybe that will teach you to behave.\"",
+    "translation": "",
+    "pos": 285
+  },
+  {
+    "passage": "Livestock Job Niki Defy 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1298_5_3_7|",
+    "original": "<<endevent>><<npc Remy>><<person1>>Niki ignores <<him>>, instead focusing on packing up <<endevent>><<npc Niki>><<person1>><<his>> things.",
+    "translation": "",
+    "pos": 437
+  },
+  {
+    "passage": "Livestock Job Niki Defy 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1301_5_3_7|",
+    "original": "<<link [[Next|Livestock Job End]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 586
+  },
+  {
+    "passage": "Livestock Job Pig Obey",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1307_5_3_7|",
+    "original": "\"Just need to finish up,\" Niki says. You wait obediently. When Remy pulls you over to the mat, you don't struggle. That's all the prompting the <<if $farm_phase is 1>><<beastsplural>> need<<else>><<beasttype>> needs<</if>>.",
+    "translation": "",
+    "pos": 24
+  },
+  {
+    "passage": "Livestock Job Pig Obey",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1310_5_3_7|",
+    "original": "<<link [[Next|Livestock Job Pig Gang Rape]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 282
+  },
+  {
+    "passage": "Livestock Job Pig Obey",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1312_5_3_7|",
+    "original": "<<link [[Next|Livestock Job Pig Rape]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 377
+  },
+  {
+    "passage": "Livestock Job Pig Rape",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1327_5_3_7|",
+    "original": "<span class=\"red\">Niki films you.</span>",
+    "translation": "",
+    "pos": 166
+  },
+  {
+    "passage": "Livestock Job Pig Rape",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1338_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Livestock Job Pig Rape Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 321
+  },
+  {
+    "passage": "Livestock Job Pig Rape",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1340_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Livestock Job Pig Rape]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 423
+  },
+  {
+    "passage": "Livestock Job Pig Rape Finish",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1351_5_3_7|",
+    "original": "\"Done,\" Niki says, pulling back from the camera.",
+    "translation": "",
+    "pos": 196
+  },
+  {
+    "passage": "Livestock Job Pig Rape Finish",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1358_5_3_7|",
+    "original": "<<tearful>> you're tugged to your feet by Remy. \"Good <<girl>>,\" <<he>> says, pulling you toward the exit as farmhands help Niki dismantle the set. \"That wasn't so bad, was it? Now we have something new to show our customers.\"",
+    "translation": "",
+    "pos": 313
+  },
+  {
+    "passage": "Livestock Job Pig Rape Finish",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1361_5_3_7|",
+    "original": "<<link [[Next|Livestock Job End]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 552
+  },
+  {
+    "passage": "Livestock Job Pig Rape Finish",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1366_5_3_7|",
+    "original": "The <<beasttype>> squeals and backs away from you. The farmhands try to calm <<bhim>>, but they have no luck.",
+    "translation": "",
+    "pos": 733
+  },
+  {
+    "passage": "Livestock Job Pig Rape Finish",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1373_5_3_7|",
+    "original": "<<tearful>> you're tugged to your feet by Remy. \"This is expensive to set up,\" <<he>> says, almost choking you. Niki looks away.",
+    "translation": "",
+    "pos": 911
+  },
+  {
+    "passage": "Livestock Job Pig Rape Finish",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1376_5_3_7|",
+    "original": "<<link [[Next|Livestock Job End]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1052
+  },
+  {
+    "passage": "Livestock Job Pig Gang Rape",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1392_5_3_7|",
+    "original": "<span class=\"red\">Niki films you.</span>",
+    "translation": "",
+    "pos": 190
+  },
+  {
+    "passage": "Livestock Job Pig Gang Rape",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1404_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Livestock Job Pig Gang Rape Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 358
+  },
+  {
+    "passage": "Livestock Job Pig Gang Rape",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1406_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Livestock Job Pig Gang Rape]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 465
+  },
+  {
+    "passage": "Livestock Job Pig Gang Rape Finish",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1414_5_3_7|",
+    "original": "The <<beasttype>> recoils in pain and fear, but another is eager for a go.",
+    "translation": "",
+    "pos": 89
+  },
+  {
+    "passage": "Livestock Job Pig Gang Rape Finish",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1417_5_3_7|",
+    "original": "<<link [[Next|Livestock Job Pig Gang Rape]]>><</link>>",
+    "translation": "",
+    "pos": 202
+  },
+  {
+    "passage": "Livestock Job Pig Gang Rape Finish",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1419_5_3_7|",
+    "original": "The <<beasttype>> recoils in pain and fear.",
+    "translation": "",
+    "pos": 269
+  },
+  {
+    "passage": "Livestock Job Pig Gang Rape Finish",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1423_5_3_7|",
+    "original": "<<link [[Next|Livestock Job Pig Gang Rape Finish]]>><<set $finish to 1>><</link>>",
+    "translation": "",
+    "pos": 352
+  },
+  {
+    "passage": "Livestock Job Pig Gang Rape Finish",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1428_5_3_7|",
+    "original": "Satisfied, the <<beasttype>> moves and another takes its turn.",
+    "translation": "",
+    "pos": 546
+  },
+  {
+    "passage": "Livestock Job Pig Gang Rape Finish",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1431_5_3_7|",
+    "original": "<<link [[Next|Livestock Job Pig Gang Rape]]>><</link>>",
+    "translation": "",
+    "pos": 647
+  },
+  {
+    "passage": "Livestock Job Pig Gang Rape Finish",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1433_5_3_7|",
+    "original": "Satisfied, the <<beasttype>> moves away from you.",
+    "translation": "",
+    "pos": 714
+  },
+  {
+    "passage": "Livestock Job Pig Gang Rape Finish",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1436_5_3_7|",
+    "original": "<<link [[Next|Livestock Job Pig Gang Rape Finish]]>><<set $finish to 1>><</link>>",
+    "translation": "",
+    "pos": 802
+  },
+  {
+    "passage": "Livestock Job Pig Gang Rape Finish",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1439_5_3_7|",
+    "original": "\"Done,\" Niki says, pulling back from the camera.",
+    "translation": "",
+    "pos": 903
+  },
+  {
+    "passage": "Livestock Job Pig Gang Rape Finish",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1442_5_3_7|",
+    "original": "The <<beastsplural>> cower. Despite not getting what they came for, the audience seems entertained. They applaud the fight.<<famescrap 30 \"vid\">>",
+    "translation": "",
+    "pos": 1018
+  },
+  {
+    "passage": "Livestock Job Pig Gang Rape Finish",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1444_5_3_7|",
+    "original": "The <<beastsplural>> leave you spent and shivering as the audience applauds.<<famebestiality 30 \"vid\">>",
+    "translation": "",
+    "pos": 1224
+  },
+  {
+    "passage": "Livestock Job Pig Gang Rape Finish",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1446_5_3_7|",
+    "original": "The <<beastsplural>> leave you spent and shivering as the audience applauds.<<famebestiality 30 \"vid\">><<famescrap 30 \"vid\">>",
+    "translation": "",
+    "pos": 1389
+  },
+  {
+    "passage": "Livestock Job Pig Gang Rape Finish",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1457_5_3_7|",
+    "original": "<<tearful>> you're tugged to your feet by Remy. \"Good <<girl>>,\" <<he>> says, pulling you toward the exit as farmhands help Niki dismantle the set. \"Our customers enjoyed it.\"",
+    "translation": "",
+    "pos": 1683
+  },
+  {
+    "passage": "Livestock Job Pig Gang Rape Finish",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1460_5_3_7|",
+    "original": "<<link [[Next|Livestock Job End]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1871
+  },
+  {
+    "passage": "Livestock Job Pig Struggle",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1468_5_3_7|",
+    "original": "You pull the leash free from Remy's grasp. Farmhands rush over to restrain you. You push one away from you, but then another grasps you from behind. They pull you to the mat. There are too many.",
+    "translation": "",
+    "pos": 39
+  },
+  {
+    "passage": "Livestock Job Pig Struggle",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1471_5_3_7|",
+    "original": "Despite restraining you in a mating posture, <span class=\"green\">the <<if $farm_phase is 1>><<beastsplural>> do<<else>><<beasttype>> does<</if>> nothing.</span> <<if $farm_phase is 1>>They see<<else>><<bHe>> sees<</if>> your aggression, and <<if $farm_phase is 1>>are<<else>>is<</if>> afraid of provoking you. No amount of Remy's discipline can convince <<if $farm_phase is 1>>them<<else>><<bhim>><</if>> otherwise.",
+    "translation": "",
+    "pos": 246
+  },
+  {
+    "passage": "Livestock Job Pig Struggle",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1474_5_3_7|",
+    "original": "Niki shakes <<nnpc_his \"Niki\">> head. \"We need them to cooperate,\" <<nnpc_he \"Niki\">> says. \"Perhaps another day.\"",
+    "translation": "",
+    "pos": 674
+  },
+  {
+    "passage": "Livestock Job Pig Struggle",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1477_5_3_7|",
+    "original": "Remy takes your leash and pulls you from the barn as the farmhands help Niki dismantle the set.",
+    "translation": "",
+    "pos": 801
+  },
+  {
+    "passage": "Livestock Job Pig Struggle",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1480_5_3_7|",
+    "original": "<<link [[Next|Livestock Job Resist End]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 909
+  },
+  {
+    "passage": "Livestock Job Pig Struggle",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1486_5_3_7|",
+    "original": "You pull the leash free from Remy's grasp. Farmhands rush over to restrain you. You push one away from you, but then another grasps you from behind. <span class=\"red\">They pull you to the mat.</span> There are too many.",
+    "translation": "",
+    "pos": 1004
+  },
+  {
+    "passage": "Livestock Job Pig Struggle",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1490_5_3_7|",
+    "original": "They restrain you in a mating posture until you get the<<if $farm_phase is 1>> first<</if>> <<beasttype>>'s attention.",
+    "translation": "",
+    "pos": 1237
+  },
+  {
+    "passage": "Livestock Job Pig Struggle",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1494_5_3_7|",
+    "original": "<<link [[Next|Livestock Job Pig Gang Rape]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 1394
+  },
+  {
+    "passage": "Livestock Job Pig Struggle",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1496_5_3_7|",
+    "original": "<<link [[Next|Livestock Job Pig Rape]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 1491
+  },
+  {
+    "passage": "Livestock Job Pig Plead",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1507_5_3_7|",
+    "original": "You try to plead with Niki, though you can't do much than make noises into your $worn.face.name.",
+    "translation": "",
+    "pos": 54
+  },
+  {
+    "passage": "Livestock Job Pig Plead",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1509_5_3_7|",
+    "original": "\"P-please save me,\" you say to Niki. \"I'm not a cow.\"",
+    "translation": "",
+    "pos": 190
+  },
+  {
+    "passage": "Livestock Job Pig Plead",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1511_5_3_7|",
+    "original": "\"Get me away from these crazies,\" you say. \"Before you become one.\"",
+    "translation": "",
+    "pos": 285
+  },
+  {
+    "passage": "Livestock Job Pig Plead",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1513_5_3_7|",
+    "original": "\"Please help me,\" you say to Niki. \"This is wrong.\"",
+    "translation": "",
+    "pos": 363
+  },
+  {
+    "passage": "Livestock Job Pig Plead",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1515_5_3_7|",
+    "original": "<<nnpc_His \"Niki\">> eyes make contact with yours, but <<nnpc_he \"Niki\">> looks away.",
+    "translation": "",
+    "pos": 423
+  },
+  {
+    "passage": "Livestock Job Pig Plead",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1522_5_3_7|",
+    "original": "Niki finishes setting up, <span class=\"green\">but seems to be having problems.</span>",
+    "translation": "",
+    "pos": 565
+  },
+  {
+    "passage": "Livestock Job Pig Plead",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1525_5_3_7|",
+    "original": "\"It's no use,\" <<nnpc_he \"Niki\">> says. \"Equipment's faulty. We need to call it off.\" <<nnpc_He \"Niki\">> glances at you again.",
+    "translation": "",
+    "pos": 663
+  },
+  {
+    "passage": "Livestock Job Pig Plead",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1529_5_3_7|",
+    "original": "<<endevent>><<npc Remy>><<person1>>Remy frowns, and holds your leash closer to the collar. \"Very well,\" <<he>> says. \"If it can't be helped.\"",
+    "translation": "",
+    "pos": 837
+  },
+  {
+    "passage": "Livestock Job Pig Plead",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1532_5_3_7|",
+    "original": "<<He>> pulls you from the barn as the farmhands move to help Niki dismantle the set.",
+    "translation": "",
+    "pos": 991
+  },
+  {
+    "passage": "Livestock Job Pig Plead",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1535_5_3_7|",
+    "original": "<<link [[Next|Livestock Job Resist End]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1088
+  },
+  {
+    "passage": "Livestock Job Pig Plead",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1538_5_3_7|",
+    "original": "<<nnpc_He \"Niki\">> doesn't look again.",
+    "translation": "",
+    "pos": 1168
+  },
+  {
+    "passage": "Livestock Job Pig Plead",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1542_5_3_7|",
+    "original": "Niki finishes setting up. <span class=\"red\"><<nnpc_He \"Niki\">> sticks <<nnpc_his \"Niki\">> thumb out, giving the go-ahead.</span> Remy leads you to the mat. That's all the prompting the<<if $farm_phase is 1>> first<</if>> <<beasttype>> needs.",
+    "translation": "",
+    "pos": 1232
+  },
+  {
+    "passage": "Livestock Job Pig Plead",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1547_5_3_7|",
+    "original": "<<link [[Next|Livestock Job Pig Gang Rape]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 1513
+  },
+  {
+    "passage": "Livestock Job Pig Plead",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1549_5_3_7|",
+    "original": "<<link [[Next|Livestock Job Pig Rape]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 1610
+  },
+  {
+    "passage": "Livestock Job Hypnosis",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1558_5_3_7|",
+    "original": "You slip deeper into the trance. <span class=\"green\">You don't remember ever feeling so tranquil.</span> You hear Harper's voice drifting toward you. \"You are the happiest, most productive <<if $player.gender_appearance is \"m\">>bull<<else>>cow<</if>> on the farm. You have all the grass you could want to eat, and at night your master keeps you safe from wolves.\"",
+    "translation": "",
+    "pos": 24
+  },
+  {
+    "passage": "Livestock Job Hypnosis",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1561_5_3_7|",
+    "original": "Tranquillity invades your mind. You wonder at how lucky you are, a simple <<if $player.gender_appearance is \"m\">>bull<<else>>cow<</if>>, to be cared for so.",
+    "translation": "",
+    "pos": 398
+  },
+  {
+    "passage": "Livestock Job Hypnosis",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1564_5_3_7|",
+    "original": "The doctor continues to speak in that soothing tone, extolling the virtues of your place in the world.",
+    "translation": "",
+    "pos": 565
+  },
+  {
+    "passage": "Livestock Job Hypnosis",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1567_5_3_7|",
+    "original": "\"When I drop this pen, you will awaken.\" The pen clatters to the floor, and you blink back to reality. Harper stands and passes Remy the leash. \"Today was a success. I will return for the next step.\"",
+    "translation": "",
+    "pos": 678
+  },
+  {
+    "passage": "Livestock Job Hypnosis",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1570_5_3_7|",
+    "original": "\"Thank you, good doctor,\" Remy responds. \"And thank you-\" <<He>> scratches you behind the ear. \"-for being so good.\" <<He>> pulls you from the room.",
+    "translation": "",
+    "pos": 923
+  },
+  {
+    "passage": "Livestock Job Hypnosis",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1573_5_3_7|",
+    "original": "<<link [[Next|Livestock Job End]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1082
+  },
+  {
+    "passage": "Livestock Job Hypnosis Resist",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1581_5_3_7|",
+    "original": "You shake yourself free of the effect. Harper doesn't change the tone of <<his>> voice. \"I'm afraid the process requires...\"",
+    "translation": "",
+    "pos": 83
+  },
+  {
+    "passage": "Livestock Job Hypnosis Resist",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1584_5_3_7|",
+    "original": "You interrupt <<him>> by slamming your fists into the table. With the muzzle gagging you, you can only stare at Harper with",
+    "translation": "",
+    "pos": 260
+  },
+  {
+    "passage": "Livestock Job Hypnosis Resist",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1587_5_3_7|",
+    "original": "a tearful expression.",
+    "translation": "",
+    "pos": 424
+  },
+  {
+    "passage": "Livestock Job Hypnosis Resist",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1589_5_3_7|",
+    "original": "an intense glare.",
+    "translation": "",
+    "pos": 491
+  },
+  {
+    "passage": "Livestock Job Hypnosis Resist",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1591_5_3_7|",
+    "original": "an accusatory stare.",
+    "translation": "",
+    "pos": 523
+  },
+  {
+    "passage": "Livestock Job Hypnosis Resist",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1594_5_3_7|",
+    "original": "Remy places a firm hand on your shoulder. \"I apologise. Our livestock rarely have outbursts like this.\"",
+    "translation": "",
+    "pos": 563
+  },
+  {
+    "passage": "Livestock Job Hypnosis Resist",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1596_5_3_7|",
+    "original": "You interrupt <<him>> by slamming your fists into the table.",
+    "translation": "",
+    "pos": 679
+  },
+  {
+    "passage": "Livestock Job Hypnosis Resist",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1599_5_3_7|",
+    "original": "\"Y-you did this to me,\" you say. \"I'm not an animal...\"",
+    "translation": "",
+    "pos": 780
+  },
+  {
+    "passage": "Livestock Job Hypnosis Resist",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1601_5_3_7|",
+    "original": "\"You fucker,\" you say. \"You're the reason...\"",
+    "translation": "",
+    "pos": 881
+  },
+  {
+    "passage": "Livestock Job Hypnosis Resist",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1603_5_3_7|",
+    "original": "\"You kidnapped me...\"",
+    "translation": "",
+    "pos": 941
+  },
+  {
+    "passage": "Livestock Job Hypnosis Resist",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1606_5_3_7|",
+    "original": "Remy silences you with a hand. \"I apologise. Our livestock rarely have outbursts like this.\"",
+    "translation": "",
+    "pos": 982
+  },
+  {
+    "passage": "Livestock Job Hypnosis Resist",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1609_5_3_7|",
+    "original": "Harper sighs. \"The beast has a temper problem. We can try again another day.\"",
+    "translation": "",
+    "pos": 1091
+  },
+  {
+    "passage": "Livestock Job Hypnosis Resist",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1612_5_3_7|",
+    "original": "You shake yourself free of the effect. Harper doesn't change the tone of <<his>> voice. \"I'm afraid the process requires the beast's cooperation,\" <<he>> says to Remy. \"We can try again another day.\"",
+    "translation": "",
+    "pos": 1185
+  },
+  {
+    "passage": "Livestock Job Hypnosis Resist",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1616_5_3_7|",
+    "original": "\"Very well,\" Remy responds, tugging your leash toward the door. \"I'll find something else for this one to do. Thank you for your time, doctor.\"",
+    "translation": "",
+    "pos": 1404
+  },
+  {
+    "passage": "Livestock Job Hypnosis Resist",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1619_5_3_7|",
+    "original": "<<link [[Next|Livestock Job Resist End]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1558
+  },
+  {
+    "passage": "Livestock Job Hypnosis 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1625_5_3_7|",
+    "original": "You slip deeper into the trance. <span class=\"green\">You don't remember ever feeling so tranquil.</span> You hear Harper's voice drifting toward you. \"You are the happiest, most productive <<if $player.gender_appearance is \"m\">>bull<<else>>cow<</if>> on the farm. I'm just going to give you something extra special which will help you further. Please get on the table over there and bend over for me please. There is some fresh grass if you want to eat some.\"",
+    "translation": "",
+    "pos": 24
+  },
+  {
+    "passage": "Livestock Job Hypnosis 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1628_5_3_7|",
+    "original": "Tranquillity invades your mind. You wonder at how lucky you are, a simple <<if $player.gender_appearance is \"m\">>bull<<else>>cow<</if>>, to be cared for so. You climb onto the table thinking about how you should follow <<his>> directions.",
+    "translation": "",
+    "pos": 494
+  },
+  {
+    "passage": "Livestock Job Hypnosis 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1631_5_3_7|",
+    "original": "You start munching on the grass, and while you feel what feels like a small tube enter your vagina, followed by some cold liquid entering, it doesn't bother you.",
+    "translation": "",
+    "pos": 770
+  },
+  {
+    "passage": "Livestock Job Hypnosis 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1632_5_3_7|",
+    "original": "<<recordSperm `{genital: \"vagina\", target: \"pc\", spermOwner: \"Harper's Serum\", spermType: \"human\", daysTillRemovalOverride: 12, quantity: 6}`>>",
+    "translation": "",
+    "pos": 933
+  },
+  {
+    "passage": "Livestock Job Hypnosis 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1635_5_3_7|",
+    "original": "You start munching on the grass, and while you feel what feels like a small tube enter your anus, followed by some cold liquid entering, it doesn't bother you.",
+    "translation": "",
+    "pos": 1232
+  },
+  {
+    "passage": "Livestock Job Hypnosis 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1636_5_3_7|",
+    "original": "<<recordSperm `{genital: \"anus\", target: \"pc\", spermOwner: \"Harper's Serum\", spermType: \"human\", daysTillRemovalOverride: 12, quantity: 6}`>>",
+    "translation": "",
+    "pos": 1393
+  },
+  {
+    "passage": "Livestock Job Hypnosis 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1642_5_3_7|",
+    "original": "The doctor continues to speak in that soothing tone, extolling the virtues of your place in the world.",
+    "translation": "",
+    "pos": 1778
+  },
+  {
+    "passage": "Livestock Job Hypnosis 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1645_5_3_7|",
+    "original": "\"Please get off the table. When I drop this pen, you will awaken.\" The moment you're standing again, the pen clatters to the floor, and you blink back to reality. Harper stands and passes Remy the leash. \"Today was a success. You may see results after some time passes.\"",
+    "translation": "",
+    "pos": 1891
+  },
+  {
+    "passage": "Livestock Job Hypnosis 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1648_5_3_7|",
+    "original": "\"Thank you, good doctor,\" Remy responds. \"And thank you-\" <<He>> scratches you behind the ear. \"-for being so good.\" <<He>> pulls you from the room.",
+    "translation": "",
+    "pos": 2207
+  },
+  {
+    "passage": "Livestock Job Hypnosis 2",
+    "filepath": "overworld-plains/loc-livestock/jobs.twee",
+    "key": "1651_5_3_7|",
+    "original": "<<link [[Next|Livestock Job End]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 2366
+  }
+]
