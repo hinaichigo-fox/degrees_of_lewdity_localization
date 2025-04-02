@@ -1,0 +1,2034 @@
+[
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "6_5_3_7|",
+    "original": "<span class=\"red\">A wardrobe error occurred, please report. The default wardrobe will be shown in place of the intended wardrobe.</span>",
+    "translation": "",
+    "pos": 187
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "9_5_3_7|",
+    "original": "wardrobe_location: <<print $wardrobe_location>>",
+    "translation": "",
+    "pos": 425
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "11_5_3_7|",
+    "original": "passage: <<print $passage>>",
+    "translation": "",
+    "pos": 482
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "19_5_3_7|",
+    "original": "<span class=\"gold\">You place the clothes you recently stole from the shop in your wardrobe.</span>",
+    "translation": "",
+    "pos": 717
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "24_5_3_7|",
+    "original": "<span class=\"gold\">You place the clothes you recently stole from the adult shop in your wardrobe.</span>",
+    "translation": "",
+    "pos": 943
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "28_5_3_7|",
+    "original": "You remove your clothing.",
+    "translation": "",
+    "pos": 1097
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "60_5_3_7|",
+    "original": "You try to remove the <<print $worn[_slot].name>>, but fail. <<cursedtext $worn[_slot].name>>",
+    "translation": "",
+    "pos": 2400
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "79_5_3_7|",
+    "original": "You remove the <<print $worn[_slot].name>>.",
+    "translation": "",
+    "pos": 3106
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "85_5_3_7|",
+    "original": "You remove the <<print $worn[$_outfitPieceSlot].name>>.",
+    "translation": "",
+    "pos": 3465
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "98_5_3_7|",
+    "original": "You tie a towel around your chest.",
+    "translation": "",
+    "pos": 4022
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "100_5_3_7|",
+    "original": "You tie a towel around your waist.",
+    "translation": "",
+    "pos": 4075
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "109_5_3_7|",
+    "original": "You tie a large towel around your chest.",
+    "translation": "",
+    "pos": 4561
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "123_5_3_7|",
+    "original": "<span class=\"red\">Your pregnant body is too sensitive to wear your _item.name.</span>",
+    "translation": "",
+    "pos": 4980
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "125_5_3_7|",
+    "original": "<span class=\"red\">Your <<bellyDescription \"pc\">> is too large to wear your _item.name.</span>",
+    "translation": "",
+    "pos": 5082
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "135_5_3_7|",
+    "original": "<span class=\"red\">You are unable to equip your _item.name, as the slime in your ear is forcing you to go commando.</span>",
+    "translation": "",
+    "pos": 5799
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "142_5_3_7|",
+    "original": "<span class=\"red\">You were unable to equip your _item.name as the slime in your ear did not permit it.</span>",
+    "translation": "",
+    "pos": 6189
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "147_5_3_7|",
+    "original": "<span class=\"red\">You are unable to equip your _item.name, as the slime in your ear is only permitting more <<print $earSlime.forcedDressing.type is \"f\" ? \"feminine\" : \"masculine\">> clothing.</span>",
+    "translation": "",
+    "pos": 6532
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "192_5_3_7|",
+    "original": "You discard the <<print _item.name>>.",
+    "translation": "",
+    "pos": 8492
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "204_5_3_7|",
+    "original": "You repair the <<print _item.name>>.",
+    "translation": "",
+    "pos": 9048
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "213_5_3_7|",
+    "original": "You cut up the <<print _item.name>>.",
+    "translation": "",
+    "pos": 9521
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "231_5_3_7|",
+    "original": "You transferred the <<print _item.name>> to the <<print $wardrobes[_wardrobeTransfer].name>> storage.",
+    "translation": "",
+    "pos": 10228
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "238_5_3_7|",
+    "original": "You were unable to transfer the <<print _item.name>> to the <<print $wardrobes[_wardrobeTransfer].name>> wardrobe due to lack of space there.",
+    "translation": "",
+    "pos": 10581
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "261_5_3_7|",
+    "original": "You put on the <<print formatList(_eIndextemNames)>>.",
+    "translation": "",
+    "pos": 11675
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "265_5_3_7|",
+    "original": "You squeeze the water from your clothes.",
+    "translation": "",
+    "pos": 11779
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "291_5_3_7|",
+    "original": "<div id=\"action-popup\">Don't look here.</div>",
+    "translation": "",
+    "pos": 12485
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "295_5_3_7|",
+    "original": "<span>Warmth:</span>",
+    "translation": "",
+    "pos": 12563
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "304_5_3_7|",
+    "original": "<<link \"Dry your clothes\">>",
+    "translation": "",
+    "pos": 12898
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "315_5_3_7|",
+    "original": "<<link \"Strip all\">>",
+    "translation": "",
+    "pos": 13184
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "321_5_3_7|",
+    "original": "<<link \"Wear random clothes\">>",
+    "translation": "",
+    "pos": 13316
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "327_5_3_7|",
+    "original": "<<link \"Configure random\">><<toggleclass \"#randomClothingConfigure\" \"hidden\">><</link>>",
+    "translation": "",
+    "pos": 13455
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "331_5_3_7|",
+    "original": "<span id=\"wardrobe-cover\" @class=\"$dontHide ? '' : 'hidden'\">",
+    "translation": "",
+    "pos": 13666
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "332_5_3_7|",
+    "original": "<<link \"Cover yourself\">>",
+    "translation": "",
+    "pos": 13732
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "339_5_3_7|",
+    "original": "<span id=\"wardrobe-dontCover\" @class=\"$dontHide ? 'hidden' : ''\">",
+    "translation": "",
+    "pos": 13937
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "340_5_3_7|",
+    "original": "<<link \"Don't cover yourself\">>",
+    "translation": "",
+    "pos": 14007
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "355_5_3_7|",
+    "original": "<label><<checkbox \"$randomEquipConfigure[_slot]\" false true autocheck>> <<print _slot.replace(\"_\",\" \")>></label><br>",
+    "translation": "",
+    "pos": 14595
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "363_5_3_7|",
+    "original": "__Wardrobe Repair Crate__",
+    "translation": "",
+    "pos": 14855
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "365_5_3_7|",
+    "original": "There is a small crate ready for sending clothes to be repaired.",
+    "translation": "",
+    "pos": 14892
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "367_5_3_7|",
+    "original": "<<link [[Add damaged items and send|Wardrobe Repair Crate]]>>",
+    "translation": "",
+    "pos": 14968
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "372_5_3_7|",
+    "original": "<<link [[Add outfits and send|Wardrobe Repair Crate]]>>",
+    "translation": "",
+    "pos": 15138
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "377_5_3_7|",
+    "original": "<<link [[Add all items and send|Wardrobe Repair Crate]]>>",
+    "translation": "",
+    "pos": 15302
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "382_5_3_7|",
+    "original": "<<link [[Cancel the request|$passage]]>><<set $tailorMonthlyService to 1>><</link>>",
+    "translation": "",
+    "pos": 15468
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "385_5_3_7|",
+    "original": "__Wardrobe Sale Crate__",
+    "translation": "",
+    "pos": 15615
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "386_5_3_7|",
+    "original": "There is a small crate ready for sending clothes to be sold.",
+    "translation": "",
+    "pos": 15642
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "388_5_3_7|",
+    "original": "<<link [[Add outfits and send|Wardrobe Sale Crate]]>>",
+    "translation": "",
+    "pos": 15714
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "393_5_3_7|",
+    "original": "<<link [[Add all items and send|Wardrobe Sale Crate]]>>",
+    "translation": "",
+    "pos": 15876
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "398_5_3_7|",
+    "original": "<<link [[Cancel the request|$passage]]>><<set $tailorMonthlyService to 1>><</link>>",
+    "translation": "",
+    "pos": 16040
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "403_5_3_7|",
+    "original": "The clothes sent to the tailor have been repaired and added back into your wardrobe.",
+    "translation": "",
+    "pos": 16230
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "409_5_3_7|",
+    "original": "__Clothing sets__",
+    "translation": "",
+    "pos": 16382
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "414_5_3_7|",
+    "original": "__Clothing__",
+    "translation": "",
+    "pos": 16459
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "446_5_3_7|",
+    "original": "<<set _wardrobeLinks=[",
+    "translation": "",
+    "pos": 17239
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "447_5_3_7|",
+    "original": "{ id: 'over_head', label: 'Over Head', disabled: !$debug },",
+    "translation": "",
+    "pos": 17264
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "448_5_3_7|",
+    "original": "{ id: 'over_upper', label: 'Over Upper', disabled: !$debug },",
+    "translation": "",
+    "pos": 17326
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "449_5_3_7|",
+    "original": "{ id: 'over_lower', label: 'Over Lower', disabled: !$debug },",
+    "translation": "",
+    "pos": 17390
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "450_5_3_7|",
+    "original": "{ id: 'head', label: 'Head' },",
+    "translation": "",
+    "pos": 17454
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "451_5_3_7|",
+    "original": "{ id: 'face', label: 'Face' },",
+    "translation": "",
+    "pos": 17487
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "452_5_3_7|",
+    "original": "{ id: 'neck', label: 'Neck' },",
+    "translation": "",
+    "pos": 17520
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "453_5_3_7|",
+    "original": "{ id: 'upper', label: 'Upper' },",
+    "translation": "",
+    "pos": 17553
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "454_5_3_7|",
+    "original": "{ id: 'lower', label: 'Lower' },",
+    "translation": "",
+    "pos": 17588
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "455_5_3_7|",
+    "original": "{ id: 'under_upper', label: 'Under Upper' },",
+    "translation": "",
+    "pos": 17623
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "456_5_3_7|",
+    "original": "{ id: 'under_lower', label: 'Under Lower' },",
+    "translation": "",
+    "pos": 17670
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "457_5_3_7|",
+    "original": "{ id: 'hands', label: 'Hands' },",
+    "translation": "",
+    "pos": 17717
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "458_5_3_7|",
+    "original": "{ id: 'handheld', label: 'Handheld' },",
+    "translation": "",
+    "pos": 17752
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "459_5_3_7|",
+    "original": "{ id: 'legs', label: 'Legs' },",
+    "translation": "",
+    "pos": 17793
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "460_5_3_7|",
+    "original": "{ id: 'feet', label: 'Feet' },",
+    "translation": "",
+    "pos": 17826
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "465_5_3_7|",
+    "original": "<a",
+    "translation": "",
+    "pos": 17991
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "466_5_3_7|",
+    "original": "@class=\"($lastWardrobeSlot is _wardrobeLink.id ? 'selected' : '')\"",
+    "translation": "",
+    "pos": 17998
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "467_5_3_7|",
+    "original": "@id=\"Dynamic.eventBinder(_wardrobeLink.id)\"",
+    "translation": "",
+    "pos": 18069
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "468_5_3_7|",
+    "original": "onclick=\"(id) => $lastWardrobeSlot = id\"",
+    "translation": "",
+    "pos": 18117
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "469_5_3_7|",
+    "original": ">_wardrobeLink.label</a><<if _i < _wardrobeLinks.length - 1>> | <</if>>",
+    "translation": "",
+    "pos": 18161
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "479_5_3_7|",
+    "original": "<label><<radiobutton \"$wardrobeOption\" \"wear\" autocheck>> Wear</label> |",
+    "translation": "",
+    "pos": 18547
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "480_5_3_7|",
+    "original": "<label><<radiobutton \"$wardrobeOption\" \"delete\" autocheck>> Discard</label> |",
+    "translation": "",
+    "pos": 18621
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "482_5_3_7|",
+    "original": "<label><<radiobutton \"$wardrobeOption\" \"repair\" autocheck>> Repair (0:05 per piece)</label> |",
+    "translation": "",
+    "pos": 18749
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "484_5_3_7|",
+    "original": "<label><<radiobutton \"$wardrobeOption\" \"separateOutfits\" autocheck>> Separate Outfits (0:10)</label> |",
+    "translation": "",
+    "pos": 18853
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "486_5_3_7|",
+    "original": "<label><<radiobutton \"$wardrobeOption\" \"transfer\" autocheck>> Transfer:</label>",
+    "translation": "",
+    "pos": 19039
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "499_5_3_7|",
+    "original": "<label><<checkbox \"$wardrobeRepeat\" false true autocheck>> Repeat Actions</label>",
+    "translation": "",
+    "pos": 19450
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "502_5_3_7|",
+    "original": "<h2 class=\"red\">Discard On Repeat</h2>",
+    "translation": "",
+    "pos": 19599
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "510_5_3_7|",
+    "original": "Add new set:",
+    "translation": "",
+    "pos": 19719
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "512_5_3_7|",
+    "original": "Name: <input id=\"outfitName\" type=\"text\" value=\"Custom\" maxlength=\"30\" onfocus=\"V.tempDisable = true;\">",
+    "translation": "",
+    "pos": 19739
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "514_5_3_7|",
+    "original": "Type: <label>Everyday <<radiobutton \"$outfit_type\" 0 checked>></label> | <label>Sleep<<radiobutton \"$outfit_type\" \"sleep\">></label> | <label>Swimming<<radiobutton \"$outfit_type\" \"swim\">></label>",
+    "translation": "",
+    "pos": 19850
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "517_5_3_7|",
+    "original": "Save Clothes Colours in Set",
+    "translation": "",
+    "pos": 20062
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "523_5_3_7|",
+    "original": "Make clothes set unique to this wardrobe",
+    "translation": "",
+    "pos": 20195
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "531_5_3_7|",
+    "original": "Hair Style:",
+    "translation": "",
+    "pos": 20417
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "533_5_3_7|",
+    "original": "<<option \"Not set\" undefined>>",
+    "translation": "",
+    "pos": 20472
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "536_5_3_7|",
+    "original": "<mouse class=\"tooltip linkBlue\">(?)<span>'Not set' will not change the current hairstyle.</span></mouse>",
+    "translation": "",
+    "pos": 20563
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "540_5_3_7|",
+    "original": "Hair Style: No sets saved (Check mirror)",
+    "translation": "",
+    "pos": 20698
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "545_5_3_7|",
+    "original": "<<link \"Add current clothes as new set\">>",
+    "translation": "",
+    "pos": 20796
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "546_5_3_7|",
+    "original": "<<set $outfit_name to document.getElementById(\"outfitName\").value.replace(/[^a-zA-Z\\u4e00-\\u9fa5 0-9.!()]+/g,\"\")>>",
+    "translation": "",
+    "pos": 20841
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "547_5_3_7|",
+    "original": "<<set _newOutfit to {",
+    "translation": "",
+    "pos": 20959
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "606_5_3_7|",
+    "original": "<<set $_output to \"<span>(frayed)</span>\">>",
+    "translation": "",
+    "pos": 23152
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "608_5_3_7|",
+    "original": "<<set $_output to \"<span>(torn)</span>\">>",
+    "translation": "",
+    "pos": 23264
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "610_5_3_7|",
+    "original": "<<set $_output to \"<span>(tattered)</span>\">>",
+    "translation": "",
+    "pos": 23318
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "612_5_3_7|",
+    "original": "<</silently>><<print $_output>><</widget>>",
+    "translation": "",
+    "pos": 23373
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "616_5_3_7|",
+    "original": "<<link `($worn.upper.hoodposition is \"down\" ? \"Pull hood up\" : \"Pull hood down\")`>>",
+    "translation": "",
+    "pos": 23477
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "622_5_3_7|",
+    "original": "<<run $(\".toggleHoodLink .link-internal\").html($worn.upper.hoodposition is \"down\" ? \"Pull hood up\" : \"Pull hood down\")>>",
+    "translation": "",
+    "pos": 23681
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "668_5_3_7|",
+    "original": "<<set $_hoodIndex to setup.clothes.head.findIndex(x => x.name === $worn.upper.outfitPrimary.head)>>",
+    "translation": "",
+    "pos": 26336
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "693_5_3_7|",
+    "original": "<<link `($upperTucked ? _linkOption1 : _linkOption2)`>>",
+    "translation": "",
+    "pos": 27407
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "706_5_3_7|",
+    "original": "<<link `($lowerTucked ? _linkOption1 : _linkOption2)`>>",
+    "translation": "",
+    "pos": 27911
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "717_5_3_7|",
+    "original": "<<link \"Attach Leash\">>",
+    "translation": "",
+    "pos": 28341
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "723_5_3_7|",
+    "original": "<<link \"Detach Leash\">>",
+    "translation": "",
+    "pos": 28639
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "764_5_3_7|",
+    "original": "<span @class=\"_args[0]\">",
+    "translation": "",
+    "pos": 30360
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "766_5_3_7|",
+    "original": "<<link `($worn[_args[0]].altposition is \"none\" ? _altLink[0] : _altLink[1])`>>",
+    "translation": "",
+    "pos": 30420
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "802_5_3_7|",
+    "original": "<<set $worn.upper.altposition to ($worn.upper.altposition is \"none\" ? \"alt\" : \"none\")>>",
+    "translation": "",
+    "pos": 32250
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "809_5_3_7|",
+    "original": "<<set $worn[_args[0]].altposition to ($worn[_args[0]].altposition is \"none\" ? \"alt\" : \"none\")>>",
+    "translation": "",
+    "pos": 32582
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "819_5_3_7|",
+    "original": "<<link `($worn.upper.altsleeve is \"none\" ? _inDefaultState : _inAltState)`>>",
+    "translation": "",
+    "pos": 32902
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "820_5_3_7|",
+    "original": "<<set $worn.upper.altsleeve to ($worn.upper.altsleeve is \"none\" ? \"alt\" : \"none\")>>",
+    "translation": "",
+    "pos": 32982
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "833_5_3_7|",
+    "original": "<<link `($facelayer is \"front\" ? _linkOption2 : _linkOption1)`>>",
+    "translation": "",
+    "pos": 33467
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "834_5_3_7|",
+    "original": "<<set $facelayer to ($facelayer is \"front\" ? \"back\" : \"front\")>>",
+    "translation": "",
+    "pos": 33535
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "850_5_3_7|",
+    "original": "An error occurred to 'widget \"wardrobeList\"', please report if you did not edit the save data manually in any way.",
+    "translation": "",
+    "pos": 34035
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "857_5_3_7|",
+    "original": "__<<print _wardrobe_list[0].toUpperCase() + _wardrobe_list.substring(1)>>__ <i>_selectedWardrobe[_wardrobe_list].length / _selectedWardrobe.space</i>",
+    "translation": "",
+    "pos": 34321
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "858_5_3_7|",
+    "original": "<<if _wardrobe_list is \"upper\">>(Outfits will also take a lower slot)<</if>>",
+    "translation": "",
+    "pos": 34473
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "859_5_3_7|",
+    "original": "<<if _wardrobe_list is \"under_upper\">>(Outfits will also take an under lower slot)<</if>>",
+    "translation": "",
+    "pos": 34552
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "861_5_3_7|",
+    "original": "Order by:",
+    "translation": "",
+    "pos": 34651
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "864_5_3_7|",
+    "original": "<div class=\"wardrobe-action\"><a onclick=\"wikifier('wardrobeListReorder', V.lastWardrobeSlot, 'name');\">Name</a></div> |",
+    "translation": "",
+    "pos": 34806
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "865_5_3_7|",
+    "original": "<div class=\"wardrobe-action\"><a onclick=\"wikifier('wardrobeListReorder', V.lastWardrobeSlot, 'color');\">Colour</a></div> |",
+    "translation": "",
+    "pos": 34928
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "866_5_3_7|",
+    "original": "<div class=\"wardrobe-action\"><a onclick=\"wikifier('wardrobeListReorder', V.lastWardrobeSlot, 'lewd');\">Lewd</a></div> |",
+    "translation": "",
+    "pos": 35053
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "867_5_3_7|",
+    "original": "<div class=\"wardrobe-action\"><a onclick=\"wikifier('wardrobeListReorder', V.lastWardrobeSlot, 'integrity');\">Integrity</a></div> |",
+    "translation": "",
+    "pos": 35175
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "868_5_3_7|",
+    "original": "<div class=\"wardrobe-action\"><a onclick=\"wikifier('wardrobeListReorder', V.lastWardrobeSlot, 'warmth');\">Warmth</a></div> |",
+    "translation": "",
+    "pos": 35307
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "870_5_3_7|",
+    "original": "<div class=\"wardrobe-action\"><a onclick=\"wikifier('wardrobeListReorder', V.lastWardrobeSlot, 'outfit');\">Outfit Status</a></div> |",
+    "translation": "",
+    "pos": 35481
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "873_5_3_7|",
+    "original": "Inverse Order by:",
+    "translation": "",
+    "pos": 35631
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "874_5_3_7|",
+    "original": "<div class=\"wardrobe-action\"><a onclick=\"wikifier('wardrobeListReorder', V.lastWardrobeSlot, 'name', true);\">Name</a></div> |",
+    "translation": "",
+    "pos": 35651
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "875_5_3_7|",
+    "original": "<div class=\"wardrobe-action\"><a onclick=\"wikifier('wardrobeListReorder', V.lastWardrobeSlot, 'color', true);\">Colour</a></div> |",
+    "translation": "",
+    "pos": 35779
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "876_5_3_7|",
+    "original": "<div class=\"wardrobe-action\"><a onclick=\"wikifier('wardrobeListReorder', V.lastWardrobeSlot, 'lewd', true);\">Lewd</a></div> |",
+    "translation": "",
+    "pos": 35910
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "877_5_3_7|",
+    "original": "<div class=\"wardrobe-action\"><a onclick=\"wikifier('wardrobeListReorder', V.lastWardrobeSlot, 'integrity', true);\">Integrity</a></div> |",
+    "translation": "",
+    "pos": 36038
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "878_5_3_7|",
+    "original": "<div class=\"wardrobe-action\"><a onclick=\"wikifier('wardrobeListReorder', V.lastWardrobeSlot, 'warmth', true);\">Warmth</a></div> |",
+    "translation": "",
+    "pos": 36176
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "880_5_3_7|",
+    "original": "<div class=\"wardrobe-action\"><a onclick=\"wikifier('wardrobeListReorder', V.lastWardrobeSlot, 'outfit', true);\">Outfit Status</a></div> |",
+    "translation": "",
+    "pos": 36356
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "883_5_3_7|",
+    "original": "Currently equipped:",
+    "translation": "",
+    "pos": 36516
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "885_5_3_7|",
+    "original": "nothing",
+    "translation": "",
+    "pos": 36586
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "890_5_3_7|",
+    "original": "<<clothingicon _wornItem _wardrobe_list>>",
+    "translation": "",
+    "pos": 36760
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "891_5_3_7|",
+    "original": "<<print _wornItemData.name_cap>>",
+    "translation": "",
+    "pos": 36805
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "893_5_3_7|",
+    "original": "<span @class=\"_wornItem.colour.replace(' ','-')\">(_wornItem.colour)</span>",
+    "translation": "",
+    "pos": 36877
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "904_5_3_7|",
+    "original": "<span class=\"gold\">(Outfit)</span>",
+    "translation": "",
+    "pos": 37281
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "906_5_3_7|",
+    "original": "<span class=\"red\">(Partly Broken)</span>",
+    "translation": "",
+    "pos": 37361
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "908_5_3_7|",
+    "original": "<span class=\"red\">(Broken)</span>",
+    "translation": "",
+    "pos": 37421
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "911_5_3_7|",
+    "original": "<span class=\"separated-indicator\">(Separated)</span>",
+    "translation": "",
+    "pos": 37515
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "916_5_3_7|",
+    "original": "<span class=\"red\">(Broken)</span>",
+    "translation": "",
+    "pos": 37700
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "918_5_3_7|",
+    "original": "<span class=\"gold\">(Outfit)</span>",
+    "translation": "",
+    "pos": 37752
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "920_5_3_7|",
+    "original": "<span class=\"separated-indicator\">(Separated)</span>",
+    "translation": "",
+    "pos": 37836
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "925_5_3_7|",
+    "original": "<a onclick=\"document.getElementById('wardrobeItemDetails').classList.toggle('hidden')\">Extra Info</a>",
+    "translation": "",
+    "pos": 37978
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "931_5_3_7|",
+    "original": "A <<integrity `clothingData(_wardrobe_list,_wornItem,'integrity_max')`>>",
+    "translation": "",
+    "pos": 38270
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "933_5_3_7|",
+    "original": "and <<reveal _wornItem.reveal>> <<print _wornItem.name>>.",
+    "translation": "",
+    "pos": 38359
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "936_5_3_7|",
+    "original": "<span class=\"lblue\">For boys ♂.</span>",
+    "translation": "",
+    "pos": 38458
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "938_5_3_7|",
+    "original": "<span class=\"pink\">For girls ♀.</span>",
+    "translation": "",
+    "pos": 38541
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "940_5_3_7|",
+    "original": "<<print _wornItemData.description>>",
+    "translation": "",
+    "pos": 38596
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "942_5_3_7|",
+    "original": "<<print setup.WeatherDescriptions.clothingWarmth(getTrueWarmth(_wornItem))>>",
+    "translation": "",
+    "pos": 38645
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "970_5_3_7|",
+    "original": "<div class=\"wardrobeItem wardrobe-action no-numberify\"><<wearlink_norefresh \"Strip\" 'strip'>></div>",
+    "translation": "",
+    "pos": 40026
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "973_5_3_7|",
+    "original": "<div class=\"wardrobeItem wardrobe-action no-numberify\"><<wearlink_norefresh \"Large towel\" 'large_towel'>></div>",
+    "translation": "",
+    "pos": 40174
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "976_5_3_7|",
+    "original": "<div class=\"wardrobeItem wardrobe-action no-numberify\"><<wearlink_norefresh \"Towel\" 'towel'>></div>",
+    "translation": "",
+    "pos": 40363
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "988_5_3_7|",
+    "original": "<<clothingicon _item _wardrobe_list>>",
+    "translation": "",
+    "pos": 40940
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "989_5_3_7|",
+    "original": "<<wearlink_norefresh _itemData.name_cap _i>>",
+    "translation": "",
+    "pos": 40982
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "998_5_3_7|",
+    "original": "<span @class=\"_selectedWardrobe[_wardrobe_list][_i].colour.replace(' ','-')\">(_item.colour)</span>",
+    "translation": "",
+    "pos": 41222
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1009_5_3_7|",
+    "original": "<span class=\"gold\">(Outfit)</span>",
+    "translation": "",
+    "pos": 41648
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1011_5_3_7|",
+    "original": "<span class=\"red\">(Partly Broken)</span>",
+    "translation": "",
+    "pos": 41729
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1013_5_3_7|",
+    "original": "<span class=\"red\">(Broken)</span>",
+    "translation": "",
+    "pos": 41790
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1016_5_3_7|",
+    "original": "<span class=\"separated-indicator\">(Separated)</span>",
+    "translation": "",
+    "pos": 41882
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1021_5_3_7|",
+    "original": "<span class=\"separated-indicator\">(Separated)</span>",
+    "translation": "",
+    "pos": 42054
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1023_5_3_7|",
+    "original": "<span class=\"red\">(Broken)</span>",
+    "translation": "",
+    "pos": 42127
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1028_5_3_7|",
+    "original": "| <span class=\"cold-resist-icon noDivider\"><<print getTrueWarmth(_item)>></span>",
+    "translation": "",
+    "pos": 42265
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1031_5_3_7|",
+    "original": "<div style=\"clear:both;\"></div>",
+    "translation": "",
+    "pos": 42369
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1037_5_3_7|",
+    "original": "<<link _args[0]>>",
+    "translation": "",
+    "pos": 42488
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1049_5_3_7|",
+    "original": "<<if window.scrollY > 130>>",
+    "translation": "",
+    "pos": 42724
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1050_5_3_7|",
+    "original": "<<run $('#action-popup, #wardrobewear').html(new Wikifier(null, \"<<wardrobewear>>\").output)>>",
+    "translation": "",
+    "pos": 42754
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1053_5_3_7|",
+    "original": "<<run $('#wardrobewear').html(new Wikifier(null, \"<<wardrobewear>>\").output)>>",
+    "translation": "",
+    "pos": 43010
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1095_5_3_7|",
+    "original": "<<run $('#wardrobeExits').html(new Wikifier(null, \"<<wardrobeExits>>\").output)>>",
+    "translation": "",
+    "pos": 44590
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1150_5_3_7|",
+    "original": "<div style=\"clear:both;\"></div>",
+    "translation": "",
+    "pos": 46728
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1158_5_3_7|",
+    "original": "An error occurred to 'widget \"oldWardrobeList\"', please report if you did not edit the save data manually in any way.",
+    "translation": "",
+    "pos": 46947
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1163_5_3_7|",
+    "original": "__<<print _wardrobe_list[0].toUpperCase() + _wardrobe_list.substring(1) + (_showType is \"outfits\" ? \" Outfits\" : \"\")>>__ <i>_selectedWardrobe[_wardrobe_list].length / _selectedWardrobe.space</i>",
+    "translation": "",
+    "pos": 47148
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1168_5_3_7|",
+    "original": "<li class=\"no-numberify\"><<wearlink_norefresh \"Strip\" 'strip' _wear>></li>",
+    "translation": "",
+    "pos": 47422
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1171_5_3_7|",
+    "original": "<li class=\"no-numberify\"><<wearlink_norefresh \"Large towel\" 'large_towel' _wear>></li>",
+    "translation": "",
+    "pos": 47572
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1174_5_3_7|",
+    "original": "<li class=\"no-numberify\"><<wearlink_norefresh \"Towel\" 'towel' _wear>></li>",
+    "translation": "",
+    "pos": 47768
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1186_5_3_7|",
+    "original": "<li class=\"no-numberify\">/*<<clothingicon _item>>*/<<wearlink_norefresh setup.clothes[_wardrobe_list][clothesIndex(_wardrobe_list,_item)].name_cap _i _wear>>",
+    "translation": "",
+    "pos": 48341
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1188_5_3_7|",
+    "original": "<span @class=\"_selectedWardrobe[_wardrobe_list][_i].colour.replace(' ','-')\">(_item.colour)</span>",
+    "translation": "",
+    "pos": 48566
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1306_5_3_7|",
+    "original": "<<set _sortedItemReveal to _itemReveal.sort((a, b) => a - b)>>",
+    "translation": "",
+    "pos": 52504
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1308_5_3_7|",
+    "original": "<<set _sortedItemReveal to _itemReveal.sort((a, b) => b - a)>>",
+    "translation": "",
+    "pos": 52583
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1442_5_3_7|",
+    "original": "The driver thanks you for the donation of _takenAway items due to you not having enough space.",
+    "translation": "",
+    "pos": 59319
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1459_5_3_7|",
+    "original": "<<set _eIndexds to _selectedWardrobe[$_slot].map((item, index) => {",
+    "translation": "",
+    "pos": 59844
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1460_5_3_7|",
+    "original": "if (!item.outfitSecondary or item.outfitSecondary[1] is \"broken\" or item.outfitSecondary[1] is \"split\") return index;",
+    "translation": "",
+    "pos": 59916
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1461_5_3_7|",
+    "original": "}).filter(Boolean)>>",
+    "translation": "",
+    "pos": 60037
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1480_5_3_7|",
+    "original": "<<print setup.WeatherDescriptions.shop()>>",
+    "translation": "",
+    "pos": 60652
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1482_5_3_7|",
+    "original": "Your clothing warmth is currently <span class=\"orange\"><<print Weather.BodyTemperature.getWarmth()>></span>.",
+    "translation": "",
+    "pos": 60702
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1487_5_3_7|",
+    "original": "To be comfortable you'll need",
+    "translation": "",
+    "pos": 60911
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1489_5_3_7|",
+    "original": "a clothing warmth between <span class=\"orange\"><<print getTargetWarmth(36.5)>></span> and <span class=\"orange\"><<print getTargetWarmth(37.5)>></span>.",
+    "translation": "",
+    "pos": 60979
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1491_5_3_7|",
+    "original": "at least a clothing warmth of <span class=\"orange\"><<print getTargetWarmth(36.5)>></span>.",
+    "translation": "",
+    "pos": 61156
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1493_5_3_7|",
+    "original": "at most a clothing warmth of <span class=\"orange\"><<print getTargetWarmth(37.5)>></span>.",
+    "translation": "",
+    "pos": 61273
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1495_5_3_7|",
+    "original": "to stay indoors.",
+    "translation": "",
+    "pos": 61375
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1509_5_3_7|",
+    "original": "<div class=\"no-numberify\">Debug:",
+    "translation": "",
+    "pos": 61845
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1513_5_3_7|",
+    "original": "<span class=\"gold\"><<print _value.name>></span> |",
+    "translation": "",
+    "pos": 62010
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1515_5_3_7|",
+    "original": "<<capture _label>><<link [[_value.name|$passage]]>><<set $forceWardrobeLocation to _label>><</link>> |<</capture>>",
+    "translation": "",
+    "pos": 62078
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1532_5_3_7|",
+    "original": "<<link [[Close wardrobe|Bedroom]]>><<cleanupOnWardrobeExit>><</link>>",
+    "translation": "",
+    "pos": 62800
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1535_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Beach]]>><<cleanupOnWardrobeExit>><</link>>",
+    "translation": "",
+    "pos": 62926
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1537_5_3_7|",
+    "original": "<<sneakicon>><<link [[Sneak outside|Beach Changing Room Sneak]]>><<cleanupOnWardrobeExit>><</link>><<exhibitionist5>>",
+    "translation": "",
+    "pos": 63048
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1539_5_3_7|",
+    "original": "You can't go out like this!",
+    "translation": "",
+    "pos": 63182
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1544_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Sydney Beach Swimsuit]]>><<cleanupOnWardrobeExit>><</link>>",
+    "translation": "",
+    "pos": 63333
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1546_5_3_7|",
+    "original": "You can't go out like this!",
+    "translation": "",
+    "pos": 63438
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1551_5_3_7|",
+    "original": "<span class=\"red\">The slime in your ear refuses to allow you to leave with <<underwearTypeText>> on.</span>",
+    "translation": "",
+    "pos": 63667
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1553_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Sydney Beach Leave]]>><<cleanupOnWardrobeExit>><</link>>",
+    "translation": "",
+    "pos": 63808
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1555_5_3_7|",
+    "original": "You can't go out like this!",
+    "translation": "",
+    "pos": 63910
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1559_5_3_7|",
+    "original": "<<link [[Done|Eden Cabin]]>><<cleanupOnWardrobeExit>><</link>>",
+    "translation": "",
+    "pos": 64120
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1561_5_3_7|",
+    "original": "You can't remain undressed like this!",
+    "translation": "",
+    "pos": 64199
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1565_5_3_7|",
+    "original": "<<link [[Done|Eden Cabin Bed]]>><<cleanupOnWardrobeExit>><</link>>",
+    "translation": "",
+    "pos": 64425
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1567_5_3_7|",
+    "original": "You can't remain undressed like this!",
+    "translation": "",
+    "pos": 64508
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1571_5_3_7|",
+    "original": "<<link [[Done|Asylum Cell]]>><<cleanupOnWardrobeExit>><</link>>",
+    "translation": "",
+    "pos": 64704
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1573_5_3_7|",
+    "original": "You can't remain undressed like this!",
+    "translation": "",
+    "pos": 64784
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1577_5_3_7|",
+    "original": "<<link [[Done|Farm Bedroom]]>><<cleanupOnWardrobeExit>><</link>>",
+    "translation": "",
+    "pos": 64978
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1579_5_3_7|",
+    "original": "You can't remain undressed like this!",
+    "translation": "",
+    "pos": 65059
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1583_5_3_7|",
+    "original": "<<link [[Step away|Strip Club Dressing Room]]>><<cleanupOnWardrobeExit>><</link>>",
+    "translation": "",
+    "pos": 65259
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1585_5_3_7|",
+    "original": "You can't go out like this!",
+    "translation": "",
+    "pos": 65357
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1589_5_3_7|",
+    "original": "<<link [[Step away|Brothel Dressing Room]]>><<cleanupOnWardrobeExit>><</link>>",
+    "translation": "",
+    "pos": 65544
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1591_5_3_7|",
+    "original": "You can't go out like this!",
+    "translation": "",
+    "pos": 65639
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1595_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|School Boy Changing Room]]>><<cleanupOnWardrobeExit>><</link>>",
+    "translation": "",
+    "pos": 65756
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1597_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|School Girl Changing Room]]>><<cleanupOnWardrobeExit>><</link>>",
+    "translation": "",
+    "pos": 65864
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1601_5_3_7|",
+    "original": "<<link [[Done|Farm Assault Intro]]>><<cleanupOnWardrobeExit>><</link>>",
+    "translation": "",
+    "pos": 66121
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1603_5_3_7|",
+    "original": "You can't remain undressed like this!",
+    "translation": "",
+    "pos": 66208
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1606_5_3_7|",
+    "original": "<<link [[Close|Prison Cell]]>><<cleanupOnWardrobeExit>><</link>>",
+    "translation": "",
+    "pos": 66289
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1608_5_3_7|",
+    "original": "<<link [[Close|Temple Bunk]]>><<cleanupOnWardrobeExit>><</link>>",
+    "translation": "",
+    "pos": 66386
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1610_5_3_7|",
+    "original": "<<link [[Close|Pirate Bed]]>><<cleanupOnWardrobeExit>><</link>>",
+    "translation": "",
+    "pos": 66483
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1613_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Office Agency]]>><<cleanupOnWardrobeExit>><</link>>",
+    "translation": "",
+    "pos": 66617
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1615_5_3_7|",
+    "original": "<<sneakicon>><<link [[Sneak outside|Office Agency Streak]]>><<cleanupOnWardrobeExit>><</link>><<exhibitionist4>>",
+    "translation": "",
+    "pos": 66747
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1617_5_3_7|",
+    "original": "You can't go out like this!",
+    "translation": "",
+    "pos": 66876
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1620_5_3_7|",
+    "original": "<<link [[Close|Bird Tower]]>><<cleanupOnWardrobeExit>><</link>>",
+    "translation": "",
+    "pos": 66951
+  },
+  {
+    "passage": "Widgets Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1634_5_3_7|",
+    "original": "<</silently>><<if $_text_output>><<print $_text_output>><</if>>",
+    "translation": "",
+    "pos": 67376
+  },
+  {
+    "passage": "Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1641_5_3_7|",
+    "original": "You look in your wardrobe.",
+    "translation": "",
+    "pos": 75
+  },
+  {
+    "passage": "Changing Room",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1653_5_3_7|",
+    "original": "You are in a small wooden changing room.",
+    "translation": "",
+    "pos": 146
+  },
+  {
+    "passage": "Eden Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1661_5_3_7|",
+    "original": "You look through the cupboard containing your clothes. There's an old dressing screen for privacy.",
+    "translation": "",
+    "pos": 12
+  },
+  {
+    "passage": "Asylum Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1672_5_3_7|",
+    "original": "You look through the cupboard containing your clothes.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Farm Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1683_5_3_7|",
+    "original": "You look through the rustic wardrobe.",
+    "translation": "",
+    "pos": 12
+  },
+  {
+    "passage": "School Pool Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1715_5_3_7|",
+    "original": "You stand in front of your open locker.",
+    "translation": "",
+    "pos": 75
+  },
+  {
+    "passage": "Temple Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1725_5_3_7|",
+    "original": "You look through the cupboard containing your clothes.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Pirate Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1737_5_3_7|",
+    "original": "You look through the cupboard containing your clothes.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Office Agency Changing Room",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1750_5_3_7|",
+    "original": "You are in the small storage room sanctioned for temps to use for changing.",
+    "translation": "",
+    "pos": 110
+  },
+  {
+    "passage": "Bird Tower Wardrobe",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1760_5_3_7|",
+    "original": "You look through the wardrobe you built.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Wardrobe Sale Crate",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1771_5_3_7|",
+    "original": "Are you prepared to add all your",
+    "translation": "",
+    "pos": 1
+  },
+  {
+    "passage": "Wardrobe Sale Crate",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1773_5_3_7|",
+    "original": "clothes",
+    "translation": "",
+    "pos": 66
+  },
+  {
+    "passage": "Wardrobe Sale Crate",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1775_5_3_7|",
+    "original": "outfits",
+    "translation": "",
+    "pos": 84
+  },
+  {
+    "passage": "Wardrobe Sale Crate",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1777_5_3_7|",
+    "original": "to the crate and send them to be sold? Might be best to go shopping shortly after.",
+    "translation": "",
+    "pos": 100
+  },
+  {
+    "passage": "Wardrobe Sale Crate",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1794_5_3_7|",
+    "original": "It will earn you <<printmoney `_value + 5000`>>.",
+    "translation": "",
+    "pos": 751
+  },
+  {
+    "passage": "Wardrobe Sale Crate",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1796_5_3_7|",
+    "original": "<<link [[Yes|Wardrobe Sale Crate Result]]>><</link>>",
+    "translation": "",
+    "pos": 809
+  },
+  {
+    "passage": "Wardrobe Sale Crate",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1798_5_3_7|",
+    "original": "<<link [[No|$wardrobeReturnLink]]>>",
+    "translation": "",
+    "pos": 867
+  },
+  {
+    "passage": "Wardrobe Sale Crate Result",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1826_5_3_7|",
+    "original": "The driver takes the crate away, leaving <<printmoney `_value + 5000`>> in its place.",
+    "translation": "",
+    "pos": 1035
+  },
+  {
+    "passage": "Wardrobe Sale Crate Result",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1829_5_3_7|",
+    "original": "<<link [[Continue|$wardrobeReturnLink]]>>",
+    "translation": "",
+    "pos": 1177
+  },
+  {
+    "passage": "Wardrobe Repair Crate",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1836_5_3_7|",
+    "original": "Are you prepared to add all your",
+    "translation": "",
+    "pos": 1
+  },
+  {
+    "passage": "Wardrobe Repair Crate",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1838_5_3_7|",
+    "original": "clothes",
+    "translation": "",
+    "pos": 66
+  },
+  {
+    "passage": "Wardrobe Repair Crate",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1840_5_3_7|",
+    "original": "damaged clothes",
+    "translation": "",
+    "pos": 114
+  },
+  {
+    "passage": "Wardrobe Repair Crate",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1842_5_3_7|",
+    "original": "outfits",
+    "translation": "",
+    "pos": 140
+  },
+  {
+    "passage": "Wardrobe Repair Crate",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1844_5_3_7|",
+    "original": "to the crate and send them to be repaired? Might be best to go shopping shortly after.",
+    "translation": "",
+    "pos": 156
+  },
+  {
+    "passage": "Wardrobe Repair Crate",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1856_5_3_7|",
+    "original": "It will cost you",
+    "translation": "",
+    "pos": 909
+  },
+  {
+    "passage": "Wardrobe Repair Crate",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1858_5_3_7|",
+    "original": "<<printmoney `_value - 5000`>>.",
+    "translation": "",
+    "pos": 949
+  },
+  {
+    "passage": "Wardrobe Repair Crate",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1860_5_3_7|",
+    "original": "nothing.",
+    "translation": "",
+    "pos": 991
+  },
+  {
+    "passage": "Wardrobe Repair Crate",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1864_5_3_7|",
+    "original": "<<link [[Yes|Wardrobe Repair Crate Result]]>><</link>>",
+    "translation": "",
+    "pos": 1043
+  },
+  {
+    "passage": "Wardrobe Repair Crate",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1866_5_3_7|",
+    "original": "Not enough money.",
+    "translation": "",
+    "pos": 1108
+  },
+  {
+    "passage": "Wardrobe Repair Crate",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1869_5_3_7|",
+    "original": "<<link [[No|$wardrobeReturnLink]]>>",
+    "translation": "",
+    "pos": 1139
+  },
+  {
+    "passage": "Wardrobe Repair Crate Result",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1898_5_3_7|",
+    "original": "<<set _upperItem to setup.clothes[_upperSlot].findIndex(x => x.name === setup.clothes[_equip[_eIndex]][clothesIndex(_equip[_eIndex],$wardrobe[_equip[_eIndex]][_iIndex])].outfitSecondary[1])>>",
+    "translation": "",
+    "pos": 1705
+  },
+  {
+    "passage": "Wardrobe Repair Crate Result",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1934_5_3_7|",
+    "original": "The driver takes <<printmoney `_value - 5000`>> and the crate away.",
+    "translation": "",
+    "pos": 3326
+  },
+  {
+    "passage": "Wardrobe Repair Crate Result",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1936_5_3_7|",
+    "original": "The driver takes the crate away.",
+    "translation": "",
+    "pos": 3404
+  },
+  {
+    "passage": "Wardrobe Repair Crate Result",
+    "filepath": "base-clothing/wardrobes.twee",
+    "key": "1939_5_3_7|",
+    "original": "<<link [[Continue|$wardrobeReturnLink]]>>",
+    "translation": "",
+    "pos": 3454
+  }
+]

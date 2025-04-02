@@ -1,0 +1,466 @@
+[
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "36_5_3_7|",
+    "original": "<<set _pieceId to setup.clothes[_outfitSlot].findIndex(item => item.name is _outfitName)>>",
+    "translation": "",
+    "pos": 1400
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "175_5_3_7|",
+    "original": "<<set _pieceId to setup.clothes[$_label].findIndex(item => item.name is $_value)>>",
+    "translation": "",
+    "pos": 6411
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "189_5_3_7|",
+    "original": "<<if _args[0] is \"wardrobe\" or Object.keys($wardrobes).includes(_args[0])>>",
+    "translation": "",
+    "pos": 6984
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "478_5_3_7|",
+    "original": "<<set _propIndex to (setup.clothes.handheld.findIndex(item => item.variable is _var) || 0)>>",
+    "translation": "",
+    "pos": 16117
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "493_5_3_7|",
+    "original": "<<if _args[0] is \"wardrobe\" or $wardrobes[_args[0]] is undefined>>",
+    "translation": "",
+    "pos": 16576
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "500_5_3_7|",
+    "original": "let location = clothesReturnLocation($carried[slot]);",
+    "translation": "",
+    "pos": 16866
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "502_5_3_7|",
+    "original": "$wardrobe[slot].push(clone($carried[slot]));",
+    "translation": "",
+    "pos": 16990
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "504_5_3_7|",
+    "original": "$wardrobes[location][slot].push(clone($carried[slot]));",
+    "translation": "",
+    "pos": 17051
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "507_5_3_7|",
+    "original": "$carried[slot] = clone(setup.clothes[slot][0]);",
+    "translation": "",
+    "pos": 17118
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "581_5_3_7|",
+    "original": "<<case \"upper\">>",
+    "translation": "",
+    "pos": 19115
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "586_5_3_7|",
+    "original": "<<case \"lower\">><<set $lowerwet to 0>><<set $lowerwetstage to 0>>",
+    "translation": "",
+    "pos": 19301
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "587_5_3_7|",
+    "original": "<<case \"under_upper\">><<set $underupperwet to 0>><<set $underupperwetstage to 0>>",
+    "translation": "",
+    "pos": 19372
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "588_5_3_7|",
+    "original": "<<case \"under_lower\">><<set $underlowerwet to 0>><<set $underlowerwetstage to 0>>",
+    "translation": "",
+    "pos": 19459
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "603_5_3_7|",
+    "original": "<<if _args[0] isnot \"genitals\" and $clothingrebuy is 1 and !_noRebuy>>",
+    "translation": "",
+    "pos": 20235
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "739_5_3_7|",
+    "original": "<<run $rebuy_success.push([clone($_item.name), $_return])>>",
+    "translation": "",
+    "pos": 26294
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "742_5_3_7|",
+    "original": "<<run $rebuy_failure.push(clone($_item.name))>>",
+    "translation": "",
+    "pos": 26403
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "836_5_3_7|",
+    "original": "<<if _args[1] is true>>",
+    "translation": "",
+    "pos": 28763
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "872_5_3_7|",
+    "original": "You fix your clothing<<if $rightarm isnot \"bound\" and $worn.handheld.name isnot \"naked\">> and <<= $worn.handheld.name.includes(\"balloon\") ? \"retrieve\" : \"pick up\">> your $worn.handheld.name<</if>>.<br><br>",
+    "translation": "",
+    "pos": 29535
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "874_5_3_7|",
+    "original": "You <<= $worn.handheld.name.includes(\"balloon\") ? \"retrieve\" : \"pick up\">> your $worn.handheld.name.<br><br>",
+    "translation": "",
+    "pos": 29817
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "878_5_3_7|",
+    "original": "<<if _args[0] is \"towel\">>",
+    "translation": "",
+    "pos": 29951
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "884_5_3_7|",
+    "original": "You are conscious of your <<nudity>>.",
+    "translation": "",
+    "pos": 30072
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "1033_5_3_7|",
+    "original": "<<if $enemyno gte 2>>They tear<<else>><<He>> tears<</if>> your <<print $_wornTarget.name>> off your body.",
+    "translation": "",
+    "pos": 34109
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "1039_5_3_7|",
+    "original": "<<if $enemyno gte 2>>They keep<<else>><<He>> keeps<</if>> your <<print $_carriedTarget.name>> as a souvenir.",
+    "translation": "",
+    "pos": 34350
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "1216_5_3_7|",
+    "original": "<<if _args[0] is \"wardrobe\" or Object.keys($wardrobes).includes(_args[0])>>",
+    "translation": "",
+    "pos": 40053
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "1276_5_3_7|",
+    "original": "<<set $_item to $store[$_slot].find(item => item.location is _args[0])>>",
+    "translation": "",
+    "pos": 42510
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "1280_5_3_7|",
+    "original": "<<set $_itemPair to $store[_labelStore].find(item => item.location is _args[0])>>",
+    "translation": "",
+    "pos": 42707
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "1373_5_3_7|",
+    "original": "<<set $_item to $store[$_slot].find(item => item.location is _args[0])>>",
+    "translation": "",
+    "pos": 45361
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "1390_5_3_7|",
+    "original": "<<if _args[0] isnot undefined>>",
+    "translation": "",
+    "pos": 46042
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "1395_5_3_7|",
+    "original": "<<set $_copy to $store[$_slot].find(item => item.location is _args[0])>>",
+    "translation": "",
+    "pos": 46222
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "1409_5_3_7|",
+    "original": "<<if _args[0] isnot undefined and $outfitTmp[_args[0]] isnot undefined and Object.keys($outfitTmp[_args[0]]).length gt 0>>",
+    "translation": "",
+    "pos": 46864
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "1410_5_3_7|",
+    "original": "<<if _args[1] isnot undefined>>",
+    "translation": "",
+    "pos": 46989
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "1419_5_3_7|",
+    "original": "<<set _cursedSlots to Object.keys($worn).filter(slot => $worn[slot].cursed)>>",
+    "translation": "",
+    "pos": 47327
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "1424_5_3_7|",
+    "original": "let cursedLength = T.cursedSlots.length;",
+    "translation": "",
+    "pos": 47697
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "1425_5_3_7|",
+    "original": "let cursed = T.cursedSlots.includes(slot);",
+    "translation": "",
+    "pos": 47743
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "1428_5_3_7|",
+    "original": "T.cursedSlots.pushUnique(slot);",
+    "translation": "",
+    "pos": 47945
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "1429_5_3_7|",
+    "original": "cursed = true;",
+    "translation": "",
+    "pos": 47984
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "1431_5_3_7|",
+    "original": "if (cursed) T.cursedSlots.pushUnique(item.outfitSecondary[0]);",
+    "translation": "",
+    "pos": 48013
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "1437_5_3_7|",
+    "original": "T.cursedSlots.pushUnique(slot);",
+    "translation": "",
+    "pos": 48296
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "1438_5_3_7|",
+    "original": "cursed = true;",
+    "translation": "",
+    "pos": 48337
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "1440_5_3_7|",
+    "original": "if (cursed) T.cursedSlots.pushUnique(slot2);",
+    "translation": "",
+    "pos": 48370
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "1445_5_3_7|",
+    "original": "if (cursedLength < T.cursedSlots.length) T.runtime++;",
+    "translation": "",
+    "pos": 48511
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "1456_5_3_7|",
+    "original": "<<set $_storedIndex to $store[$_slot].findIndex(item => item.name is $_item.name and item.location is _args[0])>>",
+    "translation": "",
+    "pos": 48860
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "1491_5_3_7|",
+    "original": "<<set $_stored to $store[$_slot].find(item => item.name is $_item.name)>>",
+    "translation": "",
+    "pos": 50427
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "1520_5_3_7|",
+    "original": "<<set $_item to $store[$_slot].find(item => item.location is $_location)>>",
+    "translation": "",
+    "pos": 51901
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "1538_5_3_7|",
+    "original": "<<if _args[2] is \"wardrobe\" or $wardrobes[_args[2]] isnot undefined>>",
+    "translation": "",
+    "pos": 52716
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "1701_5_3_7|",
+    "original": "You try to remove the <<print $worn[_slot].name>>, but fail. <<cursedtext $worn[_slot].name>>",
+    "translation": "",
+    "pos": 58036
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "1723_5_3_7|",
+    "original": "<span class=\"red\">Your pregnant body is too sensitive to wear your _item.name.</span>",
+    "translation": "",
+    "pos": 58788
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "1725_5_3_7|",
+    "original": "<span class=\"red\">Your <<bellyDescription \"pc\">> is too large to wear your _item.name.</span>",
+    "translation": "",
+    "pos": 58890
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "1733_5_3_7|",
+    "original": "<span class=\"red\">You were unable to equip your _item.name as the slime in your ear did not permit it.</span>",
+    "translation": "",
+    "pos": 59340
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "1831_5_3_7|",
+    "original": "<<set _nude to Object.keys($worn).every(slot => [\"butt_plug\", \"genitals\"].includes(slot) or $worn[slot].name is \"naked\")>>",
+    "translation": "",
+    "pos": 63424
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "1851_5_3_7|",
+    "original": "<<if _args[0] is \"face\" and _args[1]>>",
+    "translation": "",
+    "pos": 64214
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "1856_5_3_7|",
+    "original": "<span class=\"red\">Your $_mask is torn to shreds!</span>",
+    "translation": "",
+    "pos": 64427
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "1867_5_3_7|",
+    "original": "<span class=\"red\">Your $worn.face.name is torn to shreds!</span>",
+    "translation": "",
+    "pos": 64794
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "1889_5_3_7|",
+    "original": "<<link [[`Put on your ${$carried[_item].name}`|$passage]]>>",
+    "translation": "",
+    "pos": 65407
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "1901_5_3_7|",
+    "original": "<<link [[Get fully dressed|$passage]]>><<clotheson>><</link>>",
+    "translation": "",
+    "pos": 65808
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "1908_5_3_7|",
+    "original": "<div tooltip=\"<span class='def'>Pepper sprays: $spray / $spraymax</span>\" id=\"pepper-sprays\" class=\"pepper-sprays\">",
+    "translation": "",
+    "pos": 65976
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "1936_5_3_7|",
+    "original": "<div tooltip=\"<span class='meek'>Total condoms: $condoms</span>\" id=\"condoms-sidebar\" class=\"condoms-sidebar\">",
+    "translation": "",
+    "pos": 66979
+  },
+  {
+    "passage": "Widgets Clothing",
+    "filepath": "base-clothing/widgets.twee",
+    "key": "1940_5_3_7|",
+    "original": "$condoms x",
+    "translation": "",
+    "pos": 67216
+  }
+]

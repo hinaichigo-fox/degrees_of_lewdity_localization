@@ -1,0 +1,402 @@
+[
+  {
+    "passage": "Portal Panties",
+    "filepath": "base-clothing/portalPanties.twee",
+    "key": "45_5_3_7|",
+    "original": "<<if [\"mouth\",\"anus\",\"vagina\"].find((location) => $portalPanties.state[location])>>",
+    "translation": "",
+    "pos": 1170
+  },
+  {
+    "passage": "Portal Panties",
+    "filepath": "base-clothing/portalPanties.twee",
+    "key": "48_5_3_7|",
+    "original": "<<set $_penisLocation to [\"mouth\",\"anus\",\"vagina\"].find((location) => $portalPanties.state[location] and $portalPanties.state[location].owner is \"pc\")>>",
+    "translation": "",
+    "pos": 1356
+  },
+  {
+    "passage": "Portal Panties",
+    "filepath": "base-clothing/portalPanties.twee",
+    "key": "96_5_3_7|",
+    "original": "owner: _args[1] ? \"pc\" : \"portal\",",
+    "translation": "",
+    "pos": 3357
+  },
+  {
+    "passage": "Portal Panties",
+    "filepath": "base-clothing/portalPanties.twee",
+    "key": "97_5_3_7|",
+    "original": "size: _args[1] ? $player.penissize : random(1,4),",
+    "translation": "",
+    "pos": 3395
+  },
+  {
+    "passage": "Portal Panties",
+    "filepath": "base-clothing/portalPanties.twee",
+    "key": "98_5_3_7|",
+    "original": "timer: _args[1] ? null : random(5,15),",
+    "translation": "",
+    "pos": 3448
+  },
+  {
+    "passage": "Portal Panties",
+    "filepath": "base-clothing/portalPanties.twee",
+    "key": "99_5_3_7|",
+    "original": "type:  _args[1] ? \"human\" : \"human\",",
+    "translation": "",
+    "pos": 3490
+  },
+  {
+    "passage": "Portal Panties",
+    "filepath": "base-clothing/portalPanties.twee",
+    "key": "109_5_3_7|",
+    "original": "<<case \"vagina\">><<arousal `$portalPanties.toPass * _args[1] * 100` \"vagina\">>",
+    "translation": "",
+    "pos": 3775
+  },
+  {
+    "passage": "Portal Panties",
+    "filepath": "base-clothing/portalPanties.twee",
+    "key": "110_5_3_7|",
+    "original": "<<case \"anus\">><<arousal `$portalPanties.toPass * _args[1] * 100` \"anus\">>",
+    "translation": "",
+    "pos": 3857
+  },
+  {
+    "passage": "Portal Panties",
+    "filepath": "base-clothing/portalPanties.twee",
+    "key": "111_5_3_7|",
+    "original": "<<case \"mouth\">><<arousal `$portalPanties.toPass * _args[1] * 100` \"oral\">>",
+    "translation": "",
+    "pos": 3935
+  },
+  {
+    "passage": "Portal Panties",
+    "filepath": "base-clothing/portalPanties.twee",
+    "key": "166_5_3_7|",
+    "original": "<<set $_startedPlayerPenis to $_started.find((location) => $portalPanties.state[location] and $portalPanties.state[location].owner is \"pc\")>>",
+    "translation": "",
+    "pos": 6027
+  },
+  {
+    "passage": "Portal Panties",
+    "filepath": "base-clothing/portalPanties.twee",
+    "key": "167_5_3_7|",
+    "original": "<<set $_continuedPlayerPenis to $_continued.find((location) => $portalPanties.state[location] and $portalPanties.state[location].owner is \"pc\")>>",
+    "translation": "",
+    "pos": 6170
+  },
+  {
+    "passage": "Portal Panties",
+    "filepath": "base-clothing/portalPanties.twee",
+    "key": "168_5_3_7|",
+    "original": "<<set $_penisLocation to [\"mouth\",\"anus\",\"vagina\"].find((location) => $portalPanties.state[location] and $portalPanties.state[location].owner is \"pc\")>>",
+    "translation": "",
+    "pos": 6317
+  },
+  {
+    "passage": "Portal Panties",
+    "filepath": "base-clothing/portalPanties.twee",
+    "key": "170_5_3_7|",
+    "original": "You feel",
+    "translation": "",
+    "pos": 6497
+  },
+  {
+    "passage": "Portal Panties",
+    "filepath": "base-clothing/portalPanties.twee",
+    "key": "172_5_3_7|",
+    "original": "<<print ($_started.length gt 1) ? \"foreign penises\" : \"a foreign penis\">>",
+    "translation": "",
+    "pos": 6532
+  },
+  {
+    "passage": "Portal Panties",
+    "filepath": "base-clothing/portalPanties.twee",
+    "key": "174_5_3_7|",
+    "original": "<<print ($_started.length gt 1) ? \"foreign objects\" : \"a foreign object\">>",
+    "translation": "",
+    "pos": 6620
+  },
+  {
+    "passage": "Portal Panties",
+    "filepath": "base-clothing/portalPanties.twee",
+    "key": "176_5_3_7|",
+    "original": "penetrate your <<print formatList($_started)>><<if $_startedPlayerPenis>>, while your penis is enveloped by <<if _awareOfPenis>>a <<print $_penisLocation>><<else>>something<</if>><</if>>.",
+    "translation": "",
+    "pos": 6707
+  },
+  {
+    "passage": "Portal Panties",
+    "filepath": "base-clothing/portalPanties.twee",
+    "key": "181_5_3_7|",
+    "original": "The foreign penis<<print ($_continued.length gt 1) ? \"es\" : \"\">>",
+    "translation": "",
+    "pos": 6986
+  },
+  {
+    "passage": "Portal Panties",
+    "filepath": "base-clothing/portalPanties.twee",
+    "key": "183_5_3_7|",
+    "original": "The foreign object<<print ($_continued.length gt 1) ? \"s\" : \"\">>",
+    "translation": "",
+    "pos": 7067
+  },
+  {
+    "passage": "Portal Panties",
+    "filepath": "base-clothing/portalPanties.twee",
+    "key": "186_5_3_7|",
+    "original": "<<print ($_continued.length gt 1) ? \"Those\" : \"The one\">>",
+    "translation": "",
+    "pos": 7157
+  },
+  {
+    "passage": "Portal Panties",
+    "filepath": "base-clothing/portalPanties.twee",
+    "key": "188_5_3_7|",
+    "original": "in your <<print formatList($_continued)>> <<print ($_continued.length gt 1) ? \"are\" : \"is\">> constantly thrusting into you<<if $_continuedPlayerPenis>>, while your penis is forced <<if _awareOfPenis>>to thrust into a <<print $_penisLocation>><<else>>in and out of something<</if>><</if>>.<<garousal>>",
+    "translation": "",
+    "pos": 7227
+  },
+  {
+    "passage": "Portal Panties",
+    "filepath": "base-clothing/portalPanties.twee",
+    "key": "192_5_3_7|",
+    "original": "The one in your <<print formatList($_finished)>> releases something then disappears.",
+    "translation": "",
+    "pos": 7572
+  },
+  {
+    "passage": "Portal Panties",
+    "filepath": "base-clothing/portalPanties.twee",
+    "key": "199_5_3_7|",
+    "original": "You feel the foreign",
+    "translation": "",
+    "pos": 7786
+  },
+  {
+    "passage": "Portal Panties",
+    "filepath": "base-clothing/portalPanties.twee",
+    "key": "201_5_3_7|",
+    "original": "The foreign penis<<print ($_disappeared.length gt 1) ? \"es\" : \"\">>",
+    "translation": "",
+    "pos": 7833
+  },
+  {
+    "passage": "Portal Panties",
+    "filepath": "base-clothing/portalPanties.twee",
+    "key": "203_5_3_7|",
+    "original": "The foreign object<<print ($_disappeared.length gt 1) ? \"s\" : \"\">>",
+    "translation": "",
+    "pos": 7914
+  },
+  {
+    "passage": "Portal Panties",
+    "filepath": "base-clothing/portalPanties.twee",
+    "key": "205_5_3_7|",
+    "original": "in your <<print formatList($_disappeared)>> disappear suddenly, leaving you feeling empty.",
+    "translation": "",
+    "pos": 7993
+  },
+  {
+    "passage": "Portal Panties",
+    "filepath": "base-clothing/portalPanties.twee",
+    "key": "224_5_3_7|",
+    "original": "<<case \"vagina\">>",
+    "translation": "",
+    "pos": 8685
+  },
+  {
+    "passage": "Portal Panties",
+    "filepath": "base-clothing/portalPanties.twee",
+    "key": "226_5_3_7|",
+    "original": "<<takeVirginity \"Portal Panties\" \"vaginal\">>",
+    "translation": "",
+    "pos": 8749
+  },
+  {
+    "passage": "Portal Panties",
+    "filepath": "base-clothing/portalPanties.twee",
+    "key": "230_5_3_7|",
+    "original": "<<set $_text_output to \"<span class='red'>Despite your lack of a hymen, you feel <<if _awareOfPenis>>a penis<<else>>something<</if>> inside you change as your virginity and purity are taken.</span><<fallenTransform>><<ggpain>>\">>",
+    "translation": "",
+    "pos": 9064
+  },
+  {
+    "passage": "Portal Panties",
+    "filepath": "base-clothing/portalPanties.twee",
+    "key": "233_5_3_7|",
+    "original": "<<set $_text_output to \"<span class='red'>Your hymen obliterated, you whimper as your <<pussy>> struggles to accommodate the <<if _awareOfPenis>>penis<<else>>object<</if>>.</span><<fallenTransform>><<ggpain>>\">>",
+    "translation": "",
+    "pos": 9363
+  },
+  {
+    "passage": "Portal Panties",
+    "filepath": "base-clothing/portalPanties.twee",
+    "key": "235_5_3_7|",
+    "original": "<<set $_text_output to \"<span class='red'>Your hymen is torn as your vaginal virginity is taken by the <<if _awareOfPenis>>penis<<else>>object<</if>>.</span><<fallenTransform>><<ggpain>>\">>",
+    "translation": "",
+    "pos": 9593
+  },
+  {
+    "passage": "Portal Panties",
+    "filepath": "base-clothing/portalPanties.twee",
+    "key": "239_5_3_7|",
+    "original": "<<case \"anus\">>",
+    "translation": "",
+    "pos": 9817
+  },
+  {
+    "passage": "Portal Panties",
+    "filepath": "base-clothing/portalPanties.twee",
+    "key": "241_5_3_7|",
+    "original": "<<takeVirginity \"Portal Panties\" \"anal\">>",
+    "translation": "",
+    "pos": 9876
+  },
+  {
+    "passage": "Portal Panties",
+    "filepath": "base-clothing/portalPanties.twee",
+    "key": "244_5_3_7|",
+    "original": "<<set $_text_output to \"<span class='red'>You whimper as your virgin anus struggles to accommodate the <<if _awareOfPenis>>penis<<else>>object<</if>>, violating you in a way you hadn't conceived of.</span><<ggpain>>\">>",
+    "translation": "",
+    "pos": 10051
+  },
+  {
+    "passage": "Portal Panties",
+    "filepath": "base-clothing/portalPanties.twee",
+    "key": "246_5_3_7|",
+    "original": "<<set $_text_output to \"<span class='red'>Your anus virginity is taken, the <<if _awareOfPenis>>penis<<else>>object<</if>> violating you in a way you hadn't conceived of.</span><<ggpain>>\">>",
+    "translation": "",
+    "pos": 10286
+  },
+  {
+    "passage": "Portal Panties",
+    "filepath": "base-clothing/portalPanties.twee",
+    "key": "249_5_3_7|",
+    "original": "<<case \"mouth\">>",
+    "translation": "",
+    "pos": 10499
+  },
+  {
+    "passage": "Portal Panties",
+    "filepath": "base-clothing/portalPanties.twee",
+    "key": "251_5_3_7|",
+    "original": "<<takeVirginity \"Portal Panties\" \"oral\">>",
+    "translation": "",
+    "pos": 10559
+  },
+  {
+    "passage": "Portal Panties",
+    "filepath": "base-clothing/portalPanties.twee",
+    "key": "252_5_3_7|",
+    "original": "<<set $_text_output to \"<span class='red'>The <<if _awareOfPenis>>penis<<else>>object<</if>> in your mouth tastes strange.</span><<ggpain>>\">>",
+    "translation": "",
+    "pos": 10604
+  },
+  {
+    "passage": "Portal Panties",
+    "filepath": "base-clothing/portalPanties.twee",
+    "key": "254_5_3_7|",
+    "original": "<<case \"penis\">>",
+    "translation": "",
+    "pos": 10758
+  },
+  {
+    "passage": "Portal Panties",
+    "filepath": "base-clothing/portalPanties.twee",
+    "key": "256_5_3_7|",
+    "original": "<<set $_text_output to \"<span class='red'>Your penis virginity is taken.</span><<fallenTransform>>\">>",
+    "translation": "",
+    "pos": 10820
+  },
+  {
+    "passage": "Portal Panties",
+    "filepath": "base-clothing/portalPanties.twee",
+    "key": "259_5_3_7|",
+    "original": "<</silently>><<if _firstItem>><br><<set _firstItem to false>><</if>><<print $_text_output>>",
+    "translation": "",
+    "pos": 10944
+  },
+  {
+    "passage": "Portal Panties",
+    "filepath": "base-clothing/portalPanties.twee",
+    "key": "264_5_3_7|",
+    "original": "<<case \"mouth\">>",
+    "translation": "",
+    "pos": 11108
+  },
+  {
+    "passage": "Portal Panties",
+    "filepath": "base-clothing/portalPanties.twee",
+    "key": "268_5_3_7|",
+    "original": "<<case \"anus\">>",
+    "translation": "",
+    "pos": 11318
+  },
+  {
+    "passage": "Portal Panties",
+    "filepath": "base-clothing/portalPanties.twee",
+    "key": "269_5_3_7|",
+    "original": "<<recordSperm `{target: \"pc\", spermOwner: $portalPanties.state[_args[0]].owner, spermType: $portalPanties.state[_args[0]].type, genital: \"anus\"}`>>",
+    "translation": "",
+    "pos": 11337
+  },
+  {
+    "passage": "Portal Panties",
+    "filepath": "base-clothing/portalPanties.twee",
+    "key": "274_5_3_7|",
+    "original": "<<case \"vagina\">>",
+    "translation": "",
+    "pos": 11735
+  },
+  {
+    "passage": "Portal Panties",
+    "filepath": "base-clothing/portalPanties.twee",
+    "key": "275_5_3_7|",
+    "original": "<<recordSperm `{target: \"pc\", spermOwner: $portalPanties.state[_args[0]].owner, spermType: $portalPanties.state[_args[0]].type}`>>",
+    "translation": "",
+    "pos": 11756
+  },
+  {
+    "passage": "Portal Panties",
+    "filepath": "base-clothing/portalPanties.twee",
+    "key": "289_5_3_7|",
+    "original": "<span class=\"pink\">You are overcome by sensation. A surge of cum erupts from your penis and goes straight into your mouth.</span>",
+    "translation": "",
+    "pos": 12453
+  },
+  {
+    "passage": "Portal Panties",
+    "filepath": "base-clothing/portalPanties.twee",
+    "key": "294_5_3_7|",
+    "original": "<span class=\"pink\">You are overcome by sensation. A surge of cum erupts from your penis and goes straight into your anus.</span>",
+    "translation": "",
+    "pos": 12825
+  },
+  {
+    "passage": "Portal Panties",
+    "filepath": "base-clothing/portalPanties.twee",
+    "key": "295_5_3_7|",
+    "original": "<<recordSperm `{target: \"pc\", spermOwner: \"pc\", spermType: \"human\", genital: \"anus\"}`>>",
+    "translation": "",
+    "pos": 12956
+  },
+  {
+    "passage": "Portal Panties",
+    "filepath": "base-clothing/portalPanties.twee",
+    "key": "300_5_3_7|",
+    "original": "<span class=\"pink\">You are overcome by sensation. A surge of cum erupts from your penis and goes straight into your <<pussy>>.</span>",
+    "translation": "",
+    "pos": 13339
+  },
+  {
+    "passage": "Portal Panties",
+    "filepath": "base-clothing/portalPanties.twee",
+    "key": "301_5_3_7|",
+    "original": "<<recordSperm `{target: \"pc\", spermOwner: \"pc\", spermType: \"human\"}`>>",
+    "translation": "",
+    "pos": 13475
+  }
+]

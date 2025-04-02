@@ -1,0 +1,482 @@
+[
+  {
+    "passage": "Forest Shop Widgets",
+    "filepath": "base-clothing/shop.twee",
+    "key": "10_5_3_7|",
+    "original": "You enter the strange building. The interior is dark and crowded by tall shelves, holding all manner of items.",
+    "translation": "",
+    "pos": 59
+  },
+  {
+    "passage": "Forest Shop Widgets",
+    "filepath": "base-clothing/shop.twee",
+    "key": "13_5_3_7|",
+    "original": "The quiet is broken by a scraping, then a thud. A mousy <<personsimple>> holding a stepladder appears at the end of the closest aisle.",
+    "translation": "",
+    "pos": 182
+  },
+  {
+    "passage": "Forest Shop Widgets",
+    "filepath": "base-clothing/shop.twee",
+    "key": "15_5_3_7|",
+    "original": "It's Gwylan.",
+    "translation": "",
+    "pos": 347
+  },
+  {
+    "passage": "Forest Shop Widgets",
+    "filepath": "base-clothing/shop.twee",
+    "key": "17_5_3_7|",
+    "original": "\"You came!\"",
+    "translation": "",
+    "pos": 373
+  },
+  {
+    "passage": "Forest Shop Widgets",
+    "filepath": "base-clothing/shop.twee",
+    "key": "20_5_3_7|",
+    "original": "\"A customer!\"",
+    "translation": "",
+    "pos": 408
+  },
+  {
+    "passage": "Forest Shop Widgets",
+    "filepath": "base-clothing/shop.twee",
+    "key": "22_5_3_7|",
+    "original": "<<he>> says, dropping the ladder and walking over. <<He>> wipes <<his>> hands on <<his>> apron. \"Welcome to my shop.\"",
+    "translation": "",
+    "pos": 432
+  },
+  {
+    "passage": "Forest Shop Widgets",
+    "filepath": "base-clothing/shop.twee",
+    "key": "31_5_3_7|",
+    "original": "<<He>> looks about your age, with mousy hair and a hint of freckles. \"I'm older than I look,\" <<he>> says, as if reading your mind. \"I'm Gwylan.\" <<He>> reaches forward, lifts your hand, and shakes it in both <<his>> own. \"Pleased to meet you. I sell-\" <<He>> pauses. \"My grand<<father>> sells-\" Another pause. \"I sell knick-knacks here. Things you won't find in normal shops. Even I don't know what I have in stock!\" <<He>> sounds proud.",
+    "translation": "",
+    "pos": 734
+  },
+  {
+    "passage": "Forest Shop Widgets",
+    "filepath": "base-clothing/shop.twee",
+    "key": "34_5_3_7|",
+    "original": "\"I hope you find something you like,\" <<he>> says, picking the ladder back up. \"But don't worry if you don't. My grand<<father>> would say the objects here hide from people they don't want to be bought by.\" <<He>> laughs. \"I could believe it.\"",
+    "translation": "",
+    "pos": 1187
+  },
+  {
+    "passage": "Forest Shop Widgets",
+    "filepath": "base-clothing/shop.twee",
+    "key": "37_5_3_7|",
+    "original": "<<link [[Next|Forest Shop]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1451
+  },
+  {
+    "passage": "Forest Shop Widgets",
+    "filepath": "base-clothing/shop.twee",
+    "key": "42_5_3_7|",
+    "original": "You are in the forest shop. The interior is dark and crowded by tall shelves, holding all manner of items. Most are useless knick-knacks, but some interest you.",
+    "translation": "",
+    "pos": 1551
+  },
+  {
+    "passage": "Forest Shop Widgets",
+    "filepath": "base-clothing/shop.twee",
+    "key": "48_5_3_7|",
+    "original": "You hear Gwylan shuffling somewhere in the gloom.",
+    "translation": "",
+    "pos": 1825
+  },
+  {
+    "passage": "Forest Shop Widgets",
+    "filepath": "base-clothing/shop.twee",
+    "key": "51_5_3_7|",
+    "original": "Robin is busy admiring the costumes.",
+    "translation": "",
+    "pos": 1916
+  },
+  {
+    "passage": "Forest Shop Widgets",
+    "filepath": "base-clothing/shop.twee",
+    "key": "55_5_3_7|",
+    "original": "<<link [[Talk to Robin|Robin Forest Costume Intro]]>><<forestShop-leave>><<clothingReset>><</link>>",
+    "translation": "",
+    "pos": 2043
+  },
+  {
+    "passage": "Forest Shop Widgets",
+    "filepath": "base-clothing/shop.twee",
+    "key": "82_5_3_7|",
+    "original": "<span>Warmth:</span>",
+    "translation": "",
+    "pos": 2906
+  },
+  {
+    "passage": "Forest Shop Widgets",
+    "filepath": "base-clothing/shop.twee",
+    "key": "91_5_3_7|",
+    "original": "<<if isLoveInterest(\"Robin\")>><<gifticon \"love\">><<else>><<gifticon \"christmas\">><</if>><<link [[Find a gift for Robin (0:10)|Forest Christmas Robin]]>><<pass 10>><</link>>",
+    "translation": "",
+    "pos": 3146
+  },
+  {
+    "passage": "Forest Shop Widgets",
+    "filepath": "base-clothing/shop.twee",
+    "key": "96_5_3_7|",
+    "original": "<<ind>><<link [[Look for the snow globe (0:20)|Forest Snowglobe]]>><<pass 20>><</link>>",
+    "translation": "",
+    "pos": 3426
+  },
+  {
+    "passage": "Forest Shop Widgets",
+    "filepath": "base-clothing/shop.twee",
+    "key": "98_5_3_7|",
+    "original": "<<ind>><<link [[Purchase the snow globe (£20)|Forest Snowglobe Buy]]>><<money -2000>><</link>>",
+    "translation": "",
+    "pos": 3548
+  },
+  {
+    "passage": "Forest Shop Widgets",
+    "filepath": "base-clothing/shop.twee",
+    "key": "103_5_3_7|",
+    "original": "<<link \"View All\">><<replace \"#clothingShop-div\">><<AllShop>><</replace>><</link>>",
+    "translation": "",
+    "pos": 3707
+  },
+  {
+    "passage": "Forest Shop Widgets",
+    "filepath": "base-clothing/shop.twee",
+    "key": "106_5_3_7|",
+    "original": "<<link \"Look behind the dark screen\">><<replace \"#clothingShop-div\">><<OutfitShop>><</replace>><</link>>",
+    "translation": "",
+    "pos": 3839
+  },
+  {
+    "passage": "Forest Shop Widgets",
+    "filepath": "base-clothing/shop.twee",
+    "key": "109_5_3_7|",
+    "original": "<<link \"Look in the antique wardrobe\">><<replace \"#clothingShop-div\">><<TopShop>><</replace>><</link>>",
+    "translation": "",
+    "pos": 3988
+  },
+  {
+    "passage": "Forest Shop Widgets",
+    "filepath": "base-clothing/shop.twee",
+    "key": "112_5_3_7|",
+    "original": "<<link \"Look on the strange ironing board\">><<replace \"#clothingShop-div\">><<BottomShop>><</replace>><</link>>",
+    "translation": "",
+    "pos": 4135
+  },
+  {
+    "passage": "Forest Shop Widgets",
+    "filepath": "base-clothing/shop.twee",
+    "key": "115_5_3_7|",
+    "original": "<<link \"Look in the moldering hutch\">><<replace \"#clothingShop-div\">><<UnderOutfitShop>><</replace>><</link>>",
+    "translation": "",
+    "pos": 4296
+  },
+  {
+    "passage": "Forest Shop Widgets",
+    "filepath": "base-clothing/shop.twee",
+    "key": "118_5_3_7|",
+    "original": "<<link \"Look on the rusted hangers\">><<replace \"#clothingShop-div\">><<UnderTopShop>><</replace>><</link>>",
+    "translation": "",
+    "pos": 4455
+  },
+  {
+    "passage": "Forest Shop Widgets",
+    "filepath": "base-clothing/shop.twee",
+    "key": "121_5_3_7|",
+    "original": "<<link \"Look in the dusky drawer\">><<replace \"#clothingShop-div\">><<UnderBottomShop>><</replace>><</link>>",
+    "translation": "",
+    "pos": 4610
+  },
+  {
+    "passage": "Forest Shop Widgets",
+    "filepath": "base-clothing/shop.twee",
+    "key": "124_5_3_7|",
+    "original": "<<link \"Look on the spindly hat stand\">><<replace \"#clothingShop-div\">><<HeadShop>><</replace>><</link>>",
+    "translation": "",
+    "pos": 4760
+  },
+  {
+    "passage": "Forest Shop Widgets",
+    "filepath": "base-clothing/shop.twee",
+    "key": "127_5_3_7|",
+    "original": "<<link \"Look on the gnarled wall\">><<replace \"#clothingShop-div\">><<FaceShop>><</replace>><</link>>",
+    "translation": "",
+    "pos": 4908
+  },
+  {
+    "passage": "Forest Shop Widgets",
+    "filepath": "base-clothing/shop.twee",
+    "key": "130_5_3_7|",
+    "original": "<<link \"Look in the glowing box\">><<replace \"#clothingShop-div\">><<NeckShop>><</replace>><</link>>",
+    "translation": "",
+    "pos": 5051
+  },
+  {
+    "passage": "Forest Shop Widgets",
+    "filepath": "base-clothing/shop.twee",
+    "key": "133_5_3_7|",
+    "original": "<<link \"Look in the rusty umbrella stand\">><<replace \"#clothingShop-div\">><<HandheldShop>><</replace>><</link>>",
+    "translation": "",
+    "pos": 5197
+  },
+  {
+    "passage": "Forest Shop Widgets",
+    "filepath": "base-clothing/shop.twee",
+    "key": "136_5_3_7|",
+    "original": "<<link \"Look in the tilted vanity\">><<replace \"#clothingShop-div\">><<HandsShop>><</replace>><</link>>",
+    "translation": "",
+    "pos": 5352
+  },
+  {
+    "passage": "Forest Shop Widgets",
+    "filepath": "base-clothing/shop.twee",
+    "key": "139_5_3_7|",
+    "original": "<<link \"Look in the worn stocking\">><<replace \"#clothingShop-div\">><<LegsShop>><</replace>><</link>>",
+    "translation": "",
+    "pos": 5497
+  },
+  {
+    "passage": "Forest Shop Widgets",
+    "filepath": "base-clothing/shop.twee",
+    "key": "142_5_3_7|",
+    "original": "<<link \"Look beneath the decaying rack\">><<replace \"#clothingShop-div\">><<FeetShop>><</replace>><</link>>",
+    "translation": "",
+    "pos": 5641
+  },
+  {
+    "passage": "Forest Shop Widgets",
+    "filepath": "base-clothing/shop.twee",
+    "key": "148_5_3_7|",
+    "original": "<<link \"Buy clothes\">><<buyTryOnClothes \"wear\">><<updateclothingshop>><</link>>",
+    "translation": "",
+    "pos": 5890
+  },
+  {
+    "passage": "Forest Shop Widgets",
+    "filepath": "base-clothing/shop.twee",
+    "key": "150_5_3_7|",
+    "original": "<<link \"Buy clothes and send to wardrobe\">>",
+    "translation": "",
+    "pos": 5981
+  },
+  {
+    "passage": "Forest Shop Widgets",
+    "filepath": "base-clothing/shop.twee",
+    "key": "163_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave with Robin (0:10)|Robin Forest Shop Home]]>><<endnpc \"Gwylan\">><<forestShop-leave>><<pass 10>><</link>>",
+    "translation": "",
+    "pos": 6339
+  },
+  {
+    "passage": "Forest Shop Widgets",
+    "filepath": "base-clothing/shop.twee",
+    "key": "165_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Forest]]>><<endnpc \"Gwylan\">><<forestShop-leave>><</link>>",
+    "translation": "",
+    "pos": 6488
+  },
+  {
+    "passage": "Forest Christmas Robin",
+    "filepath": "base-clothing/shop.twee",
+    "key": "175_5_3_7|",
+    "original": "You search through an assortment of strange clothes, before finding a Christmas-themed outfit in Robin's size. There's a price tag: \"£80\".",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Forest Christmas Robin",
+    "filepath": "base-clothing/shop.twee",
+    "key": "179_5_3_7|",
+    "original": "<<gifticon \"christmas hat\">><<link [[Buy it|Forest Christmas Robin Buy]]>><<set $christmas_gift_robin to \"christmas_unwrapped\">><</link>>",
+    "translation": "",
+    "pos": 186
+  },
+  {
+    "passage": "Forest Christmas Robin",
+    "filepath": "base-clothing/shop.twee",
+    "key": "182_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Forest Shop]]>><</link>>",
+    "translation": "",
+    "pos": 338
+  },
+  {
+    "passage": "Forest Christmas Robin Buy",
+    "filepath": "base-clothing/shop.twee",
+    "key": "189_5_3_7|",
+    "original": "You hand Gwylan the cash.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Forest Christmas Robin Buy",
+    "filepath": "base-clothing/shop.twee",
+    "key": "190_5_3_7|",
+    "original": "<<if $christmas_wrap is undefined>>Now you just need wrapping paper. <span class=\"gold\">You can buy some at the shopping centre.</span><<else>>You can wrap it in your room.<</if>>",
+    "translation": "",
+    "pos": 39
+  },
+  {
+    "passage": "Forest Christmas Robin Buy",
+    "filepath": "base-clothing/shop.twee",
+    "key": "193_5_3_7|",
+    "original": "<<link [[Next|Forest Shop]]>><</link>>",
+    "translation": "",
+    "pos": 229
+  },
+  {
+    "passage": "Forest Snowglobe",
+    "filepath": "base-clothing/shop.twee",
+    "key": "199_5_3_7|",
+    "original": "You prowl around the shop, looking under cloaks, on top of shelves and behind dressing racks. There's a vague sense of organisation, but things are scattered around anyway, so it could be anywhere. You find a few snow globes, but none with anything written on the bottom.",
+    "translation": "",
+    "pos": 27
+  },
+  {
+    "passage": "Forest Snowglobe",
+    "filepath": "base-clothing/shop.twee",
+    "key": "202_5_3_7|",
+    "original": "\"Are you looking for something in particular?\" Gwylan says from beside you, startling you. <<He>> hadn't made a sound in <<his>> approach. \"I know that look in your eye. You have something in mind.\"",
+    "translation": "",
+    "pos": 309
+  },
+  {
+    "passage": "Forest Snowglobe",
+    "filepath": "base-clothing/shop.twee",
+    "key": "206_5_3_7|",
+    "original": "\"I'm trying to find a snow globe,\" you say.",
+    "translation": "",
+    "pos": 549
+  },
+  {
+    "passage": "Forest Snowglobe",
+    "filepath": "base-clothing/shop.twee",
+    "key": "208_5_3_7|",
+    "original": "\"Yeah, there's a snow globe I'm looking for,\" you say.",
+    "translation": "",
+    "pos": 634
+  },
+  {
+    "passage": "Forest Snowglobe",
+    "filepath": "base-clothing/shop.twee",
+    "key": "210_5_3_7|",
+    "original": "\"I'm looking for a specific snow globe,\" you say.",
+    "translation": "",
+    "pos": 699
+  },
+  {
+    "passage": "Forest Snowglobe",
+    "filepath": "base-clothing/shop.twee",
+    "key": "214_5_3_7|",
+    "original": "<<He>> grins. \"There's plenty of snow globes around, if that's the case.\"",
+    "translation": "",
+    "pos": 763
+  },
+  {
+    "passage": "Forest Snowglobe",
+    "filepath": "base-clothing/shop.twee",
+    "key": "217_5_3_7|",
+    "original": "You shake your head. \"I need a specific one. It has something written on the bottom.\"",
+    "translation": "",
+    "pos": 843
+  },
+  {
+    "passage": "Forest Snowglobe",
+    "filepath": "base-clothing/shop.twee",
+    "key": "220_5_3_7|",
+    "original": "Gwylan thinks for a second. \"I think I know which one you're talking about. Hold on.\"",
+    "translation": "",
+    "pos": 939
+  },
+  {
+    "passage": "Forest Snowglobe",
+    "filepath": "base-clothing/shop.twee",
+    "key": "223_5_3_7|",
+    "original": "<<He>> flips up a trapdoor in the floor a few feet away and pulls a snow globe out of a hidden compartment. You stare in bemusement.",
+    "translation": "",
+    "pos": 1062
+  },
+  {
+    "passage": "Forest Snowglobe",
+    "filepath": "base-clothing/shop.twee",
+    "key": "225_5_3_7|",
+    "original": "<<He>> beelines for the shoe section, rummages through the sandals and pulls a snow globe out from the pile. You stare in bemusement.",
+    "translation": "",
+    "pos": 1209
+  },
+  {
+    "passage": "Forest Snowglobe",
+    "filepath": "base-clothing/shop.twee",
+    "key": "227_5_3_7|",
+    "original": "<<He>> pushes a witch dress out of the way and enters what appears to be a hidden maintenance room. <<He>> emerges holding a snow globe. You stare in bemusement.",
+    "translation": "",
+    "pos": 1357
+  },
+  {
+    "passage": "Forest Snowglobe",
+    "filepath": "base-clothing/shop.twee",
+    "key": "229_5_3_7|",
+    "original": "<<He>> quickly exits the shop. You see <<him>> reaching into a nearby bush before the door fully closes. <<He>> quickly enters again, holding a snow globe. You stare, bewildered.",
+    "translation": "",
+    "pos": 1533
+  },
+  {
+    "passage": "Forest Snowglobe",
+    "filepath": "base-clothing/shop.twee",
+    "key": "231_5_3_7|",
+    "original": "<<He>> walks over to a shelf full of snow globes and plucks one out of the bunch. You resist the urge to groan. How did you miss that shelf?",
+    "translation": "",
+    "pos": 1726
+  },
+  {
+    "passage": "Forest Snowglobe",
+    "filepath": "base-clothing/shop.twee",
+    "key": "235_5_3_7|",
+    "original": "<<He>> walks back to you and shows you the bottom. There's a string of random letters and numbers you can't understand. \"This the one?\" You nod. \"Good! That'll be £20.\"",
+    "translation": "",
+    "pos": 1889
+  },
+  {
+    "passage": "Forest Snowglobe",
+    "filepath": "base-clothing/shop.twee",
+    "key": "239_5_3_7|",
+    "original": "<<link [[Purchase the snow globe (£20)|Forest Snowglobe Buy]]>><<money -2000>><</link>>",
+    "translation": "",
+    "pos": 2092
+  },
+  {
+    "passage": "Forest Snowglobe",
+    "filepath": "base-clothing/shop.twee",
+    "key": "241_5_3_7|",
+    "original": "You can't afford it.",
+    "translation": "",
+    "pos": 2190
+  },
+  {
+    "passage": "Forest Snowglobe",
+    "filepath": "base-clothing/shop.twee",
+    "key": "244_5_3_7|",
+    "original": "<<link [[Back|Forest Shop]]>><<set $pubfame.gwylan.snowglobe to 1>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 2224
+  },
+  {
+    "passage": "Forest Snowglobe Buy",
+    "filepath": "base-clothing/shop.twee",
+    "key": "249_5_3_7|",
+    "original": "You hand over the money to Gwylan, and <<he>> hands you the snow globe. \"Don't know how you knew there'd be something on the bottom,\" <<he>> says. \"I bet it was looking for you, just as much as you were looking for it!\"",
+    "translation": "",
+    "pos": 27
+  },
+  {
+    "passage": "Forest Snowglobe Buy",
+    "filepath": "base-clothing/shop.twee",
+    "key": "253_5_3_7|",
+    "original": "<<link [[Next|Forest Shop]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 286
+  }
+]
