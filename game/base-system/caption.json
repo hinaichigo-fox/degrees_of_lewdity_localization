@@ -1,0 +1,946 @@
+[
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "2_5_3_7|",
+    "original": "<div @class=\"(Errors.log.length==0?'hidden':'') + ' error-reporter-btn'\" onclick=\"Errors.Reporter.toggle()\"></div>",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "26_5_3_7|",
+    "original": "<div id=\"storyCaptionDiv\" @class=\"($extendedStats ? 'statsExtended' : '')\">",
+    "translation": "",
+    "pos": 626
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "30_5_3_7|",
+    "original": "<div id=\"stats\" onclick=\"extendStats()\">",
+    "translation": "",
+    "pos": 764
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "58_5_3_7|",
+    "original": "<div class=\"mob-btn-h\" onclick=\"mobBtnShow()\" style=\"display:none;\"></div>",
+    "translation": "",
+    "pos": 1393
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "59_5_3_7|",
+    "original": "<div class=\"mob-btn\" onclick=\"mobBtnHide()\"></div>",
+    "translation": "",
+    "pos": 1472
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "60_5_3_7|",
+    "original": "<div @class=\"'mob-btn' + (Links.currentLinks.length < 1 ? ' red' : '')\" onclick=\"mobClick(1)\">1</div>",
+    "translation": "",
+    "pos": 1527
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "61_5_3_7|",
+    "original": "<div @class=\"'mob-btn' + (Links.currentLinks.length < 2 ? ' link-disabled' : '')\" onclick=\"mobClick(2)\">2</div>",
+    "translation": "",
+    "pos": 1633
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "62_5_3_7|",
+    "original": "<div @class=\"'mob-btn' + (Links.currentLinks.length < 3 ? ' link-disabled' : '')\" onclick=\"mobClick(3)\">3</div>",
+    "translation": "",
+    "pos": 1749
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "63_5_3_7|",
+    "original": "<div @class=\"'mob-btn' + (Links.currentLinks.length < 4 ? ' link-disabled' : '')\" onclick=\"mobClick(4)\">4</div>",
+    "translation": "",
+    "pos": 1865
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "64_5_3_7|",
+    "original": "<div @class=\"'mob-btn' + (Links.currentLinks.length < 5 ? ' link-disabled' : '')\" onclick=\"mobClick(5)\">5</div>",
+    "translation": "",
+    "pos": 1981
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "65_5_3_7|",
+    "original": "<div @class=\"'mob-btn' + (Links.currentLinks.length < 6 ? ' link-disabled' : '')\" onclick=\"mobClick(6)\">6</div>",
+    "translation": "",
+    "pos": 2097
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "66_5_3_7|",
+    "original": "<div @class=\"'mob-btn' + (Links.currentLinks.length < 7 ? ' link-disabled' : '')\" onclick=\"mobClick(7)\">7</div>",
+    "translation": "",
+    "pos": 2213
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "67_5_3_7|",
+    "original": "<div @class=\"'mob-btn' + (Links.currentLinks.length < 8 ? ' link-disabled' : '')\" onclick=\"mobClick(8)\">8</div>",
+    "translation": "",
+    "pos": 2329
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "68_5_3_7|",
+    "original": "<div @class=\"'mob-btn' + (Links.currentLinks.length < 9 ? ' link-disabled' : '')\" onclick=\"mobClick(9)\">9</div>",
+    "translation": "",
+    "pos": 2445
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "69_5_3_7|",
+    "original": "<div @class=\"'mob-btn' + (Links.currentLinks.length < 10 ? ' link-disabled' : '')\" onclick=\"mobClick(10)\">0</div>",
+    "translation": "",
+    "pos": 2561
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "74_5_3_7|",
+    "original": "<<if $options.images is 1>><img class=\"layer-sexmouth\" src=\"img/ui/sym_awareness.png\"><</if>><span class=\"red\"><<print StartConfig.version>> Error: An NPC generated on the \"$endeventerror\" passage broke free. Please inform Vrelnir. <<if $cheatdisable is \"f\">>Disregard this if you've just used a cheat.<</if>></span>",
+    "translation": "",
+    "pos": 2778
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "82_5_3_7|",
+    "original": "<span class=\"gold\">Your physique is improving due to all the exercise you are getting.</span>",
+    "translation": "",
+    "pos": 3264
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "86_5_3_7|",
+    "original": "<span class=\"pink\">You didn't get enough exercise yesterday, your physique has deteriorated slightly as a result.</span>",
+    "translation": "",
+    "pos": 3417
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "94_5_3_7|",
+    "original": "<span class=\"pink\">You missed a lesson yesterday.</span>",
+    "translation": "",
+    "pos": 3678
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "96_5_3_7|",
+    "original": "<span class=\"pink\">You missed $lessonmissedtext lessons yesterday.</span>",
+    "translation": "",
+    "pos": 3777
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "100_5_3_7|",
+    "original": "<span class=\"red\">You've missed many lessons. Your reputation has taken a hit.</span>",
+    "translation": "",
+    "pos": 4116
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "113_5_3_7|",
+    "original": "You have <<printmoney $money true>><br>",
+    "translation": "",
+    "pos": 4588
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "117_5_3_7|",
+    "original": "It is <<ampm>>.",
+    "translation": "",
+    "pos": 4650
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "119_5_3_7|",
+    "original": "It is <<print Time.weekDayName>>.",
+    "translation": "",
+    "pos": 4677
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "137_5_3_7|",
+    "original": "<span class=\"pink\">A collar encases your neck.</span>",
+    "translation": "",
+    "pos": 4994
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "142_5_3_7|",
+    "original": "<span class=\"pink\">You feel $penilechastityparasite squirming around your penis.</span>",
+    "translation": "",
+    "pos": 5111
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "146_5_3_7|",
+    "original": "<span class=\"pink\">You feel $vaginalchastityparasite squirming inside your vagina and lower intestine.</span>",
+    "translation": "",
+    "pos": 5316
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "150_5_3_7|",
+    "original": "<span class=\"pink\">You feel $vaginalchastityparasite squirming inside your vagina.</span>",
+    "translation": "",
+    "pos": 5492
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "154_5_3_7|",
+    "original": "<span class=\"pink\">You feel $analchastityparasite squirming inside your lower intestine.</span>",
+    "translation": "",
+    "pos": 5646
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "164_5_3_7|",
+    "original": "<span class=\"pink\">The _type parasites clinging to your <<print $parasite[_type][0]>> suck and massage you.</span>",
+    "translation": "",
+    "pos": 5926
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "166_5_3_7|",
+    "original": "<span class=\"pink\">The _type parasite clinging to your <<print $parasite[_type][0]>> sucks and massages you.</span>",
+    "translation": "",
+    "pos": 6059
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "170_5_3_7|",
+    "original": "<span class=\"pink\">The _type parasites clinging to your <<print $parasite[_type][0]>> and <<print $parasite[_type][1]>> suck and massage you.</span>",
+    "translation": "",
+    "pos": 6214
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "178_5_3_7|",
+    "original": "<span class=\"pink\">The _type parasites clinging to your _pstring suck and massage you.</span>",
+    "translation": "",
+    "pos": 6618
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "186_5_3_7|",
+    "original": "<span class=\"red\">The parasite compresses your <<if $player.ballsExist>>balls<<else>>penis<</if>>.</span>",
+    "translation": "",
+    "pos": 6912
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "188_5_3_7|",
+    "original": "<span class=\"pink\">The parasite pulsates around your penis.</span>",
+    "translation": "",
+    "pos": 7089
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "190_5_3_7|",
+    "original": "<span class=\"pink\">The parasite vibrates around your penis.</span>",
+    "translation": "",
+    "pos": 7196
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "194_5_3_7|",
+    "original": "<span class=\"red\">The parasite<<if $earSlime.focus isnot \"pregnancy\">> penis<</if>> compresses your clit.</span>",
+    "translation": "",
+    "pos": 7386
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "196_5_3_7|",
+    "original": "<span class=\"pink\">The parasite<<if $earSlime.focus isnot \"pregnancy\">> penis<</if>> pulsates around your clit.</span>",
+    "translation": "",
+    "pos": 7570
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "198_5_3_7|",
+    "original": "<span class=\"pink\">The parasite<<if $earSlime.focus isnot \"pregnancy\">> penis<</if>> vibrates around your clit.</span>",
+    "translation": "",
+    "pos": 7729
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "205_5_3_7|",
+    "original": "<span class=\"lewd\">The $parasite.left_ear.name in each ear influences your thoughts<<if $earSlime.growth gte 100>> and actions<</if>>.</span>",
+    "translation": "",
+    "pos": 8020
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "210_5_3_7|",
+    "original": "<span class=\"lewd\">The $parasite.left_ear.name in your left ear influences your thoughts.</span>",
+    "translation": "",
+    "pos": 8242
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "214_5_3_7|",
+    "original": "<span class=\"lewd\">The $parasite.right_ear.name in your right ear influences your thoughts.</span>",
+    "translation": "",
+    "pos": 8409
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "220_5_3_7|",
+    "original": "<span class=\"pink\">Your arms are bound.</span>",
+    "translation": "",
+    "pos": 8596
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "223_5_3_7|",
+    "original": "<span class=\"purple\">Your left arm is bound.</span>",
+    "translation": "",
+    "pos": 8687
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "226_5_3_7|",
+    "original": "<span class=\"purple\">Your right arm is bound.</span>",
+    "translation": "",
+    "pos": 8784
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "230_5_3_7|",
+    "original": "<span class=\"pink\">Your legs are bound.</span>",
+    "translation": "",
+    "pos": 8926
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "259_5_3_7|",
+    "original": "<span class=\"gold\">Tip:</span> <<tips>>",
+    "translation": "",
+    "pos": 9545
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "264_5_3_7|",
+    "original": "<<button CHARACTERISTICS>>",
+    "translation": "",
+    "pos": 9639
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "267_5_3_7|",
+    "original": "<<button SOCIAL>>",
+    "translation": "",
+    "pos": 9725
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "271_5_3_7|",
+    "original": "<<button TRAITS>>",
+    "translation": "",
+    "pos": 9830
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "274_5_3_7|",
+    "original": "<<button JOURNAL>>",
+    "translation": "",
+    "pos": 9901
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "279_5_3_7|",
+    "original": "<<button STATS>>",
+    "translation": "",
+    "pos": 10020
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "282_5_3_7|",
+    "original": "<<button FEATS>>",
+    "translation": "",
+    "pos": 10094
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "289_5_3_7|",
+    "original": "<<button CHEATS>>",
+    "translation": "",
+    "pos": 10332
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "300_5_3_7|",
+    "original": "<<set _temp to \"<span class='yellow'>SHOW EVENT INFO</span>\">>",
+    "translation": "",
+    "pos": 10704
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "305_5_3_7|",
+    "original": "<<set _temp to \"<span class='red'>EVENT ERROR</span>\">>",
+    "translation": "",
+    "pos": 10974
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "308_5_3_7|",
+    "original": "<<set _temp to \"<span class='green'>EVENT ACTIVE</span>\">>",
+    "translation": "",
+    "pos": 11158
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "311_5_3_7|",
+    "original": "<<set _temp to \"<span class='red'>EVENT ACTIVE</span>\">>",
+    "translation": "",
+    "pos": 11318
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "312_5_3_7|",
+    "original": "<<elseif $event.buffer.map(e => e.area[0]).length is 1 and EventSystem.has(0) and [\"Forest Cabin\", \"Eden Cabin\", \"Eden Clearing\"].includes(EventSystem.get(0).area[0])>>",
+    "translation": "",
+    "pos": 11380
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "313_5_3_7|",
+    "original": "<<set _temp to \"<span class='green'>EVENT ACTIVE</span>\">>",
+    "translation": "",
+    "pos": 11555
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "316_5_3_7|",
+    "original": "<<button _temp>><<overlayReplace \"eventExtraInfo\">><</button>>",
+    "translation": "",
+    "pos": 11643
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "320_5_3_7|",
+    "original": "<<button \"DEBUG RENDERER\">><<overlayReplace \"canvasModel\">><</button>>",
+    "translation": "",
+    "pos": 11778
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "323_5_3_7|",
+    "original": "<<button OPTIONS>>",
+    "translation": "",
+    "pos": 11900
+  },
+  {
+    "passage": "StoryCaption",
+    "filepath": "base-system/caption.twee",
+    "key": "326_5_3_7|",
+    "original": "<<button SAVES>>",
+    "translation": "",
+    "pos": 11973
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "374_5_3_7|",
+    "original": "<<button SAVES>>",
+    "translation": "",
+    "pos": 96
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "378_5_3_7|",
+    "original": "<<button OPTIONS>>",
+    "translation": "",
+    "pos": 191
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "381_5_3_7|",
+    "original": "<<button FEATS>>",
+    "translation": "",
+    "pos": 258
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "588_5_3_7|",
+    "original": "<<print Time.weekDayName.slice(0, 3)>>",
+    "translation": "",
+    "pos": 7168
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "597_5_3_7|",
+    "original": "<<print Time.weekDayName.slice(0, 3)>>",
+    "translation": "",
+    "pos": 7370
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "598_5_3_7|",
+    "original": "<<print ordinalSuffixOf(Time.monthDay) + \" \" + Time.monthName.slice(0,3)>>",
+    "translation": "",
+    "pos": 7414
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "607_5_3_7|",
+    "original": "<<set _filters to {",
+    "translation": "",
+    "pos": 7618
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "608_5_3_7|",
+    "original": "\"body\": Skin.cssColorFilter(Skin.color.natural),",
+    "translation": "",
+    "pos": 7640
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "609_5_3_7|",
+    "original": "\"breasts\": Skin.cssColorFilter(Skin.color.natural),",
+    "translation": "",
+    "pos": 7691
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "610_5_3_7|",
+    "original": "\"penis\": Skin.cssColorFilter(Skin.color.natural),",
+    "translation": "",
+    "pos": 7745
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "611_5_3_7|",
+    "original": "\"mouth\": Skin.cssColorFilter(Skin.color.natural),",
+    "translation": "",
+    "pos": 7797
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "682_5_3_7|",
+    "original": "_modeloptions.breasts = (!_showUnderwear && !_showClothes) ? \"default\" : \"cleavage\";",
+    "translation": "",
+    "pos": 9961
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "683_5_3_7|",
+    "original": "if (_penisSize isnot undefined) {",
+    "translation": "",
+    "pos": 10049
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "684_5_3_7|",
+    "original": "_modeloptions.penis = $player.virginity.penile is true ? \"virgin\" : \"default\";",
+    "translation": "",
+    "pos": 10087
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "686_5_3_7|",
+    "original": "_modeloptions.balls = $player.gender is \"h\" ? $player.ballsExist : true;",
+    "translation": "",
+    "pos": 10213
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "689_5_3_7|",
+    "original": "_modeloptions.skin_type = Skin.color.natural;",
+    "translation": "",
+    "pos": 10295
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "690_5_3_7|",
+    "original": "_modeloptions.skin_tone = Skin.color.tan;",
+    "translation": "",
+    "pos": 10344
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "702_5_3_7|",
+    "original": "_modeloptions.mouth = \"smile\";",
+    "translation": "",
+    "pos": 10818
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "703_5_3_7|",
+    "original": "_modeloptions.freckles = $player.freckles is true;",
+    "translation": "",
+    "pos": 10852
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "704_5_3_7|",
+    "original": "_modeloptions.toast = _toast is true;",
+    "translation": "",
+    "pos": 10906
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "711_5_3_7|",
+    "original": "if (_clothesType is \"male\") {",
+    "translation": "",
+    "pos": 11195
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "712_5_3_7|",
+    "original": "if (_showClothes) {",
+    "translation": "",
+    "pos": 11229
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "714_5_3_7|",
+    "original": "upper: {",
+    "translation": "",
+    "pos": 11283
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "715_5_3_7|",
+    "original": "index: 4, /* t-shirt */",
+    "translation": "",
+    "pos": 11299
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "716_5_3_7|",
+    "original": "colour: \"tangerine\",",
+    "translation": "",
+    "pos": 11330
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "718_5_3_7|",
+    "original": "lower: {",
+    "translation": "",
+    "pos": 11366
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "719_5_3_7|",
+    "original": "index: 5, /* shorts */",
+    "translation": "",
+    "pos": 11382
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "720_5_3_7|",
+    "original": "colour: \"blue\",",
+    "translation": "",
+    "pos": 11412
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "722_5_3_7|",
+    "original": "legs: {",
+    "translation": "",
+    "pos": 11443
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "723_5_3_7|",
+    "original": "index: 2 /* boysgymsocks */",
+    "translation": "",
+    "pos": 11458
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "725_5_3_7|",
+    "original": "feet: {",
+    "translation": "",
+    "pos": 11501
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "726_5_3_7|",
+    "original": "index: 1 /* schoolshoes */",
+    "translation": "",
+    "pos": 11516
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "730_5_3_7|",
+    "original": "if (_showUnderwear) {",
+    "translation": "",
+    "pos": 11570
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "732_5_3_7|",
+    "original": "index: 4, /* briefs */",
+    "translation": "",
+    "pos": 11638
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "733_5_3_7|",
+    "original": "colour: \"black\",",
+    "translation": "",
+    "pos": 11667
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "736_5_3_7|",
+    "original": "} else if (_clothesType is \"female\") {",
+    "translation": "",
+    "pos": 11701
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "737_5_3_7|",
+    "original": "if (_showClothes) {",
+    "translation": "",
+    "pos": 11744
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "739_5_3_7|",
+    "original": "upper: {",
+    "translation": "",
+    "pos": 11798
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "740_5_3_7|",
+    "original": "index: 1, /* sundress */",
+    "translation": "",
+    "pos": 11814
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "741_5_3_7|",
+    "original": "colour: \"white\",",
+    "translation": "",
+    "pos": 11846
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "743_5_3_7|",
+    "original": "lower: {",
+    "translation": "",
+    "pos": 11878
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "744_5_3_7|",
+    "original": "index: 1, /* sundress */",
+    "translation": "",
+    "pos": 11894
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "745_5_3_7|",
+    "original": "colour: \"white\",",
+    "translation": "",
+    "pos": 11926
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "747_5_3_7|",
+    "original": "legs: {",
+    "translation": "",
+    "pos": 11958
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "748_5_3_7|",
+    "original": "index: 3 /* girlsgymsocks */",
+    "translation": "",
+    "pos": 11973
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "750_5_3_7|",
+    "original": "feet: {",
+    "translation": "",
+    "pos": 12017
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "751_5_3_7|",
+    "original": "index: 1 /* schoolshoes */",
+    "translation": "",
+    "pos": 12032
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "755_5_3_7|",
+    "original": "if (_showUnderwear) {",
+    "translation": "",
+    "pos": 12086
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "756_5_3_7|",
+    "original": "if ($player.breastsize > 3) {",
+    "translation": "",
+    "pos": 12113
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "758_5_3_7|",
+    "original": "index: 12, /* plainbra */",
+    "translation": "",
+    "pos": 12191
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "759_5_3_7|",
+    "original": "colour: \"pale white\",",
+    "translation": "",
+    "pos": 12224
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "763_5_3_7|",
+    "original": "index: 1, /* plainpanties */",
+    "translation": "",
+    "pos": 12308
+  },
+  {
+    "passage": "Widgets Clothing Caption",
+    "filepath": "base-system/caption.twee",
+    "key": "764_5_3_7|",
+    "original": "colour: \"pale white\",",
+    "translation": "",
+    "pos": 12343
+  },
+  {
+    "passage": "StoryRightSidebar",
+    "filepath": "base-system/caption.twee",
+    "key": "784_5_3_7|",
+    "original": "Testing",
+    "translation": "",
+    "pos": 1
+  }
+]

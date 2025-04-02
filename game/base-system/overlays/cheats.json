@@ -1,0 +1,6138 @@
+[
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "3_5_3_7|",
+    "original": "<<link [[Confirm|$passage]]>><<set $cheatReload to true>><</link>>",
+    "translation": "",
+    "pos": 21
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "5_5_3_7|",
+    "original": "Can cause problems if confirmed during events, or with NPCs around.",
+    "translation": "",
+    "pos": 95
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "7_5_3_7|",
+    "original": "Only required if you want cheats to take immediate effect on the current scene.",
+    "translation": "",
+    "pos": 170
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "12_5_3_7|",
+    "original": "<input type=\"button\" class=\"toTop options\" value=\"Top of Page\" onclick=\"$('#customOverlayContent').scrollTop(0)\"/>",
+    "translation": "",
+    "pos": 342
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "20_5_3_7|",
+    "original": "<span @id=\"_id\"><<= ($player.virginity[_type] is true ? \"Present\" : \"Taken by \" + ($player.virginity[_type] is false ? \"unknown\" : $player.virginity[_type]))>></span> |",
+    "translation": "",
+    "pos": 605
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "21_5_3_7|",
+    "original": "<span @id=\"_id + 'link'\"><<link `($player.virginity[_type] is true and !$player?.virginityDetails?.[_type]?.taker ? \"Take\" : \"Restore\")`>>",
+    "translation": "",
+    "pos": 776
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "30_5_3_7|",
+    "original": "<<run $(`#${_id}link .link-internal`).html($player.virginity[_type] is true and !$player?.virginityDetails?.[_type]?.taker ? \"Take\" : \"Restore\")>>",
+    "translation": "",
+    "pos": 1575
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "31_5_3_7|",
+    "original": "<<run $(`#${_id}`).html($player.virginity[_type] is true ? \"Present\" : \"Taken by \" + ($player.virginity[_type] is false ? \"unknown\" : $player.virginity[_type]))>>",
+    "translation": "",
+    "pos": 1725
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "40_5_3_7|",
+    "original": "<<= _bodypart.toUpperFirst().replace(\"_\", \" \")>>:",
+    "translation": "",
+    "pos": 2069
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "43_5_3_7|",
+    "original": "<span @id=\"_parasite\" @class=\"_parasiteTypes[_i] is $parasite[_bodypart].name || _parasiteTypes[_i] is 'none' and !$parasite[_bodypart].name ? 'goldLink' : 'link' \">",
+    "translation": "",
+    "pos": 2223
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "44_5_3_7|",
+    "original": "<<link _parasiteTypes[_i]>>",
+    "translation": "",
+    "pos": 2393
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "56_5_3_7|",
+    "original": "<<if _i < _parasiteTypes.length - 1>> |<</if>>",
+    "translation": "",
+    "pos": 2801
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "63_5_3_7|",
+    "original": "<<set _label to _semen is \"goo\" ? \"slime\" : _semen>>",
+    "translation": "",
+    "pos": 2944
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "65_5_3_7|",
+    "original": "<span class=\"gold\"><<= _label.toUpperFirst()>></span>",
+    "translation": "",
+    "pos": 3033
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "69_5_3_7|",
+    "original": "<<link `'Add all ' + _label`>>",
+    "translation": "",
+    "pos": 3125
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "80_5_3_7|",
+    "original": "<<link `'Remove all ' + _label`>>",
+    "translation": "",
+    "pos": 3644
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "91_5_3_7|",
+    "original": "<span @id=\"_id\">",
+    "translation": "",
+    "pos": 4185
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "106_5_3_7|",
+    "original": "css: {display: \"inline-block\", \"margin-bottom\": \"0\"}",
+    "translation": "",
+    "pos": 4482
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "108_5_3_7|",
+    "original": "<<numberStepper \"Neck\" $player.bodyliquid.neck[_semen] {...T.options, callback: (value, arr) => { V.player.bodyliquid.neck[arr[0]] = value; Wikifier.wikifyEval(\"<<updatesidebarimg>>\") }}>>",
+    "translation": "",
+    "pos": 4542
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "109_5_3_7|",
+    "original": "<<numberStepper \"Right arm\" $player.bodyliquid.rightarm[_semen] {...T.options, callback: (value, arr) => { V.player.bodyliquid.rightarm[arr[0]] = value; Wikifier.wikifyEval(\"<<updatesidebarimg>>\") }}>>",
+    "translation": "",
+    "pos": 4732
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "110_5_3_7|",
+    "original": "<<numberStepper \"Left arm\" $player.bodyliquid.leftarm[_semen] {...T.options, callback: (value, arr) => { V.player.bodyliquid.leftarm[arr[0]] = value; Wikifier.wikifyEval(\"<<updatesidebarimg>>\") }}>>",
+    "translation": "",
+    "pos": 4935
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "111_5_3_7|",
+    "original": "<<numberStepper \"Thigh\" $player.bodyliquid.thigh[_semen] {...T.options, callback: (value, arr) => { V.player.bodyliquid.thigh[arr[0]] = value; Wikifier.wikifyEval(\"<<updatesidebarimg>>\") }}>>",
+    "translation": "",
+    "pos": 5135
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "112_5_3_7|",
+    "original": "<<numberStepper \"Bottom\" $player.bodyliquid.bottom[_semen] {...T.options, callback: (value, arr) => { V.player.bodyliquid.bottom[arr[0]] = value; Wikifier.wikifyEval(\"<<updatesidebarimg>>\") }}>>",
+    "translation": "",
+    "pos": 5328
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "113_5_3_7|",
+    "original": "<<numberStepper \"Tummy\" $player.bodyliquid.tummy[_semen] {...T.options, callback: (value, arr) => { V.player.bodyliquid.tummy[arr[0]] = value; Wikifier.wikifyEval(\"<<updatesidebarimg>>\") }}>>",
+    "translation": "",
+    "pos": 5524
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "114_5_3_7|",
+    "original": "<<numberStepper \"Chest\" $player.bodyliquid.chest[_semen] {...T.options, callback: (value, arr) => { V.player.bodyliquid.chest[arr[0]] = value; Wikifier.wikifyEval(\"<<updatesidebarimg>>\") }}>>",
+    "translation": "",
+    "pos": 5717
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "115_5_3_7|",
+    "original": "<<numberStepper \"Face\" $player.bodyliquid.face[_semen] {...T.options, callback: (value, arr) => { V.player.bodyliquid.face[arr[0]] = value; Wikifier.wikifyEval(\"<<updatesidebarimg>>\") }}>>",
+    "translation": "",
+    "pos": 5910
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "116_5_3_7|",
+    "original": "<<numberStepper \"Hair\" $player.bodyliquid.hair[_semen] {...T.options, callback: (value, arr) => { V.player.bodyliquid.hair[arr[0]] = value; Wikifier.wikifyEval(\"<<updatesidebarimg>>\") }}>>",
+    "translation": "",
+    "pos": 6100
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "117_5_3_7|",
+    "original": "<<numberStepper \"Feet\" $player.bodyliquid.feet[_semen] {...T.options, callback: (value, arr) => { V.player.bodyliquid.feet[arr[0]] = value; Wikifier.wikifyEval(\"<<updatesidebarimg>>\") }}>>",
+    "translation": "",
+    "pos": 6290
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "118_5_3_7|",
+    "original": "<<numberStepper \"Labia\" $player.bodyliquid.vaginaoutside[_semen] {...T.options, callback: (value, arr) => { V.player.bodyliquid.vaginaoutside[arr[0]] = value; Wikifier.wikifyEval(\"<<updatesidebarimg>>\") }}>>",
+    "translation": "",
+    "pos": 6480
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "119_5_3_7|",
+    "original": "<<numberStepper \"Vagina\" $player.bodyliquid.vagina[_semen] {...T.options, callback: (value, arr) => { V.player.bodyliquid.vagina[arr[0]] = value; Wikifier.wikifyEval(\"<<updatesidebarimg>>\") }}>>",
+    "translation": "",
+    "pos": 6689
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "120_5_3_7|",
+    "original": "<<numberStepper \"Penis\" $player.bodyliquid.penis[_semen] {...T.options, callback: (value, arr) => { V.player.bodyliquid.penis[arr[0]] = value; Wikifier.wikifyEval(\"<<updatesidebarimg>>\") }}>>",
+    "translation": "",
+    "pos": 6885
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "121_5_3_7|",
+    "original": "<<numberStepper \"Anus\" $player.bodyliquid.anus[_semen] {...T.options, callback: (value, arr) => { V.player.bodyliquid.anus[arr[0]] = value; Wikifier.wikifyEval(\"<<updatesidebarimg>>\") }}>>",
+    "translation": "",
+    "pos": 7078
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "122_5_3_7|",
+    "original": "<<numberStepper \"Mouth\" $player.bodyliquid.mouth[_semen] {...T.options, callback: (value, arr) => { V.player.bodyliquid.mouth[arr[0]] = value; Wikifier.wikifyEval(\"<<updatesidebarimg>>\") }}>>",
+    "translation": "",
+    "pos": 7268
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "127_5_3_7|",
+    "original": "<div class=\"settingsHeader options\">Player</div>",
+    "translation": "",
+    "pos": 7538
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "129_5_3_7|",
+    "original": "<span class=\"gold\">Miscellaneous</span>",
+    "translation": "",
+    "pos": 7629
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "131_5_3_7|",
+    "original": "<<numberStepper \"Money\" $money {",
+    "translation": "",
+    "pos": 7680
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "135_5_3_7|",
+    "original": "colorArr:[\"--yellow\"],",
+    "translation": "",
+    "pos": 7806
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "137_5_3_7|",
+    "original": "valueFormat: (value) => `<b>${formatMoney(value)}</b>`,",
+    "translation": "",
+    "pos": 7856
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "139_5_3_7|",
+    "original": "const difference = value - V.money;",
+    "translation": "",
+    "pos": 7944
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "140_5_3_7|",
+    "original": "V.moneyStats.cheats.earned += difference;",
+    "translation": "",
+    "pos": 7985
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "141_5_3_7|",
+    "original": "V.money = value;",
+    "translation": "",
+    "pos": 8032
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "147_5_3_7|",
+    "original": "<<numberStepper \"Teeth\" $prison.teeth {callback: (value) => V.prison.teeth = value, disableMinMax: true, step: 1, max: 1000000, colorArr:[\"--yellow\"], percentage: false}>>",
+    "translation": "",
+    "pos": 8147
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "150_5_3_7|",
+    "original": "Infinite spray: <span id=\"statsinfinitespray\"><<= ($infinitespray ? \"On\" : \"Off\")>></span> |",
+    "translation": "",
+    "pos": 8334
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "151_5_3_7|",
+    "original": "<<link \"Change\">>",
+    "translation": "",
+    "pos": 8430
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "158_5_3_7|",
+    "original": "<<replace \"#statsinfinitespray\">><<= ($infinitespray ? \"On\" : \"Off\")>><</replace>>",
+    "translation": "",
+    "pos": 8591
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "163_5_3_7|",
+    "original": "Pheromones (DEBUG): <span id=\"statsalluretest\"><<= $alluretest ? \"On\" : \"Off\">></span> |",
+    "translation": "",
+    "pos": 8722
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "164_5_3_7|",
+    "original": "<<link \"Change\">>",
+    "translation": "",
+    "pos": 8815
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "170_5_3_7|",
+    "original": "<<replace \"#statsalluretest\">><<= $alluretest>><</replace>>",
+    "translation": "",
+    "pos": 8956
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "176_5_3_7|",
+    "original": "<span class=\"gold\">Body</span> <mouse class=\"tooltip linkBlue\">(?)<span>Changing the player's genitalia will wash the player of lewd fluids, and remove genital parasites, to prevent them from lingering on nonexisting body parts.</span></mouse>",
+    "translation": "",
+    "pos": 9097
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "178_5_3_7|",
+    "original": "Sex:",
+    "translation": "",
+    "pos": 9352
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "179_5_3_7|",
+    "original": "<span id=\"statsGender\">",
+    "translation": "",
+    "pos": 9360
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "184_5_3_7|",
+    "original": "Gender appearance:",
+    "translation": "",
+    "pos": 9516
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "185_5_3_7|",
+    "original": "<span id=\"statsBodyType\">",
+    "translation": "",
+    "pos": 9538
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "190_5_3_7|",
+    "original": "Body size:",
+    "translation": "",
+    "pos": 9669
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "191_5_3_7|",
+    "original": "<span id=\"statsBodySize\">",
+    "translation": "",
+    "pos": 9683
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "196_5_3_7|",
+    "original": "<span class=\"gold\">Virginity</span>",
+    "translation": "",
+    "pos": 9790
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "200_5_3_7|",
+    "original": "Vaginal: <<cheatVirginityToggle \"vaginal\">>",
+    "translation": "",
+    "pos": 9958
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "204_5_3_7|",
+    "original": "Penile: <<cheatVirginityToggle \"penile\">>",
+    "translation": "",
+    "pos": 10094
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "207_5_3_7|",
+    "original": "Anal: <<cheatVirginityToggle \"anal\">>",
+    "translation": "",
+    "pos": 10159
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "209_5_3_7|",
+    "original": "Oral: <<cheatVirginityToggle \"oral\">>",
+    "translation": "",
+    "pos": 10208
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "211_5_3_7|",
+    "original": "Handholding: <<cheatVirginityToggle \"handholding\">>",
+    "translation": "",
+    "pos": 10257
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "213_5_3_7|",
+    "original": "First kiss: <<cheatVirginityToggle \"kiss\">>",
+    "translation": "",
+    "pos": 10320
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "216_5_3_7|",
+    "original": "Temple Vow: <<cheatVirginityToggle \"temple\">>",
+    "translation": "",
+    "pos": 10453
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "220_5_3_7|",
+    "original": "<span class=\"gold\">State</span>",
+    "translation": "",
+    "pos": 10557
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "224_5_3_7|",
+    "original": "<<link \"Refresh\">>",
+    "translation": "",
+    "pos": 10711
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "233_5_3_7|",
+    "original": "<<link \"Ruin\">>",
+    "translation": "",
+    "pos": 10951
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "247_5_3_7|",
+    "original": "<span class=\"gold\">Fluids:</span>",
+    "translation": "",
+    "pos": 11306
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "248_5_3_7|",
+    "original": "<<link \"Refill\">>",
+    "translation": "",
+    "pos": 11343
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "252_5_3_7|",
+    "original": "<</link>> | <<link \"Empty\">>",
+    "translation": "",
+    "pos": 11503
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "258_5_3_7|",
+    "original": "<span class=\"gold\">Lactating:</span> <span id=\"statslactatingspray\"><<= ($lactating is 1 ? \"Yes\" : \"No\")>></span> |\t<<link \"Toggle\">><<set $lactating to ($lactating is 1 ? 0 : 1)>><<set $lactation_pressure to $lactating * 100>><<replace \"#statslactatingspray\">><<= ($lactating is 1 ? \"Yes\" : \"No\")>><</replace>><<updatesidebarimg>><</link>>",
+    "translation": "",
+    "pos": 11672
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "260_5_3_7|",
+    "original": "<span id=\"fluids\"><<cheats-fluids>></span>",
+    "translation": "",
+    "pos": 12028
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "261_5_3_7|",
+    "original": "<<numberStepper \"Milk Volume\" $milk_volume {",
+    "translation": "",
+    "pos": 12074
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "263_5_3_7|",
+    "original": "V.milk_volume = value;",
+    "translation": "",
+    "pos": 12149
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "264_5_3_7|",
+    "original": "V.milk_amount = Math.min(V.milk_amount, V.milk_volume);",
+    "translation": "",
+    "pos": 12177
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "265_5_3_7|",
+    "original": "Wikifier.wikifyEval(\"<<replace '#fluids'>><<cheats-fluids>><</replace>>\");",
+    "translation": "",
+    "pos": 12238
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "268_5_3_7|",
+    "original": "valueFormat: value => Math.round(value) + \"ml\",",
+    "translation": "",
+    "pos": 12338
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "272_5_3_7|",
+    "original": "<<numberStepper \"Semen Volume\" $semen_volume {",
+    "translation": "",
+    "pos": 12468
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "274_5_3_7|",
+    "original": "V.semen_volume = value;",
+    "translation": "",
+    "pos": 12547
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "275_5_3_7|",
+    "original": "V.semen_amount = Math.min(V.semen_amount, V.semen_volume);",
+    "translation": "",
+    "pos": 12577
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "276_5_3_7|",
+    "original": "Wikifier.wikifyEval(\"<<replace '#fluids'>><<cheats-fluids>><</replace>>\");",
+    "translation": "",
+    "pos": 12642
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "279_5_3_7|",
+    "original": "valueFormat: value => Math.round(value) + \"ml\",",
+    "translation": "",
+    "pos": 12745
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "287_5_3_7|",
+    "original": "<div class=\"settingsHeader options\">Clothes</div>",
+    "translation": "",
+    "pos": 12899
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "289_5_3_7|",
+    "original": "<<link \"Unlock all special clothing\">>",
+    "translation": "",
+    "pos": 12991
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "293_5_3_7|",
+    "original": "<span class=\"description\">If clothing health is set to zero, it will break. Leaving the cheats menu will destroy it, and you will not be able to get it back.</span>",
+    "translation": "",
+    "pos": 13132
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "304_5_3_7|",
+    "original": "<span class=\"gold\"><<clothingicon $worn.over_upper \"over_upper\">><<= $worn.over_upper.name.toUpperFirst()>> integrity:</span>",
+    "translation": "",
+    "pos": 13662
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "308_5_3_7|",
+    "original": "onInputChange: value => wikifier(\"<<updatesidebarimg false>>\"),",
+    "translation": "",
+    "pos": 14043
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "309_5_3_7|",
+    "original": "value: () => integrityWord(V.worn.over_upper, \"over_upper\") || `<span class=\"green\">full</span>`",
+    "translation": "",
+    "pos": 14112
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "313_5_3_7|",
+    "original": "<span class=\"gold\"><<clothingicon $worn.over_upper \"over_upper\">><<= $worn.over_upper.name.toUpperFirst()>> wetness:</span>",
+    "translation": "",
+    "pos": 14287
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "315_5_3_7|",
+    "original": "onInputChange: (value) => cheatsShowWetness('overupperwet', value),",
+    "translation": "",
+    "pos": 14475
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "316_5_3_7|",
+    "original": "value: v => wetnessWord('overupper')",
+    "translation": "",
+    "pos": 14548
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "325_5_3_7|",
+    "original": "<span class=\"gold\"><<clothingicon $worn.over_lower \"over_lower\">><<= $worn.over_lower.name.toUpperFirst()>> integrity:</span>",
+    "translation": "",
+    "pos": 14875
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "327_5_3_7|",
+    "original": "onInputChange: value => wikifier(\"<<updatesidebarimg false>>\"),",
+    "translation": "",
+    "pos": 15146
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "328_5_3_7|",
+    "original": "value: () => integrityWord(V.worn.over_lower, \"over_lower\") || `<span class=\"green\">full</span>`",
+    "translation": "",
+    "pos": 15215
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "332_5_3_7|",
+    "original": "<span class=\"gold\"><<clothingicon $worn.over_lower \"over_lower\">><<= $worn.over_lower.name.toUpperFirst()>> wetness:</span>",
+    "translation": "",
+    "pos": 15390
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "334_5_3_7|",
+    "original": "onInputChange: (value) => cheatsShowWetness('overlowerwet', value),",
+    "translation": "",
+    "pos": 15578
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "335_5_3_7|",
+    "original": "value: v => wetnessWord('overlower')",
+    "translation": "",
+    "pos": 15651
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "344_5_3_7|",
+    "original": "<span class=\"gold\"><<clothingicon $worn.upper \"upper\">><<= $worn.upper.name.toUpperFirst()>> integrity:</span>",
+    "translation": "",
+    "pos": 15868
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "347_5_3_7|",
+    "original": "onInputChange: value => wikifier(\"<<updatesidebarimg false>>\"),",
+    "translation": "",
+    "pos": 16201
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "348_5_3_7|",
+    "original": "value: () => integrityWord(V.worn.upper, \"upper\") || `<span class=\"green\">full</span>`",
+    "translation": "",
+    "pos": 16270
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "352_5_3_7|",
+    "original": "<span class=\"gold\"><<clothingicon $worn.upper \"upper\">><<= $worn.upper.name.toUpperFirst()>> wetness:</span>",
+    "translation": "",
+    "pos": 16435
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "354_5_3_7|",
+    "original": "onInputChange: (value) => cheatsShowWetness('upperwet', value),",
+    "translation": "",
+    "pos": 16600
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "355_5_3_7|",
+    "original": "value: v => wetnessWord('upper')",
+    "translation": "",
+    "pos": 16669
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "364_5_3_7|",
+    "original": "<span class=\"gold\"><<clothingicon $worn.lower \"lower\">><<= $worn.lower.name.toUpperFirst()>> integrity:</span>",
+    "translation": "",
+    "pos": 16874
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "367_5_3_7|",
+    "original": "onInputChange: value => wikifier(\"<<updatesidebarimg false>>\"),",
+    "translation": "",
+    "pos": 17207
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "368_5_3_7|",
+    "original": "value: () => integrityWord(V.worn.lower, \"lower\") || `<span class=\"green\">full</span>`",
+    "translation": "",
+    "pos": 17276
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "372_5_3_7|",
+    "original": "<span class=\"gold\"><<clothingicon $worn.lower \"lower\">><<= $worn.lower.name.toUpperFirst()>> wetness:</span>",
+    "translation": "",
+    "pos": 17441
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "374_5_3_7|",
+    "original": "onInputChange: (value) => cheatsShowWetness('lowerwet', value),",
+    "translation": "",
+    "pos": 17606
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "375_5_3_7|",
+    "original": "value: v => wetnessWord('lower')",
+    "translation": "",
+    "pos": 17675
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "384_5_3_7|",
+    "original": "<span class=\"gold\"><<clothingicon $worn.under_lower \"under_lower\">><<= $worn.under_lower.name.toUpperFirst()>> integrity:</span>",
+    "translation": "",
+    "pos": 17889
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "387_5_3_7|",
+    "original": "onInputChange: value => wikifier(\"<<updatesidebarimg false>>\"),",
+    "translation": "",
+    "pos": 18280
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "388_5_3_7|",
+    "original": "value: () => integrityWord(V.worn.under_lower, \"under_lower\") || `<span class=\"green\">full</span>`",
+    "translation": "",
+    "pos": 18349
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "393_5_3_7|",
+    "original": "<span class=\"gold\"><<clothingicon $worn.under_lower \"under_lower\">><<= $worn.under_lower.name.toUpperFirst()>> wetness:</span>",
+    "translation": "",
+    "pos": 18535
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "395_5_3_7|",
+    "original": "onInputChange: (value) => cheatsShowWetness('underlowerwet', value),",
+    "translation": "",
+    "pos": 18728
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "396_5_3_7|",
+    "original": "value: v => wetnessWord('underlower')",
+    "translation": "",
+    "pos": 18802
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "405_5_3_7|",
+    "original": "<span class=\"gold\"><<clothingicon $worn.under_upper \"under_upper\">><<= $worn.under_upper.name.toUpperFirst()>> integrity:</span>",
+    "translation": "",
+    "pos": 19025
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "408_5_3_7|",
+    "original": "onInputChange: value => wikifier(\"<<updatesidebarimg false>>\"),",
+    "translation": "",
+    "pos": 19415
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "409_5_3_7|",
+    "original": "value: () => integrityWord(V.worn.under_upper, \"under_upper\") || `<span class=\"green\">full</span>`",
+    "translation": "",
+    "pos": 19484
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "414_5_3_7|",
+    "original": "<span class=\"gold\"><<clothingicon $worn.under_upper \"under_upper\">><<= $worn.under_upper.name.toUpperFirst()>> wetness:</span>",
+    "translation": "",
+    "pos": 19670
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "416_5_3_7|",
+    "original": "onInputChange: (value) => cheatsShowWetness('underupperwet', value),",
+    "translation": "",
+    "pos": 19863
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "417_5_3_7|",
+    "original": "value: v => wetnessWord('underupper')",
+    "translation": "",
+    "pos": 19937
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "426_5_3_7|",
+    "original": "<span class=\"gold\"><<clothingicon $worn.genitals \"genitals\">><<= $worn.genitals.name.toUpperFirst()>> integrity:</span>",
+    "translation": "",
+    "pos": 20160
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "429_5_3_7|",
+    "original": "onInputChange: value => wikifier(\"<<updatesidebarimg false>>\"),",
+    "translation": "",
+    "pos": 20523
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "430_5_3_7|",
+    "original": "value: () => integrityWord(V.worn.genitals, \"genitals\") || `<span class=\"green\">full</span>`",
+    "translation": "",
+    "pos": 20592
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "440_5_3_7|",
+    "original": "<span class=\"gold\"><<clothingicon $worn.face \"face\">><<= $worn.face.name.toUpperFirst()>> integrity:</span>",
+    "translation": "",
+    "pos": 20906
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "444_5_3_7|",
+    "original": "onInputChange: value => wikifier(\"<<updatesidebarimg false>>\"),",
+    "translation": "",
+    "pos": 21230
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "445_5_3_7|",
+    "original": "value: () => integrityWord(V.worn.face, \"face\") || `<span class=\"green\">full</span>`",
+    "translation": "",
+    "pos": 21299
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "453_5_3_7|",
+    "original": "You are not wearing <span class=\"gold\"><<= $_clothes.join(\", \")>></span>.",
+    "translation": "",
+    "pos": 21520
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "458_5_3_7|",
+    "original": "<<link \"Fix all\">>",
+    "translation": "",
+    "pos": 21713
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "460_5_3_7|",
+    "original": "if (V.worn[slot].name === \"naked\") return;",
+    "translation": "",
+    "pos": 21779
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "461_5_3_7|",
+    "original": "V.worn[slot].integrity = clothingData(slot, V.worn[slot], \"integrity_max\");",
+    "translation": "",
+    "pos": 21828
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "463_5_3_7|",
+    "original": "`#numberslider-input-worn${slot.replace('_', '-')}integrity`,",
+    "translation": "",
+    "pos": 21937
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "464_5_3_7|",
+    "original": "V.worn[slot].integrity",
+    "translation": "",
+    "pos": 22006
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "469_5_3_7|",
+    "original": "<<link \"Destroy all\">>",
+    "translation": "",
+    "pos": 22094
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "472_5_3_7|",
+    "original": "if (V.worn[slot].name === \"naked\") return;",
+    "translation": "",
+    "pos": 22241
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "473_5_3_7|",
+    "original": "V.worn[slot].integrity = 0;",
+    "translation": "",
+    "pos": 22290
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "475_5_3_7|",
+    "original": "`#numberslider-input-worn${slot.replace('_', '-')}integrity`,",
+    "translation": "",
+    "pos": 22351
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "476_5_3_7|",
+    "original": "V.worn[slot].integrity",
+    "translation": "",
+    "pos": 22420
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "484_5_3_7|",
+    "original": "| <<link \"Dry all\">>",
+    "translation": "",
+    "pos": 22720
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "487_5_3_7|",
+    "original": "if (V.worn[slot].name === 'naked') return;",
+    "translation": "",
+    "pos": 22818
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "488_5_3_7|",
+    "original": "const wetnessProp = slot.replace('_', '') + 'wet';",
+    "translation": "",
+    "pos": 22867
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "489_5_3_7|",
+    "original": "V[wetnessProp + 'stage'] = 0;",
+    "translation": "",
+    "pos": 22924
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "490_5_3_7|",
+    "original": "cheatsUpdateSlider(`#numberslider-input-${wetnessProp}`, V[wetnessProp]);",
+    "translation": "",
+    "pos": 22960
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "494_5_3_7|",
+    "original": "<<link \"Drench all\">>",
+    "translation": "",
+    "pos": 23090
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "496_5_3_7|",
+    "original": "if (V.worn[slot].name === 'naked') return;",
+    "translation": "",
+    "pos": 23171
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "497_5_3_7|",
+    "original": "const wetnessProp = slot.replace('_', '') + 'wet';",
+    "translation": "",
+    "pos": 23220
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "498_5_3_7|",
+    "original": "V[wetnessProp] = 200;",
+    "translation": "",
+    "pos": 23277
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "499_5_3_7|",
+    "original": "V[wetnessProp + 'stage'] = 3;",
+    "translation": "",
+    "pos": 23305
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "500_5_3_7|",
+    "original": "cheatsUpdateSlider(`#numberslider-input-${wetnessProp}`, V[wetnessProp]);",
+    "translation": "",
+    "pos": 23341
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "506_5_3_7|",
+    "original": "<span class=\"gold\">Bindings:</span>",
+    "translation": "",
+    "pos": 23491
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "508_5_3_7|",
+    "original": "<span class=\"description\"> Binding your arms will destroy handheld items. Shackling your feet will destroy shoes.</span>",
+    "translation": "",
+    "pos": 23538
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "510_5_3_7|",
+    "original": "<<icon \"clothes/gag.png\">><<link \"Gag\">><<facewear 4>><<updatesidebarimg>><</link>> | <<link \"Blindfold\">><<facewear 5>><<updatesidebarimg>><</link>> | <<link \"Gag and blindfold\">><<facewear 6>><<updatesidebarimg>><</link>> | <<link \"Bind arms\">><<bind>><<updatesidebarimg>><</link>> | <<link \"Shackle feet\">><<shackle_feet>><<updatesidebarimg>><</link>>",
+    "translation": "",
+    "pos": 23670
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "512_5_3_7|",
+    "original": "<<undobindingsicon>> <<link \"Unbind all\">><<unbind>><<if $worn.face.type.includes(\"gag\") or $worn.face.type.includes(\"blindfold\")>><<set $worn.face.type.push(\"broken\")>><<faceruined>><</if>><<updatesidebarimg>><</link>>",
+    "translation": "",
+    "pos": 24036
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "516_5_3_7|",
+    "original": "<span class=\"gold\">Add to Wardrobe:</span>",
+    "translation": "",
+    "pos": 24296
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "518_5_3_7|",
+    "original": "<span class=\"description\">DEBUG: Send clothing with a given ID to your wardrobe.</span>",
+    "translation": "",
+    "pos": 24352
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "520_5_3_7|",
+    "original": "<<listbox \"_slot\" autoselect>>",
+    "translation": "",
+    "pos": 24453
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "521_5_3_7|",
+    "original": "<<optionsfrom setup.clothingLayer.body>>",
+    "translation": "",
+    "pos": 24489
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "524_5_3_7|",
+    "original": "<<textbox \"_clothesID\" \"1\">>",
+    "translation": "",
+    "pos": 24581
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "526_5_3_7|",
+    "original": "<<link \"Send\">>",
+    "translation": "",
+    "pos": 24623
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "528_5_3_7|",
+    "original": "<<replace \"#ClothesSendResult\">>That didn't work!<</replace>>",
+    "translation": "",
+    "pos": 24711
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "531_5_3_7|",
+    "original": "<<replace \"#ClothesSendResult\">>Sent <<= setup.clothes[_slot][_clothesID].name>> to your wardrobe!<</replace>>",
+    "translation": "",
+    "pos": 24845
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "535_5_3_7|",
+    "original": "<span id=\"ClothesSendResult\"></span>",
+    "translation": "",
+    "pos": 24996
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "541_5_3_7|",
+    "original": "<div class=\"settingsHeader options\">Characteristics</div>",
+    "translation": "",
+    "pos": 25095
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "545_5_3_7|",
+    "original": "<span class=\"gold\">Core Characteristics</span>",
+    "translation": "",
+    "pos": 25391
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "547_5_3_7|",
+    "original": "<<link \"Set all to 0\">>",
+    "translation": "",
+    "pos": 25449
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "554_5_3_7|",
+    "original": "<<link \"Set all to max\">>",
+    "translation": "",
+    "pos": 25648
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "561_5_3_7|",
+    "original": "<span id=\"characteristics\">",
+    "translation": "",
+    "pos": 25860
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "565_5_3_7|",
+    "original": "<span class=\"gold\">Secondary Characteristics</span>",
+    "translation": "",
+    "pos": 25949
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "567_5_3_7|",
+    "original": "Speech Attitude:",
+    "translation": "",
+    "pos": 26012
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "568_5_3_7|",
+    "original": "<span id=\"statsSpeechAttitude\">",
+    "translation": "",
+    "pos": 26032
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "572_5_3_7|",
+    "original": "<span class=\"description\">Changing speech attitude will also alter your submissiveness.</span>",
+    "translation": "",
+    "pos": 26115
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "573_5_3_7|",
+    "original": "<<numberStepper \"Submissiveness\" $submissive \"submissive\" {max: 2000}>>",
+    "translation": "",
+    "pos": 26213
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "574_5_3_7|",
+    "original": "<<numberStepper \"Masochism\" $masochism \"masochism\" {max: 1000}>>",
+    "translation": "",
+    "pos": 26288
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "575_5_3_7|",
+    "original": "<<numberStepper \"Sadism\" $sadism \"sadism\" {max: 1000}>>",
+    "translation": "",
+    "pos": 26356
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "578_5_3_7|",
+    "original": "<<numberStepper \"Grace\" $grace \"grace\">>",
+    "translation": "",
+    "pos": 26508
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "584_5_3_7|",
+    "original": "<span class=\"gold\">Core Skills</span>",
+    "translation": "",
+    "pos": 26735
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "586_5_3_7|",
+    "original": "<<link \"Set all to 0\">>",
+    "translation": "",
+    "pos": 26784
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "593_5_3_7|",
+    "original": "<<link \"Set all to max\">>",
+    "translation": "",
+    "pos": 26971
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "600_5_3_7|",
+    "original": "<span id=\"coreSkills\">",
+    "translation": "",
+    "pos": 27171
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "605_5_3_7|",
+    "original": "<span class=\"gold\">School Skills</span>",
+    "translation": "",
+    "pos": 27313
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "607_5_3_7|",
+    "original": "<<link \"Set all to 0\">>",
+    "translation": "",
+    "pos": 27364
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "615_5_3_7|",
+    "original": "<<link \"Set all to max\">>",
+    "translation": "",
+    "pos": 27584
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "623_5_3_7|",
+    "original": "<span id=\"schoolSkills\">",
+    "translation": "",
+    "pos": 27816
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "630_5_3_7|",
+    "original": "<span class=\"gold\">Sex Skills</span>",
+    "translation": "",
+    "pos": 28050
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "632_5_3_7|",
+    "original": "<<link \"Set all to 0\">>",
+    "translation": "",
+    "pos": 28098
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "639_5_3_7|",
+    "original": "<<link \"Set all to max\">>",
+    "translation": "",
+    "pos": 28294
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "647_5_3_7|",
+    "original": "<span id=\"cheatsSex\">",
+    "translation": "",
+    "pos": 28503
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "653_5_3_7|",
+    "original": "<span class=\"gold\">Traits</span>",
+    "translation": "",
+    "pos": 28611
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "658_5_3_7|",
+    "original": "Orgasm Addict: <span id=\"statsorgasmtrait\" @class=\"$orgasmtrait is 1 ? 'green' : 'red'\"><<= _traitValue[$_traits[\"orgasm\"].toString()]>></span> |",
+    "translation": "",
+    "pos": 28977
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "659_5_3_7|",
+    "original": "<<link \"Change\">>",
+    "translation": "",
+    "pos": 29126
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "666_5_3_7|",
+    "original": "<<= _orgasmtrait>>",
+    "translation": "",
+    "pos": 29355
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "672_5_3_7|",
+    "original": "Cum Dump: <span id=\"statsejactrait\" @class=\"$ejactrait is 1 ? 'green' : 'red'\"><<= _traitValue[$_traits[\"ejac\"].toString()]>></span> |",
+    "translation": "",
+    "pos": 29475
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "673_5_3_7|",
+    "original": "<<link \"Change\">>",
+    "translation": "",
+    "pos": 29613
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "680_5_3_7|",
+    "original": "<<= _ejactrait>>",
+    "translation": "",
+    "pos": 29830
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "686_5_3_7|",
+    "original": "Plaything: <span id=\"statsmolesttrait\" @class=\"$molesttrait is 1 ? 'green' : 'red'\"><<= _traitValue[$_traits[\"molest\"].toString()]>></span> |",
+    "translation": "",
+    "pos": 29944
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "687_5_3_7|",
+    "original": "<<link \"Change\">>",
+    "translation": "",
+    "pos": 30089
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "694_5_3_7|",
+    "original": "<<= _molesttrait>>",
+    "translation": "",
+    "pos": 30318
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "700_5_3_7|",
+    "original": "Fucktoy: <span id=\"statsrapetrait\" @class=\"$rapetrait is 1 ? 'green' : 'red'\"><<= _traitValue[$_traits[\"rape\"].toString()]>></span> |",
+    "translation": "",
+    "pos": 30438
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "701_5_3_7|",
+    "original": "<<link \"Change\">>",
+    "translation": "",
+    "pos": 30575
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "708_5_3_7|",
+    "original": "<<= _rapetrait>>",
+    "translation": "",
+    "pos": 30792
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "714_5_3_7|",
+    "original": "Bitch: <span id=\"statsbestialitytrait\"  @class=\"$bestialitytrait is 1 ? 'green' : 'red'\"><<= _traitValue[$_traits[\"bestiality\"].toString()]>></span> |",
+    "translation": "",
+    "pos": 30906
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "715_5_3_7|",
+    "original": "<<link \"Change\">>",
+    "translation": "",
+    "pos": 31060
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "722_5_3_7|",
+    "original": "<<= _bestialitytrait>>",
+    "translation": "",
+    "pos": 31313
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "728_5_3_7|",
+    "original": "Prey: <span id=\"statstentacletrait\" @class=\"$tentacletrait is 1 ? 'green' : 'red'\"><<= _traitValue[$_traits[\"tentacle\"].toString()]>></span> |",
+    "translation": "",
+    "pos": 31445
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "729_5_3_7|",
+    "original": "<<link \"Change\">>",
+    "translation": "",
+    "pos": 31591
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "736_5_3_7|",
+    "original": "<<= _tentacletrait>>",
+    "translation": "",
+    "pos": 31832
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "742_5_3_7|",
+    "original": "Tasty: <span id=\"statsvoretrait\" @class=\"$voretrait is 1 ? 'green' : 'red'\"><<= _traitValue[$_traits[\"vore\"].toString()]>></span> |",
+    "translation": "",
+    "pos": 31958
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "743_5_3_7|",
+    "original": "<<link \"Change\">>",
+    "translation": "",
+    "pos": 32093
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "750_5_3_7|",
+    "original": "<<= _voretrait>>",
+    "translation": "",
+    "pos": 32310
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "756_5_3_7|",
+    "original": "Milk Addict: <span id=\"statsmilkdranktrait\" @class=\"$milkdranktrait is 1 ? 'green' : 'red'\"><<= _traitValue[$_traits[\"milkdrank\"].toString()]>></span> |",
+    "translation": "",
+    "pos": 32424
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "757_5_3_7|",
+    "original": "<<link \"Change\">>",
+    "translation": "",
+    "pos": 32580
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "764_5_3_7|",
+    "original": "<<= _milkdranktrait>>",
+    "translation": "",
+    "pos": 32827
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "770_5_3_7|",
+    "original": "Lustful: <span id=\"statslustful\" @class=\"$backgroundTraits.includes('lustful') is true ? 'green' : 'red'\"><<= $backgroundTraits.includes(\"lustful\") is true ? \"On\" : \"Off\">></span> |",
+    "translation": "",
+    "pos": 32956
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "771_5_3_7|",
+    "original": "<<link \"Change\">>",
+    "translation": "",
+    "pos": 33141
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "778_5_3_7|",
+    "original": "<<set _lustful to $backgroundTraits.includes(\"lustful\") is true ? \"On\" : \"Off\">>",
+    "translation": "",
+    "pos": 33526
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "779_5_3_7|",
+    "original": "<<= _lustful>>",
+    "translation": "",
+    "pos": 33612
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "785_5_3_7|",
+    "original": "Crossdresser: <span id=\"statscrossdresser\" @class=\"$backgroundTraits.includes('crossdresser') is true ? 'green' : 'red'\"><<= $backgroundTraits.includes(\"crossdresser\") is true ? \"On\" : \"Off\">></span> |",
+    "translation": "",
+    "pos": 33720
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "786_5_3_7|",
+    "original": "<<link \"Change\">>",
+    "translation": "",
+    "pos": 33925
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "793_5_3_7|",
+    "original": "<<set _crossdresser to $backgroundTraits.includes(\"crossdresser\") is true ? \"On\" : \"Off\">>",
+    "translation": "",
+    "pos": 34283
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "794_5_3_7|",
+    "original": "<<= _crossdresser>>",
+    "translation": "",
+    "pos": 34379
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "800_5_3_7|",
+    "original": "Green Thumb: <span id=\"statsgreenthumb\" @class=\"$backgroundTraits.includes('greenthumb') is true ? 'green' : 'red'\"><<= $backgroundTraits.includes(\"greenthumb\")is true ? \"On\" : \"Off\">></span> |",
+    "translation": "",
+    "pos": 34502
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "801_5_3_7|",
+    "original": "<<link \"Change\">>",
+    "translation": "",
+    "pos": 34699
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "808_5_3_7|",
+    "original": "<<set _greenthumb to $backgroundTraits.includes(\"greenthumb\") is true ? \"On\" : \"Off\">>",
+    "translation": "",
+    "pos": 34943
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "809_5_3_7|",
+    "original": "<<= _greenthumb>>",
+    "translation": "",
+    "pos": 35035
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "815_5_3_7|",
+    "original": "Asphyxiophilia: <span id=\"statschoke\" @class=\"$choketrait is 1 ? 'green' : 'red'\"><<= _traitValue[$_traits[\"choke\"].toString()]>></span> |",
+    "translation": "",
+    "pos": 35152
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "816_5_3_7|",
+    "original": "<<link \"Change\">>",
+    "translation": "",
+    "pos": 35294
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "823_5_3_7|",
+    "original": "<<= _choketrait>>",
+    "translation": "",
+    "pos": 35511
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "829_5_3_7|",
+    "original": "Plant Lover: <span id=\"statsplantlover\" @class=\"$backgroundTraits.includes('plantlover') is true ? 'green' : 'red'\"><<= $backgroundTraits.includes(\"plantlover\")is true ? \"On\" : \"Off\">></span> |",
+    "translation": "",
+    "pos": 35623
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "830_5_3_7|",
+    "original": "<<link \"Change\">>",
+    "translation": "",
+    "pos": 35820
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "841_5_3_7|",
+    "original": "<<set _plantlover to $backgroundTraits.includes(\"plantlover\") is true ? \"On\" : \"Off\">>",
+    "translation": "",
+    "pos": 36203
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "842_5_3_7|",
+    "original": "<<= _plantlover>>",
+    "translation": "",
+    "pos": 36295
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "850_5_3_7|",
+    "original": "<div class=\"settingsHeader options\">Fame</div>",
+    "translation": "",
+    "pos": 36453
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "854_5_3_7|",
+    "original": "<span class=\"gold\">Negative Fame</span>",
+    "translation": "",
+    "pos": 36731
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "856_5_3_7|",
+    "original": "<<link \"Set all to 0\">>",
+    "translation": "",
+    "pos": 36782
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "864_5_3_7|",
+    "original": "<<link \"Set all to max\">>",
+    "translation": "",
+    "pos": 36993
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "872_5_3_7|",
+    "original": "<span id=\"cheatsNegative\">",
+    "translation": "",
+    "pos": 37216
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "876_5_3_7|",
+    "original": "<span class=\"gold\">Positive Fame</span>",
+    "translation": "",
+    "pos": 37297
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "878_5_3_7|",
+    "original": "<<link \"Set all to 0\">>",
+    "translation": "",
+    "pos": 37348
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "886_5_3_7|",
+    "original": "<<link \"Set all to max\">>",
+    "translation": "",
+    "pos": 37559
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "894_5_3_7|",
+    "original": "<span id=\"cheatsPositive\">",
+    "translation": "",
+    "pos": 37782
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "899_5_3_7|",
+    "original": "<span class=\"gold\">Crime</span>",
+    "translation": "",
+    "pos": 37899
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "901_5_3_7|",
+    "original": "<<link \"Set all to 0\">>",
+    "translation": "",
+    "pos": 37942
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "909_5_3_7|",
+    "original": "<<link \"Set all to max\">>",
+    "translation": "",
+    "pos": 38189
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "918_5_3_7|",
+    "original": "<span id=\"cheatsCrime\">",
+    "translation": "",
+    "pos": 38452
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "922_5_3_7|",
+    "original": "<span class=\"gold\">Crime Events</span>",
+    "translation": "",
+    "pos": 38527
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "924_5_3_7|",
+    "original": "<span id=\"statscrimeevents\"><<listCrimeCheats>></span>",
+    "translation": "",
+    "pos": 38577
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "925_5_3_7|",
+    "original": "<<link \"Clear Crime events\">><<crimeClearEvent \"all\">><<replace #statscrimeevents>><<listCrimeCheats>><</replace>><</link>>",
+    "translation": "",
+    "pos": 38635
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "931_5_3_7|",
+    "original": "<<numberStepper \"Milk Amount\" $milk_amount \"milk_amount\" {",
+    "translation": "",
+    "pos": 38817
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "934_5_3_7|",
+    "original": "valueFormat: (value, percentage) => `<b>${Math.round(percentage)}%</b> (${Math.round(value)}ml)`",
+    "translation": "",
+    "pos": 38911
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "937_5_3_7|",
+    "original": "<<numberStepper \"Semen Amount\" $semen_amount \"semen_amount\" {",
+    "translation": "",
+    "pos": 39042
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "940_5_3_7|",
+    "original": "valueFormat: (value, percentage) => `<b>${Math.round(percentage)}%</b> (${Math.round(value)}ml)`",
+    "translation": "",
+    "pos": 39143
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "947_5_3_7|",
+    "original": "<div class=\"settingsHeader options\">Player</div>",
+    "translation": "",
+    "pos": 39334
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "949_5_3_7|",
+    "original": "<span class=\"gold\">Hair Length</span>",
+    "translation": "",
+    "pos": 39425
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "952_5_3_7|",
+    "original": "Hair cheats are disabled while at the hairdressers.",
+    "translation": "",
+    "pos": 39517
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "955_5_3_7|",
+    "original": "<<numberStepper \"Hair length\" $hairlength {max: 1000, callback: value => {V.hairlength = value; Wikifier.wikifyEval(\"<<calchairlengthstage>><<updatesidebarimg>>\")}}>>",
+    "translation": "",
+    "pos": 39598
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "956_5_3_7|",
+    "original": "<<numberStepper \"Fringe length\" $fringelength {max: 1000, callback: value => {V.fringelength = value; Wikifier.wikifyEval(\"<<calchairlengthstage>><<updatesidebarimg>>\")}}>>",
+    "translation": "",
+    "pos": 39769
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "960_5_3_7|",
+    "original": "<span class=\"gold\">Natural Hair Colour (DEBUG)</span>",
+    "translation": "",
+    "pos": 40032
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "965_5_3_7|",
+    "original": "<label><span @class=\"setup.colours.hair[_i].csstext\"><<= setup.colours.hair[_i].name_cap>></span> <<radiovar \"$naturalhaircolour\" setup.colours.hair[_i].variable>> <<updatesidebarimg>><</radiovar>></label>",
+    "translation": "",
+    "pos": 40254
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "974_5_3_7|",
+    "original": "<span class=\"gold\">Hair Dye</span>",
+    "translation": "",
+    "pos": 40612
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "975_5_3_7|",
+    "original": "<label>None <<radiovar \"$haircolour\" $naturalhaircolour>> <<updatesidebarimg>><</radiovar>></label>",
+    "translation": "",
+    "pos": 40652
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "978_5_3_7|",
+    "original": "| <label><span @class=\"setup.colours.hair[_i].csstext\"><<= setup.colours.hair[_i].name_cap>></span> <<radiovar \"$haircolour\" setup.colours.hair[_i].variable>> <<updatesidebarimg>><</radiovar>></label>",
+    "translation": "",
+    "pos": 40857
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "982_5_3_7|",
+    "original": "Two-tone:",
+    "translation": "",
+    "pos": 41101
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "983_5_3_7|",
+    "original": "<label>Enable <<radiovar \"$hairColourStyle\" \"gradient\">> <<updatesidebarimg>><</radiovar>></label>",
+    "translation": "",
+    "pos": 41116
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "984_5_3_7|",
+    "original": "<label>Disable <<radiovar \"$hairColourStyle\" \"simple\">> <<updatesidebarimg>><</radiovar>></label>",
+    "translation": "",
+    "pos": 41220
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "986_5_3_7|",
+    "original": "Two-tone style: <<listbox \"$hairColourGradient.style\" autoselect>>",
+    "translation": "",
+    "pos": 41333
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "987_5_3_7|",
+    "original": "<<option \"Low Ombré\" \"low-ombre\">>",
+    "translation": "",
+    "pos": 41408
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "988_5_3_7|",
+    "original": "<<option \"High Ombré\" \"high-ombre\">>",
+    "translation": "",
+    "pos": 41451
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "989_5_3_7|",
+    "original": "<<option \"Split\" \"split\">>",
+    "translation": "",
+    "pos": 41496
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "990_5_3_7|",
+    "original": "<<option \"Face-framing highlights\" \"face-frame\">>",
+    "translation": "",
+    "pos": 41531
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "996_5_3_7|",
+    "original": "<span class=\"gold\">Hair Fringe Dye</span>",
+    "translation": "",
+    "pos": 41683
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "997_5_3_7|",
+    "original": "<label>None <<radiovar \"$hairfringecolour\" $naturalhaircolour>> <<updatesidebarimg>><</radiovar>></label>",
+    "translation": "",
+    "pos": 41730
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1000_5_3_7|",
+    "original": "| <label><span @class=\"setup.colours.hair[_i].csstext\"><<= setup.colours.hair[_i].name_cap>></span> <<radiovar \"$hairfringecolour\" setup.colours.hair[_i].variable>> <<updatesidebarimg>><</radiovar>></label>",
+    "translation": "",
+    "pos": 41941
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1004_5_3_7|",
+    "original": "Two-tone:",
+    "translation": "",
+    "pos": 42191
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1005_5_3_7|",
+    "original": "<label>Enable <<radiovar \"$hairFringeColourStyle\" \"gradient\">> <<updatesidebarimg>><</radiovar>></label>",
+    "translation": "",
+    "pos": 42206
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1006_5_3_7|",
+    "original": "<label>Disable <<radiovar \"$hairFringeColourStyle\" \"simple\">> <<updatesidebarimg>><</radiovar>></label>",
+    "translation": "",
+    "pos": 42316
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1008_5_3_7|",
+    "original": "Two-tone style: <<listbox \"$hairFringeColourGradient.style\" autoselect>>",
+    "translation": "",
+    "pos": 42435
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1009_5_3_7|",
+    "original": "<<option \"Low Ombré\" \"low-ombre\">>",
+    "translation": "",
+    "pos": 42516
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1010_5_3_7|",
+    "original": "<<option \"High Ombré\" \"high-ombre\">>",
+    "translation": "",
+    "pos": 42559
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1011_5_3_7|",
+    "original": "<<option \"Split\" \"split\">>",
+    "translation": "",
+    "pos": 42604
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1012_5_3_7|",
+    "original": "<<option \"Face-framing highlights\" \"face-frame\">>",
+    "translation": "",
+    "pos": 42639
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1020_5_3_7|",
+    "original": "<span class=\"gold\">Eye Colour</span>",
+    "translation": "",
+    "pos": 42799
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1026_5_3_7|",
+    "original": "<label><span @class=\"setup.colours.eyes[_i].csstext\">",
+    "translation": "",
+    "pos": 42997
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1027_5_3_7|",
+    "original": "<<= setup.colours.eyes[_i].name>></span>",
+    "translation": "",
+    "pos": 43057
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1036_5_3_7|",
+    "original": "<span class=\"gold\">Freckles</span>",
+    "translation": "",
+    "pos": 43322
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1038_5_3_7|",
+    "original": "<label>Enabled <<radiobutton \"$player.freckles\" true autocheck>></label>",
+    "translation": "",
+    "pos": 43368
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1039_5_3_7|",
+    "original": "| <label>Disabled <<radiobutton \"$player.freckles\" false `!$player.freckles ? \"checked\" : \"\"`>></label>",
+    "translation": "",
+    "pos": 43444
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1042_5_3_7|",
+    "original": "<span class=\"gold\">Breast Size</span>",
+    "translation": "",
+    "pos": 43595
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1046_5_3_7|",
+    "original": "wikifier(\"<<updatesidebarimg false>>\");",
+    "translation": "",
+    "pos": 43906
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1049_5_3_7|",
+    "original": "return T.breastsText[v];",
+    "translation": "",
+    "pos": 43976
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1054_5_3_7|",
+    "original": "<span class=\"gold\">Bottom Size</span>",
+    "translation": "",
+    "pos": 44030
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1058_5_3_7|",
+    "original": "wikifier(\"<<updatesidebarimg false>>\");",
+    "translation": "",
+    "pos": 44299
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1061_5_3_7|",
+    "original": "return T.buttsText[v];",
+    "translation": "",
+    "pos": 44369
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1067_5_3_7|",
+    "original": "<span class=\"gold\">Penis Size</span>",
+    "translation": "",
+    "pos": 44452
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1071_5_3_7|",
+    "original": "wikifier(\"<<updatesidebarimg false>>\");",
+    "translation": "",
+    "pos": 44683
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1074_5_3_7|",
+    "original": "return T.penisText[v + 2];",
+    "translation": "",
+    "pos": 44753
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1079_5_3_7|",
+    "original": "<span class=\"description\">Ball Size (DEBUG):",
+    "translation": "",
+    "pos": 44831
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1080_5_3_7|",
+    "original": "<<link \"<\">><<set $ballssize -= 1>><<clamp>><<replace \"#statsballssize\">><<= Math.trunc($ballssize)>><</replace>> <<updatesidebarimg>><</link>> |",
+    "translation": "",
+    "pos": 44881
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1081_5_3_7|",
+    "original": "<span id=\"statsballssize\"><<= Math.trunc($ballssize)>></span>",
+    "translation": "",
+    "pos": 45032
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1082_5_3_7|",
+    "original": "| <<link \">\">><<set $ballssize += 1>><<clamp>><<replace \"#statsballssize\">><<= Math.trunc($ballssize)>><</replace>> <<updatesidebarimg>><</link>></span>",
+    "translation": "",
+    "pos": 45099
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1086_5_3_7|",
+    "original": "Cover nudity (only if embarrassed): <<checkbox \"$dontHide\" true false autocheck>>",
+    "translation": "",
+    "pos": 45290
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1090_5_3_7|",
+    "original": "<span class=\"gold\">Sensitivity</span>",
+    "translation": "",
+    "pos": 45515
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1091_5_3_7|",
+    "original": "<<numberStepper \"Mouth sensitivity\" $mouthsensitivity \"mouthsensitivity\" {",
+    "translation": "",
+    "pos": 45556
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1093_5_3_7|",
+    "original": "valueFormat: value => `<b>${round(value, 2)}</b> (${sensitivityString(value)})`",
+    "translation": "",
+    "pos": 45681
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1095_5_3_7|",
+    "original": "<<numberStepper \"Breast sensitivity\" $breastsensitivity \"breastsensitivity\" {",
+    "translation": "",
+    "pos": 45771
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1097_5_3_7|",
+    "original": "valueFormat: value => `<b>${round(value, 2)}</b> (${sensitivityString(value)})`",
+    "translation": "",
+    "pos": 45899
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1099_5_3_7|",
+    "original": "<<numberStepper \"Genital sensitivity\" $genitalsensitivity \"genitalsensitivity\" {",
+    "translation": "",
+    "pos": 45989
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1101_5_3_7|",
+    "original": "valueFormat: value => `<b>${round(value, 2)}</b> (${sensitivityString(value)})`",
+    "translation": "",
+    "pos": 46120
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1103_5_3_7|",
+    "original": "<<numberStepper \"Bottom sensitivity\" $bottomsensitivity \"bottomsensitivity\" {",
+    "translation": "",
+    "pos": 46210
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1105_5_3_7|",
+    "original": "valueFormat: value => `<b>${round(value, 2)}</b> (${sensitivityString(value)})`",
+    "translation": "",
+    "pos": 46338
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1112_5_3_7|",
+    "original": "<div class=\"settingsHeader options\">Parasites</div>",
+    "translation": "",
+    "pos": 46513
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1114_5_3_7|",
+    "original": "<<set _penis to $player.penisExist ? \"penis\" : \"clit\">>",
+    "translation": "",
+    "pos": 46609
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1124_5_3_7|",
+    "original": "<div class=\"red\">Unable to remove ear slimes while pregnant as a male.</div>",
+    "translation": "",
+    "pos": 47256
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1134_5_3_7|",
+    "original": "<div class=\"settingsHeader options\">Fluids</div>",
+    "translation": "",
+    "pos": 47554
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1141_5_3_7|",
+    "original": "<div class=\"settingsHeader options\">Transformations</div>",
+    "translation": "",
+    "pos": 47736
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1143_5_3_7|",
+    "original": "<span class=\"gold\">Transformation Types</span>",
+    "translation": "",
+    "pos": 47832
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1145_5_3_7|",
+    "original": "<span class=\"description\">You may only have one animal and one divine transformation at a time.</span>",
+    "translation": "",
+    "pos": 47890
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1147_5_3_7|",
+    "original": "<<tficon \"angel\">>Angel: <<link \"Set\">><<angelTransform>><<updatesidebarimg>><</link>> | <<link \"Clear\">><<angelTransform 99>><<updatesidebarimg>><</link>><br>",
+    "translation": "",
+    "pos": 48004
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1148_5_3_7|",
+    "original": "<<tficon \"fallenangel\">>Fallen Angel: <<link \"Set\">><<clearDivineTransformations>><<set $specialTransform to 1>>",
+    "translation": "",
+    "pos": 48167
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1149_5_3_7|",
+    "original": "<<set $fallenangel to 2>><<set $transformationParts.fallenAngel.halo to ($transformationParts.angel.halo is \"traditional\" ? \"traditional\" : \"default\")>><<set $transformationParts.fallenAngel.wings to ($transformationParts.angel.wings is \"classic\" ? \"classic\" : \"default\")>><<if $transformationParts.bird.wings is \"default\">><<set $transformationParts.fallenAngel.wings to \"hidden\">><</if>><<updatesidebarimg>><</link>> | <<link \"Clear\">><<fallenButNotOut 99>><<updatesidebarimg>><</link>><br>",
+    "translation": "",
+    "pos": 48283
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1150_5_3_7|",
+    "original": "<<tficon \"demon\">>Demon: <<link \"Set\">><<demonTransform>><<updatesidebarimg>><</link>> | <<link \"Clear\">><<demonTransform 99>><<updatesidebarimg>><</link>><br>",
+    "translation": "",
+    "pos": 48779
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1151_5_3_7|",
+    "original": "<<tficon \"wolf\">>Wolf: <<link \"Set\">><<wolfTransform>><<updatesidebarimg>><</link>> | <<link \"Clear\">><<wolfTransform 99>><<updatesidebarimg>><</link>><br>",
+    "translation": "",
+    "pos": 48942
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1152_5_3_7|",
+    "original": "<<tficon \"cat\">>Cat: <<link \"Set\">><<catTransform>><<updatesidebarimg>><</link>> | <<link \"Clear\">><<catTransform 99>><<updatesidebarimg>><</link>><br>",
+    "translation": "",
+    "pos": 49101
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1153_5_3_7|",
+    "original": "<<tficon \"cow\">>Cow: <<link \"Set\">><<cowTransform>><<updatesidebarimg>><</link>> | <<link \"Clear\">><<cowTransform 99>><<updatesidebarimg>><</link>><br>",
+    "translation": "",
+    "pos": 49256
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1154_5_3_7|",
+    "original": "<<tficon \"harpy\">>Bird: <<link \"Set\">><<harpyTransform>><<updatesidebarimg>><</link>> | <<link \"Clear\">><<harpyTransform 99>><<updatesidebarimg>><</link>><br>",
+    "translation": "",
+    "pos": 49411
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1155_5_3_7|",
+    "original": "<<tficon \"fox\">>Fox: <<link \"Set\">><<foxTransform>><<updatesidebarimg>><</link>> | <<link \"Clear\">><<foxTransform 99>><<updatesidebarimg>><</link>>",
+    "translation": "",
+    "pos": 49573
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1158_5_3_7|",
+    "original": "<span class=\"gold\">Transformation Points</span>",
+    "translation": "",
+    "pos": 49766
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1160_5_3_7|",
+    "original": "<span class=\"description\">Angel and Cat require 50 points to reach their full transformation, while all others require 30 points. Fallen Angel requires 30 points for Acceptance.</span>",
+    "translation": "",
+    "pos": 49823
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1163_5_3_7|",
+    "original": "<<set _name to (_tf is \"fallen\" ? \"Fallen Angel\" : _tf)>>",
+    "translation": "",
+    "pos": 50117
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1164_5_3_7|",
+    "original": "<<set _title to `<<tficon _tf>> ${toTitleCase(_name)}`>>",
+    "translation": "",
+    "pos": 50179
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1166_5_3_7|",
+    "original": "<<numberStepper _title `V[T.varName]` {",
+    "translation": "",
+    "pos": 50278
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1168_5_3_7|",
+    "original": "V[arr[0]] = value;",
+    "translation": "",
+    "pos": 50357
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1169_5_3_7|",
+    "original": "Wikifier.wikifyEval(\"<<transformationAlteration>><<updatesidebarimg>>\");",
+    "translation": "",
+    "pos": 50382
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1171_5_3_7|",
+    "original": "max: 100, percentage: false, colorArr: [\"--teal\", \"--purple\"], values: [T.varName]",
+    "translation": "",
+    "pos": 50468
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1187_5_3_7|",
+    "original": "<div class=\"settingsHeader options\">NPC Virginity</div>",
+    "translation": "",
+    "pos": 50829
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1189_5_3_7|",
+    "original": "Reset the following NPC's virginities to their starting values:",
+    "translation": "",
+    "pos": 50927
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1191_5_3_7|",
+    "original": "<<listbox \"_npcId\" autoselect>>",
+    "translation": "",
+    "pos": 51002
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1192_5_3_7|",
+    "original": "<<optionsfrom $NPCNameList>>",
+    "translation": "",
+    "pos": 51038
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1195_5_3_7|",
+    "original": "<<link \"Confirm\">>",
+    "translation": "",
+    "pos": 51098
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1203_5_3_7|",
+    "original": "<<replace \"#npcvirgin\">><br><<= _npcId>>'s virginities have been restored.<</replace>>",
+    "translation": "",
+    "pos": 51420
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1205_5_3_7|",
+    "original": "<span id=\"npcvirgin\"></span>",
+    "translation": "",
+    "pos": 51523
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1210_5_3_7|",
+    "original": "<div class=\"settingsHeader options\">Primary Relationships</div>",
+    "translation": "",
+    "pos": 51605
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1212_5_3_7|",
+    "original": "<span class=\"gold\">Robin</span>",
+    "translation": "",
+    "pos": 51707
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1213_5_3_7|",
+    "original": "<<numberStepper \"<<symbol love>> Love\" `C.npc.Robin.love` { callback: value => { C.npc.Robin.love = value } }>>",
+    "translation": "",
+    "pos": 51742
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1214_5_3_7|",
+    "original": "<<numberStepper \"<<symbol lust>> Lust\" `C.npc.Robin.lust` { callback: value => { C.npc.Robin.lust = value } }>>",
+    "translation": "",
+    "pos": 51857
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1215_5_3_7|",
+    "original": "<<numberStepper \"<<symbol confidence>> Confidence\" `C.npc.Robin.dom` { callback: value => { C.npc.Robin.dom = value } }>>",
+    "translation": "",
+    "pos": 51972
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1216_5_3_7|",
+    "original": "<<numberStepper \"<<symbol trauma>> Trauma\" `C.npc.Robin.trauma` { callback: value => { C.npc.Robin.trauma = value }, reverse: true }>>",
+    "translation": "",
+    "pos": 52097
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1219_5_3_7|",
+    "original": "<span class=\"gold\">Whitney</span>",
+    "translation": "",
+    "pos": 52279
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1220_5_3_7|",
+    "original": "<<numberStepper \"<<symbol love>> Love\" `C.npc.Whitney.love` { callback: value => { C.npc.Whitney.love = value }, max: 30 }>>",
+    "translation": "",
+    "pos": 52316
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1221_5_3_7|",
+    "original": "<<numberStepper \"<<symbol lust>> Lust\" `C.npc.Whitney.lust` { callback: value => { C.npc.Whitney.lust = value } }>>",
+    "translation": "",
+    "pos": 52444
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1222_5_3_7|",
+    "original": "<<numberStepper \"<<symbol dominance>> Dominance\" `C.npc.Whitney.dom` { callback: value => { C.npc.Whitney.dom = value }, max: 20 }>>",
+    "translation": "",
+    "pos": 52563
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1225_5_3_7|",
+    "original": "<span class=\"gold\">Eden</span>",
+    "translation": "",
+    "pos": 52743
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1226_5_3_7|",
+    "original": "<<numberStepper \"<<symbol love>> Love\" `C.npc.Eden.love` { callback: value => { C.npc.Eden.love = value }, max: 200 }>>",
+    "translation": "",
+    "pos": 52777
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1227_5_3_7|",
+    "original": "<<numberStepper \"<<symbol lust>> Lust\" `C.npc.Eden.lust` { callback: value => { C.npc.Eden.lust = value } }>>",
+    "translation": "",
+    "pos": 52900
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1228_5_3_7|",
+    "original": "<<numberStepper \"<<symbol dominance>> Dominance\" `C.npc.Eden.dom` { callback: value => { C.npc.Eden.dom = value }, max: 150}>>",
+    "translation": "",
+    "pos": 53013
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1231_5_3_7|",
+    "original": "<span class=\"gold\">Kylar</span>",
+    "translation": "",
+    "pos": 53187
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1232_5_3_7|",
+    "original": "<<numberStepper \"<<symbol love>> Love\" `C.npc.Kylar.love` { callback: value => { C.npc.Kylar.love = value } }>>",
+    "translation": "",
+    "pos": 53222
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1233_5_3_7|",
+    "original": "<<numberStepper \"<<symbol lust>> Lust\" `C.npc.Kylar.lust` { callback: value => { C.npc.Kylar.lust = value } }>>",
+    "translation": "",
+    "pos": 53337
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1234_5_3_7|",
+    "original": "<<numberStepper \"<<symbol jealousy>> Jealousy\" `C.npc.Kylar.rage` { callback: value => { C.npc.Kylar.rage = value }, reverse: true }>>",
+    "translation": "",
+    "pos": 53452
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1237_5_3_7|",
+    "original": "<span class=\"gold\">Avery</span>",
+    "translation": "",
+    "pos": 53634
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1238_5_3_7|",
+    "original": "<<numberStepper \"<<symbol love>> Love\" `C.npc.Avery.love` { callback: value => { C.npc.Avery.love = value } }>>",
+    "translation": "",
+    "pos": 53669
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1239_5_3_7|",
+    "original": "<<numberStepper \"<<symbol rage>> Rage\" `C.npc.Avery.rage` { callback: value => { C.npc.Avery.rage = value }, reverse: true }>>",
+    "translation": "",
+    "pos": 53784
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1243_5_3_7|",
+    "original": "<span class=\"gold\">Alex</span>",
+    "translation": "",
+    "pos": 53959
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1244_5_3_7|",
+    "original": "<<numberStepper \"<<symbol love>> Love\" `C.npc.Alex.love` { callback: value => { C.npc.Alex.love = value } }>>",
+    "translation": "",
+    "pos": 53993
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1245_5_3_7|",
+    "original": "<<numberStepper \"<<symbol lust>> Lust\" `C.npc.Alex.lust` { callback: value => { C.npc.Alex.lust = value } }>>",
+    "translation": "",
+    "pos": 54106
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1246_5_3_7|",
+    "original": "<<numberStepper \"<<symbol dominance>> Dominance\" `C.npc.Alex.dom` { callback: value => { C.npc.Alex.dom = value }, min: -50 }>>",
+    "translation": "",
+    "pos": 54219
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1249_5_3_7|",
+    "original": "<span class=\"gold\">Great Hawk</span>",
+    "translation": "",
+    "pos": 54394
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1250_5_3_7|",
+    "original": "<<numberStepper \"<<symbol love>> Love\" `C.npc[\"Great Hawk\"].love` { callback: value => { C.npc[\"Great Hawk\"].love = value } }>>",
+    "translation": "",
+    "pos": 54434
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1251_5_3_7|",
+    "original": "<<numberStepper \"<<symbol dominance>> Dominance\" `C.npc[\"Great Hawk\"].dom` { callback: value => { C.npc[\"Great Hawk\"].dom = value } }>>",
+    "translation": "",
+    "pos": 54565
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1254_5_3_7|",
+    "original": "<span class=\"gold\">Black Wolf</span>",
+    "translation": "",
+    "pos": 54748
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1255_5_3_7|",
+    "original": "<<numberStepper \"<<symbol love>> Love\" `C.npc[\"Black Wolf\"].love` { callback: value => { C.npc[\"Black Wolf\"].love = value }, max: 150 }>>",
+    "translation": "",
+    "pos": 54788
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1258_5_3_7|",
+    "original": "<span class=\"gold\">Sydney</span>",
+    "translation": "",
+    "pos": 54977
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1259_5_3_7|",
+    "original": "<<set _purity to C.npc.Sydney.purity gt 0 ? \"purity\" : \"corruption\">>",
+    "translation": "",
+    "pos": 55013
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1260_5_3_7|",
+    "original": "<<numberStepper \"<<symbol love>> Love\" `C.npc.Sydney.love` { callback: value => { C.npc.Sydney.love = value }, max: 150 }>>",
+    "translation": "",
+    "pos": 55086
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1261_5_3_7|",
+    "original": "<<numberStepper \"<<symbol lust>> Lust\" `C.npc.Sydney.lust` { callback: value => { C.npc.Sydney.lust = value } }>>",
+    "translation": "",
+    "pos": 55213
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1262_5_3_7|",
+    "original": "<span id=\"sydneypurity\">",
+    "translation": "",
+    "pos": 55330
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1265_5_3_7|",
+    "original": "<span id=\"sydneydesc\" class=\"description\">",
+    "translation": "",
+    "pos": 55390
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1266_5_3_7|",
+    "original": "Setting Sydney's <<= _purity is \"purity\" ? \"purity to below 0%\" : \"corruption to above 0%\">> will switch it to <<= _purity is \"purity\" ? \"corruption\" : \"purity\">>.",
+    "translation": "",
+    "pos": 55437
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1272_5_3_7|",
+    "original": "<div class=\"settingsHeader options\">People of Interest</div>",
+    "translation": "",
+    "pos": 55665
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1274_5_3_7|",
+    "original": "<span class=\"gold\">Mason</span>",
+    "translation": "",
+    "pos": 55764
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1275_5_3_7|",
+    "original": "<<numberStepper \"<<symbol love>> Love\" `C.npc.Mason.love` { callback: value => { C.npc.Mason.love = value }, max: 50 }>>",
+    "translation": "",
+    "pos": 55799
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1276_5_3_7|",
+    "original": "<<numberStepper \"<<symbol lust>> Lust\" `C.npc.Mason.lust` { callback: value => { C.npc.Mason.lust = value }, max: 100 }>>",
+    "translation": "",
+    "pos": 55923
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1279_5_3_7|",
+    "original": "<span class=\"gold\">Zephyr</span>",
+    "translation": "",
+    "pos": 56092
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1280_5_3_7|",
+    "original": "<<numberStepper \"<<symbol love>> Love\" `C.npc.Zephyr.love` { callback: value => { C.npc.Zephyr.love = value } }>>",
+    "translation": "",
+    "pos": 56128
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1281_5_3_7|",
+    "original": "<<numberStepper \"<<symbol lust>> Lust\" `C.npc.Zephyr.lust` { callback: value => { C.npc.Zephyr.lust = value }, max: 50 }>>",
+    "translation": "",
+    "pos": 56245
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1284_5_3_7|",
+    "original": "<span class=\"gold\">Teachers</span>",
+    "translation": "",
+    "pos": 56415
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1285_5_3_7|",
+    "original": "<<numberStepper \"<<symbol love>> Sirris Love\" `C.npc.Sirris.love` { callback: value => { C.npc.Sirris.love = value } }>>",
+    "translation": "",
+    "pos": 56453
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1286_5_3_7|",
+    "original": "<<numberStepper \"<<symbol love>> Doren Love\" `C.npc.Doren.love` { callback: value => { C.npc.Doren.love = value } }>>",
+    "translation": "",
+    "pos": 56577
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1287_5_3_7|",
+    "original": "<<numberStepper \"<<symbol love>> Leighton Love\" `C.npc.Leighton.love` { callback: value => { C.npc.Leighton.love = value } }>>",
+    "translation": "",
+    "pos": 56698
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1288_5_3_7|",
+    "original": "<<numberStepper \"<<symbol love>> River Love\" `C.npc.River.love` { callback: value => { C.npc.River.love = value }, max: 50 }>>",
+    "translation": "",
+    "pos": 56828
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1289_5_3_7|",
+    "original": "<<numberStepper \"<<symbol love>> Winter Love\" `C.npc.Winter.love` { callback: value => { C.npc.Winter.love = value }, max: 50 }>>",
+    "translation": "",
+    "pos": 56958
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1292_5_3_7|",
+    "original": "<span class=\"gold\">Other Named NPCs</span>",
+    "translation": "",
+    "pos": 57135
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1293_5_3_7|",
+    "original": "<<numberStepper \"<<symbol love>> Briar Love\" `C.npc.Briar.love` { callback: value => { C.npc.Briar.love = value } }>>",
+    "translation": "",
+    "pos": 57181
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1294_5_3_7|",
+    "original": "<<numberStepper \"<<symbol love>> Charlie Love\" `C.npc.Charlie.love` { callback: value => { C.npc.Charlie.love = value }, max: 50 }>>",
+    "translation": "",
+    "pos": 57302
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1295_5_3_7|",
+    "original": "<<numberStepper \"<<symbol love>> Darryl Love\" `C.npc.Darryl.love` { callback: value => { C.npc.Darryl.love = value }, max: 50 }>>",
+    "translation": "",
+    "pos": 57438
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1296_5_3_7|",
+    "original": "<<numberStepper \"<<symbol love>> Harper Love\" `C.npc.Harper.love` { callback: value => { C.npc.Harper.love = value } }>>",
+    "translation": "",
+    "pos": 57571
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1297_5_3_7|",
+    "original": "<<numberStepper \"<<symbol love>> Morgan Love\" `C.npc.Morgan.love` { callback: value => { C.npc.Morgan.love = value } }>>",
+    "translation": "",
+    "pos": 57695
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1298_5_3_7|",
+    "original": "<<numberStepper \"<<symbol love>> Niki Love\" `C.npc.Niki.love` { callback: value => { C.npc.Niki.love = value } }>>",
+    "translation": "",
+    "pos": 57819
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1299_5_3_7|",
+    "original": "<<numberStepper \"<<symbol love>> Remy Love\" `C.npc.Remy.love` { callback: value => { C.npc.Remy.love = value } }>>",
+    "translation": "",
+    "pos": 57937
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1300_5_3_7|",
+    "original": "<<numberStepper \"<<symbol love>> Sam Love\" `C.npc.Sam.love` { callback: value => { C.npc.Sam.love = value }, max: 50 }>>",
+    "translation": "",
+    "pos": 58055
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1301_5_3_7|",
+    "original": "<<numberStepper \"<<symbol love>> Wren Love\" `C.npc.Wren.love` { callback: value => { C.npc.Wren.love = value }, max: 50 }>>",
+    "translation": "",
+    "pos": 58179
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1306_5_3_7|",
+    "original": "<div class=\"settingsHeader options\">Reputation</div>",
+    "translation": "",
+    "pos": 58356
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1309_5_3_7|",
+    "original": "<<farmicon>><span class=\"gold\">Farm Status</span>",
+    "translation": "",
+    "pos": 58476
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1310_5_3_7|",
+    "original": "<<numberStepper \"Steeds' Respect\" `V.farm.beasts.horses` { callback: value => { V.farm.beasts.horses = value }, min: -30, max: 30 }>>",
+    "translation": "",
+    "pos": 58530
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1311_5_3_7|",
+    "original": "<<numberStepper \"Pigs' Respect\" `V.farm.beasts.pigs` { callback: value => { V.farm.beasts.pigs = value }, min: -30, max: 30}>>",
+    "translation": "",
+    "pos": 58668
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1312_5_3_7|",
+    "original": "<<numberStepper \"Cattle' Respect\" `V.farm.beasts.cattle` { callback: value => { V.farm.beasts.cattle = value }, min: -30, max: 30 }>>",
+    "translation": "",
+    "pos": 58799
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1313_5_3_7|",
+    "original": "<<numberStepper \"Dogs' Respect\" `V.farm.beasts.dogs` { callback: value => { V.farm.beasts.dogs = value }, min: -30, max: 30 }>>",
+    "translation": "",
+    "pos": 58937
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1316_5_3_7|",
+    "original": "<<farmicon>><span class=\"gold\">Farm Progress</span>",
+    "translation": "",
+    "pos": 59115
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1319_5_3_7|",
+    "original": "You've cleared <span class=\"green\">all</span> of the fields.",
+    "translation": "",
+    "pos": 59211
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1321_5_3_7|",
+    "original": "<span id=\"farmYard\"><<cheatsRep \"farm\">></span>",
+    "translation": "",
+    "pos": 59290
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1325_5_3_7|",
+    "original": "<<numberStepper \"Remy's Encroachment\" `V.farm.aggro` { reverse: true, callback: value => { V.farm.aggro = value; Wikifier.wikifyEval(\"<<replace #farmAggro>><<cheatsRep aggro>><</replace>>\") } }>>",
+    "translation": "",
+    "pos": 59394
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1326_5_3_7|",
+    "original": "<span id=\"farmAggro\"><<cheatsRep \"aggro\">></span>",
+    "translation": "",
+    "pos": 59595
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1331_5_3_7|",
+    "original": "<<wolfcaveicon \"pup\">><span class=\"gold\">Wolf Pack</span>",
+    "translation": "",
+    "pos": 59715
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1334_5_3_7|",
+    "original": "Rank: <span id=\"wolfpackleader\"><<cheatsRep \"wolfpackleader\">></span>",
+    "translation": "",
+    "pos": 59816
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1336_5_3_7|",
+    "original": "<<numberStepper \"Trust\" $wolfpacktrust \"wolfpacktrust\" {max: 30}>>",
+    "translation": "",
+    "pos": 59900
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1337_5_3_7|",
+    "original": "<<numberStepper \"Fear\" $wolfpackfear \"wolfpackfear\" {max: 30}>>",
+    "translation": "",
+    "pos": 59970
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1339_5_3_7|",
+    "original": "<<numberStepper \"Harmony\" $wolfpackharmony \"wolfpackharmony\" {max: 20}>>",
+    "translation": "",
+    "pos": 60069
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1340_5_3_7|",
+    "original": "<<numberStepper \"Ferocity\" $wolfpackferocity \"wolfpackferocity\" {max: 20}>>",
+    "translation": "",
+    "pos": 60146
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1344_5_3_7|",
+    "original": "<<schoolicon \"building\">><span class=\"gold\">School</span>",
+    "translation": "",
+    "pos": 60280
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1345_5_3_7|",
+    "original": "<<numberStepper \"Status\" $cool \"cool\" {max: V.coolmax}>>",
+    "translation": "",
+    "pos": 60341
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1346_5_3_7|",
+    "original": "<<numberStepper \"Delinquency\" $delinquency \"delinquency\" {max: 1000, reverse: true}>>",
+    "translation": "",
+    "pos": 60401
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1349_5_3_7|",
+    "original": "<<numberStepper \"Hermaphrodite Fame\" $schoolrep.herm { callback: value => {V.schoolrep.herm = value; Wikifier.wikifyEval(\"<<replace '#repherm'>><<cheatsRep herm>><</replace>>\")}, max: 5, step: 1, percentage: false, reverse: true, activeButtons: [\"single\", \"minMax\"] }>>",
+    "translation": "",
+    "pos": 60552
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1350_5_3_7|",
+    "original": "<span id=\"repherm\"><<cheatsRep \"herm\">></span>",
+    "translation": "",
+    "pos": 60826
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1352_5_3_7|",
+    "original": "<<numberStepper \"Crossdresser Fame\" $schoolrep.crossdress { callback: value => {V.schoolrep.crossdress = value; Wikifier.wikifyEval(\"<<replace '#repcrossdress'>><<cheatsRep crossdress>><</replace>>\")}, max: 5, step: 1, percentage: false, reverse: true, activeButtons: [\"single\", \"minMax\"] }>>",
+    "translation": "",
+    "pos": 60889
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1353_5_3_7|",
+    "original": "<span id=\"repcrossdress\"><<cheatsRep \"crossdress\">></span>",
+    "translation": "",
+    "pos": 61186
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1359_5_3_7|",
+    "original": "<<asylumicon \"cell\">><span class=\"gold\">Asylum</span>",
+    "translation": "",
+    "pos": 61389
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1360_5_3_7|",
+    "original": "<<numberStepper \"Status\" $asylumstatus \"asylumstatus\">>",
+    "translation": "",
+    "pos": 61448
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1361_5_3_7|",
+    "original": "<<numberStepper \"Suspicion\" $asylumsuspicion \"asylumsuspicion\">>",
+    "translation": "",
+    "pos": 61509
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1363_5_3_7|",
+    "original": "<<policeicon>><span class=\"gold\">Prison</span>",
+    "translation": "",
+    "pos": 61616
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1364_5_3_7|",
+    "original": "<<numberStepper \"Guards\" $prison.guards { callback: value => { V.prison.guards = value } }>>",
+    "translation": "",
+    "pos": 61668
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1365_5_3_7|",
+    "original": "<<numberStepper \"Inmates\" $prison.inmates { callback: value => { V.prison.inmates = value } }>>",
+    "translation": "",
+    "pos": 61766
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1371_5_3_7|",
+    "original": "<<docksicon>><span class=\"gold\">Docks</span>",
+    "translation": "",
+    "pos": 61958
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1372_5_3_7|",
+    "original": "<<numberStepper \"Status\" $dockstatus \"dockstatus\">>",
+    "translation": "",
+    "pos": 62007
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1377_5_3_7|",
+    "original": "<<mericon>><span class=\"gold\">Pirates</span>",
+    "translation": "",
+    "pos": 62147
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1379_5_3_7|",
+    "original": "Rank: <span id=\"pirate_rank\"><<cheatsRep \"pirate_rank\">></span>",
+    "translation": "",
+    "pos": 62205
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1380_5_3_7|",
+    "original": "<<numberStepper \"Status\" $pirate_status \"pirate_status\">>",
+    "translation": "",
+    "pos": 62273
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1385_5_3_7|",
+    "original": "<<poundicon>><span class=\"gold\">Pound</span>",
+    "translation": "",
+    "pos": 62407
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1386_5_3_7|",
+    "original": "<<numberStepper \"Status\" $pound.status { callback: value => { V.pound.status = value } }>>",
+    "translation": "",
+    "pos": 62456
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1387_5_3_7|",
+    "original": "<<numberStepper \"Stray Contentment\" $stray_happiness \"stray_happiness\">>",
+    "translation": "",
+    "pos": 62551
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1391_5_3_7|",
+    "original": "<<homeicon>><span class=\"gold\">Orphanage</span>",
+    "translation": "",
+    "pos": 62682
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1392_5_3_7|",
+    "original": "<<numberStepper \"Hope\" $orphan_hope \"orphan_hope\" {max: 50}>>",
+    "translation": "",
+    "pos": 62733
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1393_5_3_7|",
+    "original": "<<numberStepper \"Rebelliousness\" $orphan_reb \"orphan_reb\" {max: 50}>>",
+    "translation": "",
+    "pos": 62798
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1400_5_3_7|",
+    "original": "<<numberStepper \"<<symbol purity>> Purity\" `C.npc.Sydney.purity` {",
+    "translation": "",
+    "pos": 62959
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1402_5_3_7|",
+    "original": "C.npc.Sydney.purity = value;",
+    "translation": "",
+    "pos": 63054
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1404_5_3_7|",
+    "original": "C.npc.Sydney.corruption = Math.abs(value);",
+    "translation": "",
+    "pos": 63109
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1405_5_3_7|",
+    "original": "value = 0;",
+    "translation": "",
+    "pos": 63157
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1406_5_3_7|",
+    "original": "Wikifier.wikifyEval(\"<<replace '#sydneypurity'>><<sydneyPurity>><</replace>>\");",
+    "translation": "",
+    "pos": 63173
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1409_5_3_7|",
+    "original": "min: -100, max: 100, step: 1, percentage: false,",
+    "translation": "",
+    "pos": 63268
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1410_5_3_7|",
+    "original": "valueFormat: value => `<b>${value}%</b>`",
+    "translation": "",
+    "pos": 63320
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1413_5_3_7|",
+    "original": "<<numberStepper \"<<symbol corruption>> Corruption\" `C.npc.Sydney.corruption` {",
+    "translation": "",
+    "pos": 63379
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1415_5_3_7|",
+    "original": "C.npc.Sydney.corruption = value;",
+    "translation": "",
+    "pos": 63486
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1417_5_3_7|",
+    "original": "C.npc.Sydney.purity = Math.abs(value);",
+    "translation": "",
+    "pos": 63545
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1418_5_3_7|",
+    "original": "value = 0;",
+    "translation": "",
+    "pos": 63589
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1419_5_3_7|",
+    "original": "Wikifier.wikifyEval(\"<<replace '#sydneypurity'>><<sydneyPurity>><</replace>>\");",
+    "translation": "",
+    "pos": 63605
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1422_5_3_7|",
+    "original": "min: -100, max: 50, step: 1, percentage: false, reverse: true, reverseButtons: true,",
+    "translation": "",
+    "pos": 63700
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1423_5_3_7|",
+    "original": "valueFormat: value => `<b>${value*2}%</b>`",
+    "translation": "",
+    "pos": 63788
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1430_5_3_7|",
+    "original": "<<case \"aggro\">>",
+    "translation": "",
+    "pos": 63905
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1432_5_3_7|",
+    "original": "<span class=\"red\">Remy's goons operate in the open, sabotaging the farm and its business.</span>",
+    "translation": "",
+    "pos": 63956
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1434_5_3_7|",
+    "original": "<span class=\"pink\">The farm is being sabotaged, day and night.</span>",
+    "translation": "",
+    "pos": 64090
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1436_5_3_7|",
+    "original": "<span class=\"purple\">The farm is being sabotaged at night.</span>",
+    "translation": "",
+    "pos": 64197
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1438_5_3_7|",
+    "original": "<span class=\"blue\">Something is spooking the beasts of the farm.</span>",
+    "translation": "",
+    "pos": 64300
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1440_5_3_7|",
+    "original": "<span class=\"lblue\">Signs of intrusion have been found around the farm.</span>",
+    "translation": "",
+    "pos": 64409
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1442_5_3_7|",
+    "original": "<span class=\"teal\">Strange people have been seen watching the farm.</span>",
+    "translation": "",
+    "pos": 64524
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1444_5_3_7|",
+    "original": "<span class=\"green\">The farm is peaceful.</span>",
+    "translation": "",
+    "pos": 64615
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1446_5_3_7|",
+    "original": "<<case \"farm\">>",
+    "translation": "",
+    "pos": 64677
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1447_5_3_7|",
+    "original": "One of the fields is being cleared,",
+    "translation": "",
+    "pos": 64696
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1449_5_3_7|",
+    "original": "<span class=\"green\">and is ready for planting!</span>",
+    "translation": "",
+    "pos": 64767
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1451_5_3_7|",
+    "original": "<span class=\"teal\">and is almost ready for planting.</span>",
+    "translation": "",
+    "pos": 64861
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1453_5_3_7|",
+    "original": "<span class=\"lblue\">and is starting to look civilised.</span>",
+    "translation": "",
+    "pos": 64961
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1455_5_3_7|",
+    "original": "<span class=\"blue\">and soil has been exposed in places.</span>",
+    "translation": "",
+    "pos": 65063
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1457_5_3_7|",
+    "original": "<span class=\"purple\">but the tangle remains defiant.</span>",
+    "translation": "",
+    "pos": 65166
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1459_5_3_7|",
+    "original": "<span class=\"pink\">but little progress has been made.</span>",
+    "translation": "",
+    "pos": 65266
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1461_5_3_7|",
+    "original": "<span class=\"red\">but remains a jungle of weeds.</span>",
+    "translation": "",
+    "pos": 65343
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1464_5_3_7|",
+    "original": "| <<farmicon \"clear yard\">><<link \"Clear field\">><<set $farm.clearing to 0>><<replace \"#farmYard\">><<cheatsRep \"farm\">><</replace>><</link>>",
+    "translation": "",
+    "pos": 65444
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1466_5_3_7|",
+    "original": "<span class=\"green\">Talk to Alex to advance farm progress.</span>",
+    "translation": "",
+    "pos": 65601
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1468_5_3_7|",
+    "original": "<<case \"crossdress\">>",
+    "translation": "",
+    "pos": 65680
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1470_5_3_7|",
+    "original": "<<case 5>><span class=\"red\">Your crossdressing has become common knowledge at school. Everyone knows, including the teachers.</span>",
+    "translation": "",
+    "pos": 65742
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1471_5_3_7|",
+    "original": "<<case 4>><span class=\"pink\">Rumours of your crossdressing are spreading throughout the school.</span>",
+    "translation": "",
+    "pos": 65879
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1472_5_3_7|",
+    "original": "<<case 3>><span class=\"purple\">Rumours of your crossdressing are spreading, and have become a popular topic of conversation at school.</span>",
+    "translation": "",
+    "pos": 65986
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1473_5_3_7|",
+    "original": "<<case 2>><span class=\"blue\">Whispers of your crossdressing are spreading through the school.</span>",
+    "translation": "",
+    "pos": 66132
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1474_5_3_7|",
+    "original": "<<case 1>><span class=\"lblue\">A few cliques at school have begun whispering of your crossdressing.</span>",
+    "translation": "",
+    "pos": 66237
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1475_5_3_7|",
+    "original": "<<default>><span class=\"green\">No one is spreading rumours about you at school.</span>",
+    "translation": "",
+    "pos": 66347
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1477_5_3_7|",
+    "original": "<<case \"herm\">>",
+    "translation": "",
+    "pos": 66451
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1479_5_3_7|",
+    "original": "<<case 5>><span class=\"red\">Everyone at school has heard of your unique genitalia, including the teachers.</span>",
+    "translation": "",
+    "pos": 66501
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1480_5_3_7|",
+    "original": "<<case 4>><span class=\"pink\">Rumours of your unique genitalia have spread throughout the school.</span>",
+    "translation": "",
+    "pos": 66619
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1481_5_3_7|",
+    "original": "<<case 3>><span class=\"purple\">It sounds far-fetched to many, but the school is rife with gossip about a student with both boy and girl parts.</span>",
+    "translation": "",
+    "pos": 66727
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1482_5_3_7|",
+    "original": "<<case 2>><span class=\"blue\">Rumours of a student with both boy and girl parts are spreading through the school.</span>",
+    "translation": "",
+    "pos": 66881
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1483_5_3_7|",
+    "original": "<<case 1>><span class=\"lblue\">A few cliques at school have begun whispering about a student with both boy and girl parts.</span>",
+    "translation": "",
+    "pos": 67005
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1484_5_3_7|",
+    "original": "<<default>><span class=\"green\">No one is spreading rumours about you at school.</span>",
+    "translation": "",
+    "pos": 67138
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1486_5_3_7|",
+    "original": "<<case \"wolfpackleader\" \"pirate_rank\">>",
+    "translation": "",
+    "pos": 67242
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1490_5_3_7|",
+    "original": "<span @class=\"V[_args[0]] is _i ? 'goldLink' : 'unselected'\">",
+    "translation": "",
+    "pos": 67481
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1491_5_3_7|",
+    "original": "<<link _ranks[_i]>>",
+    "translation": "",
+    "pos": 67549
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1496_5_3_7|",
+    "original": "<<= _i < Object.keys(_ranks).length - 1 ? \"|\" : \"\">>",
+    "translation": "",
+    "pos": 67706
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1505_5_3_7|",
+    "original": "<div class=\"settingsHeader options\">Teleportation</div>",
+    "translation": "",
+    "pos": 67887
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1508_5_3_7|",
+    "original": "<span class=\"red\">Teleporting from a clothing store can break your wardrobe.</span> Please leave the shop before teleporting.",
+    "translation": "",
+    "pos": 68091
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1512_5_3_7|",
+    "original": "<span class=\"red\">Teleporting from bad end can lead to various problems.</span> Please escape before teleporting.",
+    "translation": "",
+    "pos": 68323
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1516_5_3_7|",
+    "original": "<b>Teleporting from anywhere but the overworld can cause bugs.</b>",
+    "translation": "",
+    "pos": 68563
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1519_5_3_7|",
+    "original": "<span class=\"gold\">Town Locations</span>",
+    "translation": "",
+    "pos": 68680
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1521_5_3_7|",
+    "original": "<<homeicon>><<link [[Orphanage]]>><<cheats-teleport-function>><</link>>",
+    "translation": "",
+    "pos": 68734
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1523_5_3_7|",
+    "original": "<<shopicon>><<link [[Shopping Centre]]>><<cheats-teleport-function>><</link>>",
+    "translation": "",
+    "pos": 68819
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1526_5_3_7|",
+    "original": "<<dooricon \"doren\">><<link [[Doren's Flat|Doren Entrance]]>><<cheats-teleport-function>><</link>>",
+    "translation": "",
+    "pos": 68959
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1529_5_3_7|",
+    "original": "<<dancestudioicon>><<link [[Dance Studio]]>><<cheats-teleport-function>><</link>>",
+    "translation": "",
+    "pos": 69083
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1531_5_3_7|",
+    "original": "<<policeicon>><<link [[Police Station]]>><<cheats-teleport-function>><</link>>",
+    "translation": "",
+    "pos": 69178
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1533_5_3_7|",
+    "original": "<<policeicon>><<link [[Police Back Office]]>><<cheats-teleport-function>><</link>>",
+    "translation": "",
+    "pos": 69270
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1535_5_3_7|",
+    "original": "<<spaicon>><<link [[Spa]]>><<cheats-teleport-function>><</link>>",
+    "translation": "",
+    "pos": 69366
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1537_5_3_7|",
+    "original": "<<wolficon>><<link [[Temple]]>><<cheats-teleport-function>><</link>>",
+    "translation": "",
+    "pos": 69444
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1539_5_3_7|",
+    "original": "<<kitchenicon \"soup\">><<link [[Soup Kitchen]]>><<cheats-teleport-function>><</link>>",
+    "translation": "",
+    "pos": 69526
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1541_5_3_7|",
+    "original": "<<stripclubicon>><<link [[Strip Club]]>><<cheats-teleport-function>><</link>>",
+    "translation": "",
+    "pos": 69624
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1543_5_3_7|",
+    "original": "<<hospitalicon>><<link [[Hospital|Hospital front]]>><<cheats-teleport-function>><</link>>",
+    "translation": "",
+    "pos": 69715
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1546_5_3_7|",
+    "original": "<<landfillicon>><<link [[Landfill|Trash Gate Enter]]>><<cheats-teleport-function>><</link>>",
+    "translation": "",
+    "pos": 69851
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1550_5_3_7|",
+    "original": "<<landfillicon>><<link [[Elk Compound]]>><<cheats-teleport-function>><</link>>",
+    "translation": "",
+    "pos": 70016
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1553_5_3_7|",
+    "original": "<<museumicon>><<link [[Museum]]>><<cheats-teleport-function>><</link>>",
+    "translation": "",
+    "pos": 70121
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1555_5_3_7|",
+    "original": "<<oxfordicon>><<link [[School Front Courtyard]]>><<cheats-teleport-function>><</link>>",
+    "translation": "",
+    "pos": 70205
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1557_5_3_7|",
+    "original": "<<brothelicon>><<link [[Brothel]]>><<cheats-teleport-function>><</link>>",
+    "translation": "",
+    "pos": 70305
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1559_5_3_7|",
+    "original": "<<pubicon>><<link [[Pub]]>><<cheats-teleport-function>><</link>>",
+    "translation": "",
+    "pos": 70391
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1561_5_3_7|",
+    "original": "<<busstationicon>><<link [[Bus Station]]>><<cheats-teleport-function>><</link>>",
+    "translation": "",
+    "pos": 70469
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1563_5_3_7|",
+    "original": "<<docksicon>><<link [[Docks]]>><<cheats-teleport-function>><</link>>",
+    "translation": "",
+    "pos": 70562
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1565_5_3_7|",
+    "original": "<<beachicon>><<link [[Beach]]>><<cheats-teleport-function>><</link>>",
+    "translation": "",
+    "pos": 70644
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1567_5_3_7|",
+    "original": "<<cafeicon>><<link [[Ocean Breeze]]>><<cheats-teleport-function>><</link>>",
+    "translation": "",
+    "pos": 70726
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1569_5_3_7|",
+    "original": "<span class=\"gold\">Town Outskirts</span>",
+    "translation": "",
+    "pos": 70814
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1571_5_3_7|",
+    "original": "<<foresticon>><<link [[Forest]]>><<cheats-teleport-function>><</link>>",
+    "translation": "",
+    "pos": 70868
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1573_5_3_7|",
+    "original": "<<roadicon>><<link [[Farm Road 1]]>><<cheats-teleport-function>><</link>>",
+    "translation": "",
+    "pos": 70952
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1575_5_3_7|",
+    "original": "<<farmicon \"barn\">><<link [[Farmlands|Farmland]]>><<cheats-teleport-function>><</link>>",
+    "translation": "",
+    "pos": 71039
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1578_5_3_7|",
+    "original": "<span class=\"gold\">Town Streets</span>",
+    "translation": "",
+    "pos": 71177
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1580_5_3_7|",
+    "original": "<<domusicon>><<link [[Domus Street]]>><<cheats-teleport-function>><</link>>",
+    "translation": "",
+    "pos": 71229
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1582_5_3_7|",
+    "original": "<<danubeicon>><<link [[Danube Street]]>><<cheats-teleport-function>><</link>>",
+    "translation": "",
+    "pos": 71318
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1584_5_3_7|",
+    "original": "<<barbicon>><<link [[Barb Street]]>><<cheats-teleport-function>><</link>>",
+    "translation": "",
+    "pos": 71409
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1586_5_3_7|",
+    "original": "<<wolficon>><<link [[Wolf Street]]>><<cheats-teleport-function>><</link>>",
+    "translation": "",
+    "pos": 71496
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1588_5_3_7|",
+    "original": "<<connudatusicon>><<link [[Connudatus Street]]>><<cheats-teleport-function>><</link>>",
+    "translation": "",
+    "pos": 71583
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1590_5_3_7|",
+    "original": "<<nightingaleicon>><<link [[Nightingale Street]]>><<cheats-teleport-function>><</link>>",
+    "translation": "",
+    "pos": 71682
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1592_5_3_7|",
+    "original": "<<highicon>><<link [[High Street]]>><<cheats-teleport-function>><</link>>",
+    "translation": "",
+    "pos": 71783
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1594_5_3_7|",
+    "original": "<<elkicon>><<link [[Elk Street]]>><<cheats-teleport-function>><</link>>",
+    "translation": "",
+    "pos": 71870
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1596_5_3_7|",
+    "original": "<<oxfordicon>><<link [[Oxford Street]]>><<cheats-teleport-function>><</link>>",
+    "translation": "",
+    "pos": 71955
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1598_5_3_7|",
+    "original": "<<harvesticon>><<link [[Harvest Street]]>><<cheats-teleport-function>><</link>>",
+    "translation": "",
+    "pos": 72046
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1600_5_3_7|",
+    "original": "<<mericon>><<link [[Mer Street]]>><<cheats-teleport-function>><</link>>",
+    "translation": "",
+    "pos": 72139
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1602_5_3_7|",
+    "original": "<<starfishicon>><<link [[Starfish Street]]>><<cheats-teleport-function>><</link>>",
+    "translation": "",
+    "pos": 72224
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1604_5_3_7|",
+    "original": "<<clifficon>><<link [[Cliff Street]]>><<cheats-teleport-function>><</link>>",
+    "translation": "",
+    "pos": 72319
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1606_5_3_7|",
+    "original": "<<alleyicon>><<link [[Commercial alleyways]]>><<cheats-teleport-function>><</link>>",
+    "translation": "",
+    "pos": 72408
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1608_5_3_7|",
+    "original": "<<alleyicon>><<link [[Industrial alleyways]]>><<cheats-teleport-function>><</link>>",
+    "translation": "",
+    "pos": 72505
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1610_5_3_7|",
+    "original": "<<alleyicon>><<link [[Residential alleyways]]>><<cheats-teleport-function>><</link>>",
+    "translation": "",
+    "pos": 72602
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1612_5_3_7|",
+    "original": "<span class=\"gold\">Underground</span>",
+    "translation": "",
+    "pos": 72700
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1614_5_3_7|",
+    "original": "<<sewericon>><<link [[Industrial Drain]]>><<cheats-teleport-function>><</link>>",
+    "translation": "",
+    "pos": 72751
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1616_5_3_7|",
+    "original": "<<sewericon>><<link [[Commercial Drain]]>><<cheats-teleport-function>><</link>>",
+    "translation": "",
+    "pos": 72844
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1618_5_3_7|",
+    "original": "<<sewericon>><<link [[Residential Drain]]>><<cheats-teleport-function>><</link>>",
+    "translation": "",
+    "pos": 72937
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1620_5_3_7|",
+    "original": "<<sewericon>><<link [[Drain ocean exit|Drain Exit]]>><<cheats-teleport-function>><</link>>",
+    "translation": "",
+    "pos": 73031
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1622_5_3_7|",
+    "original": "<<sewericon>><<link [[Sewers Residential]]>><<cheats-teleport-function>><</link>>",
+    "translation": "",
+    "pos": 73135
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1624_5_3_7|",
+    "original": "<<sewericon>><<link [[Sewers Commercial]]>><<cheats-teleport-function>><</link>>",
+    "translation": "",
+    "pos": 73230
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1626_5_3_7|",
+    "original": "<<sewericon>><<link [[Sewers Industrial]]>><<cheats-teleport-function>><</link>>",
+    "translation": "",
+    "pos": 73324
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1630_5_3_7|",
+    "original": "<span class=\"red\">You are in an area where teleporting can break your save, or an event is in progress.</span> Return to the overworld before teleporting.",
+    "translation": "",
+    "pos": 73470
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1642_5_3_7|",
+    "original": "<<case \"Island\">>",
+    "translation": "",
+    "pos": 73927
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1644_5_3_7|",
+    "original": "<<case \"Underground Cell\">>",
+    "translation": "",
+    "pos": 73965
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1646_5_3_7|",
+    "original": "<<case \"Asylum\" \"Asylum Cell\">>",
+    "translation": "",
+    "pos": 74016
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1648_5_3_7|",
+    "original": "<<case \"Prison Cell\">>",
+    "translation": "",
+    "pos": 74070
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1655_5_3_7|",
+    "original": "<div class=\"settingsHeader options\">Time and Weather</div>",
+    "translation": "",
+    "pos": 74205
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1657_5_3_7|",
+    "original": "<span class=\"gold\">Advance time:</span>",
+    "translation": "",
+    "pos": 74302
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1659_5_3_7|",
+    "original": "<<link [[15 minutes|$passage]]>><<pass 15>><</link>>",
+    "translation": "",
+    "pos": 74353
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1661_5_3_7|",
+    "original": "<<link [[30 minutes|$passage]]>><<pass 30>><</link>>",
+    "translation": "",
+    "pos": 74417
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1665_5_3_7|",
+    "original": "<<set _hours to _i is 0 ? \"hour\" : \"hours\">>",
+    "translation": "",
+    "pos": 74556
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1666_5_3_7|",
+    "original": "<<link [[_hr _hours|$passage]]>><<pass _hr hour>><</link>>",
+    "translation": "",
+    "pos": 74606
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1667_5_3_7|",
+    "original": "<<= _i lt 7 ? \"<br>\" : \"\">>",
+    "translation": "",
+    "pos": 74670
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1672_5_3_7|",
+    "original": "<span class=\"gold\">Current Weather:</span>",
+    "translation": "",
+    "pos": 74774
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1674_5_3_7|",
+    "original": "<span id=\"cheatsWeather\"><<cheatsWeather>></span>",
+    "translation": "",
+    "pos": 74828
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1676_5_3_7|",
+    "original": "<span class=\"description\">Changing this setting will change the weather for at least 6 hours, before returning to the original weather simulation.</span>",
+    "translation": "",
+    "pos": 74889
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1679_5_3_7|",
+    "original": "<span class=\"gold\">Temperature</span>",
+    "translation": "",
+    "pos": 75094
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1681_5_3_7|",
+    "original": "<span class=\"description\">Will increase or decrease the base temperature until the next day - then go back to the proper temperature over time.<br>",
+    "translation": "",
+    "pos": 75143
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1682_5_3_7|",
+    "original": "The base temperature will still be modified by other factors such as time of day - and will not be constant throughout the day.</span>",
+    "translation": "",
+    "pos": 75294
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1683_5_3_7|",
+    "original": "<<numberStepper \"Outside Temperature\" `Weather.toSelected(Weather.temperature)` {",
+    "translation": "",
+    "pos": 75432
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1685_5_3_7|",
+    "original": "Weather.Temperature.set(V.options.fahrenheit ? Weather.Temperature.toCelsius(value) : value);",
+    "translation": "",
+    "pos": 75544
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1686_5_3_7|",
+    "original": "Weather.Temperature.set(V.options.fahrenheit ? Weather.Temperature.toCelsius(value) : value, new DateTime(Time.date).addDays(1));",
+    "translation": "",
+    "pos": 75643
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1688_5_3_7|",
+    "original": "min: -60, max: 60, step: 0.1, colorArr: [\"--blue\", \"--teal\", \"--yellow\", \"--orange\", \"--red\"], percentage: false,",
+    "translation": "",
+    "pos": 75784
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1689_5_3_7|",
+    "original": "valueFormat: value => round(value, 1) + (V.options.fahrenheit ? \"°F\" : \"°C\"),",
+    "translation": "",
+    "pos": 75902
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1692_5_3_7|",
+    "original": "<span class=\"description\">Changes will be visible after at least 1 minute of game time passes.</span>",
+    "translation": "",
+    "pos": 76040
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1699_5_3_7|",
+    "original": "<div class=\"settingsHeader options\">Default Action Sets</div>",
+    "translation": "",
+    "pos": 76245
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1701_5_3_7|",
+    "original": "Too many action sets may reduce combat performance. Without cheats, the max number of default action sets is 7.",
+    "translation": "",
+    "pos": 76350
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1702_5_3_7|",
+    "original": "<<numberStepper \"Sets\" $maxDefaultActionSets \"maxDefaultActionSets\" {min: 1, max: 10, step: 1, colorArr: [\"--teal\", \"--teal\"], percentage: false, activeButtons: [\"single\", \"minMax\"]}>>",
+    "translation": "",
+    "pos": 76465
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1707_5_3_7|",
+    "original": "<div class=\"settingsHeader options\">Pregnancy</div>",
+    "translation": "",
+    "pos": 76704
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1710_5_3_7|",
+    "original": "<span class=\"gold\">Parasitic Pregnancy</span>",
+    "translation": "",
+    "pos": 76840
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1712_5_3_7|",
+    "original": "You need to enable parasitic pregnancy in the settings to access these cheats.",
+    "translation": "",
+    "pos": 76901
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1715_5_3_7|",
+    "original": "<div @class=\"$player.vaginaExist ? 'settingsToggleItem' : 'settingsToggleItemWide'\">",
+    "translation": "",
+    "pos": 77007
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1719_5_3_7|",
+    "original": "<span class=\"gold\">Anal Parasitic Pregnancy</span>",
+    "translation": "",
+    "pos": 77291
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1721_5_3_7|",
+    "original": "You're currently pregnant with <<= $sexStats.anus.pregnancy.type>> children and can't get pregnant with anal parasites.",
+    "translation": "",
+    "pos": 77359
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1729_5_3_7|",
+    "original": "<span class=\"gold\">Vaginal Parasitic Pregnancy</span>",
+    "translation": "",
+    "pos": 77879
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1731_5_3_7|",
+    "original": "You're currently pregnant with <<= $sexStats.vagina.pregnancy.type>> children and can't get pregnant with vaginal parasites.",
+    "translation": "",
+    "pos": 77952
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1745_5_3_7|",
+    "original": "<span class=\"gold\">Non-Parasitic Pregnancy</span>",
+    "translation": "",
+    "pos": 78467
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1747_5_3_7|",
+    "original": "You need to enable pregnancy in the settings to access these cheats.",
+    "translation": "",
+    "pos": 78530
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1750_5_3_7|",
+    "original": "<span class=\"gold\">Impregnation</span>",
+    "translation": "",
+    "pos": 78649
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1752_5_3_7|",
+    "original": "You need to enable pregnancy in the settings to access these cheats.",
+    "translation": "",
+    "pos": 78701
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1761_5_3_7|",
+    "original": "<<set _anal to _args[0] is \"anus\" ? \"anal\" : \"vaginal\">>",
+    "translation": "",
+    "pos": 78936
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1767_5_3_7|",
+    "original": "<span class=\"gold\"><<= _anal.toUpperFirst()>> Parasitic Pregnancy</span>",
+    "translation": "",
+    "pos": 79318
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1769_5_3_7|",
+    "original": "You can have up to <<number _slots>> _anal <<= _slots is 1 ? \"parasite\" : \"parasites\">>.",
+    "translation": "",
+    "pos": 79400
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1773_5_3_7|",
+    "original": "Get Pregnant with a:",
+    "translation": "",
+    "pos": 79636
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1777_5_3_7|",
+    "original": "<<link _parasiteName>>",
+    "translation": "",
+    "pos": 79823
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1781_5_3_7|",
+    "original": "<<= _i lt _parasiteTypes.length - 1 ? \"|\" : \"\">>",
+    "translation": "",
+    "pos": 79995
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1785_5_3_7|",
+    "original": "<label><<checkbox \"_hermaphrodite\" false true autocheck>> Hermaphrodite</label>",
+    "translation": "",
+    "pos": 80112
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1787_5_3_7|",
+    "original": "You can only have one hermaphrodite parasite in your _args[0] at a time.",
+    "translation": "",
+    "pos": 80210
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1790_5_3_7|",
+    "original": "You are currently unable to host parasites due to your current _anal pregnancy.",
+    "translation": "",
+    "pos": 80311
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1794_5_3_7|",
+    "original": "You cannot get <<= _anal + \"ly\">> pregnant with any more parasites.",
+    "translation": "",
+    "pos": 80424
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1800_5_3_7|",
+    "original": "<<= _anal.toUpperFirst()>> slot <<=_i+1>> is pregnant with a $_aPregnancy.fetus[_i].stats.gender $_aPregnancy.fetus[_i].creature.",
+    "translation": "",
+    "pos": 80662
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1803_5_3_7|",
+    "original": "<<= _anal.toUpperFirst()>> slot <<=_i+1>> has a $_aPregnancy.fetus[_i].stats.gender $_aPregnancy.fetus[_i].creature egg ready to be fertilised.",
+    "translation": "",
+    "pos": 80820
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1807_5_3_7|",
+    "original": "<<= _anal.toUpperFirst()>> slot <<=_i+1>> is empty.",
+    "translation": "",
+    "pos": 81002
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1844_5_3_7|",
+    "original": "<span class=\"gold\">Non-Parasitic Pregnancy</span>",
+    "translation": "",
+    "pos": 82271
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1846_5_3_7|",
+    "original": "<<set _womb to ($player.vaginaExist ? \"vagina\" : \"anus\")>>",
+    "translation": "",
+    "pos": 82328
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1863_5_3_7|",
+    "original": "You aren't pregnant.",
+    "translation": "",
+    "pos": 83207
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1865_5_3_7|",
+    "original": "You have <span id=\"cheatSpermSources\"><span class=\"gold\"><span class=\"gold\">$sexStats[_womb].sperm.length</span></span> <<= $sexStats[_womb].sperm.length is 1 ? \"sperm source\" : \"sperm sources\">></span> contributing to your chances of getting pregnant.",
+    "translation": "",
+    "pos": 83272
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1868_5_3_7|",
+    "original": "Menstruation:",
+    "translation": "",
+    "pos": 83551
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1870_5_3_7|",
+    "original": "<<link \"<<\">><<set _menstruation.currentDay to Math.clamp(_menstruation.currentDay - 5, 0, _menstruation.currentDaysMax)>><<replace \"#cheatMenstruationDay\">><<= Math.trunc(_menstruation.currentDay)>><</replace>><</link>> |",
+    "translation": "",
+    "pos": 83576
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1871_5_3_7|",
+    "original": "<<link \"<\">><<set _menstruation.currentDay to Math.clamp(_menstruation.currentDay - 1, 0, _menstruation.currentDaysMax)>><<replace \"#cheatMenstruationDay\">><<= Math.trunc(_menstruation.currentDay)>><</replace>><</link>> |",
+    "translation": "",
+    "pos": 83802
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1872_5_3_7|",
+    "original": "Day <span id=\"cheatMenstruationDay\"><<= Math.trunc(_menstruation.currentDay)>></span> of _menstruation.currentDaysMax",
+    "translation": "",
+    "pos": 84027
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1873_5_3_7|",
+    "original": "| <<link \"Ovulate\">><<set _menstruation.currentDay to _menstruation.stages[2]>><<replace \"#cheatMenstruationDay\">><<= Math.trunc(_menstruation.currentDay)>><</replace>><</link>>",
+    "translation": "",
+    "pos": 84148
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1874_5_3_7|",
+    "original": "| <<link \">\">><<set _menstruation.currentDay to Math.clamp(_menstruation.currentDay + 1, 0, _menstruation.currentDaysMax)>><<replace \"#cheatMenstruationDay\">><<= Math.trunc(_menstruation.currentDay)>><</replace>><</link>>",
+    "translation": "",
+    "pos": 84329
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1875_5_3_7|",
+    "original": "| <<link \">>\">><<set _menstruation.currentDay to Math.clamp(_menstruation.currentDay + 5, 0, _menstruation.currentDaysMax)>><<replace \"#cheatMenstruationDay\">><<= Math.trunc(_menstruation.currentDay)>><</replace>><</link>>",
+    "translation": "",
+    "pos": 84554
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1879_5_3_7|",
+    "original": "You are pregnant.",
+    "translation": "",
+    "pos": 84830
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1881_5_3_7|",
+    "original": "<<numberStepper \"Pregnancy progress\" _pregnancyTimer.timer {",
+    "translation": "",
+    "pos": 84902
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1883_5_3_7|",
+    "original": "getPregnancyObject().timer = value;",
+    "translation": "",
+    "pos": 84993
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1884_5_3_7|",
+    "original": "Wikifier.wikifyEval(\"<<updatesidebarimg>>\");",
+    "translation": "",
+    "pos": 85034
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1886_5_3_7|",
+    "original": "min: 0, max: getPregnancyObject().timerEnd - 0.5,",
+    "translation": "",
+    "pos": 85090
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1887_5_3_7|",
+    "original": "colorArr: [\"--teal\", \"--pink\"], activeButtons: [\"single\", \"double\"]",
+    "translation": "",
+    "pos": 85144
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1890_5_3_7|",
+    "original": "<<link [[Clear current pregnancy|$passage]]>>",
+    "translation": "",
+    "pos": 85234
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1902_5_3_7|",
+    "original": "<<set $sexStats[($player.vaginaExist ? \"vagina\" : \"anus\")].sperm to []>>",
+    "translation": "",
+    "pos": 85808
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1914_5_3_7|",
+    "original": "<span class=\"description\">This is a cheat, not an abortion.</span>",
+    "translation": "",
+    "pos": 86378
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1917_5_3_7|",
+    "original": "Get pregnant from:",
+    "translation": "",
+    "pos": 86571
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1920_5_3_7|",
+    "original": "<<link [[A random person|$passage]]>> /* checks if males or females have penises, if there is no people with penises a foreigner impregnates PC */",
+    "translation": "",
+    "pos": 86651
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1938_5_3_7|",
+    "original": "<<link [[A wolf|$passage]]>>",
+    "translation": "",
+    "pos": 87616
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1967_5_3_7|",
+    "original": "<<case \"Black Wolf\">>",
+    "translation": "",
+    "pos": 88906
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1969_5_3_7|",
+    "original": "<<set _spermType to (C.npc[\"Black Wolf\"].pronoun is \"f\" ? \"wolfgirl\" : \"wolfboy\")>>",
+    "translation": "",
+    "pos": 88968
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1973_5_3_7|",
+    "original": "<<case \"Great Hawk\">>",
+    "translation": "",
+    "pos": 89126
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1982_5_3_7|",
+    "original": "| <<link [[_actor.nam|$passage]]>>",
+    "translation": "",
+    "pos": 89398
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1988_5_3_7|",
+    "original": "| <<link [[Yourself|$passage]]>>",
+    "translation": "",
+    "pos": 89588
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1994_5_3_7|",
+    "original": "Add sperm from:",
+    "translation": "",
+    "pos": 89771
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1997_5_3_7|",
+    "original": "<<link \"An anonymous donor\">> /* The sperm owner is always the same, anonymous donor, so it helps pregnancy from only one source */",
+    "translation": "",
+    "pos": 89851
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1998_5_3_7|",
+    "original": "<<recordSperm `{target: \"pc\", spermOwner: \"anonymous donor\", spermType: \"human\", genital: _womb}`>>",
+    "translation": "",
+    "pos": 89990
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "1999_5_3_7|",
+    "original": "<<replace \"#cheatSpermSources\">><span class=\"gold\">$sexStats[_womb].sperm.length</span> <<= $sexStats[_womb].sperm.length is 1 ? \"sperm source\" : \"sperm sources\">><</replace>>",
+    "translation": "",
+    "pos": 90097
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2001_5_3_7|",
+    "original": "| <<link \"A random person\">> /* checks if males or females have penises, if there is no people with penises a foreigner inseminates PC */",
+    "translation": "",
+    "pos": 90295
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2012_5_3_7|",
+    "original": "<<recordSperm `{target: \"pc\", spermOwner: _impregnator, spermType: \"human\", genital: _womb}`>>",
+    "translation": "",
+    "pos": 91058
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2013_5_3_7|",
+    "original": "<<replace \"#cheatSpermSources\">><span class=\"gold\">$sexStats[_womb].sperm.length</span> <<= $sexStats[_womb].sperm.length is 1 ? \"sperm source\" : \"sperm sources\">><</replace>>",
+    "translation": "",
+    "pos": 91160
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2020_5_3_7|",
+    "original": "<<link \"A wolf\">>",
+    "translation": "",
+    "pos": 91491
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2040_5_3_7|",
+    "original": "<<recordSperm `{target: \"pc\", spermOwner: _impregnator, spermType: _spermType, genital: _womb}`>>",
+    "translation": "",
+    "pos": 92511
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2041_5_3_7|",
+    "original": "<<replace \"#cheatSpermSources\">><span class=\"gold\">$sexStats[_womb].sperm.length</span> <<= $sexStats[_womb].sperm.length is 1 ? \"sperm source\" : \"sperm sources\">><</replace>>",
+    "translation": "",
+    "pos": 92616
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2050_5_3_7|",
+    "original": "<<case \"Black Wolf\">>",
+    "translation": "",
+    "pos": 93030
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2052_5_3_7|",
+    "original": "<<set _spermType to (C.npc[\"Black Wolf\"].pronoun is \"f\" ? \"wolfgirl\" : \"wolfboy\")>>",
+    "translation": "",
+    "pos": 93094
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2056_5_3_7|",
+    "original": "<<case \"Great Hawk\">>",
+    "translation": "",
+    "pos": 93256
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2065_5_3_7|",
+    "original": "| <<link _actor.nam>>",
+    "translation": "",
+    "pos": 93537
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2066_5_3_7|",
+    "original": "<<recordSperm `{target: \"pc\", spermOwner: _actor.nam, spermType: _spermType, genital: _womb}`>>",
+    "translation": "",
+    "pos": 93566
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2067_5_3_7|",
+    "original": "<<replace \"#cheatSpermSources\">><span class=\"gold\">$sexStats[_womb].sperm.length</span> <<= $sexStats[_womb].sperm.length is 1 ? \"sperm source\" : \"sperm sources\">><</replace>>",
+    "translation": "",
+    "pos": 93669
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2072_5_3_7|",
+    "original": "| <<link \"Yourself\">>",
+    "translation": "",
+    "pos": 93931
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2073_5_3_7|",
+    "original": "<<recordSperm `{target: \"pc\", spermOwner: \"pc\", spermType: \"human\", genital: _womb}`>>",
+    "translation": "",
+    "pos": 93960
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2074_5_3_7|",
+    "original": "<<replace \"#cheatSpermSources\">><span class=\"gold\">$sexStats[_womb].sperm.length</span> <<= $sexStats[_womb].sperm.length is 1 ? \"sperm source\" : \"sperm sources\">><</replace>>",
+    "translation": "",
+    "pos": 94054
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2081_5_3_7|",
+    "original": "You are unable to get pregnant.",
+    "translation": "",
+    "pos": 94304
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2086_5_3_7|",
+    "original": "<span class=\"gold\">Impregnation</span>",
+    "translation": "",
+    "pos": 94392
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2089_5_3_7|",
+    "original": "You can impregnate <span class=\"gold\">_impregnatableNPC.length</span> fertile <<= _impregnatableNPC.length is 1 ? \"NPC\" : \"NPCs\">>.",
+    "translation": "",
+    "pos": 94496
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2099_5_3_7|",
+    "original": "<<= _actor.nam>>:",
+    "translation": "",
+    "pos": 94950
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2103_5_3_7|",
+    "original": "<<link [[_linkText|$passage]]>>",
+    "translation": "",
+    "pos": 95040
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2108_5_3_7|",
+    "original": "- <<link _linkText>>",
+    "translation": "",
+    "pos": 95242
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2109_5_3_7|",
+    "original": "<<recordSperm `{target: _actor.nam, spermOwner: \"pc\", spermType: \"human\", genital: \"vagina\"}`>>",
+    "translation": "",
+    "pos": 95269
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2110_5_3_7|",
+    "original": "<<replace `\"#cheatSpermSources\" + _actorNameNoSpace`>>(<<= _actor.pregnancy.sperm.length>> doses)<</replace>>",
+    "translation": "",
+    "pos": 95371
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2112_5_3_7|",
+    "original": "<span @id=\"'cheatSpermSources' + _actorNameNoSpace\" class=\"description\">(<<= _actor.pregnancy.sperm.length>> doses)</span>",
+    "translation": "",
+    "pos": 95501
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2115_5_3_7|",
+    "original": "- <<link [[Set cycle to fertile days|$passage]]>>",
+    "translation": "",
+    "pos": 95673
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2123_5_3_7|",
+    "original": "You can't impregnate any other NPCs.",
+    "translation": "",
+    "pos": 95897
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2127_5_3_7|",
+    "original": "You can't currently impregnate any NPCs<<if !$player.penisExist>>, since you have no penis<</if>>.",
+    "translation": "",
+    "pos": 95963
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2138_5_3_7|",
+    "original": "<span class=\"gold\">Pregnant NPCs</span>",
+    "translation": "",
+    "pos": 96387
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2140_5_3_7|",
+    "original": "<<listbox \"_pregnantNPCId\" autoselect>>",
+    "translation": "",
+    "pos": 96436
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2141_5_3_7|",
+    "original": "<<optionsfrom _pregnantNPC>>",
+    "translation": "",
+    "pos": 96479
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2152_5_3_7|",
+    "original": "<<numberStepper \"Pregnancy progress\" _pregnancyNPC.timer {",
+    "translation": "",
+    "pos": 96703
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2154_5_3_7|",
+    "original": "$NPCName[arr[0]].pregnancy.timer = value;",
+    "translation": "",
+    "pos": 96793
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2155_5_3_7|",
+    "original": "Wikifier.wikifyEval(\"<<updatesidebarimg>>\");",
+    "translation": "",
+    "pos": 96837
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2158_5_3_7|",
+    "original": "min: 0, max: $NPCName[_args[0]].pregnancy.timerEnd - 0.5,",
+    "translation": "",
+    "pos": 96908
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2159_5_3_7|",
+    "original": "colorArr: [\"--teal\", \"--pink\"], activeButtons: [\"single\", \"double\"]",
+    "translation": "",
+    "pos": 96967
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2165_5_3_7|",
+    "original": "<<= $NPCName[_args[0]].nam>> is pregnant with <<= _pregnancyNPC.type is \"wolf\" ? \"wolve\" : _pregnancyNPC.type>>s. <<= $_fatherName === \"yourself\" ? \"You are\" : $_fatherName.toUpperFirst() + \"is\">> the father.",
+    "translation": "",
+    "pos": 97218
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2166_5_3_7|",
+    "original": "<span id=\"cheatNPCPregnancyProgress\">",
+    "translation": "",
+    "pos": 97428
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2171_5_3_7|",
+    "original": "<<link \"1st trimester\">>",
+    "translation": "",
+    "pos": 97523
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2175_5_3_7|",
+    "original": "<<link \"2nd trimester\">>",
+    "translation": "",
+    "pos": 97716
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2179_5_3_7|",
+    "original": "<<link \"3rd trimester\">>",
+    "translation": "",
+    "pos": 97909
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2183_5_3_7|",
+    "original": "<<link \"End of pregnancy\">>",
+    "translation": "",
+    "pos": 98101
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2189_5_3_7|",
+    "original": "<<link [[Clear pregnancy|$passage]]>>",
+    "translation": "",
+    "pos": 98300
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2208_5_3_7|",
+    "original": "<<if _args[1] is \"On\">><<addclass _args[0] \"green\">>",
+    "translation": "",
+    "pos": 99018
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2219_5_3_7|",
+    "original": "<span @class=\"$player.gender_body is _bodyTypes[_i].charAt(0) ? 'goldLink' : 'unselected'\">",
+    "translation": "",
+    "pos": 99369
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2220_5_3_7|",
+    "original": "<<link _bodyTypes[_i].toUpperFirst()>>",
+    "translation": "",
+    "pos": 99465
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2224_5_3_7|",
+    "original": "</span>\t<<= _i lt _bodyTypes.length - 1 ? \"|\" : \"\">>",
+    "translation": "",
+    "pos": 99662
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2235_5_3_7|",
+    "original": "<span @class=\"$bodysize is _i ? 'goldLink' : 'link'\">",
+    "translation": "",
+    "pos": 99958
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2236_5_3_7|",
+    "original": "<<link _label[_i]>>",
+    "translation": "",
+    "pos": 100016
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2243_5_3_7|",
+    "original": "</span> <<= _i lt _size.length - 1 ? \"|\" : \"\">>",
+    "translation": "",
+    "pos": 100294
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2254_5_3_7|",
+    "original": "<span @class=\"$speech_attitude is _attitude[_i] ? 'goldLink' : 'link'\">",
+    "translation": "",
+    "pos": 100604
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2255_5_3_7|",
+    "original": "<<link _attitude[_i].toUpperFirst()>>",
+    "translation": "",
+    "pos": 100680
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2260_5_3_7|",
+    "original": "</span> <<= _i lt _attitude.length - 1 ? \"|\" : \"\">>",
+    "translation": "",
+    "pos": 100906
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2267_5_3_7|",
+    "original": "<<set _dayState to Weather.bloodMoon ? \"blood\" : Weather.dayState === \"night\" ? \"night\" : \"day\">>",
+    "translation": "",
+    "pos": 101134
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2271_5_3_7|",
+    "original": "<<set _iconType = resolveValue(setup.WeatherGeneration.weatherTypes.find(w => w.name === _weatherState).iconType, \"clear\")>>",
+    "translation": "",
+    "pos": 101405
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2273_5_3_7|",
+    "original": "<<set _weatherIcon to `<<icon 'weather/${_dayState}_${_iconType}.png'>>`>>",
+    "translation": "",
+    "pos": 101534
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2276_5_3_7|",
+    "original": "<<= _weatherIcon.replace(\"none\", \"rain\")>>",
+    "translation": "",
+    "pos": 101719
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2277_5_3_7|",
+    "original": "<span @class=\"Weather.name is _weatherState ? 'goldLink' : 'unselected'\">",
+    "translation": "",
+    "pos": 101765
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2278_5_3_7|",
+    "original": "<<link _weatherName>>",
+    "translation": "",
+    "pos": 101843
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2283_5_3_7|",
+    "original": "<<= _i lt _weatherTypes.length - 1 ? \"<br>\" : \"\">>",
+    "translation": "",
+    "pos": 102010
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2290_5_3_7|",
+    "original": "<<if $sexStats.vagina.menstruation.currentState isnot \"normal\">><<set _reasons.push($sexStats.vagina.menstruation.currentState is \"recovering\" ? \"you still being in recovery from your last pregnancy\" : \"your pregnancy\")>><</if>>",
+    "translation": "",
+    "pos": 102150
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2294_5_3_7|",
+    "original": "<span class=\"gold\"><<= $player.gender is \"m\" ? \"Male\" : $player.gender is \"f\" ? \"Female\" : \"Hermaphrodite\">></span>",
+    "translation": "",
+    "pos": 102527
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2295_5_3_7|",
+    "original": "| This setting cannot be changed due to <<= _reasons.join(\" and \")>>.",
+    "translation": "",
+    "pos": 102646
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2298_5_3_7|",
+    "original": "<span class=\"gold\">Male</span> |",
+    "translation": "",
+    "pos": 102763
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2300_5_3_7|",
+    "original": "<<link \"Male\">>",
+    "translation": "",
+    "pos": 102812
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2319_5_3_7|",
+    "original": "<span class=\"gold\">Female</span> |",
+    "translation": "",
+    "pos": 103426
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2321_5_3_7|",
+    "original": "<<link \"Female\">>",
+    "translation": "",
+    "pos": 103477
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2340_5_3_7|",
+    "original": "<span class=\"gold\">Hermaphrodite</span>",
+    "translation": "",
+    "pos": 104093
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2342_5_3_7|",
+    "original": "<<link \"Hermaphrodite\">>",
+    "translation": "",
+    "pos": 104149
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2362_5_3_7|",
+    "original": "Hermaphrodite Balls: <span id=\"statsBallsExist\"><<= $player.ballsExist ? \"Present\" : \"Disabled\">></span> |",
+    "translation": "",
+    "pos": 104734
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2363_5_3_7|",
+    "original": "<<link \"Change\">>",
+    "translation": "",
+    "pos": 104844
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2370_5_3_7|",
+    "original": "<span class=\"gold\"><<= $player.gender is \"m\" ? \"Male\" : $player.gender is \"f\" ? \"Female\" : \"Hermaphrodite\">></span> | <<if _reasons.length gte 1>>You cannot change your gender due to <<= _reasons.join(\" and \")>>. Normally, this<<else>>This<</if>> setting can only be changed when accessing your wardrobe.",
+    "translation": "",
+    "pos": 105042
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2376_5_3_7|",
+    "original": "<<case \"state\">>",
+    "translation": "",
+    "pos": 105418
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2377_5_3_7|",
+    "original": "<<numberStepper \"Pain\" $pain { callback: value => { V.pain = value; Wikifier.wikifyEval(\"<<updatesidebarimg>>\") }, max: 200, reverse: true}>>",
+    "translation": "",
+    "pos": 105438
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2378_5_3_7|",
+    "original": "<<numberStepper \"Arousal\" $arousal { callback: value => { V.arousal = value; Wikifier.wikifyEval(\"<<updatesidebarimg>>\") }, max: 10000, reverse: true}>>",
+    "translation": "",
+    "pos": 105583
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2379_5_3_7|",
+    "original": "<<numberStepper \"Fatigue\" $tiredness { callback: value => { V.tiredness = value; Wikifier.wikifyEval(\"<<updatesidebarimg>>\") }, max: 2000, reverse: true}>>",
+    "translation": "",
+    "pos": 105739
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2380_5_3_7|",
+    "original": "<<numberStepper \"Stress\" $stress { callback: value => { V.stress = value; Wikifier.wikifyEval(\"<<updatesidebarimg>>\") }, max: 10000, reverse: true}>>",
+    "translation": "",
+    "pos": 105898
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2381_5_3_7|",
+    "original": "<<numberStepper \"Trauma\" $trauma { callback: value => { V.trauma = value; Wikifier.wikifyEval(\"<<updatesidebarimg>>\") }, max: 5000, reverse: true}>>",
+    "translation": "",
+    "pos": 106051
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2382_5_3_7|",
+    "original": "<<numberStepper \"Control\" $control { callback: value => { V.control = value; Wikifier.wikifyEval(\"<<updatesidebarimg>>\") }, max: 1000}>>",
+    "translation": "",
+    "pos": 106203
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2383_5_3_7|",
+    "original": "<<numberStepper \"Alcohol\" $drunk { callback: value => { V.drunk = value; Wikifier.wikifyEval(\"<<updatesidebarimg>>\") }, max: 1000, reverse: true}>>",
+    "translation": "",
+    "pos": 106343
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2384_5_3_7|",
+    "original": "<<numberStepper \"Drugs\" $drugged { callback: value => { V.drugged = value; Wikifier.wikifyEval(\"<<updatesidebarimg>>\") }, max: 1000, reverse: true}>>",
+    "translation": "",
+    "pos": 106494
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2385_5_3_7|",
+    "original": "<<numberStepper \"Hallucinogens\" $hallucinogen { callback: value => { V.hallucinogen = value; Wikifier.wikifyEval(\"<<updatesidebarimg>>\") }, max: 1000, reverse: true}>>",
+    "translation": "",
+    "pos": 106647
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2386_5_3_7|",
+    "original": "<<case \"crime\">>",
+    "translation": "",
+    "pos": 106817
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2389_5_3_7|",
+    "original": "<<numberStepper toTitleCase(setup.crimeNames[_cr]) $crime[_cr].current { callback: (value, arr) => { V.crime[arr[0]].current = value }, max: 10000, step: 10, reverse: true, percentage: false, values: [_cr]}>>",
+    "translation": "",
+    "pos": 106910
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2393_5_3_7|",
+    "original": "<<case \"negative\">>",
+    "translation": "",
+    "pos": 107167
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2394_5_3_7|",
+    "original": "<<numberStepper \"Sex\" $fame.sex { callback: value => { V.fame.sex = value }, max: 2000, reverse: true}>>",
+    "translation": "",
+    "pos": 107190
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2395_5_3_7|",
+    "original": "<<numberStepper \"Prostitution\" $fame.prostitution { callback: value => { V.fame.prostitution = value }, max: 2000, reverse: true}>>",
+    "translation": "",
+    "pos": 107298
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2396_5_3_7|",
+    "original": "<<numberStepper \"Rape\" $fame.rape { callback: value => { V.fame.rape = value }, max: 2000, reverse: true}>>",
+    "translation": "",
+    "pos": 107433
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2397_5_3_7|",
+    "original": "<<numberStepper \"Bestiality\" $fame.bestiality { callback: value => { V.fame.bestiality = value }, max: 2000, reverse: true}>>",
+    "translation": "",
+    "pos": 107544
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2398_5_3_7|",
+    "original": "<<numberStepper \"Pregnancy\" $fame.pregnancy { callback: value => { V.fame.pregnancy = value }, max: Math.clamp(playerNormalPregnancyTotal(),1,8) * 250, step: 2000 / 100,  percentage: false, reverse: true, valueFormat: (value) => `<b>${Math.round(((value - 0) / (2000 - 0)) * 100)}%</b>`}>>",
+    "translation": "",
+    "pos": 107673
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2399_5_3_7|",
+    "original": "<<numberStepper \"Impregnation\" $fame.impreg { callback: value => { V.fame.impreg = value }, max: 2000, reverse: true}>>",
+    "translation": "",
+    "pos": 107966
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2400_5_3_7|",
+    "original": "<<numberStepper \"Exhibitionism\" $fame.exhibitionism { callback: value => { V.fame.exhibitionism = value }, max: 2000, reverse: true}>>",
+    "translation": "",
+    "pos": 108089
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2402_5_3_7|",
+    "original": "<span class=\"description\"><<set _pregsNeeded to Math.trunc(8-playerNormalPregnancyTotal())>>",
+    "translation": "",
+    "pos": 108272
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2403_5_3_7|",
+    "original": "Your pregnancy fame is capped by the amount of pregnancies you've had. You need to get pregnant <span class=\"gold\"><<number _pregsNeeded>></span> more <<= _pregsNeeded is 1 ? \"time\" : \"times\">> to reach maximum pregnancy fame.</span>",
+    "translation": "",
+    "pos": 108369
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2405_5_3_7|",
+    "original": "<<case \"positive\">>",
+    "translation": "",
+    "pos": 108616
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2406_5_3_7|",
+    "original": "<<numberStepper \"Combat\" $fame.scrap { callback: value => { V.fame.scrap = value }, max: 2000}>>",
+    "translation": "",
+    "pos": 108639
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2407_5_3_7|",
+    "original": "<<numberStepper \"Kindness\" $fame.good { callback: value => { V.fame.good = value }, max: 2000}>>",
+    "translation": "",
+    "pos": 108739
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2408_5_3_7|",
+    "original": "<<numberStepper \"Business\" $fame.business { callback: value => { V.fame.business = value }, max: 2000}>>",
+    "translation": "",
+    "pos": 108839
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2409_5_3_7|",
+    "original": "<<numberStepper \"Socialite\" $fame.social { callback: value => { V.fame.social = value }, max: 2000}>>",
+    "translation": "",
+    "pos": 108947
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2410_5_3_7|",
+    "original": "<<numberStepper \"Model\" $fame.model { callback: value => { V.fame.model = value }, max: 2000}>>",
+    "translation": "",
+    "pos": 109052
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2411_5_3_7|",
+    "original": "<<case \"skills\">>",
+    "translation": "",
+    "pos": 109150
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2412_5_3_7|",
+    "original": "<<numberStepper \"Skulduggery\" $skulduggery \"skulduggery\" {max: 1000}>>",
+    "translation": "",
+    "pos": 109171
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2413_5_3_7|",
+    "original": "<<numberStepper \"Dance\" $danceskill \"danceskill\" {max: 1000}>>",
+    "translation": "",
+    "pos": 109245
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2414_5_3_7|",
+    "original": "<<numberStepper \"Swimming\" $swimmingskill \"swimmingskill\" {max: 1000}>>",
+    "translation": "",
+    "pos": 109311
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2415_5_3_7|",
+    "original": "<<numberStepper \"Athletics\" $athletics \"athletics\" {max: 1000}>>",
+    "translation": "",
+    "pos": 109386
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2416_5_3_7|",
+    "original": "<<numberStepper \"Tending\" $tending \"tending\" {max: 1000}>>",
+    "translation": "",
+    "pos": 109454
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2417_5_3_7|",
+    "original": "<<numberStepper \"Housekeeping\" $housekeeping \"housekeeping\" {max: 1000}>>",
+    "translation": "",
+    "pos": 109516
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2418_5_3_7|",
+    "original": "<<case \"school\">>",
+    "translation": "",
+    "pos": 109592
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2420_5_3_7|",
+    "original": "<<numberStepper \"<<scienceicon>> Science\" $science \"science\" {",
+    "translation": "",
+    "pos": 109695
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2421_5_3_7|",
+    "original": "callback: (value) => wikifier('adjust_school_traits'),",
+    "translation": "",
+    "pos": 109762
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2424_5_3_7|",
+    "original": "<<numberStepper \"<<mathicon>> Maths\" $maths \"maths\" {",
+    "translation": "",
+    "pos": 109841
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2425_5_3_7|",
+    "original": "callback: (value) => wikifier('adjust_school_traits'),",
+    "translation": "",
+    "pos": 109899
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2428_5_3_7|",
+    "original": "<<numberStepper \"<<englishicon>> English\" $english \"english\" {",
+    "translation": "",
+    "pos": 109978
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2429_5_3_7|",
+    "original": "callback: (value) => wikifier('adjust_school_traits'),",
+    "translation": "",
+    "pos": 110045
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2432_5_3_7|",
+    "original": "<<numberStepper \"<<historyicon>> History\" $history \"history\" {",
+    "translation": "",
+    "pos": 110124
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2433_5_3_7|",
+    "original": "callback: (value) => wikifier('adjust_school_traits'),",
+    "translation": "",
+    "pos": 110191
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2436_5_3_7|",
+    "original": "<<case \"characteristics\">>",
+    "translation": "",
+    "pos": 110269
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2437_5_3_7|",
+    "original": "<<numberStepper \"<<tficon angel>> Purity\" $purity \"purity\" {max: 1000}>>",
+    "translation": "",
+    "pos": 110299
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2438_5_3_7|",
+    "original": "<<numberStepper \"<<symbol beauty>> Beauty\" $beauty \"beauty\" {max: 10000}>>",
+    "translation": "",
+    "pos": 110375
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2439_5_3_7|",
+    "original": "<<numberStepper \"<<symbol physique>> Physique\" $physique \"physique\" {max: $physiquesize}>>",
+    "translation": "",
+    "pos": 110453
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2440_5_3_7|",
+    "original": "<<numberStepper \"<<symbol willpower>> Willpower\" $willpower \"willpower\" {max: 1000}>>",
+    "translation": "",
+    "pos": 110547
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2441_5_3_7|",
+    "original": "<<numberStepper \"<<symbol awareness>> Awareness\" $awareness \"awareness\" {min: -200, max: 1000, reverse: true}>>",
+    "translation": "",
+    "pos": 110636
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2442_5_3_7|",
+    "original": "<<numberStepper \"<<symbol promiscuity>> Promiscuity\" $promiscuity \"promiscuity\" {reverse: true}>>",
+    "translation": "",
+    "pos": 110751
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2443_5_3_7|",
+    "original": "<<numberStepper \"<<symbol exhibitionism>> Exhibitionism\" $exhibitionism \"exhibitionism\" {reverse: true}>>",
+    "translation": "",
+    "pos": 110852
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2444_5_3_7|",
+    "original": "<<numberStepper \"<<symbol deviancy>> Deviancy\" $deviancy \"deviancy\" {reverse: true}>>",
+    "translation": "",
+    "pos": 110961
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2446_5_3_7|",
+    "original": "<<numberStepper \"<<symbol corruption>> Corruption\" $earSlime.corruption { callback: value => {V.earSlime.corruption = value; Wikifier.wikifyEval(\"<<updatesidebarimg>>\")}, reverse: true}>>",
+    "translation": "",
+    "pos": 111080
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2448_5_3_7|",
+    "original": "<<case \"sex\">>",
+    "translation": "",
+    "pos": 111281
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2449_5_3_7|",
+    "original": "<<numberStepper \"Seduction\" $seductionskill \"seductionskill\" {max: 1000}>>",
+    "translation": "",
+    "pos": 111299
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2450_5_3_7|",
+    "original": "<<numberStepper \"Chest\" $chestskill \"chestskill\" {max: 1000}>>",
+    "translation": "",
+    "pos": 111377
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2451_5_3_7|",
+    "original": "<<numberStepper \"Buttocks\" $bottomskill \"bottomskill\" {max: 1000}>>",
+    "translation": "",
+    "pos": 111443
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2452_5_3_7|",
+    "original": "<<if $player.vaginaExist>><<numberStepper \"Vaginal\" $vaginalskill \"vaginalskill\" {max: 1000}>><</if>>",
+    "translation": "",
+    "pos": 111514
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2453_5_3_7|",
+    "original": "<<if $player.penisExist>><<numberStepper \"Penile\" $penileskill \"penileskill\" {max: 1000}>><</if>>",
+    "translation": "",
+    "pos": 111619
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2454_5_3_7|",
+    "original": "<<numberStepper \"Thighs\" $thighskill \"thighskill\" {max: 1000}>>",
+    "translation": "",
+    "pos": 111720
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2455_5_3_7|",
+    "original": "<<numberStepper \"Oral\" $oralskill \"oralskill\" {max: 1000}>>",
+    "translation": "",
+    "pos": 111787
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2456_5_3_7|",
+    "original": "<<numberStepper \"Hands\" $handskill \"handskill\" {max: 1000}>>",
+    "translation": "",
+    "pos": 111850
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2457_5_3_7|",
+    "original": "<<numberStepper \"Anal\" $analskill \"analskill\" {max: 1000}>>",
+    "translation": "",
+    "pos": 111914
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2458_5_3_7|",
+    "original": "<<numberStepper \"Feet\" $feetskill \"feetskill\" {max: 1000}>>",
+    "translation": "",
+    "pos": 111977
+  },
+  {
+    "passage": "Cheats",
+    "filepath": "base-system/overlays/cheats.twee",
+    "key": "2460_5_3_7|",
+    "original": "ERROR: Skill issue.",
+    "translation": "",
+    "pos": 112054
+  }
+]

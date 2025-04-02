@@ -1,0 +1,1794 @@
+[
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "40_5_3_7|",
+    "original": "<<button \"Save Current As Default\">>",
+    "translation": "",
+    "pos": 911
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "59_5_3_7|",
+    "original": "<<button \"Reset Defaults\">>",
+    "translation": "",
+    "pos": 2540
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "65_5_3_7|",
+    "original": "<div class=\"settingsHeader options\"><span class=\"gold\">General</span></div>",
+    "translation": "",
+    "pos": 2695
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "69_5_3_7|",
+    "original": "Hide player nudity in menus",
+    "translation": "",
+    "pos": 2885
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "74_5_3_7|",
+    "original": "<<checkbox \"$options.autosaveDisabled\" false true autocheck>> Disable autosave on sleeping",
+    "translation": "",
+    "pos": 3023
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "78_5_3_7|",
+    "original": "<span class=\"gold\">Date Format:</span><<optionsThemeDefault \"dateFormat\">>",
+    "translation": "",
+    "pos": 3173
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "80_5_3_7|",
+    "original": "<label class=\"en-GB\"><<radiobutton \"$options.dateFormat\" \"en-GB\" autocheck>> dd/mm/yyyy</label> |",
+    "translation": "",
+    "pos": 3259
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "81_5_3_7|",
+    "original": "<label class=\"en-US\"><<radiobutton \"$options.dateFormat\" \"en-US\" autocheck>> mm/dd/yyyy</label> |",
+    "translation": "",
+    "pos": 3360
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "82_5_3_7|",
+    "original": "<label class=\"zh-CN\"><<radiobutton \"$options.dateFormat\" \"zh-CN\" autocheck>> yyyy/mm/dd</label>",
+    "translation": "",
+    "pos": 3461
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "85_5_3_7|",
+    "original": "<span class=\"gold\">Temperature Format:</span><<optionsThemeDefault \"fahrenheit\">>",
+    "translation": "",
+    "pos": 3604
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "87_5_3_7|",
+    "original": "<label><<checkbox \"$options.fahrenheit\" false true autocheck>> Use Fahrenheit for temperatures</label>",
+    "translation": "",
+    "pos": 3697
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "90_5_3_7|",
+    "original": "<label data-disabledif=\"!StartConfig.enableLinkNumberify\">",
+    "translation": "",
+    "pos": 3851
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "91_5_3_7|",
+    "original": "<<checkbox \"$options.numberify_enabled\" 0 1 autocheck>> Enable numbered link navigation",
+    "translation": "",
+    "pos": 3914
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "93_5_3_7|",
+    "original": "<mouse class=\"tooltip-small linkBlue\">(?)<span>Allows navigation with keyboard.</span></mouse>",
+    "translation": "",
+    "pos": 4017
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "98_5_3_7|",
+    "original": "<div class=\"settingsHeader options\">Sidebar</div>",
+    "translation": "",
+    "pos": 4165
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "100_5_3_7|",
+    "original": "<span class=\"gold\">Time format:</span>",
+    "translation": "",
+    "pos": 4253
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "102_5_3_7|",
+    "original": "<label><<radiobutton \"$options.timestyle\" \"military\" autocheck>> 24-hour</label> |",
+    "translation": "",
+    "pos": 4303
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "103_5_3_7|",
+    "original": "<label><<radiobutton \"$options.timestyle\" \"ampm\" autocheck>> 12-hour</label>",
+    "translation": "",
+    "pos": 4389
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "106_5_3_7|",
+    "original": "<span class=\"gold\">Condoms display:</span>",
+    "translation": "",
+    "pos": 4513
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "108_5_3_7|",
+    "original": "<label><<radiovar \"$options.condomsDisplay\" \"standard\">><<updatesidebarimg>><</radiovar>> Standard</label> |",
+    "translation": "",
+    "pos": 4567
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "109_5_3_7|",
+    "original": "<label><<radiovar \"$options.condomsDisplay\" \"none\">><<updatesidebarimg>><</radiovar>> Hidden</label>",
+    "translation": "",
+    "pos": 4679
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "112_5_3_7|",
+    "original": "<span class=\"gold\">Pepper sprays display:</span>",
+    "translation": "",
+    "pos": 4827
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "114_5_3_7|",
+    "original": "<label><<radiovar \"$options.pepperSprayDisplay\" \"sprays\">><<updatesidebarimg>><</radiovar>> Standard</label> |",
+    "translation": "",
+    "pos": 4887
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "115_5_3_7|",
+    "original": "<label><<radiovar \"$options.pepperSprayDisplay\" \"compact\">><<updatesidebarimg>><</radiovar>> Compact</label>",
+    "translation": "",
+    "pos": 5001
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "116_5_3_7|",
+    "original": "<label><<radiovar \"$options.pepperSprayDisplay\" \"none\">><<updatesidebarimg>><</radiovar>> Hidden</label>",
+    "translation": "",
+    "pos": 5113
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "119_5_3_7|",
+    "original": "<label><<checkbox \"$options.tipdisable\" \"t\" \"f\" autocheck>> Enable sidebar hints and tips</label>",
+    "translation": "",
+    "pos": 5265
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "122_5_3_7|",
+    "original": "<label><<checkbox \"$options.debugdisable\" \"t\" \"f\" autocheck>> Enable additional error messages</label>",
+    "translation": "",
+    "pos": 5410
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "125_5_3_7|",
+    "original": "Show stats when sidebar is closed:",
+    "translation": "",
+    "pos": 5560
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "126_5_3_7|",
+    "original": "<<listbox \"$options.sidebarStats\" autoselect>>",
+    "translation": "",
+    "pos": 5598
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "127_5_3_7|",
+    "original": "<<option \"Disabled\" \"disabled\">>",
+    "translation": "",
+    "pos": 5649
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "128_5_3_7|",
+    "original": "<<option \"Limited\" \"limited\">>",
+    "translation": "",
+    "pos": 5686
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "129_5_3_7|",
+    "original": "<<option \"Show all\" \"all\">>",
+    "translation": "",
+    "pos": 5721
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "131_5_3_7|",
+    "original": "<div class=\"mobile-rec gold\">It's a good idea to enable this on mobile!</div>",
+    "translation": "",
+    "pos": 5768
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "134_5_3_7|",
+    "original": "Show clock when sidebar is closed:",
+    "translation": "",
+    "pos": 5893
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "135_5_3_7|",
+    "original": "<<listbox \"$options.sidebarTime\" autoselect>>",
+    "translation": "",
+    "pos": 5931
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "136_5_3_7|",
+    "original": "<<option \"Disabled\" \"disabled\">>",
+    "translation": "",
+    "pos": 5981
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "137_5_3_7|",
+    "original": "<<option \"Above\" \"top\">>",
+    "translation": "",
+    "pos": 6018
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "138_5_3_7|",
+    "original": "<<option \"Below\" \"bottom\">>",
+    "translation": "",
+    "pos": 6047
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "140_5_3_7|",
+    "original": "<div class=\"mobile-rec gold\">It's a good idea to enable this on mobile!</div>",
+    "translation": "",
+    "pos": 6094
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "143_5_3_7|",
+    "original": "<label><<checkbox \"$options.clothingCaption\" false true autocheck>> Show clothing descriptions in sidebar</label>",
+    "translation": "",
+    "pos": 6219
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "144_5_3_7|",
+    "original": "<span class=\"tooltip-anchor linkBlue\" tooltip=\"Still displays the description as a tooltip when hovering over the avatar when disabled.\">(?)</span>",
+    "translation": "",
+    "pos": 6336
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "147_5_3_7|",
+    "original": "<label><<checkbox \"$options.showCaptionText\" false true autocheck>> Show caption text in sidebar</label>",
+    "translation": "",
+    "pos": 6531
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "152_5_3_7|",
+    "original": "<div class=\"settingsHeader options\">Combat</div>",
+    "translation": "",
+    "pos": 6689
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "154_5_3_7|",
+    "original": "\"Yourself\" as a target:",
+    "translation": "",
+    "pos": 6776
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "155_5_3_7|",
+    "original": "<label><<radiobutton \"$options.targetYourself\" false autocheck>> Disabled</label> |",
+    "translation": "",
+    "pos": 6803
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "156_5_3_7|",
+    "original": "<label><<radiobutton \"$options.targetYourself\" true autocheck>> Enabled</label>",
+    "translation": "",
+    "pos": 6890
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "161_5_3_7|",
+    "original": "Restore scrolling position during combat",
+    "translation": "",
+    "pos": 7093
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "165_5_3_7|",
+    "original": "Combat Controls:",
+    "translation": "",
+    "pos": 7197
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "166_5_3_7|",
+    "original": "<<listbox \"$options.combatControls\" autoselect>>",
+    "translation": "",
+    "pos": 7217
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "167_5_3_7|",
+    "original": "<<option \"Radio Buttons\" \"radio\">>",
+    "translation": "",
+    "pos": 7270
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "168_5_3_7|",
+    "original": "<<option \"Radio Buttons (In Columns)\" \"columnRadio\">>",
+    "translation": "",
+    "pos": 7309
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "169_5_3_7|",
+    "original": "<<option \"Lists (No width limit)\" \"lists\">>",
+    "translation": "",
+    "pos": 7367
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "170_5_3_7|",
+    "original": "<<option \"Lists (Width Limit)\" \"limitedLists\">>",
+    "translation": "",
+    "pos": 7415
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "178_5_3_7|",
+    "original": "<div class=\"settingsHeader options\">Map</div>",
+    "translation": "",
+    "pos": 7565
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "180_5_3_7|",
+    "original": "<label data-target=\"images\"><<checkbox \"$options.mapMovement\" false true autocheck>> Enable map movement by clicking/touching the map icons</label>",
+    "translation": "",
+    "pos": 7651
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "183_5_3_7|",
+    "original": "<label data-target=\"images\" data-disabledif=\"V.options.images===0\"><<checkbox \"$options.mapLegacy\" false true autocheck>> Disable SVG map. Enable if town map is not visible.</label>",
+    "translation": "",
+    "pos": 7849
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "186_5_3_7|",
+    "original": "<label data-target=\"['images', 'maplegacy]\" data-disabledif=\"V.options.images===0||V.options.mapLegacy\"><<checkbox \"$options.mapMarkers\" false true autocheck>> Show clickable area on map</label>",
+    "translation": "",
+    "pos": 8081
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "189_5_3_7|",
+    "original": "<label data-target=\"images\"><<checkbox \"$options.mapTop\" false true autocheck>> Move the map above the map links</label>",
+    "translation": "",
+    "pos": 8326
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "195_5_3_7|",
+    "original": "<div class=\"settingsHeader options\">Overlays</div>",
+    "translation": "",
+    "pos": 8511
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "197_5_3_7|",
+    "original": "<span class=\"gold\">Position of the close-button for overlay menus:</span>",
+    "translation": "",
+    "pos": 8604
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "198_5_3_7|",
+    "original": "<span class=\"tooltip-anchor linkBlue\" tooltip=\"Updated next time overlay is opened\">(?)</span>",
+    "translation": "",
+    "pos": 8681
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "200_5_3_7|",
+    "original": "<label><<radiobutton \"$options.closeButtonMobile\" false autocheck>> Normal</label> |",
+    "translation": "",
+    "pos": 8787
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "201_5_3_7|",
+    "original": "<label><<radiobutton \"$options.closeButtonMobile\" true autocheck>> Mobile (Left-hand side)</label>",
+    "translation": "",
+    "pos": 8875
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "206_5_3_7|",
+    "original": "<div class=\"settingsHeader options\">Extra Info</div>",
+    "translation": "",
+    "pos": 9027
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "208_5_3_7|",
+    "original": "<span class=\"gold\">Display passage count in the top right of the screen:</span>",
+    "translation": "",
+    "pos": 9118
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "210_5_3_7|",
+    "original": "<label><<radiobutton \"$options.passageCount\" \"disabled\" autocheck>> Disable</label>",
+    "translation": "",
+    "pos": 9209
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "212_5_3_7|",
+    "original": "<label><<radiobutton \"$options.passageCount\" \"changes\" autocheck>> Passage Changes Count</label>",
+    "translation": "",
+    "pos": 9304
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "213_5_3_7|",
+    "original": "<span class=\"tooltip-anchor linkBlue\" tooltip=\"Total number of times a new passage has changed (Clicking on links in most cases). Passages such as the settings are excluded. Not tracked in versions '0.3.12.X' and older\">(?)</span>",
+    "translation": "",
+    "pos": 9404
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "215_5_3_7|",
+    "original": "<label><<radiobutton \"$options.passageCount\" \"total\" autocheck>> Passage Count</label>",
+    "translation": "",
+    "pos": 9646
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "216_5_3_7|",
+    "original": "<span class=\"tooltip-anchor linkBlue\" tooltip=\"Total number of times a new passage has been loaded (Clicking on links in most cases). Passages such as the settings are excluded. Not tracked in versions '0.3.12.X' and older\">(?)</span>",
+    "translation": "",
+    "pos": 9736
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "219_5_3_7|",
+    "original": "<span class=\"gold\">Display play time in the top right of the screen:</span>",
+    "translation": "",
+    "pos": 10018
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "220_5_3_7|",
+    "original": "<span class=\"tooltip-anchor linkBlue\" tooltip=\"Formatted into 'h:mm:ss'. Be aware that leaving the game for hours alone, then saving will have its time tracked. To avoid, save the game before ending play and then load the save when you resume play. Not tracked in versions '0.3.13.X' and older\">(?)</span>",
+    "translation": "",
+    "pos": 10097
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "222_5_3_7|",
+    "original": "<label><<radiobutton \"$options.playtime\" false autocheck>> Disable</label>",
+    "translation": "",
+    "pos": 10414
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "224_5_3_7|",
+    "original": "<label><<radiobutton \"$options.playtime\" true autocheck>> Enable</label>",
+    "translation": "",
+    "pos": 10500
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "230_5_3_7|",
+    "original": "<<button \"Restart Game\">>",
+    "translation": "",
+    "pos": 10631
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "246_5_3_7|",
+    "original": "<<button \"Save Current As Default\">>",
+    "translation": "",
+    "pos": 11002
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "260_5_3_7|",
+    "original": "<<button \"Reset Defaults\">>",
+    "translation": "",
+    "pos": 12194
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "266_5_3_7|",
+    "original": "<div class=\"settingsHeader options\">Theme<<optionsThemeDefault \"theme\">></div>",
+    "translation": "",
+    "pos": 12347
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "268_5_3_7|",
+    "original": "<span class=\"gold\">Style:</span>",
+    "translation": "",
+    "pos": 12468
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "269_5_3_7|",
+    "original": "<label><input type=\"radio\" name=\"theme\" value=\"system-default\" /> Default</label> |",
+    "translation": "",
+    "pos": 12504
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "270_5_3_7|",
+    "original": "<label><input type=\"radio\" name=\"theme\" value=\"dark\" /> Dark</label> |",
+    "translation": "",
+    "pos": 12591
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "271_5_3_7|",
+    "original": "<label><input type=\"radio\" name=\"theme\" value=\"arctic\" /> Nord</label> |",
+    "translation": "",
+    "pos": 12665
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "272_5_3_7|",
+    "original": "<label><input type=\"radio\" name=\"theme\" value=\"zen\" /> Zenburn</label> |",
+    "translation": "",
+    "pos": 12741
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "273_5_3_7|",
+    "original": "<label><input type=\"radio\" name=\"theme\" value=\"monokai\" /> Monokai</label> |",
+    "translation": "",
+    "pos": 12817
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "274_5_3_7|",
+    "original": "<label><input type=\"radio\" name=\"theme\" value=\"storm\" /> Storm</label> |",
+    "translation": "",
+    "pos": 12897
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "275_5_3_7|",
+    "original": "<label><input type=\"radio\" name=\"theme\" value=\"latte\" /> Catppuccin Latte</label> |",
+    "translation": "",
+    "pos": 12973
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "276_5_3_7|",
+    "original": "<label><input type=\"radio\" name=\"theme\" value=\"frappe\" /> Catppuccin Frappé</label> |",
+    "translation": "",
+    "pos": 13060
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "277_5_3_7|",
+    "original": "<label><input type=\"radio\" name=\"theme\" value=\"macchiato\" /> Catppuccin Macchiato</label> |",
+    "translation": "",
+    "pos": 13149
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "278_5_3_7|",
+    "original": "<label><input type=\"radio\" name=\"theme\" value=\"mocha\" /> Catppuccin Mocha</label>",
+    "translation": "",
+    "pos": 13244
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "279_5_3_7|",
+    "original": "<div class=\"small-description\">Selected styles cannot currently be saved as the 'default' option, though they will carry over to new saves.</div>",
+    "translation": "",
+    "pos": 13329
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "285_5_3_7|",
+    "original": "<div class=\"settingsHeader options\">Line Height</div>",
+    "translation": "",
+    "pos": 13529
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "287_5_3_7|",
+    "original": "Passage:",
+    "translation": "",
+    "pos": 13621
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "288_5_3_7|",
+    "original": "<<listbox \"$options.passageLineHeight\" autoselect>>",
+    "translation": "",
+    "pos": 13633
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "289_5_3_7|",
+    "original": "<<option \"Default\" undefined>>",
+    "translation": "",
+    "pos": 13689
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "290_5_3_7|",
+    "original": "<<option \"1\" 1>>",
+    "translation": "",
+    "pos": 13724
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "291_5_3_7|",
+    "original": "<<option \"1.25\" 1.25>>",
+    "translation": "",
+    "pos": 13745
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "292_5_3_7|",
+    "original": "<<option \"1.5\" 1.5>>",
+    "translation": "",
+    "pos": 13772
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "293_5_3_7|",
+    "original": "<<option \"1.75\" 1.75>>",
+    "translation": "",
+    "pos": 13797
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "294_5_3_7|",
+    "original": "<<option \"2\" 2>>",
+    "translation": "",
+    "pos": 13824
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "299_5_3_7|",
+    "original": "Overlay:",
+    "translation": "",
+    "pos": 13951
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "300_5_3_7|",
+    "original": "<<listbox \"$options.overlayLineHeight\" autoselect>>",
+    "translation": "",
+    "pos": 13963
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "301_5_3_7|",
+    "original": "<<option \"Default\" undefined>>",
+    "translation": "",
+    "pos": 14019
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "302_5_3_7|",
+    "original": "<<option \"1\" 1>>",
+    "translation": "",
+    "pos": 14054
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "303_5_3_7|",
+    "original": "<<option \"1.25\" 1.25>>",
+    "translation": "",
+    "pos": 14075
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "304_5_3_7|",
+    "original": "<<option \"1.5\" 1.5>>",
+    "translation": "",
+    "pos": 14102
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "305_5_3_7|",
+    "original": "<<option \"1.75\" 1.75>>",
+    "translation": "",
+    "pos": 14127
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "306_5_3_7|",
+    "original": "<<option \"2\" 2>>",
+    "translation": "",
+    "pos": 14154
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "311_5_3_7|",
+    "original": "Sidebar:",
+    "translation": "",
+    "pos": 14285
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "312_5_3_7|",
+    "original": "<<listbox \"$options.sidebarLineHeight\" autoselect>>",
+    "translation": "",
+    "pos": 14297
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "313_5_3_7|",
+    "original": "<<option \"Default\" undefined>>",
+    "translation": "",
+    "pos": 14353
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "314_5_3_7|",
+    "original": "<<option \"1\" 1>>",
+    "translation": "",
+    "pos": 14388
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "315_5_3_7|",
+    "original": "<<option \"1.25\" 1.25>>",
+    "translation": "",
+    "pos": 14409
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "316_5_3_7|",
+    "original": "<<option \"1.5\" 1.5>>",
+    "translation": "",
+    "pos": 14436
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "317_5_3_7|",
+    "original": "<<option \"1.75\" 1.75>>",
+    "translation": "",
+    "pos": 14461
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "318_5_3_7|",
+    "original": "<<option \"2\" 2>>",
+    "translation": "",
+    "pos": 14488
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "326_5_3_7|",
+    "original": "<div class=\"settingsHeader options\">Font Size</div>",
+    "translation": "",
+    "pos": 14622
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "328_5_3_7|",
+    "original": "Passage:",
+    "translation": "",
+    "pos": 14712
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "329_5_3_7|",
+    "original": "<<listbox \"$options.passageFontSize\" autoselect>>",
+    "translation": "",
+    "pos": 14724
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "330_5_3_7|",
+    "original": "<<option \"Default\" undefined>>",
+    "translation": "",
+    "pos": 14778
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "331_5_3_7|",
+    "original": "<<option \"10px\" 10>>",
+    "translation": "",
+    "pos": 14813
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "332_5_3_7|",
+    "original": "<<option \"12px\" 12>>",
+    "translation": "",
+    "pos": 14838
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "333_5_3_7|",
+    "original": "<<option \"14px\" 14>>",
+    "translation": "",
+    "pos": 14863
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "334_5_3_7|",
+    "original": "<<option \"16px\" 16>>",
+    "translation": "",
+    "pos": 14888
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "335_5_3_7|",
+    "original": "<<option \"18px\" 18>>",
+    "translation": "",
+    "pos": 14913
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "336_5_3_7|",
+    "original": "<<option \"20px\" 20>>",
+    "translation": "",
+    "pos": 14938
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "341_5_3_7|",
+    "original": "Overlay",
+    "translation": "",
+    "pos": 15067
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "342_5_3_7|",
+    "original": "<span class=\"tooltip-anchor linkBlue\" tooltip=\"Default is equivalent to passage font size.\">(?)</span>:",
+    "translation": "",
+    "pos": 15078
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "343_5_3_7|",
+    "original": "<<listbox \"$options.overlayFontSize\" autoselect>>",
+    "translation": "",
+    "pos": 15185
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "344_5_3_7|",
+    "original": "<<option \"Default\" undefined>>",
+    "translation": "",
+    "pos": 15239
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "345_5_3_7|",
+    "original": "<<option \"10px\" 10>>",
+    "translation": "",
+    "pos": 15274
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "346_5_3_7|",
+    "original": "<<option \"12px\" 12>>",
+    "translation": "",
+    "pos": 15299
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "347_5_3_7|",
+    "original": "<<option \"14px\" 14>>",
+    "translation": "",
+    "pos": 15324
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "348_5_3_7|",
+    "original": "<<option \"16px\" 16>>",
+    "translation": "",
+    "pos": 15349
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "349_5_3_7|",
+    "original": "<<option \"18px\" 18>>",
+    "translation": "",
+    "pos": 15374
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "350_5_3_7|",
+    "original": "<<option \"20px\" 20>>",
+    "translation": "",
+    "pos": 15399
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "355_5_3_7|",
+    "original": "Sidebar:",
+    "translation": "",
+    "pos": 15532
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "356_5_3_7|",
+    "original": "<<listbox \"$options.sidebarFontSize\" autoselect>>",
+    "translation": "",
+    "pos": 15544
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "357_5_3_7|",
+    "original": "<<option \"Default\" undefined>>",
+    "translation": "",
+    "pos": 15598
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "358_5_3_7|",
+    "original": "<<option \"12px\" 12>>",
+    "translation": "",
+    "pos": 15633
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "359_5_3_7|",
+    "original": "<<option \"14px\" 14>>",
+    "translation": "",
+    "pos": 15658
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "360_5_3_7|",
+    "original": "<<option \"16px\" 16>>",
+    "translation": "",
+    "pos": 15683
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "361_5_3_7|",
+    "original": "<<option \"18px\" 18>>",
+    "translation": "",
+    "pos": 15708
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "362_5_3_7|",
+    "original": "<<option \"20px\" 20>>",
+    "translation": "",
+    "pos": 15733
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "370_5_3_7|",
+    "original": "<div class=\"settingsHeader options\">Font Style</div>",
+    "translation": "",
+    "pos": 15869
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "373_5_3_7|",
+    "original": "<label><<radiobutton \"$options.font\" \"\" `$options.font is undefined ? 'checked' : 'autocheck'`>> Use system default</label>",
+    "translation": "",
+    "pos": 15998
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "375_5_3_7|",
+    "original": "<span class=\"gold\">Sans-serif:</span>",
+    "translation": "",
+    "pos": 16133
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "376_5_3_7|",
+    "original": "<label class=\"Arial\"><<radiobutton \"$options.font\" \"Arial\" autocheck>> Arial</label> |",
+    "translation": "",
+    "pos": 16174
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "377_5_3_7|",
+    "original": "<label class=\"Verdana\"><<radiobutton \"$options.font\" \"Verdana\" autocheck>> Verdana</label>",
+    "translation": "",
+    "pos": 16264
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "379_5_3_7|",
+    "original": "<span class=\"gold\">Serif:</span>",
+    "translation": "",
+    "pos": 16366
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "380_5_3_7|",
+    "original": "<label class=\"TimesNewRoman\"><<radiobutton \"$options.font\" \"TimesNewRoman\" autocheck>> Times New Roman</label> |",
+    "translation": "",
+    "pos": 16402
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "381_5_3_7|",
+    "original": "<label class=\"Georgia\"><<radiobutton \"$options.font\" \"Georgia\" autocheck>> Georgia</label> |",
+    "translation": "",
+    "pos": 16518
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "382_5_3_7|",
+    "original": "<label class=\"Garamond\"><<radiobutton \"$options.font\" \"Garamond\" autocheck>> Garamond</label>",
+    "translation": "",
+    "pos": 16614
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "384_5_3_7|",
+    "original": "<span class=\"gold\">Monospace:</span>",
+    "translation": "",
+    "pos": 16719
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "385_5_3_7|",
+    "original": "<label class=\"CourierNew\"><<radiobutton \"$options.font\" \"CourierNew\" autocheck>> Courier New</label> |",
+    "translation": "",
+    "pos": 16759
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "386_5_3_7|",
+    "original": "<label class=\"LucidaConsole\"><<radiobutton \"$options.font\" \"LucidaConsole\" autocheck>> Lucida Console</label> |",
+    "translation": "",
+    "pos": 16865
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "387_5_3_7|",
+    "original": "<label class=\"Monaco\"><<radiobutton \"$options.font\" \"Monaco\" autocheck>> Monaco</label>",
+    "translation": "",
+    "pos": 16980
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "389_5_3_7|",
+    "original": "<span class=\"gold\">Accessibility:</span>",
+    "translation": "",
+    "pos": 17079
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "390_5_3_7|",
+    "original": "<label class=\"OpenDyslexicMono\"><<radiobutton \"$options.font\" \"OpenDyslexicMono\" autocheck>> OpenDyslexic Mono</label> |",
+    "translation": "",
+    "pos": 17123
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "391_5_3_7|",
+    "original": "<label class=\"ComicSans\"><<radiobutton \"$options.font\" \"ComicSans\" autocheck>> Comic Sans</label>",
+    "translation": "",
+    "pos": 17247
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "398_5_3_7|",
+    "original": "<span @id=\"'optionsThemeDefault-' + _args[0]\">",
+    "translation": "",
+    "pos": 17427
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "399_5_3_7|",
+    "original": "<<if _globalThemeDefaults[_args[0]]>> Default: (<<print _globalThemeDefaults[_args[0]]>>)",
+    "translation": "",
+    "pos": 17477
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "400_5_3_7|",
+    "original": "<<elseif _globalGeneralDefaults[_args[0]]>> Default: (<<print _globalGeneralDefaults[_args[0]]>>)",
+    "translation": "",
+    "pos": 17570
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "410_5_3_7|",
+    "original": "<div class=\"settingsHeader options\">Images</div>",
+    "translation": "",
+    "pos": 17834
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "412_5_3_7|",
+    "original": "<label><<checkbox \"$options.images\" 0 1 autocheck>> Enable images</label>",
+    "translation": "",
+    "pos": 17923
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "413_5_3_7|",
+    "original": "<span class=\"tooltip-anchor linkBlue\" tooltip=\"Images may not load properly on older Androids.\">(?)</span>",
+    "translation": "",
+    "pos": 18001
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "417_5_3_7|",
+    "original": "<<checkbox \"$options.combatImages\" 0 1 autocheck>> Enable combat images",
+    "translation": "",
+    "pos": 18239
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "422_5_3_7|",
+    "original": "<label data-target=\"options.images\" data-disabledif=\"V.options.images===0\"><<checkbox \"$options.silhouetteEnabled\" false true autocheck>> Enable NPC silhouettes</label>",
+    "translation": "",
+    "pos": 18375
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "426_5_3_7|",
+    "original": "<label data-target=\"options.images\" data-disabledif=\"true || V.options.images===0\">",
+    "translation": "",
+    "pos": 18659
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "427_5_3_7|",
+    "original": "<<checkbox \"$options.tanImgEnabled\" false true autocheck>> Visual representation of the player's and NPCs' skin colour in combat",
+    "translation": "",
+    "pos": 18748
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "430_5_3_7|",
+    "original": "<span class=\"tooltip-anchor linkBlue\" tooltip=\"Temporarily disabled for causing rendering issues with combat animations.\">(?)</span>",
+    "translation": "",
+    "pos": 19017
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "435_5_3_7|",
+    "original": "<div class=\"settingsHeader options\">Rendering</div>",
+    "translation": "",
+    "pos": 19208
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "437_5_3_7|",
+    "original": "<label data-target=\"options.images\" data-disabledif=\"V.options.images===0\"><<checkbox \"$options.weatherUpdate\" false true autocheck>> Use new weather renderer for sidebar</label>",
+    "translation": "",
+    "pos": 19300
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "440_5_3_7|",
+    "original": "<label data-target='[\"options.images\", \"weatherupdate\"]' data-disabledif=\"V.options.images===0||V.options.weatherUpdate===false\"><<checkbox \"$options.reflections\" false true autocheck>> Render water reflections",
+    "translation": "",
+    "pos": 19529
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "442_5_3_7|",
+    "original": "<span class=\"tooltip-anchor linkBlue\" tooltip=\"Could cause performance issues on old devices.\">(?)</span>",
+    "translation": "",
+    "pos": 19757
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "444_5_3_7|",
+    "original": "<div class=\"description\">Close the options menu for the change to apply.</div>",
+    "translation": "",
+    "pos": 19876
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "446_5_3_7|",
+    "original": "<span class=\"gold\">Animations</span>",
+    "translation": "",
+    "pos": 19966
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "450_5_3_7|",
+    "original": "<<checkbox \"$options.sidebarAnimations\" false true autocheck>> Sidebar character animations",
+    "translation": "",
+    "pos": 20153
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "454_5_3_7|",
+    "original": "<label data-target='[\"options.images\", \"sidebaranimations\"]' data-disabledif=\"V.options.images===0||V.options.sidebarAnimations===false\">",
+    "translation": "",
+    "pos": 20308
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "455_5_3_7|",
+    "original": "<<checkbox \"$options.blinkingEnabled\" false true autocheck>> Animate eyes blinking",
+    "translation": "",
+    "pos": 20451
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "459_5_3_7|",
+    "original": "<label data-target=\"images\" data-disabledif=\"V.options.images===0||V.options.combatImages===0\">",
+    "translation": "",
+    "pos": 20597
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "460_5_3_7|",
+    "original": "<<checkbox \"$options.combatAnimations\" false true autocheck>> Combat animations",
+    "translation": "",
+    "pos": 20698
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "462_5_3_7|",
+    "original": "<span class=\"tooltip-anchor linkBlue\" tooltip=\"Disabling may help improve performance during combat.\">(?)</span>",
+    "translation": "",
+    "pos": 20795
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "465_5_3_7|",
+    "original": "<label data-target=\"options.textAnimations\"><<checkbox \"$options.textAnimations\" false true autocheck>> Text animations</label>",
+    "translation": "",
+    "pos": 20958
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "469_5_3_7|",
+    "original": "<label data-target='[\"options.images\", \"sidebaranimations\"]' data-disabledif=\"V.options.images===0||V.options.sidebarAnimations===false\">",
+    "translation": "",
+    "pos": 21168
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "470_5_3_7|",
+    "original": "<<checkbox \"$options.halfClosedEnabled\" false true autocheck>> Enable half-closed eyes graphics",
+    "translation": "",
+    "pos": 21312
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "474_5_3_7|",
+    "original": "Draw eyelids in sidebar as half-closed when highly aroused.",
+    "translation": "",
+    "pos": 21468
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "480_5_3_7|",
+    "original": "<div class=\"settingsGrid\" data-target='[\"images\", \"characterLightEnabled\"]' data-disabledif=\"V.options.images===0||V.options.characterLightEnabled===false\" oninput='Renderer.refresh(Renderer.locateModel(\"lighting\", \"sidebar\"));'>",
+    "translation": "",
+    "pos": 21577
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "481_5_3_7|",
+    "original": "<div class=\"settingsHeader options\">Character Lighting</div>",
+    "translation": "",
+    "pos": 21811
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "484_5_3_7|",
+    "original": "Spotlight<br>",
+    "translation": "",
+    "pos": 21928
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "490_5_3_7|",
+    "original": "Gradient<br>",
+    "translation": "",
+    "pos": 22105
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "496_5_3_7|",
+    "original": "Glow<br>",
+    "translation": "",
+    "pos": 22279
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "502_5_3_7|",
+    "original": "Flat<br>",
+    "translation": "",
+    "pos": 22441
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "507_5_3_7|",
+    "original": "<label data-target=\"images\" data-disabledif=\"V.options.images===0||V.options.combatImages===0\">",
+    "translation": "",
+    "pos": 22589
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "508_5_3_7|",
+    "original": "Combat Light<br>",
+    "translation": "",
+    "pos": 22691
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "514_5_3_7|",
+    "original": "Colour Component<br>",
+    "translation": "",
+    "pos": 22865
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "516_5_3_7|",
+    "original": "<span class=\"description\">Requires Angel/Demon transformation</span>",
+    "translation": "",
+    "pos": 22970
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "520_5_3_7|",
+    "original": "<div style=\"margin-left: 10px\" onchange=\"new Wikifier(null, '<<updatesidebarimg>>')\">",
+    "translation": "",
+    "pos": 23077
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "522_5_3_7|",
+    "original": "<<checkbox \"$options.characterLightEnabled\" false true autocheck>> Enable character lighting",
+    "translation": "",
+    "pos": 23248
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "528_5_3_7|",
+    "original": "Images disabled",
+    "translation": "",
+    "pos": 23392
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "532_5_3_7|",
+    "original": "<div class=\"settingsHeader options\">History Depth</div>",
+    "translation": "",
+    "pos": 23453
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "534_5_3_7|",
+    "original": "Enables going back in history up to N-1 passages. Useful for reporting bugs or undoing decisions.",
+    "translation": "",
+    "pos": 23547
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "537_5_3_7|",
+    "original": "<<checkbox \"$options.historyControls\" false true autocheck>> Display history controls in the sidebar",
+    "translation": "",
+    "pos": 23668
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "541_5_3_7|",
+    "original": "<span class=\"gold\">States saved to memory:</span>",
+    "translation": "",
+    "pos": 23828
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "551_5_3_7|",
+    "original": "<div class=\"settingsHeader options\">Advanced Settings</div>",
+    "translation": "",
+    "pos": 24111
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "555_5_3_7|",
+    "original": "Enable numpad",
+    "translation": "",
+    "pos": 24277
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "557_5_3_7|",
+    "original": "<span class=\"tooltip-anchor linkBlue\" tooltip=\"Useful on mobile if links break due to translation software.\">(?)</span>",
+    "translation": "",
+    "pos": 24306
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "562_5_3_7|",
+    "original": "Use \"narrow screen\" version of the market inventory",
+    "translation": "",
+    "pos": 24550
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "566_5_3_7|",
+    "original": "<label><<checkbox \"$options.showDebugRenderer\" false true autocheck>> Enable renderer debugger</label>",
+    "translation": "",
+    "pos": 24661
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "569_5_3_7|",
+    "original": "<label onclick=\"setTimeout(() => {toggleConfirmDialogUponTabClose();}, 100)\">",
+    "translation": "",
+    "pos": 24811
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "571_5_3_7|",
+    "original": "Prompt confirmation dialog upon closing tab",
+    "translation": "",
+    "pos": 24968
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "577_5_3_7|",
+    "original": "<div class=\"settingsHeader options\">Game Zoom</div>",
+    "translation": "",
+    "pos": 25077
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "579_5_3_7|",
+    "original": "<span class=\"gold\">Zoom Size:</span>",
+    "translation": "",
+    "pos": 25172
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "580_5_3_7|",
+    "original": "<span class=\"tooltip-anchor linkBlue\" tooltip-width=\"460\" tooltip=\"Will allow you to adjust the size of game elements and text.<br><br><span class='red'>",
+    "translation": "",
+    "pos": 25213
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "581_5_3_7|",
+    "original": "Please be careful with this setting! Only save if you are happy with the changes made, as reloading the game will reset it to the last value used in that save.",
+    "translation": "",
+    "pos": 25374
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "582_5_3_7|",
+    "original": "Depending on the device and browser, the setting may break entirely, and may cause unexpected effects.",
+    "translation": "",
+    "pos": 25541
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "585_5_3_7|",
+    "original": "<span class=\"description red\">Not supported in all browsers</span>",
+    "translation": "",
+    "pos": 25683
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "589_5_3_7|",
+    "original": "<input type=\"button\" value=\"Set\" onclick='zoom()'/>",
+    "translation": "",
+    "pos": 25836
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "590_5_3_7|",
+    "original": "<input type=\"button\" value=\"Reset\" onclick='zoom(100)'/>",
+    "translation": "",
+    "pos": 25892
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "597_5_3_7|",
+    "original": "<h3>People of Interest</h3>",
+    "translation": "",
+    "pos": 26050
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "600_5_3_7|",
+    "original": "<span class=\"gold\">Creator: </span><span>Vrelnir</span>",
+    "translation": "",
+    "pos": 26102
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "603_5_3_7|",
+    "original": "<span class=\"gold\">Developer: </span><span>PurityGuy</span>",
+    "translation": "",
+    "pos": 26190
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "608_5_3_7|",
+    "original": "<h3>Useful Resources</h3>",
+    "translation": "",
+    "pos": 26307
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "613_5_3_7|",
+    "original": "<p class=\"gold m-0\">Unofficial Wiki</p>",
+    "translation": "",
+    "pos": 26380
+  },
+  {
+    "passage": "Options Overlay",
+    "filepath": "base-system/overlays/options.twee",
+    "key": "614_5_3_7|",
+    "original": "[[degreesoflewdity.miraheze.org|\"https://degreesoflewdity.miraheze.org/wiki/Main_Page\"]]",
+    "translation": "",
+    "pos": 26423
+  }
+]

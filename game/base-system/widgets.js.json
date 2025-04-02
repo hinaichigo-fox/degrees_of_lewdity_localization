@@ -1,0 +1,298 @@
+[
+  {
+    "passage": null,
+    "filepath": "base-system/widgets.js",
+    "key": "14_5_3_7|",
+    "original": "function addfemininityfromfactor(femininityBoost, factorDescription, noOverwearCheck) {",
+    "translation": "",
+    "pos": 394
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/widgets.js",
+    "key": "33_5_3_7|",
+    "original": "addfemininityfromfactor(",
+    "translation": "",
+    "pos": 1055
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/widgets.js",
+    "key": "35_5_3_7|",
+    "original": "setup.clothes[slot][clothesIndex(slot, clothingArticle)].name_cap,",
+    "translation": "",
+    "pos": 1155
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/widgets.js",
+    "key": "151_5_3_7|",
+    "original": "addfemininityfromfactor(lengthCap, \"Hair length (capped due to hair style)\");",
+    "translation": "",
+    "pos": 4849
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/widgets.js",
+    "key": "153_5_3_7|",
+    "original": "addfemininityfromfactor(femininityfactor, \"Hair length\");",
+    "translation": "",
+    "pos": 4941
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/widgets.js",
+    "key": "157_5_3_7|",
+    "original": "addfemininityfromfactor(V.makeup.lipstick ? 50 : 0, \"Lipstick\");",
+    "translation": "",
+    "pos": 5021
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/widgets.js",
+    "key": "158_5_3_7|",
+    "original": "addfemininityfromfactor(V.makeup.eyeshadow ? 50 : 0, \"Eyeshadow\");",
+    "translation": "",
+    "pos": 5087
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/widgets.js",
+    "key": "159_5_3_7|",
+    "original": "addfemininityfromfactor(V.makeup.mascara ? 50 : 0, \"Mascara\");",
+    "translation": "",
+    "pos": 5155
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/widgets.js",
+    "key": "160_5_3_7|",
+    "original": "addfemininityfromfactor(V.makeup.blusher ? 50 : 0, \"Blusher\");",
+    "translation": "",
+    "pos": 5219
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/widgets.js",
+    "key": "163_5_3_7|",
+    "original": "addfemininityfromfactor(T.femininity_multiplier * 200, \"Body appearance\");",
+    "translation": "",
+    "pos": 5363
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/widgets.js",
+    "key": "164_5_3_7|",
+    "original": "addfemininityfromfactor(Math.trunc(((V.physique + V.physiquesize / 2) / V.physiquesize) * -100), \"Toned muscles\");",
+    "translation": "",
+    "pos": 5439
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/widgets.js",
+    "key": "168_5_3_7|",
+    "original": "addfemininityfromfactor(T.femininity_multiplier * 100 * actingMultiplier, \"Posture (x\" + actingMultiplier + \" effectiveness due to English skill)\");",
+    "translation": "",
+    "pos": 5679
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/widgets.js",
+    "key": "185_5_3_7|",
+    "original": "addfemininityfromfactor(Math.max(T.over_lower_femininity, T.lower_femininity, T.under_lower_femininity), \"Lower clothes\", \"noow\");",
+    "translation": "",
+    "pos": 6866
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/widgets.js",
+    "key": "188_5_3_7|",
+    "original": "addfemininityfromfactor(T.bulge_size * -60, \"Bulge visible through underwear\", \"noow\");",
+    "translation": "",
+    "pos": 7105
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/widgets.js",
+    "key": "190_5_3_7|",
+    "original": "addfemininityfromfactor(Math.clamp((T.bulge_size - 6) * -60, 0, Infinity), \"Bulge visible through clothing\", \"noow\");",
+    "translation": "",
+    "pos": 7278
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/widgets.js",
+    "key": "193_5_3_7|",
+    "original": "addfemininityfromfactor((V.player.penissize + 2.5) * -150, \"Penis exposed\", \"noow\");",
+    "translation": "",
+    "pos": 7491
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/widgets.js",
+    "key": "196_5_3_7|",
+    "original": "addfemininityfromfactor(450, \"Vagina exposed\", \"noow\");",
+    "translation": "",
+    "pos": 7613
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/widgets.js",
+    "key": "199_5_3_7|",
+    "original": "addfemininityfromfactor(V.player.vaginaExist * 100000 - V.player.penisExist * 100000, \"Genitals exposed\", \"noow\");",
+    "translation": "",
+    "pos": 7738
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/widgets.js",
+    "key": "202_5_3_7|",
+    "original": "addfemininityfromfactor((V.player.perceived_breastsize - 0.5) * 100, \"Exposed breasts\", \"noow\");",
+    "translation": "",
+    "pos": 7885
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/widgets.js",
+    "key": "218_5_3_7|",
+    "original": "addfemininityfromfactor((-V.player.penissize - 2.5) * 150, \"Penis visible\");",
+    "translation": "",
+    "pos": 8613
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/widgets.js",
+    "key": "221_5_3_7|",
+    "original": "addfemininityfromfactor(450, \"Vagina visible\");",
+    "translation": "",
+    "pos": 8736
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/widgets.js",
+    "key": "225_5_3_7|",
+    "original": "addfemininityfromfactor(-100000, \"Penis visible\");",
+    "translation": "",
+    "pos": 8868
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/widgets.js",
+    "key": "228_5_3_7|",
+    "original": "addfemininityfromfactor(100000, \"Vagina visible\");",
+    "translation": "",
+    "pos": 8965
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/widgets.js",
+    "key": "237_5_3_7|",
+    "original": "addfemininityfromfactor(T.bulge_size * -60, \"Bulge visible through underwear\");",
+    "translation": "",
+    "pos": 9193
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/widgets.js",
+    "key": "245_5_3_7|",
+    "original": "addfemininityfromfactor(-Math.clamp((T.bulge_size - 6) * 60, 0, Infinity), \"Bulge visible through clothing\");",
+    "translation": "",
+    "pos": 9433
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/widgets.js",
+    "key": "259_5_3_7|",
+    "original": "addfemininityfromfactor((V.player.perceived_breastsize - 0.5) * 100, V.player.perceived_breastsize > 0 ? \"Exposed breasts\" : \"Exposed flat chest\");",
+    "translation": "",
+    "pos": 10017
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/widgets.js",
+    "key": "262_5_3_7|",
+    "original": "addfemininityfromfactor(Math.clamp((V.player.perceived_breastsize - 2) * 100, 0, Infinity), \"Breast size visible through underwear\");",
+    "translation": "",
+    "pos": 10222
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/widgets.js",
+    "key": "266_5_3_7|",
+    "original": "addfemininityfromfactor(Math.clamp((V.player.perceived_breastsize - 4) * 100, 0, Infinity), \"Breast size visible through clothing\");",
+    "translation": "",
+    "pos": 10401
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/widgets.js",
+    "key": "269_5_3_7|",
+    "original": "addfemininityfromfactor(Math.trunc(V.player.bottomsize * T.bottom_visibility * 50), \"Bottom size (\" + Math.trunc(T.bottom_visibility * 100) + \"% visible)\");",
+    "translation": "",
+    "pos": 10552
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/widgets.js",
+    "key": "274_5_3_7|",
+    "original": "addfemininityfromfactor(",
+    "translation": "",
+    "pos": 10876
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/widgets.js",
+    "key": "276_5_3_7|",
+    "original": "playerAwareTheyArePregnant() ? \"Pregnant Belly\" : \"Pregnant Looking Belly\"",
+    "translation": "",
+    "pos": 10992
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/widgets.js",
+    "key": "279_5_3_7|",
+    "original": "addfemininityfromfactor(Math.clamp(10000, 0, Infinity), playerAwareTheyArePregnant() ? \"Pregnant Belly\" : \"Pregnant Looking Belly\");",
+    "translation": "",
+    "pos": 11113
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/widgets.js",
+    "key": "281_5_3_7|",
+    "original": "addfemininityfromfactor(",
+    "translation": "",
+    "pos": 11286
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/widgets.js",
+    "key": "283_5_3_7|",
+    "original": "playerAwareTheyArePregnant() ? \"Pregnant Belly\" : \"Pregnant Looking Belly\"",
+    "translation": "",
+    "pos": 11373
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/widgets.js",
+    "key": "306_5_3_7|",
+    "original": "addfemininityfromfactor(T.skinValue, \"Visible skin markings\");",
+    "translation": "",
+    "pos": 12067
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/widgets.js",
+    "key": "307_5_3_7|",
+    "original": "addfemininityfromfactor(T.skinValue + T.skinValue_noow, \"Visible skin markings\", \"noow\");",
+    "translation": "",
+    "pos": 12131
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/widgets.js",
+    "key": "475_5_3_7|",
+    "original": "function formatList(arr, conjunction = \"and\", useOxfordComma = false, separator = \", \") {",
+    "translation": "",
+    "pos": 19094
+  }
+]

@@ -1,0 +1,5018 @@
+[
+  {
+    "passage": "Pregnancy",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "7_5_3_7|",
+    "original": "<<if _args[0] isnot null and _args[1]>>",
+    "translation": "",
+    "pos": 126
+  },
+  {
+    "passage": "Pregnancy",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "20_5_3_7|",
+    "original": "<<if _args[2] isnot null>>",
+    "translation": "",
+    "pos": 844
+  },
+  {
+    "passage": "Pregnancy",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "75_5_3_7|",
+    "original": "<<if _args[0] isnot null>>",
+    "translation": "",
+    "pos": 3110
+  },
+  {
+    "passage": "Pregnancy",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "87_5_3_7|",
+    "original": "<<if _args[1] isnot null>>",
+    "translation": "",
+    "pos": 3777
+  },
+  {
+    "passage": "Pregnancy",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "116_5_3_7|",
+    "original": "<<if _args[0] is \"daily\">>/*Daily cycle*/",
+    "translation": "",
+    "pos": 5010
+  },
+  {
+    "passage": "Pregnancy",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "129_5_3_7|",
+    "original": "<<case \"normal\">>",
+    "translation": "",
+    "pos": 5478
+  },
+  {
+    "passage": "Pregnancy",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "130_5_3_7|",
+    "original": "<<if $harpy gte 4 and $harpyEggs and $sexStats[$_pregLocation].sperm.find(source => source.type is \"hawk\")>>",
+    "translation": "",
+    "pos": 5500
+  },
+  {
+    "passage": "Pregnancy",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "200_5_3_7|",
+    "original": "<<case \"pregnant\">>",
+    "translation": "",
+    "pos": 9023
+  },
+  {
+    "passage": "Pregnancy",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "227_5_3_7|",
+    "original": "<<case \"recovering\">>",
+    "translation": "",
+    "pos": 10412
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "319_5_3_7|",
+    "original": "<<if _args[0] is \"pc\">>",
+    "translation": "",
+    "pos": 1693
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "330_5_3_7|",
+    "original": "<div @id=\"'child-' + _pregnancyBirth.fetus[_i].childId\" class=\"childUi\">",
+    "translation": "",
+    "pos": 2073
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "340_5_3_7|",
+    "original": "<<set _timeString to \" (\" + (_hours lt 10 ? \"0\": \"\") +_hours+\":\"+(_minutes lt 10 ? \"0\": \"\")+_minutes+\")\">>",
+    "translation": "",
+    "pos": 2362
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "342_5_3_7|",
+    "original": "<<link [[\"Next\" + (_args[4] ? _timeString : \"\")|_args[3]]]>>",
+    "translation": "",
+    "pos": 2481
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "343_5_3_7|",
+    "original": "<<if _args[0] is \"pc\">>",
+    "translation": "",
+    "pos": 2545
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "352_5_3_7|",
+    "original": "Error Pregnancy Object not found in the passage '<<print $passage>>'. Please report the error with your save.",
+    "translation": "",
+    "pos": 2812
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "358_5_3_7|",
+    "original": "<<if Object.values($children).find(child => child.location is _args[0] and Time.date.timeStamp gte child.eggTimer)>>",
+    "translation": "",
+    "pos": 3045
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "359_5_3_7|",
+    "original": "<<set _childrenId to Object.keys($children).filter(id => $children[id].location is _args[0] and Time.date.timeStamp gte $children[id].eggTimer)>>",
+    "translation": "",
+    "pos": 3164
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "376_5_3_7|",
+    "original": "<<set _timeString to \" (\" + (_hours lt 10 ? \"0\": \"\") +_hours+\":\"+(_minutes lt 10 ? \"0\": \"\")+_minutes+\")\">>",
+    "translation": "",
+    "pos": 3853
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "378_5_3_7|",
+    "original": "<<link [[\"Next\" + (_args[2] ? _timeString : \"\")|_args[1]]]>>",
+    "translation": "",
+    "pos": 3972
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "381_5_3_7|",
+    "original": "if (!child.name) child.name = generateBabyName(undefined, child.gender);",
+    "translation": "",
+    "pos": 4172
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "382_5_3_7|",
+    "original": "delete child.eggTimer;",
+    "translation": "",
+    "pos": 4250
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "388_5_3_7|",
+    "original": "Error Children Objects not found in the passage '<<print $passage>>'. Please report the error with your save.",
+    "translation": "",
+    "pos": 4332
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "398_5_3_7|",
+    "original": "Gender:",
+    "translation": "",
+    "pos": 4627
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "400_5_3_7|",
+    "original": "<<case \"m\">>Male",
+    "translation": "",
+    "pos": 4669
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "401_5_3_7|",
+    "original": "<<case \"f\">>Female",
+    "translation": "",
+    "pos": 4690
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "402_5_3_7|",
+    "original": "<<case \"h\">>Hermaphrodite",
+    "translation": "",
+    "pos": 4713
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "405_5_3_7|",
+    "original": "Mother:",
+    "translation": "",
+    "pos": 4765
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "407_5_3_7|",
+    "original": "<<print pregnancyNameCorrection(_args[0].mother, true)>>",
+    "translation": "",
+    "pos": 4808
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "411_5_3_7|",
+    "original": "| Father:",
+    "translation": "",
+    "pos": 4900
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "413_5_3_7|",
+    "original": "<<print pregnancyNameCorrection(_args[0].father, true)>>",
+    "translation": "",
+    "pos": 4945
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "418_5_3_7|",
+    "original": "Size: <<print _args[0].features.size>> | Hair Colour: <<hairmapcolourtext _args[0].features.hairColour>>",
+    "translation": "",
+    "pos": 5045
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "420_5_3_7|",
+    "original": "| Skin Colour: <<skinColourName _args[0].features.skinColour>>",
+    "translation": "",
+    "pos": 5193
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "424_5_3_7|",
+    "original": "Identical: <<print _args[0].features.identical>>",
+    "translation": "",
+    "pos": 5317
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "427_5_3_7|",
+    "original": "<label><<print '<<textbox \"_args[0].name\" `_args[0].name or \"\"`>>'>></label>",
+    "translation": "",
+    "pos": 5389
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "429_5_3_7|",
+    "original": "<span class=\"no-numberify\">",
+    "translation": "",
+    "pos": 5477
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "430_5_3_7|",
+    "original": "<<link \"Random Name\">>",
+    "translation": "",
+    "pos": 5509
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "436_5_3_7|",
+    "original": "saveId: <<print $saveId>>",
+    "translation": "",
+    "pos": 5751
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "438_5_3_7|",
+    "original": "| name: <<print $saveName>>",
+    "translation": "",
+    "pos": 5812
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "443_5_3_7|",
+    "original": "Error Children Object not found in the passage '<<print $passage>>'. Please report the error with your save.",
+    "translation": "",
+    "pos": 5891
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "448_5_3_7|",
+    "original": "<<if _args[0] is \"pc\">>",
+    "translation": "",
+    "pos": 6051
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "451_5_3_7|",
+    "original": "<<if $_pregnancy.potentialFathers.filter(npc => npc.type === $_pregnancy.type).length gte 5>>",
+    "translation": "",
+    "pos": 6156
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "464_5_3_7|",
+    "original": "<<if _args[0] isnot \"pc\">>",
+    "translation": "",
+    "pos": 6681
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "481_5_3_7|",
+    "original": "<<case \"tired\">>",
+    "translation": "",
+    "pos": 7477
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "483_5_3_7|",
+    "original": "<<case \"crying\">>",
+    "translation": "",
+    "pos": 7603
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "485_5_3_7|",
+    "original": "<<case \"angry\">>",
+    "translation": "",
+    "pos": 7749
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "487_5_3_7|",
+    "original": "<<case \"meatCraving\">>",
+    "translation": "",
+    "pos": 7876
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "488_5_3_7|",
+    "original": "<<set $_text_output to `You awaken to a strange craving ${V.wolfgirl >= 2 ? \"of digging your fangs into\" : \"for\"} something meaty.`>>",
+    "translation": "",
+    "pos": 7903
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "489_5_3_7|",
+    "original": "<<case \"foodCraving\">>",
+    "translation": "",
+    "pos": 8040
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "491_5_3_7|",
+    "original": "<<case \"headache\">>",
+    "translation": "",
+    "pos": 8204
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "493_5_3_7|",
+    "original": "<<case \"sensitiveBreasts\">>",
+    "translation": "",
+    "pos": 8367
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "494_5_3_7|",
+    "original": "<<set $_text_output to \"You wake to your <<breasts>> feeling more tender than normal. Thankfully, it passes.\">>",
+    "translation": "",
+    "pos": 8399
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "495_5_3_7|",
+    "original": "<<case \"bloated\">>",
+    "translation": "",
+    "pos": 8514
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "498_5_3_7|",
+    "original": "<<case \"lightHeaded\">>",
+    "translation": "",
+    "pos": 8644
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "500_5_3_7|",
+    "original": "<<case \"dizzy\">>",
+    "translation": "",
+    "pos": 8753
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "502_5_3_7|",
+    "original": "<<case \"mildNausea\">>",
+    "translation": "",
+    "pos": 8860
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "504_5_3_7|",
+    "original": "<<case \"nausea\">>",
+    "translation": "",
+    "pos": 8975
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "506_5_3_7|",
+    "original": "<<case \"dryheaving\">>",
+    "translation": "",
+    "pos": 9085
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "508_5_3_7|",
+    "original": "<<set $_text_output to \"You wake up feeling nauseous, causing you to scramble out of bed to the edge of the cave. You're forced to do a dry heave by it.<<stress 10>><<gstress>><<pain 1>><<gpain>>\">>",
+    "translation": "",
+    "pos": 9148
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "510_5_3_7|",
+    "original": "<<set $_text_output to \"You wake up feeling nauseous, causing you to scramble out of bed to the edge of the barn. You're forced to do a dry heave by it.<<stress 10>><<gstress>><<pain 1>><<gpain>>\">>",
+    "translation": "",
+    "pos": 9387
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "512_5_3_7|",
+    "original": "<<set $_text_output to \"You wake up feeling nauseous, causing you to scramble out of bed to the edge of the tower. You're forced to do a dry heave over it.<<stress 10>><<gstress>><<pain 1>><<gpain>>\">>",
+    "translation": "",
+    "pos": 9627
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "514_5_3_7|",
+    "original": "<<set $_text_output to \"You wake up feeling nauseous, causing you to scramble out of bed to a nearby bin. You're forced to do a dry heave into it.<<stress 10>><<gstress>><<pain 1>><<gpain>>\">>",
+    "translation": "",
+    "pos": 9847
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "517_5_3_7|",
+    "original": "<<set $_text_output += \" <span class='red'>Maybe you should get tested</span>.\">>",
+    "translation": "",
+    "pos": 10175
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "519_5_3_7|",
+    "original": "<<case \"lightBabyKick\">>",
+    "translation": "",
+    "pos": 10272
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "520_5_3_7|",
+    "original": "<<set $_text_output to \"You wake up feeling a light kick coming from your <<pregnancyBabyText 'pc'>>.<<stress -10>><<lstress>>\">>",
+    "translation": "",
+    "pos": 10301
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "521_5_3_7|",
+    "original": "<<case \"babyKick\">>",
+    "translation": "",
+    "pos": 10434
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "522_5_3_7|",
+    "original": "<<set $_text_output to \"You wake up feeling a kick coming from your <<pregnancyBabyText 'pc'>>.<<stress -10>><<lstress>><<pain 1>><<gpain>>\">>",
+    "translation": "",
+    "pos": 10458
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "523_5_3_7|",
+    "original": "<<case \"babyMovement\">>",
+    "translation": "",
+    "pos": 10604
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "525_5_3_7|",
+    "original": "<<case \"babyHiccup\">>",
+    "translation": "",
+    "pos": 10754
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "527_5_3_7|",
+    "original": "<<case \"earlyContractions\">>",
+    "translation": "",
+    "pos": 10874
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "529_5_3_7|",
+    "original": "<<case \"bellySize\">>",
+    "translation": "",
+    "pos": 11028
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "533_5_3_7|",
+    "original": "<<set $_text_output += \" <span class='lewd'>It's clear that \"+ ($_fatherName === \"yourself\" ? \"you are\" : $_fatherName + \" is\") +\" the father.</span>\">>",
+    "translation": "",
+    "pos": 11316
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "535_5_3_7|",
+    "original": "<<set $_text_output += \" <span class='red'>You wonder who the father is.</span>\">>",
+    "translation": "",
+    "pos": 11487
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "538_5_3_7|",
+    "original": "<<case \"missedPeriod\">>",
+    "translation": "",
+    "pos": 11631
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "541_5_3_7|",
+    "original": "<<set $_text_output += \"You wonder if you're pregnant again. <span class='red'>Maybe you should get tested</span>.\">>",
+    "translation": "",
+    "pos": 11873
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "544_5_3_7|",
+    "original": "<<case \"clothesRemoval\">>",
+    "translation": "",
+    "pos": 12062
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "545_5_3_7|",
+    "original": "<<set $_text_output to `<span class=\"red\">You wake up to a heavy pressure on your body.</span> `>>",
+    "translation": "",
+    "pos": 12092
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "573_5_3_7|",
+    "original": "<<set $_text_output += `Loosened by your growing belly, your gold chastity belt clatters to the ground once you apply some pressure. <span class=\"blue\">A collector might be interested by it.</span> `>>",
+    "translation": "",
+    "pos": 13366
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "575_5_3_7|",
+    "original": "<<set $_text_output += `<br><span class=\"red\">Your pregnant body no longer supports such clothing.</span> <<pain 2>><<gpain>>`>>",
+    "translation": "",
+    "pos": 13584
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "576_5_3_7|",
+    "original": "<<case \"eggLaying\">>",
+    "translation": "",
+    "pos": 13716
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "577_5_3_7|",
+    "original": "<<set $_text_output to `<<playerEggLayEvent>>`>>",
+    "translation": "",
+    "pos": 13741
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "578_5_3_7|",
+    "original": "<<case \"nothing\">>",
+    "translation": "",
+    "pos": 13793
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "584_5_3_7|",
+    "original": "<</silently>><<if $_text_output>><<print $_text_output>><</if>>",
+    "translation": "",
+    "pos": 13927
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "594_5_3_7|",
+    "original": "<<case \"tired\">>",
+    "translation": "",
+    "pos": 14567
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "596_5_3_7|",
+    "original": "<<case \"crying\">>",
+    "translation": "",
+    "pos": 14706
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "597_5_3_7|",
+    "original": "<<set $_text_output to \"You suddenly burst into tears. You aren't even sure why you're crying, but the sadness passes as quickly as it came.<<stress 5>><<gstress>>\">>",
+    "translation": "",
+    "pos": 14728
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "598_5_3_7|",
+    "original": "<<case \"angry\">>",
+    "translation": "",
+    "pos": 14898
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "599_5_3_7|",
+    "original": "<<set $_text_output to \"You feel angry out of nowhere. The change in mood takes you by surprise, but it soon passes.<<stress 5>><<gstress>>\">>",
+    "translation": "",
+    "pos": 14919
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "600_5_3_7|",
+    "original": "<<case \"meatCraving\">>",
+    "translation": "",
+    "pos": 15065
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "601_5_3_7|",
+    "original": "<<set $_text_output to `You have a sudden, strange craving ${V.wolfgirl >= 2 ? \"of digging your fangs into\" : \"for\"} something meaty.`>>",
+    "translation": "",
+    "pos": 15092
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "602_5_3_7|",
+    "original": "<<case \"foodCraving\">>",
+    "translation": "",
+    "pos": 15232
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "604_5_3_7|",
+    "original": "<<case \"cramping\">>",
+    "translation": "",
+    "pos": 15399
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "605_5_3_7|",
+    "original": "<<set $_text_output to `You feel some cramping around the lower part of your stomach.<<stress 5>><<gstress>><<pain 5>><<gpain>>`>>",
+    "translation": "",
+    "pos": 15423
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "606_5_3_7|",
+    "original": "<<case \"bloated\">>",
+    "translation": "",
+    "pos": 15557
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "609_5_3_7|",
+    "original": "<<case \"lightHeaded\">>",
+    "translation": "",
+    "pos": 15702
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "611_5_3_7|",
+    "original": "<<case \"dizzy\">>",
+    "translation": "",
+    "pos": 15803
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "613_5_3_7|",
+    "original": "<<case \"mildNausea\">>",
+    "translation": "",
+    "pos": 15911
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "615_5_3_7|",
+    "original": "<<case \"nausea\">>",
+    "translation": "",
+    "pos": 16027
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "617_5_3_7|",
+    "original": "<<case \"lightBabyKick\">>",
+    "translation": "",
+    "pos": 16138
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "618_5_3_7|",
+    "original": "<<set $_text_output to \"You feel a light kick coming from your <<pregnancyBabyText 'pc'>>.<<stress -10>><<lstress>>\">>",
+    "translation": "",
+    "pos": 16167
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "619_5_3_7|",
+    "original": "<<case \"babyKick\">>",
+    "translation": "",
+    "pos": 16289
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "620_5_3_7|",
+    "original": "<<set $_text_output to \"You feel a kick coming from your <<pregnancyBabyText 'pc'>>.<<stress -10>><<lstress>><<pain 1>><<gpain>>\">>",
+    "translation": "",
+    "pos": 16313
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "621_5_3_7|",
+    "original": "<<case \"babyMovement\">>",
+    "translation": "",
+    "pos": 16448
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "623_5_3_7|",
+    "original": "<<case \"babyHiccup\">>",
+    "translation": "",
+    "pos": 16587
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "625_5_3_7|",
+    "original": "<<case \"earlyContractions\">>",
+    "translation": "",
+    "pos": 16696
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "637_5_3_7|",
+    "original": "<</silently>><<if $_text_output>><<print $_text_output>><br><</if>>",
+    "translation": "",
+    "pos": 17059
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "648_5_3_7|",
+    "original": "<<case \"asylum\">>",
+    "translation": "",
+    "pos": 17587
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "652_5_3_7|",
+    "original": "Locked in for the night, you sit down on your bed. When you sit, it feels wet. Your thighs seem to be covered in a clear liquid. You're going into labour.",
+    "translation": "",
+    "pos": 17693
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "655_5_3_7|",
+    "original": "Clearing your throat, you waddle over to the door. Through the hole in the door you call out. Guards patrol the halls, it shouldn't take long.",
+    "translation": "",
+    "pos": 17868
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "658_5_3_7|",
+    "original": "Your calls are ignored long enough for a dull pain to begin to pang in your pelvis. \"I said quiet after lights out!\" The guard doesn't believe you.",
+    "translation": "",
+    "pos": 18031
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "661_5_3_7|",
+    "original": "Refusing to give up, you bang on the door until your hands hurt. This gets the guard to come over and look in.",
+    "translation": "",
+    "pos": 18199
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "664_5_3_7|",
+    "original": "\"Lay down on your bed, I'll fetch Doctor Harper,\" <<he>> instructs you with a flat tone. You do as <<he>> says. You wince and shiver from the ache in your body as you try to stay awake.",
+    "translation": "",
+    "pos": 18330
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "667_5_3_7|",
+    "original": "Consciousness falls away from you.",
+    "translation": "",
+    "pos": 18536
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "669_5_3_7|",
+    "original": "You sit down on your bed, trying to stay stable. When you sit, it feels wet. Your thighs seem to be covered in a clear liquid. You're going into labour.",
+    "translation": "",
+    "pos": 18589
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "672_5_3_7|",
+    "original": "You waddle over to the door, stumbling as you exit. A nurse quickly rushes to your side. \"Easy there, hon. I've got you. We're going to go down slowly, okay?\"",
+    "translation": "",
+    "pos": 18762
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "675_5_3_7|",
+    "original": "The nurse helps you sit, and calls out for assistance. Your consciousness fades.",
+    "translation": "",
+    "pos": 18941
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "677_5_3_7|",
+    "original": "<<case \"asylumOutside\">>",
+    "translation": "",
+    "pos": 19037
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "680_5_3_7|",
+    "original": "\"You should have really gone to the toilet,\" a fellow patient sneers at you as <<he>> passes. Confused, <<if $worn.lower.type.includes(\"naked\")>>you look down to see wetness drip down your thigh<<else>>you look down to find a wet patch forming on your $worn.lower.name<</if>>.",
+    "translation": "",
+    "pos": 19112
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "683_5_3_7|",
+    "original": "\"The <<babyIs>> coming,\" you gasp. The sharp pain is unexpected as you clutch your stomach.",
+    "translation": "",
+    "pos": 19407
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "686_5_3_7|",
+    "original": "The passing patient halts, <<his>> eyes growing wide as <<he>> turns back. \"Wait here, I'll find someone!\"",
+    "translation": "",
+    "pos": 19517
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "689_5_3_7|",
+    "original": "Out of the corner of your eye you see the patient running up to some orderlies. You choose to focus on breathing through the pain.",
+    "translation": "",
+    "pos": 19642
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "692_5_3_7|",
+    "original": "You blink. People are surrounding you, a stretcher laid out on the ground. A gentle hand guides you forwards.",
+    "translation": "",
+    "pos": 19791
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "695_5_3_7|",
+    "original": "The same hand supports you as you pass out.",
+    "translation": "",
+    "pos": 19919
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "696_5_3_7|",
+    "original": "<<case \"asylumCafe\">>",
+    "translation": "",
+    "pos": 19966
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "699_5_3_7|",
+    "original": "You groan as you hunch over, a hand pressed to your belly. It feels like pressure releases inside of you. Clear liquid drips down your thighs.",
+    "translation": "",
+    "pos": 20038
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "702_5_3_7|",
+    "original": "Patients turn to look at you, some coming close, some backing away. The commotion causes the guards to come closer.",
+    "translation": "",
+    "pos": 20199
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "705_5_3_7|",
+    "original": "\"<<pShes>> 'avin a baby!\" a <<person>> calls out. The guards scramble towards you now, pushing patients out of the way.",
+    "translation": "",
+    "pos": 20333
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "708_5_3_7|",
+    "original": "They help you to walk, keeping people out of the way as you are led somewhere. You quickly lose track of where you are, and your vision fades.",
+    "translation": "",
+    "pos": 20471
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "709_5_3_7|",
+    "original": "<<case \"asylumLibrary\">>",
+    "translation": "",
+    "pos": 20617
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "712_5_3_7|",
+    "original": "The chair you sit on begins to feel wet. Reaching down, you find that the wetness is coming from you. You're going into labour.",
+    "translation": "",
+    "pos": 20692
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "715_5_3_7|",
+    "original": "A <<person>> notices your wet fingers. <<He>> jumps forward, pulling the book away from you. \"Don't damage the books!\"<br>",
+    "translation": "",
+    "pos": 20838
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "716_5_3_7|",
+    "original": "\"I wasn't. My- my <<babyIs>> coming,\" you stutter, taking a deep breath to calm down.",
+    "translation": "",
+    "pos": 20965
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "719_5_3_7|",
+    "original": "The <<person>> doesn't seem to believe you. <<He>> continues to berate you until an orderly approaches to settle the dispute.",
+    "translation": "",
+    "pos": 21069
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "722_5_3_7|",
+    "original": "The orderly takes in your hunched over body before swearing. <<He>> calls over more to help. Some have to hold the <<person>> back as you are picked up and led away from the library.",
+    "translation": "",
+    "pos": 21213
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "725_5_3_7|",
+    "original": "Your consciousness fades.",
+    "translation": "",
+    "pos": 21414
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "726_5_3_7|",
+    "original": "<<case \"asylumHarper\">>",
+    "translation": "",
+    "pos": 21443
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "728_5_3_7|",
+    "original": "You feel uneasy as you step into the doctor's office. Harper takes notice, coming around <<his>> desk to feel your forehead. <<He>> examines you, looking over your body before taking notice of the gradual wetness between your legs.",
+    "translation": "",
+    "pos": 21515
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "731_5_3_7|",
+    "original": "\"Oh dear. We'll have to delay today's session. It seems your bun is ready to leave the oven.\"",
+    "translation": "",
+    "pos": 21765
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "734_5_3_7|",
+    "original": "Harper calls in orderlies to assist you as you begin to breathe heavily. Pain gradually builds in your abdomen.",
+    "translation": "",
+    "pos": 21877
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "737_5_3_7|",
+    "original": "You can hear Harper speaking but words become jumbled as your mind focuses on the pain.",
+    "translation": "",
+    "pos": 22007
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "740_5_3_7|",
+    "original": "Someone moves you, supporting you by the arms as you are led... somewhere. Everything fades.",
+    "translation": "",
+    "pos": 22113
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "741_5_3_7|",
+    "original": "<<case \"forest\" \"lake\">>",
+    "translation": "",
+    "pos": 22209
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "742_5_3_7|",
+    "original": "You stumble, barely managing to stabilise yourself against a large tree trunk. You look down to see a clear liquid dripping down your leg. You're going into labour.",
+    "translation": "",
+    "pos": 22238
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "745_5_3_7|",
+    "original": "You involuntarily whimper. Even the effort of staying standing is causing a burning pain. A branch cracks to your left.",
+    "translation": "",
+    "pos": 22421
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "746_5_3_7|",
+    "original": "<<case \"bog\">>",
+    "translation": "",
+    "pos": 22544
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "749_5_3_7|",
+    "original": "You stumble, barely managing to make it back to the path. A horrible pressure shoots through you. You're going into labour.",
+    "translation": "",
+    "pos": 22610
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "752_5_3_7|",
+    "original": "You involuntarily whimper. You don't have the strength to pull yourself out of the water. Just staying above the surface takes everything you have.",
+    "translation": "",
+    "pos": 22754
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "754_5_3_7|",
+    "original": "You stumble, barely managing to stabilise yourself against a large tree trunk. You look down to see a clear liquid dripping down your leg. You're going into labour.",
+    "translation": "",
+    "pos": 22920
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "757_5_3_7|",
+    "original": "You involuntarily whimper. Even the effort of staying standing is causing a burning pain. You collapse onto the wooden walkway.",
+    "translation": "",
+    "pos": 23105
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "761_5_3_7|",
+    "original": "Time passes. You start to scream in pain. Adrenaline and fear shoot through you. You're so far away from anyone that can help. The thought of no one hearing you redoubles your fear. You've never felt so alone.",
+    "translation": "",
+    "pos": 23263
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "764_5_3_7|",
+    "original": "Shapes start to move amidst the trees. The sound of footsteps on wood. You can't look, but they're getting closer. You come face to face with a featureless white mask. A black hood sprouts antlers. The image sears itself into your mind as you black out.",
+    "translation": "",
+    "pos": 23491
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "765_5_3_7|",
+    "original": "<<case \"tentacleworld\" \"tentacleforest\">>",
+    "translation": "",
+    "pos": 23748
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "766_5_3_7|",
+    "original": "You hunch over in pain. All of the tentacles retreat away from you. You fall to your knees, gripping the ground as hard as you can.",
+    "translation": "",
+    "pos": 23794
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "769_5_3_7|",
+    "original": "The sky flickers. As you let out a pained scream, it fades away.",
+    "translation": "",
+    "pos": 23944
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "770_5_3_7|",
+    "original": "<<case \"farmroad\">>",
+    "translation": "",
+    "pos": 24012
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "771_5_3_7|",
+    "original": "Your body feels tired, and your legs give out underneath you. The road is only a few centimetres away from you. You attempt to stand, but your body won't move. Fluid drips down your leg. You're going into labour.",
+    "translation": "",
+    "pos": 24036
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "773_5_3_7|",
+    "original": "Managing to roll yourself over, you wave your hands in the air, hoping to flag down a car passing by. No one spares you a look, asides from an occasional honk. One comes so close that you have to roll back over to avoid getting hit.",
+    "translation": "",
+    "pos": 24266
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "775_5_3_7|",
+    "original": "Tears prick at your eyes. You fear having to deliver your baby in such a horrible place, and as time ticks by, that fear becomes more and more real.",
+    "translation": "",
+    "pos": 24516
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "777_5_3_7|",
+    "original": "<<if $location is \"farm\" and $_pregnancy.potentialFathers.find(father => father.source === \"Alex\") and talkedAboutPregnancy(\"pc\",\"Alex\")>>",
+    "translation": "",
+    "pos": 24682
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "779_5_3_7|",
+    "original": "Your body starts to give into fatigue. You barely realise that someone has picked you up. They're yelling at you, but you can't make out the words. Your head spins.",
+    "translation": "",
+    "pos": 24855
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "781_5_3_7|",
+    "original": "It takes a moment for you to focus long enough to realise who it is. <span class=\"green\">It's Alex</span>. Despite your blurry vision, you're able to make out the fear on <<his>> face. With you and your baby in good hands, you let go and fall unconscious.",
+    "translation": "",
+    "pos": 25039
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "784_5_3_7|",
+    "original": "Your body borders on unconsciousness, but you hear the sounds of a car rolling up beside you and its door opening. A set of hands grabs at your face.",
+    "translation": "",
+    "pos": 25343
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "786_5_3_7|",
+    "original": "The stranger yells to <<his>> companion in the passenger's seat. <<His>> face is kind and soft, and your body finally gives way. Your vision fades, and you pass out.",
+    "translation": "",
+    "pos": 25512
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "788_5_3_7|",
+    "original": "<<case \"remy\">>",
+    "translation": "",
+    "pos": 25693
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "790_5_3_7|",
+    "original": "A",
+    "translation": "",
+    "pos": 25739
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "793_5_3_7|",
+    "original": "<<if maleChance() lt random(1, 100)>>cowgirl<<else>>bullboy<</if>>",
+    "translation": "",
+    "pos": 25871
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "795_5_3_7|",
+    "original": "cow",
+    "translation": "",
+    "pos": 25958
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "797_5_3_7|",
+    "original": "nudges at your thigh and moos. You look down to find a clear liquid dripping down your leg before a brief pain spreads in your lower abdomen. You're going into labour.",
+    "translation": "",
+    "pos": 25980
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "800_5_3_7|",
+    "original": "Gasping, you slowly sit down. More <<livestock_cows>> gather, curious to the commotion.",
+    "translation": "",
+    "pos": 26168
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "802_5_3_7|",
+    "original": "One yells. \"Baby! <<pHer>> <<babyIs>> coming!\"",
+    "translation": "",
+    "pos": 26288
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "804_5_3_7|",
+    "original": "\"What the hell are they doing?\" a farmhand calls out from the other side of the field.",
+    "translation": "",
+    "pos": 26355
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "808_5_3_7|",
+    "original": "A couple of farmhands notice the odd behaviour and make their way over. They find you breathing slowly as you cradle your stomach.",
+    "translation": "",
+    "pos": 26475
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "809_5_3_7|",
+    "original": "\"Ah shit, this one's ready to pop! Go get Remy!\" The pain increases and you slowly lie down as the farmhand crouches beside you.",
+    "translation": "",
+    "pos": 26611
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "812_5_3_7|",
+    "original": "You faintly hear boots crushing grass and more yelling as your vision fades.",
+    "translation": "",
+    "pos": 26760
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "816_5_3_7|",
+    "original": "The hay you're sitting on feels uncomfortably wet. Looking down you find that more wetness is coming from you. You're going into labour.",
+    "translation": "",
+    "pos": 26903
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "819_5_3_7|",
+    "original": "You try to remain calm, breathing deeply and slowly, but soon the first contraction hits and you yell out.",
+    "translation": "",
+    "pos": 27060
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "822_5_3_7|",
+    "original": "\"What's that?\"<br>",
+    "translation": "",
+    "pos": 27187
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "823_5_3_7|",
+    "original": "\"Ignore it, just a dumb cow looking for attention.\" The farmhands continue to ignore you.",
+    "translation": "",
+    "pos": 27211
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "826_5_3_7|",
+    "original": "Another contraction hits, you yell out once more. This time someone comes to check.",
+    "translation": "",
+    "pos": 27321
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "827_5_3_7|",
+    "original": "\"You're meant to be quiet-\" <<he>> grunts before <<his>> eyes widen. \"Get Remy! Now! This one's ready to pop!\"",
+    "translation": "",
+    "pos": 27410
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "828_5_3_7|",
+    "original": "You hear a commotion begin as the world slowly fades to black.",
+    "translation": "",
+    "pos": 27526
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "830_5_3_7|",
+    "original": "<<case \"remyAbduction\">>",
+    "translation": "",
+    "pos": 27604
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "832_5_3_7|",
+    "original": "You groan in pain, slumping down against the dirt as your contractions strengthen. Shortly after, you hear the tent flaps shift as a <<person1>> <<person>> ducks <<his>> head in, clearly annoyed.",
+    "translation": "",
+    "pos": 27667
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "835_5_3_7|",
+    "original": "\"Oi, what's the matter with you?\" <<he>> says with a scowl. <<He>> takes in your crumpled form and swollen belly before swearing and ducking out the tent. You hear a clamour as the others are woken.",
+    "translation": "",
+    "pos": 27883
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "838_5_3_7|",
+    "original": "After a few long, painful minutes, the <<person1>> <<person>> ducks back into the tent, closely followed by a <<person2>> <<person>>. Together, they heft you up, carrying you out to an awaiting pickup truck. They heave you into the bed, the <<person1>> <<person>> climbing in after you. As the pickup peels out of the encampment, you lose consciousness.",
+    "translation": "",
+    "pos": 28102
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "839_5_3_7|",
+    "original": "<<case \"remyHarperExam\">>",
+    "translation": "",
+    "pos": 28459
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "841_5_3_7|",
+    "original": "As you move to sit on the table, your vision blurs, and you just barely manage to catch yourself on the edge. Doctor Harper lurches forward with an alarmed noise, grasping at your arms and helping you sit down.",
+    "translation": "",
+    "pos": 28521
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "844_5_3_7|",
+    "original": "With a serious face, Harper briefly examines your stomach before calling for Remy. You can barely make out the words \"labour\" and \"hospital\" and Remy's disgruntled face before everything goes black.",
+    "translation": "",
+    "pos": 28750
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "845_5_3_7|",
+    "original": "<<case \"remyNiki\">>",
+    "translation": "",
+    "pos": 28952
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "846_5_3_7|",
+    "original": "<<case \"moor\">>",
+    "translation": "",
+    "pos": 28975
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "848_5_3_7|",
+    "original": "Your thighs feel wet. A strong pain lurches in your stomach, making your legs weak. You're going into labour.",
+    "translation": "",
+    "pos": 29026
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "851_5_3_7|",
+    "original": "With a gasp, you sink to your knees, the heather cushioning your fall. You have no choice but to lay down on the ground. \"Help!\" you cry out. Your voice echoes across the plains.",
+    "translation": "",
+    "pos": 29154
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "854_5_3_7|",
+    "original": "Your surroundings become a blur as the pain overwhelms you. You hear vague voices and footsteps approach.",
+    "translation": "",
+    "pos": 29351
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "857_5_3_7|",
+    "original": "\"It's gotta be that damned quicksand, getting someone again,\" a <<person1>><<person>> says.",
+    "translation": "",
+    "pos": 29475
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "860_5_3_7|",
+    "original": "\"No, it's not. Look! <<pHer>> water's broken. <<pShes>> going to give birth out here if we don't do something!\" the other <<person2>><<person>> points out, sounding somewhat panicked.",
+    "translation": "",
+    "pos": 29585
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "863_5_3_7|",
+    "original": "You feel hands lift you from the ground as the world fades to black.",
+    "translation": "",
+    "pos": 29787
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "864_5_3_7|",
+    "original": "<<case \"castle\">>",
+    "translation": "",
+    "pos": 29859
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "866_5_3_7|",
+    "original": "You double over in pain, and see a clear liquid dripping down your leg. You're going into labour. You look around in desperation and let out a pained yell, before stumbling to your side.",
+    "translation": "",
+    "pos": 29906
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "869_5_3_7|",
+    "original": "Your eyes close. When they open again, you're met with the face of the <<beasttype>>.",
+    "translation": "",
+    "pos": 30111
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "871_5_3_7|",
+    "original": "<<bHe>> says something to you, but the words sound like gibberish.",
+    "translation": "",
+    "pos": 30227
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "873_5_3_7|",
+    "original": "<<bHe>> eyes you with curiosity and concern.",
+    "translation": "",
+    "pos": 30312
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "875_5_3_7|",
+    "original": "<<bHis>> wings start to beat. You feel yourself being lifted onto something feathery. The next time you open your eyes, you're high in the air. You immediately black out from the shock.",
+    "translation": "",
+    "pos": 30373
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "878_5_3_7|",
+    "original": "You feel a rise in your stomach. You open your eyes again to see the hospital below you, and feathers in the corner of your vision.",
+    "translation": "",
+    "pos": 30577
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "879_5_3_7|",
+    "original": "You blink, and you're suddenly being lowered. Your feet meet the sidewalk. A rush of air follows, and the <<beasttype>> is gone.",
+    "translation": "",
+    "pos": 30713
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "880_5_3_7|",
+    "original": "<<case \"wraith\">>",
+    "translation": "",
+    "pos": 30845
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "881_5_3_7|",
+    "original": "You double over in pain, and see a clear liquid dripping down your leg. You're going into labour. You look around in desperation and let out a pained yell, before stumbling to your side. You feel hopelessly trapped. Your heart pounds in your ears.",
+    "translation": "",
+    "pos": 30867
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "884_5_3_7|",
+    "original": "Your eyes close. When they open again, a pair of <<wraithEyes>> eyes stare into yours. \"<span class=\"wraith\">Suffering. Life. Beautiful.</span>\"",
+    "translation": "",
+    "pos": 31133
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "887_5_3_7|",
+    "original": "You're unable to resist as it enters your body. Your pain ceases at once. You let out a long sigh of relief, and stand up. Your consciousness slowly fades as your body trudges forwards.",
+    "translation": "",
+    "pos": 31296
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "890_5_3_7|",
+    "original": "You feel cold. Then warm again. Then there's nothing. Until you open your eyes, and see the hospital before you. The pain returns. A pale face meets yours. \"<span class=\"wraith\">Beautiful. Keep them safe.</span>\"",
+    "translation": "",
+    "pos": 31500
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "891_5_3_7|",
+    "original": "<<case \"dungeon\">>",
+    "translation": "",
+    "pos": 31716
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "896_5_3_7|",
+    "original": "Shifting on the floor, you wince when you feel a wetness gather below you. It seems to be coming from you. You're going into labour.",
+    "translation": "",
+    "pos": 31880
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "899_5_3_7|",
+    "original": "Panicked, you look around the barren room for an escape.",
+    "translation": "",
+    "pos": 32031
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "901_5_3_7|",
+    "original": "A particularly strong contraction hits, and you groan in pain as you crouch down on the cold floor.",
+    "translation": "",
+    "pos": 32130
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "904_5_3_7|",
+    "original": "You hear Robin's voice from the other side of the wall. \"Are you okay? What's happening?\" <<person2>><<he>> asks nervously.",
+    "translation": "",
+    "pos": 32250
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "908_5_3_7|",
+    "original": "\"I-I'm going into labour. What should I do?\" you cry out.",
+    "translation": "",
+    "pos": 32434
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "910_5_3_7|",
+    "original": "\"It's happening,\" you reply through gritted teeth. \"I'm having my <<pregnancyBabyText \"pc\">>.\"",
+    "translation": "",
+    "pos": 32543
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "912_5_3_7|",
+    "original": "\"Help me! My <<babyIs>> coming!\" you cry out.",
+    "translation": "",
+    "pos": 32658
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "916_5_3_7|",
+    "original": "There's a moment's silence as Robin processes this, then <<he>> yelps, \"You're in labour?! I-it's okay, stay calm, I'll get help!\" You hear <<him>> stumble to <<his>> feet and rush to the door. <<He>> pounds on it, shouting for somebody to help.",
+    "translation": "",
+    "pos": 32737
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "919_5_3_7|",
+    "original": "You stagger toward the wall separating the two of you, faintly calling Robin's name. You stick your finger through the hole connecting your cells, reaching for <<him>> as best you can.",
+    "translation": "",
+    "pos": 33003
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "922_5_3_7|",
+    "original": "You hear footsteps and grumbling from the corridor outside. The last thing you feel before your consciousness slips away is Robin's finger desperately pressing against yours.",
+    "translation": "",
+    "pos": 33208
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "925_5_3_7|",
+    "original": "With no other option, you bang on the door. \"H-help, please! My <<babyIs>> coming!\" you yell out as you pound on the door. You aren't sure if anyone will hear you.",
+    "translation": "",
+    "pos": 33402
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "928_5_3_7|",
+    "original": "You keep calling out. You're not sure how long it takes before you hear the lock turn. A disgruntled <<person1>><<person>> walks through, ready to yell before <<he>> sees your predicament.",
+    "translation": "",
+    "pos": 33586
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "931_5_3_7|",
+    "original": "\"Wait,\" <<he>> snarls, leaving you alone once more. The pain gets to be too much, and you crawl to the dirty mattress to lay down.",
+    "translation": "",
+    "pos": 33795
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "934_5_3_7|",
+    "original": "Your vision fades as the door screeches open <<= $undergroundbrothel.robin ? \"at last\" : \"once more\">>.",
+    "translation": "",
+    "pos": 33955
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "935_5_3_7|",
+    "original": "<<case \"alley\">>",
+    "translation": "",
+    "pos": 34062
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "938_5_3_7|",
+    "original": "You fall to your knees onto the grass, clutching your stomach.",
+    "translation": "",
+    "pos": 34200
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "940_5_3_7|",
+    "original": "You stumble into the alleyway, stabilising yourself with a nearby ladder.",
+    "translation": "",
+    "pos": 34300
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "942_5_3_7|",
+    "original": "You collapse on the concrete of the alleyway, cradling your stomach.",
+    "translation": "",
+    "pos": 34392
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "944_5_3_7|",
+    "original": "A small puddle begins forming between your legs. You're going into labour.",
+    "translation": "",
+    "pos": 34477
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "949_5_3_7|",
+    "original": "A <<personsimple>> eating on a bench near the thicket stumbles to <<his>> feet, rushing over to you and dropping <<his>> sandwich in the process.",
+    "translation": "",
+    "pos": 34677
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "951_5_3_7|",
+    "original": "You can hear <<him>> dial something into a phone before you go unconscious.",
+    "translation": "",
+    "pos": 34846
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "953_5_3_7|",
+    "original": "Blurry figures walk past the alleyway, but some are drawn by your pained screams and rush down the alley to you.",
+    "translation": "",
+    "pos": 34944
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "955_5_3_7|",
+    "original": "The last thing you see are faces crowding above you as you fall into unconsciousness.",
+    "translation": "",
+    "pos": 35080
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "958_5_3_7|",
+    "original": "\"Oi, ya can't be back here!\" a <<person>> yells, quickly stomping towards you.",
+    "translation": "",
+    "pos": 35223
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "960_5_3_7|",
+    "original": "The <<personsimple>> gasps upon reaching your crumpled body. <<He>> swears for a minute before dialling something into a phone.",
+    "translation": "",
+    "pos": 35323
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "962_5_3_7|",
+    "original": "You can't make out <<his>> words, but you feel somewhat safe as you fall into unconsciousness.",
+    "translation": "",
+    "pos": 35472
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "964_5_3_7|",
+    "original": "\"H-Help! Anyone?!\" you cry out as you fall to your knees in pain.",
+    "translation": "",
+    "pos": 35587
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "966_5_3_7|",
+    "original": "Drawn by your cries, a few people rush over to help, looking shocked and panicked at your current state.",
+    "translation": "",
+    "pos": 35674
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "968_5_3_7|",
+    "original": "The last thing you see are hands reaching towards you as everything fades to black.",
+    "translation": "",
+    "pos": 35800
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "972_5_3_7|",
+    "original": "\"Aren't you a cute thing?\" a voice whistles. \"Don't mind if I- oh shit.\"",
+    "translation": "",
+    "pos": 35950
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "974_5_3_7|",
+    "original": "You can hear shouting, followed by more footsteps rushing towards you. They crowd over your body, pointing and looking frantic.",
+    "translation": "",
+    "pos": 36044
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "976_5_3_7|",
+    "original": "The last thing you feel are hands wrapping around your waist and legs as you go unconscious.",
+    "translation": "",
+    "pos": 36193
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "978_5_3_7|",
+    "original": "You scream out in pain, but the loud thrum of machinery overpowers your cries. Panicking, you begin to fear that no one will hear you in this alleyway.",
+    "translation": "",
+    "pos": 36329
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "980_5_3_7|",
+    "original": "Eventually your screaming pays off. Two people approach your crumpled body and quickly attend to you.",
+    "translation": "",
+    "pos": 36502
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "982_5_3_7|",
+    "original": "The last thing you feel is a hand grasping yours before you drift off into unconsciousness.",
+    "translation": "",
+    "pos": 36625
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "984_5_3_7|",
+    "original": "From behind you hear a door crash open, and a <<person>> yells, \"Hey, you can't loiter back here, this isn't a-\"",
+    "translation": "",
+    "pos": 36737
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "986_5_3_7|",
+    "original": "The <<personsimple>> gasps and rushes over to your crumpled body. <<He>> quickly dials something into a phone before turning back to you.",
+    "translation": "",
+    "pos": 36871
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "988_5_3_7|",
+    "original": "You can't make out <<his>> words, but you feel some comfort as everything fades to black.",
+    "translation": "",
+    "pos": 37030
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "991_5_3_7|",
+    "original": "<<case \"arcade\">>",
+    "translation": "",
+    "pos": 37148
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "992_5_3_7|",
+    "original": "You collapse on the dirty arcade floor, grabbing your stomach in pain. A small puddle begins seeping into the carpet. You're going into labour.",
+    "translation": "",
+    "pos": 37170
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "995_5_3_7|",
+    "original": "<<generateRole 0 0 \"repairman/repairwoman\">><<person1>>",
+    "translation": "",
+    "pos": 37395
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "996_5_3_7|",
+    "original": "\"Hey!\" someone shouts. \"You're not supposed to be in here.\" You glance up at a <<person>>, apparently here to fix the machines before the arcade opens in the morning.",
+    "translation": "",
+    "pos": 37456
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "998_5_3_7|",
+    "original": "<<generateRole 0 0 \"employee\">><<person1>>",
+    "translation": "",
+    "pos": 37641
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "999_5_3_7|",
+    "original": "\"Excuse me, are you alright?\" A <<person>> approaches you, looking concerned.",
+    "translation": "",
+    "pos": 37689
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1003_5_3_7|",
+    "original": "You groan, feeling a sharp pain in your stomach, \"M-My <<babyIs>> coming.\"",
+    "translation": "",
+    "pos": 37797
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1006_5_3_7|",
+    "original": "The <<personsimple>> looks horrified by your words and <<= Time.dayState is \"night\" or Time.dayState is \"dawn\" ? \"quickly pulls out <<his>> phone\" : \"yells to someone at the counter\">>.",
+    "translation": "",
+    "pos": 37890
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1009_5_3_7|",
+    "original": "You feel <<him>> grab your hands, but <<his>> words grow hazy as your vision slowly fades to black.",
+    "translation": "",
+    "pos": 38094
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1010_5_3_7|",
+    "original": "<<case \"beach\">>",
+    "translation": "",
+    "pos": 38197
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1012_5_3_7|",
+    "original": "You stumble, suddenly feeling unsteady on the sand. You feel a strong pain in your stomach that makes it difficult to stand. You're going into labour. You look around for anybody to help you, but a contraction makes you cry out.",
+    "translation": "",
+    "pos": 38247
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1015_5_3_7|",
+    "original": "Just as you're about to fall over, a pair of hands grab you under your arms. Looking up, you can just barely make out the face of a <<person>>. \"What's wrong, <<girl>>?\" <<he>> asks.",
+    "translation": "",
+    "pos": 38494
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1018_5_3_7|",
+    "original": "\"My b-baby,\" you manage to gasp.",
+    "translation": "",
+    "pos": 38695
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1021_5_3_7|",
+    "original": "The <<personsimple>>'s brow furrows with worry. \"I'm gonna lay you down and call you an ambulance,\" <<he>> promises. <<He>> drags you to a beach towel, shaded by an umbrella. As soon as <<he>> puts you down, your consciousness fades.",
+    "translation": "",
+    "pos": 38746
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1022_5_3_7|",
+    "original": "<<case \"bus\">>",
+    "translation": "",
+    "pos": 38983
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1023_5_3_7|",
+    "original": "<<case \"docksSneak\">>",
+    "translation": "",
+    "pos": 39001
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1024_5_3_7|",
+    "original": "<<case \"docks\">>",
+    "translation": "",
+    "pos": 39026
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1025_5_3_7|",
+    "original": "<<case \"home\">>",
+    "translation": "",
+    "pos": 39046
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1026_5_3_7|",
+    "original": "You stumble to the ground as a contraction seizes you.",
+    "translation": "",
+    "pos": 39066
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1030_5_3_7|",
+    "original": "You hear the <<= $passage.toLowerCase()>> door slam open, followed by swearing and heavy footsteps. A rough hand turns you over on your back, and you clutch at the hand. It's Bailey.",
+    "translation": "",
+    "pos": 39212
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1033_5_3_7|",
+    "original": "\"Goddammit. Couldn't have gone to the hospital, could you?\" <<He>> clicks <<his>> tongue in annoyance as <<he>> dials a number on <<his>> phone. You just barely catch the words \"ambulance\" and \"emergency\" before your vision fades to black.",
+    "translation": "",
+    "pos": 39415
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1036_5_3_7|",
+    "original": "You clutch your belly and moan for help. Finally, you hear a gasp and a rush of footsteps. Moments later, a pair of faces appear in front of you. You can't understand them, but you can tell words are being exchanged. One of the orphans runs to get help while the other <<personsimple>> crouches down to your level. <<He>> tries to ask you questions, but you don't have the wherewithal to answer.",
+    "translation": "",
+    "pos": 39704
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1040_5_3_7|",
+    "original": "You don't know how much time passes, but you eventually hear sirens. The paramedics push you onto a gurney and usher you into an awaiting ambulance. As it lurches into motion, everything goes black.",
+    "translation": "",
+    "pos": 40130
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1041_5_3_7|",
+    "original": "<<case \"hospital\">>",
+    "translation": "",
+    "pos": 40332
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1042_5_3_7|",
+    "original": "You collapse before you can reach the receptionist, unable to take another step further. You hear an alarmed shout and a rush of footsteps. Multiple hands reach out, taking your pulse and checking your temperature.",
+    "translation": "",
+    "pos": 40356
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1045_5_3_7|",
+    "original": "\"Don't worry,\" a faceless voice reassures you. \"We're going to take good care of you.\" Unable to hold on any longer, you faint.",
+    "translation": "",
+    "pos": 40589
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1046_5_3_7|",
+    "original": "<<case \"trash\">>",
+    "translation": "",
+    "pos": 40720
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1047_5_3_7|",
+    "original": "You stumble in the trash, your legs suddenly too weak to carry on. You lean against a pile of rubbish and sink to the ground. Something warm and wet trickles down your leg. You're going into labour!",
+    "translation": "",
+    "pos": 40741
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1050_5_3_7|",
+    "original": "You look around the area, trying to keep your breathing even. The smell makes it hard. You can't give birth <i>here</i>!",
+    "translation": "",
+    "pos": 40958
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1053_5_3_7|",
+    "original": "\"H-help...\" you whimper. There's no response. You take a shaky breath and raise your voice. \"Help!!\"",
+    "translation": "",
+    "pos": 41135
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1055_5_3_7|",
+    "original": "\"Can... can anybody hear me!?\" You curse and grit your teeth, trying and failing to keep your voice steady. \"I need some help!\"",
+    "translation": "",
+    "pos": 41285
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1057_5_3_7|",
+    "original": "\"Hello...?\" Your voice is faint, and there's no response. You take a deep breath and try again. \"Hello!?\"",
+    "translation": "",
+    "pos": 41431
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1061_5_3_7|",
+    "original": "You groan and curl up as",
+    "translation": "",
+    "pos": 41567
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1063_5_3_7|",
+    "original": "the pile you were leaning against gives a shudder. You raise your head only to see a single eye staring at you. <<ghallucinogens>><<set $hallucinogen += 90>>",
+    "translation": "",
+    "pos": 41646
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1066_5_3_7|",
+    "original": "It looks your body over, and its dangerous look seems to soften some. The eye looks you in the face once more, and your mind feels numb and fuzzy at the sharpness of its gaze. Your worries melt away, and somehow you feel certain that you'll make it to safety as you black out amongst the rubbish.",
+    "translation": "",
+    "pos": 41824
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1076_5_3_7|",
+    "original": "<<set $NPCList[0].fullDescription to \"horned \" + ($NPCList[0].gender is \"m\" ? \"boy\" : \"girl\")>>",
+    "translation": "",
+    "pos": 42433
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1077_5_3_7|",
+    "original": "<<set $NPCList[0].type to \"horned \" + ($NPCList[0].gender is \"m\" ? \"boy\" : \"girl\")>>",
+    "translation": "",
+    "pos": 42536
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1081_5_3_7|",
+    "original": "the ground shakes from something heavy landing nearby. You shield your belly instinctively. <<gstress>><<stress 6>>",
+    "translation": "",
+    "pos": 42688
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1084_5_3_7|",
+    "original": "You feel and hear the massive thing sniffing your face, then your belly. You clutch your stomach tighter. When it pulls away, you glance up and are greeted by a great, scaly head topped with a pair of horns.",
+    "translation": "",
+    "pos": 42824
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1086_5_3_7|",
+    "original": "\"With child,\" the <<tower_creature_text>> growls softly. \"This place... bad for child.\"",
+    "translation": "",
+    "pos": 43083
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1088_5_3_7|",
+    "original": "Eyeing your pregnant belly, <<bhe>> <<= $NPCList[0].monster is \"monster\" ? \"wraps\" : \"growls softly before wrapping\">> a foreleg around you with surprising care.",
+    "translation": "",
+    "pos": 43189
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1091_5_3_7|",
+    "original": "<<bHe>> lifts you up, and you feel sick and dizzy as <<bhe>> leaps through the landfill towards Nightingale Street. You open your eyes as <<bhe>> gingerly places you down in front of the hospital. The <<tower_creature_text>>",
+    "translation": "",
+    "pos": 43371
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1093_5_3_7|",
+    "original": "places a large, clawed hand on your <<= $NPCList[0].monster is \"monster\" ? \"belly. \\\"Next time, mine.\\\"\" : \"belly and rumbles softly.\">> You shudder and back away from <<bhim>> towards the hospital, and <<bhe>>",
+    "translation": "",
+    "pos": 43662
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1095_5_3_7|",
+    "original": "watches you waddle inside. You barely make it through the front door before you feel your consciousness slip, and you stumble to the floor. The last thing you see is a pair of glowing yellow eyes staring at you from the shadows.",
+    "translation": "",
+    "pos": 43891
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1099_5_3_7|",
+    "original": "a group of <<group>> approaches you.<<if $trauma gte ($traumamax / 5) * 2>> You hope they're not here to take advantage of you.<</if>>",
+    "translation": "",
+    "pos": 44229
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1102_5_3_7|",
+    "original": "\"I told you I heard someone over here!\" a <<person1>><<person>> says. \"Hey, <<girl>>! Are you alright!?\"",
+    "translation": "",
+    "pos": 44384
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1105_5_3_7|",
+    "original": "One of <<his>> friends, a <<person2>><<person>>, laughs. \"Did <<pshe>> fuckin' piss <<pherself>>?\"",
+    "translation": "",
+    "pos": 44544
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1107_5_3_7|",
+    "original": "\"Why's <<pshe>> all wet?\" a <<person2>><<person>> asks.",
+    "translation": "",
+    "pos": 44663
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1111_5_3_7|",
+    "original": "\"I'm going into labour, you idiot!\" you snap. \"So can you <i>please</i> help me out of here!?\"",
+    "translation": "",
+    "pos": 44789
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1113_5_3_7|",
+    "original": "\"Oh.\" The <<person2>><<person>> blinks. \"Oh! Yeah, of course!\" <<He>> turns to <<his>> friends. \"I'll grab <<pher>> shoulders, you get <<pher>> feet.\" A <<person3>><<person>> and <<person4>><<person>> nod and move into place.",
+    "translation": "",
+    "pos": 44901
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1115_5_3_7|",
+    "original": "A <<person3>><<person>> rolls <<his>> eyes. \"<<pShes>> pregnant, you moron!\"",
+    "translation": "",
+    "pos": 45147
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1117_5_3_7|",
+    "original": "\"Oh.\" The <<person2>><<person>> blinks. \"Oh! We've gotta do something! Let's get <<phim>> out of here!\"",
+    "translation": "",
+    "pos": 45241
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1121_5_3_7|",
+    "original": "You try and groan out a thanks to your helpers, but their group effort to lift you sends pain shooting through your body. You vaguely hear them coordinating an effort to the closest exit as you pass out.",
+    "translation": "",
+    "pos": 45378
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1124_5_3_7|",
+    "original": "<<case \"sea\">>",
+    "translation": "",
+    "pos": 45622
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1125_5_3_7|",
+    "original": "As you're swimming, a contraction seizes you. You thrash around in the water, shouting for help. The pain worsens, and you struggle to stay afloat.",
+    "translation": "",
+    "pos": 45641
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1128_5_3_7|",
+    "original": "You're on the verge of losing consciousness when something bumps into you, and you quickly glance down.",
+    "translation": "",
+    "pos": 45843
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1131_5_3_7|",
+    "original": "Your vision blurs, but you can make out the figure of a <<beasttype>>. <<bHes>> steadily pushing you to shore. You desperately clutch <<bhis>> fin.",
+    "translation": "",
+    "pos": 45967
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1134_5_3_7|",
+    "original": "The <<beasttype>> tows you to the shallows, depositing you on the sand. <<bHe>> clicks worriedly. You dimly hear shouts from a nearby beachgoer, and the <<beasttype>> quickly dives back into the water. You murmur your thanks as someone splashes into the surf after you. Your vision grows dark, and you pass out.",
+    "translation": "",
+    "pos": 46135
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1136_5_3_7|",
+    "original": "You hear the horn of a boat, and you spot a trawler edging closer. There's a commotion of voices on the dock, and a fishing net envelops you, hoisting you onto the deck. \"You looked like you needed help,\" a <<generate1>><<person1>><<person>> says. \"No one rides free, but- oh. <i>Oh!</i> You're pregnant!\"",
+    "translation": "",
+    "pos": 46465
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1140_5_3_7|",
+    "original": "\"I'm in labour,\" you whimper, curling up and cradling your stomach. \"P-please help me...\"",
+    "translation": "",
+    "pos": 46831
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1142_5_3_7|",
+    "original": "\"Not just pregnant. I'm-\" A particularly strong contraction hits, and you grimace. \"I'm in labour. Are you going to help me or what?\"",
+    "translation": "",
+    "pos": 46972
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1144_5_3_7|",
+    "original": "\"I'm in labour,\" you manage, curling up on the dock. \"Help me, please!\"",
+    "translation": "",
+    "pos": 47126
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1148_5_3_7|",
+    "original": "\"We'll get you to shore, we promise,\" the <<person>> says, glancing worriedly at <<his>> crewmates. \"Hold on, okay?\" One of the fishers holds your hand as your vision grows dark, and you pass out.",
+    "translation": "",
+    "pos": 47231
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1150_5_3_7|",
+    "original": "<<case \"shop\">>",
+    "translation": "",
+    "pos": 47443
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1152_5_3_7|",
+    "original": "You fall to your knees in the middle of the shopping centre, clutching your stomach. Liquid begins to run down your thighs. You're going into labour.",
+    "translation": "",
+    "pos": 47492
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1155_5_3_7|",
+    "original": "People skirt around you, keeping their heads down and shooting you odd looks. The pain soon becomes unbearable, and you begin to scream.",
+    "translation": "",
+    "pos": 47699
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1157_5_3_7|",
+    "original": "No one is around at this time of night, but you scream desperately, hoping to attract the attention of a security guard.",
+    "translation": "",
+    "pos": 47854
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1159_5_3_7|",
+    "original": "\"P-Please help! I need an ambulance!\" you cry.",
+    "translation": "",
+    "pos": 47991
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1163_5_3_7|",
+    "original": "\"Hey!\" someone shouts. \"You're not supposed to be- oh. Oh, shit!\" <<He>> kneels down next to you and grabs your hand.",
+    "translation": "",
+    "pos": 48093
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1165_5_3_7|",
+    "original": "An employee from one of the nearby stores rushes over to you and kneels down, grabbing your hand.",
+    "translation": "",
+    "pos": 48229
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1169_5_3_7|",
+    "original": "<<He>> pulls out a <<= Time.dayState is \"night\" ? \"two-way radio\" : \"phone\">> and speaks into it, but the pain is too much. You can't make out what <<hes>> saying.",
+    "translation": "",
+    "pos": 48357
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1172_5_3_7|",
+    "original": "<<He>> squeezes your hand, and you feel safe as you fade into unconsciousness.",
+    "translation": "",
+    "pos": 48539
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1173_5_3_7|",
+    "original": "<<case \"roof\">>",
+    "translation": "",
+    "pos": 48621
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1175_5_3_7|",
+    "original": "You collapse on the rooftop. Warm liquid runs down your legs. You're going into labour.",
+    "translation": "",
+    "pos": 48670
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1178_5_3_7|",
+    "original": "You scream loudly, hoping to attract someone's attention. The door to the roof is shut, and you fear no one will hear you.",
+    "translation": "",
+    "pos": 48776
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1181_5_3_7|",
+    "original": "Painful contractions wrack your body, and you shriek even louder. Finally the door bursts open, and a disgruntled <<personsimple>> in a uniform emerges. \"What the fuck are you- oh <i>shit</i>.\" <<He>> quickly rushes over to you.",
+    "translation": "",
+    "pos": 48917
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1184_5_3_7|",
+    "original": "You watch as <<he>> takes out a phone and starts calling someone. You feel some relief as everything fades to black.",
+    "translation": "",
+    "pos": 49164
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1186_5_3_7|",
+    "original": "<<case \"monsterTower\">>",
+    "translation": "",
+    "pos": 49285
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1187_5_3_7|",
+    "original": "<<case \"street\">>",
+    "translation": "",
+    "pos": 49312
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1188_5_3_7|",
+    "original": "<<case \"compound\">>",
+    "translation": "",
+    "pos": 49333
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1189_5_3_7|",
+    "original": "<<case \"temple\">>",
+    "translation": "",
+    "pos": 49356
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1190_5_3_7|",
+    "original": "You stumble, barely catching yourself on a pew. Your legs tremble. You're going into labour.",
+    "translation": "",
+    "pos": 49378
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1193_5_3_7|",
+    "original": "A pair of strong arms hoist you up, before gently laying you down on a pew.",
+    "translation": "",
+    "pos": 49489
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1195_5_3_7|",
+    "original": "Jordan's face hovers over you.",
+    "translation": "",
+    "pos": 49604
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1197_5_3_7|",
+    "original": "A robed figure hovers over you, their youthful face tinged with concern. Locks of hair protrude from the sides of their cowl, betraying a golden shade.",
+    "translation": "",
+    "pos": 49653
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1199_5_3_7|",
+    "original": "You hear words being spoken to you, but they don't make any sense. Other robed figures start to surround you.",
+    "translation": "",
+    "pos": 49821
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1201_5_3_7|",
+    "original": "Sydney breaks through the crowd, but stops short of you.",
+    "translation": "",
+    "pos": 50003
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1205_5_3_7|",
+    "original": "You feel yourself being lifted.",
+    "translation": "",
+    "pos": 50090
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1206_5_3_7|",
+    "original": "<<case \"cave\">>",
+    "translation": "",
+    "pos": 50125
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1208_5_3_7|",
+    "original": "You're wading through the water when a sudden contraction hits you, and you pitch forward into the cold embrace of the current. The weight of your belly, combined with the pain of contractions, makes it impossible to stand or swim.",
+    "translation": "",
+    "pos": 50169
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1211_5_3_7|",
+    "original": "The rushing water pushes against you as you struggle, your hands slipping helplessly on the wet ground. Each effort to resist only worsens the labour pains. Powerless, you surrender to the current.",
+    "translation": "",
+    "pos": 50421
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1213_5_3_7|",
+    "original": "You let the water carry you away as you sink into unconsciousness.",
+    "translation": "",
+    "pos": 50638
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1215_5_3_7|",
+    "original": "A sudden contraction grips you. Warm liquid trickles down your legs, and your knees buckle. Waves of intense pain follow, one after another, forcing heavy breaths from your lips. Clutching your swollen and heavy belly, you collapse weakly against the cold, damp wall.",
+    "translation": "",
+    "pos": 50723
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1218_5_3_7|",
+    "original": "Faint sounds reach your ears. Your pursuer might be dangerous, but you need medical assistance. You call out for them.",
+    "translation": "",
+    "pos": 51038
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1220_5_3_7|",
+    "original": "The cave is silent, save for the sounds of dripping water. There's no one around to hear you scream, but you try anyway.",
+    "translation": "",
+    "pos": 51177
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1223_5_3_7|",
+    "original": "\"H-help... is anyone there? Please help me...\" you groan. You tremble helplessly, tears welling in your eyes.",
+    "translation": "",
+    "pos": 51356
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1225_5_3_7|",
+    "original": "\"<<= $pursuit gte 2 ? \"Wh-who's there?\" : \"I-is anyone there?\">> Help me! Hurry!\" you shout. Your voice is high and loud, but it breaks as you grunt in pain.",
+    "translation": "",
+    "pos": 51517
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1227_5_3_7|",
+    "original": "\"Help! I need some help! P-please?\" You try to stay calm, but your trembling voice betrays you.",
+    "translation": "",
+    "pos": 51695
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1234_5_3_7|",
+    "original": "After you call for help, the sounds vanish. The cave is silent, save for the occasional drip of water, as if everything you just heard was an illusion.",
+    "translation": "",
+    "pos": 51947
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1236_5_3_7|",
+    "original": "There's no response, and the silence is stifling.",
+    "translation": "",
+    "pos": 52121
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1238_5_3_7|",
+    "original": "Bracing your hands against the wall, you force yourself to take a step, but the labour pains are too intense. You collapse to the cave floor.",
+    "translation": "",
+    "pos": 52191
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1241_5_3_7|",
+    "original": "The silence is broken by the sound of light footsteps. Someone scoops you up, lifting you into the air.",
+    "translation": "",
+    "pos": 52355
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1243_5_3_7|",
+    "original": "A <<nnpc_gender \"Wren\">> sighs. \"Next time, you won't be so lucky, little thief,\" <<he>> says. <<His>> voice sounds familiar.",
+    "translation": "",
+    "pos": 52497
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1245_5_3_7|",
+    "original": "\"Why did Bailey send a pregnant one here?\" a <<nnpc_gender \"Wren\">> says, sounding amused.",
+    "translation": "",
+    "pos": 52645
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1250_5_3_7|",
+    "original": "You squint at the person through a haze of tears.",
+    "translation": "",
+    "pos": 52788
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1252_5_3_7|",
+    "original": "<span class=\"gold\">It's Wren.</span>",
+    "translation": "",
+    "pos": 52876
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1254_5_3_7|",
+    "original": "It's a young <<if $pronoun is \"m\">>man with short<<else>>woman with shoulder-length<</if>> hair.",
+    "translation": "",
+    "pos": 52935
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1256_5_3_7|",
+    "original": "<<He>> covers your eyes with <<his>> palm, plunging you into darkness, and breaks into a run. <<He>> cradles you in <<his>> arms, and the slight lurching is vaguely comforting as you slip into unconsciousness.",
+    "translation": "",
+    "pos": 53052
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1261_5_3_7|",
+    "original": "Your cries for help soon turn into moans of pain. You hear footsteps approaching, then laughter. \"Sounds like someone's having fun!\" a <<person1>><<person>> says.",
+    "translation": "",
+    "pos": 53408
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1264_5_3_7|",
+    "original": "\"<<pShes>> got a good set of pipes on <<pher>>,\" a <<person2>><<person>> adds. \"I reckon we can make <<pher>> moan even more.\" <<He>> stops short when <<he>> sees your pregnant belly. \"Oh, shit! Is <<pshe>> in labour?\"",
+    "translation": "",
+    "pos": 53593
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1267_5_3_7|",
+    "original": "\"There's no doctor down here!\" The <<person1>><<person>> sounds panicked. \"Here, help me carry <<pher>>.\"",
+    "translation": "",
+    "pos": 53834
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1270_5_3_7|",
+    "original": "You feel yourself being lifted, then darkness engulfs you.",
+    "translation": "",
+    "pos": 53962
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1273_5_3_7|",
+    "original": "<<case \"photo\">>",
+    "translation": "",
+    "pos": 54049
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1275_5_3_7|",
+    "original": "You stumble, groping for a chair to stabilise yourself. A stream of liquid runs down your legs. You're going into labour.",
+    "translation": "",
+    "pos": 54098
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1278_5_3_7|",
+    "original": "Niki doesn't bat an eye. You shout for help as you stumble to your knees, and <<he>> finally glances up from the computer. <<His>> eyes widen slightly, and <<he>> quickly rushes to your side. <<He>> guides you to your feet and sits you down in the chair.",
+    "translation": "",
+    "pos": 54238
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1281_5_3_7|",
+    "original": "\"Don't worry, you're going to be alright,\" <<he>> reassures you, already taking a phone from <<his>> pocket.",
+    "translation": "",
+    "pos": 54511
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1284_5_3_7|",
+    "original": "The last thing you can make out is Niki asking for an ambulance before everything fades to black.",
+    "translation": "",
+    "pos": 54638
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1286_5_3_7|",
+    "original": "<<case \"prison\">>",
+    "translation": "",
+    "pos": 54740
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1287_5_3_7|",
+    "original": "You stumble to your knees. There's no mistaking it; you're going into labour. You scream as the first contraction hits.",
+    "translation": "",
+    "pos": 54762
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1290_5_3_7|",
+    "original": "You spot a pair of boots approaching. They stop right in front of you. You look up.",
+    "translation": "",
+    "pos": 54942
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1294_5_3_7|",
+    "original": "It's <<anxious_guard 0>>. <<He>> frowns down at you.",
+    "translation": "",
+    "pos": 55091
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1297_5_3_7|",
+    "original": "\"You're not supposed to be out of your cell.\" <<He>> looks around nervously. \"Let's just get you back with no fuss, alright?\"",
+    "translation": "",
+    "pos": 55164
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1300_5_3_7|",
+    "original": "<<He>> waits for you to get up, but the pain is far too much. <<anxious_guard 0>> takes a moment to realise that you're in pain. Your panic spreads to <<him>>.",
+    "translation": "",
+    "pos": 55310
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1303_5_3_7|",
+    "original": "\"Oh no. Not here.\" <<He>> looks around again, as if praying for someone to swoop in and save <<him>>. \"Look... D-Don't move! Stay right there!\"",
+    "translation": "",
+    "pos": 55490
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1306_5_3_7|",
+    "original": "<<He>> hurries off, leaving you behind. You struggle to pull yourself upright, your vision swimming from the amount of pain coursing through your abdomen. The world fades away just as you hear someone yell.",
+    "translation": "",
+    "pos": 55654
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1308_5_3_7|",
+    "original": "Your heart pounds in your eardrums. Your vision starts to fade as pain rip through you over and over. You look up, to see yourself surrounded.",
+    "translation": "",
+    "pos": 55879
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1311_5_3_7|",
+    "original": "\"Give <<phim>> some space, now!\" a voice yells, just loud enough for it to cut through your haze. The world fades away as you feel yourself being lifted.",
+    "translation": "",
+    "pos": 56042
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1313_5_3_7|",
+    "original": "<<case \"prisonCell\">>",
+    "translation": "",
+    "pos": 56211
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1315_5_3_7|",
+    "original": "You sit down on your bed in the dark cell. It feels wet. It takes you a moment to realise your legs are also wet. You're going into labour.",
+    "translation": "",
+    "pos": 56280
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1318_5_3_7|",
+    "original": "Panic grips you.",
+    "translation": "",
+    "pos": 56440
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1321_5_3_7|",
+    "original": "You stumble towards your cell door and start banging on it. \"H-Help me!\" You try to get a guard to notice you.",
+    "translation": "",
+    "pos": 56477
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1322_5_3_7|",
+    "original": "It takes a few seconds of your banging for prisoners to start waking up. Some shout at you to shut up, others ignore you. One calls out to ask if you're okay.",
+    "translation": "",
+    "pos": 56593
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1326_5_3_7|",
+    "original": "<<veteran_guard 0 cap>> appears after a moment, banging on each cell door as <<he>> makes <<his>> way down. \"Lights out! That means shut it!\"",
+    "translation": "",
+    "pos": 56817
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1329_5_3_7|",
+    "original": "<<He>> eventually stops in front of your cell and scowls at you.",
+    "translation": "",
+    "pos": 56979
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1330_5_3_7|",
+    "original": "\"Do you know the punishment for being unruly-\" <<He>> cuts <<himself>> off as <<he>> notices the mess between your legs.",
+    "translation": "",
+    "pos": 57049
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1333_5_3_7|",
+    "original": "\"P-Please help me.\" You whisper, your vision already becoming blurry.",
+    "translation": "",
+    "pos": 57190
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1334_5_3_7|",
+    "original": "<<veteran_guard 0 cap>> immediately gets <<his>> keys out and unlocks your door. Strong arms catch you as your knees buckle, pain shooting through your stomach. The world fades away as you are carried out of your cell.",
+    "translation": "",
+    "pos": 57265
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1336_5_3_7|",
+    "original": "The sound of something wet splattering against the stone floor of your cell catches your attention. Your legs are wet. You're going into labour.",
+    "translation": "",
+    "pos": 57502
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1339_5_3_7|",
+    "original": "You start to panic and try to make your way out of the cell to get help. A sharp pain in your stomach has you hunching over and hanging onto the bars.",
+    "translation": "",
+    "pos": 57667
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1343_5_3_7|",
+    "original": "\"Please help me!\" You call down the hallway. A prisoner comes over, smirking, but stops at the sight of you.",
+    "translation": "",
+    "pos": 57868
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1344_5_3_7|",
+    "original": "\"Shit.\" <<He>> backs up and runs back down the way <<he>> came, hopefully to get help.",
+    "translation": "",
+    "pos": 57982
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1347_5_3_7|",
+    "original": "The other prisoners walk past, ignoring you or stopping to watch for entertainment. Only a few try to help you. One is about to lean down to help you to your feet when <<he>> sees someone approaching and steps away again.",
+    "translation": "",
+    "pos": 58089
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1350_5_3_7|",
+    "original": "<<methodical_guard 0 cap>> arrives with the prisoner in tow. The crowd thins out immediately as <<he>> frowns down at you. <<He>> crouches down and inspects you to see for <<himself>>.",
+    "translation": "",
+    "pos": 58382
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1353_5_3_7|",
+    "original": "\"Incredibly inconvenient timing,\" <<he>> remarks. \"We aren't equipped with a delivery room, so we'll have to make do.\"",
+    "translation": "",
+    "pos": 58587
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1356_5_3_7|",
+    "original": "<<methodical_guard 0 cap>> stands back up and orders two of the prisoners to help you walk. You are half carried, half dragged down the stairs. The guard begins to talk into <<his>> walkie talkie.",
+    "translation": "",
+    "pos": 58726
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1357_5_3_7|",
+    "original": "Your vision starts to blur as you're carried down another floor. You are not able to make out the shouts around you as you pass out.",
+    "translation": "",
+    "pos": 58928
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1359_5_3_7|",
+    "original": "<<case \"prisonLaundry\">>",
+    "translation": "",
+    "pos": 59076
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1362_5_3_7|",
+    "original": "You can hear a prisoner snicker behind you.",
+    "translation": "",
+    "pos": 59174
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1363_5_3_7|",
+    "original": "\"Good thing we're in the laundry room, huh?\" <<He>> smirks at you. \"Just need a helping hand to clean you up.\"",
+    "translation": "",
+    "pos": 59223
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1366_5_3_7|",
+    "original": "You tremble, and a sudden pain shoots through you. You're going into labour. The prisoner steps closer, leering at you.",
+    "translation": "",
+    "pos": 59354
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1369_5_3_7|",
+    "original": "\"Hey, back up. Now,\" a voice orders.",
+    "translation": "",
+    "pos": 59494
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1372_5_3_7|",
+    "original": "<<relaxed_guard 1 cap>> comes up behind you, and the prisoner scowls but leaves to do <<person1>><<his>> work. <<person2>><<He>> looks down at your legs but doesn't get to ask anything. Pain shoots through your stomach again, and you hunch over.",
+    "translation": "",
+    "pos": 59582
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1375_5_3_7|",
+    "original": "\"H-Help... My baby...\" you whimper out.",
+    "translation": "",
+    "pos": 59848
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1378_5_3_7|",
+    "original": "<<relaxed_guard 1 cap>> takes your elbow, propping you up.",
+    "translation": "",
+    "pos": 59908
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1381_5_3_7|",
+    "original": "\"The kid's a bit too young to start doing time, eh? C'mon. Specs will have my head if you pop the little squirt out in here.\" You can barely hear <<his>> voice. Pain makes your head throb and you struggle to keep upright. Everything fades away.",
+    "translation": "",
+    "pos": 59987
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1384_5_3_7|",
+    "original": "You look down. There's clear liquid running down your thighs. Pain lurches in your stomach. You're in labour.",
+    "translation": "",
+    "pos": 60295
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1387_5_3_7|",
+    "original": "\"Someone?\" you call out as you struggle to get to the door. \"I n-need help!\" You lean against the door frame.",
+    "translation": "",
+    "pos": 60425
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1390_5_3_7|",
+    "original": "\"Work hours are over.\" <<relaxed_guard 0 cap>> walks over, still playing with <<his>> dice. \"Not gonna turn on the machines unless you're prepared to entertain me-\"",
+    "translation": "",
+    "pos": 60555
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1393_5_3_7|",
+    "original": "<<His>> eyes drop down to your legs. <<His>> grin starts to fade as <<he>> realises what's going on.",
+    "translation": "",
+    "pos": 60740
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1396_5_3_7|",
+    "original": "\"Shit.\" <<relaxed_guard 0 cap>> looks around before putting an arm around your waist. \"C'mon, we're not popping out Prisoner 144 junior out here.\"",
+    "translation": "",
+    "pos": 60861
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1399_5_3_7|",
+    "original": "You struggle not to black out, the pain in your stomach getting worse. <<relaxed_guard 0 cap>> says something to you but you're in too much pain to process it. The world fades away, and the last thing you hear is a panicked shout.",
+    "translation": "",
+    "pos": 61028
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1401_5_3_7|",
+    "original": "<<case \"prisonCanteen\">>",
+    "translation": "",
+    "pos": 61274
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1404_5_3_7|",
+    "original": "You stumble over to one of the tables, barely making it to an open seat. A couple prisoners leer at you. A small puddle begins to form between your legs and drips down the bench. You're going into labour.",
+    "translation": "",
+    "pos": 61420
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1407_5_3_7|",
+    "original": "A prisoner laughs as you hunch over, clutching your belly. \"Someone must be starving.\" <<He>> grabs <<his>> crotch, grinning lasciviously. \"I've got a meal right here for-\"",
+    "translation": "",
+    "pos": 61645
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1410_5_3_7|",
+    "original": "You scream loudly in pain, and <<he>> flinches away from you.",
+    "translation": "",
+    "pos": 61838
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1413_5_3_7|",
+    "original": "Your screams alert <<person2>><<methodical_guard 1>>, who marches over. <<His>> face turns serious when <<he>> sees the liquid between your legs.",
+    "translation": "",
+    "pos": 61920
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1416_5_3_7|",
+    "original": "<<methodical_guard 1 cap>> helps you stand. You can hear <<him>> speak, but are unable to make out <<his>> words as everything fades to black.",
+    "translation": "",
+    "pos": 62086
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1419_5_3_7|",
+    "original": "You stumble over to one of the tables, collapsing onto a bench. \"H-help me!\" you cry out, your voice echoing through the empty canteen. There's no response. You hunch over and clutch your belly, screaming until you finally hear a pair of footsteps. Someone shines a torch on you, and you look up.",
+    "translation": "",
+    "pos": 62325
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1422_5_3_7|",
+    "original": "It's <<anxious_guard 0>>. <<He>> frowns down at you.",
+    "translation": "",
+    "pos": 62642
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1425_5_3_7|",
+    "original": "\"You're not supposed to be out of your cell.\" <<He>> looks around nervously. \"Let's just get you back with no fuss, alright?\" <<He>> waits for you to get up, but the pain is far too much. It takes a moment for <<him>> to realise. \"Oh no. Not here. Ah, right, you were shouting for help...\" <<He>> looks around again, as if praying for someone to swoop in and save <<him>>. \"Look... D-Don't move! Stay right there!\"",
+    "translation": "",
+    "pos": 62715
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1428_5_3_7|",
+    "original": "<<He>> hurries off, leaving you alone in the dark and empty canteen. You struggle to pull yourself upright, your vision swimming from the amount of pain coursing through your abdomen. The world fades away just as you hear someone else yell.",
+    "translation": "",
+    "pos": 63150
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1431_5_3_7|",
+    "original": "You stumble over to one of the tables, collapsing onto a bench. Liquid begins to drip down your legs. You're going into labour.",
+    "translation": "",
+    "pos": 63439
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1434_5_3_7|",
+    "original": "You scream, attracting the attention of a prisoner outside the canteen. <<He>> laughs as you hunch over and clutch your belly. \"Didn't get enough to eat, eh?\" <<He>> grabs <<his>> crotch, grinning lasciviously. \"I'll give you something to-\"",
+    "translation": "",
+    "pos": 63587
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1437_5_3_7|",
+    "original": "You scream even louder, and <<he>> flinches away from you. You slip off the bench and curl up on the ground.Others filter into the canteen, voices echoing around you. Everything grows dark and quiet as you fade into unconsciousness.",
+    "translation": "",
+    "pos": 63848
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1439_5_3_7|",
+    "original": "<<case \"prisonMedical\">>",
+    "translation": "",
+    "pos": 64096
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1441_5_3_7|",
+    "original": "Pain begins to shoot through your stomach, and you grunt in pain. You're going into labour. It alerts <<methodical_guard 0>>, and <<he>> rushes over.",
+    "translation": "",
+    "pos": 64172
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1444_5_3_7|",
+    "original": "<<He>> wastes no time. <<methodical_guard 0 cap>> grips your bicep tightly and steers you towards one of the beds.",
+    "translation": "",
+    "pos": 64340
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1445_5_3_7|",
+    "original": "\"You're in labour,\" <<he>> tells you. You barely get to sit down on the bed before another surge of pain has you hunching over.",
+    "translation": "",
+    "pos": 64459
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1448_5_3_7|",
+    "original": "You're thankful for the bed under you as you fall back, struggling to breathe in properly. While the prison was not where you wanted to have your baby, at least you're in the medical room.",
+    "translation": "",
+    "pos": 64605
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1451_5_3_7|",
+    "original": "You start feeling dizzy from the pain. You're gently lowered back into a laying position as your consciousness slips.",
+    "translation": "",
+    "pos": 64812
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1452_5_3_7|",
+    "original": "<<case \"prisonYard\">>",
+    "translation": "",
+    "pos": 64933
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1455_5_3_7|",
+    "original": "You collapse in the middle of the yard, clutching your stomach. Laughter echoes all around you as prisoners point and jeer.\tLiquid runs down your legs and onto the ground. You're going into labour.",
+    "translation": "",
+    "pos": 65043
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1458_5_3_7|",
+    "original": "\"Quit causing a scene,\" <<veteran_guard 0>> yells, approaching you. <<He>> halts in <<his>> tracks when you scream out in pain. A few prisoners try to get closer to the two of you.",
+    "translation": "",
+    "pos": 65261
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1461_5_3_7|",
+    "original": "Another wave of pain hits you, and you can barely make out <<veteran_guard 0>> shouting before the world goes dark.",
+    "translation": "",
+    "pos": 65462
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1464_5_3_7|",
+    "original": "You collapse in the middle of the yard. \"H-help me!\" you cry out, not caring who hears. There's no response. You hunch over and clutch your belly, screaming until you finally hear a pair of footsteps. Someone shines a torch on you, and you look up.",
+    "translation": "",
+    "pos": 65674
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1467_5_3_7|",
+    "original": "It's <<anxious_guard 0>>. <<He>> frowns down at you.",
+    "translation": "",
+    "pos": 65943
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1470_5_3_7|",
+    "original": "\"You're not supposed to be out of your cell.\" <<He>> looks around nervously. \"Let's just get you back with no fuss, alright?\" <<He>> waits for you to get up, but the pain is far too much. It takes a moment for <<him>> to realise. \"Oh no. Not here. Ah, right, you were shouting for help...\" <<He>> looks around again, as if praying for someone to swoop in and save <<him>>. \"Look... D-Don't move! Stay right there!\"",
+    "translation": "",
+    "pos": 66016
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1473_5_3_7|",
+    "original": "<<He>> hurries off, leaving you alone in the yard. You struggle to pull yourself upright, your vision swimming from the amount of pain coursing through your abdomen. The world fades away just as you hear someone else yell.",
+    "translation": "",
+    "pos": 66451
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1476_5_3_7|",
+    "original": "You collapse in the middle of the yard, attracting the attention of some lingering prisoners. Liquid runs down your legs and onto the ground. You're going into labour.",
+    "translation": "",
+    "pos": 66722
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1479_5_3_7|",
+    "original": "\"Did someone fall down?\" a prisoner coos mockingly. \"Looks like this bitch needs-\"",
+    "translation": "",
+    "pos": 66910
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1482_5_3_7|",
+    "original": "You shriek and clutch your stomach, and the prisoner backs away. <<His>> friend points out the puddle forming beneath you, and <<his>> face grows pale. <<He>> almost sounds guilty as <<he>> says, \"Someone pick <<phim>> up. We gotta get <<phim>> to the guards.\"",
+    "translation": "",
+    "pos": 67013
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1485_5_3_7|",
+    "original": "Their voices grow faint as darkness clouds the edges of your vision. The last thing you feel is your body being lifted into the air, then you slip into unconsciousness.",
+    "translation": "",
+    "pos": 67294
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1487_5_3_7|",
+    "original": "<<case \"prisonBeach\">>",
+    "translation": "",
+    "pos": 67478
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1488_5_3_7|",
+    "original": "You stumble and collapse onto the beach. Liquid runs down your legs, dampening the sand below. You're going into labour.",
+    "translation": "",
+    "pos": 67505
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1493_5_3_7|",
+    "original": "Wren calls out to you from <<his>> boat. \"Not very graceful, are we?\" <<He>> laughs. \"I didn't think the sand was that- oh, no.\"",
+    "translation": "",
+    "pos": 67768
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1496_5_3_7|",
+    "original": "You hear something heavy fall, then Wren crouches above you. <<He>> grabs your wrist and says something, but you're unable to make out <<his>> words.",
+    "translation": "",
+    "pos": 67917
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1499_5_3_7|",
+    "original": "You feel yourself being lifted up before everything goes dark.",
+    "translation": "",
+    "pos": 68087
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1501_5_3_7|",
+    "original": "You wonder if anyone will find you out here, and if it will be too late. Pain wracks your body as you bite back a scream.",
+    "translation": "",
+    "pos": 68168
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1504_5_3_7|",
+    "original": "The pain soon becomes unbearable, and you begin screaming loudly. Tears roll down your eyes and sink into the sand.",
+    "translation": "",
+    "pos": 68310
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1507_5_3_7|",
+    "original": "Faint shapes move in the water, and you try to focus on them instead of your pain. The shapes become blurry with time as your vision starts to go dark.",
+    "translation": "",
+    "pos": 68446
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1510_5_3_7|",
+    "original": "You shut your eyes and let yourself succumb to nothingness.",
+    "translation": "",
+    "pos": 68618
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1512_5_3_7|",
+    "original": "<<case \"prisonShowers\">>",
+    "translation": "",
+    "pos": 68693
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1515_5_3_7|",
+    "original": "You stumble past the other prisoners and lean against a wall for support. A distinct, warm fluid begins to run down your legs. You're going into labour.",
+    "translation": "",
+    "pos": 68806
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1518_5_3_7|",
+    "original": "\"Oi, watch out, you dumb <<bitch>>!\" a prisoner barks, shoving you to your knees.",
+    "translation": "",
+    "pos": 68979
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1521_5_3_7|",
+    "original": "You scream in pain, clutching your stomach as your contractions begin. The prisoner scoffs. \"Stop being so dramatic over a little fall. Whiny little shit.\"",
+    "translation": "",
+    "pos": 69081
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1524_5_3_7|",
+    "original": "\"Enough,\" <<veteran_guard 0>> says, approaching the two of you. \"And you, get off the damn-\" <<He>> pauses, then says something else. You can't process <<his>> words through the pain that overwhelms you.",
+    "translation": "",
+    "pos": 69257
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1527_5_3_7|",
+    "original": "You start to feel nauseated and disoriented as water pelts your skin. A hand grasps your shoulder and hauls you up just as you fade into unconsciousness.",
+    "translation": "",
+    "pos": 69481
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1530_5_3_7|",
+    "original": "You stumble and collapse onto the tiled floor. Warm fluid runs down your thighs. You're going into labour. You scream loudly as your contractions begin, clutching your stomach in pain.",
+    "translation": "",
+    "pos": 69698
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1533_5_3_7|",
+    "original": "\"Showers are over,\" <<veteran_guard 0>> says, stepping into the room \"Go do something productive before-\" Heavy footsteps march over to your crumpled body, and you look up to see <<veteran_guard 0>> looking down at you.\t<<His>> mouth moves, but you're in too much pain to make out the words.",
+    "translation": "",
+    "pos": 69903
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1536_5_3_7|",
+    "original": "A firm hand grabs your shoulder as your vision begins to blur, and you fade into unconsciousness.",
+    "translation": "",
+    "pos": 70215
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1538_5_3_7|",
+    "original": "<<case \"pound\">>",
+    "translation": "",
+    "pos": 70328
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1541_5_3_7|",
+    "original": "Staring out from between the bars, you shift uncomfortably. Greater levels of wetness pool beneath you onto the concrete. You're going into labour.",
+    "translation": "",
+    "pos": 70397
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1544_5_3_7|",
+    "original": "You hear whines from the kennels next to yours. The other <<pound_text>> can smell what is happening.",
+    "translation": "",
+    "pos": 70563
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1547_5_3_7|",
+    "original": "\"Hello?\" you call out, clutching the bars of the kennel. You can't give birth here.",
+    "translation": "",
+    "pos": 70683
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1550_5_3_7|",
+    "original": "Minutes pass with no one coming to help. Your calls get more insistent as pain gradually spreads throughout your lower body.",
+    "translation": "",
+    "pos": 70785
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1551_5_3_7|",
+    "original": "The <<pound_text>> around you whine louder and louder until they begin to bark and growl in response to your pained gasps. The commotion is enough to make someone come and check.",
+    "translation": "",
+    "pos": 70914
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1555_5_3_7|",
+    "original": "A <<person>> makes <<his>> way down the kennels. <<He>> yells and hits the bars while shining a torch inside. <<He>> pauses when <<he>> reaches you.",
+    "translation": "",
+    "pos": 71140
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1558_5_3_7|",
+    "original": "\"Oh, fuck!\" <<he>> shouts before dashing out of the kennels. You aren't sure if help is coming, and the pain is getting too much to stay lucid.",
+    "translation": "",
+    "pos": 71307
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1561_5_3_7|",
+    "original": "It all becomes too much. Your eyes flutter shut, commotion ringing in your ears.",
+    "translation": "",
+    "pos": 71469
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1562_5_3_7|",
+    "original": "<<case \"edencabin\">>",
+    "translation": "",
+    "pos": 71553
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1570_5_3_7|",
+    "original": "Your thighs feel wet, and you start to feel a sharp pain. You're going into labour.",
+    "translation": "",
+    "pos": 71751
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1572_5_3_7|",
+    "original": "Eden is still sleeping soundly.",
+    "translation": "",
+    "pos": 71865
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1574_5_3_7|",
+    "original": "Eden is out hunting, <<nnpc_he \"Eden\">> can't help you right now.",
+    "translation": "",
+    "pos": 71955
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1576_5_3_7|",
+    "original": "Eden is busy with <<nnpc_his \"Eden\">> own chores and hasn't noticed your panic.",
+    "translation": "",
+    "pos": 72039
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1580_5_3_7|",
+    "original": "You desperately tug at your leash, hoping it will break. A few last stubborn threads hold on. Panicked, you begin to gnaw at the threads. Relief floods you when it breaks.",
+    "translation": "",
+    "pos": 72232
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1584_5_3_7|",
+    "original": "You stumble into the forest as the pain of your contractions begins. You're not even sure where you're going.",
+    "translation": "",
+    "pos": 72434
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1586_5_3_7|",
+    "original": "You're about to turn back to the cabin, when a branch cracks to your left.",
+    "translation": "",
+    "pos": 72579
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1588_5_3_7|",
+    "original": "You walk an unknown distance before you pause, too exhausted to continue, the adrenaline fading from your body. A branch cracks to your left.",
+    "translation": "",
+    "pos": 72672
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1590_5_3_7|",
+    "original": "<<case \"drain\">>",
+    "translation": "",
+    "pos": 72829
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1591_5_3_7|",
+    "original": "<<case \"school\">>",
+    "translation": "",
+    "pos": 72849
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1594_5_3_7|",
+    "original": "<<case \"schoolfrontcourtyard\" \"schoolrearcourtyard\">>",
+    "translation": "",
+    "pos": 72995
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1596_5_3_7|",
+    "original": "You stumble, tripping over your feet and landing hard in the dirt. You roll over to your side but find yourself struggling to get up as another wave of contractions wash over you.",
+    "translation": "",
+    "pos": 73089
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1599_5_3_7|",
+    "original": "Your collapse draws the attention of others in the schoolyard. You faintly hear awkward laughter, as if they think you're playing some elaborate prank. Moments pass as you continue to lay on the ground clutching your stomach before a pair of sneakers enter your field of vision. The <<personsimple>> approaching you takes one look at your belly before swearing and yelling for help.",
+    "translation": "",
+    "pos": 73293
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1602_5_3_7|",
+    "original": "You hear a stampede of feet and what sounds like the concerned voice of a teacher before everything fades away.",
+    "translation": "",
+    "pos": 73700
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1603_5_3_7|",
+    "original": "<<case \"schoollibrary\">>",
+    "translation": "",
+    "pos": 73818
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1604_5_3_7|",
+    "original": "The world tilts as you stumble, landing hard against a bookshelf. Unable to hold up your own weight, you slide down to the ground, back pressed against the shelf. You think you make some sort of noise, because you hear footsteps approaching before a gasp fills your ears. Somebody rushes forward, kneeling at your side. Their words wash over you, but you can't make heads or tails of them as your vision fades to black.",
+    "translation": "",
+    "pos": 73850
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1611_5_3_7|",
+    "original": "<<case \"schoolCanteen\">>",
+    "translation": "",
+    "pos": 74419
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1613_5_3_7|",
+    "original": "Your vision blurs and you stumble, catching yourself against the edge of a lunch table.",
+    "translation": "",
+    "pos": 74569
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1614_5_3_7|",
+    "original": "<<= $schoolstate is \"lunch\" ? \"Despite how busy the canteen is, you\" : \"You\">> capture the attention of the nearby students. As your knees give out, you hear a rush of footsteps. One of the students shouts for a teacher, and it's not long before a faculty member hustles to your side.",
+    "translation": "",
+    "pos": 74662
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1618_5_3_7|",
+    "original": "Robin's eyes are wide, and <<nnpc_he \"Robin\">> tries to reach you through the crowd.",
+    "translation": "",
+    "pos": 75068
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1621_5_3_7|",
+    "original": "The last thing you hear before passing out is the teacher yelling for an ambulance.",
+    "translation": "",
+    "pos": 75172
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1625_5_3_7|",
+    "original": "<<case \"schoolJanitor\">>",
+    "translation": "",
+    "pos": 75326
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1627_5_3_7|",
+    "original": "You stumble to the ground as your contractions overwhelm you. You cry out in pain, but no one's around to hear you. You curl up into a ball and grip your stomach, whimpering for help. After what feels like an eternity, you see a janitor <<= [\"schoolfrontcourtyard\", \"schoolrearcourtyard\"].includes($bus) ? \"exit the school, wheeling a trashbin\" : \"enter, mopping the floor\">> as <<he>> sings along to the music blaring through <<his>> headphones.",
+    "translation": "",
+    "pos": 75384
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1630_5_3_7|",
+    "original": "<<His>> eyes land on you, and <<he>> freezes. \"Holy...\" <<He>> rips off <<his>> headphones and fumbles for <<his>> cellphone to call for help. The last thing you hear is <<his>> panicked voice, swearing at the phone operator, before the world fades to black.",
+    "translation": "",
+    "pos": 75849
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1631_5_3_7|",
+    "original": "<<case \"schoolPool\">>",
+    "translation": "",
+    "pos": 76111
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1633_5_3_7|",
+    "original": "You gasp as a contraction hits you, stealing the strength from your limbs. You briefly go under, and chlorinated water fills your mouth. You flail in a panic, struggling to keep your head above water. Suddenly, a pair of strong arms wrap around you, towing you out of the water and onto the slippery tile. Firm, unyielding hands turn you on your side as you hack up water.",
+    "translation": "",
+    "pos": 76166
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1636_5_3_7|",
+    "original": "\"Whoa, what happened?\" Mason asks, looking concerned as <<he>> leans over you. \"You need to be more careful, what if...\" <<His>> voice trails off as <<he>> notices the way you carefully hold your abdomen. \"Are you going into labour? Now?\" Panicked, <<he>> turns and yells at a nearby student to run to Leighton's office for help.",
+    "translation": "",
+    "pos": 76557
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1639_5_3_7|",
+    "original": "You watch the student dash out of the room with glazed eyes as Mason turns <<his>> attention back to you. \"You're going to be alright. Just breathe with me, okay?\" Mason tries to guide you through some breathing exercises, but you're unable to focus. As the world fades to black, you hear the sirens of an ambulance.",
+    "translation": "",
+    "pos": 76905
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1640_5_3_7|",
+    "original": "<<case \"schoolHallways\">>",
+    "translation": "",
+    "pos": 77225
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1642_5_3_7|",
+    "original": "As your vision swims, you stagger, stumbling straight into the lockers with a bang. The noise attracts the attention of the students around you. Knees weak, you slide to the ground, clutching your abdomen. One student bolts from the scene, yelling for a teacher. You hear a flurry of footsteps and several panicked voices before everything fades away.",
+    "translation": "",
+    "pos": 77328
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1646_5_3_7|",
+    "original": "<<case \"schoolLibrarian\">>",
+    "translation": "",
+    "pos": 77750
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1647_5_3_7|",
+    "original": "You whimper as you clutch your stomach. \"Whoa, whoa,\" the librarian says, giving your belly an alarmed look. \"Just hang on, okay? I've got you. We'll get you to the hospital immediately.\" You give a weak, grateful smile and let your eyes drift shut. You pass out in the safety of the librarian's arms.",
+    "translation": "",
+    "pos": 77781
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1648_5_3_7|",
+    "original": "<<case \"schoolScience\">>",
+    "translation": "",
+    "pos": 78086
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1650_5_3_7|",
+    "original": "A powerful contraction grips you, and you cry out. The pain causes you to blackout for the briefest of seconds. When you open your eyes, you find yourself laying on the classroom floor, Sirris hovering over you. \"You're going into labour,\" <<he>> says, holding your hand as <<he>> fishes a cellphone out of <<his>> pocket. \"You're going to be okay, I promise.\" <<He>> presses the phone to <<his>> ear and calls for an ambulance.",
+    "translation": "",
+    "pos": 78145
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1652_5_3_7|",
+    "original": "As you wait for the ambulance, Sirris lectures on the miracle of childbirth. Some of your classmates look ill, while others can't tear their eyes away from you. The last thing you hear before passing out is <<his>> enthusiastic gushing about your ripened cervix.",
+    "translation": "",
+    "pos": 78591
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1653_5_3_7|",
+    "original": "<<case \"schoolToilets\">>",
+    "translation": "",
+    "pos": 78857
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1654_5_3_7|",
+    "original": "All of a sudden, your vision blurs, and you collapse onto the tile floor. You try to call out, but you're unsure if anybody can hear you.",
+    "translation": "",
+    "pos": 78886
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1657_5_3_7|",
+    "original": "You lay like that, carefully cradling your swollen belly, until",
+    "translation": "",
+    "pos": 79042
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1659_5_3_7|",
+    "original": "a group of students saunter out, chatting amongst themselves. One catches sight of you and freezes. They stare down at you, until you whimper out a plea for help. Snapping out of it, one student rushes to get help while the others crowd around you on the floor.",
+    "translation": "",
+    "pos": 79183
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1662_5_3_7|",
+    "original": "You catch sight of a teacher approaching before finally passing out.",
+    "translation": "",
+    "pos": 79465
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1665_5_3_7|",
+    "original": "a janitor enters, trundling a mop bucket. <<He>> scowls at the puddle of fluid caused by your waters breaking. \"You clean up one mess, then another one pops up. Kids these...days...\" <<His>> eyes widen as they land on you. \"Holy shit. Uh, hang on, um-\" <<He>> fumbles for <<his>> cellphone and calls for an ambulance.",
+    "translation": "",
+    "pos": 79582
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1668_5_3_7|",
+    "original": "You croak out a 'thank you' before the last vestiges of consciousness slip away.",
+    "translation": "",
+    "pos": 79920
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1670_5_3_7|",
+    "original": "<<case \"sewers\">>",
+    "translation": "",
+    "pos": 80016
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1672_5_3_7|",
+    "original": "An awful pain shoots through your body, and liquid runs down your legs. You're going into labour. As you collapse, you see a shadow in the water move towards you. A giant <<beasttype>> emerges, bearing down on you. It looks like <<bhes>> about to strike, when all of a sudden, <<bhe>> pauses.",
+    "translation": "",
+    "pos": 80068
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1676_5_3_7|",
+    "original": "\"You... have eggs?\" <<bhe>> asks.",
+    "translation": "",
+    "pos": 80405
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1679_5_3_7|",
+    "original": "<<bHe>> stares at your stomach, watching as you curl up and whimper in pain. The <<beasttype>> looks conflicted, but <<bhe>> slowly approaches and places a hand on your stomach. <<bHis>> face scrunches up, then <<bhe>> suddenly bends down and lifts you up with relative ease.",
+    "translation": "",
+    "pos": 80459
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1682_5_3_7|",
+    "original": "\"Not normal eggs,\" <<bhe>> hisses. \"Other humans go to big building. I hear them talk in the bright-place below.\"  The <<beasttype>> carries you to a ladder and hauls you up it. Once at the surface, <<bhe>> slithers out.",
+    "translation": "",
+    "pos": 80755
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1684_5_3_7|",
+    "original": "<<bHe>> eyes you curiously, staring at your stomach before slowly approaching and wrapping <<bhis>> tail around you. <<bHe>> drags you to the nearest ladder and, with some struggling, pulls you up it. When <<bhe>> reaches the top, <<bhe>> headbutts the manhole cover until it opens enough for <<bhim>> to wriggle out.",
+    "translation": "",
+    "pos": 80994
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1687_5_3_7|",
+    "original": "<<bHe>> dumps you next to the manhole before letting out a shrill, screeching hiss.",
+    "translation": "",
+    "pos": 81329
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1690_5_3_7|",
+    "original": "Somebody nearby yelps at the sound, and you hear footsteps coming your way. The <<beasttype>> retreats into the <<= $monster is 1 ? \"sewers, glancing back at you briefly before pulling the manhole cover back into place\" : \"sewers\">>.",
+    "translation": "",
+    "pos": 81431
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1693_5_3_7|",
+    "original": "Everything fades to black as someone crouches by you.",
+    "translation": "",
+    "pos": 81683
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1694_5_3_7|",
+    "original": "<<case \"adultShop\">>",
+    "translation": "",
+    "pos": 81740
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1695_5_3_7|",
+    "original": "You stumble, barely catching yourself on a shelf laden with dildos. You cradle your belly as you slide to the ground, groaning with pain.",
+    "translation": "",
+    "pos": 81765
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1699_5_3_7|",
+    "original": "Using what little strength you have, you try to crawl to the door. You weakly reach for the handle, but can't reach it from the floor. You whimper.",
+    "translation": "",
+    "pos": 81978
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1702_5_3_7|",
+    "original": "The door swings open, and a guard scowls down at you. \"What do we have here? A little rat thief, trying to make off with some fuck toys?\" <<he>> says. <<He>> shines a torch on you, and <<his>> eyes widen when <<he>> notices your state.",
+    "translation": "",
+    "pos": 82146
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1705_5_3_7|",
+    "original": "\"Shit,\" <<he>> mutters as <<he>> takes out <<his>> phone. \"I'll give you a pass this time, but next time you won't be so lucky.\" The last thing you hear is <<him>> calling for an ambulance, then the world fades to black.",
+    "translation": "",
+    "pos": 82402
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1708_5_3_7|",
+    "original": "You hear Sirris calling for you from the back room. After a few moments, you hear Sirris enter the shop proper, followed by a shout of surprise as <<nnpc_his \"Sirris\">> eyes land on you.",
+    "translation": "",
+    "pos": 82642
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1711_5_3_7|",
+    "original": "Within moments, Sirris is kneeling at your side, phone to <<nnpc_his \"Sirris\">> ear as <<nnpc_he \"Sirris\">> tries to hold your attention.",
+    "translation": "",
+    "pos": 82849
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1714_5_3_7|",
+    "original": "Behind <<nnpc_him \"Sirris\">>, you can see Sydney hovering in worry. You try to give <<nnpc_him \"Sydney\">> a reassuring smile, but you can't hold on any longer. You pass out.",
+    "translation": "",
+    "pos": 83034
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1717_5_3_7|",
+    "original": "<<case \"office\">>",
+    "translation": "",
+    "pos": 83236
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1718_5_3_7|",
+    "original": "<<case \"island\">>",
+    "translation": "",
+    "pos": 83257
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1720_5_3_7|",
+    "original": "A spasm of pain wracks your body, and you cry out. You're going into labour.",
+    "translation": "",
+    "pos": 83296
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1723_5_3_7|",
+    "original": "Figures emerge from the trees, weapons held ready. They lower them when they see your state, and their motions become panicked.",
+    "translation": "",
+    "pos": 83391
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1726_5_3_7|",
+    "original": "\"I think <<pshe>> going into labour,\" one of the islanders says.",
+    "translation": "",
+    "pos": 83575
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1728_5_3_7|",
+    "original": "\"Fuck! You're right!\"",
+    "translation": "",
+    "pos": 83655
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1730_5_3_7|",
+    "original": "\"Get the druids, now!\"",
+    "translation": "",
+    "pos": 83692
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1732_5_3_7|",
+    "original": "They call for help. It's strange, but in your pain you can almost determine the meaning behind their words. It floats at the edge of awareness.<<gggcomprehension>><<islander_language 30>>",
+    "translation": "",
+    "pos": 83761
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1734_5_3_7|",
+    "original": "They shout something in their incomprehensible language. It's strange, but in your pain you feel the meaning behind them. They're calling for help.<<gggcomprehension>><<islander_language 30>>",
+    "translation": "",
+    "pos": 83967
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1737_5_3_7|",
+    "original": "The figures fade into fog as you pass out.",
+    "translation": "",
+    "pos": 84188
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1739_5_3_7|",
+    "original": "With your waters broken, you're too weak to continue.",
+    "translation": "",
+    "pos": 84250
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1743_5_3_7|",
+    "original": "<<if _args[0] isnot \"schoolJanitor\">>",
+    "translation": "",
+    "pos": 84372
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1746_5_3_7|",
+    "original": "<<case \"asylum\" \"asylumOutside\" \"asylumCafe\" \"asylumLibrary\" \"asylumHarper\">>",
+    "translation": "",
+    "pos": 84449
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1747_5_3_7|",
+    "original": "<<link [[Next|Pregnancy Birth Asylum]]>><<set $stress -= 5000>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 84532
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1748_5_3_7|",
+    "original": "<<case \"prison\" \"prisonCell\" \"prisonLaundry\" \"prisonSpire\" \"prisonCanteen\" \"prisonMedical\" \"prisonYard\" \"prisonBeach\" \"prisonShowers\">>",
+    "translation": "",
+    "pos": 84621
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1749_5_3_7|",
+    "original": "<<link [[Next|Pregnancy Birth Prison]]>><<set $stress -= 5000>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 84762
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1750_5_3_7|",
+    "original": "<<case \"tentacleworld\">>",
+    "translation": "",
+    "pos": 84851
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1752_5_3_7|",
+    "original": "You find yourself laying in front of your bedroom mirror. Everything fades to black.",
+    "translation": "",
+    "pos": 84924
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1755_5_3_7|",
+    "original": "<<link [[Next|Pregnancy Birth Hospital Passout]]>><<set $stress -= 5000>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 85031
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1757_5_3_7|",
+    "original": "You scream. You're met with your own echoing voice. Again and again, you scream until your throat is hoarse. <span class=\"red\">No one comes for you.</span> <<trauma 50>><<gggtrauma>>",
+    "translation": "",
+    "pos": 85146
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1760_5_3_7|",
+    "original": "Overwhelmed by pain and fear, you black out.",
+    "translation": "",
+    "pos": 85351
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1763_5_3_7|",
+    "original": "<<link [[Next|Pregnancy Birth Asylum]]>><<set $stress -= 5000>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 85418
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1765_5_3_7|",
+    "original": "<<case \"tentacleforest\" \"hookah\">>",
+    "translation": "",
+    "pos": 85520
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1767_5_3_7|",
+    "original": "You're caught off guard by a sudden pain. A contraction. You've gone into labour. You stumble to the floor.",
+    "translation": "",
+    "pos": 85581
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1770_5_3_7|",
+    "original": "Your vision quickly fades, and when it returns, you feel as though time has passed.",
+    "translation": "",
+    "pos": 85711
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1773_5_3_7|",
+    "original": "You snap awake in the parlour.",
+    "translation": "",
+    "pos": 85830
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1777_5_3_7|",
+    "original": "The hookah <<hookah_master>>'s face is right above you, looking concerned. <<He>> barks orders around.",
+    "translation": "",
+    "pos": 85951
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1780_5_3_7|",
+    "original": "\"...and open that window. Air it out in here for <<phim>>. Jiggle the lock. It's supposed to be hard to open! Yes, yes, you'll get a full refund...\"",
+    "translation": "",
+    "pos": 86076
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1783_5_3_7|",
+    "original": "<<His>> voice becomes distant, and darkness creeps into the corners of your vision as the pain of a contraction hits you. Your own scream is the last thing you hear.",
+    "translation": "",
+    "pos": 86247
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1785_5_3_7|",
+    "original": "Someone is pounding on the door. Your vision starts to fade again to the sound of sirens.",
+    "translation": "",
+    "pos": 86433
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1789_5_3_7|",
+    "original": "<<link [[Next|Pregnancy Birth Hospital Rescue]]>><<set $stress -= 5000>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 86556
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1790_5_3_7|",
+    "original": "<<case \"forest\" \"edencabin\">>",
+    "translation": "",
+    "pos": 86654
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1794_5_3_7|",
+    "original": "A <<beasttype>> approaches you, rushing to your side and putting <<bhis>> arms behind you for support.",
+    "translation": "",
+    "pos": 86787
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1796_5_3_7|",
+    "original": "You've seen <<bhim>> at the cave before. \"<<pPackbrother>>'s pups are coming,\" <<bhe>> says. \"Hurry.\" <<bHe>> lets you lean against <<bhim>> as you waddle your way home.",
+    "translation": "",
+    "pos": 86933
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1798_5_3_7|",
+    "original": "You don't know why, but you feel safe going with <<bhim>>. \"Your pups are coming,\" <<bhe>> says. \"You'll be safe with my pack.\" <<bHe>> lets you lean against <<bhim>> as you waddle your way towards what you hope is safety.",
+    "translation": "",
+    "pos": 87127
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1801_5_3_7|",
+    "original": "A <<beasttype>> approaches you, nuzzling your hand.",
+    "translation": "",
+    "pos": 87387
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1803_5_3_7|",
+    "original": "You've seen <<bhim>> at the cave before. You lean against <<bhis>> back as you limp home together.",
+    "translation": "",
+    "pos": 87482
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1805_5_3_7|",
+    "original": "You don't know why, but you feel safe going with <<bhim>>. You lean against <<bhis>> back as you limp towards what you hope is safety.",
+    "translation": "",
+    "pos": 87605
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1808_5_3_7|",
+    "original": "It's difficult to keep moving through the pain. Eventually your legs give out, your vision following soon after,",
+    "translation": "",
+    "pos": 87775
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1809_5_3_7|",
+    "original": "<<if $monster is 1>>but strong arms holding you keep you from harm.<<else>>but you fall gently onto soft fur.<</if>>",
+    "translation": "",
+    "pos": 87894
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1812_5_3_7|",
+    "original": "<<link [[Next|Pregnancy Birth Wolf Rescue]]>><<set $stress -= 5000>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 88033
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1816_5_3_7|",
+    "original": "You hear a <<personsimple>>'s voice. \"Are you okay, there?\" <<he>> asks as <<he>> approaches. <<He>> looks vaguely familiar. There's an axe along <<his>> back. You think you stopped and talked to <<him>> as <<he>> was chopping wood once.",
+    "translation": "",
+    "pos": 88193
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1819_5_3_7|",
+    "original": "You're barely able to talk as another contraction hits, more painful than the previous ones. The woods<<personsimple>> takes off <<his>> coat and gently puts it over your shoulders.",
+    "translation": "",
+    "pos": 88453
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1822_5_3_7|",
+    "original": "\"Come on, lean on me. I'll take you to the hospital.\" Your vision fades before you can take the next step.",
+    "translation": "",
+    "pos": 88657
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1825_5_3_7|",
+    "original": "<<link [[Next|Pregnancy Birth Hospital Rescue]]>><<set $stress -= 5000>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 88786
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1827_5_3_7|",
+    "original": "<<case \"edencabin\">>",
+    "translation": "",
+    "pos": 88897
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1836_5_3_7|",
+    "original": "<<case \"remy\" \"remyAbduction\" \"remyHarperExam\" \"remyNiki\">>",
+    "translation": "",
+    "pos": 89291
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1837_5_3_7|",
+    "original": "<<link [[Next|Pregnancy Birth Livestock]]>><<set $stress -= 5000>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 89356
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1838_5_3_7|",
+    "original": "<<case \"farmroad\">>",
+    "translation": "",
+    "pos": 89448
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1839_5_3_7|",
+    "original": "<<if $location is \"farm\" and $_pregnancy.potentialFathers.find(father => father.source === \"Alex\") and talkedAboutPregnancy(\"pc\",\"Alex\")>>",
+    "translation": "",
+    "pos": 89473
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1840_5_3_7|",
+    "original": "<<link [[Next|Pregnancy Birth Hospital Rescue]]>><<set $stress -= 5000>><<endevent>><<set $alexRescued to 1>><</link>>",
+    "translation": "",
+    "pos": 89618
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1842_5_3_7|",
+    "original": "<<link [[Next|Pregnancy Birth Hospital Rescue]]>><<set $stress -= 5000>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 89757
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1844_5_3_7|",
+    "original": "<<case \"adultShop\" \"alley\" \"arcade\" \"bog\" \"dungeon\" \"photo\" \"pound\" \"roof\" \"sea\" \"shop\" \"sewers\" \"schoolJanitor\" \"school\" \"schoolCanteen\" \"schoolHallways\" \"schoolLibrarian\" \"schoolPool\" \"schoolScience\" \"schoolToilets\" \"temple\">>",
+    "translation": "",
+    "pos": 89868
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1845_5_3_7|",
+    "original": "<<link [[Next|Pregnancy Birth Hospital Rescue]]>><<set $stress -= 5000>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 90102
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1846_5_3_7|",
+    "original": "<<case \"cave\" \"home\" \"hospital\">>",
+    "translation": "",
+    "pos": 90200
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1847_5_3_7|",
+    "original": "<<link [[Next|Pregnancy Birth Hospital]]>><<set $stress -= 5000>><<endevent>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 90239
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1848_5_3_7|",
+    "original": "<<case \"trash\">>",
+    "translation": "",
+    "pos": 90349
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1849_5_3_7|",
+    "original": "<<link [[Next|Pregnancy Birth Hospital]]>><<set $stress -= 5000>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 90371
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1850_5_3_7|",
+    "original": "<<case \"island\">>",
+    "translation": "",
+    "pos": 90462
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1851_5_3_7|",
+    "original": "<<link [[Next|Pregnancy Island]]>><<set $stress -= 5000>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 90485
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1853_5_3_7|",
+    "original": "<<link [[Next|Pregnancy Birth Hospital Passout]]>><<set $stress -= 5000>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 90585
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1857_5_3_7|",
+    "original": "Error Pregnancy Object not found in the passage '<<print $passage>>'.",
+    "translation": "",
+    "pos": 90717
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1885_5_3_7|",
+    "original": "<<set $sexStats[($player.vaginaExist ? \"vagina\" : \"anus\")].sperm to []>>",
+    "translation": "",
+    "pos": 91999
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1900_5_3_7|",
+    "original": "<<set $sexStats[($player.vaginaExist ? \"vagina\" : \"anus\")].sperm to []>>",
+    "translation": "",
+    "pos": 92662
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1916_5_3_7|",
+    "original": "<<set $sexStats[($player.vaginaExist ? \"vagina\" : \"anus\")].sperm to []>>",
+    "translation": "",
+    "pos": 93371
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1929_5_3_7|",
+    "original": "<<set $sexStats[($player.vaginaExist ? \"vagina\" : \"anus\")].sperm to []>>",
+    "translation": "",
+    "pos": 94073
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1940_5_3_7|",
+    "original": "<<set $_text_output to `\"I believe they are <<if $_pregnancy.fetus.length is 3>>all identical triplets<<else>>both identical twins<</if>>. They're the same gender and their facial features are similar.\"`>>",
+    "translation": "",
+    "pos": 94593
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1976_5_3_7|",
+    "original": "<</silently>><<if $_text_output>><<print $_text_output>><</if>>",
+    "translation": "",
+    "pos": 96307
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1980_5_3_7|",
+    "original": "<<if $_pregnancy.awareOfDetails || ((!_args[0] || _args[0] is \"pc\") and $_pregnancy.potentialFathers.every((father, index, array) => father.type === array[0].type))>>",
+    "translation": "",
+    "pos": 96422
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1982_5_3_7|",
+    "original": "<<case \"human\">>",
+    "translation": "",
+    "pos": 96637
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "1988_5_3_7|",
+    "original": "<<case \"wolf\">>",
+    "translation": "",
+    "pos": 96874
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "2000_5_3_7|",
+    "original": "<</silently>><<print $_text_output>>",
+    "translation": "",
+    "pos": 97295
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "2004_5_3_7|",
+    "original": "<<if _args[0] isnot \"pc\" and C.npc[_args[0]] and C.npc[_args[0]].pregnancy.enabled isnot undefined>>",
+    "translation": "",
+    "pos": 97389
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "2009_5_3_7|",
+    "original": "<<if $_pregnancy.awareOfDetails || ((!_args[0] || _args[0] is \"pc\") and $_pregnancy.potentialFathers.every((father, index, array) => father.type === array[0].type))>>",
+    "translation": "",
+    "pos": 97607
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "2013_5_3_7|",
+    "original": "<<case \"human\">>",
+    "translation": "",
+    "pos": 97955
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "2015_5_3_7|",
+    "original": "<<set $_text_output to ($_num is 3 ? \"triplets\" : \"twins\")>>",
+    "translation": "",
+    "pos": 98001
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "2019_5_3_7|",
+    "original": "<<case \"wolf\">>",
+    "translation": "",
+    "pos": 98131
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "2021_5_3_7|",
+    "original": "<<set $_text_output to ($_num is 1 ? \"pup\" : \"pups\")>>",
+    "translation": "",
+    "pos": 98177
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "2026_5_3_7|",
+    "original": "<<set $_text_output to ($_num gt 1 ? \"babies\" : \"baby\")>>",
+    "translation": "",
+    "pos": 98320
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "2029_5_3_7|",
+    "original": "<<set $_text_output to ($_pregnancy.awareOfMultiple && $_pregnancy.fetus.length gt 1 ? \"babies\" : \"baby\")>>",
+    "translation": "",
+    "pos": 98407
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "2032_5_3_7|",
+    "original": "<<set $_text_output to ($_pregnancy.awareOfMultiple && $_pregnancy.fetus.length gt 1 ? \"babies\" : \"baby\")>>",
+    "translation": "",
+    "pos": 98537
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "2034_5_3_7|",
+    "original": "<</silently>><<print $_text_output>><</widget>>",
+    "translation": "",
+    "pos": 98654
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "2038_5_3_7|",
+    "original": "<<set $_spawn to `<<pregnancyBabyText ${_args[0] || \"pc\"}>>`>>",
+    "translation": "",
+    "pos": 98739
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "2040_5_3_7|",
+    "original": "<<case \"triplets\" \"twins\" \"pups\" \"babies\" \"chicks\">><<set $_spawn += \" are\">>",
+    "translation": "",
+    "pos": 98826
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "2044_5_3_7|",
+    "original": "<<print $_spawn>>",
+    "translation": "",
+    "pos": 98973
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "2074_5_3_7|",
+    "original": "<<case \"Kylar\">><<set $_pregnancy.pills to \"fertility\">>",
+    "translation": "",
+    "pos": 100390
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "2075_5_3_7|",
+    "original": "<<case \"Alex\" \"Wren\">><<set $_pregnancy.pills to \"contraceptive\">>",
+    "translation": "",
+    "pos": 100451
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "2076_5_3_7|",
+    "original": "<<case \"Great Hawk\">>",
+    "translation": "",
+    "pos": 100522
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "2094_5_3_7|",
+    "original": "<<case \"Kylar\" \"Black Wolf\" \"Great Hawk\" \"Eden\" \"Ivory Wraith\">><<set C.npc[$_name].pregnancyAvoidance to 0>>",
+    "translation": "",
+    "pos": 101542
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "2095_5_3_7|",
+    "original": "<<case \"Robin\" \"Whitney\" \"Alex\" \"Wren\" \"Avery\">><<set C.npc[$_name].pregnancyAvoidance to 50>>",
+    "translation": "",
+    "pos": 101656
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "2107_5_3_7|",
+    "original": "<<case \"human\">><<set $_type to _args[1]? 'babies' : 'baby'>>",
+    "translation": "",
+    "pos": 102165
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "2108_5_3_7|",
+    "original": "<<case \"wolf\">><<set $_type to _args[1] ? 'wolf puppies' : 'wolf pup'>>",
+    "translation": "",
+    "pos": 102230
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "2113_5_3_7|",
+    "original": "<span class=\"green\">A fulfilled warmth fills you.</span>",
+    "translation": "",
+    "pos": 102510
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "2114_5_3_7|",
+    "original": "You almost forget the strife of the world. You can tell it's the slimes in your ears, rewarding you for giving birth <<print $_babiesText>>.",
+    "translation": "",
+    "pos": 102570
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "2118_5_3_7|",
+    "original": "<span class=\"green\">A fulfilled warmth fills you.</span>",
+    "translation": "",
+    "pos": 102892
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "2119_5_3_7|",
+    "original": "You almost forget the strife of the world. You can tell it's the slime in your ear, rewarding you for giving birth <<print $_babiesText>>.",
+    "translation": "",
+    "pos": 102952
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "2130_5_3_7|",
+    "original": "<div @class=\"$options.images is 1 ? 'impregnated' : ''\">",
+    "translation": "",
+    "pos": 103415
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "2133_5_3_7|",
+    "original": "<span class=\"lewd\">You just got yourself pregnant.</span>",
+    "translation": "",
+    "pos": 103532
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "2135_5_3_7|",
+    "original": "<span class=\"lewd\"><<print pregnancyNameCorrection(_playerIsNowPregnant, true)>> just impregnated you.</span>",
+    "translation": "",
+    "pos": 103612
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "2150_5_3_7|",
+    "original": "<div @class=\"$options.images is 1 ? 'impregnated' : ''\">",
+    "translation": "",
+    "pos": 104185
+  },
+  {
+    "passage": "Pregnancy2",
+    "filepath": "base-system/pregnancy/pregnancy.twee",
+    "key": "2151_5_3_7|",
+    "original": "<div><span class=\"lewd\">You just impregnated <<print pregnancyNameCorrection(_npcIsNowPregnant)>>.</span></div>",
+    "translation": "",
+    "pos": 104247
+  }
+]

@@ -1,0 +1,3418 @@
+[
+  {
+    "passage": "Pregnancy Introduction",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "6_5_3_7|",
+    "original": "\"You're experiencing strange sensations in your abdomen?\" <<he>> asks. You nod. <<He>> wheels <<his>> chair closer, and places <<his>> stethoscope to your tummy.",
+    "translation": "",
+    "pos": 128
+  },
+  {
+    "passage": "Pregnancy Introduction",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "8_5_3_7|",
+    "original": "<<He>> listens for a moment, then wheels away and types something into <<his>> computer. \"You have a parasite problem,\" <<he>> says. \"They're using you as part of their reproductive cycle.\" <<He>> notices the look on your face, and smiles. \"Don't be concerned. They won't harm you. They'll remove themselves when they're ready.\"",
+    "translation": "",
+    "pos": 299
+  },
+  {
+    "passage": "Pregnancy Introduction",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "10_5_3_7|",
+    "original": "<<He>> spends several minutes explaining how to \"birth\" the creatures. What to do, and what not to do. It sounds simple. Drop to all fours, and squeeze.",
+    "translation": "",
+    "pos": 637
+  },
+  {
+    "passage": "Pregnancy Introduction",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "12_5_3_7|",
+    "original": "<<He>> turns back to <<his>> computer. \"Species like this are of scientific interest,\" <<he>> continues. \"If you're interested in making a bit of money, I'm able to pay you for them on behalf of a local company.\" <<He>> rises to <<his>> feet. \"Is there anything else?\"",
+    "translation": "",
+    "pos": 799
+  },
+  {
+    "passage": "Pregnancy Introduction",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "14_5_3_7|",
+    "original": "You shake your head. <<He>> holds open the door for you, and you leave the office. \"Be well,\" <<he>> says as you pass.",
+    "translation": "",
+    "pos": 1077
+  },
+  {
+    "passage": "Pregnancy Introduction",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "16_5_3_7|",
+    "original": "<<link [[Return to foyer|Hospital Foyer]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1205
+  },
+  {
+    "passage": "Pregnancy Discussion",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "24_5_3_7|",
+    "original": "<<npc Harper>><<person1>>You don't have to wait long. Doctor Harper emerges from <<his>> office and beckons you over. You enter <<his>> office and take a seat.",
+    "translation": "",
+    "pos": 159
+  },
+  {
+    "passage": "Pregnancy Discussion",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "27_5_3_7|",
+    "original": "\"How can I help you?\" <<he>> asks.",
+    "translation": "",
+    "pos": 331
+  },
+  {
+    "passage": "Pregnancy Discussion",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "30_5_3_7|",
+    "original": "You are in Doctor Harper's office. \"Is there anything else I can help you with?\" <<he>> asks.",
+    "translation": "",
+    "pos": 386
+  },
+  {
+    "passage": "Pregnancy Discussion",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "36_5_3_7|",
+    "original": "<<link [[Sell the children you are carrying (0:05)|Sell Children]]>><<pass 5>><<set $firstOption to false>><</link>>",
+    "translation": "",
+    "pos": 638
+  },
+  {
+    "passage": "Pregnancy Discussion",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "39_5_3_7|",
+    "original": "<<link [[Sell the parasites you are carrying (0:05)|Sell Children]]>><<pass 5>><<set $firstOption to false>><</link>>",
+    "translation": "",
+    "pos": 774
+  },
+  {
+    "passage": "Pregnancy Discussion",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "44_5_3_7|",
+    "original": "<<link [[Enquire about feeling something large in your stomach (0:10)|Pregnancy Futa Introduction]]>><<pass 10>><<set $firstOption to false>><</link>>",
+    "translation": "",
+    "pos": 966
+  },
+  {
+    "passage": "Pregnancy Discussion",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "48_5_3_7|",
+    "original": "<<link [[Enquire about parasite hermaphrodite removal (0:30)|Remove Futa Pregnancy]]>><<pass 30>><<set $futaCheck to true>><<set $firstOption to false>><</link>>",
+    "translation": "",
+    "pos": 1325
+  },
+  {
+    "passage": "Pregnancy Discussion",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "52_5_3_7|",
+    "original": "<<link [[Enquire about information on parasites (0:05)|Harper Parasite Book]]>><<pass 5>><<set $firstOption to false>><</link>>",
+    "translation": "",
+    "pos": 1594
+  },
+  {
+    "passage": "Pregnancy Discussion",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "56_5_3_7|",
+    "original": "<<link [[Return to foyer|Hospital Foyer]]>><<endevent>><<unset $firstOption>><</link>>",
+    "translation": "",
+    "pos": 1737
+  },
+  {
+    "passage": "Sell Children",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "61_5_3_7|",
+    "original": "Doctor Harper walks over to <<his>> office door, and locks it. <<He>> sits back down. \"What have you brought me today?\" <<he>> asks.",
+    "translation": "",
+    "pos": 61
+  },
+  {
+    "passage": "Sell Children",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "64_5_3_7|",
+    "original": "You pull out the small container <<he>> gave you. <<He>> looks inside. Seeming satisfied, <<he>> produces another, larger container from beneath <<his>> desk. <<He>> transfers the contents and hands the empty container to you. <<He>> opens a drawer, and counts out <<money `$container.portable.value * 100` \"hospitalParasitesSold\">><<printmoney `$container.portable.value * 100`>>. <<He>> hands it to you.",
+    "translation": "",
+    "pos": 277
+  },
+  {
+    "passage": "Sell Children",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "66_5_3_7|",
+    "original": "\"The community thanks you,\" <<he>> says.",
+    "translation": "",
+    "pos": 692
+  },
+  {
+    "passage": "Sell Children",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "83_5_3_7|",
+    "original": "You feel a sudden sense of dread and regret as you watch your pale child<<if _paleAmount gt 1>>ren<</if>> slip out of your reach. <<gobsession _paleAmount>>",
+    "translation": "",
+    "pos": 1309
+  },
+  {
+    "passage": "Sell Children",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "88_5_3_7|",
+    "original": "<<link [[Next|Pregnancy Discussion]]>><</link>>",
+    "translation": "",
+    "pos": 1567
+  },
+  {
+    "passage": "Pregnancy Futa Introduction",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "94_5_3_7|",
+    "original": "\"Strange,\" <<he>> says. \"N-not that there's anything to be alarmed about.\" <<He>> pulls <<his>> chair back to <<his>> computer and types something in.",
+    "translation": "",
+    "pos": 111
+  },
+  {
+    "passage": "Pregnancy Futa Introduction",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "96_5_3_7|",
+    "original": "You wait as <<he>> reads the screen, occasionally tapping on the keyboard. <<He>> pulls a large book from a drawer, blows off dust, and flips through the pages. At last, <<he>> puts the book away and turns to face you.",
+    "translation": "",
+    "pos": 271
+  },
+  {
+    "passage": "Pregnancy Futa Introduction",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "98_5_3_7|",
+    "original": "\"You have a parasite,\" <<he>> says. \"An unusual one. It has both sex organs, and is able to mate with itself. We'll need to perform a procedure here in order to remove it. Until then, you'll continue to birth its offspring.\"",
+    "translation": "",
+    "pos": 499
+  },
+  {
+    "passage": "Pregnancy Futa Introduction",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "100_5_3_7|",
+    "original": "<<link [[Next|Pregnancy Discussion]]>><</link>>",
+    "translation": "",
+    "pos": 733
+  },
+  {
+    "passage": "Pregnancy Clear",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "105_5_3_7|",
+    "original": "<<link [[Next|Pregnancy Discussion]]>><</link>>",
+    "translation": "",
+    "pos": 10
+  },
+  {
+    "passage": "Remove Futa Pregnancy",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "125_5_3_7|",
+    "original": "<<if _aPregnancy.fetus[_i] isnot undefined and _i >= maxParasites(\"anus\")>>",
+    "translation": "",
+    "pos": 571
+  },
+  {
+    "passage": "Remove Futa Pregnancy",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "147_5_3_7|",
+    "original": "<<if _vPregnancy.fetus[_i] isnot undefined and _i >= maxParasites(\"vagina\")>>",
+    "translation": "",
+    "pos": 1339
+  },
+  {
+    "passage": "Remove Futa Pregnancy",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "155_5_3_7|",
+    "original": "\"Please undress and lie on the table,\" <<he>> says while pulling on a latex glove. \"No need to be shy.\" <<He>> turns and rummages through a drawer.",
+    "translation": "",
+    "pos": 1568
+  },
+  {
+    "passage": "Remove Futa Pregnancy",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "158_5_3_7|",
+    "original": "You <<nervously>> remove your clothing while <<his>> back is turned. You lie down on the table, conscious of your <<lewdness>>. <<His>> face neutral, the doctor grasps your legs and pushes them against your shoulders, before tying them down with straps.",
+    "translation": "",
+    "pos": 1726
+  },
+  {
+    "passage": "Remove Futa Pregnancy",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "161_5_3_7|",
+    "original": "\"It will be easier if you're still,\" <<he>> affirms as <<he>> ties down your wrists. You can barely move.",
+    "translation": "",
+    "pos": 1990
+  },
+  {
+    "passage": "Remove Futa Pregnancy",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "165_5_3_7|",
+    "original": "<<He>> examines your $worn.under_lower.name, then produces a strange metal device from <<his>> coat. <<He>> taps the metal, and your anal shield falls loose. \"I'll return it when I'm done,\" <<he>> says.",
+    "translation": "",
+    "pos": 2150
+  },
+  {
+    "passage": "Remove Futa Pregnancy",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "169_5_3_7|",
+    "original": "<<He>> opens another drawer, and pulls out a smooth white rod with a round ball on one end. <<He>> pushes the thin end against your <<bottom>>. \"Just relax,<<if playerBellyVisible() and !_vaginaFuta>> this won't hurt the baby,<</if>>\" <<he>> says. It slides in without pain, as if lubricated. Harper twists the other side, and you feel it pulse within you.",
+    "translation": "",
+    "pos": 2372
+  },
+  {
+    "passage": "Remove Futa Pregnancy",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "173_5_3_7|",
+    "original": "Harper stares unblinking at your <<bottom>> as the pulsing increases in intensity. Just when you feel like you can't take any more, <<he>> eases it out. The <<if $pregnancyStats.namesParasitesChild is true>>baby <</if>>parasite is wrapped around the end<<if _analFutaOther or _vaginaFutaOther>> alongside a smaller one<</if>>. <<He>> puts it in an opaque container, and seals it shut.",
+    "translation": "",
+    "pos": 2777
+  },
+  {
+    "passage": "Remove Futa Pregnancy",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "175_5_3_7|",
+    "original": "<<He>> repeats the procedure on the other sets of parasites inside you and more are wrapped and sealed.",
+    "translation": "",
+    "pos": 3196
+  },
+  {
+    "passage": "Remove Futa Pregnancy",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "179_5_3_7|",
+    "original": "\"All done,\" <<he>> says as <<he>> unties the straps. <<He>> turns away as you dress.",
+    "translation": "",
+    "pos": 3318
+  },
+  {
+    "passage": "Remove Futa Pregnancy",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "181_5_3_7|",
+    "original": "<<link [[Next|Pregnancy Discussion]]>><<unset $futaCheck>><</link>>",
+    "translation": "",
+    "pos": 3412
+  },
+  {
+    "passage": "GiveBirth",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "197_5_3_7|",
+    "original": "Following the directions from Doctor Harper, you get into position and attempt to deliver <<if $pregnancyStats.namesParasitesChild is true>>your baby<<else>>the parasites<</if>>. <<if _stressMulti gt 0>><<gstress>><</if>><<set $stress += 250 * _stressMulti>>",
+    "translation": "",
+    "pos": 560
+  },
+  {
+    "passage": "GiveBirth",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "214_5_3_7|",
+    "original": "Despite your efforts, none of <<if $pregnancyStats.namesParasitesChild is true>>your children<<else>>the parasites<</if>> are ready to leave you.",
+    "translation": "",
+    "pos": 1476
+  },
+  {
+    "passage": "GiveBirth",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "217_5_3_7|",
+    "original": "<<link [[Next|Containers]]>><<unset $pregResult>><<unset $giveBirthLocation>><</link>>",
+    "translation": "",
+    "pos": 1634
+  },
+  {
+    "passage": "GiveBirth",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "219_5_3_7|",
+    "original": "Your body shudders, and to the floor falls <<if $pregnancyStats.namesParasitesChild is true>><<number $pregResult.length>> <<print $pregResult.length gt 1 ? 'babies' : 'baby'>><<else>><<number $pregResult.length>> <<print $pregResult.length gt 1 ? 'parasites' : 'parasite'>><</if>>.",
+    "translation": "",
+    "pos": 1731
+  },
+  {
+    "passage": "GiveBirth",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "225_5_3_7|",
+    "original": "<li><label><<print '<<checkbox \"$checkboxResult[' + clone($pregResult[_i]) + ']\" false true checked>>'>> - <<print _result.creature>> - <<creatureActivity _result.stats.speed>></label></li>",
+    "translation": "",
+    "pos": 2164
+  },
+  {
+    "passage": "GiveBirth",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "250_5_3_7|",
+    "original": "<<case \"Tentacle\">>",
+    "translation": "",
+    "pos": 3635
+  },
+  {
+    "passage": "GiveBirth",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "251_5_3_7|",
+    "original": "You watch the tentacle in fascination. It writhes around blindly and coils around itself, almost like a snake. It's so energetic, just looking at it makes you feel less tired.",
+    "translation": "",
+    "pos": 3659
+  },
+  {
+    "passage": "GiveBirth",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "252_5_3_7|",
+    "original": "<<case \"Slime\">>",
+    "translation": "",
+    "pos": 3838
+  },
+  {
+    "passage": "GiveBirth",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "253_5_3_7|",
+    "original": "The slime doesn't move for a while. You poke at it, a little worried, and it jiggles. It has an indescribable consistency. It looks almost without flaw, and you feel <<if $pregnancyStats.namesParasitesChild is true>>proud to have birthed<<else>>almost proud to have hosted<</if>> such a creature.",
+    "translation": "",
+    "pos": 3859
+  },
+  {
+    "passage": "GiveBirth",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "254_5_3_7|",
+    "original": "<<case \"Worm\">>",
+    "translation": "",
+    "pos": 4159
+  },
+  {
+    "passage": "GiveBirth",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "255_5_3_7|",
+    "original": "Almost immediately, the worm tries to find somewhere to dig. It has little success, and squirms in agitation until you place it in the <<print _container.name.toLowerCase()>>. You feel odd, having <<if $pregnancyStats.namesParasitesChild is true>>birthed<<else>>hosted<</if>> such a creature.",
+    "translation": "",
+    "pos": 4179
+  },
+  {
+    "passage": "GiveBirth",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "256_5_3_7|",
+    "original": "<<case \"Lurker\">>",
+    "translation": "",
+    "pos": 4475
+  },
+  {
+    "passage": "GiveBirth",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "257_5_3_7|",
+    "original": "The lurker moves mainly by crawling, but sometimes hops surprising distances. You quickly place it in the <<print _container.name.toLowerCase()>> before you can lose it.",
+    "translation": "",
+    "pos": 4497
+  },
+  {
+    "passage": "GiveBirth",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "258_5_3_7|",
+    "original": "<<case \"Vine\">>",
+    "translation": "",
+    "pos": 4670
+  },
+  {
+    "passage": "GiveBirth",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "259_5_3_7|",
+    "original": "You worry that the vine won't be able to survive without being planted in a better environment, but it seems to be fine in the <<print _container.name.toLowerCase()>>, writhing around. You suspect it's not strictly plant life.",
+    "translation": "",
+    "pos": 4690
+  },
+  {
+    "passage": "GiveBirth",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "260_5_3_7|",
+    "original": "<<case \"Metal\">>",
+    "translation": "",
+    "pos": 4920
+  },
+  {
+    "passage": "GiveBirth",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "261_5_3_7|",
+    "original": "Upon closer inspection, the metal <<print _newlyBirthed.Metal>> isn't truly metal. It has a metallic colour and pattern, but it bends and writhes in ways that steel wouldn't be able to. You hope it doesn't need anything in particular to eat.",
+    "translation": "",
+    "pos": 4941
+  },
+  {
+    "passage": "GiveBirth",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "262_5_3_7|",
+    "original": "<<case \"Pale\">>",
+    "translation": "",
+    "pos": 5186
+  },
+  {
+    "passage": "GiveBirth",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "263_5_3_7|",
+    "original": "Your hands seem to move on their own, and you find yourself holding the pale <<print _newlyBirthed.Pale>>. It's so pale that it's almost translucent. You feel a twinge of dread, but it's quickly replaced by an odd contentment.",
+    "translation": "",
+    "pos": 5206
+  },
+  {
+    "passage": "GiveBirth",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "264_5_3_7|",
+    "original": "<span class=\"blue\">You should be careful deciding whether to keep it.</span>",
+    "translation": "",
+    "pos": 5437
+  },
+  {
+    "passage": "GiveBirth",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "272_5_3_7|",
+    "original": "You write about <<if $pregnancyStats.namesParasitesChild is true>>your new children<<else>>the new parasites<</if>> in your notebook.",
+    "translation": "",
+    "pos": 5831
+  },
+  {
+    "passage": "GiveBirth",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "277_5_3_7|",
+    "original": "You find yourself wondering at the sheer number of different types of creatures you've birthed, and wonder if there's any way to know more. <span class=\"gold\">Doctor Harper might be able to help you.</span>",
+    "translation": "",
+    "pos": 6165
+  },
+  {
+    "passage": "GiveBirth",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "280_5_3_7|",
+    "original": "Please select any required to replace, it will replace from top to bottom:",
+    "translation": "",
+    "pos": 6454
+  },
+  {
+    "passage": "GiveBirth",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "289_5_3_7|",
+    "original": "<li><label><<print '<<checkbox \"$checkboxReplace[' + clone(_i) + ']\" false true `($checkboxReplace[' + clone(_i) + '] ? \"checked\" : \"\")`>>'>> - <<print _container.creatures[_i].creature>> - <<creatureActivity _container.creatures[_i].stats.speed>></label></li>",
+    "translation": "",
+    "pos": 6768
+  },
+  {
+    "passage": "Widgets PregEventsResult",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "317_5_3_7|",
+    "original": "Debug - Keep selected babies result (ID - Checkbox - Result)",
+    "translation": "",
+    "pos": 705
+  },
+  {
+    "passage": "Widgets PregEventsResult",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "321_5_3_7|",
+    "original": "<<print $pregResult[_i]>> - <<print $checkboxResult[$pregResult[_i]]>> - Keep",
+    "translation": "",
+    "pos": 877
+  },
+  {
+    "passage": "Widgets PregEventsResult",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "324_5_3_7|",
+    "original": "<<print $pregResult[_i]>> - <<print $checkboxResult[$pregResult[_i]]>> - Sell",
+    "translation": "",
+    "pos": 1024
+  },
+  {
+    "passage": "Widgets PregEventsResult",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "334_5_3_7|",
+    "original": "<<link [[Keep selected babies|PregEventsResult2]]>>",
+    "translation": "",
+    "pos": 1300
+  },
+  {
+    "passage": "Widgets PregEventsResult",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "338_5_3_7|",
+    "original": "<<link [[Keep selected parasites|PregEventsResult2]]>>",
+    "translation": "",
+    "pos": 1425
+  },
+  {
+    "passage": "Widgets PregEventsResult",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "344_5_3_7|",
+    "original": "Not enough storage for selected amount. Please replace <<number $parasiteSelectionCount-_availableStorage>> <<if $pregnancyStats.namesParasitesChild is true>><<print $parasiteSelectionCount - _availableStorage gt 1 ? 'babies' : 'baby'>><<else>><<print $parasiteSelectionCount - _availableStorage gt 1 ? 'parasites' : 'parasite'>><</if>>.",
+    "translation": "",
+    "pos": 1601
+  },
+  {
+    "passage": "Widgets PregEventsResult",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "348_5_3_7|",
+    "original": "<<link [[Replace selected babies|PregEventsResult2]]>>",
+    "translation": "",
+    "pos": 2092
+  },
+  {
+    "passage": "Widgets PregEventsResult",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "352_5_3_7|",
+    "original": "<<link [[Replace selected parasites|PregEventsResult2]]>>",
+    "translation": "",
+    "pos": 2223
+  },
+  {
+    "passage": "Widgets PregEventsResult",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "361_5_3_7|",
+    "original": "<<link [[Keep all babies|PregEventsResult2]]>>",
+    "translation": "",
+    "pos": 2483
+  },
+  {
+    "passage": "Widgets PregEventsResult",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "365_5_3_7|",
+    "original": "<<link [[Keep all parasites|PregEventsResult2]]>>",
+    "translation": "",
+    "pos": 2594
+  },
+  {
+    "passage": "Widgets PregEventsResult",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "373_5_3_7|",
+    "original": "<<link [[Sell all babies|PregEventsResult2]]>>",
+    "translation": "",
+    "pos": 2778
+  },
+  {
+    "passage": "Widgets PregEventsResult",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "377_5_3_7|",
+    "original": "<<link [[Sell all parasites|PregEventsResult2]]>>",
+    "translation": "",
+    "pos": 2885
+  },
+  {
+    "passage": "PregEventsResult2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "394_5_3_7|",
+    "original": "<<case \"ReplaceSelected\">>",
+    "translation": "",
+    "pos": 173
+  },
+  {
+    "passage": "PregEventsResult2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "408_5_3_7|",
+    "original": "You decide to keep <<number $parasiteSelectionCount>> of <<if $pregnancyStats.namesParasitesChild is true>>your children<<else>>the parasites<</if>>, and place <<if $parasiteSelectionCount isnot 1>>them<<else>>it<</if>> in your <<print $container[$phase].name.toLowerCase()>> in place of <<number _parasiteReplaceCount>> <<if _parasiteReplaceCount gt 1>>others<<else>>other<</if>>, while preparing the rest for Doctor Harper.",
+    "translation": "",
+    "pos": 795
+  },
+  {
+    "passage": "PregEventsResult2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "410_5_3_7|",
+    "original": "<<case \"KeepSelected\">>",
+    "translation": "",
+    "pos": 1231
+  },
+  {
+    "passage": "PregEventsResult2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "418_5_3_7|",
+    "original": "You decide to keep <<number $parasiteSelectionCount>> of <<if $pregnancyStats.namesParasitesChild is true>>your children<<else>>the parasites<</if>>, and place <<if $parasiteSelectionCount isnot 1>>them<<else>>it<</if>> in your <<print $container[$phase].name.toLowerCase()>> while preparing the rest for Doctor Harper.",
+    "translation": "",
+    "pos": 1582
+  },
+  {
+    "passage": "PregEventsResult2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "420_5_3_7|",
+    "original": "<<case \"keepAll\">>",
+    "translation": "",
+    "pos": 1912
+  },
+  {
+    "passage": "PregEventsResult2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "424_5_3_7|",
+    "original": "You decide to keep all of <<if $pregnancyStats.namesParasitesChild is true>>your children<<else>>the parasites<</if>>, and place them in your <<print $container[$phase].name.toLowerCase()>>.",
+    "translation": "",
+    "pos": 2066
+  },
+  {
+    "passage": "PregEventsResult2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "426_5_3_7|",
+    "original": "<<case \"sellAll\">>",
+    "translation": "",
+    "pos": 2267
+  },
+  {
+    "passage": "PregEventsResult2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "430_5_3_7|",
+    "original": "You decide to sell all <<if $pregnancyStats.namesParasitesChild is true>>your children<<else>>the parasites<</if>>, and prepare to take them to Doctor Harper.",
+    "translation": "",
+    "pos": 2420
+  },
+  {
+    "passage": "PregEventsResult2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "436_5_3_7|",
+    "original": "<<link [[Next|Containers]]>>",
+    "translation": "",
+    "pos": 2634
+  },
+  {
+    "passage": "Harper Parasite Book",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "446_5_3_7|",
+    "original": "Harper nods approvingly. \"It's good that you want to know more.\" <<He>> brings out a rather thick book and shows it to you. \"This is a popular reference guide among scientists. It has a lot of information on this subject, but it's property of the hospital. I'm not authorised to lend it out.\"",
+    "translation": "",
+    "pos": 54
+  },
+  {
+    "passage": "Harper Parasite Book",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "449_5_3_7|",
+    "original": "<<He>> thinks for a few seconds. \"<span class=\"gold\">The pet shop on High Street may have something.</span> If nothing else, you could pick up a notebook and fill out info you gather yourself.\"",
+    "translation": "",
+    "pos": 357
+  },
+  {
+    "passage": "Harper Parasite Book",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "452_5_3_7|",
+    "original": "<<link [[Next|Pregnancy Discussion]]>><</link>>",
+    "translation": "",
+    "pos": 561
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Passout",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "458_5_3_7|",
+    "original": "You collapse on the spot. The last thing you hear is a rush of footsteps.",
+    "translation": "",
+    "pos": 34
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Passout",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "462_5_3_7|",
+    "original": "<<case \"moor\" \"forest\">><<set _time to 60>>",
+    "translation": "",
+    "pos": 140
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Passout",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "463_5_3_7|",
+    "original": "<<case \"town\">><<set _time to 15>>",
+    "translation": "",
+    "pos": 185
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Passout",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "468_5_3_7|",
+    "original": "<<link [[\"Next (\"+_hours+\":\"+(_minutes lt 10 ? \"0\": \"\")+_minutes+\")\"| Pregnancy Birth Hospital]]>><<pass _time>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 336
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Rescue",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "474_5_3_7|",
+    "original": "You feel yourself being lifted. You hear a voice, but the words don't make sense.",
+    "translation": "",
+    "pos": 34
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Rescue",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "478_5_3_7|",
+    "original": "<<case \"moor\" \"forest\">><<set _time to 60>>",
+    "translation": "",
+    "pos": 148
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Rescue",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "479_5_3_7|",
+    "original": "<<case \"bog\">><<set _time to 90>>",
+    "translation": "",
+    "pos": 193
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Rescue",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "480_5_3_7|",
+    "original": "<<case \"town\">><<set _time to 15>>",
+    "translation": "",
+    "pos": 228
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Rescue",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "485_5_3_7|",
+    "original": "<<link [[\"Next (\"+_hours+\":\"+(_minutes lt 10 ? \"0\": \"\")+_minutes+\")\"| Pregnancy Birth Hospital]]>><<pass _time>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 379
+  },
+  {
+    "passage": "Pregnancy Birth Hospital",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "495_5_3_7|",
+    "original": "You awaken in a hospital bed. Several blurry figures move around. One leans closer, <<his>> features coalescing into those of a young <<personsimple>>. \"I'm Doctor Harper,\" <<he>> says, brushing <<his>> blond fringe away from <<his>> eyes. \"Please don't be alarmed, but your waters have broken. You're in the hospital.\" <<He>>'s young for a doctor, can't be older than 25.",
+    "translation": "",
+    "pos": 270
+  },
+  {
+    "passage": "Pregnancy Birth Hospital",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "498_5_3_7|",
+    "original": "The receptionist nods. \"Please take a seat, the doctor will be right with you.\"",
+    "translation": "",
+    "pos": 666
+  },
+  {
+    "passage": "Pregnancy Birth Hospital",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "500_5_3_7|",
+    "original": "You don't need to wait long. A young <<personsimple>> dressed like a doctor arrives. \"I'm Doctor Harper,\" <<he>> says, brushing <<his>> blond fringe from away from <<his>> eyes. \"We've prepared a bed for you. This way.\"",
+    "translation": "",
+    "pos": 759
+  },
+  {
+    "passage": "Pregnancy Birth Hospital",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "502_5_3_7|",
+    "original": "<<He>> leads you through the hospital, to a room in the labour ward. A midwife adjusts a machine by the bed.",
+    "translation": "",
+    "pos": 992
+  },
+  {
+    "passage": "Pregnancy Birth Hospital",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "507_5_3_7|",
+    "original": "You awaken in a hospital bed. Several blurry figures move around. One leans closer, <<his>> features coalescing into those of Doctor Harper. \"Please don't be alarmed, but your waters have broken. You're in the hospital.\"",
+    "translation": "",
+    "pos": 1152
+  },
+  {
+    "passage": "Pregnancy Birth Hospital",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "510_5_3_7|",
+    "original": "The receptionist nods. \"Please take a seat, the doctor will be right with you.\"",
+    "translation": "",
+    "pos": 1396
+  },
+  {
+    "passage": "Pregnancy Birth Hospital",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "512_5_3_7|",
+    "original": "Doctor Harper soon arrives. \"We've prepared a bed for you. This way.\"",
+    "translation": "",
+    "pos": 1489
+  },
+  {
+    "passage": "Pregnancy Birth Hospital",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "514_5_3_7|",
+    "original": "<<He>> leads you through the hospital, to a room in the labour ward. A midwife adjusts a machine by the bed.",
+    "translation": "",
+    "pos": 1572
+  },
+  {
+    "passage": "Pregnancy Birth Hospital",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "519_5_3_7|",
+    "original": "\"Please undress,\" the doctor says.",
+    "translation": "",
+    "pos": 1750
+  },
+  {
+    "passage": "Pregnancy Birth Hospital",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "521_5_3_7|",
+    "original": "\"Please take a deep breath,\" the doctor says.",
+    "translation": "",
+    "pos": 1795
+  },
+  {
+    "passage": "Pregnancy Birth Hospital",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "524_5_3_7|",
+    "original": "<<He>> notices your <<print $worn.genitals.name>>, and opens a chest-high cupboard. <<He>> retrieves a tool shaped like a pair of prongs, but bulkier. \"We need to remove that device. <<if $phase isnot 1>>Please lie down.<</if>> This won't hurt.\"",
+    "translation": "",
+    "pos": 1882
+  },
+  {
+    "passage": "Pregnancy Birth Hospital",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "526_5_3_7|",
+    "original": "<<if $phase isnot 1>>You lie down. The ceiling is plain white. There's a fan right above you. <</if>><<He>> grasps your <<print $worn.genitals.name>> with the prongs, and presses a button on the handle. You hear a whirring noise within the tool, <span class=\"pink\">and they snap the metal.</span>",
+    "translation": "",
+    "pos": 2139
+  },
+  {
+    "passage": "Pregnancy Birth Hospital",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "529_5_3_7|",
+    "original": "\"Then lie down.\" You do so. The ceiling is plain white. There's a fan right above you.",
+    "translation": "",
+    "pos": 2507
+  },
+  {
+    "passage": "Pregnancy Birth Hospital",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "534_5_3_7|",
+    "original": "<<link [[Next|Pregnancy Birth Hospital 2]]>><</link>>",
+    "translation": "",
+    "pos": 2672
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "540_5_3_7|",
+    "original": "The midwife places a mask over your face. You feel your consciousness fade. Several other figures appear around you, their forms ablur.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "575_5_3_7|",
+    "original": "<<case \"human\">>",
+    "translation": "",
+    "pos": 1308
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "577_5_3_7|",
+    "original": "Harper's voice floats through the fog. \"Normal human<<if !$player.vaginaExist>>, abnormal delivery<</if>>, but keep the others on the line, just in case...\"",
+    "translation": "",
+    "pos": 1370
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "580_5_3_7|",
+    "original": "The pain grows as time seems to rapidly speed up and slow down. You hear the words \"breathe\" and \"push\" many times, and you do your best to comply.",
+    "translation": "",
+    "pos": 1541
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "584_5_3_7|",
+    "original": "Everything slowly fades away once again. You stand in a black abyss. Your whole body feels fuzzy, and the pain is gone. You stand there, alone in the dark. In the distance, a bright white light hovers. It must be several kilometres away. You begin walking towards it, when you suddenly realise that you're stepping in shallow water. You step forward again to the sound of sloshing. Another step. Another. You need to get to the light. You aren't sure why, but you know you must. Something's waiting for you there, you can feel it.",
+    "translation": "",
+    "pos": 1733
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "587_5_3_7|",
+    "original": "You start to run. As you get closer, the darkness around you dissipates until only the light surrounds you.\tYou continue running until you come to a wooden door with a golden handle. You grasp it and open it slowly. The light drowns you.",
+    "translation": "",
+    "pos": 2280
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "591_5_3_7|",
+    "original": "<<link [[\"Next (\"+_hours+\":\"+(_minutes lt 10 ? \"0\": \"\")+_minutes+\")\"| Pregnancy Birth Hospital 3]]>><<endevent>><<pass _timeCalc>><<playerPrebirth>><</link>>",
+    "translation": "",
+    "pos": 2543
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "592_5_3_7|",
+    "original": "<<case \"wolf\">>",
+    "translation": "",
+    "pos": 2702
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "593_5_3_7|",
+    "original": "Harper's voice floats through the fog. \"Not human. This will be an abnormal delivery. Follow my instructions to the letter...\"",
+    "translation": "",
+    "pos": 2720
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "595_5_3_7|",
+    "original": "<<link [[\"Next (\"+_hours+\":\"+(_minutes lt 10 ? \"0\": \"\")+_minutes+\")\"| Pregnancy Birth Hospital Wolf]]>><<endevent>><<pass _timeCalc>><</link>>",
+    "translation": "",
+    "pos": 2860
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 3",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "604_5_3_7|",
+    "original": "<<set _baby to $litter_size is 1 ? \"baby\" : \"babies\">>",
+    "translation": "",
+    "pos": 161
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 3",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "607_5_3_7|",
+    "original": "You awaken in another room. Your eyes open slowly. You're in a hospital bed. A smiling midwife stands beside you, holding <<= $litter_size is 3 ? \"a trio of\" : $litter_size is 2 ? \"two\" : \"a\">> bundled _baby in <<his>> arms.",
+    "translation": "",
+    "pos": 245
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 3",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "610_5_3_7|",
+    "original": "\"Looks like mummy's awake,\" <<he>> says, passing you the _baby.",
+    "translation": "",
+    "pos": 482
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 3",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "612_5_3_7|",
+    "original": "<<case 3>> As you cradle one in each arm, the midwife places the third directly on your chest.",
+    "translation": "",
+    "pos": 573
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 3",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "613_5_3_7|",
+    "original": "<<case 2>> You cradle one in each arm.",
+    "translation": "",
+    "pos": 670
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 3",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "614_5_3_7|",
+    "original": "<<default>> You cradle your baby in your arms.",
+    "translation": "",
+    "pos": 711
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 3",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "616_5_3_7|",
+    "original": "You feel a rush of pure glee and maternal bliss. Your parental instinct kicks in, washing away your worries and trauma in a flood of joy. The precious gift in front of you is now your whole world, and at last, something feels real to you again.",
+    "translation": "",
+    "pos": 772
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 3",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "617_5_3_7|",
+    "original": "Their eyes are shut, <<= _baby is \"babies\" ? \"chests\" : \"chest\">> rising and falling with gentle breaths. <<trauma -100>><<llltrauma>>",
+    "translation": "",
+    "pos": 1018
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 3",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "619_5_3_7|",
+    "original": "You awaken in another room. A smiling midwife stands beside your bed, holding <<= $litter_size is 3 ? \"a trio of\" : $litter_size is 2 ? \"two\" : \"a\">> bundled _baby in <<his>> arms.",
+    "translation": "",
+    "pos": 1163
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 3",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "622_5_3_7|",
+    "original": "\"Looks like mummy's awake,\" <<he>> says, passing you the _baby.",
+    "translation": "",
+    "pos": 1356
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 3",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "624_5_3_7|",
+    "original": "<<case 3>> As you cradle one in each arm, the midwife places the third directly on your chest.",
+    "translation": "",
+    "pos": 1447
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 3",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "625_5_3_7|",
+    "original": "<<case 2>> You cradle one in each arm.",
+    "translation": "",
+    "pos": 1544
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 3",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "626_5_3_7|",
+    "original": "<<default>> You cradle your baby in your arms.",
+    "translation": "",
+    "pos": 1585
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 3",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "628_5_3_7|",
+    "original": "Their eyes are shut, <<= _baby is \"babies\" ? \"chests\" : \"chest\">> rising and falling with gentle breaths.",
+    "translation": "",
+    "pos": 1646
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 3",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "632_5_3_7|",
+    "original": "\"We've run all the tests,\" the midwife says. \"There's not a single health problem. Have you thought of <<= _baby is \"babies\" ? \"their names\" : \"a name\">>?\"",
+    "translation": "",
+    "pos": 1770
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 4",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "647_5_3_7|",
+    "original": "You cradle your baby for a while longer, enjoying <<childhis>> tiny breaths and movements. <<childHe>> spends most of the time sleeping, but opens <<childhis>> eyes occasionally, and gazes into yours.",
+    "translation": "",
+    "pos": 213
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 4",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "649_5_3_7|",
+    "original": "The midwife returns.",
+    "translation": "",
+    "pos": 425
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 4",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "652_5_3_7|",
+    "original": "<<He>> teaches you how to change <<childname>>'s nappy, and how to bathe <<childhim>>.",
+    "translation": "",
+    "pos": 470
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 4",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "654_5_3_7|",
+    "original": "<<He>> assists you with changing <<childname>>'s nappy, and bathing <<childhim>>.",
+    "translation": "",
+    "pos": 569
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 4",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "656_5_3_7|",
+    "original": "\"Let me know when you're feeling sleepy,\" <<he>> says. \"You need your rest as well, and we can take care of your baby in the meantime.\"",
+    "translation": "",
+    "pos": 661
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 4",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "658_5_3_7|",
+    "original": "You want nothing more than to hold <<childname>>, but you find yourself dozing all the same.",
+    "translation": "",
+    "pos": 808
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 4",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "661_5_3_7|",
+    "original": "You cradle your babies for a while longer, enjoying their tiny breaths and movements. They spend most of the time sleeping, but open their eyes occasionally, and gaze into yours.",
+    "translation": "",
+    "pos": 941
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 4",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "663_5_3_7|",
+    "original": "The midwife returns.",
+    "translation": "",
+    "pos": 1131
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 4",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "666_5_3_7|",
+    "original": "<<He>> teaches you how to change their nappies and how to bathe them.",
+    "translation": "",
+    "pos": 1176
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 4",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "668_5_3_7|",
+    "original": "<<He>> assists you with changing their nappies, and with bathing them.",
+    "translation": "",
+    "pos": 1258
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 4",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "670_5_3_7|",
+    "original": "\"Let me know when you're feeling sleepy,\" <<he>> says. \"You need your rest as well, and we can take care of your babies in the meantime.\"",
+    "translation": "",
+    "pos": 1339
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 4",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "672_5_3_7|",
+    "original": "You want nothing more than to hold the twins, but you find yourself dozing all the same.",
+    "translation": "",
+    "pos": 1488
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 4",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "675_5_3_7|",
+    "original": "You cradle your babies for a while longer, enjoying their tiny breaths and movements. They spend most of the time sleeping, but open their eyes occasionally, and gaze into yours.",
+    "translation": "",
+    "pos": 1617
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 4",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "677_5_3_7|",
+    "original": "The midwife returns.",
+    "translation": "",
+    "pos": 1807
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 4",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "680_5_3_7|",
+    "original": "<<He>> teaches you how to change their nappies, and how to bathe them.",
+    "translation": "",
+    "pos": 1852
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 4",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "682_5_3_7|",
+    "original": "<<He>> assists you with changing their nappies, and with bathing them.",
+    "translation": "",
+    "pos": 1935
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 4",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "684_5_3_7|",
+    "original": "\"Let me know when you're feeling sleepy,\" <<he>> says. \"You need your rest as well, and we can take care of your babies in the meantime.\"",
+    "translation": "",
+    "pos": 2016
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 4",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "686_5_3_7|",
+    "original": "You want nothing more than to hold the triplets, but you find yourself dozing all the same.",
+    "translation": "",
+    "pos": 2165
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 4",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "690_5_3_7|",
+    "original": "<<link [[Next|Pregnancy Birth Hospital 5]]>><<storeon \"hospital_birth\">><<pass 24 hour>><<stress -40>><</link>>",
+    "translation": "",
+    "pos": 2276
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 5",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "697_5_3_7|",
+    "original": "<<if $litter_size gte 2>><<childrenNames $bornChildrenIds>> lie<<else>><<childname>> lies<</if>> in a cradle while the midwife helps you stand.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 5",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "700_5_3_7|",
+    "original": "You feel your insides drop as you stand, but <<he>> assures you that's normal.",
+    "translation": "",
+    "pos": 216
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 5",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "703_5_3_7|",
+    "original": "Despite the pain, you feel a lot more comfortable walking than you did before the birth. You'd forgotten how easy it is to move without people inside you.",
+    "translation": "",
+    "pos": 307
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 5",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "706_5_3_7|",
+    "original": "The midwife helps you to dress. \"You should be good to go,\" <<he>> says.",
+    "translation": "",
+    "pos": 474
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 5",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "708_5_3_7|",
+    "original": "You feel your insides drop as you stand. You remember this feeling from your last birth, and know it's normal.",
+    "translation": "",
+    "pos": 603
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 5",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "711_5_3_7|",
+    "original": "Despite the pain, you feel a lot more comfortable walking than you did before the birth. You'd forgotten how easy it is to move without people inside you.",
+    "translation": "",
+    "pos": 726
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 5",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "714_5_3_7|",
+    "original": "The midwife helps you to dress. \"You should be good to go,\" <<he>> says.",
+    "translation": "",
+    "pos": 893
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 5",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "716_5_3_7|",
+    "original": "You feel your insides drop as you stand. You're still not used to the feeling.",
+    "translation": "",
+    "pos": 1022
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 5",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "719_5_3_7|",
+    "original": "You get walking again quite easily. It's a little awkward, but the transition isn't as bad as it used to be. It's still easier to move around when there isn't another human inside you.",
+    "translation": "",
+    "pos": 1113
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 5",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "722_5_3_7|",
+    "original": "The midwife still insists on helping you dress. \"You should be good to go,\" <<he>> says.",
+    "translation": "",
+    "pos": 1310
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 5",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "724_5_3_7|",
+    "original": "You stand up without a hitch. There's hardly any difference in feeling anymore, although you do feel much more nimble.",
+    "translation": "",
+    "pos": 1456
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 5",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "727_5_3_7|",
+    "original": "<<He>> looks impressed at your mobility, only keeping an arm around you for stability. \"I don't see many people get back up that quickly. You must be hardy!\"",
+    "translation": "",
+    "pos": 1587
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 5",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "730_5_3_7|",
+    "original": "The midwife still insists on helping you dress. \"You should be good to go,\" <<he>> says.",
+    "translation": "",
+    "pos": 1757
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 5",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "732_5_3_7|",
+    "original": "You stand up without assistance, feeling empty inside. You already miss the feeling of being pregnant.",
+    "translation": "",
+    "pos": 1894
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 5",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "735_5_3_7|",
+    "original": "<<He>> stares at you, mouth agape, as you walk without any assistance. You throw your clothes back on quickly.",
+    "translation": "",
+    "pos": 2009
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 5",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "738_5_3_7|",
+    "original": "\"Y-you should be good to go,\" <<he>> says.",
+    "translation": "",
+    "pos": 2132
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 5",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "740_5_3_7|",
+    "original": "\"Someone's waiting for you.",
+    "translation": "",
+    "pos": 2183
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 5",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "745_5_3_7|",
+    "original": "Your <<if C.npc.Alex.pronoun is \"f\">>girlfriend<<else>>boyfriend<</if>> I think.\"",
+    "translation": "",
+    "pos": 2371
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 5",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "748_5_3_7|",
+    "original": "<<link [[Next|Pregnancy Birth Hospital Alex]]>><</link>>",
+    "translation": "",
+    "pos": 2467
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 5",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "752_5_3_7|",
+    "original": "Your <<if C.npc.Bailey.pronoun is \"f\">>mum<<else>>dad<</if>> I think.\"",
+    "translation": "",
+    "pos": 2590
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 5",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "755_5_3_7|",
+    "original": "<<link [[Next|Pregnancy Birth Hospital 6]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 2675
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 5",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "760_5_3_7|",
+    "original": "Your <<if C.npc.Bailey.pronoun is \"f\">>mum<<else>>dad<</if>> I think.\"",
+    "translation": "",
+    "pos": 2762
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 5",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "763_5_3_7|",
+    "original": "<<link [[Next|Pregnancy Birth Hospital 6]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 2845
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 6",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "771_5_3_7|",
+    "original": "Bailey waits for you in the hospital foyer. <<He>> smiles when <<he>> sees you. It almost looks real. \"We've a place prepared,\" <<he>> says.",
+    "translation": "",
+    "pos": 122
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 6",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "775_5_3_7|",
+    "original": "\"For both of them.\"",
+    "translation": "",
+    "pos": 319
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 6",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "777_5_3_7|",
+    "original": "\"For all three of them.\"",
+    "translation": "",
+    "pos": 349
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 6",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "779_5_3_7|",
+    "original": "<<He>> leads you outside, where <<his>> car waits. <<He>> holds open the passenger door for you, before climbing in the other side.",
+    "translation": "",
+    "pos": 382
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 6",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "781_5_3_7|",
+    "original": "The engine comes to life.",
+    "translation": "",
+    "pos": 523
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 6",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "785_5_3_7|",
+    "original": "\"You're responsible for your offspring's care,\" <<he>> says. \"If I have to intervene, it'll cost you an extra <span class=\"red\">£100</span> a week.<<if $litter_size gte 2>> Each.<</if>>\"",
+    "translation": "",
+    "pos": 718
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 6",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "787_5_3_7|",
+    "original": "\"They don't leave the nursery,\" <<he>> adds as <<he>> drives from the hospital car park. \"Ever.\"",
+    "translation": "",
+    "pos": 916
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 6",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "789_5_3_7|",
+    "original": "\"Remember that you're responsible for your offspring's care,\" <<he>> says. \"If I have to intervene, it'll cost you an extra <span class=\"red\">£100</span> a week.<<if $litter_size gte 2>> Each.<</if>>\"",
+    "translation": "",
+    "pos": 1052
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 6",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "791_5_3_7|",
+    "original": "\"You're an irresponsible slut,\" <<he>> says. \"Remember that if I have to intervene in the care of your offspring, it'll cost you an extra <span class=\"red\">£100</span> a week.<<if $litter_size gte 2>> Each.<</if>>\"",
+    "translation": "",
+    "pos": 1263
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 6",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "794_5_3_7|",
+    "original": "You see <<him>> sneer, but only for a brief instant. \"I'd rather not make someone else take care of your twerps, but if you keep being a difficult little shit, don't think you'll be allowed to see them again.\"",
+    "translation": "",
+    "pos": 1521
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 6",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "799_5_3_7|",
+    "original": "<<link [[Tell Bailey your baby's name|Pregnancy Birth Hospital 7]]>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 1775
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 6",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "801_5_3_7|",
+    "original": "<<link [[Just hold the baby tight|Pregnancy Birth Hospital 7]]>><</link>>",
+    "translation": "",
+    "pos": 1879
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 6",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "804_5_3_7|",
+    "original": "<<link [[Tell Bailey your babies' names|Pregnancy Birth Hospital 7]]>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 1969
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 6",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "806_5_3_7|",
+    "original": "<<link [[Just hold your babies tight|Pregnancy Birth Hospital 7]]>><</link>>",
+    "translation": "",
+    "pos": 2075
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 7",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "813_5_3_7|",
+    "original": "Bailey drives past the temple, onto Danube Street.",
+    "translation": "",
+    "pos": 40
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 7",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "816_5_3_7|",
+    "original": "\"This is <<childname>>,\" you begin, holding <<childhim>> closer to Bailey's arm.",
+    "translation": "",
+    "pos": 138
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 7",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "818_5_3_7|",
+    "original": "\"These are <<childrenNames $bornChildrenIds>>,\" you begin, holding them closer to Bailey's arms one by one.",
+    "translation": "",
+    "pos": 231
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 7",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "820_5_3_7|",
+    "original": "You tell Bailey everything that happened from when you arrived at the hospital. <<He>> doesn't interrupt, but doesn't respond either.",
+    "translation": "",
+    "pos": 349
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 7",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "823_5_3_7|",
+    "original": "You hold your babies to your chest. <<childname>> yawns.",
+    "translation": "",
+    "pos": 521
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 7",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "825_5_3_7|",
+    "original": "You hold your baby to your chest. <<childHe>> yawns.",
+    "translation": "",
+    "pos": 590
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 7",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "831_5_3_7|",
+    "original": "You arrive at Domus Street. Bailey holds open the car door for you.",
+    "translation": "",
+    "pos": 681
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 7",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "834_5_3_7|",
+    "original": "\"I'll escort you inside,\" <<he>> says. <<His>> eyes dart to <<if $litter_size gte 2>>the babies in your arms<<else>><<childname>><</if>>. \"For safety.\"",
+    "translation": "",
+    "pos": 771
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 7",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "836_5_3_7|",
+    "original": "You walk through the orphanage, towards the youth ward.",
+    "translation": "",
+    "pos": 934
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 7",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "839_5_3_7|",
+    "original": "\"I'll escort you to the youth ward,\" <<he>> says. <<His>> eyes dart to <<if $litter_size gte 2>>the babies in your arms<<else>><<childname>><</if>>. \"For safety.\"",
+    "translation": "",
+    "pos": 1010
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 7",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "841_5_3_7|",
+    "original": "<<He>> leads you through the orphanage, towards the youth ward.",
+    "translation": "",
+    "pos": 1184
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 7",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "845_5_3_7|",
+    "original": "<<link [[Next|Pregnancy Birth Hospital 8]]>><</link>>",
+    "translation": "",
+    "pos": 1267
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 8",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "853_5_3_7|",
+    "original": "One of Bailey's goons, a <<person>> exits the youth ward, pushing a cradle. You place <<childname>> within. \"My staff keep an eye on things here,\" Bailey says. \"They'll make sure your brat doesn't starve or anything, <span class=\"gold\">but make sure you spend some time with them every day.</span> Or I'll charge.\"",
+    "translation": "",
+    "pos": 91
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 8",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "856_5_3_7|",
+    "original": "\"Later though,\" <<he>> adds. \"You need to freshen up, and your brat is asleep anyway.\" The <<person2>><<person>> pushes <<childname>> through the ward doors. <<person1>>Bailey keeps <<his>> gaze fixed on <<childname>> until <<childhe>>'s safely within.",
+    "translation": "",
+    "pos": 430
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 8",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "859_5_3_7|",
+    "original": "One of Bailey's goons, a <<person>> exits the youth ward, pushing a pair of cradles. You place the twins within. \"My staff keep an eye on things here,\" Bailey says. \"They'll make sure your brats don't starve or anything, <span class=\"gold\">but make sure you spend some time with them every day.</span> Or I'll charge.\"",
+    "translation": "",
+    "pos": 723
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 8",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "862_5_3_7|",
+    "original": "\"Later though,\" <<he>> adds. \"You need to freshen up, and your brats are asleep anyway.\" The <<person2>><<person>> pushes the twins through the ward doors. <<person1>>Bailey keeps <<his>> gaze fixed on <<childrenNames $bornChildrenIds>> until they're safely within.",
+    "translation": "",
+    "pos": 1066
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 8",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "865_5_3_7|",
+    "original": "One of Bailey's goons, a <<person>> exits the youth ward, pushing a trio of cradles. You place the triplets within. \"My staff keep an eye on things here,\" Bailey says. \"They'll make sure your brats don't starve or anything, <span class=\"gold\">but make sure you spend some time with them every day.</span> Or I'll charge.\"",
+    "translation": "",
+    "pos": 1352
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 8",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "868_5_3_7|",
+    "original": "\"Later though,\" <<he>> adds. \"You need to freshen up, and your brats are asleep anyway.\" The <<person2>><<person>> pushes the triplets through the ward doors. <<person1>>Bailey keeps <<his>> gaze fixed on <<childrenNames $bornChildrenIds>> until they're safely within.",
+    "translation": "",
+    "pos": 1698
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 8",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "872_5_3_7|",
+    "original": "<span class=\"gold\">You can now access the youth ward, and the nursery.</span>",
+    "translation": "",
+    "pos": 2006
+  },
+  {
+    "passage": "Pregnancy Birth Hospital 8",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "876_5_3_7|",
+    "original": "<<link [[Next|Orphanage]]>><<unset $litter_size>><<unset $first_birth>><<endevent>><<set $ward_unlocked to true>><<unset $bornChildrenIds>><</link>>",
+    "translation": "",
+    "pos": 2103
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Wolf",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "880_5_3_7|",
+    "original": "You feel a rumbling all around you. Then a pain in your abdomen. You're tied down, lying in the back of what looks like an ambulance.",
+    "translation": "",
+    "pos": 64
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Wolf",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "882_5_3_7|",
+    "original": "There's a figure beside you, holding a blurry tool to your <<print $worn.genitals.name>>. You feel the metal snap as you lose consciousness once more.",
+    "translation": "",
+    "pos": 231
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Wolf",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "887_5_3_7|",
+    "original": "A figure beside you presses a mask to your face, and you lose consciousness once more.",
+    "translation": "",
+    "pos": 466
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Wolf",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "891_5_3_7|",
+    "original": "<<link [[Next (0:15)|Pregnancy Birth Hospital Wolf 2]]>><<pass 15>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 572
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Wolf 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "896_5_3_7|",
+    "original": "You awaken again. You hang limp between two figures. The branches of the forest hang overhead. You're being carried, but you're too weak to move. Your consciousness slips once more.",
+    "translation": "",
+    "pos": 34
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Wolf 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "899_5_3_7|",
+    "original": "<<link [[Next (0:15)|Pregnancy Birth Hospital Wolf 3]]>><<pass 15>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 226
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Wolf 3",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "904_5_3_7|",
+    "original": "You hit the ground. A pair of footsteps rush away from you.",
+    "translation": "",
+    "pos": 33
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Wolf 3",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "907_5_3_7|",
+    "original": "You remember this smell. You're outside the wolf cave.",
+    "translation": "",
+    "pos": 131
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Wolf 3",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "909_5_3_7|",
+    "original": "You're outside a cave. It's shelter, at least. You stumble inside.",
+    "translation": "",
+    "pos": 196
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Wolf 3",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "912_5_3_7|",
+    "original": "<<link [[Next (0:15)|Pregnancy Birth Wolf Cave 1]]>><<pass 15>><<endevent>><<set $phase to 3>><</link>>",
+    "translation": "",
+    "pos": 280
+  },
+  {
+    "passage": "Pregnancy Birth Wolf Rescue",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "917_5_3_7|",
+    "original": "The movement stops. You feel yourself being lowered onto something soft.",
+    "translation": "",
+    "pos": 33
+  },
+  {
+    "passage": "Pregnancy Birth Wolf Rescue",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "920_5_3_7|",
+    "original": "You remember this smell. You're in the wolf cave.",
+    "translation": "",
+    "pos": 144
+  },
+  {
+    "passage": "Pregnancy Birth Wolf Rescue",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "922_5_3_7|",
+    "original": "You're in a cave. It's shelter, at least.",
+    "translation": "",
+    "pos": 204
+  },
+  {
+    "passage": "Pregnancy Birth Wolf Rescue",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "925_5_3_7|",
+    "original": "<<link [[Next (0:15)|Pregnancy Birth Wolf Cave 1]]>><<pass 15>><<endevent>><<set $phase to 3>><</link>>",
+    "translation": "",
+    "pos": 263
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Wolf 4",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "931_5_3_7|",
+    "original": "Player reaches the wolf cave, is guided to the inside of the cave to give birth.",
+    "translation": "",
+    "pos": 65
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Wolf 4",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "935_5_3_7|",
+    "original": "Chastity Belt is broken if equipped.",
+    "translation": "",
+    "pos": 198
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Wolf 4",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "936_5_3_7|",
+    "original": "\"The pack feels your distress\" later \"Most of the pack has injured mouths after chewing the belt so fiercely to free you\"?",
+    "translation": "",
+    "pos": 236
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Wolf 4",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "941_5_3_7|",
+    "original": "<<link [[Next (0:15)|Pregnancy Birth Wolf Cave 1]]>><<pass 15>><<endevent>><<set $phase to 3>><</link>>",
+    "translation": "",
+    "pos": 441
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Wolf 5",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "945_5_3_7|",
+    "original": "The others wolves leave the player alone for them to give birth, sequence should follow similar to the normal birth, though alone this time.",
+    "translation": "",
+    "pos": 65
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Wolf 5",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "947_5_3_7|",
+    "original": "<<link [[Next (0:15)|Pregnancy Birth Hospital Wolf 6]]>><<pass 15>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 215
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Wolf 6",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "951_5_3_7|",
+    "original": "Player is finished with giving birth and spends some time to recover and start to have special time with their newborns. Option to name occurs here.",
+    "translation": "",
+    "pos": 65
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Wolf 7",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "958_5_3_7|",
+    "original": "Player spends time looking after and feeding their children.",
+    "translation": "",
+    "pos": 65
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Wolf 7",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "960_5_3_7|",
+    "original": "Player re-equips clothes.",
+    "translation": "",
+    "pos": 135
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Wolf 7",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "965_5_3_7|",
+    "original": "<span class=\"red\"><i>After giving birth to pups of your own, you see they're just cute animals.</i> You've gained the \"Stockholm Syndrome: Wolves\" trait.</span>",
+    "translation": "",
+    "pos": 251
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Wolf 7",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "968_5_3_7|",
+    "original": "<span class=\"red\"><i>After giving birth to pups of your own, you see they're just cute monsters.</i> You've gained the \"Stockholm Syndrome: Wolf People\" trait.</span>",
+    "translation": "",
+    "pos": 435
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Wolf 7",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "977_5_3_7|",
+    "original": "<<link [[Next (24:00)|Wolf Cave]]>><<pass 15>><<endevent>><<set $wolfevent to 0>><</link>>",
+    "translation": "",
+    "pos": 780
+  },
+  {
+    "passage": "pregnancyTest",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "985_5_3_7|",
+    "original": "<<case \"Bedroom\">>",
+    "translation": "",
+    "pos": 91
+  },
+  {
+    "passage": "pregnancyTest",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "986_5_3_7|",
+    "original": "You take the pregnancy test, before returning to the bedroom. The test sits on your bed, as you pace back and forth waiting for it to finish.",
+    "translation": "",
+    "pos": 112
+  },
+  {
+    "passage": "pregnancyTest",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "987_5_3_7|",
+    "original": "<<case \"Eden Cabin\">>",
+    "translation": "",
+    "pos": 255
+  },
+  {
+    "passage": "pregnancyTest",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "988_5_3_7|",
+    "original": "You take the pregnancy test in Eden's bathroom, before returning to the main room. You stare at the test in your hand, not daring to look away, waiting for it to finish.",
+    "translation": "",
+    "pos": 279
+  },
+  {
+    "passage": "pregnancyTest",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "989_5_3_7|",
+    "original": "<<case \"Wolf Cave Clearing\">>",
+    "translation": "",
+    "pos": 450
+  },
+  {
+    "passage": "pregnancyTest",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "990_5_3_7|",
+    "original": "You take the pregnancy test out of view from the wolves. You stare at the test in your hand, not daring to look away, waiting for it to finish.",
+    "translation": "",
+    "pos": 482
+  },
+  {
+    "passage": "pregnancyTest",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "991_5_3_7|",
+    "original": "<<case \"Farm Shed\">>",
+    "translation": "",
+    "pos": 627
+  },
+  {
+    "passage": "pregnancyTest",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "992_5_3_7|",
+    "original": "You take the pregnancy test. You stare at the test in your hand, not daring to look away, waiting for it to finish.",
+    "translation": "",
+    "pos": 650
+  },
+  {
+    "passage": "pregnancyTest",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "994_5_3_7|",
+    "original": "You take the pregnancy test. You stare at the test in your hand, not daring to look away, waiting for it to finish.",
+    "translation": "",
+    "pos": 781
+  },
+  {
+    "passage": "pregnancyTest",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "996_5_3_7|",
+    "original": "The packaging said to wait 3 minutes, but it feels like an eternity passes. <<gstress>><<stress 3>>",
+    "translation": "",
+    "pos": 909
+  },
+  {
+    "passage": "pregnancyTest",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1002_5_3_7|",
+    "original": "<span class=\"green\">It's negative.</span> You wonder how it could ever be positive.",
+    "translation": "",
+    "pos": 1380
+  },
+  {
+    "passage": "pregnancyTest",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1003_5_3_7|",
+    "original": "<<elseif _pregnancyTest.givenBirth >= 1>>",
+    "translation": "",
+    "pos": 1465
+  },
+  {
+    "passage": "pregnancyTest",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1004_5_3_7|",
+    "original": "<span class=\"lewd\">It's positive.</span> Many thoughts rush through your head, and you sit to collect yourself. <<gstress>><<stress 3>><<garousal>><<arousal 100>>",
+    "translation": "",
+    "pos": 1509
+  },
+  {
+    "passage": "pregnancyTest",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1008_5_3_7|",
+    "original": "<span class=\"lewd\">It's clear that <<print _fatherName === \"yourself\" ? \"you are\" : _fatherName + \" is\">> the father.</span>",
+    "translation": "",
+    "pos": 1832
+  },
+  {
+    "passage": "pregnancyTest",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1010_5_3_7|",
+    "original": "<span class=\"red\">You wonder who the father is.</span>",
+    "translation": "",
+    "pos": 1971
+  },
+  {
+    "passage": "pregnancyTest",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1014_5_3_7|",
+    "original": "<span class=\"lewd\">It's positive.</span> You briefly wonder if you're seeing things or have gone crazy. Many thoughts rush through your head, and you sit to collect yourself. <<ggstress>><<stress 10>><<ggarousal>><<arousal 200>>",
+    "translation": "",
+    "pos": 2100
+  },
+  {
+    "passage": "pregnancyTest",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1018_5_3_7|",
+    "original": "<span class=\"lewd\">It's clear that <<print _fatherName === \"yourself\" ? \"you are\" : _fatherName + \" is\">> the father.</span>",
+    "translation": "",
+    "pos": 2489
+  },
+  {
+    "passage": "pregnancyTest",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1020_5_3_7|",
+    "original": "<span class=\"red\">You wonder who the father is.</span>",
+    "translation": "",
+    "pos": 2628
+  },
+  {
+    "passage": "pregnancyTest",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1027_5_3_7|",
+    "original": "<span class=\"green\">It's negative.</span>",
+    "translation": "",
+    "pos": 3053
+  },
+  {
+    "passage": "pregnancyTest",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1029_5_3_7|",
+    "original": "<span class=\"lewd\">It's positive.</span> Many thoughts rush through your head, and you sit to collect yourself. <<gstress>><<stress 3>><<garousal>><<arousal 100>>",
+    "translation": "",
+    "pos": 3107
+  },
+  {
+    "passage": "pregnancyTest",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1033_5_3_7|",
+    "original": "<span class=\"lewd\">It's clear that <<print _fatherName === \"yourself\" ? \"you are\" : _fatherName + \" is\">> the father.</span>",
+    "translation": "",
+    "pos": 3430
+  },
+  {
+    "passage": "pregnancyTest",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1035_5_3_7|",
+    "original": "<span class=\"red\">You wonder who the father is.</span>",
+    "translation": "",
+    "pos": 3569
+  },
+  {
+    "passage": "pregnancyTest",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1042_5_3_7|",
+    "original": "<<link [[Next|$lastPassage]]>><<handheldon>><<unset $lastPassage>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 3713
+  },
+  {
+    "passage": "pregnancyTestWidget",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1049_5_3_7|",
+    "original": "<<pregnancytesticon>><<link [[Take a pregnancy test (0:05)|pregnancyTest]]>><<pass 5>><<set $lastPassage to _args[0]>><</link>>",
+    "translation": "",
+    "pos": 117
+  },
+  {
+    "passage": "pregnancyTestWidget",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1052_5_3_7|",
+    "original": "<<pregnancytesticon>><span class=\"lewd\"> You have a pregnancy test, but you already know you're pregnant.</span>",
+    "translation": "",
+    "pos": 301
+  },
+  {
+    "passage": "Pregnancy ultrasound",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1069_5_3_7|",
+    "original": "\"First of all,\" the doctor says. \"Congratulations. An ultrasound is a wise request. Please follow me to radiology.\" <<He>> continues talking as you walk.",
+    "translation": "",
+    "pos": 489
+  },
+  {
+    "passage": "Pregnancy ultrasound",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1072_5_3_7|",
+    "original": "\"If you're far enough along, we start by applying a gel to prevent air pockets, which could disrupt the sound waves we'll be pushing through your body. There's no risk. The gel is water-based and easy to remove, and the sound is harmless.\"",
+    "translation": "",
+    "pos": 655
+  },
+  {
+    "passage": "Pregnancy ultrasound",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1074_5_3_7|",
+    "original": "\"An ultrasound is a wise request. Please follow me to radiology.\"",
+    "translation": "",
+    "pos": 905
+  },
+  {
+    "passage": "Pregnancy ultrasound",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1078_5_3_7|",
+    "original": "<<He>> leads you to a room in the hospital basement. Several machines blink, and make a soft pinging sound. There's a bed in one corner of the room, with a monitor next to it. A technician waits to assist.",
+    "translation": "",
+    "pos": 989
+  },
+  {
+    "passage": "Pregnancy ultrasound",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1081_5_3_7|",
+    "original": "\"Please undress down to your underwear,\" the doctor says.",
+    "translation": "",
+    "pos": 1205
+  },
+  {
+    "passage": "Pregnancy ultrasound",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1084_5_3_7|",
+    "original": "<<link [[Next|Pregnancy ultrasound 2]]>><<overupperstrip>><<upperstrip>><<underupperstrip>><</link>>",
+    "translation": "",
+    "pos": 1273
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1094_5_3_7|",
+    "original": "You strip and lie down.",
+    "translation": "",
+    "pos": 200
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1098_5_3_7|",
+    "original": "\"I'm afraid you're not far enough along for an abdominal ultrasound,\" Doctor Harper remarks. \"But we can use the doppler to listen for cardiac activity.\"",
+    "translation": "",
+    "pos": 397
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1100_5_3_7|",
+    "original": "<<He>> picks up a small handheld instrument, twists a dial, and presses a small circular wand against your lower abdomen. <<He>> moves it across your body. The instrument makes static-sounding hisses, punctuated by occasional thrums. <<He>> slows, and the thrums become a rhythmic staccato dance.",
+    "translation": "",
+    "pos": 562
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1102_5_3_7|",
+    "original": "\"There! Listen. A healthy child.\" A little more than two beats a second. The thrumming soothes you.<<lstress>>",
+    "translation": "",
+    "pos": 870
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1106_5_3_7|",
+    "original": "<<He>> moves the wand a little more, and fails to conceal surprise. \"There's another one.\" You hear a second pulsing, slightly different in tempo.<<gstress>><<stress 6>>",
+    "translation": "",
+    "pos": 1046
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1111_5_3_7|",
+    "original": "You ask <<him>> for a doctor's note affirming that you're pregnant. <<He>> taps away at <<his>> computer for a moment before printing out an official-looking letter. <<He>> signs it with a flourish and hands it to you.",
+    "translation": "",
+    "pos": 1351
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1119_5_3_7|",
+    "original": "Doctor Harper prepares the gel and wand for the procedure. You find the gel to be comfortably warm as <<he>> slathers it on your abdomen.",
+    "translation": "",
+    "pos": 1840
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1123_5_3_7|",
+    "original": "You suppress the urge to moo. Your teats tingle with anticipation.<<garousal>> <<arousal 3>> <br><br>",
+    "translation": "",
+    "pos": 2016
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1129_5_3_7|",
+    "original": "<<He>> runs the wand left and right over your lower abdomen as the screen changes and flashes different shades of grey over <<his>> face.",
+    "translation": "",
+    "pos": 2313
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1132_5_3_7|",
+    "original": "Harper is quiet for a while as <<he>> pores over the equipment, and the technician gives a look of concern. It's making you nervous. There's a lot of clicking and typing on the computer as the technician measures different parts. Femur, head, humerus, and amniotic fluid levels.",
+    "translation": "",
+    "pos": 2497
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1134_5_3_7|",
+    "original": "There's a lot of clicking and typing on the computer as the technician measures different parts.",
+    "translation": "",
+    "pos": 2788
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1143_5_3_7|",
+    "original": "<<case \"m\">>",
+    "translation": "",
+    "pos": 3052
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1150_5_3_7|",
+    "original": "<<case \"f\">>",
+    "translation": "",
+    "pos": 3224
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1157_5_3_7|",
+    "original": "<<case \"h\">>",
+    "translation": "",
+    "pos": 3400
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1176_5_3_7|",
+    "original": "<<case \"human\">>",
+    "translation": "",
+    "pos": 3915
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1177_5_3_7|",
+    "original": "<<He>> at last turns to you. \"Would you like to see?\"",
+    "translation": "",
+    "pos": 3935
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1178_5_3_7|",
+    "original": "<<He>> swings the monitor to face you.",
+    "translation": "",
+    "pos": 3992
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1180_5_3_7|",
+    "original": "You're surprised by what you see.",
+    "translation": "",
+    "pos": 4106
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1184_5_3_7|",
+    "original": "You see <<if _multiple>><<if _pregnancy.fetus.length is 3>>three<<else>>two<</if>> sets<<else>>a pair<</if>> of eyes, arms, hands, legs, and feet as the doctor moves the wand across your belly. <<stress -5>><<lstress>>",
+    "translation": "",
+    "pos": 4167
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1187_5_3_7|",
+    "original": "\"Perfect,\" the doctor says. \"I'll print them out for you to take home.\"",
+    "translation": "",
+    "pos": 4402
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1192_5_3_7|",
+    "original": "\"It's time,\" the doctor announces.",
+    "translation": "",
+    "pos": 4568
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1194_5_3_7|",
+    "original": "\"I hope you're excited to know your childrens' sex.\"",
+    "translation": "",
+    "pos": 4629
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1197_5_3_7|",
+    "original": "<<He>> glides the wand over your gently bulging belly. The pressure is uncomfortable.",
+    "translation": "",
+    "pos": 4702
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1201_5_3_7|",
+    "original": "\"Are you excited for the gender reveal?\" <<he>> asks.",
+    "translation": "",
+    "pos": 4850
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1204_5_3_7|",
+    "original": "<<He>> glides the wand over your rounded abdomen. The pressure is uncomfortable.",
+    "translation": "",
+    "pos": 4924
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1206_5_3_7|",
+    "original": "\"It's a boy,\" <<he>> says. \"Congratulations.\" You can't make out anything on the screen that would indicate this, but Harper seems confident.",
+    "translation": "",
+    "pos": 5057
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1209_5_3_7|",
+    "original": "\"It's a girl,\" <<he>> says. \"Congratulations.\" You can't make out anything on the screen that would indicate this, but Harper seems confident.",
+    "translation": "",
+    "pos": 5270
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1212_5_3_7|",
+    "original": "\"I'm afraid I can't tell if it's a boy or a girl,\" <<he>> says. \"<span class=\"blue\">It almost looks like both.</span> Regardless, they're healthy. Congratulations.\"",
+    "translation": "",
+    "pos": 5448
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1220_5_3_7|",
+    "original": "\"Good news,\" <<he>> continues. \"Your baby has dropped and is head-down. This should ease some of the pressure you feel.\"",
+    "translation": "",
+    "pos": 5781
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1222_5_3_7|",
+    "original": "It'll be time to deliver soon. The doctor hands you some literature about labour, and what to do when it begins. \"Please come see us when your waters break. We will take good care of you.\"",
+    "translation": "",
+    "pos": 5918
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1226_5_3_7|",
+    "original": "You feel several fluttery kicks as the doctor continues to probe. \"Based on these measurements,\" the technician says, \"You'll be full term in a few weeks. Have you made birth plans yet? Make sure you're getting rest and nutrition.\"",
+    "translation": "",
+    "pos": 6214
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1228_5_3_7|",
+    "original": "You know you'll need rest, and money.<<gstress>><<stress 6>>",
+    "translation": "",
+    "pos": 6463
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1233_5_3_7|",
+    "original": "\"Look, <<print _he>> is moving around,\" the doctor says. \"Can you see the fingers?\" It almost appears <<print _his>> hand is waving at the screen. You feel movements inside at the same time.<<llstress>><<stress -7>>",
+    "translation": "",
+    "pos": 6645
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1236_5_3_7|",
+    "original": "\"Your child looks healthy,\" Harper continues. \"<<print _He>> just needs to keep growing, putting on weight and maturing <<print _his>> lungs.",
+    "translation": "",
+    "pos": 6881
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1237_5_3_7|",
+    "original": "It's very important that you make healthy choices right now, as your children depend on your body for everything.\"",
+    "translation": "",
+    "pos": 7028
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1239_5_3_7|",
+    "original": "\"Look, they're moving around,\" the doctor says. \"Can you see the fingers?\" It almost appears one of their hands is waving at the screen. You feel movements inside at the same time.<<llstress>><<stress -7>>",
+    "translation": "",
+    "pos": 7161
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1241_5_3_7|",
+    "original": "Harper continues. \"Your children look healthy. They just need to keep growing, putting on weight and maturing their lungs.",
+    "translation": "",
+    "pos": 7386
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1242_5_3_7|",
+    "original": "It's very important that you make healthy choices right now, as your children depend on your body for everything.\"",
+    "translation": "",
+    "pos": 7514
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1248_5_3_7|",
+    "original": "The doctor continues to probe your belly. As <<he>> does, you feel like there's a swarm of butterflies inside as your children turn back and forth in response to the prodding.",
+    "translation": "",
+    "pos": 7762
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1250_5_3_7|",
+    "original": "\"Everything seems in order,\" Harper says. \"Your babies are measuring <<print _pregnancy.fetus[0].features.size>>, and are perfectly healthy. Please come see us in a few months, when you're almost ready to give birth.\"",
+    "translation": "",
+    "pos": 7957
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1253_5_3_7|",
+    "original": "The doctor continues to probe your belly. As <<he>> does, you feel like there's a swarm of butterflies inside as your child turns back and forth in response to the prodding.",
+    "translation": "",
+    "pos": 8207
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1255_5_3_7|",
+    "original": "\"Everything seems in order,\" Harper says. \"Your baby is measuring <<print _pregnancy.fetus[0].features.size>>, and is perfectly healthy. Please come see us in a few months, when you're almost ready to give birth.\"",
+    "translation": "",
+    "pos": 8400
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1261_5_3_7|",
+    "original": "\"Your babies are doing fine,\" the doctor says. \"They're a little smaller than if you just had the one, but they are responsive and moving well. There's ample fluid as well, so it should be a normal pregnancy.\"",
+    "translation": "",
+    "pos": 8748
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1264_5_3_7|",
+    "original": "On the screen you can see them moving around, legs and arms switching places. One jerks. \"Hiccups,\" Harper assures you.",
+    "translation": "",
+    "pos": 9009
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1267_5_3_7|",
+    "original": "\"Your baby is doing great. <<print _He>> is responsive and moving well,\" the doctor says. \"There's ample fluid as well, so it should be a normal pregnancy.\"",
+    "translation": "",
+    "pos": 9161
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1270_5_3_7|",
+    "original": "On the screen you can see <<print _him>> moving around, legs and arms switching places. <<print _He>> jerks. \"Hiccups,\" Harper assures you.",
+    "translation": "",
+    "pos": 9369
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1276_5_3_7|",
+    "original": "\"Your babies are healthy,\" the doctor says. \"They are responsive, and moving well. There's ample fluid, so it should be a normal pregnancy.\"<<llstress>><<stress -8>>",
+    "translation": "",
+    "pos": 9643
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1278_5_3_7|",
+    "original": "You can see them moving around on the screen, legs and arms switching places. One jerks. \"Hiccups,\" Harper assures you.",
+    "translation": "",
+    "pos": 9828
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1280_5_3_7|",
+    "original": "\"Your baby is healthy,\" the doctor says. \"<<print _He>> is responsive, and moving well. There's ample fluid, so it should be a normal pregnancy.\"<<llstress>><<stress -8>>",
+    "translation": "",
+    "pos": 9966
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1282_5_3_7|",
+    "original": "You can see <<print _him>> moving around on the screen, legs and arms switching places. <<print _He>> jerks. \"Hiccups,\" Harper assures you.",
+    "translation": "",
+    "pos": 10156
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1289_5_3_7|",
+    "original": "<<case \"wolf\">>",
+    "translation": "",
+    "pos": 10376
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1291_5_3_7|",
+    "original": "\"I'd like to congratulate you,\" <<he>> starts as <<he>> turns to you. \"You're lucky to carry a very unusual pregnancy. Instead of a human child, <span class=\"lewd\">you're pregnant with",
+    "translation": "",
+    "pos": 10433
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1293_5_3_7|",
+    "original": "a litter of _type pups.",
+    "translation": "",
+    "pos": 10644
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1295_5_3_7|",
+    "original": "a _type pup.",
+    "translation": "",
+    "pos": 10686
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1297_5_3_7|",
+    "original": "</span>Remarkable.\"",
+    "translation": "",
+    "pos": 10715
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1300_5_3_7|",
+    "original": "Harper smiles at you. \"There's nothing to worry about, your <<if _multiple>>children are<<else>>child is<</if>> in perfectly good health. Would you like to see?\"",
+    "translation": "",
+    "pos": 10753
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1302_5_3_7|",
+    "original": "<<He>> at last turns to you. \"Would you like to see?\"",
+    "translation": "",
+    "pos": 10931
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1304_5_3_7|",
+    "original": "<<He>> swings the monitor to face you.",
+    "translation": "",
+    "pos": 10999
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1307_5_3_7|",
+    "original": "You see <<if _multiple>><<number _pregnancy.fetus.length>> sets<<else>>a pair<</if>> of eyes, legs, and paws as the doctor moves the wand across your full belly. <<stress -5>><<lstress>>",
+    "translation": "",
+    "pos": 11054
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1309_5_3_7|",
+    "original": "\"Perfect,\" the doctor says. \"I'll print them out for you to take home.\"",
+    "translation": "",
+    "pos": 11256
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1314_5_3_7|",
+    "original": "\"It's time,\" the doctor announces.",
+    "translation": "",
+    "pos": 11422
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1316_5_3_7|",
+    "original": "\"I hope you're excited to know your childrens' sex.\"",
+    "translation": "",
+    "pos": 11483
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1319_5_3_7|",
+    "original": "<<He>> glides the wand over your gently bulging belly. The pressure is uncomfortable.",
+    "translation": "",
+    "pos": 11556
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1323_5_3_7|",
+    "original": "\"Are you excited for the gender reveal?\" <<he>> asks.",
+    "translation": "",
+    "pos": 11704
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1326_5_3_7|",
+    "original": "<<He>> glides the wand over your rounded abdomen. The pressure is uncomfortable.",
+    "translation": "",
+    "pos": 11778
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1328_5_3_7|",
+    "original": "\"It's a boy,\" <<he>> says. \"Congratulations.\" You can't make out anything on the screen that would indicate this, but Harper seems confident.",
+    "translation": "",
+    "pos": 11911
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1331_5_3_7|",
+    "original": "\"It's a girl,\" <<he>> says. \"Congratulations.\" You can't make out anything on the screen that would indicate this, but Harper seems confident.",
+    "translation": "",
+    "pos": 12124
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1334_5_3_7|",
+    "original": "\"I'm afraid I can't tell if it's a boy or a girl,\" <<he>> says. \"<span class=\"blue\">It almost looks like both.</span> Regardless, they're healthy. Congratulations.\"",
+    "translation": "",
+    "pos": 12302
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1342_5_3_7|",
+    "original": "\"Good news,\" <<he>> continues. \"Your pup has dropped and is head-down. This should ease some of the pressure you feel.\"",
+    "translation": "",
+    "pos": 12635
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1344_5_3_7|",
+    "original": "It'll be time to deliver soon. The doctor hands you some literature about labour, and what to do when it begins. There's nothing in it about wolves, though. \"Please come see us when your waters break. We will take good care of you.\"",
+    "translation": "",
+    "pos": 12771
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1348_5_3_7|",
+    "original": "You feel several fluttery kicks as the doctor continues to probe. \"Based on these measurements,\" the technician says, \"You'll be full term very soon. We think. It's very hard to tell with a... non-human pregnancy. Have you made birth plans yet? Make sure you're getting rest and nutrition.\"",
+    "translation": "",
+    "pos": 13111
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1350_5_3_7|",
+    "original": "You know you'll need rest, and money. You wonder where you'll keep them.<<gstress>><<stress 6>>",
+    "translation": "",
+    "pos": 13419
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1355_5_3_7|",
+    "original": "\"Look, <<print _he>> is moving around,\" the doctor says. \"Can you see the toes?\" It almost appears <<print _his>> paw is waving at the screen. You feel movements inside at the same time.<<llstress>><<stress -7>>",
+    "translation": "",
+    "pos": 13636
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1358_5_3_7|",
+    "original": "\"Your pup looks healthy,\" Harper continues. \"<<print _He>> just need to keep growing, putting on weight and maturing <<print _his>> lungs.",
+    "translation": "",
+    "pos": 13868
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1359_5_3_7|",
+    "original": "It's very important that you make healthy choices right now, as your children depend on your body for everything.\"",
+    "translation": "",
+    "pos": 14012
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1361_5_3_7|",
+    "original": "\"Look, they're moving around,\" the doctor says. \"Can you see the toes?\" It almost appears one of their paws is waving at the screen. You feel movements inside at the same time.<<llstress>><<stress -7>>",
+    "translation": "",
+    "pos": 14145
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1363_5_3_7|",
+    "original": "Harper continues. \"Your children look healthy. They just need to keep growing, putting on weight and maturing their lungs.",
+    "translation": "",
+    "pos": 14366
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1364_5_3_7|",
+    "original": "It's very important that you make healthy choices right now, as your children depend on your body for everything. It's especially important that you take care with such an unusual pregnancy.\"",
+    "translation": "",
+    "pos": 14494
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1370_5_3_7|",
+    "original": "The doctor continues to probe your belly. As <<he>> does, you feel like there's a swarm of butterflies inside as your litter turns back and forth in response to the prodding.",
+    "translation": "",
+    "pos": 14819
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1372_5_3_7|",
+    "original": "\"Everything seems in order,\" Harper says. \"Your pups are measuring <<print _pregnancy.fetus[0].features.size>>, and are perfectly healthy. Please come see us in a few weeks, when you're almost ready to give birth.\"",
+    "translation": "",
+    "pos": 15013
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1375_5_3_7|",
+    "original": "The doctor continues to probe your belly. As <<he>> does, you feel like there's a swarm of butterflies inside as your pup turns back and forth in response to the prodding.",
+    "translation": "",
+    "pos": 15260
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1377_5_3_7|",
+    "original": "\"Everything seems in order,\" Harper says. \"Your pup is measuring <<print _pregnancy.fetus[0].features.size>>, and is perfectly healthy. Please come see us in a few weeks, when you're almost ready to give birth.\"",
+    "translation": "",
+    "pos": 15451
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1383_5_3_7|",
+    "original": "\"Your ba... litter, is doing fine,\" the doctor says. \"They're a little smaller than if you just had the one, but they are responsive and moving well. There's ample fluid as well, so it should be a normal pregnancy. As normal as a pregnancy like this can be.\"",
+    "translation": "",
+    "pos": 15797
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1386_5_3_7|",
+    "original": "On the screen you can see them moving around, legs switching places. One jerks. \"Hiccups,\" Harper assures you.",
+    "translation": "",
+    "pos": 16107
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1389_5_3_7|",
+    "original": "\"Your pup is doing great. <<print _He>> is responsive and moving well,\" the doctor says. \"There's ample fluid as well, so it should be a normal pregnancy. As normal as a pregnancy like this can be.\"",
+    "translation": "",
+    "pos": 16250
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1392_5_3_7|",
+    "original": "On the screen you can see <<print _him>> moving around, legs switching places. <<print _He>> jerks. \"Hiccups,\" Harper assures you.",
+    "translation": "",
+    "pos": 16500
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1398_5_3_7|",
+    "original": "\"Your pups are healthy,\" the doctor says. \"They are responsive, and moving well. There's ample fluid, so it should be a normal pregnancy. As normal as a pregnancy like this can be.\"<<llstress>><<stress -8>>",
+    "translation": "",
+    "pos": 16765
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1400_5_3_7|",
+    "original": "You can see them moving around on the screen, legs switching places. One jerks. \"Hiccups,\" Harper assures you.",
+    "translation": "",
+    "pos": 16991
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1402_5_3_7|",
+    "original": "\"Your pup is healthy,\" the doctor says. \"<<print _He>> is responsive, and moving well. There's ample fluid, so it should be a normal pregnancy. As normal as a pregnancy like this can be.\"<<llstress>><<stress -8>>",
+    "translation": "",
+    "pos": 17120
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1404_5_3_7|",
+    "original": "You can see <<print _him>> moving around on the screen, legs switching places. <<print _He>> jerks. \"Hiccups,\" Harper assures you.",
+    "translation": "",
+    "pos": 17352
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1410_5_3_7|",
+    "original": "<<case \"hawk\">>",
+    "translation": "",
+    "pos": 17562
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1412_5_3_7|",
+    "original": "\"I'd like to congratulate you,\" <<he>> starts as <<he>> turns to you. \"You're lucky to carry a very unusual pregnancy. Instead of a human child, <span class=\"lewd\">you're pregnant with",
+    "translation": "",
+    "pos": 17619
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1414_5_3_7|",
+    "original": "a... clutch of bird eggs.",
+    "translation": "",
+    "pos": 17830
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1416_5_3_7|",
+    "original": "a... bird egg.",
+    "translation": "",
+    "pos": 17874
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1418_5_3_7|",
+    "original": "</span>Remarkable.\"",
+    "translation": "",
+    "pos": 17905
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1422_5_3_7|",
+    "original": "<<He>> clears <<his>> throat. \"It appears that, rather than releasing an egg cell, a runaway reaction within your ovaries has caused a cluster of cells to gel into a sort of membrane, becoming larger eggs. They've already passed through your oviduct, and sit within your uterus.\"",
+    "translation": "",
+    "pos": 17985
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1425_5_3_7|",
+    "original": "Harper smiles at you. \"There's nothing to worry about, your <<if _multiple>>children are<<else>>child is<</if>> in perfectly good health. Would you like to see?\"",
+    "translation": "",
+    "pos": 18295
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1427_5_3_7|",
+    "original": "<<He>> at last turns to you. \"Would you like to see?\"",
+    "translation": "",
+    "pos": 18473
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1429_5_3_7|",
+    "original": "<<He>> swings the monitor to face you.",
+    "translation": "",
+    "pos": 18541
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1432_5_3_7|",
+    "original": "You see <<if _multiple>><<number _pregnancy.fetus.length>> hard outlines, each containing a pair of eyes, legs,<<if _type is \"harpy\">> arms,<</if>> and tiny wings.<<else>>a hard outline, containing a pair of eyes, legs,<<if _type is \"harpy\">> arms,<</if>> and tiny wings.<</if>> It's a little hard to make out because of the egg shell, but you manage to see more as the doctor moves the wand across your full belly. <<stress -5>><<lstress>>",
+    "translation": "",
+    "pos": 18596
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1436_5_3_7|",
+    "original": "\"Unfortunately, the hardening shell is making it nearly impossible to tell the gender. I suspect you won't have to wait too long to find out for yourself, though.\" <<He>> continues moving the wand, trying to get a better angle, but the picture is too small and distorted.",
+    "translation": "",
+    "pos": 19088
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1441_5_3_7|",
+    "original": "\"Good news,\" <<he>> continues. \"Your <<if _pregnancyGenital is \"vagina\">>oviduct is expanding, in preparation for the egg<<if _multiple>>s<</if>> to pass through.<<else>>egg<<if _multiple>>s are<<else>> is<</if>> starting to move in preparation for laying.<</if>>\"",
+    "translation": "",
+    "pos": 19469
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1443_5_3_7|",
+    "original": "It'll be time to deliver soon. The doctor hands you some literature about labour, and what to do when it begins. There's nothing in it about birds or eggs, though. \"The laying process should be something you can do at home. However, don't hesitate to come see us if you have further questions.\"",
+    "translation": "",
+    "pos": 19750
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1446_5_3_7|",
+    "original": "You feel a low rumble from within yourself. \"Based on these measurements,\" the technician says, \"You'll be full term very soon. We think. It's very hard to tell with a... non-human pregnancy. Have you made birth plans yet? Make sure you're getting rest and nutrition.\"",
+    "translation": "",
+    "pos": 20123
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1448_5_3_7|",
+    "original": "You know you'll need rest. You think about where to keep them. A nest? <<if _pregnancy.fetus[0].father is \"Great Hawk\">>The castle's tower comes to mind.<</if>>",
+    "translation": "",
+    "pos": 20409
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1453_5_3_7|",
+    "original": "\"Your ba... eggs, are doing fine,\" the doctor says. \"They are responsive and moving well. There's ample fluid, so it should be a normal pregnancy. As normal as a pregnancy like this can be.\"",
+    "translation": "",
+    "pos": 20691
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1457_5_3_7|",
+    "original": "\"Your egg is doing great. The baby inside is responsive and moving well,\" the doctor says. \"There's ample fluid, so it should be a normal pregnancy. As normal as a pregnancy like this can be.\"",
+    "translation": "",
+    "pos": 20946
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1463_5_3_7|",
+    "original": "\"Your eggs are healthy,\" the doctor says. \"They are responsive, and moving well. There's ample fluid, so it should be a normal pregnancy. As normal as a pregnancy like this can be.\"<<llstress>><<stress -8>>",
+    "translation": "",
+    "pos": 21284
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1466_5_3_7|",
+    "original": "\"Your egg is healthy,\" the doctor says. \"It is responsive, and moving well. There's ample fluid, so it should be a normal pregnancy. As normal as a pregnancy like this can be.\"<<llstress>><<stress -8>>",
+    "translation": "",
+    "pos": 21523
+  },
+  {
+    "passage": "Pregnancy ultrasound 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1479_5_3_7|",
+    "original": "<<link [[Next|Pregnancy ultrasound 3]]>><</link>>",
+    "translation": "",
+    "pos": 21920
+  },
+  {
+    "passage": "Pregnancy ultrasound 3",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1484_5_3_7|",
+    "original": "You thank Doctor Harper for the scan as <<he>> hands you a warm towel. You wipe off the gel.",
+    "translation": "",
+    "pos": 83
+  },
+  {
+    "passage": "Pregnancy ultrasound 3",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1488_5_3_7|",
+    "original": "<<link [[Return to foyer|Hospital Foyer]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 240
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Alex",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1496_5_3_7|",
+    "original": "Alex taps <<his>> foot as <<he>> waits for you in the hospital foyer. <<He>> runs over to you, very nearly knocking you over. \"Partner! I'm so glad you're alright. You know how to scare a <<= C.npc.Alex.pronoun is \"m\" ? \"farmboy\" : \"farmgirl\">>.\"",
+    "translation": "",
+    "pos": 103
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Alex",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1499_5_3_7|",
+    "original": "Alex waits for you in the hospital foyer. <<He>> smiles when <<he>> sees you. \"Hey, I got a call from the hospital saying that you were in labour. I got here as fast as I could.\"",
+    "translation": "",
+    "pos": 384
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Alex",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1503_5_3_7|",
+    "original": "<<He>> looks at <<if $litter_size is 1>><<childname>><<else>><<childrenNames $bornChildrenIds>><</if>> and smiles. \"So <<print $litter_size > 1 ? \"these are our little fellas\" : \"this is our little fella\">>.\"",
+    "translation": "",
+    "pos": 581
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Alex",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1507_5_3_7|",
+    "original": "<<link [[Let Alex hold <<childhim>>|Pregnancy Birth Hospital Alex 2]]>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 826
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Alex",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1509_5_3_7|",
+    "original": "<<link [[Keep holding your baby|Pregnancy Birth Hospital Alex 2]]>><<set $phase to 2>><</link>>",
+    "translation": "",
+    "pos": 933
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Alex",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1512_5_3_7|",
+    "original": "<<link [[Let Alex hold them|Pregnancy Birth Hospital Alex 2]]>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 1040
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Alex",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1514_5_3_7|",
+    "original": "<<link [[Keep holding your babies|Pregnancy Birth Hospital Alex 2]]>><<set $phase to 2>><</link>>",
+    "translation": "",
+    "pos": 1139
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Alex 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1521_5_3_7|",
+    "original": "\"Here, you should hold <<if $litter_size is 1>><<childhim>><<else>>them<</if>> too,\" you say, passing <<if $litter_size is 1>><<childname>><<else>><<childrenNames $bornChildrenIds>><</if>> to Alex.",
+    "translation": "",
+    "pos": 36
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Alex 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1524_5_3_7|",
+    "original": "<<He>> doesn't have a problem holding <<if $litter_size is 1>><<childhim>><<else>>them<</if>>. Actually, it looks like <<hes>> used to it. \"So cute,\" <<he>> says with a giggle as <<he>> hands <<if $litter_size is 1>><<childname>><<else>>them<</if>> back to you.",
+    "translation": "",
+    "pos": 249
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Alex 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1529_5_3_7|",
+    "original": "You hold your babies to your chest. <<childname>> yawns.",
+    "translation": "",
+    "pos": 569
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Alex 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1531_5_3_7|",
+    "original": "You hold your baby to your chest. <<childHe>> yawns.",
+    "translation": "",
+    "pos": 647
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Alex 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1537_5_3_7|",
+    "original": "\"Did you already give <<if $litter_size is 1>><<childhim>> a name<<else>>them names<</if>>?\"",
+    "translation": "",
+    "pos": 732
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Alex 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1540_5_3_7|",
+    "original": "You nod and tell Alex <<if $litter_size is 1>><<childhis>> name<<else>>their names<</if>>.",
+    "translation": "",
+    "pos": 831
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Alex 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1543_5_3_7|",
+    "original": "\"<<if $litter_size is 1>><<childname>><<else>><<childrenNames $bornChildrenIds>><</if>>, huh? Let's get you home, shall we?\" <<he>> says.",
+    "translation": "",
+    "pos": 928
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Alex 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1546_5_3_7|",
+    "original": "A confused expression crosses your face. \"You know that we can't take <<if $litter_size is 1>><<childhim>><<else>>them<</if>> to the farm by horse, right?\"",
+    "translation": "",
+    "pos": 1076
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Alex 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1549_5_3_7|",
+    "original": "Alex laughs. \"I know, dummy. You didn't really think I would do that, do you?\" <<he>> asks.",
+    "translation": "",
+    "pos": 1242
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Alex 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1552_5_3_7|",
+    "original": "\"Okay,\" <<he>> concedes, \"maybe I thought about it, but hey, guess what? Someone agreed to give us a ride. Come on, I'll show you,\" <<he>> says, guiding you to where the vehicle is parked.",
+    "translation": "",
+    "pos": 1340
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Alex 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1556_5_3_7|",
+    "original": "<<link [[Next|Pregnancy Birth Hospital Alex 5]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1646
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Alex 2",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1559_5_3_7|",
+    "original": "<<link [[Next|Pregnancy Birth Hospital Alex 3]]>><</link>>",
+    "translation": "",
+    "pos": 1728
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Alex 3",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1568_5_3_7|",
+    "original": "\"Hold on just a sec,\" a voice says from behind. <span class=\"red\">It's Bailey.</span>",
+    "translation": "",
+    "pos": 126
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Alex 3",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1570_5_3_7|",
+    "original": "\"Just where do you think you're going with my property?\" <<nnpc_he \"Bailey\">> says.",
+    "translation": "",
+    "pos": 217
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Alex 3",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1573_5_3_7|",
+    "original": "Alex frowns. \"Your 'property'? Just what are you trying to say, pal?\"",
+    "translation": "",
+    "pos": 311
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Alex 3",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1576_5_3_7|",
+    "original": "Bailey ignores Alex's question and glares at you. \"We've a place prepared at the orphanage. Now make my job easier and hand me the <<print $litter_size > 1 ? \"brats\" : \"brat\">>.\"",
+    "translation": "",
+    "pos": 391
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Alex 3",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1579_5_3_7|",
+    "original": "\"What makes you think that we'll just give our <<print $litter_size > 1 ? \"children\" : \"child\">> to you?\" Alex protests.",
+    "translation": "",
+    "pos": 580
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Alex 3",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1582_5_3_7|",
+    "original": "Bailey turns <<nnpc_his \"Bailey\">> gaze to Alex. \"Look, 'cow<<if _alex.pronoun is \"f\">>girl<<else>>boy<</if>>', you could've fucked any whore and I wouldn't care, but you hitched yourself to MY ward.\"",
+    "translation": "",
+    "pos": 711
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Alex 3",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1585_5_3_7|",
+    "original": "Alex clenches <<his>> fists. \"And who exactly said <<pshe>> is yours? <<pShes>> MY <<if $player.gender_appearance is \"f\">>woman<<else>>man<</if>>.\"",
+    "translation": "",
+    "pos": 918
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Alex 3",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1588_5_3_7|",
+    "original": "Bailey fixes Alex with a piercing gaze. \"And how exactly do you plan on taking care of a kid on that shithole you call a farm?\"",
+    "translation": "",
+    "pos": 1072
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Alex 3",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1591_5_3_7|",
+    "original": "<<link [[Next|Pregnancy Birth Hospital Alex 4]]>><</link>>",
+    "translation": "",
+    "pos": 1210
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Alex 4",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1596_5_3_7|",
+    "original": "\"We have our own nursery at the cottage; we don't need your help,\" Alex responds.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Alex 4",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1599_5_3_7|",
+    "original": "A long and deafening silence fills the environment. Bailey keeps staring at you and Alex.",
+    "translation": "",
+    "pos": 105
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Alex 4",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1602_5_3_7|",
+    "original": "\"Tch.\" Bailey is the first to break the silence. \"Do whatever you want; it's one less problem for me to deal with anyway.\" Shooting you one last glare, <<nnpc_he \"Bailey\">> turns and leaves the hospital.",
+    "translation": "",
+    "pos": 205
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Alex 4",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1605_5_3_7|",
+    "original": "\"I'm glad that's over,\" Alex says. \"Let's just get to where the vehicle is parked.\"",
+    "translation": "",
+    "pos": 419
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Alex 4",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1608_5_3_7|",
+    "original": "<<link [[Next|Pregnancy Birth Hospital Alex 5]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 513
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Alex 5",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1622_5_3_7|",
+    "original": "if (child.location === \"home\" && (child.father === \"Alex\" || child.mother === \"Alex\")) child.location = \"alex_cottage\";",
+    "translation": "",
+    "pos": 275
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Alex 5",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1625_5_3_7|",
+    "original": "Alex's $alex_parent waves at you two.",
+    "translation": "",
+    "pos": 401
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Alex 5",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1628_5_3_7|",
+    "original": "Alex opens the door for you. <<person2>><<He>> helps you in before settling into the seat next to you.",
+    "translation": "",
+    "pos": 449
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Alex 5",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1632_5_3_7|",
+    "original": "\"Again?\" <<nnpc_His \"Alex\">> $alex_parent laughs. \"My <<if _alex.pronoun is \"f\">>daughter<<else>>son<</if>> is sure keeping you busy, ain't <<nnpc_he \"Alex\">>?\"",
+    "translation": "",
+    "pos": 622
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Alex 5",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1635_5_3_7|",
+    "original": "Alex blushes and looks away.",
+    "translation": "",
+    "pos": 798
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Alex 5",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1639_5_3_7|",
+    "original": "\"My little <<nnpc_gendery \"Alex\">> is finally settling down,\" <<nnpc_his \"Alex\">> $alex_parent says with a laugh.",
+    "translation": "",
+    "pos": 851
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Alex 5",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1642_5_3_7|",
+    "original": "Alex blushes and looks away.",
+    "translation": "",
+    "pos": 976
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Alex 5",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1645_5_3_7|",
+    "original": "\"And with such a <<if $player.gender_appearance is \"f\">>beautiful woman<<else>>handsome man<</if>>!\" <<person1>><<he>> adds.",
+    "translation": "",
+    "pos": 1020
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Alex 5",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1648_5_3_7|",
+    "original": "\"<<if $alex_parent is \"mother\">>Mum<<else>>Pa<</if>>!\" Alex protests.",
+    "translation": "",
+    "pos": 1156
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Alex 5",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1651_5_3_7|",
+    "original": "\"What? I'm telling the truth,\" <<he>> says. You don't think Alex's face can get any redder.",
+    "translation": "",
+    "pos": 1237
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Alex 5",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1656_5_3_7|",
+    "original": "<<link [[Next|Pregnancy Birth Hospital Alex 6]]>><</link>>",
+    "translation": "",
+    "pos": 1349
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Alex 6",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1661_5_3_7|",
+    "original": "<<He>> drives to the farm, occasionally looking at <<his>> <<print $litter_size > 1 ? \"grandchildren\" : \"grandchild\">> and smiling.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Alex 6",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1664_5_3_7|",
+    "original": "It's not a long trip, and you soon arrive at the farm.",
+    "translation": "",
+    "pos": 155
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Alex 6",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1667_5_3_7|",
+    "original": "Alex helps you leave the vehicle and take your <<print $litter_size > 1 ? \"children\" : \"child\">> to the cottage's nursery.",
+    "translation": "",
+    "pos": 220
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Alex 6",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1671_5_3_7|",
+    "original": "Alex's $alex_parent turns to Alex. \"Look, I'm happy you're settling down, but try using some protection, would you? Unless you want your kids to have more siblings than you do.\" <<He>> laughs before driving away.",
+    "translation": "",
+    "pos": 413
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Alex 6",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1675_5_3_7|",
+    "original": "Alex's $alex_parent turns to Alex. \"I need to get back to work now, but listen, I'm proud of you. You're finally making this place look like a home,\" <<he>> says before driving away.",
+    "translation": "",
+    "pos": 650
+  },
+  {
+    "passage": "Pregnancy Birth Hospital Alex 6",
+    "filepath": "base-system/pregnancy/events.twee",
+    "key": "1680_5_3_7|",
+    "original": "<<link [[Next|Farm Work]]>><<endevent>><<unset $litter_size>><<unset $alex_pregnancy>><<unset $alex_parent>><</link>>",
+    "translation": "",
+    "pos": 853
+  }
+]

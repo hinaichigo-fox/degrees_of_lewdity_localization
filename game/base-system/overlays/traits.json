@@ -1,0 +1,2930 @@
+[
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "8_5_3_7|",
+    "original": "title: \"General Traits\",",
+    "translation": "",
+    "pos": 140
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "11_5_3_7|",
+    "original": "name: \"Virgin\",",
+    "translation": "",
+    "pos": 189
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "14_5_3_7|",
+    "original": "text: \"Your purity recovers faster. Your virginity might be worth something.\",",
+    "translation": "",
+    "pos": 314
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "17_5_3_7|",
+    "original": "name: \"Chastity Vow\",",
+    "translation": "",
+    "pos": 411
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "20_5_3_7|",
+    "original": "text: \"Lost when your <<if $player.penisExist>>penis is enveloped<</if>><<if $player.penisExist and $player.vaginaExist>> or your <</if>><<if $player.vaginaExist>>vagina is penetrated<</if>>. The temple will know.\",",
+    "translation": "",
+    "pos": 503
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "23_5_3_7|",
+    "original": "name: \"Broken Vow\",",
+    "translation": "",
+    "pos": 737
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "26_5_3_7|",
+    "original": "text: \"The temple will know.\",",
+    "translation": "",
+    "pos": 899
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "29_5_3_7|",
+    "original": "name: \"Rite of Promise: $templePromised\",",
+    "translation": "",
+    "pos": 948
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "32_5_3_7|",
+    "original": "text: \"You've been bound to another member of the temple. Sex with this person will not break your vows.\",",
+    "translation": "",
+    "pos": 1089
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "35_5_3_7|",
+    "original": "name: \"Broken Promise: $templePromised\",",
+    "translation": "",
+    "pos": 1214
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "38_5_3_7|",
+    "original": "text: \"The temple will know.\",",
+    "translation": "",
+    "pos": 1356
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "41_5_3_7|",
+    "original": "name: \"Temple Burden: $temple_burden %\",",
+    "translation": "",
+    "pos": 1405
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "44_5_3_7|",
+    "original": "text: \"You are carrying part of the world's corruption within yourself. Physique, willpower, athletics, dancing, skulduggery, swimming, tending, housekeeping, and English skill checks have a 15% chance to automatically fail.\",",
+    "translation": "",
+    "pos": 1504
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "47_5_3_7|",
+    "original": "name: \"Purity Boost\",",
+    "translation": "",
+    "pos": 1749
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "50_5_3_7|",
+    "original": "text: () => {",
+    "translation": "",
+    "pos": 1832
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "54_5_3_7|",
+    "original": "if (dailyPurity + V.featsPurityBoost > 0) return \"You are gaining purity daily.\";",
+    "translation": "",
+    "pos": 2031
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "55_5_3_7|",
+    "original": "if (dailyPurity + V.featsPurityBoost === 0) return \"You are not gaining purity daily.\";",
+    "translation": "",
+    "pos": 2119
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "56_5_3_7|",
+    "original": "return \"You are losing purity daily.\";",
+    "translation": "",
+    "pos": 2213
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "60_5_3_7|",
+    "original": "name: \"Impurity Boost\",",
+    "translation": "",
+    "pos": 2278
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "63_5_3_7|",
+    "original": "text: () => {",
+    "translation": "",
+    "pos": 2361
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "67_5_3_7|",
+    "original": "if (dailyPurity + V.featsPurityBoost > 0) return \"You are gaining less purity daily.\";",
+    "translation": "",
+    "pos": 2560
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "68_5_3_7|",
+    "original": "if (dailyPurity + V.featsPurityBoost === 0) return \"You are not gaining purity daily.\";",
+    "translation": "",
+    "pos": 2653
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "69_5_3_7|",
+    "original": "return \"You are losing purity daily.\";",
+    "translation": "",
+    "pos": 2747
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "73_5_3_7|",
+    "original": "name: \"Crossdresser\",",
+    "translation": "",
+    "pos": 2812
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "76_5_3_7|",
+    "original": "text: \"Stress decays faster while dressed as a girl, but slower when dressed as a boy.\",",
+    "translation": "",
+    "pos": 2940
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "79_5_3_7|",
+    "original": "name: \"Crossdresser\",",
+    "translation": "",
+    "pos": 3047
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "82_5_3_7|",
+    "original": "text: \"Stress decays faster while dressed as a boy, but slower when dressed as a girl.\",",
+    "translation": "",
+    "pos": 3176
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "85_5_3_7|",
+    "original": "name: \"Lustful\",",
+    "translation": "",
+    "pos": 3283
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "88_5_3_7|",
+    "original": "text: \"Arousal increases over time, and needs to be managed.\",",
+    "translation": "",
+    "pos": 3375
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "91_5_3_7|",
+    "original": "name: \"Green Thumb\",",
+    "translation": "",
+    "pos": 3456
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "94_5_3_7|",
+    "original": "text: \"More bountiful crops and no decay when using fertiliser.\",",
+    "translation": "",
+    "pos": 3556
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "97_5_3_7|",
+    "original": "name: () => V.submissive <= 850 ? \"Dendrophile\" : \"Plant Lover\",",
+    "translation": "",
+    "pos": 3640
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "100_5_3_7|",
+    "original": "text: \"Plants are everything to you. Plantpeople and plant-based tentacles no longer require hallucinations to encounter. You get a bonus to tending, as your trauma increases.\",",
+    "translation": "",
+    "pos": 3783
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "103_5_3_7|",
+    "original": "name: \"Nectar Addict\",",
+    "translation": "",
+    "pos": 3979
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "106_5_3_7|",
+    "original": "text: \"You're more vulnerable to aphrodisiacs and alcohol. You draw nourishment from nectar. Drinking it invigorates your body, improving physique and reducing stress. Failing to consume nectar for an extended period will take its toll on your body, and eventually cause this trait and the <<if $submissive lte 850>><span class='lewd'>Dendrophile</span><<else>><span class='lewd'>Plant Lover</span><</if>> trait to disappear.<span class='hidden'></span>\",",
+    "translation": "",
+    "pos": 4079
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "109_5_3_7|",
+    "original": "name: () => {",
+    "translation": "",
+    "pos": 4553
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "110_5_3_7|",
+    "original": "return \"Ear slime focus: \" + $earSlime.focus;",
+    "translation": "",
+    "pos": 4573
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "114_5_3_7|",
+    "original": "text: () => {",
+    "translation": "",
+    "pos": 4713
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "115_5_3_7|",
+    "original": "let result;",
+    "translation": "",
+    "pos": 4733
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "118_5_3_7|",
+    "original": "result = \"You chose the path of pregnancy, causing the ear slime to amplify traits related to becoming pregnant, while weakening other traits.\";",
+    "translation": "",
+    "pos": 4811
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "121_5_3_7|",
+    "original": "result = \"You chose to walk the path between pregnancy and impregnation, causing the ear slime to amplify traits related to both, to a lesser degree.\";",
+    "translation": "",
+    "pos": 5000
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "124_5_3_7|",
+    "original": "result = \"You chose the path of impregnation, causing the ear slime to amplify traits related to impregnating others, while weakening other traits.\";",
+    "translation": "",
+    "pos": 5203
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "136_5_3_7|",
+    "original": "if (parasites.length) result += ` Its parasites cover your ${formatList(parasites, \"and\", true)} like clothing.`;",
+    "translation": "",
+    "pos": 5774
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "137_5_3_7|",
+    "original": "return result;",
+    "translation": "",
+    "pos": 5894
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "141_5_3_7|",
+    "original": "name: \"Pregnant\",",
+    "translation": "",
+    "pos": 5961
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "144_5_3_7|",
+    "original": "text: () => playerBellySize() lt 10 or playerNormalPregnancyTotal() gte 50 ? \"You are with child.\" : \"You are with child. Some skills will suffer as your belly grows.\",",
+    "translation": "",
+    "pos": 6113
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "147_5_3_7|",
+    "original": "name: \"First Time Mother\",",
+    "translation": "",
+    "pos": 6312
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "150_5_3_7|",
+    "original": "text: \"You have given birth to your first child. Reduces the physical penalties for being pregnant.\",",
+    "translation": "",
+    "pos": 6410
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "153_5_3_7|",
+    "original": "name: \"Second Time Mother\",",
+    "translation": "",
+    "pos": 6530
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "156_5_3_7|",
+    "original": "text: \"You have given birth to children two times now. Reduces the physical penalties for being pregnant.\",",
+    "translation": "",
+    "pos": 6629
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "159_5_3_7|",
+    "original": "name: \"Mother\",",
+    "translation": "",
+    "pos": 6755
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "162_5_3_7|",
+    "original": "text: \"You have some good experiences of being a mother. Moderately reduces the physical penalties for being pregnant.\",",
+    "translation": "",
+    "pos": 6852
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "165_5_3_7|",
+    "original": "name: \"Broodmother\",",
+    "translation": "",
+    "pos": 6991
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "168_5_3_7|",
+    "original": "text: \"You have given birth to many, many children. Greatly reduces the physical penalties for being pregnant.\",",
+    "translation": "",
+    "pos": 7094
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "171_5_3_7|",
+    "original": "name: \"Gaia\",",
+    "translation": "",
+    "pos": 7225
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "174_5_3_7|",
+    "original": "text: \"You have given a birth to a veritable dynasty of children. No physical penalties for being pregnant.\",",
+    "translation": "",
+    "pos": 7312
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "177_5_3_7|",
+    "original": "name: \"Parasite Broodmother\",",
+    "translation": "",
+    "pos": 7440
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "180_5_3_7|",
+    "original": "text: \"You've become host to an endless number of little critters<<if $sexStats.anus.pregnancy.motherStatus is 2 and $sexStats.vagina.pregnancy.motherStatus is 2>> <span class='lewd'>in multiple places in your body</span><</if>><span class='hidden'></span>.\",",
+    "translation": "",
+    "pos": 7598
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "183_5_3_7|",
+    "original": "name: \"Parasite Mother\",",
+    "translation": "",
+    "pos": 7876
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "186_5_3_7|",
+    "original": "text: \"You have given birth to little critters<<if $sexStats.anus.pregnancy.motherStatus is 1 and $sexStats.vagina.pregnancy.motherStatus is 1>> <span class='lewd'>in multiple places in your body</span><</if>><span class='hidden'></span>.\",",
+    "translation": "",
+    "pos": 8129
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "189_5_3_7|",
+    "original": "name: \"Lactating\",",
+    "translation": "",
+    "pos": 8388
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "192_5_3_7|",
+    "original": "text: \"Your breasts are ready to be milked.\",",
+    "translation": "",
+    "pos": 8494
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "195_5_3_7|",
+    "original": "name: \"Milk Factory\",",
+    "translation": "",
+    "pos": 8558
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "198_5_3_7|",
+    "original": "text: \"Your breasts are able to hold a tremendous amount of milk.\",",
+    "translation": "",
+    "pos": 8693
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "201_5_3_7|",
+    "original": "name: \"Sperm Bank\",",
+    "translation": "",
+    "pos": 8779
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "204_5_3_7|",
+    "original": "text: \"You carry a tremendous amount of semen.\",",
+    "translation": "",
+    "pos": 8882
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "207_5_3_7|",
+    "original": "name: \"Possessed\",",
+    "translation": "",
+    "pos": 8949
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "210_5_3_7|",
+    "original": "text: \"Your body is not your own.\",",
+    "translation": "",
+    "pos": 9018
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "213_5_3_7|",
+    "original": "name: \"Wolf <<girl>>\",",
+    "translation": "",
+    "pos": 9072
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "216_5_3_7|",
+    "original": "text: \"The spirit of the wild lives within you, making you more defiant over time. Your ears and tail make you more conspicuous.\",",
+    "translation": "",
+    "pos": 9148
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "219_5_3_7|",
+    "original": "name: \"Cat <<girl>>\",",
+    "translation": "",
+    "pos": 9297
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "222_5_3_7|",
+    "original": "text: 'You have an urge to lap up cream. Unlocks the \"groom\" action while dancing with lewd fluid on your person. Your ears and tail make you more conspicuous.',",
+    "translation": "",
+    "pos": 9367
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "225_5_3_7|",
+    "original": "name: () => {",
+    "translation": "",
+    "pos": 9547
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "228_5_3_7|",
+    "original": "return \"Bull boy (female)\";",
+    "translation": "",
+    "pos": 9649
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "230_5_3_7|",
+    "original": "return \"Bull boy\";",
+    "translation": "",
+    "pos": 9693
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "233_5_3_7|",
+    "original": "return \"Cow girl (male)\";",
+    "translation": "",
+    "pos": 9768
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "235_5_3_7|",
+    "original": "return \"Cow girl\";",
+    "translation": "",
+    "pos": 9810
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "240_5_3_7|",
+    "original": "text: \"You yearn to be milked. Milk and semen volume is increased. Certain body parts might grow. Your horns, ears and tail make you more conspicuous.\",",
+    "translation": "",
+    "pos": 9893
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "243_5_3_7|",
+    "original": "name: () => V.hallucinations gte 2 || V.bestialitydisable is \"t\" ? \"Harpy\" : \"Bird <<girl>>\",",
+    "translation": "",
+    "pos": 10064
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "246_5_3_7|",
+    "original": "text: \"The skies call.\",",
+    "translation": "",
+    "pos": 10208
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "249_5_3_7|",
+    "original": "name: () => {",
+    "translation": "",
+    "pos": 10251
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "252_5_3_7|",
+    "original": "return \"Fox (female)\";",
+    "translation": "",
+    "pos": 10353
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "254_5_3_7|",
+    "original": "return \"Fox\";",
+    "translation": "",
+    "pos": 10392
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "257_5_3_7|",
+    "original": "return \"Vixen (male)\";",
+    "translation": "",
+    "pos": 10462
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "259_5_3_7|",
+    "original": "return \"Vixen\";",
+    "translation": "",
+    "pos": 10501
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "265_5_3_7|",
+    "original": "text: \"You have the urge to keep what's not yours. Improves skulduggery. Your ears and tail make you more alluring and attractive.\",",
+    "translation": "",
+    "pos": 10723
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "268_5_3_7|",
+    "original": "name: \"Fangs\",",
+    "translation": "",
+    "pos": 10874
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "271_5_3_7|",
+    "original": "text: \"Biting is three times as effective.\",",
+    "translation": "",
+    "pos": 10976
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "274_5_3_7|",
+    "original": "name: \"Sharp Eyes\",",
+    "translation": "",
+    "pos": 11039
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "277_5_3_7|",
+    "original": "text: \"Little escapes your notice. +5% skulduggery.\",",
+    "translation": "",
+    "pos": 11150
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "280_5_3_7|",
+    "original": "name: \"Heterochromia\",",
+    "translation": "",
+    "pos": 11222
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "284_5_3_7|",
+    "original": "text: \"Your eyes are two different colours.\",",
+    "translation": "",
+    "pos": 11551
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "287_5_3_7|",
+    "original": "name: \"Sturdy Horns\",",
+    "translation": "",
+    "pos": 11615
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "290_5_3_7|",
+    "original": "text: \"Headbutts no longer hurt you.\",",
+    "translation": "",
+    "pos": 11700
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "293_5_3_7|",
+    "original": "name: \"Mate For Life\",",
+    "translation": "",
+    "pos": 11757
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "297_5_3_7|",
+    "original": "text: \"Gain bonuses when sleeping or copulating with your Love Interest. Changing Love Interests causes stress and trauma.\",",
+    "translation": "",
+    "pos": 12016
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "300_5_3_7|",
+    "original": "name: \"Fallen angel\",",
+    "translation": "",
+    "pos": 12159
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "303_5_3_7|",
+    "original": "text: 'The world is so cruel. Though you feel less pure by the day, you will not relinquish yourself. Unlocks the \"disparage\" action.',",
+    "translation": "",
+    "pos": 12238
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "306_5_3_7|",
+    "original": "name: \"Fallen angel\",",
+    "translation": "",
+    "pos": 12392
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "309_5_3_7|",
+    "original": "text: \"The world is so cruel. You feel less pure by the day.\",",
+    "translation": "",
+    "pos": 12470
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "312_5_3_7|",
+    "original": "name: \"Angel\",",
+    "translation": "",
+    "pos": 12551
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "315_5_3_7|",
+    "original": "text: 'You radiate purity. Unlocks the \"forgive\" action once per encounter, removing any trauma gained so far. Beware, losing your virginity will remove this trait and leave you broken.',",
+    "translation": "",
+    "pos": 12616
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "318_5_3_7|",
+    "original": "name: () => {",
+    "translation": "",
+    "pos": 12822
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "321_5_3_7|",
+    "original": "return \"Incubus (female)\";",
+    "translation": "",
+    "pos": 12924
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "323_5_3_7|",
+    "original": "return \"Incubus\";",
+    "translation": "",
+    "pos": 12967
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "326_5_3_7|",
+    "original": "return \"Succubus (male)\";",
+    "translation": "",
+    "pos": 13041
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "328_5_3_7|",
+    "original": "return \"Succubus\";",
+    "translation": "",
+    "pos": 13083
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "333_5_3_7|",
+    "original": "text: \"You're devoid of purity. You lose trauma when something cums inside you, or you cum inside something else. Tentacles reduce stress and pain instead of trauma. Beware, ending a day with anything but minimum purity will be very stressful.\",",
+    "translation": "",
+    "pos": 13167
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "336_5_3_7|",
+    "original": "name: \"Radiant\",",
+    "translation": "",
+    "pos": 13431
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "339_5_3_7|",
+    "original": "text: 'You are pure. Unlocks the \"banish\" action a number of times per day based on your angelicness, dealing heavy damage to a tentacle. Its strength is greatly increased while at maximum purity. Uses remaining today: ($angelBanish / $angelBanishMax)',",
+    "translation": "",
+    "pos": 13498
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "342_5_3_7|",
+    "original": "name: \"Dark Horns\",",
+    "translation": "",
+    "pos": 13770
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "345_5_3_7|",
+    "original": "text: \"Headbutts deal twice as much damage.\",",
+    "translation": "",
+    "pos": 13853
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "348_5_3_7|",
+    "original": "name: \"Compound Horns\",",
+    "translation": "",
+    "pos": 13917
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "351_5_3_7|",
+    "original": "text: \"Your headbutts are vicious. Headbutts are four times as powerful, and no longer hurt you.\",",
+    "translation": "",
+    "pos": 14005
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "354_5_3_7|",
+    "original": "name: \"Strong Wings\",",
+    "translation": "",
+    "pos": 14122
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "357_5_3_7|",
+    "original": "text: \"Can glide from high locations. Can fly where the wind is willing.\",",
+    "translation": "",
+    "pos": 14213
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "360_5_3_7|",
+    "original": "name: \"Wings\",",
+    "translation": "",
+    "pos": 14306
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "363_5_3_7|",
+    "original": "text: \"Can glide from high locations.\",",
+    "translation": "",
+    "pos": 14466
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "366_5_3_7|",
+    "original": "name: \"Meek\",",
+    "translation": "",
+    "pos": 14524
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "369_5_3_7|",
+    "original": "text: 'Unlocks the \"Moan\" action.',",
+    "translation": "",
+    "pos": 14620
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "372_5_3_7|",
+    "original": "name: \"Submissive\",",
+    "translation": "",
+    "pos": 14674
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "375_5_3_7|",
+    "original": "text: 'Unlocks the \"Moan\" action.',",
+    "translation": "",
+    "pos": 14751
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "378_5_3_7|",
+    "original": "name: \"Bratty\",",
+    "translation": "",
+    "pos": 14805
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "381_5_3_7|",
+    "original": "text: 'Unlocks the \"Demand\" action.',",
+    "translation": "",
+    "pos": 14901
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "384_5_3_7|",
+    "original": "name: \"Defiant\",",
+    "translation": "",
+    "pos": 14957
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "387_5_3_7|",
+    "original": "text: 'Unlocks the \"Demand\" action.',",
+    "translation": "",
+    "pos": 15030
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "390_5_3_7|",
+    "original": "name: \"Innocent\",",
+    "translation": "",
+    "pos": 15086
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "393_5_3_7|",
+    "original": "text: \"You're flattered that so many people want to spend time with you. This trait will disappear should you run out of innocence, and any trauma you've accumulated will be applied. Being attacked and low control will reduce innocence.\",",
+    "translation": "",
+    "pos": 15162
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "396_5_3_7|",
+    "original": "name: \"Guilty Masochist\",",
+    "translation": "",
+    "pos": 15419
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "399_5_3_7|",
+    "original": "text: \"Provides a small resistance to most sources of pain. Those sources increase arousal instead.\",",
+    "translation": "",
+    "pos": 15504
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "402_5_3_7|",
+    "original": "name: \"Masochist\",",
+    "translation": "",
+    "pos": 15624
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "405_5_3_7|",
+    "original": "text: \"Provides resistance to most sources of pain. Those sources increase arousal instead.\",",
+    "translation": "",
+    "pos": 15704
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "408_5_3_7|",
+    "original": "name: \"Hardened Masochist\",",
+    "translation": "",
+    "pos": 15816
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "411_5_3_7|",
+    "original": "text: \"Provides strong resistance to most sources of pain. Those sources increase arousal instead.\",",
+    "translation": "",
+    "pos": 15903
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "414_5_3_7|",
+    "original": "name: \"Drooling Masochist\",",
+    "translation": "",
+    "pos": 16022
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "417_5_3_7|",
+    "original": "text: \"Provides incredible resistance to most sources of pain. Those sources increase arousal instead.\",",
+    "translation": "",
+    "pos": 16108
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "420_5_3_7|",
+    "original": "name: \"Guilty Sadist\",",
+    "translation": "",
+    "pos": 16231
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "423_5_3_7|",
+    "original": "text: \"Your defiant acts inflict a little more pain. Inflicting pain increases arousal.\",",
+    "translation": "",
+    "pos": 16310
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "426_5_3_7|",
+    "original": "name: \"Sadist\",",
+    "translation": "",
+    "pos": 16418
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "429_5_3_7|",
+    "original": "text: \"Your defiant acts inflict more pain. Inflicting pain increases arousal.\",",
+    "translation": "",
+    "pos": 16492
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "432_5_3_7|",
+    "original": "name: \"Hardened Sadist\",",
+    "translation": "",
+    "pos": 16591
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "435_5_3_7|",
+    "original": "text: \"Your defiant acts inflict much more pain. Inflicting pain increases arousal.\",",
+    "translation": "",
+    "pos": 16672
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "438_5_3_7|",
+    "original": "name: \"Vengeful Sadist\",",
+    "translation": "",
+    "pos": 16776
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "441_5_3_7|",
+    "original": "text: \"Your defiant acts are far more dangerous. Inflicting pain increases arousal.\",",
+    "translation": "",
+    "pos": 16856
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "444_5_3_7|",
+    "original": "name: \"Farmer\",",
+    "translation": "",
+    "pos": 16960
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "447_5_3_7|",
+    "original": "text: \"You know your way around a barn. Your physique is easier to maintain.\",",
+    "translation": "",
+    "pos": 17032
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "450_5_3_7|",
+    "original": "name: \"Knowledge: Islander language\",",
+    "translation": "",
+    "pos": 17129
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "453_5_3_7|",
+    "original": "text: \"You can understand and speak the tongue of the islanders.\",",
+    "translation": "",
+    "pos": 17227
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "456_5_3_7|",
+    "original": "name: \"Knowledge: Quicksand\",",
+    "translation": "",
+    "pos": 17312
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "459_5_3_7|",
+    "original": "text: \"You know how to react when stuck in the stuff.\",",
+    "translation": "",
+    "pos": 17392
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "464_5_3_7|",
+    "original": "title: \"Medicinal Traits\",",
+    "translation": "",
+    "pos": 17473
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "467_5_3_7|",
+    "original": "name: \"Hair Growth Formula\",",
+    "translation": "",
+    "pos": 17524
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "470_5_3_7|",
+    "original": "text: () => {",
+    "translation": "",
+    "pos": 17676
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "471_5_3_7|",
+    "original": "return `A hair growth formula has been applied, to encourage faster hair growth. ${_pills[\"Hair Growth Formula\"].doseTaken} day${_pills[\"Hair Growth Formula\"].doseTaken is 1 ? \"\" : \"s\"} remaining.`;",
+    "translation": "",
+    "pos": 17696
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "475_5_3_7|",
+    "original": "name: \"Anti-Parasite Cream\",",
+    "translation": "",
+    "pos": 17920
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "478_5_3_7|",
+    "original": "text: () => {",
+    "translation": "",
+    "pos": 18072
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "479_5_3_7|",
+    "original": "return `A parasite-repelling cream, preventing further internal parasite impregnation. ${_pills[\"Anti-Parasite Cream\"].doseTaken} day${_pills[\"Anti-Parasite Cream\"].doseTaken is 1 ? \"\" : \"s\"} remaining.`;",
+    "translation": "",
+    "pos": 18092
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "483_5_3_7|",
+    "original": "name: \"Fertility booster\",",
+    "translation": "",
+    "pos": 18322
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "486_5_3_7|",
+    "original": "text: () => {",
+    "translation": "",
+    "pos": 18467
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "487_5_3_7|",
+    "original": "let result = `You have ${_pills[\"fertility booster\"].doseTaken gte 2 ? \"overdosed on pills\" : \"taken a pill\"} that `;",
+    "translation": "",
+    "pos": 18487
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "493_5_3_7|",
+    "original": "result += \"makes it easier for you to get pregnant with more children\";",
+    "translation": "",
+    "pos": 18821
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "497_5_3_7|",
+    "original": "if (multiple) result += \" and \";",
+    "translation": "",
+    "pos": 18994
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "498_5_3_7|",
+    "original": "result += \"makes your sperm more virile\";",
+    "translation": "",
+    "pos": 19034
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "501_5_3_7|",
+    "original": "result += \"currently has no effect on you\";",
+    "translation": "",
+    "pos": 19115
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "503_5_3_7|",
+    "original": "result += `. ${_pills[\"fertility booster\"].doseTaken} day${_pills[\"fertility booster\"].doseTaken is 1 ? \"\" : \"s\"} remaining.`;",
+    "translation": "",
+    "pos": 19173
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "505_5_3_7|",
+    "original": "return result;",
+    "translation": "",
+    "pos": 19307
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "509_5_3_7|",
+    "original": "name: \"Contraceptive\",",
+    "translation": "",
+    "pos": 19347
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "512_5_3_7|",
+    "original": "text: () => {",
+    "translation": "",
+    "pos": 19481
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "513_5_3_7|",
+    "original": "let result = `You have ${_pills[\"contraceptive\"].doseTaken gte 2 ? \"overdosed on pills\" : \"taken a pill\"} that `;",
+    "translation": "",
+    "pos": 19501
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "519_5_3_7|",
+    "original": "result += \"makes it harder for you to get pregnant\";",
+    "translation": "",
+    "pos": 19806
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "523_5_3_7|",
+    "original": "if (multiple) result += \" and \";",
+    "translation": "",
+    "pos": 19960
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "524_5_3_7|",
+    "original": "result += \"makes your sperm less virile\";",
+    "translation": "",
+    "pos": 20000
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "527_5_3_7|",
+    "original": "result += \"currently has no effect on you\";",
+    "translation": "",
+    "pos": 20081
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "529_5_3_7|",
+    "original": "result += `. ${_pills[\"contraceptive\"].doseTaken} day${_pills[\"contraceptive\"].doseTaken is 1 ? \"\" : \"s\"} remaining.`;",
+    "translation": "",
+    "pos": 20139
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "531_5_3_7|",
+    "original": "return result;",
+    "translation": "",
+    "pos": 20265
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "535_5_3_7|",
+    "original": "name: \"Penis blocker pills\",",
+    "translation": "",
+    "pos": 20305
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "538_5_3_7|",
+    "original": "text: () => {",
+    "translation": "",
+    "pos": 20445
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "539_5_3_7|",
+    "original": "let result = `You have taken a pill that`;",
+    "translation": "",
+    "pos": 20465
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "541_5_3_7|",
+    "original": "result += \" prevents the re-sizing of your penis.\";",
+    "translation": "",
+    "pos": 20547
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "543_5_3_7|",
+    "original": "result += \" has no effect on you.\";",
+    "translation": "",
+    "pos": 20621
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "545_5_3_7|",
+    "original": "return result;",
+    "translation": "",
+    "pos": 20671
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "549_5_3_7|",
+    "original": "name: \"Penis growth pills\",",
+    "translation": "",
+    "pos": 20711
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "552_5_3_7|",
+    "original": "text: () => {",
+    "translation": "",
+    "pos": 20848
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "553_5_3_7|",
+    "original": "let result = `You have ${_pills[\"penis growth\"].doseTaken gte 2 ? \"overdosed on\" : \"taken\"} pills that `;",
+    "translation": "",
+    "pos": 20868
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "555_5_3_7|",
+    "original": "result += \" encourages the growth of your penis.\";",
+    "translation": "",
+    "pos": 21013
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "557_5_3_7|",
+    "original": "result += \" that has no effect on you.\";",
+    "translation": "",
+    "pos": 21086
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "559_5_3_7|",
+    "original": "return result;",
+    "translation": "",
+    "pos": 21141
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "563_5_3_7|",
+    "original": "name: \"Penis reduction pills\",",
+    "translation": "",
+    "pos": 21181
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "566_5_3_7|",
+    "original": "text: () => {",
+    "translation": "",
+    "pos": 21327
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "567_5_3_7|",
+    "original": "let result = `You have ${_pills[\"penis reduction\"].doseTaken gte 2 ? \"overdosed on\" : \"taken\"} pills that `;",
+    "translation": "",
+    "pos": 21347
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "569_5_3_7|",
+    "original": "result += \" encourages the shrinking of your penis.\";",
+    "translation": "",
+    "pos": 21495
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "571_5_3_7|",
+    "original": "result += \" that has no effect on you.\";",
+    "translation": "",
+    "pos": 21571
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "573_5_3_7|",
+    "original": "return result;",
+    "translation": "",
+    "pos": 21626
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "577_5_3_7|",
+    "original": "name: \"Breast blocker pills\",",
+    "translation": "",
+    "pos": 21666
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "580_5_3_7|",
+    "original": "text: \"You have taken a pill that prevents the re-sizing of your breasts.\",",
+    "translation": "",
+    "pos": 21809
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "583_5_3_7|",
+    "original": "name: \"Breast growth pills\",",
+    "translation": "",
+    "pos": 21903
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "586_5_3_7|",
+    "original": "text: `You have ${_pills and _pills[\"breast growth\"].doseTaken gte 2 ? \"overdosed on\" : \"taken\"} a pill that encourages the growth of your breasts.`,",
+    "translation": "",
+    "pos": 22043
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "589_5_3_7|",
+    "original": "name: \"Breast reduction pills\",",
+    "translation": "",
+    "pos": 22211
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "592_5_3_7|",
+    "original": "text: `You have ${_pills and _pills[\"breast reduction\"].doseTaken gte 2 ? \"overdosed on\" : \"taken\"} a pill that encourages the shrinking of your breasts.`,",
+    "translation": "",
+    "pos": 22360
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "595_5_3_7|",
+    "original": "name: \"Bottom blocker pills\",",
+    "translation": "",
+    "pos": 22534
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "598_5_3_7|",
+    "original": "text: \"You have taken a pill that prevents the re-sizing of your bottom.\",",
+    "translation": "",
+    "pos": 22677
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "601_5_3_7|",
+    "original": "name: \"Bottom growth pills\",",
+    "translation": "",
+    "pos": 22770
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "604_5_3_7|",
+    "original": "text: `You have ${_pills and _pills[\"bottom growth\"].doseTaken gte 2 ? \"overdosed on\" : \"taken\"} a pill that encourages the growth of your bottom.`,",
+    "translation": "",
+    "pos": 22910
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "607_5_3_7|",
+    "original": "name: \"Bottom reduction pills\",",
+    "translation": "",
+    "pos": 23077
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "610_5_3_7|",
+    "original": "text: `You have ${_pills and _pills[\"bottom reduction\"].doseTaken gte 2 ? \"overdosed on\" : \"taken\"} a pill that encourages the shrinking of your bottom.`,",
+    "translation": "",
+    "pos": 23226
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "615_5_3_7|",
+    "original": "title: \"Special Traits\",",
+    "translation": "",
+    "pos": 23405
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "618_5_3_7|",
+    "original": "name: () => V.submissive <= 850 ? \"Hedonist\" : \"Orgasm Addict\",",
+    "translation": "",
+    "pos": 23454
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "621_5_3_7|",
+    "original": "text: \"So many orgasms has had a physiological effect. Cumming is more difficult but pleasurable orgasms relieve more stress and painful orgasms no longer increase stress.\",",
+    "translation": "",
+    "pos": 23574
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "624_5_3_7|",
+    "original": "name: \"Asphyxiophilia\",",
+    "translation": "",
+    "pos": 23766
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "627_5_3_7|",
+    "original": "text: \"You've come to love the feeling of lack of oxygen. Getting choked makes sex more pleasurable.\",",
+    "translation": "",
+    "pos": 23845
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "630_5_3_7|",
+    "original": "name: () => V.submissive <= 850 ? \"Cumoisseur\" : \"Cum Dump\",",
+    "translation": "",
+    "pos": 23966
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "633_5_3_7|",
+    "original": "text: \"You've become accustomed to the scent of ejaculate and can take advantage of its calming effect. Your stress is reduced hourly depending on how much slime and semen covers you.\",",
+    "translation": "",
+    "pos": 24081
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "636_5_3_7|",
+    "original": "name: () => V.submissive <= 850 ? \"Graceful\" : \"Plaything\",",
+    "translation": "",
+    "pos": 24285
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "639_5_3_7|",
+    "original": "text: \"You've learned to better cope with psychological trauma. Being molested no longer removes your sense of control (rape still does).\",",
+    "translation": "",
+    "pos": 24401
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "642_5_3_7|",
+    "original": "name: () => V.submissive <= 850 ? \"Survivor\" : \"Fucktoy\",",
+    "translation": "",
+    "pos": 24559
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "645_5_3_7|",
+    "original": "text: \"You've been raped so much that you've learned how to cope. Trauma increases more slowly.\",",
+    "translation": "",
+    "pos": 24671
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "648_5_3_7|",
+    "original": "name: () => V.submissive <= 850 ? \"Tamer\" : \"Bitch\",",
+    "translation": "",
+    "pos": 24787
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "651_5_3_7|",
+    "original": "text: \"Animals have tried to <<if $pregnancyspeechdisable is 'f'>>breed<<else>>mate<</if>> with you so often that you're used to it. Trauma increases more slowly when attacked by animals.\",",
+    "translation": "",
+    "pos": 24900
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "654_5_3_7|",
+    "original": "name: () => V.submissive <= 850 ? \"Witch\" : \"Prey\",",
+    "translation": "",
+    "pos": 25108
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "657_5_3_7|",
+    "original": "text: \"Many tentacles have had their way with your body. Trauma increases more slowly when attacked by tentacles.\",",
+    "translation": "",
+    "pos": 25218
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "660_5_3_7|",
+    "original": "name: () => V.submissive <= 850 ? \"Daredevil\" : \"Tasty\",",
+    "translation": "",
+    "pos": 25352
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "663_5_3_7|",
+    "original": "text: \"You've found your way into the belly of many a creature. They'll have a harder time swallowing you as they savour your taste.\",",
+    "translation": "",
+    "pos": 25463
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "666_5_3_7|",
+    "original": "name: () => V.submissive <= 850 ? \"Milk Enthusiast\" : \"Milk Addict\",",
+    "translation": "",
+    "pos": 25616
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "669_5_3_7|",
+    "original": "text: \"You take full advantage of the nutrition in fresh breast milk. Drinking it invigorates your body, improving physique.\",",
+    "translation": "",
+    "pos": 25744
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "674_5_3_7|",
+    "original": "title: \"School Traits\",",
+    "translation": "",
+    "pos": 25896
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "677_5_3_7|",
+    "original": "name: \"Passable Science\",",
+    "translation": "",
+    "pos": 25944
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "680_5_3_7|",
+    "original": "text: \"Pain is slightly easier to cope with.\",",
+    "translation": "",
+    "pos": 26026
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "683_5_3_7|",
+    "original": "name: \"Decent Science\",",
+    "translation": "",
+    "pos": 26091
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "686_5_3_7|",
+    "original": "text: \"Pain is moderately easier to cope with.\",",
+    "translation": "",
+    "pos": 26172
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "689_5_3_7|",
+    "original": "name: \"Good Science\",",
+    "translation": "",
+    "pos": 26239
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "692_5_3_7|",
+    "original": "text: \"Pain is easier to cope with.\",",
+    "translation": "",
+    "pos": 26317
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "695_5_3_7|",
+    "original": "name: \"Excellent Science\",",
+    "translation": "",
+    "pos": 26373
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "698_5_3_7|",
+    "original": "text: \"Pain is much easier to cope with.\",",
+    "translation": "",
+    "pos": 26457
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "701_5_3_7|",
+    "original": "name: \"Passable Maths\",",
+    "translation": "",
+    "pos": 26518
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "704_5_3_7|",
+    "original": "text: \"You make 25% more from tips and negotiated fees.\",",
+    "translation": "",
+    "pos": 26596
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "707_5_3_7|",
+    "original": "name: \"Decent Maths\",",
+    "translation": "",
+    "pos": 26672
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "710_5_3_7|",
+    "original": "text: \"You make 50% more from tips and negotiated fees.\",",
+    "translation": "",
+    "pos": 26749
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "713_5_3_7|",
+    "original": "name: \"Good Maths\",",
+    "translation": "",
+    "pos": 26825
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "716_5_3_7|",
+    "original": "text: \"You make 75% more from tips and negotiated fees.\",",
+    "translation": "",
+    "pos": 26899
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "719_5_3_7|",
+    "original": "name: \"Excellent Maths\",",
+    "translation": "",
+    "pos": 26975
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "722_5_3_7|",
+    "original": "text: \"You make 100% more from tips and negotiated fees.\",",
+    "translation": "",
+    "pos": 27055
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "725_5_3_7|",
+    "original": "name: \"Passable English\",",
+    "translation": "",
+    "pos": 27132
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "728_5_3_7|",
+    "original": "text: \"Speech actions (plead, moan, demand, apologise, mock, tease, ask to be more rough) are twice as effective.\",",
+    "translation": "",
+    "pos": 27214
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "731_5_3_7|",
+    "original": "name: \"Decent English\",",
+    "translation": "",
+    "pos": 27348
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "734_5_3_7|",
+    "original": "text: \"Speech actions (plead, moan, demand, apologise, mock, tease, ask to be more rough) are three times as effective.\",",
+    "translation": "",
+    "pos": 27429
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "737_5_3_7|",
+    "original": "name: \"Good English\",",
+    "translation": "",
+    "pos": 27569
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "740_5_3_7|",
+    "original": "text: \"Speech actions (plead, moan, demand, apologise, mock, tease, ask to be more rough) are four times as effective.\",",
+    "translation": "",
+    "pos": 27647
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "743_5_3_7|",
+    "original": "name: \"Excellent English\",",
+    "translation": "",
+    "pos": 27786
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "746_5_3_7|",
+    "original": "text: \"Speech actions (plead, moan, demand, apologise, mock, tease, ask to be more rough) are five times as effective.\",",
+    "translation": "",
+    "pos": 27870
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "749_5_3_7|",
+    "original": "name: \"Passable History\",",
+    "translation": "",
+    "pos": 28009
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "752_5_3_7|",
+    "original": "text: \"You know there are secret paths around town.\",",
+    "translation": "",
+    "pos": 28091
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "755_5_3_7|",
+    "original": "name: \"Decent History\",",
+    "translation": "",
+    "pos": 28163
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "758_5_3_7|",
+    "original": "text: \"You know of a few secret paths around town.\",",
+    "translation": "",
+    "pos": 28244
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "761_5_3_7|",
+    "original": "name: \"Good History\",",
+    "translation": "",
+    "pos": 28315
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "764_5_3_7|",
+    "original": "text: \"You know of several secret paths around town.\",",
+    "translation": "",
+    "pos": 28393
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "767_5_3_7|",
+    "original": "name: \"Excellent History\",",
+    "translation": "",
+    "pos": 28466
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "770_5_3_7|",
+    "original": "text: \"You know of many secret paths around town.\",",
+    "translation": "",
+    "pos": 28550
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "773_5_3_7|",
+    "original": "name: \"Okay at school\",",
+    "translation": "",
+    "pos": 28620
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "776_5_3_7|",
+    "original": "text: \"Your performance at school has improved your self-esteem, slightly increasing your daily trauma decay.\",",
+    "translation": "",
+    "pos": 28699
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "779_5_3_7|",
+    "original": "name: \"Decent at school\",",
+    "translation": "",
+    "pos": 28829
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "782_5_3_7|",
+    "original": "text: \"Your performance at school has improved your self-esteem, moderately increasing your daily trauma decay.\",",
+    "translation": "",
+    "pos": 28911
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "785_5_3_7|",
+    "original": "name: \"Good at school\",",
+    "translation": "",
+    "pos": 29043
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "788_5_3_7|",
+    "original": "text: \"Your performance at school has improved your self-esteem, increasing your daily trauma decay.\",",
+    "translation": "",
+    "pos": 29122
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "791_5_3_7|",
+    "original": "name: \"Excellent at school\",",
+    "translation": "",
+    "pos": 29243
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "794_5_3_7|",
+    "original": "text: \"Your performance at school has improved your self-esteem, greatly increasing your daily trauma decay.\",",
+    "translation": "",
+    "pos": 29328
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "797_5_3_7|",
+    "original": "name: \"Science Fair Winner\",",
+    "translation": "",
+    "pos": 29457
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "802_5_3_7|",
+    "original": "name: \"Maths Competition Winner\",",
+    "translation": "",
+    "pos": 29561
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "807_5_3_7|",
+    "original": "name: \"Stage Play Performer\",",
+    "translation": "",
+    "pos": 29668
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "814_5_3_7|",
+    "original": "title: \"Trauma Traits\",",
+    "translation": "",
+    "pos": 29778
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "817_5_3_7|",
+    "original": "name: () => V.controlled === 0 ? \"Insomnia\" : \"Controlled Insomnia\",",
+    "translation": "",
+    "pos": 29826
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "820_5_3_7|",
+    "original": "text: \"Sleep less effective.\",",
+    "translation": "",
+    "pos": 29987
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "824_5_3_7|",
+    "original": "name: () => V.controlled === 0 ? \"Nightmares\" : \"Controlled Nightmares\",",
+    "translation": "",
+    "pos": 30097
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "827_5_3_7|",
+    "original": "text: \"Sleep is stressful.\",",
+    "translation": "",
+    "pos": 30260
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "831_5_3_7|",
+    "original": "name: () => V.controlled === 0 ? \"Anxiety Disorder\" : \"Controlled Anxiety Disorder\",",
+    "translation": "",
+    "pos": 30368
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "834_5_3_7|",
+    "original": "text: \"Stress won't automatically decrease over time.\",",
+    "translation": "",
+    "pos": 30540
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "838_5_3_7|",
+    "original": "name: () => V.controlled === 0 ? \"Severe Anxiety Disorder\" : \"Controlled Severe Anxiety Disorder\",",
+    "translation": "",
+    "pos": 30675
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "841_5_3_7|",
+    "original": "text: \"Stress increases over time.\",",
+    "translation": "",
+    "pos": 30861
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "845_5_3_7|",
+    "original": "name: () => V.controlled === 0 ? \"Flashbacks\" : \"Controlled Flashbacks\",",
+    "translation": "",
+    "pos": 30977
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "848_5_3_7|",
+    "original": "text: \"May relive nasty experiences.\",",
+    "translation": "",
+    "pos": 31140
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "852_5_3_7|",
+    "original": "name: () => V.controlled === 0 ? \"Panic Attacks\" : \"Controlled Panic Attacks\",",
+    "translation": "",
+    "pos": 31258
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "855_5_3_7|",
+    "original": "text: \"Chance of paralysis.\",",
+    "translation": "",
+    "pos": 31429
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "859_5_3_7|",
+    "original": "name: () => V.controlled === 0 ? \"Severe Panic Attacks\" : \"Controlled Severe Panic Attacks\",",
+    "translation": "",
+    "pos": 31538
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "862_5_3_7|",
+    "original": "text: \"Chance of uncontrollable violent outbursts.\",",
+    "translation": "",
+    "pos": 31723
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "866_5_3_7|",
+    "original": "name: () => V.controlled === 0 ? \"Hallucinations\" : \"Controlled Hallucinations\",",
+    "translation": "",
+    "pos": 31855
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "869_5_3_7|",
+    "original": "text: \"More dangers during encounters.\",",
+    "translation": "",
+    "pos": 32030
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "873_5_3_7|",
+    "original": "name: () => V.controlled === 0 ? \"Severe Hallucinations\" : \"Controlled Severe Hallucinations\",",
+    "translation": "",
+    "pos": 32150
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "876_5_3_7|",
+    "original": "text: \"More dangerous world.\",",
+    "translation": "",
+    "pos": 32339
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "880_5_3_7|",
+    "original": "name: \"Visibly Disturbed\",",
+    "translation": "",
+    "pos": 32449
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "883_5_3_7|",
+    "original": "text: \"There's something wrong with you, and people can tell.\",",
+    "translation": "",
+    "pos": 32532
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "887_5_3_7|",
+    "original": "name: () => V.controlled === 0 ? \"Dissociation\" : \"Controlled Dissociation\",",
+    "translation": "",
+    "pos": 32638
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "890_5_3_7|",
+    "original": "text: \"Nothing feels real.\",",
+    "translation": "",
+    "pos": 32807
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "896_5_3_7|",
+    "original": "title: \"NPC Traits\",",
+    "translation": "",
+    "pos": 32922
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "899_5_3_7|",
+    "original": "name: \"Robin's Protector\",",
+    "translation": "",
+    "pos": 32967
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "902_5_3_7|",
+    "original": "text: \"Robin is dependent on you. You need to be strong. Increases daily trauma decay.\",",
+    "translation": "",
+    "pos": 33049
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "905_5_3_7|",
+    "original": "name: \"Stockholm Syndrome: Eden\",",
+    "translation": "",
+    "pos": 33156
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "908_5_3_7|",
+    "original": "text: \"It must be lonely living on your own in the woods.\",",
+    "translation": "",
+    "pos": 33248
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "912_5_3_7|",
+    "original": "name: \"Stockholm Syndrome: Kylar\",",
+    "translation": "",
+    "pos": 33350
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "915_5_3_7|",
+    "original": "text: \"Everyone deserves a friend.\",",
+    "translation": "",
+    "pos": 33508
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "919_5_3_7|",
+    "original": "name: () => V.bestialitydisable === \"f\" ? \"Stockholm Syndrome: Wolves\" : \"Stockholm Syndrome: Wolf People\",",
+    "translation": "",
+    "pos": 33587
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "922_5_3_7|",
+    "original": "text: () => V.bestialitydisable === \"f\" ? \"They're just cute animals.\" : \"They're just cute monsters.\",",
+    "translation": "",
+    "pos": 33755
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "926_5_3_7|",
+    "original": "name: \"Stockholm Syndrome: Great Hawk\",",
+    "translation": "",
+    "pos": 33901
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "929_5_3_7|",
+    "original": "text: () => V.greathawkmonster === 2 || V.bestialitydisable === \"t\" ? \"<<nnpc_He 'Great Hawk'>> only wants a mate.\" : \"It only wants a mate.\",",
+    "translation": "",
+    "pos": 33999
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "935_5_3_7|",
+    "original": "title: \"Hypnosis Traits\",",
+    "translation": "",
+    "pos": 34191
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "938_5_3_7|",
+    "original": "name: \"Hypnotic Suggestion\",",
+    "translation": "",
+    "pos": 34241
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "941_5_3_7|",
+    "original": "text: \"Doctor Harper told you to do something, but you can't remember what.\",",
+    "translation": "",
+    "pos": 34323
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "944_5_3_7|",
+    "original": "name: \"Hypnotic Yearning\",",
+    "translation": "",
+    "pos": 34419
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "947_5_3_7|",
+    "original": "text: \"May beg for rougher treatment instead of screaming.\",",
+    "translation": "",
+    "pos": 34513
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "950_5_3_7|",
+    "original": "name: \"Bewitched Yearning\",",
+    "translation": "",
+    "pos": 34592
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "953_5_3_7|",
+    "original": "text: \"Will sometimes beg for rougher treatment instead of screaming.\",",
+    "translation": "",
+    "pos": 34686
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "956_5_3_7|",
+    "original": "name: \"Beguiled Yearning\",",
+    "translation": "",
+    "pos": 34776
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "959_5_3_7|",
+    "original": "text: \"Will usually beg for rougher treatment instead of screaming.\",",
+    "translation": "",
+    "pos": 34871
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "962_5_3_7|",
+    "original": "name: \"Mesmeric Yearning\",",
+    "translation": "",
+    "pos": 34959
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "965_5_3_7|",
+    "original": "text: \"Will often beg for rougher treatment instead of screaming.\",",
+    "translation": "",
+    "pos": 35052
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "968_5_3_7|",
+    "original": "name: \"Sublime Yearning\",",
+    "translation": "",
+    "pos": 35138
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "971_5_3_7|",
+    "original": "text: \"Will beg for rougher treatment instead of screaming.\",",
+    "translation": "",
+    "pos": 35229
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "974_5_3_7|",
+    "original": "name: \"Hypnotic Flaunting\",",
+    "translation": "",
+    "pos": 35309
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "977_5_3_7|",
+    "original": "text: \"May flaunt your body parts instead of covering them.\",",
+    "translation": "",
+    "pos": 35403
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "980_5_3_7|",
+    "original": "name: \"Bewitched Flaunting\",",
+    "translation": "",
+    "pos": 35483
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "983_5_3_7|",
+    "original": "text: \"Will sometimes flaunt your body parts instead of covering them.\",",
+    "translation": "",
+    "pos": 35577
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "986_5_3_7|",
+    "original": "name: \"Beguiled Flaunting\",",
+    "translation": "",
+    "pos": 35668
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "989_5_3_7|",
+    "original": "text: \"Will usually flaunt your body parts instead of covering them.\",",
+    "translation": "",
+    "pos": 35763
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "992_5_3_7|",
+    "original": "name: \"Mesmeric Flaunting\",",
+    "translation": "",
+    "pos": 35852
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "995_5_3_7|",
+    "original": "text: \"Will often flaunt your body parts instead of covering them.\",",
+    "translation": "",
+    "pos": 35945
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "998_5_3_7|",
+    "original": "name: \"Sublime Flaunting\",",
+    "translation": "",
+    "pos": 36032
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "1001_5_3_7|",
+    "original": "text: \"Will flaunt your body parts instead of covering them.\",",
+    "translation": "",
+    "pos": 36123
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "1004_5_3_7|",
+    "original": "name: \"Hypnotic Deviancy\",",
+    "translation": "",
+    "pos": 36204
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "1007_5_3_7|",
+    "original": "text: \"May provoke beasts at the start of encounters.\",",
+    "translation": "",
+    "pos": 36300
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "1010_5_3_7|",
+    "original": "name: \"Bewitched Deviancy\",",
+    "translation": "",
+    "pos": 36374
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "1013_5_3_7|",
+    "original": "text: \"Will sometimes provoke beasts at the start of encounters.\",",
+    "translation": "",
+    "pos": 36470
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "1016_5_3_7|",
+    "original": "name: \"Beguiled Deviancy\",",
+    "translation": "",
+    "pos": 36555
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "1019_5_3_7|",
+    "original": "text: \"Will usually provoke beasts at the start of encounters.\",",
+    "translation": "",
+    "pos": 36652
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "1022_5_3_7|",
+    "original": "name: \"Mesmeric Deviancy\",",
+    "translation": "",
+    "pos": 36735
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "1025_5_3_7|",
+    "original": "text: \"Will often provoke beasts at the start of encounters.\",",
+    "translation": "",
+    "pos": 36830
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "1028_5_3_7|",
+    "original": "name: \"Sublime Deviancy\",",
+    "translation": "",
+    "pos": 36911
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "1031_5_3_7|",
+    "original": "text: \"Will provoke beasts at the start of encounters.\",",
+    "translation": "",
+    "pos": 37004
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "1036_5_3_7|",
+    "original": "title: \"Acceptance Traits\",",
+    "translation": "",
+    "pos": 37086
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "1039_5_3_7|",
+    "original": "name: () => {",
+    "translation": "",
+    "pos": 37138
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "1041_5_3_7|",
+    "original": "return `Acceptance: ${penisSize} Penis`;",
+    "translation": "",
+    "pos": 37238
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "1045_5_3_7|",
+    "original": "text: \"You're proud of your small penis.\",",
+    "translation": "",
+    "pos": 37386
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "1048_5_3_7|",
+    "original": "name: \"Acceptance: Tomgirl\",",
+    "translation": "",
+    "pos": 37447
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "1051_5_3_7|",
+    "original": "text: \"You're proud of becoming a tomgirl.\",",
+    "translation": "",
+    "pos": 37607
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "1054_5_3_7|",
+    "original": "name: () => {",
+    "translation": "",
+    "pos": 37670
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "1056_5_3_7|",
+    "original": "return `Acceptance: ${penisSize} Penis`;",
+    "translation": "",
+    "pos": 37770
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "1060_5_3_7|",
+    "original": "text: \"You're proud of your enormous penis.\",",
+    "translation": "",
+    "pos": 37916
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "1063_5_3_7|",
+    "original": "name: \"Acceptance: Flat Chest\",",
+    "translation": "",
+    "pos": 37980
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "1066_5_3_7|",
+    "original": "text: \"You're proud of your flat chest.\",",
+    "translation": "",
+    "pos": 38139
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "1069_5_3_7|",
+    "original": "name: () => {",
+    "translation": "",
+    "pos": 38199
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "1071_5_3_7|",
+    "original": "return `Acceptance: ${$player.breastsize ? breastSize + \" Breasts\" : \"Flat Chest\"}`;",
+    "translation": "",
+    "pos": 38298
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "1075_5_3_7|",
+    "original": "text: \"You're proud of your small breasts.\",",
+    "translation": "",
+    "pos": 38528
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "1078_5_3_7|",
+    "original": "name: () => {",
+    "translation": "",
+    "pos": 38591
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "1080_5_3_7|",
+    "original": "return `Acceptance: ${breastSize} Breasts`;",
+    "translation": "",
+    "pos": 38690
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "1084_5_3_7|",
+    "original": "text: \"You're proud of your huge breasts.\",",
+    "translation": "",
+    "pos": 38842
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "1087_5_3_7|",
+    "original": "name: () => playerAwareTheyArePregnant() ? \"Acceptance: Pregnant Belly\" : \"Acceptance: Pregnant Looking Belly\",",
+    "translation": "",
+    "pos": 38904
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "1090_5_3_7|",
+    "original": "text: () => playerAwareTheyArePregnant() ? \"You're proud of your lifebearing belly.\" : \"You're proud of your large belly.\",",
+    "translation": "",
+    "pos": 39113
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "1109_5_3_7|",
+    "original": "<span>Filter</span>",
+    "translation": "",
+    "pos": 39591
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "1110_5_3_7|",
+    "original": "<label>Search: <<textbox \"_traitSearch\" _traitSearch>></label>",
+    "translation": "",
+    "pos": 39613
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "1113_5_3_7|",
+    "original": "Display Format:",
+    "translation": "",
+    "pos": 39700
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "1115_5_3_7|",
+    "original": "<<option \"Table\" \"table\">>",
+    "translation": "",
+    "pos": 39776
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "1116_5_3_7|",
+    "original": "<<option \"Reduced Table\" \"reducedTable\">>",
+    "translation": "",
+    "pos": 39807
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "1117_5_3_7|",
+    "original": "<<option \"List\" \"list\">>",
+    "translation": "",
+    "pos": 39853
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "1121_5_3_7|",
+    "original": "<<link Update>>",
+    "translation": "",
+    "pos": 39918
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "1124_5_3_7|",
+    "original": "<<link Clear>>",
+    "translation": "",
+    "pos": 40005
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "1163_5_3_7|",
+    "original": "<span @class=\"$_colour\" @style=\"$_style\">",
+    "translation": "",
+    "pos": 42160
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "1170_5_3_7|",
+    "original": "<mouse class=\"tooltip linkBlue\">Info (?)<span @class=\"$_textColour\"><<print $_text>></span></mouse>",
+    "translation": "",
+    "pos": 42402
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "1196_5_3_7|",
+    "original": "<span @class=\"$_colour\" @style=\"$_style\">",
+    "translation": "",
+    "pos": 43730
+  },
+  {
+    "passage": "Traits",
+    "filepath": "base-system/overlays/traits.twee",
+    "key": "1200_5_3_7|",
+    "original": "- <span @class=\"$_textColour\"><<print $_text>></span>",
+    "translation": "",
+    "pos": 43837
+  }
+]

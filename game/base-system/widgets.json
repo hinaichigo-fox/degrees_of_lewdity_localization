@@ -1,0 +1,5514 @@
+[
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "13_5_3_7|",
+    "original": "<div @class=\"(_args[3] is true ? 'rightMeter' : 'meter')\">",
+    "translation": "",
+    "pos": 175
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "27_5_3_7|",
+    "original": "<div @class=\"_statColor\" @style=\"'width:' + _percent + '%'\"></div>",
+    "translation": "",
+    "pos": 839
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "29_5_3_7|",
+    "original": "<div @class=\"_statColor + ' meterMin'\" @style=\"'width:' + _minPercent + '%'\"></div>",
+    "translation": "",
+    "pos": 932
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "31_5_3_7|",
+    "original": "<div class=\"meterPin\" @style=\"'width:' + _pin + '%'\"></div>",
+    "translation": "",
+    "pos": 1039
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "39_5_3_7|",
+    "original": "<div @class=\"(_args[2] is true ? 'rightMeter' : 'meter')\">",
+    "translation": "",
+    "pos": 1221
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "51_5_3_7|",
+    "original": "<div @class=\"_statColor\" @style=\"'width:' + _percent + '%'\"></div>",
+    "translation": "",
+    "pos": 1721
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "174_5_3_7|",
+    "original": "<span class=\"lblue\">Air:</span>",
+    "translation": "",
+    "pos": 4866
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "176_5_3_7|",
+    "original": "<span class=\"red\">You can't breathe! Your stress will increase and you'll soon pass out if you can't find air.</span>",
+    "translation": "",
+    "pos": 4923
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "181_5_3_7|",
+    "original": "<i>You can't hold your breath forever. You will pass less time and use less air per action with a higher swimming skill.</i>",
+    "translation": "",
+    "pos": 5177
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "203_5_3_7|",
+    "original": "<span class=\"lblue\">yet you remain pure.</span>",
+    "translation": "",
+    "pos": 5685
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "205_5_3_7|",
+    "original": "<span class=\"red\">forever robbing you of your purity.</span>",
+    "translation": "",
+    "pos": 5745
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "543_5_3_7|",
+    "original": "<<set $_stealthMult to Object.values($worn).filter(item => item.type.includes(\"stealthy\")).length>>",
+    "translation": "",
+    "pos": 17863
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "547_5_3_7|",
+    "original": "<<set $_unstealthMult to Object.values($worn).filter(item => item.type.includes(\"unstealthy\")).length>>",
+    "translation": "",
+    "pos": 18098
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "584_5_3_7|",
+    "original": "<<if [\"thievery\", \"petty\"].includes(_crimeType) and",
+    "translation": "",
+    "pos": 19910
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "585_5_3_7|",
+    "original": "$foxbuild gte 1 and",
+    "translation": "",
+    "pos": 19966
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "586_5_3_7|",
+    "original": "Math.max($wolfbuild, $catbuild, $cowbuild, $birdbuild, $foxbuild) is $foxbuild>>",
+    "translation": "",
+    "pos": 19990
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "613_5_3_7|",
+    "original": "<<if $earSlime.event is \"steal something\" and [\"thievery\", \"petty\"].includes(_crimeType)>>",
+    "translation": "",
+    "pos": 21181
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "743_5_3_7|",
+    "original": "<<print $_ce + \": \" + setup.crimeDescs[$_ce].toUpperFirst() + \", \" + $crime.events[$_ce].length + \" count(s)\">>",
+    "translation": "",
+    "pos": 26697
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "747_5_3_7|",
+    "original": "<span class=\"red\">No unique crime events</span>",
+    "translation": "",
+    "pos": 26840
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "766_5_3_7|",
+    "original": "<<set $_crDescLen to $crime.events[$_ce].filter(e => e.type is $_crimeType).length>>",
+    "translation": "",
+    "pos": 27539
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "782_5_3_7|",
+    "original": "<<set $_crimes_output += \".\">><span class=\"red\"><<print $_crimes_output>></span>",
+    "translation": "",
+    "pos": 28161
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "783_5_3_7|",
+    "original": "<<set _crimes_output += $_crimes_output + \"<br>\">>",
+    "translation": "",
+    "pos": 28245
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "795_5_3_7|",
+    "original": "<span class=\"gold\">You feel more confident in your powers of seduction.</span>",
+    "translation": "",
+    "pos": 28539
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "844_5_3_7|",
+    "original": "<span class=\"gold\"> You learned a thing or two about skulduggery.</span>",
+    "translation": "",
+    "pos": 30278
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "855_5_3_7|",
+    "original": "<span class=\"gold\"> You learned a thing or two about skulduggery.</span>",
+    "translation": "",
+    "pos": 30584
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "864_5_3_7|",
+    "original": "<span class=\"gold\"> You've become more confident at swimming.</span>",
+    "translation": "",
+    "pos": 30815
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "874_5_3_7|",
+    "original": "<span class=\"gold\"> You feel more confident in your dancing abilities.</span>",
+    "translation": "",
+    "pos": 31089
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1027_5_3_7|",
+    "original": "<span class=\"gold\"> It invigorates you.</span>",
+    "translation": "",
+    "pos": 35083
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1029_5_3_7|",
+    "original": "<span class=\"gold\"> You get a good workout.</span>",
+    "translation": "",
+    "pos": 35146
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1033_5_3_7|",
+    "original": "<span class=\"gold\"> It invigorates you.</span>",
+    "translation": "",
+    "pos": 35245
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1035_5_3_7|",
+    "original": "<span class=\"gold\"> You get a good workout.</span>",
+    "translation": "",
+    "pos": 35304
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1222_5_3_7|",
+    "original": "<<if $hunger gte 2000>><span class=\"red\">You are starving!</span>",
+    "translation": "",
+    "pos": 43181
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1223_5_3_7|",
+    "original": "<<elseif $hunger gte 1600>><span class=\"pink\">You are famished.</span>",
+    "translation": "",
+    "pos": 43248
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1224_5_3_7|",
+    "original": "<<elseif $hunger gte 1200>><span class=\"purple\">You are ravenous.</span>",
+    "translation": "",
+    "pos": 43320
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1225_5_3_7|",
+    "original": "<<elseif $hunger gte 800>><span class=\"blue\">You are hungry.</span>",
+    "translation": "",
+    "pos": 43394
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1226_5_3_7|",
+    "original": "<<elseif $hunger gte 400>><span class=\"lblue\">You are peckish.</span>",
+    "translation": "",
+    "pos": 43463
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1227_5_3_7|",
+    "original": "<<elseif $hunger gte 1>><span class=\"teal\">You are satiated.</span>",
+    "translation": "",
+    "pos": 43534
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1228_5_3_7|",
+    "original": "<<else>><span class=\"green\">You are full.</span>",
+    "translation": "",
+    "pos": 43603
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1233_5_3_7|",
+    "original": "<<if $thirst gte 2000>><span class=\"red\">You are dehydrated!</span>",
+    "translation": "",
+    "pos": 43695
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1234_5_3_7|",
+    "original": "<<elseif $thirst gte 1600>><span class=\"pink\">You are really thirsty.</span>",
+    "translation": "",
+    "pos": 43764
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1235_5_3_7|",
+    "original": "<<elseif $thirst gte 1200>><span class=\"purple\">You are thirsty.</span>",
+    "translation": "",
+    "pos": 43842
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1236_5_3_7|",
+    "original": "<<elseif $thirst gte 800>><span class=\"blue\">Your throat is dry.</span>",
+    "translation": "",
+    "pos": 43915
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1237_5_3_7|",
+    "original": "<<elseif $thirst gte 400>><span class=\"lblue\">You are satisfied.</span>",
+    "translation": "",
+    "pos": 43988
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1238_5_3_7|",
+    "original": "<<elseif $thirst gte 1>><span class=\"teal\">You are satiated.</span>",
+    "translation": "",
+    "pos": 44061
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1239_5_3_7|",
+    "original": "<<elseif $thirst lte 0>><span class=\"green\">You are full.</span>",
+    "translation": "",
+    "pos": 44130
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1245_5_3_7|",
+    "original": "<div id=\"tirednesscaption\" @title=\"'Fatigue: ' + $tiredness.toFixed(2)\">",
+    "translation": "",
+    "pos": 44285
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1246_5_3_7|",
+    "original": "<div @class=\"($options.showCaptionText is true ? '' : 'rightMeterText')\">",
+    "translation": "",
+    "pos": 44361
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1247_5_3_7|",
+    "original": "Fatigue:",
+    "translation": "",
+    "pos": 44439
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1250_5_3_7|",
+    "original": "<span class=\"red\">You are exhausted.</span>",
+    "translation": "",
+    "pos": 44541
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1252_5_3_7|",
+    "original": "<span class=\"pink\">You are fatigued.</span>",
+    "translation": "",
+    "pos": 44648
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1254_5_3_7|",
+    "original": "<span class=\"purple\">You are tired.</span>",
+    "translation": "",
+    "pos": 44755
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1256_5_3_7|",
+    "original": "<span class=\"blue\">You are wearied.</span>",
+    "translation": "",
+    "pos": 44861
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1258_5_3_7|",
+    "original": "<span class=\"lblue\">You are alert.</span>",
+    "translation": "",
+    "pos": 44961
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1260_5_3_7|",
+    "original": "<span class=\"teal\">You are wide awake.</span>",
+    "translation": "",
+    "pos": 45042
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1262_5_3_7|",
+    "original": "<span class=\"green\">You are refreshed.</span>",
+    "translation": "",
+    "pos": 45108
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1274_5_3_7|",
+    "original": "<div style=\"clear:both;\"></div>",
+    "translation": "",
+    "pos": 45549
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1281_5_3_7|",
+    "original": "<span class=\"red\">You are filthy.</span>",
+    "translation": "",
+    "pos": 45661
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1283_5_3_7|",
+    "original": "<span class=\"pink\">You are soiled.</span>",
+    "translation": "",
+    "pos": 45734
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1285_5_3_7|",
+    "original": "<span class=\"purple\">You are smelly.</span>",
+    "translation": "",
+    "pos": 45808
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1287_5_3_7|",
+    "original": "<span class=\"blue\">You are messy.</span>",
+    "translation": "",
+    "pos": 45883
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1289_5_3_7|",
+    "original": "<span class=\"lblue\">You are neat.</span>",
+    "translation": "",
+    "pos": 45955
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1291_5_3_7|",
+    "original": "<span class=\"teal\">You are clean.</span>",
+    "translation": "",
+    "pos": 46025
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1293_5_3_7|",
+    "original": "<span class=\"green\">You are speckless.</span>",
+    "translation": "",
+    "pos": 46095
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1299_5_3_7|",
+    "original": "<div id=\"stresscaption\" @title=\"'Stress: ' + $stress.toFixed(2)\">",
+    "translation": "",
+    "pos": 46225
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1300_5_3_7|",
+    "original": "<div @class=\"($options.showCaptionText is true ? '' : 'rightMeterText')\">",
+    "translation": "",
+    "pos": 46294
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1301_5_3_7|",
+    "original": "Stress:",
+    "translation": "",
+    "pos": 46372
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1304_5_3_7|",
+    "original": "<span class=\"red\">You are overwhelmed!</span>",
+    "translation": "",
+    "pos": 46465
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1306_5_3_7|",
+    "original": "<span class=\"pink\">You are distressed.</span>",
+    "translation": "",
+    "pos": 46566
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1308_5_3_7|",
+    "original": "<span class=\"purple\">You are strained.</span>",
+    "translation": "",
+    "pos": 46667
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1310_5_3_7|",
+    "original": "<span class=\"blue\">You are tense.</span>",
+    "translation": "",
+    "pos": 46768
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1312_5_3_7|",
+    "original": "<span class=\"lblue\">You are calm.</span>",
+    "translation": "",
+    "pos": 46858
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1314_5_3_7|",
+    "original": "<span class=\"teal\">You are placid.</span>",
+    "translation": "",
+    "pos": 46935
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1316_5_3_7|",
+    "original": "<span class=\"green\">You are serene.</span>",
+    "translation": "",
+    "pos": 46997
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1323_5_3_7|",
+    "original": "<div style=\"clear:both;\"></div>",
+    "translation": "",
+    "pos": 47244
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1330_5_3_7|",
+    "original": "<div id=\"traumacaption\" @title=\"'Trauma: ' + $trauma.toFixed(2)\">",
+    "translation": "",
+    "pos": 47369
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1331_5_3_7|",
+    "original": "<div @class=\"($options.showCaptionText is true ? '' : 'rightMeterText')\">",
+    "translation": "",
+    "pos": 47438
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1332_5_3_7|",
+    "original": "Trauma:",
+    "translation": "",
+    "pos": 47516
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1335_5_3_7|",
+    "original": "<span class=\"red\">You feel numb.</span>",
+    "translation": "",
+    "pos": 47609
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1337_5_3_7|",
+    "original": "<span class=\"pink\">You are tormented.</span>",
+    "translation": "",
+    "pos": 47704
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1339_5_3_7|",
+    "original": "<span class=\"purple\">You are disturbed.</span>",
+    "translation": "",
+    "pos": 47804
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1341_5_3_7|",
+    "original": "<span class=\"blue\">You are troubled.</span>",
+    "translation": "",
+    "pos": 47906
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1343_5_3_7|",
+    "original": "<span class=\"lblue\">You are nervous.</span>",
+    "translation": "",
+    "pos": 48005
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1345_5_3_7|",
+    "original": "<span class=\"teal\">You are uneasy.</span>",
+    "translation": "",
+    "pos": 48085
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1347_5_3_7|",
+    "original": "<span class=\"green\">You are healthy.</span>",
+    "translation": "",
+    "pos": 48147
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1353_5_3_7|",
+    "original": "<div style=\"clear:both;\"></div>",
+    "translation": "",
+    "pos": 48339
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1360_5_3_7|",
+    "original": "<div @class=\"($options.showCaptionText is true ? '' : 'rightMeterText')\">",
+    "translation": "",
+    "pos": 48463
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1361_5_3_7|",
+    "original": "Innocence:",
+    "translation": "",
+    "pos": 48540
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1364_5_3_7|",
+    "original": "<span class=\"red\">You understand.</span>",
+    "translation": "",
+    "pos": 48627
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1366_5_3_7|",
+    "original": "<span class=\"pink\">You are uncertain.</span>",
+    "translation": "",
+    "pos": 48706
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1368_5_3_7|",
+    "original": "<span class=\"purple\">You are perplexed.</span>",
+    "translation": "",
+    "pos": 48789
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1370_5_3_7|",
+    "original": "<span class=\"blue\">You are curious.</span>",
+    "translation": "",
+    "pos": 48875
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1372_5_3_7|",
+    "original": "<span class=\"lblue\">You are trusting.</span>",
+    "translation": "",
+    "pos": 48957
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1374_5_3_7|",
+    "original": "<span class=\"teal\">You are naive.</span>",
+    "translation": "",
+    "pos": 49041
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1376_5_3_7|",
+    "original": "<span class=\"green\">You are oblivious.</span>",
+    "translation": "",
+    "pos": 49100
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1382_5_3_7|",
+    "original": "<div style=\"clear:both;\"></div>",
+    "translation": "",
+    "pos": 49291
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1388_5_3_7|",
+    "original": "<div id=\"controlcaption\" @title=\"'Control: ' + $control.toFixed(2)\">",
+    "translation": "",
+    "pos": 49408
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1389_5_3_7|",
+    "original": "<div @class=\"($options.showCaptionText is true ? '' : 'rightMeterText')\">",
+    "translation": "",
+    "pos": 49480
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1390_5_3_7|",
+    "original": "Control:",
+    "translation": "",
+    "pos": 49558
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1394_5_3_7|",
+    "original": "<span class=\"green\">You are in control.</span>",
+    "translation": "",
+    "pos": 49679
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1396_5_3_7|",
+    "original": "<span class=\"teal\">You are nearly in control.</span>",
+    "translation": "",
+    "pos": 49785
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1398_5_3_7|",
+    "original": "<span class=\"lblue\">You are struggling.</span>",
+    "translation": "",
+    "pos": 49897
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1400_5_3_7|",
+    "original": "<span class=\"blue\">Your body feels hollow.</span>",
+    "translation": "",
+    "pos": 50003
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1402_5_3_7|",
+    "original": "<span class=\"purple\">Your mind is numb.</span>",
+    "translation": "",
+    "pos": 50112
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1404_5_3_7|",
+    "original": "<span class=\"pink\">You're being puppeteered.</span>",
+    "translation": "",
+    "pos": 50198
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1406_5_3_7|",
+    "original": "<span class=\"red\">You're helpless.</span>",
+    "translation": "",
+    "pos": 50272
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1410_5_3_7|",
+    "original": "<span class=\"green\">You are confident.</span>",
+    "translation": "",
+    "pos": 50387
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1412_5_3_7|",
+    "original": "<span class=\"teal\">You are insecure.</span>",
+    "translation": "",
+    "pos": 50492
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1414_5_3_7|",
+    "original": "<span class=\"lblue\">You are worried.</span>",
+    "translation": "",
+    "pos": 50595
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1416_5_3_7|",
+    "original": "<span class=\"blue\">You are anxious.</span>",
+    "translation": "",
+    "pos": 50698
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1418_5_3_7|",
+    "original": "<span class=\"purple\">You are scared.</span>",
+    "translation": "",
+    "pos": 50800
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1420_5_3_7|",
+    "original": "<span class=\"pink\">You are frightened.</span>",
+    "translation": "",
+    "pos": 50883
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1422_5_3_7|",
+    "original": "<span class=\"red\">You are terrified.</span>",
+    "translation": "",
+    "pos": 50951
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1429_5_3_7|",
+    "original": "<div style=\"clear:both;\"></div>",
+    "translation": "",
+    "pos": 51165
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1436_5_3_7|",
+    "original": "<div id=\"arousalcaption\" @title=\"'Arousal: ' + $arousal.toFixed(2)\">",
+    "translation": "",
+    "pos": 51292
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1437_5_3_7|",
+    "original": "<div @class=\"($options.showCaptionText is true ? '' : 'rightMeterText')\">",
+    "translation": "",
+    "pos": 51364
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1438_5_3_7|",
+    "original": "Arousal:",
+    "translation": "",
+    "pos": 51442
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1441_5_3_7|",
+    "original": "<span class=\"red\">You shake with arousal.</span>",
+    "translation": "",
+    "pos": 51538
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1443_5_3_7|",
+    "original": "<span class=\"pink\">A heat rises within.</span>",
+    "translation": "",
+    "pos": 51644
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1445_5_3_7|",
+    "original": "<span class=\"purple\">You feel horny.</span>",
+    "translation": "",
+    "pos": 51748
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1447_5_3_7|",
+    "original": "<span class=\"blue\">You feel lustful.</span>",
+    "translation": "",
+    "pos": 51849
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1449_5_3_7|",
+    "original": "<span class=\"lblue\">You feel aroused.</span>",
+    "translation": "",
+    "pos": 51944
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1451_5_3_7|",
+    "original": "<span class=\"teal\">You feel stimulated.</span>",
+    "translation": "",
+    "pos": 52026
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1453_5_3_7|",
+    "original": "<span class=\"green\">You feel cold.</span>",
+    "translation": "",
+    "pos": 52093
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1459_5_3_7|",
+    "original": "<div style=\"clear:both;\"></div>",
+    "translation": "",
+    "pos": 52309
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1466_5_3_7|",
+    "original": "<div id=\"lewditycaption\" @title=\"'lewdity: ' + $lewdity.toFixed(2)\">",
+    "translation": "",
+    "pos": 52436
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1467_5_3_7|",
+    "original": "<div @class=\"($options.showCaptionText is true ? '' : 'rightMeterText')\">",
+    "translation": "",
+    "pos": 52508
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1468_5_3_7|",
+    "original": "lewdity:",
+    "translation": "",
+    "pos": 52586
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1471_5_3_7|",
+    "original": "<span class=\"red\">You shiver with energy.</span>",
+    "translation": "",
+    "pos": 52682
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1473_5_3_7|",
+    "original": "<span class=\"pink\">You feel a trembling.</span>",
+    "translation": "",
+    "pos": 52788
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1475_5_3_7|",
+    "original": "<span class=\"purple\">You feel exhilarated.</span>",
+    "translation": "",
+    "pos": 52893
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1477_5_3_7|",
+    "original": "<span class=\"blue\">You feel sensual.</span>",
+    "translation": "",
+    "pos": 53000
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1479_5_3_7|",
+    "original": "<span class=\"lblue\">You feel excited.</span>",
+    "translation": "",
+    "pos": 53095
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1481_5_3_7|",
+    "original": "<span class=\"teal\">You feel tingly.</span>",
+    "translation": "",
+    "pos": 53177
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1483_5_3_7|",
+    "original": "<span class=\"green\">You feel steady.</span>",
+    "translation": "",
+    "pos": 53240
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1489_5_3_7|",
+    "original": "<div style=\"clear:both;\"></div>",
+    "translation": "",
+    "pos": 53449
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1496_5_3_7|",
+    "original": "<div id=\"allurecaption\" @title=\"'Allure: ' + $allure.toFixed(2)\">",
+    "translation": "",
+    "pos": 53574
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1497_5_3_7|",
+    "original": "<div @class=\"($options.showCaptionText is true ? '' : 'rightMeterText')\">",
+    "translation": "",
+    "pos": 53643
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1498_5_3_7|",
+    "original": "Allure:",
+    "translation": "",
+    "pos": 53721
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1500_5_3_7|",
+    "original": "<<if $allure gte (6000 * $alluremod)>><span class=\"red\">You look like you need to be ravaged.</span>",
+    "translation": "",
+    "pos": 53778
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1501_5_3_7|",
+    "original": "<<elseif $allure gte (4000 * $alluremod)>><span class=\"pink\">You look perverted.</span>",
+    "translation": "",
+    "pos": 53884
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1502_5_3_7|",
+    "original": "<<elseif $allure gte (3000 * $alluremod)>><span class=\"purple\">You look lewd.</span>",
+    "translation": "",
+    "pos": 53977
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1503_5_3_7|",
+    "original": "<<elseif $allure gte (2000 * $alluremod)>><span class=\"blue\">You stand out.</span>",
+    "translation": "",
+    "pos": 54067
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1504_5_3_7|",
+    "original": "<<elseif $allure gte (1500 * $alluremod)>><span class=\"lblue\">You attract attention.</span>",
+    "translation": "",
+    "pos": 54155
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1505_5_3_7|",
+    "original": "<<elseif $allure gte (1000 * $alluremod)>><span class=\"teal\">You attract glances.</span>",
+    "translation": "",
+    "pos": 54252
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1506_5_3_7|",
+    "original": "<<else>><span class=\"green\">You look unremarkable.</span>",
+    "translation": "",
+    "pos": 54346
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1510_5_3_7|",
+    "original": "<div @class=\"($options.showCaptionText is true ? 'meter' : 'rightMeter')\">",
+    "translation": "",
+    "pos": 54442
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1513_5_3_7|",
+    "original": "<<print '<div class=\"redbar\" style=\"width:' + _percent + '%\"></div>'>>",
+    "translation": "",
+    "pos": 54631
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1515_5_3_7|",
+    "original": "<<print '<div class=\"pinkbar\" style=\"width:' + _percent + '%\"></div>'>>",
+    "translation": "",
+    "pos": 54753
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1517_5_3_7|",
+    "original": "<<print '<div class=\"purplebar\" style=\"width:' + _percent + '%\"></div>'>>",
+    "translation": "",
+    "pos": 54876
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1519_5_3_7|",
+    "original": "<<print '<div class=\"bluebar\" style=\"width:' + _percent + '%\"></div>'>>",
+    "translation": "",
+    "pos": 55001
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1521_5_3_7|",
+    "original": "<<print '<div class=\"lbluebar\" style=\"width:' + _percent + '%\"></div>'>>",
+    "translation": "",
+    "pos": 55124
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1523_5_3_7|",
+    "original": "<<print '<div class=\"tealbar\" style=\"width:' + _percent + '%\"></div>'>>",
+    "translation": "",
+    "pos": 55248
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1525_5_3_7|",
+    "original": "<<print '<div class=\"greenbar\" style=\"width:' + _percent + '%\"></div>'>>",
+    "translation": "",
+    "pos": 55337
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1536_5_3_7|",
+    "original": "<div style=\"clear:both;\"></div>",
+    "translation": "",
+    "pos": 55649
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1543_5_3_7|",
+    "original": "<<run $('#allurecaption').replaceWith(new Wikifier(null, '<<allurecaption>>').output)>>",
+    "translation": "",
+    "pos": 55790
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1549_5_3_7|",
+    "original": "<div @class=\"($options.showCaptionText is true ? '' : 'rightMeterText')\">",
+    "translation": "",
+    "pos": 55973
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1550_5_3_7|",
+    "original": "Air:",
+    "translation": "",
+    "pos": 56051
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1557_5_3_7|",
+    "original": "<div style=\"clear:both;\"></div>",
+    "translation": "",
+    "pos": 56234
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1562_5_3_7|",
+    "original": "<span class=\"red\">You hear a car horn blare somewhere in the distance, and you panic. Phantom tendrils probe your body and restrict your limbs as a wordless voice jeers and promises endless debasement. It lasts only a moment, but the impression of violation remains.</span>",
+    "translation": "",
+    "pos": 56315
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1568_5_3_7|",
+    "original": "<span class=\"red\">You hear a car drive past, and you panic. Phantom tendrils probe your body and restrict your limbs as a wordless voice jeers and promises endless debasement. It lasts only a moment, but the impression of violation remains.</span>",
+    "translation": "",
+    "pos": 56716
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1574_5_3_7|",
+    "original": "<span class=\"red\">You hear a gull squawk, and you panic. Phantom tendrils probe your body and restrict your limbs as a wordless voice jeers and promises endless debasement. It lasts only a moment, but the impression of violation remains.</span>",
+    "translation": "",
+    "pos": 57091
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1580_5_3_7|",
+    "original": "<span class=\"red\">You feel a tremor through the earth, and you panic. Phantom tendrils probe your body and restrict your limbs as a wordless voice jeers and promises endless debasement. It lasts only a moment, but the impression of violation remains.</span>",
+    "translation": "",
+    "pos": 57469
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1586_5_3_7|",
+    "original": "<span class=\"red\">You remember the last time you were molested at school, and you panic. Phantom tendrils probe your body and restrict your limbs as a wordless voice jeers and promises endless debasement. It lasts only a moment, but the impression of violation remains.</span>",
+    "translation": "",
+    "pos": 57855
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1598_5_3_7|",
+    "original": "<div id=\"drunkcaption\" @title=\"'Drunk: ' + $drunk.toFixed(2)\">",
+    "translation": "",
+    "pos": 58502
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1599_5_3_7|",
+    "original": "<div @class=\"($options.showCaptionText is true ? '' : 'rightMeterText')\">",
+    "translation": "",
+    "pos": 58568
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1603_5_3_7|",
+    "original": "<<case 0>><span @class=\"$_colour\">You are woozy.</span>",
+    "translation": "",
+    "pos": 58801
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1604_5_3_7|",
+    "original": "<<case 120>><span @class=\"$_colour\">You are tipsy.</span>",
+    "translation": "",
+    "pos": 58863
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1605_5_3_7|",
+    "original": "<<case 240>><span @class=\"$_colour\">You are drunk.</span>",
+    "translation": "",
+    "pos": 58927
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1606_5_3_7|",
+    "original": "<<case 360>><span @class=\"$_colour\">You are smashed.</span>",
+    "translation": "",
+    "pos": 58991
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1607_5_3_7|",
+    "original": "<<case 480>><span @class=\"$_colour\">You are wasted.</span>",
+    "translation": "",
+    "pos": 59057
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1610_5_3_7|",
+    "original": "Drunk:",
+    "translation": "",
+    "pos": 59151
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1613_5_3_7|",
+    "original": "<div @class=\"($options.showCaptionText is true ? 'meter' : 'rightMeter')\">",
+    "translation": "",
+    "pos": 59183
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1616_5_3_7|",
+    "original": "<div style=\"clear:both;\"></div>",
+    "translation": "",
+    "pos": 59328
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1628_5_3_7|",
+    "original": "<div id=\"druggedcaption\" @title=\"'Drugged: ' + $drugged.toFixed(2)\">",
+    "translation": "",
+    "pos": 59663
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1629_5_3_7|",
+    "original": "<div @class=\"($options.showCaptionText is true ? '' : 'rightMeterText')\">",
+    "translation": "",
+    "pos": 59735
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1631_5_3_7|",
+    "original": "<span class=\"pink\">A lewd warmth fills you.</span>",
+    "translation": "",
+    "pos": 59858
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1633_5_3_7|",
+    "original": "Drugged:",
+    "translation": "",
+    "pos": 59927
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1636_5_3_7|",
+    "original": "<div @class=\"($options.showCaptionText is true ? 'meter' : 'rightMeter')\">",
+    "translation": "",
+    "pos": 59961
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1639_5_3_7|",
+    "original": "<div style=\"clear:both;\"></div>",
+    "translation": "",
+    "pos": 60106
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1651_5_3_7|",
+    "original": "<div id=\"hallucinogencaption\" @title=\"'Hallucinogens: ' + $hallucinogen.toFixed(2)\">",
+    "translation": "",
+    "pos": 60466
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1652_5_3_7|",
+    "original": "<div @class=\"($options.showCaptionText is true ? '' : 'rightMeterText')\">",
+    "translation": "",
+    "pos": 60554
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1654_5_3_7|",
+    "original": "<span class=\"purple\">Your perception is altered.</span>",
+    "translation": "",
+    "pos": 60677
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1656_5_3_7|",
+    "original": "Hallucinogen:",
+    "translation": "",
+    "pos": 60751
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1659_5_3_7|",
+    "original": "<div @class=\"($options.showCaptionText is true ? 'meter' : 'rightMeter')\">",
+    "translation": "",
+    "pos": 60790
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1662_5_3_7|",
+    "original": "<div style=\"clear:both;\"></div>",
+    "translation": "",
+    "pos": 60935
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1669_5_3_7|",
+    "original": "<div id=\"paincaption\" @title=\"'Pain: ' + $pain.toFixed(2)\">",
+    "translation": "",
+    "pos": 61056
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1670_5_3_7|",
+    "original": "<div @class=\"($options.showCaptionText is true ? '' : 'rightMeterText')\">",
+    "translation": "",
+    "pos": 61119
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1671_5_3_7|",
+    "original": "Pain:",
+    "translation": "",
+    "pos": 61197
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1673_5_3_7|",
+    "original": "<<if $pain gte 100 and $willpowerpain is 0>><span class=\"red\">You sob uncontrollably.</span>",
+    "translation": "",
+    "pos": 61252
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1674_5_3_7|",
+    "original": "<<elseif $pain gte 80>><span class=\"pink\">You cry and whimper.</span>",
+    "translation": "",
+    "pos": 61350
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1675_5_3_7|",
+    "original": "<<elseif $pain gte 60>><span class=\"purple\">You are crying.</span>",
+    "translation": "",
+    "pos": 61425
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1676_5_3_7|",
+    "original": "<<elseif $pain gte 40>><span class=\"blue\">Tears run down your face.</span>",
+    "translation": "",
+    "pos": 61497
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1677_5_3_7|",
+    "original": "<<elseif $pain gte 20>><span class=\"lblue\">Tears well in your eyes.</span>",
+    "translation": "",
+    "pos": 61577
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1678_5_3_7|",
+    "original": "<<elseif $pain gte 1>><span class=\"teal\">You are upset.</span>",
+    "translation": "",
+    "pos": 61657
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1679_5_3_7|",
+    "original": "<<else>><span class=\"green\">You feel okay.</span>",
+    "translation": "",
+    "pos": 61725
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1683_5_3_7|",
+    "original": "<div @class=\"($options.showCaptionText is true ? 'meter' : 'rightMeter')\">",
+    "translation": "",
+    "pos": 61813
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1701_5_3_7|",
+    "original": "<div @class=\"_statColor\" @style=\"'width:' + _percent + '%'\"></div>",
+    "translation": "",
+    "pos": 62516
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1704_5_3_7|",
+    "original": "<div @class=\"_statColor + ' meterMin'\" @style=\"'width:' + _minPercent + '%'\"></div>",
+    "translation": "",
+    "pos": 62645
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1708_5_3_7|",
+    "original": "<div style=\"clear:both;\"></div>",
+    "translation": "",
+    "pos": 62767
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1819_5_3_7|",
+    "original": "<span class=\"purple\">Your sense of control wavers.</span>",
+    "translation": "",
+    "pos": 65876
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1821_5_3_7|",
+    "original": "<span class=\"purple\">Your sense of control falters.</span>",
+    "translation": "",
+    "pos": 65988
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1823_5_3_7|",
+    "original": "<span class=\"pink\">Your sense of control cracks.</span>",
+    "translation": "",
+    "pos": 66101
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1825_5_3_7|",
+    "original": "<span class=\"pink\">Your sense of control breaks down.</span>",
+    "translation": "",
+    "pos": 66192
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1827_5_3_7|",
+    "original": "<span class=\"red\">Your sense of control shatters.</span>",
+    "translation": "",
+    "pos": 66271
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1911_5_3_7|",
+    "original": "<<case \"clear\" \"lightClouds\">>It's a bright and sunny day.",
+    "translation": "",
+    "pos": 69032
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1914_5_3_7|",
+    "original": "It's a rainy day.",
+    "translation": "",
+    "pos": 69214
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1916_5_3_7|",
+    "original": "It's a snowy day.",
+    "translation": "",
+    "pos": 69254
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1918_5_3_7|",
+    "original": "<<case \"heavyClouds\">>Clouds are hiding the sun.",
+    "translation": "",
+    "pos": 69291
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1922_5_3_7|",
+    "original": "<<case \"clear\" \"lightClouds\">>The stars are shining.",
+    "translation": "",
+    "pos": 69409
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1925_5_3_7|",
+    "original": "It's a rainy night.",
+    "translation": "",
+    "pos": 69585
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1927_5_3_7|",
+    "original": "It's a snowy night.",
+    "translation": "",
+    "pos": 69627
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1929_5_3_7|",
+    "original": "<<case \"heavyClouds\">>All starlight is blocked by the clouds.",
+    "translation": "",
+    "pos": 69666
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1933_5_3_7|",
+    "original": "<<case \"clear\" \"lightClouds\">>The sun is rising.",
+    "translation": "",
+    "pos": 69796
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1936_5_3_7|",
+    "original": "It's a rainy morning.",
+    "translation": "",
+    "pos": 69966
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1938_5_3_7|",
+    "original": "It's a snowy morning.",
+    "translation": "",
+    "pos": 70008
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1940_5_3_7|",
+    "original": "<<case \"heavyClouds\">>It's a cloudy morning.",
+    "translation": "",
+    "pos": 70048
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1944_5_3_7|",
+    "original": "<<case \"clear\" \"lightClouds\">>The sun is setting.",
+    "translation": "",
+    "pos": 70161
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1947_5_3_7|",
+    "original": "It's a rainy evening.",
+    "translation": "",
+    "pos": 70332
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1949_5_3_7|",
+    "original": "It's a snowy evening.",
+    "translation": "",
+    "pos": 70374
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "1951_5_3_7|",
+    "original": "<<case \"heavyClouds\">>It's cloudy evening.",
+    "translation": "",
+    "pos": 70414
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2030_5_3_7|",
+    "original": "<<if $worn.upper.exposed gte 2 and $worn.under_upper.exposed gte 1",
+    "translation": "",
+    "pos": 72656
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2031_5_3_7|",
+    "original": "or $worn.upper.exposed gte 2 and $underupperwetstage gte 3",
+    "translation": "",
+    "pos": 72724
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2032_5_3_7|",
+    "original": "or $upperwetstage gte 3 and $worn.under_upper.exposed gte 1",
+    "translation": "",
+    "pos": 72784
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2033_5_3_7|",
+    "original": "or $upperwetstage gte 3 and $underupperwetstage gte 3",
+    "translation": "",
+    "pos": 72845
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2034_5_3_7|",
+    "original": "or _args[0] is \"force\">>",
+    "translation": "",
+    "pos": 72900
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2040_5_3_7|",
+    "original": "<<if $worn.lower.exposed gte 2 and $worn.under_lower.exposed gte 1",
+    "translation": "",
+    "pos": 72990
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2041_5_3_7|",
+    "original": "or $worn.lower.exposed gte 2 and $underlowerwetstage gte 3",
+    "translation": "",
+    "pos": 73058
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2042_5_3_7|",
+    "original": "or $lowerwetstage gte 3 and $worn.under_lower.exposed gte 1",
+    "translation": "",
+    "pos": 73118
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2043_5_3_7|",
+    "original": "or $lowerwetstage gte 3 and $underlowerwetstage gte 3",
+    "translation": "",
+    "pos": 73179
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2044_5_3_7|",
+    "original": "or _args[0] is \"force\">>",
+    "translation": "",
+    "pos": 73234
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2082_5_3_7|",
+    "original": "<<if [\"Wardrobe\", \"Bedroom\", \"Sleep\", \"Bird Tower\", \"Bird Hunt\", \"Spa Tan Underwear\", \"Spa Tan Curtains\", \"Spa Tan Naked\"].some(keyword => V.passage.includes(keyword)) and !($NPCList.some(obj => Object.hasOwn(obj, \"type\")) and !$NPCList.find(({fullDescription:fd}) => fd && Object.values($loveInterest).includes(fd)))>>",
+    "translation": "",
+    "pos": 75358
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2169_5_3_7|",
+    "original": "<span class=\"lewd\">Your $worn.over_upper.name <<overupperplural>> ripped into scraps<<if $worn.upper.exposed gte 2>>, exposing your <<undertop>><</if>>.</span>",
+    "translation": "",
+    "pos": 78594
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2179_5_3_7|",
+    "original": "<span class=\"lewd\">Your $worn.over_lower.name <<upperplural>> ripped into scraps<<if $worn.lower.exposed gte 2>>, exposing your <<undies>><</if>>.</span>",
+    "translation": "",
+    "pos": 79068
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2189_5_3_7|",
+    "original": "<span class=\"lewd\">Your $worn.upper.name <<upperplural>> ripped into scraps, exposing your <<undertop>>.</span>",
+    "translation": "",
+    "pos": 79521
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2199_5_3_7|",
+    "original": "<span class=\"lewd\">Your $worn.lower.name <<lowerplural>> ripped into scraps, exposing your <<undies>>.</span>",
+    "translation": "",
+    "pos": 79889
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2209_5_3_7|",
+    "original": "<span class=\"lewd\">Your $worn.under_upper.name <<underupperplural>> ripped into scraps, exposing your <<breasts>>.</span>",
+    "translation": "",
+    "pos": 80273
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2219_5_3_7|",
+    "original": "<span class=\"lewd\">Your $worn.under_lower.name <<underlowerplural>> ripped into scraps, exposing your <<if $worn.genitals.name isnot \"naked\">>$worn.genitals.name.<<else>><<genitals>>.<</if>></span>",
+    "translation": "",
+    "pos": 80679
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2229_5_3_7|",
+    "original": "<span class=\"lewd\">Your $worn.genitals.name breaks, exposing your <<genitals>>.</span>",
+    "translation": "",
+    "pos": 81137
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2235_5_3_7|",
+    "original": "<span class=\"pink\">With the <<print $worn.genitals.name>> gone, the $vaginalchastityparasite fall out of your vagina.</span>",
+    "translation": "",
+    "pos": 81367
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2240_5_3_7|",
+    "original": "<span class=\"pink\">With the <<print $worn.genitals.name>> gone, the $penilechastityparasite fall off of your penis.</span>",
+    "translation": "",
+    "pos": 81605
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2245_5_3_7|",
+    "original": "<span class=\"pink\">With the <<print $worn.genitals.name>> gone, the $analchastityparasite fall out of your anus.</span>",
+    "translation": "",
+    "pos": 81838
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2453_5_3_7|",
+    "original": "<<set _liquid to formatList(",
+    "translation": "",
+    "pos": 87839
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2454_5_3_7|",
+    "original": "[\"semen\", \"goo\", \"nectar\"].filter(stuff => V[stuff + \"outsidecount\"] gte 1)",
+    "translation": "",
+    "pos": 87871
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2455_5_3_7|",
+    "original": ").replace(\"goo\", \"slime\")",
+    "translation": "",
+    "pos": 87950
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2458_5_3_7|",
+    "original": "<span class=\"red\">Lewd fluid drenches you from head to toe.</span>",
+    "translation": "",
+    "pos": 88021
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2461_5_3_7|",
+    "original": "<span class=\"pink\">You are drenched in _liquid.</span>",
+    "translation": "",
+    "pos": 88139
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2464_5_3_7|",
+    "original": "<span class=\"purple\">You are soaked with _liquid.</span>",
+    "translation": "",
+    "pos": 88245
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2467_5_3_7|",
+    "original": "<span class=\"purple\">Your skin is slick with _liquid.</span>",
+    "translation": "",
+    "pos": 88353
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2470_5_3_7|",
+    "original": "<span class=\"purple\">You are wet with _liquid.</span>",
+    "translation": "",
+    "pos": 88465
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2473_5_3_7|",
+    "original": "<span class=\"purple\">Your skin is moist with _liquid.</span>",
+    "translation": "",
+    "pos": 88569
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2476_5_3_7|",
+    "original": "<span class=\"blue\">You feel _liquid on your skin.</span>",
+    "translation": "",
+    "pos": 88680
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2483_5_3_7|",
+    "original": "<<set _liquid to formatList(",
+    "translation": "",
+    "pos": 89019
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2484_5_3_7|",
+    "original": "[\"semen\", \"goo\", \"nectar\"].filter(stuff => V.player.bodyliquid.vagina[stuff] gte 1)",
+    "translation": "",
+    "pos": 89051
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2485_5_3_7|",
+    "original": ").replace(\"goo\", \"slime\")",
+    "translation": "",
+    "pos": 89138
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2495_5_3_7|",
+    "original": "<span class=\"red\">Your womb overflows with _liquid.</span>",
+    "translation": "",
+    "pos": 89396
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2498_5_3_7|",
+    "original": "<span class=\"pink\">Your <<pussy>> overflows with _liquid.</span>",
+    "translation": "",
+    "pos": 89482
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2501_5_3_7|",
+    "original": "<span class=\"pink\">_liquidUpper flow_s from your <<pussy>>.</span>",
+    "translation": "",
+    "pos": 89574
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2504_5_3_7|",
+    "original": "<span class=\"pink\">_liquidUpper stream_s from your <<pussy>>.</span>",
+    "translation": "",
+    "pos": 89668
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2507_5_3_7|",
+    "original": "<span class=\"pink\">_liquidUpper drip_s from your <<pussy>>.</span>",
+    "translation": "",
+    "pos": 89764
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2514_5_3_7|",
+    "original": "<<set _liquid to formatList(",
+    "translation": "",
+    "pos": 90106
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2515_5_3_7|",
+    "original": "[\"semen\", \"goo\", \"nectar\"].filter(stuff => V.player.bodyliquid.anus[stuff] gte 1)",
+    "translation": "",
+    "pos": 90138
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2516_5_3_7|",
+    "original": ").replace(\"goo\", \"slime\")",
+    "translation": "",
+    "pos": 90223
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2526_5_3_7|",
+    "original": "<span class=\"red\">Your bowels overflow with _liquid.</span>",
+    "translation": "",
+    "pos": 90479
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2529_5_3_7|",
+    "original": "<span class=\"pink\">Your <<bottom>> overflows with _liquid.</span>",
+    "translation": "",
+    "pos": 90566
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2532_5_3_7|",
+    "original": "<span class=\"pink\">_liquidUpper flow_s from your <<bottom>>.</span>",
+    "translation": "",
+    "pos": 90659
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2535_5_3_7|",
+    "original": "<span class=\"pink\">_liquidUpper stream_s from your <<bottom>>.</span>",
+    "translation": "",
+    "pos": 90754
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2538_5_3_7|",
+    "original": "<span class=\"pink\">_liquidUpper drip_s from your <<bottom>>.</span>",
+    "translation": "",
+    "pos": 90851
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2545_5_3_7|",
+    "original": "<<set _liquid to formatList(",
+    "translation": "",
+    "pos": 91200
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2546_5_3_7|",
+    "original": "[\"semen\", \"goo\", \"nectar\"].filter(stuff => V.player.bodyliquid.mouth[stuff] gte 1)",
+    "translation": "",
+    "pos": 91232
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2547_5_3_7|",
+    "original": ").replace(\"goo\", \"slime\")",
+    "translation": "",
+    "pos": 91318
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2558_5_3_7|",
+    "original": "<span class=\"red\">You keep coughing up _liquid.</span>",
+    "translation": "",
+    "pos": 91624
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2561_5_3_7|",
+    "original": "<span class=\"pink\">_liquidUpper dribble_s down your chin.</span>",
+    "translation": "",
+    "pos": 91706
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2564_5_3_7|",
+    "original": "<span class=\"pink\">_liquidUpper line_s the sides of your throat.</span>",
+    "translation": "",
+    "pos": 91798
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2567_5_3_7|",
+    "original": "<span class=\"pink\">_liquidUpper layer_s the back of your throat.</span>",
+    "translation": "",
+    "pos": 91897
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2570_5_3_7|",
+    "original": "<span class=\"pink\">The taste of _liquid permeate_s your mouth.</span>",
+    "translation": "",
+    "pos": 91996
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2629_5_3_7|",
+    "original": "<<set $_part_text to [",
+    "translation": "",
+    "pos": 97410
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2630_5_3_7|",
+    "original": "\"neck\", \"right arm\", \"left arm\", \"thigh\", \"bottom\",",
+    "translation": "",
+    "pos": 97435
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2631_5_3_7|",
+    "original": "\"tummy\", \"chest\", \"face\", \"hair\", \"feet\"",
+    "translation": "",
+    "pos": 97489
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2632_5_3_7|",
+    "original": "].select($_rng)>>",
+    "translation": "",
+    "pos": 97532
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2636_5_3_7|",
+    "original": "It <<print either(\"splatters onto your\", \"coats your\", \"lands on your\", \"splashes your\")>>",
+    "translation": "",
+    "pos": 97644
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2637_5_3_7|",
+    "original": "<span class=\"purple\">$_part_text.</span>",
+    "translation": "",
+    "pos": 97736
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2642_5_3_7|",
+    "original": "<<set $_part_text to [",
+    "translation": "",
+    "pos": 97877
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2643_5_3_7|",
+    "original": "\"neck\", \"right arm\", \"left arm\", \"thigh\", \"bottom\",",
+    "translation": "",
+    "pos": 97902
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2644_5_3_7|",
+    "original": "\"tummy\", \"chest\", \"face\", \"hair\", \"feet\"",
+    "translation": "",
+    "pos": 97956
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2645_5_3_7|",
+    "original": "].select($_rng)>>",
+    "translation": "",
+    "pos": 97999
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2649_5_3_7|",
+    "original": "It <<print either(\"splatters onto your\", \"coats your\", \"lands on your\", \"splashes your\",\"covers your\")>>",
+    "translation": "",
+    "pos": 98113
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2650_5_3_7|",
+    "original": "<span class=\"purple\">$_part_text.</span>",
+    "translation": "",
+    "pos": 98219
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2655_5_3_7|",
+    "original": "<<set $_part_text to [",
+    "translation": "",
+    "pos": 98363
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2656_5_3_7|",
+    "original": "\"neck\", \"chest\", \"face\", \"hair\"",
+    "translation": "",
+    "pos": 98388
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2657_5_3_7|",
+    "original": "].select($_rng)>>",
+    "translation": "",
+    "pos": 98422
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2661_5_3_7|",
+    "original": "It <<print either(\"splatters onto your\", \"coats your\", \"lands on your\", \"splashes your\")>>",
+    "translation": "",
+    "pos": 98534
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2662_5_3_7|",
+    "original": "<span class=\"purple\">$_part_text.</span>",
+    "translation": "",
+    "pos": 98626
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2667_5_3_7|",
+    "original": "<<set $_part_text to [",
+    "translation": "",
+    "pos": 98772
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2668_5_3_7|",
+    "original": "\"neck\", \"chest\", \"face\", \"hair\"",
+    "translation": "",
+    "pos": 98797
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2669_5_3_7|",
+    "original": "].select($_rng)>>",
+    "translation": "",
+    "pos": 98831
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2673_5_3_7|",
+    "original": "It <<print either(\"splatters onto your\", \"coats your\", \"lands on your\", \"splashes your\")>>",
+    "translation": "",
+    "pos": 98945
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2674_5_3_7|",
+    "original": "<span class=\"purple\">$_part_text.</span>",
+    "translation": "",
+    "pos": 99037
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2703_5_3_7|",
+    "original": "<span class=\"lewd\">Copious amounts of lewd fluid washes into the water. You hope it doesn't attract attention.</span><br>",
+    "translation": "",
+    "pos": 100262
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2705_5_3_7|",
+    "original": "<span class=\"lewd\">Lots of lewd fluid washes into the water. You hope it doesn't attract attention.</span><br>",
+    "translation": "",
+    "pos": 100415
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2707_5_3_7|",
+    "original": "<span class=\"lewd\">Lewd fluid washes into the water. You hope it doesn't attract attention.</span><br>",
+    "translation": "",
+    "pos": 100557
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2709_5_3_7|",
+    "original": "<span class=\"lewd\">Some lewd fluid washes into the water. You hope it doesn't attract attention.</span><br>",
+    "translation": "",
+    "pos": 100690
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2779_5_3_7|",
+    "original": "<<set $_servingClothesCount to getVisibleClothesList().countWith(item => item.type.includes(\"serving\"))>>",
+    "translation": "",
+    "pos": 102757
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2805_5_3_7|",
+    "original": "<span class=\"gold\"><<if random(1, 10000) is 10000>>You gain Brouzouf<<else>>You make<</if>> <<printmoney $tip>>.</span>",
+    "translation": "",
+    "pos": 103504
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2814_5_3_7|",
+    "original": "You negotiate a price of <<printmoney $tip>>,",
+    "translation": "",
+    "pos": 103781
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2816_5_3_7|",
+    "original": "less than you hoped for.",
+    "translation": "",
+    "pos": 103859
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2818_5_3_7|",
+    "original": "which sounds reasonable.",
+    "translation": "",
+    "pos": 103896
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2823_5_3_7|",
+    "original": "<<He>> raises <<his>> offer to <<printmoney $tip>>.",
+    "translation": "",
+    "pos": 103964
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2866_5_3_7|",
+    "original": "<<if $vaginastate is \"penetrated\" or",
+    "translation": "",
+    "pos": 104998
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2867_5_3_7|",
+    "original": "$anusstate is \"penetrated\" or",
+    "translation": "",
+    "pos": 105036
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2868_5_3_7|",
+    "original": "$mouthstate is \"penetrated\" or",
+    "translation": "",
+    "pos": 105067
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2869_5_3_7|",
+    "original": "$penisstate is \"otheranus\" or",
+    "translation": "",
+    "pos": 105099
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2870_5_3_7|",
+    "original": "$penisstate is \"penetrated\" or",
+    "translation": "",
+    "pos": 105130
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2871_5_3_7|",
+    "original": "$anusstate is \"othermouth\" or",
+    "translation": "",
+    "pos": 105162
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2872_5_3_7|",
+    "original": "$vaginastate is \"othermouth\" or",
+    "translation": "",
+    "pos": 105193
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2873_5_3_7|",
+    "original": "$penisstate is \"othermouth\" or",
+    "translation": "",
+    "pos": 105226
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2874_5_3_7|",
+    "original": "$penisstate is \"tentacle\" or",
+    "translation": "",
+    "pos": 105258
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2875_5_3_7|",
+    "original": "$penisstate is \"tentacledeep\" or",
+    "translation": "",
+    "pos": 105288
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2876_5_3_7|",
+    "original": "$vaginastate is \"tentacle\" or",
+    "translation": "",
+    "pos": 105322
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2877_5_3_7|",
+    "original": "$vaginastate is \"tentacledeep\" or",
+    "translation": "",
+    "pos": 105353
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2878_5_3_7|",
+    "original": "$anusstate is \"tentacle\" or",
+    "translation": "",
+    "pos": 105388
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2879_5_3_7|",
+    "original": "$anusstate is \"tentacledeep\" or",
+    "translation": "",
+    "pos": 105417
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2880_5_3_7|",
+    "original": "$mouthstate is \"tentacle\" or",
+    "translation": "",
+    "pos": 105450
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2881_5_3_7|",
+    "original": "$mouthstate is \"tentacledeep\">>",
+    "translation": "",
+    "pos": 105480
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2897_5_3_7|",
+    "original": "╔═ Ba ═╦═ Cl ═╦═ St ═╦═ Me ═╗<br>",
+    "translation": "",
+    "pos": 106166
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2898_5_3_7|",
+    "original": "Do ─┼─ Co ─┼─ Hi ─┼─ Ox ─┼─ Ha<br>",
+    "translation": "",
+    "pos": 106203
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2899_5_3_7|",
+    "original": "╚═ Da ═╩═ Wo ═╩═ Ni ═╩═ El ═╝<br>",
+    "translation": "",
+    "pos": 106241
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2908_5_3_7|",
+    "original": "<<set _boxLocations to [",
+    "translation": "",
+    "pos": 106478
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2909_5_3_7|",
+    "original": "{ x: 1,\t\ty: 46}, /*Domus\t\t\t\t*/",
+    "translation": "",
+    "pos": 106506
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2910_5_3_7|",
+    "original": "{ x: 38,\ty: 9},\t/*Barb\t\t\t\t*/",
+    "translation": "",
+    "pos": 106540
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2911_5_3_7|",
+    "original": "{ x: 38,\ty: 83},\t/*Danube\t\t\t*/",
+    "translation": "",
+    "pos": 106572
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2912_5_3_7|",
+    "original": "{ x: 63,\ty: 46},\t/*Connudatus\t\t*/",
+    "translation": "",
+    "pos": 106606
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2913_5_3_7|",
+    "original": "{ x: 88,\ty: 9},\t/*Cliff\t\t\t\t*/",
+    "translation": "",
+    "pos": 106643
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2914_5_3_7|",
+    "original": "{ x: 88,\ty: 83},\t/*Wolf\t\t\t\t*/",
+    "translation": "",
+    "pos": 106676
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2915_5_3_7|",
+    "original": "{ x: 114,\ty: 46},\t/*High\t\t\t\t*/",
+    "translation": "",
+    "pos": 106709
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2916_5_3_7|",
+    "original": "{ x: 146,\ty: 9},\t/*Starfish\t\t\t*/",
+    "translation": "",
+    "pos": 106743
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2917_5_3_7|",
+    "original": "{ x: 146,\ty: 83},\t/*Nightingale\t\t*/",
+    "translation": "",
+    "pos": 106779
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2918_5_3_7|",
+    "original": "{ x: 176,\ty: 46},\t/*Oxford\t\t\t*/",
+    "translation": "",
+    "pos": 106818
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2919_5_3_7|",
+    "original": "{ x: 204,\ty: 9},\t/*Mer\t\t\t\t*/",
+    "translation": "",
+    "pos": 106853
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2920_5_3_7|",
+    "original": "{ x: 204,\ty: 83},\t/*Elk\t\t\t\t*/",
+    "translation": "",
+    "pos": 106885
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2921_5_3_7|",
+    "original": "{ x: 230,\ty: 46},\t/*Harvest\t\t\t*/",
+    "translation": "",
+    "pos": 106918
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2922_5_3_7|",
+    "original": "{ x: 38,\ty: 46},\t/*Residential Alley\t*/",
+    "translation": "",
+    "pos": 106954
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2923_5_3_7|",
+    "original": "{ x: 88,\ty: 46},\t/*Commercial Alley\t*/",
+    "translation": "",
+    "pos": 106997
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2924_5_3_7|",
+    "original": "{ x: 146,\ty: 46},\t/*Park\t\t\t\t*/",
+    "translation": "",
+    "pos": 107039
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2925_5_3_7|",
+    "original": "{ x: 204,\ty: 46}\t/*Industrial Alley\t*/",
+    "translation": "",
+    "pos": 107073
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2930_5_3_7|",
+    "original": "<image x=\"2\" xlink:href=\"img/misc/map.png\"> </image>",
+    "translation": "",
+    "pos": 107296
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2931_5_3_7|",
+    "original": "<image x=\"2\" @xlink:href=\"'img/misc/maparrow' + $map.location + '.png'\"> </image>",
+    "translation": "",
+    "pos": 107352
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2937_5_3_7|",
+    "original": "<a class=\"mapmove\"",
+    "translation": "",
+    "pos": 107691
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2938_5_3_7|",
+    "original": "@onclick=\"'mapMove(V.map.arrayList[' + _i + ']);'\"",
+    "translation": "",
+    "pos": 107716
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2939_5_3_7|",
+    "original": "@alt=\"$map.arrayList[_i] + (_canMoveTo ? ' (0:05)' : '')\"",
+    "translation": "",
+    "pos": 107773
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2940_5_3_7|",
+    "original": "@title=\"$map.arrayList[_i] + (_canMoveTo ? ' (0:05)' : '')\">",
+    "translation": "",
+    "pos": 107837
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2942_5_3_7|",
+    "original": "<rect @x=\"_boxLocations[_i].x\"",
+    "translation": "",
+    "pos": 107904
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2943_5_3_7|",
+    "original": "@y=\"_boxLocations[_i].y\"",
+    "translation": "",
+    "pos": 107942
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2944_5_3_7|",
+    "original": "height=\"34\"",
+    "translation": "",
+    "pos": 107974
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2945_5_3_7|",
+    "original": "width=\"30\"",
+    "translation": "",
+    "pos": 107993
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2946_5_3_7|",
+    "original": "@style=\"'stroke:cyan;fill-opacity:0;stroke-opacity:' + (_showMarker ? '0.6' : '0') + ';'\">",
+    "translation": "",
+    "pos": 108011
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2954_5_3_7|",
+    "original": "<image x=\"2\" xlink:href=\"img/misc/map.png\"/>",
+    "translation": "",
+    "pos": 108251
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2955_5_3_7|",
+    "original": "<image x=\"2\" @xlink:href=\"'img/misc/maparrow'+$map.location+'.png'\"/>",
+    "translation": "",
+    "pos": 108299
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2961_5_3_7|",
+    "original": "<area class=\"no-numberify\" alt=\"Barb Street\" title=\"Barb Street\" coords=\"62,20,39,42\" shape=\"rect\" onclick=\"mapMove('Barb Street')\">",
+    "translation": "",
+    "pos": 108581
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2962_5_3_7|",
+    "original": "<area class=\"no-numberify\" alt=\"Domus Street\" title=\"Domus Street\" coords=\"2,75,26,49\" shape=\"rect\" onclick=\"mapMove('Domus Street')\">",
+    "translation": "",
+    "pos": 108718
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2963_5_3_7|",
+    "original": "<area class=\"no-numberify\" alt=\"Danube Street\" title=\"Danube Street\" coords=\"33,110,70,84\" shape=\"rect\" onclick=\"mapMove('Danube Street')\">",
+    "translation": "",
+    "pos": 108857
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2964_5_3_7|",
+    "original": "<area class=\"no-numberify\" alt=\"Wolf Street\" title=\"Wolf Street\" coords=\"86,117,114,86\" shape=\"rect\" onclick=\"mapMove('Wolf Street')\">",
+    "translation": "",
+    "pos": 109001
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2965_5_3_7|",
+    "original": "<area class=\"no-numberify\" alt=\"High Street\" title=\"High Street\" coords=\"116,77,139,46\" shape=\"rect\" onclick=\"mapMove('High Street')\">",
+    "translation": "",
+    "pos": 109140
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2966_5_3_7|",
+    "original": "<area class=\"no-numberify\" alt=\"Connudatus Street\" title=\"Connudatus Street\" coords=\"64,77,88,49\" shape=\"rect\" onclick=\"mapMove('Connudatus Street')\">",
+    "translation": "",
+    "pos": 109279
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2967_5_3_7|",
+    "original": "<area class=\"no-numberify\" alt=\"Cliff Street\" title=\"Cliff Street\" coords=\"88,40,117,-1\" shape=\"rect\" onclick=\"mapMove('Cliff Street')\">",
+    "translation": "",
+    "pos": 109434
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2968_5_3_7|",
+    "original": "<area class=\"no-numberify\" alt=\"Starfish Street\" title=\"Starfish Street\" coords=\"147,41,172,12\" shape=\"rect\" onclick=\"mapMove('Starfish Street')\">",
+    "translation": "",
+    "pos": 109575
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2969_5_3_7|",
+    "original": "<area class=\"no-numberify\" alt=\"Nightingale Street\" title=\"Nightingale Street\" coords=\"143,115,170,82\" shape=\"rect\" onclick=\"mapMove('Nightingale Street')\">",
+    "translation": "",
+    "pos": 109726
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2970_5_3_7|",
+    "original": "<area class=\"no-numberify\" alt=\"Oxford Street\" title=\"Oxford Street\" coords=\"170,73,203,45\" shape=\"rect\" onclick=\"mapMove('Oxford Street')\">",
+    "translation": "",
+    "pos": 109887
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2971_5_3_7|",
+    "original": "<area class=\"no-numberify\" alt=\"Mer Street\" title=\"Mer Street\" coords=\"202,42,229,14\" shape=\"rect\" onclick=\"mapMove('Mer Street')\">",
+    "translation": "",
+    "pos": 110032
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2972_5_3_7|",
+    "original": "<area class=\"no-numberify\" alt=\"Elk Street\" title=\"Elk Street\" coords=\"197,111,238,77\" shape=\"rect\" onclick=\"mapMove('Elk Street')\">",
+    "translation": "",
+    "pos": 110168
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2973_5_3_7|",
+    "original": "<area class=\"no-numberify\" alt=\"Harvest Street\" title=\"Harvest Street\" coords=\"252,46,228,76\" shape=\"rect\" onclick=\"mapMove('Harvest Street')\">",
+    "translation": "",
+    "pos": 110305
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2974_5_3_7|",
+    "original": "<area class=\"no-numberify\" alt=\"Industrial Alley\" title=\"Industrial Alley\" coords=\"225,73,209,53\" shape=\"rect\" onclick=\"mapMove('Industrial alleyways')\">",
+    "translation": "",
+    "pos": 110453
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2975_5_3_7|",
+    "original": "<area class=\"no-numberify\" alt=\"Park\" title=\"Park\" coords=\"154,65,170,52\" shape=\"rect\" onclick=\"mapMove('Park')\">",
+    "translation": "",
+    "pos": 110611
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2976_5_3_7|",
+    "original": "<area class=\"no-numberify\" alt=\"Commercial Alley\" title=\"Commercial Alley\" coords=\"94,69,110,56\" shape=\"rect\" onclick=\"mapMove('Commercial alleyways')\">",
+    "translation": "",
+    "pos": 110729
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2977_5_3_7|",
+    "original": "<area class=\"no-numberify\" alt=\"Residential Alley\" title=\"Residential Alley\" coords=\"38,70,57,56\" shape=\"rect\" onclick=\"mapMove('Residential alleyways')\">",
+    "translation": "",
+    "pos": 110886
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2980_5_3_7|",
+    "original": "<div id=\"divmap\"><img id=\"map\" src=\"img/misc/map.png\"><img id=\"maparrow\" usemap=\"#town-image-map\" @src=\"'img/misc/maparrow' + _args[0] + '.png'\"></div>",
+    "translation": "",
+    "pos": 111063
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2988_5_3_7|",
+    "original": "<<print $_text_output>>",
+    "translation": "",
+    "pos": 111394
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "2999_5_3_7|",
+    "original": "<<pillicon>><<link [[Check your medicine drawer|PillCollection]]>><<set $pillsExitPassage to $passage>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 111721
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3008_5_3_7|",
+    "original": "<<gifticon \"shirt\">><<link [[Wrap Robin's shirt and shorts (0:10)|Bedroom Robin Wrap]]>><<pass 10>><<set $christmas_gift_robin to \"shirt\">><<set $christmas_gift_robin_wrapped to 1>><</link>>",
+    "translation": "",
+    "pos": 112004
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3011_5_3_7|",
+    "original": "<<gifticon \"sundress\">><<link [[Wrap Robin's sundress (0:10)|Bedroom Robin Wrap]]>><<pass 10>><<set $christmas_gift_robin to \"sundress\">><<set $christmas_gift_robin_wrapped to 1>><</link>>",
+    "translation": "",
+    "pos": 112241
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3014_5_3_7|",
+    "original": "<<gifticon \"kimono\">><<link [[Wrap Robin's kimono (0:10)|Bedroom Robin Wrap]]>><<pass 10>><<set $christmas_gift_robin to \"kimono\">><<set $christmas_gift_robin_wrapped to 1>><</link>>",
+    "translation": "",
+    "pos": 112474
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3017_5_3_7|",
+    "original": "<<gifticon \"tuxedo\">><<link [[Wrap Robin's tuxedo (0:10)|Bedroom Robin Wrap]]>><<pass 10>><<set $christmas_gift_robin to \"tuxedo\">><<set $christmas_gift_robin_wrapped to 1>><</link>>",
+    "translation": "",
+    "pos": 112705
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3020_5_3_7|",
+    "original": "<<gifticon \"gothic\">><<link [[Wrap Robin's gothic gown (0:10)|Bedroom Robin Wrap]]>><<pass 10>><<set $christmas_gift_robin to \"gothic gown\">><<set $christmas_gift_robin_wrapped to 1>><</link>>",
+    "translation": "",
+    "pos": 112937
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3023_5_3_7|",
+    "original": "<<gifticon \"christmas hat\">><<link [[Wrap Robin's Christmas outfit (0:10)|Bedroom Robin Wrap]]>><<pass 10>><<set $christmas_gift_robin to \"christmas\">><<set $christmas_gift_robin_wrapped to 1>><</link>>",
+    "translation": "",
+    "pos": 113177
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3027_5_3_7|",
+    "original": "<<gifticon \"christmas\">><<link [[Wrap the orphans' gifts (3:00)|Bedroom Orphans Clothes Wrap]]>><<pass 180>><<set $christmas_gift to \"clothes\">><</link>>",
+    "translation": "",
+    "pos": 113454
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3044_5_3_7|",
+    "original": "You steal a handful of white, translucent gems.",
+    "translation": "",
+    "pos": 114145
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3049_5_3_7|",
+    "original": "<span class=\"green\">You find a stick.</span><<set $island.wood += 1>>",
+    "translation": "",
+    "pos": 114407
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3051_5_3_7|",
+    "original": "<span class=\"green\">You find a handful of walnuts.</span><<set $island.walnut += 1>>",
+    "translation": "",
+    "pos": 114567
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3053_5_3_7|",
+    "original": "<span class=\"red\">You find nothing to steal.</span>",
+    "translation": "",
+    "pos": 114666
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3059_5_3_7|",
+    "original": "You pull a <span class=\"green\">ring of keys</span> from the <<persons>> pocket and hide it in the straw.<<combatskulduggeryskilluse>><<combatcontrol 10>><<gcombatcontrol>>",
+    "translation": "",
+    "pos": 114897
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3061_5_3_7|",
+    "original": "<span class=\"red\">You find nothing to steal.</span>",
+    "translation": "",
+    "pos": 115083
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3064_5_3_7|",
+    "original": "<span class=\"red\">You find nothing to steal.</span>",
+    "translation": "",
+    "pos": 115204
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3067_5_3_7|",
+    "original": "<span class=\"green\">You steal a charge for your pepper spray.</span>",
+    "translation": "",
+    "pos": 115320
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3071_5_3_7|",
+    "original": "You steal a strange card. There's an address on it, for a location on <span class=\"gold\">Elk Street.</span>",
+    "translation": "",
+    "pos": 115555
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3074_5_3_7|",
+    "original": "You steal <<moneyGain $rng>>.",
+    "translation": "",
+    "pos": 115691
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3082_5_3_7|",
+    "original": "<img id=\"statbar\" @src=\"'img/ui/' + _args[0] + '.png'\">",
+    "translation": "",
+    "pos": 115932
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3087_5_3_7|",
+    "original": "<img id=\"statbar\" @src=\"'img/ui/' + _args[0] + '.png'\">",
+    "translation": "",
+    "pos": 116098
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3092_5_3_7|",
+    "original": "<img id=\"statbar\" @src=\"'img/ui/' + _args[0] + '.png'\">",
+    "translation": "",
+    "pos": 116264
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3097_5_3_7|",
+    "original": "<img id=\"statbar\" @src=\"'img/ui/' + _args[0] + '.png'\">",
+    "translation": "",
+    "pos": 116430
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3102_5_3_7|",
+    "original": "<img id=\"statbar\" @src=\"'img/ui/' + _args[0] + '.png'\">",
+    "translation": "",
+    "pos": 116596
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3107_5_3_7|",
+    "original": "<img id=\"statbar\" @src=\"'img/ui/' + _args[0] + '.png'\">",
+    "translation": "",
+    "pos": 116762
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3112_5_3_7|",
+    "original": "<img id=\"statbar\" @src=\"'img/ui/' + _args[0] + '.png'\">",
+    "translation": "",
+    "pos": 116928
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3117_5_3_7|",
+    "original": "<img id=\"statbar\" @src=\"'img/ui/' + _args[0] + '.png'\">",
+    "translation": "",
+    "pos": 117094
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3122_5_3_7|",
+    "original": "<img id=\"statbar\" @src=\"'img/ui/' + _args[0] + '.png'\">",
+    "translation": "",
+    "pos": 117260
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3127_5_3_7|",
+    "original": "<img id=\"statbar\" @src=\"'img/ui/' + _args[0] + '.png'\">",
+    "translation": "",
+    "pos": 117427
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3155_5_3_7|",
+    "original": "_config.preText",
+    "translation": "",
+    "pos": 118427
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3157_5_3_7|",
+    "original": "<span @class=\"_config.color\">_config.description</span>",
+    "translation": "",
+    "pos": 118453
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3159_5_3_7|",
+    "original": "_config.postText",
+    "translation": "",
+    "pos": 118536
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3236_5_3_7|",
+    "original": "_config.name<<characteristic-box-modifier `clone(_config.modifier)` `clone(_config.modTypes)` `clone(_config.name)`>>",
+    "translation": "",
+    "pos": 121726
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3240_5_3_7|",
+    "original": "<span class=\"pink\"><i>Sensitivity: <<print _config.sensitivity>></i></span>",
+    "translation": "",
+    "pos": 121939
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3245_5_3_7|",
+    "original": "<span class=\"purple\"><i>Sensitivity: <<print _config.sensitivity>></i></span>",
+    "translation": "",
+    "pos": 122129
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3250_5_3_7|",
+    "original": "<span class=\"blue\"><i>Sensitivity: <<print _config.sensitivity>></i></span>",
+    "translation": "",
+    "pos": 122318
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3257_5_3_7|",
+    "original": "<big>_config.level</big><small>/<<print (_config.states.length - 1)>></small>",
+    "translation": "",
+    "pos": 122565
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3261_5_3_7|",
+    "original": "<span @class=\"_config.color\">_config.level</span> <<if _config.level neq 'None'>><small class=\"grade-percent black\">_config.percent%</small><</if>>",
+    "translation": "",
+    "pos": 122749
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3267_5_3_7|",
+    "original": "<span @class=\"'characteristic-description ' + _config.color\">_config.description</span>",
+    "translation": "",
+    "pos": 122974
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3270_5_3_7|",
+    "original": "<span class=\"characteristic-description grade-progress\">Daily Progress</span>",
+    "translation": "",
+    "pos": 123102
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3272_5_3_7|",
+    "original": "<img class=\"icon\" @src=\"'img/ui/' + (_config.starLevel > 0 ? 'bronze_star'\t: 'empty_star') + '.png'\" />",
+    "translation": "",
+    "pos": 123216
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3273_5_3_7|",
+    "original": "<img class=\"icon\" @src=\"'img/ui/' + (_config.starLevel > 1 ? 'silver_star'\t: 'empty_star') + '.png'\" />",
+    "translation": "",
+    "pos": 123324
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3274_5_3_7|",
+    "original": "<img class=\"icon\" @src=\"'img/ui/' + (_config.starLevel > 2 ? 'gold_star'\t: 'empty_star') + '.png'\" />",
+    "translation": "",
+    "pos": 123432
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3278_5_3_7|",
+    "original": "<div @class=\"(_config.meterColor ? _config.meterColor + 'bar' : 'goldbar')\" @style=\"'width:' + _config.barWidth + '%'\"></div>",
+    "translation": "",
+    "pos": 123579
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3280_5_3_7|",
+    "original": "<div @class=\"(_config.secondMeterColor ? _config.secondMeterColor + 'bar' : 'goldbar')\" @style=\"'width:' + _config.secondBarWidth + '%'\"></div>",
+    "translation": "",
+    "pos": 123742
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3290_5_3_7|",
+    "original": "<<set $_result to \" <small class='green characteristic-modifier'>(+\"+$_modifier+\"%)</small>\">>",
+    "translation": "",
+    "pos": 124102
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3292_5_3_7|",
+    "original": "<<set $_result to \" <small class='red characteristic-modifier'>(\"+$_modifier+\"%)</small>\">>",
+    "translation": "",
+    "pos": 124229
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3293_5_3_7|",
+    "original": "<<elseif [\"Promiscuity\", \"Exhibitionism\", \"Deviancy\"].includes(_args[2]) and (drunkSexStatModifier(V[_args[2].toLowerCase()]) gte 1 or heatRutSexStatModifier(_args[2].toLowerCase()) gte 1)>>",
+    "translation": "",
+    "pos": 124323
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3294_5_3_7|",
+    "original": "<<set $_result to \" <span class='\" + getLargestSexStatModifierCssClasses(_args[2].toLowerCase()) + \"'><small class='blue characteristic-modifier'>(???%)</small></span>\">>",
+    "translation": "",
+    "pos": 124517
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3301_5_3_7|",
+    "original": "<<set $_stat to _args[2].toLowerCase()>>",
+    "translation": "",
+    "pos": 124807
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3302_5_3_7|",
+    "original": "<span @class=\"$_modifier gt 0 ? 'green' : 'red'\"><mouse class = \"tooltip-small\">",
+    "translation": "",
+    "pos": 124850
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3303_5_3_7|",
+    "original": "$_result",
+    "translation": "",
+    "pos": 124934
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3305_5_3_7|",
+    "original": "<span class=\"green\">Increasing your $_stat: <<print $_good>> <span class=\"red\">Decreasing your $_stat: <<print $_bad>></span></span>",
+    "translation": "",
+    "pos": 124998
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3307_5_3_7|",
+    "original": "<span class=\"green\">Increasing your $_stat: <<print $_good>></span>",
+    "translation": "",
+    "pos": 125168
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3309_5_3_7|",
+    "original": "<span class=\"red\">Decreasing your $_stat: <<print $_bad>></span>",
+    "translation": "",
+    "pos": 125272
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3356_5_3_7|",
+    "original": "_config.preText",
+    "translation": "",
+    "pos": 126661
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3358_5_3_7|",
+    "original": "<span @class=\"_config.color\">_config.description</span>",
+    "translation": "",
+    "pos": 126687
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3360_5_3_7|",
+    "original": "_config.postText",
+    "translation": "",
+    "pos": 126770
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3366_5_3_7|",
+    "original": "<div class=\"relation-box\" @style=\"(_boxConfig.style || '')\">",
+    "translation": "",
+    "pos": 126874
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3372_5_3_7|",
+    "original": "<span class=\"relation-name\">_boxConfig.name</span>",
+    "translation": "",
+    "pos": 127117
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3376_5_3_7|",
+    "original": "_boxConfig.description",
+    "translation": "",
+    "pos": 127228
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3383_5_3_7|",
+    "original": "<div class=\"relation-box\" @style=\"(_boxConfig.style || '')\">",
+    "translation": "",
+    "pos": 127417
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3388_5_3_7|",
+    "original": "<span class=\"relation-name\">Wolf Pack</span>",
+    "translation": "",
+    "pos": 127619
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3391_5_3_7|",
+    "original": "The wolves",
+    "translation": "",
+    "pos": 127713
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3392_5_3_7|",
+    "original": "<<if $wolfpackleader gte 1>> view you as <span class=\"green\">the leader of the pack.</span>",
+    "translation": "",
+    "pos": 127727
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3393_5_3_7|",
+    "original": "<<elseif $syndromewolves gte 1>> view you as <span class=\"green\">their <<ppackbrother>>.</span>",
+    "translation": "",
+    "pos": 127823
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3394_5_3_7|",
+    "original": "<<elseif $wolfpacktrust gte 12>> <span class=\"green\">trust you.</span>",
+    "translation": "",
+    "pos": 127923
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3395_5_3_7|",
+    "original": "<<elseif $wolfpacktrust gte 6>> are <span class=\"teal\">starting to accept you.</span>",
+    "translation": "",
+    "pos": 127998
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3396_5_3_7|",
+    "original": "<<elseif $wolfpackfear gte 12>> <span class=\"red\">fear you.</span>",
+    "translation": "",
+    "pos": 128088
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3397_5_3_7|",
+    "original": "<<elseif $wolfpackfear gte 6>> are <span class=\"purple\">starting to fear you.</span>",
+    "translation": "",
+    "pos": 128159
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3398_5_3_7|",
+    "original": "<<else>><span class=\"pink\"> view you as prey.</span>",
+    "translation": "",
+    "pos": 128248
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3427_5_3_7|",
+    "original": "name : \"Love\",",
+    "translation": "",
+    "pos": 129047
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3434_5_3_7|",
+    "original": "name : \"Lust\",",
+    "translation": "",
+    "pos": 129221
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3442_5_3_7|",
+    "original": "name : \"Dominance\",",
+    "translation": "",
+    "pos": 129430
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3448_5_3_7|",
+    "original": "name : \"Trauma\",",
+    "translation": "",
+    "pos": 129574
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3454_5_3_7|",
+    "original": "name : \"Rage\",",
+    "translation": "",
+    "pos": 129711
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3460_5_3_7|",
+    "original": "name: \"Purity\",",
+    "translation": "",
+    "pos": 129844
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3466_5_3_7|",
+    "original": "name: \"Corruption\",",
+    "translation": "",
+    "pos": 130102
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3473_5_3_7|",
+    "original": "name: \"Harmony\",",
+    "translation": "",
+    "pos": 130300
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3480_5_3_7|",
+    "original": "name: \"ferocity\",",
+    "translation": "",
+    "pos": 130478
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3514_5_3_7|",
+    "original": "_npcData.nam",
+    "translation": "",
+    "pos": 131604
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3515_5_3_7|",
+    "original": "<small class=\"relation-title black\"><i>The _wraithTitle</i></small>",
+    "translation": "",
+    "pos": 131624
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3537_5_3_7|",
+    "original": "_npcData.nam?",
+    "translation": "",
+    "pos": 132535
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3538_5_3_7|",
+    "original": "<small class=\"relation-title black\"><i>The _wraithTitle</i></small>",
+    "translation": "",
+    "pos": 132556
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3548_5_3_7|",
+    "original": "<div @class=\"'relation-stat-list' + ($options.images ? '' : ' no-images')\">",
+    "translation": "",
+    "pos": 132943
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3568_5_3_7|",
+    "original": "_npcData.nam",
+    "translation": "",
+    "pos": 133694
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3569_5_3_7|",
+    "original": "<small class=\"relation-title black\"><i>The _npcData.title</i></small>",
+    "translation": "",
+    "pos": 133713
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3578_5_3_7|",
+    "original": "<div @class=\"'relation-stat-list' + ($options.images ? '' : ' no-images')\">",
+    "translation": "",
+    "pos": 134051
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3598_5_3_7|",
+    "original": "_npcData.nam",
+    "translation": "",
+    "pos": 134845
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3599_5_3_7|",
+    "original": "<small class=\"relation-title black\"><i>The _npcData.title</i></small>",
+    "translation": "",
+    "pos": 134864
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3624_5_3_7|",
+    "original": "<div class=\"relation-stat-block\" @style=\"'--progress: ' + _config.progress + '%;'\">",
+    "translation": "",
+    "pos": 135636
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3626_5_3_7|",
+    "original": "<label>_config.name</label>",
+    "translation": "",
+    "pos": 135743
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3630_5_3_7|",
+    "original": "<span @class=\"'relation-stat-icon ' + (_config.iconOrientation || 'horizontal')\">",
+    "translation": "",
+    "pos": 135841
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3638_5_3_7|",
+    "original": "<span class=\"relation-stat-percent black\">_config.progress<small>%</small></span>",
+    "translation": "",
+    "pos": 136199
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3642_5_3_7|",
+    "original": "<span class=\"relation-stat-percent black\">&nbsp;_config.progress<small>%</small></span>",
+    "translation": "",
+    "pos": 136327
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3650_5_3_7|",
+    "original": "<div @class=\"'connector-box ' + (_args[3] ? 'invert' : '')\" @style=\"'--connector-height: ' + _args[0] + 'px; --center-offset: ' + (_args[1] || 50) + '%; --end-offset: ' + (_args[2] || 0) + 'px;'\">",
+    "translation": "",
+    "pos": 136550
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3790_5_3_7|",
+    "original": "and your <<print $_fringe>> is very long.",
+    "translation": "",
+    "pos": 143805
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3792_5_3_7|",
+    "original": "and your <<print $_fringe>> is long.",
+    "translation": "",
+    "pos": 143883
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3794_5_3_7|",
+    "original": "and your <<print $_fringe>> is somewhat long.",
+    "translation": "",
+    "pos": 143956
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3796_5_3_7|",
+    "original": "and your <<print $_fringe>> is quite normal.",
+    "translation": "",
+    "pos": 144038
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3798_5_3_7|",
+    "original": "and your <<print $_fringe>> is short.",
+    "translation": "",
+    "pos": 144119
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3800_5_3_7|",
+    "original": "and your <<print $_fringe>> is very short.",
+    "translation": "",
+    "pos": 144169
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3807_5_3_7|",
+    "original": "<span class=\"green\">The pain threatens to overwhelm, but you endure it.</span>",
+    "translation": "",
+    "pos": 144439
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3811_5_3_7|",
+    "original": "<span class=\"red\">The pain overwhelms you.</span>",
+    "translation": "",
+    "pos": 144573
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3813_5_3_7|",
+    "original": "You fall to your knees.",
+    "translation": "",
+    "pos": 144658
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3825_5_3_7|",
+    "original": "<span class=\"green\">You endure the orgasmic shivers running through you.</span>",
+    "translation": "",
+    "pos": 145018
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3829_5_3_7|",
+    "original": "<span class=\"red\">You struggle against the orgasmic spasms overwhelming you.</span>",
+    "translation": "",
+    "pos": 145177
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3831_5_3_7|",
+    "original": "You fall to your knees.",
+    "translation": "",
+    "pos": 145296
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3853_5_3_7|",
+    "original": "<</silently>><<print _text_output>><</widget>>",
+    "translation": "",
+    "pos": 145954
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3909_5_3_7|",
+    "original": "<span class=\"green\">You feel an overwhelming sense of relief.</span> <<stress -12>><<llstress>><<pain -4>><<lpain>>",
+    "translation": "",
+    "pos": 148096
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3920_5_3_7|",
+    "original": "<<set $pillory.tenant to {person : clone(setup.baseNPC), exists : 0, duration : 0, served : 0, startTime: 0, endTime : 0,",
+    "translation": "",
+    "pos": 148488
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3921_5_3_7|",
+    "original": "crowd : 0, wet : 0, upperexposed : 0 , lowerexposed : 0, fruit : 0, fruitstock: 0, face : 0, ass : 0, genital : 0, broken : 0,",
+    "translation": "",
+    "pos": 148612
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3922_5_3_7|",
+    "original": "lastviewed : 0, special : {name : \"\", desc : \"\"}}>>",
+    "translation": "",
+    "pos": 148741
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3956_5_3_7|",
+    "original": "A <<person>> <<if $_already_served is 0>>is currently being locked into the pillory.<<else>>has recently been locked in the pillory.<</if>>",
+    "translation": "",
+    "pos": 149903
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "3961_5_3_7|",
+    "original": "Rumour has it <<he>> is being sent to the pillory.",
+    "translation": "",
+    "pos": 150116
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4014_5_3_7|",
+    "original": "<</silently>><<print _out>>",
+    "translation": "",
+    "pos": 151537
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4025_5_3_7|",
+    "original": "<</silently>><<print _out>>",
+    "translation": "",
+    "pos": 151808
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4036_5_3_7|",
+    "original": "<</silently>><<print _out>>",
+    "translation": "",
+    "pos": 152075
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4047_5_3_7|",
+    "original": "<</silently>><<print _out>>",
+    "translation": "",
+    "pos": 152346
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4058_5_3_7|",
+    "original": "<</silently>><<print _out>>",
+    "translation": "",
+    "pos": 152607
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4062_5_3_7|",
+    "original": "<<A_pillory_person>> is locked in the town pillory.",
+    "translation": "",
+    "pos": 152674
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4070_5_3_7|",
+    "original": "<<A_pillory_person>> is locked in the town pillory.",
+    "translation": "",
+    "pos": 152851
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4082_5_3_7|",
+    "original": "<<if $pillory.tenant.crowd gte 10>>A huge, drunken mob surround",
+    "translation": "",
+    "pos": 153141
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4083_5_3_7|",
+    "original": "<<elseif $pillory.tenant.crowd gte 6>>A large, rowdy mob crowd around",
+    "translation": "",
+    "pos": 153207
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4084_5_3_7|",
+    "original": "<<elseif $pillory.tenant.crowd gte 4>>A sinister crowd huddle around",
+    "translation": "",
+    "pos": 153279
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4085_5_3_7|",
+    "original": "<<else>>A small but sinister group lurk around",
+    "translation": "",
+    "pos": 153350
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4088_5_3_7|",
+    "original": "<<if $pillory.tenant.crowd gte 10>>An excited, jeering crowd surround",
+    "translation": "",
+    "pos": 153419
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4089_5_3_7|",
+    "original": "<<elseif $pillory.tenant.crowd gte 6>>A large crowd press around",
+    "translation": "",
+    "pos": 153491
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4090_5_3_7|",
+    "original": "<<elseif $pillory.tenant.crowd gte 4>>A curious group hang around",
+    "translation": "",
+    "pos": 153558
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4091_5_3_7|",
+    "original": "<<else>>A small group watch",
+    "translation": "",
+    "pos": 153626
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4093_5_3_7|",
+    "original": "<</if>>the <<pillory_type>> locked prone in the pillory.",
+    "translation": "",
+    "pos": 153665
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4094_5_3_7|",
+    "original": "<<if $pillory.tenant.broken gte 32>><<He>> looks traumatised, perhaps permanently broken by the abuse <<hes>> already suffered.",
+    "translation": "",
+    "pos": 153723
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4095_5_3_7|",
+    "original": "<<elseif $pillory.tenant.broken gte 16>><<He>> is weeping from the abuse <<hes>> already suffered.",
+    "translation": "",
+    "pos": 153852
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4096_5_3_7|",
+    "original": "<<elseif $pillory.tenant.broken gte 8>><<He>> is sobbing from the abuse.",
+    "translation": "",
+    "pos": 153952
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4097_5_3_7|",
+    "original": "<<elseif $pillory.tenant.broken gte 4>><<He>> is visibly upset, but trying hard to hide it.",
+    "translation": "",
+    "pos": 154026
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4098_5_3_7|",
+    "original": "<<else>><<He>> is defiant, showing a brave face.",
+    "translation": "",
+    "pos": 154119
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4104_5_3_7|",
+    "original": "<<His>> $pillory.tenant.person.breastsdesc are fully exposed to the crowd.",
+    "translation": "",
+    "pos": 154252
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4105_5_3_7|",
+    "original": "<<if $pillory.tenant.spank gte 8>><<His>> nipples are red from being pinched, slapped, sucked, bitten and pulled.",
+    "translation": "",
+    "pos": 154329
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4106_5_3_7|",
+    "original": "<<elseif $pillory.tenant.spank gte 4>><<His>> nipples looks sore from abuse.",
+    "translation": "",
+    "pos": 154445
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4110_5_3_7|",
+    "original": "<<His>> top has been bared, with only <<his>> bra hiding <<his>> $pillory.tenant.person.breastsdesc from the crowd.",
+    "translation": "",
+    "pos": 154607
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4112_5_3_7|",
+    "original": "<<His>> top has been bared, fully exposing <<his>> $pillory.tenant.person.breastsdesc to the crowd.",
+    "translation": "",
+    "pos": 154737
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4113_5_3_7|",
+    "original": "<<if $pillory.tenant.spank gte 8>><<His>> nipples are red from being pinched, slapped, bitten and pulled.",
+    "translation": "",
+    "pos": 154840
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4114_5_3_7|",
+    "original": "<<elseif $pillory.tenant.spank gte 4>><<His>> nipples looks sore from abuse.",
+    "translation": "",
+    "pos": 154949
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4117_5_3_7|",
+    "original": "<<elseif $pillory.tenant.upperexposed gte 1>><<His>> upper clothes have been mauled, partially exposing <<his>> <<if $pronoun is \"f\">>bra<<else>>$pillory.tenant.person.breastsdesc<</if>> to the crowd.",
+    "translation": "",
+    "pos": 155048
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4119_5_3_7|",
+    "original": "<<if $pillory.tenant.lowerexposed gte 2>><<His>> ass has <<if $pillory.tenant.upperexposed gte 1>>also<</if>> been exposed, making",
+    "translation": "",
+    "pos": 155259
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4120_5_3_7|",
+    "original": "<<if $pillory.tenant.person.gender is \"f\">><<his>> pussy",
+    "translation": "",
+    "pos": 155392
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4122_5_3_7|",
+    "original": "<</if>>visible to all.",
+    "translation": "",
+    "pos": 155502
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4123_5_3_7|",
+    "original": "<<if $pillory.tenant.spank gte 5>><<His>> ass shows signs of rough",
+    "translation": "",
+    "pos": 155527
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4124_5_3_7|",
+    "original": "<<if $pillory.tenant.fruit gte 5>>spanking, and <<his>> <<if $pillory.tenant.face gte 2>>cum<<if $pillory.tenant.face gte 4>>-coated<<else>>-stained<</if>><</if>> face is a mess of bruises and broken fruit.",
+    "translation": "",
+    "pos": 155597
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4125_5_3_7|",
+    "original": "<<else>>spanking.",
+    "translation": "",
+    "pos": 155807
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4127_5_3_7|",
+    "original": "<<elseif $pillory.tenant.fruit gte 6>><<His>> <<if $pillory.tenant.face gte 2>>cum<<if $pillory.tenant.face gte 4>>-coated<<else>>-stained<</if>><</if>> face is a mess of bruises and broken fruit.",
+    "translation": "",
+    "pos": 155838
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4128_5_3_7|",
+    "original": "<<elseif $pillory.tenant.fruit gte 2>><<His>> <<if $pillory.tenant.face gte 2>>cum<<if $pillory.tenant.face gte 4>>-coated<<else>>-stained<</if>><</if>> face is marked by bruises and broken fruit.",
+    "translation": "",
+    "pos": 156037
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4130_5_3_7|",
+    "original": "<<if $pillory.tenant.ass gte 2>><<His>> ass has been raped more than",
+    "translation": "",
+    "pos": 156246
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4131_5_3_7|",
+    "original": "<<if $pillory.tenant.genital gte 2>>once, and",
+    "translation": "",
+    "pos": 156318
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4132_5_3_7|",
+    "original": "<<if $pillory.tenant.person.gender is \"m\">>slime coats <<his>> <<print either(\"raw\",\"abused\",\"sorry\")>> penis.",
+    "translation": "",
+    "pos": 156368
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4133_5_3_7|",
+    "original": "<<else>>semen <<if $pillory.tenant.genital gte 4>>pours<<else>>drips<</if>> from <<his>> <<print either(\"raw\",\"reddened\",\"abused\")>> pussy.",
+    "translation": "",
+    "pos": 156483
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4135_5_3_7|",
+    "original": "<<else>>once.",
+    "translation": "",
+    "pos": 156638
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4137_5_3_7|",
+    "original": "<<elseif $pillory.tenant.genital gte 5>><<His>> <<if $pillory.tenant.person.gender is \"m\">>penis<<else>>pussy<</if>> has been raped raw.",
+    "translation": "",
+    "pos": 156665
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4138_5_3_7|",
+    "original": "<<elseif $pillory.tenant.genital gte 2>><<He>> has been raped more than once.",
+    "translation": "",
+    "pos": 156804
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4141_5_3_7|",
+    "original": "<<His>> <<if $pronoun is \"f\">>dress has been pulled up over <<his>> waist,<<else>>trousers have been pulled down,<</if>>",
+    "translation": "",
+    "pos": 156941
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4142_5_3_7|",
+    "original": "exposing <<his>> underwear to the crowd.",
+    "translation": "",
+    "pos": 157064
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4143_5_3_7|",
+    "original": "<<elseif $pillory.tenant.wet is 2>><<His>> clothes are see-through from the rain.",
+    "translation": "",
+    "pos": 157106
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4144_5_3_7|",
+    "original": "<<elseif $pillory.tenant.wet is 1>><<His>> clothes are semi-translucent from damp, but are drying out.",
+    "translation": "",
+    "pos": 157189
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4147_5_3_7|",
+    "original": "<<if $pillory.tenant.fruit gte 6>><<His>> face is a mess of bruises and broken fruit.",
+    "translation": "",
+    "pos": 157445
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4148_5_3_7|",
+    "original": "<<elseif $pillory.tenant.fruit gte 2>><<His>> face is marked by bruises and broken fruit.",
+    "translation": "",
+    "pos": 157533
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4175_5_3_7|",
+    "original": "<<set $_factor to ($pillory.tenant.upperexposed + $pillory.tenant.lowerexposed + $pillory.tenant.fruit",
+    "translation": "",
+    "pos": 158591
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4176_5_3_7|",
+    "original": "+ $pillory.tenant.spank + $pillory.tenant.face + $pillory.tenant.ass + $pillory.tenant.genital)>>",
+    "translation": "",
+    "pos": 158697
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4223_5_3_7|",
+    "original": "A number of people, led by a <<person>> jeer and shout abuse at the prisoner.",
+    "translation": "",
+    "pos": 161195
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4227_5_3_7|",
+    "original": "A <<person>> in rough farmer clothes approaches the pillory with a bucket.",
+    "translation": "",
+    "pos": 161420
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4228_5_3_7|",
+    "original": "Setting the bucket underneath the <<pillory_type>>'s chest, <<person2>><<he>>",
+    "translation": "",
+    "pos": 161500
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4229_5_3_7|",
+    "original": "<<if $pillory.tenant.upperexposed lte 1>>displaces the prisoner's top,<</if>>",
+    "translation": "",
+    "pos": 161583
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4230_5_3_7|",
+    "original": "<<if $pillory.tenant.upperexposed lte 2>><<set $pillory.tenant.upperexposed to 3>> slips off her bra,<</if>>",
+    "translation": "",
+    "pos": 161666
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4231_5_3_7|",
+    "original": "grabs the <<pillory_type>>'s $pillory.tenant.person.breastsdesc and sets about trying to milk her into the bucket.",
+    "translation": "",
+    "pos": 161780
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4235_5_3_7|",
+    "original": "Milk bursts from her breasts. Smiling, the farmer soon builds up a rhythm, adeptly milking both breasts.",
+    "translation": "",
+    "pos": 161964
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4237_5_3_7|",
+    "original": "\"Good cow.\" The farmer ruffles <<the_pillory_person>>'s hair before leaving with an almost full bucket.",
+    "translation": "",
+    "pos": 162088
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4239_5_3_7|",
+    "original": "Milk dribbles from the <<pillory_type>>'s breasts. With a lot of persistent squeezing and nipple pulling the farmer is eventually",
+    "translation": "",
+    "pos": 162248
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4240_5_3_7|",
+    "original": "able to\tget a fair amount of milk from the prisoner. Her $pillory.tenant.person.breastsdesc look raw and painful afterward.",
+    "translation": "",
+    "pos": 162385
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4242_5_3_7|",
+    "original": "The farmer pats the prisoner's head before leaving with <<person2>><<his>> half-filled bucket.",
+    "translation": "",
+    "pos": 162528
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4245_5_3_7|",
+    "original": "Despite increasingly rough squeezing and pulling on her nipples, no milk is forthcoming.",
+    "translation": "",
+    "pos": 162691
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4247_5_3_7|",
+    "original": "Finally giving up, the <<person2>><<person>> pats her head. \"Poor girl. You're all dried up.\"",
+    "translation": "",
+    "pos": 162809
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4249_5_3_7|",
+    "original": "<<He>> walks behind the <<pillory_type>> and",
+    "translation": "",
+    "pos": 162922
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4250_5_3_7|",
+    "original": "<<if $pillory.tenant.lowerexposed lte 1>>strips <<his>> <<print either(\"silk panties\",\"plain panties\",\"tattered undies\",\"boyshorts\")>>,",
+    "translation": "",
+    "pos": 162974
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4251_5_3_7|",
+    "original": "<<else>>holds <<his>> butt-cheeks spread apart<</if>> exposing <<if $pillory.tenant.person.gender is \"f\">><<his>> pussy <<else>><<his>> ass <</if>>to all.",
+    "translation": "",
+    "pos": 163117
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4253_5_3_7|",
+    "original": "\"This cow's dry,\" <<person2>><<he>> calls out to the crowd. <<if $pillory.tenant.person.gender is \"f\">>\"Wants someone to put a calf in her.\"<<else>>\"Wants someone to fill her up.\"<</if>>",
+    "translation": "",
+    "pos": 163291
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4255_5_3_7|",
+    "original": "<<He>> walks away with <<his>> empty bucket.",
+    "translation": "",
+    "pos": 163497
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4258_5_3_7|",
+    "original": "Finally giving up, the farmer walks away with <<his>> empty bucket.",
+    "translation": "",
+    "pos": 163613
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4263_5_3_7|",
+    "original": "A <<person>> in rough farmer clothes approaches the pillory with a clear glass.",
+    "translation": "",
+    "pos": 163792
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4265_5_3_7|",
+    "original": "Setting the glass underneath the <<pillory_type>>'s groin, <<person2>><<he>>",
+    "translation": "",
+    "pos": 163887
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4266_5_3_7|",
+    "original": "<<if $pillory.tenant.lowerexposed lte 0>><<if $pillory.tenant.person.pronoun is \"m\">>pulls down the prisoner's trousers,<<else>>hitches up the prisoner's skirt,<</if>><</if>>",
+    "translation": "",
+    "pos": 163969
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4267_5_3_7|",
+    "original": "<<if $pillory.tenant.lowerexposed lte 1>><<set $pillory.tenant.lowerexposed to 2>><<if $pillory.tenant.person.pronoun is \"m\">> removes his underpants, <<else>> pulls down her panties, <</if>><</if>>",
+    "translation": "",
+    "pos": 164149
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4268_5_3_7|",
+    "original": "grabs the prisoner's $pillory.tenant.person.penisdesc and starts to rub.",
+    "translation": "",
+    "pos": 164353
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4269_5_3_7|",
+    "original": "The prisoner looks shocked, then angry, then conflicted, and then shocked again as <<person1>><<he>> cums into a glass in front of a jeering crowd.",
+    "translation": "",
+    "pos": 164431
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4272_5_3_7|",
+    "original": "The farmer glances in the glass and then starts again. Seemingly an 'old hand,' <<he>> starts to browse <<his>> phone with",
+    "translation": "",
+    "pos": 164623
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4273_5_3_7|",
+    "original": "one hand, while bringing the <<pillory_type>> to several more orgasms with the other.",
+    "translation": "",
+    "pos": 164752
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4275_5_3_7|",
+    "original": "Ten minutes later, the farmer is walking off with a glassful of ejaculate, while <<the_pillory_person>> hangs in the pillory, <<his>> face",
+    "translation": "",
+    "pos": 164855
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4276_5_3_7|",
+    "original": "flickering between shock, shame, pain and satiation.",
+    "translation": "",
+    "pos": 165000
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4278_5_3_7|",
+    "original": "The farmer browses <<his>> phone with one hand, while trying to bring the <<pillory_type>> back to orgasm with the other.",
+    "translation": "",
+    "pos": 165107
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4280_5_3_7|",
+    "original": "After a minute or so, the farmer looks confused, then annoyed at <<the_pillory_person>>'s lack of response.",
+    "translation": "",
+    "pos": 165246
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4281_5_3_7|",
+    "original": "The <<person2>><<person>> pulls a device from <<his>> pocket. <<He>> clips one end of the device to the base of the <<pillory_type>>'s penis,",
+    "translation": "",
+    "pos": 165360
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4282_5_3_7|",
+    "original": "and slides the other deep into the prisoner's anus.",
+    "translation": "",
+    "pos": 165508
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4284_5_3_7|",
+    "original": "The farmer presses a button and with a loud electric crackle, <<the_pillory_person>> yelps, jerks and starts to orgasm continually.",
+    "translation": "",
+    "pos": 165577
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4286_5_3_7|",
+    "original": "After about 20 seconds of phone browsing the <<person2>><<person>> turns the device off, glances at the glass, and nods.",
+    "translation": "",
+    "pos": 165726
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4288_5_3_7|",
+    "original": "The crowd are engrossed as the farmer repeats this process several more times, until finally the farmer is walking away with a",
+    "translation": "",
+    "pos": 165864
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4289_5_3_7|",
+    "original": "glassful of ejaculate, while <<the_pillory_person>> hangs limp in the pillory, <<his>> face twitching with pain, shame and a strange satiation.",
+    "translation": "",
+    "pos": 165997
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4293_5_3_7|",
+    "original": "A <<person>> in rough farmer clothes approaches the pillory with a glass beaker.",
+    "translation": "",
+    "pos": 166237
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4295_5_3_7|",
+    "original": "Setting the beaker underneath the <<pillory_type>>'s groin, <<person2>><<he>>",
+    "translation": "",
+    "pos": 166333
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4296_5_3_7|",
+    "original": "<<if $pillory.tenant.lowerexposed lte 0>><<if $pillory.tenant.person.pronoun is \"f\">>hitches up the prisoner's skirt,<<else>>pulls down the prisoner's trousers,<</if>><</if>>",
+    "translation": "",
+    "pos": 166416
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4297_5_3_7|",
+    "original": "<<if $pillory.tenant.lowerexposed lte 1>><<set $pillory.tenant.lowerexposed to 2>><<if $pillory.tenant.person.pronoun is \"f\">> pulls down her panties,<<else>> removes his underpants,<</if>><</if>>",
+    "translation": "",
+    "pos": 166596
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4298_5_3_7|",
+    "original": "grabs the prisoner's pussy and starts to rub.",
+    "translation": "",
+    "pos": 166798
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4299_5_3_7|",
+    "original": "After a moment's shock, <<the_pillory_person>> pouts and resigns <<himself>> to this debasement. That's when <<he>> feels cold metal shoved up",
+    "translation": "",
+    "pos": 166849
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4300_5_3_7|",
+    "original": "<<his>> pussy. A moment later panic crosses <<his>> face as something is clamped to <<his>> clit, and almost instantly waves of electricity hit <<him>>.",
+    "translation": "",
+    "pos": 166997
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4302_5_3_7|",
+    "original": "The crowd are engrossed as <<the_pillory_person>> writhes in orgasm after shuddering orgasm. The farmer barely pays attention, holding",
+    "translation": "",
+    "pos": 167165
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4303_5_3_7|",
+    "original": "the beaker close underneath to catch <<the_pillory_person>>'s fluids, while browsing <<person2>><<his>> phone.",
+    "translation": "",
+    "pos": 167305
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4304_5_3_7|",
+    "original": "At last, the farmer turns off and extracts <<his>> machine. <<Hes>> still browsing <<his>> phone as <<he>> walks away with a",
+    "translation": "",
+    "pos": 167421
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4305_5_3_7|",
+    "original": "full beaker of fluids.",
+    "translation": "",
+    "pos": 167551
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4307_5_3_7|",
+    "original": "<<The_pillory_person>> looks mortified, <<his>> face flitting between shock, shame and sexual exhaustion.",
+    "translation": "",
+    "pos": 167589
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4309_5_3_7|",
+    "original": "<<if Time.month > 4 && Time.month < 9 and $rng % 4>>",
+    "translation": "",
+    "pos": 167713
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4311_5_3_7|",
+    "original": "<<The_pillory_person>> shouts and helplessly wriggles and flaps as a _bug starts to circle <<him>>.",
+    "translation": "",
+    "pos": 167827
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4314_5_3_7|",
+    "original": "A kindly spectator waves the _bug away.",
+    "translation": "",
+    "pos": 167972
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4316_5_3_7|",
+    "original": "The crowd jeer and laugh. Eventually the _bug loses interest and flies away.",
+    "translation": "",
+    "pos": 168050
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4329_5_3_7|",
+    "original": "<<He>> <<print either(\"yells\",\"screams\",\"whines\",\"cries\")>> as it lands on <<his>> _part and stings <<him>>.",
+    "translation": "",
+    "pos": 168817
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4332_5_3_7|",
+    "original": "A furious <<monk>> from the temple scolds the crowd for preying on the morally sick.",
+    "translation": "",
+    "pos": 168960
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4333_5_3_7|",
+    "original": "Many people look ashamed and some leave.",
+    "translation": "",
+    "pos": 169051
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4337_5_3_7|",
+    "original": "The <<monk>> finally restores the <<pillory_type>>'s dignity by replacing <<his>> clothes.",
+    "translation": "",
+    "pos": 169309
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4342_5_3_7|",
+    "original": "A <<person>> throws fruit at the <<pillory_type>>. Unable to move or defend, it hits <<him>> directly in the face.",
+    "translation": "",
+    "pos": 169478
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4343_5_3_7|",
+    "original": "It looks painful, especially as <<he>> cannot wipe the acids out of <<his>> eyes.",
+    "translation": "",
+    "pos": 169597
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4346_5_3_7|",
+    "original": "A <<person>> throws fruit at the <<pillory_type>> but misses completely.",
+    "translation": "",
+    "pos": 169758
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4348_5_3_7|",
+    "original": "A <<person>> walks up to the pillory and $_ly fondles the <<pillory_type>>'s <<if $pronoun is \"f\">>breasts.<<else>>balls.<</if>>",
+    "translation": "",
+    "pos": 169871
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4350_5_3_7|",
+    "original": "A <<person>> walks up to the <<pillory_type>> and",
+    "translation": "",
+    "pos": 170076
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4353_5_3_7|",
+    "original": "$_ly removes <<his>> bra, fully exposing <<his>> $pillory.tenant.person.breastsdesc to a jeering crowd.",
+    "translation": "",
+    "pos": 170204
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4355_5_3_7|",
+    "original": "$_ly twists <<his>> nipples.",
+    "translation": "",
+    "pos": 170327
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4360_5_3_7|",
+    "original": "fully removes <<his>> top, leaving <<him>> with <<his>> bra exposed to the jeering crowd.",
+    "translation": "",
+    "pos": 170491
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4362_5_3_7|",
+    "original": "fully removes <<his>> top, exposing <<his>> naked $pillory.tenant.person.breastsdesc to the jeering crowd.",
+    "translation": "",
+    "pos": 170600
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4366_5_3_7|",
+    "original": "lifts <<his>> top, partially exposing <<his>> bra to a jeering crowd.",
+    "translation": "",
+    "pos": 170766
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4368_5_3_7|",
+    "original": "lifts <<his>> top, exposing much of <<his>> chest to the jeering crowd.",
+    "translation": "",
+    "pos": 170855
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4372_5_3_7|",
+    "original": "A <<person>> walks up to <<the_pillory_person>> and",
+    "translation": "",
+    "pos": 171068
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4374_5_3_7|",
+    "original": "<<if $pillory.tenant.person.gender is \"f\">>removes the <<pillory_type>>'s underwear, fully exposing <<his>> ass and pussy to the jeering crowd.",
+    "translation": "",
+    "pos": 171170
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4375_5_3_7|",
+    "original": "<<else>>fully removes the <<pillory_type>>'s underwear, exposing <<his>> ass and <<his>> $pillory.tenant.person.penisdesc to the jeering crowd.",
+    "translation": "",
+    "pos": 171319
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4378_5_3_7|",
+    "original": "<<if $pronoun is \"f\">>lifts the <<pillory_type>>'s skirt,<<else>>pulls down <<his>> trousers,<</if>> exposing <<his>> underwear to a jeering crowd.",
+    "translation": "",
+    "pos": 171494
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4381_5_3_7|",
+    "original": "A <<person>> walks up to the <<pillory_type>> and spanks <<him>> hard on the ass. The thwack echoes across the street.",
+    "translation": "",
+    "pos": 171753
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4385_5_3_7|",
+    "original": "A number of people, led by a <<person>> jeer and shout at the prisoner.",
+    "translation": "",
+    "pos": 172002
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4387_5_3_7|",
+    "original": "A <<person>> throws fruit at the <<pillory_type>>. Unable to move or defend <<himself>>, it hits <<the_pillory_person>> directly in the face. There is a loud cheer.",
+    "translation": "",
+    "pos": 172113
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4388_5_3_7|",
+    "original": "It looks painful, especially as <<he>> cannot wipe the acids out of <<his>> eyes.",
+    "translation": "",
+    "pos": 172282
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4391_5_3_7|",
+    "original": "A <<person>> throws fruit at the <<pillory_type>> but misses completely.",
+    "translation": "",
+    "pos": 172442
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4394_5_3_7|",
+    "original": "A <<person>> walks up to the helpless <<pillory_type>> and displaces all <<his>> upper clothes, fully baring <<his>> <<if $pronoun is \"f\">>$pillory.tenant.person.breastsdesc<<else>>chest<</if>> to the crowd.",
+    "translation": "",
+    "pos": 172655
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4397_5_3_7|",
+    "original": "A <<person>> walks up to the helpless <<pillory_type>> and displaces all <<his>> upper clothes, fully baring <<his>> <<if $pronoun is \"f\">>$pillory.tenant.person.breastsdesc<<else>>chest<</if>> to the crowd.",
+    "translation": "",
+    "pos": 173003
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4400_5_3_7|",
+    "original": "A <<person>> walks up to the helpless <<pillory_type>> and displaces all <<his>> lower clothes, fully baring <<his>> <<if $pillory.tenant.person.gender is \"f\">>pussy<<else>>$pillory.tenant.person.penisdesc<</if>> to the crowd. There is a loud cheer.",
+    "translation": "",
+    "pos": 173309
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4402_5_3_7|",
+    "original": "A <<person>> tries to incite a nearby dog to mount the prisoner's naked backside. It",
+    "translation": "",
+    "pos": 173599
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4403_5_3_7|",
+    "original": "<<if $rng % 2>>gives <<the_pillory_person>>'s ass a few tentative sniffs, but",
+    "translation": "",
+    "pos": 173688
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4404_5_3_7|",
+    "original": "<</if>>is not interested.",
+    "translation": "",
+    "pos": 173770
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4407_5_3_7|",
+    "original": "A <<person>> sneaks up behind the pillory and $_ly slaps the <<pillory_type>>'s exposed <<if $pillory.tenant.person.gender is \"f\">>cunt.<<else>>balls.<</if>> The crowd jeer and laugh as <<he>> howls in pain.",
+    "translation": "",
+    "pos": 173874
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4410_5_3_7|",
+    "original": "Some teacher you've seen around the school but never had classes with, walks drunkenly toward the pillory.",
+    "translation": "",
+    "pos": 174164
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4413_5_3_7|",
+    "original": "\"Well, hello, Whitney! <<print either(\"Fancy seeing you here!\",\"Look who it is!\",\"Are you stuck there? How unfortunate!\",\"Isn't this quite the turnaround!?\",\"Such a nice surprise to see you here!\")>>\" <<he>> slurs, grinning.",
+    "translation": "",
+    "pos": 174373
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4414_5_3_7|",
+    "original": "\"<<print either(\"We both know that you've earned this.\",\"We both know how richly you deserve this.\",\"And today's lesson will be about consequences.\",\"Do remember that mean little nickname you made up for me?\",\"Do remember what you did in my class the other day?\")>>\"",
+    "translation": "",
+    "pos": 174603
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4417_5_3_7|",
+    "original": "\"Well, hello there. Is that you, boss?\" <<he>> says, staying out of sight behind the pillory.",
+    "translation": "",
+    "pos": 174977
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4418_5_3_7|",
+    "original": "\"<<print either(\"I think it's time for some 'anonymous staff feedback'.\",\"Remember what you said about 'cruel to be kind?'\",\"So I guess it's your turn for some 'frank and honest feedback'?\",\"So is this the 'right forum' to air staff grievances?\")>>\"",
+    "translation": "",
+    "pos": 175076
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4420_5_3_7|",
+    "original": "\"Well, hello there,\" <<he>> slurs, grinning.",
+    "translation": "",
+    "pos": 175348
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4421_5_3_7|",
+    "original": "\"<<print either(\"Looks like you've been naughty.\",\"Discipline. So important.\",\"Isn't it a lovely evening? Don't you think? Look at that full moon!\")>>\"",
+    "translation": "",
+    "pos": 175398
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4423_5_3_7|",
+    "original": "<<He>> spanks the <<pillory_type>>'s ass until <<person2>><<his>> arm tires. The crowd jeer and laugh as the <<person1>><<person>> howls in pain.",
+    "translation": "",
+    "pos": 175570
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4426_5_3_7|",
+    "original": "A <<person>> walks in front of the pillory and $_ly masturbates in front of the <<pillory_type>>.",
+    "translation": "",
+    "pos": 175794
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4427_5_3_7|",
+    "original": "<<person2>><<if $pronoun is \"m\">>Cum soon splatters across <<the_pillory_person>>'s face.",
+    "translation": "",
+    "pos": 175896
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4428_5_3_7|",
+    "original": "<<else>><<He>> grinds <<his>> cunt against <<the_pillory_person>>'s<<person2>> face as <<he>> orgasms.",
+    "translation": "",
+    "pos": 175990
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4429_5_3_7|",
+    "original": "<</if>> The crowd cheer and laugh.",
+    "translation": "",
+    "pos": 176097
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4432_5_3_7|",
+    "original": "A <<person>> walks behind the pillory and $_ly <<if $pronoun is \"m\">>rapes<<else>>fingers<</if>> the <<pillory_type>>'s asshole. The crowd cheer <<person2>><<him>> on.",
+    "translation": "",
+    "pos": 176209
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4435_5_3_7|",
+    "original": "A <<person>> walks behind the pillory and $_ly rapes <<if $pronoun is \"m\">><<the_pillory_person>>.<<else>><<the_pillory_person>> with a strap-on.<</if>><<person2>> The crowd take pictures and cheer <<him>> on.",
+    "translation": "",
+    "pos": 176458
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4438_5_3_7|",
+    "original": "The crowd watch and photograph as a stray dog rapes <<the_pillory_person>>. A <<person2>><<person>> rewards the dog with a <<print either(\"biscuit.\",\"pat on the head.\",\"sweet.\",\"cream bun.\")>>",
+    "translation": "",
+    "pos": 176781
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4440_5_3_7|",
+    "original": "The crowd enjoys such a perverted spectacle.",
+    "translation": "",
+    "pos": 176987
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4443_5_3_7|",
+    "original": "<<if $rng % 3 is 0>>A couple of off-duty policemen approach. They make a <<person>> record as they<<else>>Two men approach. Together they<</if>>",
+    "translation": "",
+    "pos": 177250
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4444_5_3_7|",
+    "original": "<<if $pillory.tenant.person.gender is \"m\">>anally-<<else>>$_ly <</if>>spit-roast <<the_pillory_person>>. The crowd enjoys the spectacle.",
+    "translation": "",
+    "pos": 177399
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4447_5_3_7|",
+    "original": "<<if $rng % 3 is 0>>A couple of off-duty policewomen approach. They make a <<person>> record as they<<else>>Two women approach. Together they<</if>>",
+    "translation": "",
+    "pos": 177756
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4448_5_3_7|",
+    "original": "<<if $pillory.tenant.person.gender is \"m\">>anally-<<else>>$_ly <</if>>spit-roast <<the_pillory_person>> with strap-ons. The crowd enjoys the spectacle.",
+    "translation": "",
+    "pos": 177909
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4451_5_3_7|",
+    "original": "A <<person>> walks up to the <<pillory_type>> and spanks <<him>> hard on the ass. The thwack echoes across the street.",
+    "translation": "",
+    "pos": 178125
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4455_5_3_7|",
+    "original": "The people around <<print either(\"jeer at\",\"laugh at\",\"point at\",\"shout abuse at\",\"taunt\",\"mock\",\"leer at\")>>",
+    "translation": "",
+    "pos": 178385
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4457_5_3_7|",
+    "original": "the <<pillory_type>>. A group of students from the nearby school pass by, gaping at",
+    "translation": "",
+    "pos": 178601
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4458_5_3_7|",
+    "original": "<<if $pillory.tenant.lowerexposed gte 2 or $pillory.tenant.upperexposed gte 3>>the lewdly exposed prisoner.",
+    "translation": "",
+    "pos": 178688
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4460_5_3_7|",
+    "original": "An outraged bystander runs up to the pillory and replaces the <<pillory_type>>'s clothes.",
+    "translation": "",
+    "pos": 178825
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4462_5_3_7|",
+    "original": "<<else>>the prisoner.",
+    "translation": "",
+    "pos": 179012
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4466_5_3_7|",
+    "original": "the <<pillory_type>> and <<print either(\"mutter among themselves.\",\"take photos.\",\"amuse themselves.\")>>",
+    "translation": "",
+    "pos": 179112
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4468_5_3_7|",
+    "original": "the <<pillory_type>>. Some get bored and leave.",
+    "translation": "",
+    "pos": 179247
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4471_5_3_7|",
+    "original": "the <<pillory_type>>. A bus drops some people off nearby. A few join the crowd around the pillory.",
+    "translation": "",
+    "pos": 179350
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4476_5_3_7|",
+    "original": "<<if $pillory.tenant.lowerexposed gte 2 and $rng % 4 is 0>>the <<pillory_type>> and take selfies posing around <<his>> exposed, naked ass.",
+    "translation": "",
+    "pos": 179536
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4477_5_3_7|",
+    "original": "<<else>>the <<pillory_type>> and <<print either(\"mutter darkly.\",\"drink.\",\"throw empty beer cans.\",\"make sinister threats.\",\"take selfies with the prisoner.\",\"tell dirty jokes.\")>>",
+    "translation": "",
+    "pos": 179679
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4480_5_3_7|",
+    "original": "the <<pillory_type>>. Some get tired and leave.",
+    "translation": "",
+    "pos": 179902
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4483_5_3_7|",
+    "original": "the <<pillory_type>>. A few people passing by join the crowd around the pillory.",
+    "translation": "",
+    "pos": 180005
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4498_5_3_7|",
+    "original": "<<He>> will be released",
+    "translation": "",
+    "pos": 180705
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4500_5_3_7|",
+    "original": "in $_timeLeft.hours hours.",
+    "translation": "",
+    "pos": 180763
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4502_5_3_7|",
+    "original": "imminently.",
+    "translation": "",
+    "pos": 180804
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4505_5_3_7|",
+    "original": "<<He>> is scheduled for release <<if $_timeLeft.days is 1>>tomorrow<<else>>in two days<</if>> at",
+    "translation": "",
+    "pos": 180838
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4507_5_3_7|",
+    "original": "<<case 0>>midnight.",
+    "translation": "",
+    "pos": 180966
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4508_5_3_7|",
+    "original": "<<case 12>>noon.",
+    "translation": "",
+    "pos": 180989
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4509_5_3_7|",
+    "original": "<<default>><<ampm $_endTime.hour>>.",
+    "translation": "",
+    "pos": 181009
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4518_5_3_7|",
+    "original": "A police officer <<print either(\"is releasing\",\"has just released\",\"is struggling to release\",\"is about to release\")>>",
+    "translation": "",
+    "pos": 181174
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4519_5_3_7|",
+    "original": "<<the_pillory_person>> from the pillory. <<if Weather.precipitation is \"rain\">><<His>> clothes are see-through from the rain.<<elseif Weather.isFreezing>><<He>> shivers in the cold.<</if>>",
+    "translation": "",
+    "pos": 181295
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4521_5_3_7|",
+    "original": "<<The_pillory_person>> staggers away from the pillory with <<print either(\"tears\",\"defiance\",\"signs of trauma\",\"fury\")>> in <<his>> eyes.",
+    "translation": "",
+    "pos": 181517
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4522_5_3_7|",
+    "original": "<<if Weather.precipitation is \"rain\">><<His>> clothes are see-through from the rain.<</if>>",
+    "translation": "",
+    "pos": 181657
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4524_5_3_7|",
+    "original": "<<The_pillory_person>> was released and has left. A couple of civil servants clean the pillory.",
+    "translation": "",
+    "pos": 181761
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4529_5_3_7|",
+    "original": "<<if $rng gte 67 or $rng gte 33 and Weather.precipitation is \"rain\">>A large crowd jeers and shouts.<</if>>",
+    "translation": "",
+    "pos": 182083
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4560_5_3_7|",
+    "original": "<span class=\"pink\">It's nothing you weren't aware of.</span>",
+    "translation": "",
+    "pos": 183551
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4574_5_3_7|",
+    "original": "<span @class=\"(_set_value is _value ? 'goldLink' : '')\">",
+    "translation": "",
+    "pos": 183943
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4575_5_3_7|",
+    "original": "<<link _label>>",
+    "translation": "",
+    "pos": 184005
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4600_5_3_7|",
+    "original": "Your _desk.name and <<if _chair.name isnot \"chair\">>_chair.article <</if>>_chair.nameSolo are wedged next to your wardrobe.",
+    "translation": "",
+    "pos": 185096
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4610_5_3_7|",
+    "original": "<<deskchairicon>>Your _desk.name and <<if _chair.name isnot \"chair\">>_chair.article <</if>>_chair.nameSolo are wedged next to your wardrobe.",
+    "translation": "",
+    "pos": 185366
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4623_5_3_7|",
+    "original": "Your _table.name <<if _chair and _chair.name isnot \"chair\">>and one of your _chair.name are <<else>>is <</if>> situated next to a wall.",
+    "translation": "",
+    "pos": 185758
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4627_5_3_7|",
+    "original": "One of your _chair.name is situated next to a wall.",
+    "translation": "",
+    "pos": 185967
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4631_5_3_7|",
+    "original": "Your fish tank sits on the floor.",
+    "translation": "",
+    "pos": 186053
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4640_5_3_7|",
+    "original": "<<bedroomtablechairicon>> Your _table.name <<if _chair and _chair.name isnot \"chair\">>and a _chair.nameSolo are <<else>>is <</if>> situated next to a wall.",
+    "translation": "",
+    "pos": 186207
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4643_5_3_7|",
+    "original": "<<bedroomtablechairicon>> A second _chair.nameSolo is situated next to a wall.",
+    "translation": "",
+    "pos": 186427
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4661_5_3_7|",
+    "original": "_label",
+    "translation": "",
+    "pos": 186918
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4723_5_3_7|",
+    "original": "<span class=\"blue\">That was too easy. You didn't learn anything.</span>",
+    "translation": "",
+    "pos": 188899
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4729_5_3_7|",
+    "original": "<span class=\"blue\">That was too easy. You didn't learn anything.</span>",
+    "translation": "",
+    "pos": 189089
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4946_5_3_7|",
+    "original": "<<set $_printmoney to '<span class=\"red\">printmoney error: invalid arguments: _args</span>'>>",
+    "translation": "",
+    "pos": 196818
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4950_5_3_7|",
+    "original": "<<set $_text_output to `<span @class='_args[1]?_args[1]:\"gold\"'>` + $_printmoney + '</span>'>>",
+    "translation": "",
+    "pos": 196980
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4951_5_3_7|",
+    "original": "<</silently>><<print $_text_output>><</widget>>",
+    "translation": "",
+    "pos": 197075
+  },
+  {
+    "passage": "Widgets",
+    "filepath": "base-system/widgets.twee",
+    "key": "4982_5_3_7|",
+    "original": "<<if _strapons.length > 0>>",
+    "translation": "",
+    "pos": 197856
+  }
+]

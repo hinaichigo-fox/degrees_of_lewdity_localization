@@ -1,0 +1,874 @@
+[
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "12_5_3_7|",
+    "original": "<<case \"slimeWakeAlleyway\">><<slimeWakeAlleyway>>",
+    "translation": "",
+    "pos": 423
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "13_5_3_7|",
+    "original": "<<case \"slimeWakeMasturbation\">><<slimeWakeMasturbation>>",
+    "translation": "",
+    "pos": 476
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "59_5_3_7|",
+    "original": "<<case \"home\">>",
+    "translation": "",
+    "pos": 2516
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "99_5_3_7|",
+    "original": "<<elseif $earSlime.growth gte 25 and $earSlime.growth gte (currentSkillValue('willpower') / 20) and random(0,100) lt 4 and Time.dayState is \"night\" and $earSlime.eventTimer lte 0 and $kylarbed isnot 1 and !$bedGuest>>",
+    "translation": "",
+    "pos": 4804
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "106_5_3_7|",
+    "original": "<<case \"temple\">>",
+    "translation": "",
+    "pos": 5411
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "107_5_3_7|",
+    "original": "<<if $earSlime.growth gte 25 and $earSlime.growth gte (currentSkillValue('willpower') / 20) and random(0,100) lt 4 and Time.dayState is \"night\" and $earSlime.eventTimer lte 0 and $kylarbed isnot 1 and !$bedGuest>>",
+    "translation": "",
+    "pos": 5433
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "114_5_3_7|",
+    "original": "<<case \"asylum\">>",
+    "translation": "",
+    "pos": 6036
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "127_5_3_7|",
+    "original": "<<case \"prison\">>",
+    "translation": "",
+    "pos": 7183
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "135_5_3_7|",
+    "original": "<<case \"alex_cottage\">>",
+    "translation": "",
+    "pos": 7628
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "154_5_3_7|",
+    "original": "<<case \"cabin\">>",
+    "translation": "",
+    "pos": 8733
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "167_5_3_7|",
+    "original": "<<case \"forest\">>",
+    "translation": "",
+    "pos": 9119
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "175_5_3_7|",
+    "original": "<<case \"tower\">>",
+    "translation": "",
+    "pos": 9624
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "186_5_3_7|",
+    "original": "<<case \"wolf_cave\">>",
+    "translation": "",
+    "pos": 10310
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "196_5_3_7|",
+    "original": "<<case \"pound\">>",
+    "translation": "",
+    "pos": 10908
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "203_5_3_7|",
+    "original": "<<case \"pirate_ship\">>",
+    "translation": "",
+    "pos": 11364
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "210_5_3_7|",
+    "original": "<<case \"island\">>",
+    "translation": "",
+    "pos": 11770
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "289_5_3_7|",
+    "original": "<<case 0>>",
+    "translation": "",
+    "pos": 15122
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "290_5_3_7|",
+    "original": "<<case 1>><<set $tiredness -= 15>>",
+    "translation": "",
+    "pos": 15137
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "291_5_3_7|",
+    "original": "<<case 2>><<set $tiredness -= 30>>",
+    "translation": "",
+    "pos": 15176
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "292_5_3_7|",
+    "original": "<<case 3>><<set $tiredness -= 45>>",
+    "translation": "",
+    "pos": 15215
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "317_5_3_7|",
+    "original": "<span class=\"red\">Your stress level reached a peak while you slept and has since subsided, but at cost to your mental health.</span>",
+    "translation": "",
+    "pos": 15784
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "324_5_3_7|",
+    "original": "<span class=\"green\">Sleeping with your chosen partner fulfils an instinctual desire.</span> <<lstress>><<ltrauma>><<garousal>>",
+    "translation": "",
+    "pos": 16132
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "329_5_3_7|",
+    "original": "A lewd thought comes to you as you wake up. <span class=\"gold\">You've conceived the \"local phalli\" science project.</span> Check your journal for details.",
+    "translation": "",
+    "pos": 16420
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "337_5_3_7|",
+    "original": "<<case \"bed\" \"Bed\">>",
+    "translation": "",
+    "pos": 16678
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "340_5_3_7|",
+    "original": "<<case \"Farm Bed\">>",
+    "translation": "",
+    "pos": 16781
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "343_5_3_7|",
+    "original": "<<case \"prison bed\">>",
+    "translation": "",
+    "pos": 16888
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "346_5_3_7|",
+    "original": "<<case \"Temple Bunk Bed\">>",
+    "translation": "",
+    "pos": 16997
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "349_5_3_7|",
+    "original": "<<case \"Pirate Bed Lie\">>",
+    "translation": "",
+    "pos": 17116
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "353_5_3_7|",
+    "original": "Something went wrong with the \"bedclotheson\" widget, please report",
+    "translation": "",
+    "pos": 17248
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "373_5_3_7|",
+    "original": "<<if $earSlime.eventTimer lt 0>>",
+    "translation": "",
+    "pos": 17941
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "374_5_3_7|",
+    "original": "<<set $earSlime.eventTimer to 0>>",
+    "translation": "",
+    "pos": 17976
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "467_5_3_7|",
+    "original": "<<set $earSlimeEvent to \"masturbate and orgasm at least ten times\">>",
+    "translation": "",
+    "pos": 22879
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "469_5_3_7|",
+    "original": "<<set $earSlimeEvent to \"masturbate and orgasm at least five times\">>",
+    "translation": "",
+    "pos": 23111
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "472_5_3_7|",
+    "original": "<<set $earSlimeEvent to _eventsList[random(0,_maxEvents)]>>",
+    "translation": "",
+    "pos": 23261
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "477_5_3_7|",
+    "original": "<<if $earSlimeEvent is \"masturbate to orgasm\" and [\"pregnancy\", \"mixed\"].includes($earSlime.focus) and ($player.vaginaExist or $analdisable is \"f\") and !playerIsPregnant() and $player.penisExist and $player.penissize gte 0 and $semen_volume gte 300 and !$earSlime.defyCooldown and $awareness gte 200>>",
+    "translation": "",
+    "pos": 23374
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "478_5_3_7|",
+    "original": "<<set $earSlimeEvent to `get your own sperm into your ${$player.vaginaExist ? \"vagina\" : \"anus\"}`>>",
+    "translation": "",
+    "pos": 23678
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "481_5_3_7|",
+    "original": "<<set _noSleep to $earSlimeEvent.includes(\"go running or swimming\") or $earSlimeEvent.includes(\"study at the school\") or $earSlimeEvent.includes(\"masturbate\")>>",
+    "translation": "",
+    "pos": 23820
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "483_5_3_7|",
+    "original": "<span @class=\"$earSlime.startedThreats ? 'lewd' : 'lblue'\">The slime in your head commands you to <<print $earSlimeEvent>><<if _noSleep>> before sleeping<</if>>.</span> It promises rewards if you comply<<if $earSlime.startedThreats>>, and threatens consequences if you do not<</if>>.",
+    "translation": "",
+    "pos": 23983
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "486_5_3_7|",
+    "original": "<<link [[Obey|SleepSlimeEventObey]]>><<corruption 1>><<pain -4>><<stress -6>><<trauma -12>><<sub 1>><</link>><<gcorruption>><<lpain>><<lltrauma>><<lstress>>",
+    "translation": "",
+    "pos": 24279
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "489_5_3_7|",
+    "original": "<<link [[Defy|SleepSlimeEventDefy]]>><<corruption -1>><<pain 8>><<stress 6>><<trauma 6>><<sub 1>><</link>><<lcorruption>><<ggpain>><<ggtrauma>><<ggstress>>",
+    "translation": "",
+    "pos": 24477
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "491_5_3_7|",
+    "original": "<<link [[Ignore|SleepSlimeEventDefy]]>><<set $phase to 1>><<unset $earSlimeEvent>><</link>>",
+    "translation": "",
+    "pos": 24645
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "498_5_3_7|",
+    "original": "<<set $earSlime.event to $earSlimeEvent>>",
+    "translation": "",
+    "pos": 24809
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "499_5_3_7|",
+    "original": "<<unset $earSlimeEvent>>",
+    "translation": "",
+    "pos": 24852
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "500_5_3_7|",
+    "original": "<<set $earSlime.eventTimer to 4>>",
+    "translation": "",
+    "pos": 24878
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "505_5_3_7|",
+    "original": "<<switch $earSlime.event>>",
+    "translation": "",
+    "pos": 25019
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "506_5_3_7|",
+    "original": "<<case \"go running or swimming naked for an hour\">><<set $earSlime.eventLength to 2>>",
+    "translation": "",
+    "pos": 25048
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "507_5_3_7|",
+    "original": "<<case \"go running or swimming naked for two hours\">><<set $earSlime.eventLength to 4>>",
+    "translation": "",
+    "pos": 25136
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "508_5_3_7|",
+    "original": "<<case \"study at the school library while naked for an hour\">><<set $earSlime.eventLength to 3>>",
+    "translation": "",
+    "pos": 25226
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "509_5_3_7|",
+    "original": "<<case \"study at the school library while naked for two hours\">><<set $earSlime.eventLength to 6>>",
+    "translation": "",
+    "pos": 25325
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "511_5_3_7|",
+    "original": "<<if $earSlime.event.includes(\"masturbate and orgasm at least\")>>",
+    "translation": "",
+    "pos": 25438
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "515_5_3_7|",
+    "original": "<<if $earSlime.event.includes(\"go running or swimming\") or $earSlime.event.includes(\"study at the school\") or $earSlime.event.includes(\"masturbate\") or $earSlime.event.includes(\"use the farm equipment to empty\")>>",
+    "translation": "",
+    "pos": 25597
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "521_5_3_7|",
+    "original": "<<if $earSlime.event is \"only wear feminine clothes for a while\">>",
+    "translation": "",
+    "pos": 25961
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "522_5_3_7|",
+    "original": "<<set $earSlime.event to \"\">>",
+    "translation": "",
+    "pos": 26030
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "528_5_3_7|",
+    "original": "<<elseif $earSlime.event is \"only wear masculine clothes for a while\">>",
+    "translation": "",
+    "pos": 26347
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "529_5_3_7|",
+    "original": "<<set $earSlime.event to \"\">>",
+    "translation": "",
+    "pos": 26421
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "532_5_3_7|",
+    "original": "<<if $earSlime.event is \"only sleep naked from now on\">>",
+    "translation": "",
+    "pos": 26562
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "535_5_3_7|",
+    "original": "<<set $earSlime.event to \"\">>",
+    "translation": "",
+    "pos": 26678
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "536_5_3_7|",
+    "original": "You strip before getting into bed.",
+    "translation": "",
+    "pos": 26710
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "538_5_3_7|",
+    "original": "<<link [[Next|$slimeBedExit]]>><<unset $slimeBedExit>><<unset $slimeBedroomExit>><</link>>",
+    "translation": "",
+    "pos": 26758
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "539_5_3_7|",
+    "original": "<<elseif $earSlime.event is \"go commando\">>",
+    "translation": "",
+    "pos": 26850
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "540_5_3_7|",
+    "original": "<<set $earSlime.event to \"\">>",
+    "translation": "",
+    "pos": 26896
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "549_5_3_7|",
+    "original": "You strip your $worn.under_lower.name before getting into bed.",
+    "translation": "",
+    "pos": 27315
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "552_5_3_7|",
+    "original": "You lie back down into bed.",
+    "translation": "",
+    "pos": 27439
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "555_5_3_7|",
+    "original": "<<link [[Next|$slimeBedExit]]>><<unset $slimeBedExit>><<unset $slimeBedroomExit>><</link>>",
+    "translation": "",
+    "pos": 27490
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "557_5_3_7|",
+    "original": "You lie back down into bed.",
+    "translation": "",
+    "pos": 27614
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "559_5_3_7|",
+    "original": "<<link [[Next|$slimeBedExit]]>><<unset $slimeBedExit>><<unset $slimeBedroomExit>><</link>>",
+    "translation": "",
+    "pos": 27655
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "561_5_3_7|",
+    "original": "You move away from your bed to do the task given to you.",
+    "translation": "",
+    "pos": 27758
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "563_5_3_7|",
+    "original": "<<case \"Bed\">><<storeon \"bed\" \"return\">>",
+    "translation": "",
+    "pos": 27845
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "564_5_3_7|",
+    "original": "<<case \"Farm Bed\">><<storeon \"farm bed\" \"return\">>",
+    "translation": "",
+    "pos": 27889
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "565_5_3_7|",
+    "original": "<<case \"Farm Alex Bed\">><<storeon \"farm alex bed\" \"return\">>",
+    "translation": "",
+    "pos": 27943
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "566_5_3_7|",
+    "original": "<<case \"Temple Bunk Bed\">><<storeon \"Temple Bunk Bed\" \"return\">>",
+    "translation": "",
+    "pos": 28007
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "569_5_3_7|",
+    "original": "<<link [[Next|$slimeBedroomExit]]>><<unset $slimeBedExit>><<unset $slimeBedroomExit>><</link>>",
+    "translation": "",
+    "pos": 28099
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "575_5_3_7|",
+    "original": "<<if $earSlime.event.includes(_args[0]) and (!$earSlime.event.includes(\"naked\") or $exposed is 2)>>",
+    "translation": "",
+    "pos": 28262
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "576_5_3_7|",
+    "original": "<<set $earSlime.eventLength -= 1>>",
+    "translation": "",
+    "pos": 28365
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "577_5_3_7|",
+    "original": "<<if $earSlime.eventLength lte 0>>",
+    "translation": "",
+    "pos": 28403
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "578_5_3_7|",
+    "original": "<<set $earSlime.event to \"\">>",
+    "translation": "",
+    "pos": 28442
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "579_5_3_7|",
+    "original": "<<set $earSlime.eventLength to 0>>",
+    "translation": "",
+    "pos": 28476
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "614_5_3_7|",
+    "original": "<span class=\"yellow\">Your hair is tousled.</span>",
+    "translation": "",
+    "pos": 29728
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "644_5_3_7|",
+    "original": "You awake to a familiar feeling of paralysis. The pressure on your body isn't as intense as last time, but still brings you a sense of unease.",
+    "translation": "",
+    "pos": 30871
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "646_5_3_7|",
+    "original": "<span class=\"green\">Despite this, you know by now that the sensation isn't harmful.</span>",
+    "translation": "",
+    "pos": 31056
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "649_5_3_7|",
+    "original": "You wake with a start. An oppressive darkness surrounds you. The surface you lay on seems to shift and crawl under your back. You're pinned to it by an invisible pressure. <span class=\"red\">You can't move!</span><<gstress>><<stress 6>>",
+    "translation": "",
+    "pos": 31169
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "653_5_3_7|",
+    "original": "Even your eyes are frozen in place. You can faintly discern that there's two figures in the room, one on either side of you. The darkness and odd, squirming movements make it impossible to make out any details. Before you can process what's happening, they start to speak.",
+    "translation": "",
+    "pos": 31426
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "654_5_3_7|",
+    "original": "The figures tell you that you have a choice to make, one <span class=\"sub\">that cannot be ignored or easily taken back</span>.<<if $earSlime.dreamRejected gte 10>> The volume of their combined voices makes it sound like a demand rather than an offer.<</if>>",
+    "translation": "",
+    "pos": 31700
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "657_5_3_7|",
+    "original": "The voice from the left whispers in your ear. Its words overlap themselves, promising you many things at once. It claims it will bring you fulfilment by granting you",
+    "translation": "",
+    "pos": 31970
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "659_5_3_7|",
+    "original": "<span class=\"lewd\">a womb filled with life<<if $breastfeedingdisable is \"f\">> and breasts filled with milk<</if>></span>.",
+    "translation": "",
+    "pos": 32164
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "661_5_3_7|",
+    "original": "It also promises that the limits of your current body will not hold you back.",
+    "translation": "",
+    "pos": 32444
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "664_5_3_7|",
+    "original": "<span class=\"lewd\">pure femininity</span>.",
+    "translation": "",
+    "pos": 32544
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "667_5_3_7|",
+    "original": "The first voice is interrupted by the one on your right, grabbing your attention. Your mind is assaulted with more promises. It tells you that it will help you fulfil yourself through",
+    "translation": "",
+    "pos": 32604
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "669_5_3_7|",
+    "original": "<span class=\"lewd\">filling others with your seed</span>,",
+    "translation": "",
+    "pos": 32826
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "671_5_3_7|",
+    "original": "<span class=\"lewd\">filling the holes of others</span>,",
+    "translation": "",
+    "pos": 32895
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "674_5_3_7|",
+    "original": "by giving you the size and virility to do so.",
+    "translation": "",
+    "pos": 32988
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "676_5_3_7|",
+    "original": "by giving you the penis that you lack.",
+    "translation": "",
+    "pos": 33046
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "678_5_3_7|",
+    "original": "The voices invading your mind start to subside. The peace is short-lived as they start to talk over one another. Your own thoughts are drowned out as they argue about what your fate should be. <<gstress>><<stress 6>>",
+    "translation": "",
+    "pos": 33095
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "681_5_3_7|",
+    "original": "<<link [[Agree with the voice on the left|$passage]]>><<set $location to _prevLocation>><<set $earSlime.focus to \"pregnancy\">><<set $earSlime.growth++>><</link>><<if $player.gender is \"m\" and $analdisable is \"t\" and _pregnancyEnabled>><<note \"With anal being disabled, pregnancy cannot occur for you\" \"italic\">><</if>>",
+    "translation": "",
+    "pos": 33324
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "683_5_3_7|",
+    "original": "<<link [[Agree with the voice on the right|$passage]]>><<set $location to _prevLocation>><<set $earSlime.focus to \"impregnation\">><<set $earSlime.growth++>><</link>><<if $whitneypantiescheck is 2>><<note \"Not recommended without disabling 'forced crossdressing'\">><</if>>",
+    "translation": "",
+    "pos": 33650
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "685_5_3_7|",
+    "original": "<<link [[Agree with both voices|$passage]]>><<set $location to _prevLocation>><<set $earSlime.focus to \"mixed\">><<set $earSlime.growth++>><</link>>",
+    "translation": "",
+    "pos": 33929
+  },
+  {
+    "passage": "Widgets Sleep",
+    "filepath": "base-system/sleep.twee",
+    "key": "687_5_3_7|",
+    "original": "<<link [[Refuse both voices |$passage]]>><<set $location to _prevLocation>><<set $earSlime.growth -= 5 + Math.clamp($earSlime.dreamRejected, 0, 20)>><<set $earSlime.dreamRejected++>><</link>>",
+    "translation": "",
+    "pos": 34084
+  },
+  {
+    "passage": "SleepSlimeEventObey",
+    "filepath": "base-system/sleep.twee",
+    "key": "695_5_3_7|",
+    "original": "You obey the slime's demand.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "SleepSlimeEventDefy",
+    "filepath": "base-system/sleep.twee",
+    "key": "705_5_3_7|",
+    "original": "You ignore the slime's demand and get into bed without listening any further.",
+    "translation": "",
+    "pos": 134
+  },
+  {
+    "passage": "SleepSlimeEventDefy",
+    "filepath": "base-system/sleep.twee",
+    "key": "706_5_3_7|",
+    "original": "<<set $earSlime.event to \"\">>",
+    "translation": "",
+    "pos": 213
+  },
+  {
+    "passage": "SleepSlimeEventDefy",
+    "filepath": "base-system/sleep.twee",
+    "key": "708_5_3_7|",
+    "original": "<<link [[Next|$slimeBedExit]]>><<unset $slimeBedExit>><<unset $slimeBedroomExit>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 254
+  },
+  {
+    "passage": "SleepSlimeEventDefy",
+    "filepath": "base-system/sleep.twee",
+    "key": "712_5_3_7|",
+    "original": "You defy the slime's demand and get into bed without listening any further. However, <span class=\"red\">it doesn't stop you, knowing that it can punish you in other ways.</span>",
+    "translation": "",
+    "pos": 464
+  },
+  {
+    "passage": "SleepSlimeEventDefy",
+    "filepath": "base-system/sleep.twee",
+    "key": "714_5_3_7|",
+    "original": "You try to defy the slime's demand and get into bed without listening any further. However, <span class=\"teal\">it's still worn out from overpowering you earlier.</span> It tries <span class=\"green\">but fails</span> to force your steps in the opposite direction.",
+    "translation": "",
+    "pos": 653
+  },
+  {
+    "passage": "SleepSlimeEventDefy",
+    "filepath": "base-system/sleep.twee",
+    "key": "716_5_3_7|",
+    "original": "<<set $earSlime.event to \"\">>",
+    "translation": "",
+    "pos": 925
+  },
+  {
+    "passage": "SleepSlimeEventDefy",
+    "filepath": "base-system/sleep.twee",
+    "key": "718_5_3_7|",
+    "original": "<<link [[Next|$slimeBedExit]]>><<unset $slimeBedExit>><<unset $slimeBedroomExit>><</link>>",
+    "translation": "",
+    "pos": 966
+  },
+  {
+    "passage": "SleepSlimeEventDefy",
+    "filepath": "base-system/sleep.twee",
+    "key": "720_5_3_7|",
+    "original": "The slime is able to force you to comply with its demand.",
+    "translation": "",
+    "pos": 1132
+  },
+  {
+    "passage": "SleepSlimeEventDefy",
+    "filepath": "base-system/sleep.twee",
+    "key": "723_5_3_7|",
+    "original": "You are able to defy the slime's demand and get into bed without listening any further.",
+    "translation": "",
+    "pos": 1222
+  },
+  {
+    "passage": "SleepSlimeEventDefy",
+    "filepath": "base-system/sleep.twee",
+    "key": "724_5_3_7|",
+    "original": "<<set $earSlime.event to \"\">><<set $earSlime.defyCooldown += 4>>",
+    "translation": "",
+    "pos": 1311
+  },
+  {
+    "passage": "SleepSlimeEventDefy",
+    "filepath": "base-system/sleep.twee",
+    "key": "726_5_3_7|",
+    "original": "<<link [[Next|$slimeBedExit]]>><<unset $slimeBedExit>><<unset $slimeBedroomExit>><</link>>",
+    "translation": "",
+    "pos": 1387
+  }
+]

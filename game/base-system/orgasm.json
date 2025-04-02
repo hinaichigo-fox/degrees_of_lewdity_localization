@@ -1,0 +1,1770 @@
+[
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "10_5_3_7|",
+    "original": "<span class=\"red\">You are almost overcome by sensation, but it ends prematurely.</span><<pain 10>><<stress 10>><<gpain>><<gstress>>",
+    "translation": "",
+    "pos": 366
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "27_5_3_7|",
+    "original": "<span class=\"pink\">You are overcome by sensation and climax like a girl.</span>",
+    "translation": "",
+    "pos": 1022
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "30_5_3_7|",
+    "original": "<span class=\"pink\">You are overcome by sensation and climax, but nothing comes out.</span>",
+    "translation": "",
+    "pos": 1216
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "34_5_3_7|",
+    "original": "<<set $parasitePenis to $player.gender is \"f\" and $parasite.clit.name is \"parasite\" ? \" parasitic\" : \"\">>",
+    "translation": "",
+    "pos": 1373
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "44_5_3_7|",
+    "original": "<span class=\"red\">The condom broke.</span>",
+    "translation": "",
+    "pos": 1850
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "46_5_3_7|",
+    "original": "<span class=\"red\">The tip of the condom bursts, exposing the head of your<<print $parasitePenis>> penis.</span>",
+    "translation": "",
+    "pos": 1934
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "49_5_3_7|",
+    "original": "<span class=\"pink\">You are overcome by sensation, and ejaculate into the parasite latched onto your<<print $parasitePenis>> penis.</span>",
+    "translation": "",
+    "pos": 2134
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "51_5_3_7|",
+    "original": "<span class=\"pink\">You are overcome by sensation and climax into your chastity parasite.</span>",
+    "translation": "",
+    "pos": 2333
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "53_5_3_7|",
+    "original": "<span class=\"pink\">You are overcome by sensation, and ejaculate into the condom that covers your<<print $parasitePenis>> penis.</span>",
+    "translation": "",
+    "pos": 2488
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "56_5_3_7|",
+    "original": "<span class=\"pink\">You are overcome by sensation and climax under your strap-on.</span>",
+    "translation": "",
+    "pos": 2703
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "61_5_3_7|",
+    "original": "<span class=\"pink\">You are overcome by sensation and ejaculate<<if _cumDesc isnot \"cum\">> _cumDesc<</if>> deep into <<his>> womb.</span>",
+    "translation": "",
+    "pos": 2948
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "62_5_3_7|",
+    "original": "<<if $earSlime.event is \"ejaculate into someone's vagina\">>",
+    "translation": "",
+    "pos": 3090
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "63_5_3_7|",
+    "original": "<<set $earSlime.event to \"\">>",
+    "translation": "",
+    "pos": 3156
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "80_5_3_7|",
+    "original": "<<recordSperm `{target: $NPCList[$penistarget].fullDescription, spermOwner: \"pc\", spermType: \"human\", rngModifier: _orgasmSpermRng}`>>",
+    "translation": "",
+    "pos": 3918
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "84_5_3_7|",
+    "original": "if(curr.pregnancy) return prev + 1;",
+    "translation": "",
+    "pos": 4270
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "85_5_3_7|",
+    "original": "return prev;",
+    "translation": "",
+    "pos": 4313
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "86_5_3_7|",
+    "original": "},0)>>",
+    "translation": "",
+    "pos": 4332
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "99_5_3_7|",
+    "original": "<<case \"human\">><<set $_pregnancy to pregnancyGenerator.human(V.NPCList[$penistarget], \"pc\", true)>>",
+    "translation": "",
+    "pos": 5118
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "100_5_3_7|",
+    "original": "<<case \"wolf\">><<set $_pregnancy to pregnancyGenerator.wolf(V.NPCList[$penistarget], \"pc\", true, \"vagina\", false)>>",
+    "translation": "",
+    "pos": 5227
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "101_5_3_7|",
+    "original": "<<case \"wolfgirl\" \"wolfboy\">><<set $_pregnancy to pregnancyGenerator.wolf(V.NPCList[$penistarget], \"pc\", true, \"vagina\", true)>>",
+    "translation": "",
+    "pos": 5351
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "115_5_3_7|",
+    "original": "<span class=\"pink\">You are overcome by sensation and ejaculate<<if _cumDesc isnot \"cum\">> _cumDesc<</if>> on <<his>> pussy.</span>",
+    "translation": "",
+    "pos": 6262
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "122_5_3_7|",
+    "original": "<span class=\"pink\">You are overcome by sensation and ejaculate<<if _cumDesc isnot \"cum\">> _cumDesc<</if>> deep into <<his>> bowels.</span>",
+    "translation": "",
+    "pos": 6635
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "126_5_3_7|",
+    "original": "<span class=\"pink\">You are overcome by sensation and ejaculate<<if _cumDesc isnot \"cum\">> _cumDesc<</if>> on <<his>> ass.</span>",
+    "translation": "",
+    "pos": 7080
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "134_5_3_7|",
+    "original": "<span class=\"pink\">You are overcome by sensation and ejaculate<<if _cumDesc isnot \"cum\">> _cumDesc<</if>> into <<his>> mouth.</span>",
+    "translation": "",
+    "pos": 7423
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "138_5_3_7|",
+    "original": "<span class=\"pink\">You are overcome by sensation and ejaculate<<if _cumDesc isnot \"cum\">> _cumDesc<</if>> on <<his>> face.</span>",
+    "translation": "",
+    "pos": 7761
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "146_5_3_7|",
+    "original": "<span class=\"pink\">You are overcome by sensation and ejaculate<<if _cumDesc isnot \"cum\">> _cumDesc<</if>> over <<his>> penis.</span>",
+    "translation": "",
+    "pos": 8102
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "151_5_3_7|",
+    "original": "<span class=\"pink\">You are overcome by sensation and ejaculate<<if _cumDesc isnot \"cum\">> _cumDesc<</if>> over <<his>> cock and stomach.</span>",
+    "translation": "",
+    "pos": 8456
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "157_5_3_7|",
+    "original": "<span class=\"pink\">You are overcome by sensation. The $tentaclePenis milks you of your semen.</span>",
+    "translation": "",
+    "pos": 8782
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "161_5_3_7|",
+    "original": "<span class=\"pink\">You are overcome by sensation and ejaculate<<if _cumDesc isnot \"cum\">> _cumDesc<</if>> on the $tentaclePenis.</span>",
+    "translation": "",
+    "pos": 8993
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "164_5_3_7|",
+    "original": "<span class=\"pink\">",
+    "translation": "",
+    "pos": 9186
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "165_5_3_7|",
+    "original": "You are overcome by sensation. A surge of _cumDesc erupts from your<<print $parasitePenis>> penis onto your",
+    "translation": "",
+    "pos": 9211
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "166_5_3_7|",
+    "original": "face<<if $rng gte 10 and $semen_amount gt ($semen_volume / 24) * 18>> and hair.<<bodyliquid \"hair\" \"semen\">><<else>>.<</if>>",
+    "translation": "",
+    "pos": 9324
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "173_5_3_7|",
+    "original": "<span class=\"pink\">You are overcome by sensation. A surge of _cumDesc pumps up the length of your<<print $parasitePenis>> penis and flows straight down your throat.</span>",
+    "translation": "",
+    "pos": 9632
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "175_5_3_7|",
+    "original": "<span class=\"pink\">You are overcome by sensation and ejaculate<<if _cumDesc isnot \"cum\">> _cumDesc<</if>> in your mouth, forcing you to quickly drink it down.</span>",
+    "translation": "",
+    "pos": 9822
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "183_5_3_7|",
+    "original": "<span class=\"pink\">You are overcome by sensation. A surge of _cumDesc erupts from your<<print $parasitePenis>> penis into your $worn.genitals.name.</span>",
+    "translation": "",
+    "pos": 10162
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "191_5_3_7|",
+    "original": "<<set $_hand to ($_hand is undefined ? \"right hand\" : \"hands\")>>",
+    "translation": "",
+    "pos": 10677
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "193_5_3_7|",
+    "original": "<span class=\"pink\">You are overcome by sensation. A surge of _cumDesc erupts from your<<print $parasitePenis>> penis<<if $_hand>>, and some of it gets on your $_hand<</if>>.</span>",
+    "translation": "",
+    "pos": 10758
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "195_5_3_7|",
+    "original": "<span class=\"pink\">You are overcome by sensation. A surge of _cumDesc erupts from your<<print $parasitePenis>> penis.</span>",
+    "translation": "",
+    "pos": 10955
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "198_5_3_7|",
+    "original": "<span class=\"pink\">Exhausted, your body only manages to produce a few droplets of watery cum.</span>",
+    "translation": "",
+    "pos": 11150
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "201_5_3_7|",
+    "original": "<span class=\"pink\">Tired from overuse, your cum is thin and watery.</span>",
+    "translation": "",
+    "pos": 11338
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "204_5_3_7|",
+    "original": "<span class=\"pink\">The repeated orgasms are taking their toll, reducing the amount of _cumDesc your body manages to produce.</span>",
+    "translation": "",
+    "pos": 11500
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "212_5_3_7|",
+    "original": "<span class=\"pink\">You are overcome by sensation and climax.</span>",
+    "translation": "",
+    "pos": 11765
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "215_5_3_7|",
+    "original": "<span class=\"pink\">You feel your muscles clamp down around your hand, pulsing as your orgasm runs its course.</span>",
+    "translation": "",
+    "pos": 11911
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "217_5_3_7|",
+    "original": "<span class=\"pink\">You feel your muscles clamp down around your fingers, pulsing as your orgasm runs its course.</span>",
+    "translation": "",
+    "pos": 12092
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "228_5_3_7|",
+    "original": "<span class=\"green\">Your body writhes and yearns for more pain.</span>",
+    "translation": "",
+    "pos": 12500
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "231_5_3_7|",
+    "original": "<span class=\"green\">Your body writhes and yearns for more pain.</span>",
+    "translation": "",
+    "pos": 12667
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "235_5_3_7|",
+    "original": "<span class=\"red\">Your body yearns for more pain from elsewhere.</span>",
+    "translation": "",
+    "pos": 12898
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "246_5_3_7|",
+    "original": "<span class=\"pink\">Fluids gush from your <<pussy>>.</span>",
+    "translation": "",
+    "pos": 13276
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "248_5_3_7|",
+    "original": "<span class=\"pink\">Fluids leak from your <<pussy>>.</span>",
+    "translation": "",
+    "pos": 13371
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "271_5_3_7|",
+    "original": "<span class=\"pink\">Milk $_milkText from your <<breasts>> into your $_milkedName.</span>",
+    "translation": "",
+    "pos": 14449
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "279_5_3_7|",
+    "original": "<span class=\"pink\">Your orgasm makes your <<breasts>> start spraying milk. You flood <<his>> mouth, and <<hes>> forced to disengage, coughing.</span>",
+    "translation": "",
+    "pos": 14949
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "285_5_3_7|",
+    "original": "<span class=\"pink\">Your orgasm makes your <<breasts>> start spraying milk. <<He>> struggles to drink it all down.</span>",
+    "translation": "",
+    "pos": 15319
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "290_5_3_7|",
+    "original": "<span class=\"pink\">Your orgasm makes your <<breasts>> leak even more milk into <<his>> eager mouth.</span>",
+    "translation": "",
+    "pos": 15568
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "297_5_3_7|",
+    "original": "<span class=\"pink\">Your orgasm makes your <<breasts>> start spraying milk all over <<his>> face.</span>",
+    "translation": "",
+    "pos": 15988
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "301_5_3_7|",
+    "original": "<span class=\"pink\">Your orgasm makes your <<breasts>> leak milk.</span>",
+    "translation": "",
+    "pos": 16166
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "310_5_3_7|",
+    "original": "<span class=\"pink\">A surge of milk floods your mouth. You disengage temporarily to gasp and cough after managing to swallow it all.</span>",
+    "translation": "",
+    "pos": 16539
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "312_5_3_7|",
+    "original": "<span class=\"pink\">Milk sprays into your mouth. You struggle to drink it all down in one gulp.</span>",
+    "translation": "",
+    "pos": 16696
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "315_5_3_7|",
+    "original": "<span class=\"pink\">You quickly drink down the thin stream of milk flowing into your mouth.</span>",
+    "translation": "",
+    "pos": 16826
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "320_5_3_7|",
+    "original": "<span class=\"pink\">Milk bursts from your <<breasts>>.</span>",
+    "translation": "",
+    "pos": 17097
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "322_5_3_7|",
+    "original": "<span class=\"pink\"><<if $leftarm is \"mbreastpump\" or $rightarm is \"mbreastpump\">>Some milk<<else>>Milk<</if>> sprays from your <<breasts>><<if $lactating and $bugsinside>>, launching some of the insects into the air<</if>>.</span>",
+    "translation": "",
+    "pos": 17176
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "327_5_3_7|",
+    "original": "<span class=\"pink\">Milk leaks from your <<breasts>>.</span>",
+    "translation": "",
+    "pos": 17490
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "335_5_3_7|",
+    "original": "<span class=\"blue\">A forgiving warmth fills you.</span>",
+    "translation": "",
+    "pos": 17680
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "336_5_3_7|",
+    "original": "You can tell it's the slimes in your ears, rewarding you for having a ruined orgasm.",
+    "translation": "",
+    "pos": 17738
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "340_5_3_7|",
+    "original": "<span class=\"green\">A pleased warmth fills you.</span>",
+    "translation": "",
+    "pos": 17955
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "341_5_3_7|",
+    "original": "You almost forget the strife of the world. You can tell it's the slimes in your ears, rewarding you for having an orgasm while completing their request.",
+    "translation": "",
+    "pos": 18012
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "345_5_3_7|",
+    "original": "<span class=\"blue\">A soothing warmth fills you.</span>",
+    "translation": "",
+    "pos": 18297
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "346_5_3_7|",
+    "original": "You almost forget the strife of the world. You can tell it's the slimes in your ears, rewarding you for having an orgasm.",
+    "translation": "",
+    "pos": 18354
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "350_5_3_7|",
+    "original": "<span class=\"blue\">A soothing warmth fills you.</span>",
+    "translation": "",
+    "pos": 18616
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "351_5_3_7|",
+    "original": "You almost forget the strife of the world. You can tell it's the slime in your left ear, rewarding you for having an orgasm.",
+    "translation": "",
+    "pos": 18673
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "355_5_3_7|",
+    "original": "<span class=\"blue\">A soothing warmth fills you.</span>",
+    "translation": "",
+    "pos": 18937
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "356_5_3_7|",
+    "original": "You almost forget the strife of the world. You can tell it's the slime in your right ear, rewarding you for having an orgasm.",
+    "translation": "",
+    "pos": 18994
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "363_5_3_7|",
+    "original": "<span class=\"pink\">Your convulsions launch the _swarmcreature away from your chest.</span>",
+    "translation": "",
+    "pos": 19375
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "377_5_3_7|",
+    "original": "<span class=\"pink\">You shudder despite the lack of release.</span>",
+    "translation": "",
+    "pos": 19823
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "379_5_3_7|",
+    "original": "<span class=\"pink\">You shudder from the sudden release.</span>",
+    "translation": "",
+    "pos": 19904
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "388_5_3_7|",
+    "original": "<span class=\"pink\">You feel spent.</span>",
+    "translation": "",
+    "pos": 20136
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "398_5_3_7|",
+    "original": "<span class=\"pink\">Despite being denied the orgasm, you're left feeling like you've nothing to give.</span>",
+    "translation": "",
+    "pos": 20433
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "400_5_3_7|",
+    "original": "<span class=\"pink\">Despite feeling like you've nothing left to give, the orgasm is intense.</span>",
+    "translation": "",
+    "pos": 20555
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "409_5_3_7|",
+    "original": "<span class=\"pink\">Your body is tiring from the repeated<<if _deniedOrgasm>> failed<</if>> climaxes.</span>",
+    "translation": "",
+    "pos": 20871
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "417_5_3_7|",
+    "original": "<span class=\"pink\">The repeated<<if _deniedOrgasm>> failed<</if>> orgasms are causing you great strain. You don't want to cum any more.</span>",
+    "translation": "",
+    "pos": 21139
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "425_5_3_7|",
+    "original": "<span class=\"pink\">Your mind and body buckle under the continued<<if _deniedOrgasm>> failed<</if>> orgasms.</span>",
+    "translation": "",
+    "pos": 21461
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "434_5_3_7|",
+    "original": "<span class=\"red\">You've had so many failed orgasms in such a short span of time that you are numb to them.</span>",
+    "translation": "",
+    "pos": 21767
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "436_5_3_7|",
+    "original": "<span class=\"red\">You've had so many orgasms in such a short span of time that you no longer gain any pleasure from them. They're painful, both physically and psychologically.</span>",
+    "translation": "",
+    "pos": 21896
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "444_5_3_7|",
+    "original": "<span class=\"purple\"><<print either(\"You feel dizzy.\", \"You feel lightheaded.\", \"You can't think straight.\")>></span>",
+    "translation": "",
+    "pos": 22493
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "452_5_3_7|",
+    "original": "<br><span class=\"green\">You feel that your orgasms are more intense when you can't breathe, and you like it.</span>",
+    "translation": "",
+    "pos": 22850
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "456_5_3_7|",
+    "original": "<span class=\"pink\">Bustin' makes you feel good.</span>",
+    "translation": "",
+    "pos": 23092
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "471_5_3_7|",
+    "original": "<span class=\"purple\">You've failed to gather anything.</span>",
+    "translation": "",
+    "pos": 23509
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "473_5_3_7|",
+    "original": "<span class=\"gold\">You've gathered <<print formatList(_liquid_collection_text, \"and\", true)>>.</span>",
+    "translation": "",
+    "pos": 23585
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "483_5_3_7|",
+    "original": "You steady yourself as your spasms subside, feeling exposed and hoping the noise hasn't given away your hiding place.",
+    "translation": "",
+    "pos": 23830
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "485_5_3_7|",
+    "original": "You steady yourself as your spasms subside, feeling exposed and hoping the noise hasn't attracted attention.",
+    "translation": "",
+    "pos": 23962
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "489_5_3_7|",
+    "original": "The sight and sound of a <<girl>> convulsing in climax draws attention, and as you regain control you find yourself stared at from all directions. Face red, you flee the scene.",
+    "translation": "",
+    "pos": 24134
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "492_5_3_7|",
+    "original": "You steady yourself as your spasms subside, and hope the noise hasn't attracted attention.",
+    "translation": "",
+    "pos": 24399
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "502_5_3_7|",
+    "original": "You steady yourself against a tree as your spasms subside.",
+    "translation": "",
+    "pos": 24633
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "504_5_3_7|",
+    "original": "You steady yourself against a tree as your spasms subside.",
+    "translation": "",
+    "pos": 24706
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "508_5_3_7|",
+    "original": "You steady yourself against a tree as your spasms subside.",
+    "translation": "",
+    "pos": 24825
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "510_5_3_7|",
+    "original": "You steady yourself against a tree as your spasms subside.",
+    "translation": "",
+    "pos": 24898
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "519_5_3_7|",
+    "original": "You sink under the surface of the water for a moment, but swiftly resurface.",
+    "translation": "",
+    "pos": 25060
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "521_5_3_7|",
+    "original": "You nearly tumble into the water, but manage to steady yourself.",
+    "translation": "",
+    "pos": 25149
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "530_5_3_7|",
+    "original": "You steady yourself as your spasms subside, feeling exposed and hoping the noise hasn't given away your hiding place.",
+    "translation": "",
+    "pos": 25346
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "532_5_3_7|",
+    "original": "You steady yourself as your spasms subside, feeling exposed on the open beach.",
+    "translation": "",
+    "pos": 25478
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "536_5_3_7|",
+    "original": "The sight and sound of a <<girl>> convulsing in climax draws attention, and as you regain control you find yourself stared at from all across the beach. Face red, you flee the scene.",
+    "translation": "",
+    "pos": 25617
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "539_5_3_7|",
+    "original": "You steady yourself as your spasms subside, feeling exposed on the open beach.",
+    "translation": "",
+    "pos": 25888
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "547_5_3_7|",
+    "original": "You feel a massive orgasm building up.",
+    "translation": "",
+    "pos": 26140
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "549_5_3_7|",
+    "original": "Blinded by your <span class=\"lewd\">lust</span> and your <span class=\"lewd\">hedonism</span>, you",
+    "translation": "",
+    "pos": 26192
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "551_5_3_7|",
+    "original": "rip the clothes still covering you and",
+    "translation": "",
+    "pos": 26370
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "554_5_3_7|",
+    "original": "kneel right at the edge of the stage, presenting your naked <<body_size_text>> and <<breasts>> to the crowd.",
+    "translation": "",
+    "pos": 26441
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "555_5_3_7|",
+    "original": "Hands reach out to grope you. <<arousal 500 \"breasts\">><<garousal>>",
+    "translation": "",
+    "pos": 26552
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "572_5_3_7|",
+    "original": "The muscles in your legs and abs tense. Your pelvis twitches back and forth. You moan and convulse with a mix of pain and pleasure while the audience cheers.",
+    "translation": "",
+    "pos": 27208
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "575_5_3_7|",
+    "original": "After a while, the spasms subside. You lie on the floor gasping for air. The music has stopped.",
+    "translation": "",
+    "pos": 27392
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "576_5_3_7|",
+    "original": "The multitude around you gaze at your body, covered in sweat and fluids.",
+    "translation": "",
+    "pos": 27490
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "578_5_3_7|",
+    "original": "You rise, shaking, to your feet and bow. The gathered crowd erupts in applause.",
+    "translation": "",
+    "pos": 27576
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "584_5_3_7|",
+    "original": "You feel an orgasm build within, interrupting your dance. <<orgasm>>",
+    "translation": "",
+    "pos": 27792
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "586_5_3_7|",
+    "original": "It breaks your focus. You try to regain balance, but your knees give in and you fall to your knees.",
+    "translation": "",
+    "pos": 27913
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "587_5_3_7|",
+    "original": "The gathered crowd taunts you, and mocks your dance skills.",
+    "translation": "",
+    "pos": 28016
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "591_5_3_7|",
+    "original": "You try to climb to your feet, but one last orgasmic shiver disrupts your balance.",
+    "translation": "",
+    "pos": 28137
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "592_5_3_7|",
+    "original": "The heel on one of your shoes breaks your fall, and your weight breaks your heel.",
+    "translation": "",
+    "pos": 28224
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "593_5_3_7|",
+    "original": "You crash to the floor again, eliciting laughter from the crowd.<<ggpain>> <<pain 10>>",
+    "translation": "",
+    "pos": 28310
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "598_5_3_7|",
+    "original": "You feel ashamed, but you've nowhere to run.",
+    "translation": "",
+    "pos": 28525
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "601_5_3_7|",
+    "original": "<<tearful>> you crawl out of sight, face red and ashamed.",
+    "translation": "",
+    "pos": 28642
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "606_5_3_7|",
+    "original": "You drop to your knees before you collapse outright. Your <<body_size_text>> is wracked by violent spasms. The crowd cheers you on.",
+    "translation": "",
+    "pos": 28924
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "608_5_3_7|",
+    "original": "You climb to your feet and continue dancing, as the crowd jeer.",
+    "translation": "",
+    "pos": 29071
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "614_5_3_7|",
+    "original": "You try to conceal your spasming body with your dance moves.",
+    "translation": "",
+    "pos": 29276
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "616_5_3_7|",
+    "original": "The humiliation is too much to bear, but you stay put for fear of your captors.",
+    "translation": "",
+    "pos": 29422
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "619_5_3_7|",
+    "original": "But it's too much to bear. You flee the scene with as much grace as you can manage.",
+    "translation": "",
+    "pos": 29572
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "630_5_3_7|",
+    "original": "<<case \"schoolHallway\">>",
+    "translation": "",
+    "pos": 29849
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "632_5_3_7|",
+    "original": "You steady yourself as your spasms subside. You feel fortunate that the hallway is empty right now, and hope the noise hasn't attracted attention.",
+    "translation": "",
+    "pos": 29973
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "636_5_3_7|",
+    "original": "The sight and sound of a <<girl>> convulsing in climax draws attention, and as you regain control you find yourself stared at from all directions by your fellow students. A few whispers start to run down the hallway. Face red, you turn around a corner, out of sight.",
+    "translation": "",
+    "pos": 30194
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "639_5_3_7|",
+    "original": "<<case \"emptyClassroom\">>",
+    "translation": "",
+    "pos": 30549
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "640_5_3_7|",
+    "original": "You steady yourself as your spasms subside. You feel fortunate that the classroom is empty right now, and hope the noise hasn't attracted attention.",
+    "translation": "",
+    "pos": 30578
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "641_5_3_7|",
+    "original": "<<case \"classroom\">>",
+    "translation": "",
+    "pos": 30729
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "643_5_3_7|",
+    "original": "Having taken notice of your orgasm, Whitney smiles at you.",
+    "translation": "",
+    "pos": 30848
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "647_5_3_7|",
+    "original": "Kylar watches you, transfixed by your orgasm.",
+    "translation": "",
+    "pos": 31073
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "651_5_3_7|",
+    "original": "Robin politely tries to look away, but still can't avoid a peek.",
+    "translation": "",
+    "pos": 31241
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "655_5_3_7|",
+    "original": "You manage to keep yourself from moaning, but your spasms announce your climax to the students around you. A few whispers start to run through the classroom, but are quickly shut down by <<print _teacher>>. <<nnpc_He _teacher>> doesn't seem to know the reason, but understands that you are the talk of the class.",
+    "translation": "",
+    "pos": 31371
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "657_5_3_7|",
+    "original": "<<case \"swimClassroom\">>",
+    "translation": "",
+    "pos": 31791
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "658_5_3_7|",
+    "original": "You manage to keep quiet, so as to not draw Mason's attention. However, your spasms announce your climax to the students around you. A few whispers start to run through the pool. <<gtrauma>><<gstress>><<trauma 6>><<stress 6>><<fameexhibitionism 10>>",
+    "translation": "",
+    "pos": 31819
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "659_5_3_7|",
+    "original": "<<case \"emptySwimClassroom\">>",
+    "translation": "",
+    "pos": 32071
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "660_5_3_7|",
+    "original": "You steady yourself as your spasms subside. You feel fortunate that the pool is empty right now, and hope the noise hasn't attracted attention.",
+    "translation": "",
+    "pos": 32104
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "661_5_3_7|",
+    "original": "<<case \"canteen\">>",
+    "translation": "",
+    "pos": 32250
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "663_5_3_7|",
+    "original": "You steady yourself as your spasms subside. You feel fortunate that the canteen is empty right now, and hope the noise hasn't attracted attention.",
+    "translation": "",
+    "pos": 32368
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "667_5_3_7|",
+    "original": "The sight and sound of a <<girl>> convulsing in climax draws attention, and as you regain control you find yourself stared at from all directions by your fellow students. A few whispers start to run through the canteen. Face red, you attempt to conceal yourself.",
+    "translation": "",
+    "pos": 32589
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "670_5_3_7|",
+    "original": "<<case \"library\">>",
+    "translation": "",
+    "pos": 32940
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "672_5_3_7|",
+    "original": "You steady yourself as your spasms subside. You feel fortunate that the library is empty right now, and hope the noise hasn't attracted attention.",
+    "translation": "",
+    "pos": 33058
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "676_5_3_7|",
+    "original": "The sight and sound of a <<girl>> convulsing in climax draws attention, and as you regain control you find yourself stared at from all directions by your fellow students. A few whispers start to run through the library.",
+    "translation": "",
+    "pos": 33279
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "680_5_3_7|",
+    "original": "Sydney clears <<nnpc_his \"Sydney\">> throat. The other students get the message and the whispers stop.",
+    "translation": "",
+    "pos": 33650
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "683_5_3_7|",
+    "original": "<<case \"boyChangingRoom\">>",
+    "translation": "",
+    "pos": 33777
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "685_5_3_7|",
+    "original": "You steady yourself as your spasms subside. You feel fortunate that the room is empty right now, and hope the noise hasn't attracted attention.",
+    "translation": "",
+    "pos": 33848
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "687_5_3_7|",
+    "original": "The sight and sound of a <<girl>> convulsing in climax incites the <<if $changingRoomGender is \"girls\">>girls<<else>>boys<</if>>. Their reactions vary. Some cheer you on. Some try to look away. And some shout all kinds of insults at you.",
+    "translation": "",
+    "pos": 34043
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "690_5_3_7|",
+    "original": "The sight and sound of a <<girl>> convulsing in climax draws attention, and as you regain control you find yourself stared at from all directions by your fellow students. A few whispers start to run through the room. Face red, you turn away to hide your face.",
+    "translation": "",
+    "pos": 34372
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "693_5_3_7|",
+    "original": "<<case \"girlChangingRoom\">>",
+    "translation": "",
+    "pos": 34720
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "695_5_3_7|",
+    "original": "You steady yourself as your spasms subside. You feel fortunate that the room is empty right now, and hope the noise hasn't attracted attention.",
+    "translation": "",
+    "pos": 34792
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "697_5_3_7|",
+    "original": "The sight and sound of a <<girl>> convulsing in climax incites the <<if $changingRoomGender is \"girls\">>girls<<else>>boys<</if>>. Their reactions vary. Some cheer you on. Some try to look away. And some shout all kinds of insults at you.",
+    "translation": "",
+    "pos": 34987
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "700_5_3_7|",
+    "original": "The sight and sound of a <<girl>> convulsing in climax draws attention, and as you regain control you find yourself stared at from all directions by your fellow students. A few whispers start to run through the room. Face red, you turn away to hide your face.",
+    "translation": "",
+    "pos": 35316
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "703_5_3_7|",
+    "original": "<<case \"policeStation\">>",
+    "translation": "",
+    "pos": 35664
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "707_5_3_7|",
+    "original": "The sight and sound of a <<girl>> convulsing in climax draws the attention of those in the police station. Their reactions are mixed. Some citizens filing a complaint avoid looking. Some more sketchy individuals loudly cheer you on. As you regain control of yourself, you see two officers coming in your direction. Face red, you decide it's best to flee the scene.",
+    "translation": "",
+    "pos": 35780
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "710_5_3_7|",
+    "original": "<<case \"danceStudio\">>",
+    "translation": "",
+    "pos": 36233
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "716_5_3_7|",
+    "original": "The sight and sound of a <<girl>> convulsing in climax draws the attention of those in the studio. Their reactions are mixed. Some avoid looking. Some stare at you with displeasure. But some also cheer you on. As you regain control of yourself, you notice how rowdy the studio has become. Face red, you try to make yourself look as small and unassuming as possible.",
+    "translation": "",
+    "pos": 36424
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "719_5_3_7|",
+    "original": "<<case \"pound\">>",
+    "translation": "",
+    "pos": 36878
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "720_5_3_7|",
+    "original": "The sight and sound of a <<girl>> convulsing in climax draws the attention of the <<pound_text>>, who watch with curiosity as you shake and steady yourself.",
+    "translation": "",
+    "pos": 36898
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "722_5_3_7|",
+    "original": "<<case \"danceStudioLesson\">>",
+    "translation": "",
+    "pos": 37107
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "723_5_3_7|",
+    "original": "The sight and sound of a <<girl>> convulsing in climax draws the attention of those in the studio. Their reactions are mostly muted, only the odd glances as they focus on their dancing. As you regain control of yourself, you notice Charlie blushing.",
+    "translation": "",
+    "pos": 37139
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "725_5_3_7|",
+    "original": "<<case \"danceStudioHeelLesson\">>",
+    "translation": "",
+    "pos": 37491
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "726_5_3_7|",
+    "original": "The sight and sound of a <<girl>> convulsing in climax draws the attention of those in the studio. Their reactions are mostly muted, only the odd glances as they focus on Charlie. As you regain control of yourself, you notice Charlie blushing.",
+    "translation": "",
+    "pos": 37527
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "728_5_3_7|",
+    "original": "<<case \"cafe\">>",
+    "translation": "",
+    "pos": 37873
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "734_5_3_7|",
+    "original": "The sight and sound of a <<girl>> convulsing in climax draws the attention of the patrons. Their reactions are mixed. Some avoid looking. Some stare at you with displeasure. But some also cheer you on. As you regain control of yourself, you notice how rowdy the cafe has become. Face red, you try to make yourself look as small and unassuming as possible.",
+    "translation": "",
+    "pos": 38022
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "737_5_3_7|",
+    "original": "<<case \"arcade\">>",
+    "translation": "",
+    "pos": 38466
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "741_5_3_7|",
+    "original": "You steady yourself as your spasms subside. Fortunately, the loud ambient noise has stifled your moans, and the dim lights made your spasms almost imperceptible. Still, as you look around, you notice a <<generatey1>><<person1>><<person>> staring at you, with a look of surprise and disbelief. <<His>> attention, however, quickly goes back to the game <<he>> was playing.",
+    "translation": "",
+    "pos": 38600
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "745_5_3_7|",
+    "original": "<<case \"docks\">>",
+    "translation": "",
+    "pos": 39076
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "749_5_3_7|",
+    "original": "You steady yourself as your spasms subside. You look around, and it doesn't look like anyone noticed your orgasm. That is, until you take note of a <<generate1>><<person1>><<person>> looking at you from afar. <<He>> gives you a grin, and then goes back to work.",
+    "translation": "",
+    "pos": 39178
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "753_5_3_7|",
+    "original": "<<case \"stripClub\">>",
+    "translation": "",
+    "pos": 39545
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "757_5_3_7|",
+    "original": "You steady yourself as your spasms subside. Fortunately, the loud ambient noise has stifled your moans, and the dim lights made your spasms almost imperceptible. Still, as you look around, you notice a patron staring at you. <<generate1>><<person1>><<He>> grins and gives you a wink, before getting up and leaving.",
+    "translation": "",
+    "pos": 39709
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "761_5_3_7|",
+    "original": "<<case \"shoppingCentre\">>",
+    "translation": "",
+    "pos": 40129
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "767_5_3_7|",
+    "original": "The sight and sound of a <<girl>> convulsing in climax draws the attention of the other shoppers. Their reactions are mixed. Some avoid looking. Some stare at you with displeasure. But some also cheer you on. As you regain control of yourself, you notice how rowdy the place has become. Face red, you flee around a corner.",
+    "translation": "",
+    "pos": 40305
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "770_5_3_7|",
+    "original": "<<case \"museum\">>",
+    "translation": "",
+    "pos": 40716
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "774_5_3_7|",
+    "original": "The sight and sound of a <<girl>> convulsing in climax draws the attention of the other visitors. As you regain control, you feel yourself stared from all directions. Face red, you flee the scene.",
+    "translation": "",
+    "pos": 40817
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "777_5_3_7|",
+    "original": "<<case \"brothel\">>",
+    "translation": "",
+    "pos": 41102
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "778_5_3_7|",
+    "original": "The sight and sound of a <<girl>> convulsing in climax draws attention. Those in the brothel cheer you on, while shouting all kinds of profanities. As you regain control of yourself, you notice how rowdy the place has become. Face red, you disappear into a crowded area.",
+    "translation": "",
+    "pos": 41124
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "780_5_3_7|",
+    "original": "<<case \"pub\">>",
+    "translation": "",
+    "pos": 41471
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "781_5_3_7|",
+    "original": "The sight and sound of a <<girl>> convulsing in climax draws attention. Those in the pub cheer you on, while shouting all kinds of profanities. As you regain control of yourself, you notice how rowdy the place has become. Face red, you disappear into a crowded area",
+    "translation": "",
+    "pos": 41489
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "783_5_3_7|",
+    "original": "<<case \"spa\">>",
+    "translation": "",
+    "pos": 41831
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "787_5_3_7|",
+    "original": "The sight and sound of a <<girl>> convulsing in climax draws the attention of the patrons. Their reactions are mixed. Some avoid looking. Some stare at you with displeasure. But some also cheer you on. As you regain control of yourself, you notice how rowdy the spa has become. Face red, you duck behind a tanning bed.",
+    "translation": "",
+    "pos": 41953
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "790_5_3_7|",
+    "original": "<<case \"temple\">>",
+    "translation": "",
+    "pos": 42360
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "796_5_3_7|",
+    "original": "The sight and sound of a <<girl>> convulsing in climax draws attention. The prevalent silence only makes your moans more obvious. Most look at you with disdain, but some shower you with a lustful gaze. As you regain control, you notice yourself stared at from all directions. Face red, you duck behind a pew.",
+    "translation": "",
+    "pos": 42525
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "799_5_3_7|",
+    "original": "<<case \"hospital\">>",
+    "translation": "",
+    "pos": 42922
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "805_5_3_7|",
+    "original": "The sight and sound of a <<girl>> convulsing in climax draws attention. The reaction of those in the hospital is mixed. Some avoid looking. Some stare at you with displeasure. But some also cheer you on. As you regain control of yourself, you notice how rowdy the place has become. Face red, you try to feign it as a medical condition.",
+    "translation": "",
+    "pos": 43085
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "808_5_3_7|",
+    "original": "<<case \"countryside\">>",
+    "translation": "",
+    "pos": 43509
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "811_5_3_7|",
+    "original": "You steady yourself as your spasms subside. A car passes by your side. You wonder if the people inside noticed your climax.",
+    "translation": "",
+    "pos": 43583
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "814_5_3_7|",
+    "original": "You steady yourself as your spasms subside. A truck passes by your side. You wonder if the driver noticed your climax.",
+    "translation": "",
+    "pos": 43779
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "817_5_3_7|",
+    "original": "You steady yourself as your spasms subside. A tractor passes by your side. You wonder if the farmer noticed your climax.",
+    "translation": "",
+    "pos": 43970
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "822_5_3_7|",
+    "original": "<<case \"meadow\">>",
+    "translation": "",
+    "pos": 44214
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "825_5_3_7|",
+    "original": "You grip the blades, steadying yourself as your spasms subside. You think there's no one around to listen, but you notice a <<beasttype>> staring at you, hiding in the grass. <<bHe>> runs off before you can flee.",
+    "translation": "",
+    "pos": 44285
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "829_5_3_7|",
+    "original": "You grip the blades, steadying yourself as your spasms subside. The sounds of your climax get carried by the breeze, but fortunately there's no one around to listen.",
+    "translation": "",
+    "pos": 44582
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "831_5_3_7|",
+    "original": "<<case \"alexFarmWork\">>",
+    "translation": "",
+    "pos": 44761
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "833_5_3_7|",
+    "original": "You steady yourself as your spasms subside, and hope the noise hasn't disturbed the animals.",
+    "translation": "",
+    "pos": 44824
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "837_5_3_7|",
+    "original": "The sight and sound of a <<girl>> convulsing in climax agitate the animals around you. Fortunately, Alex is not around to see you in such a state. You steady yourself and go back to work.",
+    "translation": "",
+    "pos": 45149
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "839_5_3_7|",
+    "original": "The sight and sound of a <<girl>> convulsing in climax agitate the animals around you. Alex takes notice of the small commotion, looking at you as your orgasm starts to subside. Face deep red, you both avoid eye contact, and try to act like nothing happened.",
+    "translation": "",
+    "pos": 45353
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "842_5_3_7|",
+    "original": "<<case \"alexFarmTending\">>",
+    "translation": "",
+    "pos": 45708
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "843_5_3_7|",
+    "original": "Noticing your spasms, Alex comes to check on you. Once <<nnpc_he \"Alex\">> understands what's happening, however, <<nnpc_he \"Alex\">> stops <<nnpc_himself \"Alex\">>, watching as your orgasm subsides. Face deep red, you both avoid eye contact, and try to act like nothing happened.",
+    "translation": "",
+    "pos": 45738
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "845_5_3_7|",
+    "original": "<<case \"alexFarmTendingAlone\">>",
+    "translation": "",
+    "pos": 46100
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "846_5_3_7|",
+    "original": "You steady yourself as your spasms subside, and feel grateful that Alex isn't around right now to see you in such a state.",
+    "translation": "",
+    "pos": 46135
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "847_5_3_7|",
+    "original": "<<case \"alexFarmAdmin\">>",
+    "translation": "",
+    "pos": 46260
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "848_5_3_7|",
+    "original": "Your loud moans attract the attention of Alex and the person on the phone. \"I-I'm sorry,\" <<nnpc_he \"Alex\">> stammers. \"Th-that was just the wind.\"",
+    "translation": "",
+    "pos": 46288
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "850_5_3_7|",
+    "original": "<<nnpc_He \"Alex\">> continues the call with <<nnpc_his \"Alex\">> face deep red, and you both avoid eye contact as your spasms subside.",
+    "translation": "",
+    "pos": 46451
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "852_5_3_7|",
+    "original": "<<case \"sewers\">>",
+    "translation": "",
+    "pos": 46668
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "853_5_3_7|",
+    "original": "Your loud moans echo through the tunnels.",
+    "translation": "",
+    "pos": 46689
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "855_5_3_7|",
+    "original": "As your spasms subside, you hope the noise hasn't attracted further attention.",
+    "translation": "",
+    "pos": 46754
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "859_5_3_7|",
+    "original": "As your spasms subside, you hope the noise hasn't attracted attention.",
+    "translation": "",
+    "pos": 46935
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "861_5_3_7|",
+    "original": "<<case \"lake\">>",
+    "translation": "",
+    "pos": 47019
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "863_5_3_7|",
+    "original": "You steady yourself against a tree as your spasms subside. Fortunately, there's no one around right now to see you in such a state.",
+    "translation": "",
+    "pos": 47058
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "867_5_3_7|",
+    "original": "You steady yourself as your spasms subside. Fortunately, the loud ambient noise has stifled your moans, and the foliage provides cover for your spasms. Still, as you look around, you notice a <<generatey1>><<person1>><<person>> staring at you. <<He>> grins, before going back to <<his>> friends.",
+    "translation": "",
+    "pos": 47264
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "871_5_3_7|",
+    "original": "<<case \"campsite\">>",
+    "translation": "",
+    "pos": 47665
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "873_5_3_7|",
+    "original": "You steady yourself against a tree as your spasms subside. Fortunately, there's no one around right now to see you in such a state.",
+    "translation": "",
+    "pos": 47777
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "877_5_3_7|",
+    "original": "The sight and sound of a <<girl>> convulsing in climax draws the attention of the campers. They look surprised for a moment, but soon smile at your lewd display. As you regain control of yourself, you notice their lustful gaze. Face red, you flee the scene.",
+    "translation": "",
+    "pos": 47983
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "880_5_3_7|",
+    "original": "<<case \"moor\">>",
+    "translation": "",
+    "pos": 48329
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "881_5_3_7|",
+    "original": "You almost fall down to the short grass, but manage to steady yourself as your orgasm subsides.",
+    "translation": "",
+    "pos": 48348
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "884_5_3_7|",
+    "original": "You steady yourself as your spasms subside, feeling exposed and hoping the noise hasn't given away your hiding place.",
+    "translation": "",
+    "pos": 48476
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "887_5_3_7|",
+    "original": "Your loud moans echo through the empty <<print $_quiet>>. As your spasms subside, you hope the noise hasn't attracted attention.",
+    "translation": "",
+    "pos": 48621
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "920_5_3_7|",
+    "original": "<<if _args[1] is \"pump\">>",
+    "translation": "",
+    "pos": 49756
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "925_5_3_7|",
+    "original": "<span class=\"red\">The force of your orgasm makes<<if $leftarm is \"mbreastpump\" or $rightarm is \"mbreastpump\">> some of<</if>> your milk spray out wildly, missing the bowl entirely.</span> <<gsuspicion>><<set $chef_sus += 5>><br>",
+    "translation": "",
+    "pos": 49917
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "927_5_3_7|",
+    "original": "<span class=\"gold\">You gather <<print (_milk_released).toFixed(1)>> mL of your breast milk.</span>",
+    "translation": "",
+    "pos": 50162
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "930_5_3_7|",
+    "original": "<span class=\"gold\">You store <<print (_milk_released).toFixed(1)>> mL of your breast milk.</span>",
+    "translation": "",
+    "pos": 50358
+  },
+  {
+    "passage": "Widgets Orgasm",
+    "filepath": "base-system/orgasm.twee",
+    "key": "1003_5_3_7|",
+    "original": "<<set _liquid_collection_text.push($masturbation_semen.toFixed(1) + \" mL of <<semen>>\")>>",
+    "translation": "",
+    "pos": 52726
+  }
+]

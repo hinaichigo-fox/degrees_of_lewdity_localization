@@ -1,0 +1,2658 @@
+[
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "5_5_3_7|",
+    "original": "<<print \"It is the \" + ordinalSuffixOf(Time.monthDay) + \" of \" + Time.monthName + \", \" + Time.year + \".\" >>",
+    "translation": "",
+    "pos": 58
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "9_5_3_7|",
+    "original": "<li>It is around <span class=\"gold\"><<print Math.floor(Time.startDate.year - Time.year)>></span> years before you started the game.</li>",
+    "translation": "",
+    "pos": 241
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "11_5_3_7|",
+    "original": "<li>It is <span class=\"gold\"><<print Time.days * -1>></span> days before you started the game.</li>",
+    "translation": "",
+    "pos": 392
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "14_5_3_7|",
+    "original": "<li>It has been <span class=\"gold\"><<print Time.days>></span> days since the game started.</li>",
+    "translation": "",
+    "pos": 514
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "16_5_3_7|",
+    "original": "<li>You survived <span class=\"gold\">$hardmodedays</span> days on hard mode.</li>",
+    "translation": "",
+    "pos": 652
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "19_5_3_7|",
+    "original": "<li>The game started in <<print Time.getSeason(new DateTime($startDate))>>.</li>",
+    "translation": "",
+    "pos": 753
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "20_5_3_7|",
+    "original": "<li>It is <<print Time.season>>.</li>",
+    "translation": "",
+    "pos": 836
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "37_5_3_7|",
+    "original": "<h1 class=\"header gold bold\">Time-Sensitive</h1>",
+    "translation": "",
+    "pos": 1238
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "41_5_3_7|",
+    "original": "<li>Bailey is looking for you, and wants <<printmoney $rentmoney>><<babyRentDisplay \" plus \" \" for not looking after your children\" \"gold\">>.</li>",
+    "translation": "",
+    "pos": 1377
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "43_5_3_7|",
+    "original": "<li>Bailey wants <<printmoney $rentmoney>> on <<rentday>><<babyRentDisplay \" plus \" \" for not looking after your children\" \"gold\">>.</li>",
+    "translation": "",
+    "pos": 1542
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "46_5_3_7|",
+    "original": "<li>Bailey wants <<printmoney $rentmoney>><<babyRentDisplay \" plus \" \" for not looking after your children\" \"gold\">>.</li>",
+    "translation": "",
+    "pos": 1737
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "50_5_3_7|",
+    "original": "<li>You have a date scheduled with Avery <span class=\"pink\">tonight.</span> <<nnpc_He \"Avery\">>'ll wait for you on Domus Street between <span class=\"gold\"><<ampm 20 00>></span> and <span class=\"gold\"><<ampm 21 00>></span>.</li>",
+    "translation": "",
+    "pos": 1950
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "54_5_3_7|",
+    "original": "<li>You <<if $psych is 1>>have an<<else>>may get an<</if>> appointment with Doctor Harper",
+    "translation": "",
+    "pos": 2237
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "57_5_3_7|",
+    "original": "next <span class='yellow'>Friday</span>.",
+    "translation": "",
+    "pos": 2398
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "59_5_3_7|",
+    "original": "<span class='pink'>today</span>.",
+    "translation": "",
+    "pos": 2459
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "62_5_3_7|",
+    "original": "on <span class='yellow'>Friday</span>.",
+    "translation": "",
+    "pos": 2523
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "67_5_3_7|",
+    "original": "<li>You're expected to perform at the brothel",
+    "translation": "",
+    "pos": 2667
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "70_5_3_7|",
+    "original": "next <span class='yellow'>Friday</span>.",
+    "translation": "",
+    "pos": 2782
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "72_5_3_7|",
+    "original": "<span class='pink'>today</span>.",
+    "translation": "",
+    "pos": 2843
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "75_5_3_7|",
+    "original": "on <span class='yellow'>Friday</span>.",
+    "translation": "",
+    "pos": 2907
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "82_5_3_7|",
+    "original": "<li>You have an escort job scheduled. You're expected to be in front of the brothel",
+    "translation": "",
+    "pos": 3256
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "84_5_3_7|",
+    "original": "<span class=\"pink\">today</span>",
+    "translation": "",
+    "pos": 3385
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "86_5_3_7|",
+    "original": "<span class=\"gold\">tomorrow</span>",
+    "translation": "",
+    "pos": 3475
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "88_5_3_7|",
+    "original": "next <span class=\"gold\">_date.weekDayName</span>",
+    "translation": "",
+    "pos": 3569
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "90_5_3_7|",
+    "original": "on <span class=\"gold\">_date.weekDayName</span>",
+    "translation": "",
+    "pos": 3638
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "92_5_3_7|",
+    "original": "at <span class=\"gold\"><<ampm _date.hour>></span>.</li>",
+    "translation": "",
+    "pos": 3703
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "98_5_3_7|",
+    "original": "<li><span class=\"lblue\">You've performed your community service today.</span></li>",
+    "translation": "",
+    "pos": 3862
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "100_5_3_7|",
+    "original": "<li>Your sentence of community service has been put on hold due to your <<if $location is \"prison\">>incarceration<<else>>treatment<</if>>.</li>",
+    "translation": "",
+    "pos": 4005
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "102_5_3_7|",
+    "original": "<li>It's too late in the day to perform your community service.</li>",
+    "translation": "",
+    "pos": 4186
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "104_5_3_7|",
+    "original": "<li>The police station is expecting you later for your daily community service.</li>",
+    "translation": "",
+    "pos": 4290
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "106_5_3_7|",
+    "original": "<li>The police station is expecting you for your daily community service.</li>",
+    "translation": "",
+    "pos": 4393
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "109_5_3_7|",
+    "original": "<li>You have <span class=\"purple\">one day</span> of community service remaining.</li>",
+    "translation": "",
+    "pos": 4524
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "111_5_3_7|",
+    "original": "<li>You have <span class=\"pink\">$community_service</span> days of community service remaining.</li>",
+    "translation": "",
+    "pos": 4628
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "116_5_3_7|",
+    "original": "<li>Smugglers are bringing something valuable into town",
+    "translation": "",
+    "pos": 4813
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "118_5_3_7|",
+    "original": "<span class=\"pink\">tonight</span>, before midnight.",
+    "translation": "",
+    "pos": 4908
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "120_5_3_7|",
+    "original": "<span class=\"gold\">tomorrow</span>, before midnight.",
+    "translation": "",
+    "pos": 5003
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "122_5_3_7|",
+    "original": "<<nDays $smuggler_timer>>.",
+    "translation": "",
+    "pos": 5076
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "125_5_3_7|",
+    "original": "They're bringing it through the forest.",
+    "translation": "",
+    "pos": 5165
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "127_5_3_7|",
+    "original": "They're bringing it through the old sewers.",
+    "translation": "",
+    "pos": 5257
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "129_5_3_7|",
+    "original": "They plan to land at that rock near the beach.",
+    "translation": "",
+    "pos": 5353
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "131_5_3_7|",
+    "original": "They're sneaking it in on a bus.",
+    "translation": "",
+    "pos": 5450
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "137_5_3_7|",
+    "original": "<li>Remy will attack the farm",
+    "translation": "",
+    "pos": 5550
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "139_5_3_7|",
+    "original": "<span class=\"pink\">tonight</span>.",
+    "translation": "",
+    "pos": 5622
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "141_5_3_7|",
+    "original": "<<nDays $farm_attack_timer>>.",
+    "translation": "",
+    "pos": 5677
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "143_5_3_7|",
+    "original": "<<nnpc_He Remy>>'ll arrive between <span class=\"gold\"><<ampm 21 00>></span> and <span class=\"gold\">midnight.</span>",
+    "translation": "",
+    "pos": 5725
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "148_5_3_7|",
+    "original": "<li>You are <<print $temple_rank is \"initiate\" ? \"an initiate at\" : \"a <<temple_title>> of\">> the temple.",
+    "translation": "",
+    "pos": 5958
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "150_5_3_7|",
+    "original": "<span class=\"pink\">You have a chastity exam due.</span>",
+    "translation": "",
+    "pos": 6111
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "152_5_3_7|",
+    "original": "You have a chastity exam due <span class=\"purple\">tomorrow.</span>",
+    "translation": "",
+    "pos": 6217
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "154_5_3_7|",
+    "original": "You have a chastity exam due <<nDays $temple_chastity_timer>>.",
+    "translation": "",
+    "pos": 6304
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "156_5_3_7|",
+    "original": "You will receive an <span class=\"gold\">allowance</span> when passing the exam.",
+    "translation": "",
+    "pos": 6385
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "162_5_3_7|",
+    "original": "<<if !$statFreeze and (($location is \"asylum\" and ($eden_asylum_window is 1 or ($daily.eden.distract gte 1 and Time.hour lt 21))) || $temple_spear_mission gte 1 || $dockwork gte 2 || ($brothelshowdata.intro and $brothelshowdata.type is \"none\") || $robindebtevent gte 1 and $robinmissing isnot 0 || $pubtask2 is 1 || $pubtask || $police_hack is 1 || $pub_hack_job gte 1 || $pubfame ||( $earSlime.event and !_tempEventHide) || $earSlime.forcedCommando isnot undefined || $earSlime.forcedDressing isnot undefined || $temple_rank is \"prospective\" || $chef_state gte 4 || $mason_pond gte 1 || ($brothel_machine_repair gte 1 and $brothel_machine_repair lte 3) || ($harpy gte 6 and $birdFly isnot 1) || ($studyBooks isnot undefined and $studyBooks.rented isnot \"none\") || $adultshopgrandopening || ($adultshopintro is 1 and $adultshopunlocked is undefined))>>",
+    "translation": "",
+    "pos": 6504
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "165_5_3_7|",
+    "original": "<h1 class=\"header gold bold\">Reminders</h1>",
+    "translation": "",
+    "pos": 7446
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "168_5_3_7|",
+    "original": "<li>Jordan has tasked you with retrieving an artefact spear. It is said to reside on a mysterious island.",
+    "translation": "",
+    "pos": 7554
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "170_5_3_7|",
+    "original": "Jordan mentioned that the historian at the local museum might have more information.",
+    "translation": "",
+    "pos": 7720
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "172_5_3_7|",
+    "original": "According to Winter, you can find someone who knows of the island at a secret pub in the sewers.",
+    "translation": "",
+    "pos": 7825
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "178_5_3_7|",
+    "original": "<li>Eden will be watching the asylum at <<ampm 20 00>> <span class=\"pink\">tonight</span>.</li>",
+    "translation": "",
+    "pos": 8049
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "180_5_3_7|",
+    "original": "<li>Eden is watching the asylum, waiting for you to mark your room.</li>",
+    "translation": "",
+    "pos": 8162
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "186_5_3_7|",
+    "original": "<li>Eden will create a distraction at <<ampm 21 00>> <span class=\"pink\">tonight</span>.</li>",
+    "translation": "",
+    "pos": 8354
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "191_5_3_7|",
+    "original": "<li>You can work at the docks starting from <<ampm 7 00>> - <<ampm 8 00>><<if !($idDocksReveal is 2)>> on any day except school days<</if>>.</li>",
+    "translation": "",
+    "pos": 8501
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "195_5_3_7|",
+    "original": "<li>You can star in shows at the brothel.</li>",
+    "translation": "",
+    "pos": 8733
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "199_5_3_7|",
+    "original": "<li>Return the black box to Landry at the pub.</li>",
+    "translation": "",
+    "pos": 8821
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "201_5_3_7|",
+    "original": "<li>Landry wants you to retrieve a black box from the $pubtask.</li>",
+    "translation": "",
+    "pos": 8900
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "205_5_3_7|",
+    "original": "<li>Landry might be able to help you with the locked police computer.</li>",
+    "translation": "",
+    "pos": 9013
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "207_5_3_7|",
+    "original": "<li>Landry wants you to find a hacker supposedly named 'Mickey' living at the Domus Street orphanage.</li>",
+    "translation": "",
+    "pos": 9125
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "209_5_3_7|",
+    "original": "<li>Convince 'Mickey' to work with you.</li>",
+    "translation": "",
+    "pos": 9269
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "212_5_3_7|",
+    "original": "<li>'Mickey' wants you to implant a device on Bailey's computer while Bailey is logged in.</li>",
+    "translation": "",
+    "pos": 9397
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "215_5_3_7|",
+    "original": "<li>'Mickey' wants you to steal memory cards from a strongbox under Leighton's desk.</li>",
+    "translation": "",
+    "pos": 9557
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "218_5_3_7|",
+    "original": "<li>You need to talk to Landry about 'Mickey'.</li>",
+    "translation": "",
+    "pos": 9702
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "226_5_3_7|",
+    "original": "<<case \"river\">>",
+    "translation": "",
+    "pos": 9886
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "227_5_3_7|",
+    "original": "'Mickey' wants you to check on River, the maths teacher at your school.",
+    "translation": "",
+    "pos": 9911
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "228_5_3_7|",
+    "original": "<<case \"gwylan\">>",
+    "translation": "",
+    "pos": 9990
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "229_5_3_7|",
+    "original": "'Mickey' wants you to find a specific snow globe at <<if $forest_shop_intro is 1>>Gwylan's shop<<else>>the shop on the outskirts of the forest<</if>>.",
+    "translation": "",
+    "pos": 10016
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "230_5_3_7|",
+    "original": "<<case \"temple\">>",
+    "translation": "",
+    "pos": 10174
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "231_5_3_7|",
+    "original": "'Mickey' wants you to find a book on architecture at the temple with a password on the inside cover.",
+    "translation": "",
+    "pos": 10200
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "232_5_3_7|",
+    "original": "<<case \"kylar\">>",
+    "translation": "",
+    "pos": 10308
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "233_5_3_7|",
+    "original": "'Mickey' wants you to deliver a letter to",
+    "translation": "",
+    "pos": 10333
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "235_5_3_7|",
+    "original": "the police station, so they can give it to Kylar.",
+    "translation": "",
+    "pos": 10429
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "237_5_3_7|",
+    "original": "Kylar<<if C.npc.Kylar.init isnot 1>>, a student at your school<</if>>.",
+    "translation": "",
+    "pos": 10505
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "239_5_3_7|",
+    "original": "<<case \"wren\">>",
+    "translation": "",
+    "pos": 10599
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "240_5_3_7|",
+    "original": "'Mickey' wants you to deliver a letter to <<if $wren_intro is undefined>>a <<nnpc_gender \"Wren\">> named Wren. <<nnpc_He \"Wren\">> can be found at Remy's estate in the moor, or at the docks at night<<else>>Wren<</if>>.",
+    "translation": "",
+    "pos": 10623
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "241_5_3_7|",
+    "original": "<<case \"hospital\">>",
+    "translation": "",
+    "pos": 10847
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "242_5_3_7|",
+    "original": "'Mickey' wants you to steal a keycard from the hospital.",
+    "translation": "",
+    "pos": 10875
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "244_5_3_7|",
+    "original": "However, you think they might be happy with a keycard from this place too.",
+    "translation": "",
+    "pos": 10978
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "246_5_3_7|",
+    "original": "<<case \"morgan\">>",
+    "translation": "",
+    "pos": 11076
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "247_5_3_7|",
+    "original": "'Mickey' wants you to retrieve a USB drive from the old sewers. They think <<if $sewersintro is 1>>Morgan<<else>>someone down there<</if>> has it.",
+    "translation": "",
+    "pos": 11102
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "248_5_3_7|",
+    "original": "<<case \"niki\">>",
+    "translation": "",
+    "pos": 11256
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "249_5_3_7|",
+    "original": "'Mickey' wants you to retrieve a photo from Niki's photography studio, of a $per_npc.pubfame_model.fullDescription with $pubfame.niki.hair hair.",
+    "translation": "",
+    "pos": 11280
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "250_5_3_7|",
+    "original": "<<case \"bailey\">>",
+    "translation": "",
+    "pos": 11432
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "251_5_3_7|",
+    "original": "'Mickey' wants you to implant a device on Bailey's computer while Bailey is logged in.",
+    "translation": "",
+    "pos": 11458
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "252_5_3_7|",
+    "original": "<<case \"briar\">>",
+    "translation": "",
+    "pos": 11552
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "253_5_3_7|",
+    "original": "'Mickey' wants you to implant a device on Briar's computer at the brothel.",
+    "translation": "",
+    "pos": 11577
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "254_5_3_7|",
+    "original": "<<case \"office\">>",
+    "translation": "",
+    "pos": 11659
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "255_5_3_7|",
+    "original": "'Mickey' wants you to deliver a letter to the office building.",
+    "translation": "",
+    "pos": 11685
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "256_5_3_7|",
+    "original": "<<case \"remy\">>",
+    "translation": "",
+    "pos": 11755
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "258_5_3_7|",
+    "original": "'Mickey' wants you to retrieve a package from a contact at Remy's riding school<<if $ridingschoolintro is undefined>>, in the countryside beyond Harvest Street<</if>>.",
+    "translation": "",
+    "pos": 11840
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "259_5_3_7|",
+    "original": "<<case \"compound\">>",
+    "translation": "",
+    "pos": 12015
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "260_5_3_7|",
+    "original": "'Mickey' wants you to set cameras around the compound on Elk Street.",
+    "translation": "",
+    "pos": 12043
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "262_5_3_7|",
+    "original": "You've already hidden cameras in <<print formatList($pubfame.compound.cameras, \"and\", true)>>.",
+    "translation": "",
+    "pos": 12175
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "265_5_3_7|",
+    "original": "They'll <<if $pubfame.goal.includes(\"perm\")>>permanently<<else>>temporarily<</if>> <<if $pubfame.goal.includes(\"Raise\")>>raise<<else>>lower<</if>> your <<fameProse $pubfame.target>> fame upon completion.",
+    "translation": "",
+    "pos": 12310
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "268_5_3_7|",
+    "original": "<li>You can report to 'Mickey' that your favour is complete.</li>",
+    "translation": "",
+    "pos": 12571
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "273_5_3_7|",
+    "original": "<li>Robin is missing. <<nnpc_He \"Robin\">> was taken to the docks on Mer Street.</li>",
+    "translation": "",
+    "pos": 12755
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "277_5_3_7|",
+    "original": "<li>Robin is missing. <<nnpc_He \"Robin\">> was taken to the landfill on Elk Street.</li>",
+    "translation": "",
+    "pos": 12968
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "281_5_3_7|",
+    "original": "<li>Robin is missing.",
+    "translation": "",
+    "pos": 13164
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "283_5_3_7|",
+    "original": "<<nnpc_Hes \"Robin\">> scheduled to be put in the pillory on Cliff Street at <<ampm 15 00>>.",
+    "translation": "",
+    "pos": 13221
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "285_5_3_7|",
+    "original": "<<nnpc_Hes \"Robin\">> currently in the pillory. You don't know what will happen to <<nnpc_him \"Robin\">>.",
+    "translation": "",
+    "pos": 13332
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "290_5_3_7|",
+    "original": "<<if $earSlime.event and !_tempEventHide>>",
+    "translation": "",
+    "pos": 13474
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "291_5_3_7|",
+    "original": "<<switch $earSlime.event>>",
+    "translation": "",
+    "pos": 13521
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "292_5_3_7|",
+    "original": "<<case \"get sperm into your anus\" \"get sperm into your vagina\" \"get sperm into your anus completed\" \"get sperm into your vagina completed\">>",
+    "translation": "",
+    "pos": 13553
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "293_5_3_7|",
+    "original": "<li class=\"lewd\">The slime in your head commanded you to get sperm into your <<print $player.vaginaExist ? \"vagina\" : \"anus\">>.</li>",
+    "translation": "",
+    "pos": 13700
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "294_5_3_7|",
+    "original": "<<case \"get your own sperm into your anus\" \"get your own sperm into your vagina\" \"get your own sperm into your anus completed\" \"get your own sperm into your vagina completed\">>",
+    "translation": "",
+    "pos": 13838
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "295_5_3_7|",
+    "original": "<li class=\"lewd\">The slime in your head commanded you to get your own sperm into your <<print $player.vaginaExist ? \"vagina\" : \"anus\">>.</li>",
+    "translation": "",
+    "pos": 14021
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "296_5_3_7|",
+    "original": "<<case \"only sleep naked from now on\" \"only wear feminine clothes for a while\" \"only wear masculine clothes for a while\">> /* Show nothing */",
+    "translation": "",
+    "pos": 14168
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "297_5_3_7|",
+    "original": "<<default>>",
+    "translation": "",
+    "pos": 14315
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "298_5_3_7|",
+    "original": "<li class=\"lewd\">The slime in your head commanded you to <<print $earSlime.event>><<if $earSlime.noSleep>> before it allows you to sleep<</if>>.</li>",
+    "translation": "",
+    "pos": 14333
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "299_5_3_7|",
+    "original": "<</switch>>",
+    "translation": "",
+    "pos": 14487
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "302_5_3_7|",
+    "original": "<li class=\"lewd\">The slime in your head commanded you to go commando.</li>",
+    "translation": "",
+    "pos": 14565
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "305_5_3_7|",
+    "original": "<li class=\"lewd\">The slime in your head commanded you to only wear more <<print $earSlime.forcedDressing.type is \"f\" ? \"feminine\" : \"masculine\">> clothing.</li>",
+    "translation": "",
+    "pos": 14706
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "309_5_3_7|",
+    "original": "<li>Jordan has offered you a place at the temple, but you must first pass the trial of purity.</li>",
+    "translation": "",
+    "pos": 14923
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "313_5_3_7|",
+    "original": "<li>Sam wants you to visit an address on Nightingale Street.</li>",
+    "translation": "",
+    "pos": 15066
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "315_5_3_7|",
+    "original": "<li>The renovations at the Ocean Breeze have finished.</li>",
+    "translation": "",
+    "pos": 15190
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "317_5_3_7|",
+    "original": "<li>The Ocean Breeze is closed for renovations. They will be done <<nDays $chef_rework>>.</li>",
+    "translation": "",
+    "pos": 15309
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "320_5_3_7|",
+    "original": "<li>The Ocean Breeze will close for renovations <<nDays _timer>>.</li>",
+    "translation": "",
+    "pos": 15479
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "322_5_3_7|",
+    "original": "<li>Sam wants you to attend the Ocean Breeze's grand reopening on any evening between <<ampm 18 00>> and <<ampm 21 00>>.</li>",
+    "translation": "",
+    "pos": 15585
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "326_5_3_7|",
+    "original": "<li>Mason mentioned a stream under Domus Street, which could be used to make a spring. You'd need Bailey's permission first.</li>",
+    "translation": "",
+    "pos": 15754
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "328_5_3_7|",
+    "original": "<li>Bailey wants <span class=\"gold\">£6000</span> to build a spring in the orphanage garden.</li>",
+    "translation": "",
+    "pos": 15919
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "330_5_3_7|",
+    "original": "<li>A spring is being built in the orphanage garden.</li>",
+    "translation": "",
+    "pos": 16051
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "332_5_3_7|",
+    "original": "<li>The spring in the orphanage garden should be finished.</li>",
+    "translation": "",
+    "pos": 16144
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "336_5_3_7|",
+    "original": "<li>Ask Briar about the backstage sex machine.</li>",
+    "translation": "",
+    "pos": 16263
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "338_5_3_7|",
+    "original": "<li>The brothel sex machine needs refuelling. It uses an expensive pink gel. Briar suggested looking in the landfill. It would be deep inside, near the compactor.</li>",
+    "translation": "",
+    "pos": 16362
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "340_5_3_7|",
+    "original": "<li>You have the pink gel Briar wants for the sex machine.</li>",
+    "translation": "",
+    "pos": 16577
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "344_5_3_7|",
+    "original": "<li>Your wings are strong, but you don't know how to use them. The Great Hawk could teach you.</li>",
+    "translation": "",
+    "pos": 16701
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "348_5_3_7|",
+    "original": "<li>Remy is encroaching on Alex's farm, operating from the estate on the moor.</li>",
+    "translation": "",
+    "pos": 16876
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "350_5_3_7|",
+    "original": "<li>Find someone who can help you break into the Remy estate. Someone with underworld connections, or who knows the moor.</li>",
+    "translation": "",
+    "pos": 17047
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "352_5_3_7|",
+    "original": "<li>Search the Remy estate fence for an entrance made by the Great Hawk.</li>",
+    "translation": "",
+    "pos": 17216
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "354_5_3_7|",
+    "original": "<li>Search the Remy estate fence for an entrance made by Landry's specialist.</li>",
+    "translation": "",
+    "pos": 17338
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "359_5_3_7|",
+    "original": "<li>The watchtower at the farm isn't staffed. You can find suitable candidates in the pub on Harvest Street.</li>",
+    "translation": "",
+    "pos": 17506
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "365_5_3_7|",
+    "original": "<li>A business owner on the High Street is expecting you during the day.</li>",
+    "translation": "",
+    "pos": 17704
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "367_5_3_7|",
+    "original": "<li>You can collect your pay for the High Street job from Niki.</li>",
+    "translation": "",
+    "pos": 17825
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "372_5_3_7|",
+    "original": "<li>Jordan has asked you to investigate one of the manors on Danube Street. One of the temple's flock went missing after finding work there. You can get access through Charlie, and your status as a dancer.</li>",
+    "translation": "",
+    "pos": 17958
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "374_5_3_7|",
+    "original": "<li>You encountered a strange ritual in a manor on Danube Street. Inform Jordan, head <<nnpc_title \"Jordan\">> at the temple.</li>",
+    "translation": "",
+    "pos": 18213
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "379_5_3_7|",
+    "original": "<li><span class=\"blue\">You have a library book due.</span></li>",
+    "translation": "",
+    "pos": 18467
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "381_5_3_7|",
+    "original": "<li><span class=\"red\">You have a library book overdue.</span></li>",
+    "translation": "",
+    "pos": 18573
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "383_5_3_7|",
+    "original": "<li>You have a library book due in <span class=\"gold\">$book_rent_timer</span> day<<if $book_rent_timer gt 1>>s<</if>>.</li>",
+    "translation": "",
+    "pos": 18658
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "391_5_3_7|",
+    "original": "<<case \"parasites 1\">>",
+    "translation": "",
+    "pos": 18888
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "392_5_3_7|",
+    "original": "The parasite barn is being built.",
+    "translation": "",
+    "pos": 18918
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "393_5_3_7|",
+    "original": "<<case \"parasites 2\">>",
+    "translation": "",
+    "pos": 18958
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "394_5_3_7|",
+    "original": "The parasite barn is being expanded.",
+    "translation": "",
+    "pos": 18988
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "395_5_3_7|",
+    "original": "<<case \"wall 1\">>",
+    "translation": "",
+    "pos": 19031
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "396_5_3_7|",
+    "original": "The wall is undergoing a thorough repair.",
+    "translation": "",
+    "pos": 19056
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "397_5_3_7|",
+    "original": "<<case \"wall 2\">>",
+    "translation": "",
+    "pos": 19104
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "398_5_3_7|",
+    "original": "The wall is being reinforced.",
+    "translation": "",
+    "pos": 19129
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "399_5_3_7|",
+    "original": "<<case \"wall 3\">>",
+    "translation": "",
+    "pos": 19165
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "400_5_3_7|",
+    "original": "A metal fence is being built atop the stone wall.",
+    "translation": "",
+    "pos": 19190
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "401_5_3_7|",
+    "original": "<<case \"wall 4\">>",
+    "translation": "",
+    "pos": 19246
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "402_5_3_7|",
+    "original": "Barbed wire is being affixed atop the fence.",
+    "translation": "",
+    "pos": 19271
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "403_5_3_7|",
+    "original": "<<case \"tower 1\">>",
+    "translation": "",
+    "pos": 19322
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "404_5_3_7|",
+    "original": "A watchtower is being constructed at the edge of the fields.",
+    "translation": "",
+    "pos": 19348
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "405_5_3_7|",
+    "original": "<<case \"tower 2\">>",
+    "translation": "",
+    "pos": 19415
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "406_5_3_7|",
+    "original": "Searchlights are being affixed atop the watchtower.",
+    "translation": "",
+    "pos": 19441
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "407_5_3_7|",
+    "original": "<<case \"kennel 1\">>",
+    "translation": "",
+    "pos": 19499
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "408_5_3_7|",
+    "original": "A guard dog training facility is being constructed.",
+    "translation": "",
+    "pos": 19526
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "409_5_3_7|",
+    "original": "<<case \"barn 1\" \"barn 2\">>",
+    "translation": "",
+    "pos": 19584
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "410_5_3_7|",
+    "original": "The barn is being expanded.",
+    "translation": "",
+    "pos": 19618
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "411_5_3_7|",
+    "original": "<<case \"woodland 1\" \"woodland 2\" \"woodland 3\">>",
+    "translation": "",
+    "pos": 19652
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "412_5_3_7|",
+    "original": "A fence is being built around the nearby woodland.",
+    "translation": "",
+    "pos": 19707
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "413_5_3_7|",
+    "original": "<<case \"stable 1\">>",
+    "translation": "",
+    "pos": 19764
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "414_5_3_7|",
+    "original": "The stable is being expanded.",
+    "translation": "",
+    "pos": 19791
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "415_5_3_7|",
+    "original": "<<case \"coop 1\" \"coop 2\">>",
+    "translation": "",
+    "pos": 19827
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "416_5_3_7|",
+    "original": "The coop is being expanded.",
+    "translation": "",
+    "pos": 19861
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "417_5_3_7|",
+    "original": "<<case \"irrigation\">>",
+    "translation": "",
+    "pos": 19895
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "418_5_3_7|",
+    "original": "Irrigation is being installed in a field.",
+    "translation": "",
+    "pos": 19924
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "419_5_3_7|",
+    "original": "<<case \"nursery\">>",
+    "translation": "",
+    "pos": 19972
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "420_5_3_7|",
+    "original": "A nursery is being built in the cottage.",
+    "translation": "",
+    "pos": 19998
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "422_5_3_7|",
+    "original": "It'll be finished <<nDays $farm.build_timer>>.",
+    "translation": "",
+    "pos": 20061
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "428_5_3_7|",
+    "original": "<li>The grand opening of Sirris' adult shop is taking place on Elk Street <span class=\"pink\">today</span>.</li>",
+    "translation": "",
+    "pos": 20187
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "433_5_3_7|",
+    "original": "$_theshop's official opening is tomorrow.",
+    "translation": "",
+    "pos": 20465
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "435_5_3_7|",
+    "original": "$_theshop is nearing completion.",
+    "translation": "",
+    "pos": 20555
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "437_5_3_7|",
+    "original": "$_theshop is halfway to completion.",
+    "translation": "",
+    "pos": 20636
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "439_5_3_7|",
+    "original": "$_theshop is starting to take shape.",
+    "translation": "",
+    "pos": 20719
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "441_5_3_7|",
+    "original": "$_theshop is in disrepair.",
+    "translation": "",
+    "pos": 20803
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "443_5_3_7|",
+    "original": "$_theshop is in great disrepair.",
+    "translation": "",
+    "pos": 20850
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "446_5_3_7|",
+    "original": "You can help Sydney there on Elk Street, on Fridays after <<ampm 16>>.",
+    "translation": "",
+    "pos": 20939
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "455_5_3_7|",
+    "original": "<h1 class=\"header gold bold\">Holidays</h1>",
+    "translation": "",
+    "pos": 21162
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "459_5_3_7|",
+    "original": "<li>Valentine's day is held on February 14th.</li>",
+    "translation": "",
+    "pos": 21270
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "461_5_3_7|",
+    "original": "<li>You can buy something for Eden to celebrate.</li>",
+    "translation": "",
+    "pos": 21386
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "463_5_3_7|",
+    "original": "<li>You can prepare a bath for Eden on Valentine's day at <<ampm 17 00>>.</li>",
+    "translation": "",
+    "pos": 21487
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "470_5_3_7|",
+    "original": "<li>Halloween is held on October 31st.</li>",
+    "translation": "",
+    "pos": 21645
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "472_5_3_7|",
+    "original": "<li>Whitney will be trick-or-treating on Domus Street from <<ampm 19 00>>.</li>",
+    "translation": "",
+    "pos": 21767
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "475_5_3_7|",
+    "original": "<li>Robin wants to go trick-or-treating between <<ampm 16 00>> and <<ampm 19 00>>.</li>",
+    "translation": "",
+    "pos": 21917
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "478_5_3_7|",
+    "original": "<li>Kylar has asked you to meet in the park after <<ampm 21 00>>.</li>",
+    "translation": "",
+    "pos": 22089
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "481_5_3_7|",
+    "original": "<li>You can buy sweets for Eden to celebrate Halloween.</li>",
+    "translation": "",
+    "pos": 22206
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "484_5_3_7|",
+    "original": "<li>Students are throwing a party at the lake from <<ampm 18 00>> until midnight.</li>",
+    "translation": "",
+    "pos": 22313
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "486_5_3_7|",
+    "original": "<li>One of the members of the wolf pack was injured at it.</li>",
+    "translation": "",
+    "pos": 22433
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "496_5_3_7|",
+    "original": "The orphans are celebrating Christmas.",
+    "translation": "",
+    "pos": 22650
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "498_5_3_7|",
+    "original": "The orphans will celebrate Christmas on the <span class=\"gold\">25th</span> as best they can.",
+    "translation": "",
+    "pos": 22707
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "501_5_3_7|",
+    "original": "You can buy them gifts at the shopping centre.",
+    "translation": "",
+    "pos": 22857
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "503_5_3_7|",
+    "original": "You can wrap their gifts in your room at the orphanage.",
+    "translation": "",
+    "pos": 22963
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "508_5_3_7|",
+    "original": "<li>You can buy Robin a gift at the shopping centre<<if $forest_shop_intro is 1>> or forest shop<</if>>.</li>",
+    "translation": "",
+    "pos": 23116
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "510_5_3_7|",
+    "original": "<li>You can wrap Robin's gift in your room.</li>",
+    "translation": "",
+    "pos": 23334
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "513_5_3_7|",
+    "original": "<li>The shopping centre should sell wrapping paper.</li>",
+    "translation": "",
+    "pos": 23425
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "519_5_3_7|",
+    "original": "<li>You can celebrate Christmas with Eden <span class=\"pink\">today</span>.</li>",
+    "translation": "",
+    "pos": 23590
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "522_5_3_7|",
+    "original": "<li>Christmas is coming. You can celebrate it with Eden.</li>",
+    "translation": "",
+    "pos": 23701
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "525_5_3_7|",
+    "original": "<li>You can buy Eden a gift at the shopping centre.</li>",
+    "translation": "",
+    "pos": 23825
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "528_5_3_7|",
+    "original": "<li>Eden's invited you for a Christmas dinner at <<ampm 18 00>>.</li>",
+    "translation": "",
+    "pos": 23925
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "537_5_3_7|",
+    "original": "The science fair is being held at the town hall on Cliff Street <span class=\"pink\">today</span> from <<ampm 9 00>> until <<ampm 18 00>>.",
+    "translation": "",
+    "pos": 24117
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "540_5_3_7|",
+    "original": "The science fair will be held at the town hall on Cliff Street <<nDays $scienceprojectdays>>.",
+    "translation": "",
+    "pos": 24276
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "543_5_3_7|",
+    "original": "You have the following ongoing science projects. You'll choose one to present at the fair.",
+    "translation": "",
+    "pos": 24390
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "546_5_3_7|",
+    "original": "<h1 class=\"header gold bold\">Local lichen</h1>",
+    "translation": "",
+    "pos": 24529
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "553_5_3_7|",
+    "original": "<span class='fa-icon fa-selected'></span> You've incorporated the lichen living in the park to your project.",
+    "translation": "",
+    "pos": 24786
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "556_5_3_7|",
+    "original": "<span class='fa-icon fa-unselected'></span> You've examined lichen in the park. You need to write it up at home or the library.",
+    "translation": "",
+    "pos": 24923
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "560_5_3_7|",
+    "original": "<span class='fa-icon fa-unselected'></span><span class=\"black\"> Examine white lichen in the park.</span>",
+    "translation": "",
+    "pos": 25089
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "566_5_3_7|",
+    "original": "<span class='fa-icon fa-selected'></span> You've incorporated the lichen living on the temple to your project.",
+    "translation": "",
+    "pos": 25346
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "569_5_3_7|",
+    "original": "<span class='fa-icon fa-unselected'></span> You've examined lichen living on the temple. You need to add it to your project at home or the library.",
+    "translation": "",
+    "pos": 25485
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "573_5_3_7|",
+    "original": "<span class='fa-icon fa-unselected'></span><span class=\"black\"> Examine pink lichen on the temple.</span>",
+    "translation": "",
+    "pos": 25671
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "579_5_3_7|",
+    "original": "<span class='fa-icon fa-selected'></span> You've incorporated the lichen living in the storm drain to your project.",
+    "translation": "",
+    "pos": 25926
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "582_5_3_7|",
+    "original": "<span class='fa-icon fa-unselected'></span> You've examined lichen living in the storm drain. You need to add it to your project at home or the library.",
+    "translation": "",
+    "pos": 26070
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "586_5_3_7|",
+    "original": "<span class='fa-icon fa-unselected'></span><span class=\"black\"> Examine violet lichen in the storm drain, where it exits into the sea.</span>",
+    "translation": "",
+    "pos": 26261
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "592_5_3_7|",
+    "original": "<span class='fa-icon fa-selected'></span> You've incorporated the lichen living on the lake ruin to your project.",
+    "translation": "",
+    "pos": 26549
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "595_5_3_7|",
+    "original": "<span class='fa-icon fa-unselected'></span> You've examined lichen living on the lake ruin. You need to add it to your project at home or the library.",
+    "translation": "",
+    "pos": 26691
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "599_5_3_7|",
+    "original": "<span class='fa-icon fa-unselected'></span><span class=\"black\"> Examine purple lichen on the lake ruin.</span>",
+    "translation": "",
+    "pos": 26880
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "602_5_3_7|",
+    "original": "As it is, this project has a <span @class=\"($sciencechance.length is 0 ? 'red' : $sciencechance.length is 1 ? 'pink' : $sciencechance.length is 2 ? 'purple' : $sciencechance.length is 3 ? 'teal' : $sciencechance.length is 4 ? 'green' : '')\"><<print ($sciencelichenparkready * 25 + $sciencelichenlakeready * 25 + $sciencelichendrainready * 25 + $sciencelichentempleready * 25)>>%</span> chance of winning the fair. Winning with this project will greatly reduce trauma and endear you to your teachers.",
+    "translation": "",
+    "pos": 27014
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "605_5_3_7|",
+    "original": "<span class=\"black\">????????????</span>",
+    "translation": "",
+    "pos": 27540
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "607_5_3_7|",
+    "original": "Explore to discover.",
+    "translation": "",
+    "pos": 27591
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "611_5_3_7|",
+    "original": "<h1 class=\"header gold bold\">Local mushrooms</h1>",
+    "translation": "",
+    "pos": 27671
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "612_5_3_7|",
+    "original": "<span @class=\"($scienceshroomheart is 5 ? 'fa-icon fa-selected' : 'fa-icon fa-unselected')\"></span><span @class=\"$scienceshroomheart is 0 and $scienceshroomheartready is 0 ? 'black' : ''\"> $scienceshroomheart/5 heartshrooms found.</span>",
+    "translation": "",
+    "pos": 27724
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "614_5_3_7|",
+    "original": "<span @class=\"($scienceshroomheartready is 5 ? 'fa-icon fa-selected' : 'fa-icon fa-unselected')\"></span><span @class=\"$scienceshroomheart is 0 and $scienceshroomheartready is 0 ? 'black' : ''\"> $scienceshroomheartready/5 heartshrooms added to project.</span>",
+    "translation": "",
+    "pos": 27973
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "616_5_3_7|",
+    "original": "Add mushrooms to your project at home or the library.",
+    "translation": "",
+    "pos": 28294
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "619_5_3_7|",
+    "original": "<span @class=\"($scienceshroomwolf is 5 ? 'fa-icon fa-selected' : 'fa-icon fa-unselected')\"></span><span @class=\"$scienceshroomwolf is 0 and $scienceshroomwolfready is 0 ? 'black' : ''\"> $scienceshroomwolf/5 wolfshrooms found.</span>",
+    "translation": "",
+    "pos": 28370
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "621_5_3_7|",
+    "original": "<span @class=\"($scienceshroomwolfready is 5 ? 'fa-icon fa-selected' : 'fa-icon fa-unselected')\"></span><span @class=\"$scienceshroomwolf is 0 and $scienceshroomwolfready is 0 ? 'black' : ''\"> $scienceshroomwolfready/5 wolfshrooms added to project.</span>",
+    "translation": "",
+    "pos": 28614
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "623_5_3_7|",
+    "original": "Add mushrooms to your project at home or the library.",
+    "translation": "",
+    "pos": 28928
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "627_5_3_7|",
+    "original": "As it is, this project has a <span @class=\"$scienceshroomchance gte 100 ? 'green' : $scienceshroomchance gte 80 ? 'teal' : $scienceshroomchance gte 60 ? 'lblue' : $scienceshroomchance gte 40 ? 'purple' : $scienceshroomchance gte 20 ? 'pink' : $scienceshroomchance gte 0 ? 'red' : ''\"><<print $scienceshroomchance>>%</span> chance of winning the fair. Winning with this project will greatly reduce trauma and make you more popular among your peers.",
+    "translation": "",
+    "pos": 29102
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "630_5_3_7|",
+    "original": "<span class=\"black\">????????????</span>",
+    "translation": "",
+    "pos": 29576
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "632_5_3_7|",
+    "original": "Explore the forest to discover.",
+    "translation": "",
+    "pos": 29627
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "636_5_3_7|",
+    "original": "<h1 class=\"header gold bold\">Local phalli</h1>",
+    "translation": "",
+    "pos": 29719
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "637_5_3_7|",
+    "original": "<mouse class=\"tooltip gold\">(?)<span>Look for participants on the beach during good weather.</span></mouse>",
+    "translation": "",
+    "pos": 29769
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "639_5_3_7|",
+    "original": "<span @class=\"($sciencephallus is 10 ? 'fa-icon fa-selected' : 'fa-icon fa-unselected')\"></span> $sciencephallus/10 phalli measured.",
+    "translation": "",
+    "pos": 29888
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "641_5_3_7|",
+    "original": "<span @class=\"($sciencephallusready is 10 ? 'fa-icon fa-selected' : 'fa-icon fa-unselected')\"></span> $sciencephallusready/10 phalli added to project.",
+    "translation": "",
+    "pos": 30032
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "643_5_3_7|",
+    "original": "Add phalli to your project at home or the library.",
+    "translation": "",
+    "pos": 30237
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "646_5_3_7|",
+    "original": "As it is, this project has a <span @class=\"$sciencephallusready gte 10 ? 'green' : $sciencephallusready gte 8 ? 'teal' : $sciencephallusready gte 6 ? 'lblue' : $sciencephallusready gte 4 ? 'purple' : $sciencephallusready gte 2 ? 'pink' : $sciencephallusready gte 0 ? 'red' : ''\"><<print ($sciencephallusready * 10)>>%</span> chance of winning the fair. Winning with this project will greatly reduce trauma and make you more famous.",
+    "translation": "",
+    "pos": 30312
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "649_5_3_7|",
+    "original": "<span class=\"black\">????????????</span>",
+    "translation": "",
+    "pos": 30766
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "651_5_3_7|",
+    "original": "Become more promiscuous to discover.",
+    "translation": "",
+    "pos": 30817
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "659_5_3_7|",
+    "original": "<h1 class=\"header gold bold\">Maths Competition</h1>",
+    "translation": "",
+    "pos": 30984
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "661_5_3_7|",
+    "original": "The maths competition is being held at the town hall on Cliff Street <span class=\"pink\">today</span> from <<ampm 9 00>> until <<ampm 18 00>>.",
+    "translation": "",
+    "pos": 31071
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "664_5_3_7|",
+    "original": "The maths competition will be held at the town hall on Cliff Street in <span class=\"gold\">$mathsprojectdays</span> <<if $mathsprojectdays is 1>>day<<else>>days<</if>>.",
+    "translation": "",
+    "pos": 31235
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "666_5_3_7|",
+    "original": "Your solution must be ready before then. You can work on your project at the orphanage or the school library.",
+    "translation": "",
+    "pos": 31414
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "670_5_3_7|",
+    "original": "<span class=\"black\">You haven't begun work on a solution. You have a $mathschance% chance of winning the competition.</span>",
+    "translation": "",
+    "pos": 31572
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "672_5_3_7|",
+    "original": "<span class=\"pink\">You've barely begun work on a solution. You have a $mathschance% chance of winning the competition.</span>",
+    "translation": "",
+    "pos": 31733
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "674_5_3_7|",
+    "original": "<span class=\"purple\">Your solution isn't much, but it's something. You have a $mathschance% chance of winning the competition.</span>",
+    "translation": "",
+    "pos": 31895
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "676_5_3_7|",
+    "original": "<span class=\"blue\">Your solution has some substance, but there's a long way to go. You have a $mathschance% chance of winning the competition.</span>",
+    "translation": "",
+    "pos": 32065
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "678_5_3_7|",
+    "original": "<span class=\"lblue\">Your solution is shaping up, but there's room for improvement. You have a $mathschance% chance of winning the competition.</span>",
+    "translation": "",
+    "pos": 32251
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "680_5_3_7|",
+    "original": "<span class=\"teal\">Your solution isn't right, but it's good. You can't imagine anyone else has gone as far as this. You have a $mathschance% chance of winning the competition.</span>",
+    "translation": "",
+    "pos": 32437
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "682_5_3_7|",
+    "original": "<span class=\"green\">Your solution is perfect. You have a $mathschance% chance of winning the competition.</span>",
+    "translation": "",
+    "pos": 32634
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "685_5_3_7|",
+    "original": "You have <span class=\"gold\">$mathsinfo</span> insights.",
+    "translation": "",
+    "pos": 32770
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "687_5_3_7|",
+    "original": "You have <span class=\"gold\">$mathsstim</span> stimulants.",
+    "translation": "",
+    "pos": 32860
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "689_5_3_7|",
+    "original": "You can buy stimulants from dealers on Oxford Street.",
+    "translation": "",
+    "pos": 32929
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "696_5_3_7|",
+    "original": "<h1 class=\"header gold bold\">English Play</h1>",
+    "translation": "",
+    "pos": 33054
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "698_5_3_7|",
+    "original": "The school plays are being held at the town hall on Cliff Street <span class=\"pink\">tonight</span> from <span class=\"gold\"><<ampm 17 00>></span> until <span class=\"gold\"><<ampm 21 00>></span>.",
+    "translation": "",
+    "pos": 33135
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "700_5_3_7|",
+    "original": "The school plays will be performed at the town hall on Cliff Street in <span class=\"gold\">$englishPlayDays</span> <<if $englishPlayDays is 1>>day<<else>>days<</if>>.",
+    "translation": "",
+    "pos": 33342
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "704_5_3_7|",
+    "original": "You have taken the role of $englishPlayRoles.Player. You can rehearse alone at the orphanage.",
+    "translation": "",
+    "pos": 33576
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "707_5_3_7|",
+    "original": "Kylar is playing as $englishPlayRoles.Kylar. You can rehearse with <<nnpc_him \"Kylar\">> in <<if Weather.precipitation !== \"none\">>the school library<<else>>the school's rear courtyard<</if>> after school.",
+    "translation": "",
+    "pos": 33763
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "710_5_3_7|",
+    "original": "Kylar's part in the play will have to be taken over by another student.",
+    "translation": "",
+    "pos": 34020
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "714_5_3_7|",
+    "original": "Sydney is playing as $englishPlayRoles.Sydney. You can rehearse with <<nnpc_him \"Sydney\">> in the English classroom after school.",
+    "translation": "",
+    "pos": 34156
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "718_5_3_7|",
+    "original": "You can meet your partners in the English classroom after school.",
+    "translation": "",
+    "pos": 34385
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "721_5_3_7|",
+    "original": "You can meet your other partner in the English classroom after school.",
+    "translation": "",
+    "pos": 34574
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "725_5_3_7|",
+    "original": "Performing well will spread social fame and give a large boost to school status.",
+    "translation": "",
+    "pos": 34688
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "728_5_3_7|",
+    "original": "You have <<number $englishPlayLate>> <<if $englishPlayLate is 1>>day<<else>>days<</if>> to choose a role. You can sign up in the English classroom after school, or just help other students rehearse.",
+    "translation": "",
+    "pos": 34811
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "730_5_3_7|",
+    "original": "It's too late for you to take a role, but you can still help other students rehearse and watch the plays with the audience.",
+    "translation": "",
+    "pos": 35026
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "736_5_3_7|",
+    "original": "<<set _hasProduce to Object.keys($plants).some(key => $plants[key].amount >= 1)>>",
+    "translation": "",
+    "pos": 35225
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "737_5_3_7|",
+    "original": "<<set _carrying to [$antiquemoney, $blackmoney, $phials_held, $lurkers_held, $popcorn, $milkshake, $panties_held].some(i => i >= 1)>>",
+    "translation": "",
+    "pos": 35307
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "740_5_3_7|",
+    "original": "<h1 class=\"header gold bold\">Inventory</h1>",
+    "translation": "",
+    "pos": 35481
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "743_5_3_7|",
+    "original": "You have stored:",
+    "translation": "",
+    "pos": 35613
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "745_5_3_7|",
+    "original": "<li><<lockicon \"bronze key\">> <span class=\"green\">A ring of keys</span> in your stall. You can use them to escape, but be careful not to get caught with them.</li>",
+    "translation": "",
+    "pos": 35662
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "749_5_3_7|",
+    "original": "You are carrying:",
+    "translation": "",
+    "pos": 35851
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "752_5_3_7|",
+    "original": "<li><<tendingicon \"sharks_teeth\">> <span class=\"green\"><<number $prison.teeth>></span> shark's teeth.",
+    "translation": "",
+    "pos": 35980
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "754_5_3_7|",
+    "original": "You can find Wren in the yard on Fridays after lunch.",
+    "translation": "",
+    "pos": 36123
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "759_5_3_7|",
+    "original": "<li><<museumicon>><span class=\"green\">£<<print $antiquemoney>></span> in antiques. You can sell them to the museum.</li>",
+    "translation": "",
+    "pos": 36238
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "762_5_3_7|",
+    "original": "<li><<highicon>><span class=\"green\">£<<print $blackmoney>></span> in stolen goods. You can sell them to someone on the black market.</li>",
+    "translation": "",
+    "pos": 36398
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "765_5_3_7|",
+    "original": "<li><<icon \"aphrodisiac.png\">> <span class=\"green\">$phials_held</span> <<= $phials_held is 1 ? \"phial\" : \"phials\">> of aphrodisiac. You can sell <<= $phials_held is 1 ? \"it\" : \"them\">> on Elk Street.</li>",
+    "translation": "",
+    "pos": 36576
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "768_5_3_7|",
+    "original": "<li><<birdicon \"lurkers\">><span class=\"green\">$lurkers_held</span> <<= $lurkers_held is 1 ? \"lurker\" : \"lurkers\">>.</li>",
+    "translation": "",
+    "pos": 36822
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "771_5_3_7|",
+    "original": "<li><<foodicon \"milkshake\">> <span class=\"green\">$milkshake</span> <<print $milkshake is 1 ? \"milkshake\" : \"milkshakes\">>.</li>",
+    "translation": "",
+    "pos": 36981
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "774_5_3_7|",
+    "original": "<li><<foodicon \"popcorn\">> <span class=\"green\">$popcorn</span> <<print $popcorn is 1 ? \"bag\" : \"bags\">> of popcorn.</li>",
+    "translation": "",
+    "pos": 37145
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "777_5_3_7|",
+    "original": "<li><span class=\"clothes-white\"><<icon \"clothes/plain_panties.png\">></span> <<print $panties_held is 1 ? \"a pair\" : \"<span class='green'>$panties_held</span> pairs\">> of stolen underwear. You can sell <<print $panties_held is 1 ? \"it\" : \"them\">> during lunchtime in the school rear courtyard.</li>",
+    "translation": "",
+    "pos": 37307
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "780_5_3_7|",
+    "original": "<li><<tendingicon \"basket\">> <span class=\"green\">Produce</span>. You can sell it by renting a stand on Connudatus Street at dawn.</li>",
+    "translation": "",
+    "pos": 37639
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "787_5_3_7|",
+    "original": "<summary class=\"journal\">Produce</summary>",
+    "translation": "",
+    "pos": 37850
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "801_5_3_7|",
+    "original": "<<set _tooltip to `<span class=\"green\">${_item.amount}</span> ${_itemName}`>>",
+    "translation": "",
+    "pos": 38509
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "803_5_3_7|",
+    "original": "<div class=\"item\" @tooltip=\"_tooltip\">",
+    "translation": "",
+    "pos": 38594
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "807_5_3_7|",
+    "original": "<<= _amount>>",
+    "translation": "",
+    "pos": 38773
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "817_5_3_7|",
+    "original": "<h1 class=\"header gold bold\">Collectibles</h1>",
+    "translation": "",
+    "pos": 38924
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "821_5_3_7|",
+    "original": "Winter has mentioned some items that are missing from the museum.",
+    "translation": "",
+    "pos": 39077
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "827_5_3_7|",
+    "original": "<li><<print _museumAntiqueText[_hint].journal>></li>",
+    "translation": "",
+    "pos": 39352
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "829_5_3_7|",
+    "original": "<li><span class=\"red\">warning: antique \"_hint\" doesn't have a hint. save exported from modded version?</span></li>",
+    "translation": "",
+    "pos": 39425
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "836_5_3_7|",
+    "original": "<<set $_antiquesFound to Object.values($museumAntiques.antiques).filter(status => status !== \"notFound\").length>>",
+    "translation": "",
+    "pos": 39654
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "838_5_3_7|",
+    "original": "You haven't found any items for the museum yet. Explore the world more to discover antiques.",
+    "translation": "",
+    "pos": 39803
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "840_5_3_7|",
+    "original": "You've found <span class=\"green\">every</span> item for the museum.",
+    "translation": "",
+    "pos": 39958
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "842_5_3_7|",
+    "original": "You've found <span class=\"gold\"><<= $_antiquesFound>></span> items for the museum. You're missing <span class=\"gold\"><<= $museumAntiques.maxCount - $_antiquesFound>></span> <<= $museumAntiques.maxCount - $_antiquesFound is 1 ? \"antique\" : \"antiques\">>.",
+    "translation": "",
+    "pos": 40041
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "846_5_3_7|",
+    "original": "<summary class=\"journal\">Antiques</summary>",
+    "translation": "",
+    "pos": 40350
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "851_5_3_7|",
+    "original": "<div class=\"item unknown\" @tooltip=\"_antique\">",
+    "translation": "",
+    "pos": 40797
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "856_5_3_7|",
+    "original": "<<case \"notFound\">>",
+    "translation": "",
+    "pos": 40943
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "857_5_3_7|",
+    "original": "<div class=\"item unknown\" tooltip=\"Unknown antique.\">",
+    "translation": "",
+    "pos": 40972
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "861_5_3_7|",
+    "original": "<div class=\"item\" @tooltip=\"_antique\">",
+    "translation": "",
+    "pos": 41097
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "887_5_3_7|",
+    "original": "You can't grow any plants. Explore the world more to discover seeds.",
+    "translation": "",
+    "pos": 41850
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "889_5_3_7|",
+    "original": "You can grow <span class=\"gold\"><<= _collection>></span> <<= _collection is 1 ? \"kind of plant\" : \"kinds of plants\">>.",
+    "translation": "",
+    "pos": 41935
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "891_5_3_7|",
+    "original": "You've found <span class=\"green\">every</span> seed.",
+    "translation": "",
+    "pos": 42092
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "893_5_3_7|",
+    "original": "You're missing <span class=\"gold\"><<= _total - _collection>></span> <<= _total - _collection is 1 ? \"seed\" : \"seeds\">>.",
+    "translation": "",
+    "pos": 42162
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "898_5_3_7|",
+    "original": "<summary class=\"journal\">Seeds</summary>",
+    "translation": "",
+    "pos": 42350
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "905_5_3_7|",
+    "original": "<div class=\"item\" @tooltip=\"_tooltip\">",
+    "translation": "",
+    "pos": 42964
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "909_5_3_7|",
+    "original": "<div class=\"item unknown\" tooltip=\"Unknown seed.\">",
+    "translation": "",
+    "pos": 43081
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "931_5_3_7|",
+    "original": "<span>Extra</span>",
+    "translation": "",
+    "pos": 43607
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "932_5_3_7|",
+    "original": "Page:",
+    "translation": "",
+    "pos": 43628
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "933_5_3_7|",
+    "original": "<<listbox \"_listPageName\" autoselect>>",
+    "translation": "",
+    "pos": 43636
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "934_5_3_7|",
+    "original": "<<optionsfrom Object.keys($journalNotes)>>",
+    "translation": "",
+    "pos": 43678
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "936_5_3_7|",
+    "original": "<<link \"Load\">>",
+    "translation": "",
+    "pos": 43738
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "941_5_3_7|",
+    "original": "<<link \"Delete\">>",
+    "translation": "",
+    "pos": 43918
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "953_5_3_7|",
+    "original": "New page name: <<textbox \"_pageName\" \"\">>",
+    "translation": "",
+    "pos": 44259
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "954_5_3_7|",
+    "original": "<<link \"New Page\">>",
+    "translation": "",
+    "pos": 44303
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "962_5_3_7|",
+    "original": "<<replace \"#journalNotesMessage\">><span class=\"red\">Unique name required.</span><</replace>>",
+    "translation": "",
+    "pos": 44632
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "965_5_3_7|",
+    "original": "<mouse class=\"tooltip linkBlue\">(?)<span>",
+    "translation": "",
+    "pos": 44750
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "966_5_3_7|",
+    "original": "Page names can only contain A-Z, numbers, underscore, dashes and spaces.",
+    "translation": "",
+    "pos": 44795
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "975_5_3_7|",
+    "original": "<<button `\"Save (\" + _currentPage + \")\"`>>",
+    "translation": "",
+    "pos": 45056
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "978_5_3_7|",
+    "original": "<label><<checkbox \"$options.notesAutoSave\" false true autocheck>> Auto Save</label>",
+    "translation": "",
+    "pos": 45144
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "979_5_3_7|",
+    "original": "<mouse class=\"tooltip linkBlue\">(?)<span>",
+    "translation": "",
+    "pos": 45229
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "980_5_3_7|",
+    "original": "<div>Closing the overlay or changing tabs will save your note. Character limit of 3000 per page.</div>",
+    "translation": "",
+    "pos": 45273
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "981_5_3_7|",
+    "original": "<div class=\"red\">Reloading your older save files will not have your recent changes. Excessive use will bloat save file size.</div>",
+    "translation": "",
+    "pos": 45378
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "986_5_3_7|",
+    "original": "var notesTimer = null;",
+    "translation": "",
+    "pos": 45632
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "988_5_3_7|",
+    "original": "if (notesTimer) clearTimeout(notesTimer);",
+    "translation": "",
+    "pos": 45720
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "989_5_3_7|",
+    "original": "if (V.options.notesAutoSave) notesTimer = setTimeout(saveText, 1000);",
+    "translation": "",
+    "pos": 45765
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "991_5_3_7|",
+    "original": "$('#textarea--displayedtextarea').attr('maxlength','3000');",
+    "translation": "",
+    "pos": 45843
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "993_5_3_7|",
+    "original": "new Wikifier (null, \"<<journalNotesTextareaSave>>\");",
+    "translation": "",
+    "pos": 45931
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "1008_5_3_7|",
+    "original": "<<case 0>><<set $_text_output to '<span class=\"gold\">today</span>'>>",
+    "translation": "",
+    "pos": 46345
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "1009_5_3_7|",
+    "original": "<<case 1>><<set $_text_output to '<span class=\"gold\">tomorrow</span>'>>",
+    "translation": "",
+    "pos": 46422
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "1010_5_3_7|",
+    "original": "<<default>><<set $_text_output to 'in <span class=\"gold\"><<= _args[0]>></span> days'>>",
+    "translation": "",
+    "pos": 46502
+  },
+  {
+    "passage": "Widgets Journal",
+    "filepath": "base-system/overlays/journal.twee",
+    "key": "1012_5_3_7|",
+    "original": "<</silently>><<print $_text_output>><</widget>>",
+    "translation": "",
+    "pos": 46605
+  }
+]

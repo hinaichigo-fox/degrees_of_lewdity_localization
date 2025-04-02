@@ -1,0 +1,2106 @@
+[
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "7_5_3_7|",
+    "original": "if (V.wolfpackharmony) C.npc[\"Black Wolf\"].harmony = V.wolfpackharmony;",
+    "translation": "",
+    "pos": 83
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "8_5_3_7|",
+    "original": "if (V.wolfpackferocity) C.npc[\"Black Wolf\"].ferocity = V.wolfpackferocity;",
+    "translation": "",
+    "pos": 159
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "10_5_3_7|",
+    "original": "T.npcConfig = {",
+    "translation": "",
+    "pos": 368
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "23_5_3_7|",
+    "original": "dom : { maxValue: 150 } /*false always hides this stat*/",
+    "translation": "",
+    "pos": 716
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "33_5_3_7|",
+    "original": "\"Great Hawk\" : {",
+    "translation": "",
+    "pos": 1027
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "36_5_3_7|",
+    "original": "\"Black Wolf\" : {",
+    "translation": "",
+    "pos": 1081
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "45_5_3_7|",
+    "original": "purity : { requirements : V.NPCName[28].purity > 0, maxValue : 100, minValue : 0 },",
+    "translation": "",
+    "pos": 1446
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "46_5_3_7|",
+    "original": "corruption : { requirements : V.NPCName[28].corruption > 0, maxValue : 50, minValue : 0 }",
+    "translation": "",
+    "pos": 1536
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "76_5_3_7|",
+    "original": "\"Ivory Wraith\" : {",
+    "translation": "",
+    "pos": 2209
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "77_5_3_7|",
+    "original": "lust : { name: \"Obsession\", activeIcon : (V.wraith && (V.wraith.state == \"haunt\" || V.wraith.state == \"despair\") ? \"img/ui/obsessionblood.png\" : \"img/ui/obsession.png\"), inactiveIcon : \"img/ui/obsessionempty.png\", maxValue : 20 }",
+    "translation": "",
+    "pos": 2234
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "82_5_3_7|",
+    "original": "T.importantNpcOrder = [\"Robin\", \"Whitney\", \"Eden\", \"Kylar\", \"Sydney\", \"Avery\", \"Great Hawk\", \"Black Wolf\", \"Alex\"];",
+    "translation": "",
+    "pos": 2588
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "83_5_3_7|",
+    "original": "T.specialNPCs = [\"Ivory Wraith\"];",
+    "translation": "",
+    "pos": 2708
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "86_5_3_7|",
+    "original": "T.importantNPCs = T.importantNpcOrder.map(name => V.NPCName[V.NPCNameList.indexOf(name)]);",
+    "translation": "",
+    "pos": 2777
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "89_5_3_7|",
+    "original": "T.otherNPCs = V.NPCName.filter(npc => !T.importantNpcOrder.includes(npc.nam) && !T.specialNPCs.includes(npc.nam));",
+    "translation": "",
+    "pos": 2905
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "93_5_3_7|",
+    "original": "T.otherNPCs.sort((a,b) => a.nam - b.nam);",
+    "translation": "",
+    "pos": 3212
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "98_5_3_7|",
+    "original": "<span class=\"gold\">Primary Relationships</span>",
+    "translation": "",
+    "pos": 3295
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "107_5_3_7|",
+    "original": "//No primary relationships//",
+    "translation": "",
+    "pos": 3634
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "112_5_3_7|",
+    "original": "<span class=\"gold\">People of Interest</span>",
+    "translation": "",
+    "pos": 3691
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "128_5_3_7|",
+    "original": "//No secondary relationships//",
+    "translation": "",
+    "pos": 4309
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "133_5_3_7|",
+    "original": "<span class=\"gold\">Reputation</span>",
+    "translation": "",
+    "pos": 4368
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "137_5_3_7|",
+    "original": "<<set _policeCrimeConfig = { currentValue : crimeSumHistory(), preText: 'The police ', states : [",
+    "translation": "",
+    "pos": 4508
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "138_5_3_7|",
+    "original": "{ requiredValue: 0,\t\tcolor: 'green',\t\tdescription: 'aren\\'t concerned with you,'},",
+    "translation": "",
+    "pos": 4611
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "139_5_3_7|",
+    "original": "{ requiredValue: 1000,\tcolor: 'teal',\t\tdescription: 'have you on their records,'},",
+    "translation": "",
+    "pos": 4699
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "140_5_3_7|",
+    "original": "{ requiredValue: 2000,\tcolor: 'lblue',\t\tdescription: 'consider you a person of interest,'},",
+    "translation": "",
+    "pos": 4787
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "141_5_3_7|",
+    "original": "{ requiredValue: 3000,\tcolor: 'blue',\t\tdescription: 'consider you a troublemaker,'},",
+    "translation": "",
+    "pos": 4884
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "142_5_3_7|",
+    "original": "{ requiredValue: 5000,\tcolor: 'purple',\tdescription: 'consider you a criminal,'},",
+    "translation": "",
+    "pos": 4974
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "143_5_3_7|",
+    "original": "{ requiredValue: 10000,\tcolor: 'pink',\t\tdescription: 'have a binder devoted to you,'},",
+    "translation": "",
+    "pos": 5061
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "144_5_3_7|",
+    "original": "{ requiredValue: 30000,\tcolor: 'red',\t\tdescription: 'have a filing cabinet devoted to you,'}",
+    "translation": "",
+    "pos": 5153
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "146_5_3_7|",
+    "original": "<<set _policeEvidenceConfig = { currentValue : crimeSumHistory(), secondaryValue : crimeSumCurrent(), states : [",
+    "translation": "",
+    "pos": 5259
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "147_5_3_7|",
+    "original": "{ requiredValue: 0, secondaryStates : [",
+    "translation": "",
+    "pos": 5377
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "148_5_3_7|",
+    "original": "{ requiredValue: 0,\tcolor: 'green',\tdescription: 'and have no evidence linking you to any crime.'},",
+    "translation": "",
+    "pos": 5423
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "149_5_3_7|",
+    "original": "{ requiredValue: 1,\tcolor: 'teal',\tdescription: 'despite having a little evidence linking you to crime.'},",
+    "translation": "",
+    "pos": 5529
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "151_5_3_7|",
+    "original": "{ requiredValue: 1000, secondaryStates : [",
+    "translation": "",
+    "pos": 5650
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "152_5_3_7|",
+    "original": "{ requiredValue: 0,\t\tcolor: 'green',\tdescription: 'but lack enough evidence for an arrest.'},",
+    "translation": "",
+    "pos": 5699
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "153_5_3_7|",
+    "original": "{ requiredValue: 1000,\tcolor: 'pink',\tdescription: 'and have enough evidence for an arrest.'},",
+    "translation": "",
+    "pos": 5799
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "154_5_3_7|",
+    "original": "{ requiredValue: 5000,\tcolor: 'red',\tdescription: 'and have more than enough evidence for an arrest.'},",
+    "translation": "",
+    "pos": 5900
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "157_5_3_7|",
+    "original": "<<set _policeBoxConfig = { name : \"Police\", icon : \"img/misc/icon/police.png\", description: \"<<relation-text _policeCrimeConfig>> <<relation-text _policeEvidenceConfig>>\"}>>",
+    "translation": "",
+    "pos": 6025
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "160_5_3_7|",
+    "original": "<<set _orphanageMoodConfig = { currentValue: $orphan_hope, secondaryValue: $orphan_reb, preText: 'The atmosphere in the orphanage is ', states : [",
+    "translation": "",
+    "pos": 6224
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "161_5_3_7|",
+    "original": "{ requiredValue: -100, secondaryStates : [",
+    "translation": "",
+    "pos": 6376
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "162_5_3_7|",
+    "original": "{ requiredValue: -100,\tcolor: 'pink',\tdescription: 'hopeless.'},",
+    "translation": "",
+    "pos": 6425
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "163_5_3_7|",
+    "original": "{ requiredValue: -40,\tcolor: 'pink',\tdescription: 'crestfallen.'},",
+    "translation": "",
+    "pos": 6496
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "164_5_3_7|",
+    "original": "{ requiredValue: -10,\tcolor: 'pink',\tdescription: 'unhappy.'},",
+    "translation": "",
+    "pos": 6569
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "165_5_3_7|",
+    "original": "{ requiredValue: 10,\tcolor: 'pink',\tdescription: 'spiteful.'},",
+    "translation": "",
+    "pos": 6638
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "166_5_3_7|",
+    "original": "{ requiredValue: 40,\tcolor: 'def',\tdescription: 'vengeful.'},",
+    "translation": "",
+    "pos": 6707
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "168_5_3_7|",
+    "original": "{ requiredValue: -40, secondaryStates : [",
+    "translation": "",
+    "pos": 6783
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "169_5_3_7|",
+    "original": "{ requiredValue: -100,\tcolor: 'purple',\tdescription: 'morose.'},",
+    "translation": "",
+    "pos": 6831
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "170_5_3_7|",
+    "original": "{ requiredValue: -40,\tcolor: 'purple',\tdescription: 'dispirited.'},",
+    "translation": "",
+    "pos": 6902
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "171_5_3_7|",
+    "original": "{ requiredValue: -10,\tcolor: 'purple',\tdescription: 'resigned.'},",
+    "translation": "",
+    "pos": 6976
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "172_5_3_7|",
+    "original": "{ requiredValue: 10,\tcolor: 'purple',\tdescription: 'disobedient.'},",
+    "translation": "",
+    "pos": 7048
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "173_5_3_7|",
+    "original": "{ requiredValue: 40,\tcolor: 'def',\t\tdescription: 'unruly.'},",
+    "translation": "",
+    "pos": 7122
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "175_5_3_7|",
+    "original": "{ requiredValue: -10, secondaryStates : [",
+    "translation": "",
+    "pos": 7197
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "176_5_3_7|",
+    "original": "{ requiredValue: -100,\tcolor: 'blue',\tdescription: 'obedient.'},",
+    "translation": "",
+    "pos": 7245
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "177_5_3_7|",
+    "original": "{ requiredValue: -40,\tcolor: 'blue',\tdescription: 'compliant.'},",
+    "translation": "",
+    "pos": 7316
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "178_5_3_7|",
+    "original": "{ requiredValue: -10,\tcolor: 'blue',\tdescription: 'calm.'},",
+    "translation": "",
+    "pos": 7387
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "179_5_3_7|",
+    "original": "{ requiredValue: 10,\tcolor: 'blue',\tdescription: 'subversive.'},",
+    "translation": "",
+    "pos": 7453
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "180_5_3_7|",
+    "original": "{ requiredValue: 40,\tcolor: 'def',\tdescription: 'defiant.'},",
+    "translation": "",
+    "pos": 7524
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "182_5_3_7|",
+    "original": "{ requiredValue: 10, secondaryStates : [",
+    "translation": "",
+    "pos": 7599
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "183_5_3_7|",
+    "original": "{ requiredValue: -100,\tcolor: 'teal',\tdescription: 'enduring.'},",
+    "translation": "",
+    "pos": 7646
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "184_5_3_7|",
+    "original": "{ requiredValue: -40,\tcolor: 'teal',\tdescription: 'unresistant.'},",
+    "translation": "",
+    "pos": 7717
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "185_5_3_7|",
+    "original": "{ requiredValue: -10,\tcolor: 'teal',\tdescription: 'optimistic.'},",
+    "translation": "",
+    "pos": 7790
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "186_5_3_7|",
+    "original": "{ requiredValue: 10,\tcolor: 'teal',\tdescription: 'rebellious.'},",
+    "translation": "",
+    "pos": 7862
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "187_5_3_7|",
+    "original": "{ requiredValue: 40,\tcolor: 'def',\tdescription: 'mutinous.'},",
+    "translation": "",
+    "pos": 7933
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "189_5_3_7|",
+    "original": "{ requiredValue: 40, secondaryStates : [",
+    "translation": "",
+    "pos": 8009
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "190_5_3_7|",
+    "original": "{ requiredValue: -100,\tcolor: 'green',\tdescription: 'kind.'},",
+    "translation": "",
+    "pos": 8056
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "191_5_3_7|",
+    "original": "{ requiredValue: -40,\tcolor: 'green',\tdescription: 'friendly.'},",
+    "translation": "",
+    "pos": 8124
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "192_5_3_7|",
+    "original": "{ requiredValue: -10,\tcolor: 'green',\tdescription: 'hopeful.'},",
+    "translation": "",
+    "pos": 8195
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "193_5_3_7|",
+    "original": "{ requiredValue: 10,\tcolor: 'green',\tdescription: 'idealistic.'},",
+    "translation": "",
+    "pos": 8265
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "194_5_3_7|",
+    "original": "{ requiredValue: 40,\tcolor: 'def',\tdescription: 'revolutionary.'},",
+    "translation": "",
+    "pos": 8337
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "197_5_3_7|",
+    "original": "<<set _orphanageBoxConfig = { name : \"Orphanage\", icon : \"img/misc/icon/orphanage.png\", description: \"<<relation-text _orphanageMoodConfig>>\"}>>",
+    "translation": "",
+    "pos": 8426
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "200_5_3_7|",
+    "original": "<<set _teacherRepConfig = { currentValue: $delinquency, preText: 'You are considered ', postText: ' by the teachers.', states : [",
+    "translation": "",
+    "pos": 8600
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "201_5_3_7|",
+    "original": "{ requiredValue: 0,\t\tcolor: 'green',\t\tdescription: 'an ideal student'},",
+    "translation": "",
+    "pos": 8735
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "202_5_3_7|",
+    "original": "{ requiredValue: 10,\tcolor: 'teal',\t\tdescription: 'a normal student'},",
+    "translation": "",
+    "pos": 8812
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "203_5_3_7|",
+    "original": "{ requiredValue: 200,\tcolor: 'lblue',\t\tdescription: 'a bad student'},",
+    "translation": "",
+    "pos": 8888
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "204_5_3_7|",
+    "original": "{ requiredValue: 400,\tcolor: 'blue',\t\tdescription: 'a delinquent'},",
+    "translation": "",
+    "pos": 8963
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "205_5_3_7|",
+    "original": "{ requiredValue: 600,\tcolor: 'purple',\tdescription: 'a delinquent'},",
+    "translation": "",
+    "pos": 9036
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "206_5_3_7|",
+    "original": "{ requiredValue: 800,\tcolor: 'pink',\t\tdescription: 'a delinquent'},",
+    "translation": "",
+    "pos": 9110
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "207_5_3_7|",
+    "original": "{ requiredValue: 1000,\tcolor: 'red',\t\tdescription: 'a terror'}",
+    "translation": "",
+    "pos": 9183
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "209_5_3_7|",
+    "original": "<<set _studentRepConfig = { currentValue: $cool, preText: 'Your fellow students think you\\'re ', states : [",
+    "translation": "",
+    "pos": 9259
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "210_5_3_7|",
+    "original": "{ requiredValue: 0,\t\tcolor: 'red',\t\tpreText: 'Your fellow students ', description: 'avoid you.'},",
+    "translation": "",
+    "pos": 9372
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "211_5_3_7|",
+    "original": "{ requiredValue: 40,\tcolor: 'pink',\t\tdescription: 'odd.'},",
+    "translation": "",
+    "pos": 9475
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "212_5_3_7|",
+    "original": "{ requiredValue: 80,\tcolor: 'purple',\tdescription: 'dorky.'},",
+    "translation": "",
+    "pos": 9539
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "213_5_3_7|",
+    "original": "{ requiredValue: 120,\tcolor: 'blue',\t\tdescription: 'ok.'},",
+    "translation": "",
+    "pos": 9606
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "214_5_3_7|",
+    "original": "{ requiredValue: 160,\tcolor: 'lblue',\t\tdescription: 'cool.'},",
+    "translation": "",
+    "pos": 9670
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "215_5_3_7|",
+    "original": "{ requiredValue: 240,\tcolor: 'teal',\t\tdescription: 'very cool.'},",
+    "translation": "",
+    "pos": 9737
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "216_5_3_7|",
+    "original": "{ requiredValue: 400,\tcolor: 'green',\t\tpreText: 'Your fellow students ', description: 'aspire to be seen with you.'}",
+    "translation": "",
+    "pos": 9808
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "218_5_3_7|",
+    "original": "<<set _teacherBoxConfig = { name : \"Teachers\", icon : \"img/misc/icon/school.png\", description: \"<<relation-text _teacherRepConfig>> <<statbar 0 $delinquency 1000>>\"}>>",
+    "translation": "",
+    "pos": 9938
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "219_5_3_7|",
+    "original": "<<set _studentBoxConfig = { name : \"Students\", icon : \"img/misc/icon/schoolnew.png\", description: \"<<relation-text _studentRepConfig>> <<statbarinverted $cool $coolmax>>\"}>>",
+    "translation": "",
+    "pos": 10110
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "223_5_3_7|",
+    "original": "<<set _crossdressRepConfig = { currentValue: $schoolrep.crossdress, states : [",
+    "translation": "",
+    "pos": 10351
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "224_5_3_7|",
+    "original": "{ requiredValue: 1,\tcolor: 'lblue',\t\tdescription: 'A few cliques at school whisper amongst themselves about your crossdressing ways. Few believe it.'},",
+    "translation": "",
+    "pos": 10436
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "225_5_3_7|",
+    "original": "{ requiredValue: 2,\tcolor: 'blue',\t\tdescription: 'A rumour has taken root at school. Some say you\\'re a crossdresser.'},",
+    "translation": "",
+    "pos": 10594
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "226_5_3_7|",
+    "original": "{ requiredValue: 3,\tcolor: 'purple',\tdescription: 'Students gossip about your supposed crossdressing, though most think it only a joke.'},",
+    "translation": "",
+    "pos": 10721
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "227_5_3_7|",
+    "original": "{ requiredValue: 4,\tcolor: 'pink',\t\tdescription: 'Everyone at school has heard the rumours of your crossdressing.'},",
+    "translation": "",
+    "pos": 10866
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "228_5_3_7|",
+    "original": "{ requiredValue: 5,\tcolor: 'red',\t\tdescription: 'Everyone at school knows that you crossdress, including the teachers.'}",
+    "translation": "",
+    "pos": 10989
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "230_5_3_7|",
+    "original": "<<set _crossdressBoxConfig = { name : \"Crossdressing\", description : '<<relation-text _crossdressRepConfig>>'}>>",
+    "translation": "",
+    "pos": 11125
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "235_5_3_7|",
+    "original": "<<set _hermRepConfig = { currentValue: $schoolrep.herm, states : [",
+    "translation": "",
+    "pos": 11302
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "236_5_3_7|",
+    "original": "{ requiredValue: 1,\tcolor: 'lblue',\t\tdescription: 'A few cliques at school gossip about a student with both boy and girl parts. Few believe it.'},",
+    "translation": "",
+    "pos": 11375
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "237_5_3_7|",
+    "original": "{ requiredValue: 2,\tcolor: 'blue',\t\tdescription: 'Rumours of a student with both boy and girl parts have spread through the school.'},",
+    "translation": "",
+    "pos": 11528
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "238_5_3_7|",
+    "original": "{ requiredValue: 3,\tcolor: 'purple',\tdescription: 'The school is rife with gossip about a student with both boy and girl parts.'},",
+    "translation": "",
+    "pos": 11669
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "239_5_3_7|",
+    "original": "{ requiredValue: 4,\tcolor: 'pink',\t\tdescription: 'Everyone at school has heard the rumours about your unique genitalia.'},",
+    "translation": "",
+    "pos": 11806
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "240_5_3_7|",
+    "original": "{ requiredValue: 5,\tcolor: 'red',\t\tdescription: 'Everyone at school has heard of your unique genitalia, including the teachers.'}",
+    "translation": "",
+    "pos": 11935
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "242_5_3_7|",
+    "original": "<<set _hermBoxConfig = { name : \"Genitalia\", description : '<<relation-text _hermRepConfig>>'}>>",
+    "translation": "",
+    "pos": 12080
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "247_5_3_7|",
+    "original": "<<set _prisonMoodConfig = { currentValue: $prison.hope, secondaryValue: $prison.reb, preText: 'The atmosphere in the prison is ', states : [",
+    "translation": "",
+    "pos": 12231
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "248_5_3_7|",
+    "original": "{ requiredValue: 0, secondaryStates : [",
+    "translation": "",
+    "pos": 12378
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "249_5_3_7|",
+    "original": "{ requiredValue: 0,\tcolor: 'pink',\tdescription: 'hopeless.'},",
+    "translation": "",
+    "pos": 12425
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "250_5_3_7|",
+    "original": "{ requiredValue: 20,\tcolor: 'pink',\tdescription: 'crestfallen.'},",
+    "translation": "",
+    "pos": 12494
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "251_5_3_7|",
+    "original": "{ requiredValue: 40,\tcolor: 'pink',\tdescription: 'unhappy.'},",
+    "translation": "",
+    "pos": 12567
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "252_5_3_7|",
+    "original": "{ requiredValue: 60,\tcolor: 'pink',\tdescription: 'spiteful.'},",
+    "translation": "",
+    "pos": 12636
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "253_5_3_7|",
+    "original": "{ requiredValue: 80,\tcolor: 'def',\tdescription: 'vengeful.'},",
+    "translation": "",
+    "pos": 12706
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "255_5_3_7|",
+    "original": "{ requiredValue: 20, secondaryStates : [",
+    "translation": "",
+    "pos": 12784
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "256_5_3_7|",
+    "original": "{ requiredValue: 0,\tcolor: 'purple',\tdescription: 'morose.'},",
+    "translation": "",
+    "pos": 12832
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "257_5_3_7|",
+    "original": "{ requiredValue: 20,\tcolor: 'purple',\tdescription: 'dispirited.'},",
+    "translation": "",
+    "pos": 12901
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "258_5_3_7|",
+    "original": "{ requiredValue: 40,\tcolor: 'purple',\tdescription: 'resigned.'},",
+    "translation": "",
+    "pos": 12975
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "259_5_3_7|",
+    "original": "{ requiredValue: 60,\tcolor: 'purple',\tdescription: 'disobedient.'},",
+    "translation": "",
+    "pos": 13047
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "260_5_3_7|",
+    "original": "{ requiredValue: 80,\tcolor: 'def',\t\tdescription: 'unruly.'},",
+    "translation": "",
+    "pos": 13122
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "262_5_3_7|",
+    "original": "{ requiredValue: 40, secondaryStates : [",
+    "translation": "",
+    "pos": 13199
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "263_5_3_7|",
+    "original": "{ requiredValue: 0,\tcolor: 'blue',\tdescription: 'obedient.'},",
+    "translation": "",
+    "pos": 13247
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "264_5_3_7|",
+    "original": "{ requiredValue: 20,\tcolor: 'blue',\tdescription: 'compliant.'},",
+    "translation": "",
+    "pos": 13316
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "265_5_3_7|",
+    "original": "{ requiredValue: 40,\tcolor: 'blue',\tdescription: 'calm.'},",
+    "translation": "",
+    "pos": 13387
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "266_5_3_7|",
+    "original": "{ requiredValue: 60,\tcolor: 'blue',\tdescription: 'subversive.'},",
+    "translation": "",
+    "pos": 13453
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "267_5_3_7|",
+    "original": "{ requiredValue: 80,\tcolor: 'def',\tdescription: 'defiant.'},",
+    "translation": "",
+    "pos": 13525
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "269_5_3_7|",
+    "original": "{ requiredValue: 60, secondaryStates : [",
+    "translation": "",
+    "pos": 13602
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "270_5_3_7|",
+    "original": "{ requiredValue: 0,\tcolor: 'teal',\tdescription: 'enduring.'},",
+    "translation": "",
+    "pos": 13650
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "271_5_3_7|",
+    "original": "{ requiredValue: 20,\tcolor: 'teal',\tdescription: 'unresistant.'},",
+    "translation": "",
+    "pos": 13719
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "272_5_3_7|",
+    "original": "{ requiredValue: 40,\tcolor: 'teal',\tdescription: 'optimistic.'},",
+    "translation": "",
+    "pos": 13792
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "273_5_3_7|",
+    "original": "{ requiredValue: 60,\tcolor: 'teal',\tdescription: 'rebellious.'},",
+    "translation": "",
+    "pos": 13864
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "274_5_3_7|",
+    "original": "{ requiredValue: 80,\tcolor: 'def',\tdescription: 'mutinous.'},",
+    "translation": "",
+    "pos": 13936
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "276_5_3_7|",
+    "original": "{ requiredValue: 80, secondaryStates : [",
+    "translation": "",
+    "pos": 14014
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "277_5_3_7|",
+    "original": "{ requiredValue: 0,\tcolor: 'green',\tdescription: 'tolerant.'},",
+    "translation": "",
+    "pos": 14062
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "278_5_3_7|",
+    "original": "{ requiredValue: 20,\tcolor: 'green',\tdescription: 'patient.'},",
+    "translation": "",
+    "pos": 14132
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "279_5_3_7|",
+    "original": "{ requiredValue: 40,\tcolor: 'green',\tdescription: 'hopeful.'},",
+    "translation": "",
+    "pos": 14202
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "280_5_3_7|",
+    "original": "{ requiredValue: 60,\tcolor: 'green',\tdescription: 'idealistic.'},",
+    "translation": "",
+    "pos": 14272
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "281_5_3_7|",
+    "original": "{ requiredValue: 80,\tcolor: 'def',\tdescription: 'revolutionary.'},",
+    "translation": "",
+    "pos": 14345
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "284_5_3_7|",
+    "original": "<<set _guardRepConfig = { currentValue: $prison.guards, preText: 'The guards ', states : [",
+    "translation": "",
+    "pos": 14437
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "285_5_3_7|",
+    "original": "{ requiredValue: 0,\t\tcolor: 'red',\t\tdescription: 'have you under constant surveillance.'},",
+    "translation": "",
+    "pos": 14534
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "286_5_3_7|",
+    "original": "{ requiredValue: 15,\tcolor: 'pink',\t\tdescription: 'consider you a problem.'},",
+    "translation": "",
+    "pos": 14631
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "287_5_3_7|",
+    "original": "{ requiredValue: 30,\tcolor: 'purple',\t\tdescription: 'watch you.'},",
+    "translation": "",
+    "pos": 14715
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "288_5_3_7|",
+    "original": "{ requiredValue: 45,\tcolor: 'blue',\t\tdescription: 'are keeping an eye on you.'},",
+    "translation": "",
+    "pos": 14788
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "289_5_3_7|",
+    "original": "{ requiredValue: 60,\tcolor: 'lblue',\t\tdescription: 'expect no trouble from you.'},",
+    "translation": "",
+    "pos": 14875
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "290_5_3_7|",
+    "original": "{ requiredValue: 80,\tcolor: 'teal',\t\tdescription: 'overlook you.'},",
+    "translation": "",
+    "pos": 14964
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "291_5_3_7|",
+    "original": "{ requiredValue: 100,\tcolor: 'green',\t\tdescription: 'forget you are here.'}",
+    "translation": "",
+    "pos": 15038
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "293_5_3_7|",
+    "original": "<<set _inmateRepConfig = { currentValue: $prison.inmates, preText: 'Most fellow inmates ', states : [",
+    "translation": "",
+    "pos": 15129
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "294_5_3_7|",
+    "original": "{ requiredValue: 0,\t\tcolor: 'red',\t\tdescription: 'see you as meat.'},",
+    "translation": "",
+    "pos": 15237
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "295_5_3_7|",
+    "original": "{ requiredValue: 15,\tcolor: 'pink',\t\tdescription: 'think you\\'re a fucktoy.'},",
+    "translation": "",
+    "pos": 15313
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "296_5_3_7|",
+    "original": "{ requiredValue: 30,\tcolor: 'purple',\tdescription: 'consider you a bitch.'},",
+    "translation": "",
+    "pos": 15398
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "297_5_3_7|",
+    "original": "{ requiredValue: 45,\tcolor: 'blue',\t\tdescription: 'see you as one of them.'},",
+    "translation": "",
+    "pos": 15481
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "298_5_3_7|",
+    "original": "{ requiredValue: 60,\tcolor: 'lblue',\t\tdescription: 'have a good opinion of you.'},",
+    "translation": "",
+    "pos": 15565
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "299_5_3_7|",
+    "original": "{ requiredValue: 80,\tcolor: 'teal',\t\tdescription: 'respect you.'},",
+    "translation": "",
+    "pos": 15654
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "300_5_3_7|",
+    "original": "{ requiredValue: 100,\tcolor: 'green',\t\tdescription: 'think you\\'re the boss.'}",
+    "translation": "",
+    "pos": 15727
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "302_5_3_7|",
+    "original": "<<set _prisonBoxConfig = { name : \"Prison Atmosphere\", icon : \"img/misc/icon/prison_cell.png\", description: \"<<relation-text _prisonMoodConfig>>\"}>>",
+    "translation": "",
+    "pos": 15821
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "303_5_3_7|",
+    "original": "<<set _guardBoxConfig = { name : \"Prison Guards\", icon : \"img/misc/icon/prison_cell.png\", description: \"<<relation-text _guardRepConfig>>\"}>>",
+    "translation": "",
+    "pos": 15975
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "304_5_3_7|",
+    "original": "<<set _inmateBoxConfig = { name : \"Prison Inmates\", icon : \"img/misc/icon/prison_cell.png\", description: \"<<relation-text _inmateRepConfig>>\"}>>",
+    "translation": "",
+    "pos": 16122
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "308_5_3_7|",
+    "original": "<<set _dockRepConfig = { currentValue: $dockstatus, preText: 'The other workers ', states : [",
+    "translation": "",
+    "pos": 16326
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "309_5_3_7|",
+    "original": "{ requiredValue: 0,\t    color: 'purple',\tdescription: 'view you with contempt.'},",
+    "translation": "",
+    "pos": 16426
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "310_5_3_7|",
+    "original": "{ requiredValue: 10,\tcolor: 'blue',\t\tdescription: 'view you with suspicion.'},",
+    "translation": "",
+    "pos": 16514
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "311_5_3_7|",
+    "original": "{ requiredValue: 30,\tcolor: 'lblue',\t\tdescription: 'tolerate you.'},",
+    "translation": "",
+    "pos": 16599
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "312_5_3_7|",
+    "original": "{ requiredValue: 80,\tcolor: 'teal',\t\tdescription: 'accept you.'},",
+    "translation": "",
+    "pos": 16674
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "313_5_3_7|",
+    "original": "{ requiredValue: 100,\tcolor: 'green',\t\tdescription: 'respect you.'}",
+    "translation": "",
+    "pos": 16746
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "315_5_3_7|",
+    "original": "<<set _dockBoxConfig = { name : \"Docks\", icon : \"img/misc/icon/docks.png\", description : '<<relation-text _dockRepConfig>>'}>>",
+    "translation": "",
+    "pos": 16829
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "318_5_3_7|",
+    "original": "<<set _pirateStatusConfig = { currentValue: $pirate_rank, secondaryValue: $pirate_status, preText: 'The pirates view you as  ', states : [",
+    "translation": "",
+    "pos": 16989
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "319_5_3_7|",
+    "original": "{ requiredValue: 0, secondaryStates : [",
+    "translation": "",
+    "pos": 17134
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "320_5_3_7|",
+    "original": "{ requiredValue: 0,\tcolor: 'red',\tdescription: 'wretched scum.'},",
+    "translation": "",
+    "pos": 17181
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "321_5_3_7|",
+    "original": "{ requiredValue: 10,\tcolor: 'pink',\tdescription: 'worthless scum.'},",
+    "translation": "",
+    "pos": 17254
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "322_5_3_7|",
+    "original": "{ requiredValue: 30,\tcolor: 'pink',\tdescription: 'pathetic scum.'},",
+    "translation": "",
+    "pos": 17330
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "323_5_3_7|",
+    "original": "{ requiredValue: 50,\tcolor: 'pink',\tdescription: 'sloppy scum.'},",
+    "translation": "",
+    "pos": 17405
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "324_5_3_7|",
+    "original": "{ requiredValue: 70,\tcolor: 'pink',\tdescription: 'endearing scum.'},",
+    "translation": "",
+    "pos": 17478
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "325_5_3_7|",
+    "original": "{ requiredValue: 90,\tcolor: 'purple',\tdescription: 'scum no longer.'},",
+    "translation": "",
+    "pos": 17554
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "327_5_3_7|",
+    "original": "{ requiredValue: 1, secondaryStates : [",
+    "translation": "",
+    "pos": 17641
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "328_5_3_7|",
+    "original": "{ requiredValue: 0,\tcolor: 'blue',\tdescription: 'a scummy mate.'},",
+    "translation": "",
+    "pos": 17688
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "329_5_3_7|",
+    "original": "{ requiredValue: 10,\tcolor: 'blue',\tdescription: 'a useless mate.'},",
+    "translation": "",
+    "pos": 17762
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "330_5_3_7|",
+    "original": "{ requiredValue: 30,\tcolor: 'blue',\tdescription: 'an untested mate.'},",
+    "translation": "",
+    "pos": 17838
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "331_5_3_7|",
+    "original": "{ requiredValue: 50,\tcolor: 'blue',\tdescription: 'a second-class mate.'},",
+    "translation": "",
+    "pos": 17916
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "332_5_3_7|",
+    "original": "{ requiredValue: 70,\tcolor: 'blue',\tdescription: 'a mate in good standing.'},",
+    "translation": "",
+    "pos": 17997
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "333_5_3_7|",
+    "original": "{ requiredValue: 90,\tcolor: 'lblue',\t\tdescription: 'a first-class mate.'},",
+    "translation": "",
+    "pos": 18082
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "336_5_3_7|",
+    "original": "<<set _pirateBoxConfig = { name : \"Pirate Rank\", icon : \"img/misc/icon/mer.png\", description: \"<<relation-text _pirateStatusConfig>>\"}>>",
+    "translation": "",
+    "pos": 18182
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "366_5_3_7|",
+    "original": "<<set _farmHorseRepConfig = { currentValue: $farm.beasts.horses, preText: 'The steeds of the farm ', postText: ' you.', states: [",
+    "translation": "",
+    "pos": 19152
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "367_5_3_7|",
+    "original": "{ requiredValue: -100,\tcolor: 'pink',\t\tdescription: 'see you as a fucktoy.', postText: ' '},",
+    "translation": "",
+    "pos": 19287
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "368_5_3_7|",
+    "original": "{ requiredValue: -20,\tcolor: 'purple',\tdescription: 'have little respect', postText: ' for you.'},",
+    "translation": "",
+    "pos": 19385
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "369_5_3_7|",
+    "original": "{ requiredValue: -5,\tcolor: '',\t\t\tdescription: 'are wary of'},",
+    "translation": "",
+    "pos": 19489
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "370_5_3_7|",
+    "original": "{ requiredValue: 5,\t\tcolor: 'lblue',\t\tdescription: 'trust'},",
+    "translation": "",
+    "pos": 19557
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "371_5_3_7|",
+    "original": "{ requiredValue: 20,\tcolor: 'green',\t\tdescription: 'respect'}",
+    "translation": "",
+    "pos": 19623
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "374_5_3_7|",
+    "original": "<<set _farmPigRepConfig = { currentValue: $farm.beasts.pigs, preText: 'The pigs ', postText: ' you.', states: [",
+    "translation": "",
+    "pos": 19711
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "375_5_3_7|",
+    "original": "{ requiredValue: -100,\tcolor: 'pink',\t\tdescription: 'see you as a fucktoy.', postText: ' '},",
+    "translation": "",
+    "pos": 19828
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "376_5_3_7|",
+    "original": "{ requiredValue: -20,\tcolor: 'purple',\tdescription: 'have little respect', postText: ' for you.'},",
+    "translation": "",
+    "pos": 19926
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "377_5_3_7|",
+    "original": "{ requiredValue: -5,\tcolor: '',\t\t\tdescription: 'are wary of'},",
+    "translation": "",
+    "pos": 20030
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "378_5_3_7|",
+    "original": "{ requiredValue: 5,\t\tcolor: 'lblue',\t\tdescription: 'trust'},",
+    "translation": "",
+    "pos": 20098
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "379_5_3_7|",
+    "original": "{ requiredValue: 20,\tcolor: 'green',\t\tdescription: 'respect'}",
+    "translation": "",
+    "pos": 20164
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "382_5_3_7|",
+    "original": "<<set _farmCattleRepConfig = { currentValue: $farm.beasts.cattle, preText: 'The cattle ', postText: ' you.', states: [",
+    "translation": "",
+    "pos": 20254
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "383_5_3_7|",
+    "original": "{ requiredValue: -100,\tcolor: 'pink',\t\tdescription: 'see you as an annoyance.', postText: ' '},",
+    "translation": "",
+    "pos": 20378
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "384_5_3_7|",
+    "original": "{ requiredValue: -20,\tcolor: 'purple',\tdescription: 'have little respect', postText: ' for you.'},",
+    "translation": "",
+    "pos": 20479
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "385_5_3_7|",
+    "original": "{ requiredValue: -5,\tcolor: '',\t\t\tdescription: 'are wary of'},",
+    "translation": "",
+    "pos": 20583
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "386_5_3_7|",
+    "original": "{ requiredValue: 5,\t\tcolor: 'lblue',\t\tdescription: 'trust'},",
+    "translation": "",
+    "pos": 20651
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "387_5_3_7|",
+    "original": "{ requiredValue: 20,\tcolor: 'green',\t\tdescription: 'respect'}",
+    "translation": "",
+    "pos": 20717
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "390_5_3_7|",
+    "original": "<<set _farmDogRepConfig = { currentValue: $farm.beasts.dogs, preText: 'The dogs ', postText: ' you.', states: [",
+    "translation": "",
+    "pos": 20805
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "391_5_3_7|",
+    "original": "{ requiredValue: -100,\tcolor: 'pink',\t\tdescription: 'see you as a fucktoy.', postText: ' '},",
+    "translation": "",
+    "pos": 20922
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "392_5_3_7|",
+    "original": "{ requiredValue: -20,\tcolor: 'purple',\tdescription: 'have little respect', postText: ' for you.'},",
+    "translation": "",
+    "pos": 21020
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "393_5_3_7|",
+    "original": "{ requiredValue: -5,\tcolor: '',\t\t\tdescription: 'are wary of'},",
+    "translation": "",
+    "pos": 21124
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "394_5_3_7|",
+    "original": "{ requiredValue: 5,\t\tcolor: 'lblue',\t\tdescription: 'trust'},",
+    "translation": "",
+    "pos": 21192
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "395_5_3_7|",
+    "original": "{ requiredValue: 20,\tcolor: 'green',\t\tdescription: 'respect'}",
+    "translation": "",
+    "pos": 21258
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "397_5_3_7|",
+    "original": "<<set _farmHorseBoxConfig =\t\t{ name: \"Horses\",\tdescription : '<<relation-text _farmHorseRepConfig>>'}>>",
+    "translation": "",
+    "pos": 21333
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "398_5_3_7|",
+    "original": "<<set _farmPigBoxConfig =\t\t{ name: \"Pigs\",\t\tdescription : '<<relation-text _farmPigRepConfig>>'}>>",
+    "translation": "",
+    "pos": 21441
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "399_5_3_7|",
+    "original": "<<set _farmCattleBoxConfig =\t{ name: \"Cattle\",\tdescription : '<<relation-text _farmCattleRepConfig>>'}>>",
+    "translation": "",
+    "pos": 21544
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "400_5_3_7|",
+    "original": "<<set _farmDogBoxConfig =\t\t{ name: \"Dogs\",\t\tdescription : '<<relation-text _farmDogRepConfig>>'}>>",
+    "translation": "",
+    "pos": 21653
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "404_5_3_7|",
+    "original": "<<set _farmSabotageConfig = { currentValue: $farm.aggro, states: [",
+    "translation": "",
+    "pos": 21812
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "405_5_3_7|",
+    "original": "{ requiredValue: 0,\t\tcolor: 'green',\t\tdescription: 'The farm is peaceful.'},",
+    "translation": "",
+    "pos": 21885
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "406_5_3_7|",
+    "original": "{ requiredValue: 1,\t\tcolor: 'teal',\t\tdescription: 'Strange people have been seen watching the farm.'},",
+    "translation": "",
+    "pos": 21968
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "407_5_3_7|",
+    "original": "{ requiredValue: 10,\tcolor: 'lblue',\t\tdescription: 'Signs of intrusion have been found around the farm.'},",
+    "translation": "",
+    "pos": 22077
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "408_5_3_7|",
+    "original": "{ requiredValue: 20,\tcolor: 'blue',\t\tdescription: 'Something is spooking the beasts of the farm.'},",
+    "translation": "",
+    "pos": 22190
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "409_5_3_7|",
+    "original": "{ requiredValue: 40,\tcolor: 'purple',\tdescription: 'The farm is being sabotaged at night.'},",
+    "translation": "",
+    "pos": 22296
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "410_5_3_7|",
+    "original": "{ requiredValue: 60,\tcolor: 'pink',\t\tdescription: 'The farm is being sabotaged, day and night.'},",
+    "translation": "",
+    "pos": 22395
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "411_5_3_7|",
+    "original": "{ requiredValue: 100,\tcolor: 'red',\t\tdescription: 'Remy\\'s goons operate in the open, sabotaging the farm and its business.'},",
+    "translation": "",
+    "pos": 22499
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "413_5_3_7|",
+    "original": "<<set _farmSabotageBoxConfig = { name: \"Farm Safety\", description : '<<relation-text _farmSabotageConfig>>'}>>",
+    "translation": "",
+    "pos": 22641
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "418_5_3_7|",
+    "original": "<span class=\"gold\">Farm Status</span>",
+    "translation": "",
+    "pos": 22793
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "431_5_3_7|",
+    "original": "<span class=\"gold\">Fame</span>",
+    "translation": "",
+    "pos": 23194
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "434_5_3_7|",
+    "original": "<<set _fameStates = [",
+    "translation": "",
+    "pos": 23303
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "435_5_3_7|",
+    "original": "{ requiredValue: 0,\t\tcolor: 'green',\t\tdescription: ' Unknown'},",
+    "translation": "",
+    "pos": 23330
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "436_5_3_7|",
+    "original": "{ requiredValue: 30,\tcolor: 'teal',\t\tdescription: ' Obscure'},",
+    "translation": "",
+    "pos": 23399
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "437_5_3_7|",
+    "original": "{ requiredValue: 100,\tcolor: 'lblue',\t\tdescription: ' Low-key'},",
+    "translation": "",
+    "pos": 23467
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "438_5_3_7|",
+    "original": "{ requiredValue: 200,\tcolor: 'blue',\t\tdescription: ' Known'},",
+    "translation": "",
+    "pos": 23537
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "439_5_3_7|",
+    "original": "{ requiredValue: 400,\tcolor: 'purple',\tdescription: ' Recognised'},",
+    "translation": "",
+    "pos": 23604
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "440_5_3_7|",
+    "original": "{ requiredValue: 600,\tcolor: 'pink',\t\tdescription: ' Famous'},",
+    "translation": "",
+    "pos": 23677
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "441_5_3_7|",
+    "original": "{ requiredValue: 1000,\tcolor: 'red',\t\tdescription: ' Notorious _config.flavorText'}",
+    "translation": "",
+    "pos": 23745
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "443_5_3_7|",
+    "original": "<<set _inverseFameStates = [",
+    "translation": "",
+    "pos": 23841
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "444_5_3_7|",
+    "original": "{ requiredValue: 0,\t\tcolor: 'red',\t\tdescription: ' Unknown'},",
+    "translation": "",
+    "pos": 23875
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "445_5_3_7|",
+    "original": "{ requiredValue: 30,\tcolor: 'pink',\t\tdescription: ' Obscure'},",
+    "translation": "",
+    "pos": 23942
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "446_5_3_7|",
+    "original": "{ requiredValue: 100,\tcolor: 'purple',\tdescription: ' Low-key'},",
+    "translation": "",
+    "pos": 24010
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "447_5_3_7|",
+    "original": "{ requiredValue: 200,\tcolor: 'blue',\t\tdescription: ' Known'},",
+    "translation": "",
+    "pos": 24080
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "448_5_3_7|",
+    "original": "{ requiredValue: 400,\tcolor: 'lblue',\t\tdescription: ' Recognised'},",
+    "translation": "",
+    "pos": 24147
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "449_5_3_7|",
+    "original": "{ requiredValue: 600,\tcolor: 'teal',\t\tdescription: ' Famous'},",
+    "translation": "",
+    "pos": 24220
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "450_5_3_7|",
+    "original": "{ requiredValue: 1000,\tcolor: 'green',\t\tdescription: ' Notorious _config.flavorText'}",
+    "translation": "",
+    "pos": 24288
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "453_5_3_7|",
+    "original": "<<set _sexFameConfig =\t\t\t\t{ currentValue: $fame.sex,\t\t\t\tpreText: 'Sex:',\t\t\tflavorText: 'slut',\t\t\t\tstates: _fameStates }>>",
+    "translation": "",
+    "pos": 24387
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "454_5_3_7|",
+    "original": "<<set _prostitutionFameConfig =\t\t{ currentValue: $fame.prostitution,\t\tpreText: 'Prostitution:',\tflavorText: 'whore',\t\t\tstates: _fameStates }>>",
+    "translation": "",
+    "pos": 24513
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "455_5_3_7|",
+    "original": "<<set _rapeFameConfig =\t\t\t\t{ currentValue: $fame.rape,\t\t\t\tpreText: 'Rape:',\t\t\tflavorText: 'fucktoy',\t\t\tstates: _fameStates }>>",
+    "translation": "",
+    "pos": 24660
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "463_5_3_7|",
+    "original": "<<set _bestialityFameConfig =\t\t{ currentValue: $fame.bestiality,\t\tpreText: $_pre,\t\t\t\tflavorText: $_flavor,\t\t\tstates: _fameStates }>>",
+    "translation": "",
+    "pos": 25004
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "464_5_3_7|",
+    "original": "<<set _exhibitionismFameConfig =\t{ currentValue: $fame.exhibitionism,\tpreText: 'Exhibitionism:',\tflavorText: 'flaunter',\t\t\tstates: _fameStates }>>",
+    "translation": "",
+    "pos": 25141
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "472_5_3_7|",
+    "original": "<<set _pregnancyFameConfig =\t\t{ currentValue: $fame.pregnancy,\t\tpreText: 'Pregnancy:',\t\tflavorText: $_name,\t\t\t\tstates: _fameStates }>>",
+    "translation": "",
+    "pos": 25493
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "480_5_3_7|",
+    "original": "<<set _impregFameConfig =\t\t\t{ currentValue: $fame.impreg,\t\t\tpreText: 'Pregnancy:',\t\tflavorText: $_name,\t\t\t\tstates: _fameStates }>>",
+    "translation": "",
+    "pos": 25827
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "481_5_3_7|",
+    "original": "<<set _combatFameConfig =\t\t\t{ currentValue: $fame.scrap,\t\t\tpreText: 'Combat:',\t\t\tflavorText: 'scrapper',\t\t\tstates: _inverseFameStates }>>",
+    "translation": "",
+    "pos": 25962
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "482_5_3_7|",
+    "original": "<<set _kindnessFameConfig =\t\t\t{ currentValue: $fame.good,\t\t\t\tpreText: 'Kindness:',\t\tflavorText: 'do-gooder',\t\tstates: _inverseFameStates }>>",
+    "translation": "",
+    "pos": 26104
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "483_5_3_7|",
+    "original": "<<set _businessFameConfig =\t\t\t{ currentValue: $fame.business,\t\t\tpreText: 'Business:',\t\tflavorText: 'entrepreneur',\t\tstates: _inverseFameStates }>>",
+    "translation": "",
+    "pos": 26249
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "484_5_3_7|",
+    "original": "<<set _socialFameConfig =\t\t\t{ currentValue: $fame.social,\t\t\tpreText: 'Socialite:',\t\tflavorText: 'schmoozer',\t\tstates: _inverseFameStates }>>",
+    "translation": "",
+    "pos": 26400
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "485_5_3_7|",
+    "original": "<<set _modelFameConfig =\t\t\t{ currentValue: $fame.model,\t\t\tpreText: 'Modelling:',\t\tflavorText: 'show off',\t\t\tstates: _inverseFameStates }>>",
+    "translation": "",
+    "pos": 26545
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "486_5_3_7|",
+    "original": "<<set _overallFameConfig =\t\t\t{ currentValue: fameTotal(),\t\t\tpreText: 'Overall:',\t\tflavorText: '',\t\t\t\t\tstates: [",
+    "translation": "",
+    "pos": 26688
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "487_5_3_7|",
+    "original": "{ requiredValue: 0,\t\tcolor: 'green',\t\tdescription: ' Unknown'},",
+    "translation": "",
+    "pos": 26805
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "488_5_3_7|",
+    "original": "{ requiredValue: 100,\tcolor: 'teal',\t\tdescription: ' Obscure'},",
+    "translation": "",
+    "pos": 26874
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "489_5_3_7|",
+    "original": "{ requiredValue: 500,\tcolor: 'lblue',\t\tdescription: ' Low-key'},",
+    "translation": "",
+    "pos": 26943
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "490_5_3_7|",
+    "original": "{ requiredValue: 1000,\tcolor: 'blue',\t\tdescription: ' Known'},",
+    "translation": "",
+    "pos": 27013
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "491_5_3_7|",
+    "original": "{ requiredValue: 2000,\tcolor: 'purple',\tdescription: ' Recognised'},",
+    "translation": "",
+    "pos": 27081
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "492_5_3_7|",
+    "original": "{ requiredValue: 3000,\tcolor: 'pink',\t\tdescription: ' Famous'},",
+    "translation": "",
+    "pos": 27155
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "493_5_3_7|",
+    "original": "{ requiredValue: 4000,\tcolor: fameSum('business', 'good', 'social', 'model')  > 4000 ? 'green' : 'red',\t\tdescription: ' Notorious'}",
+    "translation": "",
+    "pos": 27224
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "496_5_3_7|",
+    "original": "<<set _sexFameBoxConfig =\t\t\t{ description : '<<relation-text _sexFameConfig>>' }>>",
+    "translation": "",
+    "pos": 27370
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "497_5_3_7|",
+    "original": "<<set _prostitutionFameBoxConfig =\t{ description : '<<relation-text _prostitutionFameConfig>>' }>>",
+    "translation": "",
+    "pos": 27457
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "498_5_3_7|",
+    "original": "<<set _rapeFameBoxConfig =\t\t\t{ description : '<<relation-text _rapeFameConfig>>' }>>",
+    "translation": "",
+    "pos": 27560
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "499_5_3_7|",
+    "original": "<<set _bestialityFameBoxConfig =\t{ description : '<<relation-text _bestialityFameConfig>>' }>>",
+    "translation": "",
+    "pos": 27649
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "500_5_3_7|",
+    "original": "<<set _exhibitionismFameBoxConfig =\t{ description : '<<relation-text _exhibitionismFameConfig>>' }>>",
+    "translation": "",
+    "pos": 27748
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "501_5_3_7|",
+    "original": "<<set _pregnancyFameBoxConfig =\t\t{ description : '<<relation-text _pregnancyFameConfig>>' }>>",
+    "translation": "",
+    "pos": 27853
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "502_5_3_7|",
+    "original": "<<set _combatFameBoxConfig =\t\t{ description : '<<relation-text _combatFameConfig>>' }>>",
+    "translation": "",
+    "pos": 27951
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "503_5_3_7|",
+    "original": "<<set _kindnessFameBoxConfig =\t\t{ description : '<<relation-text _kindnessFameConfig>>' }>>",
+    "translation": "",
+    "pos": 28043
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "504_5_3_7|",
+    "original": "<<set _businessFameBoxConfig =\t\t{ description : '<<relation-text _businessFameConfig>>' }>>",
+    "translation": "",
+    "pos": 28139
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "505_5_3_7|",
+    "original": "<<set _socialFameBoxConfig =\t\t{ description : '<<relation-text _socialFameConfig>>' }>>",
+    "translation": "",
+    "pos": 28235
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "506_5_3_7|",
+    "original": "<<set _modelFameBoxConfig =\t\t\t{ description : '<<relation-text _modelFameConfig>>' }>>",
+    "translation": "",
+    "pos": 28327
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "507_5_3_7|",
+    "original": "<<set _overallFameBoxConfig =\t\t{ description : '<<relation-text _overallFameConfig>>' }>>",
+    "translation": "",
+    "pos": 28418
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "525_5_3_7|",
+    "original": "<div class=\"relation-box\" @style=\"(_boxConfig.style || '')\">",
+    "translation": "",
+    "pos": 29165
+  },
+  {
+    "passage": "Social",
+    "filepath": "base-system/overlays/social.twee",
+    "key": "527_5_3_7|",
+    "original": "The townsfolk know you as <span class=\"teal\"><<overworld_nickname>>.</span> Those in the criminal underworld call you <span class=\"pink\"><<underworld_nickname>>.</span>",
+    "translation": "",
+    "pos": 29269
+  }
+]

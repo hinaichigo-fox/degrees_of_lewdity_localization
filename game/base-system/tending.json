@@ -1,0 +1,514 @@
+[
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "70_5_3_7|",
+    "original": "<<case \"water\">><<set _bedType to \"water\">>",
+    "translation": "",
+    "pos": 2291
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "71_5_3_7|",
+    "original": "<<case \"earth\">><<set _bedType to \"soil\">>",
+    "translation": "",
+    "pos": 2337
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "76_5_3_7|",
+    "original": "<<case 1>> <<set $_result to `<span class=\"blue\">poor `+_bedType+`</span>`>>",
+    "translation": "",
+    "pos": 2492
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "77_5_3_7|",
+    "original": "<<case 2>> <<set $_result to `<span class=\"lblue\">decent `+_bedType+`</span>`>>",
+    "translation": "",
+    "pos": 2571
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "78_5_3_7|",
+    "original": "<<case 3>> <<set $_result to `<span class=\"teal\">good `+_bedType+`</span>`>>",
+    "translation": "",
+    "pos": 2653
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "79_5_3_7|",
+    "original": "<<case 4>> <<set $_result to `<span class=\"green\">excellent `+_bedType+`</span>`>>",
+    "translation": "",
+    "pos": 2732
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "80_5_3_7|",
+    "original": "<<default>> <<set $_result to `<span class=\"red\">ERROR</span>`>>",
+    "translation": "",
+    "pos": 2817
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "82_5_3_7|",
+    "original": "<</silently>><<print $_result>><</widget>>",
+    "translation": "",
+    "pos": 2895
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "88_5_3_7|",
+    "original": "There <<print $_plotsHere.length is 1 ? \"is\" : \"are\">> <<number $_plotsHere.length>> tillable",
+    "translation": "",
+    "pos": 3121
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "90_5_3_7|",
+    "original": "<<case \"small\">> <span class=\"lblue\"><<print $_plotsHere.length is 1 ? \"bed\" : \"beds\">></span>",
+    "translation": "",
+    "pos": 3249
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "91_5_3_7|",
+    "original": "<<case \"medium\">> <span class=\"teal\"><<print $_plotsHere.length is 1 ? \"plot\" : \"plots\">></span>",
+    "translation": "",
+    "pos": 3346
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "92_5_3_7|",
+    "original": "<<default>> <span class=\"green\"><<print $_plotsHere.length is 1 ? \"field\" : \"fields\">></span>",
+    "translation": "",
+    "pos": 3445
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "94_5_3_7|",
+    "original": "here.",
+    "translation": "",
+    "pos": 3553
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "96_5_3_7|",
+    "original": "You have <<number $fertiliser.current>> fertiliser.",
+    "translation": "",
+    "pos": 3613
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "98_5_3_7|",
+    "original": "Tilling time is reduced by tending skill.",
+    "translation": "",
+    "pos": 3675
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "105_5_3_7|",
+    "original": "<span class=\"gold\"><<wordify_i $_i true>> plot (<<display_quality _plantbed>>):</span>",
+    "translation": "",
+    "pos": 3811
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "111_5_3_7|",
+    "original": "message\t: `Could not access property from modded save. (${_plantbed.plant})`,",
+    "translation": "",
+    "pos": 4051
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "112_5_3_7|",
+    "original": "}>>",
+    "translation": "",
+    "pos": 4134
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "122_5_3_7|",
+    "original": "<span class=\"green\">The <<print $_plantedPlant.seed_name ? `$_plantedPlant.seed_name is` : `$_plantedPlant.plural are`>> flowering, and ready for picking.</span>",
+    "translation": "",
+    "pos": 4305
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "131_5_3_7|",
+    "original": "<span class=\"red\">Can't pick when your arms are bound.</span>",
+    "translation": "",
+    "pos": 4786
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "136_5_3_7|",
+    "original": "<<link \"Pick ($_timeStr)\" $passage>><<pass _pass>><<tending_harvest _plantbed>><<clear_plot _plantbed>><</link>>",
+    "translation": "",
+    "pos": 5023
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "141_5_3_7|",
+    "original": "<span class=\"teal\">The <<print $_plantedPlant.seed_name ? `$_plantedPlant.seed_name is` : `$_plantedPlant.plural are`>> budding.</span>",
+    "translation": "",
+    "pos": 5197
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "143_5_3_7|",
+    "original": "<span class=\"lblue\">The <<print $_plantedPlant.seed_name ? `$_plantedPlant.seed_name has` : `$_plantedPlant.plural have`>> grown into seedlings.</span>",
+    "translation": "",
+    "pos": 5372
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "145_5_3_7|",
+    "original": "<span class=\"blue\"><<print $_plantedPlant.seed_name ? `${$_plantedPlant.seed_name.toUpperFirst()} sprouts` : `Thin $_plantedPlant.plural sprout`>> from the soil.</span>",
+    "translation": "",
+    "pos": 5563
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "147_5_3_7|",
+    "original": "<span class=\"blue\">You planted <<print $_plantedPlant.name.replace(/_/g,\" \")>> seeds here.</span>",
+    "translation": "",
+    "pos": 5771
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "150_5_3_7|",
+    "original": "The soil is ready for planting.",
+    "translation": "",
+    "pos": 5918
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "153_5_3_7|",
+    "original": "The soil is ready for tilling.",
+    "translation": "",
+    "pos": 6022
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "162_5_3_7|",
+    "original": "<span class=\"green\">The <<print (_plantbed.bed is \"large\" ? \"field\" : \"plot\")>> is watered.</span>",
+    "translation": "",
+    "pos": 6268
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "165_5_3_7|",
+    "original": "<span class=\"purple\">The <<print (_plantbed.bed is \"large\" ? \"field\" : \"plot\")>> is dry.</span>",
+    "translation": "",
+    "pos": 6395
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "187_5_3_7|",
+    "original": "<span class=\"pink\">You won't have enough time to water all your fields before Remy's arrival.</span>",
+    "translation": "",
+    "pos": 7148
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "191_5_3_7|",
+    "original": "<<link \"Water all dry beds ($_time)\" $passage>>",
+    "translation": "",
+    "pos": 7349
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "202_5_3_7|",
+    "original": "<<link \"DEBUG: Instagrow all plants here\" $passage>><<run tendingInstaGrow(_location)>><</link>>",
+    "translation": "",
+    "pos": 7707
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "219_5_3_7|",
+    "original": "<span class=\"red\">Can't water when your arms are bound.</span>",
+    "translation": "",
+    "pos": 8235
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "223_5_3_7|",
+    "original": "<<link \"Water ($_time)\" $passage>>",
+    "translation": "",
+    "pos": 8365
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "247_5_3_7|",
+    "original": "Search wild areas for seeds to plant.",
+    "translation": "",
+    "pos": 9111
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "257_5_3_7|",
+    "original": "<span class=\"red\">Plant type '<<print _plantType>>' not found.</span>",
+    "translation": "",
+    "pos": 9429
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "259_5_3_7|",
+    "original": "Please report this.",
+    "translation": "",
+    "pos": 9514
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "274_5_3_7|",
+    "original": "<<link \"Plant $_name ($_timeString)\" $passage>><<pass _passTime>><<run plantSeedsInPlot(_plantbed, _plantType)>><</link>>",
+    "translation": "",
+    "pos": 10270
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "277_5_3_7|",
+    "original": "<span class=\"orange\">(<<print $_plant.days>> days)</span>",
+    "translation": "",
+    "pos": 10445
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "280_5_3_7|",
+    "original": "<span class=\"blue\"><<print $_name.toLocaleUpperFirst()>> only grow in <<print $_plant.bed>>.</span>",
+    "translation": "",
+    "pos": 10531
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "316_5_3_7|",
+    "original": "<span class=\"red\">Can't till when your arms are bound.</span>",
+    "translation": "",
+    "pos": 11514
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "320_5_3_7|",
+    "original": "<span class=\"pink\">Not enough time to till the field before Remy's arrival.</span>",
+    "translation": "",
+    "pos": 11666
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "324_5_3_7|",
+    "original": "<<link \"Till (_timeString)\" $passage>>",
+    "translation": "",
+    "pos": 11840
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "342_5_3_7|",
+    "original": "<<link \"Till and apply fertiliser (_timeString)\" $passage>>",
+    "translation": "",
+    "pos": 12546
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "373_5_3_7|",
+    "original": "You water the plot. <span class=\"gold\">You get a good workout.</span>",
+    "translation": "",
+    "pos": 13485
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "376_5_3_7|",
+    "original": "You water the plots. <span class=\"gold\">You get a good workout.</span>",
+    "translation": "",
+    "pos": 13607
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "380_5_3_7|",
+    "original": "You harvest <<number $tendingvars.harvest_amount>> <<print $tendingvars.harvest_name>>.",
+    "translation": "",
+    "pos": 13725
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "382_5_3_7|",
+    "original": "The fertiliser effect has decayed<<if $tendingvars.plotDecay is 2>> completely<</if>>.",
+    "translation": "",
+    "pos": 13848
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "388_5_3_7|",
+    "original": "You get to work removing weeds and tilling the soil. It's hard going, but when you're done the soil is ready for planting.",
+    "translation": "",
+    "pos": 14017
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "389_5_3_7|",
+    "original": "<span class=\"gold\">You get a good workout.</span>",
+    "translation": "",
+    "pos": 14142
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "394_5_3_7|",
+    "original": "You get to work removing weeds and tilling the soil while mixing in some fertiliser. It's hard going, but when you're done the soil is ready for planting.",
+    "translation": "",
+    "pos": 14275
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "395_5_3_7|",
+    "original": "<span class=\"gold\">You get a good workout.</span>",
+    "translation": "",
+    "pos": 14432
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "398_5_3_7|",
+    "original": "You plant the seeds in the cool earth.",
+    "translation": "",
+    "pos": 14527
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "402_5_3_7|",
+    "original": "<span class=\"green\">The rain soaks the ground.</span>",
+    "translation": "",
+    "pos": 14624
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "429_5_3_7|",
+    "original": "($fertiliser.used gte 40 or ($fertiliser.used gte 25 and $farm_stage gte 6))>>",
+    "translation": "",
+    "pos": 15904
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "431_5_3_7|",
+    "original": "<span class=\"gold\">Spending a large amount of time in the dirt has given you a green thumb.</span>",
+    "translation": "",
+    "pos": 16038
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "476_5_3_7|",
+    "original": "You pick",
+    "translation": "",
+    "pos": 17744
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "478_5_3_7|",
+    "original": "up",
+    "translation": "",
+    "pos": 17784
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "482_5_3_7|",
+    "original": "an",
+    "translation": "",
+    "pos": 17923
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "484_5_3_7|",
+    "original": "a",
+    "translation": "",
+    "pos": 17940
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "489_5_3_7|",
+    "original": "<<print setup.plants[$_type].name.replace(/_/g,\" \")>>.",
+    "translation": "",
+    "pos": 18114
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "494_5_3_7|",
+    "original": "<<number _tending_amount>> <<print setup.plants[$_type].plural>>.",
+    "translation": "",
+    "pos": 18341
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "513_5_3_7|",
+    "original": "<span class=\"blue\">",
+    "translation": "",
+    "pos": 19003
+  },
+  {
+    "passage": "Widgets Tending",
+    "filepath": "base-system/tending.twee",
+    "key": "515_5_3_7|",
+    "original": "<<print $_plant.plural.toLocaleUpperFirst()>> can only be planted in $_seasons.",
+    "translation": "",
+    "pos": 19075
+  }
+]

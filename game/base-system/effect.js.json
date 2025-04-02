@@ -1,0 +1,3066 @@
+[
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "2_5_3_7|",
+    "original": "DOL.Perflog.logWidgetStart(\"effectsWaterJs\");",
+    "translation": "",
+    "pos": 27
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "6_5_3_7|",
+    "original": "fragment.append(Wikifier.wikifyEval(text + \" \"));",
+    "translation": "",
+    "pos": 158
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "9_5_3_7|",
+    "original": "const element = document.createElement(\"span\");",
+    "translation": "",
+    "pos": 248
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "11_5_3_7|",
+    "original": "element.textContent = text + \" \";",
+    "translation": "",
+    "pos": 343
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "14_5_3_7|",
+    "original": "const br = () => fragment.append(document.createElement(\"br\"));",
+    "translation": "",
+    "pos": 410
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "21_5_3_7|",
+    "original": "sWikifier('<span class=\"purple\">You feel the squid tease your <<genitals>>.</span> <<garousal>><<arousal 100 \"genitals\">>');",
+    "translation": "",
+    "pos": 556
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "25_5_3_7|",
+    "original": "'<span class=\"purple\">You feel the squids tease your <<genitals>> and chest.</span> <<garousal>><<arousal 100 \"breasts\">><<arousal 100 \"genitals\">>'",
+    "translation": "",
+    "pos": 719
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "30_5_3_7|",
+    "original": "'<span class=\"purple\">You feel the squids tease your <<genitals>> and <<breasts>>.</span> <<garousal>><<arousal 200 \"breasts\">><<arousal 100 \"genitals\">>'",
+    "translation": "",
+    "pos": 912
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "35_5_3_7|",
+    "original": "'<span class=\"purple\">You feel the squids tease your <<genitals>>, <<breasts>>, and <<bottom>>.</span> <<garousal>><<arousal 200 \"breasts\">><<arousal 100 \"genitals\">><<arousal 100 \"bottom\">>'",
+    "translation": "",
+    "pos": 1111
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "41_5_3_7|",
+    "original": "sWikifier(`<span class=\"purple\">You feel ${V.squidcount} squids tease your <<genitals>>, <<breasts>>, <<bottom>>, and other parts of your body.</span>",
+    "translation": "",
+    "pos": 1400
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "42_5_3_7|",
+    "original": "<<garousal>><<arousal ${squidArousal} \"breasts\">><<arousal ${squidArousal} \"genitals\">><<arousal ${squidArousal} \"bottom\">>`);",
+    "translation": "",
+    "pos": 1555
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "46_5_3_7|",
+    "original": "if (!V.worn.upper.type.includes(\"naked\") && !waterproofCheck(V.worn.upper)) {",
+    "translation": "",
+    "pos": 1701
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "50_5_3_7|",
+    "original": "sWikifier(`<span class=\"lewd\">Water soaks through your ${V.worn.upper.name}, exposing your <<undertop>>.</span>`);",
+    "translation": "",
+    "pos": 1873
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "53_5_3_7|",
+    "original": "sWikifier(`<span class=\"green\">Your ${V.worn.upper.name} <<upperhas>> dried, concealing your <<undertop>>.</span>`);",
+    "translation": "",
+    "pos": 2071
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "57_5_3_7|",
+    "original": "sWikifier(`<span class=\"purple\">Your ${V.worn.upper.name} <<upperplural>> wet.</span>`);",
+    "translation": "",
+    "pos": 2288
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "60_5_3_7|",
+    "original": "sWikifier(`<span class=\"green\">Your ${V.worn.upper.name} <<upperplural>> drying out.</span>`);",
+    "translation": "",
+    "pos": 2460
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "63_5_3_7|",
+    "original": "sWikifier(`<span class=\"blue\">Your ${V.worn.upper.name} <<upperplural>> damp.</span>`);",
+    "translation": "",
+    "pos": 2638
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "66_5_3_7|",
+    "original": "sWikifier(`<span class=\"green\">Your ${V.worn.upper.name} <<upperplural>> dry.</span>`);",
+    "translation": "",
+    "pos": 2809
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "70_5_3_7|",
+    "original": "if (!V.worn.lower.type.includes(\"naked\") && !waterproofCheck(V.worn.lower)) {",
+    "translation": "",
+    "pos": 2906
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "74_5_3_7|",
+    "original": "sWikifier(`<span class=\"lewd\">Water soaks through your ${V.worn.lower.name}, exposing your <<undies>>.</span>`);",
+    "translation": "",
+    "pos": 3078
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "77_5_3_7|",
+    "original": "sWikifier(`<span class=\"green\">Your ${V.worn.lower.name} <<lowerhas>> dried, concealing your <<undies>>.</span>`);",
+    "translation": "",
+    "pos": 3274
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "81_5_3_7|",
+    "original": "sWikifier(`<span class=\"purple\">Your ${V.worn.lower.name} <<lowerplural>> wet.</span>`);",
+    "translation": "",
+    "pos": 3489
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "84_5_3_7|",
+    "original": "sWikifier(`<span class=\"green\">Your ${V.worn.lower.name} <<lowerplural>> drying out.</span>`);",
+    "translation": "",
+    "pos": 3661
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "87_5_3_7|",
+    "original": "sWikifier(`<span class=\"blue\">Your ${V.worn.lower.name} <<lowerplural>> damp.</span>`);",
+    "translation": "",
+    "pos": 3839
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "90_5_3_7|",
+    "original": "sWikifier(`<span class=\"green\">Your ${V.worn.lower.name} <<lowerplural>> dry.</span>`);",
+    "translation": "",
+    "pos": 4010
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "94_5_3_7|",
+    "original": "if (!V.worn.under_lower.type.includes(\"naked\") && !playerChastity() && !waterproofCheck(V.worn.under_lower)) {",
+    "translation": "",
+    "pos": 4107
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "97_5_3_7|",
+    "original": "if (V.lowerwetstage === 3 || V.worn.lower.type.includes(\"naked\")) {",
+    "translation": "",
+    "pos": 4329
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "100_5_3_7|",
+    "original": "sWikifier(`<span class=\"lewd\">Your bodily fluids soak through your ${V.worn.under_lower.name}, exposing your <<genitals>>.</span>`);",
+    "translation": "",
+    "pos": 4478
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "101_5_3_7|",
+    "original": "} else if (setup.clothes.lower[clothesIndex(\"lower\", V.worn.lower)].skirt === 1) {",
+    "translation": "",
+    "pos": 4614
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "103_5_3_7|",
+    "original": "`<span class=\"lewd\">Your bodily fluids soak through your ${V.worn.under_lower.name}, exposing your <<genitals>> to the air under your $worn.lower.name.</span>`",
+    "translation": "",
+    "pos": 4717
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "106_5_3_7|",
+    "original": "span(`Your bodily fluids soak through your ${V.worn.under_lower.name}.`, \"lewd\");",
+    "translation": "",
+    "pos": 4900
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "111_5_3_7|",
+    "original": "sWikifier(`<span class=\"lewd\">Water soaks through your ${V.worn.under_lower.name}, exposing your <<genitals>>.</span>`);",
+    "translation": "",
+    "pos": 5103
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "114_5_3_7|",
+    "original": "sWikifier(`<span class=\"green\">Your ${V.worn.under_lower.name} <<underlowerhas>> dried, concealing your <<genitals>>.</span>`);",
+    "translation": "",
+    "pos": 5322
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "118_5_3_7|",
+    "original": "sWikifier(`<span class=\"purple\">Your ${V.worn.under_lower.name} <<underlowerplural>> wet.</span>`);",
+    "translation": "",
+    "pos": 5565
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "121_5_3_7|",
+    "original": "sWikifier(`<span class=\"green\">Your ${V.worn.under_lower.name} <<underlowerplural>> drying out.</span>`);",
+    "translation": "",
+    "pos": 5763
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "124_5_3_7|",
+    "original": "sWikifier(`<span class=\"blue\">Your ${V.worn.under_lower.name} <<underlowerplural>> damp.</span>`);",
+    "translation": "",
+    "pos": 5967
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "127_5_3_7|",
+    "original": "sWikifier(`<span class=\"green\">Your ${V.worn.under_lower.name} <<underlowerplural>> dry.</span>`);",
+    "translation": "",
+    "pos": 6164
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "131_5_3_7|",
+    "original": "if (!V.worn.under_upper.type.includes(\"naked\") && !V.worn.under_upper.type.includes(\"chastity\") && !waterproofCheck(V.worn.under_upper)) {",
+    "translation": "",
+    "pos": 6272
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "135_5_3_7|",
+    "original": "sWikifier(`<span class=\"lewd\">Water soaks through your ${V.worn.under_upper.name}, exposing your <<breasts>>.</span>`);",
+    "translation": "",
+    "pos": 6520
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "138_5_3_7|",
+    "original": "sWikifier(`<span class=\"green\">Your ${V.worn.under_upper.name} <<underupperhas>> dried, concealing your <<breasts>>.</span>`);",
+    "translation": "",
+    "pos": 6738
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "142_5_3_7|",
+    "original": "sWikifier(`<span class=\"purple\">Your ${V.worn.under_upper.name} <<underupperplural>> wet.</span>`);",
+    "translation": "",
+    "pos": 6980
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "145_5_3_7|",
+    "original": "sWikifier(`<span class=\"green\">Your ${V.worn.under_upper.name} <<underupperplural>> drying out.</span>`);",
+    "translation": "",
+    "pos": 7178
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "148_5_3_7|",
+    "original": "sWikifier(`<span class=\"blue\">Your ${V.worn.under_upper.name} <<underupperplural>> damp.</span>`);",
+    "translation": "",
+    "pos": 7382
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "151_5_3_7|",
+    "original": "sWikifier(`<span class=\"green\">Your ${V.worn.under_upper.name} <<underupperplural>> dry.</span>`);",
+    "translation": "",
+    "pos": 7579
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "157_5_3_7|",
+    "original": "sWikifier(\"<<exposure>>\");",
+    "translation": "",
+    "pos": 7733
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "160_5_3_7|",
+    "original": "!V.worn.face.type.includes(\"blindfold\")",
+    "translation": "",
+    "pos": 7807
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "161_5_3_7|",
+    "original": "? \"You feel a lewd thrill as you look down and see your clothes clinging tight to your body, completely transparent.\"",
+    "translation": "",
+    "pos": 7853
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "162_5_3_7|",
+    "original": ": \"You feel a lewd thrill as your clothes cling tight to your body, completely transparent.\"",
+    "translation": "",
+    "pos": 7977
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "166_5_3_7|",
+    "original": "!V.worn.face.type.includes(\"blindfold\")",
+    "translation": "",
+    "pos": 8104
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "167_5_3_7|",
+    "original": "? \"You look down in horror at your clothes, which cling tight to your body and are completely transparent.\"",
+    "translation": "",
+    "pos": 8150
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "168_5_3_7|",
+    "original": ": \"Horror takes over you as you feel your clothes, which cling tight to your body and are completely transparent.\"",
+    "translation": "",
+    "pos": 8264
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "171_5_3_7|",
+    "original": "sWikifier(\"<<covered>>\");",
+    "translation": "",
+    "pos": 8394
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "177_5_3_7|",
+    "original": "!V.worn.face.type.includes(\"blindfold\")",
+    "translation": "",
+    "pos": 8515
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "178_5_3_7|",
+    "original": "? \"You feel a lewd thrill as you look down and see your clothes clinging tight to your body, giving a hint of transparency.\"",
+    "translation": "",
+    "pos": 8561
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "179_5_3_7|",
+    "original": ": \"You feel a lewd thrill as your clothes cling tight to your body, giving a hint of transparency.\"",
+    "translation": "",
+    "pos": 8692
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "183_5_3_7|",
+    "original": "!V.worn.face.type.includes(\"blindfold\")",
+    "translation": "",
+    "pos": 8826
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "184_5_3_7|",
+    "original": "? \"You look down anxiously at your clothes, now clinging tightly to your body and giving a hint of transparency.\"",
+    "translation": "",
+    "pos": 8872
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "185_5_3_7|",
+    "original": ": \"You feel your clothes, now clinging tightly to your body and giving a hint of transparency.\"",
+    "translation": "",
+    "pos": 8992
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "193_5_3_7|",
+    "original": "DOL.Perflog.logWidgetEnd(\"effectsWaterJs\");",
+    "translation": "",
+    "pos": 9127
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "197_5_3_7|",
+    "original": "Macro.add(\"effectswater\", {",
+    "translation": "",
+    "pos": 9192
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "205_5_3_7|",
+    "original": "DOL.Perflog.logWidgetStart(\"effectsMakeupJs\");",
+    "translation": "",
+    "pos": 9351
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "209_5_3_7|",
+    "original": "const element = document.createElement(\"span\");",
+    "translation": "",
+    "pos": 9488
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "211_5_3_7|",
+    "original": "element.textContent = text + \" \";",
+    "translation": "",
+    "pos": 9583
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "217_5_3_7|",
+    "original": "span(`Your makeup is washed away${V.beauty >= (V.beautymax / 7) * 4 ? \" revealing your natural beauty\" : \"\"}.`, \"teal\");",
+    "translation": "",
+    "pos": 9700
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "218_5_3_7|",
+    "original": "fragment.append(document.createElement(\"br\"));",
+    "translation": "",
+    "pos": 9823
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "221_5_3_7|",
+    "original": "if (V.makeup.mascara && V.makeup.mascara_running < painToTearsLvl(V.pain) && !V.makeup.mascara.includes(\"waterproof\")) {",
+    "translation": "",
+    "pos": 9875
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "225_5_3_7|",
+    "original": "DOL.Perflog.logWidgetEnd(\"effectsMakeupJs\");",
+    "translation": "",
+    "pos": 10054
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "233_5_3_7|",
+    "original": "fragment.append(Wikifier.wikifyEval(text + \" \"));",
+    "translation": "",
+    "pos": 10226
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "238_5_3_7|",
+    "original": "result.textContent = text + \" \";",
+    "translation": "",
+    "pos": 10422
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "241_5_3_7|",
+    "original": "const br = () => fragment.append(document.createElement(\"br\"));",
+    "translation": "",
+    "pos": 10487
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "244_5_3_7|",
+    "original": "// if (V.newVersionData) sWikifier(\"<<newversionnotification>>\");",
+    "translation": "",
+    "pos": 10582
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "246_5_3_7|",
+    "original": "sWikifier(\"<<autoTakePillCheck>>\");",
+    "translation": "",
+    "pos": 10650
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "254_5_3_7|",
+    "original": "element(\"span\", `You're very cold, and about to get hypothermia!`, \"red\");",
+    "translation": "",
+    "pos": 10942
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "257_5_3_7|",
+    "original": "element(\"span\", `You're extremely hot, and about to get heatstroke!`, \"red\");",
+    "translation": "",
+    "pos": 11155
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "262_5_3_7|",
+    "original": "element(\"span\", `The squid${V.squidcount > 1 ? \"s\" : \"\"} drop${V.squidcount > 1 ? \"\" : \"s\"} off you, seeking water.`, \"blue\");",
+    "translation": "",
+    "pos": 11282
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "266_5_3_7|",
+    "original": "if (V.scienceproject === \"ongoing\" && V.scienceprojectdays === 0 && !V.scienceprojectwarning) {",
+    "translation": "",
+    "pos": 11434
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "268_5_3_7|",
+    "original": "element(\"span\", `The science fair is being held in the town hall on Cliff Street today from ${ampm(9, 0)} until ${ampm(18, 0)}.`, \"gold\");",
+    "translation": "",
+    "pos": 11563
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "271_5_3_7|",
+    "original": "if (V.mathsproject === \"ongoing\" && V.mathsprojectdays === 0 && !V.mathsprojectwarning) {",
+    "translation": "",
+    "pos": 11707
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "273_5_3_7|",
+    "original": "element(\"span\", `The maths competition is being held in the town hall on Cliff Street today from ${ampm(9, 0)} until ${ampm(18, 0)}.`, \"gold\");",
+    "translation": "",
+    "pos": 11828
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "276_5_3_7|",
+    "original": "if (V.englishPlay === \"ongoing\" && V.englishPlayDays === 0 && !V.englishPlayWarning) {",
+    "translation": "",
+    "pos": 11977
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "278_5_3_7|",
+    "original": "element(\"span\", `The school plays are being held on Cliff Street tonight from ${ampm(17, 0)} until ${ampm(21, 0)}.`, \"gold\");",
+    "translation": "",
+    "pos": 12094
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "281_5_3_7|",
+    "original": "if (V.innocencemessage === \"start\") {",
+    "translation": "",
+    "pos": 12225
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "283_5_3_7|",
+    "original": "element(\"span\", \"A profound sense of peace falls on your mind. You were upset a moment ago, but you can't remember why.\", \"red\");",
+    "translation": "",
+    "pos": 12294
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "284_5_3_7|",
+    "original": "element(\"i\", \"Your trauma has been replaced with innocence. Trauma will continue to accumulate, and will return should you run out of innocence.\");",
+    "translation": "",
+    "pos": 12426
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "285_5_3_7|",
+    "original": "} else if (V.innocencemessage === \"end\") {",
+    "translation": "",
+    "pos": 12575
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "287_5_3_7|",
+    "original": "element(\"span\", \"You have a terrible epiphany. The abuse you've endured can be ignored no longer.\", \"red\");",
+    "translation": "",
+    "pos": 12649
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "288_5_3_7|",
+    "original": "element(\"i\", \"Your innocence has been replaced by trauma.\");",
+    "translation": "",
+    "pos": 12759
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "297_5_3_7|",
+    "original": "sWikifier(\"<<oxygenrefresh>>\");",
+    "translation": "",
+    "pos": 12985
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "300_5_3_7|",
+    "original": "sWikifier(\"<<updateHallucinations>>\");",
+    "translation": "",
+    "pos": 13022
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "302_5_3_7|",
+    "original": "case \"town\":",
+    "translation": "",
+    "pos": 13086
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "305_5_3_7|",
+    "original": "sWikifier(\"<<flashbacktown>>\");",
+    "translation": "",
+    "pos": 13195
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "308_5_3_7|",
+    "original": "case \"home\":",
+    "translation": "",
+    "pos": 13244
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "311_5_3_7|",
+    "original": "sWikifier(\"<<flashbackhome>>\");",
+    "translation": "",
+    "pos": 13353
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "314_5_3_7|",
+    "original": "case \"beach\":",
+    "translation": "",
+    "pos": 13402
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "317_5_3_7|",
+    "original": "sWikifier(\"<<flashbackbeach>>\");",
+    "translation": "",
+    "pos": 13514
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "320_5_3_7|",
+    "original": "case \"underground\":",
+    "translation": "",
+    "pos": 13564
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "323_5_3_7|",
+    "original": "sWikifier(\"<<flashbackunderground>>\");",
+    "translation": "",
+    "pos": 13694
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "326_5_3_7|",
+    "original": "case \"school\":",
+    "translation": "",
+    "pos": 13750
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "329_5_3_7|",
+    "original": "sWikifier(\"<<flashbackschool>>\");",
+    "translation": "",
+    "pos": 13865
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "336_5_3_7|",
+    "original": "`<span class=\"red\">Your waters have broken.</span> ${",
+    "translation": "",
+    "pos": 13999
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "337_5_3_7|",
+    "original": "[\"asylum\", \"prison\", \"hospital\"].includes(V.location) ? \"You need to find help, fast!\" : \"You need to head to the hospital, fast!\"",
+    "translation": "",
+    "pos": 14057
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "338_5_3_7|",
+    "original": "} <<ggstress>>`",
+    "translation": "",
+    "pos": 14191
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "348_5_3_7|",
+    "original": "element(\"span\", \"You feel a familiar emptiness return in your womb.\", \"green\");",
+    "translation": "",
+    "pos": 14371
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "352_5_3_7|",
+    "original": "const grade = [\"S\", \"A+\", \"A\", \"B+\", \"B\", \"C+\", \"C\", \"D+\", \"D\", \"F+\"];",
+    "translation": "",
+    "pos": 14489
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "353_5_3_7|",
+    "original": "const colour = [\"green\", \"teal\", \"teal\", \"lblue\", \"lblue\", \"blue\", \"blue\", \"purple\", \"purple\", \"pink\"];",
+    "translation": "",
+    "pos": 14563
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "354_5_3_7|",
+    "original": "element(\"span\", \"Your skulduggery has improved to\", \"gold\");",
+    "translation": "",
+    "pos": 14670
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "355_5_3_7|",
+    "original": "element(\"span\", `${grade[V.skulduggerymessage - 1]}.`, colour[V.skulduggerymessage - 1]);",
+    "translation": "",
+    "pos": 14734
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "363_5_3_7|",
+    "original": "`<<hypnosisicon>> You weren't very deviant yesterday. ${",
+    "translation": "",
+    "pos": 14992
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "364_5_3_7|",
+    "original": "V.hypnosis_traits.deviancy < 5 ? \"The thought fills you with \" : \"The thought sends your mind \"",
+    "translation": "",
+    "pos": 15054
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "365_5_3_7|",
+    "original": "}`",
+    "translation": "",
+    "pos": 15154
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "369_5_3_7|",
+    "original": "element(\"span\", \"shame.\", \"lblue\");",
+    "translation": "",
+    "pos": 15221
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "372_5_3_7|",
+    "original": "element(\"span\", \"regret.\", \"blue\");",
+    "translation": "",
+    "pos": 15286
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "375_5_3_7|",
+    "original": "element(\"span\", \"guilt.\", \"purple\");",
+    "translation": "",
+    "pos": 15351
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "378_5_3_7|",
+    "original": "element(\"span\", \"intense guilt.\", \"pink\");",
+    "translation": "",
+    "pos": 15417
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "381_5_3_7|",
+    "original": "element(\"span\", \"whirring with guilt and anxiety.\", \"red\");",
+    "translation": "",
+    "pos": 15489
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "384_5_3_7|",
+    "original": "sWikifier(\"<<gggtrauma>><<hypnosisicon>>\");",
+    "translation": "",
+    "pos": 15569
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "388_5_3_7|",
+    "original": "[\"science\", \"maths\", \"english\", \"history\"].forEach(subject => {",
+    "translation": "",
+    "pos": 15815
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "389_5_3_7|",
+    "original": "if (V[`${subject}_up_message`]) {",
+    "translation": "",
+    "pos": 15882
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "390_5_3_7|",
+    "original": "delete V[`${subject}_up_message`];",
+    "translation": "",
+    "pos": 15920
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "391_5_3_7|",
+    "original": "sWikifier(`You feel more confident at ${subject}. <<${subject}_skill_up_text>>`);",
+    "translation": "",
+    "pos": 15959
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "393_5_3_7|",
+    "original": "} else if (V[`${subject}_down_message`]) {",
+    "translation": "",
+    "pos": 16054
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "394_5_3_7|",
+    "original": "delete V[`${subject}_down_message`];",
+    "translation": "",
+    "pos": 16101
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "395_5_3_7|",
+    "original": "element(\"span\", `The ${subject} curriculum has outpaced your understanding${V[`${subject}trait`] > 0 ? \", weakening your trait\" : \"\"}.`, \"red\");",
+    "translation": "",
+    "pos": 16142
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "403_5_3_7|",
+    "original": "sWikifier('<span class=\"purple\">Your <<breasts>> feel heavy and sensitive.</span>');",
+    "translation": "",
+    "pos": 16393
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "405_5_3_7|",
+    "original": "sWikifier('<span class=\"lblue\">Your <<breasts>> feel light. They are no longer so sensitive.</span>');",
+    "translation": "",
+    "pos": 16494
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "412_5_3_7|",
+    "original": "element(\"span\", \"Your penis has grown to a prodigious size.\", \"purple\");",
+    "translation": "",
+    "pos": 16703
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "415_5_3_7|",
+    "original": "element(\"span\", \"Your penis has grown larger.\", \"purple\");",
+    "translation": "",
+    "pos": 16805
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "418_5_3_7|",
+    "original": "element(\"span\", \"Your penis has grown to an unremarkable size.\", \"purple\");",
+    "translation": "",
+    "pos": 16893
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "421_5_3_7|",
+    "original": "element(\"span\", \"Your penis has grown, though it's still small.\", \"purple\");",
+    "translation": "",
+    "pos": 16998
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "424_5_3_7|",
+    "original": "element(\"span\", \"Your penis looks like it's recovering.\", \"purple\");",
+    "translation": "",
+    "pos": 17104
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "427_5_3_7|",
+    "original": "element(\"span\", \"Your penis looks like it's been given another chance.\", \"purple\");",
+    "translation": "",
+    "pos": 17203
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "434_5_3_7|",
+    "original": "if (V.worn.genitals.name === \"chastity parasite\") {",
+    "translation": "",
+    "pos": 17388
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "437_5_3_7|",
+    "original": "element(\"span\", \"Your chastity parasite has shrunk, though it still hints of an impressive penis size.\", \"purple\");",
+    "translation": "",
+    "pos": 17495
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "440_5_3_7|",
+    "original": "element(\"span\", \"Your chastity parasite has shrunk, it hints of a much less unremarkable penis size.\", \"purple\");",
+    "translation": "",
+    "pos": 17643
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "443_5_3_7|",
+    "original": "element(\"span\", \"Your chastity parasite has become smaller.\", \"purple\");",
+    "translation": "",
+    "pos": 17789
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "446_5_3_7|",
+    "original": "element(\"span\", \"Your chastity parasite has become tiny.\", \"purple\");",
+    "translation": "",
+    "pos": 17894
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "449_5_3_7|",
+    "original": "element(\"span\", \"Your chastity parasite looks ridiculously tiny, you briefly wonder if your penis could still work.\", \"purple\");",
+    "translation": "",
+    "pos": 17997
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "453_5_3_7|",
+    "original": "\"span\",",
+    "translation": "",
+    "pos": 18175
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "454_5_3_7|",
+    "original": "\"Your chastity parasite looks like it could just have a clit inside, you briefly wonder if you still have a penis.\",",
+    "translation": "",
+    "pos": 18190
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "455_5_3_7|",
+    "original": "\"purple\"",
+    "translation": "",
+    "pos": 18314
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "462_5_3_7|",
+    "original": "element(\"span\", \"Your penis has shrunk, though it's still of an impressive size.\", \"purple\");",
+    "translation": "",
+    "pos": 18418
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "465_5_3_7|",
+    "original": "element(\"span\", \"Your penis has shrunk to an unremarkable size.\", \"purple\");",
+    "translation": "",
+    "pos": 18544
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "468_5_3_7|",
+    "original": "element(\"span\", \"Your penis has become smaller.\", \"purple\");",
+    "translation": "",
+    "pos": 18653
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "471_5_3_7|",
+    "original": "element(\"span\", \"Your penis has become tiny.\", \"purple\");",
+    "translation": "",
+    "pos": 18746
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "474_5_3_7|",
+    "original": "element(\"span\", \"Your penis looks like it may shrivel up.\", \"purple\");",
+    "translation": "",
+    "pos": 18837
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "477_5_3_7|",
+    "original": "element(\"span\", \"Your penis looks like it may never be used properly again.\", \"purple\");",
+    "translation": "",
+    "pos": 18941
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "487_5_3_7|",
+    "original": "element(\"span\", \"Your large breasts feel heavy and might get in the way.\", \"purple\");",
+    "translation": "",
+    "pos": 19190
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "490_5_3_7|",
+    "original": "element(\"span\", \"Your large breasts feel heavy and impressive.\", \"purple\");",
+    "translation": "",
+    "pos": 19306
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "494_5_3_7|",
+    "original": "element(\"span\", \"Your breasts feel heavy.\", \"purple\");",
+    "translation": "",
+    "pos": 19424
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "498_5_3_7|",
+    "original": "element(\"span\", \"Your breasts feel a little heavier.\", \"purple\");",
+    "translation": "",
+    "pos": 19520
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "502_5_3_7|",
+    "original": "element(\"span\", \"Your small breasts will be obvious to those around you.\", \"purple\");",
+    "translation": "",
+    "pos": 19627
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "506_5_3_7|",
+    "original": "element(\"span\", \"Your small breasts might be obvious to others.\", \"purple\");",
+    "translation": "",
+    "pos": 19754
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "510_5_3_7|",
+    "original": "element(\"span\", \"Your chest feels odd; it might be growing.\", \"purple\");",
+    "translation": "",
+    "pos": 19872
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "518_5_3_7|",
+    "original": "sWikifier(`<span class=\"red\">You haven't been milked enough in some time. Your <<breasts>> throb painfully from being so full.</span>`);",
+    "translation": "",
+    "pos": 20067
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "520_5_3_7|",
+    "original": "sWikifier(`<span class=\"red\">You haven't been milked enough in a while. Your <<breasts>> are sore from being so full.</span>`);",
+    "translation": "",
+    "pos": 20247
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "522_5_3_7|",
+    "original": "sWikifier(`<span class=\"red\">You haven't been milked enough recently. Your <<breasts>> feel a little sore from being so full.</span>`);",
+    "translation": "",
+    "pos": 20391
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "531_5_3_7|",
+    "original": "element(\"span\", \"Your large breasts feel lighter, but are still very large.\", \"purple\");",
+    "translation": "",
+    "pos": 20708
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "535_5_3_7|",
+    "original": "element(\"span\", \"Your breasts feel light, and are looking less impressive.\", \"purple\");",
+    "translation": "",
+    "pos": 20839
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "539_5_3_7|",
+    "original": "element(\"span\", \"Your breasts feel lighter.\", \"purple\");",
+    "translation": "",
+    "pos": 20968
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "543_5_3_7|",
+    "original": "element(\"span\", \"Your small breasts feel a little lighter.\", \"purple\");",
+    "translation": "",
+    "pos": 21066
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "547_5_3_7|",
+    "original": "element(\"span\", \"Your small breasts look less obvious.\", \"purple\");",
+    "translation": "",
+    "pos": 21179
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "551_5_3_7|",
+    "original": "element(\"span\", \"Your chest looks flatter.\", \"purple\");",
+    "translation": "",
+    "pos": 21288
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "554_5_3_7|",
+    "original": "element(\"span\", \"Your chest looks flat.\", \"purple\");",
+    "translation": "",
+    "pos": 21373
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "563_5_3_7|",
+    "original": "element(\"span\", \"Your large butt has become even larger.\", \"purple\");",
+    "translation": "",
+    "pos": 21579
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "566_5_3_7|",
+    "original": "element(\"span\", \"Your butt feels heavy.\", \"purple\");",
+    "translation": "",
+    "pos": 21678
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "569_5_3_7|",
+    "original": "element(\"span\", \"Your butt feels plump.\", \"purple\");",
+    "translation": "",
+    "pos": 21760
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "572_5_3_7|",
+    "original": "element(\"span\", \"Your butt feels round.\", \"purple\");",
+    "translation": "",
+    "pos": 21842
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "575_5_3_7|",
+    "original": "element(\"span\", \"Your butt feels plush.\", \"purple\");",
+    "translation": "",
+    "pos": 21924
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "578_5_3_7|",
+    "original": "element(\"span\", \"Your butt has gained a little weight.\", \"purple\");",
+    "translation": "",
+    "pos": 22006
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "581_5_3_7|",
+    "original": "element(\"span\", \"Your small butt sticks out more than you remember.\", \"purple\");",
+    "translation": "",
+    "pos": 22103
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "584_5_3_7|",
+    "original": "element(\"span\", \"Your butt doesn't feel so small any more.\", \"purple\");",
+    "translation": "",
+    "pos": 22213
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "593_5_3_7|",
+    "original": "element(\"span\", \"Your large butt feels a bit lighter.\", \"purple\");",
+    "translation": "",
+    "pos": 22424
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "596_5_3_7|",
+    "original": "element(\"span\", \"Your butt feels lighter.\", \"purple\");",
+    "translation": "",
+    "pos": 22520
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "599_5_3_7|",
+    "original": "element(\"span\", \"Your butt isn't quite as cushioned as before.\", \"purple\");",
+    "translation": "",
+    "pos": 22604
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "602_5_3_7|",
+    "original": "element(\"span\", \"Your butt has lost weight.\", \"purple\");",
+    "translation": "",
+    "pos": 22709
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "605_5_3_7|",
+    "original": "element(\"span\", \"Your butt feels a lot sleeker.\", \"purple\");",
+    "translation": "",
+    "pos": 22795
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "609_5_3_7|",
+    "original": "element(\"span\", \"Your butt feels small.\", \"purple\");",
+    "translation": "",
+    "pos": 22897
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "612_5_3_7|",
+    "original": "element(\"span\", \"Your butt feels tiny\", \"purple\");",
+    "translation": "",
+    "pos": 22979
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "620_5_3_7|",
+    "original": "element(\"span\", \"You've become too submissive to adopt a bratty demeanor in conversation.\", \"purple\");",
+    "translation": "",
+    "pos": 23174
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "625_5_3_7|",
+    "original": "element(\"span\", \"You've become too defiant to adopt a meek demeanor in conversation.\", \"purple\");",
+    "translation": "",
+    "pos": 23367
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "629_5_3_7|",
+    "original": "element(\"span\", \"You take your daily pills.\", \"purple\");",
+    "translation": "",
+    "pos": 23495
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "630_5_3_7|",
+    "original": "if (V.pillsTakenLast) element(\"span\", \"You have run out of some of them.\", \"red\");",
+    "translation": "",
+    "pos": 23555
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "636_5_3_7|",
+    "original": "element(\"span\", `You apply growth formula to your hair${V.hairGrowthAppliedLast ? \",\" : \".\"}`, \"purple\");",
+    "translation": "",
+    "pos": 23727
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "637_5_3_7|",
+    "original": "if (V.hairGrowthAppliedLast) element(\"span\", \"but used the last of it.\", \"red\");",
+    "translation": "",
+    "pos": 23836
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "644_5_3_7|",
+    "original": "`<span class=\"lblue\">You've spent time in public with no underwear on. You wonder if people can tell, and shiver at the thought.</span> <<exhibitionism1>>`",
+    "translation": "",
+    "pos": 24039
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "657_5_3_7|",
+    "original": "\"span\",",
+    "translation": "",
+    "pos": 24543
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "658_5_3_7|",
+    "original": "`Your ${formatList(items, \"and\", true)} signal${items.length > 1 ? \"\" : \"s\"} for a replacement${",
+    "translation": "",
+    "pos": 24556
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "659_5_3_7|",
+    "original": "V.wardrobes[location]",
+    "translation": "",
+    "pos": 24659
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "660_5_3_7|",
+    "original": "? ` to the ${V.wardrobes[location].name}`",
+    "translation": "",
+    "pos": 24688
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "661_5_3_7|",
+    "original": ": `. (Likely One-off update error, no need to report unless seen multiple times in the same save) ${",
+    "translation": "",
+    "pos": 24737
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "662_5_3_7|",
+    "original": "Array.isArray(V.rebuy_success) ? JSON.stringify(V.rebuy_success) : \"\"",
+    "translation": "",
+    "pos": 24847
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "663_5_3_7|",
+    "original": "}`",
+    "translation": "",
+    "pos": 24926
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "664_5_3_7|",
+    "original": "}.",
+    "translation": "",
+    "pos": 24934
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "665_5_3_7|",
+    "original": "`,",
+    "translation": "",
+    "pos": 24941
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "666_5_3_7|",
+    "original": "\"lblue\"",
+    "translation": "",
+    "pos": 24949
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "674_5_3_7|",
+    "original": "\"span\",",
+    "translation": "",
+    "pos": 25049
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "675_5_3_7|",
+    "original": "`Your ${formatList(V.rebuy_failure, \"and\", true)} signal${",
+    "translation": "",
+    "pos": 25061
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "676_5_3_7|",
+    "original": "V.rebuy_failure.length > 1 ? \"\" : \"s\"",
+    "translation": "",
+    "pos": 25125
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "677_5_3_7|",
+    "original": "} for a replacement, but you don't have enough money.`,",
+    "translation": "",
+    "pos": 25167
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "678_5_3_7|",
+    "original": "\"purple\"",
+    "translation": "",
+    "pos": 25227
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "685_5_3_7|",
+    "original": "case \"up 1\":",
+    "translation": "",
+    "pos": 25339
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "686_5_3_7|",
+    "original": "element(\"span\", \"Your thoughts wander over the attacks you've suffered. You shiver.\", \"blue\");",
+    "translation": "",
+    "pos": 25357
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "687_5_3_7|",
+    "original": "element(\"i\", \"You've become a guilty masochist.\", \"blue\");",
+    "translation": "",
+    "pos": 25457
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "689_5_3_7|",
+    "original": "case \"up 2\":",
+    "translation": "",
+    "pos": 25532
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "690_5_3_7|",
+    "original": "element(\"span\", \"Your thoughts turn to the attacks you've suffered. A thrill follows, unbeckoned.\", \"purple\");",
+    "translation": "",
+    "pos": 25550
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "691_5_3_7|",
+    "original": "element(\"i\", \"You've become a normal masochist.\", \"purple\");",
+    "translation": "",
+    "pos": 25666
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "693_5_3_7|",
+    "original": "case \"up 3\":",
+    "translation": "",
+    "pos": 25743
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "694_5_3_7|",
+    "original": "element(\"span\", \"Your body yearns for more abuse.\", \"pink\");",
+    "translation": "",
+    "pos": 25761
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "695_5_3_7|",
+    "original": "element(\"i\", \"You've become a hardened masochist.\", \"pink\");",
+    "translation": "",
+    "pos": 25827
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "697_5_3_7|",
+    "original": "case \"up 4\":",
+    "translation": "",
+    "pos": 25904
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "698_5_3_7|",
+    "original": "element(\"span\", \"Your body craves more abuse.\", \"red\");",
+    "translation": "",
+    "pos": 25922
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "699_5_3_7|",
+    "original": "element(\"i\", \"You've become a drooling masochist.\", \"red\");",
+    "translation": "",
+    "pos": 25983
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "701_5_3_7|",
+    "original": "case \"down 0\":",
+    "translation": "",
+    "pos": 26059
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "702_5_3_7|",
+    "original": "element(\"i\", \"You are no longer a masochist.\", \"lblue\");",
+    "translation": "",
+    "pos": 26079
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "704_5_3_7|",
+    "original": "case \"down 1\":",
+    "translation": "",
+    "pos": 26152
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "705_5_3_7|",
+    "original": "element(\"span\", \"You are no longer so masochistic, and can only be considered a\", \"blue\");",
+    "translation": "",
+    "pos": 26172
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "706_5_3_7|",
+    "original": "element(\"i\", \"guilty masochist.\", \"blue\");",
+    "translation": "",
+    "pos": 26268
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "708_5_3_7|",
+    "original": "case \"down 2\":",
+    "translation": "",
+    "pos": 26327
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "709_5_3_7|",
+    "original": "element(\"span\", \"You are no longer so masochistic, and can only be considered a\", \"purple\");",
+    "translation": "",
+    "pos": 26347
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "710_5_3_7|",
+    "original": "element(\"i\", \"normal masochist.\", \"purple\");",
+    "translation": "",
+    "pos": 26445
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "712_5_3_7|",
+    "original": "case \"down 3\":",
+    "translation": "",
+    "pos": 26506
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "713_5_3_7|",
+    "original": "element(\"span\", \"You are no longer so masochistic, and can only be considered a\", \"pink\");",
+    "translation": "",
+    "pos": 26526
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "714_5_3_7|",
+    "original": "element(\"i\", \"hardened masochist.\", \"pink\");",
+    "translation": "",
+    "pos": 26622
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "722_5_3_7|",
+    "original": "case \"up 1\":",
+    "translation": "",
+    "pos": 26781
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "723_5_3_7|",
+    "original": "element(\"span\", \"Your thoughts turn to the pain you've inflicted. You shiver.\", \"blue\");",
+    "translation": "",
+    "pos": 26799
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "724_5_3_7|",
+    "original": "element(\"i\", \"You've become a guilty sadist.\", \"blue\");",
+    "translation": "",
+    "pos": 26893
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "726_5_3_7|",
+    "original": "case \"up 2\":",
+    "translation": "",
+    "pos": 26965
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "727_5_3_7|",
+    "original": "element(\"span\", \"Your thoughts turn to the pain you've inflicted. A thrill follows, unbeckoned.\", \"purple\");",
+    "translation": "",
+    "pos": 26983
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "728_5_3_7|",
+    "original": "element(\"i\", \"You've become a normal sadist.\", \"purple\");",
+    "translation": "",
+    "pos": 27097
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "730_5_3_7|",
+    "original": "case \"up 3\":",
+    "translation": "",
+    "pos": 27171
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "731_5_3_7|",
+    "original": "element(\"span\", \"You yearn to hurt others.\", \"pink\");",
+    "translation": "",
+    "pos": 27189
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "732_5_3_7|",
+    "original": "element(\"i\", \"You've become a hardened sadist.\", \"pink\");",
+    "translation": "",
+    "pos": 27248
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "734_5_3_7|",
+    "original": "case \"up 4\":",
+    "translation": "",
+    "pos": 27322
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "735_5_3_7|",
+    "original": "element(\"span\", \"If they want to play rough, so be it.\", \"red\");",
+    "translation": "",
+    "pos": 27340
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "736_5_3_7|",
+    "original": "element(\"i\", \"You've become a vengeful sadist.\", \"red\");",
+    "translation": "",
+    "pos": 27410
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "738_5_3_7|",
+    "original": "case \"down 0\":",
+    "translation": "",
+    "pos": 27483
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "739_5_3_7|",
+    "original": "element(\"i\", \"You are no longer a sadist.\", \"lblue\");",
+    "translation": "",
+    "pos": 27503
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "741_5_3_7|",
+    "original": "case \"down 1\":",
+    "translation": "",
+    "pos": 27573
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "742_5_3_7|",
+    "original": "element(\"span\", \"You are no longer so sadistic, and can only be considered a\", \"blue\");",
+    "translation": "",
+    "pos": 27593
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "743_5_3_7|",
+    "original": "element(\"i\", \"guilty sadist.\", \"blue\");",
+    "translation": "",
+    "pos": 27686
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "745_5_3_7|",
+    "original": "case \"down 2\":",
+    "translation": "",
+    "pos": 27742
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "746_5_3_7|",
+    "original": "element(\"span\", \"You are no longer so sadistic, and can only be considered a\", \"purple\");",
+    "translation": "",
+    "pos": 27762
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "747_5_3_7|",
+    "original": "element(\"i\", \"normal sadist.\", \"purple\");",
+    "translation": "",
+    "pos": 27857
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "749_5_3_7|",
+    "original": "case \"down 3\":",
+    "translation": "",
+    "pos": 27915
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "750_5_3_7|",
+    "original": "element(\"span\", \"You are no longer so sadistic, and can only be considered a\", \"pink\");",
+    "translation": "",
+    "pos": 27935
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "751_5_3_7|",
+    "original": "element(\"i\", \"hardened sadist.\", \"pink\");",
+    "translation": "",
+    "pos": 28028
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "760_5_3_7|",
+    "original": "element(\"span\", \"Your crossdressing has become common knowledge at school. Everyone knows, including the teachers.\", \"red\");",
+    "translation": "",
+    "pos": 28216
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "763_5_3_7|",
+    "original": "element(\"span\", \"Rumours of your crossdressing are spreading throughout the school.\", \"pink\");",
+    "translation": "",
+    "pos": 28370
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "766_5_3_7|",
+    "original": "element(\"span\", \"Rumours of your crossdressing are spreading, and have become a popular topic of conversation at school.\", \"purple\");",
+    "translation": "",
+    "pos": 28494
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "769_5_3_7|",
+    "original": "element(\"span\", \"Whispers of your crossdressing are spreading through the school.\", \"blue\");",
+    "translation": "",
+    "pos": 28657
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "772_5_3_7|",
+    "original": "element(\"span\", \"A few cliques at school have begun whispering of your crossdressing.\", \"lblue\");",
+    "translation": "",
+    "pos": 28779
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "781_5_3_7|",
+    "original": "element(\"span\", \"Everyone at school has heard of your unique genitalia, including the teachers.\", \"red\");",
+    "translation": "",
+    "pos": 29022
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "784_5_3_7|",
+    "original": "element(\"span\", \"Rumours of your unique genitalia have spread throughout the school.\", \"pink\");",
+    "translation": "",
+    "pos": 29157
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "788_5_3_7|",
+    "original": "\"span\",",
+    "translation": "",
+    "pos": 29297
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "789_5_3_7|",
+    "original": "\"It sounds far-fetched to many, but the school is rife with gossip about a student with both boy and girl parts.\",",
+    "translation": "",
+    "pos": 29311
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "790_5_3_7|",
+    "original": "\"purple\"",
+    "translation": "",
+    "pos": 29432
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "794_5_3_7|",
+    "original": "element(\"span\", \"Rumours of a student with both boy and girl parts are spreading through the school.\", \"blue\");",
+    "translation": "",
+    "pos": 29478
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "797_5_3_7|",
+    "original": "element(\"span\", \"A few cliques at school have begun whispering about a student with both boy and girl parts.\", \"lblue\");",
+    "translation": "",
+    "pos": 29619
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "805_5_3_7|",
+    "original": "[\"orgasm\", \"Hedonist\", \"Orgasm Addict\"],",
+    "translation": "",
+    "pos": 30009
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "806_5_3_7|",
+    "original": "[\"molest\", \"Graceful\", \"Plaything\"],",
+    "translation": "",
+    "pos": 30053
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "807_5_3_7|",
+    "original": "[\"rape\", \"Survivor\", \"Fucktoy\"],",
+    "translation": "",
+    "pos": 30093
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "808_5_3_7|",
+    "original": "[\"bestiality\", \"Tamer\", \"Bitch\"],",
+    "translation": "",
+    "pos": 30129
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "809_5_3_7|",
+    "original": "[\"tentacle\", \"Witch\", \"Prey\"],",
+    "translation": "",
+    "pos": 30166
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "810_5_3_7|",
+    "original": "[\"vore\", \"Daredevil\", \"Tasty\"],",
+    "translation": "",
+    "pos": 30200
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "811_5_3_7|",
+    "original": "[\"milk\", \"Milk Enthusiast\", \"Milk Addict\"],",
+    "translation": "",
+    "pos": 30235
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "812_5_3_7|",
+    "original": "[\"cum\", \"Cumoisseur\", \"Cum Dump\"],",
+    "translation": "",
+    "pos": 30282
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "814_5_3_7|",
+    "original": "if (V[`${variable}_trait_message`]) {",
+    "translation": "",
+    "pos": 30379
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "815_5_3_7|",
+    "original": "element(\"span\", `You've gained the \"${V.submissive <= 850 ? defiantName : submissiveName}\" trait.`, \"gold\");",
+    "translation": "",
+    "pos": 30421
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "816_5_3_7|",
+    "original": "delete V[`${variable}_trait_message`];",
+    "translation": "",
+    "pos": 30534
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "822_5_3_7|",
+    "original": "case \"traitGain\":",
+    "translation": "",
+    "pos": 30644
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "824_5_3_7|",
+    "original": "\"span\",",
+    "translation": "",
+    "pos": 30682
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "825_5_3_7|",
+    "original": "`You find yourself craving more sweet nectar. You've gained the \"${V.submissive <= 850 ? \"Dendrophile\" : \"Plant Lover\"}\" and`,",
+    "translation": "",
+    "pos": 30696
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "826_5_3_7|",
+    "original": "\"purple\"",
+    "translation": "",
+    "pos": 30829
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "828_5_3_7|",
+    "original": "element(\"span\", '\"Nectar Addict\"', \"red\");",
+    "translation": "",
+    "pos": 30851
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "829_5_3_7|",
+    "original": "element(\"span\", \"traits.\", \"purple\");",
+    "translation": "",
+    "pos": 30899
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "831_5_3_7|",
+    "original": "case \"traitLost\":",
+    "translation": "",
+    "pos": 30953
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "833_5_3_7|",
+    "original": "\"span\",",
+    "translation": "",
+    "pos": 30991
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "834_5_3_7|",
+    "original": "`The cravings for nectar finally subside. You've lost the \"${V.submissive <= 850 ? \"Dendrophile\" : \"Plant Lover\"}\" and`,",
+    "translation": "",
+    "pos": 31005
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "835_5_3_7|",
+    "original": "\"lblue\"",
+    "translation": "",
+    "pos": 31132
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "837_5_3_7|",
+    "original": "element(\"span\", '\"Nectar Addict\"', \"red\");",
+    "translation": "",
+    "pos": 31153
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "838_5_3_7|",
+    "original": "element(\"span\", \"traits.\", \"lblue\");",
+    "translation": "",
+    "pos": 31201
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "840_5_3_7|",
+    "original": "case \"withdrawals\":",
+    "translation": "",
+    "pos": 31254
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "842_5_3_7|",
+    "original": "'<span class=\"red\">Your body craves nectar, and has begun to suffer from withdrawals.</span> <<stress 12>><<ggstress>><<trauma 12>><<ggtrauma>><<physique_loss 4>><<lphysique>>'",
+    "translation": "",
+    "pos": 31296
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "852_5_3_7|",
+    "original": "\"span\",",
+    "translation": "",
+    "pos": 31591
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "853_5_3_7|",
+    "original": "V.hiddenTransformMessage === 1",
+    "translation": "",
+    "pos": 31603
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "854_5_3_7|",
+    "original": "? \"Your mental state is too fragile to continue hiding your inner self.\"",
+    "translation": "",
+    "pos": 31639
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "855_5_3_7|",
+    "original": ": \"Hiding your inner self takes a toll on your mental state.\",",
+    "translation": "",
+    "pos": 31717
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "856_5_3_7|",
+    "original": "\"red\"",
+    "translation": "",
+    "pos": 31784
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "862_5_3_7|",
+    "original": "element(\"span\", \"Your spray was accurate. You didn't need to use a full cartridge, saving ammo.\", \"green\");",
+    "translation": "",
+    "pos": 31870
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "866_5_3_7|",
+    "original": "if (V.community_message === \"missed\") {",
+    "translation": "",
+    "pos": 32017
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "867_5_3_7|",
+    "original": "sWikifier('<span class=\"red\">You missed community service. The police have taken note.</span><<crime \"obstruction\">>');",
+    "translation": "",
+    "pos": 32060
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "872_5_3_7|",
+    "original": "element(\"span\", \"Sex toys are becoming more popular throughout town.\", \"purple\");",
+    "translation": "",
+    "pos": 32242
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "877_5_3_7|",
+    "original": "element(\"i\", \"You feel that having multiple lovers is wrong. You can no longer choose more than one love interest.\", \"blue\");",
+    "translation": "",
+    "pos": 32395
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "881_5_3_7|",
+    "original": "element(\"i\", \"Your mind is open to the possibility of multiple lovers. You may now choose a second love interest.\", \"pink\");",
+    "translation": "",
+    "pos": 32672
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "887_5_3_7|",
+    "original": "sWikifier('<span class=\"red\">You feel a dark presence clawing at your skin.</span> <<gstress>>');",
+    "translation": "",
+    "pos": 32904
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "893_5_3_7|",
+    "original": "sWikifier('<span class=\"red\">You feel a terrible light sear through you.</span> <<gstress>>');",
+    "translation": "",
+    "pos": 33094
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "900_5_3_7|",
+    "original": "\"span\",",
+    "translation": "",
+    "pos": 33291
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "901_5_3_7|",
+    "original": "V.blackmoney >= 100",
+    "translation": "",
+    "pos": 33303
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "902_5_3_7|",
+    "original": "? \"You feel an animalistic satisfaction towards your growing collection of stolen goods.\"",
+    "translation": "",
+    "pos": 33328
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "903_5_3_7|",
+    "original": ": \"You feel an animalistic satisfaction as you commit such crimes.\",",
+    "translation": "",
+    "pos": 33423
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "904_5_3_7|",
+    "original": "\"gold\"",
+    "translation": "",
+    "pos": 33496
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "911_5_3_7|",
+    "original": "sWikifier(`<<crimeUp 5 \"thievery\">><<delinquency ${5 / 4}>>`);",
+    "translation": "",
+    "pos": 33614
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "912_5_3_7|",
+    "original": "element(\"span\", \"You have a book severely overdue, and the police have been informed.\", \"red\");",
+    "translation": "",
+    "pos": 33681
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "914_5_3_7|",
+    "original": "sWikifier(`<<delinquency ${3 / 4}>>`);",
+    "translation": "",
+    "pos": 33793
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "915_5_3_7|",
+    "original": "element(\"span\", \"You have a book overdue, and have incurred delinquency.\", \"red\");",
+    "translation": "",
+    "pos": 33836
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "921_5_3_7|",
+    "original": "element(\"span\", \"A fell mist hangs over Elk Street.\", \"red\");",
+    "translation": "",
+    "pos": 33997
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "927_5_3_7|",
+    "original": "let parasiteMessage = \"\";",
+    "translation": "",
+    "pos": 34323
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "928_5_3_7|",
+    "original": "if (V.earSlimebreastsParasite) parasiteMessage += `A new parasite forms around your ${V.player.breastsize >= 1 ? \"breasts\" : \"chest\"}`;",
+    "translation": "",
+    "pos": 34352
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "931_5_3_7|",
+    "original": "parasiteMessage += parasiteMessage ? \" and the base of your penis\" : \"A new parasite forms around the base of your penis\";",
+    "translation": "",
+    "pos": 34527
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "935_5_3_7|",
+    "original": "if (V.earSlime.focus === \"pregnancy\") {",
+    "translation": "",
+    "pos": 34693
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "936_5_3_7|",
+    "original": "parasiteMessage += parasiteMessage ? \" and <<pussy>>\" : \"A new parasite forms around your <<pussy>>\";",
+    "translation": "",
+    "pos": 34738
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "938_5_3_7|",
+    "original": "const looks = playerChastity(\"vagina\") ? \"feels\" : \"looks\";",
+    "translation": "",
+    "pos": 34858
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "940_5_3_7|",
+    "original": "? ` and clit. It ${looks} like you have your own penis now`",
+    "translation": "",
+    "pos": 34964
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "941_5_3_7|",
+    "original": ": `A new parasite forms around the base of your clit, it ${looks} similar to a penis`;",
+    "translation": "",
+    "pos": 35030
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "945_5_3_7|",
+    "original": "sWikifier(`<span class=\"blue\">A satisfied warmth fills you. ${parasiteMessage}.</span>`);",
+    "translation": "",
+    "pos": 35158
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "946_5_3_7|",
+    "original": "element(\"span\", `You can tell that ${parasiteCount > 1 ? \"they are\" : \"it's\"} from the slimes in your ears.`);",
+    "translation": "",
+    "pos": 35252
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "948_5_3_7|",
+    "original": "element(\"span\", `The previous ${V.earSlimePenisParasite} falls off shortly after it finishes growing.`, \"red\");",
+    "translation": "",
+    "pos": 35436
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "951_5_3_7|",
+    "original": "element(\"span\", `The previous ${V.earSlimeClitParasite} falls off shortly after it finishes growing.`, \"red\");",
+    "translation": "",
+    "pos": 35625
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "961_5_3_7|",
+    "original": "\"span\",",
+    "translation": "",
+    "pos": 35917
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "962_5_3_7|",
+    "original": "`The parasite at the base of your genitals frees you from the ${V.penisslimebrokenchastitymessage}${",
+    "translation": "",
+    "pos": 35929
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "963_5_3_7|",
+    "original": "V.penisslimecagemessage === 1 ? \", and almost just as quickly, a new chastity parasite forms around your penis\" : \"\"",
+    "translation": "",
+    "pos": 36035
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "964_5_3_7|",
+    "original": "}.`,",
+    "translation": "",
+    "pos": 36156
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "965_5_3_7|",
+    "original": "\"purple\"",
+    "translation": "",
+    "pos": 36165
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "973_5_3_7|",
+    "original": "\"span\",",
+    "translation": "",
+    "pos": 36314
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "974_5_3_7|",
+    "original": "V.penisslimecagemessage === 1 ? \"A new chastity parasite forms around your penis.\" : \"Your chastity parasite looks brand new again.\",",
+    "translation": "",
+    "pos": 36326
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "975_5_3_7|",
+    "original": "\"purple\"",
+    "translation": "",
+    "pos": 36464
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "981_5_3_7|",
+    "original": "sWikifier(\"<<pregnancyDailyEvent>>\");",
+    "translation": "",
+    "pos": 36553
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "987_5_3_7|",
+    "original": "if (V.sexStats.vagina.pregnancy.type === \"parasite\") {",
+    "translation": "",
+    "pos": 36683
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "990_5_3_7|",
+    "original": "if (V.sexStats.anus.pregnancy.type === \"parasite\") {",
+    "translation": "",
+    "pos": 36891
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "999_5_3_7|",
+    "original": "if (V.daily.parasiteEvent.includes(\"anus3\") && V.daily.parasiteEvent.includes(\"vagina3\")) V.daily.parasiteEvent.delete(\"vagina3\");",
+    "translation": "",
+    "pos": 37407
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1003_5_3_7|",
+    "original": "case \"anus0\":",
+    "translation": "",
+    "pos": 37609
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1004_5_3_7|",
+    "original": "case \"vagina0\":",
+    "translation": "",
+    "pos": 37628
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1007_5_3_7|",
+    "original": "`You feel ${V.pregnancyStats.namesParasitesChild ? \"your grown child\" : \"the grown parasite\"} in your ${",
+    "translation": "",
+    "pos": 37726
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1008_5_3_7|",
+    "original": "event === \"anus0\" ? \"stomach\" : \"uterus\"",
+    "translation": "",
+    "pos": 37840
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1009_5_3_7|",
+    "original": "}. <<ggarousal>>`",
+    "translation": "",
+    "pos": 37889
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1013_5_3_7|",
+    "original": "`You feel something large move around in your ${",
+    "translation": "",
+    "pos": 37958
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1014_5_3_7|",
+    "original": "event === \"anus0\" ? \"stomach\" : \"uterus\"",
+    "translation": "",
+    "pos": 38016
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1015_5_3_7|",
+    "original": "}. Might be best to go to the hospital again. <<ggarousal>>`",
+    "translation": "",
+    "pos": 38065
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1020_5_3_7|",
+    "original": "case \"anus1\":",
+    "translation": "",
+    "pos": 38189
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1021_5_3_7|",
+    "original": "case \"vagina1\":",
+    "translation": "",
+    "pos": 38208
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1024_5_3_7|",
+    "original": "`You feel one of ${V.pregnancyStats.namesParasitesChild ? \"your children\" : \"the parasites\"} move around in your ${",
+    "translation": "",
+    "pos": 38306
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1025_5_3_7|",
+    "original": "event === \"anus1\" ? \"stomach\" : \"uterus\"",
+    "translation": "",
+    "pos": 38431
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1026_5_3_7|",
+    "original": "}. <<ggarousal>>${stressMulti ? \"<<gstress>>\" : \"\"}`",
+    "translation": "",
+    "pos": 38480
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1029_5_3_7|",
+    "original": "sWikifier(`You feel something move around in your ${event === \"anus1\" ? \"stomach\" : \"uterus\"}. Might be best to go to the hospital.",
+    "translation": "",
+    "pos": 38565
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1030_5_3_7|",
+    "original": "<<ggarousal>>${stressMulti ? \"<<gstress>>\" : \"\"}`);",
+    "translation": "",
+    "pos": 38704
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1035_5_3_7|",
+    "original": "case \"anus2\":",
+    "translation": "",
+    "pos": 38882
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1036_5_3_7|",
+    "original": "case \"vagina2\":",
+    "translation": "",
+    "pos": 38901
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1038_5_3_7|",
+    "original": "`Your ${",
+    "translation": "",
+    "pos": 38941
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1039_5_3_7|",
+    "original": "event === \"anus2\" ? \"stomach\" : \"uterus\"",
+    "translation": "",
+    "pos": 38958
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1040_5_3_7|",
+    "original": "} rumbles a little. You hope the noise hasn't attracted any attention. <<garousal>>${stressMulti ? \"<<gstress>>\" : \"\"}`",
+    "translation": "",
+    "pos": 39006
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1045_5_3_7|",
+    "original": "case \"anus3\":",
+    "translation": "",
+    "pos": 39253
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1046_5_3_7|",
+    "original": "case \"vagina3\":",
+    "translation": "",
+    "pos": 39272
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1047_5_3_7|",
+    "original": "sWikifier(`You feel a little lightheaded for a moment.${stressMulti ? \"<<gstress>>\" : \"\"}`);",
+    "translation": "",
+    "pos": 39294
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1052_5_3_7|",
+    "original": "if (arousalGain) sWikifier(`<<arousal ${Math.clamp(arousalGain, 0, 10000)}>>`);",
+    "translation": "",
+    "pos": 39453
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1059_5_3_7|",
+    "original": "if (V.earSlime.event.includes(\"get sperm into your\") && V.earSlime.event.includes(\"completed\") && V.earSlime.eventTimer <= 2) {",
+    "translation": "",
+    "pos": 39649
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1061_5_3_7|",
+    "original": "\"span\",",
+    "translation": "",
+    "pos": 39793
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1062_5_3_7|",
+    "original": "`The slime in your ear is pleased that you completed its task of getting sperm into your ${V.player.vaginaExist ? \"vagina\" : \"anus\"}.`,",
+    "translation": "",
+    "pos": 39805
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1063_5_3_7|",
+    "original": "\"green\"",
+    "translation": "",
+    "pos": 39945
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1065_5_3_7|",
+    "original": "sWikifier(`<<pain -4>><<stress -6>><<trauma -12>><<lpain>><<lltrauma>><<lstress>>`);",
+    "translation": "",
+    "pos": 39962
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1067_5_3_7|",
+    "original": "V.earSlime.event = \"\";",
+    "translation": "",
+    "pos": 40059
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1068_5_3_7|",
+    "original": "} else if (V.earSlime.event.includes(\"get your own sperm into your\") && V.earSlime.event.includes(\"completed\") && V.earSlime.eventTimer <= 2) {",
+    "translation": "",
+    "pos": 40084
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1070_5_3_7|",
+    "original": "\"span\",",
+    "translation": "",
+    "pos": 40244
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1071_5_3_7|",
+    "original": "`The slime in your ear is pleased that you completed its task of getting your own sperm into your ${V.player.vaginaExist ? \"vagina\" : \"anus\"}.`,",
+    "translation": "",
+    "pos": 40256
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1072_5_3_7|",
+    "original": "\"green\"",
+    "translation": "",
+    "pos": 40405
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1074_5_3_7|",
+    "original": "sWikifier(`<<pain -4>><<stress -6>><<trauma -12>><<lpain>><<lltrauma>><<lstress>>`);",
+    "translation": "",
+    "pos": 40422
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1075_5_3_7|",
+    "original": "if (V.earSlime.growth >= 100 && V.earSlime.focus === \"pregnancy\" && V.worn.genitals.name === \"naked\") {",
+    "translation": "",
+    "pos": 40510
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1076_5_3_7|",
+    "original": "sWikifier(`<span class=\"purple\">A new chastity parasite forms around your penis.</span> <<genitalswear 8>>`);",
+    "translation": "",
+    "pos": 40618
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1077_5_3_7|",
+    "original": "V.worn.genitals.origin = \"ear slime\";",
+    "translation": "",
+    "pos": 40732
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1080_5_3_7|",
+    "original": "V.earSlime.event = \"\";",
+    "translation": "",
+    "pos": 40787
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1081_5_3_7|",
+    "original": "} else if (V.earSlime.eventTimer <= 2 || (V.earSlime.noSleep && Time.dayState !== \"night\")) {",
+    "translation": "",
+    "pos": 40812
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1083_5_3_7|",
+    "original": "element(\"span\", \"The slime in your ear punishes you for failing to complete your task.\", \"red\");",
+    "translation": "",
+    "pos": 40946
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1084_5_3_7|",
+    "original": "sWikifier(`<<ggpain>><<ggtrauma>><<ggstress>><<pain 16>><<stress 12>><<trauma 12>>`);",
+    "translation": "",
+    "pos": 41047
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1087_5_3_7|",
+    "original": "element(\"span\", \"The slime in your ear is upset you were unable to complete what you said you would do.\", \"cyan\");",
+    "translation": "",
+    "pos": 41183
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1090_5_3_7|",
+    "original": "V.earSlime.event = \"\";",
+    "translation": "",
+    "pos": 41315
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1095_5_3_7|",
+    "original": "sWikifier(\"<<integritycheck>><<exposure>>\");",
+    "translation": "",
+    "pos": 41378
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1101_5_3_7|",
+    "original": "sWikifier(\"You feel self-conscious about your <<nudity>>.\");",
+    "translation": "",
+    "pos": 41516
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1108_5_3_7|",
+    "original": "sWikifier(\"<<bindings>>\");",
+    "translation": "",
+    "pos": 41640
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1110_5_3_7|",
+    "original": "if (V.worn.genitals.cursed === 1 && V.worn.genitals.integrity <= 0) V.worn.genitals.type.push(\"broken\");",
+    "translation": "",
+    "pos": 41669
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1112_5_3_7|",
+    "original": "sWikifier(\"<<heelsUpdate>>\");",
+    "translation": "",
+    "pos": 41776
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1114_5_3_7|",
+    "original": "if (V.combat) sWikifier(\"<<pass 10 seconds>>\");",
+    "translation": "",
+    "pos": 41808
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1125_5_3_7|",
+    "original": "Macro.add(\"effects\", {",
+    "translation": "",
+    "pos": 42004
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1127_5_3_7|",
+    "original": "DOL.Perflog.logWidgetStart(\"effectsJs\");",
+    "translation": "",
+    "pos": 42042
+  },
+  {
+    "passage": null,
+    "filepath": "base-system/effect.js",
+    "key": "1130_5_3_7|",
+    "original": "DOL.Perflog.logWidgetEnd(\"effectsJs\");",
+    "translation": "",
+    "pos": 42147
+  }
+]

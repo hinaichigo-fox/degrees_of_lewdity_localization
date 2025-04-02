@@ -1,0 +1,3098 @@
+[
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "20_5_3_7|",
+    "original": "return;",
+    "translation": "",
+    "pos": 619
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "22_5_3_7|",
+    "original": "return;",
+    "translation": "",
+    "pos": 709
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "25_5_3_7|",
+    "original": "return;",
+    "translation": "",
+    "pos": 819
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "27_5_3_7|",
+    "original": "if (child.childId) T.childrenIds.push(child.childId);",
+    "translation": "",
+    "pos": 833
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "37_5_3_7|",
+    "original": "<<if _args[3] isnot \"both\" and _args[3] isnot \"only\">>",
+    "translation": "",
+    "pos": 1266
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "66_5_3_7|",
+    "original": "<<if _args[2] is \"home\">>",
+    "translation": "",
+    "pos": 2294
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "88_5_3_7|",
+    "original": "<<case \"human\" \"wolf\" \"hawk\">><<set _childTotalDaysCap to 200>>",
+    "translation": "",
+    "pos": 3222
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "95_5_3_7|",
+    "original": "<<case \"full\">>",
+    "translation": "",
+    "pos": 3594
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "96_5_3_7|",
+    "original": "<<set $_text_output to _childYears + \" year\" + (_childYears isnot 1 ? \"s, \" : \", \") + _childDays + \" day\" + (_childDays isnot 1 ? \"s \" : \" \") + \"old\">>",
+    "translation": "",
+    "pos": 3614
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "97_5_3_7|",
+    "original": "<<case \"year\">>",
+    "translation": "",
+    "pos": 3769
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "98_5_3_7|",
+    "original": "<<set $_text_output to _childYears + \" year\" + (_childYears isnot 1 ? \"s\" : \"\")>>",
+    "translation": "",
+    "pos": 3789
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "99_5_3_7|",
+    "original": "<<case \"day\">>",
+    "translation": "",
+    "pos": 3874
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "100_5_3_7|",
+    "original": "<<set $_text_output to _childDays + \" day\" + (_childDays isnot 1 ? \"s\" : \" \")>>",
+    "translation": "",
+    "pos": 3893
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "101_5_3_7|",
+    "original": "<<case \"totalDays\">>",
+    "translation": "",
+    "pos": 3976
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "105_5_3_7|",
+    "original": "<</silently>><<if $_text_output>><<print $_text_output>><<if _childTotalDaysCap is _childTotalDays>> <mouse class=\"tooltip linkBlue\">(Capped)<span>Reached end of current child activity content</span></mouse><</if>><</if>><</widget>>",
+    "translation": "",
+    "pos": 4065
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "111_5_3_7|",
+    "original": "<<if _args[0] isnot undefined>>",
+    "translation": "",
+    "pos": 4382
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "123_5_3_7|",
+    "original": "<<if _args[0] isnot undefined>>",
+    "translation": "",
+    "pos": 4717
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "131_5_3_7|",
+    "original": "<</silently>><<if $_text_output>><<print $_text_output>><</if>><</widget>>",
+    "translation": "",
+    "pos": 4955
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "135_5_3_7|",
+    "original": "<<if _args[0] isnot undefined>>",
+    "translation": "",
+    "pos": 5105
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "147_5_3_7|",
+    "original": "<</silently>><<if $_text_output>><<print $_text_output>><</if>><</widget>>",
+    "translation": "",
+    "pos": 5467
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "151_5_3_7|",
+    "original": "<<if _args[0] isnot undefined>>",
+    "translation": "",
+    "pos": 5622
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "175_5_3_7|",
+    "original": "<<if _args[0] isnot undefined>>",
+    "translation": "",
+    "pos": 6521
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "182_5_3_7|",
+    "original": "<<case \"m\">><<set $_text_output to \"He\">>",
+    "translation": "",
+    "pos": 6741
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "183_5_3_7|",
+    "original": "<<case \"f\" \"h\">><<set $_text_output to \"She\">>",
+    "translation": "",
+    "pos": 6786
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "184_5_3_7|",
+    "original": "<<case \"h\">><<set $_text_output to \"They\">>",
+    "translation": "",
+    "pos": 6836
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "187_5_3_7|",
+    "original": "<</silently>><<if $_text_output>><<print $_text_output>><</if>><</widget>>",
+    "translation": "",
+    "pos": 6903
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "191_5_3_7|",
+    "original": "<<if _args[0] isnot undefined>>",
+    "translation": "",
+    "pos": 7035
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "198_5_3_7|",
+    "original": "<<case \"m\">><<set $_text_output to \"he\">>",
+    "translation": "",
+    "pos": 7255
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "199_5_3_7|",
+    "original": "<<case \"f\" \"h\">><<set $_text_output to \"she\">>",
+    "translation": "",
+    "pos": 7300
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "200_5_3_7|",
+    "original": "<<case \"h\">><<set $_text_output to \"they\">>",
+    "translation": "",
+    "pos": 7350
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "203_5_3_7|",
+    "original": "<</silently>><<if $_text_output>><<print $_text_output>><</if>><</widget>>",
+    "translation": "",
+    "pos": 7417
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "207_5_3_7|",
+    "original": "<<if _args[0] isnot undefined>>",
+    "translation": "",
+    "pos": 7550
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "214_5_3_7|",
+    "original": "<<case \"m\">><<set $_text_output to \"His\">>",
+    "translation": "",
+    "pos": 7770
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "215_5_3_7|",
+    "original": "<<case \"f\" \"h\">><<set $_text_output to \"Her\">>",
+    "translation": "",
+    "pos": 7816
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "216_5_3_7|",
+    "original": "<<case \"h\">><<set $_text_output to \"Their\">>",
+    "translation": "",
+    "pos": 7866
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "219_5_3_7|",
+    "original": "<</silently>><<if $_text_output>><<print $_text_output>><</if>><</widget>>",
+    "translation": "",
+    "pos": 7934
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "223_5_3_7|",
+    "original": "<<if _args[0] isnot undefined>>",
+    "translation": "",
+    "pos": 8067
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "230_5_3_7|",
+    "original": "<<case \"m\">><<set $_text_output to \"his\">>",
+    "translation": "",
+    "pos": 8287
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "231_5_3_7|",
+    "original": "<<case \"f\" \"h\">><<set $_text_output to \"her\">>",
+    "translation": "",
+    "pos": 8333
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "232_5_3_7|",
+    "original": "<<case \"h\">><<set $_text_output to \"their\">>",
+    "translation": "",
+    "pos": 8383
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "235_5_3_7|",
+    "original": "<</silently>><<if $_text_output>><<print $_text_output>><</if>><</widget>>",
+    "translation": "",
+    "pos": 8451
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "239_5_3_7|",
+    "original": "<<if _args[0] isnot undefined>>",
+    "translation": "",
+    "pos": 8584
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "246_5_3_7|",
+    "original": "<<case \"m\">><<set $_text_output to \"Him\">>",
+    "translation": "",
+    "pos": 8804
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "247_5_3_7|",
+    "original": "<<case \"f\" \"h\">><<set $_text_output to \"Her\">>",
+    "translation": "",
+    "pos": 8850
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "248_5_3_7|",
+    "original": "<<case \"h\">><<set $_text_output to \"Them\">>",
+    "translation": "",
+    "pos": 8900
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "251_5_3_7|",
+    "original": "<</silently>><<if $_text_output>><<print $_text_output>><</if>><</widget>>",
+    "translation": "",
+    "pos": 8967
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "255_5_3_7|",
+    "original": "<<if _args[0] isnot undefined>>",
+    "translation": "",
+    "pos": 9100
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "262_5_3_7|",
+    "original": "<<case \"m\">><<set $_text_output to \"him\">>",
+    "translation": "",
+    "pos": 9320
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "263_5_3_7|",
+    "original": "<<case \"f\" \"h\">><<set $_text_output to \"her\">>",
+    "translation": "",
+    "pos": 9366
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "264_5_3_7|",
+    "original": "<<case \"h\">><<set $_text_output to \"them\">>",
+    "translation": "",
+    "pos": 9416
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "267_5_3_7|",
+    "original": "<</silently>><<if $_text_output>><<print $_text_output>><</if>><</widget>>",
+    "translation": "",
+    "pos": 9483
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "270_5_3_7|",
+    "original": "<<if _args[0] isnot undefined>>",
+    "translation": "",
+    "pos": 9598
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "277_5_3_7|",
+    "original": "<<case \"m\">><<set $_text_output to \"himself\">>",
+    "translation": "",
+    "pos": 9818
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "278_5_3_7|",
+    "original": "<<case \"f\" \"h\">><<set $_text_output to \"herself\">>",
+    "translation": "",
+    "pos": 9868
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "279_5_3_7|",
+    "original": "<<case \"h\">><<set $_text_output to \"themselves\">>",
+    "translation": "",
+    "pos": 9922
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "282_5_3_7|",
+    "original": "<</silently>><<if $_text_output>><<print $_text_output>><</if>><</widget>>",
+    "translation": "",
+    "pos": 9995
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "286_5_3_7|",
+    "original": "<<if _args[0] isnot undefined>>",
+    "translation": "",
+    "pos": 10129
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "293_5_3_7|",
+    "original": "<<case \"m\">><<set $_text_output to \"His\">>",
+    "translation": "",
+    "pos": 10349
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "294_5_3_7|",
+    "original": "<<case \"f\" \"h\">><<set $_text_output to \"Hers\">>",
+    "translation": "",
+    "pos": 10395
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "295_5_3_7|",
+    "original": "<<case \"h\">><<set $_text_output to \"Theirs\">>",
+    "translation": "",
+    "pos": 10446
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "298_5_3_7|",
+    "original": "<</silently>><<if $_text_output>><<print $_text_output>><</if>><</widget>>",
+    "translation": "",
+    "pos": 10515
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "302_5_3_7|",
+    "original": "<<if _args[0] isnot undefined>>",
+    "translation": "",
+    "pos": 10649
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "309_5_3_7|",
+    "original": "<<case \"m\">><<set $_text_output to \"his\">>",
+    "translation": "",
+    "pos": 10869
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "310_5_3_7|",
+    "original": "<<case \"f\" \"h\">><<set $_text_output to \"hers\">>",
+    "translation": "",
+    "pos": 10915
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "311_5_3_7|",
+    "original": "<<case \"h\">><<set $_text_output to \"theirs\">>",
+    "translation": "",
+    "pos": 10966
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "314_5_3_7|",
+    "original": "<</silently>><<if $_text_output>><<print $_text_output>><</if>><</widget>>",
+    "translation": "",
+    "pos": 11035
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "318_5_3_7|",
+    "original": "<<if _args[0] isnot undefined>>",
+    "translation": "",
+    "pos": 11172
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "325_5_3_7|",
+    "original": "<<case \"m\">><<set $_text_output to \"himself\">>",
+    "translation": "",
+    "pos": 11392
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "326_5_3_7|",
+    "original": "<<case \"f\" \"h\">><<set $_text_output to \"herself\">>",
+    "translation": "",
+    "pos": 11442
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "327_5_3_7|",
+    "original": "<<case \"h\">><<set $_text_output to \"themself\">>",
+    "translation": "",
+    "pos": 11496
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "330_5_3_7|",
+    "original": "<</silently>><<if $_text_output>><<print $_text_output>><</if>><</widget>>",
+    "translation": "",
+    "pos": 11567
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "334_5_3_7|",
+    "original": "<<if _args[0] isnot undefined>>",
+    "translation": "",
+    "pos": 11704
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "341_5_3_7|",
+    "original": "<<case \"m\">><<set $_text_output to \"brother\">>",
+    "translation": "",
+    "pos": 11924
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "342_5_3_7|",
+    "original": "<<case \"f\">><<set $_text_output to \"sister\">>",
+    "translation": "",
+    "pos": 11974
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "343_5_3_7|",
+    "original": "<<case \"h\">><<set $_text_output to \"sibling\">>",
+    "translation": "",
+    "pos": 12023
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "346_5_3_7|",
+    "original": "<</silently>><<if $_text_output>><<print $_text_output>><</if>><</widget>>",
+    "translation": "",
+    "pos": 12093
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "350_5_3_7|",
+    "original": "<<if _args[0] isnot undefined>>",
+    "translation": "",
+    "pos": 12284
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "355_5_3_7|",
+    "original": "<<case \"m\">><<set $_brothers++>>",
+    "translation": "",
+    "pos": 12504
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "356_5_3_7|",
+    "original": "<<case \"f\" \"h\">><<set $_sisters++>>",
+    "translation": "",
+    "pos": 12542
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "362_5_3_7|",
+    "original": "<<case \"m\">><<set $_brothers++>>",
+    "translation": "",
+    "pos": 12714
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "363_5_3_7|",
+    "original": "<<case \"f\" \"h\">><<set $_sisters++>>",
+    "translation": "",
+    "pos": 12752
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "384_5_3_7|",
+    "original": "<</silently>><<if $_text_output>><<print $_text_output>><</if>><</widget>>",
+    "translation": "",
+    "pos": 13244
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "388_5_3_7|",
+    "original": "<<if _args[0] isnot undefined>>",
+    "translation": "",
+    "pos": 13377
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "395_5_3_7|",
+    "original": "<<case \"m\">><<set $_text_output to \"son\">>",
+    "translation": "",
+    "pos": 13597
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "396_5_3_7|",
+    "original": "<<case \"f\">><<set $_text_output to \"daughter\">>",
+    "translation": "",
+    "pos": 13643
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "397_5_3_7|",
+    "original": "<<case \"h\">><<set $_text_output to \"child\">>",
+    "translation": "",
+    "pos": 13694
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "400_5_3_7|",
+    "original": "<</silently>><<if $_text_output>><<print $_text_output>><</if>><</widget>>",
+    "translation": "",
+    "pos": 13762
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "404_5_3_7|",
+    "original": "<<if _args[0] isnot undefined>>",
+    "translation": "",
+    "pos": 13949
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "409_5_3_7|",
+    "original": "<<case \"m\">><<set $_sons++>>",
+    "translation": "",
+    "pos": 14167
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "410_5_3_7|",
+    "original": "<<case \"f\" \"h\">><<set $_daughters++>>",
+    "translation": "",
+    "pos": 14201
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "416_5_3_7|",
+    "original": "<<case \"m\">><<set $_sons++>>",
+    "translation": "",
+    "pos": 14375
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "417_5_3_7|",
+    "original": "<<case \"f\" \"h\">><<set $_daughters++>>",
+    "translation": "",
+    "pos": 14409
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "438_5_3_7|",
+    "original": "<</silently>><<if $_text_output>><<print $_text_output>><</if>><</widget>>",
+    "translation": "",
+    "pos": 14895
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "442_5_3_7|",
+    "original": "<<if _args[0] isnot undefined>>",
+    "translation": "",
+    "pos": 15029
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "449_5_3_7|",
+    "original": "<<case \"human\">><<set $_text_output to \"hand\">>",
+    "translation": "",
+    "pos": 15247
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "450_5_3_7|",
+    "original": "<<case \"wolf\" \"wolfboy\" \"wolfgirl\">><<set $_text_output to \"paw\">>",
+    "translation": "",
+    "pos": 15298
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "451_5_3_7|",
+    "original": "<<case \"hawk\">><<set $_text_output to ($children[$_id].features.monster is \"monster\" ? \"hand\" : \"wing\")>>",
+    "translation": "",
+    "pos": 15368
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "454_5_3_7|",
+    "original": "<</silently>><<if $_text_output>><<print $_text_output>><</if>><</widget>>",
+    "translation": "",
+    "pos": 15497
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "458_5_3_7|",
+    "original": "<<if _args[0] isnot undefined>>",
+    "translation": "",
+    "pos": 15632
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "465_5_3_7|",
+    "original": "<<case \"human\">><<set $_text_output to \"hands\">>",
+    "translation": "",
+    "pos": 15850
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "466_5_3_7|",
+    "original": "<<case \"wolf\" \"wolfboy\" \"wolfgirl\">><<set $_text_output to \"paws\">>",
+    "translation": "",
+    "pos": 15902
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "467_5_3_7|",
+    "original": "<<case \"hawk\">><<set $_text_output to ($children[$_id].features.monster is \"monster\" ? \"hands\" : \"wings\")>>",
+    "translation": "",
+    "pos": 15973
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "470_5_3_7|",
+    "original": "<</silently>><<if $_text_output>><<print $_text_output>><</if>><</widget>>",
+    "translation": "",
+    "pos": 16104
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "473_5_3_7|",
+    "original": "<<if _args[0] isnot undefined>>",
+    "translation": "",
+    "pos": 16216
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "480_5_3_7|",
+    "original": "<<case \"human\">><<set $_text_output to \"feet\">>",
+    "translation": "",
+    "pos": 16434
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "481_5_3_7|",
+    "original": "<<case \"wolf\" \"wolfboy\" \"wolfgirl\">><<set $_text_output to \"paws\">>",
+    "translation": "",
+    "pos": 16485
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "482_5_3_7|",
+    "original": "<<case \"hawk\">><<set $_text_output to ($children[$_id].features.monster is \"monster\" ? \"feet\" : \"legs\")>>",
+    "translation": "",
+    "pos": 16556
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "485_5_3_7|",
+    "original": "<</silently>><<if $_text_output>><<print $_text_output>><</if>><</widget>>",
+    "translation": "",
+    "pos": 16685
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "488_5_3_7|",
+    "original": "<<if _args[0] isnot undefined>>",
+    "translation": "",
+    "pos": 16797
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "495_5_3_7|",
+    "original": "<<case \"human\">><<set $_text_output to \"toes\">>",
+    "translation": "",
+    "pos": 17015
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "496_5_3_7|",
+    "original": "<<case \"wolf\" \"wolfboy\" \"wolfgirl\">><<set $_text_output to \"pads\">>",
+    "translation": "",
+    "pos": 17066
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "497_5_3_7|",
+    "original": "<<case \"hawk\">><<set $_text_output to ($children[$_id].features.monster is \"monster\" ? \"toes\" : \"talons\")>>",
+    "translation": "",
+    "pos": 17137
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "500_5_3_7|",
+    "original": "<</silently>><<if $_text_output>><<print $_text_output>><</if>><</widget>>",
+    "translation": "",
+    "pos": 17268
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "503_5_3_7|",
+    "original": "<<if _args[0] isnot undefined>>",
+    "translation": "",
+    "pos": 17382
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "510_5_3_7|",
+    "original": "<<case \"human\">><<set $_text_output to \"finger\">>",
+    "translation": "",
+    "pos": 17600
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "511_5_3_7|",
+    "original": "<<case \"wolf\" \"wolfboy\" \"wolfgirl\">><<set $_text_output to \"claw\">>",
+    "translation": "",
+    "pos": 17653
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "512_5_3_7|",
+    "original": "<<case \"hawk\">><<set $_text_output to ($children[$_id].features.monster is \"monster\" ? \"finger\" : \"wing\")>>",
+    "translation": "",
+    "pos": 17724
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "515_5_3_7|",
+    "original": "<</silently>><<if $_text_output>><<print $_text_output>><</if>><</widget>>",
+    "translation": "",
+    "pos": 17855
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "519_5_3_7|",
+    "original": "<<if _args[0] isnot undefined>>",
+    "translation": "",
+    "pos": 17992
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "526_5_3_7|",
+    "original": "<<case \"human\">><<set $_text_output to \"giggles\">>",
+    "translation": "",
+    "pos": 18206
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "527_5_3_7|",
+    "original": "<<case \"wolf\" \"wolfboy\" \"wolfgirl\">><<set $_text_output to \"wags <<childhis _id>> tail\">>",
+    "translation": "",
+    "pos": 18260
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "528_5_3_7|",
+    "original": "<<case \"hawk\">><<set $_text_output to ($children[_id].features.monster is \"monster\" ? \"giggles\" : \"ruffles <<childhis _id>> feathers\")>>",
+    "translation": "",
+    "pos": 18353
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "531_5_3_7|",
+    "original": "<</silently>><<if $_text_output>><<print $_text_output>><</if>><</widget>>",
+    "translation": "",
+    "pos": 18513
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "535_5_3_7|",
+    "original": "<<if _args[0] isnot undefined>>",
+    "translation": "",
+    "pos": 18647
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "542_5_3_7|",
+    "original": "<<case \"human\">><<set $_text_output to \"hair\">>",
+    "translation": "",
+    "pos": 18865
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "543_5_3_7|",
+    "original": "<<case \"wolf\" \"wolfboy\" \"wolfgirl\">><<set $_text_output to \"fur\">>",
+    "translation": "",
+    "pos": 18916
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "544_5_3_7|",
+    "original": "<<case \"hawk\">><<set $_text_output to \"feathers\">>",
+    "translation": "",
+    "pos": 18986
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "547_5_3_7|",
+    "original": "<</silently>><<if $_text_output>><<print $_text_output>><</if>><</widget>>",
+    "translation": "",
+    "pos": 19060
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "551_5_3_7|",
+    "original": "<<if _args[1] isnot undefined>>",
+    "translation": "",
+    "pos": 19214
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "563_5_3_7|",
+    "original": "<<case \"human\">>",
+    "translation": "",
+    "pos": 19537
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "570_5_3_7|",
+    "original": "<<case \"wolf\" \"wolfboy\" \"wolfgirl\">>",
+    "translation": "",
+    "pos": 19796
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "577_5_3_7|",
+    "original": "<<case \"hawk\">>",
+    "translation": "",
+    "pos": 20075
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "586_5_3_7|",
+    "original": "<</silently>><<if $_text_output>><<print $_text_output>><</if>><</widget>>",
+    "translation": "",
+    "pos": 20354
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "590_5_3_7|",
+    "original": "<<if _args[0] isnot undefined>>",
+    "translation": "",
+    "pos": 20488
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "597_5_3_7|",
+    "original": "<<case \"human\">><<set $_text_output to \"child\">>",
+    "translation": "",
+    "pos": 20706
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "598_5_3_7|",
+    "original": "<<case \"wolf\" \"wolfboy\" \"wolfgirl\">><<set $_text_output to \"pup\">>",
+    "translation": "",
+    "pos": 20758
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "599_5_3_7|",
+    "original": "<<case \"hawk\">><<set $_text_output to ($children[$_id].features.monster is \"monster\" ? \"nestling\" : \"chick\")>>",
+    "translation": "",
+    "pos": 20828
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "602_5_3_7|",
+    "original": "<</silently>><<if $_text_output>><<print $_text_output>><</if>><</widget>>",
+    "translation": "",
+    "pos": 20962
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "610_5_3_7|",
+    "original": "<<case \"wolf\">>",
+    "translation": "",
+    "pos": 21252
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "613_5_3_7|",
+    "original": "<<case \"m\">><<set $_text_output += \"boy\">>",
+    "translation": "",
+    "pos": 21346
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "614_5_3_7|",
+    "original": "<<case \"f\">><<set $_text_output += \"girl\">>",
+    "translation": "",
+    "pos": 21396
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "617_5_3_7|",
+    "original": "<<case \"hawk\">>",
+    "translation": "",
+    "pos": 21512
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "624_5_3_7|",
+    "original": "<<set $_text_output to \"Human<<if _args[0].features.beastTransform or _args[0].features.divineTransform>> (<<childTransform _args[0]>>)<</if>>\">>",
+    "translation": "",
+    "pos": 21678
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "627_5_3_7|",
+    "original": "<</silently>><<if $_text_output>>Type: <<print $_text_output>> |<</if>>",
+    "translation": "",
+    "pos": 21843
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "643_5_3_7|",
+    "original": "<<case \"angel\">><<set $_text_output += \"Angelic\">>",
+    "translation": "",
+    "pos": 22378
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "644_5_3_7|",
+    "original": "<<case \"demon\">><<set $_text_output += \"Demonic\">>",
+    "translation": "",
+    "pos": 22432
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "645_5_3_7|",
+    "original": "<<case \"fallen\">><<set $_text_output += \"Fallen\">>",
+    "translation": "",
+    "pos": 22486
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "649_5_3_7|",
+    "original": "<<case \"cat\">><<set $_text_output += \"Cat\" + ($_child.gender === \"m\" ? \"boy\" : \"girl\")>>",
+    "translation": "",
+    "pos": 22712
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "650_5_3_7|",
+    "original": "<<case \"cow\">><<set $_text_output += \"Cow\" + ($_child.gender === \"m\" ? \"boy\" : \"girl\")>>",
+    "translation": "",
+    "pos": 22804
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "651_5_3_7|",
+    "original": "<<case \"wolf\">><<set $_text_output += \"Wolf\" + ($_child.gender === \"m\" ? \"boy\" : \"girl\")>>",
+    "translation": "",
+    "pos": 22896
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "652_5_3_7|",
+    "original": "<<case \"bird\">><<set $_text_output += \"Bird\" + ($_child.gender === \"m\" ? \"boy\" : \"girl\")>>",
+    "translation": "",
+    "pos": 22990
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "653_5_3_7|",
+    "original": "<<case \"fox\">><<set $_text_output += \"Fox\" + ($_child.gender === \"m\" ? \"boy\" : \"girl\")>>",
+    "translation": "",
+    "pos": 23084
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "656_5_3_7|",
+    "original": "<</silently>><<if $_text_output>><<print $_text_output>><</if>><</widget>>",
+    "translation": "",
+    "pos": 23196
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "660_5_3_7|",
+    "original": "<<if _args[0] isnot undefined>>",
+    "translation": "",
+    "pos": 23351
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "668_5_3_7|",
+    "original": "<</silently>><<if $_text_output>><<print $_text_output>><</if>><</widget>>",
+    "translation": "",
+    "pos": 23660
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "693_5_3_7|",
+    "original": "<<case \"notext\">>",
+    "translation": "",
+    "pos": 24540
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "694_5_3_7|",
+    "original": "<<case \"lowercase\">>",
+    "translation": "",
+    "pos": 24562
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "703_5_3_7|",
+    "original": "<</silently>><<if $_text_output>><<print $_text_output>><</if>><</widget>>",
+    "translation": "",
+    "pos": 24823
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "707_5_3_7|",
+    "original": "<<set $childSelected to Object.values($children).filter(child => !_args[0] or child.location === _args[0]).random()>>",
+    "translation": "",
+    "pos": 24954
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "743_5_3_7|",
+    "original": "<<set _disabled = _listPage > 1 ? \"\" : \"disabled\">>",
+    "translation": "",
+    "pos": 26132
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "745_5_3_7|",
+    "original": "<<link \"Previous\">>",
+    "translation": "",
+    "pos": 26248
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "746_5_3_7|",
+    "original": "<<if _listPage > 1>>",
+    "translation": "",
+    "pos": 26272
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "751_5_3_7|",
+    "original": "<div class=\"btn-pagination-arrow\">&lt;</div>",
+    "translation": "",
+    "pos": 26380
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "754_5_3_7|",
+    "original": "<<print (_listPage) + \" out of \" + _listPageMax>>",
+    "translation": "",
+    "pos": 26445
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "756_5_3_7|",
+    "original": "<<set _disabled = _listPage < _listPageMax ? \"\" : \"disabled\">>",
+    "translation": "",
+    "pos": 26506
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "758_5_3_7|",
+    "original": "<<link \"Next\">>",
+    "translation": "",
+    "pos": 26633
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "759_5_3_7|",
+    "original": "<<if _listPage < _listPageMax>>",
+    "translation": "",
+    "pos": 26653
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "764_5_3_7|",
+    "original": "<div class=\"btn-pagination-arrow\">&gt;</div>",
+    "translation": "",
+    "pos": 26772
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "776_5_3_7|",
+    "original": "Gender:",
+    "translation": "",
+    "pos": 27046
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "778_5_3_7|",
+    "original": "<<case \"m\">>Male",
+    "translation": "",
+    "pos": 27097
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "779_5_3_7|",
+    "original": "<<case \"f\">>Female",
+    "translation": "",
+    "pos": 27117
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "780_5_3_7|",
+    "original": "<<case \"h\">>Hermaphrodite",
+    "translation": "",
+    "pos": 27139
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "783_5_3_7|",
+    "original": "<label>Name: <<textbox \"_children[_args[0]]\" `$children[_args[0]].name`>></label>",
+    "translation": "",
+    "pos": 27188
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "792_5_3_7|",
+    "original": "<div @id=\"'childViewerHidden-'+_args[0]\" @class=\"'childViewerHidden' + (_args[1] ? '' : ' hidden')\">",
+    "translation": "",
+    "pos": 27441
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "793_5_3_7|",
+    "original": "Mother:",
+    "translation": "",
+    "pos": 27545
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "795_5_3_7|",
+    "original": "<<print pregnancyNameCorrection($children[_args[0]].mother, true)>>",
+    "translation": "",
+    "pos": 27599
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "799_5_3_7|",
+    "original": "| Father:",
+    "translation": "",
+    "pos": 27702
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "801_5_3_7|",
+    "original": "<<print pregnancyNameCorrection($children[_args[0]].father, true)>>",
+    "translation": "",
+    "pos": 27758
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "807_5_3_7|",
+    "original": "Laid: <<print $children[_args[0]].laid.day + \" \" + $children[_args[0]].laid.month + \" \" + $children[_args[0]].laid.year>> |",
+    "translation": "",
+    "pos": 27905
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "808_5_3_7|",
+    "original": "Hatched: <<print $children[_args[0]].born.day + \" \" + $children[_args[0]].born.month + \" \" + $children[_args[0]].born.year>> |",
+    "translation": "",
+    "pos": 28033
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "810_5_3_7|",
+    "original": "Born: <<print $children[_args[0]].born.day + \" \" + $children[_args[0]].born.month + \" \" + $children[_args[0]].born.year>> |",
+    "translation": "",
+    "pos": 28176
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "813_5_3_7|",
+    "original": "Adopted: <<print $children[_args[0]].adopted.day + \" \" + $children[_args[0]].adopted.month + \" \" + $children[_args[0]].adopted.year>> |",
+    "translation": "",
+    "pos": 28353
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "816_5_3_7|",
+    "original": "Age: <<childAge _args[0] \"full\">>",
+    "translation": "",
+    "pos": 28511
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "818_5_3_7|",
+    "original": "Size: <<print $children[_args[0]].features.size>> | Hair Colour: <<hairmapcolourtext $children[_args[0]].features.hairColour>>",
+    "translation": "",
+    "pos": 28556
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "820_5_3_7|",
+    "original": "| Skin Colour: <<skinColourName $children[_args[0]].features.skinColour>>",
+    "translation": "",
+    "pos": 28737
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "824_5_3_7|",
+    "original": "Identical: <<print $children[_args[0]].features.identical>>",
+    "translation": "",
+    "pos": 28883
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "828_5_3_7|",
+    "original": "Total Interactions: <<print $children[_args[0]].localVariables.interactionsTotal>>",
+    "translation": "",
+    "pos": 29030
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "831_5_3_7|",
+    "original": "<span class=\"no-numberify\">",
+    "translation": "",
+    "pos": 29136
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "832_5_3_7|",
+    "original": "<<link \"Rename\">>",
+    "translation": "",
+    "pos": 29167
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "836_5_3_7|",
+    "original": "<<link \"Random Name\">>",
+    "translation": "",
+    "pos": 29406
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "843_5_3_7|",
+    "original": "ChildId: <<print $children[_args[0]].childId>>.",
+    "translation": "",
+    "pos": 29683
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "844_5_3_7|",
+    "original": "saveId: <<print $saveId>>.",
+    "translation": "",
+    "pos": 29735
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "846_5_3_7|",
+    "original": "| name: <<print $saveName>>.",
+    "translation": "",
+    "pos": 29797
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "868_5_3_7|",
+    "original": "<<case \"human\">><<humanChildActivity _args[0]>>",
+    "translation": "",
+    "pos": 30314
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "869_5_3_7|",
+    "original": "<<case \"wolf\" \"wolfboy\" \"wolfgirl\">><<wolfChildActivity _args[0]>>",
+    "translation": "",
+    "pos": 30365
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "870_5_3_7|",
+    "original": "<<case \"hawk\">><<hawkChildActivity _args[0]>>",
+    "translation": "",
+    "pos": 30435
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "872_5_3_7|",
+    "original": "<span class=\"no-numberify\">",
+    "translation": "",
+    "pos": 30497
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "873_5_3_7|",
+    "original": "<<link \"Extra Details\">><<childViewerHiddenElementsUnhide _args[0]>><</link>>",
+    "translation": "",
+    "pos": 30528
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "880_5_3_7|",
+    "original": "<<set _activityColour to !$daily.childInteractions or !$daily.childInteractions.includes(_args[0]) ? \" childrensActivityGold\" : \"\">>",
+    "translation": "",
+    "pos": 30798
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "881_5_3_7|",
+    "original": "<span @class=\"'no-numberify' + _activityColour\">",
+    "translation": "",
+    "pos": 30932
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "883_5_3_7|",
+    "original": "<<case \"noEvent\">>",
+    "translation": "",
+    "pos": 31041
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "884_5_3_7|",
+    "original": "<<childHe>>'s sleeping soundly.",
+    "translation": "",
+    "pos": 31064
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "885_5_3_7|",
+    "original": "<<case \"sleeping\">>",
+    "translation": "",
+    "pos": 31099
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "886_5_3_7|",
+    "original": "<<childHe>>'s sleeping soundly.",
+    "translation": "",
+    "pos": 31123
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "892_5_3_7|",
+    "original": "<<link [[Watch <<childhim>> (0:05)|Children Activity Events]]>><<pass 5>><<set $childActivityEvent to {event:\"transfixed\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 31296
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "894_5_3_7|",
+    "original": "<<link [[Watch <<childhim>> (0:05)|Children Activity Events]]>><<pass 5>><<set $childActivityEvent to {event:\"stroke\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 31474
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "896_5_3_7|",
+    "original": "<<link [[Watch <<childhim>> (0:05)|Children Activity Events]]>><<pass 5>><<set $childActivityEvent to {event:\"yawn\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 31648
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "898_5_3_7|",
+    "original": "<<link [[Watch <<childhim>> (0:05)|Children Activity Events]]>><<pass 5>><<set $childActivityEvent to {event:\"murmur\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 31820
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "900_5_3_7|",
+    "original": "<<link [[Nap (0:30)|Children Activity Events]]>><<pass 30>><<set $childActivityEvent to {event:\"cotNap\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 31994
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "902_5_3_7|",
+    "original": "<<link [[Watch <<childhim>> (0:05)|Children Activity Events]]>><<pass 5>><<set $childActivityEvent to {event:\"shiverInCot\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 32155
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "905_5_3_7|",
+    "original": "<<case \"restlessSleep\">>",
+    "translation": "",
+    "pos": 32342
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "906_5_3_7|",
+    "original": "<<childHe>>'s moving restlessly in <<childhis>> sleep.",
+    "translation": "",
+    "pos": 32371
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "909_5_3_7|",
+    "original": "<<link [[Calm <<childhim>> down (0:30)|Children Activity Events]]>><<pass 30>><<set $childActivityEvent to {event:\"restlessSleep\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 32493
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "911_5_3_7|",
+    "original": "<<case \"crying\">>",
+    "translation": "",
+    "pos": 32670
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "912_5_3_7|",
+    "original": "<<childHe>>'s distressed and crying.",
+    "translation": "",
+    "pos": 32692
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "918_5_3_7|",
+    "original": "<<link [[Comfort (0:20)|Children Activity Events]]>><<pass 20>><<set $childActivityEvent to {event:\"holdToShoulder\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 32870
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "920_5_3_7|",
+    "original": "<<link [[Comfort (0:20)|Children Activity Events]]>><<pass 20>><<set $childActivityEvent to {event:\"melodicLullaby\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 33042
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "922_5_3_7|",
+    "original": "<<link [[Comfort (0:20)|Children Activity Events]]>><<pass 20>><<set $childActivityEvent to {event:\"foreheadKiss\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 33214
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "924_5_3_7|",
+    "original": "<<link [[Comfort (0:20)|Children Activity Events]]>><<pass 20>><<set $childActivityEvent to {event:\"objectShow\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 33384
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "926_5_3_7|",
+    "original": "<<link [[Comfort (0:20)|Children Activity Events]]>><<pass 20>><<set $childActivityEvent to {event:\"carryRevolt\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 33552
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "928_5_3_7|",
+    "original": "<<link [[Comfort (0:20)|Children Activity Events]]>><<pass 20>><<set $childActivityEvent to {event:\"rockToSleep\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 33722
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "931_5_3_7|",
+    "original": "<<case \"lonely\">>",
+    "translation": "",
+    "pos": 33899
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "932_5_3_7|",
+    "original": "<<childHe>>'s looking lonely.",
+    "translation": "",
+    "pos": 33921
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "938_5_3_7|",
+    "original": "<<link [[Soothe (0:20)|Children Activity Events]]>><<pass 20>><<set $childActivityEvent to {event:\"nurseryRhymes\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 34093
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "940_5_3_7|",
+    "original": "<<link [[Soothe (0:20)|Children Activity Events]]>><<pass 20>><<set $childActivityEvent to {event:\"FeetCup\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 34263
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "942_5_3_7|",
+    "original": "<<link [[Soothe (0:20)|Children Activity Events]]>><<pass 20>><<set $childActivityEvent to {event:\"shareThoughts\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 34427
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "944_5_3_7|",
+    "original": "<<link [[Soothe (0:20)|Children Activity Events]]>><<pass 20>><<set $childActivityEvent to {event:\"speakCry\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 34597
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "946_5_3_7|",
+    "original": "<<link [[Soothe (0:20)|Children Activity Events]]>><<pass 20>><<set $childActivityEvent to {event:\"waveTongue\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 34762
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "948_5_3_7|",
+    "original": "<<link [[Soothe (0:20)|Children Activity Events]]>><<pass 20>><<set $childActivityEvent to {event:\"handsClap\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 34929
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "950_5_3_7|",
+    "original": "<<link [[Soothe (0:20)|Children Activity Events]]>><<pass 20>><<set $childActivityEvent to {event:\"peekaboo\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 35095
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "952_5_3_7|",
+    "original": "<<link [[Soothe (0:20)|Children Activity Events]]>><<pass 20>><<set $childActivityEvent to {event:\"blowRaspberriesHappy\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 35260
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "954_5_3_7|",
+    "original": "<<link [[Soothe (0:20)|Children Activity Events]]>><<pass 20>><<set $childActivityEvent to {event:\"blowRaspberriesUpset\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 35437
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "956_5_3_7|",
+    "original": "<<link [[Soothe (0:20)|Children Activity Events]]>><<pass 20>><<set $childActivityEvent to {event:\"faceStudy\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 35615
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "959_5_3_7|",
+    "original": "<<case \"happy\">>",
+    "translation": "",
+    "pos": 35789
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "960_5_3_7|",
+    "original": "<<childHe>>'s smiling and happily cooing.",
+    "translation": "",
+    "pos": 35810
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "963_5_3_7|",
+    "original": "<<link [[Smile and laugh (0:20)|Children Activity Events]]>><<pass 20>><<set $childActivityEvent to {event:\"smilesAndLaughs\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 35919
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "965_5_3_7|",
+    "original": "<<case \"talking\">>",
+    "translation": "",
+    "pos": 36091
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "966_5_3_7|",
+    "original": "<<childHe>>'s gurgling and babbling to <<childherself>>.",
+    "translation": "",
+    "pos": 36114
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "969_5_3_7|",
+    "original": "<<link [[Join in the babbling (0:10)|Children Activity Events]]>><<pass 10>><<set $childActivityEvent to {event:\"talking\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 36238
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "971_5_3_7|",
+    "original": "<<case \"talking2\">>",
+    "translation": "",
+    "pos": 36407
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "972_5_3_7|",
+    "original": "<<childHe>>'s gurgling and attempting to make sounds to <<childherself>>.",
+    "translation": "",
+    "pos": 36431
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "975_5_3_7|",
+    "original": "<<link [[Join in the talking (0:10)|Children Activity Events]]>><<pass 10>><<set $childActivityEvent to {event:\"talking2\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 36572
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "977_5_3_7|",
+    "original": "<<case \"nappyChange\">>",
+    "translation": "",
+    "pos": 36741
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "978_5_3_7|",
+    "original": "<<childHe>>'s looking uncomfortable and smells.",
+    "translation": "",
+    "pos": 36768
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "981_5_3_7|",
+    "original": "<<link [[Clean up (0:10)|Children Activity Events]]>><<pass 10>><<set $childActivityEvent to {event:\"nappyChange\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 36883
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "983_5_3_7|",
+    "original": "<<case \"bathe\">>",
+    "translation": "",
+    "pos": 37044
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "984_5_3_7|",
+    "original": "<<childHe>> is looking ready for a bath.",
+    "translation": "",
+    "pos": 37065
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "988_5_3_7|",
+    "original": "<<link [[Bathe (0:10)|Children Activity Events]]>><<pass 10>><<set $childActivityEvent to {event:\"batheGentle\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 37211
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "990_5_3_7|",
+    "original": "<<link [[Bathe (0:20)|Children Activity Events]]>><<pass 20>><<set $childActivityEvent to {event:\"batheShampoo\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 37378
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "992_5_3_7|",
+    "original": "<<link [[Bathe (0:20)|Children Activity Events]]>><<pass 20>><<set $childActivityEvent to {event:\"BatheCalm\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 37546
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "994_5_3_7|",
+    "original": "<<link [[Bathe (0:20)|Children Activity Events]]>><<pass 20>><<set $childActivityEvent to {event:\"batheTantrum\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 37711
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "998_5_3_7|",
+    "original": "<<case \"thumbSucking\">>",
+    "translation": "",
+    "pos": 37905
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "999_5_3_7|",
+    "original": "<<childHe>>'s happily sucking on <<childhis>> thumb.",
+    "translation": "",
+    "pos": 37933
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1000_5_3_7|",
+    "original": "<<case \"grumpyChild\">>",
+    "translation": "",
+    "pos": 37989
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1001_5_3_7|",
+    "original": "<<childHe>>'s being irritable.",
+    "translation": "",
+    "pos": 38016
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1004_5_3_7|",
+    "original": "<<link [[Tickle (0:10)|Children Activity Events]]>><<pass 10>><<set $childActivityEvent to {event:\"grumpyChild\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 38114
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1006_5_3_7|",
+    "original": "<<case \"crawlingAttempt\">>",
+    "translation": "",
+    "pos": 38273
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1007_5_3_7|",
+    "original": "<<childHe>>'s lying on <<childhis>> belly and flailing about.",
+    "translation": "",
+    "pos": 38304
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1010_5_3_7|",
+    "original": "<<link [[Help <<childhim>> out (0:05)|Children Activity Events]]>><<pass 5>><<set $childActivityEvent to {event:\"crawlingAttempt\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 38433
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1012_5_3_7|",
+    "original": "<<case \"crawlingAttempt2\">>",
+    "translation": "",
+    "pos": 38610
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1013_5_3_7|",
+    "original": "<<childHe>>'s slowly crawling about the room.",
+    "translation": "",
+    "pos": 38642
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1016_5_3_7|",
+    "original": "<<link [[Help <<childhim>> out (0:05)|Children Activity Events]]>><<pass 5>><<set $childActivityEvent to {event:\"crawlingAttempt2\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 38755
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1018_5_3_7|",
+    "original": "<<case \"readingAttempt\">>",
+    "translation": "",
+    "pos": 38933
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1019_5_3_7|",
+    "original": "<<childHe>>'s looking at a children's book upside down.",
+    "translation": "",
+    "pos": 38963
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1022_5_3_7|",
+    "original": "<<link [[Flip the book (0:10)|Children Activity Events]]>><<pass 10>><<set $childActivityEvent to {event:\"readingAttempt\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 39086
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1024_5_3_7|",
+    "original": "<<case \"readingCorrected\">>",
+    "translation": "",
+    "pos": 39255
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1025_5_3_7|",
+    "original": "<<childHe>>'s looking at a children's book.",
+    "translation": "",
+    "pos": 39287
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1026_5_3_7|",
+    "original": "<<case \"babyRattle\">>",
+    "translation": "",
+    "pos": 39334
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1029_5_3_7|",
+    "original": "<<childHe>>'s staring at a <<childtoy $location _toyid \"lowercase\">>.",
+    "translation": "",
+    "pos": 39430
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1032_5_3_7|",
+    "original": "<<capture _toyid>><<link [[Shake it (0:05)|Children Activity Events]]>><<pass 5>><<set $childActivityEvent to {event:\"babyRattle\", childid:_args[0], toyid:_toyid}>><</link>><</capture>> |",
+    "translation": "",
+    "pos": 39570
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1037_5_3_7|",
+    "original": "<<case \"teddyBear\">>",
+    "translation": "",
+    "pos": 39841
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1040_5_3_7|",
+    "original": "<<childHe>>'s turning and tossing in <<childhis>> sleep by a <<childtoy $location _toyid \"lowercase\">>.",
+    "translation": "",
+    "pos": 39935
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1043_5_3_7|",
+    "original": "<<capture _toyid>><<link [[\"Give \" + _toyName + \" (0:05)\"|Children Activity Events]]>><<pass 5>><<set $childActivityEvent to {event:\"teddyBear\", childid:_args[0], toyid:_toyid}>><</link>><</capture>> |",
+    "translation": "",
+    "pos": 40109
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1048_5_3_7|",
+    "original": "<<case \"teddyBear2\">>",
+    "translation": "",
+    "pos": 40394
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1049_5_3_7|",
+    "original": "<<childHe>>'s sleeping soundly by <<childhis>> <<print $children[_args[0]].localVariables.toy>>.",
+    "translation": "",
+    "pos": 40420
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1050_5_3_7|",
+    "original": "<<case \"toyCar\">>",
+    "translation": "",
+    "pos": 40520
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1053_5_3_7|",
+    "original": "<<childHe>>'s waving a <<childtoy $location _toyid \"lowercase\">> in the air.",
+    "translation": "",
+    "pos": 40608
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1056_5_3_7|",
+    "original": "<<capture _toyid>><<link [[Play with <<childhim>> (0:05)|Children Activity Events]]>><<pass 5>><<set $childActivityEvent to {event:\"toyCar\", childid:_args[0], toyid:_toyid}>><</link>><</capture>> |",
+    "translation": "",
+    "pos": 40755
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1061_5_3_7|",
+    "original": "<<case \"dummy\">>",
+    "translation": "",
+    "pos": 41036
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1065_5_3_7|",
+    "original": "<<childHe>>'s <<childcry _rng>>. There's a <<childtoy $location _toyid \"lowercase\">> on the floor nearby.",
+    "translation": "",
+    "pos": 41155
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1068_5_3_7|",
+    "original": "<<capture _toyid _rng>><<link [[Pacify (0:15)|Children Activity Events]]>><<pass 15>><<set $childActivityEvent to {event:\"dummy\", childid:_args[0], toyid:_toyid, childCry:_rng}>><</link>><</capture>> |",
+    "translation": "",
+    "pos": 41331
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1073_5_3_7|",
+    "original": "<<case \"dummySucking\">>",
+    "translation": "",
+    "pos": 41616
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1074_5_3_7|",
+    "original": "<<childHe>>'s suckling loudly on <<childhis>> dummy.",
+    "translation": "",
+    "pos": 41644
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1075_5_3_7|",
+    "original": "<<case \"clown\">>",
+    "translation": "",
+    "pos": 41700
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1078_5_3_7|",
+    "original": "<<childHe>>'s looking at a <<childtoy $location _toyid \"lowercase\">> with an unsure expression.",
+    "translation": "",
+    "pos": 41784
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1081_5_3_7|",
+    "original": "<<capture _toyid>><<link [[Play with <<childhim>> (0:05)|Children Activity Events]]>><<pass 5>><<set $childActivityEvent to {event:\"clown\", childid:_args[0], toyid:_toyid}>><</link>><</capture>> |",
+    "translation": "",
+    "pos": 41950
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1086_5_3_7|",
+    "original": "<<case \"clownHappy\">>",
+    "translation": "",
+    "pos": 42230
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1088_5_3_7|",
+    "original": "<<childHe>>'s playing happily looking between the clown and you.",
+    "translation": "",
+    "pos": 42291
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1090_5_3_7|",
+    "original": "<<childHe>>'s playing happily with the clown, pulling its cord and making it chuckle every now and then.",
+    "translation": "",
+    "pos": 42374
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1092_5_3_7|",
+    "original": "<<case \"Robin\">>",
+    "translation": "",
+    "pos": 42494
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1094_5_3_7|",
+    "original": "<<childHe>>'s happily sucking on <<childhis>> thumb.",
+    "translation": "",
+    "pos": 42595
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1096_5_3_7|",
+    "original": "Robin cradles <<childhim>>.",
+    "translation": "",
+    "pos": 42666
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1099_5_3_7|",
+    "original": "<<link [[Hold (0:05)|Children Activity Events]]>><<pass 5>><<set $childActivityEvent to {event:\"Robin\", childid:_args[0]}>><</link>>",
+    "translation": "",
+    "pos": 42764
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1102_5_3_7|",
+    "original": "<<case \"Wraith\">>",
+    "translation": "",
+    "pos": 42925
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1103_5_3_7|",
+    "original": "<<childHe>>'s laughing and reaching for something unseen.",
+    "translation": "",
+    "pos": 42947
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1105_5_3_7|",
+    "original": "<<link [[Watch <<childhim>> (0:05)|Children Activity Events]]>><<pass 5>><<set $childActivityEvent to {event:\"Wraith\", childid:_args[0]}>><</link>>",
+    "translation": "",
+    "pos": 43018
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1107_5_3_7|",
+    "original": "<<childHe>>'s has figured out that they're in a video game (This is an error, please report).",
+    "translation": "",
+    "pos": 43185
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1108_5_3_7|",
+    "original": "<<print $children[_args[0]].localVariables.activity>>",
+    "translation": "",
+    "pos": 43283
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1114_5_3_7|",
+    "original": "<<childHe>>'s sleeping soundly.",
+    "translation": "",
+    "pos": 43411
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1117_5_3_7|",
+    "original": "<<link [[Watch <<childhim>> (0:05)|Children Activity Events]]>><<pass 5>><<set $childActivityEvent to {event:\"shiverInCot\", childid:_args[0]}>><<set $child_played.pushUnique(_args[0])>><</link>> |",
+    "translation": "",
+    "pos": 43501
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1123_5_3_7|",
+    "original": "<span class=\"no-numberify\">",
+    "translation": "",
+    "pos": 43902
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1125_5_3_7|",
+    "original": "<<case \"noEvent\">>",
+    "translation": "",
+    "pos": 43990
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1126_5_3_7|",
+    "original": "<<childHe>>'s sleeping soundly.",
+    "translation": "",
+    "pos": 44013
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1127_5_3_7|",
+    "original": "<<case \"sleeping\">>",
+    "translation": "",
+    "pos": 44048
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1128_5_3_7|",
+    "original": "<<childHe>>'s sleeping on <<childhis>> own.",
+    "translation": "",
+    "pos": 44072
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1131_5_3_7|",
+    "original": "<<link [[Stroke head (0:10)|Children Activity Events]]>><<pass 10>><<set $childActivityEvent to {event:\"sleepingStroke\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 44183
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1133_5_3_7|",
+    "original": "<<case \"sleepingWithWolf\">>",
+    "translation": "",
+    "pos": 44350
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1134_5_3_7|",
+    "original": "<<childHe>>'s sound asleep while cuddled up against another <<if $monster is 1>>wolfgirl<<else>>female wolf<</if>>.",
+    "translation": "",
+    "pos": 44382
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1137_5_3_7|",
+    "original": "<<link [[Cuddle up to (0:30)|Children Activity Events]]>><<pass 30>><<set $childActivityEvent to {event:\"cuddleAndNap\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 44565
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1139_5_3_7|",
+    "original": "<<case \"crying\">>",
+    "translation": "",
+    "pos": 44731
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1140_5_3_7|",
+    "original": "<<childHe>>'s distressed and <<childcry>>.",
+    "translation": "",
+    "pos": 44753
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1143_5_3_7|",
+    "original": "<<link [[Comfort <<childhim>> (0:15)|Children Activity Events]]>><<pass 15>><<set $childActivityEvent to {event:\"cryingWolf\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 44863
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1145_5_3_7|",
+    "original": "<<case \"playing\">>",
+    "translation": "",
+    "pos": 45035
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1146_5_3_7|",
+    "original": "<<childHe>>'s playing with some other pups.",
+    "translation": "",
+    "pos": 45058
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1149_5_3_7|",
+    "original": "<<link [[Join in (0:15)|Children Activity Events]]>><<pass 15>><<set $childActivityEvent to {event:\"playing\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 45169
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1151_5_3_7|",
+    "original": "<<case \"watchingCurious\">>",
+    "translation": "",
+    "pos": 45325
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1152_5_3_7|",
+    "original": "<<childHe>>'s watching you with a curious expression.",
+    "translation": "",
+    "pos": 45356
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1155_5_3_7|",
+    "original": "<<link [[Sate curiosity (0:30)|Children Activity Events]]>><<pass 30>><<set $childActivityEvent to {event:\"curiousGaze\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 45477
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1157_5_3_7|",
+    "original": "<<case \"watchingLonging\">>",
+    "translation": "",
+    "pos": 45644
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1158_5_3_7|",
+    "original": "<<childHe>>'s watching you with a longing expression.",
+    "translation": "",
+    "pos": 45675
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1161_5_3_7|",
+    "original": "<<link [[Scratch ears (0:30)|Children Activity Events]]>><<pass 30>><<set $childActivityEvent to {event:\"longingGaze\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 45796
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1163_5_3_7|",
+    "original": "<<case \"playFighting\">>",
+    "translation": "",
+    "pos": 45961
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1164_5_3_7|",
+    "original": "<<childHe>>'s play fighting with another pup.",
+    "translation": "",
+    "pos": 45989
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1167_5_3_7|",
+    "original": "<<link [[Calm <<childhim>> (0:10)|Children Activity Events]]>><<pass 10>><<set $childActivityEvent to {event:\"playFighting\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 46102
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1169_5_3_7|",
+    "original": "<<case \"staringOutside\">>",
+    "translation": "",
+    "pos": 46273
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1170_5_3_7|",
+    "original": "<<childHe>>'s staring out of the cave.",
+    "translation": "",
+    "pos": 46303
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1173_5_3_7|",
+    "original": "<<link [[Go for a walk (0:30)|Children Activity Events]]>><<pass 30>><<set $childActivityEvent to {event:\"fieldTrip\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 46409
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1175_5_3_7|",
+    "original": "<<case \"grumpyWolf\">>",
+    "translation": "",
+    "pos": 46573
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1176_5_3_7|",
+    "original": "<<childHe>>'s sitting alone and snapping at any who come near.",
+    "translation": "",
+    "pos": 46599
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1179_5_3_7|",
+    "original": "<<link [[Cheer up (0:15)|Children Activity Events]]>><<pass 15>><<set $childActivityEvent to {event:\"grumpyWolf\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 46729
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1181_5_3_7|",
+    "original": "<<case \"hungryWolf\">>",
+    "translation": "",
+    "pos": 46889
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1182_5_3_7|",
+    "original": "<<childHe>>'s <<childcry>> in front of an overcrowded female <<wolf_cave_singular \"f\">>.",
+    "translation": "",
+    "pos": 46915
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1185_5_3_7|",
+    "original": "<<link [[Help finding a nipple (0:15)|Children Activity Events]]>><<pass 15>><<set $childActivityEvent to {event:\"hungryWolf\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 47071
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1187_5_3_7|",
+    "original": "<<case \"gnawing\">>",
+    "translation": "",
+    "pos": 47244
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1188_5_3_7|",
+    "original": "<<childHe>>'s gnawing on",
+    "translation": "",
+    "pos": 47267
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1190_5_3_7|",
+    "original": "<<case 1>>a shed antler. <<set $pupToy to \"antler\">>",
+    "translation": "",
+    "pos": 47324
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1191_5_3_7|",
+    "original": "<<case 2>>a deer bone. <<set $pupToy to \"bone\">>",
+    "translation": "",
+    "pos": 47382
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1192_5_3_7|",
+    "original": "<<case 3>>an old rubber boot. <<set $pupToy to \"boot\">>",
+    "translation": "",
+    "pos": 47436
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1193_5_3_7|",
+    "original": "<<case 4>>a dead branch. <<set $pupToy to \"stick\">>",
+    "translation": "",
+    "pos": 47497
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1197_5_3_7|",
+    "original": "<<link [[Play tug of war (0:10)|Children Activity Events]]>><<pass 10>><<set $childActivityEvent to {event:\"gnawing\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 47632
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1200_5_3_7|",
+    "original": "<<childHe>>'s has figured out that they're in a video game (This is an error, please report).",
+    "translation": "",
+    "pos": 47812
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1201_5_3_7|",
+    "original": "<<print $children[_args[0]].localVariables.activity>>",
+    "translation": "",
+    "pos": 47910
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1207_5_3_7|",
+    "original": "<span class=\"no-numberify\">",
+    "translation": "",
+    "pos": 48032
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1209_5_3_7|",
+    "original": "<<case \"noEvent\">>",
+    "translation": "",
+    "pos": 48120
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1210_5_3_7|",
+    "original": "<<childHe>>'s sleeping soundly.",
+    "translation": "",
+    "pos": 48143
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1211_5_3_7|",
+    "original": "<<case \"sleeping\">>",
+    "translation": "",
+    "pos": 48178
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1212_5_3_7|",
+    "original": "<<childHe>>'s sleeping on <<childhis>> own.",
+    "translation": "",
+    "pos": 48202
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1215_5_3_7|",
+    "original": "<<link [[Stroke head (0:10)|Children Activity Events]]>><<pass 10>><<set $childActivityEvent to {event:\"sleepingStrokeHawk\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 48313
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1217_5_3_7|",
+    "original": "<<case \"sleepingWithGreatHawk\">>",
+    "translation": "",
+    "pos": 48484
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1219_5_3_7|",
+    "original": "<<childHe>>'s sound asleep while cuddled up against <<your_bird_text>>.",
+    "translation": "",
+    "pos": 48546
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1222_5_3_7|",
+    "original": "<<link [[Cuddle up to (0:30)|Children Activity Events]]>>",
+    "translation": "",
+    "pos": 48685
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1226_5_3_7|",
+    "original": "T.otherChildrenIds.push(child.childId);",
+    "translation": "",
+    "pos": 48982
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1233_5_3_7|",
+    "original": "<<case \"crying\">>",
+    "translation": "",
+    "pos": 49220
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1234_5_3_7|",
+    "original": "<<childHe>>'s distressed and <<childcry>>.",
+    "translation": "",
+    "pos": 49242
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1237_5_3_7|",
+    "original": "<<link \"Comfort <<childhim>> (0:15)\" \"Children Activity Events\">><<pass 15>><<set $childActivityEvent to {event:\"cryingHawk\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 49352
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1239_5_3_7|",
+    "original": "<<case \"reaching\">>",
+    "translation": "",
+    "pos": 49524
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1240_5_3_7|",
+    "original": "<<childHe>>'s reaching for you.",
+    "translation": "",
+    "pos": 49548
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1242_5_3_7|",
+    "original": "<<link \"Pick <<childhim>> up (0:15)\" \"Children Activity Events\">><<pass 15>><<set $childActivityEvent to {event:\"pickUpHawk\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 49593
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1243_5_3_7|",
+    "original": "<<case \"flap\">>",
+    "translation": "",
+    "pos": 49753
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1244_5_3_7|",
+    "original": "<<childHe>>'s flapping <<childhis>> little wings in short bursts.",
+    "translation": "",
+    "pos": 49773
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1246_5_3_7|",
+    "original": "<<link \"Help <<childhim>> pretend to fly (0:15)\" \"Children Activity Events\">><<pass 15>><<set $childActivityEvent to {event:\"pretendFly\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 49852
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1247_5_3_7|",
+    "original": "<<case \"preen\">>",
+    "translation": "",
+    "pos": 50024
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1248_5_3_7|",
+    "original": "<<childHe>> seems agitated and pecks at <<childhis>> wings.",
+    "translation": "",
+    "pos": 50045
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1250_5_3_7|",
+    "original": "<<link \"Help <<childhim>> preen (0:15)\" \"Children Activity Events\">><<pass 15>><<set $childActivityEvent to {event:\"preen\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 50118
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1251_5_3_7|",
+    "original": "<<case \"perch\">>",
+    "translation": "",
+    "pos": 50276
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1252_5_3_7|",
+    "original": "<<childHe>> stares out at the perch.",
+    "translation": "",
+    "pos": 50297
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1254_5_3_7|",
+    "original": "<<link \"Take <<childhim>> to the perch (0:15)\" \"Children Activity Events\">><<pass 15>><<set $childActivityEvent to {event:\"perch\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 50347
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1255_5_3_7|",
+    "original": "<<case \"bathe\">>",
+    "translation": "",
+    "pos": 50512
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1256_5_3_7|",
+    "original": "<<childHe>> looks like <<childhe>> needs a bath.",
+    "translation": "",
+    "pos": 50533
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1258_5_3_7|",
+    "original": "<<link \"Bathe <<childhim>> (0:15)\" \"Children Activity Events\">><<pass 15>><<set $childActivityEvent to {event:\"bathe\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 50595
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1259_5_3_7|",
+    "original": "<<case \"batheSelf\">>",
+    "translation": "",
+    "pos": 50748
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1260_5_3_7|",
+    "original": "<<childHe>>'s dipping <<childhis>> legs in the rainwater pool.",
+    "translation": "",
+    "pos": 50773
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1262_5_3_7|",
+    "original": "<<link \"Help <<childhim>> bathe (0:15)\" \"Children Activity Events\">><<pass 15>><<set $childActivityEvent to {event:\"batheHelp\", childid:_args[0]}>><</link>> |",
+    "translation": "",
+    "pos": 50849
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1263_5_3_7|",
+    "original": "<<case \"lurkerEat\">>",
+    "translation": "",
+    "pos": 51011
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1264_5_3_7|",
+    "original": "<<childHe>>'s",
+    "translation": "",
+    "pos": 51036
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1267_5_3_7|",
+    "original": "gumming on a piece of lurker meat.",
+    "translation": "",
+    "pos": 51108
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1269_5_3_7|",
+    "original": "pecking at a piece of lurker meat.",
+    "translation": "",
+    "pos": 51163
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1273_5_3_7|",
+    "original": "chewing on a lurker.",
+    "translation": "",
+    "pos": 51252
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1275_5_3_7|",
+    "original": "pecking at a lurker.",
+    "translation": "",
+    "pos": 51293
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1279_5_3_7|",
+    "original": "<<childHe>>'s has figured out that they're in a video game (This is an error, please report).",
+    "translation": "",
+    "pos": 51358
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1280_5_3_7|",
+    "original": "<<print $children[_args[0]].localVariables.activity>>",
+    "translation": "",
+    "pos": 51456
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1287_5_3_7|",
+    "original": "<<case \"ylight\">><<set $_text_output to \"light\">>",
+    "translation": "",
+    "pos": 51609
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1288_5_3_7|",
+    "original": "<<case \"ymedium\">><<set $_text_output to \"medium\">>",
+    "translation": "",
+    "pos": 51661
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1289_5_3_7|",
+    "original": "<<case \"ydark\">><<set $_text_output to \"dark\">>",
+    "translation": "",
+    "pos": 51715
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1290_5_3_7|",
+    "original": "<<case \"ghostlyPale\" \"ghost\">><<set $_text_output to \"ghostly pale\">>",
+    "translation": "",
+    "pos": 51765
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1291_5_3_7|",
+    "original": "<<case \"gyaru\" \"ygyaru\">><<set $_text_output to \"medium\">>",
+    "translation": "",
+    "pos": 51837
+  },
+  {
+    "passage": "Widgets children",
+    "filepath": "base-system/pregnancy/children.twee",
+    "key": "1294_5_3_7|",
+    "original": "<</silently>><<print $_text_output>>",
+    "translation": "",
+    "pos": 51957
+  }
+]

@@ -1,0 +1,1938 @@
+[
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "5_5_3_7|",
+    "original": "As you play through Degrees of Lewdity, you will obtain <span class=\"gold\">feats</span> by completing different tasks. The more feats you earn, the more <span class=\"gold\">VrelCoins</span> you will earn. When you start a new game, your VrelCoins can be used to purchase <span class=\"gold\">feat boosters</span>. These boosters grant you bonuses in your next game.",
+    "translation": "",
+    "pos": 43
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "7_5_3_7|",
+    "original": "This tab displays all the feats that have been unlocked in your <span class=\"gold\">most recently loaded save</span>, which will carry over to your next playthrough. VrelCoins are earned linearly, over the course of a single playthrough. <span class=\"red\">Save-hopping may cause your VrelCoins and unlocked feats to disappear from this page.</span>",
+    "translation": "",
+    "pos": 417
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "9_5_3_7|",
+    "original": "Multiple runs are necessary in order to achieve all feats. If you have multiple saves with different feats earned, you will be able to combine these feats when you start a new game by using the <span class=\"gold\">Import all feats</span> button on the Feat Boosters page. Keep this in mind if you are aiming for 100% completion!",
+    "translation": "",
+    "pos": 777
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "11_5_3_7|",
+    "original": "Some feats display as earned as soon as you meet the requirements, while others won't trigger until the next in-game hour. Happy hunting!",
+    "translation": "",
+    "pos": 1116
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "15_5_3_7|",
+    "original": "<span class=\"red\">You can't earn feats as you have enabled cheats at some point.</span>",
+    "translation": "",
+    "pos": 1289
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "17_5_3_7|",
+    "original": "<span class=\"red\">Feats are disabled during debug mode.</span>",
+    "translation": "",
+    "pos": 1403
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "19_5_3_7|",
+    "original": "<span class=\"red\">Feats are disabled during replay mode.</span>",
+    "translation": "",
+    "pos": 1509
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "21_5_3_7|",
+    "original": "<span class=\"red\">Some feats are locked in this current game.</span>",
+    "translation": "",
+    "pos": 1625
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "23_5_3_7|",
+    "original": "<span class=\"green\">You can earn feats.</span>",
+    "translation": "",
+    "pos": 1706
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "26_5_3_7|",
+    "original": "You currently have <<if $feats.allSaves.point is undefined>><span class=\"gold\"><<print $feats.allSaves.points>></span><<else>><span class=\"red\">0</span><</if>> VrelCoins.",
+    "translation": "",
+    "pos": 1773
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "29_5_3_7|",
+    "original": "Filter by:",
+    "translation": "",
+    "pos": 1991
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "30_5_3_7|",
+    "original": "<select id=\"featTypes\" name=\"featTypes\" onchange=\"V.feats.filter = this.value; Wikifier.wikifyEval('<<replace #featsList>><<featsList>><</replace>>')\">",
+    "translation": "",
+    "pos": 2003
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "31_5_3_7|",
+    "original": "<option value=\"General\" selected>General</option>",
+    "translation": "",
+    "pos": 2157
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "32_5_3_7|",
+    "original": "<option value=\"Stats\">Stats</option>",
+    "translation": "",
+    "pos": 2209
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "33_5_3_7|",
+    "original": "<option value=\"Social\">Social</option>",
+    "translation": "",
+    "pos": 2248
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "34_5_3_7|",
+    "original": "<option value=\"Transformation\">Transformation</option>",
+    "translation": "",
+    "pos": 2289
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "35_5_3_7|",
+    "original": "<option value=\"Discoveries-Town\">Discoveries - In Town</option>",
+    "translation": "",
+    "pos": 2346
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "36_5_3_7|",
+    "original": "<option value=\"Discoveries-Other\">Discoveries - Outside Town</option>",
+    "translation": "",
+    "pos": 2412
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "37_5_3_7|",
+    "original": "<option value=\"Special\">Special</option>",
+    "translation": "",
+    "pos": 2484
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "38_5_3_7|",
+    "original": "<option value=\"Pregnancy\">Pregnancy</option>",
+    "translation": "",
+    "pos": 2527
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "39_5_3_7|",
+    "original": "<option value=\"General\" hidden=\"hidden\" selected=\"selected\">General</option>",
+    "translation": "",
+    "pos": 2574
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "72_5_3_7|",
+    "original": "<<case 1>><img @src=\"'img/ui/CopperCoin'+(_owned is 1 ? 'Dull':'')+'.png'\" class=\"featCoin\" @style=\"(_owned is 1 ? 'filter:brightness(65%) contrast(85%);':'')\">",
+    "translation": "",
+    "pos": 3548
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "73_5_3_7|",
+    "original": "<<case 2>><img @src=\"'img/ui/SilverCoin'+(_owned is 1 ? 'Dull':'')+'.png'\" class=\"featCoin\" @style=\"(_owned is 1 ? 'filter:brightness(75%) contrast(85%);':'')\">",
+    "translation": "",
+    "pos": 3715
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "74_5_3_7|",
+    "original": "<<case 3>><img @src=\"'img/ui/GoldCoin'+(_owned is 1 ? 'Dull':'')+'.png'\" class=\"featCoin\" @style=\"(_owned is 1 ? 'filter:brightness(65%) contrast(85%);':'')\">",
+    "translation": "",
+    "pos": 3882
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "75_5_3_7|",
+    "original": "<<case 4>><img @src=\"'img/ui/PlatinumCoin'+(_owned is 1 ? 'Dull':'')+'.png'\" class=\"featCoin\" @style=\"(_owned is 1 ? 'filter:brightness(65%) contrast(85%);':'')\">",
+    "translation": "",
+    "pos": 4047
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "76_5_3_7|",
+    "original": "<<case 5>><img @src=\"'img/ui/JeweledCoin'+(_owned is 1 ? 'Dull':'')+'.png'\" class=\"featCoin\" @style=\"(_owned is 1 ? 'filter:brightness(65%) contrast(85%);':'')\">",
+    "translation": "",
+    "pos": 4216
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "89_5_3_7|",
+    "original": "<span @class=\"'title' + _titleColor\"><<print setup.feats[_keys[_i]].title>></span>",
+    "translation": "",
+    "pos": 4924
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "91_5_3_7|",
+    "original": "<span class=\"text\"><<print setup.feats[_keys[_i]].desc>></span>",
+    "translation": "",
+    "pos": 5022
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "93_5_3_7|",
+    "original": "<span @class=\"'title' + _titleColor\">?????</span>",
+    "translation": "",
+    "pos": 5104
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "95_5_3_7|",
+    "original": "<span class=\"text\"><<print setup.feats[_keys[_i]].hint>></span>",
+    "translation": "",
+    "pos": 5169
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "99_5_3_7|",
+    "original": "<span class=\"text\">Earned on: <<print new Date($feats.currentSave[_keys[_i]]).toLocaleString(returnTimeFormat())>></span>",
+    "translation": "",
+    "pos": 5282
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "101_5_3_7|",
+    "original": "<span class=\"text\">Originally Earned on: <<print new Date($feats.allSaves[_keys[_i]]).toLocaleString(returnTimeFormat())>></span>",
+    "translation": "",
+    "pos": 5436
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "118_5_3_7|",
+    "original": "<div @id=\"'feat-' + _featsCount\" @class=\"'feat feat' + _featsCount + (_featsCount gte 3 ? ' hiddenFeat' : '') + ' feat-overlay'\">",
+    "translation": "",
+    "pos": 5823
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "129_5_3_7|",
+    "original": "<span class=\"title\"><<print setup.feats[_args[0]].title>></span>",
+    "translation": "",
+    "pos": 6404
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "131_5_3_7|",
+    "original": "<span class=\"text\"><<print setup.feats[_args[0]].desc>></span>",
+    "translation": "",
+    "pos": 6480
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "133_5_3_7|",
+    "original": "<div @id=\"'closeFeat-' + _featsCount\" class=\"closeFeat\" @onclick=\"'closeFeats('+ _featsCount +')'\"></div>",
+    "translation": "",
+    "pos": 6554
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "142_5_3_7|",
+    "original": "You have earned a lifetime total of <span class=\"red\">0 VrelCoins</span> and cannot purchase Feat Boosters.",
+    "translation": "",
+    "pos": 6876
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "144_5_3_7|",
+    "original": "<span class=\"black small-description\">If this is incorrect, please load your last save and restart.</span>",
+    "translation": "",
+    "pos": 6995
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "146_5_3_7|",
+    "original": "You have earned a lifetime total of <span class=\"green\"><<print $feats.allSaves.points>> VrelCoins.</span>",
+    "translation": "",
+    "pos": 7116
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "150_5_3_7|",
+    "original": "<<set _listbox to '<<listbox \"_upgradeNameID\" autoselect>>'>>",
+    "translation": "",
+    "pos": 7287
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "158_5_3_7|",
+    "original": "<span class=\"gold settingsToggleIndent\">Jump to a specific feat boost:</span>",
+    "translation": "",
+    "pos": 7687
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "159_5_3_7|",
+    "original": "<<print _listbox>>",
+    "translation": "",
+    "pos": 7766
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "163_5_3_7|",
+    "original": "<span id=\"featName\"><<featName>></span>",
+    "translation": "",
+    "pos": 7853
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "165_5_3_7|",
+    "original": "<span style=\"font-size:80%;\">",
+    "translation": "",
+    "pos": 7904
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "166_5_3_7|",
+    "original": "<<link \"Previous\">>",
+    "translation": "",
+    "pos": 7938
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "179_5_3_7|",
+    "original": "<<link \"Next\">>",
+    "translation": "",
+    "pos": 8444
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "203_5_3_7|",
+    "original": "Purchased Feat Boosts:",
+    "translation": "",
+    "pos": 9296
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "209_5_3_7|",
+    "original": "<<case \"randomClothing\">>",
+    "translation": "",
+    "pos": 9503
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "210_5_3_7|",
+    "original": "<<print ($featsBoosts.clothingGender is \"Either\" ? \"Male and Female\" : $featsBoosts.clothingGender)>> <<print $featsBoosts.name[_upgradeNames[$_i]]>>: <span class=\"gold\"><<print $featsBoosts.upgrades[_upgradeNames[$_i]]>></span> coins",
+    "translation": "",
+    "pos": 9538
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "212_5_3_7|",
+    "original": "<<print $featsBoosts.name[_upgradeNames[$_i]]>>: <span class=\"gold\"><<print $featsBoosts.upgrades[_upgradeNames[$_i]]>></span> coins",
+    "translation": "",
+    "pos": 9802
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "218_5_3_7|",
+    "original": "You have<span class=\"green\"> <<print $feats.allSaves.points - $featsBoosts.pointsUsed>> VrelCoins</span> left to spend on Feat Boosts.",
+    "translation": "",
+    "pos": 10009
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "235_5_3_7|",
+    "original": "<<case \"money\">>",
+    "translation": "",
+    "pos": 10463
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "236_5_3_7|",
+    "original": "<span class=\"gold\">Starting Money</span>",
+    "translation": "",
+    "pos": 10484
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "237_5_3_7|",
+    "original": "<<case \"grades\">>",
+    "translation": "",
+    "pos": 10528
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "238_5_3_7|",
+    "original": "<span class=\"gold\">Starting School Grades</span>",
+    "translation": "",
+    "pos": 10550
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "239_5_3_7|",
+    "original": "<<case \"purity\" \"impurity\">>",
+    "translation": "",
+    "pos": 10602
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "240_5_3_7|",
+    "original": "<span class=\"gold\" style=\"text-transform: capitalize;\">Daily _upgradeName Boost</span>",
+    "translation": "",
+    "pos": 10635
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "241_5_3_7|",
+    "original": "<<case \"newLife\">>",
+    "translation": "",
+    "pos": 10725
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "242_5_3_7|",
+    "original": "<span class=\"gold\">A New Life</span>",
+    "translation": "",
+    "pos": 10748
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "243_5_3_7|",
+    "original": "<<case \"aNewBestFriend\">>",
+    "translation": "",
+    "pos": 10788
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "244_5_3_7|",
+    "original": "<span class=\"gold\">A New Best Friend</span>",
+    "translation": "",
+    "pos": 10818
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "245_5_3_7|",
+    "original": "<<case \"randomClothing\">>",
+    "translation": "",
+    "pos": 10865
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "246_5_3_7|",
+    "original": "<span class=\"gold\">Random Clothing</span>",
+    "translation": "",
+    "pos": 10895
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "247_5_3_7|",
+    "original": "<<case \"tattoos\">>",
+    "translation": "",
+    "pos": 10940
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "248_5_3_7|",
+    "original": "<span class=\"gold\">Starting Tattoos</span>",
+    "translation": "",
+    "pos": 10963
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "249_5_3_7|",
+    "original": "<<case \"defaultMoves\">>",
+    "translation": "",
+    "pos": 11009
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "250_5_3_7|",
+    "original": "<span class=\"gold\">Extra Default Moves</span>",
+    "translation": "",
+    "pos": 11037
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "251_5_3_7|",
+    "original": "<<case \"specialClothing\">>",
+    "translation": "",
+    "pos": 11086
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "252_5_3_7|",
+    "original": "<span class=\"gold\">Special Clothing</span>",
+    "translation": "",
+    "pos": 11117
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "253_5_3_7|",
+    "original": "<<case \"sexToys\">>",
+    "translation": "",
+    "pos": 11163
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "254_5_3_7|",
+    "original": "<span class=\"gold\">Sex Toys</span>",
+    "translation": "",
+    "pos": 11186
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "256_5_3_7|",
+    "original": "<span class=\"gold\"  style=\"text-transform: capitalize;\">Starting _upgradeName Grade</span>",
+    "translation": "",
+    "pos": 11240
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "259_5_3_7|",
+    "original": "<span class=\"red\">?????</span>",
+    "translation": "",
+    "pos": 11357
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "270_5_3_7|",
+    "original": "<span class=\"red\">Earn some VrelCoins in order to purchase this feat boost!</span>",
+    "translation": "",
+    "pos": 11690
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "273_5_3_7|",
+    "original": "<<case \"money\">>",
+    "translation": "",
+    "pos": 11811
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "274_5_3_7|",
+    "original": "You will start the game with <span class=\"green\"> £<<print $money/100 + $featsBoosts.upgrades.money * 50 * _count / _details.cost>>.00</span>.",
+    "translation": "",
+    "pos": 11834
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "275_5_3_7|",
+    "original": "<<case \"grades\">>",
+    "translation": "",
+    "pos": 11982
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "276_5_3_7|",
+    "original": "You will start the game with <<if $featsBoosts.upgrades.grades / _details.cost is 2>><span class=\"lblue\">B</span><<elseif $featsBoosts.upgrades.grades / _details.cost is 1>><span class=\"blue\">C</span><<else>><span class=\"purple\">D</span><</if>> grades.",
+    "translation": "",
+    "pos": 12006
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "277_5_3_7|",
+    "original": "<<case \"purity\">>",
+    "translation": "",
+    "pos": 12264
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "279_5_3_7|",
+    "original": "You will always gain <span class=\"green\">1</span> point of purity per day. Purchased purity boosts will increase your daily purity gain. <i>Actions you take can negate or amplify your purity gains.</i>",
+    "translation": "",
+    "pos": 12353
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "281_5_3_7|",
+    "original": "You will always gain <span class=\"green\"><<print 1+$featsBoosts.upgrades[_name] / _details.cost>></span> points of purity per day. <i>Actions you take can negate or amplify your purity gains.</i>",
+    "translation": "",
+    "pos": 12576
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "283_5_3_7|",
+    "original": "<<case \"impurity\">>",
+    "translation": "",
+    "pos": 12791
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "285_5_3_7|",
+    "original": "You will always gain <span class=\"green\">1</span> point of purity per day. Purchased impurity boosts will counteract this daily purity gain. <i>Actions you take can negate or amplify your purity losses.</i>",
+    "translation": "",
+    "pos": 12882
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "287_5_3_7|",
+    "original": "You will always lose <span class=\"red\">1</span> point of purity per day. This cancels out the daily point of purity you would normally gain at midnight. <i>Actions you take can negate or amplify your purity losses.</i>",
+    "translation": "",
+    "pos": 13164
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "289_5_3_7|",
+    "original": "You will always lose <span class=\"red\">1</span> point of purity per day. <i>Actions you take can negate or amplify your purity losses.</i>",
+    "translation": "",
+    "pos": 13458
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "291_5_3_7|",
+    "original": "You will always lose <span class=\"red\"><<print $featsBoosts.upgrades[_name] / _details.cost - 1>></span> points of purity per day. <i>Actions you take can negate or amplify your purity losses.</i>",
+    "translation": "",
+    "pos": 13618
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "293_5_3_7|",
+    "original": "<<case \"newLife\">>",
+    "translation": "",
+    "pos": 13834
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "294_5_3_7|",
+    "original": "You will start the game <<print ($featsBoosts.upgrades.newLife is 0 ? \"<span class='red'>without</span>\" : \"<span class='green'>with</span>\")>> a parasite.",
+    "translation": "",
+    "pos": 13859
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "295_5_3_7|",
+    "original": "<<case \"aNewBestFriend\">>",
+    "translation": "",
+    "pos": 14020
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "296_5_3_7|",
+    "original": "You will start the game",
+    "translation": "",
+    "pos": 14052
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "298_5_3_7|",
+    "original": "<<case 0>><span class='red'>without</span> an ear slime.",
+    "translation": "",
+    "pos": 14137
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "299_5_3_7|",
+    "original": "<<case 10>><span class='green'>with</span> an ear slime.",
+    "translation": "",
+    "pos": 14201
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "300_5_3_7|",
+    "original": "<<case 20>><span class='green'>with two</span> ear slimes.",
+    "translation": "",
+    "pos": 14265
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "302_5_3_7|",
+    "original": "<<case \"randomClothing\">>",
+    "translation": "",
+    "pos": 14347
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "303_5_3_7|",
+    "original": "You will start the game with <span class=\"gold\"><<print 3 * $featsBoosts.upgrades.randomClothing / _details.cost>></span> random clothing items.",
+    "translation": "",
+    "pos": 14379
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "304_5_3_7|",
+    "original": "<<case \"tattoos\">>",
+    "translation": "",
+    "pos": 14529
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "306_5_3_7|",
+    "original": "You will start the game with <span class=\"red\">no</span> tattoos.",
+    "translation": "",
+    "pos": 14619
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "308_5_3_7|",
+    "original": "You will start the game with <span class=\"green\">1</span> tattoo.",
+    "translation": "",
+    "pos": 14760
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "310_5_3_7|",
+    "original": "You will start the game with <span class=\"green\"><<print $featsBoosts.upgrades.tattoos / _details.cost>></span> tattoos.",
+    "translation": "",
+    "pos": 14848
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "312_5_3_7|",
+    "original": "<<case \"defaultMoves\">>",
+    "translation": "",
+    "pos": 14988
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "313_5_3_7|",
+    "original": "You will start the game with <span class=\"green\"><<print 2 + $featsBoosts.upgrades.defaultMoves / _details.cost>></span> default movesets. These are sets of actions that can be chosen by default in combat, allowing you to speed up gameplay by not having to manually select your preferred actions. Movesets can be set up in the <span class=\"gold\">Attitudes</span> menu.",
+    "translation": "",
+    "pos": 15019
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "314_5_3_7|",
+    "original": "<<case \"specialClothing\">>",
+    "translation": "",
+    "pos": 15393
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "315_5_3_7|",
+    "original": "You will start the game with special clothing from the Forest Shop <<print ($featsBoosts.upgrades.specialClothing is 0?\"<span class='red'>locked</span>\":\"<span class='green'>unlocked</span>\")>>. This booster won't automatically unlock new clothing items that have been added.",
+    "translation": "",
+    "pos": 15426
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "316_5_3_7|",
+    "original": "<<case \"sexToys\">>",
+    "translation": "",
+    "pos": 15707
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "317_5_3_7|",
+    "original": "You will start the game with",
+    "translation": "",
+    "pos": 15732
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "319_5_3_7|",
+    "original": "<span class=\"red\">no</span> sex toys.",
+    "translation": "",
+    "pos": 15831
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "321_5_3_7|",
+    "original": "<span class=\"green\"><<print 3 * $featsBoosts.upgrades.sexToys / _details.cost>></span> sex toys.",
+    "translation": "",
+    "pos": 15944
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "324_5_3_7|",
+    "original": "You will start the game with",
+    "translation": "",
+    "pos": 16078
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "326_5_3_7|",
+    "original": "_name at level <span class=\"pink\">F+</span>.",
+    "translation": "",
+    "pos": 16177
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "328_5_3_7|",
+    "original": "_name at level <span class=\"purple\">D</span>.",
+    "translation": "",
+    "pos": 16296
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "330_5_3_7|",
+    "original": "_name at level <span class=\"purple\">D+</span>.",
+    "translation": "",
+    "pos": 16416
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "332_5_3_7|",
+    "original": "_name at level <span class=\"blue\">C</span>.",
+    "translation": "",
+    "pos": 16537
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "334_5_3_7|",
+    "original": "<span class=\"red\">no</span> proficiency in _name.",
+    "translation": "",
+    "pos": 16603
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "339_5_3_7|",
+    "original": "<span class=\"gold bold\">Clothing Type: </span>",
+    "translation": "",
+    "pos": 16735
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "340_5_3_7|",
+    "original": "<label><<print '<<radiobutton \"$featsBoosts.clothingGender\" \"Either\" ' + ($featsBoosts.clothingGender is \"Either\" ? \"checked\" : \"\") + '>>'>> Either</label> |",
+    "translation": "",
+    "pos": 16787
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "341_5_3_7|",
+    "original": "<label><<print '<<radiobutton \"$featsBoosts.clothingGender\" \"Male\" ' + ($featsBoosts.clothingGender is \"Male\" ? \"checked\" : \"\") + '>>'>> Male</label> |",
+    "translation": "",
+    "pos": 16950
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "342_5_3_7|",
+    "original": "<label><<print '<<radiobutton \"$featsBoosts.clothingGender\" \"Female\" ' + ($featsBoosts.clothingGender is \"Female\" ? \"checked\" : \"\") + '>>'>> Female</label>",
+    "translation": "",
+    "pos": 17107
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "344_5_3_7|",
+    "original": "<span class=\"gold bold\">Enable Custom Colour (expect crazy results): </span>",
+    "translation": "",
+    "pos": 17278
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "345_5_3_7|",
+    "original": "<label><<print '<<radiobutton \"$featsBoosts.clothingCustomColors\" false ' + ($featsBoosts.clothingCustomColors is false ? \"checked\" : \"\") + '>>'>> No</label> |",
+    "translation": "",
+    "pos": 17361
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "346_5_3_7|",
+    "original": "<label><<print '<<radiobutton \"$featsBoosts.clothingCustomColors\" true ' + ($featsBoosts.clothingCustomColors is true ? \"checked\" : \"\") + '>>'>> Yes</label>",
+    "translation": "",
+    "pos": 17527
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "351_5_3_7|",
+    "original": "<span class=\"red\">Remove _details.exclusive upgrades to make use of this upgrade.</span>",
+    "translation": "",
+    "pos": 17867
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "361_5_3_7|",
+    "original": "<div class=\"settingsGrid\" style=\"margin:10px 0px\">",
+    "translation": "",
+    "pos": 18318
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "362_5_3_7|",
+    "original": "<div class=\"settingsHeader\">Tattoo <<print _tattooNumber>>",
+    "translation": "",
+    "pos": 18376
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "365_5_3_7|",
+    "original": "<span style=\"font-size:80%;\">",
+    "translation": "",
+    "pos": 18513
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "366_5_3_7|",
+    "original": "<<link \"Previous Tattoo\">>",
+    "translation": "",
+    "pos": 18552
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "373_5_3_7|",
+    "original": "<<link \"Next Tattoo\">>",
+    "translation": "",
+    "pos": 18818
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "384_5_3_7|",
+    "original": "<span class=\"listMargin\">",
+    "translation": "",
+    "pos": 19162
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "385_5_3_7|",
+    "original": "<span class=\"gold\">Tattoo Type:</span>",
+    "translation": "",
+    "pos": 19197
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "387_5_3_7|",
+    "original": "<<listbox `\"$featsBoosts.tattoos[\"+_tattooNumber+\"].pen\"` autoselect>>",
+    "translation": "",
+    "pos": 19296
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "388_5_3_7|",
+    "original": "<<optionsfrom _penOptions>>",
+    "translation": "",
+    "pos": 19377
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "393_5_3_7|",
+    "original": "<span class=\"gold\">Tattoo Location:</span>",
+    "translation": "",
+    "pos": 19505
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "399_5_3_7|",
+    "original": "<<run _bodyPartOptions.delete($featsBoosts.tattoos[_l].bodypart)>>",
+    "translation": "",
+    "pos": 19875
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "401_5_3_7|",
+    "original": "<<listbox `\"$featsBoosts.tattoos[\"+_tattooNumber+\"].bodypart\"` autoselect>>",
+    "translation": "",
+    "pos": 19967
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "402_5_3_7|",
+    "original": "<<option \"Random\">>",
+    "translation": "",
+    "pos": 20052
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "403_5_3_7|",
+    "original": "<<optionsfrom _bodyPartOptions>>",
+    "translation": "",
+    "pos": 20081
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "414_5_3_7|",
+    "original": "const currentList = '#' + _tattooNumber + 'tattooList';",
+    "translation": "",
+    "pos": 20418
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "415_5_3_7|",
+    "original": "const currentFilterId = '#' + _tattooNumber + 'tattooFilter';",
+    "translation": "",
+    "pos": 20480
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "417_5_3_7|",
+    "original": "new Wikifier(null, `<<print \"${currentList}\">> <<replace \"${currentList}\">><<tattooList>><</replace>>`);",
+    "translation": "",
+    "pos": 20613
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "418_5_3_7|",
+    "original": "}).trigger('change');",
+    "translation": "",
+    "pos": 20725
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "427_5_3_7|",
+    "original": "<label>Earslime starting type:",
+    "translation": "",
+    "pos": 21005
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "428_5_3_7|",
+    "original": "<<listbox \"$featsBoosts.earSlimeType\" autoselect>>",
+    "translation": "",
+    "pos": 21043
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "429_5_3_7|",
+    "original": "<<option \"Immature and passive\" \"immaturePassive\">>",
+    "translation": "",
+    "pos": 21102
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "430_5_3_7|",
+    "original": "<<option \"Immature and aggressive\" \"immatureAggressive\">>",
+    "translation": "",
+    "pos": 21162
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "431_5_3_7|",
+    "original": "<<option \"Partly grown and aggressive\" \"grownAggressive\">>",
+    "translation": "",
+    "pos": 21228
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "438_5_3_7|",
+    "original": "<span class=\"red\"><<print $featsBoosts.missing[_name]>></span>",
+    "translation": "",
+    "pos": 21371
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "444_5_3_7|",
+    "original": "<span class=\"gold\">Filter designs by:</span>",
+    "translation": "",
+    "pos": 21498
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "446_5_3_7|",
+    "original": "\"All\" : \"all\",",
+    "translation": "",
+    "pos": 21571
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "447_5_3_7|",
+    "original": "\"Image\" : \"object\",",
+    "translation": "",
+    "pos": 21588
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "448_5_3_7|",
+    "original": "\"Text\" : \"text\",",
+    "translation": "",
+    "pos": 21610
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "449_5_3_7|",
+    "original": "\"Masculine\" : \"m\",",
+    "translation": "",
+    "pos": 21629
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "450_5_3_7|",
+    "original": "\"Feminine\" : \"f\",",
+    "translation": "",
+    "pos": 21650
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "451_5_3_7|",
+    "original": "\"Bestiality\" : \"bestiality\",",
+    "translation": "",
+    "pos": 21670
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "452_5_3_7|",
+    "original": "\"Cattle\" : \"cattle\",",
+    "translation": "",
+    "pos": 21701
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "453_5_3_7|",
+    "original": "\"Combat\" : \"combat\",",
+    "translation": "",
+    "pos": 21724
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "454_5_3_7|",
+    "original": "\"Criminal\" : \"criminal\",",
+    "translation": "",
+    "pos": 21747
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "455_5_3_7|",
+    "original": "\"Exhibitionism\" : \"exhibitionism\",",
+    "translation": "",
+    "pos": 21774
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "456_5_3_7|",
+    "original": "\"Prostitution\" : \"prostitution\",",
+    "translation": "",
+    "pos": 21811
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "457_5_3_7|",
+    "original": "\"Rape\" : \"rape\",",
+    "translation": "",
+    "pos": 21846
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "458_5_3_7|",
+    "original": "\"Sex\" : \"sex\",",
+    "translation": "",
+    "pos": 21865
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "459_5_3_7|",
+    "original": "\"Violence\" : \"violence\",",
+    "translation": "",
+    "pos": 21882
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "460_5_3_7|",
+    "original": "\"Pregnancy\" : \"pregnancy\",",
+    "translation": "",
+    "pos": 21909
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "461_5_3_7|",
+    "original": "\"Impreg\" : \"impreg\",",
+    "translation": "",
+    "pos": 21938
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "463_5_3_7|",
+    "original": "<<listbox `\"$tattooFilter\"+_tattooNumber` autoselect>>",
+    "translation": "",
+    "pos": 21966
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "464_5_3_7|",
+    "original": "<<optionsfrom _tattooFilters>>",
+    "translation": "",
+    "pos": 22023
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "469_5_3_7|",
+    "original": "<span class=\"gold\">Tattoo Design:</span>",
+    "translation": "",
+    "pos": 22106
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "471_5_3_7|",
+    "original": "<<listbox `\"$featsBoosts.tattoos[\"+_tattooNumber+\"].tattoo\"` autoselect>>",
+    "translation": "",
+    "pos": 22172
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "472_5_3_7|",
+    "original": "<<option \"Random\">>",
+    "translation": "",
+    "pos": 22248
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "473_5_3_7|",
+    "original": "<<optionsfrom _featsTattooOptions>>",
+    "translation": "",
+    "pos": 22270
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "504_5_3_7|",
+    "original": "<<run _featsTattooOptions.push(_value.writing)>>",
+    "translation": "",
+    "pos": 23626
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "516_5_3_7|",
+    "original": "<span class=\"gold bold\">Upgrades:</span>",
+    "translation": "",
+    "pos": 24066
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "518_5_3_7|",
+    "original": "<div style=\"margin-bottom:10px;\">",
+    "translation": "",
+    "pos": 24114
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "520_5_3_7|",
+    "original": "<<case \"money\">>",
+    "translation": "",
+    "pos": 24167
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "521_5_3_7|",
+    "original": "Each purchased upgrade will add <span class=\"green\">£<<print $featsBoosts.upgradeDetails.money.limit * 5>></span> to your starting money.",
+    "translation": "",
+    "pos": 24186
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "522_5_3_7|",
+    "original": "<<case \"grades\">>",
+    "translation": "",
+    "pos": 24325
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "523_5_3_7|",
+    "original": "Each purchased upgrade will raise your starting school grades by <span class=\"green\">one letter grade.</span>",
+    "translation": "",
+    "pos": 24345
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "524_5_3_7|",
+    "original": "<<case \"purity\">>",
+    "translation": "",
+    "pos": 24456
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "525_5_3_7|",
+    "original": "Each purchased upgrade will increase your daily purity by one point per level.",
+    "translation": "",
+    "pos": 24476
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "526_5_3_7|",
+    "original": "<<case \"impurity\">>",
+    "translation": "",
+    "pos": 24556
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "527_5_3_7|",
+    "original": "Each purchased upgrade will decrease your daily purity by one point per level.",
+    "translation": "",
+    "pos": 24578
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "528_5_3_7|",
+    "original": "<<case \"newLife\">>",
+    "translation": "",
+    "pos": 24658
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "530_5_3_7|",
+    "original": "Purchase the first upgrade to start the game with a hermaphrodite tentacle parasite. Purchase the second upgrade to give it perfect activity; otherwise it will have random activity.",
+    "translation": "",
+    "pos": 24709
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "532_5_3_7|",
+    "original": "Purchase the first upgrade to start the game with a hermaphrodite tentacle parasite with random activity. Acquire a second broodmother feat to give it perfect activity.",
+    "translation": "",
+    "pos": 24905
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "534_5_3_7|",
+    "original": "<<case \"aNewBestFriend\">>",
+    "translation": "",
+    "pos": 25085
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "535_5_3_7|",
+    "original": "Purchase this upgrade to start the game with a ear slime parasite.",
+    "translation": "",
+    "pos": 25113
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "536_5_3_7|",
+    "original": "<<case \"randomClothing\">>",
+    "translation": "",
+    "pos": 25181
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "537_5_3_7|",
+    "original": "Each purchased upgrade gives you three random clothing items of the specified gender.",
+    "translation": "",
+    "pos": 25209
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "538_5_3_7|",
+    "original": "<<case \"tattoos\">>",
+    "translation": "",
+    "pos": 25296
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "539_5_3_7|",
+    "original": "Each purchased upgrade will allow you to get one starting tattoo or brand of your choice.",
+    "translation": "",
+    "pos": 25317
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "540_5_3_7|",
+    "original": "<<case \"defaultMoves\">>",
+    "translation": "",
+    "pos": 25409
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "541_5_3_7|",
+    "original": "Each purchased upgrade will grant you an additional action set.",
+    "translation": "",
+    "pos": 25435
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "542_5_3_7|",
+    "original": "<<case \"specialClothing\">>",
+    "translation": "",
+    "pos": 25500
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "543_5_3_7|",
+    "original": "Purchase this upgrade to unlock previously unlocked special clothes.",
+    "translation": "",
+    "pos": 25529
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "544_5_3_7|",
+    "original": "<<case \"sexToys\">>",
+    "translation": "",
+    "pos": 25599
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "545_5_3_7|",
+    "original": "Each purchased upgrade will give you three starting sex toys of your choice.",
+    "translation": "",
+    "pos": 25620
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "547_5_3_7|",
+    "original": "Each purchased upgrade will raise your _name level by <span class=\"green\">one letter grade.</span>",
+    "translation": "",
+    "pos": 25712
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "560_5_3_7|",
+    "original": "<<button \"<span class='fa-icon fa-left'></span><span class='fa-icon fa-left'></span>\">>",
+    "translation": "",
+    "pos": 26111
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "566_5_3_7|",
+    "original": "<<button \"<span class='fa-icon fa-left'></span><span class='fa-icon fa-left'></span>\">>",
+    "translation": "",
+    "pos": 26369
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "572_5_3_7|",
+    "original": "<<button \"<span class='fa-icon fa-left'></span>\">>",
+    "translation": "",
+    "pos": 26576
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "578_5_3_7|",
+    "original": "<<button \"<span class='fa-icon fa-left'></span>\">>",
+    "translation": "",
+    "pos": 26767
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "583_5_3_7|",
+    "original": "<<button \"_purchasedUpgrades / _totalUpgrades\">>",
+    "translation": "",
+    "pos": 26902
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "589_5_3_7|",
+    "original": "<<button \"<span class='fa-icon fa-right'></span>\">>",
+    "translation": "",
+    "pos": 27142
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "595_5_3_7|",
+    "original": "<<button \"<span class='fa-icon fa-right'></span>\">>",
+    "translation": "",
+    "pos": 27333
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "602_5_3_7|",
+    "original": "<<button \"<span class='fa-icon fa-right'></span><span class='fa-icon fa-right'></span>\">>",
+    "translation": "",
+    "pos": 27604
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "608_5_3_7|",
+    "original": "<<button \"<span class='fa-icon fa-right'></span><span class='fa-icon fa-right'></span>\">>",
+    "translation": "",
+    "pos": 27851
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "613_5_3_7|",
+    "original": "<div class=\" black small-description\" style=\"margin-top:10px;\">(<span class=\"gold\">_details.cost <<print (_details.cost is 1 ? \"VrelCoin\" : \"VrelCoins\")>></span> per upgrade)</div>",
+    "translation": "",
+    "pos": 27987
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "616_5_3_7|",
+    "original": "<div style=\"margin-top:10px;\">",
+    "translation": "",
+    "pos": 28200
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "617_5_3_7|",
+    "original": "<span class=\"green\">Green Thumb</span> - More bountiful crops and no decay when using fertiliser. Start with one fertiliser.",
+    "translation": "",
+    "pos": 28234
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "618_5_3_7|",
+    "original": "<div class=\"featButton roundl roundr\" style=\"margin-top:5px;\">",
+    "translation": "",
+    "pos": 28362
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "620_5_3_7|",
+    "original": "<<button \"Start with this trait\">><<print \"<<updateFeatsPointsMenu greenThumb $featsBoosts.upgradeDetails.greenThumb.cost>>\">><</button>>",
+    "translation": "",
+    "pos": 28574
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "622_5_3_7|",
+    "original": "<<button \"Remove this trait\">><<print \"<<updateFeatsPointsMenu greenThumb \" + (-1 * $featsBoosts.upgradeDetails.greenThumb.cost) + \">>\">><</button>>",
+    "translation": "",
+    "pos": 28763
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "626_5_3_7|",
+    "original": "<div class=\" black small-description\" style=\"margin-top:10px;\">(<span class=\"gold\"><<print \"$featsBoosts.upgradeDetails.greenThumb.cost\">> VrelCoins</span> to purchase)</div>",
+    "translation": "",
+    "pos": 28946
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "641_5_3_7|",
+    "original": "<div class=\"settingsGrid\" style=\"margin:10px 0px\">",
+    "translation": "",
+    "pos": 29509
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "642_5_3_7|",
+    "original": "<div class=\"settingsHeader\">Toy <<print _toyNumber+1>>",
+    "translation": "",
+    "pos": 29563
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "645_5_3_7|",
+    "original": "<span style=\"font-size:80%;\">",
+    "translation": "",
+    "pos": 29678
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "646_5_3_7|",
+    "original": "<<link \"Previous Toy\">>",
+    "translation": "",
+    "pos": 29713
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "653_5_3_7|",
+    "original": "<<link \"Next Toy\">>",
+    "translation": "",
+    "pos": 29937
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "664_5_3_7|",
+    "original": "<span class=\"gold\">Sex Toy:</span>",
+    "translation": "",
+    "pos": 30224
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "666_5_3_7|",
+    "original": "<<listbox \"$featsBoosts.sexToys[_toyNumber].index\" autoselect>>",
+    "translation": "",
+    "pos": 30298
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "667_5_3_7|",
+    "original": "<<option \"Random\" -1>>",
+    "translation": "",
+    "pos": 30368
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "668_5_3_7|",
+    "original": "<<optionsfrom _toys>>",
+    "translation": "",
+    "pos": 30397
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "677_5_3_7|",
+    "original": "new Wikifier(null, \"<<replace '#sexToysFeatUIColour'>><<sexToysFeatUIColour>><</replace>>\");",
+    "translation": "",
+    "pos": 30618
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "678_5_3_7|",
+    "original": "}).trigger('change') })>>",
+    "translation": "",
+    "pos": 30713
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "685_5_3_7|",
+    "original": "<<set _selectedToy to Object.values(setup.sextoys).find(toy => toy.index === V.featsBoosts.sexToys[T.toyNumber].index)>>",
+    "translation": "",
+    "pos": 30939
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "687_5_3_7|",
+    "original": "<<run _selectedToy.colour_options.forEach(colour => _toyColours[colour] = colour)>>",
+    "translation": "",
+    "pos": 31156
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "694_5_3_7|",
+    "original": "<span class=\"gold\">Colour:</span><br>",
+    "translation": "",
+    "pos": 31380
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "695_5_3_7|",
+    "original": "<<listbox \"$featsBoosts.sexToys[_toyNumber].colour\" autoselect>>",
+    "translation": "",
+    "pos": 31420
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "696_5_3_7|",
+    "original": "<<option \"Random\" -1>>",
+    "translation": "",
+    "pos": 31488
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "697_5_3_7|",
+    "original": "<<optionsfrom _toyColours>>",
+    "translation": "",
+    "pos": 31514
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "735_5_3_7|",
+    "original": "<<case \"It Belongs in a Museum\">>",
+    "translation": "",
+    "pos": 32850
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "736_5_3_7|",
+    "original": "<span class=\"title\">It Belongs in a Museum?</span>",
+    "translation": "",
+    "pos": 32890
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "739_5_3_7|",
+    "original": "<span class=\"text\"><<print setup.feats[_args[0]].title>></span>",
+    "translation": "",
+    "pos": 33020
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "741_5_3_7|",
+    "original": "<span class=\"text\"><<print setup.feats[_args[0]].title>>?</span>",
+    "translation": "",
+    "pos": 33106
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "743_5_3_7|",
+    "original": "<span class=\"title\"><<print setup.feats[_args[0]].title>>?</span>",
+    "translation": "",
+    "pos": 33191
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "747_5_3_7|",
+    "original": "<<case \"No More Control\">>",
+    "translation": "",
+    "pos": 33311
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "748_5_3_7|",
+    "original": "<span class=\"text\">You don't know how to get lewder... right?</span>",
+    "translation": "",
+    "pos": 33344
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "749_5_3_7|",
+    "original": "<<case \"Teachers Nightmare\">>",
+    "translation": "",
+    "pos": 33418
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "750_5_3_7|",
+    "original": "<span class=\"text\">You are a terror... right?</span>",
+    "translation": "",
+    "pos": 33454
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "751_5_3_7|",
+    "original": "<<case \"Anti-Social Moth\">>",
+    "translation": "",
+    "pos": 33512
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "752_5_3_7|",
+    "original": "<span class=\"text\">Who needs friends... right?</span>",
+    "translation": "",
+    "pos": 33546
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "755_5_3_7|",
+    "original": "<span class=\"text\"><<print setup.feats[_args[0]].desc>>.. right?</span>",
+    "translation": "",
+    "pos": 33678
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "757_5_3_7|",
+    "original": "<span class=\"text\"><<print setup.feats[_args[0]].desc>>... right?</span>",
+    "translation": "",
+    "pos": 33772
+  },
+  {
+    "passage": "FeatsUI",
+    "filepath": "base-system/overlays/feats-ui.twee",
+    "key": "761_5_3_7|",
+    "original": "<div @id=\"'closeFeat-' + _featsCount\" class=\"closeFeat\" @onclick=\"'closeFeats('+ _featsCount +')'\"></div>",
+    "translation": "",
+    "pos": 33888
+  }
+]

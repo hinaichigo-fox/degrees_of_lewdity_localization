@@ -1,0 +1,258 @@
+[
+  {
+    "passage": "Widgets Kitchen",
+    "filepath": "base-system/kitchen.twee",
+    "key": "6_5_3_7|",
+    "original": "<summary class=\"journal\"><<print _args[0].toLocaleUpperFirst()>></summary>",
+    "translation": "",
+    "pos": 105
+  },
+  {
+    "passage": "Widgets Kitchen",
+    "filepath": "base-system/kitchen.twee",
+    "key": "21_5_3_7|",
+    "original": "<div class=\"recipe-text\"><<tendingicon setup.plants[_food].icon>><<print _food.toLocaleUpperFirst().replace(/_/g,\" \")>></div>",
+    "translation": "",
+    "pos": 948
+  },
+  {
+    "passage": "Widgets Kitchen",
+    "filepath": "base-system/kitchen.twee",
+    "key": "22_5_3_7|",
+    "original": "Owned: <span class=\"gold\"><<print $plants[_food].amount>></span>",
+    "translation": "",
+    "pos": 1079
+  },
+  {
+    "passage": "Widgets Kitchen",
+    "filepath": "base-system/kitchen.twee",
+    "key": "24_5_3_7|",
+    "original": "Time: <span class=\"gold\"><<print setup.plants[_food].days>></span> minute<<if setup.plants[_food].days isnot 1>>s<</if>>",
+    "translation": "",
+    "pos": 1159
+  },
+  {
+    "passage": "Widgets Kitchen",
+    "filepath": "base-system/kitchen.twee",
+    "key": "26_5_3_7|",
+    "original": "Result: <span class=\"gold\"><<print setup.plants[_food].multiplier>></span>",
+    "translation": "",
+    "pos": 1295
+  },
+  {
+    "passage": "Widgets Kitchen",
+    "filepath": "base-system/kitchen.twee",
+    "key": "27_5_3_7|",
+    "original": "<<= setup.plants[_food].multiplier gte 2 ? setup.plants[_food].plural : setup.plants[_food].singular>>",
+    "translation": "",
+    "pos": 1375
+  },
+  {
+    "passage": "Widgets Kitchen",
+    "filepath": "base-system/kitchen.twee",
+    "key": "29_5_3_7|",
+    "original": "Ingredients (available):",
+    "translation": "",
+    "pos": 1493
+  },
+  {
+    "passage": "Widgets Kitchen",
+    "filepath": "base-system/kitchen.twee",
+    "key": "33_5_3_7|",
+    "original": "<<print _ingredient.toLocaleUpperFirst().replace(/_/g,\" \")>>",
+    "translation": "",
+    "pos": 1730
+  },
+  {
+    "passage": "Widgets Kitchen",
+    "filepath": "base-system/kitchen.twee",
+    "key": "37_5_3_7|",
+    "original": "<span class=\"red\">Ingredient missing, perhaps misspelled?</span>",
+    "translation": "",
+    "pos": 1913
+  },
+  {
+    "passage": "Widgets Kitchen",
+    "filepath": "base-system/kitchen.twee",
+    "key": "41_5_3_7|",
+    "original": "<span class=\"gold\">(∞)</span>",
+    "translation": "",
+    "pos": 2114
+  },
+  {
+    "passage": "Widgets Kitchen",
+    "filepath": "base-system/kitchen.twee",
+    "key": "43_5_3_7|",
+    "original": "<span class=\"gold\">(<<print $plants[_ingredient].amount>>)</span>",
+    "translation": "",
+    "pos": 2168
+  },
+  {
+    "passage": "Widgets Kitchen",
+    "filepath": "base-system/kitchen.twee",
+    "key": "53_5_3_7|",
+    "original": "<span class=\"red\">Problem detected.</span>",
+    "translation": "",
+    "pos": 2812
+  },
+  {
+    "passage": "Widgets Kitchen",
+    "filepath": "base-system/kitchen.twee",
+    "key": "55_5_3_7|",
+    "original": "<<= _e lt setup.plants[_food].ingredients.length - 1 ? \"|\" : \"\">>",
+    "translation": "",
+    "pos": 2875
+  },
+  {
+    "passage": "Widgets Kitchen",
+    "filepath": "base-system/kitchen.twee",
+    "key": "59_5_3_7|",
+    "original": "<span class=\"purple\">You're too tired to cook!</span>",
+    "translation": "",
+    "pos": 3062
+  },
+  {
+    "passage": "Widgets Kitchen",
+    "filepath": "base-system/kitchen.twee",
+    "key": "61_5_3_7|",
+    "original": "<span class=\"purple\">You do not have all the required ingredients.</span>",
+    "translation": "",
+    "pos": 3203
+  },
+  {
+    "passage": "Widgets Kitchen",
+    "filepath": "base-system/kitchen.twee",
+    "key": "63_5_3_7|",
+    "original": "<span class=\"purple\">Some required ingredients are banned by Bailey.</span>",
+    "translation": "",
+    "pos": 3361
+  },
+  {
+    "passage": "Widgets Kitchen",
+    "filepath": "base-system/kitchen.twee",
+    "key": "66_5_3_7|",
+    "original": "<<link [[Make|$passage]]>><<make_recipe _food>><</link>>",
+    "translation": "",
+    "pos": 3536
+  },
+  {
+    "passage": "Widgets Kitchen",
+    "filepath": "base-system/kitchen.twee",
+    "key": "75_5_3_7|",
+    "original": "<span class=\"blue\">You know no recipes!</span> <span class=\"gold\">You can learn them from the housekeeping class at school.</span>",
+    "translation": "",
+    "pos": 3755
+  },
+  {
+    "passage": "Widgets Kitchen",
+    "filepath": "base-system/kitchen.twee",
+    "key": "83_5_3_7|",
+    "original": "<span class=\"gold\">You have learned how to make <<recipe_name _args[0]>>!</span>",
+    "translation": "",
+    "pos": 4009
+  },
+  {
+    "passage": "Widgets Kitchen",
+    "filepath": "base-system/kitchen.twee",
+    "key": "142_5_3_7|",
+    "original": "The kitchen has plenty of the following ingredients in stock:",
+    "translation": "",
+    "pos": 5872
+  },
+  {
+    "passage": "Widgets Kitchen",
+    "filepath": "base-system/kitchen.twee",
+    "key": "146_5_3_7|",
+    "original": "<<print _args[_i].toLocaleUpperFirst().replace(/_/g,\" \")>>",
+    "translation": "",
+    "pos": 6067
+  },
+  {
+    "passage": "Widgets Kitchen",
+    "filepath": "base-system/kitchen.twee",
+    "key": "148_5_3_7|",
+    "original": "<<= _i lt _args.length - 1 ? \"|\" : \"\">>",
+    "translation": "",
+    "pos": 6186
+  },
+  {
+    "passage": "Widgets Kitchen",
+    "filepath": "base-system/kitchen.twee",
+    "key": "163_5_3_7|",
+    "original": "<summary class=\"journal\"><<print _args[0].toLocaleUpperFirst()>></summary>",
+    "translation": "",
+    "pos": 6542
+  },
+  {
+    "passage": "Widgets Kitchen",
+    "filepath": "base-system/kitchen.twee",
+    "key": "177_5_3_7|",
+    "original": "<div class=\"recipe-text\"><<tendingicon setup.plants[_food].icon>><<print _food.toLocaleUpperFirst().replace(/_/g,\" \")>></div>",
+    "translation": "",
+    "pos": 7347
+  },
+  {
+    "passage": "Widgets Kitchen",
+    "filepath": "base-system/kitchen.twee",
+    "key": "178_5_3_7|",
+    "original": "Number owned: <<print $plants[_food].amount>>",
+    "translation": "",
+    "pos": 7485
+  },
+  {
+    "passage": "Widgets Kitchen",
+    "filepath": "base-system/kitchen.twee",
+    "key": "184_5_3_7|",
+    "original": "<span class=\"purple\">You're too tired to cook!</span>",
+    "translation": "",
+    "pos": 7743
+  },
+  {
+    "passage": "Widgets Kitchen",
+    "filepath": "base-system/kitchen.twee",
+    "key": "186_5_3_7|",
+    "original": "<<link [[Make|$passage]]>><<make_recipe _food>><</link>>",
+    "translation": "",
+    "pos": 7850
+  },
+  {
+    "passage": "Widgets Kitchen",
+    "filepath": "base-system/kitchen.twee",
+    "key": "195_5_3_7|",
+    "original": "<span class=\"blue\">You know no recipes!</span> <span class=\"gold\">You can learn them from the housekeeping class at school.</span>",
+    "translation": "",
+    "pos": 8112
+  },
+  {
+    "passage": "Widgets Kitchen",
+    "filepath": "base-system/kitchen.twee",
+    "key": "255_5_3_7|",
+    "original": "<label><<tendingicon setup.plants[_food].icon>><<recipe_name _food \"cap\">> (<<print $plants[_food].amount>>) <<radiobutton \"$gift\" setup.plants[_food] checked>></label> |",
+    "translation": "",
+    "pos": 10520
+  },
+  {
+    "passage": "Widgets Kitchen",
+    "filepath": "base-system/kitchen.twee",
+    "key": "260_5_3_7|",
+    "original": "You don't have any homemade food to gift.",
+    "translation": "",
+    "pos": 10787
+  },
+  {
+    "passage": "Widgets Kitchen",
+    "filepath": "base-system/kitchen.twee",
+    "key": "273_5_3_7|",
+    "original": "<<if _args[1] is \"cap\">>",
+    "translation": "",
+    "pos": 11317
+  },
+  {
+    "passage": "Widgets Kitchen",
+    "filepath": "base-system/kitchen.twee",
+    "key": "276_5_3_7|",
+    "original": "<</silently>><span @class=$_difficultyColour><<print $_recipeName>></span><</widget>>",
+    "translation": "",
+    "pos": 11405
+  }
+]

@@ -1,0 +1,258 @@
+[
+  {
+    "passage": "Saves Export/Import Overlay",
+    "filepath": "base-system/overlays/saves-export-import.twee",
+    "key": "5_5_3_7|",
+    "original": "<span class=\"red\">Note that saving and loading from file may not work on Android devices in all environments.</span>",
+    "translation": "",
+    "pos": 87
+  },
+  {
+    "passage": "Saves Export/Import Overlay",
+    "filepath": "base-system/overlays/saves-export-import.twee",
+    "key": "11_5_3_7|",
+    "original": "Load from file: <input id=\"saveImport\" type=\"file\" value=\"Load from file\" onchange=\"importSave(this.files)\">",
+    "translation": "",
+    "pos": 523
+  },
+  {
+    "passage": "Saves Export/Import Overlay",
+    "filepath": "base-system/overlays/saves-export-import.twee",
+    "key": "14_5_3_7|",
+    "original": "You can't export your current save here!",
+    "translation": "",
+    "pos": 678
+  },
+  {
+    "passage": "Saves Export/Import Overlay",
+    "filepath": "base-system/overlays/saves-export-import.twee",
+    "key": "17_5_3_7|",
+    "original": "<input type=\"button\" class=\"saveMenuButton\" value=\"Save to file\" onclick=\"IronMan.exportCurrent()\">",
+    "translation": "",
+    "pos": 777
+  },
+  {
+    "passage": "Saves Export/Import Overlay",
+    "filepath": "base-system/overlays/saves-export-import.twee",
+    "key": "19_5_3_7|",
+    "original": "Unable to save to file during ironman-mode. Only autosaves can be exported.",
+    "translation": "",
+    "pos": 891
+  },
+  {
+    "passage": "Saves Export/Import Overlay",
+    "filepath": "base-system/overlays/saves-export-import.twee",
+    "key": "23_5_3_7|",
+    "original": "<input type=\"button\" class=\"saveMenuButton\" value=\"Save to file\" @onclick=\"'SugarCube.Save.export('+_exportName+')'\">",
+    "translation": "",
+    "pos": 1133
+  },
+  {
+    "passage": "Saves Export/Import Overlay",
+    "filepath": "base-system/overlays/saves-export-import.twee",
+    "key": "25_5_3_7|",
+    "original": "Unable to save to file currently.",
+    "translation": "",
+    "pos": 1263
+  },
+  {
+    "passage": "Saves Export/Import Overlay",
+    "filepath": "base-system/overlays/saves-export-import.twee",
+    "key": "29_5_3_7|",
+    "original": "<span class=\"gold\">Text Import/Export</span>",
+    "translation": "",
+    "pos": 1318
+  },
+  {
+    "passage": "Saves Export/Import Overlay",
+    "filepath": "base-system/overlays/saves-export-import.twee",
+    "key": "31_5_3_7|",
+    "original": "<span class=\"red\"><b>Combat event active, only use resulting save data for bug reporting!!</b></span><br>",
+    "translation": "",
+    "pos": 1437
+  },
+  {
+    "passage": "Saves Export/Import Overlay",
+    "filepath": "base-system/overlays/saves-export-import.twee",
+    "key": "33_5_3_7|",
+    "original": "This feature lets you transfer saves between devices when one or more does not allow access to save files, such as on Android.",
+    "translation": "",
+    "pos": 1554
+  },
+  {
+    "passage": "Saves Export/Import Overlay",
+    "filepath": "base-system/overlays/saves-export-import.twee",
+    "key": "35_5_3_7|",
+    "original": "To save, click on \"Get Save Data\", then copy and paste the save data where required.",
+    "translation": "",
+    "pos": 1690
+  },
+  {
+    "passage": "Saves Export/Import Overlay",
+    "filepath": "base-system/overlays/saves-export-import.twee",
+    "key": "37_5_3_7|",
+    "original": "To load, paste in the save data then click \"Load Save Data\".",
+    "translation": "",
+    "pos": 1784
+  },
+  {
+    "passage": "Saves Export/Import Overlay",
+    "filepath": "base-system/overlays/saves-export-import.twee",
+    "key": "39_5_3_7|",
+    "original": "To transfer to and from Android, it is recommended to use email or a service such as pastebin. Please ensure that the start and the end of the save is exact to prevent issues.",
+    "translation": "",
+    "pos": 1854
+  },
+  {
+    "passage": "Saves Export/Import Overlay",
+    "filepath": "base-system/overlays/saves-export-import.twee",
+    "key": "41_5_3_7|",
+    "original": "Click on \"Copy Text Area\" to copy the current contents for you. The button name will change to \"Copying Error\" if your device or browser does not support it.",
+    "translation": "",
+    "pos": 2039
+  },
+  {
+    "passage": "Saves Export/Import Overlay",
+    "filepath": "base-system/overlays/saves-export-import.twee",
+    "key": "43_5_3_7|",
+    "original": "<textarea id=\"saveDataInput\" rows=\"4\" cols=\"40\" onClick=\"if(V.disableAutoSelect == false)this.select();\"><<if _presetData>>_presetData<</if>></textarea>",
+    "translation": "",
+    "pos": 2210
+  },
+  {
+    "passage": "Saves Export/Import Overlay",
+    "filepath": "base-system/overlays/saves-export-import.twee",
+    "key": "45_5_3_7|",
+    "original": "<input type=\"button\" class=\"saveMenuButton\" value=\"Clear Text Box\" onclick=\"clearTextBox('saveDataInput')\"/>",
+    "translation": "",
+    "pos": 2372
+  },
+  {
+    "passage": "Saves Export/Import Overlay",
+    "filepath": "base-system/overlays/saves-export-import.twee",
+    "key": "46_5_3_7|",
+    "original": "<input type=\"button\" class=\"saveMenuButton\" value=\"Top of Text Box\" onclick=\"topTextArea('saveDataInput')\"/>",
+    "translation": "",
+    "pos": 2483
+  },
+  {
+    "passage": "Saves Export/Import Overlay",
+    "filepath": "base-system/overlays/saves-export-import.twee",
+    "key": "47_5_3_7|",
+    "original": "<input type=\"button\" class=\"saveMenuButton\" value=\"Bottom of Text Box\" onclick=\"bottomTextArea('saveDataInput')\"/>",
+    "translation": "",
+    "pos": 2594
+  },
+  {
+    "passage": "Saves Export/Import Overlay",
+    "filepath": "base-system/overlays/saves-export-import.twee",
+    "key": "49_5_3_7|",
+    "original": "<input type=\"button\" value=\"Get Save Data\" disabled>",
+    "translation": "",
+    "pos": 2802
+  },
+  {
+    "passage": "Saves Export/Import Overlay",
+    "filepath": "base-system/overlays/saves-export-import.twee",
+    "key": "51_5_3_7|",
+    "original": "<input type=\"button\" class=\"saveMenuButton\" value=\"Get Save Data\" onclick=\"getSaveData()\"/>",
+    "translation": "",
+    "pos": 2869
+  },
+  {
+    "passage": "Saves Export/Import Overlay",
+    "filepath": "base-system/overlays/saves-export-import.twee",
+    "key": "53_5_3_7|",
+    "original": "<input type=\"button\" class=\"saveMenuButton\" value=\"Load Save Data\" onclick=\"loadSaveData()\"/>",
+    "translation": "",
+    "pos": 2973
+  },
+  {
+    "passage": "Saves Export/Import Overlay",
+    "filepath": "base-system/overlays/saves-export-import.twee",
+    "key": "54_5_3_7|",
+    "original": "<input id=\"CopyTextArea\" class=\"saveMenuButton\" type=\"button\" value=\"Copy Text Area\" onclick=\"copySavedata('saveDataInput')\">",
+    "translation": "",
+    "pos": 3069
+  },
+  {
+    "passage": "Saves Export/Import Overlay",
+    "filepath": "base-system/overlays/saves-export-import.twee",
+    "key": "57_5_3_7|",
+    "original": "<<print '<<checkbox \"$disableAutoSelect\" false true '+($disableAutoSelect is true? \"checked\":\"\")+'>>'>>",
+    "translation": "",
+    "pos": 3216
+  },
+  {
+    "passage": "Saves Export/Import Overlay",
+    "filepath": "base-system/overlays/saves-export-import.twee",
+    "key": "58_5_3_7|",
+    "original": "Disables auto select.",
+    "translation": "",
+    "pos": 3322
+  },
+  {
+    "passage": "Saves Export/Import Overlay",
+    "filepath": "base-system/overlays/saves-export-import.twee",
+    "key": "62_5_3_7|",
+    "original": "How many days after exporting will the export warning show:",
+    "translation": "",
+    "pos": 3403
+  },
+  {
+    "passage": "Saves Export/Import Overlay",
+    "filepath": "base-system/overlays/saves-export-import.twee",
+    "key": "64_5_3_7|",
+    "original": "<label><<radiobutton \"$saveDetails.exported.frequency\" 5 autocheck>>5</label> |",
+    "translation": "",
+    "pos": 3472
+  },
+  {
+    "passage": "Saves Export/Import Overlay",
+    "filepath": "base-system/overlays/saves-export-import.twee",
+    "key": "65_5_3_7|",
+    "original": "<label><<radiobutton \"$saveDetails.exported.frequency\" 10 autocheck>>10</label> |",
+    "translation": "",
+    "pos": 3554
+  },
+  {
+    "passage": "Saves Export/Import Overlay",
+    "filepath": "base-system/overlays/saves-export-import.twee",
+    "key": "66_5_3_7|",
+    "original": "<label><<radiobutton \"$saveDetails.exported.frequency\" 15 autocheck>>15</label> |",
+    "translation": "",
+    "pos": 3638
+  },
+  {
+    "passage": "Saves Export/Import Overlay",
+    "filepath": "base-system/overlays/saves-export-import.twee",
+    "key": "67_5_3_7|",
+    "original": "<label><<radiobutton \"$saveDetails.exported.frequency\" 20 autocheck>>20</label> |",
+    "translation": "",
+    "pos": 3722
+  },
+  {
+    "passage": "Saves Export/Import Overlay",
+    "filepath": "base-system/overlays/saves-export-import.twee",
+    "key": "68_5_3_7|",
+    "original": "<label><<radiobutton \"$saveDetails.exported.frequency\" 30 autocheck>>30</label> |",
+    "translation": "",
+    "pos": 3806
+  },
+  {
+    "passage": "Saves Export/Import Overlay",
+    "filepath": "base-system/overlays/saves-export-import.twee",
+    "key": "69_5_3_7|",
+    "original": "<label><<radiobutton \"$saveDetails.exported.frequency\" 60 autocheck>>60</label> |",
+    "translation": "",
+    "pos": 3890
+  },
+  {
+    "passage": "Saves Export/Import Overlay",
+    "filepath": "base-system/overlays/saves-export-import.twee",
+    "key": "70_5_3_7|",
+    "original": "<label><<radiobutton \"$saveDetails.exported.frequency\" 365 autocheck>>365</label>",
+    "translation": "",
+    "pos": 3974
+  }
+]
