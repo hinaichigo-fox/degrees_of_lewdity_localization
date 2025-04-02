@@ -1,0 +1,3218 @@
+[
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "4_5_3_7|",
+    "original": "You shamble through the forest. You know where you're going.",
+    "translation": "",
+    "pos": 45
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "6_5_3_7|",
+    "original": "You move as quick as the rough and wooded terrain will allow. Twigs and fallen branches bend and snap beneath your feet.",
+    "translation": "",
+    "pos": 145
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "8_5_3_7|",
+    "original": "You walk through the trees. The gentle sounds and scents make for a pleasant journey.",
+    "translation": "",
+    "pos": 306
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "10_5_3_7|",
+    "original": "You sneak through the undergrowth, causing as little disturbance as possible.",
+    "translation": "",
+    "pos": 433
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "12_5_3_7|",
+    "original": "You hobble through the undergrowth, careful not to trip.",
+    "translation": "",
+    "pos": 549
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "14_5_3_7|",
+    "original": "The path you take would be invisible if you didn't know where to look. The trees close in around you. You're much deeper in the forest.",
+    "translation": "",
+    "pos": 646
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "16_5_3_7|",
+    "original": "The path you take would be invisible if you didn't know where to look. You soon hear the sounds of town up ahead. You're near the edge of the forest.",
+    "translation": "",
+    "pos": 823
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "18_5_3_7|",
+    "original": "You search as quick as the rough and wooded terrain will allow, tearing fallen branches off the ground to observe beneath.",
+    "translation": "",
+    "pos": 1017
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "20_5_3_7|",
+    "original": "You search for anything of value hidden between the trees.",
+    "translation": "",
+    "pos": 1185
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "23_5_3_7|",
+    "original": "You sneak through the undergrowth, searching among dense ferns for anything of value.",
+    "translation": "",
+    "pos": 1315
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "25_5_3_7|",
+    "original": "You sneak through the undergrowth, scanning the ground for anything of value.",
+    "translation": "",
+    "pos": 1415
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "28_5_3_7|",
+    "original": "You walk along the smooth road, safe from the dangers of the wild.",
+    "translation": "",
+    "pos": 1539
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "31_5_3_7|",
+    "original": "Thick drops of rain fall around you, gathered by the canopy.",
+    "translation": "",
+    "pos": 1657
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "40_5_3_7|",
+    "original": "Go deeper into the forest",
+    "translation": "",
+    "pos": 1846
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "43_5_3_7|",
+    "original": "<<heelsicon \"hobble\">><<link [[Hobble in heels (0:30)|Forest]]>><<set $forestmod to 3>><<set $forest += 5>><<pass 30>><<set $forestmove to \"hobble\">><<if $foresthunt gte 1>><<set $foresthunt += 2>><</if>><</link>><<gharass>>",
+    "translation": "",
+    "pos": 1938
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "46_5_3_7|",
+    "original": "<<forestroadicon \"deep\">><<link [[Follow road (0:10)|Forest]]>><<set $forestmod to 1>><<set $forest += 5>><<set $forestmove to \"road\">><<pass 10>><<if $foresthunt gte 1>><<set $foresthunt += 1>><</if>><<set $eventskip to 1>><</link>><<noharass>>",
+    "translation": "",
+    "pos": 2228
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "50_5_3_7|",
+    "original": "<<runicon>><<link [[Quickly (0:05)|Forest]]>><<set $forestmod to 3>><<set $forest += 5>><<pass 5>><<set $forestmove to \"quickly\">><<if $foresthunt gte 1>><<set $foresthunt += 0.5>><</if>><</link>><<gharass>>",
+    "translation": "",
+    "pos": 2543
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "54_5_3_7|",
+    "original": "<span class=\"nextLink\"><<walkicon>><<link [[The lake.|Forest Blood Deeper]]>><<set $forestmod to 1.5>><<set $forest += 5>><<set $forestmove to \"normally\">><</link>></span>",
+    "translation": "",
+    "pos": 2824
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "56_5_3_7|",
+    "original": "<<walkicon>><<link [[Normally (0:10)|Forest]]>><<set $forestmod to 1.5>><<set $forest += 5>><<set $forestmove to \"normally\">><<pass 10>><<if $foresthunt gte 1>><<set $foresthunt += 1>><</if>><</link>>",
+    "translation": "",
+    "pos": 3010
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "59_5_3_7|",
+    "original": "<<sneakicon>><<link [[Carefully (0:30)|Forest]]>><<set $forestmod to 1>><<set $forest += 5>><<pass 30>><<set $forestmove to \"carefully\">><<if $foresthunt gte 1>><<set $foresthunt += 2>><</if>><</link>><<lharass>>",
+    "translation": "",
+    "pos": 3230
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "62_5_3_7|",
+    "original": "<<forestroadicon \"deep\">><<link [[Follow road (0:05)|Forest]]>><<set $forestmod to 1>><<set $forest += 5>><<set $forestmove to \"road\">><<pass 5>><<if $foresthunt gte 1>><<set $foresthunt += 1>><</if>><<set $eventskip to 1>><</link>><<noharass>>",
+    "translation": "",
+    "pos": 3508
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "68_5_3_7|",
+    "original": "Search this area <<gtreasure>>",
+    "translation": "",
+    "pos": 3812
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "71_5_3_7|",
+    "original": "<<runicon>><<link [[Quickly (0:05)|Forest]]>><<set $forest_search to true>><<set $forestmod to 3>><<pass 5>><<set $forestmove to \"quick_search\">><<if $foresthunt gte 1>><<set $foresthunt += 0.5>><</if>><</link>><<gharass>>",
+    "translation": "",
+    "pos": 3896
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "74_5_3_7|",
+    "original": "<<walkicon>><<link [[Normally (0:10)|Forest]]>><<set $forest_search to true>><<set $forestmod to 1.5>><<set $forestmove to \"normal_search\">><<pass 10>><<if $foresthunt gte 1>><<set $foresthunt += 1>><</if>><</link>>",
+    "translation": "",
+    "pos": 4136
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "76_5_3_7|",
+    "original": "<<sneakicon>><<link [[Carefully (0:30)|Forest]]>><<set $forest_search to true>><<set $forestmod to 1>><<pass 30>><<set $forestmove to \"careful_search\">><<if $foresthunt gte 1>><<set $foresthunt += 2>><</if>><</link>><<lharass>>",
+    "translation": "",
+    "pos": 4359
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "80_5_3_7|",
+    "original": "Go towards town",
+    "translation": "",
+    "pos": 4629
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "83_5_3_7|",
+    "original": "<<heelsicon \"hobble\">><<link [[Hobble in heels (0:30)|Forest]]>><<set $forestmod to 3>><<set $forest -= 5>><<pass 30>><<set $forestmove to \"hobble\">><<if $foresthunt gte 1>><<set $foresthunt += 2>><</if>><</link>><<gharass>>",
+    "translation": "",
+    "pos": 4711
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "86_5_3_7|",
+    "original": "<<forestroadicon \"town\">><<link [[Follow road (0:10)|Forest]]>><<set $forestmod to 1>><<set $forest -= 5>><<set $forestmove to \"road\">><<pass 10>><<if $foresthunt gte 1>><<set $foresthunt += 1>><</if>><<set $eventskip to 1>><</link>><<noharass>>",
+    "translation": "",
+    "pos": 5019
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "90_5_3_7|",
+    "original": "<<runicon>><<link [[Quickly (0:05)|Forest]]>><<set $forestmod to 3>><<set $forest -= 5>><<pass 5>><<set $forestmove to \"quickly\">><<if $foresthunt gte 1>><<set $foresthunt += 0.5>><</if>><</link>><<gharass>>",
+    "translation": "",
+    "pos": 5334
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "94_5_3_7|",
+    "original": "<span class=\"nextLink\"><<walkicon>><<link [[The lake.|Forest Blood Less Deep]]>><<set $forestmod to 1.5>><<set $forest -= 5>><<set $forestmove to \"normally\">><</link>></span>",
+    "translation": "",
+    "pos": 5618
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "96_5_3_7|",
+    "original": "<<walkicon>><<link [[Normally (0:10)|Forest]]>><<set $forestmod to 1.5>><<set $forest -= 5>><<set $forestmove to \"normally\">><<pass 10>><<if $foresthunt gte 1>><<set $foresthunt += 1>><</if>><</link>>",
+    "translation": "",
+    "pos": 5807
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "99_5_3_7|",
+    "original": "<<sneakicon>><<link [[Carefully (0:30)|Forest]]>><<set $forestmod to 1>><<set $forest -= 5>><<pass 30>><<set $forestmove to \"carefully\">><<if $foresthunt gte 1>><<set $foresthunt += 2>><</if>><</link>><<lharass>>",
+    "translation": "",
+    "pos": 6027
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "102_5_3_7|",
+    "original": "<<forestroadicon \"town\">><<link [[Follow road (0:05)|Forest]]>><<set $forestmod to 1>><<set $forest -= 5>><<set $forestmove to \"road\">><<pass 5>><<if $foresthunt gte 1>><<set $foresthunt += 1>><</if>><<set $eventskip to 1>><</link>><<noharass>>",
+    "translation": "",
+    "pos": 6323
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "111_5_3_7|",
+    "original": "You hear a pair up ahead, on the same trail as you.",
+    "translation": "",
+    "pos": 6789
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "114_5_3_7|",
+    "original": "<span class=\"lewd\">You feel the slime in your head command you to give yourself to the pair.</span> It promises rewards if you comply, and threatens consequences if you do not.",
+    "translation": "",
+    "pos": 6857
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "118_5_3_7|",
+    "original": "<<link [[Submit willingly|Forest Slime Pair Submit willingly]]>><<corruption 3>><<pain -8>><<stress -12>><<trauma -24>><<sub 2>><</link>><<promiscuous4>><<ggcorruption>><<llpain>><<llltrauma>><<llstress>>",
+    "translation": "",
+    "pos": 7115
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "121_5_3_7|",
+    "original": "<<link [[Obey|Forest Slime Pair Obey]]>><<corruption 1>><<pain -4>><<stress -6>><<trauma -12>><<sub 2>><</link>><<gcorruption>><<lpain>><<lltrauma>><<lstress>>",
+    "translation": "",
+    "pos": 7343
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "123_5_3_7|",
+    "original": "<<link [[Defy|Forest Slime Pair Defy]]>><<corruption -1>><<pain 8>><<stress 6>><<trauma 6>><<def 1>><</link>><<lcorruption>><<ggpain>><<ggtrauma>><<ggstress>>",
+    "translation": "",
+    "pos": 7514
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "128_5_3_7|",
+    "original": "You hear a pair up ahead, on the same trail as you.",
+    "translation": "",
+    "pos": 7721
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "131_5_3_7|",
+    "original": "You look down at your <<lewdness>> and feel a lewd thrill rush through you. Maybe it wouldn't be so bad if they saw you.",
+    "translation": "",
+    "pos": 7821
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "136_5_3_7|",
+    "original": "<<link [[Stick to the trail|Forest Molestation]]>><<set $molestationstart to 1>><</link>><<exhibitionist3>>",
+    "translation": "",
+    "pos": 8000
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "139_5_3_7|",
+    "original": "<<link [[Stick to the trail|Forest Avoid]]>><<set $phase to 2>><</link>><<exhibitionist3>>",
+    "translation": "",
+    "pos": 8139
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "142_5_3_7|",
+    "original": "<<link [[Avoid them (0:20)|Forest Avoid]]>><<set $phase to 0>><<set $eventskip to 1>><<pass 20>><<if $foresthunt gte 1>><<set $foresthunt += 2>><</if>><</link>>",
+    "translation": "",
+    "pos": 8259
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "144_5_3_7|",
+    "original": "You look down at your <<lewdness>> and feel anxious, you'll have to leave the trail or you'll be seen.",
+    "translation": "",
+    "pos": 8438
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "147_5_3_7|",
+    "original": "<<link [[Avoid them (0:20)|Forest Avoid]]>><<set $phase to 0>><<set $eventskip to 1>><<pass 20>><<if $foresthunt gte 1>><<set $foresthunt += 2>><</if>><</link>>",
+    "translation": "",
+    "pos": 8561
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "151_5_3_7|",
+    "original": "You hear a pair up ahead, on the same trail as you.",
+    "translation": "",
+    "pos": 8768
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "154_5_3_7|",
+    "original": "You look down at your <<lewdness>> and feel a lewd thrill rush through you. Maybe it wouldn't be so bad if they saw you.",
+    "translation": "",
+    "pos": 8879
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "158_5_3_7|",
+    "original": "<<link [[Stick to the trail|Forest Molestation]]>><<set $molestationstart to 1>><</link>><<exhibitionist5>>",
+    "translation": "",
+    "pos": 9045
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "161_5_3_7|",
+    "original": "<<link [[Stick to the trail|Forest Avoid]]>><<set $phase to 3>><</link>><<exhibitionist5>>",
+    "translation": "",
+    "pos": 9184
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "164_5_3_7|",
+    "original": "<<link [[Avoid them (0:20)|Forest Avoid]]>><<set $phase to 0>><<set $eventskip to 1>><<pass 20>><<if $foresthunt gte 1>><<set $foresthunt += 2>><</if>><</link>>",
+    "translation": "",
+    "pos": 9304
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "166_5_3_7|",
+    "original": "You look down at your <<lewdness>> and feel anxious, you'll have to leave the trail or you'll be seen.",
+    "translation": "",
+    "pos": 9483
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "169_5_3_7|",
+    "original": "<<link [[Avoid them (0:20)|Forest Avoid]]>><<set $phase to 0>><<set $eventskip to 1>><<pass 20>><<if $foresthunt gte 1>><<set $foresthunt += 2>><</if>><</link>>",
+    "translation": "",
+    "pos": 9606
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "172_5_3_7|",
+    "original": "You hear a pair up ahead, on the same trail as you. Something about them makes you nervous.",
+    "translation": "",
+    "pos": 9795
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "175_5_3_7|",
+    "original": "<<link [[Avoid them (0:20)|Forest Avoid]]>><<set $phase to 0>><<pass 20>><<if $foresthunt gte 1>><<set $foresthunt += 2>><</if>><</link>>",
+    "translation": "",
+    "pos": 9905
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "179_5_3_7|",
+    "original": "<<link [[Stick to the trail|Forest Molestation]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 10092
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "182_5_3_7|",
+    "original": "<<link [[Stick to the trail|Forest Avoid]]>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 10210
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "193_5_3_7|",
+    "original": "A lone <<beasttype>> emerges from between the trees, teeth bared.",
+    "translation": "",
+    "pos": 10484
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "195_5_3_7|",
+    "original": "\"Found you,\" <<bhe>> barks. \"Mine.\"",
+    "translation": "",
+    "pos": 10576
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "200_5_3_7|",
+    "original": "<<link [[Next|Forest Wolf]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 10689
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "203_5_3_7|",
+    "original": "It chases you through the woods. You run until you can no longer hear it behind you. You're not sure if you outran it or it grew bored.",
+    "translation": "",
+    "pos": 10780
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "207_5_3_7|",
+    "original": "<<link [[Next (0:20)|Forest]]>><<pass 20>><<set $eventskip to 1>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 11048
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "213_5_3_7|",
+    "original": "You see a <<person>> through the trees, leaning against a tree and smoking a cigarette.",
+    "translation": "",
+    "pos": 11280
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "216_5_3_7|",
+    "original": "You follow a different path, not wanting your <<lewdness>> seen.",
+    "translation": "",
+    "pos": 11398
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "219_5_3_7|",
+    "original": "<<He>> glances at you as you pass, but doesn't say anything.",
+    "translation": "",
+    "pos": 11507
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "224_5_3_7|",
+    "original": "<<link [[Next|Forest]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 11611
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "227_5_3_7|",
+    "original": "You see a <<person>> through the trees, reaching into a bramble patch. <<He>> holds a basket full of berries in <<his>> other hand.",
+    "translation": "",
+    "pos": 11710
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "230_5_3_7|",
+    "original": "You follow a deeper path, not wanting your <<lewdness>> seen.",
+    "translation": "",
+    "pos": 11872
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "233_5_3_7|",
+    "original": "<<He>> waves when <<he>> sees you, and you wave back.",
+    "translation": "",
+    "pos": 11978
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "239_5_3_7|",
+    "original": "<<link [[Next|Forest]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 12104
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "245_5_3_7|",
+    "original": "You squeeze through a thicket.",
+    "translation": "",
+    "pos": 12254
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "249_5_3_7|",
+    "original": "<<link [[Next|Forest]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 12383
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "262_5_3_7|",
+    "original": "A chill runs up your spine, a warning from some primal instinct. <span class=\"red\">Something is hunting you.</span>",
+    "translation": "",
+    "pos": 12779
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "275_5_3_7|",
+    "original": "<<link [[Next|Forest]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 13187
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "286_5_3_7|",
+    "original": "A lone <<beasttype>> emerges from between the trees, teeth bared.",
+    "translation": "",
+    "pos": 13534
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "288_5_3_7|",
+    "original": "\"Prey. No struggle.\"",
+    "translation": "",
+    "pos": 13630
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "293_5_3_7|",
+    "original": "<<link [[Next|Forest Wolf]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 13734
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "296_5_3_7|",
+    "original": "It chases you through the woods. You run until you can no longer hear it behind you. You're not sure if you outran it or it grew bored.",
+    "translation": "",
+    "pos": 13828
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "300_5_3_7|",
+    "original": "<<link [[Next (0:20)|Forest]]>><<endevent>><<pass 20>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 14099
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "306_5_3_7|",
+    "original": "You squeeze through a thicket.",
+    "translation": "",
+    "pos": 14333
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "310_5_3_7|",
+    "original": "<<link [[Next|Forest]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 14465
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "329_5_3_7|",
+    "original": "A chill runs up your spine, a warning from some primal instinct. <span class=\"red\">Something is hunting you.</span>",
+    "translation": "",
+    "pos": 15027
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "342_5_3_7|",
+    "original": "<<link [[Next|Forest]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 15435
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "348_5_3_7|",
+    "original": "A pair of",
+    "translation": "",
+    "pos": 15627
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "352_5_3_7|",
+    "original": "wolf people - one male, and one female -",
+    "translation": "",
+    "pos": 15829
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "354_5_3_7|",
+    "original": "emerge from between the trees, teeth bared.",
+    "translation": "",
+    "pos": 15884
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "356_5_3_7|",
+    "original": "\"Found you,\" one barks. \"Outnumbered. You're ours now.\"",
+    "translation": "",
+    "pos": 15956
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "362_5_3_7|",
+    "original": "<<link [[Next|Forest Wolf2]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 16133
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "365_5_3_7|",
+    "original": "They chase you through the woods. You run until you can no longer hear them behind you. You're not sure if you outran them or they grew bored.",
+    "translation": "",
+    "pos": 16228
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "369_5_3_7|",
+    "original": "<<link [[Next (0:20)|Forest]]>><<pass 20>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 16481
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "378_5_3_7|",
+    "original": "You walk through a dense thicket. The air is thick with pollen, but you don't see any flowers. You begin to feel lightheaded, and steady yourself against a trunk. A white haze lingers in the air.",
+    "translation": "",
+    "pos": 16914
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "381_5_3_7|",
+    "original": "<span class=\"lewd\">You feel the slime in your head command you to continue moving in a specific direction.</span> It promises rewards if you comply, and threatens consequences if you do not.",
+    "translation": "",
+    "pos": 17186
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "384_5_3_7|",
+    "original": "<<link [[Obey|Forest Pitcher Slime Obey]]>><<corruption 1>><<pain -4>><<stress -6>><<trauma -12>><<sub 1>><<set $slimeObey to true>><</link>><<gcorruption>><<lpain>><<lltrauma>><<lstress>>",
+    "translation": "",
+    "pos": 17397
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "386_5_3_7|",
+    "original": "<<link [[Defy|Forest Pitcher Slime Defy]]>><<corruption -1>><<pain 8>><<stress 6>><<trauma 6>><<def 1>><</link>><<lcorruption>><<ggpain>><<ggtrauma>><<ggstress>>",
+    "translation": "",
+    "pos": 17601
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "389_5_3_7|",
+    "original": "<<link [[Steady yourself until the feeling subsides (0:30)|Forest Pitcher Wait]]>><<pass 30>><<arousal 1200>><<drugs 30>><</link>><<ggarousal>>",
+    "translation": "",
+    "pos": 17791
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "391_5_3_7|",
+    "original": "<<link [[Continue|Forest Pitcher Ignore]]>><</link>><<willpowerdifficulty 1 $willpowermax>>",
+    "translation": "",
+    "pos": 17950
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "398_5_3_7|",
+    "original": "Something grabs your ankle, causing you to trip and fall. You look back, and see a tree root coiling round you. Several others snake through the undergrowth.",
+    "translation": "",
+    "pos": 18228
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "401_5_3_7|",
+    "original": "<<link [[Struggle|Forest Tentacles]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 18404
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "404_5_3_7|",
+    "original": "<<link [[Allow them to surround you|Forest Tentacles]]>><<set $molestationstart to 2>><</link>><<deviant5>>",
+    "translation": "",
+    "pos": 18533
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "413_5_3_7|",
+    "original": "You squeeze through a thicket.",
+    "translation": "",
+    "pos": 18865
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "417_5_3_7|",
+    "original": "<<link [[Next|Forest]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 18997
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "428_5_3_7|",
+    "original": "You squeeze through a thicket.",
+    "translation": "",
+    "pos": 19456
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "432_5_3_7|",
+    "original": "<<link [[Next|Forest]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 19585
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "447_5_3_7|",
+    "original": "You hear a wolf howl in the distance. The sound is deep and rumbling.",
+    "translation": "",
+    "pos": 19958
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "449_5_3_7|",
+    "original": "It stirs something primal in your body. You're desperate to answer this call.",
+    "translation": "",
+    "pos": 20058
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "452_5_3_7|",
+    "original": "You remember learning about the local species' rut and oestrus period with Sirris. Best not to linger.",
+    "translation": "",
+    "pos": 20230
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "455_5_3_7|",
+    "original": "You don't know why but you think the wolves sound different.",
+    "translation": "",
+    "pos": 20378
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "460_5_3_7|",
+    "original": "<<link [[Next|Forest]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 20494
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "465_5_3_7|",
+    "original": "You hear a wolf howl in the distance.",
+    "translation": "",
+    "pos": 20637
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "473_5_3_7|",
+    "original": "<<link [[Next|Forest]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 20800
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "478_5_3_7|",
+    "original": "You find a trail which makes the going a little easier.",
+    "translation": "",
+    "pos": 20946
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "482_5_3_7|",
+    "original": "<<link [[Next|Forest]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 21043
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "487_5_3_7|",
+    "original": "<<link [[Next|Forest]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 21185
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "494_5_3_7|",
+    "original": "A breeze caresses your face as you enter a clearing. Stood in the middle is a deer. It stops feeding when it notices you, but doesn't move.",
+    "translation": "",
+    "pos": 21384
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "497_5_3_7|",
+    "original": "<<link [[Approach|Forest Deer]]>><</link>>",
+    "translation": "",
+    "pos": 21540
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "499_5_3_7|",
+    "original": "<<link [[Ignore|Forest]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 21594
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "522_5_3_7|",
+    "original": "You hear a gentle buzz up ahead. A large beehive hangs from a tree. Workers fly in and out in a quest for pollen. The honey would be valuable.",
+    "translation": "",
+    "pos": 22202
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "526_5_3_7|",
+    "original": "<<tendingicon \"wild_honeycomb\">><<link [[Harvest honeycomb (0:20)|Forest Honey Pick]]>><<pass 20>><</link>><<tendingdifficulty 800 1100>>",
+    "translation": "",
+    "pos": 22412
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "529_5_3_7|",
+    "original": "<span class=\"blue\">You need a higher tending skill to harvest wild honeycomb.</span>",
+    "translation": "",
+    "pos": 22578
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "532_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Forest]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 22689
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "541_5_3_7|",
+    "original": "A pair of eyes stares out from the darkness beneath a fern.",
+    "translation": "",
+    "pos": 22871
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "548_5_3_7|",
+    "original": "<span class=\"lewd\">You feel the slime in your head command you to drop to all fours.</span> It promises rewards if you comply, and threatens consequences if you do not.",
+    "translation": "",
+    "pos": 23166
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "552_5_3_7|",
+    "original": "<<link [[Submit willingly|Forest Slime Wolf Submit willingly]]>><<corruption 3>><<pain -8>><<stress -12>><<trauma -24>><<sub 2>><</link>><<deviant4>><<ggcorruption>><<llpain>><<llltrauma>><<llstress>>",
+    "translation": "",
+    "pos": 23410
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "555_5_3_7|",
+    "original": "<<link [[Obey|Forest Slime Wolf Obey]]>><<corruption 1>><<pain -4>><<stress -6>><<trauma -12>><<sub 1>><</link>><<gcorruption>><<lpain>><<lltrauma>><<lstress>>",
+    "translation": "",
+    "pos": 23631
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "557_5_3_7|",
+    "original": "<<link [[Defy|Forest Slime Wolf Defy]]>><<corruption -1>><<pain 8>><<stress 6>><<trauma 6>><<def 1>><</link>><<lcorruption>><<ggpain>><<ggtrauma>><<ggstress>>",
+    "translation": "",
+    "pos": 23800
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "562_5_3_7|",
+    "original": "<<link [[Adopt mating posture|Forest Wolf Mate]]>><</link>><<deviant2>>",
+    "translation": "",
+    "pos": 24064
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "566_5_3_7|",
+    "original": "<<link [[Howl|Forest Howl]]>><<endevent>><<stress -12>><<trauma -6>><<set $phase to 0>><</link>><<ltrauma>><<lstress>><<wolfgirl>>",
+    "translation": "",
+    "pos": 24182
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "569_5_3_7|",
+    "original": "<<link [[Continue|Forest]]>><<endevent>><<if $foresthunt gte 1>><<set $foresthunt += 1>><</if>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 24333
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "575_5_3_7|",
+    "original": "Two pairs of eyes stare out from the darkness between the trees.",
+    "translation": "",
+    "pos": 24519
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "581_5_3_7|",
+    "original": "<<link [[Adopt mating posture|Forest Wolf Mate2]]>><</link>><<deviant3>>",
+    "translation": "",
+    "pos": 24730
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "585_5_3_7|",
+    "original": "<<link [[Howl|Forest Howl]]>><<endevent>><<stress -12>><<trauma -6>><<set $phase to 1>><</link>><<ltrauma>><<lstress>><<wolfgirl>>",
+    "translation": "",
+    "pos": 24845
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "588_5_3_7|",
+    "original": "<<link [[Continue|Forest]]>><<endevent>><<if $foresthunt gte 1>><<set $foresthunt += 1>><</if>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 24993
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "594_5_3_7|",
+    "original": "You hear a steady noise up ahead. As you get closer, you see a <<person>> chopping a tree.",
+    "translation": "",
+    "pos": 25193
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "596_5_3_7|",
+    "original": "You crouch behind a bush to conceal your <<nudity>>.",
+    "translation": "",
+    "pos": 25309
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "601_5_3_7|",
+    "original": "<<link [[Let <<him>> see you|Forest Cutter Exhibitionism]]>><<set $phase to 2>><</link>><<exhibitionist5>>",
+    "translation": "",
+    "pos": 25443
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "606_5_3_7|",
+    "original": "<<link [[Let <<him>> see you|Forest Cutter Exhibitionism]]>><<set $phase to 1>><</link>><<exhibitionist3>>",
+    "translation": "",
+    "pos": 25626
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "610_5_3_7|",
+    "original": "<<link [[Sneak around|Forest]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 25765
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "613_5_3_7|",
+    "original": "<<He>> waves at you.",
+    "translation": "",
+    "pos": 25861
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "616_5_3_7|",
+    "original": "<<link [[Approach|Forest Cutter]]>><</link>>",
+    "translation": "",
+    "pos": 25896
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "618_5_3_7|",
+    "original": "<<link [[Wave back and continue on|Forest]]>><<stress -12>><<set $eventskip to 1>><<endevent>><</link>><<lstress>>",
+    "translation": "",
+    "pos": 25950
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "624_5_3_7|",
+    "original": "You round a tree and come face to face with a pair of eyes, hovering just inches from your face. All strength drains from your muscles, and you collapse to the ground. The snake slithers onto the forest floor.",
+    "translation": "",
+    "pos": 26120
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "628_5_3_7|",
+    "original": "<<link [[Next|Forest Snake]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 26364
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "633_5_3_7|",
+    "original": "On the path ahead you spot a group of your classmates lurking off the trail slightly. They look like they are up to no good.",
+    "translation": "",
+    "pos": 26481
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "635_5_3_7|",
+    "original": "<<link [[Go around (0:20)|Forest]]>><<pass 20>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 26617
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "637_5_3_7|",
+    "original": "<<link [[Walk by them|Forest Bully Walk]]>><</link>>",
+    "translation": "",
+    "pos": 26704
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "643_5_3_7|",
+    "original": "You hear the crunch of branches, then the rustle of leaves, and a snort. A <<beasttype>> fast approaches.",
+    "translation": "",
+    "pos": 26837
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "647_5_3_7|",
+    "original": "<<bHe>> bursts through a fern, and doesn't slow down. \"My territory,\" <<bhe>> grunts, changing trajectory and speeding up. \"Trespasser!\" <<bHe>> charges right at you!",
+    "translation": "",
+    "pos": 26978
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "649_5_3_7|",
+    "original": "<<bHe>> bursts through a fern, and doesn't slow down. <<bHe>> changes trajectory and speeds up, charging right at you!",
+    "translation": "",
+    "pos": 27157
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "654_5_3_7|",
+    "original": "<<link [[Brace|Forest Boar Brace]]>><</link>>",
+    "translation": "",
+    "pos": 27349
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "656_5_3_7|",
+    "original": "<<link [[Dodge|Forest Boar Dodge]]>><</link>><<dancedifficulty 1 600>>",
+    "translation": "",
+    "pos": 27404
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "659_5_3_7|",
+    "original": "You leap from the creature's path, dodging it but landing in a thorny bush. The creature rushes into the forest, unconcerned with you.<<beastescape>>",
+    "translation": "",
+    "pos": 27494
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "662_5_3_7|",
+    "original": "<<link [[Next|Forest]]>><<set $eventskip to 1>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 27658
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "668_5_3_7|",
+    "original": "You see fresh bear prints in the dirt.",
+    "translation": "",
+    "pos": 27781
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "673_5_3_7|",
+    "original": "You feel whatever's hunting you draw closer.",
+    "translation": "",
+    "pos": 27884
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "677_5_3_7|",
+    "original": "<<link [[Take a detour (0:30)|Forest]]>><<endevent>><<pass 30>><<if $foresthunt gte 1>><<set $foresthunt += 2>><</if>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 27951
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "681_5_3_7|",
+    "original": "<<link [[Ignore them|Forest Bear Molestation]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 28223
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "684_5_3_7|",
+    "original": "<<link [[Ignore them|Forest]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 28330
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "690_5_3_7|",
+    "original": "You're walking across the top of a dell when the ground gives way. Your stomach lurches as you tumble down the slope.",
+    "translation": "",
+    "pos": 28462
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "692_5_3_7|",
+    "original": "You come to a sudden stop. It takes a moment to get your bearings, as it feels like you're suspended in the air. You try to move, but cannot. You glance around, and realise you're <span class=\"red\">stuck to a giant web.</span>",
+    "translation": "",
+    "pos": 28628
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "696_5_3_7|",
+    "original": "You feel movement elsewhere on the web. Above you. You look up. Many eyes look back. The giant spider creeps closer.",
+    "translation": "",
+    "pos": 28918
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "699_5_3_7|",
+    "original": "You come to a rest at the bottom, unhurt. That could have been fun, if it wasn't so scary.",
+    "translation": "",
+    "pos": 29058
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "703_5_3_7|",
+    "original": "<<link [[Next|Forest]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 29177
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "710_5_3_7|",
+    "original": "Your bare foot steps on a hard and jagged rock. It doesn't hurt much, but the shock makes you lose your footing and you tumble into a fern.",
+    "translation": "",
+    "pos": 29370
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "714_5_3_7|",
+    "original": "<<link [[Next|Forest]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 29569
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "717_5_3_7|",
+    "original": "The ground here is covered by hard and jagged rocks. They're hard to spot within the grass, but your $worn.feet.name hold up.",
+    "translation": "",
+    "pos": 29645
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "720_5_3_7|",
+    "original": "<<link [[Next|Forest]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 29785
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "726_5_3_7|",
+    "original": "You hear a buzzing in the surrounding trees.",
+    "translation": "",
+    "pos": 29897
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "728_5_3_7|",
+    "original": "It's loudest behind you, but before you can turn, a dark shape shoots from the canopy and lands on your <<bottom>>.",
+    "translation": "",
+    "pos": 29972
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "730_5_3_7|",
+    "original": "Two shapes drop from the canopy, and fly towards you.",
+    "translation": "",
+    "pos": 30100
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "735_5_3_7|",
+    "original": "<<link [[Strip clothes|Forest Wasps Strip]]>><</link>><<deviant4>>",
+    "translation": "",
+    "pos": 30228
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "738_5_3_7|",
+    "original": "<<link [[Freeze|Forest Wasps]]>><<set $struggle_start to 1>><</link>>",
+    "translation": "",
+    "pos": 30312
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "744_5_3_7|",
+    "original": "\"Hi there!\" You hear a voice beside you. A <<person \"normal\">> stands by a bush of tangled vines, waving at you cheerfully. <<He>> has <<plant_details>> scattered throughout <<his>> hair, and <<hes>> completely naked.",
+    "translation": "",
+    "pos": 30463
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "748_5_3_7|",
+    "original": "\"Cuties like you don't usually come this far into the forest,\" <<he>> says. \"It's dangerous this deep.",
+    "translation": "",
+    "pos": 30722
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "750_5_3_7|",
+    "original": "I'd ask if you made it through alright, but...\" <<He>> eyes up the lewd fluids covering your body. \"Yeah, you've had some fun.\"",
+    "translation": "",
+    "pos": 30862
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "752_5_3_7|",
+    "original": "Hope you didn't run into any trouble. That'd be awful.\"",
+    "translation": "",
+    "pos": 31002
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "756_5_3_7|",
+    "original": "The <<person \"normal\">> thinks for a moment, before smiling. \"Hey, before you go, how about a kiss? Y'know, for good luck.\" <<He>> closes <<his>> eyes and leans forward, tapping <<his>> finger to <<his>> lips.",
+    "translation": "",
+    "pos": 31079
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "760_5_3_7|",
+    "original": "<span class=\"pink\">You know <<hes>> a <<personsimple>>. You can smell the nectar on <<his>> lips from here.</span> Your heart races, and you can barely think. You need <<his>> nectar. You need more of the sweet, intoxicating nectar.",
+    "translation": "",
+    "pos": 31376
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "763_5_3_7|",
+    "original": "<<link [[Kiss <<him>>|Forest Plant Kiss]]>><</link>><<promiscuous1>><<kissvirginitywarning>>",
+    "translation": "",
+    "pos": 31623
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "765_5_3_7|",
+    "original": "<<link [[Refuse|Forest Plant Kiss Refuse]]>><<stress 12>><</link>><<ggstress>>",
+    "translation": "",
+    "pos": 31725
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "767_5_3_7|",
+    "original": "<<link [[Kiss <<him>>|Forest Plant Kiss]]>><</link>><<promiscuous1>><<kissvirginitywarning>>",
+    "translation": "",
+    "pos": 31816
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "769_5_3_7|",
+    "original": "<<link [[Refuse|Forest Plant Kiss Refuse]]>><</link>>",
+    "translation": "",
+    "pos": 31918
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "776_5_3_7|",
+    "original": "You <span class=\"green\">notice something out of the corner of your eye</span>, and look down. A snare trap made of vines is hidden in the ground. A vine leads across the ground into a nearby bush.",
+    "translation": "",
+    "pos": 32119
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "779_5_3_7|",
+    "original": "<<link [[Step over it|Forest Plant Snare]]>><<set $phase to 0>><</link>>",
+    "translation": "",
+    "pos": 32330
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "781_5_3_7|",
+    "original": "<<link [[Purposefully step in it|Forest Plant Snare]]>><<set $phase to 1>><<control 10>><</link>><<gcontrol>>",
+    "translation": "",
+    "pos": 32412
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "783_5_3_7|",
+    "original": "You're walking through the forest when <span class=\"red\">a snare trap circles around your legs</span>. It tightens and pulls you to the ground, splitting off to pull your legs apart. It looks like it's made out of vines.",
+    "translation": "",
+    "pos": 32534
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "786_5_3_7|",
+    "original": "A <<person \"normal\">> with <<plant_details>> in <<his>> hair and <span class=\"purple\">writhing vines trailing behind <<him>></span> runs up to you from out of a bush. \"Got one!\" the <<person>> crows. \"And I only waited six hours. I'm pretty much a trapping pro.\" <<He>> licks <<his>> lips and moves toward you, wiggling <<his>> fingers lewdly.",
+    "translation": "",
+    "pos": 32769
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "789_5_3_7|",
+    "original": "<<link [[Next|Forest Plant Sex]]>><<set $molestationstart to 1>><<set $leftleg to \"bound\">><<set $rightleg to \"bound\">><</link>>",
+    "translation": "",
+    "pos": 33127
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "795_5_3_7|",
+    "original": "You tread on something hard. You kneel and pull it from the forest detritus. It's an ancient dagger, worn beyond use. A collector might pay for this.",
+    "translation": "",
+    "pos": 33328
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "799_5_3_7|",
+    "original": "<<link [[Next|Forest]]>><<handheldon>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 33572
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "805_5_3_7|",
+    "original": "Something glints at the base of a tree stump. You tug it free. A calmness falls over you.",
+    "translation": "",
+    "pos": 33713
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "809_5_3_7|",
+    "original": "It's a translucent green gemstone. A collector might pay for it.",
+    "translation": "",
+    "pos": 33841
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "813_5_3_7|",
+    "original": "<<link [[Next|Forest]]>><<handheldon>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 33998
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "819_5_3_7|",
+    "original": "You spot a decaying metal shard amongst the fallen bark at your feet. It's an arrowhead. A collector might pay for it.",
+    "translation": "",
+    "pos": 34136
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "823_5_3_7|",
+    "original": "<<link [[Next|Forest]]>><<handheldon>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 34348
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "843_5_3_7|",
+    "original": "The Black Wolf bounds towards you! <<bHe>> observes you for a moment, then howls.",
+    "translation": "",
+    "pos": 34947
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "845_5_3_7|",
+    "original": "\"Not good place for human birth,\" <<bhe>> says, <<bhis>> voice tinged with fear. \"Come. Hold my fur. I'll take you.\"",
+    "translation": "",
+    "pos": 35057
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "847_5_3_7|",
+    "original": "<<bHe>> turns to face away from the forest, but keeps <<bhis>> gaze fixed on you.",
+    "translation": "",
+    "pos": 35190
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "851_5_3_7|",
+    "original": "<<link [[Next|Pregnancy Birth Black Wolf Hospital 1]]>><</link>>",
+    "translation": "",
+    "pos": 35299
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "855_5_3_7|",
+    "original": "The Black Wolf bounds towards you!",
+    "translation": "",
+    "pos": 35458
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "857_5_3_7|",
+    "original": "<<bHis>> excitement knocks you over as <<bhe>> leaps on top of you and licks your face, then turns and walks several paces away.<<stress -1>><<lstress>>",
+    "translation": "",
+    "pos": 35539
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "859_5_3_7|",
+    "original": "<<bHe>> looks back over <<bhis>> shoulder, in the direction of the wolf cave.",
+    "translation": "",
+    "pos": 35711
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "861_5_3_7|",
+    "original": "\"Good to see you,\" <<bhe>> says. <<bHe>> looks at your belly, \"But <<ppackbrother>> can't return with human cub,\" <<bhe>> says, disappointed. \"We miss you.\"",
+    "translation": "",
+    "pos": 35827
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "863_5_3_7|",
+    "original": "<<bHe>> looks at your belly and whimpers. You can't go back to the cave while carrying a human cub.",
+    "translation": "",
+    "pos": 36010
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "867_5_3_7|",
+    "original": "\"<<pPackbrother>> still with human cub!\" <<bhe>> barks. \"Leave, now!\"",
+    "translation": "",
+    "pos": 36180
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "869_5_3_7|",
+    "original": "<<bHe>> growls at you. You think <<bhe>> wants you to leave <<bhis>> territory.",
+    "translation": "",
+    "pos": 36276
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "874_5_3_7|",
+    "original": "<<link [[Continue|Forest]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 36439
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "876_5_3_7|",
+    "original": "The Black Wolf bounds towards you! <<bHis>> excitement knocks you over as <<bhe>> leaps on top of you and licks your face, then turns and walks several paces away.<<stress -1>><<lstress>>",
+    "translation": "",
+    "pos": 36555
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "878_5_3_7|",
+    "original": "<<bHe>> looks back over <<bhis>> shoulder, in the direction of the wolf cave.",
+    "translation": "",
+    "pos": 36760
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "880_5_3_7|",
+    "original": "\"Good to see you,\" <<bhe>> says. \"Not safe here. Cold, dark. Come home.\"",
+    "translation": "",
+    "pos": 36874
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "884_5_3_7|",
+    "original": "<<link [[Return to wolf cave (0:30)|Wolf Cave Clearing]]>><<endevent>><<pass 30>><</link>>",
+    "translation": "",
+    "pos": 36986
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "886_5_3_7|",
+    "original": "<<link [[Continue|Forest]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 37096
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "891_5_3_7|",
+    "original": "The Black Wolf bounds towards you!",
+    "translation": "",
+    "pos": 37262
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "893_5_3_7|",
+    "original": "\"Runaway, no good,\" <<bhe>> says.",
+    "translation": "",
+    "pos": 37341
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "896_5_3_7|",
+    "original": "<<link [[Next|Forest Wolf Molestation]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 37425
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "898_5_3_7|",
+    "original": "You hear rustling nearby. A pair of glowing yellow eyes watch you from the canopy. The Black Wolf bounds towards you! You flee in terror, and somehow manage to escape.<<beastescape>>",
+    "translation": "",
+    "pos": 37530
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "900_5_3_7|",
+    "original": "<<link [[Next|Forest]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 37744
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "904_5_3_7|",
+    "original": "You hear rustling nearby. A pair of glowing yellow eyes watch you from the canopy.",
+    "translation": "",
+    "pos": 37901
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "906_5_3_7|",
+    "original": "Tufts of thick black hair cover a nude, towering body from head to toe. With a primal growl, <<bhe>> leaps towards you!",
+    "translation": "",
+    "pos": 38012
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "908_5_3_7|",
+    "original": "A monstrous black wolf bounds towards you!",
+    "translation": "",
+    "pos": 38148
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "912_5_3_7|",
+    "original": "<<link [[Next|Forest Wolf Molestation]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 38218
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "914_5_3_7|",
+    "original": "You hear rustling nearby. A pair of glowing yellow eyes watch you from the canopy. A monstrous black wolf bounds towards you! You flee in terror, and somehow manage to escape.<<beastescape>>",
+    "translation": "",
+    "pos": 38313
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "917_5_3_7|",
+    "original": "<<link [[Next|Forest]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 38520
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "923_5_3_7|",
+    "original": "<<set $wraith.mimic to \"Eden\">><<npc Eden>><<person1>>Something whizzes past and hits a tree in front of you. You shield your face with your arms and stagger backwards. Something presses against your back, and you hear a <<personsimple>>'s voice. \"I've got you now. Don't resist.\"",
+    "translation": "",
+    "pos": 38773
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "926_5_3_7|",
+    "original": "<<link [[Next|Wraith Mimic Fight]]>><<set $wraith.exit to \"forest\">><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 39070
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "930_5_3_7|",
+    "original": "A hand grabs you by the back of the neck as you look off into the forest. \"Told you I'd find you again, didn't I?\" It's Eden.",
+    "translation": "",
+    "pos": 39246
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "933_5_3_7|",
+    "original": "<<He>> pins you against a tree, rage flashing in <<his>> eyes.",
+    "translation": "",
+    "pos": 39388
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "936_5_3_7|",
+    "original": "<<link [[Fight|Eden Caged Caught Resist]]>><<set $fightstart to 1>><</link>>",
+    "translation": "",
+    "pos": 39467
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "938_5_3_7|",
+    "original": "<<link [[Try to pull away|Eden Caged Caught Pull]]>><<def 1>><<npcincr Eden dom -1>><</link>><<physiquedifficulty 2000 18000>><<ldom>>",
+    "translation": "",
+    "pos": 39555
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "940_5_3_7|",
+    "original": "<<link [[Submit (0:30)|Eden Caged Caught]]>><<set $phase to 1>><<pass 30>><<npcincr Eden dom 1>><</link>><<gdom>>",
+    "translation": "",
+    "pos": 39701
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "944_5_3_7|",
+    "original": "A hand grabs you by the back of the neck as you look off into the forest. \"Where the fuck have you been?\" snarls a <<personsimple>>. It's Eden. \"I've been worried sick!\"",
+    "translation": "",
+    "pos": 39979
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "947_5_3_7|",
+    "original": "Before you can speak, Eden begins to drag you away. \"I don't want to hear your excuses, either.\" <<He>> glances scornfully in the direction of the town. \"I could figure what you've been up to, anyway. Things aren't going to be pretty when we get home.\"",
+    "translation": "",
+    "pos": 40165
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "950_5_3_7|",
+    "original": "<<link [[Fight|Eden Caged Caught Resist]]>><<set $fightstart to 1>><</link>>",
+    "translation": "",
+    "pos": 40434
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "952_5_3_7|",
+    "original": "<<link [[Try to pull away|Eden Caged Caught Pull]]>><<def 1>><<npcincr Eden dom -1>><</link>><<physiquedifficulty 2000 18000>><<ldom>>",
+    "translation": "",
+    "pos": 40522
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "954_5_3_7|",
+    "original": "<<link [[Submit (0:30)|Eden Caged Caught]]>><<set $phase to 1>><<pass 30>><<sub 1>><<npcincr Eden dom 1>><</link>><<gdom>>",
+    "translation": "",
+    "pos": 40668
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "958_5_3_7|",
+    "original": "An arm wraps around your neck from behind, while a hand presses against the back of your head. You hear a <<personsimple>>'s voice. \"I've been looking for you all over.\" It's Eden. \"Come on, let's go home.\"",
+    "translation": "",
+    "pos": 40881
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "962_5_3_7|",
+    "original": "<<link [[Resist|Eden Recaptured Resist]]>><<set $fightstart to 1>><</link>>",
+    "translation": "",
+    "pos": 41134
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "964_5_3_7|",
+    "original": "<<link [[Resist|Eden Recaptured Resist Normal]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 41226
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "967_5_3_7|",
+    "original": "<<link [[Go to the cabin (0:30)|Eden Recaptured]]>><<pass 30>><</link>>",
+    "translation": "",
+    "pos": 41337
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "972_5_3_7|",
+    "original": "An arm wraps around your neck from behind, while a hand presses against the back of your head. You hear a <<personsimple>>'s voice. \"I've been looking for you all over.\" It's Eden. \"Come on, let's go home.\"",
+    "translation": "",
+    "pos": 41499
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "975_5_3_7|",
+    "original": "<<link [[Resist|Eden Recaptured Resist]]>><<set $fightstart to 1>><</link>>",
+    "translation": "",
+    "pos": 41722
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "977_5_3_7|",
+    "original": "<<link [[Go to the cabin (0:30)|Eden Recaptured]]>><<pass 30>><</link>>",
+    "translation": "",
+    "pos": 41809
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "986_5_3_7|",
+    "original": "You step on a branch. You're almost caught off guard as a rope starts to coil around your legs. <span class=\"green\">You jump out of the way.</span> A half-second later and you'd be left dangling from a tree.",
+    "translation": "",
+    "pos": 42081
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "989_5_3_7|",
+    "original": "\"Too close,\" a voice calls out. It's Eden. \"Those traps are meant for animals. You should watch where you're going.\"",
+    "translation": "",
+    "pos": 42311
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "992_5_3_7|",
+    "original": "You step on a branch. You're caught off guard as a rope snares around your right leg, hoisting you high into the air. It flips you upside down, leaving you dangling from a nearby tree.<<gstress>><<stress 6>>",
+    "translation": "",
+    "pos": 42478
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "995_5_3_7|",
+    "original": "You reach up to untie yourself, and spot someone watching. It's Eden.",
+    "translation": "",
+    "pos": 42708
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "998_5_3_7|",
+    "original": "\"Those traps are meant for animals,\" <<he>> says. \"You should watch where you're going.\" <<He>> takes your weight in <<his>> arms while <<he>>",
+    "translation": "",
+    "pos": 42800
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1001_5_3_7|",
+    "original": "begins to untie you. <<He>> pauses before <<he>> does.",
+    "translation": "",
+    "pos": 42987
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1003_5_3_7|",
+    "original": "\"We should have some fun first, though, don't you agree?\" <<He>> smiles down at you as <<he>> unzips <<his>> pants.",
+    "translation": "",
+    "pos": 43065
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1006_5_3_7|",
+    "original": "<<link [[Help Eden pull <<his>> pants down|Forest Eden Snare Oral]]>><<set $phase to 0>><<npcincr Eden love 1>><<npcincr Eden dom 1>><<sub 1>><</link>><<glove>><<gdom>>",
+    "translation": "",
+    "pos": 43205
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1008_5_3_7|",
+    "original": "<<link [[Push Eden away|Forest Eden Snare Oral]]>><<set $phase to 1>><<npcincr Eden love -1>><<npcincr Eden dom -1>><<def 1>><</link>><<llove>><<ldom>>",
+    "translation": "",
+    "pos": 43393
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1011_5_3_7|",
+    "original": "unties you, then eases you to the ground.",
+    "translation": "",
+    "pos": 43583
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1016_5_3_7|",
+    "original": "You hear leaves rustling. A deer leaps from a nearby bush, with Eden close behind. The latter stops in <<his>> tracks when <<he>> spots you.",
+    "translation": "",
+    "pos": 43699
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1019_5_3_7|",
+    "original": "\"I almost didn't see you,\" <<he>> says. \"You should get back to the cabin. Where it's safe.\"",
+    "translation": "",
+    "pos": 43860
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1024_5_3_7|",
+    "original": "A light blazes into your eyes, obscuring your vision. You raise your arm in front of your face. \"Can't see a damn thing out here,\" says a voice. It's Eden. <<He>> points the torch right at you. \"What are you doing out at this time?\"",
+    "translation": "",
+    "pos": 44034
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1027_5_3_7|",
+    "original": "An arm wraps around your neck from behind, while a hand presses against the back of your head. You struggle, and the perpetrator releases you. \"Sorry,\" says a voice. It's Eden. \"I just wanted to check on you. Why do you look scared?\"",
+    "translation": "",
+    "pos": 44314
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1035_5_3_7|",
+    "original": "A bullet whizzes past and hits a tree in front of you. You shield your face with your arms and stagger backwards. A cold hard object presses against your back, and you hear a <<personsimple>>'s voice. \"I've got you now. Don't resist.\"",
+    "translation": "",
+    "pos": 44655
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1038_5_3_7|",
+    "original": "<<link [[Next|Forest Hunter Molestation]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 44906
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1046_5_3_7|",
+    "original": "The Black Wolf walks up to you and <<if $monster is 1>>kneels<<else>>turns<</if>> until <<bhis>> <<if C.npc[\"Black Wolf\"].gender is \"m\">>erect $NPCList[0].penisdesc<<else>>wet pussy<</if>> hovers inches away from you. <<bHe>> waits. The other <<wolf_cave_plural>> watch. <<if $monster is 1>>\"Accept, and become <<ppackbrother>>.<<print ((playerHeatMinArousal() and (V.player.vaginaExist or canBeMPregnant()) and V.NPCList[0].penis !== \"none\") ? ' You ready.' : '')>><<print ((playerRutMinArousal() and $NPCList[0].vagina isnot \"none\") ? \" You ready.\" : '')>>\"<</if>>",
+    "translation": "",
+    "pos": 45130
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1049_5_3_7|",
+    "original": "<<link [[Take it in hand|Wolf Cave Accept]]>><<set $sexstart to 1>><</link>><<deviant1>>",
+    "translation": "",
+    "pos": 45717
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1052_5_3_7|",
+    "original": "<<link [[Take it in mouth|Wolf Cave Accept]]>><<set $phase to 1>><<set $sexstart to 1>><</link>><<deviant4>>",
+    "translation": "",
+    "pos": 45863
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1057_5_3_7|",
+    "original": "<<link [[Present your behind|Wolf Cave Accept]]>><<set $phase to 2>><<set $sexstart to 1>><</link>><<deviant5>><<wolfgirl>><<heat>>",
+    "translation": "",
+    "pos": 46256
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1061_5_3_7|",
+    "original": "<<link [[Playful bite|Wolf Cave Accept]]>><<set $phase to 3>><<set $sexstart to 1>><</link>><<deviant5>><<wolfgirl>><<rut>>",
+    "translation": "",
+    "pos": 46533
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1065_5_3_7|",
+    "original": "<<link [[Refuse|Wolf Cave Refuse]]>><</link>>",
+    "translation": "",
+    "pos": 46710
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1069_5_3_7|",
+    "original": "Most of the pack leave to hunt, only a pair remain to guard you. Now could be your chance to escape.",
+    "translation": "",
+    "pos": 46800
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1072_5_3_7|",
+    "original": "<<link [[Try to escape|Forest Wolf Cave Pair]]>><</link>>",
+    "translation": "",
+    "pos": 46917
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1074_5_3_7|",
+    "original": "<<link [[Stay put (0:30)|Forest Wolf Cave Hunt]]>><<pass 30>><</link>><<gstockholm>>",
+    "translation": "",
+    "pos": 46986
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1078_5_3_7|",
+    "original": "One of the <<beastsplural>> approaches you.",
+    "translation": "",
+    "pos": 47120
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1080_5_3_7|",
+    "original": "<<link [[Next|Forest Wolf Cave Molestation]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 47179
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1115_5_3_7|",
+    "original": "You've pushed yourself too much.",
+    "translation": "",
+    "pos": 47952
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1123_5_3_7|",
+    "original": "<<link [[Everything fades to black...|Forest Plant Passout]]>><</link>>",
+    "translation": "",
+    "pos": 48258
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1138_5_3_7|",
+    "original": "You come to a fast-flowing river.",
+    "translation": "",
+    "pos": 48541
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1140_5_3_7|",
+    "original": "You might be able to use it to disrupt your trail and escape your pursuer, but it looks dangerous.",
+    "translation": "",
+    "pos": 48603
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1144_5_3_7|",
+    "original": "<<link [[Swim across|Forest Swim]]>><<set $foresthunt to 0>><</link>><<swimmingdifficulty 1 600>>",
+    "translation": "",
+    "pos": 48723
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1146_5_3_7|",
+    "original": "<<link [[Ignore it|Forest]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 48828
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1157_5_3_7|",
+    "original": "You find a cluster of edible mushrooms growing at the base of a <<if _forest_shrooms is 2>>decaying <</if>> tree.",
+    "translation": "",
+    "pos": 49041
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1162_5_3_7|",
+    "original": "You remember from school that they're called <<tendingicon \"wolfshroom\">> wolfshrooms, and were prized by warriors in ancient times.",
+    "translation": "",
+    "pos": 49244
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1169_5_3_7|",
+    "original": "<<tendingicon \"mushroom\">><<link [[Take for science project (0:02)|Forest Science Shroom]]>><<pass 2>><<set $phase to 0>><</link>>",
+    "translation": "",
+    "pos": 49475
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1172_5_3_7|",
+    "original": "<<tendingicon \"mushroom\">><<link [[Search for saleable specimens (0:20)|Forest Mushrooms Pick]]>><<pass 20>><</link>><<tendingdifficulty 1 300>>",
+    "translation": "",
+    "pos": 49626
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1174_5_3_7|",
+    "original": "<<tendingicon \"mushroom\">><<link [[Eat one (0:01)|Forest Mushrooms]]>><<stress 3>><<pass 1>><<tiredness -6>><</link>><<gstress>><<ltiredness>>",
+    "translation": "",
+    "pos": 49780
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1177_5_3_7|",
+    "original": "<<tendingicon \"wolfshroom\">><<link [[Take for science project (0:02)|Forest Science Shroom]]>><<pass 2>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 49969
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1181_5_3_7|",
+    "original": "<<tendingicon \"wolfshroom\">><<link [[Search for saleable specimens (0:20)|Forest Mushrooms2 Pick]]>><<pass 20>><</link>><<tendingdifficulty 300 600>>",
+    "translation": "",
+    "pos": 50169
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1184_5_3_7|",
+    "original": "<span class=\"blue\">You need a higher tending skill to pick saleable mushrooms.</span>",
+    "translation": "",
+    "pos": 50341
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1187_5_3_7|",
+    "original": "<<tendingicon \"wolfshroom\">><<link [[Eat one (0:01)|Forest Mushrooms2]]>><<pass 1>><<alcohol 60>><<arousal 3000>><<trauma -3>><<transform wolf 3>><</link>><<garousal>><<ltrauma>>",
+    "translation": "",
+    "pos": 50447
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1191_5_3_7|",
+    "original": "<<getouticon>><<link [[Best leave them alone|Forest]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 50649
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1200_5_3_7|",
+    "original": "You hear some rustling from a tree up ahead. <<if $anxiety gte 1>>You instinctively hide behind the nearest tree.<<else>>You cautiously approach to take a look.<</if>>",
+    "translation": "",
+    "pos": 50926
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1203_5_3_7|",
+    "original": "You spot a fluffy orange tail peeking out from a cluster of branches in the canopy. The soft face of a <<beasttype>> suddenly looks up. There's an egg in <<bhis>> mouth.",
+    "translation": "",
+    "pos": 51108
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1206_5_3_7|",
+    "original": "<<bHe>> briefly looks around, before noisily chomping down on the egg. Some of the yolk dribbles down <<bhis>> chin. <<bHe>> reaches into the nest for more,",
+    "translation": "",
+    "pos": 51292
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1208_5_3_7|",
+    "original": "grabbing a handful before deftly leaping down from the tree. <<bHe>> puts them in a pile on the ground.",
+    "translation": "",
+    "pos": 51475
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1210_5_3_7|",
+    "original": "putting one in <<bhis>> mouth before leaping down from the tree. <<bHe>> begins making a pile of them on the ground.",
+    "translation": "",
+    "pos": 51593
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1214_5_3_7|",
+    "original": "<i><span class=\"blue\">If you could raid a nest like that, you might be able to sell any unfertilised <<icon \"tending/bird_egg.png\">> bird eggs you find.</span></i>",
+    "translation": "",
+    "pos": 51734
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1217_5_3_7|",
+    "original": "<<ind>><<link [[Just watch (0:05)|Forest Fox Nest Watch]]>><<pass 5>><<stress -3>><</link>><<lstress>>",
+    "translation": "",
+    "pos": 51912
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1220_5_3_7|",
+    "original": "<<ind>><<link [[Challenge|Forest Fox Nest Challenge]]>><</link>><<harpy>>",
+    "translation": "",
+    "pos": 52047
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1223_5_3_7|",
+    "original": "<<ind>><<link [[Challenge|Forest Fox Nest Challenge]]>><</link>><<physiquedifficulty 1 $physiquemax>>",
+    "translation": "",
+    "pos": 52143
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1227_5_3_7|",
+    "original": "<<ind>><<link [[Sneak up|Forest Fox Nest Sneak]]>><</link>><<skulduggerydifficulty>>",
+    "translation": "",
+    "pos": 52305
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1230_5_3_7|",
+    "original": "<<ind>><<link [[Chase!|Forest Fox Nest Chase]]>><<set $phase2 to 1>><<stress -6>><<transform fox 1>><</link>><<llstress>><<fox>><<note \"No eggs\" \"red\">>",
+    "translation": "",
+    "pos": 52420
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1233_5_3_7|",
+    "original": "<<ind>><<link [[Chase|Forest Fox Nest Chase]]>><<set $phase2 to 1>><<tiredness 6>><</link>><<gtiredness>><<athleticsdifficulty 1 300>><<note \"No eggs\" \"red\">>",
+    "translation": "",
+    "pos": 52595
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1250_5_3_7|",
+    "original": "You spot an <span class=\"purple\">abandoned</span> bird's nest in a nearby tree.",
+    "translation": "",
+    "pos": 53318
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1253_5_3_7|",
+    "original": "You spot a <span class=\"teal\">well-maintained</span> bird's nest in a nearby tree. <<if $forest gt 50>>It sticks out against the decaying branches.<</if>>",
+    "translation": "",
+    "pos": 53498
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1256_5_3_7|",
+    "original": "You spot a large cluster of <<if $forest gt 50>>mud<<else>>twigs<</if>> and foliage on the ground. It looks like a <span class=\"teal\">fallen bird's nest</span>.",
+    "translation": "",
+    "pos": 53717
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1259_5_3_7|",
+    "original": "You spot a large cluster of <<if $forest gt 50>>mud<<else>>twigs<</if>> and foliage on the ground. It looks like a <span class=\"teal\">fallen bird's nest</span>.",
+    "translation": "",
+    "pos": 53931
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1262_5_3_7|",
+    "original": "However, thanks to your tending skill, you spot nearby tracks and holes in the ground. You realise <span class=\"red\">it's a snake's nest</span>.",
+    "translation": "",
+    "pos": 54178
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1270_5_3_7|",
+    "original": "<span class=\"orange\">You smell a <<beasttype>> nearby</span>. You can tell <<bhes>>",
+    "translation": "",
+    "pos": 54472
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1271_5_3_7|",
+    "original": "<<if $NPCList[0].traits.includes(\"cowardly\")>><span class=\"teal\">cowardly</span>.",
+    "translation": "",
+    "pos": 54560
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1272_5_3_7|",
+    "original": "<<elseif $NPCList[0].traits.includes(\"territorial\")>><span class=\"red\">territorial</span>.",
+    "translation": "",
+    "pos": 54646
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1273_5_3_7|",
+    "original": "<<elseif $NPCList[0].traits.includes(\"clever\")>><span class=\"purple\">clever</span>.",
+    "translation": "",
+    "pos": 54741
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1274_5_3_7|",
+    "original": "<<elseif $NPCList[0].traits.includes(\"friendly\")>><span class=\"green\">friendly</span>.",
+    "translation": "",
+    "pos": 54829
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1275_5_3_7|",
+    "original": "<<elseif $NPCList[0].traits.includes(\"clumsy\")>><span class=\"blue\">clumsy</span>.",
+    "translation": "",
+    "pos": 54920
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1280_5_3_7|",
+    "original": "<span class=\"blue\">You hear a rustle nearby.</span> Something else is eyeing up the nest, too.",
+    "translation": "",
+    "pos": 55140
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1287_5_3_7|",
+    "original": "<<ind>><<link [[Climb up to the nest|Forest Nest Climb]]>><</link>><<athleticsdifficulty 0 800>>",
+    "translation": "",
+    "pos": 55309
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1289_5_3_7|",
+    "original": "<<ind>><<link [[Knock the nest down|Forest Nest Throw]]>><<set $forest_nest.eggs -= 4>><<set $forest_nest.type to 3>><</link>><<note \"Fewer eggs\" \"red\">>",
+    "translation": "",
+    "pos": 55417
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1292_5_3_7|",
+    "original": "<<ind>><<link [[Search the nest|Forest Nest Search]]>><</link>>",
+    "translation": "",
+    "pos": 55618
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1295_5_3_7|",
+    "original": "<<ind>><<link [[Search the nest|Forest Nest Snake]]>><</link>>",
+    "translation": "",
+    "pos": 55719
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1298_5_3_7|",
+    "original": "<<ind>><<link [[Present yourself as food|Forest Nest Snake Vore 1]]>><</link>><<deviant4>>",
+    "translation": "",
+    "pos": 55872
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1302_5_3_7|",
+    "original": "<<ind>><<link [[Hide and wait (0:05)|Forest Nest Hide]]>><<unset $athleticsSuccess>><<set $forest_nest.eggs -= 2>><<pass 5>><</link>><<note \"Fewer eggs\" \"red\">>",
+    "translation": "",
+    "pos": 56015
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1306_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Forest]]>><<endevent>><<unset $forest_nest>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 56204
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1316_5_3_7|",
+    "original": "A <<beasttype>> emerges from between the trees. Another one emerges behind you, and a final, larger one appears right in front of you. <span class=\"red\">You recognise <<bhim>></span>. <<bHes>> the one you scared off from a nest.",
+    "translation": "",
+    "pos": 56488
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1318_5_3_7|",
+    "original": "\"Hold still, <<foxnickname>>. We're going to enjoy this.\"",
+    "translation": "",
+    "pos": 56741
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1323_5_3_7|",
+    "original": "<<link [[Next|Forest Fox Revenge]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 56872
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1326_5_3_7|",
+    "original": "They chase you through the woods. You run until you can no longer hear them behind you. You're not sure if you outran them or they grew bored.",
+    "translation": "",
+    "pos": 56967
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1330_5_3_7|",
+    "original": "<<link [[Next (0:20)|Forest]]>><<endevent>><<pass 20>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 57214
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1336_5_3_7|",
+    "original": "You come to a clearing. A gentle breeze blows against your face, and small, soft plants press beneath your feet.",
+    "translation": "",
+    "pos": 57388
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1339_5_3_7|",
+    "original": "Lilies grow among the grass and in the shadow of taller plants.",
+    "translation": "",
+    "pos": 57554
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1341_5_3_7|",
+    "original": "Ripe apples hang from the branches.",
+    "translation": "",
+    "pos": 57632
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1345_5_3_7|",
+    "original": "Wild red rose bushes dot the area.",
+    "translation": "",
+    "pos": 57735
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1347_5_3_7|",
+    "original": "Wild pears grow from the trees.",
+    "translation": "",
+    "pos": 57784
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1351_5_3_7|",
+    "original": "You spot orchids near the edge, at the base of ancient trees.",
+    "translation": "",
+    "pos": 57866
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1354_5_3_7|",
+    "original": "<span class=\"red\">Red-veined</span> lemons grow from a cluster of small trees.",
+    "translation": "",
+    "pos": 57972
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1356_5_3_7|",
+    "original": "Lemons grow from a cluster of small trees.",
+    "translation": "",
+    "pos": 58067
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1366_5_3_7|",
+    "original": "<<foresticon \"bush\">><<link [[Make a top out of plants and twigs (0:20)|Forest Clearing]]>><<set $phase to 1>><<pass 20>><</link>>",
+    "translation": "",
+    "pos": 58424
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1373_5_3_7|",
+    "original": "<<foresticon \"bush\">><<link [[Make a skirt out of plants and twigs (0:20)|Forest Clearing]]>><<set $phase to 2>><<pass 20>><</link>>",
+    "translation": "",
+    "pos": 58819
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1381_5_3_7|",
+    "original": "<<icon \"tending/lily.png\">> <<link [[Search for seeds (0:30)|Forest Lily]]>><<pass 30>><<tending 6>><<set $plants_known.push(\"lily\")>><</link>><<gtending>>",
+    "translation": "",
+    "pos": 59097
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1384_5_3_7|",
+    "original": "<span class=\"blue\">A higher science skill would let you harvest lily seeds.</span>",
+    "translation": "",
+    "pos": 59281
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1389_5_3_7|",
+    "original": "<<icon \"tending/lily.png\">> <<link [[Pick lilies (0:20)|Forest Lily Pick]]>><<pass 20>><</link>><<tendingdifficulty 100 400>>",
+    "translation": "",
+    "pos": 59448
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1392_5_3_7|",
+    "original": "<span class=\"blue\">You need a higher tending skill to pick saleable specimens.</span>",
+    "translation": "",
+    "pos": 59599
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1396_5_3_7|",
+    "original": "<<icon \"tending/apple.png\">> <<link [[Pick apples (0:20)|Forest Apple Pick]]>><<pass 20>><</link>><<tendingdifficulty 1 300>>",
+    "translation": "",
+    "pos": 59719
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1403_5_3_7|",
+    "original": "<<icon \"tending/red_rose.png\">> <<link [[Search for seeds (0:30)|Forest Red Rose]]>><<pass 30>><<tending 6>><<set $plants_known.push(\"red_rose\")>><<pain 6>><</link>><<gpain>><<gtending>>",
+    "translation": "",
+    "pos": 59999
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1406_5_3_7|",
+    "original": "<span class=\"blue\">A higher science skill would let you harvest red rose seeds.</span>",
+    "translation": "",
+    "pos": 60214
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1411_5_3_7|",
+    "original": "<<icon \"tending/red_rose.png\">> <<link [[Pick red roses (0:20)|Forest Red Rose Pick]]>><<pass 20>><</link>><<tendingdifficulty 200 500>>",
+    "translation": "",
+    "pos": 60385
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1414_5_3_7|",
+    "original": "<span class=\"blue\">You need a higher tending skill to pick saleable specimens.</span>",
+    "translation": "",
+    "pos": 60547
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1420_5_3_7|",
+    "original": "<<icon \"tending/pear.png\">> <<link [[Pick pears (0:20)|Forest Pear Pick]]>><<pass 20>><</link>><<tendingdifficulty 100 400>>",
+    "translation": "",
+    "pos": 60723
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1423_5_3_7|",
+    "original": "<span class=\"blue\">You need a higher tending skill to pick saleable specimens.</span>",
+    "translation": "",
+    "pos": 60873
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1431_5_3_7|",
+    "original": "<<icon \"tending/orchid.png\">> <<link [[Search for seeds (0:30)|Forest Orchid]]>><<pass 30>><<tending 6>><<set $plants_known.push(\"orchid\")>><</link>><<gtending>>",
+    "translation": "",
+    "pos": 61106
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1434_5_3_7|",
+    "original": "<span class=\"blue\">A higher science skill would let you harvest orchid seeds.</span>",
+    "translation": "",
+    "pos": 61296
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1439_5_3_7|",
+    "original": "<<icon \"tending/orchid.png\">> <<link [[Pick orchids (0:20)|Forest Orchid Pick]]>><<pass 20>><</link>><<tendingdifficulty 300 600>>",
+    "translation": "",
+    "pos": 61465
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1442_5_3_7|",
+    "original": "<span class=\"blue\">You need a higher tending skill to pick saleable specimens.</span>",
+    "translation": "",
+    "pos": 61621
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1448_5_3_7|",
+    "original": "<<icon \"tending/lemon.png\">> <<link [[Pick lemons (0:20)|Forest Blood Lemon Pick]]>><<pass 20>><</link>><<tendingdifficulty 200 500>>",
+    "translation": "",
+    "pos": 61820
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1451_5_3_7|",
+    "original": "<<icon \"tending/lemon.png\">> <<link [[Pick lemons (0:20)|Forest Lemon Pick]]>><<pass 20>><</link>><<tendingdifficulty 200 500>>",
+    "translation": "",
+    "pos": 61982
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1455_5_3_7|",
+    "original": "<span class=\"blue\">You need a higher tending skill to pick saleable specimens.</span>",
+    "translation": "",
+    "pos": 62148
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1461_5_3_7|",
+    "original": "<<foresticon>><<link [[Continue|Forest]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 62275
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1466_5_3_7|",
+    "original": "<<print either(\"trophy\",\"baseball\",\"baseball bat\",\"snow globe\",\"magic 8-ball\",\"ping-pong paddle\",\"chess set\",\"piggy bank\",\"mug\",\"cookie tin\",\"frying pan\",\"backscratcher\",\"pencil case\",\"lunch box\",\"lava lamp\",\"torch\",\"cuckoo clock\",\"Rubix cube\",\"globe\",\"water gun\",\"dictionary\",\"hand mirror\",\"novelty camera\",\"ziplock bag filled with seashells\",\"miniature stepladder\",\"knick-knack of unknown purpose\")>>",
+    "translation": "",
+    "pos": 62394
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1470_5_3_7|",
+    "original": "You feel a jolt of pain as the slime punishes you for defiance.",
+    "translation": "",
+    "pos": 62846
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1487_5_3_7|",
+    "original": "<span class=\"red\">You're too deep into the forest for Gwylan to hear you<<if _args[0] isnot \"hunter\" and isLoveInterest(\"Eden\")>>, and Eden must not be in the area<</if>>.</span>",
+    "translation": "",
+    "pos": 63403
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1489_5_3_7|",
+    "original": "<span class=\"red\">You're too far from town for anyone to hear you<<if _args[0] isnot \"hunter\" and isLoveInterest(\"Eden\")>>, and Eden must not be in the area<</if>>.</span>",
+    "translation": "",
+    "pos": 63594
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1500_5_3_7|",
+    "original": "<<set $_assailant to (_args[0] is \"wolf\" ? \"wolf\" : \"assailant\")>> <!-- If you want to use this widget for other animals, change this -->",
+    "translation": "",
+    "pos": 64217
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1501_5_3_7|",
+    "original": "You see <<if $forest_shop_intro is 1 or $gwylan_rescue is 1>>Gwylan<<else>>a mousy <<nnpc_gendery \"Gwylan\">><</if>> burst through the treeline, alarmed by your shout.",
+    "translation": "",
+    "pos": 64357
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1502_5_3_7|",
+    "original": "<<nnpc_He \"Gwylan\">> takes one look at the $_assailant, <span class=\"red\">then turns and runs away.</span>",
+    "translation": "",
+    "pos": 64526
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1512_5_3_7|",
+    "original": "<<nnpc_He \"Gwylan\">> looks you over with concern. \"Are you feeling okay? You look a little pale, and I thought I heard you screaming the other night...\"",
+    "translation": "",
+    "pos": 64799
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1514_5_3_7|",
+    "original": "<<nnpc_He \"Gwylan\">> can't meet your gaze. <<gwylanRescueApologySpeech>>",
+    "translation": "",
+    "pos": 64964
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1520_5_3_7|",
+    "original": "<<if _args[0] is \"Intro\">>",
+    "translation": "",
+    "pos": 65127
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1521_5_3_7|",
+    "original": "<<nnpc_He \"Gwylan\">> looks you over with concern.",
+    "translation": "",
+    "pos": 65157
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1523_5_3_7|",
+    "original": "\"Hey,\" Gwylan says as you walk in. <<nnpc_He \"Gwylan\">> looks concerned.",
+    "translation": "",
+    "pos": 65221
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1525_5_3_7|",
+    "original": "\"Are you feeling okay? You look a little pale, and I thought I heard you screaming the other night...\"",
+    "translation": "",
+    "pos": 65306
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1527_5_3_7|",
+    "original": "<<if _args[0] is \"Robin\">>",
+    "translation": "",
+    "pos": 65421
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1528_5_3_7|",
+    "original": "<<nnpc_He \"Gwylan\">> turns to you with an apologetic smile. <<gwylanRescueApologySpeech \"btw\">>",
+    "translation": "",
+    "pos": 65451
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1530_5_3_7|",
+    "original": "<<nnpc_He \"Gwylan\">> rubs the back of <<nnpc_his \"Gwylan\">> neck. <<gwylanRescueApologySpeech \"btw\">>",
+    "translation": "",
+    "pos": 65583
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1532_5_3_7|",
+    "original": "\"Hey,\" Gwylan says as you walk in. <<gwylanRescueApologySpeech>>",
+    "translation": "",
+    "pos": 65699
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1536_5_3_7|",
+    "original": "<<if _args[0] is \"Robin\">>",
+    "translation": "",
+    "pos": 65785
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1537_5_3_7|",
+    "original": "Robin blinks, but doesn't question it.",
+    "translation": "",
+    "pos": 65814
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1542_5_3_7|",
+    "original": "<<if _args[0] is \"btw\">>",
+    "translation": "",
+    "pos": 65915
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1543_5_3_7|",
+    "original": "\"By the way, sorry for not saving you before, but I'm not messing with",
+    "translation": "",
+    "pos": 65942
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1545_5_3_7|",
+    "original": "\"Sorry for not saving you before, but I'm not messing with",
+    "translation": "",
+    "pos": 66025
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1548_5_3_7|",
+    "original": "Eden. <<nnpc_He \"Eden\">> still scares me.\"",
+    "translation": "",
+    "pos": 66152
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1550_5_3_7|",
+    "original": "the <<nnpc_title \"Eden\">>. <<nnpc_Hes \"Eden\">> the scariest thing in the forest.\"",
+    "translation": "",
+    "pos": 66230
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1552_5_3_7|",
+    "original": "the alpha. I don't want the entire pack breaking my door down.\"",
+    "translation": "",
+    "pos": 66347
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1560_5_3_7|",
+    "original": "<<case \"beast\">> The <<beasttype>> growls, but is hit in the face by a flying ?gwylanItem. <<bHe>> yelps and looks around, alarmed. <<if $monster is 1>>\"Human attack! Where human?!\"<</if>>",
+    "translation": "",
+    "pos": 66563
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1561_5_3_7|",
+    "original": "<<case \"river\">> The <<beasttype>> hisses, but is hit in the face by a flying ?gwylanItem. <<bHe>> looks around, alarmed.",
+    "translation": "",
+    "pos": 66754
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1562_5_3_7|",
+    "original": "<<case \"man\">> The <<person1>><<person>> charges you, but is interrupted when a flying ?gwylanItem smacks <<him>> in the face. The <<person2>><<person>> looks over, only for a ?gwylanItem to fly into <<his>> face as well.",
+    "translation": "",
+    "pos": 66878
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1566_5_3_7|",
+    "original": "\"Hey!\" <<if _gwylanKnown>>Gwylan<<else>>a <<nnpc_gendery \"Gwylan\">><</if>> shouts from beyond the treeline.",
+    "translation": "",
+    "pos": 67125
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1567_5_3_7|",
+    "original": "<<set $_theboy to (_gwylanKnown ? \"Gwylan\" : \"the \" + _text_output)>> <!-- This _text_output comes from the nnpc_gendery call one line above. Do not move this line without accounting for that. -->",
+    "translation": "",
+    "pos": 67234
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1569_5_3_7|",
+    "original": "<<case \"beast\">> \"Shoo!\" <<nnpc_He \"Gwylan\">> throws a ?gwylanItem, hitting the <<beasttype>> in the side. <<bHe>> scurries away, <<bhis>> tail between <<bhis>> legs.",
+    "translation": "",
+    "pos": 67454
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1570_5_3_7|",
+    "original": "<<case \"river\">> \"Shoo!\" <<nnpc_He \"Gwylan\">> throws a ?gwylanItem, hitting the <<beasttype>> in the side. <<bHe>> dives back into the churning water.",
+    "translation": "",
+    "pos": 67623
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1571_5_3_7|",
+    "original": "<<case \"man\">> \"Get away from <<phim>>. I have more.\" As if to demonstrate, <<nnpc_he \"Gwylan\">> throws a ?gwylanItem, hitting the <<person1>><<person>> in the face again. The pair glance at each other, then turn and run.",
+    "translation": "",
+    "pos": 67776
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1577_5_3_7|",
+    "original": "<<case \"beast\">> \"I swear they get more aggressive every day,\" $_theboy mutters.",
+    "translation": "",
+    "pos": 68087
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1578_5_3_7|",
+    "original": "<<case \"river\">> \"The rivers keep getting more dangerous,\" $_theboy mutters.",
+    "translation": "",
+    "pos": 68170
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1579_5_3_7|",
+    "original": "<<case \"man\">> \"I hope they weren't customers,\" $_theboy mutters. \"Well, I wouldn't want their money anyway.\"",
+    "translation": "",
+    "pos": 68249
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1581_5_3_7|",
+    "original": "<<He>> steps out from the treeline, and walks toward you. \"You okay? Good thing I was in the area.\"",
+    "translation": "",
+    "pos": 68373
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1582_5_3_7|",
+    "original": "<<if _args[0] is \"river\">>",
+    "translation": "",
+    "pos": 68474
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1583_5_3_7|",
+    "original": "<<He>> grasps your arm and pulls you out of the water.",
+    "translation": "",
+    "pos": 68503
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1588_5_3_7|",
+    "original": "<<He>> offers you some old towels to <<if _args[0] is \"river\">>dry yourself and <</if>>cover up.<<towelup>>",
+    "translation": "",
+    "pos": 68684
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1594_5_3_7|",
+    "original": "<<He>> looks about your age, with mousy hair and freckles. \"I'm older than I look,\" <<he>> says, as if reading your mind. \"I'm Gwylan. Nice to meet you.\"",
+    "translation": "",
+    "pos": 68838
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1597_5_3_7|",
+    "original": "\"I have a shop right by the outskirts of the forest,\" <<he>> says. \"You can't miss it. I sell-\" <<He>> pauses. \"My grand<<father>> sells-\" Another pause. \"I sell knick-knacks there. Things you won't find in normal shops. Even I don't know what I have in stock!\" <<He>> sounds proud.",
+    "translation": "",
+    "pos": 69006
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1604_5_3_7|",
+    "original": "<<He>> looks around for a moment, as if waiting for something. \"Strange,\" <<he>> says to <<himself>>. \"I thought the <<nnpc_title \"Eden\">> would be here. Must be busy. Ah well.\"",
+    "translation": "",
+    "pos": 69428
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1610_5_3_7|",
+    "original": "<<He>> starts to walk away, but stops and turns around. \"By the way,\" <<he>> says. \"I was able to save you because you're close enough to my shop. <span class=\"gold\">If you go any further than the start of the lake, I won't be able to hear you.</span> Keep it in mind.\"",
+    "translation": "",
+    "pos": 69690
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1614_5_3_7|",
+    "original": "<<He>> gathers <<his>> items, then walks off in the direction of <<his>> shop.",
+    "translation": "",
+    "pos": 69982
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1620_5_3_7|",
+    "original": "<<if _args[1] is \"slime\">>",
+    "translation": "",
+    "pos": 70132
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1625_5_3_7|",
+    "original": "<<link [[Next|Forest]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 70209
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1629_5_3_7|",
+    "original": "<<link [[Go back to the cabin (0:30)|Forest Cabin Return]]>><<pass 30>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 70316
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1631_5_3_7|",
+    "original": "<<link [[Say goodbye|Forest]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 70416
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1653_5_3_7|",
+    "original": "<span class=\"green\"><<tending_pick bird_egg $_min $_max>></span>",
+    "translation": "",
+    "pos": 71019
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1655_5_3_7|",
+    "original": "<span class=\"red\">There's no intact eggs left.</span>",
+    "translation": "",
+    "pos": 71096
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1661_5_3_7|",
+    "original": "After they leave, you try looking for a way to escape. You could try climbing the ropes to the branches, but the canopy is a long way up. It doesn't seem like there is any other way out without help, but drawing attention to yourself might make the situation worse.",
+    "translation": "",
+    "pos": 71214
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1663_5_3_7|",
+    "original": "<<link[[Climb|Forest Bully Climb]]>><</link>><<athleticsdifficulty 0 1055>>",
+    "translation": "",
+    "pos": 71491
+  },
+  {
+    "passage": "Widgets Forest",
+    "filepath": "overworld-forest/loc-forest/widgets.twee",
+    "key": "1665_5_3_7|",
+    "original": "<<link[[Call for help|Forest Bully Help]]>><</link>>",
+    "translation": "",
+    "pos": 71574
+  }
+]

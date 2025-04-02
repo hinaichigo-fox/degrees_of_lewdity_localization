@@ -1,0 +1,1362 @@
+[
+  {
+    "passage": "Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "4_5_3_7|",
+    "original": "You are in the catacombs beneath the forest. A staircase leads upwards, to the churchyard. A statue of a six-armed angel smiles down at you, cradling a lit brazier in its lowest hands.",
+    "translation": "",
+    "pos": 85
+  },
+  {
+    "passage": "Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "8_5_3_7|",
+    "original": "A small statuette sits on the statue's shoulder. You could reach it.",
+    "translation": "",
+    "pos": 479
+  },
+  {
+    "passage": "Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "13_5_3_7|",
+    "original": "A warm breeze brushes against your face, <span class=\"green\">and your blindfold falls free,</span> leaving only a tattered strip of cloth. It's hard to imagine it was sturdy just a moment ago.",
+    "translation": "",
+    "pos": 613
+  },
+  {
+    "passage": "Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "20_5_3_7|",
+    "original": "The statue's eyes flicker. The web covering you slacks, loosens, <span class=\"green\">and falls apart.</span>",
+    "translation": "",
+    "pos": 957
+  },
+  {
+    "passage": "Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "32_5_3_7|",
+    "original": "<i>Avoiding traps and other nastiness will become more difficult as your torch dies.</i>",
+    "translation": "",
+    "pos": 1292
+  },
+  {
+    "passage": "Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "42_5_3_7|",
+    "original": "<<antiqueicon \"ivory_statuette\">><<link [[Take statuette|Catacombs Statuette]]>><</link>><<crime \"thievery\">>",
+    "translation": "",
+    "pos": 1736
+  },
+  {
+    "passage": "Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "46_5_3_7|",
+    "original": "<<undobindingsicon>><<link [[Burn through your bindings|Catacombs Unbind]]>><<pain 1>><</link>><<gpain>>",
+    "translation": "",
+    "pos": 1916
+  },
+  {
+    "passage": "Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "50_5_3_7|",
+    "original": "<<caveicon \"torch\">><<link [[Light torch|Catacombs Light]]>><</link>><<gtorch>>",
+    "translation": "",
+    "pos": 2071
+  },
+  {
+    "passage": "Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "53_5_3_7|",
+    "original": "<<caveicon \"east\">><<link [[Walk east (0:10)|Catacombs Sarcophagi]]>><<pass 10>><<catacombs_torch -5>><</link>><<ltorch>>",
+    "translation": "",
+    "pos": 2168
+  },
+  {
+    "passage": "Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "55_5_3_7|",
+    "original": "<<caveicon \"west\">><<link [[Walk west (0:10)|Catacombs Prison]]>><<pass 10>><<catacombs_torch -5>><</link>><<ltorch>>",
+    "translation": "",
+    "pos": 2297
+  },
+  {
+    "passage": "Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "58_5_3_7|",
+    "original": "<<getouticon>><<link [[Exit|Churchyard]]>><<catacombs_end>><</link>>",
+    "translation": "",
+    "pos": 2427
+  },
+  {
+    "passage": "Catacombs Unbind",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "67_5_3_7|",
+    "original": "You turn your back to the statue, and hold your bindings over the flame. The heat builds, and you feel a sting. You're about to pull away when the bindings burn loose. You tear yourself free.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Catacombs Unbind",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "71_5_3_7|",
+    "original": "<<link [[Next|Catacombs]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 226
+  },
+  {
+    "passage": "Catacombs Light",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "78_5_3_7|",
+    "original": "You hold your torch over the brazier. It blazes into new life. For a moment the statue's eyes burn with reflected fire.",
+    "translation": "",
+    "pos": 37
+  },
+  {
+    "passage": "Catacombs Light",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "81_5_3_7|",
+    "original": "<<link [[Next|Catacombs]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 167
+  },
+  {
+    "passage": "Catacombs Statuette",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "87_5_3_7|",
+    "original": "You climb the six-armed statue, standing on its arms and using the wings for support. It proves sturdy, and you come face-to-face with the statuette. It's a miniature version of the larger angel, except the arms and head are raised in supplication, and the smile beams.",
+    "translation": "",
+    "pos": 43
+  },
+  {
+    "passage": "Catacombs Statuette",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "90_5_3_7|",
+    "original": "You take the smaller angel from the larger angel's hand, and climb back down. It belongs in a museum.",
+    "translation": "",
+    "pos": 323
+  },
+  {
+    "passage": "Catacombs Statuette",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "95_5_3_7|",
+    "original": "<<link [[Next|Catacombs]]>><<set $eventskip to 1>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 546
+  },
+  {
+    "passage": "Catacombs Sarcophagi",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "101_5_3_7|",
+    "original": "You are in the catacombs beneath the forest. Sarcophagi jut from the walls at violent angles, as if shunted from their proper positions by a tremendous force.",
+    "translation": "",
+    "pos": 41
+  },
+  {
+    "passage": "Catacombs Sarcophagi",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "114_5_3_7|",
+    "original": "<span class=\"green\">There are riches entombed here.</span>",
+    "translation": "",
+    "pos": 521
+  },
+  {
+    "passage": "Catacombs Sarcophagi",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "116_5_3_7|",
+    "original": "<<crimeicon \"plunder\">><<link [[Plunder (0:30)|Catacombs Normal Plunder]]>><<pass 30>><<catacombs_torch -5>><</link>><<crime \"thievery\">><<ltorch>>",
+    "translation": "",
+    "pos": 591
+  },
+  {
+    "passage": "Catacombs Sarcophagi",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "119_5_3_7|",
+    "original": "<span class=\"red\">You lack the skill to sniff out the riches here.</span><<skulduggeryrequired>>",
+    "translation": "",
+    "pos": 761
+  },
+  {
+    "passage": "Catacombs Sarcophagi",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "123_5_3_7|",
+    "original": "<<caveicon \"east\">><<link [[Walk east (0:10)|Catacombs Chasm]]>><<pass 10>><<catacombs_torch -5>><</link>><<ltorch>>",
+    "translation": "",
+    "pos": 890
+  },
+  {
+    "passage": "Catacombs Sarcophagi",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "125_5_3_7|",
+    "original": "<<caveicon \"west\">><<link [[Walk west (0:10)|Catacombs]]>><<pass 10>><<catacombs_torch -5>><</link>><<ltorch>><<catacombs_exit_indicator>>",
+    "translation": "",
+    "pos": 1014
+  },
+  {
+    "passage": "Catacombs Prison",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "134_5_3_7|",
+    "original": "You are in the catacombs beneath the forest. The walls and floor are riddled with holes, themselves barred with iron.",
+    "translation": "",
+    "pos": 37
+  },
+  {
+    "passage": "Catacombs Prison",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "147_5_3_7|",
+    "original": "<span class=\"green\">There are riches entombed here.</span>",
+    "translation": "",
+    "pos": 476
+  },
+  {
+    "passage": "Catacombs Prison",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "149_5_3_7|",
+    "original": "<<crimeicon \"plunder\">><<link [[Plunder (0:30)|Catacombs Normal Plunder]]>><<pass 30>><<catacombs_torch -5>><</link>><<crime \"thievery\">><<ltorch>>",
+    "translation": "",
+    "pos": 546
+  },
+  {
+    "passage": "Catacombs Prison",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "152_5_3_7|",
+    "original": "<span class=\"red\">You lack the skill to sniff out the riches here.</span><<skulduggeryrequired>>",
+    "translation": "",
+    "pos": 716
+  },
+  {
+    "passage": "Catacombs Prison",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "156_5_3_7|",
+    "original": "<<caveicon \"east\">><<link [[Walk east (0:10)|Catacombs]]>><<pass 10>><<catacombs_torch -5>><</link>><<ltorch>><<catacombs_exit_indicator>>",
+    "translation": "",
+    "pos": 845
+  },
+  {
+    "passage": "Catacombs Prison",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "158_5_3_7|",
+    "original": "<<caveicon \"west\">><<link [[Walk west (0:10)|Catacombs Ridge]]>><<pass 10>><<catacombs_torch -5>><</link>><<ltorch>>",
+    "translation": "",
+    "pos": 991
+  },
+  {
+    "passage": "Catacombs Chasm",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "167_5_3_7|",
+    "original": "You are in the catacombs beneath the forest. One wall has been torn away, as if by the movement of some great beast, revealing a black, yawning chasm.",
+    "translation": "",
+    "pos": 36
+  },
+  {
+    "passage": "Catacombs Chasm",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "168_5_3_7|",
+    "original": "Great stalactites hang from the ceiling.",
+    "translation": "",
+    "pos": 187
+  },
+  {
+    "passage": "Catacombs Chasm",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "170_5_3_7|",
+    "original": "<span class=\"blue\">You see movement in the dark between them.</span> There's something up there. Watching.",
+    "translation": "",
+    "pos": 258
+  },
+  {
+    "passage": "Catacombs Chasm",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "172_5_3_7|",
+    "original": "<span class=\"blue\">You see a faint glimmering between them.</span> There's something up there.",
+    "translation": "",
+    "pos": 375
+  },
+  {
+    "passage": "Catacombs Chasm",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "186_5_3_7|",
+    "original": "<span class=\"green\">There are riches entombed here.</span>",
+    "translation": "",
+    "pos": 799
+  },
+  {
+    "passage": "Catacombs Chasm",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "188_5_3_7|",
+    "original": "<<crimeicon \"plunder\">><<link [[Plunder (0:30)|Catacombs Normal Plunder]]>><<pass 30>><<catacombs_torch -5>><</link>><<crime \"thievery\">><<ltorch>>",
+    "translation": "",
+    "pos": 869
+  },
+  {
+    "passage": "Catacombs Chasm",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "191_5_3_7|",
+    "original": "<span class=\"red\">You lack the skill to sniff out the riches here.</span><<skulduggeryrequired>>",
+    "translation": "",
+    "pos": 1039
+  },
+  {
+    "passage": "Catacombs Chasm",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "196_5_3_7|",
+    "original": "<<mysteryicon>><<link [[Coax|Catacombs Chasm Coax]]>><</link>><<note \"Tending\" \"green\">>",
+    "translation": "",
+    "pos": 1194
+  },
+  {
+    "passage": "Catacombs Chasm",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "199_5_3_7|",
+    "original": "<span class=\"blue\">You lack the tending skill to coax out whatever's up there.</span>",
+    "translation": "",
+    "pos": 1302
+  },
+  {
+    "passage": "Catacombs Chasm",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "202_5_3_7|",
+    "original": "<<caveicon \"west\">><<link [[Walk west (0:10)|Catacombs Sarcophagi]]>><<pass 10>><<catacombs_torch -5>><</link>><<ltorch>><<catacombs_exit_indicator>>",
+    "translation": "",
+    "pos": 1405
+  },
+  {
+    "passage": "Catacombs Chasm Coax",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "211_5_3_7|",
+    "original": "You coo up at the stalactites, your voice soft. Only a faint echo answers at first,",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Catacombs Chasm Coax",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "215_5_3_7|",
+    "original": "but then an orb of light descends. It hovers for a moment in front of you, before floating along the edge of the chasm.",
+    "translation": "",
+    "pos": 154
+  },
+  {
+    "passage": "Catacombs Chasm Coax",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "218_5_3_7|",
+    "original": "It arrives at the wall, illuminating a thin passage, and hovers there a moment, as if beckoning. Then it floats inside. It looks like a hidden passage around the chasm.",
+    "translation": "",
+    "pos": 286
+  },
+  {
+    "passage": "Catacombs Chasm Coax",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "220_5_3_7|",
+    "original": "but then a head pokes into view, followed by eight limbs. It's a <<beasttype>>, but there's no menace in <<bhis>> demeanor. <<bHe>> crawls down the stalactite, dropping the rest of the way on a silken thread, and lands in front of you.",
+    "translation": "",
+    "pos": 481
+  },
+  {
+    "passage": "Catacombs Chasm Coax",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "223_5_3_7|",
+    "original": "\"Dangerous place for you,\" <<bhe>> says. \"I can carry you across the chasm if you like. I'm stronger than I look. Much stronger.\"",
+    "translation": "",
+    "pos": 729
+  },
+  {
+    "passage": "Catacombs Chasm Coax",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "225_5_3_7|",
+    "original": "but then eight legs crawl into view. It's a giant <<beasttype>>, but there's no menace in <<bhis>> demeanor. <<bHe>> crawls down a stalactite, dropping the rest of the way on a silken thread, and lands in front of you.",
+    "translation": "",
+    "pos": 869
+  },
+  {
+    "passage": "Catacombs Chasm Coax",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "227_5_3_7|",
+    "original": "<<bHe>> turns and steps towards the chasm, lowering <<bhis>> abdomen. <<bHe>> wants to carry you over.",
+    "translation": "",
+    "pos": 1099
+  },
+  {
+    "passage": "Catacombs Chasm Coax",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "231_5_3_7|",
+    "original": "<<link [[Travel across the chasm (0:10)|Catacombs Chasm Coax 2]]>><<pass 10>><</link>>",
+    "translation": "",
+    "pos": 1220
+  },
+  {
+    "passage": "Catacombs Chasm Coax",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "233_5_3_7|",
+    "original": "<<link [[Stay|Catacombs Chasm]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 1312
+  },
+  {
+    "passage": "Catacombs Chasm Coax 2",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "240_5_3_7|",
+    "original": "You follow the light. It leads you through a maze of tight corridors in the stone, until you emerge in another part of the catacombs, on the other side of the chasm. Strange holes are bored in the walls and floor. The passage behind you has vanished in the dark.",
+    "translation": "",
+    "pos": 43
+  },
+  {
+    "passage": "Catacombs Chasm Coax 2",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "243_5_3_7|",
+    "original": "With a playful sparkle, the light shoots towards the ceiling, and takes cover in a borehole.",
+    "translation": "",
+    "pos": 318
+  },
+  {
+    "passage": "Catacombs Chasm Coax 2",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "245_5_3_7|",
+    "original": "The <<beasttype>> rushes in circles around you. Before you can react, <<bhes>> wrapped several strands of thread around your waist. <<bHe>> climbs the thread <<bhe>> descended on, pulling you off your feet and into the air. \"Best way to carry you,\" <<bhe>> says with an apologetic smile.",
+    "translation": "",
+    "pos": 437
+  },
+  {
+    "passage": "Catacombs Chasm Coax 2",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "248_5_3_7|",
+    "original": "<<bHe>> crawls right up to the ceiling, and dashes over the chasm. You dangle beneath <<bhim>>, aware of the abyss beneath, until you reach the other side. <<bHe>> lowers you, gently, then descends <<bhimself>> and tears off the strands around your waist.",
+    "translation": "",
+    "pos": 737
+  },
+  {
+    "passage": "Catacombs Chasm Coax 2",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "251_5_3_7|",
+    "original": "\"See?\" <<bHe>> grins. \"Strong!\" With a leap, <<bhe>> climbs the wall and vanishes into the dark once more. You're in another part of the catacombs. Strange boreholes fill the walls and floor.",
+    "translation": "",
+    "pos": 1005
+  },
+  {
+    "passage": "Catacombs Chasm Coax 2",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "253_5_3_7|",
+    "original": "You climb onto the <<beasttype>>'s abdomen, and wrap your arms around <<bhis>> pedicel as <<bhe>> lurches into motion. <<bHe>> skitters up the strand of silk, and onto a horizontal web you could not see from below. <<bHe>> runs across a near-invisible network hung across the chasm. You cling tight, aware of the abyss beneath you.",
+    "translation": "",
+    "pos": 1207
+  },
+  {
+    "passage": "Catacombs Chasm Coax 2",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "256_5_3_7|",
+    "original": "<<bHe>> reaches the other side, and skitters down another strand. You climb down, and at once the spider launches itself onto the hanging strand, and vanishes into the dark. You're in another part of the catacombs. Strange boreholes fill the walls and floor.",
+    "translation": "",
+    "pos": 1551
+  },
+  {
+    "passage": "Catacombs Chasm Coax 2",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "260_5_3_7|",
+    "original": "<<link [[Next|Catacombs Bores]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 1828
+  },
+  {
+    "passage": "Catacombs Ridge",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "266_5_3_7|",
+    "original": "You are in the catacombs beneath the forest. One wall has been torn away, as if by the movement of some great beast, revealing a dark chasm. The drop is steep, but not sheer. You could clamber down if you were careful.",
+    "translation": "",
+    "pos": 36
+  },
+  {
+    "passage": "Catacombs Ridge",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "279_5_3_7|",
+    "original": "<span class=\"green\">There are riches entombed here.</span>",
+    "translation": "",
+    "pos": 576
+  },
+  {
+    "passage": "Catacombs Ridge",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "281_5_3_7|",
+    "original": "<<crimeicon \"plunder\">><<link [[Plunder (0:30)|Catacombs Normal Plunder]]>><<pass 30>><<catacombs_torch -5>><</link>><<crime \"thievery\">><<ltorch>>",
+    "translation": "",
+    "pos": 646
+  },
+  {
+    "passage": "Catacombs Ridge",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "284_5_3_7|",
+    "original": "<span class=\"red\">You lack the skill to sniff out the riches here.</span><<skulduggeryrequired>>",
+    "translation": "",
+    "pos": 816
+  },
+  {
+    "passage": "Catacombs Ridge",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "288_5_3_7|",
+    "original": "<<caveicon \"south\">><<link [[Climb down (0:01)|Catacombs Mud Climb]]>><<pass 1>><</link>>",
+    "translation": "",
+    "pos": 945
+  },
+  {
+    "passage": "Catacombs Ridge",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "290_5_3_7|",
+    "original": "<<caveicon \"east\">><<link [[Walk east (0:10)|Catacombs Prison]]>><<pass 10>><<catacombs_torch -5>><</link>><<ltorch>><<catacombs_exit_indicator>>",
+    "translation": "",
+    "pos": 1042
+  },
+  {
+    "passage": "Catacombs Mud Climb",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "299_5_3_7|",
+    "original": "Foot by foot, you lower yourself into the chasm, testing each step before committing. The shattered masonry and natural stone proves sturdy, and reaching the bottom isn't difficult.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Catacombs Mud Climb",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "302_5_3_7|",
+    "original": "Darkness surrounds you. You hear the rush of water, some distance away.",
+    "translation": "",
+    "pos": 205
+  },
+  {
+    "passage": "Catacombs Mud Climb",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "305_5_3_7|",
+    "original": "<<link [[Next|Catacombs Mud]]>><</link>>",
+    "translation": "",
+    "pos": 287
+  },
+  {
+    "passage": "Catacombs Mud",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "311_5_3_7|",
+    "original": "You are in the catacombs beneath the forest. Great furrows have been carved through the stone, leading to an expanse of mud that stretches into the dark.",
+    "translation": "",
+    "pos": 34
+  },
+  {
+    "passage": "Catacombs Mud",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "324_5_3_7|",
+    "original": "<span class=\"green\">There are riches entombed here.</span>",
+    "translation": "",
+    "pos": 509
+  },
+  {
+    "passage": "Catacombs Mud",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "326_5_3_7|",
+    "original": "<<crimeicon \"plunder\">><<link [[Plunder (0:30)|Catacombs Barrow Plunder]]>><<pass 30>><<catacombs_torch -5>><</link>><<crime \"thievery\">><<ltorch>>",
+    "translation": "",
+    "pos": 579
+  },
+  {
+    "passage": "Catacombs Mud",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "329_5_3_7|",
+    "original": "<span class=\"red\">You lack the skill to sniff out the riches here.</span><<skulduggeryrequired>>",
+    "translation": "",
+    "pos": 749
+  },
+  {
+    "passage": "Catacombs Mud",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "333_5_3_7|",
+    "original": "<<caveicon \"east\">><<link [[Walk east (0:10)|Catacombs Masonry]]>><<pass 10>><<catacombs_torch -5>><</link>><<ltorch>>",
+    "translation": "",
+    "pos": 878
+  },
+  {
+    "passage": "Catacombs Mud",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "335_5_3_7|",
+    "original": "<<caveicon \"north\">><<link [[Climb up (0:01)|Catacombs Ridge Climb]]>><<pass 1>><</link>><<catacombs_exit_indicator>>",
+    "translation": "",
+    "pos": 1004
+  },
+  {
+    "passage": "Catacombs Ridge Climb",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "344_5_3_7|",
+    "original": "You traverse the slope, more crawling than climbing, feeling for solid rock that will bear your weight as you go. You reach the top, and the catacombs proper.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Catacombs Ridge Climb",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "347_5_3_7|",
+    "original": "<<link [[Next|Catacombs Ridge]]>><</link>>",
+    "translation": "",
+    "pos": 182
+  },
+  {
+    "passage": "Catacombs Masonry",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "353_5_3_7|",
+    "original": "You are in the catacombs beneath the forest. Great furrows have been carved through the stone, many blocked by huge chunks of fallen masonry.",
+    "translation": "",
+    "pos": 38
+  },
+  {
+    "passage": "Catacombs Masonry",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "366_5_3_7|",
+    "original": "<span class=\"green\">There are riches entombed here.</span>",
+    "translation": "",
+    "pos": 501
+  },
+  {
+    "passage": "Catacombs Masonry",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "368_5_3_7|",
+    "original": "<<crimeicon \"plunder\">><<link [[Plunder (0:30)|Catacombs Barrow Plunder]]>><<pass 30>><<catacombs_torch -5>><</link>><<crime \"thievery\">><<ltorch>>",
+    "translation": "",
+    "pos": 571
+  },
+  {
+    "passage": "Catacombs Masonry",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "371_5_3_7|",
+    "original": "<span class=\"red\">You lack the skill to sniff out the riches here.</span><<skulduggeryrequired>>",
+    "translation": "",
+    "pos": 741
+  },
+  {
+    "passage": "Catacombs Masonry",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "375_5_3_7|",
+    "original": "<<caveicon \"east\">><<link [[Walk east (0:10)|Catacombs Barrow]]>><<pass 10>><<catacombs_torch -5>><</link>><<ltorch>>",
+    "translation": "",
+    "pos": 870
+  },
+  {
+    "passage": "Catacombs Masonry",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "377_5_3_7|",
+    "original": "<<caveicon \"west\">><<link [[Walk west (0:10)|Catacombs Mud]]>><<pass 10>><<catacombs_torch -5>><</link>><<ltorch>><<catacombs_exit_indicator>>",
+    "translation": "",
+    "pos": 995
+  },
+  {
+    "passage": "Catacombs Barrow",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "386_5_3_7|",
+    "original": "You are in the catacombs beneath the forest. Great furrows have been carved through the stone. A great mound towers over them.",
+    "translation": "",
+    "pos": 37
+  },
+  {
+    "passage": "Catacombs Barrow",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "390_5_3_7|",
+    "original": "There's a small tunnel, leading into the mound.",
+    "translation": "",
+    "pos": 364
+  },
+  {
+    "passage": "Catacombs Barrow",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "402_5_3_7|",
+    "original": "<<link [[Enter the mound|Catacombs Crown]]>><</link>>",
+    "translation": "",
+    "pos": 797
+  },
+  {
+    "passage": "Catacombs Barrow",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "408_5_3_7|",
+    "original": "<span class=\"green\">There are riches entombed here.</span>",
+    "translation": "",
+    "pos": 1004
+  },
+  {
+    "passage": "Catacombs Barrow",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "410_5_3_7|",
+    "original": "<<crimeicon \"plunder\">><<link [[Plunder (0:30)|Catacombs Barrow Plunder]]>><<pass 30>><<catacombs_torch -5>><</link>><<crime \"thievery\">><<ltorch>>",
+    "translation": "",
+    "pos": 1074
+  },
+  {
+    "passage": "Catacombs Barrow",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "413_5_3_7|",
+    "original": "<span class=\"red\">You lack the skill to sniff out the riches here.</span><<skulduggeryrequired>>",
+    "translation": "",
+    "pos": 1244
+  },
+  {
+    "passage": "Catacombs Barrow",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "417_5_3_7|",
+    "original": "<<caveicon \"east\">><<link [[Walk east (0:10)|Catacombs Stream]]>><<pass 10>><<catacombs_torch -5>><</link>><<ltorch>>",
+    "translation": "",
+    "pos": 1373
+  },
+  {
+    "passage": "Catacombs Barrow",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "419_5_3_7|",
+    "original": "<<caveicon \"west\">><<link [[Walk west (0:10)|Catacombs Masonry]]>><<pass 10>><<catacombs_torch -5>><</link>><<ltorch>><<catacombs_exit_indicator>>",
+    "translation": "",
+    "pos": 1498
+  },
+  {
+    "passage": "Catacombs Crown",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "428_5_3_7|",
+    "original": "You enter the tunnel. The ceiling is so low you need to crouch, but you soon emerge in a round room. A cairn sits in the middle, on a raised patch of ground. A stone slab rises from the earth in front, and on top of it rests a silver crown.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Catacombs Crown",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "431_5_3_7|",
+    "original": "<<ind>><<link [[Take|Catacombs Crown 2]]>><</link>><<crime \"thievery\">>",
+    "translation": "",
+    "pos": 264
+  },
+  {
+    "passage": "Catacombs Crown",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "433_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Catacombs Barrow]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 341
+  },
+  {
+    "passage": "Catacombs Crown 2",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "439_5_3_7|",
+    "original": "You take the crown. The earth tremors, almost knocking you off your feet. Clumps of dirt fall from the ceiling. You rush for the tunnel, and manage to escape before being buried in the avalanche.",
+    "translation": "",
+    "pos": 40
+  },
+  {
+    "passage": "Catacombs Crown 2",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "442_5_3_7|",
+    "original": "You examine the crown. There are sockets on the front that were once filled, and the metal is corroded by time, but it's otherwise intact. It belongs in a museum.",
+    "translation": "",
+    "pos": 246
+  },
+  {
+    "passage": "Catacombs Crown 2",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "447_5_3_7|",
+    "original": "<<link [[Next|Catacombs Barrow]]>><<handheldon>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 529
+  },
+  {
+    "passage": "Catacombs Stream",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "453_5_3_7|",
+    "original": "You are in the catacombs beneath the forest. Streams run along great furrows in the stone.",
+    "translation": "",
+    "pos": 37
+  },
+  {
+    "passage": "Catacombs Stream",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "466_5_3_7|",
+    "original": "<span class=\"green\">There are riches entombed here.</span>",
+    "translation": "",
+    "pos": 449
+  },
+  {
+    "passage": "Catacombs Stream",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "468_5_3_7|",
+    "original": "<<crimeicon \"plunder\">><<link [[Plunder (0:30)|Catacombs Barrow Plunder]]>><<pass 30>><<catacombs_torch -5>><</link>><<crime \"thievery\">><<ltorch>>",
+    "translation": "",
+    "pos": 519
+  },
+  {
+    "passage": "Catacombs Stream",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "471_5_3_7|",
+    "original": "<span class=\"red\">You lack the skill to sniff out the riches here.</span><<skulduggeryrequired>>",
+    "translation": "",
+    "pos": 689
+  },
+  {
+    "passage": "Catacombs Stream",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "475_5_3_7|",
+    "original": "<<caveicon \"east\">><<link [[Walk east (0:10)|Catacombs Stalagmites]]>><<pass 10>><<catacombs_torch -5>><</link>><<ltorch>>",
+    "translation": "",
+    "pos": 818
+  },
+  {
+    "passage": "Catacombs Stream",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "477_5_3_7|",
+    "original": "<<caveicon \"west\">><<link [[Walk west (0:10)|Catacombs Barrow]]>><<pass 10>><<catacombs_torch -5>><</link>><<ltorch>><<catacombs_exit_indicator>>",
+    "translation": "",
+    "pos": 948
+  },
+  {
+    "passage": "Catacombs Stalagmites",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "486_5_3_7|",
+    "original": "You are in the catacombs beneath the forest. A sea of rocky teeth blocks passage east, but a steep slope rises to the north. You might be able to clamber up.",
+    "translation": "",
+    "pos": 42
+  },
+  {
+    "passage": "Catacombs Stalagmites",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "499_5_3_7|",
+    "original": "<span class=\"green\">There are riches entombed here.</span>",
+    "translation": "",
+    "pos": 521
+  },
+  {
+    "passage": "Catacombs Stalagmites",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "501_5_3_7|",
+    "original": "<<crimeicon \"plunder\">><<link [[Plunder (0:30)|Catacombs Barrow Plunder]]>><<pass 30>><<catacombs_torch -5>><</link>><<crime \"thievery\">><<ltorch>>",
+    "translation": "",
+    "pos": 591
+  },
+  {
+    "passage": "Catacombs Stalagmites",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "504_5_3_7|",
+    "original": "<span class=\"red\">You lack the skill to sniff out the riches here.</span><<skulduggeryrequired>>",
+    "translation": "",
+    "pos": 761
+  },
+  {
+    "passage": "Catacombs Stalagmites",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "508_5_3_7|",
+    "original": "<<caveicon \"north\">><<link [[Climb up (0:01)|Catacombs Bores Climb]]>><<pass 1>><</link>>",
+    "translation": "",
+    "pos": 890
+  },
+  {
+    "passage": "Catacombs Stalagmites",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "510_5_3_7|",
+    "original": "<<caveicon \"west\">><<link [[Walk west (0:10)|Catacombs Stream]]>><<pass 10>><<catacombs_torch -5>><</link>><<ltorch>><<catacombs_exit_indicator>>",
+    "translation": "",
+    "pos": 987
+  },
+  {
+    "passage": "Catacombs Bores Climb",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "519_5_3_7|",
+    "original": "You climb the stone slope. Strange boreholes provide good places to grasp, particularly near the top.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Catacombs Bores Climb",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "522_5_3_7|",
+    "original": "You emerge in the ruins of an ornate hall. Shattered stoneware and crockery litter the ground, crunching underfoot.",
+    "translation": "",
+    "pos": 125
+  },
+  {
+    "passage": "Catacombs Bores Climb",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "525_5_3_7|",
+    "original": "<<link [[Next|Catacombs Bores]]>><</link>>",
+    "translation": "",
+    "pos": 251
+  },
+  {
+    "passage": "Catacombs Bores",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "531_5_3_7|",
+    "original": "You are in the catacombs beneath the forest. Pipes and cables crisscross overhead, running through strange boreholes.",
+    "translation": "",
+    "pos": 36
+  },
+  {
+    "passage": "Catacombs Bores",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "533_5_3_7|",
+    "original": "<span class=\"blue\">You see movement in the dark between them.</span> There's something up there. Watching.",
+    "translation": "",
+    "pos": 184
+  },
+  {
+    "passage": "Catacombs Bores",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "535_5_3_7|",
+    "original": "<span class=\"blue\">You see a faint glimmering between them.</span> There's something up there.",
+    "translation": "",
+    "pos": 301
+  },
+  {
+    "passage": "Catacombs Bores",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "549_5_3_7|",
+    "original": "<span class=\"green\">There are riches entombed here.</span>",
+    "translation": "",
+    "pos": 727
+  },
+  {
+    "passage": "Catacombs Bores",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "551_5_3_7|",
+    "original": "<<crimeicon \"plunder\">><<link [[Plunder (0:30)|Catacombs Compound Plunder]]>><<pass 30>><<catacombs_torch -5>><</link>><<crime \"thievery\">><<ltorch>>",
+    "translation": "",
+    "pos": 797
+  },
+  {
+    "passage": "Catacombs Bores",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "554_5_3_7|",
+    "original": "<span class=\"red\">You lack the skill to sniff out the riches here.</span><<skulduggeryrequired>>",
+    "translation": "",
+    "pos": 969
+  },
+  {
+    "passage": "Catacombs Bores",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "559_5_3_7|",
+    "original": "<<mysteryicon>><<link [[Coax|Catacombs Bores Coax]]>><</link>><<note \"Tending\" \"green\">>",
+    "translation": "",
+    "pos": 1124
+  },
+  {
+    "passage": "Catacombs Bores",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "562_5_3_7|",
+    "original": "<span class=\"blue\">You lack the tending skill to coax out whatever's up there.</span>",
+    "translation": "",
+    "pos": 1232
+  },
+  {
+    "passage": "Catacombs Bores",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "565_5_3_7|",
+    "original": "<<caveicon \"north\">><<link [[Walk north (0:10)|Catacombs Engravings]]>><<pass 10>><<catacombs_torch -5>><</link>><<ltorch>>",
+    "translation": "",
+    "pos": 1335
+  },
+  {
+    "passage": "Catacombs Bores",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "567_5_3_7|",
+    "original": "<<caveicon \"south\">><<link [[Climb down (0:01)|Catacombs Stalagmites Climb]]>><<pass 1>><</link>><<catacombs_exit_indicator>>",
+    "translation": "",
+    "pos": 1466
+  },
+  {
+    "passage": "Catacombs Bores Coax",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "576_5_3_7|",
+    "original": "You coo up at the holes, your voice soft. Only a faint echo answers at first,",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Catacombs Bores Coax",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "580_5_3_7|",
+    "original": "but then an orb of light emerges from the hole. It hovers for a moment in front of you, before floating along the edge of the chasm.",
+    "translation": "",
+    "pos": 148
+  },
+  {
+    "passage": "Catacombs Bores Coax",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "583_5_3_7|",
+    "original": "It arrives at the wall, illuminating a thin passage, and hovers there a moment, as if beckoning. Then it floats inside. It looks like a hidden passage around the chasm.",
+    "translation": "",
+    "pos": 293
+  },
+  {
+    "passage": "Catacombs Bores Coax",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "585_5_3_7|",
+    "original": "but then a head pokes into view, followed by eight limbs. It's a <<beasttype>>, but there's no menace in <<bhis>> demeanor. <<bHe>> crawls from the hole and down the wall, aided by a silken thread, and lands in front of you.",
+    "translation": "",
+    "pos": 488
+  },
+  {
+    "passage": "Catacombs Bores Coax",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "588_5_3_7|",
+    "original": "\"Not friends with other humans,\" <<bhe>> asks. \"I can carry you across the chasm if you like. Nearer exit. I'm stronger than I look. Much stronger.\"",
+    "translation": "",
+    "pos": 725
+  },
+  {
+    "passage": "Catacombs Bores Coax",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "590_5_3_7|",
+    "original": "but then eight legs crawl into view. It's a giant <<beasttype>>, but there's no menace in <<bhis>> demeanor. <<bHe>> crawls from the hole and down the wall, aided by a silken thread, and lands in front of you.",
+    "translation": "",
+    "pos": 884
+  },
+  {
+    "passage": "Catacombs Bores Coax",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "593_5_3_7|",
+    "original": "<<bHe>> turns and steps towards the chasm, lowering <<bhis>> abdomen. <<bHe>> wants to carry you over.",
+    "translation": "",
+    "pos": 1106
+  },
+  {
+    "passage": "Catacombs Bores Coax",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "597_5_3_7|",
+    "original": "<<link [[Travel across the chasm (0:10)|Catacombs Bores Coax 2]]>><<pass 10>><</link>>",
+    "translation": "",
+    "pos": 1227
+  },
+  {
+    "passage": "Catacombs Bores Coax",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "599_5_3_7|",
+    "original": "<<link [[Stay|Catacombs Bores]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 1319
+  },
+  {
+    "passage": "Catacombs Bores Coax 2",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "606_5_3_7|",
+    "original": "You follow the light. It leads you through a maze of tight corridors in the stone, until you emerge in another part of the catacombs, on the other side of the chasm. Stalactites hang from the dark. The passage behind you has vanished in the shadows.",
+    "translation": "",
+    "pos": 43
+  },
+  {
+    "passage": "Catacombs Bores Coax 2",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "609_5_3_7|",
+    "original": "With a playful sparkle, the light shoots towards the ceiling, and takes cover among the stalactites.",
+    "translation": "",
+    "pos": 305
+  },
+  {
+    "passage": "Catacombs Bores Coax 2",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "611_5_3_7|",
+    "original": "The <<beasttype>> rushes in circles around you. Before you can react, <<bhes>> wrapped several strands of thread around your waist. <<bHe>> climbs the thread <<bhe>> descended on, pulling you off your feet and into the air. \"Best way to carry you,\" <<bhe>> says with an apologetic smile.",
+    "translation": "",
+    "pos": 432
+  },
+  {
+    "passage": "Catacombs Bores Coax 2",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "614_5_3_7|",
+    "original": "<<bHe>> crawls right up to the ceiling, and dashes over the chasm. You dangle beneath <<bhim>>, aware of the abyss beneath, until you reach the other side. <<bHe>> lowers you, gently, then descends <<bhimself>> and tears off the strands around your waist.",
+    "translation": "",
+    "pos": 732
+  },
+  {
+    "passage": "Catacombs Bores Coax 2",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "617_5_3_7|",
+    "original": "\"See?\" <<bHe>> grins. \"Strong!\" With a leap, <<bhe>> climbs the wall and vanishes into the dark once more. You're in another part of the catacombs. Stalactites hang from the dark.",
+    "translation": "",
+    "pos": 1000
+  },
+  {
+    "passage": "Catacombs Bores Coax 2",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "619_5_3_7|",
+    "original": "You climb onto the <<beasttype>>'s abdomen, and wrap your arms around <<bhis>> pedicel as <<bhe>> lurches into motion. <<bHe>> skitters up the strand of silk, and onto a horizontal web you could not see from below. <<bHe>> runs across a near-invisible network hung across the chasm. You cling tight, aware of the abyss beneath you.",
+    "translation": "",
+    "pos": 1190
+  },
+  {
+    "passage": "Catacombs Bores Coax 2",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "622_5_3_7|",
+    "original": "<<bHe>> reaches the other side, and skitters down another strand. You climb down, and at once the spider launches itself onto the hanging strand, and vanishes into the dark. You're in another part of the catacombs. Stalactites hang from the dark.",
+    "translation": "",
+    "pos": 1534
+  },
+  {
+    "passage": "Catacombs Bores Coax 2",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "626_5_3_7|",
+    "original": "<<link [[Next|Catacombs Chasm]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 1799
+  },
+  {
+    "passage": "Catacombs Stalagmites Climb",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "632_5_3_7|",
+    "original": "You lower yourself into the chasm. Boreholes provide good places to grasp, and reaching the bottom isn't difficult.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Catacombs Stalagmites Climb",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "635_5_3_7|",
+    "original": "Darkness surrounds you. Water rushes by your feet.",
+    "translation": "",
+    "pos": 139
+  },
+  {
+    "passage": "Catacombs Stalagmites Climb",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "638_5_3_7|",
+    "original": "<<link [[Next|Catacombs Stalagmites]]>><</link>>",
+    "translation": "",
+    "pos": 200
+  },
+  {
+    "passage": "Catacombs Engravings",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "644_5_3_7|",
+    "original": "You are in the catacombs beneath the forest. Pipes and cables crisscross overhead. The walls are decorated with skeletal engravings.",
+    "translation": "",
+    "pos": 41
+  },
+  {
+    "passage": "Catacombs Engravings",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "657_5_3_7|",
+    "original": "<span class=\"green\">There are riches entombed here.</span>",
+    "translation": "",
+    "pos": 497
+  },
+  {
+    "passage": "Catacombs Engravings",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "659_5_3_7|",
+    "original": "<<crimeicon \"plunder\">><<link [[Plunder (0:30)|Catacombs Compound Plunder]]>><<pass 30>><<catacombs_torch -5>><</link>><<crime \"thievery\">><<ltorch>>",
+    "translation": "",
+    "pos": 567
+  },
+  {
+    "passage": "Catacombs Engravings",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "662_5_3_7|",
+    "original": "<span class=\"red\">You lack the skill to sniff out the riches here.</span><<skulduggeryrequired>>",
+    "translation": "",
+    "pos": 739
+  },
+  {
+    "passage": "Catacombs Engravings",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "666_5_3_7|",
+    "original": "<<caveicon \"north\">><<link [[Walk north (0:10)|Catacombs Museum]]>><<pass 10>><<catacombs_torch -5>><</link>><<ltorch>>",
+    "translation": "",
+    "pos": 868
+  },
+  {
+    "passage": "Catacombs Engravings",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "668_5_3_7|",
+    "original": "<<caveicon \"south\">><<link [[Walk south (0:10)|Catacombs Bores]]>><<pass 10>><<catacombs_torch -5>><</link>><<ltorch>><<catacombs_exit_indicator>>",
+    "translation": "",
+    "pos": 995
+  },
+  {
+    "passage": "Catacombs Museum",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "677_5_3_7|",
+    "original": "You are in the catacombs beneath the forest. Pipes and cables crisscross overhead. Shattered glass litters the ground.",
+    "translation": "",
+    "pos": 37
+  },
+  {
+    "passage": "Catacombs Museum",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "690_5_3_7|",
+    "original": "<span class=\"green\">There are riches entombed here.</span>",
+    "translation": "",
+    "pos": 479
+  },
+  {
+    "passage": "Catacombs Museum",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "692_5_3_7|",
+    "original": "<<crimeicon \"plunder\">><<link [[Plunder (0:30)|Catacombs Compound Plunder]]>><<pass 30>><<catacombs_torch -5>><</link>><<crime \"thievery\">><<ltorch>>",
+    "translation": "",
+    "pos": 549
+  },
+  {
+    "passage": "Catacombs Museum",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "695_5_3_7|",
+    "original": "<span class=\"red\">You lack the skill to sniff out the riches here.</span><<skulduggeryrequired>>",
+    "translation": "",
+    "pos": 721
+  },
+  {
+    "passage": "Catacombs Museum",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "699_5_3_7|",
+    "original": "<<caveicon \"north\">><<link [[Walk north (0:10)|Catacombs Statues]]>><<pass 10>><<catacombs_torch -5>><</link>><<ltorch>>",
+    "translation": "",
+    "pos": 850
+  },
+  {
+    "passage": "Catacombs Museum",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "701_5_3_7|",
+    "original": "<<caveicon \"south\">><<link [[Walk south (0:10)|Catacombs Engravings]]>><<pass 10>><<catacombs_torch -5>><</link>><<ltorch>><<catacombs_exit_indicator>>",
+    "translation": "",
+    "pos": 978
+  },
+  {
+    "passage": "Catacombs Statues",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "710_5_3_7|",
+    "original": "You are in the catacombs beneath the forest. Pipes and cables crisscross overhead. Time-worn statues guard ruined portals.",
+    "translation": "",
+    "pos": 38
+  },
+  {
+    "passage": "Catacombs Statues",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "723_5_3_7|",
+    "original": "<span class=\"green\">There are riches entombed here.</span>",
+    "translation": "",
+    "pos": 484
+  },
+  {
+    "passage": "Catacombs Statues",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "725_5_3_7|",
+    "original": "<<crimeicon \"plunder\">><<link [[Plunder (0:30)|Catacombs Compound Plunder]]>><<pass 30>><<catacombs_torch -5>><</link>><<crime \"thievery\">><<ltorch>>",
+    "translation": "",
+    "pos": 554
+  },
+  {
+    "passage": "Catacombs Statues",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "728_5_3_7|",
+    "original": "<span class=\"red\">You lack the skill to sniff out the riches here.</span><<skulduggeryrequired>>",
+    "translation": "",
+    "pos": 726
+  },
+  {
+    "passage": "Catacombs Statues",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "732_5_3_7|",
+    "original": "<<caveicon \"north\">><<link [[Walk north (0:10)|Catacombs Compound]]>><<pass 10>><<catacombs_torch -5>><</link>><<ltorch>>",
+    "translation": "",
+    "pos": 855
+  },
+  {
+    "passage": "Catacombs Statues",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "734_5_3_7|",
+    "original": "<<caveicon \"south\">><<link [[Walk south (0:10)|Catacombs Museum]]>><<pass 10>><<catacombs_torch -5>><</link>><<ltorch>><<catacombs_exit_indicator>>",
+    "translation": "",
+    "pos": 984
+  },
+  {
+    "passage": "Catacombs Compound",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "743_5_3_7|",
+    "original": "You are in the catacombs beneath the forest. Pipes and cables vibrate overhead, snaking around half-ruined pillars.",
+    "translation": "",
+    "pos": 39
+  },
+  {
+    "passage": "Catacombs Compound",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "745_5_3_7|",
+    "original": "They all run in the same direction, towards a humming machine. Suspended in its centre is a glowing white crystal. The dim light casts long shadows.",
+    "translation": "",
+    "pos": 348
+  },
+  {
+    "passage": "Catacombs Compound",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "757_5_3_7|",
+    "original": "<<link [[Approach the crystal|Catacombs Crystal]]>><</link>>",
+    "translation": "",
+    "pos": 886
+  },
+  {
+    "passage": "Catacombs Compound",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "763_5_3_7|",
+    "original": "<span class=\"green\">There are riches entombed here.</span>",
+    "translation": "",
+    "pos": 1100
+  },
+  {
+    "passage": "Catacombs Compound",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "765_5_3_7|",
+    "original": "<<crimeicon \"plunder\">><<link [[Plunder (0:30)|Catacombs Compound Plunder]]>><<pass 30>><<catacombs_torch -5>><</link>><<crime \"thievery\">><<ltorch>>",
+    "translation": "",
+    "pos": 1170
+  },
+  {
+    "passage": "Catacombs Compound",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "768_5_3_7|",
+    "original": "<span class=\"red\">You lack the skill to sniff out the riches here.</span><<skulduggeryrequired>>",
+    "translation": "",
+    "pos": 1342
+  },
+  {
+    "passage": "Catacombs Compound",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "772_5_3_7|",
+    "original": "<<caveicon \"south\">><<link [[Walk south (0:10)|Catacombs Statues]]>><<pass 10>><<catacombs_torch -5>><</link>><<ltorch>><<catacombs_exit_indicator>>",
+    "translation": "",
+    "pos": 1471
+  },
+  {
+    "passage": "Catacombs Crystal",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "781_5_3_7|",
+    "original": "You approach the machine. You feel the ground vibrate as you draw closer, and see the metal prongs holding the crystal in place. Whatever it is, it's important, and might be worth a pretty penny.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Catacombs Crystal",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "784_5_3_7|",
+    "original": "<<antiqueicon \"crystal\">><<link [[Take it|Catacombs Crystal 2]]>><</link>><<gcrime \"thievery\">>",
+    "translation": "",
+    "pos": 219
+  },
+  {
+    "passage": "Catacombs Crystal",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "786_5_3_7|",
+    "original": "<<getouticon>><<link [[Step away|Catacombs Compound]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 320
+  },
+  {
+    "passage": "Catacombs Crystal 2",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "792_5_3_7|",
+    "original": "You remove the crystal. The prongs release it without resistance. You think you see an engraving, somehow carved into the interior.",
+    "translation": "",
+    "pos": 63
+  },
+  {
+    "passage": "Catacombs Crystal 2",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "795_5_3_7|",
+    "original": "Before you can examine further, <span class=\"red\">an alarm blares.</span> You turn and run, past the pillars and down one of the passages snaking away. You hear footsteps behind, but soon lose them in the maze.",
+    "translation": "",
+    "pos": 205
+  },
+  {
+    "passage": "Catacombs Crystal 2",
+    "filepath": "overworld-forest/loc-churchyard/catacombs.twee",
+    "key": "800_5_3_7|",
+    "original": "<<link [[Next|Catacombs Compound]]>><<handheldon>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 567
+  }
+]

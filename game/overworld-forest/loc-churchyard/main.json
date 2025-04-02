@@ -1,0 +1,274 @@
+[
+  {
+    "passage": "Churchyard",
+    "filepath": "overworld-forest/loc-churchyard/main.twee",
+    "key": "4_5_3_7|",
+    "original": "You are in the old churchyard. A decrepit manor looms from a hill, surrounded by stone ruins and sepulchres.",
+    "translation": "",
+    "pos": 73
+  },
+  {
+    "passage": "Churchyard",
+    "filepath": "overworld-forest/loc-churchyard/main.twee",
+    "key": "8_5_3_7|",
+    "original": "The graves cast disturbing shadows in the red moonlight.",
+    "translation": "",
+    "pos": 243
+  },
+  {
+    "passage": "Churchyard",
+    "filepath": "overworld-forest/loc-churchyard/main.twee",
+    "key": "11_5_3_7|",
+    "original": "The moonlight-cast shadows seem to move.",
+    "translation": "",
+    "pos": 354
+  },
+  {
+    "passage": "Churchyard",
+    "filepath": "overworld-forest/loc-churchyard/main.twee",
+    "key": "13_5_3_7|",
+    "original": "The patter of rain on stone drowns out all else.",
+    "translation": "",
+    "pos": 443
+  },
+  {
+    "passage": "Churchyard",
+    "filepath": "overworld-forest/loc-churchyard/main.twee",
+    "key": "15_5_3_7|",
+    "original": "Snow rests on the headstones.",
+    "translation": "",
+    "pos": 540
+  },
+  {
+    "passage": "Churchyard",
+    "filepath": "overworld-forest/loc-churchyard/main.twee",
+    "key": "17_5_3_7|",
+    "original": "You're careful not to trip in the dark.",
+    "translation": "",
+    "pos": 584
+  },
+  {
+    "passage": "Churchyard",
+    "filepath": "overworld-forest/loc-churchyard/main.twee",
+    "key": "21_5_3_7|",
+    "original": "Birds nest on statues, and within archways above the sepulchres' entrances.",
+    "translation": "",
+    "pos": 678
+  },
+  {
+    "passage": "Churchyard",
+    "filepath": "overworld-forest/loc-churchyard/main.twee",
+    "key": "23_5_3_7|",
+    "original": "The morning sun peers over the trees.",
+    "translation": "",
+    "pos": 790
+  },
+  {
+    "passage": "Churchyard",
+    "filepath": "overworld-forest/loc-churchyard/main.twee",
+    "key": "25_5_3_7|",
+    "original": "The shadows lengthen in the setting sun.",
+    "translation": "",
+    "pos": 838
+  },
+  {
+    "passage": "Churchyard",
+    "filepath": "overworld-forest/loc-churchyard/main.twee",
+    "key": "29_5_3_7|",
+    "original": "<<foresticon \"churchyard\">><<link [[Sepulchre|Churchyard Catacombs Lock]]>><</link>>",
+    "translation": "",
+    "pos": 897
+  },
+  {
+    "passage": "Churchyard",
+    "filepath": "overworld-forest/loc-churchyard/main.twee",
+    "key": "31_5_3_7|",
+    "original": "<<foresticon>><<link [[Enter the forest|Forest]]>><<endevent>><<set $forest to 10>><</link>>",
+    "translation": "",
+    "pos": 987
+  },
+  {
+    "passage": "Churchyard Catacombs Lock",
+    "filepath": "overworld-forest/loc-churchyard/main.twee",
+    "key": "37_5_3_7|",
+    "original": "You approach the sepulchre. Gargoyles sit on either side, watching. The doors are locked by a modern device, at odds with the old stone.",
+    "translation": "",
+    "pos": 58
+  },
+  {
+    "passage": "Churchyard Catacombs Lock",
+    "filepath": "overworld-forest/loc-churchyard/main.twee",
+    "key": "43_5_3_7|",
+    "original": "You think you'd be able to pick the lock, <span class=\"blue\">if your arms weren't bound.</span>",
+    "translation": "",
+    "pos": 331
+  },
+  {
+    "passage": "Churchyard Catacombs Lock",
+    "filepath": "overworld-forest/loc-churchyard/main.twee",
+    "key": "47_5_3_7|",
+    "original": "<span class=\"green\">The lock looks easy to pick.</span>",
+    "translation": "",
+    "pos": 472
+  },
+  {
+    "passage": "Churchyard Catacombs Lock",
+    "filepath": "overworld-forest/loc-churchyard/main.twee",
+    "key": "49_5_3_7|",
+    "original": "<<lockicon \"pick\">><<link [[Pick it (0:10)|Churchyard Catacombs Sneak]]>><<handheldon>><<pass 10>><<crimeUp 1 \"trespassing\">><</link>><<crime \"trespassing\">>",
+    "translation": "",
+    "pos": 541
+  },
+  {
+    "passage": "Churchyard Catacombs Lock",
+    "filepath": "overworld-forest/loc-churchyard/main.twee",
+    "key": "53_5_3_7|",
+    "original": "<span class=\"red\">The lock looks beyond your ability to pick.</span><<skulduggeryrequired>>",
+    "translation": "",
+    "pos": 725
+  },
+  {
+    "passage": "Churchyard Catacombs Lock",
+    "filepath": "overworld-forest/loc-churchyard/main.twee",
+    "key": "56_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Churchyard]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 835
+  },
+  {
+    "passage": "Churchyard Catacombs Sneak",
+    "filepath": "overworld-forest/loc-churchyard/main.twee",
+    "key": "62_5_3_7|",
+    "original": "You enter the sepulchre. Another torch blazes in the sconce. You take it, and descend into the catacombs.",
+    "translation": "",
+    "pos": 38
+  },
+  {
+    "passage": "Churchyard Catacombs Sneak",
+    "filepath": "overworld-forest/loc-churchyard/main.twee",
+    "key": "65_5_3_7|",
+    "original": "<<link [[Next|Catacombs]]>><<catacombs_init>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 156
+  },
+  {
+    "passage": "Churchyard Catacombs Sneak",
+    "filepath": "overworld-forest/loc-churchyard/main.twee",
+    "key": "68_5_3_7|",
+    "original": "Even with the lock gone, one of the stone doors is stuck tight, but you're able to push the other far enough to slip inside.",
+    "translation": "",
+    "pos": 250
+  },
+  {
+    "passage": "Churchyard Catacombs Sneak",
+    "filepath": "overworld-forest/loc-churchyard/main.twee",
+    "key": "71_5_3_7|",
+    "original": "The interior is lit by a single flaming torch. The light doesn't reach the far side of the room.",
+    "translation": "",
+    "pos": 387
+  },
+  {
+    "passage": "Churchyard Catacombs Sneak",
+    "filepath": "overworld-forest/loc-churchyard/main.twee",
+    "key": "74_5_3_7|",
+    "original": "You remove the torch from its sconce, and use it to light your way. The room is empty, save an open sarcophagus.",
+    "translation": "",
+    "pos": 496
+  },
+  {
+    "passage": "Churchyard Catacombs Sneak",
+    "filepath": "overworld-forest/loc-churchyard/main.twee",
+    "key": "77_5_3_7|",
+    "original": "<<ind>><<link [[Peer inside slowly|Churchyard Catacombs Peer Slow]]>><<set $crypt_intro to 1>><</link>>",
+    "translation": "",
+    "pos": 621
+  },
+  {
+    "passage": "Churchyard Catacombs Sneak",
+    "filepath": "overworld-forest/loc-churchyard/main.twee",
+    "key": "79_5_3_7|",
+    "original": "<<ind>><<link [[Peer inside quickly|Churchyard Catacombs Peer Quick]]>><<set $crypt_intro to 1>><</link>>",
+    "translation": "",
+    "pos": 732
+  },
+  {
+    "passage": "Churchyard Catacombs Sneak",
+    "filepath": "overworld-forest/loc-churchyard/main.twee",
+    "key": "81_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Churchyard Catacombs Leave]]>><<stress 6>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 845
+  },
+  {
+    "passage": "Churchyard Catacombs Peer Slow",
+    "filepath": "overworld-forest/loc-churchyard/main.twee",
+    "key": "88_5_3_7|",
+    "original": "You move the torch forward, illuminating the sarcophagus interior inch by inch, ready to pull back at a moment should you find something you don't want to see. Instead you find steps, leading down.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Churchyard Catacombs Peer Slow",
+    "filepath": "overworld-forest/loc-churchyard/main.twee",
+    "key": "91_5_3_7|",
+    "original": "<<link [[Descend|Churchyard Catacombs Intro]]>><</link>>",
+    "translation": "",
+    "pos": 221
+  },
+  {
+    "passage": "Churchyard Catacombs Peer Quick",
+    "filepath": "overworld-forest/loc-churchyard/main.twee",
+    "key": "97_5_3_7|",
+    "original": "You thrust the torch forward, illuminating the sarcophagus interior all at once. You find a set of steps, leading down.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Churchyard Catacombs Peer Quick",
+    "filepath": "overworld-forest/loc-churchyard/main.twee",
+    "key": "100_5_3_7|",
+    "original": "<<link [[Descend|Churchyard Catacombs Intro]]>><</link>>",
+    "translation": "",
+    "pos": 143
+  },
+  {
+    "passage": "Churchyard Catacombs Intro",
+    "filepath": "overworld-forest/loc-churchyard/main.twee",
+    "key": "106_5_3_7|",
+    "original": "The steps lead you through a tight passage, until your torch lights up the visage of a six-armed angel. A statue set into a wall, surrounded by stone skulls.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Churchyard Catacombs Intro",
+    "filepath": "overworld-forest/loc-churchyard/main.twee",
+    "key": "109_5_3_7|",
+    "original": "A path leads further in. Your torchlight carries a little further here, revealing two branching paths up ahead.",
+    "translation": "",
+    "pos": 181
+  },
+  {
+    "passage": "Churchyard Catacombs Intro",
+    "filepath": "overworld-forest/loc-churchyard/main.twee",
+    "key": "112_5_3_7|",
+    "original": "<<link [[Next|Catacombs]]>><<catacombs_init>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 303
+  },
+  {
+    "passage": "Churchyard Catacombs Leave",
+    "filepath": "overworld-forest/loc-churchyard/main.twee",
+    "key": "118_5_3_7|",
+    "original": "You turn and walk towards the entrance, stopping only to return the torch to the sconce. Your feet quicken before you reach the door.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Churchyard Catacombs Leave",
+    "filepath": "overworld-forest/loc-churchyard/main.twee",
+    "key": "121_5_3_7|",
+    "original": "<<link [[Next|Churchyard]]>><</link>>",
+    "translation": "",
+    "pos": 157
+  }
+]

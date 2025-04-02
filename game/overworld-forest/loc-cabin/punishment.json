@@ -1,0 +1,2746 @@
+[
+  {
+    "passage": "Street Stalk Eden",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "22_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Street Stalk Eden Finish]]>><<if $feetaction is \"confront\">><<set $phase to 1>><<else>><<set $phase to 0>><</if>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 295
+  },
+  {
+    "passage": "Street Stalk Eden",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "24_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Street Stalk Eden]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 477
+  },
+  {
+    "passage": "Street Stalk Eden Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "33_5_3_7|",
+    "original": "Eden grabs you by the arm, <<his>> grip painful. <<He>> looks mad.",
+    "translation": "",
+    "pos": 127
+  },
+  {
+    "passage": "Street Stalk Eden Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "36_5_3_7|",
+    "original": "Eden's grip on your arm remains painfully tight as <<he>> turns you around to face <<him>>. <<He>> looks mad.",
+    "translation": "",
+    "pos": 230
+  },
+  {
+    "passage": "Street Stalk Eden Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "38_5_3_7|",
+    "original": "You're spun around, and come face-to-face with a large figure. It's Eden. <<He>> looks mad.",
+    "translation": "",
+    "pos": 354
+  },
+  {
+    "passage": "Street Stalk Eden Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "47_5_3_7|",
+    "original": "\"Told you I'd find you again, didn't I?\" <<he>> snarls, pulling you close. \"Looks like you still haven't learnt your place. Come on.\"",
+    "translation": "",
+    "pos": 544
+  },
+  {
+    "passage": "Street Stalk Eden Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "49_5_3_7|",
+    "original": "\"Where the fuck have you been?\" <<he>> snarls, pulling you close.",
+    "translation": "",
+    "pos": 690
+  },
+  {
+    "passage": "Street Stalk Eden Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "51_5_3_7|",
+    "original": "\"I've been worried sick and you've been prancing around town like a slut!\"",
+    "translation": "",
+    "pos": 800
+  },
+  {
+    "passage": "Street Stalk Eden Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "53_5_3_7|",
+    "original": "\"I've been worried sick, and you're just prancing around town!\"",
+    "translation": "",
+    "pos": 889
+  },
+  {
+    "passage": "Street Stalk Eden Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "61_5_3_7|",
+    "original": "Before you can speak, Eden begins to drag you away. \"I don't want to hear your excuses, either.\" <<He>> looks uncomfortable, eyes shifting as <<he>> walks. The corner of <<his>> lip curls in disgust. \"And you made me come out here to get you. Things aren't going to be pretty when we get home.\"",
+    "translation": "",
+    "pos": 1067
+  },
+  {
+    "passage": "Street Stalk Eden Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "65_5_3_7|",
+    "original": "<<link [[Fight|Eden Caged Caught Resist]]>><<set $fightstart to 1>><<def 1>><</link>>",
+    "translation": "",
+    "pos": 1383
+  },
+  {
+    "passage": "Street Stalk Eden Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "67_5_3_7|",
+    "original": "<<link [[Try to pull away|Eden Caged Caught Pull]]>><<def 1>><<npcincr Eden dom -1>><</link>><<physiquedifficulty 2000 18000>><<ldom>>",
+    "translation": "",
+    "pos": 1476
+  },
+  {
+    "passage": "Street Stalk Eden Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "69_5_3_7|",
+    "original": "<<link [[Submit (0:30)|Eden Caged Caught]]>><<set $phase to 1>><<pass 30>><<sub 1>><<npcincr Eden dom 1>><</link>><<gdom>>",
+    "translation": "",
+    "pos": 1618
+  },
+  {
+    "passage": "Street Stalk Eden Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "72_5_3_7|",
+    "original": "You emerge from your hiding place. <<if $stalk_assess>>Eden<<else>>Whoever was following you<</if>> is nowhere to be found. <<tearful>> you continue on your way.",
+    "translation": "",
+    "pos": 1780
+  },
+  {
+    "passage": "Street Stalk Eden Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "80_5_3_7|",
+    "original": "<<if $stalk_assess>>Eden's<<else>>A familiar<</if>> voice shouts after you as you escape into the <<if Time.dayState is \"night\">>darkness<<else>>crowds<</if>>, but you keep running. Finally, it fades into the distance. <<tearful>> you slow to a walk, and continue on your way.",
+    "translation": "",
+    "pos": 2019
+  },
+  {
+    "passage": "Eden Caged Caught Pull",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "92_5_3_7|",
+    "original": "Fearing whatever Eden has in store for you, you pull hard.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Eden Caged Caught Pull",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "94_5_3_7|",
+    "original": "<<He>> resists, turning to you with a warning glare. After some back and forth, <span class=\"green\"><<his>> grasp loosens enough for you to slip out and begin a full-sprint away.</span> Your arm stings, but you push past the feeling.<<pain 2>><<gpain>>",
+    "translation": "",
+    "pos": 129
+  },
+  {
+    "passage": "Eden Caged Caught Pull",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "97_5_3_7|",
+    "original": "Eden gives chase, narrowly on your heels for a few minutes. <<He>> calls after you as you pull ahead, <<his>> anger palpable.",
+    "translation": "",
+    "pos": 394
+  },
+  {
+    "passage": "Eden Caged Caught Pull",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "100_5_3_7|",
+    "original": "After a few minutes, the sounds of <<his>> voice fades away, until it disappears completely.",
+    "translation": "",
+    "pos": 532
+  },
+  {
+    "passage": "Eden Caged Caught Pull",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "104_5_3_7|",
+    "original": "You're in the clear, but you know Eden's already on your trail. <span class=\"red\">Something is hunting you.</span>",
+    "translation": "",
+    "pos": 668
+  },
+  {
+    "passage": "Eden Caged Caught Pull",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "108_5_3_7|",
+    "original": "<<link [[Next|Forest]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 824
+  },
+  {
+    "passage": "Eden Caged Caught Pull",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "115_5_3_7|",
+    "original": "<<His>> grip remains almost bone-crunching. <span class=\"red\">You can't tear away.</span> Eden silently glares as <<he>> tightens <<his>> hold on you.<<pain 4>><<gpain>>",
+    "translation": "",
+    "pos": 970
+  },
+  {
+    "passage": "Eden Caged Caught Pull",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "118_5_3_7|",
+    "original": "<<link [[Fight|Eden Caged Caught Resist]]>><<set $fightstart to 1>><<def 1>><</link>>",
+    "translation": "",
+    "pos": 1152
+  },
+  {
+    "passage": "Eden Caged Caught Pull",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "120_5_3_7|",
+    "original": "<<link [[Submit (0:30)|Eden Caged Caught]]>><<set $phase to 0>><<pass 30>><<stress 6>><<sub 1>><<npcincr Eden dom 1>><</link>><<gstress>><<gdom>>",
+    "translation": "",
+    "pos": 1245
+  },
+  {
+    "passage": "Forest Eden Rage",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "128_5_3_7|",
+    "original": "Eden's right. You've been away for far too long. You probably couldn't break free, anyway.",
+    "translation": "",
+    "pos": 83
+  },
+  {
+    "passage": "Forest Eden Rage",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "131_5_3_7|",
+    "original": "<<He>> doesn't loosen <<his>> grip, but <<he>> eases up on <<his>> handling of you as you march through the forest.",
+    "translation": "",
+    "pos": 186
+  },
+  {
+    "passage": "Forest Eden Rage",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "133_5_3_7|",
+    "original": "Fearing whatever Eden has in store for you, you pull hard.",
+    "translation": "",
+    "pos": 312
+  },
+  {
+    "passage": "Forest Eden Rage",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "135_5_3_7|",
+    "original": "<<He>> resists, turning to you with a warning glare. After some back and forth, <span class=\"green\"><<his>> grasp loosens enough for you to slip out and begin a full-sprint away.</span> Your arm stings, but you push past the feeling.<<pain 2>><<gpain>>",
+    "translation": "",
+    "pos": 398
+  },
+  {
+    "passage": "Forest Eden Rage",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "138_5_3_7|",
+    "original": "Eden gives chase, narrowly on your heels for a few minutes. <<He>> calls after you as you pull ahead, <<his>> anger palpable.",
+    "translation": "",
+    "pos": 665
+  },
+  {
+    "passage": "Forest Eden Rage",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "141_5_3_7|",
+    "original": "After a few minutes, the sounds of <<his>> voice fades away, until it disappears completely.",
+    "translation": "",
+    "pos": 805
+  },
+  {
+    "passage": "Forest Eden Rage",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "143_5_3_7|",
+    "original": "You're in the clear, but you know Eden's already on your trail. <span class=\"red\">Something is hunting you.</span>",
+    "translation": "",
+    "pos": 907
+  },
+  {
+    "passage": "Forest Eden Rage",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "147_5_3_7|",
+    "original": "<<His>> grip remains almost bone-crunching. <span class=\"red\">You can't tear away.</span> Eden silently glares as <<he>> pulls you closer.",
+    "translation": "",
+    "pos": 1096
+  },
+  {
+    "passage": "Forest Eden Rage",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "150_5_3_7|",
+    "original": "<<He>> drags you towards the cabin. You cry for help. Nobody answers.<<trauma 3>><<gtrauma>>",
+    "translation": "",
+    "pos": 1249
+  },
+  {
+    "passage": "Forest Eden Rage",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "158_5_3_7|",
+    "original": "You're pulled into the cabin. Eden slams the door shut behind you. Everything is as you left it. Apart from the cage near the sleeping area.",
+    "translation": "",
+    "pos": 1462
+  },
+  {
+    "passage": "Forest Eden Rage",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "161_5_3_7|",
+    "original": "<<link [[Struggle|Eden Caged Intro]]>><<set $phase to 0>><<def 1>><<npcincr Eden dom -1>><</link>><<physiquedifficulty 2000 18000>><<ldom>>",
+    "translation": "",
+    "pos": 1615
+  },
+  {
+    "passage": "Forest Eden Rage",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "163_5_3_7|",
+    "original": "<<link [[Submit|Eden Caged Intro]]>><<set $phase to 1>><<sub 1>><<stress 6>><<npcincr Eden dom 1>><</link>><<gstress>><<gdom>>",
+    "translation": "",
+    "pos": 1762
+  },
+  {
+    "passage": "Forest Eden Rage",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "166_5_3_7|",
+    "original": "<<link [[Next|Forest]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 1905
+  },
+  {
+    "passage": "Eden Caged Caught Resist",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "185_5_3_7|",
+    "original": "\"I don't want to do this,\" Eden says as <<he>> shifts <<his>> hands over your throat. <span class=\"red\">You're being strangled!</span>",
+    "translation": "",
+    "pos": 358
+  },
+  {
+    "passage": "Eden Caged Caught Resist",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "187_5_3_7|",
+    "original": "<span class=\"red\">Eden slaps you across the face.</span> \"You're only making things harder on yourself,\" <<he>> snarls.",
+    "translation": "",
+    "pos": 505
+  },
+  {
+    "passage": "Eden Caged Caught Resist",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "202_5_3_7|",
+    "original": "You see <<if $forest_shop_intro is 1 or $gwylan_rescue is 1>>Gwylan<<else>>a <<nnpc_gendery \"Gwylan\">><</if>> burst through the treeline, alarmed by your shout.",
+    "translation": "",
+    "pos": 875
+  },
+  {
+    "passage": "Eden Caged Caught Resist",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "203_5_3_7|",
+    "original": "<<nnpc_He \"Gwylan\">> takes one look at the assailant, <span class=\"red\">then turns and runs away.</span>",
+    "translation": "",
+    "pos": 1039
+  },
+  {
+    "passage": "Eden Caged Caught Resist",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "218_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Eden Caged Caught Resist Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 1362
+  },
+  {
+    "passage": "Eden Caged Caught Resist",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "220_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Eden Caged Caught Resist]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 1466
+  },
+  {
+    "passage": "Eden Caged Caught Resist Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "228_5_3_7|",
+    "original": "Eden collapses against a nearby <<if $location is \"forest\">>tree<<else>>streetlamp<</if>>.",
+    "translation": "",
+    "pos": 157
+  },
+  {
+    "passage": "Eden Caged Caught Resist Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "231_5_3_7|",
+    "original": "<<tearful>> you seize the chance, and escape into the <<if $location is \"forest\">>woods<<else>>streets<</if>>.",
+    "translation": "",
+    "pos": 260
+  },
+  {
+    "passage": "Eden Caged Caught Resist Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "239_5_3_7|",
+    "original": "<<link [[Next|Forest]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 479
+  },
+  {
+    "passage": "Eden Caged Caught Resist Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "245_5_3_7|",
+    "original": "Eden falls against a nearby <<if $location is \"forest\">>tree<<else>>streetlamp<</if>>.",
+    "translation": "",
+    "pos": 674
+  },
+  {
+    "passage": "Eden Caged Caught Resist Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "248_5_3_7|",
+    "original": "<<tearful>> you seize the chance, and escape into the <<if $location is \"forest\">>woods<<else>>streets<</if>>.",
+    "translation": "",
+    "pos": 773
+  },
+  {
+    "passage": "Eden Caged Caught Resist Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "256_5_3_7|",
+    "original": "<<link [[Next|Forest]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 992
+  },
+  {
+    "passage": "Eden Caged Caught Resist Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "262_5_3_7|",
+    "original": "You fall to the ground, too hurt to continue.",
+    "translation": "",
+    "pos": 1111
+  },
+  {
+    "passage": "Eden Caged Caught Resist Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "269_5_3_7|",
+    "original": "<<link [[Next|Eden Caged Caught]]>><<set $phase to 0>><<pass 30>><</link>>",
+    "translation": "",
+    "pos": 1225
+  },
+  {
+    "passage": "Eden Caged Caught",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "276_5_3_7|",
+    "original": "Eden's right. You've been away for far too long. You probably couldn't break free, anyway.",
+    "translation": "",
+    "pos": 54
+  },
+  {
+    "passage": "Eden Caged Caught",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "280_5_3_7|",
+    "original": "<<He>> doesn't loosen <<his>> grip, but <<he>> eases up on <<his>> handling of you as you march through the forest.",
+    "translation": "",
+    "pos": 188
+  },
+  {
+    "passage": "Eden Caged Caught",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "282_5_3_7|",
+    "original": "<<He>> guides you towards the forest. Most people ignore you. It's a struggle to keep up with <<his>> quick steps.",
+    "translation": "",
+    "pos": 316
+  },
+  {
+    "passage": "Eden Caged Caught",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "286_5_3_7|",
+    "original": "You're pulled into the cabin. Eden slams the door shut behind you. Everything is as you left it. Apart from the cage near the sleeping area.",
+    "translation": "",
+    "pos": 452
+  },
+  {
+    "passage": "Eden Caged Caught",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "290_5_3_7|",
+    "original": "Eden roughly pulls you by your wrist, forcing you to stumble after <<him>> as <<he>> makes <<his>> way home.",
+    "translation": "",
+    "pos": 644
+  },
+  {
+    "passage": "Eden Caged Caught",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "292_5_3_7|",
+    "original": "Eden's grip remains almost bone-crunching as <<he>> guides you towards the forest. People look on as you pass, but none intervene, despite your cries for help.<<trauma 3>><<gtrauma>>",
+    "translation": "",
+    "pos": 765
+  },
+  {
+    "passage": "Eden Caged Caught",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "295_5_3_7|",
+    "original": "Eden doesn't relax as <<he>> drags you through the woods, even once you're past the outskirts of town. The sounds of civilisation gradually give way to nature's deathly silence.",
+    "translation": "",
+    "pos": 962
+  },
+  {
+    "passage": "Eden Caged Caught",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "299_5_3_7|",
+    "original": "The usual familiarity and comfort of the cabin is disrupted by a foreboding feeling in your stomach. Your dread is reinforced when you see the cage in the corner.",
+    "translation": "",
+    "pos": 1161
+  },
+  {
+    "passage": "Eden Caged Caught",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "304_5_3_7|",
+    "original": "<<link [[Struggle|Eden Caged Intro]]>><<set $phase to 0>><<def 1>><<npcincr Eden dom -1>><</link>><<physiquedifficulty 2000 18000>><<ldom>>",
+    "translation": "",
+    "pos": 1392
+  },
+  {
+    "passage": "Eden Caged Caught",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "306_5_3_7|",
+    "original": "<<link [[Submit|Eden Caged Intro]]>><<set $phase to 1>><<sub 1>><<stress 6>><<npcincr Eden dom 1>><</link>><<gstress>><<gdom>>",
+    "translation": "",
+    "pos": 1537
+  },
+  {
+    "passage": "Eden Robin Caged Caught",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "313_5_3_7|",
+    "original": "As <<he>> carries you through the forest, <<he>> doesn't loosen <<his>> grip. <<He>> doesn't even ease up on <<his>> handling of you as you're pulled into the cabin. <<He>> drops you in a heap on the floor.",
+    "translation": "",
+    "pos": 86
+  },
+  {
+    "passage": "Eden Robin Caged Caught",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "315_5_3_7|",
+    "original": "Eden slams the door shut behind <<him>>. The usual familiarity and comfort of the cabin is disrupted by a foreboding feeling in your stomach. Your dread is reinforced when you see the cage in the corner.",
+    "translation": "",
+    "pos": 302
+  },
+  {
+    "passage": "Eden Robin Caged Caught",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "318_5_3_7|",
+    "original": "<<link [[Next|Eden Caged Intro]]>><<set $phase to 2>><</link>>",
+    "translation": "",
+    "pos": 516
+  },
+  {
+    "passage": "Street Eden Rage",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "325_5_3_7|",
+    "original": "Eden's right. You've been away for far too long. You probably couldn't break free, anyway.",
+    "translation": "",
+    "pos": 81
+  },
+  {
+    "passage": "Street Eden Rage",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "328_5_3_7|",
+    "original": "<<He>> guides you towards the forest. Most people ignore you. It's a struggle to keep up with <<his>> quick steps.",
+    "translation": "",
+    "pos": 184
+  },
+  {
+    "passage": "Street Eden Rage",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "330_5_3_7|",
+    "original": "Fearing whatever Eden has in store for you, you pull hard.",
+    "translation": "",
+    "pos": 309
+  },
+  {
+    "passage": "Street Eden Rage",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "332_5_3_7|",
+    "original": "Eden resists, turning to you with a warning glare. After some back and forth, <span class=\"green\"><<his>> grasp loosens enough for you to slip out and begin a full-sprint away.</span> Your arm stings, but you push past the feeling.<<pain 2>><<gpain>>",
+    "translation": "",
+    "pos": 395
+  },
+  {
+    "passage": "Street Eden Rage",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "335_5_3_7|",
+    "original": "Eden gives chase, narrowly on your heels for a few minutes. <<He>> calls after you as you pull ahead, <<his>> anger palpable.",
+    "translation": "",
+    "pos": 660
+  },
+  {
+    "passage": "Street Eden Rage",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "338_5_3_7|",
+    "original": "After a few minutes, the sounds of <<his>> voice fades away, until it disappears completely. You're safe. For now.",
+    "translation": "",
+    "pos": 800
+  },
+  {
+    "passage": "Street Eden Rage",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "340_5_3_7|",
+    "original": "<i><span class=\"red\">Going back to the cabin might be dangerous with Eden this mad.</span></i>",
+    "translation": "",
+    "pos": 924
+  },
+  {
+    "passage": "Street Eden Rage",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "343_5_3_7|",
+    "original": "Eden's grip remains almost bone-crunching. <span class=\"red\">You can't tear away.</span> Eden silently glares as <<he>> pulls you closer.",
+    "translation": "",
+    "pos": 1066
+  },
+  {
+    "passage": "Street Eden Rage",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "346_5_3_7|",
+    "original": "<<He>> guides you towards the forest. People look on as you pass, but none intervene, despite your cries for help.<<trauma 3>><<gtrauma>>",
+    "translation": "",
+    "pos": 1218
+  },
+  {
+    "passage": "Street Eden Rage",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "349_5_3_7|",
+    "original": "Eden doesn't relax as <<he>> drags you through the woods, even once you're past the outskirts of town. The sounds of civilisation gradually give way to nature's deathly silence.",
+    "translation": "",
+    "pos": 1370
+  },
+  {
+    "passage": "Street Eden Rage",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "357_5_3_7|",
+    "original": "You're pulled into the cabin. Eden slams the door shut behind you. Everything is as you left it. Apart from the cage near the sleeping area.",
+    "translation": "",
+    "pos": 1668
+  },
+  {
+    "passage": "Street Eden Rage",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "360_5_3_7|",
+    "original": "<<link [[Struggle|Eden Caged Intro]]>><<set $phase to 0>><<def 1>><<npcincr Eden dom -1>><</link>><<physiquedifficulty 2000 18000>><<ldom>>",
+    "translation": "",
+    "pos": 1821
+  },
+  {
+    "passage": "Street Eden Rage",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "362_5_3_7|",
+    "original": "<<link [[Submit|Eden Caged Intro]]>><<set $phase to 1>><<sub 1>><<stress 6>><<npcincr Eden dom 1>><</link>><<gstress>><<gdom>>",
+    "translation": "",
+    "pos": 1968
+  },
+  {
+    "passage": "Eden Caged Intro",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "373_5_3_7|",
+    "original": "Even if it's obvious that what happens next won't be pleasant, you give in.",
+    "translation": "",
+    "pos": 82
+  },
+  {
+    "passage": "Eden Caged Intro",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "376_5_3_7|",
+    "original": "\"Oh, so now you're behaving?\" Eden spits. \"Fucking great timing, isn't it? Being good when you know you can't get away with shit.\"",
+    "translation": "",
+    "pos": 170
+  },
+  {
+    "passage": "Eden Caged Intro",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "380_5_3_7|",
+    "original": "Knowing the punishment that is about to unfurl, you dig your heels into the floor and pull. Eden, more confident now that you're home, had loosened <<his>> grip, allowing you to pull free.",
+    "translation": "",
+    "pos": 361
+  },
+  {
+    "passage": "Eden Caged Intro",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "383_5_3_7|",
+    "original": "Before <<he>> can turn and lunge, you dart to the door, practically ripping it off of its hinges and sprinting back into the forest. Eden is right behind you, heavy footfalls pounding into the ground as <<he>> gives chase.",
+    "translation": "",
+    "pos": 564
+  },
+  {
+    "passage": "Eden Caged Intro",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "386_5_3_7|",
+    "original": "Darting between the trees, you're able to break the line of sight that Eden has on you, and after a few minutes lose <<him>> completely.<<pass 10>>",
+    "translation": "",
+    "pos": 801
+  },
+  {
+    "passage": "Eden Caged Intro",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "389_5_3_7|",
+    "original": "\"I'll fucking catch you again! I always do!\" Eden yells from behind. You pay it no mind, running until your lungs burn. Eventually, you come to a stop, unable to go on.<<stress 6>><<tiredness 3>><<gstress>><<gtiredness>>",
+    "translation": "",
+    "pos": 963
+  },
+  {
+    "passage": "Eden Caged Intro",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "391_5_3_7|",
+    "original": "Even though you're alone, a familiar chill runs up your spine. <span class=\"red\">Something is hunting you.</span>",
+    "translation": "",
+    "pos": 1193
+  },
+  {
+    "passage": "Eden Caged Intro",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "397_5_3_7|",
+    "original": "Knowing the punishment that is about to unfurl, you dig your heels into the floor and pull. Tired of your defiance, Eden turns and back-hands you. <<pain 4>><<gpain>>",
+    "translation": "",
+    "pos": 1423
+  },
+  {
+    "passage": "Eden Caged Intro",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "400_5_3_7|",
+    "original": "\"I'm sick of you acting like a brat. It's obvious you need reminding of your duties,\" <<he>> snarls.",
+    "translation": "",
+    "pos": 1604
+  },
+  {
+    "passage": "Eden Caged Intro",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "407_5_3_7|",
+    "original": "Held by the scruff of your neck, the <<nnpc_title \"Eden\">> strips your clothes before forcing you into the cage. A heavy padlock secures the gate.",
+    "translation": "",
+    "pos": 1777
+  },
+  {
+    "passage": "Eden Caged Intro",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "411_5_3_7|",
+    "original": "\"I'll let you out when you can behave,\" Eden warns. <<He>> leaves you alone and",
+    "translation": "",
+    "pos": 1948
+  },
+  {
+    "passage": "Eden Caged Intro",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "413_5_3_7|",
+    "original": "lumbers to the bed. <<Hes>> soon out like a light.",
+    "translation": "",
+    "pos": 2067
+  },
+  {
+    "passage": "Eden Caged Intro",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "415_5_3_7|",
+    "original": "stomps over to the kitchen to prepare breakfast.",
+    "translation": "",
+    "pos": 2163
+  },
+  {
+    "passage": "Eden Caged Intro",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "417_5_3_7|",
+    "original": "storms outside.",
+    "translation": "",
+    "pos": 2260
+  },
+  {
+    "passage": "Eden Caged Intro",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "419_5_3_7|",
+    "original": "leaves to run a bath.",
+    "translation": "",
+    "pos": 2321
+  },
+  {
+    "passage": "Eden Caged Intro",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "421_5_3_7|",
+    "original": "stomps over to the kitchen to prepare dinner.",
+    "translation": "",
+    "pos": 2390
+  },
+  {
+    "passage": "Eden Caged Intro",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "423_5_3_7|",
+    "original": "lumbers to the bed. <<Hes>> soon out like a light.",
+    "translation": "",
+    "pos": 2461
+  },
+  {
+    "passage": "Eden Caged Intro",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "433_5_3_7|",
+    "original": "<<link [[Next|Eden Caged]]>><<set $phase to 0>><</link>>",
+    "translation": "",
+    "pos": 2703
+  },
+  {
+    "passage": "Eden Caged Intro",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "437_5_3_7|",
+    "original": "<<link [[Next|Forest]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 2811
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "444_5_3_7|",
+    "original": "You are locked in a cage in Eden's cabin. It's small and cramped, impossible to stand upright in. Furred blankets cover the ground.",
+    "translation": "",
+    "pos": 62
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "449_5_3_7|",
+    "original": "Despite the uncomfortable position, you curl up on the layers of blankets and close your eyes. Soon enough, you drift off to sleep.",
+    "translation": "",
+    "pos": 262
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "451_5_3_7|",
+    "original": "With Eden snoring peacefully, you get in position to kick again.",
+    "translation": "",
+    "pos": 420
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "453_5_3_7|",
+    "original": "The whole cage rattles around you. <span class=\"green\">You feel the gate giving out against your repeated assaults.</span> Eden jolts in <<his>> sleep, and for a moment you fear <<he>>'ll wake. You breathe a sigh of relief when you hear <<his>> snoring.<<stress 2>><<gstress>>",
+    "translation": "",
+    "pos": 521
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "456_5_3_7|",
+    "original": "<span class=\"blue\">The gate is loose enough that one more good kick will set you free. However, you'll need to wait until Eden's distracted.</span>",
+    "translation": "",
+    "pos": 814
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "459_5_3_7|",
+    "original": "Having done all you can, you lie on your side and try your best to sleep.",
+    "translation": "",
+    "pos": 978
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "461_5_3_7|",
+    "original": "However, after one strike, you freeze. It was much louder than you remembered. Over on the furred mattress, the <<nnpc_title \"Eden\">> stirs briefly, before resting once again.",
+    "translation": "",
+    "pos": 1066
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "464_5_3_7|",
+    "original": "It's too risky. You should try again when Eden is distracted with something else.",
+    "translation": "",
+    "pos": 1258
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "467_5_3_7|",
+    "original": "Sighing in defeat, you lie on your side and try your best to sleep.<<stress 6>><<gstress>>",
+    "translation": "",
+    "pos": 1356
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "470_5_3_7|",
+    "original": "Alone with only Eden's snores to keep you company, you wonder what to do.",
+    "translation": "",
+    "pos": 1469
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "475_5_3_7|",
+    "original": "<<link [[Sleep|Eden Caged]]>><<set $phase to 1>><<cabintime>><<set $edenCaged.days += 1>><</link>><<ltiredness>>",
+    "translation": "",
+    "pos": 1586
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "479_5_3_7|",
+    "original": "<span class=\"purple\">The gate is loose, but you won't get far with Eden so close.</span> You'll have to wait until <<hes>> distracted.",
+    "translation": "",
+    "pos": 1752
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "482_5_3_7|",
+    "original": "<<link [[Try to escape|Eden Caged]]>><<set $phase to 1>><<set $edenCaged.escape += 1>><</link>>",
+    "translation": "",
+    "pos": 1909
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "485_5_3_7|",
+    "original": "<<link [[Sleep for the night|Eden Caged]]>><<set $phase to 2>><</link>>",
+    "translation": "",
+    "pos": 2024
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "490_5_3_7|",
+    "original": "The sound of the cage creaking open rouses you from your slumber. Eden is crouched in the opening. \"Come on. Punishment's over.\"",
+    "translation": "",
+    "pos": 2214
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "493_5_3_7|",
+    "original": "<<He>> moves to the side as you clamber out, watching you stand and stretch. Before you can get far, the <<nnpc_title \"Eden\">> grabs your chin, angling it so that you're looking <<him>> in the eye.",
+    "translation": "",
+    "pos": 2357
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "496_5_3_7|",
+    "original": "\"You'd best behave from now on. This was me being kind.\" <<His>> face is stern as <<he>> drops <<his>> hand, leaving you standing alone to contemplate the words of warning.",
+    "translation": "",
+    "pos": 2569
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "498_5_3_7|",
+    "original": "<i><span class=\"gold\">Eden has forgiven you, for now.</span>",
+    "translation": "",
+    "pos": 2751
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "501_5_3_7|",
+    "original": "You may need to regain <<his>> trust before <<hes>> willing to let you out of the cabin again.",
+    "translation": "",
+    "pos": 2869
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "506_5_3_7|",
+    "original": "<<link [[Next|Eden Cabin]]>><<unset $edenCaged>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 2995
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "510_5_3_7|",
+    "original": "The smell of breakfast wakes you. You sit up and rub your bleary eyes, the cage rattling around you. You're greeted by Eden sat right in front of your cage, a plate of eggs on <<his>> lap.",
+    "translation": "",
+    "pos": 3107
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "512_5_3_7|",
+    "original": "\"Morning. Honestly, I wish you were cooking this. But I don't trust you enough yet.\"",
+    "translation": "",
+    "pos": 3307
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "514_5_3_7|",
+    "original": "Eden returns from the kitchen carrying a plate of eggs, and a chair. <<He>> takes a seat right in front of the cage.",
+    "translation": "",
+    "pos": 3406
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "516_5_3_7|",
+    "original": "\"Honestly, I wish you were cooking this. But I don't trust you enough yet.\"",
+    "translation": "",
+    "pos": 3534
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "520_5_3_7|",
+    "original": "<<He>> ignores you as <<he>> eats, chewing with slow, exaggerated motions. You stare at the eggs, done the way <<he>> always has them, and your stomach rumbles.",
+    "translation": "",
+    "pos": 3634
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "523_5_3_7|",
+    "original": "A little bit of food is left when Eden puts down the utensils, and that's when <<he>> finally regards you. \"You hungry?\"",
+    "translation": "",
+    "pos": 3809
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "526_5_3_7|",
+    "original": "<<He>> sets the plate down and opens the cage. You reach for the food, but <<he>> tightly grips your wrist. \"No hands. Use your mouth only.\"",
+    "translation": "",
+    "pos": 3944
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "529_5_3_7|",
+    "original": "<<link [[Do as you're told|Eden Caged Breakfast]]>><<set $phase to 1>><<sub 1>><<npcincr Eden trust 5>><<npcincr Eden dom 1>><</link>><<gtrust>><<gdom>>",
+    "translation": "",
+    "pos": 4099
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "531_5_3_7|",
+    "original": "<<link [[Refuse to eat|Eden Caged Breakfast]]>><<set $phase to 0>><<def 1>><<npcincr Eden trust -5>><<npcincr Eden dom -1>><</link>><<ltrust>><<ldom>>",
+    "translation": "",
+    "pos": 4261
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "535_5_3_7|",
+    "original": "With Eden outside, you're left alone in your cage. From your claustrophobic position, you can't tell how far <<he>> is, or if <<hes>> even at the cabin.",
+    "translation": "",
+    "pos": 4474
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "559_5_3_7|",
+    "original": "<span class=\"purple\">The gate is loose, but you wouldn't get far with Eden so close.</span> You'll have to wait until <<hes>> distracted.",
+    "translation": "",
+    "pos": 5097
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "562_5_3_7|",
+    "original": "<<link [[Try to escape|Eden Caged]]>><<set $phase to 1>><<set $edenCaged.escape += 1>><<pass _edenCagedPass hours>><</link>>",
+    "translation": "",
+    "pos": 5257
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "565_5_3_7|",
+    "original": "<<link [[Rest|Eden Caged]]>><<set $phase to 2>><<pass _edenCagedPass hours>><</link>>",
+    "translation": "",
+    "pos": 5401
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "571_5_3_7|",
+    "original": "Left with only your own thoughts as company and entertainment, you lie back and daydream as the hours pass.",
+    "translation": "",
+    "pos": 5592
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "573_5_3_7|",
+    "original": "Tired from the stress of the day, you curl up as comfortably as you can and close your eyes. After a few minutes, you fall into an uneasy sleep.",
+    "translation": "",
+    "pos": 5714
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "576_5_3_7|",
+    "original": "Using your alone time to your advantage, you focus on the hinges with your kicks. Eden doesn't come in after the first few. <<He>> can't hear you, for now.",
+    "translation": "",
+    "pos": 5895
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "580_5_3_7|",
+    "original": "The whole cage rattles around you. <span class=\"green\">You feel the gate giving out against your repeated assaults.</span> The sound of Eden chopping wood outside comes to an abrupt stop, and for a moment you fear <<he>>'ll come to investigate. You breathe a sigh of relief at the sound of <<his>> axe swinging down.<<stress 2>><<gstress>>",
+    "translation": "",
+    "pos": 6099
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "583_5_3_7|",
+    "original": "<span class=\"blue\">The gate is loose enough that one more good kick will set you free. However, you'll need to wait until Eden's distracted.</span>",
+    "translation": "",
+    "pos": 6455
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "585_5_3_7|",
+    "original": "After many strikes,",
+    "translation": "",
+    "pos": 6617
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "587_5_3_7|",
+    "original": "the door loosens, but stays steady enough under your assault.",
+    "translation": "",
+    "pos": 6675
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "589_5_3_7|",
+    "original": "you notice it bending a little.",
+    "translation": "",
+    "pos": 6753
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "591_5_3_7|",
+    "original": "You hesitate to go any further at the sound of Eden working outside.",
+    "translation": "",
+    "pos": 6799
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "594_5_3_7|",
+    "original": "You're not given much time alone. Just as soon as <<he>> left, Eden returns from the bathroom, half undressed.",
+    "translation": "",
+    "pos": 6890
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "599_5_3_7|",
+    "original": "Eden comes back in, dabbing at the sweat on <<his>> forehead with <<his>> sleeve. <<He>> makes a bee-line for your cage. \"Time for your duties again.\"",
+    "translation": "",
+    "pos": 7053
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "602_5_3_7|",
+    "original": "Some time later, Eden wakes you with the sound of the lock coming off and the gate opening.",
+    "translation": "",
+    "pos": 7238
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "604_5_3_7|",
+    "original": "The door to the cabin swings open. Eden stomps over to the cage and unlocks it.",
+    "translation": "",
+    "pos": 7358
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "606_5_3_7|",
+    "original": "\"You have duties to fulfil.\"",
+    "translation": "",
+    "pos": 7450
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "607_5_3_7|",
+    "original": "<<He>> <<npcUndressText `C.npc.Eden` \"lower\" \"self\">>.",
+    "translation": "",
+    "pos": 7481
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "611_5_3_7|",
+    "original": "<<link [[Resist|Eden Caged Sex]]>><<set $molestationstart to 1>><<def 1>><<npcincr Eden trust -10>><<npcincr Eden dom -1>><</link>><<ltrust>><<ldom>>",
+    "translation": "",
+    "pos": 7557
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "613_5_3_7|",
+    "original": "<<link [[Be good|Eden Caged Sex]]>><<set $sexstart to 1>><<sub 1>><<npcincr Eden trust 10>><<npcincr Eden dom 1>><</link>><<gtrust>><<gdom>>",
+    "translation": "",
+    "pos": 7714
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "617_5_3_7|",
+    "original": "Resigned to your cage with nothing else to do, you decide to catch some sleep. When you wake up, your side hurts from the uncomfortable angle you're at.",
+    "translation": "",
+    "pos": 7927
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "620_5_3_7|",
+    "original": "The sound of Eden making dinner wakes you up. <<He>> gives you none, and ignores you in favour of reading afterwards.",
+    "translation": "",
+    "pos": 8094
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "622_5_3_7|",
+    "original": "Using the sound of running water to disguise your struggle, you lie on your back and kick at the cage door.",
+    "translation": "",
+    "pos": 8238
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "626_5_3_7|",
+    "original": "The whole cage rattles around you. <span class=\"green\">You feel the gate giving out against your repeated assaults.</span> Wet footsteps approach as Eden stomps out of the bath to investigate, not bothering to cover <<himself>> with a towel.",
+    "translation": "",
+    "pos": 8394
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "628_5_3_7|",
+    "original": "\"What was that noise?\" <<he>> demands. You shrug innocently. <<He>> scrutinises you, then returns to <<his>> bath. You breathe a sigh of relief.<<stress 2>><<gstress>>",
+    "translation": "",
+    "pos": 8647
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "631_5_3_7|",
+    "original": "<span class=\"blue\">The gate is loose enough that one more good kick will set you free. However, you'll need to wait until Eden's distracted.</span>",
+    "translation": "",
+    "pos": 8831
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "633_5_3_7|",
+    "original": "More damage forms, but not enough to get free. You hope Eden doesn't notice.",
+    "translation": "",
+    "pos": 9019
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "635_5_3_7|",
+    "original": "You barely make a dent. Your sore legs force you to stop before you can cause any real damage.",
+    "translation": "",
+    "pos": 9110
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "639_5_3_7|",
+    "original": "After <<his>> bath, Eden sits in <<his>> usual spot to read, ignoring you completely and not feeding you when <<he>> eats.",
+    "translation": "",
+    "pos": 9229
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "641_5_3_7|",
+    "original": "Eden eats <<his>> dinner in silence. <<He>> doesn't offer you anything, and ignores you in favour of reading afterwards.",
+    "translation": "",
+    "pos": 9364
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "645_5_3_7|",
+    "original": "<<link [[Ask to go outside|Eden Caged Evening]]>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 9506
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "647_5_3_7|",
+    "original": "<<link [[Stay silent|Eden Caged Evening]]>><<npcincr Eden trust 5>><<set $phase to 0>><</link>><<gtrust>>",
+    "translation": "",
+    "pos": 9591
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "651_5_3_7|",
+    "original": "Despite the uncomfortable position, you curl up on the layers of blankets and close your eyes. Soon enough, you drift off to sleep.",
+    "translation": "",
+    "pos": 9747
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "653_5_3_7|",
+    "original": "With Eden snoring peacefully, you get in position and kick with all your might.",
+    "translation": "",
+    "pos": 9905
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "655_5_3_7|",
+    "original": "The whole cage rattles around you. <span class=\"green\">You feel the gate giving out against your repeated assaults.</span> Eden jolts in <<his>> sleep, and for a moment you fear <<he>>'ll wake. You breathe a sigh of relief when you hear <<his>> snoring.<<stress 2>><<gstress>>",
+    "translation": "",
+    "pos": 10021
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "658_5_3_7|",
+    "original": "<span class=\"blue\">The gate is loose enough that one more good kick will set you free. However, you'll need to wait until Eden's distracted.</span>",
+    "translation": "",
+    "pos": 10314
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "661_5_3_7|",
+    "original": "Having done all you can, you lie on your side and try your best to sleep.",
+    "translation": "",
+    "pos": 10478
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "663_5_3_7|",
+    "original": "However, after one strike, you freeze. It was much louder than you were expecting. Over on the furred mattress, the <<nnpc_title \"Eden\">> stirs briefly, before resting once again.",
+    "translation": "",
+    "pos": 10566
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "666_5_3_7|",
+    "original": "It's too risky. You should try again when Eden is distracted with something else.",
+    "translation": "",
+    "pos": 10762
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "669_5_3_7|",
+    "original": "Sighing in defeat, you lie on your side and try your best to sleep.<<stress 6>><<gstress>>",
+    "translation": "",
+    "pos": 10860
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "672_5_3_7|",
+    "original": "Alone with only Eden's snores to keep you company, you wonder what to do.",
+    "translation": "",
+    "pos": 10973
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "677_5_3_7|",
+    "original": "<<link [[Sleep|Eden Caged]]>><<set $phase to 1>><<cabintime>><<set $edenCaged.days += 1>><</link>>",
+    "translation": "",
+    "pos": 11090
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "681_5_3_7|",
+    "original": "<span class=\"purple\">The gate is loose, but you won't get far with Eden so close.</span> You'll have to wait until <<hes>> distracted.",
+    "translation": "",
+    "pos": 11242
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "684_5_3_7|",
+    "original": "<<link [[Try to escape|Eden Caged]]>><<set $phase to 1>><<set $edenCaged.escape += 1>><</link>>",
+    "translation": "",
+    "pos": 11399
+  },
+  {
+    "passage": "Eden Caged",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "687_5_3_7|",
+    "original": "<<link [[Sleep for the night|Eden Caged]]>><<set $phase to 2>><</link>>",
+    "translation": "",
+    "pos": 11514
+  },
+  {
+    "passage": "Eden Caged Sex",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "701_5_3_7|",
+    "original": "Eden's face twists into a snarl as you pull away. <<He>> grabs you by the hair and pulls you forwards. \"Do as you're told,\" <<he>> growls.",
+    "translation": "",
+    "pos": 233
+  },
+  {
+    "passage": "Eden Caged Sex",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "712_5_3_7|",
+    "original": "Eden presents <<himself>>, pleased when you don't pull away. \"Good <<girl>>,\" <<he>> coos. \"See, it's not that difficult, is it?\"",
+    "translation": "",
+    "pos": 632
+  },
+  {
+    "passage": "Eden Caged Sex",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "724_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Eden Caged Sex Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 873
+  },
+  {
+    "passage": "Eden Caged Sex",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "726_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Eden Caged Sex]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 967
+  },
+  {
+    "passage": "Eden Caged Sex Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "735_5_3_7|",
+    "original": "Satisfied, Eden pulls back and pats your head. \"I need you to do this for me. It's why I hate when you're away for so long.\"<<npcincr Eden trust 10>><<gtrust>>",
+    "translation": "",
+    "pos": 123
+  },
+  {
+    "passage": "Eden Caged Sex Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "738_5_3_7|",
+    "original": "<<He>> urges you back into the cage, locking it up, but gives you a smile before <<he>> leaves to run <<his>> bath.",
+    "translation": "",
+    "pos": 295
+  },
+  {
+    "passage": "Eden Caged Sex Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "745_5_3_7|",
+    "original": "<<tearful>> you sit in your cage and wonder what to do.",
+    "translation": "",
+    "pos": 479
+  },
+  {
+    "passage": "Eden Caged Sex Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "749_5_3_7|",
+    "original": "<span class=\"teal\">The gate is loose. One more good kick will set you free.</span>",
+    "translation": "",
+    "pos": 580
+  },
+  {
+    "passage": "Eden Caged Sex Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "751_5_3_7|",
+    "original": "<<link [[Escape|Eden Caged Escape]]>><</link>>",
+    "translation": "",
+    "pos": 672
+  },
+  {
+    "passage": "Eden Caged Sex Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "753_5_3_7|",
+    "original": "<<link [[Try to escape (2:00)|Eden Caged]]>><<set $phase to 1>><<set $edenCaged.escape += 1>><<pass 2 hours>><</link>>",
+    "translation": "",
+    "pos": 731
+  },
+  {
+    "passage": "Eden Caged Sex Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "756_5_3_7|",
+    "original": "<<link [[Rest (2:00)|Eden Caged]]>><<set $phase to 2>><<pass 2 hours>><</link>>",
+    "translation": "",
+    "pos": 866
+  },
+  {
+    "passage": "Eden Caged Sex Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "759_5_3_7|",
+    "original": "\"You little fucking whore!\" Eden yells out, rubbing at <<his>> side. <<He>> kicks you back into the cage, quickly locking it up again.<<pain 10>><<npcincr Eden trust -10>><<ggpain>><<ltrust>>",
+    "translation": "",
+    "pos": 983
+  },
+  {
+    "passage": "Eden Caged Sex Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "762_5_3_7|",
+    "original": "\"It's a wonder I don't tie you to a tree and leave you for anyone to use,\" <<he>> threatens, before leaving you alone once more.",
+    "translation": "",
+    "pos": 1187
+  },
+  {
+    "passage": "Eden Caged Sex Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "769_5_3_7|",
+    "original": "<<tearful>> you sit in your cage and wonder what to do.",
+    "translation": "",
+    "pos": 1384
+  },
+  {
+    "passage": "Eden Caged Sex Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "773_5_3_7|",
+    "original": "<span class=\"teal\">The gate is loose. One more good kick will set you free.</span>",
+    "translation": "",
+    "pos": 1485
+  },
+  {
+    "passage": "Eden Caged Sex Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "775_5_3_7|",
+    "original": "<<link [[Escape|Eden Caged Escape]]>><</link>>",
+    "translation": "",
+    "pos": 1577
+  },
+  {
+    "passage": "Eden Caged Sex Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "777_5_3_7|",
+    "original": "<<link [[Try to escape (2:00)|Eden Caged]]>><<set $phase to 1>><<set $edenCaged.escape += 1>><<pass 2 hours>><</link>>",
+    "translation": "",
+    "pos": 1636
+  },
+  {
+    "passage": "Eden Caged Sex Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "780_5_3_7|",
+    "original": "<<link [[Rest (2:00)|Eden Caged]]>><<set $phase to 2>><<pass 2 hours>><</link>>",
+    "translation": "",
+    "pos": 1771
+  },
+  {
+    "passage": "Eden Caged Sex Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "783_5_3_7|",
+    "original": "Eden leads you to the cage, but stops abruptly. <<He>> pulls you back with a sneer.",
+    "translation": "",
+    "pos": 1867
+  },
+  {
+    "passage": "Eden Caged Sex Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "786_5_3_7|",
+    "original": "\"No,\" <<he>> snarls. \"I decide when we're done.\"",
+    "translation": "",
+    "pos": 1963
+  },
+  {
+    "passage": "Eden Caged Sex Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "791_5_3_7|",
+    "original": "<<link [[Next|Eden Caged Sex]]>><</link>>",
+    "translation": "",
+    "pos": 2137
+  },
+  {
+    "passage": "Eden Caged Evening",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "800_5_3_7|",
+    "original": "\"E-Eden?\" you mumble. \"My legs hurt. C-can I walk around for a little bit, please?\"",
+    "translation": "",
+    "pos": 118
+  },
+  {
+    "passage": "Eden Caged Evening",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "802_5_3_7|",
+    "original": "\"Hey, I'm in pain over here,\" you call out. \"Let me out for a few minutes, will you?\"",
+    "translation": "",
+    "pos": 245
+  },
+  {
+    "passage": "Eden Caged Evening",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "804_5_3_7|",
+    "original": "\"Hey, my legs are aching,\" you say. \"Any chance I can stretch?\"",
+    "translation": "",
+    "pos": 343
+  },
+  {
+    "passage": "Eden Caged Evening",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "808_5_3_7|",
+    "original": "Eden cocks an eyebrow at your request, putting <<his>> book down before walking over to the cage. Squatting down to make eye contact, <<he>> smirks. \"What do I get in return?\"",
+    "translation": "",
+    "pos": 428
+  },
+  {
+    "passage": "Eden Caged Evening",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "811_5_3_7|",
+    "original": "<<link [[Offer to get <<him>> off|Eden Caged Evening 2]]>><<set $phase to 0>><<npcincr Eden trust 5>><<npcincr Eden dom 1>><</link>><<gtrust>><<gdom>>",
+    "translation": "",
+    "pos": 616
+  },
+  {
+    "passage": "Eden Caged Evening",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "813_5_3_7|",
+    "original": "<<link [[Nevermind|Eden Caged Evening 2]]>><<set $phase to 1>><<npcincr Eden trust -5>><<npcincr Eden dom -1>><</link>><<ltrust>><<ldom>>",
+    "translation": "",
+    "pos": 774
+  },
+  {
+    "passage": "Eden Caged Evening",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "816_5_3_7|",
+    "original": "The rest of the night is silent, the crackling of the fire and pages in Eden's book turning all you can hear. A few hours pass before the <<nnpc_title \"Eden\">> gets up and gets ready for bed.",
+    "translation": "",
+    "pos": 928
+  },
+  {
+    "passage": "Eden Caged Evening",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "819_5_3_7|",
+    "original": "\"Behave and I might let you back in the bed one day,\" <<he>> says before climbing onto the furred mattress and falling asleep.",
+    "translation": "",
+    "pos": 1132
+  },
+  {
+    "passage": "Eden Caged Evening",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "822_5_3_7|",
+    "original": "Alone with only Eden's snores to keep you company, you wonder what to do.",
+    "translation": "",
+    "pos": 1271
+  },
+  {
+    "passage": "Eden Caged Evening",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "826_5_3_7|",
+    "original": "<span class=\"purple\">The gate is loose, but you wouldn't get far with Eden so close.</span> You'll have to wait until <<hes>> distracted.",
+    "translation": "",
+    "pos": 1390
+  },
+  {
+    "passage": "Eden Caged Evening",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "829_5_3_7|",
+    "original": "<<link [[Try to escape (5:00)|Eden Caged]]>><<set $phase to 1>><<set $edenCaged.escape += 1>><<pass 5 hours>><</link>>",
+    "translation": "",
+    "pos": 1547
+  },
+  {
+    "passage": "Eden Caged Evening",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "832_5_3_7|",
+    "original": "<<link [[Sleep for the night (5:00)|Eden Caged]]>><<set $phase to 2>><<pass 5 hours>><</link>>",
+    "translation": "",
+    "pos": 1682
+  },
+  {
+    "passage": "Eden Caged Evening 2",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "840_5_3_7|",
+    "original": "\"Actually, I'm okay,\" you insist.",
+    "translation": "",
+    "pos": 82
+  },
+  {
+    "passage": "Eden Caged Evening 2",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "843_5_3_7|",
+    "original": "Eden's face drops and <<he>> grinds <<his>> jaw. Undoing the lock, <<he>> reaches in and grabs you by the hair. <<He>> drags you out of the cage and starts pulling your legs apart.",
+    "translation": "",
+    "pos": 128
+  },
+  {
+    "passage": "Eden Caged Evening 2",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "846_5_3_7|",
+    "original": "\"Teasing me like that isn't fair, you know? You should know better.\"",
+    "translation": "",
+    "pos": 321
+  },
+  {
+    "passage": "Eden Caged Evening 2",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "849_5_3_7|",
+    "original": "<<link [[Next|Eden Caged Evening Sex]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 402
+  },
+  {
+    "passage": "Eden Caged Evening 2",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "853_5_3_7|",
+    "original": "\"I-I can do my 'spousal duties', if you want me to?\" You bat your eyelashes a few times for extra measure.",
+    "translation": "",
+    "pos": 534
+  },
+  {
+    "passage": "Eden Caged Evening 2",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "855_5_3_7|",
+    "original": "\"Why don't you let me out and find out for yourself.\" You wink up at <<him>>.",
+    "translation": "",
+    "pos": 684
+  },
+  {
+    "passage": "Eden Caged Evening 2",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "857_5_3_7|",
+    "original": "\"Yeah, I'll do it.\" You smile up at <<him>>, hoping <<hes>> satisfied.",
+    "translation": "",
+    "pos": 774
+  },
+  {
+    "passage": "Eden Caged Evening 2",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "861_5_3_7|",
+    "original": "Eden seems eager as <<he>> fiddles with the lock, reaching in to pull you out even as you move forwards yourself.",
+    "translation": "",
+    "pos": 866
+  },
+  {
+    "passage": "Eden Caged Evening 2",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "864_5_3_7|",
+    "original": "\"You're being good for me,\" <<he>> chuckles. \"Maybe I'll help you get off, too?\"",
+    "translation": "",
+    "pos": 992
+  },
+  {
+    "passage": "Eden Caged Evening 2",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "867_5_3_7|",
+    "original": "<<link [[Next|Eden Caged Evening Sex]]>><<set $sexstart to 1>><</link>>",
+    "translation": "",
+    "pos": 1085
+  },
+  {
+    "passage": "Eden Caged Evening Sex",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "898_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Eden Caged Evening Sex Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 581
+  },
+  {
+    "passage": "Eden Caged Evening Sex",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "900_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Eden Caged Evening Sex]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 683
+  },
+  {
+    "passage": "Eden Caged Evening Sex Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "910_5_3_7|",
+    "original": "For a brief moment, Eden seems kind again as <<he>> caresses your cheek.<<npcincr Eden trust 10>><<gtrust>>",
+    "translation": "",
+    "pos": 149
+  },
+  {
+    "passage": "Eden Caged Evening Sex Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "912_5_3_7|",
+    "original": "Kissing your forehead, <<he>> draws back. \"Come on. You can have five minutes outside.\"",
+    "translation": "",
+    "pos": 266
+  },
+  {
+    "passage": "Eden Caged Evening Sex Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "919_5_3_7|",
+    "original": "<<link [[Next|Eden Caged Evening Stretch]]>><</link>>",
+    "translation": "",
+    "pos": 427
+  },
+  {
+    "passage": "Eden Caged Evening Sex Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "922_5_3_7|",
+    "original": "The anger recedes from Eden's face, brows relaxing as <<he>> lets you go.<<npcincr Eden trust 10>><<gtrust>>",
+    "translation": "",
+    "pos": 500
+  },
+  {
+    "passage": "Eden Caged Evening Sex Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "924_5_3_7|",
+    "original": "\"Good pet. Shame that you changed your mind on the exchange, though. I might have let you walk around on your leash a little before bed.\"",
+    "translation": "",
+    "pos": 618
+  },
+  {
+    "passage": "Eden Caged Evening Sex Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "927_5_3_7|",
+    "original": "Getting up from you, Eden fixes <<his>> clothes, then puts you back in the cage, locking it tight once more. <<He>> returns to <<his>> spot by the fire.",
+    "translation": "",
+    "pos": 770
+  },
+  {
+    "passage": "Eden Caged Evening Sex Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "934_5_3_7|",
+    "original": "<<link [[Next|Eden Caged Evening]]>><<set $phase to 0>><</link>>",
+    "translation": "",
+    "pos": 996
+  },
+  {
+    "passage": "Eden Caged Evening Sex Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "938_5_3_7|",
+    "original": "Growling in frustration, the <<nnpc_title \"Eden\">> shoves you back into the cage. It's locked tight before you can regain your balance.",
+    "translation": "",
+    "pos": 1108
+  },
+  {
+    "passage": "Eden Caged Evening Sex Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "940_5_3_7|",
+    "original": "\"You're really testing my fucking patience,\" <<he>> grunts. \"I'm being gentle right now, you'll see.\"<<npcincr Eden trust -10>><<ltrust>>",
+    "translation": "",
+    "pos": 1251
+  },
+  {
+    "passage": "Eden Caged Evening Sex Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "943_5_3_7|",
+    "original": "Getting up from the floor, Eden fixes <<his>> clothes. Then, <<he>> returns to <<his>> spot by the fire, with a slight limp in <<his>> step.",
+    "translation": "",
+    "pos": 1401
+  },
+  {
+    "passage": "Eden Caged Evening Sex Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "950_5_3_7|",
+    "original": "<<link [[Next|Eden Caged Evening]]>><<set $phase to 0>><</link>>",
+    "translation": "",
+    "pos": 1610
+  },
+  {
+    "passage": "Eden Caged Evening Sex Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "953_5_3_7|",
+    "original": "Eden leads you to the cage, but stops abruptly. <<He>> pulls you back with a sneer.",
+    "translation": "",
+    "pos": 1691
+  },
+  {
+    "passage": "Eden Caged Evening Sex Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "956_5_3_7|",
+    "original": "\"No,\" <<he>> snarls. \"I decide when we're done.\"",
+    "translation": "",
+    "pos": 1787
+  },
+  {
+    "passage": "Eden Caged Evening Sex Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "961_5_3_7|",
+    "original": "<<link [[Next|Eden Caged Evening Sex]]>><</link>>",
+    "translation": "",
+    "pos": 1961
+  },
+  {
+    "passage": "Eden Caged Evening Stretch",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "968_5_3_7|",
+    "original": "<<tearful>> you crawl out of the cage. The stiffness slowly leaves your body as you rise to your feet.",
+    "translation": "",
+    "pos": 62
+  },
+  {
+    "passage": "Eden Caged Evening Stretch",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "972_5_3_7|",
+    "original": "While you're standing and stretching, you feel something cold wrap around your neck, with a familiar clicking sound. It's a new collar.",
+    "translation": "",
+    "pos": 211
+  },
+  {
+    "passage": "Eden Caged Evening Stretch",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "975_5_3_7|",
+    "original": "\"Come on.\" Eden tugs on your leash as <<he>> heads towards the door. You follow <<him>> outside, breathing in the fresh air. The <<nnpc_title \"Eden\">> keeps your leash in <<his>> hand as you walk around the clearing. <<He>> watches your every move.<<stress -6>><<lstress>>",
+    "translation": "",
+    "pos": 369
+  },
+  {
+    "passage": "Eden Caged Evening Stretch",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "978_5_3_7|",
+    "original": "After a few minutes, <<he>> calls out for you again. \"That's enough. Come on, time for bed now.\"",
+    "translation": "",
+    "pos": 652
+  },
+  {
+    "passage": "Eden Caged Evening Stretch",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "981_5_3_7|",
+    "original": "You're taken back inside and returned to the confines of the metal prison you currently call home. Eden climbs into bed.",
+    "translation": "",
+    "pos": 759
+  },
+  {
+    "passage": "Eden Caged Evening Stretch",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "983_5_3_7|",
+    "original": "\"Keep being good like that and I'll let you back on the bed soon.\"",
+    "translation": "",
+    "pos": 885
+  },
+  {
+    "passage": "Eden Caged Evening Stretch",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "986_5_3_7|",
+    "original": "Alone with only Eden's snores to keep you company, you wonder what to do.",
+    "translation": "",
+    "pos": 962
+  },
+  {
+    "passage": "Eden Caged Evening Stretch",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "990_5_3_7|",
+    "original": "<span class=\"purple\">The gate is loose, but you wouldn't get far with Eden so close.</span> You'll have to wait until <<hes>> distracted.",
+    "translation": "",
+    "pos": 1078
+  },
+  {
+    "passage": "Eden Caged Evening Stretch",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "993_5_3_7|",
+    "original": "<<link [[Try to escape (5:00)|Eden Caged]]>><<set $phase to 1>><<set $edenCaged.escape += 1>><<pass 5 hours>><</link>>",
+    "translation": "",
+    "pos": 1232
+  },
+  {
+    "passage": "Eden Caged Evening Stretch",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "996_5_3_7|",
+    "original": "<<link [[Sleep for the night (5:00)|Eden Caged]]>><<set $phase to 2>><<pass 5 hours>><</link>>",
+    "translation": "",
+    "pos": 1364
+  },
+  {
+    "passage": "Eden Caged Breakfast",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1004_5_3_7|",
+    "original": "Spurred by your hunger, you eagerly lap at the plate. Eden lets out a small chuckle at the sight. You blush, but pay <<him>> no mind.",
+    "translation": "",
+    "pos": 118
+  },
+  {
+    "passage": "Eden Caged Breakfast",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1006_5_3_7|",
+    "original": "Even as the shame makes your cheeks flush, your hunger gnaws at your gut. You swallow your pride and peck at Eden's leftovers.",
+    "translation": "",
+    "pos": 295
+  },
+  {
+    "passage": "Eden Caged Breakfast",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1008_5_3_7|",
+    "original": "It's humiliating, but you're too hungry to care. Lowering your head, you eat what's left of Eden's breakfast.",
+    "translation": "",
+    "pos": 434
+  },
+  {
+    "passage": "Eden Caged Breakfast",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1012_5_3_7|",
+    "original": "It's messy, and you get food all over your face. Eden gently pats your head in encouragement. When you're done, <<he>> takes the plate away and returns with a towel to clean your face with. There's a heated look in <<his>> eyes as <<he>> urges you back into confinement. \"I'll come get you in a bit for some exercise. Rest.\"",
+    "translation": "",
+    "pos": 565
+  },
+  {
+    "passage": "Eden Caged Breakfast",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1015_5_3_7|",
+    "original": "Eden leaves to get dressed, then heads outside, leaving you alone in the cabin. You sit in your cage and wonder what to do.",
+    "translation": "",
+    "pos": 902
+  },
+  {
+    "passage": "Eden Caged Breakfast",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1019_5_3_7|",
+    "original": "<span class=\"purple\">The gate is loose, but from your claustrophobic position, you can't tell how far Eden's gone.</span> You can't risk escaping yet.",
+    "translation": "",
+    "pos": 1071
+  },
+  {
+    "passage": "Eden Caged Breakfast",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1022_5_3_7|",
+    "original": "<<link [[Try to escape (10:00)|Eden Caged]]>><<set $phase to 1>><<set $edenCaged.escape += 1>><<pass 10 hours>><</link>>",
+    "translation": "",
+    "pos": 1241
+  },
+  {
+    "passage": "Eden Caged Breakfast",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1025_5_3_7|",
+    "original": "<<link [[Rest (10:00)|Eden Caged]]>><<set $phase to 2>><<pass 10 hours>><</link>>",
+    "translation": "",
+    "pos": 1378
+  },
+  {
+    "passage": "Eden Caged Breakfast",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1029_5_3_7|",
+    "original": "\"I-I'm not that hungry, it's okay,\" you stammer out while looking at the floor.",
+    "translation": "",
+    "pos": 1512
+  },
+  {
+    "passage": "Eden Caged Breakfast",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1031_5_3_7|",
+    "original": "\"I'm fine, actually,\" you say through grit teeth. \"I'll eat later.\"",
+    "translation": "",
+    "pos": 1635
+  },
+  {
+    "passage": "Eden Caged Breakfast",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1033_5_3_7|",
+    "original": "\"It's okay,\" you say, shaking your head. \"I'm not hungry.\"",
+    "translation": "",
+    "pos": 1715
+  },
+  {
+    "passage": "Eden Caged Breakfast",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1037_5_3_7|",
+    "original": "Eden picks up the plate and places it next to the sink, giving you a brief glimpse of the unguarded door, but <<he>> returns before you can bolt. And <<he>> looks angry.",
+    "translation": "",
+    "pos": 1795
+  },
+  {
+    "passage": "Eden Caged Breakfast",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1040_5_3_7|",
+    "original": "\"What, is my cooking not good enough for you? Fine. You can have something else.\"",
+    "translation": "",
+    "pos": 1977
+  },
+  {
+    "passage": "Eden Caged Breakfast",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1043_5_3_7|",
+    "original": "<<link [[Next|Eden Caged Breakfast Oral]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 2071
+  },
+  {
+    "passage": "Eden Caged Breakfast Oral",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1055_5_3_7|",
+    "original": "<<He>> pulls your face against <<his>> crotch.",
+    "translation": "",
+    "pos": 122
+  },
+  {
+    "passage": "Eden Caged Breakfast Oral",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1070_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Eden Caged Breakfast Oral Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 459
+  },
+  {
+    "passage": "Eden Caged Breakfast Oral",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1072_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Eden Caged Breakfast Oral]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 564
+  },
+  {
+    "passage": "Eden Caged Breakfast Oral Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1081_5_3_7|",
+    "original": "The <<nnpc_title \"Eden\">> pants as <<he>> lets you go. \"Taste good? I sure felt good,\" <<he>> laughs.<<npcincr Eden trust 10>><<gtrust>>",
+    "translation": "",
+    "pos": 123
+  },
+  {
+    "passage": "Eden Caged Breakfast Oral Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1084_5_3_7|",
+    "original": "<<He>> pushes you backwards, not with much force, but it's unexpected enough that you tumble back into the cage. You're shut in once more. \"I'll come get you later.\" <<He>> smirks. \"Don't go far.\"",
+    "translation": "",
+    "pos": 272
+  },
+  {
+    "passage": "Eden Caged Breakfast Oral Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1086_5_3_7|",
+    "original": "Furious, Eden backhands you before booting you back into confinement. \"You can fucking stay in there and think over why you're being such a brat. I hope you change your mind this time.\"<<npcincr Eden trust -10>><<ltrust>>",
+    "translation": "",
+    "pos": 479
+  },
+  {
+    "passage": "Eden Caged Breakfast Oral Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1089_5_3_7|",
+    "original": "<<He>> storms over to the partition to get ready before heading outside.",
+    "translation": "",
+    "pos": 713
+  },
+  {
+    "passage": "Eden Caged Breakfast Oral Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1097_5_3_7|",
+    "original": "<<tearful>> you sit in your cage and wonder what to do.",
+    "translation": "",
+    "pos": 857
+  },
+  {
+    "passage": "Eden Caged Breakfast Oral Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1101_5_3_7|",
+    "original": "<span class=\"purple\">The gate is loose, but from your claustrophobic position, you can't tell how far Eden's gone.</span> You can't risk escaping yet.",
+    "translation": "",
+    "pos": 955
+  },
+  {
+    "passage": "Eden Caged Breakfast Oral Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1104_5_3_7|",
+    "original": "<<link [[Try to escape (10:00)|Eden Caged]]>><<set $phase to 1>><<set $edenCaged.escape += 1>><<pass 10 hours>><</link>>",
+    "translation": "",
+    "pos": 1122
+  },
+  {
+    "passage": "Eden Caged Breakfast Oral Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1107_5_3_7|",
+    "original": "<<link [[Rest (10:00)|Eden Caged]]>><<set $phase to 2>><<pass 10 hours>><</link>>",
+    "translation": "",
+    "pos": 1256
+  },
+  {
+    "passage": "Eden Caged Escape",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1113_5_3_7|",
+    "original": "The sound of running water is enough cover to kick at the gate again. Using all of your strength, you lash out - once, twice, three times before the hinges pop loose.",
+    "translation": "",
+    "pos": 62
+  },
+  {
+    "passage": "Eden Caged Escape",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1116_5_3_7|",
+    "original": "The adrenaline surges through your veins. If you want to escape, now's your chance.",
+    "translation": "",
+    "pos": 239
+  },
+  {
+    "passage": "Eden Caged Escape",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1119_5_3_7|",
+    "original": "<<link [[Run for it|Eden Caged Freedom]]>><<set $phase to 1>><<set $stress -= 1000>><<npcincr Eden dom -1>><</link>><<llltrust>><<ldom>>",
+    "translation": "",
+    "pos": 333
+  },
+  {
+    "passage": "Eden Caged Escape",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1121_5_3_7|",
+    "original": "<<link [[Stay|Eden Caged Freedom]]>><<set $phase to 0>><<npcincr Eden trust 200>><<npcincr Eden dom 1>><</link>><<gggtrust>><<gdom>>",
+    "translation": "",
+    "pos": 475
+  },
+  {
+    "passage": "Eden Caged Freedom",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1128_5_3_7|",
+    "original": "Determined to be free, you crawl out of the metal prison, knees popping as you stand. You're able to snatch a towel and wrap it around yourself before creeping to the door, your heart pounding with each step. But Eden doesn't notice.",
+    "translation": "",
+    "pos": 82
+  },
+  {
+    "passage": "Eden Caged Freedom",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1132_5_3_7|",
+    "original": "Sliding through the slight crack you make in the door, your feet move before your brain registers the feeling. At a full sprint, you make your way into the forest, the cabin fading behind the trees the further you get.",
+    "translation": "",
+    "pos": 341
+  },
+  {
+    "passage": "Eden Caged Freedom",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1135_5_3_7|",
+    "original": "You know that Eden will be mad when <<he>> finds you again.",
+    "translation": "",
+    "pos": 572
+  },
+  {
+    "passage": "Eden Caged Freedom",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1138_5_3_7|",
+    "original": "<<link [[Next|Forest]]>><<unset $edenCaged>><<set $edenCagedEscape to true>><<endevent>><<set $eventskip to 1>><<set $forest to 80>><</link>>",
+    "translation": "",
+    "pos": 644
+  },
+  {
+    "passage": "Eden Caged Freedom",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1141_5_3_7|",
+    "original": "The cage door pops open off its hinges, and for a fleeting moment hope blooms in your chest at the prospect of escape. However, the hope is soon replaced by guilt when you remember how hurt Eden was bringing you home.",
+    "translation": "",
+    "pos": 802
+  },
+  {
+    "passage": "Eden Caged Freedom",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1144_5_3_7|",
+    "original": "Swallowing, you sit back down and hug your legs to your chest. Soon, Eden emerges from the bathroom, drying <<his>> hair off with a towel. <<He>> pauses when <<he>> sees the state of the cage.",
+    "translation": "",
+    "pos": 1032
+  },
+  {
+    "passage": "Eden Caged Freedom",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1147_5_3_7|",
+    "original": "\"You're that sick of being cooped up, huh?\" <<he>> says. \"Well, I can't blame you for that. Come on, you've earned your place. Just don't piss me off again.\" Eden juts <<his>> finger in your face as you crawl out.",
+    "translation": "",
+    "pos": 1237
+  },
+  {
+    "passage": "Eden Caged Freedom",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1150_5_3_7|",
+    "original": "You watch as <<he>> folds the cage up and puts it away. You hope you never see it again.",
+    "translation": "",
+    "pos": 1463
+  },
+  {
+    "passage": "Eden Caged Freedom",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1152_5_3_7|",
+    "original": "<i><span class=\"gold\">Eden has forgiven you, for now.</span>",
+    "translation": "",
+    "pos": 1559
+  },
+  {
+    "passage": "Eden Caged Freedom",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1155_5_3_7|",
+    "original": "You may need to regain <<his>> trust before <<hes>> willing to let you out of the cabin again.",
+    "translation": "",
+    "pos": 1674
+  },
+  {
+    "passage": "Eden Caged Freedom",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1160_5_3_7|",
+    "original": "<<link [[Next|Eden Cabin]]>><<unset $edenCaged>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1796
+  },
+  {
+    "passage": "Eden Fluids Punishment",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1169_5_3_7|",
+    "original": "Nervous, you walk into the clearing. Eden may still be mad.",
+    "translation": "",
+    "pos": 190
+  },
+  {
+    "passage": "Eden Fluids Punishment",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1171_5_3_7|",
+    "original": "You don't see <<him>> at first, not until you hear a twig snap behind you.",
+    "translation": "",
+    "pos": 267
+  },
+  {
+    "passage": "Eden Fluids Punishment",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1173_5_3_7|",
+    "original": "\"You're still covered in all of that. It's disgusting.\"<<npcincr Eden love -20>><<llllove>>",
+    "translation": "",
+    "pos": 421
+  },
+  {
+    "passage": "Eden Fluids Punishment",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1175_5_3_7|",
+    "original": "You see Eden reaching for you in the corner of your eye.",
+    "translation": "",
+    "pos": 538
+  },
+  {
+    "passage": "Eden Fluids Punishment",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1178_5_3_7|",
+    "original": "\"Just because you washed, doesn't mean I forgot.\"",
+    "translation": "",
+    "pos": 629
+  },
+  {
+    "passage": "Eden Fluids Punishment",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1180_5_3_7|",
+    "original": "You see Eden reaching for you from the corner of your eye.",
+    "translation": "",
+    "pos": 704
+  },
+  {
+    "passage": "Eden Fluids Punishment",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1192_5_3_7|",
+    "original": "You burst through the trees into the clearing. Eden pauses <<his>> task to look at you. <<He>> does a double take, and  <<his>> face screws up when <<he>> sees the fluids on your <<bodypart _bodyFluids>>. <<stress 6>><<gstress>>",
+    "translation": "",
+    "pos": 1042
+  },
+  {
+    "passage": "Eden Fluids Punishment",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1194_5_3_7|",
+    "original": "Eden marches towards you, snarling. \"Who touched you?\"<<npcincr Eden love -30>><<llllove>>",
+    "translation": "",
+    "pos": 1288
+  },
+  {
+    "passage": "Eden Fluids Punishment",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1198_5_3_7|",
+    "original": "<<link [[Run|Eden Fluids Punishment 2]]>><<set $phase to 1>><<def 1>><<npcincr Eden love -10>><<npcincr Eden dom -1>><</link>><<lllove>><<ldom>><<athleticsdifficulty 650 900>>",
+    "translation": "",
+    "pos": 1397
+  },
+  {
+    "passage": "Eden Fluids Punishment",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1200_5_3_7|",
+    "original": "<<link [[Stay still|Eden Fluids Punishment 2]]>><<set $phase to 0>><<sub 1>><<npcincr Eden dom 1>><</link>><<gdom>>",
+    "translation": "",
+    "pos": 1578
+  },
+  {
+    "passage": "Eden Fluids Punishment 2",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1206_5_3_7|",
+    "original": "Eden's hand is rough as <<he>> grabs your arm, the <<nnpc_title \"Eden\">> grasping so hard <<his>> nails dig into your skin. <<pain 2>><<gpain>>",
+    "translation": "",
+    "pos": 203
+  },
+  {
+    "passage": "Eden Fluids Punishment 2",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1208_5_3_7|",
+    "original": "You shiver as Eden comes closer, jumping when <<his>> hand grabs your arm. <<He>> examines you closer, <<his>> lip curling in disgust.",
+    "translation": "",
+    "pos": 368
+  },
+  {
+    "passage": "Eden Fluids Punishment 2",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1210_5_3_7|",
+    "original": "\"I've been too gentle with you.\"",
+    "translation": "",
+    "pos": 528
+  },
+  {
+    "passage": "Eden Fluids Punishment 2",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1213_5_3_7|",
+    "original": "<<link [[Next|Eden Fluids Punishment 3]]>><</link>>",
+    "translation": "",
+    "pos": 598
+  },
+  {
+    "passage": "Eden Fluids Punishment 2",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1216_5_3_7|",
+    "original": "Not wanting to be hurt again, you turn and begin sprinting into the forest.",
+    "translation": "",
+    "pos": 714
+  },
+  {
+    "passage": "Eden Fluids Punishment 2",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1218_5_3_7|",
+    "original": "Scared of what Eden may do, you turn and begin sprinting into the forest.",
+    "translation": "",
+    "pos": 811
+  },
+  {
+    "passage": "Eden Fluids Punishment 2",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1220_5_3_7|",
+    "original": "<<He>> yells after you, insisting that you come back. You can hear <<him>> running after you. <<stress 6>><<gstress>>",
+    "translation": "",
+    "pos": 898
+  },
+  {
+    "passage": "Eden Fluids Punishment 2",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1223_5_3_7|",
+    "original": "You run for a while, getting scratched as you push past branches. <<gpain>><<pain 2>>",
+    "translation": "",
+    "pos": 1066
+  },
+  {
+    "passage": "Eden Fluids Punishment 2",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1225_5_3_7|",
+    "original": "Eventually, Eden's yelling gets quieter until it stops completely. <span class=\"green\">You've lost <<him>>.</span>",
+    "translation": "",
+    "pos": 1177
+  },
+  {
+    "passage": "Eden Fluids Punishment 2",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1227_5_3_7|",
+    "original": "It takes a while to catch your breath as the adrenaline runs through you. <span class=\"red\">Returning to the cabin may be dangerous.</span>",
+    "translation": "",
+    "pos": 1317
+  },
+  {
+    "passage": "Eden Fluids Punishment 2",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1229_5_3_7|",
+    "original": "<<link [[Next|Forest]]>><<set $edenFluidsCheck to \"run\">><<endevent>><<set $eventskip to 1>><<set $forest to random(50, 75)>><</link>>",
+    "translation": "",
+    "pos": 1482
+  },
+  {
+    "passage": "Eden Fluids Punishment 2",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1231_5_3_7|",
+    "original": "You push yourself as hard as you can, <span class=\"red\">but Eden catches up.</span> <<He>> tackles you to the ground and the air leaves your lungs as you crash into the dirt. <<pain 4>><<gpain>>",
+    "translation": "",
+    "pos": 1635
+  },
+  {
+    "passage": "Eden Fluids Punishment 2",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1234_5_3_7|",
+    "original": "\"You're such an ungrateful brat,\" <<he>> growls as <<he>> punches you in the back of the head. <<pain 4>><<gpain>>",
+    "translation": "",
+    "pos": 1902
+  },
+  {
+    "passage": "Eden Fluids Punishment 2",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1236_5_3_7|",
+    "original": "\"<<if $edenFluidsCheck is \"run\">>I never thought that you'd be a cheat,<<else>>After all I've done, this is the thanks I get?<</if>>\" Eden growls as <<he>> punches you. <<pain 8>><<ggpain>>",
+    "translation": "",
+    "pos": 2046
+  },
+  {
+    "passage": "Eden Fluids Punishment 2",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1239_5_3_7|",
+    "original": "Dizzy from the punch, you can't fight <<him>> as <<he>> hauls you onto <<his>> shoulder. When you come back to your senses, Eden spanks you every time you attempt to struggle. Soon enough you return to the cabin.",
+    "translation": "",
+    "pos": 2277
+  },
+  {
+    "passage": "Eden Fluids Punishment 2",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1241_5_3_7|",
+    "original": "<<link [[Next|Eden Fluids Punishment 3]]>><</link>>",
+    "translation": "",
+    "pos": 2515
+  },
+  {
+    "passage": "Eden Fluids Punishment 3",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1249_5_3_7|",
+    "original": "Eden grasps your hand and pulls you back into the cabin. <<He>> flings you to the floor as <<he>> reaches behind a wardrobe to get something. It's the cage. <<stress 6>><<gstress>>",
+    "translation": "",
+    "pos": 171
+  },
+  {
+    "passage": "Eden Fluids Punishment 3",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1251_5_3_7|",
+    "original": "You're led inside and dropped onto the hardwood floor as Eden reaches behind a wardrobe. <<He>> brings out the cage. <<stress 6>><<pain 4>><<gstress>><<gpain>>",
+    "translation": "",
+    "pos": 383
+  },
+  {
+    "passage": "Eden Fluids Punishment 3",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1255_5_3_7|",
+    "original": "Eden pulls you towards the spring behind the cabin, <<his>> grip never loosening. When you get to the edge, <<he>> pushes you in before you can ask <<him>> what <<he>> is doing.",
+    "translation": "",
+    "pos": 612
+  },
+  {
+    "passage": "Eden Fluids Punishment 3",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1258_5_3_7|",
+    "original": "Eden doesn't stop as <<he>> walks up to the cabin, instead walking past to the spring behind. \"<<if $edenFluidsCheck is \"run\">>I hate how you smell right now.<<else>>You're not coming inside until you're clean.<</if>>\"",
+    "translation": "",
+    "pos": 838
+  },
+  {
+    "passage": "Eden Fluids Punishment 3",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1260_5_3_7|",
+    "original": "There is no warning when Eden throws you into the spring.",
+    "translation": "",
+    "pos": 1082
+  },
+  {
+    "passage": "Eden Fluids Punishment 3",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1263_5_3_7|",
+    "original": "The water is a shock, and panic sets in as Eden grabs your hair and keeps you under for a few seconds.",
+    "translation": "",
+    "pos": 1211
+  },
+  {
+    "passage": "Eden Fluids Punishment 3",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1265_5_3_7|",
+    "original": "The water is a shock, and the debris hurts as a hand grasps the back of your neck, keeping you down for a few seconds. <<pain 2>><<gpain>>",
+    "translation": "",
+    "pos": 1335
+  },
+  {
+    "passage": "Eden Fluids Punishment 3",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1268_5_3_7|",
+    "original": "Eden pulls you back up, letting you gasp for air as <<he>> begins to strip you of your clothes.",
+    "translation": "",
+    "pos": 1503
+  },
+  {
+    "passage": "Eden Fluids Punishment 3",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1271_5_3_7|",
+    "original": "<<Hes>> quiet as <<he>> roughly washes you with a rag from <<his>> belt. It smells like <<him>>, you think it's the towel <<he>> used to wipe sweat away after working. <<npcincr Eden lust 5>><<glust>>",
+    "translation": "",
+    "pos": 1639
+  },
+  {
+    "passage": "Eden Fluids Punishment 3",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1273_5_3_7|",
+    "original": "\"I'm hurt,\" <<he>> finally says. <<His>> tone is still angry.",
+    "translation": "",
+    "pos": 1857
+  },
+  {
+    "passage": "Eden Fluids Punishment 3",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1275_5_3_7|",
+    "original": "When you're clean, Eden grasps your hand and pulls you back into the cabin. <<He>> flings you to the floor as <<he>> reaches behind a wardrobe to get something. It's the cage. <<stress 6>><<gstress>>",
+    "translation": "",
+    "pos": 1936
+  },
+  {
+    "passage": "Eden Fluids Punishment 3",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1277_5_3_7|",
+    "original": "\"You obviously need more time to think about what you've done.\"",
+    "translation": "",
+    "pos": 2153
+  },
+  {
+    "passage": "Eden Fluids Punishment 3",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1282_5_3_7|",
+    "original": "<<link [[Run|Eden Fluids Punishment 4]]>><<set $phase to 1>><<def 1>><<npcincr Eden love -10>><<npcincr Eden dom -1>><</link>><<lllove>><<ldom>><<athleticsdifficulty 650 900>>",
+    "translation": "",
+    "pos": 2270
+  },
+  {
+    "passage": "Eden Fluids Punishment 3",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1284_5_3_7|",
+    "original": "<<link [[Accept your punishment|Eden Fluids Punishment 4]]>><<set $phase to 0>><<sub 1>><<npcincr Eden dom 1>><</link>><<gdom>>",
+    "translation": "",
+    "pos": 2451
+  },
+  {
+    "passage": "Eden Fluids Punishment 4",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1289_5_3_7|",
+    "original": "Eden is right. You betrayed <<his>> trust. You should accept your punishment.",
+    "translation": "",
+    "pos": 64
+  },
+  {
+    "passage": "Eden Fluids Punishment 4",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1291_5_3_7|",
+    "original": "You crawl into the cage as Eden holds the gate open, flinching as <<he>> slams it shut.",
+    "translation": "",
+    "pos": 159
+  },
+  {
+    "passage": "Eden Fluids Punishment 4",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1293_5_3_7|",
+    "original": "\"Don't go thinking that I'll be kinder just because you're behaving now.\"",
+    "translation": "",
+    "pos": 264
+  },
+  {
+    "passage": "Eden Fluids Punishment 4",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1303_5_3_7|",
+    "original": "<<link [[Next|Eden Caged]]>><<set $phase to 0>><</link>>",
+    "translation": "",
+    "pos": 581
+  },
+  {
+    "passage": "Eden Fluids Punishment 4",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1306_5_3_7|",
+    "original": "Not wanting to be locked away, you bolt out of the door. Eden curses before giving chase. You keep going into the forest, not looking back.",
+    "translation": "",
+    "pos": 694
+  },
+  {
+    "passage": "Eden Fluids Punishment 4",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1308_5_3_7|",
+    "original": "You run for a while, getting scratched as you push past branches. <<gpain>><<pain 2>>",
+    "translation": "",
+    "pos": 859
+  },
+  {
+    "passage": "Eden Fluids Punishment 4",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1310_5_3_7|",
+    "original": "Eventually, Eden's yelling gets quieter until it stops completely. <span class=\"green\">You've lost <<him>>.</span>",
+    "translation": "",
+    "pos": 970
+  },
+  {
+    "passage": "Eden Fluids Punishment 4",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1312_5_3_7|",
+    "original": "It takes a while to catch your breath as the adrenaline runs through you. <span class=\"red\">Returning to the cabin may be dangerous.</span>",
+    "translation": "",
+    "pos": 1110
+  },
+  {
+    "passage": "Eden Fluids Punishment 4",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1314_5_3_7|",
+    "original": "<<link [[Next|Forest]]>><<set $edenCagedEscape to true>><<endevent>><<set $eventskip to 1>><<set $forest to random(50, 75)>><</link>>",
+    "translation": "",
+    "pos": 1275
+  },
+  {
+    "passage": "Eden Fluids Punishment 4",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1316_5_3_7|",
+    "original": "Not wanting to be locked away, you try to bolt for the door. <span class=\"red\">Eden is quicker than you are.</span> <<He>> grips your hair, pulling you back towards the cage.",
+    "translation": "",
+    "pos": 1427
+  },
+  {
+    "passage": "Eden Fluids Punishment 4",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1318_5_3_7|",
+    "original": "\"You better learn well from this.\"",
+    "translation": "",
+    "pos": 1627
+  },
+  {
+    "passage": "Eden Fluids Punishment 4",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1320_5_3_7|",
+    "original": "Eden throws you into the cage, locking it with a padlock.",
+    "translation": "",
+    "pos": 1687
+  },
+  {
+    "passage": "Eden Fluids Punishment 4",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1330_5_3_7|",
+    "original": "<<link [[Next|Eden Caged]]>><<set $phase to 0>><</link>>",
+    "translation": "",
+    "pos": 2018
+  },
+  {
+    "passage": "Eden Rape",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1353_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Eden Rape Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 321
+  },
+  {
+    "passage": "Eden Rape",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1355_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Eden Rape]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 410
+  },
+  {
+    "passage": "Eden Rape Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1363_5_3_7|",
+    "original": "Eden hovers over you for a few seconds to catch <<his>> breath before <<he>> moves away.<<lllust>>",
+    "translation": "",
+    "pos": 147
+  },
+  {
+    "passage": "Eden Rape Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1365_5_3_7|",
+    "original": "\"You're lucky I'm not tying you up again for being a brat,\" <<he>> mutters as <<he>> leaves you on the floor.<<stress 20>><<gstress>>",
+    "translation": "",
+    "pos": 257
+  },
+  {
+    "passage": "Eden Rape Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1367_5_3_7|",
+    "original": "<<tearful>> you avoid <<his>> gaze.",
+    "translation": "",
+    "pos": 402
+  },
+  {
+    "passage": "Eden Rape Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1370_5_3_7|",
+    "original": "Hissing, Eden backs away from you.",
+    "translation": "",
+    "pos": 475
+  },
+  {
+    "passage": "Eden Rape Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1372_5_3_7|",
+    "original": "\"This was your idea in the first place,\" <<he>> spits. \"Maybe I shouldn't let you stay away for so long if you're going to be like this.\"",
+    "translation": "",
+    "pos": 521
+  },
+  {
+    "passage": "Eden Rape Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1374_5_3_7|",
+    "original": "<<He>> storms off, leaving you alone on the floor.<<lllove>>",
+    "translation": "",
+    "pos": 670
+  },
+  {
+    "passage": "Eden Rape Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1377_5_3_7|",
+    "original": "<<tearful>> you gather yourself.",
+    "translation": "",
+    "pos": 743
+  },
+  {
+    "passage": "Eden Rape Finish",
+    "filepath": "overworld-forest/loc-cabin/punishment.twee",
+    "key": "1384_5_3_7|",
+    "original": "<<link [[Next|Eden Cabin]]>><</link>>",
+    "translation": "",
+    "pos": 823
+  }
+]

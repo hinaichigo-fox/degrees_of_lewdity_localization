@@ -1,0 +1,1282 @@
+[
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "10_5_3_7|",
+    "original": "One of the younger <<beastsplural>> approaches you. <<bHe>> wants to play fight.",
+    "translation": "",
+    "pos": 203
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "12_5_3_7|",
+    "original": "<<link [[Play (0:20)|Wolf Cave Play Fight]]>><<pass 20>><<stress -4>><</link>><<lstress>>",
+    "translation": "",
+    "pos": 299
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "15_5_3_7|",
+    "original": "<<link [[Lewd play|Wolf Cave Lewd Play]]>><<set $sexstart to 1>><</link>><<deviant2>>",
+    "translation": "",
+    "pos": 489
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "19_5_3_7|",
+    "original": "<<link [[Ignore|Wolf Cave]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 630
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "22_5_3_7|",
+    "original": "<<link [[Ignore|Wolf Cave Clearing]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 706
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "27_5_3_7|",
+    "original": "The younger <<wolf_cave_plural>> stare at the tree line, anxious for the pack's return.",
+    "translation": "",
+    "pos": 859
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "33_5_3_7|",
+    "original": "One of the younger <<beastsplural>> rubs <<bhis>> head against your leg as <<bhe>> walks by.",
+    "translation": "",
+    "pos": 1069
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "47_5_3_7|",
+    "original": "<<if Object.values($children).find(child => child.mother === \"pc\" && child.location === \"wolf_cave\") and $lactating isnot 1 and Time.dayState is \"day\">>",
+    "translation": "",
+    "pos": 1722
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "56_5_3_7|",
+    "original": "One of the <<beastsplural>> paces towards you, growling.",
+    "translation": "",
+    "pos": 2289
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "58_5_3_7|",
+    "original": "<<link [[Fight|Wolf Cave Fight]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 2363
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "60_5_3_7|",
+    "original": "<<link [[Call for help|Wolf Cave Help]]>><</link>>",
+    "translation": "",
+    "pos": 2450
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "63_5_3_7|",
+    "original": "<<link [[Adopt a mating posture|Wolf Cave Spar Sex]]>>",
+    "translation": "",
+    "pos": 2577
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "74_5_3_7|",
+    "original": "A play fight escalates until one draws blood.",
+    "translation": "",
+    "pos": 2856
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "76_5_3_7|",
+    "original": "<<link [[Intervene|Wolf Cave Intervene]]>><<set $phase to 0>><</link>>",
+    "translation": "",
+    "pos": 2919
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "78_5_3_7|",
+    "original": "<<link [[Encourage|Wolf Cave Intervene]]>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 3003
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "80_5_3_7|",
+    "original": "<<link [[Ignore|Wolf Cave Intervene]]>><<set $phase to 2>><</link>>",
+    "translation": "",
+    "pos": 3087
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "86_5_3_7|",
+    "original": "The Black Wolf is agitated. <<bHe>> bites and growls at the others, agitating them in turn.",
+    "translation": "",
+    "pos": 3337
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "88_5_3_7|",
+    "original": "<<link [[Calm <<bhim>> down|Wolf Cave Calm]]>><<set $phase to 0>><</link>>",
+    "translation": "",
+    "pos": 3448
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "90_5_3_7|",
+    "original": "<<link [[Ignore <<bhim>>|Wolf Cave Calm]]>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 3538
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "93_5_3_7|",
+    "original": "One of the larger <<beastsplural>> challenges the Black Wolf. The Black Wolf wins after a brief tussle, but <<bhis>> anger is not assuaged. <<bHe>> growls and bites at the other <<beastsplural>>, as if daring any to challenge <<bhim>>.",
+    "translation": "",
+    "pos": 3638
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "96_5_3_7|",
+    "original": "<span class=\"lblue\"><<bHe>> staggers slightly. The poisonous mushrooms are having an effect. <<bHe>> will be weaker than usual.</span>",
+    "translation": "",
+    "pos": 3929
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "99_5_3_7|",
+    "original": "<<link [[Calm <<bhim>> down|Wolf Cave Calm]]>><<set $phase to 0>><</link>>",
+    "translation": "",
+    "pos": 4097
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "101_5_3_7|",
+    "original": "<<link [[Ignore <<bhim>>|Wolf Cave Calm]]>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 4187
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "103_5_3_7|",
+    "original": "<<link [[Challenge|Wolf Cave Calm]]>><<set $phase to 2>><</link>>",
+    "translation": "",
+    "pos": 4274
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "109_5_3_7|",
+    "original": "A <<beasttype>> rushes over to you. <<bHe>> rears up and leans on you, almost knocking you over. <<bHe>> licks your face.",
+    "translation": "",
+    "pos": 4441
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "118_5_3_7|",
+    "original": "A low ranking <<beasttype 0>> approaches you, wishing to mate. A more dominant <<beasttype 1>> tries to steal your attention.",
+    "translation": "",
+    "pos": 4773
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "123_5_3_7|",
+    "original": "<<link [[Favour the low ranking <<beasttype 0>>|Wolf Cave Rank]]>><<set $phase to 0>><</link>><<deviant1>>",
+    "translation": "",
+    "pos": 5031
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "125_5_3_7|",
+    "original": "<<link [[Favour the high ranking <<beasttype 1>>|Wolf Cave Rank]]>><<set $phase to 1>><</link>><<deviant1>>",
+    "translation": "",
+    "pos": 5153
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "128_5_3_7|",
+    "original": "<<link [[Share yourself with both|Wolf Cave Rank]]>><<set $phase to 2>><</link>><<deviant2>>",
+    "translation": "",
+    "pos": 5315
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "132_5_3_7|",
+    "original": "<<link [[Ignore both|Wolf Cave Rank]]>><<set $phase to 3>><</link>>",
+    "translation": "",
+    "pos": 5448
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "136_5_3_7|",
+    "original": "A younger <<beasttype>> tries to climb on a rock. <<bHis>> feet skid and <<bhe>> tumbles to the ground. <<bHe>> stands up, but starts whining.",
+    "translation": "",
+    "pos": 5600
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "138_5_3_7|",
+    "original": "<<link [[Make sure <<bhes>> okay (0:05)|Wolf Cave Young]]>><<set $phase to 0>><<pass 5>><</link>>",
+    "translation": "",
+    "pos": 5760
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "140_5_3_7|",
+    "original": "<<link [[Ignore|Wolf Cave Young]]>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 5871
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "145_5_3_7|",
+    "original": "Amidst the group, you notice the Black Wolf standing atop a large rock, surrounded by a larger group of <<wolf_cave_plural>>. <<bHe>> suddenly raises <<bhis>> head and begins howling loudly, yet beautifully. A second <<beasttype>> takes notice and joins <<bhis>> pack sibling in hearty bonding.",
+    "translation": "",
+    "pos": 6054
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "147_5_3_7|",
+    "original": "Moments later, a modest group follows the lead and begins to howl loudly in harmonic unison.",
+    "translation": "",
+    "pos": 6366
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "149_5_3_7|",
+    "original": "<<link [[Watch them|Wolf Cave Howl]]>><<set $phase to 0>><</link>>",
+    "translation": "",
+    "pos": 6476
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "151_5_3_7|",
+    "original": "<<link [[Join in|Wolf Cave Howl]]>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 6556
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "157_5_3_7|",
+    "original": "The Black Wolf sits atop a large rock, watching the surrounding forest. You see a pair of eyes staring back. It's the black dog.",
+    "translation": "",
+    "pos": 6797
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "159_5_3_7|",
+    "original": "<<link [[Encourage them to meet|Wolf Cave Dog Meet]]>><</link>>",
+    "translation": "",
+    "pos": 6945
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "161_5_3_7|",
+    "original": "<<link [[Leave them to their staring|Wolf Cave Dog Stare]]>><</link>>",
+    "translation": "",
+    "pos": 7024
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "172_5_3_7|",
+    "original": "<span class=\"green\">The pack is unified in lethal purpose.</span>",
+    "translation": "",
+    "pos": 7279
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "174_5_3_7|",
+    "original": "<span class=\"purple\">The <<wolf_cave_plural>> pace and growl at each other, anxious for a hunt.</span>",
+    "translation": "",
+    "pos": 7412
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "176_5_3_7|",
+    "original": "<span class=\"pink\">The <<wolf_cave_plural>> are agitated, afraid of losing their place in the pecking order.</span>",
+    "translation": "",
+    "pos": 7581
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "178_5_3_7|",
+    "original": "<span class=\"red\">The <<wolf_cave_plural>> keep a large space between them. Any trespass is met with gnashing teeth.</span>",
+    "translation": "",
+    "pos": 7736
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "180_5_3_7|",
+    "original": "<span class=\"teal\">Play fights break out frequently.</span>",
+    "translation": "",
+    "pos": 7927
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "182_5_3_7|",
+    "original": "<span class=\"lblue\">The <<wolf_cave_plural>> lie together, grooming each other.</span>",
+    "translation": "",
+    "pos": 8053
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "184_5_3_7|",
+    "original": "<span class=\"blue\">The <<wolf_cave_plural>> lie together in a big cuddly pile.</span>",
+    "translation": "",
+    "pos": 8178
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "186_5_3_7|",
+    "original": "<span class=\"lblue\">Some of the <<wolf_cave_plural>> lie and groom each other, while others pace and watch the trees.</span>",
+    "translation": "",
+    "pos": 8331
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "188_5_3_7|",
+    "original": "<span class=\"purple\">The <<wolf_cave_plural>> are on edge, growling and baring teeth at each other.</span>",
+    "translation": "",
+    "pos": 8522
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "190_5_3_7|",
+    "original": "<span class=\"pink\">The <<wolf_cave_plural>> eye each other warily.</span>",
+    "translation": "",
+    "pos": 8668
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "192_5_3_7|",
+    "original": "<span class=\"blue\">Most of the <<wolf_cave_plural>> lie with their eyes shut, while others groom each other.</span>",
+    "translation": "",
+    "pos": 8808
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "194_5_3_7|",
+    "original": "<span class=\"purple\">The <<wolf_cave_plural>> groom themselves, and occasionally each other.</span>",
+    "translation": "",
+    "pos": 8962
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "196_5_3_7|",
+    "original": "<span class=\"purple\">The <<wolf_cave_plural>> groom themselves and ignore each other.</span>",
+    "translation": "",
+    "pos": 9127
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "198_5_3_7|",
+    "original": "<span class=\"pink\">The pack lazes around, barely able to summon the energy to growl at each other.</span>",
+    "translation": "",
+    "pos": 9258
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "200_5_3_7|",
+    "original": "<span class=\"pink\">The pack lazes together, able to summon little energy.</span>",
+    "translation": "",
+    "pos": 9401
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "202_5_3_7|",
+    "original": "<span class=\"red\">A depressive malaise lies on the pack.</span>",
+    "translation": "",
+    "pos": 9494
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "212_5_3_7|",
+    "original": "The pack returns from the hunt. Many carry pieces of meat for the younger <<wolf_cave_plural>> that stayed at the cave. The Black Wolf drops some by your side before moving away. The hunt was successful.",
+    "translation": "",
+    "pos": 9833
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "216_5_3_7|",
+    "original": "The pack returns from the hunt. Some carry pieces of meat for the younger <<wolf_cave_plural>> that stayed at the cave. The hunt was successful.",
+    "translation": "",
+    "pos": 10149
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "220_5_3_7|",
+    "original": "The pack returns from the hunt. They failed to catch anything.",
+    "translation": "",
+    "pos": 10353
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "224_5_3_7|",
+    "original": "The Black Wolf approaches you.",
+    "translation": "",
+    "pos": 10522
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "226_5_3_7|",
+    "original": "Now that <<bhe>> is closer you can see something in <<bhis>> hands.",
+    "translation": "",
+    "pos": 10585
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "229_5_3_7|",
+    "original": "\"<<pPackbrother>> lucky to eat plants.\" The Black Wolf hands you some pears.",
+    "translation": "",
+    "pos": 10675
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "232_5_3_7|",
+    "original": "<<bHe>> looks down at your pregnant belly. \"Should try meat next hunt. Good for pups.\"",
+    "translation": "",
+    "pos": 10774
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "235_5_3_7|",
+    "original": "Some pears are in <<bhis>> mouth. <<bHe>> drops them in front of you before shaking <<bhis>> head. <<bHe>> doesn't seem to enjoy the taste.",
+    "translation": "",
+    "pos": 10896
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "238_5_3_7|",
+    "original": "<<bHe>> sniffs at your pregnant belly before looking back into the forest. <<bHe>> seems disappointed with <<bhimself>>.",
+    "translation": "",
+    "pos": 11058
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "245_5_3_7|",
+    "original": "The pack returns from the hunt. Some carry pieces of meat for the younger <<wolf_cave_plural>> that stayed at the cave.",
+    "translation": "",
+    "pos": 11306
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "247_5_3_7|",
+    "original": "Some of it is brought to the Black Wolf. <<nnpc_He \"Black Wolf\">> scarfs it down quickly.",
+    "translation": "",
+    "pos": 11470
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "249_5_3_7|",
+    "original": "The hunt was successful.",
+    "translation": "",
+    "pos": 11576
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "253_5_3_7|",
+    "original": "The pack returns from the hunt. They failed to catch anything.",
+    "translation": "",
+    "pos": 11660
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "259_5_3_7|",
+    "original": "You hear a grumble. It seems to be coming from the Black Wolf's stomach.",
+    "translation": "",
+    "pos": 11915
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "261_5_3_7|",
+    "original": "\"Need more prey.\" <<bHe>> looks on wistfully into the forest.",
+    "translation": "",
+    "pos": 12009
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "264_5_3_7|",
+    "original": "You hear a grumble. It seems to be coming from the Black Wolf's pregnant stomach.",
+    "translation": "",
+    "pos": 12106
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "266_5_3_7|",
+    "original": "<<bHe>> makes another grumble, this time from <<bhis>> maw. The Black Wolf doesn't usually complain about hunger. <<bHe>> must be worried about the pups.",
+    "translation": "",
+    "pos": 12209
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "280_5_3_7|",
+    "original": "The Black Wolf howls and the others join in.",
+    "translation": "",
+    "pos": 12815
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "282_5_3_7|",
+    "original": "\"We hunt soon. Be ready.\"",
+    "translation": "",
+    "pos": 12888
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "284_5_3_7|",
+    "original": "They're going hunting.",
+    "translation": "",
+    "pos": 12930
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "288_5_3_7|",
+    "original": "The pack begins to howl and bay as they run through the trees. One usual member is missing. Turning, you see the Black Wolf resting on <<bhis>> usual rock, <<if $monster is 1>>stroking<<else>>nudging<</if>> <<bhis>> pregnant belly.",
+    "translation": "",
+    "pos": 13018
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "291_5_3_7|",
+    "original": "<<bHe>> sighs, laying down and looking on after the pack.",
+    "translation": "",
+    "pos": 13291
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "297_5_3_7|",
+    "original": "<<link [[Go with them|Wolf Cave Hunt]]>><</link>>",
+    "translation": "",
+    "pos": 13399
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "299_5_3_7|",
+    "original": "<<link [[Watch them leave|Wolf Cave Hunt Leave]]>><</link>>",
+    "translation": "",
+    "pos": 13458
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "304_5_3_7|",
+    "original": "You hear a loud bark behind you. You turn to face the Black Wolf, who stands firmly and bares <<bhis>> teeth to you.",
+    "translation": "",
+    "pos": 13750
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "306_5_3_7|",
+    "original": "\"Leader weak!\" <<bhe>> snarls. \"Pack need strength, courage. Pack will have new leader today. <<pPackbrothers>> time as alpha is over!\"",
+    "translation": "",
+    "pos": 13893
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "308_5_3_7|",
+    "original": "<<bHis>> fur bristles and <<bhis>> tail is held straight in the air. <<bHe>> seeks to challenge you for role as pack alpha.",
+    "translation": "",
+    "pos": 14043
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "311_5_3_7|",
+    "original": "A small group gathers around you.",
+    "translation": "",
+    "pos": 14190
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "314_5_3_7|",
+    "original": "<<link [[Fight|Wolf Challenge Accept]]>><</link>>",
+    "translation": "",
+    "pos": 14238
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "316_5_3_7|",
+    "original": "<<link [[Surrender|Wolf Challenge Surrender]]>><</link>>",
+    "translation": "",
+    "pos": 14297
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "319_5_3_7|",
+    "original": "<<link [[Reason|Wolf Challenge Reason]]>><</link>><<wolfgirl>>",
+    "translation": "",
+    "pos": 14389
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "334_5_3_7|",
+    "original": "<<link [[Next|Wolf Cave]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 14760
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "337_5_3_7|",
+    "original": "<<link [[Next|Wolf Cave Clearing]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 14828
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "346_5_3_7|",
+    "original": "Satiated, the pack heads back to the cave. Some carry food for the younger <<wolf_cave_plural>><<if $blackWolfNotHunting>> and the Black Wolf. <<nnpc_He \"Black Wolf\">> scarfs it down quickly<</if>>.",
+    "translation": "",
+    "pos": 15077
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "350_5_3_7|",
+    "original": "<<link [[Next|Wolf Cave]]>><<handheldon>><<unset $blackWolfNotHunting>><</link>>",
+    "translation": "",
+    "pos": 15318
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "355_5_3_7|",
+    "original": "With the sun rising on the horizon, the pack returns to the cave. The failure of the hunt has the pack riled.",
+    "translation": "",
+    "pos": 15606
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "359_5_3_7|",
+    "original": "<<link [[Next|Wolf Cave]]>><<handheldon>><<unset $blackWolfNotHunting>><</link>>",
+    "translation": "",
+    "pos": 15758
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "366_5_3_7|",
+    "original": "<<link [[Next|Wolf Cave]]>><<handheldon>><<unset $blackWolfNotHunting>><</link>>",
+    "translation": "",
+    "pos": 16023
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "371_5_3_7|",
+    "original": "You come to two pairs of tracks. One looks like a deer's hoof prints. The other several pairs of shoes.",
+    "translation": "",
+    "pos": 16167
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "375_5_3_7|",
+    "original": "The pack waits for your decision.",
+    "translation": "",
+    "pos": 16319
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "378_5_3_7|",
+    "original": "<<link [[Follow the deer tracks (1:00)|Wolf Deer]]>><<set $bus to \"wolfpackdeer\">><<tiredness 12>><</link>><<athleticsdifficulty>><<gtiredness>>",
+    "translation": "",
+    "pos": 16371
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "380_5_3_7|",
+    "original": "<<link [[Follow the shoe tracks (1:00)|Wolf Hunters]]>><<pass 1 hour>><<set $bus to \"wolfpackhunters\">><<tiredness 12>><</link>><<ggtiredness>>",
+    "translation": "",
+    "pos": 16529
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "382_5_3_7|",
+    "original": "<<link [[Let the Black Wolf decide (1:00)|Wolf Deer]]>><<set $bus to \"wolfpackdeer\">><<tiredness 12>><</link>><<gtiredness>>",
+    "translation": "",
+    "pos": 16686
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "385_5_3_7|",
+    "original": "The Black Wolf follows the deer prints without a second thought.",
+    "translation": "",
+    "pos": 16836
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "388_5_3_7|",
+    "original": "<<link [[Next (1:00)|Wolf Deer]]>><<set $bus to \"wolfpackdeer\">><<tiredness 12>><</link>><<athleticsdifficulty>><<gtiredness>>",
+    "translation": "",
+    "pos": 16919
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "392_5_3_7|",
+    "original": "You come to two pairs of tracks. One of a deer's hooves, but the steps are irregular. The other of large paws, with claws digging into the earth.",
+    "translation": "",
+    "pos": 17106
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "395_5_3_7|",
+    "original": "The pack waits for your decision.",
+    "translation": "",
+    "pos": 17288
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "398_5_3_7|",
+    "original": "<<link [[Follow the deer prints (1:00)|Wolf Carrion]]>><<set $bus to \"wolfpackcarrion\">><<tiredness 12>><</link>><<gtiredness>>",
+    "translation": "",
+    "pos": 17340
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "400_5_3_7|",
+    "original": "<<link [[Follow the large prints (1:00)|Wolf Bear]]>><<pass 1 hour>><<set $bus to \"wolfpackbear\">><<tiredness 12>><</link>><<ggtiredness>>",
+    "translation": "",
+    "pos": 17481
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "403_5_3_7|",
+    "original": "<<link [[Let the Black Wolf decide (1:00)|Wolf Carrion]]>><<set $bus to \"wolfpackcarrion\">><<tiredness 12>><</link>><<gtiredness>>",
+    "translation": "",
+    "pos": 17657
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "406_5_3_7|",
+    "original": "<<link [[Let the Black Wolf decide (1:00)|Wolf Bear]]>><<pass 1 hour>><<set $bus to \"wolfpackbear\">><<tiredness 12>><</link>><<ggtiredness>>",
+    "translation": "",
+    "pos": 17816
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "411_5_3_7|",
+    "original": "The Black Wolf sniffs the air, then follows the deer prints.",
+    "translation": "",
+    "pos": 18019
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "414_5_3_7|",
+    "original": "<<link [[Next (1:00)|Wolf Carrion]]>><<pass 1 hour>><<set $bus to \"wolfpackcarrion\">><<tiredness 12>><</link>><<ggtiredness>>",
+    "translation": "",
+    "pos": 18100
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "417_5_3_7|",
+    "original": "The Black Wolf sniffs the air, then follows the large prints.",
+    "translation": "",
+    "pos": 18254
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "420_5_3_7|",
+    "original": "<<link [[Next (1:00)|Wolf Bear]]>><<pass 1 hour>><<set $bus to \"wolfpackbear\">><<tiredness 12>><</link>><<ggtiredness>>",
+    "translation": "",
+    "pos": 18336
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "429_5_3_7|",
+    "original": "You come to a river emerging from the base of the cliff.",
+    "translation": "",
+    "pos": 18653
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "432_5_3_7|",
+    "original": "The pack waits for your decision.",
+    "translation": "",
+    "pos": 18746
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "435_5_3_7|",
+    "original": "<<link [[Follow the river (1:00)|Wolf River]]>><<pass 1 hour>><<set $bus to \"wolfpackriver\">><<tiredness 12>><</link>><<ggtiredness>>",
+    "translation": "",
+    "pos": 18798
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "437_5_3_7|",
+    "original": "<<link [[Follow the cliff (1:00)|Wolf Cliff]]>><<pass 1 hour>><<set $bus to \"wolfpackcliff\">><<tiredness 12>><</link>><<ggtiredness>>",
+    "translation": "",
+    "pos": 18945
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "440_5_3_7|",
+    "original": "<<wolfcaveicon \"bw\">><<link [[Let the Black Wolf decide (1:00)|Wolf River]]>><<pass 1 hour>><<set $bus to \"wolfpackriver\">><<tiredness 12>><</link>><<ggtiredness>>",
+    "translation": "",
+    "pos": 19116
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "443_5_3_7|",
+    "original": "<<wolfcaveicon \"bw\">><<link [[Let the Black Wolf decide (1:00)|Wolf Cliff]]>><<pass 1 hour>><<set $bus to \"wolfpackcliff\">><<tiredness 12>><</link>><<ggtiredness>>",
+    "translation": "",
+    "pos": 19308
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "448_5_3_7|",
+    "original": "The Black Wolf sniffs the air, then runs along the river.",
+    "translation": "",
+    "pos": 19534
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "451_5_3_7|",
+    "original": "<<link [[Next (1:00)|Wolf River]]>><<pass 1 hour>><<set $bus to \"wolfpackriver\">><<tiredness 12>><</link>><<ggtiredness>>",
+    "translation": "",
+    "pos": 19612
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "454_5_3_7|",
+    "original": "The Black Wolf sniffs the air, then runs along the cliff.",
+    "translation": "",
+    "pos": 19762
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "457_5_3_7|",
+    "original": "<<link [[Next (1:00)|Wolf Cliff]]>><<pass 1 hour>><<set $bus to \"wolfpackcliff\">><<tiredness 12>><</link>><<ggtiredness>>",
+    "translation": "",
+    "pos": 19840
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "475_5_3_7|",
+    "original": "<<tendingicon \"wolfshroom\">><<link [[Add a red mushroom to the Black Wolf's food (3:00)|Wolf Deer2]]>><<endevent>><<set $phase to 0>><<tiredness -12>><<pass 3 hours>><<tiredness -12>><<tiredness -12>><</link>><<ltiredness>>",
+    "translation": "",
+    "pos": 20307
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "478_5_3_7|",
+    "original": "<<tendingicon \"mushroom_aphrodisiac\">><<link [[Add a pink mushroom to the Black Wolf's food (3:00)|Wolf Deer2]]>><<endevent>><<set $phase to 1>><<tiredness -12>><<pass 3 hour>><<tiredness -12>><<tiredness -12>><</link>><<ltiredness>>",
+    "translation": "",
+    "pos": 20578
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "481_5_3_7|",
+    "original": "<<wolfcaveicon \"sleep\">><<link [[Rest (3:00)|Wolf Deer2]]>><<endevent>><<set $phase to 2>><<tiredness -12>><<pass 3 hour>><<tiredness -12>><<tiredness -12>><</link>><<ltiredness>>",
+    "translation": "",
+    "pos": 20829
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "489_5_3_7|",
+    "original": "You take the Black Wolf's penis in your hand.",
+    "translation": "",
+    "pos": 21170
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "493_5_3_7|",
+    "original": "You rub the Black Wolf's pussy with your hand.",
+    "translation": "",
+    "pos": 21306
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "505_5_3_7|",
+    "original": "<</silently>><<print _text_output>><</widget>>",
+    "translation": "",
+    "pos": 21663
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "509_5_3_7|",
+    "original": "<</silently>><<print _text_output>><</widget>>",
+    "translation": "",
+    "pos": 21781
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "519_5_3_7|",
+    "original": "<</silently>><<print _text_output>><</widget>>",
+    "translation": "",
+    "pos": 22124
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "523_5_3_7|",
+    "original": "<</silently>><<print _text_output>><</widget>>",
+    "translation": "",
+    "pos": 22244
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "531_5_3_7|",
+    "original": "<</silently>><<print _text_output>><</widget>>",
+    "translation": "",
+    "pos": 22483
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "560_5_3_7|",
+    "original": "<</silently>><<print _text_output>><</widget>>",
+    "translation": "",
+    "pos": 23477
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "579_5_3_7|",
+    "original": "<</silently>><<print _text_output>><</widget>>",
+    "translation": "",
+    "pos": 24168
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "589_5_3_7|",
+    "original": "<<bHe>> shuffles closer to you as you sit next to <<bhim>>.",
+    "translation": "",
+    "pos": 24613
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "592_5_3_7|",
+    "original": "\"<<pPackbrother>> should stay warm. Pups grow better.\" You lean against <<bhim>>, thankful for the warmth.",
+    "translation": "",
+    "pos": 24691
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "595_5_3_7|",
+    "original": "<<bHe>> shuffles closer to you as you sit next to <<bhim>>. <<bHe>> seems to be trying to keep you warm.",
+    "translation": "",
+    "pos": 24815
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "598_5_3_7|",
+    "original": "<<bHe>> nudges your pregnant stomach with <<bhis>> snout before returning to ignoring you.",
+    "translation": "",
+    "pos": 24938
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "602_5_3_7|",
+    "original": "<<bHe>> sniffs at your belly, nuzzling it.",
+    "translation": "",
+    "pos": 25079
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "605_5_3_7|",
+    "original": "\"<<pPackbrother>> eat well? Should eat meat on hunt. Good for pups.\"",
+    "translation": "",
+    "pos": 25140
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "608_5_3_7|",
+    "original": "You shiver at the thought of eating raw meat.",
+    "translation": "",
+    "pos": 25227
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "611_5_3_7|",
+    "original": "<<bHe>> sniffs at your pregnant belly before nuzzling it.",
+    "translation": "",
+    "pos": 25290
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "614_5_3_7|",
+    "original": "<<bHe>> presses <<bhis>> ear close to your tummy, listening for something. When your stomach rumbles, <<bhe>> looks up, concerned.",
+    "translation": "",
+    "pos": 25366
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "617_5_3_7|",
+    "original": "\"I'll get some food, don't worry.\" Your words seem to be enough and the Black Wolf calms.",
+    "translation": "",
+    "pos": 25515
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "625_5_3_7|",
+    "original": "<<bHe>> shifts, looking down at <<bhis>> pregnant belly. You can see a little <<if _pregnancy.fetus[0].features.monster>>foot<<else>>paw<</if>> kicking against it.",
+    "translation": "",
+    "pos": 25717
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "628_5_3_7|",
+    "original": "\"Pups already strong.\" You can hear pride in <<bhis>> voice.",
+    "translation": "",
+    "pos": 25899
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "631_5_3_7|",
+    "original": "<<bHe>> shifts, looking down at <<bhis>> pregnant belly. You can see a little paw kicking against it.",
+    "translation": "",
+    "pos": 25977
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "634_5_3_7|",
+    "original": "You watch as <<bhe>> licks the spot the pup kicks from, holding a laugh when the little paw retreats.",
+    "translation": "",
+    "pos": 26097
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "641_5_3_7|",
+    "original": "\"No more hunt soon.\" The Black Wolf grumbles as <<bhe>> looks down at <<bhis>> growing belly. \"Dangerous for pups.\"",
+    "translation": "",
+    "pos": 26291
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "643_5_3_7|",
+    "original": "<<bHe>> watches over the pack with a longing in <<bhis>> eyes. You can see <<bhis>> pregnant belly, it is growing bigger as the days go by. <<bHe>> won't be able to hunt soon.",
+    "translation": "",
+    "pos": 26423
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "649_5_3_7|",
+    "original": "You hear a brief snore before the Black Wolf shakes <<bhis>> head. <<bHe>> looks away.",
+    "translation": "",
+    "pos": 26683
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "652_5_3_7|",
+    "original": "\"Carrying pups tiring sometimes,\" <<bhe>> grumbles under <<bhis>> breath.",
+    "translation": "",
+    "pos": 26788
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "655_5_3_7|",
+    "original": "Looking over every so often, you can see that <<bhe>> continues to fight off sleep.",
+    "translation": "",
+    "pos": 26880
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "659_5_3_7|",
+    "original": "<<bHe>> shifts, looking down at <<bhis>> pregnant belly. You can see a little paw kicking against it.",
+    "translation": "",
+    "pos": 26982
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "662_5_3_7|",
+    "original": "You watch as <<bhe>> licks the spot the pup kicks from, holding a laugh when the little paw retreats.",
+    "translation": "",
+    "pos": 27102
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "674_5_3_7|",
+    "original": "The Black Wolf approaches you. <<bHe>> is holding something in <<bhis>> gigantic mouth. It's a small mass of fur, presumably the spoils from the last hunt. <<if $wolfgirl gte 6 or $cat gte 6 or $fox gte 6>>Oddly enough, you don't smell blood.<</if>>",
+    "translation": "",
+    "pos": 27306
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "677_5_3_7|",
+    "original": "<<bHe>> tries to speak, but you can't understand <<bhim>>, voice muffled with fur.",
+    "translation": "",
+    "pos": 27568
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "680_5_3_7|",
+    "original": "The Black Wolf gently drops what <<bhe>> is holding into your lap. It's a baby rabbit. Alive, much to your surprise. The small animal trembles in fear, but doesn't try to flee. You raise your eyes to the wolf before you, puzzled.",
+    "translation": "",
+    "pos": 27663
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "684_5_3_7|",
+    "original": "\"Humans like small living things. Thought it'd make <<ppackbrother>> feel better,\" <<bhe>> says.<<if $wolfgirl gte 6>> \"<<pPackbrother>> used to be human. Still cries like one, when not howls like us.\"<</if>>",
+    "translation": "",
+    "pos": 27928
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "687_5_3_7|",
+    "original": "The canine simply nuzzles the offering closer to you, waiting for something. It looks like <<bhe>> wants some reaction out of you. Is <<bhe>> trying to make you feel better?",
+    "translation": "",
+    "pos": 28150
+  },
+  {
+    "passage": "Widgets Wolf Cave",
+    "filepath": "overworld-forest/loc-wolfpack/widgets.twee",
+    "key": "692_5_3_7|",
+    "original": "<<link [[Next|Wolf Cave Baby Bunny]]>><</link>>",
+    "translation": "",
+    "pos": 28346
+  }
+]

@@ -1,0 +1,986 @@
+[
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "13_5_3_7|",
+    "original": "Your torch is <span class=\"green\">radiant.</span> <<set Weather.Temperature.override.increase.inside(5, \"The burning torch is hot.\")>>",
+    "translation": "",
+    "pos": 212
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "15_5_3_7|",
+    "original": "Your torch <span class=\"teal\">blazes.</span> <<set Weather.Temperature.override.increase.inside(5, \"The burning torch is hot.\")>>",
+    "translation": "",
+    "pos": 385
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "17_5_3_7|",
+    "original": "The flame on your torch has <span class=\"lblue\">lost some of its vigour.</span> <<set Weather.Temperature.override.increase.inside(3, \"The waning fire of your torch is warm.\")>>",
+    "translation": "",
+    "pos": 553
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "19_5_3_7|",
+    "original": "Your torch is <span class=\"blue\">burning lower.</span><<set Weather.Temperature.override.increase.inside(1, \"The dim fire of your torch is slightly warm.\")>>",
+    "translation": "",
+    "pos": 769
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "21_5_3_7|",
+    "original": "Your torch <span class=\"purple\">won't last much longer.</span>",
+    "translation": "",
+    "pos": 965
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "23_5_3_7|",
+    "original": "Barely a <span class=\"pink\">flicker</span> of fire remains on your torch.",
+    "translation": "",
+    "pos": 1065
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "25_5_3_7|",
+    "original": "Your torch is <span class=\"black\">extinguished.</span>",
+    "translation": "",
+    "pos": 1151
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "31_5_3_7|",
+    "original": "<span class=\"green\">+ Torchlight</span>",
+    "translation": "",
+    "pos": 1280
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "37_5_3_7|",
+    "original": "<span class=\"red\">- Torchlight</span>",
+    "translation": "",
+    "pos": 1421
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "50_5_3_7|",
+    "original": "<<if _args[0] is \"normal\">>",
+    "translation": "",
+    "pos": 1705
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "53_5_3_7|",
+    "original": "A rope hangs at knee height up ahead. <span class=\"green\">You step over it.</span>",
+    "translation": "",
+    "pos": 1827
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "58_5_3_7|",
+    "original": "You feel something brush against your knee. A hatch thuds open, and a dart flies from the dark. <span class=\"red\">It catches your arm.</span> You remove it at once, <span class=\"lewd\">but a warmth spreads from the point of impact.</span><<drugs 40>><<gdrugged>>",
+    "translation": "",
+    "pos": 1975
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "61_5_3_7|",
+    "original": "You examine the dart.",
+    "translation": "",
+    "pos": 2255
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "63_5_3_7|",
+    "original": "It seems medieval, until you examine the top more closely. It's made of steel. You give it a shake. There's fluid inside. There's not much here, but it might be worth a little to someone with criminal connections.<<set $blackmoney += 10>>",
+    "translation": "",
+    "pos": 2387
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "65_5_3_7|",
+    "original": "It seems old.",
+    "translation": "",
+    "pos": 2644
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "74_5_3_7|",
+    "original": "A stone slab up ahead is raised higher than the others. <span class=\"green\">You step over it.</span>",
+    "translation": "",
+    "pos": 2846
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "80_5_3_7|",
+    "original": "You feel a stone slab give way underfoot. The ground trembles, <span class=\"red\">and a set of iron cuffs clamp around your ankles.</span> They're connected to the ground by a chain, but the metal is so rusty that it crumbles at a little force. The chain connecting them proves sturdier.",
+    "translation": "",
+    "pos": 3083
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "86_5_3_7|",
+    "original": "You feel a stone slab give way underfoot. Dust showers you, and a paddle swings down from a recess in the ceiling, <span class=\"red\">smacking your <<bottom>>.</span><<gpain>><<pain 4>><<gtrauma>><<trauma 6>><<gstress>><<stress 6>>",
+    "translation": "",
+    "pos": 3461
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "94_5_3_7|",
+    "original": "<<if _args[0] is \"barrow\">>",
+    "translation": "",
+    "pos": 3798
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "96_5_3_7|",
+    "original": "You hear movement in the dark. There's something ahead, drawing closer. There's something behind you as well. And to the side. All drawing closer.",
+    "translation": "",
+    "pos": 3873
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "100_5_3_7|",
+    "original": "You whirl around, waving your torch at the creatures. <span class=\"green\">Its light and heat keeps them at bay.</span> They flee into deep recesses.",
+    "translation": "",
+    "pos": 4083
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "106_5_3_7|",
+    "original": "<<link [[Next|Catacombs Struggle]]>><<set $struggle_start to 1>><</link>>",
+    "translation": "",
+    "pos": 4331
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "109_5_3_7|",
+    "original": "You run through the dark, stumbling more than once, until you leave the creatures far behind. You got away, but not unscathed.<<beastescape>>",
+    "translation": "",
+    "pos": 4433
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "117_5_3_7|",
+    "original": "You come to a pool of white fluid. It blocks the passage, and finding another way around might be arduous.",
+    "translation": "",
+    "pos": 4718
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "121_5_3_7|",
+    "original": "You hold out your torch, <span class=\"green\">and spot a few chunks of masonry jutting from the fluid.</span> You climb the closest, and use them to traverse the pool, careful not to fall.",
+    "translation": "",
+    "pos": 4888
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "126_5_3_7|",
+    "original": "You peer across, <span class=\"red\">but can see nothing that would help you.</span>",
+    "translation": "",
+    "pos": 5141
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "129_5_3_7|",
+    "original": "<<link [[Find another path|Catacombs Goop Find]]>><<catacombs_torch -5>><<pass 10>><</link>><<ltorch>>",
+    "translation": "",
+    "pos": 5242
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "131_5_3_7|",
+    "original": "<<link [[Wade across|Catacombs Goop Wade]]>><</link>><<note \"Goopy\" \"pink\">>",
+    "translation": "",
+    "pos": 5358
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "138_5_3_7|",
+    "original": "Gems glitter in the cavern ceiling, far above. They help orient you.<<lstress>><<stress -6>>",
+    "translation": "",
+    "pos": 5572
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "140_5_3_7|",
+    "original": "The walls around you stretch into the cavern above.",
+    "translation": "",
+    "pos": 5681
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "147_5_3_7|",
+    "original": "<<if _args[0] is \"compound\">>",
+    "translation": "",
+    "pos": 5823
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "151_5_3_7|",
+    "original": "You hear a pair of voices up ahead.",
+    "translation": "",
+    "pos": 5947
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "156_5_3_7|",
+    "original": "\"I've requested a transfer,\" says a <<person>>.",
+    "translation": "",
+    "pos": 6033
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "158_5_3_7|",
+    "original": "\"Too spooky for you down here, aye?\" laughs the <<person2>><<person>>.",
+    "translation": "",
+    "pos": 6094
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "160_5_3_7|",
+    "original": "\"Oi! It's the spiders. Never liked em.\"",
+    "translation": "",
+    "pos": 6178
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "162_5_3_7|",
+    "original": "\"Behind you!\" shouts a <<person>>.",
+    "translation": "",
+    "pos": 6246
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "164_5_3_7|",
+    "original": "\"Fuck!\" cries a <<person2>><<person>> in shock, turning with a start.",
+    "translation": "",
+    "pos": 6294
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "166_5_3_7|",
+    "original": "\"Made you look.\" <<person1>><<Hes>> rewarded with a thump.",
+    "translation": "",
+    "pos": 6377
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "168_5_3_7|",
+    "original": "\"What they need all these cables for anyway?\" asks a <<person>>",
+    "translation": "",
+    "pos": 6464
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "170_5_3_7|",
+    "original": "\"Don't know, and don't care to,\" replies a <<person2>><<person>>.",
+    "translation": "",
+    "pos": 6541
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "172_5_3_7|",
+    "original": "\"Less we know the better, I suppose.\"",
+    "translation": "",
+    "pos": 6620
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "174_5_3_7|",
+    "original": "\"Think there's anything valuable down here?\" asks a <<person>>.",
+    "translation": "",
+    "pos": 6686
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "176_5_3_7|",
+    "original": "\"Nah,\" replies a <<person2>><<person>>. \"Other than the stuff we put in. And we wouldn't get away with pinching that.\"",
+    "translation": "",
+    "pos": 6763
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "178_5_3_7|",
+    "original": "\"Probably looted a long time ago anyway.\"",
+    "translation": "",
+    "pos": 6895
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "180_5_3_7|",
+    "original": "\"Don't go wandering,\" says a <<person>>.",
+    "translation": "",
+    "pos": 6953
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "182_5_3_7|",
+    "original": "\"Why not?\" asks a <<person2>><<person>>. \"The dark don't scare me.\"",
+    "translation": "",
+    "pos": 7007
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "184_5_3_7|",
+    "original": "\"It's not the dark. It's what's in it.\"",
+    "translation": "",
+    "pos": 7088
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "189_5_3_7|",
+    "original": "They're wearing uniforms, but you can't make out the detail in the gloom.",
+    "translation": "",
+    "pos": 7189
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "194_5_3_7|",
+    "original": "They haven't noticed you. <span class=\"green\">You sneak away.</span>",
+    "translation": "",
+    "pos": 7338
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "200_5_3_7|",
+    "original": "They haven't noticed you, but with your very next step <span class=\"red\">you crunch broken crockery underfoot.</span> Their heads swivel your way.",
+    "translation": "",
+    "pos": 7489
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "203_5_3_7|",
+    "original": "\"Got ourselves a live one,\" the <<person1>><<person>> says. They march closer. \"Hold still, <<girl>>.\"",
+    "translation": "",
+    "pos": 7654
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "206_5_3_7|",
+    "original": "<<link [[Run|Catacombs Caught Run]]>><</link>><<athleticsdifficulty 1 800>>",
+    "translation": "",
+    "pos": 7775
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "208_5_3_7|",
+    "original": "<<link [[Fight|Catacombs Caught Fight]]>><<set $fightstart to 1>><</link>>",
+    "translation": "",
+    "pos": 7864
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "210_5_3_7|",
+    "original": "<<link [[Hold still|Catacombs Caught Still]]>><</link>>",
+    "translation": "",
+    "pos": 7952
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "216_5_3_7|",
+    "original": "<span class=\"green\">You spot a camera up ahead,</span> barely visible in the gloom. You would have walked right into its path. You're not sure what it's for, but you avoid its line of sight.",
+    "translation": "",
+    "pos": 8148
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "221_5_3_7|",
+    "original": "A red light blinks into life. It's part of a camera, <span class=\"red\">pointed right at you.</span>",
+    "translation": "",
+    "pos": 8404
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "223_5_3_7|",
+    "original": "Metal tendrils rise from the dark, coiling around you.",
+    "translation": "",
+    "pos": 8544
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "226_5_3_7|",
+    "original": "<<link [[Next|Catacombs Tentacles]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 8619
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "229_5_3_7|",
+    "original": "The light intensifies, and a whirring roar fills the tunnel. You manage to escape, but stumble a few times in your haste.<<beastescape>>",
+    "translation": "",
+    "pos": 8724
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "241_5_3_7|",
+    "original": "You walk, each step deliberate, careful not to trip or collide with anything in your blindness. You still brush against the odd hard corner. Shattered crockery shatters further beneath your feet.<<gpain>><<pain 4>><<gstress>><<stress 6>>",
+    "translation": "",
+    "pos": 9054
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "246_5_3_7|",
+    "original": "You find an upright, open sarcophagus in the middle of your path. The interior is shrouded by the dark, but you think you see a figure inside.",
+    "translation": "",
+    "pos": 9353
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "250_5_3_7|",
+    "original": "You inhale, and light up the interior with your torch. <span class=\"green\">There's no body in there.</span>",
+    "translation": "",
+    "pos": 9559
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "252_5_3_7|",
+    "original": "However, you do find some tattered scraps of cloth. You feed your torch.<<gtorch>><<catacombs_torch 15>>",
+    "translation": "",
+    "pos": 9701
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "258_5_3_7|",
+    "original": "<<link [[Walk by with your eyes shut|Catacombs Sarcophagus Close]]>><<trauma 6>><<pain 4>><</link>><<gpain>><<gtrauma>>",
+    "translation": "",
+    "pos": 9883
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "260_5_3_7|",
+    "original": "<<link [[Find another way around|Catacombs Sarcophagus Find]]>><<pass 5>><<catacombs_torch -5>><</link>><<ltorch>>",
+    "translation": "",
+    "pos": 10016
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "266_5_3_7|",
+    "original": "You hear whispers in the dark. Calling you. You feel your breath quicken.",
+    "translation": "",
+    "pos": 10220
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "270_5_3_7|",
+    "original": "You could investigate, and prove there's nothing to be afraid of.",
+    "translation": "",
+    "pos": 10341
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "273_5_3_7|",
+    "original": "<<link [[Investigate|Catacombs Whispers Investigate]]>><<trauma -6>><<catacombs_torch -5>><</link>><<ltorch>><<gtrauma>>",
+    "translation": "",
+    "pos": 10423
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "276_5_3_7|",
+    "original": "<<link [[Ignore|Catacombs Whispers Ignore]]>><</link>><<willpowerdifficulty 1 1000>>",
+    "translation": "",
+    "pos": 10564
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "281_5_3_7|",
+    "original": "You see a large spiderweb, completely covering the passage. You hold out your torch, <span class=\"green\">and burn it away.</span>",
+    "translation": "",
+    "pos": 10761
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "286_5_3_7|",
+    "original": "You walk right into a spiderweb. It sticks to your already-bound arms. You try to pull free in the only way you can, by pulling against the web with your whole body. The web gets tighter and tighter, until it snaps back violently. The elasticity pulls you up and into the web, <span class=\"red\">leaving you suspended and helpless.</span>",
+    "translation": "",
+    "pos": 10999
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "289_5_3_7|",
+    "original": "<<link [[Struggle|Catacombs Struggle Web]]>><<pass 5>><<tiredness 1>><<stress 20>><<catacombs_torch -5>><</link>><<difficulty 30>><<gtiredness>><<gggstress>><<ltorch>>",
+    "translation": "",
+    "pos": 11353
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "293_5_3_7|",
+    "original": "<span class=\"red\">You walk right into a cobweb.</span> You tear it away from your face, but now it's stuck to your hand, then your other hand, then you notice your legs are covered as well. It must have been a large spider.",
+    "translation": "",
+    "pos": 11544
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "296_5_3_7|",
+    "original": "<<link [[Tear free|Catacombs Tear]]>><</link>><<physiquedifficulty 1 20000>>",
+    "translation": "",
+    "pos": 11784
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "298_5_3_7|",
+    "original": "<<link [[Save your strength|Catacombs Save]]>><<stress -6>><</link>><<lstress>>",
+    "translation": "",
+    "pos": 11872
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "302_5_3_7|",
+    "original": "You come to a pile of rubble, stone masonry and not a little soil. The tunnel has collapsed here, but there are gaps.",
+    "translation": "",
+    "pos": 12021
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "306_5_3_7|",
+    "original": "You poke your torch through the holes, and determine the widest. <span class=\"green\">You're confident you'll fit.</span>",
+    "translation": "",
+    "pos": 12199
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "309_5_3_7|",
+    "original": "It takes a bit of wriggling, <span class=\"green\">but you manage to pull yourself clear,</span> and clamber down the other side of the rubble.",
+    "translation": "",
+    "pos": 12336
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "314_5_3_7|",
+    "original": "You feel around for a gap wide enough to let you through. You think you've found the widest, <span class=\"red\">but you can't tell for sure.</span>",
+    "translation": "",
+    "pos": 12539
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "317_5_3_7|",
+    "original": "<<link [[Squeeze through a gap|Catacombs Squeeze]]>><</link>><<small_text>>",
+    "translation": "",
+    "pos": 12702
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "319_5_3_7|",
+    "original": "<<link [[Take a detour (0:10)|Catacombs Detour]]>><<pass 10>><<catacombs_torch -5>><</link>><<ltorch>>",
+    "translation": "",
+    "pos": 12789
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "326_5_3_7|",
+    "original": "Something moves in the shadows overhead. You raise your torch. Whatever it is, <span class=\"green\">it's afraid of the light.</span>",
+    "translation": "",
+    "pos": 13048
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "331_5_3_7|",
+    "original": "Something <span class=\"red\">lands on your shoulder.</span>",
+    "translation": "",
+    "pos": 13245
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "334_5_3_7|",
+    "original": "<<link [[Look|Catacombs Spider Look]]>><</link>><<willpowerdifficulty 1 1000>>",
+    "translation": "",
+    "pos": 13322
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "336_5_3_7|",
+    "original": "<<link [[Brush it off|Catacombs Spider Brush]]>><<stress 12>><</link>><<ggstress>>",
+    "translation": "",
+    "pos": 13414
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "343_5_3_7|",
+    "original": "<span class=\"green\">Your torch lights up a fallen column.</span> You step up and over it.",
+    "translation": "",
+    "pos": 13632
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "345_5_3_7|",
+    "original": "Your knee collides with hard stone, concealed in the gloom. A fallen column lies in your way. You step up and over it.<<gpain>><<pain 4>>",
+    "translation": "",
+    "pos": 13736
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "354_5_3_7|",
+    "original": "<span class=\"green\">Your torch illuminates</span> shards of broken pottery up ahead. You step around them.",
+    "translation": "",
+    "pos": 14118
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "356_5_3_7|",
+    "original": "You step on shards of broken pottery, <span class=\"red\">invisible in the gloom.</span><<gpain>><<gstress>><<pain 4>><<stress 6>>",
+    "translation": "",
+    "pos": 14241
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "359_5_3_7|",
+    "original": "Broken pottery <span class=\"green\">crunches</span> underfoot.",
+    "translation": "",
+    "pos": 14395
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "369_5_3_7|",
+    "original": "<<if _args[0] is \"skip\">>",
+    "translation": "",
+    "pos": 14593
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "376_5_3_7|",
+    "original": "<<case \"sarcophagi\">>",
+    "translation": "",
+    "pos": 14721
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "377_5_3_7|",
+    "original": "<<link [[Next|Catacombs Sarcophagi]]>><<catacombs_skip _args[0]>><</link>>",
+    "translation": "",
+    "pos": 14746
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "378_5_3_7|",
+    "original": "<<case \"chasm\">>",
+    "translation": "",
+    "pos": 14823
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "379_5_3_7|",
+    "original": "<<link [[Next|Catacombs Chasm]]>><<catacombs_skip _args[0]>><</link>>",
+    "translation": "",
+    "pos": 14843
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "380_5_3_7|",
+    "original": "<<case \"prison\">>",
+    "translation": "",
+    "pos": 14915
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "381_5_3_7|",
+    "original": "<<link [[Next|Catacombs Prison]]>><<catacombs_skip _args[0]>><</link>>",
+    "translation": "",
+    "pos": 14936
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "382_5_3_7|",
+    "original": "<<case \"ridge\">>",
+    "translation": "",
+    "pos": 15009
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "383_5_3_7|",
+    "original": "<<link [[Next|Catacombs Ridge]]>><<catacombs_skip _args[0]>><</link>>",
+    "translation": "",
+    "pos": 15029
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "384_5_3_7|",
+    "original": "<<case \"mud\">>",
+    "translation": "",
+    "pos": 15101
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "385_5_3_7|",
+    "original": "<<link [[Next|Catacombs Mud]]>><<catacombs_skip _args[0]>><</link>>",
+    "translation": "",
+    "pos": 15119
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "386_5_3_7|",
+    "original": "<<case \"masonry\">>",
+    "translation": "",
+    "pos": 15189
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "387_5_3_7|",
+    "original": "<<link [[Next|Catacombs Masonry]]>><<catacombs_skip _args[0]>><</link>>",
+    "translation": "",
+    "pos": 15211
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "388_5_3_7|",
+    "original": "<<case \"barrow\">>",
+    "translation": "",
+    "pos": 15285
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "389_5_3_7|",
+    "original": "<<link [[Next|Catacombs Barrow]]>><<catacombs_skip _args[0]>><</link>>",
+    "translation": "",
+    "pos": 15306
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "390_5_3_7|",
+    "original": "<<case \"stream\">>",
+    "translation": "",
+    "pos": 15379
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "391_5_3_7|",
+    "original": "<<link [[Next|Catacombs Stream]]>><<catacombs_skip _args[0]>><</link>>",
+    "translation": "",
+    "pos": 15400
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "392_5_3_7|",
+    "original": "<<case \"stalagmites\">>",
+    "translation": "",
+    "pos": 15473
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "393_5_3_7|",
+    "original": "<<link [[Next|Catacombs Stalagmites]]>><<catacombs_skip _args[0]>><</link>>",
+    "translation": "",
+    "pos": 15499
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "394_5_3_7|",
+    "original": "<<case \"bores\">>",
+    "translation": "",
+    "pos": 15577
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "395_5_3_7|",
+    "original": "<<link [[Next|Catacombs Bores]]>><<catacombs_skip _args[0]>><</link>>",
+    "translation": "",
+    "pos": 15597
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "396_5_3_7|",
+    "original": "<<case \"engravings\">>",
+    "translation": "",
+    "pos": 15669
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "397_5_3_7|",
+    "original": "<<link [[Next|Catacombs Engravings]]>><<catacombs_skip _args[0]>><</link>>",
+    "translation": "",
+    "pos": 15694
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "398_5_3_7|",
+    "original": "<<case \"museum\">>",
+    "translation": "",
+    "pos": 15771
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "399_5_3_7|",
+    "original": "<<link [[Next|Catacombs Museum]]>><<catacombs_skip _args[0]>><</link>>",
+    "translation": "",
+    "pos": 15792
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "400_5_3_7|",
+    "original": "<<case \"statues\">>",
+    "translation": "",
+    "pos": 15865
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "401_5_3_7|",
+    "original": "<<link [[Next|Catacombs Statues]]>><<catacombs_skip _args[0]>><</link>>",
+    "translation": "",
+    "pos": 15887
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "402_5_3_7|",
+    "original": "<<case \"compound\">>",
+    "translation": "",
+    "pos": 15961
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "403_5_3_7|",
+    "original": "<<link [[Next|Catacombs Compound]]>><<catacombs_skip _args[0]>><</link>>",
+    "translation": "",
+    "pos": 15984
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "405_5_3_7|",
+    "original": "<<link [[Next|Catacombs]]>><<catacombs_skip _args[0]>><</link>>",
+    "translation": "",
+    "pos": 16074
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "411_5_3_7|",
+    "original": "<span class=\"teal\">Closer to exit</span>",
+    "translation": "",
+    "pos": 16234
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "445_5_3_7|",
+    "original": "You've pushed yourself too much.",
+    "translation": "",
+    "pos": 17118
+  },
+  {
+    "passage": "Widgets Catacombs",
+    "filepath": "overworld-forest/loc-churchyard/widgets.twee",
+    "key": "447_5_3_7|",
+    "original": "<<link [[Next|Catacombs Passout]]>><</link>>",
+    "translation": "",
+    "pos": 17164
+  }
+]

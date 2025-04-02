@@ -1,0 +1,1370 @@
+[
+  {
+    "passage": "Bog Intro",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "5_5_3_7|",
+    "original": "You follow the brook downstream until you come to the edge of a rocky outcrop. A wall of drenched leaves obscures the horizon ahead.",
+    "translation": "",
+    "pos": 108
+  },
+  {
+    "passage": "Bog Intro",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "8_5_3_7|",
+    "original": "You carefully peer over the edge. You see a rickety wooden walkway at the bottom off to the right, worn by the trickle of water from the end of the brook. The water beyond is stagnant, but looks deep enough to jump into.",
+    "translation": "",
+    "pos": 253
+  },
+  {
+    "passage": "Bog Intro",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "11_5_3_7|",
+    "original": "<span class=\"gold\">You've discovered the bog.</span>",
+    "translation": "",
+    "pos": 486
+  },
+  {
+    "passage": "Bog Intro",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "13_5_3_7|",
+    "original": "You follow the brook downstream, to the edge of the bog.",
+    "translation": "",
+    "pos": 549
+  },
+  {
+    "passage": "Bog Intro",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "18_5_3_7|",
+    "original": "<<link [[Glide down (0:01)|Bog Intro Glide]]>><<pass 1>><</link>><<flight_text>>",
+    "translation": "",
+    "pos": 699
+  },
+  {
+    "passage": "Bog Intro",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "21_5_3_7|",
+    "original": "<<link [[Climb down (0:05)|Bog Intro Climb]]>><<pass 5>><</link>><<athleticsdifficulty 200 800>>",
+    "translation": "",
+    "pos": 794
+  },
+  {
+    "passage": "Bog Intro",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "23_5_3_7|",
+    "original": "<<link [[Jump into the water (0:01)|Bog Intro Jump]]>><<pass 1>><</link>>",
+    "translation": "",
+    "pos": 896
+  },
+  {
+    "passage": "Bog Intro Glide",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "29_5_3_7|",
+    "original": "You jump, falling several feet before the stagnant air catches your wings. You land hard, but unharmed, on the wooden walkway.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Bog Intro Glide",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "32_5_3_7|",
+    "original": "<<link [[Next|Bog]]>><<set $bogdepth to 4>><<set $bogwater to 0>><</link>>",
+    "translation": "",
+    "pos": 150
+  },
+  {
+    "passage": "Bog Intro Climb",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "37_5_3_7|",
+    "original": "You clamber over the ledge and find purchase against the rock wall.",
+    "translation": "",
+    "pos": 12
+  },
+  {
+    "passage": "Bog Intro Climb",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "40_5_3_7|",
+    "original": "You take your time, slowly working your way down until <span class=\"green\"> your feet touch the wooden walkway.</span>",
+    "translation": "",
+    "pos": 135
+  },
+  {
+    "passage": "Bog Intro Climb",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "44_5_3_7|",
+    "original": "You dust off your hands on your $worn.lower.name.",
+    "translation": "",
+    "pos": 306
+  },
+  {
+    "passage": "Bog Intro Climb",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "46_5_3_7|",
+    "original": "You dust off your hands on your $worn.upper.name.",
+    "translation": "",
+    "pos": 401
+  },
+  {
+    "passage": "Bog Intro Climb",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "48_5_3_7|",
+    "original": "You dust off your hands.",
+    "translation": "",
+    "pos": 463
+  },
+  {
+    "passage": "Bog Intro Climb",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "52_5_3_7|",
+    "original": "<<link [[Next|Bog]]>><<set $bogdepth to 4>><<set $bogwater to 0>><</link>>",
+    "translation": "",
+    "pos": 509
+  },
+  {
+    "passage": "Bog Intro Climb",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "55_5_3_7|",
+    "original": "You take your time, slowly working your way down until <span class=\"red\">you slip about half way</span>. You fall, plunging into the mire. <<pain 4>><<stress 12>><<trauma 6>><<gpain>><<gstress>><<gtrauma>>",
+    "translation": "",
+    "pos": 600
+  },
+  {
+    "passage": "Bog Intro Climb",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "60_5_3_7|",
+    "original": "The frigid water steals the breath from your lungs. You nearly gasp for breath on instinct, but manage to surface before doing so.",
+    "translation": "",
+    "pos": 862
+  },
+  {
+    "passage": "Bog Intro Climb",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "62_5_3_7|",
+    "original": "The water is murky and unpleasant. You surface, covered in stray plant matter.",
+    "translation": "",
+    "pos": 1005
+  },
+  {
+    "passage": "Bog Intro Climb",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "66_5_3_7|",
+    "original": "<<link [[Next|Bog]]>><<set $bogdepth to 4>><<set $bogwater to 1>><</link>>",
+    "translation": "",
+    "pos": 1105
+  },
+  {
+    "passage": "Bog Intro Jump",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "72_5_3_7|",
+    "original": "You take a deep breath, a step back, and a moment to collect yourself.",
+    "translation": "",
+    "pos": 12
+  },
+  {
+    "passage": "Bog Intro Jump",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "75_5_3_7|",
+    "original": "With a running start, you leap over the precipice, clearing the walkway and plunging into the murky water.",
+    "translation": "",
+    "pos": 93
+  },
+  {
+    "passage": "Bog Intro Jump",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "80_5_3_7|",
+    "original": "The frigid mire steals the breath from your lungs. You nearly gasp for breath on instinct, but manage to surface before doing so.",
+    "translation": "",
+    "pos": 252
+  },
+  {
+    "passage": "Bog Intro Jump",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "82_5_3_7|",
+    "original": "You surface, covered in stray plant matter.",
+    "translation": "",
+    "pos": 392
+  },
+  {
+    "passage": "Bog Intro Jump",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "86_5_3_7|",
+    "original": "<<link [[Next|Bog]]>><<set $bogdepth to 4>><<set $bogwater to 1>><</link>>",
+    "translation": "",
+    "pos": 454
+  },
+  {
+    "passage": "Bog",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "92_5_3_7|",
+    "original": "You're in the bog between the forest and moor.",
+    "translation": "",
+    "pos": 60
+  },
+  {
+    "passage": "Bog",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "95_5_3_7|",
+    "original": "The water here is just shallow enough to stand in.",
+    "translation": "",
+    "pos": 164
+  },
+  {
+    "passage": "Bog",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "98_5_3_7|",
+    "original": "A wooden pathway spares you from traversing the mire.",
+    "translation": "",
+    "pos": 247
+  },
+  {
+    "passage": "Bog",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "101_5_3_7|",
+    "original": "<<case \"none\">>",
+    "translation": "",
+    "pos": 343
+  },
+  {
+    "passage": "Bog",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "103_5_3_7|",
+    "original": "<<case \"dawn\">>",
+    "translation": "",
+    "pos": 389
+  },
+  {
+    "passage": "Bog",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "104_5_3_7|",
+    "original": "The low morning sun casts an enchanting light through the trees.",
+    "translation": "",
+    "pos": 409
+  },
+  {
+    "passage": "Bog",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "105_5_3_7|",
+    "original": "<<case \"day\">>",
+    "translation": "",
+    "pos": 477
+  },
+  {
+    "passage": "Bog",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "106_5_3_7|",
+    "original": "The sun's rays fight to pierce the canopy.",
+    "translation": "",
+    "pos": 496
+  },
+  {
+    "passage": "Bog",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "107_5_3_7|",
+    "original": "<<case \"dusk\">>",
+    "translation": "",
+    "pos": 542
+  },
+  {
+    "passage": "Bog",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "108_5_3_7|",
+    "original": "Strange shapes of light dance against the walkway and reflect from the water.",
+    "translation": "",
+    "pos": 562
+  },
+  {
+    "passage": "Bog",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "109_5_3_7|",
+    "original": "<<case \"night\">>",
+    "translation": "",
+    "pos": 643
+  },
+  {
+    "passage": "Bog",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "111_5_3_7|",
+    "original": "The stagnant water reflects red light back into the canopy.",
+    "translation": "",
+    "pos": 694
+  },
+  {
+    "passage": "Bog",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "113_5_3_7|",
+    "original": "The stagnant water reflects just enough moonlight to allow you to see.",
+    "translation": "",
+    "pos": 772
+  },
+  {
+    "passage": "Bog",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "116_5_3_7|",
+    "original": "A stone tower is visible far in the distance, to the east.",
+    "translation": "",
+    "pos": 871
+  },
+  {
+    "passage": "Bog",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "117_5_3_7|",
+    "original": "<<case \"rain\">>",
+    "translation": "",
+    "pos": 931
+  },
+  {
+    "passage": "Bog",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "118_5_3_7|",
+    "original": "Rain drips in patches through the thick canopy, creating a percussive rhythm as it assails the path.",
+    "translation": "",
+    "pos": 949
+  },
+  {
+    "passage": "Bog",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "119_5_3_7|",
+    "original": "<<case \"snow\">>",
+    "translation": "",
+    "pos": 1051
+  },
+  {
+    "passage": "Bog",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "120_5_3_7|",
+    "original": "The canopy catches most of the snow, creating a surreal <<if Weather.bloodMoon>>red<<else>>white<</if>> blanket above.",
+    "translation": "",
+    "pos": 1069
+  },
+  {
+    "passage": "Bog",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "123_5_3_7|",
+    "original": "A rocky cliff face blocks the way back to the forest. <span class=\"red\">There's no way up.</span>",
+    "translation": "",
+    "pos": 1223
+  },
+  {
+    "passage": "Bog",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "125_5_3_7|",
+    "original": "The treeline is thin, and you can see the moor from here.",
+    "translation": "",
+    "pos": 1348
+  },
+  {
+    "passage": "Bog",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "146_5_3_7|",
+    "original": "<<link [[Pull yourself back onto the walkway|Bog]]>><<set $bogwater to 0>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 1792
+  },
+  {
+    "passage": "Bog",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "149_5_3_7|",
+    "original": "Follow the walkway",
+    "translation": "",
+    "pos": 1921
+  },
+  {
+    "passage": "Bog",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "152_5_3_7|",
+    "original": "<<foresticon>><<link [[West, towards the forest (0:10)|Bog]]>><<set $bogdepth += 1>><<pass 10>><</link>>",
+    "translation": "",
+    "pos": 1978
+  },
+  {
+    "passage": "Bog",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "156_5_3_7|",
+    "original": "<<mooricon>><<link [[East, towards the moor (0:10)|Bog]]>><<set $bogdepth -= 1>><<pass 10>><</link>>",
+    "translation": "",
+    "pos": 2133
+  },
+  {
+    "passage": "Bog",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "159_5_3_7|",
+    "original": "<<mooricon>><<link [[East, into the moor (0:05)|Moor]]>><<set $bogdepth to 0>><<set $bogwater to 0>><<set $moor to 85>><<set $eventskip to 1>><<pass 5>><</link>>",
+    "translation": "",
+    "pos": 2277
+  },
+  {
+    "passage": "Bog Lizard Stand",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "170_5_3_7|",
+    "original": "You widen your posture and shoot a glare at the <<beasttype>>.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Bog Lizard Stand",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "172_5_3_7|",
+    "original": "<<bHe>> hisses and takes a few steps forward, <<bhis>> footfalls shaking the wooden slats. <span class=\"green\"><<bHe>> stops short, seemingly deciding that you're more trouble than you're worth.</span>",
+    "translation": "",
+    "pos": 101
+  },
+  {
+    "passage": "Bog Lizard Stand",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "175_5_3_7|",
+    "original": "<<link [[Next|Bog]]>><<set $eventskip to 1>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 315
+  },
+  {
+    "passage": "Bog Lizard Stand",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "178_5_3_7|",
+    "original": "<span class=\"red\"><<bHe>> charges you.</span> You turn to run, but <<bhe>> catches you almost immediately, dragging you into the water.<<silently>><<water>><</silently>>",
+    "translation": "",
+    "pos": 397
+  },
+  {
+    "passage": "Bog Lizard Stand",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "181_5_3_7|",
+    "original": "<<link [[Next|Bog Lizard Rape]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 579
+  },
+  {
+    "passage": "Bog Lizard Run",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "188_5_3_7|",
+    "original": "You sprint away from the <<beasttype>>. <<bHis>> claws dig into the wood, and <<bhe>> charges.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Bog Lizard Run",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "190_5_3_7|",
+    "original": "<span class=\"green\">You run fast enough that the <<beasttype>> gives up.</span> You turn and see <<bhim>> slinking back into the mire.",
+    "translation": "",
+    "pos": 134
+  },
+  {
+    "passage": "Bog Lizard Run",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "193_5_3_7|",
+    "original": "<<link [[Next|Bog]]>><<set $eventskip to 1>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 281
+  },
+  {
+    "passage": "Bog Lizard Run",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "197_5_3_7|",
+    "original": "<span class=\"red\">You're not fast enough.</span> The <<beasttype>> easily knocks you down, dragging you into the water.<<silently>><<water>><</silently>>",
+    "translation": "",
+    "pos": 374
+  },
+  {
+    "passage": "Bog Lizard Run",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "200_5_3_7|",
+    "original": "<<link [[Next|Bog Lizard Rape]]>><<set $molestationstart to 1>><<set $bogwater to 1>><</link>>",
+    "translation": "",
+    "pos": 540
+  },
+  {
+    "passage": "Bog Lizard Rape",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "226_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Bog Lizard Rape Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 293
+  },
+  {
+    "passage": "Bog Lizard Rape",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "228_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Bog Lizard Rape]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 388
+  },
+  {
+    "passage": "Bog Lizard Rape Finish",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "236_5_3_7|",
+    "original": "The <<beasttype>> hisses <<bhis>> satisfaction, and dives back into the stagnant water.",
+    "translation": "",
+    "pos": 78
+  },
+  {
+    "passage": "Bog Lizard Rape Finish",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "238_5_3_7|",
+    "original": "The <<beasttype>> hisses in pain and dives back into the stagnant water.",
+    "translation": "",
+    "pos": 197
+  },
+  {
+    "passage": "Bog Lizard Rape Finish",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "242_5_3_7|",
+    "original": "<<tearful>> you gather yourself.",
+    "translation": "",
+    "pos": 288
+  },
+  {
+    "passage": "Bog Lizard Rape Finish",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "248_5_3_7|",
+    "original": "<<link [[Next|Bog]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 360
+  },
+  {
+    "passage": "Bog Tentacles",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "267_5_3_7|",
+    "original": "You draw them closer through the water.",
+    "translation": "",
+    "pos": 362
+  },
+  {
+    "passage": "Bog Tentacles",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "281_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Bog Tentacles Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 673
+  },
+  {
+    "passage": "Bog Tentacles",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "283_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Bog Tentacles]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 766
+  },
+  {
+    "passage": "Bog Tentacles Finish",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "289_5_3_7|",
+    "original": "The vines lose interest in you, and retreat back into the canopy. <<tearful>> you untangle yourself from the plants and vines surrounding you.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Bog Tentacles Finish",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "294_5_3_7|",
+    "original": "<<link [[Next|Bog]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 186
+  },
+  {
+    "passage": "Bog Lost",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "299_5_3_7|",
+    "original": "You travel along the",
+    "translation": "",
+    "pos": 12
+  },
+  {
+    "passage": "Bog Lost",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "301_5_3_7|",
+    "original": "<<case 0>>last",
+    "translation": "",
+    "pos": 52
+  },
+  {
+    "passage": "Bog Lost",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "302_5_3_7|",
+    "original": "<<case 1>>first",
+    "translation": "",
+    "pos": 68
+  },
+  {
+    "passage": "Bog Lost",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "303_5_3_7|",
+    "original": "<<case 2>>second",
+    "translation": "",
+    "pos": 85
+  },
+  {
+    "passage": "Bog Lost",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "304_5_3_7|",
+    "original": "<<case 3>>third",
+    "translation": "",
+    "pos": 103
+  },
+  {
+    "passage": "Bog Lost",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "305_5_3_7|",
+    "original": "<<case 4>>fourth",
+    "translation": "",
+    "pos": 120
+  },
+  {
+    "passage": "Bog Lost",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "306_5_3_7|",
+    "original": "<<case 5>>fifth",
+    "translation": "",
+    "pos": 138
+  },
+  {
+    "passage": "Bog Lost",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "307_5_3_7|",
+    "original": "<<case 6>>sixth",
+    "translation": "",
+    "pos": 155
+  },
+  {
+    "passage": "Bog Lost",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "308_5_3_7|",
+    "original": "<<case 7>>seventh",
+    "translation": "",
+    "pos": 172
+  },
+  {
+    "passage": "Bog Lost",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "309_5_3_7|",
+    "original": "<<case 8>>eighth",
+    "translation": "",
+    "pos": 191
+  },
+  {
+    "passage": "Bog Lost",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "310_5_3_7|",
+    "original": "<<case 9>>ninth",
+    "translation": "",
+    "pos": 209
+  },
+  {
+    "passage": "Bog Lost",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "312_5_3_7|",
+    "original": "path.",
+    "translation": "",
+    "pos": 237
+  },
+  {
+    "passage": "Bog Lost",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "317_5_3_7|",
+    "original": "You run. And run. More and more pathways sprout from the one you're on, almost like branches or the prongs of an impossibly large set of antlers.",
+    "translation": "",
+    "pos": 302
+  },
+  {
+    "passage": "Bog Lost",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "320_5_3_7|",
+    "original": "<<link [[Stay the course (?:??)|Bog Lost Follow]]>><</link>><<willpowerdifficulty 600 1000>>",
+    "translation": "",
+    "pos": 460
+  },
+  {
+    "passage": "Bog Lost",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "322_5_3_7|",
+    "original": "<<link [[Block everything out|Bog Lost Block]]>><<trauma 30>><</link>><<gggtrauma>>",
+    "translation": "",
+    "pos": 560
+  },
+  {
+    "passage": "Bog Lost",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "325_5_3_7|",
+    "original": "The path begins to look familiar, even as the one behind you looks entirely different. You think you've found the correct way.",
+    "translation": "",
+    "pos": 674
+  },
+  {
+    "passage": "Bog Lost",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "328_5_3_7|",
+    "original": "<<link [[Next|Bog]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 813
+  },
+  {
+    "passage": "Bog Lost",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "332_5_3_7|",
+    "original": "<<case 0>>You see no sign of your original route.",
+    "translation": "",
+    "pos": 905
+  },
+  {
+    "passage": "Bog Lost",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "333_5_3_7|",
+    "original": "<<case 1>>You don't recognise any landmarks. <<stress 6>><<gstress>>",
+    "translation": "",
+    "pos": 957
+  },
+  {
+    "passage": "Bog Lost",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "334_5_3_7|",
+    "original": "<<case 2>>Your heart begins to race. <<stress 12>><<ggstress>>",
+    "translation": "",
+    "pos": 1028
+  },
+  {
+    "passage": "Bog Lost",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "335_5_3_7|",
+    "original": "<<case 3>>The trees themselves seem to change behind you as you walk. You double back, trying to find anything that will guide you. <<stress 12>><<ggstress>>",
+    "translation": "",
+    "pos": 1093
+  },
+  {
+    "passage": "Bog Lost",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "336_5_3_7|",
+    "original": "<<case 4>>You run, directionless and lost. Nothing seems real. <<stress 12>><<ggstress>><<trauma 12>><<ggtrauma>>",
+    "translation": "",
+    "pos": 1253
+  },
+  {
+    "passage": "Bog Lost",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "341_5_3_7|",
+    "original": "More paths branch off ahead.",
+    "translation": "",
+    "pos": 1412
+  },
+  {
+    "passage": "Bog Lost",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "344_5_3_7|",
+    "original": "<<link [[Try to backtrack (0:10)|Bog Lost]]>><<pass 10>><<set $phase to 0>><</link>>",
+    "translation": "",
+    "pos": 1453
+  },
+  {
+    "passage": "Bog Lost",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "346_5_3_7|",
+    "original": "<<link [[Follow the first path (0:10)|Bog Lost]]>><<pass 10>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 1545
+  },
+  {
+    "passage": "Bog Lost",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "348_5_3_7|",
+    "original": "<<link [[Follow the second path (0:10)|Bog Lost]]>><<pass 10>><<set $phase to 2>><</link>>",
+    "translation": "",
+    "pos": 1642
+  },
+  {
+    "passage": "Bog Lost",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "350_5_3_7|",
+    "original": "<<link [[Follow the third path (0:10)|Bog Lost]]>><<pass 10>><<set $phase to 3>><</link>>",
+    "translation": "",
+    "pos": 1740
+  },
+  {
+    "passage": "Bog Lost",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "352_5_3_7|",
+    "original": "<<link [[Follow the fourth path (0:10)|Bog Lost]]>><<pass 10>><<set $phase to 4>><</link>>",
+    "translation": "",
+    "pos": 1837
+  },
+  {
+    "passage": "Bog Lost",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "354_5_3_7|",
+    "original": "<<link [[Follow the fifth path (0:10)|Bog Lost]]>><<pass 10>><<set $phase to 5>><</link>>",
+    "translation": "",
+    "pos": 1935
+  },
+  {
+    "passage": "Bog Lost",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "357_5_3_7|",
+    "original": "<<link [[Follow the sixth path (0:10)|Bog Lost]]>><<pass 10>><<set $phase to 6>><</link>>",
+    "translation": "",
+    "pos": 2056
+  },
+  {
+    "passage": "Bog Lost",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "360_5_3_7|",
+    "original": "<<link [[Follow the seventh path (0:10)|Bog Lost]]>><<pass 10>><<set $phase to 7>><</link>>",
+    "translation": "",
+    "pos": 2180
+  },
+  {
+    "passage": "Bog Lost",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "363_5_3_7|",
+    "original": "<<link [[Follow the eighth path (0:10)|Bog Lost]]>><<pass 10>><<set $phase to 8>><</link>>",
+    "translation": "",
+    "pos": 2309
+  },
+  {
+    "passage": "Bog Lost",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "365_5_3_7|",
+    "original": "<<link [[Follow the ninth path (0:10)|Bog Lost]]>><<pass 10>><<set $phase to 9>><</link>>",
+    "translation": "",
+    "pos": 2413
+  },
+  {
+    "passage": "Bog Lost Follow",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "377_5_3_7|",
+    "original": "You stay the course, and decide to follow this path to its end no matter what. You'll find a way out eventually, so long as you continue straight ahead.",
+    "translation": "",
+    "pos": 86
+  },
+  {
+    "passage": "Bog Lost Follow",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "380_5_3_7|",
+    "original": "Each side path splits into two more, and each of those into four. <span class=\"green\">You ignore them.</span> Each one spirals into the unknown depths of the bog, tempting you. Each one looks more like salvation. <span class=\"green\">You ignore them.</span>",
+    "translation": "",
+    "pos": 251
+  },
+  {
+    "passage": "Bog Lost Follow",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "383_5_3_7|",
+    "original": "The path ends ahead. You don't care. You continue to walk forward. <span class=\"green\">Planks rise from the depths of the mire to meet your determined stride.</span> There is only one path, and it's ahead of you.",
+    "translation": "",
+    "pos": 520
+  },
+  {
+    "passage": "Bog Lost Follow",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "386_5_3_7|",
+    "original": "The trees begin to part. The bog spreads out before you. The path behind you is normal and unbroken. You won't fall prey to it again.",
+    "translation": "",
+    "pos": 745
+  },
+  {
+    "passage": "Bog Lost Follow",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "389_5_3_7|",
+    "original": "<<link [[Next|Bog]]>><<endevent>><<set $bogdepth to 1>><<set $eventskip to 1>><<set $boglost to 10>><</link>>",
+    "translation": "",
+    "pos": 891
+  },
+  {
+    "passage": "Bog Lost Follow",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "392_5_3_7|",
+    "original": "You keep moving forward. Each side path splits into three more, and each of those into six. Each one spirals into the unknown depths of the bog, tempting you. Each one looks more like salvation. <span class=\"red\">It's too much.</span>",
+    "translation": "",
+    "pos": 1017
+  },
+  {
+    "passage": "Bog Lost Follow",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "395_5_3_7|",
+    "original": "Your mind tries to map each path, to make some rational sense of what's happening to you. It can't. Each pathway fights for your attention, forcing its way into your mind. There are too many. A lifetime isn't long enough to tread them all. One mind can't map their destinations.",
+    "translation": "",
+    "pos": 1264
+  },
+  {
+    "passage": "Bog Lost Follow",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "398_5_3_7|",
+    "original": "You collapse in a heap, clutching your head. The path doesn't catch you.",
+    "translation": "",
+    "pos": 1555
+  },
+  {
+    "passage": "Bog Lost Follow",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "402_5_3_7|",
+    "original": "The water brings you back to your senses. You surface and gasp for breath, clinging to the side desperately. You pant, looking around. There is only one path.",
+    "translation": "",
+    "pos": 1651
+  },
+  {
+    "passage": "Bog Lost Follow",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "405_5_3_7|",
+    "original": "You hoist yourself back up.",
+    "translation": "",
+    "pos": 1822
+  },
+  {
+    "passage": "Bog Lost Follow",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "408_5_3_7|",
+    "original": "<<link [[Next|Bog]]>><<endevent>><<set $eventskip to 1>><<unset $boglost>><</link>>",
+    "translation": "",
+    "pos": 1862
+  },
+  {
+    "passage": "Bog Lost Block",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "415_5_3_7|",
+    "original": "Hundreds of pathways extend in every direction, twisting into utter darkness. Your ears ring. You cover them.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Bog Lost Block",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "418_5_3_7|",
+    "original": "You collapse to your knees. The pathway isn't just below you anymore. Pathways extend in a spiral up thick tree trunks, down below the surface of the water, and upside-down above you in the canopy.",
+    "translation": "",
+    "pos": 133
+  },
+  {
+    "passage": "Bog Lost Block",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "421_5_3_7|",
+    "original": "All at once, they begin to collapse. Planks of wood rain down, splashing into the water. Trees reclaim the treated wood into their bark, crushing them. The water swallows what remains, spreading rot and algae across their surfaces until they are nothing.",
+    "translation": "",
+    "pos": 341
+  },
+  {
+    "passage": "Bog Lost Block",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "424_5_3_7|",
+    "original": "Your eyes lie. You shut them.",
+    "translation": "",
+    "pos": 606
+  },
+  {
+    "passage": "Bog Lost Block",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "427_5_3_7|",
+    "original": "You steady your breathing. You don't know how long you kneel for. When you open your eyes, all that remains is the path ahead of you.",
+    "translation": "",
+    "pos": 646
+  },
+  {
+    "passage": "Bog Lost Block",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "430_5_3_7|",
+    "original": "<<link [[Next|Bog]]>><<endevent>><<set $eventskip to 1>><<unset $boglost>><</link>>",
+    "translation": "",
+    "pos": 790
+  },
+  {
+    "passage": "Bog Lost Stay",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "435_5_3_7|",
+    "original": "You know the bog's tricks. You step into the water ahead. The path reveals itself to you. You stay the course.",
+    "translation": "",
+    "pos": 12
+  },
+  {
+    "passage": "Bog Lost Stay",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "438_5_3_7|",
+    "original": "<<link [[Next|Bog]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 133
+  },
+  {
+    "passage": "Bog Swing",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "444_5_3_7|",
+    "original": "You grab the vine with both hands and take a step back, ready to make a running jump.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Bog Swing",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "447_5_3_7|",
+    "original": "<span class=\"green\">You clear the distance and make it to the other side</span>, <span class=\"red\">but your hands stick to the vine.</span> You swing back, unable to let go.",
+    "translation": "",
+    "pos": 275
+  },
+  {
+    "passage": "Bog Swing",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "450_5_3_7|",
+    "original": "You gradually lose speed until you're hanging over the broken section. <span class=\"red\">The vine begins to pull itself upwards into the canopy.</span>",
+    "translation": "",
+    "pos": 461
+  },
+  {
+    "passage": "Bog Swing",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "453_5_3_7|",
+    "original": "\"I've caught such a pretty little flower this time,\" you hear from above you. You look to the source. A <<person>> hangs upside-down from the canopy, with <<plant_details>> braided into <<his>> hair. \"You're such a rare treat. Let me enjoy you for a while. Or I could drop you. Your choice.\" Countless vines shoot down and encircle you!",
+    "translation": "",
+    "pos": 625
+  },
+  {
+    "passage": "Bog Swing",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "456_5_3_7|",
+    "original": "<<link [[Next|Bog Plant Suspended Sex]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 974
+  },
+  {
+    "passage": "Bog Swing",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "459_5_3_7|",
+    "original": "You clear the distance and make it to the other side, <span class=\"green\">landing without issue.</span>",
+    "translation": "",
+    "pos": 1091
+  },
+  {
+    "passage": "Bog Swing",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "462_5_3_7|",
+    "original": "<<link [[Next|Bog]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 1207
+  },
+  {
+    "passage": "Bog Swing",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "465_5_3_7|",
+    "original": "You can't hold on, and <span class=\"red\">slip from it.</span> You plunge into the mire.",
+    "translation": "",
+    "pos": 1277
+  },
+  {
+    "passage": "Bog Swing",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "469_5_3_7|",
+    "original": "<<link [[Next|Bog]]>><<set $bogwater to 1>><</link>>",
+    "translation": "",
+    "pos": 1388
+  },
+  {
+    "passage": "Bog Plant Tentacle Passout",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "478_5_3_7|",
+    "original": "You wake up with a lurch forward and feel like you're falling. You move to arrest your fall, but find yourself completely entangled by vines. You're suspended in the air. You look down and see no solid ground below. It's a long drop into the water.",
+    "translation": "",
+    "pos": 69
+  },
+  {
+    "passage": "Bog Plant Tentacle Passout",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "481_5_3_7|",
+    "original": "\"Never thought I'd find such a pretty flower out here of all places,\" you hear from above you. You struggle against your bindings and manage to look to the source. A <<person>> hangs upside-down from the canopy, with <<plant_details>> braided into <<his>> hair.",
+    "translation": "",
+    "pos": 328
+  },
+  {
+    "passage": "Bog Plant Tentacle Passout",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "483_5_3_7|",
+    "original": "Your $worn.lower.name <<lowerhas>> been <<if setup.clothes.lower[clothesIndex('lower', $worn.lower)].skirt is 1>>lifted up<<else>>pulled down<</if>>, <<if !$worn.under_lower.type.includes(\"naked\")>> and your $worn.under_lower.name <<underlowerhas>> been pulled aside,<</if>> <span class=\"pink\">revealing your <<genitals>>.</span>",
+    "translation": "",
+    "pos": 613
+  },
+  {
+    "passage": "Bog Plant Tentacle Passout",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "486_5_3_7|",
+    "original": "\"You exhausted yourself to the point of collapse, right in the middle of the bog. If not for me, you could have drowned!",
+    "translation": "",
+    "pos": 974
+  },
+  {
+    "passage": "Bog Plant Tentacle Passout",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "488_5_3_7|",
+    "original": "\"You exhausted yourself to the point of collapse. If not for me, you could have rolled right into the water and drowned!",
+    "translation": "",
+    "pos": 1105
+  },
+  {
+    "passage": "Bog Plant Tentacle Passout",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "491_5_3_7|",
+    "original": "Naturally, I had to secure you to make sure you were safe.\" The vines around you tighten, as if by command. <<He>> moves through the canopy with ease, encircling you. It's hard to tell where <<he>> ends and the trees begin.",
+    "translation": "",
+    "pos": 1257
+  },
+  {
+    "passage": "Bog Plant Tentacle Passout",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "497_5_3_7|",
+    "original": "\"You're such a rare treat. Let me enjoy you for a while. Or I could drop you. Your choice.\"",
+    "translation": "",
+    "pos": 1931
+  },
+  {
+    "passage": "Bog Plant Tentacle Passout",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "500_5_3_7|",
+    "original": "<<link [[Next|Bog Plant Suspended Sex]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 2033
+  },
+  {
+    "passage": "Bog Plant Suspended Sex",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "540_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Bog Plant Suspended Sex Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 1138
+  },
+  {
+    "passage": "Bog Plant Suspended Sex",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "542_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Bog Plant Suspended Sex]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 1241
+  },
+  {
+    "passage": "Bog Plant Suspended Sex Finish",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "550_5_3_7|",
+    "original": "The remaining tentacles aren't strong enough to hold you through <<his>> orgasmic spasms, and you drop into the water.",
+    "translation": "",
+    "pos": 105
+  },
+  {
+    "passage": "Bog Plant Suspended Sex Finish",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "554_5_3_7|",
+    "original": "\"Oh dear, I've lost my catch!\" A few more vines slither down and lift you from the water, gingerly placing you on the nearby walkway. \"So sorry, little flower, I got carried away! I'll be more careful next time, come back soon!\"",
+    "translation": "",
+    "pos": 250
+  },
+  {
+    "passage": "Bog Plant Suspended Sex Finish",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "556_5_3_7|",
+    "original": "The <<if $tentacles.active lte $tentacles.max>>remaining <</if>>vines loosen, gently lowering you down and around the tree, onto the walkway.",
+    "translation": "",
+    "pos": 491
+  },
+  {
+    "passage": "Bog Plant Suspended Sex Finish",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "557_5_3_7|",
+    "original": "\"Thanks for indulging me, little flower,\" the <<person>> chirps. \"Come back soon!\"",
+    "translation": "",
+    "pos": 635
+  },
+  {
+    "passage": "Bog Plant Suspended Sex Finish",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "561_5_3_7|",
+    "original": "<<He>> vanishes into the canopy, <<his>> vines following.",
+    "translation": "",
+    "pos": 739
+  },
+  {
+    "passage": "Bog Plant Suspended Sex Finish",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "564_5_3_7|",
+    "original": "As you fight back, the <<persons>> tentacles all suddenly retract, letting you drop into the water. <<stress 12>><<pain 6>><<ggstress>><<gpain>>",
+    "translation": "",
+    "pos": 838
+  },
+  {
+    "passage": "Bog Plant Suspended Sex Finish",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "568_5_3_7|",
+    "original": "\"This little flower is covered in thorns.\" <<He>> disappears into the canopy, nursing some new bruises. You pull yourself back up onto the walkway.",
+    "translation": "",
+    "pos": 1006
+  },
+  {
+    "passage": "Bog Plant Suspended Sex Finish",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "570_5_3_7|",
+    "original": "The remaining tentacles can't hold up your weight, and you're dropped into the water. <<stress 12>><<pain 6>><<ggstress>><<gpain>>",
+    "translation": "",
+    "pos": 1190
+  },
+  {
+    "passage": "Bog Plant Suspended Sex Finish",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "574_5_3_7|",
+    "original": "\"Oh dear, I've lost my catch!\" A few more vines slither down and lift you from the water, gingerly placing you on the nearby walkway. \"So sorry, little flower, I got carried away! I'll be more careful next time, come back soon!\"",
+    "translation": "",
+    "pos": 1344
+  },
+  {
+    "passage": "Bog Plant Suspended Sex Finish",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "577_5_3_7|",
+    "original": "<<He>> vanishes into the canopy, <<his>> vines following.",
+    "translation": "",
+    "pos": 1585
+  },
+  {
+    "passage": "Bog Plant Suspended Sex Finish",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "580_5_3_7|",
+    "original": "The <<if $tentacles.active lte $tentacles.max>>remaining <</if>>vines loosen, gently lowering you down onto the walkway.",
+    "translation": "",
+    "pos": 1663
+  },
+  {
+    "passage": "Bog Plant Suspended Sex Finish",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "581_5_3_7|",
+    "original": "\"Thanks for indulging me, little flower,\" the <<person>> chirps. \"Come back soon!\"",
+    "translation": "",
+    "pos": 1785
+  },
+  {
+    "passage": "Bog Plant Suspended Sex Finish",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "584_5_3_7|",
+    "original": "<<He>> vanishes into the canopy, <<his>> vines following.",
+    "translation": "",
+    "pos": 1880
+  },
+  {
+    "passage": "Bog Plant Suspended Sex Finish",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "587_5_3_7|",
+    "original": "<<tearful>> you gather yourself.",
+    "translation": "",
+    "pos": 1956
+  },
+  {
+    "passage": "Bog Plant Suspended Sex Finish",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "590_5_3_7|",
+    "original": "<<link [[Next|Bog]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 2017
+  },
+  {
+    "passage": "Bog Passout",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "595_5_3_7|",
+    "original": "You awaken to the sound of wet sloshing. You shoot up straight, looking around.",
+    "translation": "",
+    "pos": 32
+  },
+  {
+    "passage": "Bog Passout",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "597_5_3_7|",
+    "original": "It's too dark to see anything.",
+    "translation": "",
+    "pos": 145
+  },
+  {
+    "passage": "Bog Passout",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "599_5_3_7|",
+    "original": "You don't see the source.",
+    "translation": "",
+    "pos": 186
+  },
+  {
+    "passage": "Bog Passout",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "603_5_3_7|",
+    "original": "A shiver runs up your spine. You're not sure why, but you feel like you need to move.",
+    "translation": "",
+    "pos": 230
+  },
+  {
+    "passage": "Bog Passout",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "605_5_3_7|",
+    "original": "You wade through the water, pulling yourself up onto the walkway.",
+    "translation": "",
+    "pos": 340
+  },
+  {
+    "passage": "Bog Passout",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "607_5_3_7|",
+    "original": "You scramble to your feet, trusting your instincts.",
+    "translation": "",
+    "pos": 416
+  },
+  {
+    "passage": "Bog Passout",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "611_5_3_7|",
+    "original": "You take a step back. Just in time. A muddy black appendage shoots up from the murky water, grasping at where your leg just was. <<stress 12>><<ggstress>>",
+    "translation": "",
+    "pos": 486
+  },
+  {
+    "passage": "Bog Passout",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "614_5_3_7|",
+    "original": "From the darkness between the trees, dim pairs of yellow light flicker into existence. Dozens. Hundreds of limbs shoot up, grasping the walkway as if to make it one with the swamp. The wood creaks and groans. Masses of mud rise from the depths. A chorus of howling shrieks fills the dead air. <<trauma 30>><<gggtrauma>>",
+    "translation": "",
+    "pos": 651
+  },
+  {
+    "passage": "Bog Passout",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "617_5_3_7|",
+    "original": "Adrenaline finally unfreezes your paralysed muscles, and you run.",
+    "translation": "",
+    "pos": 981
+  },
+  {
+    "passage": "Bog Passout",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "620_5_3_7|",
+    "original": "<<link [[Next|Bog Passout 2]]>><</link>>",
+    "translation": "",
+    "pos": 1057
+  },
+  {
+    "passage": "Bog Passout 2",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "625_5_3_7|",
+    "original": "You keep running. You don't know which way you're going. More shapes appear from the water ahead. More eyes peer from every direction. Your lungs burn.",
+    "translation": "",
+    "pos": 12
+  },
+  {
+    "passage": "Bog Passout 2",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "628_5_3_7|",
+    "original": "You push onwards. The sounds are almost unbearable. Stars creep into your vision. The walkway pushes back against your feet, seemingly trying to wear you down.",
+    "translation": "",
+    "pos": 174
+  },
+  {
+    "passage": "Bog Passout 2",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "631_5_3_7|",
+    "original": "You run until you throw yourself off the end of the walkway, tumbling into the moor. You look back into the bog, but see nothing pursuing you.",
+    "translation": "",
+    "pos": 344
+  },
+  {
+    "passage": "Bog Passout 2",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "634_5_3_7|",
+    "original": "You collapse onto your back, exhaustion finally overtaking you. It takes some time to catch your breath and steady your nerves. <<gtiredness>><<tiredness 8>>",
+    "translation": "",
+    "pos": 497
+  },
+  {
+    "passage": "Bog Passout 2",
+    "filepath": "overworld-forest/loc-bog/main.twee",
+    "key": "637_5_3_7|",
+    "original": "<<link [[Next|Moor]]>><<set $bogdepth to 0>><<set $bogwater to 0>><<set $moor to 85>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 665
+  }
+]
