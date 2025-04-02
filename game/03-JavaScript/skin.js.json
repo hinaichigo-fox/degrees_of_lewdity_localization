@@ -1,0 +1,74 @@
+[
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/skin.js",
+    "key": "307_5_3_7|",
+    "original": "return statDisplay.statChange(\"No tanning effect\", 0, \"blue\");",
+    "translation": "",
+    "pos": 11126
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/skin.js",
+    "key": "309_5_3_7|",
+    "original": "return statDisplay.statChange(\"Tan\", factor >= 50 ? 3 : factor >= 20 ? 2 : 1, \"green\");",
+    "translation": "",
+    "pos": 11195
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/skin.js",
+    "key": "316_5_3_7|",
+    "original": "return `<span class=\"blue\">Sunscreen prevented you from tanning.</span><br>`;",
+    "translation": "",
+    "pos": 11394
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/skin.js",
+    "key": "322_5_3_7|",
+    "original": "const output = month ? Time.monthName : dayState ? \"Sun is low\" : \"weather\";",
+    "translation": "",
+    "pos": 11590
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/skin.js",
+    "key": "323_5_3_7|",
+    "original": "if (modifiers.sun <= 0.3) reasons.push(`Low sun intensity (${output})`);",
+    "translation": "",
+    "pos": 11670
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/skin.js",
+    "key": "324_5_3_7|",
+    "original": "else if (modifiers.sun <= 0.7) reasons.push(`Reduced sun intensity (${output})`);",
+    "translation": "",
+    "pos": 11746
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/skin.js",
+    "key": "326_5_3_7|",
+    "original": "if (modifiers.weather < 1) reasons.push(\"Light clouds\");",
+    "translation": "",
+    "pos": 11832
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/skin.js",
+    "key": "328_5_3_7|",
+    "original": "if (modifiers.clothing < 1) reasons.push(\"Shaded by clothing\");",
+    "translation": "",
+    "pos": 11895
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/skin.js",
+    "key": "331_5_3_7|",
+    "original": "return `<span class=\"teal\">Your tanning gain was reduced due to:</span><br><span class=\"orange\">${reasons.join(\"<br>\")}</span><br>`;",
+    "translation": "",
+    "pos": 12001
+  }
+]

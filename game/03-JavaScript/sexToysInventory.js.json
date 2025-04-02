@@ -1,0 +1,122 @@
+[
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/sexToysInventory.js",
+    "key": "14_5_3_7|",
+    "original": "const itemStatus = item.worn ? \"worn\" : item.carried ? \"carried\" : \"\";",
+    "translation": "",
+    "pos": 578
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/sexToysInventory.js",
+    "key": "66_5_3_7|",
+    "original": "${invItem.carried ? \"Put it back\" : \"Carry it\"}",
+    "translation": "",
+    "pos": 3056
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/sexToysInventory.js",
+    "key": "71_5_3_7|",
+    "original": "${invItem.worn ? \"Take it off\" : \"Wear it\"}",
+    "translation": "",
+    "pos": 3388
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/sexToysInventory.js",
+    "key": "74_5_3_7|",
+    "original": "Throw it away",
+    "translation": "",
+    "pos": 3573
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/sexToysInventory.js",
+    "key": "117_5_3_7|",
+    "original": "document.getElementById(\"stiWearButton\").textContent = toy.worn ? \"Take off\" : \"Wear it\"; // update button text value",
+    "translation": "",
+    "pos": 5124
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/sexToysInventory.js",
+    "key": "118_5_3_7|",
+    "original": "document.getElementById(\"stiCarryButton\").textContent = toy.carried ? \"Put back in the cupboard\" : \"Carry it\"; // update button text value",
+    "translation": "",
+    "pos": 5243
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/sexToysInventory.js",
+    "key": "120_5_3_7|",
+    "original": "document.getElementById(\"sti_already_owned_\" + category.replace(/\\s/g, \"_\") + \"_\" + index).textContent = toy.worn ? \"worn\" : toy.carried ? \"carried\" : \"\";",
+    "translation": "",
+    "pos": 5419
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/sexToysInventory.js",
+    "key": "142_5_3_7|",
+    "original": "`<div id=\"stiCursedText\" class=\"ssm_fade_in\">You try to remove the ` + V.worn.under_lower.name + ` but fail</div>`;",
+    "translation": "",
+    "pos": 6294
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/sexToysInventory.js",
+    "key": "150_5_3_7|",
+    "original": "`<div id=\"stiCursedText\" class=\"ssm_fade_in\">You can't push the ` + toy.name + ` past the ` + V.worn.genitals.name + `'s anal shield</div>`;",
+    "translation": "",
+    "pos": 6702
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/sexToysInventory.js",
+    "key": "189_5_3_7|",
+    "original": "document.getElementById(\"stiWearButton\").textContent = toy.worn ? \"Take off\" : \"Wear it\"; // update button text value",
+    "translation": "",
+    "pos": 7961
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/sexToysInventory.js",
+    "key": "190_5_3_7|",
+    "original": "document.getElementById(\"stiCarryButton\").textContent = !toy.carried ? \"Carry it\" : \"Put back in the cupboard\"; // update button text value",
+    "translation": "",
+    "pos": 8080
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/sexToysInventory.js",
+    "key": "191_5_3_7|",
+    "original": "document.getElementById(\"sti_already_owned_\" + category.replace(/\\s/g, \"_\") + \"_\" + index).textContent = toy.worn ? \"worn\" : toy.carried ? \"carried\" : \"\";",
+    "translation": "",
+    "pos": 8221
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/sexToysInventory.js",
+    "key": "195_5_3_7|",
+    "original": "element.textContent = V.player.inventory.sextoys[c][ind].worn ? \"worn\" : V.player.inventory.sextoys[c][ind].carried ? \"carried\" : \"\";",
+    "translation": "",
+    "pos": 8541
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/sexToysInventory.js",
+    "key": "367_5_3_7|",
+    "original": "Items carried: <span class=\"${colour}\">${countCarriedSextoys()}/${maxCarried}</span>",
+    "translation": "",
+    "pos": 14735
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/sexToysInventory.js",
+    "key": "407_5_3_7|",
+    "original": "if (elem !== null) elem.text = !T.lowerVisible ? \"Show lower clothing\" : \"Hide lower clothing\";",
+    "translation": "",
+    "pos": 16140
+  }
+]

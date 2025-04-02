@@ -1,0 +1,290 @@
+[
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/time-macros.js",
+    "key": "6_5_3_7|",
+    "original": "DefineMacroS(\"timeAfterXHours\", timeAfterXHours);",
+    "translation": "",
+    "pos": 169
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/time-macros.js",
+    "key": "11_5_3_7|",
+    "original": "minute = minute !== undefined ? minute : \"00\";",
+    "translation": "",
+    "pos": 290
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/time-macros.js",
+    "key": "16_5_3_7|",
+    "original": "if (V.options.timestyle === \"ampm\") {",
+    "translation": "",
+    "pos": 395
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/time-macros.js",
+    "key": "17_5_3_7|",
+    "original": "ampm = hour >= 12 ? \" pm\" : \" am\";",
+    "translation": "",
+    "pos": 435
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/time-macros.js",
+    "key": "20_5_3_7|",
+    "original": "return !ampm ? (\"0\" + getTimeString(hour, minute)).slice(-5) : getTimeString(hour, minute) + ampm;",
+    "translation": "",
+    "pos": 507
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/time-macros.js",
+    "key": "23_5_3_7|",
+    "original": "DefineMacroS(\"ampm\", ampm);",
+    "translation": "",
+    "pos": 628
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/time-macros.js",
+    "key": "28_5_3_7|",
+    "original": "Macro.add(\"advancetohour\", {",
+    "translation": "",
+    "pos": 722
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/time-macros.js",
+    "key": "39_5_3_7|",
+    "original": "return passTime(secondsToPass, \"sec\");",
+    "translation": "",
+    "pos": 1217
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/time-macros.js",
+    "key": "41_5_3_7|",
+    "original": "Macro.add(\"passTimeUntil\", {",
+    "translation": "",
+    "pos": 1258
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/time-macros.js",
+    "key": "72_5_3_7|",
+    "original": "function passTime(time = 0, type = \"min\") {",
+    "translation": "",
+    "pos": 2250
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/time-macros.js",
+    "key": "73_5_3_7|",
+    "original": "if (!Number.isInteger(time)) return Errors.report(\"Invalid time to pass: \" + time, Utils.GetStack());",
+    "translation": "",
+    "pos": 2295
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/time-macros.js",
+    "key": "78_5_3_7|",
+    "original": "Macro.add(\"pass\", {",
+    "translation": "",
+    "pos": 2511
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/time-macros.js",
+    "key": "85_5_3_7|",
+    "original": "Macro.add(\"clock\", {",
+    "translation": "",
+    "pos": 2628
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/time-macros.js",
+    "key": "90_5_3_7|",
+    "original": "const container = $(\"<div />\", { class: \"clockContainer\" }).appendTo(this.output);",
+    "translation": "",
+    "pos": 2826
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/time-macros.js",
+    "key": "91_5_3_7|",
+    "original": "const spinner = $(\"<div />\", { class: \"clockSpinner\" }).appendTo(container);",
+    "translation": "",
+    "pos": 2911
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/time-macros.js",
+    "key": "92_5_3_7|",
+    "original": "$(\"<div />\", { class: \"clockHand1\" })",
+    "translation": "",
+    "pos": 2990
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/time-macros.js",
+    "key": "94_5_3_7|",
+    "original": "\"-webkit-transform\": \"rotate(\" + hourRot + \"deg)\",",
+    "translation": "",
+    "pos": 3042
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/time-macros.js",
+    "key": "95_5_3_7|",
+    "original": "\"-moz-transform\": \"rotate(\" + hourRot + \"deg)\",",
+    "translation": "",
+    "pos": 3097
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/time-macros.js",
+    "key": "96_5_3_7|",
+    "original": "transform: \"rotate(\" + hourRot + \"deg)\",",
+    "translation": "",
+    "pos": 3149
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/time-macros.js",
+    "key": "99_5_3_7|",
+    "original": "$(\"<div />\", { class: \"clockHand2\" })",
+    "translation": "",
+    "pos": 3221
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/time-macros.js",
+    "key": "101_5_3_7|",
+    "original": "\"-webkit-transform\": \"rotate(\" + minuteRot + \"deg)\",",
+    "translation": "",
+    "pos": 3273
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/time-macros.js",
+    "key": "102_5_3_7|",
+    "original": "\"-moz-transform\": \"rotate(\" + minuteRot + \"deg)\",",
+    "translation": "",
+    "pos": 3330
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/time-macros.js",
+    "key": "103_5_3_7|",
+    "original": "transform: \"rotate(\" + minuteRot + \"deg)\",",
+    "translation": "",
+    "pos": 3384
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/time-macros.js",
+    "key": "106_5_3_7|",
+    "original": "$(\"<div />\", { class: \"clockCenter\" }).appendTo(spinner);",
+    "translation": "",
+    "pos": 3458
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/time-macros.js",
+    "key": "118_5_3_7|",
+    "original": "return \"School term finishes today.\";",
+    "translation": "",
+    "pos": 3823
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/time-macros.js",
+    "key": "120_5_3_7|",
+    "original": "const nextDate = Time.getNextSchoolTermStartDate(date.addDays(1));",
+    "translation": "",
+    "pos": 3877
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/time-macros.js",
+    "key": "122_5_3_7|",
+    "original": "\"School term has finished. Next term starts on \" +",
+    "translation": "",
+    "pos": 3962
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/time-macros.js",
+    "key": "123_5_3_7|",
+    "original": "nextDate.weekDayName +",
+    "translation": "",
+    "pos": 4018
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/time-macros.js",
+    "key": "124_5_3_7|",
+    "original": "\" the \" +",
+    "translation": "",
+    "pos": 4046
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/time-macros.js",
+    "key": "125_5_3_7|",
+    "original": "ordinalSuffixOf(nextDate.day) +",
+    "translation": "",
+    "pos": 4061
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/time-macros.js",
+    "key": "126_5_3_7|",
+    "original": "\" of \" +",
+    "translation": "",
+    "pos": 4098
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/time-macros.js",
+    "key": "127_5_3_7|",
+    "original": "nextDate.monthName +",
+    "translation": "",
+    "pos": 4112
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/time-macros.js",
+    "key": "128_5_3_7|",
+    "original": "\".\"",
+    "translation": "",
+    "pos": 4138
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/time-macros.js",
+    "key": "132_5_3_7|",
+    "original": "return \"School term finishes on \" + date.weekDayName + \" the \" + ordinalSuffixOf(date.day) + \" of \" + date.monthName + \".\";",
+    "translation": "",
+    "pos": 4168
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/time-macros.js",
+    "key": "136_5_3_7|",
+    "original": "return \"School term starts on \" + date.weekDayName + \" the \" + ordinalSuffixOf(date.day) + \" of \" + date.monthName + \".\";",
+    "translation": "",
+    "pos": 4344
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/time-macros.js",
+    "key": "138_5_3_7|",
+    "original": "DefineMacroS(\"schoolterm\", schoolTerm);",
+    "translation": "",
+    "pos": 4468
+  }
+]

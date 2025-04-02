@@ -1,0 +1,210 @@
+[
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/05-renderer/30-canvasmodel-editor.js",
+    "key": "11_5_3_7|",
+    "original": "CombatEditor.createButtonAsIcon(\"./img/ui/reload.png\", \"Reload - Use when animation breaks\", () => {",
+    "translation": "",
+    "pos": 334
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/05-renderer/30-canvasmodel-editor.js",
+    "key": "18_5_3_7|",
+    "original": "CombatEditor.createButtonAsIcon(\"./img/ui/refresh.png\", \"Refresh\", () => {",
+    "translation": "",
+    "pos": 526
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/05-renderer/30-canvasmodel-editor.js",
+    "key": "40_5_3_7|",
+    "original": "btn.textContent = layer.name || \"Unknown\";",
+    "translation": "",
+    "pos": 1114
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/05-renderer/30-canvasmodel-editor.js",
+    "key": "58_5_3_7|",
+    "original": "dialog.replaceChildren(CombatEditor.createLayerDialogContent(btn));",
+    "translation": "",
+    "pos": 1696
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/05-renderer/30-canvasmodel-editor.js",
+    "key": "86_5_3_7|",
+    "original": "CombatEditor.CreateCheckboxControl(container, \"cr-layer-show\", \"Show: \", !!layer.show, (control, layer) => {",
+    "translation": "",
+    "pos": 2314
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/05-renderer/30-canvasmodel-editor.js",
+    "key": "97_5_3_7|",
+    "original": "CombatEditor.CreateTextboxControl(container, \"cr-layer-src\", \"Src: \", layer.src, (control, layer) => {",
+    "translation": "",
+    "pos": 2625
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/05-renderer/30-canvasmodel-editor.js",
+    "key": "103_5_3_7|",
+    "original": "CombatEditor.CreateNumericControl(container, \"cr-layer-x\", \"X: \", layer.dx, (control, layer) => {",
+    "translation": "",
+    "pos": 2780
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/05-renderer/30-canvasmodel-editor.js",
+    "key": "112_5_3_7|",
+    "original": "CombatEditor.CreateNumericControl(container, \"cr-layer-y\", \"Y: \", layer.dy, (control, layer) => {",
+    "translation": "",
+    "pos": 3047
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/05-renderer/30-canvasmodel-editor.js",
+    "key": "121_5_3_7|",
+    "original": "CombatEditor.CreateNumericControl(container, \"cr-layer-z\", \"Z: \", layer.z, (control, layer) => {",
+    "translation": "",
+    "pos": 3314
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/05-renderer/30-canvasmodel-editor.js",
+    "key": "131_5_3_7|",
+    "original": "CombatEditor.CreateTextboxControl(container, \"cr-layer-blend\", \"Blend: \", layer.blend, (control, layer) => {",
+    "translation": "",
+    "pos": 3624
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/05-renderer/30-canvasmodel-editor.js",
+    "key": "138_5_3_7|",
+    "original": "CombatEditor.CreateTextboxControl(container, \"cr-layer-blendmode\", \"Blend mode: \", layer.blendMode, (control, layer) => {",
+    "translation": "",
+    "pos": 3842
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/05-renderer/30-canvasmodel-editor.js",
+    "key": "145_5_3_7|",
+    "original": "CombatEditor.CreateNumericControl(container, \"cr-layer-alpha\", \"Alpha: \", layer.alpha, (control, layer) => {",
+    "translation": "",
+    "pos": 4061
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/05-renderer/30-canvasmodel-editor.js",
+    "key": "156_5_3_7|",
+    "original": "filterSpan.textContent = \"Filters: \" + JSON.stringify(layer.filters);",
+    "translation": "",
+    "pos": 4424
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/05-renderer/30-canvasmodel-editor.js",
+    "key": "161_5_3_7|",
+    "original": "CombatEditor.CreateTextboxControl(container, \"cr-layer-animation\", \"Animation*: \", layer.animation, (control, layer) => {",
+    "translation": "",
+    "pos": 4594
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/05-renderer/30-canvasmodel-editor.js",
+    "key": "168_5_3_7|",
+    "original": "CombatEditor.CreateTextboxControl(container, \"cr-layer-masksrc\", \"Mask: \", layer.masksrc, (control, layer) => {",
+    "translation": "",
+    "pos": 4825
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/05-renderer/30-canvasmodel-editor.js",
+    "key": "176_5_3_7|",
+    "original": "CombatEditor.CreateTextboxControl(container, \"cr-layer-masksrc\" + i, \"Mask: \", src, (control, layer) => {",
+    "translation": "",
+    "pos": 5101
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/05-renderer/30-canvasmodel-editor.js",
+    "key": "187_5_3_7|",
+    "original": "CombatEditor.CreateTextboxControl(container, \"cr-layer-masksrc\", \"Mask: \", layer.masksrc.path, (control, layer) => {",
+    "translation": "",
+    "pos": 5492
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/05-renderer/30-canvasmodel-editor.js",
+    "key": "196_5_3_7|",
+    "original": "CombatEditor.CreateTextboxControl(container, \"cr-layer-masksrc\" + i, `Mask ${i}: `, src.path, (control, layer) => {",
+    "translation": "",
+    "pos": 5914
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/05-renderer/30-canvasmodel-editor.js",
+    "key": "220_5_3_7|",
+    "original": "label.textContent = summary;",
+    "translation": "",
+    "pos": 6651
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/05-renderer/30-canvasmodel-editor.js",
+    "key": "252_5_3_7|",
+    "original": "label.textContent = summary;",
+    "translation": "",
+    "pos": 7583
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/05-renderer/30-canvasmodel-editor.js",
+    "key": "290_5_3_7|",
+    "original": "label.textContent = summary;",
+    "translation": "",
+    "pos": 8659
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/05-renderer/30-canvasmodel-editor.js",
+    "key": "319_5_3_7|",
+    "original": "return CombatEditor.createDialog(\"combatMainLayerDialog\", null);",
+    "translation": "",
+    "pos": 9368
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/05-renderer/30-canvasmodel-editor.js",
+    "key": "370_5_3_7|",
+    "original": "button.textContent = text;",
+    "translation": "",
+    "pos": 10610
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/05-renderer/30-canvasmodel-editor.js",
+    "key": "410_5_3_7|",
+    "original": "const fragment = CombatEditor.createCanvasCombatEditor();",
+    "translation": "",
+    "pos": 11443
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/05-renderer/30-canvasmodel-editor.js",
+    "key": "417_5_3_7|",
+    "original": "const fragment = CombatEditor.createLayerEditor(\"combatMain\");",
+    "translation": "",
+    "pos": 11589
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/05-renderer/30-canvasmodel-editor.js",
+    "key": "424_5_3_7|",
+    "original": "const fragment = CombatEditor.createLayerDialog();",
+    "translation": "",
+    "pos": 11738
+  }
+]

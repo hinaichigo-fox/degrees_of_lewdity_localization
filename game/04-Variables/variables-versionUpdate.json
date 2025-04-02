@@ -1,0 +1,42 @@
+[
+  {
+    "passage": "Widgets variablesVersionUpdate",
+    "filepath": "04-Variables/variables-versionUpdate.twee",
+    "key": "1881_5_3_7|",
+    "original": "<<set $saveName to $saveName.replace(/[^a-zA-Z\\u4e00-\\u9fa5 0-9]+/g,\"\")>>",
+    "translation": "",
+    "pos": 46688
+  },
+  {
+    "passage": "Widgets variablesVersionUpdate",
+    "filepath": "04-Variables/variables-versionUpdate.twee",
+    "key": "2699_5_3_7|",
+    "original": "<span class='teal'>Animations are currently disabled. This may have been caused by a one-time bug. You can re-enable animations immediately, or in the \"general\" tab of the settings menu.</span> |",
+    "translation": "",
+    "pos": 70502
+  },
+  {
+    "passage": "Widgets variablesVersionUpdate",
+    "filepath": "04-Variables/variables-versionUpdate.twee",
+    "key": "2700_5_3_7|",
+    "original": "<<link \"Enable all animations\">><<addclass #animWarning \"hidden\">><<set $combatAnimations to true>><<set $sidebarAnimations to true>><</link>> |",
+    "translation": "",
+    "pos": 70702
+  },
+  {
+    "passage": "Widgets variablesVersionUpdate",
+    "filepath": "04-Variables/variables-versionUpdate.twee",
+    "key": "2701_5_3_7|",
+    "original": "<<link \"Disable this message\">><<addclass #animWarning \"hidden\">><</link>>",
+    "translation": "",
+    "pos": 70851
+  },
+  {
+    "passage": "Widgets variablesVersionUpdate",
+    "filepath": "04-Variables/variables-versionUpdate.twee",
+    "key": "4515_5_3_7|",
+    "original": "<<if $earSlime.event is \"go commando\" and !$slimeBedroomExit>>",
+    "translation": "",
+    "pos": 135528
+  }
+]

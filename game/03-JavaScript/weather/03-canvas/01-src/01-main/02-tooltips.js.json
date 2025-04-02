@@ -1,0 +1,338 @@
+[
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/03-canvas/01-src/01-main/02-tooltips.js",
+    "key": "4_5_3_7|",
+    "original": "const key = V.location === \"tentworld\" ? \"tentaclePlains\" : Weather.name;",
+    "translation": "",
+    "pos": 113
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/03-canvas/01-src/01-main/02-tooltips.js",
+    "key": "5_5_3_7|",
+    "original": "const weatherState = Weather.TooltipDescriptions.type[key];",
+    "translation": "",
+    "pos": 189
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/03-canvas/01-src/01-main/02-tooltips.js",
+    "key": "9_5_3_7|",
+    "original": "const weatherDescription = transition || (typeof weatherState === \"string\" ? weatherState : resolveValue(weatherState[Weather.skyState], \"\"));",
+    "translation": "",
+    "pos": 362
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/03-canvas/01-src/01-main/02-tooltips.js",
+    "key": "11_5_3_7|",
+    "original": "const tempDescription = Weather.TooltipDescriptions.temperature();",
+    "translation": "",
+    "pos": 508
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/03-canvas/01-src/01-main/02-tooltips.js",
+    "key": "13_5_3_7|",
+    "original": "? `<br><br><span class=\"teal\">DEBUG:</span>",
+    "translation": "",
+    "pos": 602
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/03-canvas/01-src/01-main/02-tooltips.js",
+    "key": "14_5_3_7|",
+    "original": "<br><span class=\"blue\">Passage:</span> <span class=\"yellow\">${V.passage}</span>",
+    "translation": "",
+    "pos": 649
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/03-canvas/01-src/01-main/02-tooltips.js",
+    "key": "15_5_3_7|",
+    "original": "<br><span class=\"blue\">Time:</span> <span class=\"yellow\">${ampm()}</span>",
+    "translation": "",
+    "pos": 732
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/03-canvas/01-src/01-main/02-tooltips.js",
+    "key": "16_5_3_7|",
+    "original": "<br><span class=\"blue\">Weather:</span> <span class=\"yellow\">${Weather.name}</span>",
+    "translation": "",
+    "pos": 809
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/03-canvas/01-src/01-main/02-tooltips.js",
+    "key": "17_5_3_7|",
+    "original": "<br><span class=\"blue\">Outside temperature:</span> <span class=\"yellow\">${Weather.toSelectedString(Weather.temperature)}</span>",
+    "translation": "",
+    "pos": 895
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/03-canvas/01-src/01-main/02-tooltips.js",
+    "key": "18_5_3_7|",
+    "original": "<br><span class=\"blue\">Inside temperature:</span> <span class=\"yellow\">${Weather.toSelectedString(Weather.insideTemperature)}</span>",
+    "translation": "",
+    "pos": 1026
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/03-canvas/01-src/01-main/02-tooltips.js",
+    "key": "19_5_3_7|",
+    "original": "<br><span class=\"blue\">Water temperature:</span> <span class=\"yellow\">${Weather.toSelectedString(Weather.waterTemperature)}</span>",
+    "translation": "",
+    "pos": 1162
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/03-canvas/01-src/01-main/02-tooltips.js",
+    "key": "20_5_3_7|",
+    "original": "<br><span class=\"blue\">Body temperature:</span> <span class=\"yellow\">${Weather.toSelectedString(Weather.bodyTemperature)}</span>",
+    "translation": "",
+    "pos": 1296
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/03-canvas/01-src/01-main/02-tooltips.js",
+    "key": "21_5_3_7|",
+    "original": "<br><span class=\"blue\">Sun intensity:</span> <span class=\"yellow\">${round(Weather.sunIntensity * 100, 2)}% (${V.outside ? \"outside\" : \"inside\"})</span>",
+    "translation": "",
+    "pos": 1428
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/03-canvas/01-src/01-main/02-tooltips.js",
+    "key": "22_5_3_7|",
+    "original": "<br><span class=\"blue\">Overcast amount:</span> <span class=\"yellow\">${round(Weather.overcast * 100, 2)}%</span>",
+    "translation": "",
+    "pos": 1583
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/03-canvas/01-src/01-main/02-tooltips.js",
+    "key": "23_5_3_7|",
+    "original": "<br><span class=\"blue\">Fog amount:</span> <span class=\"yellow\">${round(Weather.fog * 100, 2)}%</span>",
+    "translation": "",
+    "pos": 1698
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/03-canvas/01-src/01-main/02-tooltips.js",
+    "key": "24_5_3_7|",
+    "original": "<br><span class=\"blue\">Snow ground accumulation:</span> <span class=\"yellow\">${V.weatherObj.snow}mm</span>",
+    "translation": "",
+    "pos": 1803
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/03-canvas/01-src/01-main/02-tooltips.js",
+    "key": "25_5_3_7|",
+    "original": "<br><span class=\"blue\">Lake ice thickness:</span> <span class=\"yellow\">${V.weatherObj.ice.lake ?? 0}mm</span>`",
+    "translation": "",
+    "pos": 1913
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/03-canvas/01-src/01-main/02-tooltips.js",
+    "key": "26_5_3_7|",
+    "original": ": \"\";",
+    "translation": "",
+    "pos": 2027
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/03-canvas/01-src/01-main/02-tooltips.js",
+    "key": "28_5_3_7|",
+    "original": "message: `${weatherDescription}<br>${tempDescription}${debug}`,",
+    "translation": "",
+    "pos": 2056
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/03-canvas/01-src/01-main/02-tooltips.js",
+    "key": "30_5_3_7|",
+    "original": "position: \"cursor\",",
+    "translation": "",
+    "pos": 2138
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/03-canvas/01-src/01-main/02-tooltips.js",
+    "key": "35_5_3_7|",
+    "original": "const tempDescription = Weather.TooltipDescriptions.bodyTemperature();",
+    "translation": "",
+    "pos": 2196
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/03-canvas/01-src/01-main/02-tooltips.js",
+    "key": "36_5_3_7|",
+    "original": "const waterDescription = Weather.TooltipDescriptions.waterTemperature();",
+    "translation": "",
+    "pos": 2269
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/03-canvas/01-src/01-main/02-tooltips.js",
+    "key": "37_5_3_7|",
+    "original": "const tempChangeDescription = Weather.TooltipDescriptions.bodyTemperatureChanges();",
+    "translation": "",
+    "pos": 2344
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/03-canvas/01-src/01-main/02-tooltips.js",
+    "key": "38_5_3_7|",
+    "original": "const overrideDescription = T.inWater",
+    "translation": "",
+    "pos": 2430
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/03-canvas/01-src/01-main/02-tooltips.js",
+    "key": "48_5_3_7|",
+    "original": "const arousalOutput = arousalModifier > 0 ? `<span class=\"teal\">${\"- \".repeat(Math.abs(arousalModifier))}Arousal gains</span><br>` : \"\";",
+    "translation": "",
+    "pos": 3156
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/03-canvas/01-src/01-main/02-tooltips.js",
+    "key": "49_5_3_7|",
+    "original": "const fatigueOutput = fatigueModifier > 0 ? `<span class=\"red\">${\"+ \".repeat(Math.abs(fatigueModifier))}Fatigue gains</span><br>` : \"\";",
+    "translation": "",
+    "pos": 3295
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/03-canvas/01-src/01-main/02-tooltips.js",
+    "key": "50_5_3_7|",
+    "original": "const painOutput = painModifier > 0 ? `<span class=\"red\">${\"+ \".repeat(Math.abs(painModifier))}Pain gains</span><br>` : \"\";",
+    "translation": "",
+    "pos": 3433
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/03-canvas/01-src/01-main/02-tooltips.js",
+    "key": "51_5_3_7|",
+    "original": "const stressOutput = stressModifier > 0 ? `<span class=\"red\">${\"+ \".repeat(Math.abs(stressModifier))}Stress gains</span><br>` : \"\";",
+    "translation": "",
+    "pos": 3559
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/03-canvas/01-src/01-main/02-tooltips.js",
+    "key": "53_5_3_7|",
+    "original": "arousalOutput || fatigueOutput || painOutput || stressOutput ? \"<br>\" + arousalOutput + fatigueOutput + painOutput + stressOutput : \"\";",
+    "translation": "",
+    "pos": 3714
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/03-canvas/01-src/01-main/02-tooltips.js",
+    "key": "55_5_3_7|",
+    "original": "const direction = Weather.BodyTemperature.direction > 0 ? \"(increasing)\" : Weather.BodyTemperature.direction < 0 ? \"(decreasing)\" : \"\";",
+    "translation": "",
+    "pos": 3853
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/03-canvas/01-src/01-main/02-tooltips.js",
+    "key": "57_5_3_7|",
+    "original": "const debug = V.debug ? `<br><br><span class=\"teal\">DEBUG:</span><br><span class=\"blue\">Passage:</span> <span class=\"yellow\">${V.passage}</span>",
+    "translation": "",
+    "pos": 4039
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/03-canvas/01-src/01-main/02-tooltips.js",
+    "key": "58_5_3_7|",
+    "original": "<br><span class=\"blue\">Time:</span> <span class=\"yellow\">${ampm()}</span>",
+    "translation": "",
+    "pos": 4187
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/03-canvas/01-src/01-main/02-tooltips.js",
+    "key": "59_5_3_7|",
+    "original": "<br><span class=\"blue\">Body temperature:</span> <span class=\"yellow\">${Weather.toSelectedString(Weather.bodyTemperature)} ${direction}</span>",
+    "translation": "",
+    "pos": 4264
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/03-canvas/01-src/01-main/02-tooltips.js",
+    "key": "60_5_3_7|",
+    "original": "<br><span class=\"blue\">Body wetness:</span> <span class=\"yellow\">${Math.round(Weather.wetness * 100)}%</span>",
+    "translation": "",
+    "pos": 4409
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/03-canvas/01-src/01-main/02-tooltips.js",
+    "key": "61_5_3_7|",
+    "original": "<br><span class=\"blue\">Clothing warmth:</span> <span class=\"yellow\">${Weather.BodyTemperature.getWarmth()}</span>",
+    "translation": "",
+    "pos": 4522
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/03-canvas/01-src/01-main/02-tooltips.js",
+    "key": "62_5_3_7|",
+    "original": "<br><span class=\"blue\">Target temperature (current clothing)</span> <span class=\"yellow\">${Weather.toSelectedString(Weather.BodyTemperature.target)}</span>`",
+    "translation": "",
+    "pos": 4639
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/03-canvas/01-src/01-main/02-tooltips.js",
+    "key": "63_5_3_7|",
+    "original": ": \"\";",
+    "translation": "",
+    "pos": 4799
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/03-canvas/01-src/01-main/02-tooltips.js",
+    "key": "66_5_3_7|",
+    "original": "tempDescription +",
+    "translation": "",
+    "pos": 4868
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/03-canvas/01-src/01-main/02-tooltips.js",
+    "key": "67_5_3_7|",
+    "original": "(waterDescription ? \"<br>\" + waterDescription : \"\") +",
+    "translation": "",
+    "pos": 4890
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/03-canvas/01-src/01-main/02-tooltips.js",
+    "key": "68_5_3_7|",
+    "original": "(tempChangeDescription ? \"<br>\" + tempChangeDescription : \"\") +",
+    "translation": "",
+    "pos": 4948
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/03-canvas/01-src/01-main/02-tooltips.js",
+    "key": "69_5_3_7|",
+    "original": "(overrideDescription ? \"<br>\" + overrideDescription : \"\") +",
+    "translation": "",
+    "pos": 5016
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/03-canvas/01-src/01-main/02-tooltips.js",
+    "key": "73_5_3_7|",
+    "original": "position: \"cursor\",",
+    "translation": "",
+    "pos": 5121
+  }
+]

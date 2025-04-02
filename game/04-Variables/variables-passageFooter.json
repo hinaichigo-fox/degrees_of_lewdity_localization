@@ -1,0 +1,162 @@
+[
+  {
+    "passage": "PassageFooter",
+    "filepath": "04-Variables/variables-passageFooter.twee",
+    "key": "4_5_3_7|",
+    "original": "Passage Count: <<print $passageCount>> |",
+    "translation": "",
+    "pos": 73
+  },
+  {
+    "passage": "PassageFooter",
+    "filepath": "04-Variables/variables-passageFooter.twee",
+    "key": "7_5_3_7|",
+    "original": "Passage Changes Count: <<print $passageChangesCount>> |",
+    "translation": "",
+    "pos": 168
+  },
+  {
+    "passage": "PassageFooter",
+    "filepath": "04-Variables/variables-passageFooter.twee",
+    "key": "10_5_3_7|",
+    "original": "Play Time: <<print msToTime(($saveDetails.playTime ? $saveDetails.playTime : 0) + ($saveDetails.loadTime ? new Date() - $saveDetails.loadTime : 0))>> |",
+    "translation": "",
+    "pos": 261
+  },
+  {
+    "passage": "PassageFooter",
+    "filepath": "04-Variables/variables-passageFooter.twee",
+    "key": "18_5_3_7|",
+    "original": "<span class=\"red\">You haven't exported your save in a while</span> |",
+    "translation": "",
+    "pos": 773
+  },
+  {
+    "passage": "PassageFooter",
+    "filepath": "04-Variables/variables-passageFooter.twee",
+    "key": "20_5_3_7|",
+    "original": "<<link \"Export\">>",
+    "translation": "",
+    "pos": 878
+  },
+  {
+    "passage": "PassageFooter",
+    "filepath": "04-Variables/variables-passageFooter.twee",
+    "key": "24_5_3_7|",
+    "original": "<<link \"Help me export\">>",
+    "translation": "",
+    "pos": 969
+  },
+  {
+    "passage": "PassageFooter",
+    "filepath": "04-Variables/variables-passageFooter.twee",
+    "key": "27_5_3_7|",
+    "original": "<<link \"Ignore for now\">><<set $saveDetails.exported.days to Math.floor(Time.days - ($saveDetails.exported.frequency * 0.5))>><<addclass #exportWarning \"hidden\">><</link>>",
+    "translation": "",
+    "pos": 1042
+  },
+  {
+    "passage": "PassageFooter",
+    "filepath": "04-Variables/variables-passageFooter.twee",
+    "key": "48_5_3_7|",
+    "original": "Please report this, and either reload a previous save or take the emergency exit at the bottom of the page to the last safe location you were in.",
+    "translation": "",
+    "pos": 1875
+  },
+  {
+    "passage": "PassageFooter",
+    "filepath": "04-Variables/variables-passageFooter.twee",
+    "key": "50_5_3_7|",
+    "original": "Alternatively, return to the previous passage using the history depth function<<if !Config.history.controls>> that can be enabled in the options<</if>>.",
+    "translation": "",
+    "pos": 2057
+  },
+  {
+    "passage": "PassageFooter",
+    "filepath": "04-Variables/variables-passageFooter.twee",
+    "key": "54_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Back to safety|_exit]]>><<endcombat>><<clotheson>><</link>></span>",
+    "translation": "",
+    "pos": 2284
+  },
+  {
+    "passage": "PassageFooter",
+    "filepath": "04-Variables/variables-passageFooter.twee",
+    "key": "63_5_3_7|",
+    "original": "Please report this,",
+    "translation": "",
+    "pos": 2701
+  },
+  {
+    "passage": "PassageFooter",
+    "filepath": "04-Variables/variables-passageFooter.twee",
+    "key": "65_5_3_7|",
+    "original": "unless you got here through the use of a cheat,",
+    "translation": "",
+    "pos": 2752
+  },
+  {
+    "passage": "PassageFooter",
+    "filepath": "04-Variables/variables-passageFooter.twee",
+    "key": "67_5_3_7|",
+    "original": "and either reload a previous save or take the emergency exit at the bottom of the page to the last safe location you were in.",
+    "translation": "",
+    "pos": 2810
+  },
+  {
+    "passage": "PassageFooter",
+    "filepath": "04-Variables/variables-passageFooter.twee",
+    "key": "69_5_3_7|",
+    "original": "Alternatively, return to the previous passage using the history depth function<<if !Config.history.controls>> that can be enabled in the options<</if>>.",
+    "translation": "",
+    "pos": 2972
+  },
+  {
+    "passage": "PassageFooter",
+    "filepath": "04-Variables/variables-passageFooter.twee",
+    "key": "73_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Back to safety|_exit]]>><<endcombat>><<clotheson>><</link>></span>",
+    "translation": "",
+    "pos": 3207
+  },
+  {
+    "passage": "PassageFooter",
+    "filepath": "04-Variables/variables-passageFooter.twee",
+    "key": "96_5_3_7|",
+    "original": "Please expand the above box (click the dropdown arrow on the left) before taking a screenshot.",
+    "translation": "",
+    "pos": 4156
+  },
+  {
+    "passage": "PassageFooter",
+    "filepath": "04-Variables/variables-passageFooter.twee",
+    "key": "99_5_3_7|",
+    "original": "If you are advised to do so by developers, you can click below to reset the corrupted variables.",
+    "translation": "",
+    "pos": 4287
+  },
+  {
+    "passage": "PassageFooter",
+    "filepath": "04-Variables/variables-passageFooter.twee",
+    "key": "101_5_3_7|",
+    "original": "<<link \"Reset Corrupted Variables\">>",
+    "translation": "",
+    "pos": 4395
+  },
+  {
+    "passage": "PassageFooter",
+    "filepath": "04-Variables/variables-passageFooter.twee",
+    "key": "103_5_3_7|",
+    "original": "<<replace \"#nanClear\" t8n>><span class=\"green\">The variables have been cleared.</span><</replace>>",
+    "translation": "",
+    "pos": 4484
+  },
+  {
+    "passage": "PassageFooter",
+    "filepath": "04-Variables/variables-passageFooter.twee",
+    "key": "106_5_3_7|",
+    "original": "<span class=\"red\">WARNING: This will set all corrupted variables to 0. This may have unintended consequences to your game state. Proeceed with caution!</span>",
+    "translation": "",
+    "pos": 4607
+  }
+]

@@ -1,0 +1,810 @@
+[
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "5_5_3_7|",
+    "original": "dawn: \"A bright orange hue fills the sky.\",",
+    "translation": "",
+    "pos": 92
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "6_5_3_7|",
+    "original": "day: \"The sky is bright and sunny.\",",
+    "translation": "",
+    "pos": 139
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "7_5_3_7|",
+    "original": "dusk: \"Deep orange colors the sky.\",",
+    "translation": "",
+    "pos": 179
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "8_5_3_7|",
+    "original": "night: \"The stars shine brightly across the dark horizon.\",",
+    "translation": "",
+    "pos": 219
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "9_5_3_7|",
+    "original": "bloodMoon: \"The night sky glows ominously red under the blood moon.\",",
+    "translation": "",
+    "pos": 282
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "10_5_3_7|",
+    "original": "transition: () => Weather.isOvercast ? \"The remnants of clouds are clearing, revealing a vivid sky.\" : null,",
+    "translation": "",
+    "pos": 355
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "13_5_3_7|",
+    "original": "dawn: \"The sun's orange glow peeks through the clouds.\",",
+    "translation": "",
+    "pos": 489
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "14_5_3_7|",
+    "original": "day: \"The sun shines brightly through the clouds.\",",
+    "translation": "",
+    "pos": 549
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "15_5_3_7|",
+    "original": "dusk: \"Streaks of orange light covers the sky.\",",
+    "translation": "",
+    "pos": 604
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "16_5_3_7|",
+    "original": "night: \"The stars can be seen between the clouds.\",",
+    "translation": "",
+    "pos": 656
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "17_5_3_7|",
+    "original": "bloodMoon: \"Clouds drift across the eerie red glow of the moon.\",",
+    "translation": "",
+    "pos": 711
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "18_5_3_7|",
+    "original": "transition: () => Weather.isOvercast ? \"The overcast is dispersing, making way for clearer skies.\" : null,",
+    "translation": "",
+    "pos": 780
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "21_5_3_7|",
+    "original": "dawn: () => \"The cloudy sky is dyed orange by the rising sun.\",",
+    "translation": "",
+    "pos": 912
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "22_5_3_7|",
+    "original": "day: () => \"The sky is overcast and gray.\",",
+    "translation": "",
+    "pos": 979
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "23_5_3_7|",
+    "original": "dusk: () => \"The cloudy sky takes on an orange glow.\",",
+    "translation": "",
+    "pos": 1026
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "24_5_3_7|",
+    "original": "night: () => \"The stars can barely be seen through the thick clouds.\",",
+    "translation": "",
+    "pos": 1084
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "25_5_3_7|",
+    "original": "bloodMoon: () => \"The sky is filled with a red glow.\",",
+    "translation": "",
+    "pos": 1158
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "26_5_3_7|",
+    "original": "transition: () => !Weather.isOvercast ? \"You see dark clouds forming overhead.\" : null,",
+    "translation": "",
+    "pos": 1216
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "29_5_3_7|",
+    "original": "dawn: () => Weather.precipitation === \"rain\" ? \"Gentle rain falls in the early light of dawn.\" : \"Light snowflakes drift down in the early light.\",",
+    "translation": "",
+    "pos": 1336
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "30_5_3_7|",
+    "original": "day: () => Weather.precipitation === \"rain\" ? \"Light raindrops patter down.\" : \"A gentle snowfall fills the sky.\",",
+    "translation": "",
+    "pos": 1487
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "31_5_3_7|",
+    "original": "dusk: () => Weather.precipitation === \"rain\" ? \"A soft drizzle accompanies the orange dusk.\" : \"Fine snow mixes with the orange twilight.\",",
+    "translation": "",
+    "pos": 1605
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "32_5_3_7|",
+    "original": "night: () => Weather.precipitation === \"rain\" ? \"A light rain falls through the night.\" : \"Light snow fills the dark landscape.\",",
+    "translation": "",
+    "pos": 1748
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "33_5_3_7|",
+    "original": "bloodMoon: () => Weather.precipitation === \"rain\" ? \"The red moon casts a surreal glow on the light rain.\" : \"The red glow of the moon illuminates falling snowflakes.\",",
+    "translation": "",
+    "pos": 1881
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "34_5_3_7|",
+    "original": "transition: () => !Weather.isOvercast && !Weather.isFreezing ? \"You notice rain clouds forming above.\" : !Weather.isOvercast ? \"The clouds are getting heavy. It will snow soon.\" : null,",
+    "translation": "",
+    "pos": 2053
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "37_5_3_7|",
+    "original": "dawn: () => Weather.precipitation === \"rain\" ? \"A heavy rainstorm starts the day.\" : \"Thick snowflakes blanket the early morning.\",",
+    "translation": "",
+    "pos": 2271
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "38_5_3_7|",
+    "original": "day: () => Weather.precipitation === \"rain\" ? \"Rain pours heavily from the cloudy sky.\" : \"Heavy snowfall obscures the sky.\",",
+    "translation": "",
+    "pos": 2406
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "39_5_3_7|",
+    "original": "dusk: () => Weather.precipitation === \"rain\" ? \"The heavy rain intensifies.\" : \"Snow piles up as evening falls.\",",
+    "translation": "",
+    "pos": 2535
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "40_5_3_7|",
+    "original": "night: () => Weather.precipitation === \"rain\" ? \"Heavy rain defines the darkness.\" : \"A heavy snowstorm envelops the night.\",",
+    "translation": "",
+    "pos": 2652
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "41_5_3_7|",
+    "original": "bloodMoon: () => Weather.precipitation === \"rain\" ? \"The downpour reflects the red sky.\" : \"Snow reflects the moon's eerie red, blanketing the world in surreal silence.\",",
+    "translation": "",
+    "pos": 2781
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "42_5_3_7|",
+    "original": "transition: () => !Weather.isOvercast && !Weather.isFreezing ? \"Dark clouds begin to gather. It's going to rain soon.\" : !Weather.isOvercast ? \"Clouds are gathering above. It's going to snow soon.\" : null,",
+    "translation": "",
+    "pos": 2955
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "45_5_3_7|",
+    "original": "dawn: \"A thunderstorm rages at dawn.\",",
+    "translation": "",
+    "pos": 3187
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "46_5_3_7|",
+    "original": "day: \"Loud thunder and bright lightning strike.\",",
+    "translation": "",
+    "pos": 3229
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "47_5_3_7|",
+    "original": "dusk: \"Orange skies and thunderstorms merge.\",",
+    "translation": "",
+    "pos": 3282
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "48_5_3_7|",
+    "original": "night: \"Flashes of lightning illuminate the night.\",",
+    "translation": "",
+    "pos": 3332
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "50_5_3_7|",
+    "original": "tentaclePlains: `<span class=\"purple\">The sky glows with a vivid purple hue.</span>`,",
+    "translation": "",
+    "pos": 3392
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "54_5_3_7|",
+    "original": "lake: () => Weather.isFrozen(\"lake\") ? \"The lake is frozen.\" : \"The lake is calm.\",",
+    "translation": "",
+    "pos": 3545
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "58_5_3_7|",
+    "original": "return `<span class=\"blue\">It's extremely cold outside.</span>`;",
+    "translation": "",
+    "pos": 3694
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "60_5_3_7|",
+    "original": "return Weather.isSnow ? \"The heavy snow adds to the biting cold.\" : \"The cold air is biting.\";",
+    "translation": "",
+    "pos": 3805
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "62_5_3_7|",
+    "original": "return Weather.isSnow ? \"The air is cold and the ground is snow-packed.\" : \"The air is freezing, feeling sharp and dry.\";",
+    "translation": "",
+    "pos": 3945
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "64_5_3_7|",
+    "original": "return Weather.isSnow ? \"The air is cold, the snow covers the ground.\" : \"Frost begins forming on the ground.\";",
+    "translation": "",
+    "pos": 4111
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "66_5_3_7|",
+    "original": "return Weather.isSnow ? \"Melting snow creates a slush on the ground.\" : \"Chilly, with a cool wind.\";",
+    "translation": "",
+    "pos": 4267
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "68_5_3_7|",
+    "original": "return Weather.isSnow ? \"The leftover snow quickly melts.\" : \"It's cold, with a gentle breeze.\";",
+    "translation": "",
+    "pos": 4413
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "70_5_3_7|",
+    "original": "return \"The temperature is cool, but tolerable.\";",
+    "translation": "",
+    "pos": 4555
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "72_5_3_7|",
+    "original": "return \"The air is mild.\";",
+    "translation": "",
+    "pos": 4650
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "74_5_3_7|",
+    "original": "return \"The outside temperature is warm and comfortable.\";",
+    "translation": "",
+    "pos": 4722
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "76_5_3_7|",
+    "original": "return \"It's getting hot.\";",
+    "translation": "",
+    "pos": 4826
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "78_5_3_7|",
+    "original": "return `<span class=\"red\">It's extremely hot outside.</span>`;",
+    "translation": "",
+    "pos": 4868
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "82_5_3_7|",
+    "original": "if (!Weather.Temperature.isExtreme()) return \"\";",
+    "translation": "",
+    "pos": 4970
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "87_5_3_7|",
+    "original": "return `<span class=\"blue\">It's frigid, likely one of the coldest days of the year.</span>`;",
+    "translation": "",
+    "pos": 5233
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "89_5_3_7|",
+    "original": "return `<span class=\"red\">It's sweltering. There might be a heatwave passing by.</span>`;",
+    "translation": "",
+    "pos": 5370
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "92_5_3_7|",
+    "original": "const warm = Weather.temperature > 20 ? \"hot\" : \"warm\";",
+    "translation": "",
+    "pos": 5467
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "93_5_3_7|",
+    "original": "const cool = Weather.temperature < 7 ? \"cold\" : \"cool\";",
+    "translation": "",
+    "pos": 5525
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "94_5_3_7|",
+    "original": "const frigid = Weather.temperature < -15 ? \"frigid\" : \"cold\";",
+    "translation": "",
+    "pos": 5583
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "98_5_3_7|",
+    "original": "return `<span class=\"teal\">It's unseasonably ${frigid}.</span>`;",
+    "translation": "",
+    "pos": 5759
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "100_5_3_7|",
+    "original": "return `<span class=\"teal\">It's ${cool} for this time of year.</span>`",
+    "translation": "",
+    "pos": 5876
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "105_5_3_7|",
+    "original": "return `<span class=\"orange\">It's unseasonably ${warm}.</span>`",
+    "translation": "",
+    "pos": 6067
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "107_5_3_7|",
+    "original": "return `<span class=\"orange\">It's ${warm} for this time of year.</span>`",
+    "translation": "",
+    "pos": 6183
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "110_5_3_7|",
+    "original": "return \"\";",
+    "translation": "",
+    "pos": 6263
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "114_5_3_7|",
+    "original": "return \"You're suffering from severe hypothermia.\";",
+    "translation": "",
+    "pos": 6346
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "116_5_3_7|",
+    "original": "return \"You feel freezing cold.\";",
+    "translation": "",
+    "pos": 6447
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "118_5_3_7|",
+    "original": "return \"You feel very cold and shiver uncontrollably.\";",
+    "translation": "",
+    "pos": 6532
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "120_5_3_7|",
+    "original": "return \"You shiver.\";",
+    "translation": "",
+    "pos": 6637
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "122_5_3_7|",
+    "original": "return \"You feel chilly.\";",
+    "translation": "",
+    "pos": 6710
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "124_5_3_7|",
+    "original": "return \"You feel comfortable.\";",
+    "translation": "",
+    "pos": 6788
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "126_5_3_7|",
+    "original": "return \"You feel snug.\";",
+    "translation": "",
+    "pos": 6869
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "128_5_3_7|",
+    "original": "return \"You feel a slight sweating and discomfort.\";",
+    "translation": "",
+    "pos": 6945
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "130_5_3_7|",
+    "original": "return \"You feel warm and sweaty.\";",
+    "translation": "",
+    "pos": 7047
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "132_5_3_7|",
+    "original": "return \"You feel overheated and uncomfortable.\";",
+    "translation": "",
+    "pos": 7134
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "134_5_3_7|",
+    "original": "return \"You feel hot.\";",
+    "translation": "",
+    "pos": 7232
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "136_5_3_7|",
+    "original": "return \"You're suffering from heatstroke.\";",
+    "translation": "",
+    "pos": 7270
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "141_5_3_7|",
+    "original": "return \"\";",
+    "translation": "",
+    "pos": 7439
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "144_5_3_7|",
+    "original": "return \"You let the warmth take the chill from your bones.\";",
+    "translation": "",
+    "pos": 7563
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "146_5_3_7|",
+    "original": "return \"Your shivers are subsiding.\";",
+    "translation": "",
+    "pos": 7706
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "148_5_3_7|",
+    "original": "return \"You're getting colder dangerously fast.\";",
+    "translation": "",
+    "pos": 7826
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "150_5_3_7|",
+    "original": "return \"You're still getting colder.\";",
+    "translation": "",
+    "pos": 7958
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "154_5_3_7|",
+    "original": "return \"You're heating up fast.\";",
+    "translation": "",
+    "pos": 8122
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "156_5_3_7|",
+    "original": "return \"You're warming up.\";",
+    "translation": "",
+    "pos": 8238
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "158_5_3_7|",
+    "original": "return \"You're getting colder fast.\";",
+    "translation": "",
+    "pos": 8349
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "160_5_3_7|",
+    "original": "return \"You're getting cooler.\";",
+    "translation": "",
+    "pos": 8469
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "164_5_3_7|",
+    "original": "return \"You're heating up dangerously fast.\";",
+    "translation": "",
+    "pos": 8593
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "166_5_3_7|",
+    "original": "return \"You're heating up further.\";",
+    "translation": "",
+    "pos": 8721
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "168_5_3_7|",
+    "original": "return \"You let the chill take the heat away from your body.\";",
+    "translation": "",
+    "pos": 8840
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "170_5_3_7|",
+    "original": "return \"You're cooling off.\";",
+    "translation": "",
+    "pos": 8985
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "175_5_3_7|",
+    "original": "if (!T.inWater) return \"\";",
+    "translation": "",
+    "pos": 9057
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "177_5_3_7|",
+    "original": "return \"The water feels freezing cold.\";",
+    "translation": "",
+    "pos": 9126
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "179_5_3_7|",
+    "original": "return \"The water feels cold.\";",
+    "translation": "",
+    "pos": 9217
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "181_5_3_7|",
+    "original": "return \"The water feels cool.\";",
+    "translation": "",
+    "pos": 9299
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "183_5_3_7|",
+    "original": "return \"The water feels warm.\";",
+    "translation": "",
+    "pos": 9381
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "185_5_3_7|",
+    "original": "return \"The water feels hot.\";",
+    "translation": "",
+    "pos": 9427
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "189_5_3_7|",
+    "original": "let output = \"\";",
+    "translation": "",
+    "pos": 9497
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "191_5_3_7|",
+    "original": "output = \"Very warm.\";",
+    "translation": "",
+    "pos": 9537
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "194_5_3_7|",
+    "original": "output = \"Warm and snug.\";",
+    "translation": "",
+    "pos": 9592
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "197_5_3_7|",
+    "original": "output = \"Should help keep the chill off.\";",
+    "translation": "",
+    "pos": 9651
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "200_5_3_7|",
+    "original": "output = \"Light and cool.\";",
+    "translation": "",
+    "pos": 9727
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "203_5_3_7|",
+    "original": "output = \"No effect on warmth.\";",
+    "translation": "",
+    "pos": 9771
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "205_5_3_7|",
+    "original": "return V.options.images ? output + ` (<span class=\"cold-resist-icon noDivider\">${warmth}</span>)` : output;",
+    "translation": "",
+    "pos": 9810
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "209_5_3_7|",
+    "original": "return \"<span class='blue'>It's extremely cold outside.</span>\";",
+    "translation": "",
+    "pos": 9975
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "211_5_3_7|",
+    "original": "return \"<span class='purple'>It's very cold outside.</span>\";",
+    "translation": "",
+    "pos": 10084
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "213_5_3_7|",
+    "original": "return \"<span class='teal'>It's cold outside.</span>\";",
+    "translation": "",
+    "pos": 10191
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "215_5_3_7|",
+    "original": "return \"<span class='green'>It's a comfortable temperature outside.</span>\";",
+    "translation": "",
+    "pos": 10291
+  },
+  {
+    "passage": null,
+    "filepath": "03-JavaScript/weather/01-setup/weather-descriptions.js",
+    "key": "217_5_3_7|",
+    "original": "return \"<span class='orange'>It's hot outside.</span>\";",
+    "translation": "",
+    "pos": 10382
+  }
+]
