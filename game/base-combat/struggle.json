@@ -1,0 +1,3106 @@
+[
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "4_5_3_7|",
+    "original": "<<set $struggle to {",
+    "translation": "",
+    "pos": 62
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "49_5_3_7|",
+    "original": "<<set _slot = _args[0];",
+    "translation": "",
+    "pos": 1479
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "53_5_3_7|",
+    "original": "<<set $struggle.enemy[_slot] to {",
+    "translation": "",
+    "pos": 1583
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "68_5_3_7|",
+    "original": "<span class=\"error\">struggle_part_init error: invalid arguments: _args</span>",
+    "translation": "",
+    "pos": 2056
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "71_5_3_7|",
+    "original": "<<set $struggle[$_part] to {",
+    "translation": "",
+    "pos": 2176
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "137_5_3_7|",
+    "original": "<</silently>><<print _fulldesc>>",
+    "translation": "",
+    "pos": 4315
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "150_5_3_7|",
+    "original": "You have",
+    "translation": "",
+    "pos": 4615
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "152_5_3_7|",
+    "original": "<<case 0>><span class=\"red\"> no </span>",
+    "translation": "",
+    "pos": 4665
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "153_5_3_7|",
+    "original": "<<case 1>>a <span class=\"pink\"> fragile </span>",
+    "translation": "",
+    "pos": 4709
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "154_5_3_7|",
+    "original": "<<case 2>>a <span class=\"purple\"> weak </span>",
+    "translation": "",
+    "pos": 4761
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "155_5_3_7|",
+    "original": "<<case 3>>a <span class=\"blue\"> tentative </span>",
+    "translation": "",
+    "pos": 4812
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "156_5_3_7|",
+    "original": "<<case 4>>a <span class=\"lblue\"> decent </span>",
+    "translation": "",
+    "pos": 4866
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "157_5_3_7|",
+    "original": "<<case 5>>a <span class=\"teal\"> strong </span>",
+    "translation": "",
+    "pos": 4918
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "158_5_3_7|",
+    "original": "<<default>>an <span class=\"green\"> iron </span>",
+    "translation": "",
+    "pos": 4969
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "160_5_3_7|",
+    "original": "grip on the <<print $struggle[$_part].creature>> clutching your",
+    "translation": "",
+    "pos": 5035
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "162_5_3_7|",
+    "original": "<<case \"mouth\">> mouth.",
+    "translation": "",
+    "pos": 5124
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "163_5_3_7|",
+    "original": "<<case \"vagina\">> pelvis.",
+    "translation": "",
+    "pos": 5152
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "164_5_3_7|",
+    "original": "<<case \"penis\">> tummy.",
+    "translation": "",
+    "pos": 5182
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "165_5_3_7|",
+    "original": "<<case \"anus\">> bottom.",
+    "translation": "",
+    "pos": 5210
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "166_5_3_7|",
+    "original": "<<case \"chest\">> chest.",
+    "translation": "",
+    "pos": 5238
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "194_5_3_7|",
+    "original": "The <<struggle_name _i>> keeps at a distance.",
+    "translation": "",
+    "pos": 5868
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "203_5_3_7|",
+    "original": "<div id=\"listContainer\" style=\"margin-bottom:0px\">",
+    "translation": "",
+    "pos": 6054
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "220_5_3_7|",
+    "original": "<div id=\"listContainer\" style=\"margin-bottom:0px\">",
+    "translation": "",
+    "pos": 6746
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "230_5_3_7|",
+    "original": "<div id=\"listContainer\" style=\"margin-bottom:0px\">",
+    "translation": "",
+    "pos": 7094
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "239_5_3_7|",
+    "original": "<div id=\"listContainer\" style=\"margin-bottom:0px\">",
+    "translation": "",
+    "pos": 7371
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "248_5_3_7|",
+    "original": "<div id=\"listContainer\" style=\"margin-bottom:0px\">",
+    "translation": "",
+    "pos": 7598
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "257_5_3_7|",
+    "original": "<div id=\"listContainer\" style=\"margin-bottom:0px\">",
+    "translation": "",
+    "pos": 7853
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "272_5_3_7|",
+    "original": "<span class=\"lewd\">Your left arm is free, but you can't stop the spasms.</span>",
+    "translation": "",
+    "pos": 8236
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "275_5_3_7|",
+    "original": "<span class=\"red\">Your left arm is free, but hurts to move.</span>",
+    "translation": "",
+    "pos": 8407
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "278_5_3_7|",
+    "original": "<span class=\"pink\">Your left arm is free, but doesn't feel real.</span>",
+    "translation": "",
+    "pos": 8549
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "287_5_3_7|",
+    "original": "<span @class=\"($lastOptions.left isnot _leftOptions ? 'gold' : '')\">Your left arm is free.</span>",
+    "translation": "",
+    "pos": 8930
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "297_5_3_7|",
+    "original": "<span class=\"lewd\">You hold a $struggle.creature with your left arm, but you can't stop the spasms.</span>",
+    "translation": "",
+    "pos": 9335
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "300_5_3_7|",
+    "original": "<span class=\"red\">You hold a $struggle.creature with your left arm, but it hurts to move.</span>",
+    "translation": "",
+    "pos": 9534
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "303_5_3_7|",
+    "original": "<span class=\"pink\">You hold a $struggle.creature with your left arm, but it doesn't feel real.</span>",
+    "translation": "",
+    "pos": 9705
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "308_5_3_7|",
+    "original": "<span @class=\"($lastOptions.left isnot _leftOptions ?'gold':'')\">Your left arm grips the $struggle.mouth.creature over your mouth.</span>",
+    "translation": "",
+    "pos": 9924
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "310_5_3_7|",
+    "original": "<span @class=\"($lastOptions.left isnot _leftOptions ?'gold':'')\">Your left arm grips the $struggle.penis.creature over your <<penis>>.</span>",
+    "translation": "",
+    "pos": 10099
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "312_5_3_7|",
+    "original": "<span @class=\"($lastOptions.left isnot _leftOptions ?'gold':'')\">Your left arm grips the $struggle.vagina.creature over your <<pussy>>.</span>",
+    "translation": "",
+    "pos": 10279
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "314_5_3_7|",
+    "original": "<span @class=\"($lastOptions.left isnot _leftOptions ?'gold':'')\">Your left arm grips the $struggle.anus.creature over your <<bottom>>.</span>",
+    "translation": "",
+    "pos": 10458
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "316_5_3_7|",
+    "original": "<span @class=\"($lastOptions.left isnot _leftOptions ?'gold':'')\">Your left arm grips the $struggle.chest.creature over your chest.</span>",
+    "translation": "",
+    "pos": 10637
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "323_5_3_7|",
+    "original": "<span class=\"lewd\">Your left arm jerks against its bonds.</span>",
+    "translation": "",
+    "pos": 10950
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "325_5_3_7|",
+    "original": "<span class=\"red\">Your left arm is held in a painful bind.</span>",
+    "translation": "",
+    "pos": 11071
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "327_5_3_7|",
+    "original": "<span class=\"pink\">Your left arm lies limp in its bonds.</span>",
+    "translation": "",
+    "pos": 11175
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "329_5_3_7|",
+    "original": "<span @class=\"($lastOptions.left isnot _leftOptions ?'gold':'')\">Your left arm is bound.</span>",
+    "translation": "",
+    "pos": 11255
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "415_5_3_7|",
+    "original": "<span class=\"lewd\">Your right arm is free, but you can't stop the spasms.</span>",
+    "translation": "",
+    "pos": 14646
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "418_5_3_7|",
+    "original": "<span class=\"red\">Your right arm is free, but hurts to move.</span>",
+    "translation": "",
+    "pos": 14819
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "421_5_3_7|",
+    "original": "<span class=\"pink\">Your right arm is free, but doesn't feel real.</span>",
+    "translation": "",
+    "pos": 14963
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "429_5_3_7|",
+    "original": "<span @class=\"($lastOptions.right isnot _rightOptions ?'gold':'')\">Your right arm is free.</span>",
+    "translation": "",
+    "pos": 15300
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "439_5_3_7|",
+    "original": "<span class=\"lewd\">You hold a $struggle.creature with your right arm, but you can't stop the spasms.</span>",
+    "translation": "",
+    "pos": 15707
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "442_5_3_7|",
+    "original": "<span class=\"red\">You hold a $struggle.creature with your right arm, but it hurts to move.</span>",
+    "translation": "",
+    "pos": 15908
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "445_5_3_7|",
+    "original": "<span class=\"pink\">You hold a $struggle.creature with your right arm, but it doesn't feel real.</span>",
+    "translation": "",
+    "pos": 16081
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "450_5_3_7|",
+    "original": "<span @class=\"($lastOptions.right isnot _rightOptions ?'gold':'')\">Your right arm grips the $struggle.mouth.creature over your mouth.</span>",
+    "translation": "",
+    "pos": 16303
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "452_5_3_7|",
+    "original": "<span @class=\"($lastOptions.right isnot _rightOptions ?'gold':'')\">Your right arm grips the $struggle.penis.creature over your <<penis>>.</span>",
+    "translation": "",
+    "pos": 16481
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "454_5_3_7|",
+    "original": "<span @class=\"($lastOptions.right isnot _rightOptions ?'gold':'')\">Your right arm grips the $struggle.vagina.creature over your <<pussy>>.</span>",
+    "translation": "",
+    "pos": 16664
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "456_5_3_7|",
+    "original": "<span @class=\"($lastOptions.right isnot _rightOptions ?'gold':'')\">Your right arm grips the $struggle.anus.creature over your <<bottom>>.</span>",
+    "translation": "",
+    "pos": 16846
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "458_5_3_7|",
+    "original": "<span @class=\"($lastOptions.right isnot _rightOptions ?'gold':'')\">Your right arm grips the $struggle.chest.creature over your chest.</span>",
+    "translation": "",
+    "pos": 17028
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "465_5_3_7|",
+    "original": "<span class=\"lewd\">Your right arm jerks against its bonds.</span>",
+    "translation": "",
+    "pos": 17345
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "467_5_3_7|",
+    "original": "<span class=\"red\">Your right arm is held in a painful bind.</span>",
+    "translation": "",
+    "pos": 17467
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "469_5_3_7|",
+    "original": "<span class=\"pink\">Your right arm lies limp in its bonds.</span>",
+    "translation": "",
+    "pos": 17572
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "471_5_3_7|",
+    "original": "<span @class=\"($lastOptions.right isnot _rightOptions ?'gold':'')\">Your right arm is bound.</span>",
+    "translation": "",
+    "pos": 17653
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "566_5_3_7|",
+    "original": "<span @class=\"($lastOptions.feet isnot _feetOptions ?'gold':'')\">Your feet are free.</span>",
+    "translation": "",
+    "pos": 21550
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "569_5_3_7|",
+    "original": "<span @class=\"($lastOptions.feet isnot _feetOptions ?'gold':'')\">Your left leg is free.</span>",
+    "translation": "",
+    "pos": 21713
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "572_5_3_7|",
+    "original": "<span @class=\"($lastOptions.feet isnot _feetOptions ?'gold':'')\">Your right leg is free.</span>",
+    "translation": "",
+    "pos": 21881
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "579_5_3_7|",
+    "original": "<span @class=\"($lastOptions.feet isnot _feetOptions or _feetGold is true ?'gold':'')\">Your feet are free.</span>",
+    "translation": "",
+    "pos": 22270
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "636_5_3_7|",
+    "original": "<span @class=\"($lastOptions.mouth isnot _mouthOptions or _mouthGold is true ?'gold':'')\">A <<print $struggle.mouth.creature>> clings to your face.</span>",
+    "translation": "",
+    "pos": 24360
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "638_5_3_7|",
+    "original": "You clutch it with both hands.",
+    "translation": "",
+    "pos": 24603
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "640_5_3_7|",
+    "original": "You clutch it with your left hand.",
+    "translation": "",
+    "pos": 24688
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "642_5_3_7|",
+    "original": "You clutch it with your right hand.",
+    "translation": "",
+    "pos": 24778
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "673_5_3_7|",
+    "original": "<span>Mouth:",
+    "translation": "",
+    "pos": 26211
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "706_5_3_7|",
+    "original": "<span @class=\"(_gold_penis ? 'gold' : '')\">A <<print $struggle.penis.creature>> clings to your tummy, where it threatens your <<penisSimple>>.</span>",
+    "translation": "",
+    "pos": 27287
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "708_5_3_7|",
+    "original": "You clutch it with both hands.",
+    "translation": "",
+    "pos": 27526
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "710_5_3_7|",
+    "original": "You clutch it with your left hand.",
+    "translation": "",
+    "pos": 27611
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "712_5_3_7|",
+    "original": "You clutch it with your right hand.",
+    "translation": "",
+    "pos": 27701
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "732_5_3_7|",
+    "original": "<span @class=\"(_gold_vagina ? 'gold' : '')\">A <<print $struggle.vagina.creature>> clings to your pelvis, where it threatens your pussy.</span>",
+    "translation": "",
+    "pos": 28396
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "734_5_3_7|",
+    "original": "You clutch it with both hands.",
+    "translation": "",
+    "pos": 28628
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "736_5_3_7|",
+    "original": "You clutch it with your left hand.",
+    "translation": "",
+    "pos": 28712
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "738_5_3_7|",
+    "original": "You clutch it with your right hand.",
+    "translation": "",
+    "pos": 28801
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "760_5_3_7|",
+    "original": "<span @class=\"(_gold_anus ? 'gold' : '')\">A <<print $struggle.anus.creature>> clings to your bottom.</span>",
+    "translation": "",
+    "pos": 29593
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "762_5_3_7|",
+    "original": "You clutch it with both hands.",
+    "translation": "",
+    "pos": 29788
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "764_5_3_7|",
+    "original": "You clutch it with your left hand.",
+    "translation": "",
+    "pos": 29872
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "766_5_3_7|",
+    "original": "You clutch it with your right hand.",
+    "translation": "",
+    "pos": 29961
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "785_5_3_7|",
+    "original": "<span @class=\"(_gold_chest ? 'gold' : '')\">A <<print $struggle.chest.creature>> clings to your chest.</span>",
+    "translation": "",
+    "pos": 30594
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "787_5_3_7|",
+    "original": "You clutch it with both hands.",
+    "translation": "",
+    "pos": 30790
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "789_5_3_7|",
+    "original": "You clutch it with your left hand.",
+    "translation": "",
+    "pos": 30873
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "791_5_3_7|",
+    "original": "You clutch it with your right hand.",
+    "translation": "",
+    "pos": 30961
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "828_5_3_7|",
+    "original": "<<if $trance lte 0 and $dissociation lte 1 and $panicparalysis is 0 and $panicviolence is 0",
+    "translation": "",
+    "pos": 32044
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "829_5_3_7|",
+    "original": "and $orgasmdown lte 0 and ($pain lt 100 or $willpowerpain is undefined) and $options.combatControls is \"radio_old\">>",
+    "translation": "",
+    "pos": 32137
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "833_5_3_7|",
+    "original": "<span class=\"pink\">Your arms are helplessly bound, leaving you defenceless.</span>",
+    "translation": "",
+    "pos": 32367
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "835_5_3_7|",
+    "original": "<span class=\"pink\">Your arms are grappled, leaving you defenceless.</span>",
+    "translation": "",
+    "pos": 32517
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "837_5_3_7|",
+    "original": "<span class=\"purple\">Your left arm is grappled.</span>",
+    "translation": "",
+    "pos": 32654
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "839_5_3_7|",
+    "original": "<span class=\"purple\">Your right arm is grappled.</span>",
+    "translation": "",
+    "pos": 32773
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "841_5_3_7|",
+    "original": "Your arms are free.",
+    "translation": "",
+    "pos": 32843
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "846_5_3_7|",
+    "original": "<label><span class=\"meek\">Keep left arm still</span> <<radiobutton \"$leftaction\" \"rest\" autocheck>></label>",
+    "translation": "",
+    "pos": 33003
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "851_5_3_7|",
+    "original": "<<if _pipe>>| <</if>><label><span class=\"meek\">Keep right arm still</span> <<radiobutton \"$rightaction\" \"rest\" autocheck>></label>",
+    "translation": "",
+    "pos": 33256
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "858_5_3_7|",
+    "original": "Your feet are free.",
+    "translation": "",
+    "pos": 33516
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "860_5_3_7|",
+    "original": "<label><span class=\"meek\">Keep still</span> <<radiobutton \"$feetaction\" \"rest\" autocheck>></label>",
+    "translation": "",
+    "pos": 33584
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "861_5_3_7|",
+    "original": "| <label><span class=\"meek\">Dodge</span> <<radiobutton \"$feetaction\" \"evade\" autocheck>></label>",
+    "translation": "",
+    "pos": 33686
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "862_5_3_7|",
+    "original": "| <label><span class=\"meek\">Plant</span> <<radiobutton \"$feetaction\" \"plant\" autocheck>></label>",
+    "translation": "",
+    "pos": 33786
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "869_5_3_7|",
+    "original": "The <<struggle_name \"mouth\">> clings to your face.",
+    "translation": "",
+    "pos": 34017
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "872_5_3_7|",
+    "original": "Mouth:",
+    "translation": "",
+    "pos": 34089
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "875_5_3_7|",
+    "original": "<label>Keep closed <<radiobutton \"$mouthaction\" \"rest\" autocheck>></label>",
+    "translation": "",
+    "pos": 34214
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "876_5_3_7|",
+    "original": "| <label><span class=\"sub\">Open</span> <<radiobutton \"$mouthaction\" \"open\" autocheck>></label>",
+    "translation": "",
+    "pos": 34293
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "884_5_3_7|",
+    "original": "<label>Rest <<radiobutton \"$mouthaction\" \"rest\" autocheck>></label>",
+    "translation": "",
+    "pos": 34678
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "885_5_3_7|",
+    "original": "| <label><span class=\"sub\">Suck</span> <<radiobutton \"$mouthaction\" \"suck\" autocheck>></label>",
+    "translation": "",
+    "pos": 34750
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "887_5_3_7|",
+    "original": "| <label><span class=\"def\">Bite</span> <<radiobutton \"$mouthaction\" \"bite\" autocheck>></label>",
+    "translation": "",
+    "pos": 34881
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "902_5_3_7|",
+    "original": "The <<struggle_name _part>> clings to your <<struggle_region _part>><<if [\"vagina\", \"penis\"].includes(_part)>>, where it threatens your <<struggle_bodypart _part>><</if>>.",
+    "translation": "",
+    "pos": 35362
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "922_5_3_7|",
+    "original": "The",
+    "translation": "",
+    "pos": 36062
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "924_5_3_7|",
+    "original": "<<struggle_name _dlurkers[_i]>><<if _i gte 2>>, the<<elseif _i is 1>> and the<</if>>",
+    "translation": "",
+    "pos": 36124
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "926_5_3_7|",
+    "original": "keep<<if _dlurkers.length is 1>>s<</if>> at a distance.",
+    "translation": "",
+    "pos": 36224
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "930_5_3_7|",
+    "original": "Left arm: <label><span class=\"def\">Hurl net</span> <<radiobutton \"$leftaction\" \"capture\" autocheck>></label>",
+    "translation": "",
+    "pos": 36411
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "934_5_3_7|",
+    "original": "Right arm: <label><span class=\"def\">Hurl net</span> <<radiobutton \"$rightaction\" \"capture\" autocheck>></label>",
+    "translation": "",
+    "pos": 36613
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "953_5_3_7|",
+    "original": "<<print (_hhand is \"left\" ? \"Left\" : \"Right\")>> arm:",
+    "translation": "",
+    "pos": 37083
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "957_5_3_7|",
+    "original": "<label><<radiobutton `'$' + _hhand + 'action'` `_hpart + '_strengthen'` autocheck>> <span class=\"brat\">Strengthen your grip</span></label> |",
+    "translation": "",
+    "pos": 37351
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "959_5_3_7|",
+    "original": "<label><<radiobutton `'$' + _hhand + 'action'` `_hpart + '_pull'` autocheck>> <span class=\"def\">Pull</span></label> |",
+    "translation": "",
+    "pos": 37510
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "961_5_3_7|",
+    "original": "<label><<radiobutton `'$' + _hhand + 'action'` `_hpart + '_grasp'` autocheck>> <span class=\"brat\">Grasp</span></label> |",
+    "translation": "",
+    "pos": 37681
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "964_5_3_7|",
+    "original": "<label><<radiobutton `'$' + _hhand + 'action'` `_hpart + '_spray'` autocheck>> <span class=\"def\">Spray</span></label> |",
+    "translation": "",
+    "pos": 37860
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "966_5_3_7|",
+    "original": "<label><<radiobutton `'$' + _hhand + 'action'` `_hpart + '_stroke'` autocheck>> <span class=\"sub\">Stroke it</span></label> |",
+    "translation": "",
+    "pos": 37996
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "980_5_3_7|",
+    "original": "<span><<print (_hhand is \"left\" ? \"Left\" : \"Right\")>> arm: </span>",
+    "translation": "",
+    "pos": 38438
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "984_5_3_7|",
+    "original": "<label><<radiobutton `'$' + _hhand + 'action'` `_hpart + '_strengthen'` autocheck>> <span class=\"brat\">Strengthen your grip</span></label> |",
+    "translation": "",
+    "pos": 38720
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "986_5_3_7|",
+    "original": "<label><<radiobutton `'$' + _hhand + 'action'` `_hpart + '_pull'` autocheck>> <span class=\"def\">Pull</span></label> |",
+    "translation": "",
+    "pos": 38879
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "988_5_3_7|",
+    "original": "<label><<radiobutton `'$' + _hhand + 'action'` `_hpart + '_grasp'` autocheck>> <span class=\"brat\">Grasp</span></label> |",
+    "translation": "",
+    "pos": 39050
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "991_5_3_7|",
+    "original": "<label><<radiobutton `'$' + _hhand + 'action'` `_hpart + '_spray'` autocheck>> <span class=\"def\">Spray</span></label> |",
+    "translation": "",
+    "pos": 39229
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "993_5_3_7|",
+    "original": "<label><<radiobutton `'$' + _hhand + 'action'` `_hpart + '_stroke'` autocheck>> <span class=\"sub\">Stroke it</span></label>",
+    "translation": "",
+    "pos": 39365
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1008_5_3_7|",
+    "original": "<<print (_hhand is \"left\" ? \"Left\" : \"Right\")>> arm:",
+    "translation": "",
+    "pos": 39866
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1011_5_3_7|",
+    "original": "<label><<radiobutton `'$' + _hhand + 'action'` `_hpart + '_grasp'` autocheck>> <span class=\"brat\">Grasp</span></label> |",
+    "translation": "",
+    "pos": 40022
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1013_5_3_7|",
+    "original": "<label><<radiobutton `'$' + _hhand + 'action'` `_hpart + '_strengthen'` autocheck>> <span class=\"brat\">Strengthen your grip</span></label> |",
+    "translation": "",
+    "pos": 40163
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1017_5_3_7|",
+    "original": "<label><<radiobutton `'$' + _hhand + 'action'` `_hpart + '_pull'` autocheck>> <span class=\"def\">Pull</span></label> |",
+    "translation": "",
+    "pos": 40374
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1020_5_3_7|",
+    "original": "<label><<radiobutton `'$' + _hhand + 'action'` `_hpart + '_spray'` autocheck>> <span class=\"def\">Spray</span></label> |",
+    "translation": "",
+    "pos": 40550
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1022_5_3_7|",
+    "original": "<label><<radiobutton `'$' + _hhand + 'action'` `_hpart + '_stroke'` autocheck>> <span class=\"sub\">Stroke it</span></label> |",
+    "translation": "",
+    "pos": 40686
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1034_5_3_7|",
+    "original": "You wander in a daze, unaware of your surroundings.",
+    "translation": "",
+    "pos": 40988
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1036_5_3_7|",
+    "original": "You stare straight ahead, your body passive and compliant.",
+    "translation": "",
+    "pos": 41054
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1043_5_3_7|",
+    "original": "You are underwater, and cannot speak.",
+    "translation": "",
+    "pos": 41223
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1045_5_3_7|",
+    "original": "<span class=\"blue\">You are underwater, and cannot breathe.</span>",
+    "translation": "",
+    "pos": 41300
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1048_5_3_7|",
+    "original": "<span class=\"purple\">You are underwater, and cannot breathe.</span>",
+    "translation": "",
+    "pos": 41432
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1051_5_3_7|",
+    "original": "<span class=\"pink\">You are underwater, and running out of breath.</span>",
+    "translation": "",
+    "pos": 41566
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1054_5_3_7|",
+    "original": "<span class=\"red\">You are suffocating beneath the water.</span>",
+    "translation": "",
+    "pos": 41703
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1069_5_3_7|",
+    "original": "You open your mouth wide allowing it to enter.",
+    "translation": "",
+    "pos": 42142
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1075_5_3_7|",
+    "original": "You suck on <<struggle_name mouth>>'s <<struggle_appendage mouth>><<if $struggle.mouth.progress gte 8>>, forcing it to release more sweet fluid down your throat<</if>>.",
+    "translation": "",
+    "pos": 42431
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1085_5_3_7|",
+    "original": "You bite the <<struggle_name mouth>>'s <<struggle_appendage mouth>> with your fangs.",
+    "translation": "",
+    "pos": 43046
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1087_5_3_7|",
+    "original": "Your fangs bite deep into the <<struggle_name mouth>>'s <<struggle_skin mouth>>.",
+    "translation": "",
+    "pos": 43151
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1089_5_3_7|",
+    "original": "Your fangs rip and tear into the <<struggle_name mouth>>'s <<struggle_skin mouth>>.",
+    "translation": "",
+    "pos": 43252
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1091_5_3_7|",
+    "original": "Your fangs pierce the <<struggle_name mouth>>'s <<struggle_skin mouth>>.",
+    "translation": "",
+    "pos": 43356
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1093_5_3_7|",
+    "original": "Your fangs skewer the <<struggle_name mouth>>'s <<struggle_skin mouth>>.",
+    "translation": "",
+    "pos": 43450
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1095_5_3_7|",
+    "original": "<span class=\"green\">It leaps off your face.</span>",
+    "translation": "",
+    "pos": 43541
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1107_5_3_7|",
+    "original": "No matter how hard you try to bite on its <<struggle_appendage mouth>>, <span class=\"red\">it doesn't react.</span>",
+    "translation": "",
+    "pos": 43872
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1109_5_3_7|",
+    "original": "You bite, <span class=\"red\">but your teeth fail</span> to penetrate the <<struggle_name mouth>>'s <<struggle_skin mouth>>.",
+    "translation": "",
+    "pos": 44007
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1111_5_3_7|",
+    "original": "You bite, <span class=\"red\">but your teeth are unable to breach</span> the <<struggle_name mouth>>'s tough <<struggle_skin mouth>>.",
+    "translation": "",
+    "pos": 44150
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1113_5_3_7|",
+    "original": "You bite into the <<struggle_name mouth>>'s tough <<struggle_skin mouth>>, <span class=\"red\">but it's not enough to provoke a reaction.</span>",
+    "translation": "",
+    "pos": 44302
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1115_5_3_7|",
+    "original": "You bite down, <span class=\"red\">but your teeth can't get purchase</span> on the <<struggle_name mouth>>'s <<struggle_skin mouth>>.",
+    "translation": "",
+    "pos": 44466
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1129_5_3_7|",
+    "original": "You rest your legs.",
+    "translation": "",
+    "pos": 44954
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1133_5_3_7|",
+    "original": "You relax your legs and let yourself float, ready to dodge incoming attacks.",
+    "translation": "",
+    "pos": 45100
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1135_5_3_7|",
+    "original": "You remain light on your feet, ready to dodge incoming attacks.",
+    "translation": "",
+    "pos": 45191
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1141_5_3_7|",
+    "original": "You tread water, helping you steady your grip.",
+    "translation": "",
+    "pos": 45447
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1143_5_3_7|",
+    "original": "You plant your feet, helping you get a firm grip.",
+    "translation": "",
+    "pos": 45508
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1154_5_3_7|",
+    "original": "<<set _hands = [{id: \"left\", handaction: $leftaction},{id: \"right\", handaction: $rightaction}]",
+    "translation": "",
+    "pos": 45826
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1155_5_3_7|",
+    "original": ".map(h => {",
+    "translation": "",
+    "pos": 45923
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1156_5_3_7|",
+    "original": "let [,part, action] = /(?:([^_]+)_)?(.*)/.exec(h.handaction);",
+    "translation": "",
+    "pos": 45938
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1157_5_3_7|",
+    "original": "return Object.assign(h, {part, action});",
+    "translation": "",
+    "pos": 46003
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1158_5_3_7|",
+    "original": "}).sort((a,b) => _actionPriority.indexOf(a.action) - _actionPriority.indexOf(b.action))",
+    "translation": "",
+    "pos": 46046
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1174_5_3_7|",
+    "original": "You stroke the <<struggle_name _actionpart>>, hoping to put it at ease.",
+    "translation": "",
+    "pos": 46909
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1176_5_3_7|",
+    "original": "You stroke the <<struggle_name _actionpart>>'s <<struggle_appendage _actionpart>>, hoping to excite it.",
+    "translation": "",
+    "pos": 46999
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1199_5_3_7|",
+    "original": "You raise your <<if $leftaction is $rightaction>>hands<<else>>_hand hand<</if>> to the <<print $struggle[_actionpart].creature>> clinging to your <<struggle_region _actionpart>>, though it's hard to find purchase.",
+    "translation": "",
+    "pos": 47869
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1205_5_3_7|",
+    "original": "You tighten your grip on the <<print $struggle[_actionpart].creature>> clinging to your <<struggle_region _actionpart>><<if $leftaction is $rightaction>> with both hands<</if>>.",
+    "translation": "",
+    "pos": 48337
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1209_5_3_7|",
+    "original": "Your grasp is <span class=\"teal\">much better.</span>",
+    "translation": "",
+    "pos": 48646
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1212_5_3_7|",
+    "original": "Your grasp is <span class=\"blue\">a bit better.</span>",
+    "translation": "",
+    "pos": 48763
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1226_5_3_7|",
+    "original": "You dig your nails in and try to wrench the <<print $struggle[_actionpart].creature>> off your <<struggle_region _actionpart>>.",
+    "translation": "",
+    "pos": 49191
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1229_5_3_7|",
+    "original": "<span class=\"green\">You hurl it away from you.</span>",
+    "translation": "",
+    "pos": 49504
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1237_5_3_7|",
+    "original": "You can't maintain your grip, and <span class=\"red\">your fingers pull away without the creature.</span>",
+    "translation": "",
+    "pos": 49913
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1248_5_3_7|",
+    "original": "You spray the <<print $struggle[_actionpart].creature>>. <span class=\"green\">It leaps off your <<struggle_region _actionpart>>.</span>",
+    "translation": "",
+    "pos": 50251
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1257_5_3_7|",
+    "original": "You try to spray the <<print $struggle[_actionpart].creature>> clinging to your <<struggle_region _actionpart>>, <span class=\"purple\">but your spray is empty!</span>",
+    "translation": "",
+    "pos": 50666
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1278_5_3_7|",
+    "original": "Switching all attention away from it, <span class=\"red\">you lose all grasp on the <<print $struggle[_part].creature>> clutching your <<struggle_region _part>>.</span>",
+    "translation": "",
+    "pos": 51449
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1316_5_3_7|",
+    "original": "You cast your net at the <<if $struggle.enemy[_capture_creature] is \"fleeing\">><span class=\"green\">recoiling </span><</if>><<print $struggle.enemy[_capture_creature].name>><<if $leftaction is $rightaction>> with both hands<</if>>.",
+    "translation": "",
+    "pos": 53077
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1321_5_3_7|",
+    "original": "You prepare to cast your net at a <<print $struggle.creature>>, <span class=\"pink\">but they're too close.</span> You'll have to drive one back first.",
+    "translation": "",
+    "pos": 53418
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1324_5_3_7|",
+    "original": "<span class=\"green\">The net lands true.</span> You pull the creature into your possession.",
+    "translation": "",
+    "pos": 53596
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1338_5_3_7|",
+    "original": "<span class=\"red\">The creature squirms aside.</span><<gnet>><<prof net 1>>",
+    "translation": "",
+    "pos": 54103
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1343_5_3_7|",
+    "original": "You raise both arms, preparing to bat away any attacks.",
+    "translation": "",
+    "pos": 54259
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1347_5_3_7|",
+    "original": "You raise your left arm, preparing to bat away any attacks.",
+    "translation": "",
+    "pos": 54407
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1350_5_3_7|",
+    "original": "You raise your right arm, preparing to bat away any attacks.",
+    "translation": "",
+    "pos": 54532
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1366_5_3_7|",
+    "original": "The <<print $struggle.mouth.creature>>'s tentacles wrap around your neck.<<neutral 2>>",
+    "translation": "",
+    "pos": 55023
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1368_5_3_7|",
+    "original": "The <<print $struggle.mouth.creature>>'s <<struggle_appendage mouth>> rubs against your $worn.face.name.<<neutral 1>>",
+    "translation": "",
+    "pos": 55201
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1370_5_3_7|",
+    "original": "The <<print $struggle.mouth.creature>>'s <<struggle_appendage mouth>> rubs against your face.<<neutral 1>>",
+    "translation": "",
+    "pos": 55337
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1374_5_3_7|",
+    "original": "The <<print $struggle.mouth.creature>> plays with your $worn.face.name, <span class=\"blue\">searching for a way in.</span><<neutral 2 \"mouth\">>",
+    "translation": "",
+    "pos": 55557
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1377_5_3_7|",
+    "original": "The <<print $struggle.mouth.creature>> plays with your lips, <span class=\"blue\">searching for a way in.</span><<neutral 2 \"mouth\">>",
+    "translation": "",
+    "pos": 55754
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1383_5_3_7|",
+    "original": "The tip of the <<print $struggle.mouth.creature>>'s <<struggle_appendage mouth>> begins to part your lips. <span class=\"pink\">It's about to penetrate fully.</span><<neutral 5 \"mouth\">>",
+    "translation": "",
+    "pos": 56114
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1386_5_3_7|",
+    "original": "The <<print $struggle.mouth.creature>> <span class=\"pink\"><<print (_mouthOpen ?'slides':'forces')>> its <<struggle_appendage mouth>> into your mouth</span>. It becomes girthier as more enters.",
+    "translation": "",
+    "pos": 56363
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1389_5_3_7|",
+    "original": "The <<print $struggle.mouth.creature>> <span class=\"pink\"><<print (_mouthOpen ?'slides':'forces')>> its <<struggle_appendage mouth>> into your mouth</span>. <span class=\"red\">It tastes strange.</span>",
+    "translation": "",
+    "pos": 56597
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1395_5_3_7|",
+    "original": "The <<print $struggle.mouth.creature>> pushes itself deeper into your mouth.<<neutral 5 \"mouth\">>",
+    "translation": "",
+    "pos": 57076
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1397_5_3_7|",
+    "original": "The <<print $struggle.mouth.creature>>'s <<struggle_appendage mouth>> pushes down your throat. <<if $underwater isnot 1>><span class=\"purple\">You can't breathe!</span><</if>><<neutral 5 \"mouth\">>",
+    "translation": "",
+    "pos": 57192
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1399_5_3_7|",
+    "original": "The <<print $struggle.mouth.creature>> <span class=\"pink\">shudders as it begins to pump a sweet fluid down your throat.</span><<neutral 5 \"mouth\">><<struggle_fluid mouth>><<purity -1>><<internalejac>><<bodyliquid \"mouth\" \"goo\">><<oralejacstat>><<ejacstat>>",
+    "translation": "",
+    "pos": 57406
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1404_5_3_7|",
+    "original": "The <<print $struggle.mouth.creature>>'s <<struggle_appendage mouth>> <span class=\"red\">expands again</span>, but the extra pressure disappears quickly. It feels like it left something behind. <<neutral 5 \"mouth\">><<struggle_fluid mouth>><<purity -1>><<internalejac>><<bodyliquid \"mouth\" \"goo\">>",
+    "translation": "",
+    "pos": 57817
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1413_5_3_7|",
+    "original": "The <<print $struggle.mouth.creature>> pumps a sweet fluid down your throat.<<neutral 5 \"mouth\">><<struggle_fluid mouth>><<purity -1>><<internalejac>><<bodyliquid \"mouth\" \"goo\">>",
+    "translation": "",
+    "pos": 58296
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1416_5_3_7|",
+    "original": "The <<print $struggle.mouth.creature>> shudders, <span class=\"blue\">and withdraws its <<struggle_appendage mouth>> from your throat.</span> It leaps from your face.<<neutral 5 \"mouth\">><<struggle_fluid mouth>>",
+    "translation": "",
+    "pos": 58506
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1421_5_3_7|",
+    "original": "The <<print $struggle.mouth.creature>> pumps a sweet fluid down your throat.<<neutral 5 \"mouth\">><<struggle_fluid mouth>><<purity -1>><<internalejac>><<bodyliquid \"mouth\" \"goo\">>",
+    "translation": "",
+    "pos": 58832
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1444_5_3_7|",
+    "original": "The <<print $struggle.vagina.creature>>'s tentacles grope and cling to your pelvis.<<neutral 2 \"genitals\">>",
+    "translation": "",
+    "pos": 59571
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1446_5_3_7|",
+    "original": "The <<print $struggle.vagina.creature>>'s <<struggle_appendage vagina>> prods your pelvis, as if searching for something.<<neutral 1 \"genitals\">>",
+    "translation": "",
+    "pos": 59697
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1449_5_3_7|",
+    "original": "The <<print $struggle.vagina.creature>> slides over your labia, <span class=\"blue\">searching for a way in.</span><<neutral 2 \"genitals\">>",
+    "translation": "",
+    "pos": 59873
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1453_5_3_7|",
+    "original": "The tip of the <<print $struggle.vagina.creature>>'s <<struggle_appendage vagina>> pushes against your <<pussy>>. <span class=\"pink\">It's about to penetrate fully.</span><<neutral 5 \"genitals\">>",
+    "translation": "",
+    "pos": 60075
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1457_5_3_7|",
+    "original": "The <<print $struggle.vagina.creature>> <span class=\"pink\">forces its <<struggle_appendage vagina>> into your <<pussy>>.</span> It becomes girthier as more enters.",
+    "translation": "",
+    "pos": 60371
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1460_5_3_7|",
+    "original": "The <<print $struggle.vagina.creature>> <span class=\"pink\">forces its <<struggle_appendage vagina>> into your <<pussy>>,</span>",
+    "translation": "",
+    "pos": 60580
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1462_5_3_7|",
+    "original": "<span class=\"red\">despite your lack of a hymen, you feel something inside you change as your virginity and purity are taken.</span>",
+    "translation": "",
+    "pos": 60775
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1464_5_3_7|",
+    "original": "<span class=\"red\">breaking your hymen and forever robbing you of your purity.</span>",
+    "translation": "",
+    "pos": 60927
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1471_5_3_7|",
+    "original": "The <<print $struggle.vagina.creature>> pushes itself deeper into your <<pussy>>.<<neutral 5 \"genitals\">>",
+    "translation": "",
+    "pos": 61325
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1473_5_3_7|",
+    "original": "The <<print $struggle.vagina.creature>>'s <<struggle_appendage vagina>> begins to thrust into your <<pussy>>.<<neutral 5 \"genitals\">>",
+    "translation": "",
+    "pos": 61449
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1475_5_3_7|",
+    "original": "The <<print $struggle.vagina.creature>> <span class=\"pink\">shudders and pumps a warm fluid into your <<pussy>>.</span><<neutral 5 \"genitals\">><<struggle_fluid vagina>><<purity -1>><<internalejac>><<bodyliquid \"vagina\" \"goo\">><<vaginalejacstat>><<ejacstat>>",
+    "translation": "",
+    "pos": 61601
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1479_5_3_7|",
+    "original": "The <<print $struggle.vagina.creature>>'s <<struggle_appendage mouth>> <span class=\"red\">expands again</span>, but the extra pressure disappears quickly. It feels like it left something behind.<<neutral 5 \"genitals\">><<bodyliquid \"vagina\" \"goo\">><<struggle_fluid vagina>><<purity -1>><<internalejac>><<bodyliquid \"vagina\" \"goo\">>",
+    "translation": "",
+    "pos": 61970
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1482_5_3_7|",
+    "original": "The <<print $struggle.vagina.creature>>'s <<struggle_appendage vagina>> thrusts into your <<pussy>>.<<neutral 5 \"genitals\">><<bodyliquid \"vagina\" \"goo\">><<struggle_fluid vagina>><<purity -1>><<internalejac>><<bodyliquid \"vagina\" \"goo\">>",
+    "translation": "",
+    "pos": 62348
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1485_5_3_7|",
+    "original": "The <<print $struggle.vagina.creature>> shudders, <span class=\"blue\">and withdraws its <<struggle_appendage vagina>> from your <<pussy>>.</span> It leaps from your pelvis.<<neutral 5 \"genitals\">><<struggle_fluid vagina>>",
+    "translation": "",
+    "pos": 62616
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1490_5_3_7|",
+    "original": "The <<print $struggle.vagina.creature>> pumps a warm fluid into your <<pussy>>.<<neutral 5 \"genitals\">><<struggle_fluid vagina>><<purity -1>><<internalejac>><<bodyliquid \"vagina\" \"goo\">>",
+    "translation": "",
+    "pos": 62956
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1500_5_3_7|",
+    "original": "The <<print $struggle.penis.creature>> lowers itself towards your <<penis>> as its tentacles slide and grope.<<neutral 2 \"genitals\">>",
+    "translation": "",
+    "pos": 63353
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1502_5_3_7|",
+    "original": "The <<print $struggle.penis.creature>> lowers itself towards your <<penis>>.<<neutral 1 \"genitals\">>",
+    "translation": "",
+    "pos": 63505
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1505_5_3_7|",
+    "original": "The <<print $struggle.penis.creature>> presses against your <<penis>>, <span class=\"blue\">trying to envelop.</span><<neutral 2 \"genitals\">>",
+    "translation": "",
+    "pos": 63636
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1509_5_3_7|",
+    "original": "The <<print $struggle.penis.creature>> pushes against your <<penis>>. <span class=\"pink\">It's about to envelop you fully.</span><<neutral 5 \"genitals\">>",
+    "translation": "",
+    "pos": 63839
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1513_5_3_7|",
+    "original": "The <<print $struggle.penis.creature>> <span class=\"pink\">forces your <<penis>> inside its body.</span> It becomes tighter as more enters.",
+    "translation": "",
+    "pos": 64112
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1516_5_3_7|",
+    "original": "The <<print $struggle.penis.creature>> <span class=\"pink\">forces your <<penis>> into its body,</span> <span class=\"red\">separating your foreskin from your glans and forever robbing you of your purity.</span>",
+    "translation": "",
+    "pos": 64296
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1523_5_3_7|",
+    "original": "The <<print $struggle.penis.creature>> takes your <<penis>> deeper inside.<<neutral 5 \"genitals\">>",
+    "translation": "",
+    "pos": 64852
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1525_5_3_7|",
+    "original": "The <<print $struggle.penis.creature>> begins to thrust against your <<penis>>.<<neutral 5 \"genitals\">>",
+    "translation": "",
+    "pos": 64969
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1527_5_3_7|",
+    "original": "The <<print $struggle.penis.creature>> <span class=\"pink\">shudders as your <<penis>> thrusts against its core.</span><<neutral 5 \"genitals\">><<bodyliquid \"penis\" \"goo\">>",
+    "translation": "",
+    "pos": 65091
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1529_5_3_7|",
+    "original": "The <<print $struggle.penis.creature>> shudders, <span class=\"blue\">and releases your <<penis>>.</span> It leaps from your tummy.<<neutral 5 \"genitals\">>",
+    "translation": "",
+    "pos": 65280
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1534_5_3_7|",
+    "original": "The <<print $struggle.penis.creature>> thrusts against your <<penis>>.<<neutral 5 \"genitals\">><<bodyliquid \"penis\" \"goo\">>",
+    "translation": "",
+    "pos": 65550
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1544_5_3_7|",
+    "original": "The <<print $struggle.anus.creature>>'s tentacles slide and grope over your <<bottom>>.<<neutral 2 \"anus\">>",
+    "translation": "",
+    "pos": 65878
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1546_5_3_7|",
+    "original": "The <<print $struggle.anus.creature>>'s <<struggle_appendage anus>> slides over your <<bottom>>.<<neutral 1 \"anus\">>",
+    "translation": "",
+    "pos": 66004
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1549_5_3_7|",
+    "original": "The <<print $struggle.anus.creature>>'s <<struggle_appendage anus>> gropes your <<bottom>>, <span class=\"blue\">trying to find an entrance.</span><<neutral 2 \"anus\">>",
+    "translation": "",
+    "pos": 66151
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1553_5_3_7|",
+    "original": "The <<print $struggle.anus.creature>>'s <<struggle_appendage anus>> pushes against your <<bottom>>, <span class=\"pink\">about to penetrate you fully.</span><<neutral 5 \"anus\">>",
+    "translation": "",
+    "pos": 66379
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1557_5_3_7|",
+    "original": "The <<print $struggle.anus.creature>>'s <<struggle_appendage anus>> <span class=\"pink\">thrusts into your <<bottom>>.</span> It becomes girthier as more enters.",
+    "translation": "",
+    "pos": 66650
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1560_5_3_7|",
+    "original": "The <<print $struggle.anus.creature>>'s <<struggle_appendage anus>> <span class=\"pink\">thrusts into your <<bottom>>,</span> <span class=\"red\">violating you in a way you hadn't conceived of.</span>",
+    "translation": "",
+    "pos": 66851
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1566_5_3_7|",
+    "original": "The <<print $struggle.anus.creature>>'s <<struggle_appendage anus>> pushes deeper into your <<bottom>>.<<neutral 5 \"anus\">>",
+    "translation": "",
+    "pos": 67339
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1568_5_3_7|",
+    "original": "The <<print $struggle.anus.creature>>'s <<struggle_appendage anus>> begins to thrust into your <<bottom>>.<<neutral 5 \"anus\">>",
+    "translation": "",
+    "pos": 67481
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1570_5_3_7|",
+    "original": "The <<print $struggle.anus.creature>> <span class=\"pink\">shudders as it pumps a warm fluid into your <<bottom>>.</span><<neutral 5 \"anus\">><<struggle_fluid anus>><<purity -1>><<internalejac>><<bodyliquid \"anus\" \"goo\">><<analejacstat>><<ejacstat>>",
+    "translation": "",
+    "pos": 67626
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1574_5_3_7|",
+    "original": "The <<print $struggle.anus.creature>>'s <<struggle_appendage mouth>> <span class=\"red\">expands again</span>, but the extra pressure disappears quickly. It feels like it left something behind.<<neutral 5 \"anus\">><<bodyliquid \"anus\" \"goo\">><<struggle_fluid anus>><<purity -1>><<internalejac>><<bodyliquid \"anus\" \"goo\">>",
+    "translation": "",
+    "pos": 67974
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1577_5_3_7|",
+    "original": "The <<print $struggle.anus.creature>>'s <<struggle_appendage anus>> thrusts into your <<bottom>>.<<neutral 5 \"anus\">><<bodyliquid \"anus\" \"goo\">><<struggle_fluid anus>><<purity -1>><<internalejac>><<bodyliquid \"anus\" \"goo\">>",
+    "translation": "",
+    "pos": 68340
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1580_5_3_7|",
+    "original": "The <<print $struggle.anus.creature>> shudders <span class=\"blue\">and withdraws its <<struggle_appendage anus>>,</span> leaping from your <<bottom>>.<<neutral 5 \"anus\">><<struggle_fluid anus>>",
+    "translation": "",
+    "pos": 68595
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1585_5_3_7|",
+    "original": "The <<print $struggle.anus.creature>>'s <<struggle_appendage anus>> thrusts into your <<bottom>>.<<neutral 5 \"anus\">><<bodyliquid \"anus\" \"goo\">><<struggle_fluid anus>><<purity -1>><<internalejac>><<bodyliquid \"anus\" \"goo\">>",
+    "translation": "",
+    "pos": 68901
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1596_5_3_7|",
+    "original": "The <<print $struggle.chest.creature>>'s tentacles grope your <<breasts>>,",
+    "translation": "",
+    "pos": 69360
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1598_5_3_7|",
+    "original": "squeezing them together as <span class=\"blue\">a phallic <<struggle_appendage chest>> rubs against them.</span>",
+    "translation": "",
+    "pos": 69478
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1600_5_3_7|",
+    "original": "teasing them as <span class=\"blue\">a phallic <<struggle_appendage chest>> rubs between them.</span>",
+    "translation": "",
+    "pos": 69609
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1603_5_3_7|",
+    "original": "The <<print $struggle.chest.creature>>'s legs grope your",
+    "translation": "",
+    "pos": 69773
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1605_5_3_7|",
+    "original": "<<breasts>>. <span class=\"blue\">A phallic <<struggle_appendage chest>> emerges from the creature,</span> and rubs against them.",
+    "translation": "",
+    "pos": 69873
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1607_5_3_7|",
+    "original": "<<breasts>>, teasing them as <span class=\"blue\">a phallic <<struggle_appendage chest>> emerges from the creature,</span> and joins the flurry.",
+    "translation": "",
+    "pos": 70021
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1610_5_3_7|",
+    "original": "The <<print $struggle.chest.creature>>'s body slides over your <<breasts>>.",
+    "translation": "",
+    "pos": 70195
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1612_5_3_7|",
+    "original": "<span class=\"blue\">A phallic <<struggle_appendage chest>> emerges from the creature</span> and rubs against them.",
+    "translation": "",
+    "pos": 70314
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1614_5_3_7|",
+    "original": "It teases them as <span class=\"blue\">a phallic <<struggle_appendage chest>> emerges from the creature.</span>",
+    "translation": "",
+    "pos": 70448
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1622_5_3_7|",
+    "original": "The <<print $struggle.chest.creature>>'s tentacles <span class=\"pink\">wrap around your breasts.</span><<neutral 5 \"breasts\">>",
+    "translation": "",
+    "pos": 70732
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1624_5_3_7|",
+    "original": "The <<print $struggle.chest.creature>> squeezes your <<breasts>> together, and <span class=\"pink\">pushes its <<struggle_appendage chest>> between them.</span><<neutral 3 \"breasts\">>",
+    "translation": "",
+    "pos": 70878
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1628_5_3_7|",
+    "original": "The <<print $struggle.chest.creature>>'s tentacles grope and flick your <<breasts>>.<<neutral 5 \"breasts\">>",
+    "translation": "",
+    "pos": 71140
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1630_5_3_7|",
+    "original": "The <<print $struggle.chest.creature>> gropes and teases your <<breasts>>.<<neutral 3 \"breasts\">>",
+    "translation": "",
+    "pos": 71268
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1634_5_3_7|",
+    "original": "<span class=\"pink\">You feel milk leak from your buds.</span>",
+    "translation": "",
+    "pos": 71479
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1644_5_3_7|",
+    "original": "The <<print $struggle.chest.creature>>'s tentacles <span class=\"pink\">squeeze milk from your <<breasts>>.</span>",
+    "translation": "",
+    "pos": 71819
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1647_5_3_7|",
+    "original": "The <<print $struggle.chest.creature>>'s tentacles squeeze your <<breasts>>, while others flick your nipples.",
+    "translation": "",
+    "pos": 71976
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1653_5_3_7|",
+    "original": "The <<print $struggle.chest.creature>> <span class=\"pink\">thrusts its <<struggle_appendage chest>> between your <<breasts>></span> as <span class=\"pink\">milk leaks from your buds.</span>",
+    "translation": "",
+    "pos": 72256
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1656_5_3_7|",
+    "original": "The <<print $struggle.chest.creature>> <span class=\"pink\">thrusts its <<struggle_appendage chest>> between your <<breasts>>.</span>",
+    "translation": "",
+    "pos": 72487
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1668_5_3_7|",
+    "original": "The <<print $struggle.chest.creature>>'s appendage <span class=\"pink\">presses against your <<breasts>></span> as <span class=\"pink\">the tentacles continue to squeeze milk from your buds.</span>",
+    "translation": "",
+    "pos": 72940
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1671_5_3_7|",
+    "original": "The <<print $struggle.chest.creature>>'s appendage <span class=\"pink\">presses against your <<breasts>></span> as <span class=\"pink\">the tentacles continue to squeeze.</span>",
+    "translation": "",
+    "pos": 73178
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1677_5_3_7|",
+    "original": "The <<print $struggle.chest.creature>> fucks your <<breasts>> as <span class=\"pink\">milk leaks from your buds.</span> The creature shudders as <span class=\"purple\">a warm fluid erupts from its <<struggle_appendage chest>>.</span>",
+    "translation": "",
+    "pos": 73522
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1680_5_3_7|",
+    "original": "The <<print $struggle.chest.creature>>'s <<struggle_appendage chest>> fucks your <<breasts>>. The creature shudders as <span class=\"purple\">a warm fluid erupts from its <<struggle_appendage chest>>.</span>",
+    "translation": "",
+    "pos": 73796
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1692_5_3_7|",
+    "original": "The <<print $struggle.chest.creature>>'s appendage <span class=\"pink\">thrusts between your <<breasts>></span> as <span class=\"pink\">the tentacles continue to squeeze milk from your buds.</span>",
+    "translation": "",
+    "pos": 74351
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1695_5_3_7|",
+    "original": "The <<print $struggle.chest.creature>>'s appendage <span class=\"pink\">thrusts between your <<breasts>></span> as <span class=\"pink\">the tentacles continue to squeeze.</span>",
+    "translation": "",
+    "pos": 74589
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1701_5_3_7|",
+    "original": "The <<print $struggle.chest.creature>>'s <<struggle_appendage chest>> fucks your <<breasts>>, pumping warm fluid with each thrust as <span class=\"pink\">milk leaks from your buds.</span>",
+    "translation": "",
+    "pos": 74933
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1704_5_3_7|",
+    "original": "The <<print $struggle.chest.creature>>'s <<struggle_appendage chest>> keeps thrusting between your <<breasts>>, pumping out a warm fluid.",
+    "translation": "",
+    "pos": 75163
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1716_5_3_7|",
+    "original": "The <<print $struggle.chest.creature>>'s appendage fucks your <<breasts>> as <span class=\"pink\">the tentacles continue to squeeze milk from your buds.</span> The creature shudders as a warm fluid erupts from its <<struggle_appendage chest>>.",
+    "translation": "",
+    "pos": 75650
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1719_5_3_7|",
+    "original": "The <<print $struggle.chest.creature>>'s appendage fucks your <<breasts>> as <span class=\"pink\">the tentacles continue to squeeze.</span> The creature shudders as a warm fluid erupts from its <<struggle_appendage chest>>.",
+    "translation": "",
+    "pos": 75936
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1725_5_3_7|",
+    "original": "The <<print $struggle.chest.creature>>'s <<struggle_appendage chest>> fucks your <<breasts>>, pumping warm fluid with each thrust as <span class=\"pink\">milk leaks from your buds.</span>",
+    "translation": "",
+    "pos": 76356
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1728_5_3_7|",
+    "original": "The <<print $struggle.chest.creature>>'s <<struggle_appendage chest>> keeps thrusting between your <<breasts>>, pumping out a warm fluid.",
+    "translation": "",
+    "pos": 76586
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1738_5_3_7|",
+    "original": "The <<print $struggle.chest.creature>> shudders <span class=\"blue\">and withdraws its <<struggle_appendage chest>>,</span> leaping from your <<breasts>>.<<bodyliquid \"chest\" \"goo\">>",
+    "translation": "",
+    "pos": 76939
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1740_5_3_7|",
+    "original": "The <<print $struggle.chest.creature>> <span class=\"blue\">leaps from your <<breasts>>.</span>",
+    "translation": "",
+    "pos": 77138
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1749_5_3_7|",
+    "original": "The <<print $struggle.chest.creature>>'s appendage keeps thrusting between your <<breasts>>, pumping a warm fluid as the tentacles <span class=\"pink\">continue to squeeze milk from your buds.</span>",
+    "translation": "",
+    "pos": 77532
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1752_5_3_7|",
+    "original": "The <<print $struggle.chest.creature>>'s appendage keeps thrusting between your <<breasts>>, pumping out a warm fluid.",
+    "translation": "",
+    "pos": 77774
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1758_5_3_7|",
+    "original": "The <<print $struggle.chest.creature>>'s <<struggle_appendage chest>> fucks your <<breasts>>, pumping warm fluid with each thrust as <span class=\"pink\">milk leaks from your buds.</span>",
+    "translation": "",
+    "pos": 78091
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1761_5_3_7|",
+    "original": "The <<print $struggle.chest.creature>>'s <<struggle_appendage chest>> keeps thrusting between your <<breasts>>, pumping out a warm fluid.",
+    "translation": "",
+    "pos": 78321
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1784_5_3_7|",
+    "original": "The <<print $struggle.enemy[_i].description>> <<print $struggle.enemy[_i].name>>",
+    "translation": "",
+    "pos": 79272
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1787_5_3_7|",
+    "original": "swims around you,",
+    "translation": "",
+    "pos": 79512
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1789_5_3_7|",
+    "original": "flies around you,",
+    "translation": "",
+    "pos": 79589
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1791_5_3_7|",
+    "original": "lands nearby,",
+    "translation": "",
+    "pos": 79625
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1793_5_3_7|",
+    "original": "<span class=\"blue\">preparing to attack.</span>",
+    "translation": "",
+    "pos": 79655
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1797_5_3_7|",
+    "original": "swims into the murk.",
+    "translation": "",
+    "pos": 79845
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1799_5_3_7|",
+    "original": "flies away.",
+    "translation": "",
+    "pos": 79925
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1801_5_3_7|",
+    "original": "leaps away.",
+    "translation": "",
+    "pos": 79955
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1803_5_3_7|",
+    "original": "<span class=\"green\">It won't return.</span>",
+    "translation": "",
+    "pos": 79983
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1825_5_3_7|",
+    "original": "<<struggle_bide_the>> <<print $struggle.enemy[_i].description>> <<print $struggle.enemy[_i].name>>",
+    "translation": "",
+    "pos": 80813
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1827_5_3_7|",
+    "original": "swims towards you,",
+    "translation": "",
+    "pos": 80989
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1829_5_3_7|",
+    "original": "flies towards you,",
+    "translation": "",
+    "pos": 81067
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1831_5_3_7|",
+    "original": "leaps towards you,",
+    "translation": "",
+    "pos": 81104
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1835_5_3_7|",
+    "original": "but you drunkenly stagger out of the way<<if !random(100)>> like the drunk master you are<</if>>,",
+    "translation": "",
+    "pos": 81191
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1837_5_3_7|",
+    "original": "but you dance aside,",
+    "translation": "",
+    "pos": 81391
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1839_5_3_7|",
+    "original": "but you step aside,",
+    "translation": "",
+    "pos": 81471
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1841_5_3_7|",
+    "original": "but you stumble aside,",
+    "translation": "",
+    "pos": 81509
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1844_5_3_7|",
+    "original": "<span class=\"green\">dodging it.</span>",
+    "translation": "",
+    "pos": 81595
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1846_5_3_7|",
+    "original": "<span class=\"teal\">narrowly dodging it.</span>",
+    "translation": "",
+    "pos": 81652
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1851_5_3_7|",
+    "original": "It tears your $worn[$_slot].name as it passes.",
+    "translation": "",
+    "pos": 81900
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1856_5_3_7|",
+    "original": "It whips you as it passes. <<pain 2>>",
+    "translation": "",
+    "pos": 82027
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1861_5_3_7|",
+    "original": "<<struggle_bide_the>> <<print $struggle.enemy[_i].description>> <<print $struggle.enemy[_i].name>>",
+    "translation": "",
+    "pos": 82201
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1863_5_3_7|",
+    "original": "swims towards you,",
+    "translation": "",
+    "pos": 82377
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1865_5_3_7|",
+    "original": "flies towards you,",
+    "translation": "",
+    "pos": 82455
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1867_5_3_7|",
+    "original": "leaps towards you,",
+    "translation": "",
+    "pos": 82492
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1870_5_3_7|",
+    "original": "but you redirect its momentum with a well-timed blow,",
+    "translation": "",
+    "pos": 82578
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1872_5_3_7|",
+    "original": "but you bat it aside,",
+    "translation": "",
+    "pos": 82691
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1874_5_3_7|",
+    "original": "but your flailing knocks it aside,",
+    "translation": "",
+    "pos": 82731
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1877_5_3_7|",
+    "original": "<span class=\"green\">smacking it against the ground.</span>",
+    "translation": "",
+    "pos": 82880
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1880_5_3_7|",
+    "original": "<span class=\"teal\">narrowly dodging it.</span>",
+    "translation": "",
+    "pos": 83002
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1885_5_3_7|",
+    "original": "It tears your $worn[$_slot].name as it passes.",
+    "translation": "",
+    "pos": 83301
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1890_5_3_7|",
+    "original": "It whips you as it passes. <<pain 2>>",
+    "translation": "",
+    "pos": 83428
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1901_5_3_7|",
+    "original": "<<struggle_bide_the>> <<print $struggle.enemy[_i].description>> <<print $struggle.enemy[_i].name>>",
+    "translation": "",
+    "pos": 83769
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1903_5_3_7|",
+    "original": "swims towards you,",
+    "translation": "",
+    "pos": 83945
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1905_5_3_7|",
+    "original": "flies towards you,",
+    "translation": "",
+    "pos": 84023
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1907_5_3_7|",
+    "original": "leaps towards you,",
+    "translation": "",
+    "pos": 84060
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1909_5_3_7|",
+    "original": "<span class=\"blue\">landing on your <<struggle_region _target>>.</span>",
+    "translation": "",
+    "pos": 84095
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1915_5_3_7|",
+    "original": "An appendage emerges from the <<print $struggle.enemy[_i].description>> <<print $struggle.enemy[_i].name>>, and <span class=\"blue\">shoots a string of sticky fluid at you.</span>",
+    "translation": "",
+    "pos": 84374
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1918_5_3_7|",
+    "original": "The <<print $struggle.enemy[_i].description>> <<print $struggle.enemy[_i].name>> waits for an opening.",
+    "translation": "",
+    "pos": 84587
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1928_5_3_7|",
+    "original": "<br>Air: <<oxygencaption>>",
+    "translation": "",
+    "pos": 84918
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1940_5_3_7|",
+    "original": "| Success Chance :",
+    "translation": "",
+    "pos": 85190
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1942_5_3_7|",
+    "original": "<span class=\"green\"><<print $_chance>>%</span>",
+    "translation": "",
+    "pos": 85236
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1944_5_3_7|",
+    "original": "<span class=\"teal\"><<print $_chance>>%</span>",
+    "translation": "",
+    "pos": 85313
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1946_5_3_7|",
+    "original": "<span class=\"lblue\"><<print $_chance>>%</span>",
+    "translation": "",
+    "pos": 85389
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1948_5_3_7|",
+    "original": "<span class=\"blue\"><<print $_chance>>%</span>",
+    "translation": "",
+    "pos": 85466
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1950_5_3_7|",
+    "original": "<span class=\"purple\"><<print $_chance>>%</span>",
+    "translation": "",
+    "pos": 85542
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1952_5_3_7|",
+    "original": "<span class=\"pink\"><<print $_chance>>%</span>",
+    "translation": "",
+    "pos": 85619
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1954_5_3_7|",
+    "original": "<span class=\"red\"><<print $_chance>>%</span>",
+    "translation": "",
+    "pos": 85677
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1976_5_3_7|",
+    "original": "Seeing an opening, the",
+    "translation": "",
+    "pos": 86454
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "1978_5_3_7|",
+    "original": "The",
+    "translation": "",
+    "pos": 86489
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2039_5_3_7|",
+    "original": "The <<print $struggle[_args[0]].creature>>'s tentacles tear your $worn.over_upper.name as they search for a way in.<<neutral 2>><<set $worn.over_upper.integrity -= 10>>",
+    "translation": "",
+    "pos": 89366
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2041_5_3_7|",
+    "original": "The <<print $struggle[_args[0]].creature>>'s appendage prods your <<struggle_bodypart _args[0]>> through your $worn.over_upper.name.<<neutral 1>>",
+    "translation": "",
+    "pos": 89549
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2045_5_3_7|",
+    "original": "<span class=\"purple\">The fabric hisses as it dissolves in the slime.</span><<set $worn.over_upper.integrity -= 30>>",
+    "translation": "",
+    "pos": 89800
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2047_5_3_7|",
+    "original": "<span class=\"purple\">The fabric violently hisses as it dissolves in the pale slime.</span><<set $worn.over_upper.integrity -= 50>>",
+    "translation": "",
+    "pos": 89977
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2052_5_3_7|",
+    "original": "The tentacles wrap around the fabric, and <span class=\"pink\">tear it off your body with a flick, exposing your <<top>>.</span>",
+    "translation": "",
+    "pos": 90256
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2054_5_3_7|",
+    "original": "Its appendage pierces the fabric, and <span class=\"pink\">tears it off your body with a flick, exposing your <<top>>.</span>",
+    "translation": "",
+    "pos": 90399
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2060_5_3_7|",
+    "original": "The <<print $struggle[_args[0]].creature>>'s tentacles tear your $worn.upper.name as they search for a way in.<<neutral 2>><<set $worn.upper.integrity -= 10>>",
+    "translation": "",
+    "pos": 90684
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2062_5_3_7|",
+    "original": "The <<print $struggle[_args[0]].creature>>'s appendage prods your <<struggle_bodypart _args[0]>> through your $worn.upper.name.<<neutral 1>>",
+    "translation": "",
+    "pos": 90857
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2066_5_3_7|",
+    "original": "<span class=\"purple\">The fabric hisses as it dissolves in the slime.</span><<set $worn.upper.integrity -= 30>>",
+    "translation": "",
+    "pos": 91098
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2068_5_3_7|",
+    "original": "<span class=\"purple\">The fabric violently hisses as it dissolves in the pale slime.</span><<set $worn.upper.integrity -= 50>>",
+    "translation": "",
+    "pos": 91270
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2073_5_3_7|",
+    "original": "The tentacles wrap around the fabric, and <span class=\"pink\">tear it off your body with a flick, exposing your <<undertop>>.</span>",
+    "translation": "",
+    "pos": 91539
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2075_5_3_7|",
+    "original": "Its appendage pierces the fabric, and <span class=\"pink\">tears it off your body with a flick, exposing your <<undertop>>.</span>",
+    "translation": "",
+    "pos": 91687
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2081_5_3_7|",
+    "original": "The <<print $struggle[_args[0]].creature>>'s tentacles tear your $worn.under_upper.name as they search for a way in.<<neutral 3>><<set $worn.under_upper.integrity -= 10>>",
+    "translation": "",
+    "pos": 91978
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2083_5_3_7|",
+    "original": "The <<print $struggle[_args[0]].creature>>'s appendage prods your $worn.under_upper.name.",
+    "translation": "",
+    "pos": 92163
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2087_5_3_7|",
+    "original": "<span class=\"purple\">The fabric hisses as it dissolves in the slime.</span><<set $worn.under_upper.integrity -= 30>>",
+    "translation": "",
+    "pos": 92359
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2089_5_3_7|",
+    "original": "<span class=\"purple\">The fabric violently hisses as it dissolves in the pale slime.</span><<set $worn.under_upper.integrity -= 50>>",
+    "translation": "",
+    "pos": 92537
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2094_5_3_7|",
+    "original": "The tentacles wrap around the fabric, and <span class=\"pink\">tear it off your body with a flick, exposing your <<breasts>>.</span>",
+    "translation": "",
+    "pos": 92818
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2096_5_3_7|",
+    "original": "Its appendage pierces the fabric, and <span class=\"pink\">tears it off your body with a flick, exposing your <<breasts>>.</span>",
+    "translation": "",
+    "pos": 92965
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2102_5_3_7|",
+    "original": "The <<print $struggle[_args[0]].creature>>'s tentacles tear at your $worn.over_lower.name, trying to reach the <<struggle_bodypart _args[0]>> beneath.<<neutral 2>><<set $worn.over_lower.integrity -= 10>>",
+    "translation": "",
+    "pos": 93250
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2104_5_3_7|",
+    "original": "The <<print $struggle[_args[0]].creature>> tears at your $worn.over_lower.name, trying to reach the <<struggle_bodypart _args[0]>> beneath.<<neutral 1>>",
+    "translation": "",
+    "pos": 93468
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2108_5_3_7|",
+    "original": "<span class=\"purple\">The fabric hisses as it dissolves in the slime.</span><<set $worn.over_lower.integrity -= 30>>",
+    "translation": "",
+    "pos": 93726
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2110_5_3_7|",
+    "original": "<span class=\"purple\">The fabric violently hisses as it dissolves in the pale slime.</span><<set $worn.over_lower.integrity -= 50>>",
+    "translation": "",
+    "pos": 93903
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2115_5_3_7|",
+    "original": "Its tentacles wrap around the fabric, and <span class=\"pink\">tear it off your body with a flick, exposing your <<crotch>>.</span>",
+    "translation": "",
+    "pos": 94182
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2117_5_3_7|",
+    "original": "Its appendage pierces the fabric, and <span class=\"pink\">tears it off your body with a flick, exposing your <<crotch>>.</span>",
+    "translation": "",
+    "pos": 94328
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2123_5_3_7|",
+    "original": "The <<print $struggle[_args[0]].creature>>'s tentacles tear at your $worn.lower.name, trying to reach the <<struggle_bodypart _args[0]>> beneath.<<neutral 2>><<set $worn.lower.integrity -= 10>>",
+    "translation": "",
+    "pos": 94612
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2125_5_3_7|",
+    "original": "The <<print $struggle[_args[0]].creature>> tears at your $worn.lower.name, trying to reach the <<struggle_bodypart _args[0]>> beneath.<<neutral 1>>",
+    "translation": "",
+    "pos": 94820
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2129_5_3_7|",
+    "original": "<span class=\"purple\">The fabric hisses as it dissolves in the slime.</span><<set $worn.lower.integrity -= 30>>",
+    "translation": "",
+    "pos": 95068
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2131_5_3_7|",
+    "original": "<span class=\"purple\">The fabric violently hisses as it dissolves in the pale slime.</span><<set $worn.lower.integrity -= 50>>",
+    "translation": "",
+    "pos": 95240
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2136_5_3_7|",
+    "original": "Its tentacles wrap around the fabric, and <span class=\"pink\">tear it off your body with a flick, exposing your <<undies>>.</span>",
+    "translation": "",
+    "pos": 95509
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2138_5_3_7|",
+    "original": "Its appendage pierces the fabric, and <span class=\"pink\">tears it off your body with a flick, exposing your <<undies>>.</span>",
+    "translation": "",
+    "pos": 95655
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2144_5_3_7|",
+    "original": "The <<print $struggle[_args[0]].creature>>'s tentacles worm their way inside your $worn.under_lower.name, trying to get to the <<struggle_bodypart _args[0]>> beneath.<<neutral 2>><<set $worn.under_lower.integrity -= 10>>",
+    "translation": "",
+    "pos": 95940
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2146_5_3_7|",
+    "original": "The <<print $struggle[_args[0]].creature>> tears at your $worn.under_lower.name, trying to get to the <<struggle_bodypart _args[0]>> beneath.<<neutral 1>>",
+    "translation": "",
+    "pos": 96175
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2150_5_3_7|",
+    "original": "<span class=\"purple\">The fabric hisses as it dissolves in the slime.</span><<set $worn.under_lower.integrity -= 30>>",
+    "translation": "",
+    "pos": 96436
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2152_5_3_7|",
+    "original": "<span class=\"purple\">The fabric violently hisses as it dissolves in the pale slime.</span><<set $worn.under_lower.integrity -= 50>>",
+    "translation": "",
+    "pos": 96614
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2157_5_3_7|",
+    "original": "Its tentacles worm their way into the fabric, and <span class=\"pink\">tear it off your body with a flick, exposing your <<genitals>>.</span>",
+    "translation": "",
+    "pos": 96895
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2159_5_3_7|",
+    "original": "Its appendage pierces the fabric, and <span class=\"pink\">tears it off your body with a flick, exposing your <<genitals>>.</span>",
+    "translation": "",
+    "pos": 97051
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2166_5_3_7|",
+    "original": "The <<print $struggle[_args[0]].creature>>'s tentacles worm round your $worn.genitals.name, rubbing and squeezing it in the process. <span class=\"lewd\">Your clearly aroused reaction encourages it further.</span>",
+    "translation": "",
+    "pos": 97395
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2169_5_3_7|",
+    "original": "The <<print $struggle[_args[0]].creature>>'s tentacles worm behind your $worn.genitals.name, brushing against your <<struggle_bodypart _args[0]>> as they search for a way in.<<neutral 2 \"genitals\">><<set $worn.genitals.integrity -= 10>>",
+    "translation": "",
+    "pos": 97715
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2173_5_3_7|",
+    "original": "The <<print $struggle[_args[0]].creature>> attempts to tear at your $worn.genitals.name, but only succeed at squeezing it and <span>further arousing you.</span>",
+    "translation": "",
+    "pos": 98031
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2176_5_3_7|",
+    "original": "The <<print $struggle[_args[0]].creature>> tears at your $worn.genitals.name, trying to get to your <<struggle_bodypart _args[0]>> beneath.<<neutral 1 \"genitals\">><<set $worn.genitals.integrity -= 10>>",
+    "translation": "",
+    "pos": 98300
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2180_5_3_7|",
+    "original": "<span class=\"purple\">The material hisses as it dissolves in the slime.</span><<set $worn.genitals.integrity -= 30>>",
+    "translation": "",
+    "pos": 98575
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2182_5_3_7|",
+    "original": "<span class=\"purple\">The material violently hisses as it dissolves in the pale slime.</span><<set $worn.genitals.integrity -= 50>>",
+    "translation": "",
+    "pos": 98752
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2187_5_3_7|",
+    "original": "Its tentacles wrap around the material, and pull. The material",
+    "translation": "",
+    "pos": 99029
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2189_5_3_7|",
+    "original": "pops",
+    "translation": "",
+    "pos": 99151
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2191_5_3_7|",
+    "original": "groans",
+    "translation": "",
+    "pos": 99174
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2193_5_3_7|",
+    "original": "<span class=\"pink\">as the <<print $struggle[_args[0]].creature>> tears it off your body with a flick, exposing your <<genitals>>.</span>",
+    "translation": "",
+    "pos": 99197
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2195_5_3_7|",
+    "original": "Its appendage pierces the material, and pulls. The material",
+    "translation": "",
+    "pos": 99350
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2197_5_3_7|",
+    "original": "pops",
+    "translation": "",
+    "pos": 99469
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2199_5_3_7|",
+    "original": "groans",
+    "translation": "",
+    "pos": 99492
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2201_5_3_7|",
+    "original": "<span class=\"pink\">as the <<print $struggle[_args[0]].creature>> tears it off your body with a flick, exposing your <<genitals>>.</span>",
+    "translation": "",
+    "pos": 99515
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2205_5_3_7|",
+    "original": "It <<if $worn.genitals.name is \"chastity parasite\">>tired<<else>>hurt<</if>> itself against the material, <span class=\"green\">and leaps away.</span>",
+    "translation": "",
+    "pos": 99722
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2226_5_3_7|",
+    "original": "It <<if $worn.genitals.name is \"chastity parasite\">>tires<<else>>hurts<</if>> itself against the material.",
+    "translation": "",
+    "pos": 100483
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2233_5_3_7|",
+    "original": "The <<print $struggle[_args[0]].creature>>'s tentacles worm their way inside your $worn.face.name, trying to get to the <<struggle_bodypart _args[0]>> beneath.<<neutral 2>><<damageFaceCover 5 struggle>>",
+    "translation": "",
+    "pos": 100791
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2235_5_3_7|",
+    "original": "The <<print $struggle[_args[0]].creature>> tears at your $worn.face.name, trying to get to the <<struggle_bodypart _args[0]>> beneath.<<neutral 1>>",
+    "translation": "",
+    "pos": 101008
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2239_5_3_7|",
+    "original": "<span class=\"purple\">The fabric hisses as it dissolves in the slime.</span><<damageFaceCover 20 struggle>>",
+    "translation": "",
+    "pos": 101251
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2241_5_3_7|",
+    "original": "<span class=\"purple\">The fabric violently hisses as it dissolves in the pale slime.</span><<damageFaceCover 30 struggle>>",
+    "translation": "",
+    "pos": 101419
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2245_5_3_7|",
+    "original": "Its tentacles worm their way into the fabric, and <span class=\"pink\">tear it off your body with a flick, exposing your mouth.</span>",
+    "translation": "",
+    "pos": 101641
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2247_5_3_7|",
+    "original": "Its appendage pierces the fabric, and <span class=\"pink\">tears it off your body with a flick, exposing your mouth.</span>",
+    "translation": "",
+    "pos": 101790
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2253_5_3_7|",
+    "original": "The <<print $struggle[_args].creature>>'s appendage <span class=\"purple\">presses against your <<pussy>>.</span><<neutral 4 \"genitals\">>",
+    "translation": "",
+    "pos": 102063
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2255_5_3_7|",
+    "original": "The <<print $struggle[_args].creature>> <span class=\"purple\">presses an aperture against your <<penis>>.</span><<neutral 4 \"genitals\">>",
+    "translation": "",
+    "pos": 102235
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2257_5_3_7|",
+    "original": "The <<print $struggle[_args].creature>>'s appendage <span class=\"purple\">presses against your <<bottom>>.</span><<neutral 4 \"bottom\">>",
+    "translation": "",
+    "pos": 102406
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2259_5_3_7|",
+    "original": "The <<print $struggle[_args].creature>>'s appendage <span class=\"purple\">presses against your <<breasts>>.</span><<neutral 4 \"breasts\">>",
+    "translation": "",
+    "pos": 102577
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2261_5_3_7|",
+    "original": "The <<print $struggle[_args].creature>>'s appendage <span class=\"purple\">presses against your mouth.</span><<neutral 4 \"mouth\">>",
+    "translation": "",
+    "pos": 102750
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2279_5_3_7|",
+    "original": "<</silently>><<print _text_output>>",
+    "translation": "",
+    "pos": 103173
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2291_5_3_7|",
+    "original": "<</silently>><<print $_text_output>>",
+    "translation": "",
+    "pos": 103494
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2301_5_3_7|",
+    "original": "<</silently>><<print $_text_output>>",
+    "translation": "",
+    "pos": 103750
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2307_5_3_7|",
+    "original": "The <<print $struggle.chest.creature>>'s tentacles flick your <<breasts>> as <span class=\"pink\">milk leaks from your buds.</span>",
+    "translation": "",
+    "pos": 103961
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2309_5_3_7|",
+    "original": "The <<print $struggle.chest.creature>>'s tentacles flick and tease your <<breasts>>.",
+    "translation": "",
+    "pos": 104105
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2314_5_3_7|",
+    "original": "The <<print $struggle.chest.creature>> suckles your <<breasts>> as <span class=\"pink\">milk leaks from your buds.</span>",
+    "translation": "",
+    "pos": 104316
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2317_5_3_7|",
+    "original": "The <<print $struggle.chest.creature>> sucks on your <<breasts>> as its <<struggle_appendage chest>> rubs against your abdomen.",
+    "translation": "",
+    "pos": 104487
+  },
+  {
+    "passage": "Widgets Struggle",
+    "filepath": "base-combat/struggle.twee",
+    "key": "2364_5_3_7|",
+    "original": "<</silently>><<print _text_output>>",
+    "translation": "",
+    "pos": 106223
+  }
+]

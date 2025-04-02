@@ -1,0 +1,26 @@
+[
+  {
+    "passage": "Widgets Actions Speak",
+    "filepath": "base-combat/actions-speech.twee",
+    "key": "57_5_3_7|",
+    "original": "<<if [\"Avery\",\"Whitney\"].includes($_npcname) or $npc[$npcrow.indexOf($mouthtarget)] is $_npcname and checkIfNPCHasCategorySextoy($_npcname,\"strap-on\").length > 0>>",
+    "translation": "",
+    "pos": 2200
+  },
+  {
+    "passage": "Widgets Actions Speak",
+    "filepath": "base-combat/actions-speech.twee",
+    "key": "98_5_3_7|",
+    "original": "<<if ($NPCList[$mouthtarget].penis is \"none\" or $NPCList[$mouthtarget].penisdesc.includes(\"strap-on\")) and (!$player.penisExist or $crossdressing gte 1)>>",
+    "translation": "",
+    "pos": 4351
+  },
+  {
+    "passage": "Widgets Actions Speak",
+    "filepath": "base-combat/actions-speech.twee",
+    "key": "108_5_3_7|",
+    "original": "<<if $NPCList[$mouthtarget].penis.toString().includes(\"vagina\") or $NPCList[$mouthtarget].penis.toString().includes(\"anus\")>>",
+    "translation": "",
+    "pos": 4941
+  }
+]

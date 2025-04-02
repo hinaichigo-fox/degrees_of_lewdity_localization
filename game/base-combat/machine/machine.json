@@ -1,0 +1,954 @@
+[
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "26_5_3_7|",
+    "original": "<span class=\"red\">sturdy</span>",
+    "translation": "",
+    "pos": 810
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "28_5_3_7|",
+    "original": "<span class=\"pink\">dented</span>",
+    "translation": "",
+    "pos": 910
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "30_5_3_7|",
+    "original": "<span class=\"purple\">dented</span>",
+    "translation": "",
+    "pos": 1011
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "32_5_3_7|",
+    "original": "<span class=\"blue\">fractured</span>",
+    "translation": "",
+    "pos": 1114
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "34_5_3_7|",
+    "original": "<span class=\"lblue\">cracked</span>",
+    "translation": "",
+    "pos": 1218
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "36_5_3_7|",
+    "original": "<span class=\"teal\">cracked</span>",
+    "translation": "",
+    "pos": 1321
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "38_5_3_7|",
+    "original": "<span class=\"green\">ruined</span>",
+    "translation": "",
+    "pos": 1367
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "52_5_3_7|",
+    "original": "<<case \"ready\">>",
+    "translation": "",
+    "pos": 1637
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "68_5_3_7|",
+    "original": "The tattoo gun darts around your body, <span class=\"green\">before falling inert.</span>",
+    "translation": "",
+    "pos": 2419
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "72_5_3_7|",
+    "original": "The tattoo gun points to each of your body parts in turn, as if making a decision.",
+    "translation": "",
+    "pos": 2604
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "95_5_3_7|",
+    "original": "The <<machine_damage tattoo>> tattoo gun points to each of your body parts in turn, as if making a decision.",
+    "translation": "",
+    "pos": 3831
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "99_5_3_7|",
+    "original": "Accompanied by a whirring sound, <span class=\"purple\">the <<machine_damage tattoo>> tattoo gun hovers over your <<bodypart _machine_choice>>.</span>",
+    "translation": "",
+    "pos": 4087
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "104_5_3_7|",
+    "original": "<<case \"destroyed\">>",
+    "translation": "",
+    "pos": 4349
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "105_5_3_7|",
+    "original": "The tattoo gun twitches, <span class=\"green\">but remains disabled.</span>",
+    "translation": "",
+    "pos": 4373
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "106_5_3_7|",
+    "original": "<<case \"inert\">>",
+    "translation": "",
+    "pos": 4449
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "107_5_3_7|",
+    "original": "The tattoo gun <span class=\"green\">remains motionless.</span>",
+    "translation": "",
+    "pos": 4469
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "108_5_3_7|",
+    "original": "<<case \"entrance\">>",
+    "translation": "",
+    "pos": 4533
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "110_5_3_7|",
+    "original": "The <<machine_damage tattoo>> tattoo gun presses against your <<bodypart $machine.tattoo.use>>. <span class=\"pink\">The whirring intensifies as it prepares to write.</span><<gstress>><<stress 6>>",
+    "translation": "",
+    "pos": 4599
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "113_5_3_7|",
+    "original": "The <<machine_damage tattoo>> tattoo gun beeps as a red light scans your skin. <span class=\"purple\">A canister opens on its underside.</span>",
+    "translation": "",
+    "pos": 4887
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "116_5_3_7|",
+    "original": "The <<machine_damage tattoo>> tattoo gun presses against your <<bodypart $machine.tattoo.use>>, <span class=\"lblue\">but then withdraws.</span> A red light runs over your skin, and the gun moves away.",
+    "translation": "",
+    "pos": 5089
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "122_5_3_7|",
+    "original": "<<case \"imminent\">>",
+    "translation": "",
+    "pos": 5482
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "123_5_3_7|",
+    "original": "<span class=\"red\">The <<machine_damage tattoo>> tattoo gun writes on your <<bodypart $machine.tattoo.use>>: <<bodywriting_machine $machine.tattoo.use>></span><<ggpain>><<ggtrauma>><<ggstress>><<trauma 18>><<stress 18>><<pain 8>>",
+    "translation": "",
+    "pos": 5505
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "129_5_3_7|",
+    "original": "The <<machine_damage tattoo>> tattoo gun pulls away, but remains primed.",
+    "translation": "",
+    "pos": 5994
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "133_5_3_7|",
+    "original": "The <<machine_damage tattoo>> tattoo gun pulls away, <span class=\"green\">and falls inert.</span>",
+    "translation": "",
+    "pos": 6171
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "139_5_3_7|",
+    "original": "<<case \"foam\">>",
+    "translation": "",
+    "pos": 6433
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "140_5_3_7|",
+    "original": "<span class=\"pink\">The <<machine_damage tattoo>> tattoo gun sprays a pink foam over your <<bodypart $machine.tattoo.use>>.</span>",
+    "translation": "",
+    "pos": 6452
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "142_5_3_7|",
+    "original": "<span class=\"blue\">Nothing happens to your <<tattoo $machine.tattoo.use>> as the foam clears.</span>",
+    "translation": "",
+    "pos": 6722
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "143_5_3_7|",
+    "original": "The <<machine_damage tattoo>> tattoo gun pulls away.",
+    "translation": "",
+    "pos": 6827
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "150_5_3_7|",
+    "original": "The <<machine_damage tattoo>> tattoo gun presses against your <<bodypart $machine.tattoo.use>>. <span class=\"pink\">The whirring intensifies as it prepares to write.</span>",
+    "translation": "",
+    "pos": 7081
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "159_5_3_7|",
+    "original": "The <<machine_damage vaginal>> phallic machine withdraws from your <<pussy>> with a plop, <span class=\"green\">and shudders to a halt.</span>",
+    "translation": "",
+    "pos": 7543
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "161_5_3_7|",
+    "original": "The <<machine_damage vaginal>> phallic machine stops menacing you <<pussy>>, <span class=\"green\">and shudders to a halt</span>.",
+    "translation": "",
+    "pos": 7779
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "163_5_3_7|",
+    "original": "<span class=\"green\">The <<machine_damage vaginal>> phallic machine shudders to a halt.</span>",
+    "translation": "",
+    "pos": 7923
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "171_5_3_7|",
+    "original": "<<case \"ready\">>",
+    "translation": "",
+    "pos": 8230
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "172_5_3_7|",
+    "original": "The <<machine_damage vaginal>> phallic machine <span class=\"purple\">prods your <<pussy>>.</span>",
+    "translation": "",
+    "pos": 8251
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "175_5_3_7|",
+    "original": "<<case \"entrance\">>",
+    "translation": "",
+    "pos": 8534
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "178_5_3_7|",
+    "original": "A canister atop the <<machine_damage vaginal>> phallic machine opens, and sprays a pink foam over your $worn.over_lower.name, <span class=\"purple\">dissolving it.</span>",
+    "translation": "",
+    "pos": 8642
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "181_5_3_7|",
+    "original": "The <<machine_damage vaginal>> phallic machine tries to push through your $worn.over_lower.name, tearing the fabric.",
+    "translation": "",
+    "pos": 8879
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "186_5_3_7|",
+    "original": "A canister atop the <<machine_damage vaginal>> phallic machine opens, and sprays a pink foam over your $worn.lower.name, <span class=\"purple\">dissolving it.</span>",
+    "translation": "",
+    "pos": 9143
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "189_5_3_7|",
+    "original": "The <<machine_damage vaginal>> phallic machine tries to push through your $worn.lower.name, tearing the fabric.",
+    "translation": "",
+    "pos": 9370
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "194_5_3_7|",
+    "original": "A canister atop the <<machine_damage vaginal>> phallic machine opens, and sprays a pink foam over your $worn.under_lower.name, <span class=\"purple\">dissolving the fabric.</span>",
+    "translation": "",
+    "pos": 9630
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "197_5_3_7|",
+    "original": "The <<machine_damage vaginal>> phallic machine tries to push through your $worn.under_lower.name, tearing the fabric.",
+    "translation": "",
+    "pos": 9877
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "202_5_3_7|",
+    "original": "A canister atop the <<machine_damage vaginal>> phallic machine opens, and sprays a pink foam over your $worn.genitals.name, <span class=\"purple\">dissolving the <<= setup.clothes.genitals[clothesIndex('genitals',$worn.genitals)].altDamage || \"material\">>.</span>",
+    "translation": "",
+    "pos": 10142
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "205_5_3_7|",
+    "original": "The <<machine_damage vaginal>> phallic machine tries to push through your $worn.genitals.name, tearing the fabric.",
+    "translation": "",
+    "pos": 10470
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "209_5_3_7|",
+    "original": "The <<machine_damage vaginal>> phallic machine pushes against your <<pussy>>, <span class=\"pink\">about to penetrate.</span>",
+    "translation": "",
+    "pos": 10661
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "213_5_3_7|",
+    "original": "<<case \"imminent\">>",
+    "translation": "",
+    "pos": 10910
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "218_5_3_7|",
+    "original": "<span class=\"pink\">The <<machine_damage vaginal>> phallic machine thrusts into your <<pussy>>.</span>",
+    "translation": "",
+    "pos": 11188
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "223_5_3_7|",
+    "original": "<span class=\"red\">The <<machine_damage vaginal>> phallic machine thrusts into your virgin pussy,",
+    "translation": "",
+    "pos": 11486
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "225_5_3_7|",
+    "original": "despite your lack of a hymen, you feel something inside you change as your virginity and purity are taken.<<violence 10>>",
+    "translation": "",
+    "pos": 11652
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "227_5_3_7|",
+    "original": "breaking your hymen and forever robbing you of your purity.<<violence 25>>",
+    "translation": "",
+    "pos": 11796
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "231_5_3_7|",
+    "original": "<<takeVirginity \"sex machine\" \"vaginal\">>",
+    "translation": "",
+    "pos": 11914
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "232_5_3_7|",
+    "original": "<<case \"penetrated\">>",
+    "translation": "",
+    "pos": 11959
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "236_5_3_7|",
+    "original": "The <<machine_damage vaginal>> phallic machine fucks your <<pussy>> with irregular thrusts, catching you off guard.",
+    "translation": "",
+    "pos": 12064
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "238_5_3_7|",
+    "original": "The <<machine_damage vaginal>> phallic machine seems to inflate inside your <<pussy>>, stretching you out.",
+    "translation": "",
+    "pos": 12204
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "240_5_3_7|",
+    "original": "The <<machine_damage vaginal>> phallic machine fucks your <<pussy>> hard enough to send you lurching forward with each thrust.",
+    "translation": "",
+    "pos": 12335
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "242_5_3_7|",
+    "original": "The <<machine_damage vaginal>> phallic machine hammers deep into your <<pussy>>.",
+    "translation": "",
+    "pos": 12486
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "244_5_3_7|",
+    "original": "The <<machine_damage vaginal>> phallic machine pauses a moment, then <span class=\"purple\">assaults your <<pussy>> with a blur of thrusts.</span>",
+    "translation": "",
+    "pos": 12591
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "251_5_3_7|",
+    "original": "The <<machine_damage vaginal>> phallic machine fucks your <<pussy>> with a mechanical rhythm.",
+    "translation": "",
+    "pos": 12914
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "253_5_3_7|",
+    "original": "The <<machine_damage vaginal>> phallic machine shifts between each thrust into your <<pussy>>.",
+    "translation": "",
+    "pos": 13032
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "255_5_3_7|",
+    "original": "The <<machine_damage vaginal>> phallic machine pounds your <<pussy>> with a mechanical rhythm.",
+    "translation": "",
+    "pos": 13151
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "257_5_3_7|",
+    "original": "The <<machine_damage vaginal>> phallic machine hammers your <<pussy>> faster than anything alive.",
+    "translation": "",
+    "pos": 13270
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "259_5_3_7|",
+    "original": "The <<machine_damage vaginal>> phallic machine pauses a moment, then <span class=\"purple\">assaults your <<pussy>> with a blur of thrusts.</span>",
+    "translation": "",
+    "pos": 13392
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "266_5_3_7|",
+    "original": "The <<machine_damage vaginal>> phallic machine fucks your <<pussy>> with a gentle rhythm.",
+    "translation": "",
+    "pos": 13687
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "268_5_3_7|",
+    "original": "The <<machine_damage vaginal>> phallic machine rubs against your <<pussy>>.",
+    "translation": "",
+    "pos": 13801
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "270_5_3_7|",
+    "original": "The <<machine_damage vaginal>> phallic machine slowly thrusts into your <<pussy>>.",
+    "translation": "",
+    "pos": 13901
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "272_5_3_7|",
+    "original": "The <<machine_damage vaginal>> phallic machine stops inside your <<pussy>> for a moment, before continuing.",
+    "translation": "",
+    "pos": 14008
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "274_5_3_7|",
+    "original": "The <<machine_damage vaginal>> phallic machine vibrates against the entrance to your <<pussy>>",
+    "translation": "",
+    "pos": 14140
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "279_5_3_7|",
+    "original": "<<case \"destroyed\">>",
+    "translation": "",
+    "pos": 14363
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "280_5_3_7|",
+    "original": "The <<machine_damage vaginal>> phallic machine twitches, <span class=\"green\">but remains immobile.</span>",
+    "translation": "",
+    "pos": 14388
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "281_5_3_7|",
+    "original": "<<case \"inert\">>",
+    "translation": "",
+    "pos": 14497
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "282_5_3_7|",
+    "original": "The <<machine_damage vaginal>> phallic machine <span class=\"green\">remains inert.</span>",
+    "translation": "",
+    "pos": 14518
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "290_5_3_7|",
+    "original": "The <<machine_damage anal>> small phallic machine withdraws from your <<bottom>> with a plop, <span class=\"green\">and shudders to a halt.</span>",
+    "translation": "",
+    "pos": 14834
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "292_5_3_7|",
+    "original": "The <<machine_damage anal>> small phallic machine stops menacing you <<bottom>>, <span class=\"green\">and shudders to a halt</span>.",
+    "translation": "",
+    "pos": 15068
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "294_5_3_7|",
+    "original": "<span class=\"green\">The <<machine_damage anal>> small phallic machine shudders to a halt.</span>",
+    "translation": "",
+    "pos": 15216
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "302_5_3_7|",
+    "original": "<<case \"ready\">>",
+    "translation": "",
+    "pos": 15514
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "303_5_3_7|",
+    "original": "The <<machine_damage anal>> small phallic machine <span class=\"purple\">prods your <<bottom>>.</span>",
+    "translation": "",
+    "pos": 15535
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "306_5_3_7|",
+    "original": "<<case \"entrance\">>",
+    "translation": "",
+    "pos": 15806
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "309_5_3_7|",
+    "original": "A canister atop the <<machine_damage anal>> small phallic machine opens, and sprays a pink foam over your $worn.over_lower.name, <span class=\"purple\">dissolving it.</span>",
+    "translation": "",
+    "pos": 15911
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "312_5_3_7|",
+    "original": "The <<machine_damage anal>> small phallic machine tries to push through your $worn.over_lower.name, tearing the fabric.",
+    "translation": "",
+    "pos": 16151
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "317_5_3_7|",
+    "original": "A canister atop the <<machine_damage anal>> small phallic machine opens, and sprays a pink foam over your $worn.lower.name, <span class=\"purple\">dissolving it.</span>",
+    "translation": "",
+    "pos": 16415
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "320_5_3_7|",
+    "original": "The <<machine_damage anal>> small phallic machine tries to push through your $worn.lower.name, tearing the fabric.",
+    "translation": "",
+    "pos": 16645
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "325_5_3_7|",
+    "original": "A canister atop the <<machine_damage anal>> small phallic machine opens, and sprays a pink foam over your $worn.under_lower.name, <span class=\"purple\">dissolving the fabric.</span>",
+    "translation": "",
+    "pos": 16905
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "328_5_3_7|",
+    "original": "The <<machine_damage anal>> small phallic machine tries to push through your $worn.under_lower.name, tearing the fabric.<<set $worn.under_lower.integrity -= 20>>",
+    "translation": "",
+    "pos": 17155
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "332_5_3_7|",
+    "original": "A canister atop the <<machine_damage anal>> small phallic machine opens, and sprays a pink foam over your $worn.genitals.name, <span class=\"purple\">dissolving the <<= setup.clothes.genitals[clothesIndex('genitals',$worn.genitals)].altDamage || \"material\">>.</span>",
+    "translation": "",
+    "pos": 17411
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "335_5_3_7|",
+    "original": "The <<machine_damage anal>> small phallic machine tries to push through your $worn.genitals.name, tearing the fabric.",
+    "translation": "",
+    "pos": 17742
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "339_5_3_7|",
+    "original": "The <<machine_damage anal>> small phallic machine pushes against your <<bottom>>, <span class=\"pink\">about to penetrate.</span>",
+    "translation": "",
+    "pos": 17936
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "343_5_3_7|",
+    "original": "<<case \"imminent\">>",
+    "translation": "",
+    "pos": 18180
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "348_5_3_7|",
+    "original": "<span class=\"pink\">The <<machine_damage anal>> small phallic machine thrusts into your <<bottom>>.</span>",
+    "translation": "",
+    "pos": 18439
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "352_5_3_7|",
+    "original": "<<takeVirginity \"sex machine\" \"anal\">><<bruise anus>><<analstat>><<raped>><<anusraped>>",
+    "translation": "",
+    "pos": 18608
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "354_5_3_7|",
+    "original": "<span class=\"red\">The <<machine_damage anal>> small phallic machine thrusts into your virgin ass, violating you in a way you hadn't conceived of.</span>",
+    "translation": "",
+    "pos": 18784
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "356_5_3_7|",
+    "original": "<<case \"penetrated\">>",
+    "translation": "",
+    "pos": 18952
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "360_5_3_7|",
+    "original": "The <<machine_damage anal>> small phallic machine fucks your <<bottom>> with vicious speed.",
+    "translation": "",
+    "pos": 19057
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "362_5_3_7|",
+    "original": "The <<machine_damage anal>> small phallic machine slams into your <<bottom>>, hitting painfully deep each time.",
+    "translation": "",
+    "pos": 19173
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "364_5_3_7|",
+    "original": "The <<machine_damage anal>> small phallic machine is a blur as it thrusts into your <<bottom>> faster than anything living.",
+    "translation": "",
+    "pos": 19309
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "366_5_3_7|",
+    "original": "The <<machine_damage anal>> small phallic machine fucks your <<bottom>> fast enough to push you forward.",
+    "translation": "",
+    "pos": 19457
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "368_5_3_7|",
+    "original": "The <<machine_damage anal>> small phallic machine hilts itself inside your <<bottom>> and <span class=\"purple\">begins to spin</span>, painfully drilling against the inside of your ass.",
+    "translation": "",
+    "pos": 19586
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "375_5_3_7|",
+    "original": "The <<machine_damage anal>> small phallic machine fucks your <<bottom>> with a mechanical rhythm.",
+    "translation": "",
+    "pos": 19945
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "377_5_3_7|",
+    "original": "The <<machine_damage anal>> small phallic machine pounds your <<bottom>> with a mechanical rhythm.",
+    "translation": "",
+    "pos": 20067
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "379_5_3_7|",
+    "original": "The <<machine_damage anal>> small phallic machine is a blur as it fucks your <<bottom>> faster than anything living.",
+    "translation": "",
+    "pos": 20190
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "381_5_3_7|",
+    "original": "The <<machine_damage anal>> small phallic machine fucks your <<bottom>>, shifting between each thrust.",
+    "translation": "",
+    "pos": 20331
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "383_5_3_7|",
+    "original": "The <<machine_damage anal>> small phallic machine vibrates against your <<prostate>> at the end of each thrust into your <<bottom>>, <span class=\"purple\">sending a tingling jolt through you.</span>",
+    "translation": "",
+    "pos": 20458
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "390_5_3_7|",
+    "original": "The <<machine_damage anal>> small phallic machine fucks your <<bottom>> with a gentle rhythm.",
+    "translation": "",
+    "pos": 20798
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "392_5_3_7|",
+    "original": "The <<machine_damage anal>> small phallic machine pauses for a moment.",
+    "translation": "",
+    "pos": 20916
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "394_5_3_7|",
+    "original": "The <<machine_damage anal>> small phallic machine slowly thrusts in and out of your <<bottom>>.",
+    "translation": "",
+    "pos": 21011
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "396_5_3_7|",
+    "original": "The <<machine_damage anal>> small phallic machine fucks your <<bottom>> with a soft touch.",
+    "translation": "",
+    "pos": 21131
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "398_5_3_7|",
+    "original": "The <<machine_damage anal>> small phallic machine halts inside your <<bottom>> and begins to gently vibrate.",
+    "translation": "",
+    "pos": 21246
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "403_5_3_7|",
+    "original": "<<case \"destroyed\">>",
+    "translation": "",
+    "pos": 21474
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "404_5_3_7|",
+    "original": "The <<machine_damage anal>> small phallic machine twitches, <span class=\"green\">but remains immobile.</span>",
+    "translation": "",
+    "pos": 21499
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "405_5_3_7|",
+    "original": "<<case \"inert\">>",
+    "translation": "",
+    "pos": 21611
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "406_5_3_7|",
+    "original": "The <<machine_damage anal>> small phallic machine <span class=\"green\">remains inert.</span>",
+    "translation": "",
+    "pos": 21632
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "414_5_3_7|",
+    "original": "The <<machine_damage arm_chains>> chains attached to your shackles retract, <span class=\"pink\">lifting your arms into the air and immobilising them.</span>",
+    "translation": "",
+    "pos": 21872
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "425_5_3_7|",
+    "original": "The <<machine_damage arm_chains>> chains holding your arms resist your movements, <span class=\"lblue\">but remain loose.</span>",
+    "translation": "",
+    "pos": 22481
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "428_5_3_7|",
+    "original": "The <<machine_damage arm_chains>> chains holding your arms twitch, <span class=\"teal\">but remain loose.</span>",
+    "translation": "",
+    "pos": 22677
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "430_5_3_7|",
+    "original": "<span class=\"teal\">The <<machine_damage arm_chains>> chains holding your arms remain loose.</span>",
+    "translation": "",
+    "pos": 22845
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "432_5_3_7|",
+    "original": "<span class=\"teal\">The <<machine_damage arm_chains>> chains holding your arms remain loose.</span>",
+    "translation": "",
+    "pos": 22997
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "439_5_3_7|",
+    "original": "The <<machine_damage leg_chains>> chains attached to your shackles retract, <span class=\"pink\">pulling on your legs and immobilising them.</span>",
+    "translation": "",
+    "pos": 23229
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "451_5_3_7|",
+    "original": "The <<machine_damage leg_chains>> chains holding your legs resist your movements, <span class=\"lblue\">but remain loose.</span>",
+    "translation": "",
+    "pos": 23787
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "454_5_3_7|",
+    "original": "The <<machine_damage leg_chains>> chains holding your legs twitch, <span class=\"teal\">but remain loose.</span>",
+    "translation": "",
+    "pos": 23983
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "456_5_3_7|",
+    "original": "<span class=\"teal\">The <<machine_damage leg_chains>> chains holding your legs remain loose.</span>",
+    "translation": "",
+    "pos": 24151
+  },
+  {
+    "passage": "Widgets Machine",
+    "filepath": "base-combat/machine/machine.twee",
+    "key": "458_5_3_7|",
+    "original": "<span class=\"teal\">The <<machine_damage leg_chains>> chains holding your legs remain loose.</span>",
+    "translation": "",
+    "pos": 24303
+  }
+]

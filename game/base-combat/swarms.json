@@ -1,0 +1,546 @@
+[
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "7_5_3_7|",
+    "original": "Define Data to make each swarmer type unique",
+    "translation": "",
+    "pos": 191
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "10_5_3_7|",
+    "original": "<<set _swarmdats to {",
+    "translation": "",
+    "pos": 314
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "16_5_3_7|",
+    "original": "\"pale slimes\":{\"milk\":1},",
+    "translation": "",
+    "pos": 450
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "22_5_3_7|",
+    "original": "<<set $swarm to {",
+    "translation": "",
+    "pos": 600
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "41_5_3_7|",
+    "original": "<div @class=\"($debugLines ? 'debugLines-swarm' : '')\">",
+    "translation": "",
+    "pos": 928
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "44_5_3_7|",
+    "original": "<<set _swarmnote to {",
+    "translation": "",
+    "pos": 1017
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "304_5_3_7|",
+    "original": "The <<swarmName>> $swarm.spill, surrounding you with more $swarm.type.",
+    "translation": "",
+    "pos": 11024
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "309_5_3_7|",
+    "original": "There <<if $_remainingSwarms gt 1>>are<<else>>is<</if>> <<number $_remainingSwarms>> <<swarmName $_remainingSwarms>> and <span class=\"blue\"><<if _swarmamounts.active[1] + _swarmamounts.active[2] is 1>>it<<else>><<number _swarmamounts.active[2]>> of them<</if>> <<if _swarmamounts.active[2] gte 2>>are<<else>>is<</if>> $swarm.move.</span>",
+    "translation": "",
+    "pos": 11230
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "314_5_3_7|",
+    "original": "The _swarmcreature are squirming over you.",
+    "translation": "",
+    "pos": 11642
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "316_5_3_7|",
+    "original": "The _swarmcreature are swarming over you.",
+    "translation": "",
+    "pos": 11720
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "318_5_3_7|",
+    "original": "The _swarmcreature teem around you.",
+    "translation": "",
+    "pos": 11797
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "320_5_3_7|",
+    "original": "You're practically swimming in _swarmcreature.",
+    "translation": "",
+    "pos": 11868
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "322_5_3_7|",
+    "original": "The _swarmcreature completely surround you.",
+    "translation": "",
+    "pos": 11950
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "324_5_3_7|",
+    "original": "<span class=\"pink\">The _swarmcreature completely surround you, as if you are in a living pit.<<if $orgasmdown gte 1>> Not an inch of skin is spared the torment.<</if>></span>",
+    "translation": "",
+    "pos": 12030
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "331_5_3_7|",
+    "original": "<span class=\"purple\">The $swarm[\"type\"] swarm over your left arm, restraining it.</span>",
+    "translation": "",
+    "pos": 12380
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "334_5_3_7|",
+    "original": "<span class=\"purple\">The $swarm[\"type\"] swarm over your right arm, restraining it.</span>",
+    "translation": "",
+    "pos": 12557
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "342_5_3_7|",
+    "original": "You manage to keep them away from your chest.",
+    "translation": "",
+    "pos": 12784
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "347_5_3_7|",
+    "original": "They writhe over your <<print either(\"chest\", \"stomach\", \"back\", \"neck\", \"arms\")>>.",
+    "translation": "",
+    "pos": 12921
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "352_5_3_7|",
+    "original": "Some of them assault and damage your",
+    "translation": "",
+    "pos": 13098
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "354_5_3_7|",
+    "original": "$worn.upper.name<<if !$worn.upper.type.includes(\"naked\")>> and<<else>>,<</if>>",
+    "translation": "",
+    "pos": 13190
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "357_5_3_7|",
+    "original": "$worn.upper.name,",
+    "translation": "",
+    "pos": 13330
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "359_5_3_7|",
+    "original": "trying to get to the skin beneath.",
+    "translation": "",
+    "pos": 13362
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "365_5_3_7|",
+    "original": "<span class=\"purple\">More $swarm[\"type\"] gather around your <<breasts>>.</span>",
+    "translation": "",
+    "pos": 13523
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "367_5_3_7|",
+    "original": "<span class=\"purple\">A number of them take a liking to your <<breasts>>.</span>",
+    "translation": "",
+    "pos": 13619
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "373_5_3_7|",
+    "original": "<span class=\"purple\">Some of them wriggle their way into your",
+    "translation": "",
+    "pos": 13813
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "375_5_3_7|",
+    "original": "$worn.upper.name<<if !$worn.upper.type.includes(\"naked\")>> and<<else>>,<</if>>",
+    "translation": "",
+    "pos": 13930
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "378_5_3_7|",
+    "original": "$worn.upper.name,",
+    "translation": "",
+    "pos": 14070
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "380_5_3_7|",
+    "original": "where they take a liking to your <<breasts>>.</span>",
+    "translation": "",
+    "pos": 14102
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "389_5_3_7|",
+    "original": "They twist and tease your <<nipples>>, <span class=\"purple\">causing milk to leak out of the tips.</span>",
+    "translation": "",
+    "pos": 14392
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "392_5_3_7|",
+    "original": "They twist and tease your <<nipples>>, keeping them firm.",
+    "translation": "",
+    "pos": 14595
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "400_5_3_7|",
+    "original": "You manage to keep them away from your butt.",
+    "translation": "",
+    "pos": 14787
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "405_5_3_7|",
+    "original": "They writhe over your <<print either(\"butt\", \"thighs\", \"legs\")>>.",
+    "translation": "",
+    "pos": 14921
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "410_5_3_7|",
+    "original": "<<if $worn.over_lower.name is \"naked\" and $worn.lower.name is \"naked\">>",
+    "translation": "",
+    "pos": 15088
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "411_5_3_7|",
+    "original": "Some tear apart the ruined scraps of your clothing.",
+    "translation": "",
+    "pos": 15164
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "413_5_3_7|",
+    "original": "Some of them burrow into your",
+    "translation": "",
+    "pos": 15232
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "415_5_3_7|",
+    "original": "$worn.over_lower.name<<if !$worn.lower.type.includes(\"naked\")>> and<<else>>,<</if>>",
+    "translation": "",
+    "pos": 15319
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "418_5_3_7|",
+    "original": "$worn.lower.name,",
+    "translation": "",
+    "pos": 15467
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "420_5_3_7|",
+    "original": "tearing the fabric.",
+    "translation": "",
+    "pos": 15501
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "426_5_3_7|",
+    "original": "Some of them assail your $worn.under_lower.name, tearing the fabric.",
+    "translation": "",
+    "pos": 15633
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "431_5_3_7|",
+    "original": "<span class=\"purple\">Some of them wriggle their way into your",
+    "translation": "",
+    "pos": 15813
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "433_5_3_7|",
+    "original": "$worn.over_lower.name<<if !$worn.lower.type.includes(\"naked\")>> and<<else>>,<</if>>",
+    "translation": "",
+    "pos": 15930
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "436_5_3_7|",
+    "original": "$worn.lower.name,",
+    "translation": "",
+    "pos": 16075
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "438_5_3_7|",
+    "original": "you feel them moving toward your anus.</span>",
+    "translation": "",
+    "pos": 16107
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "443_5_3_7|",
+    "original": "<span class=\"purple\">Some of them wriggle their way into your $worn.under_lower.name, you feel them moving toward your anus.</span>",
+    "translation": "",
+    "pos": 16264
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "448_5_3_7|",
+    "original": "<span class=\"purple\">Some of them wriggle their way into your $worn.genitals.name, you feel them moving toward your <<genitals>>.</span> <span class=\"pink\">With your $worn.genitals.name anal shield in the way, you won't be able to get them out!</span>",
+    "translation": "",
+    "pos": 16487
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "456_5_3_7|",
+    "original": "<span class=\"purple\">They swarm around your butt, you feel them move toward your anus.</span>",
+    "translation": "",
+    "pos": 16923
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "461_5_3_7|",
+    "original": "<span class=\"pink\">They start squirming their way into your <<bottom>>.</span>",
+    "translation": "",
+    "pos": 17116
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "466_5_3_7|",
+    "original": "They writhe inside your lower intestine<<if $player.penisExist>>, blindly teasing your prostate<</if>><<if _impreg is true>>, and <span class=\"red\">attempt to move further inside you</span><</if>>.",
+    "translation": "",
+    "pos": 17332
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "475_5_3_7|",
+    "original": "You manage to keep them away from your <<genitals>>.",
+    "translation": "",
+    "pos": 17734
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "480_5_3_7|",
+    "original": "You feel them writhing over your <<if !$worn.lower.type.includes(\"naked\") and setup.clothes.lower[clothesIndex('lower', $worn.lower)].skirt isnot 1>><<genitals>> through your",
+    "translation": "",
+    "pos": 17883
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "482_5_3_7|",
+    "original": "$worn.over_lower.name<<if !$worn.lower.type.includes(\"naked\")>> and<<else>>.<</if>>",
+    "translation": "",
+    "pos": 18115
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "485_5_3_7|",
+    "original": "$worn.lower.name.",
+    "translation": "",
+    "pos": 18263
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "488_5_3_7|",
+    "original": "<<genitals>> through your $worn.under_lower.name.<<else>>unprotected <<genitals>>.",
+    "translation": "",
+    "pos": 18353
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "494_5_3_7|",
+    "original": "Some of them start tearing into your",
+    "translation": "",
+    "pos": 18555
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "496_5_3_7|",
+    "original": "$worn.over_lower.name<<if !$worn.lower.type.includes(\"naked\")>> and<<else>>.<</if>>",
+    "translation": "",
+    "pos": 18647
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "499_5_3_7|",
+    "original": "$worn.lower.name.",
+    "translation": "",
+    "pos": 18792
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "505_5_3_7|",
+    "original": "Some of them try to breach your $worn.under_lower.name, trying to get to the skin beneath.",
+    "translation": "",
+    "pos": 18928
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "510_5_3_7|",
+    "original": "<span class=\"purple\">Some of them wriggle their way into your",
+    "translation": "",
+    "pos": 19135
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "512_5_3_7|",
+    "original": "$worn.over_lower.name<<if !$worn.lower.type.includes(\"naked\")>> and<<else>>,<</if>>",
+    "translation": "",
+    "pos": 19252
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "515_5_3_7|",
+    "original": "$worn.lower.name,",
+    "translation": "",
+    "pos": 19397
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "517_5_3_7|",
+    "original": "you feel them moving toward your <<genitals>>.</span>",
+    "translation": "",
+    "pos": 19429
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "522_5_3_7|",
+    "original": "<span class=\"purple\">Some of them wriggle their way into your $worn.under_lower.name, you feel them moving toward your <<genitals>>.</span>",
+    "translation": "",
+    "pos": 19600
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "527_5_3_7|",
+    "original": "<span class=\"purple\">Some of them wriggle their way into your $worn.genitals.name, you feel them moving toward your <<genitals>>.</span> <span class=\"pink\">With your $worn.genitals.name in the way, you won't be able to get them out!</span>",
+    "translation": "",
+    "pos": 19837
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "540_5_3_7|",
+    "original": "<span class=\"purple\">They swarm around your groin, you feel them move toward your <<genitals>>.</span>",
+    "translation": "",
+    "pos": 20468
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "546_5_3_7|",
+    "original": "<span class=\"pink\">They start squirming their way into your pussy!</span>",
+    "translation": "",
+    "pos": 20707
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "548_5_3_7|",
+    "original": "<span class=\"pink\">They start enveloping your penis!</span>",
+    "translation": "",
+    "pos": 20818
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "555_5_3_7|",
+    "original": "They writhe and squirm inside your vagina, probing and teasing without mercy<<if _impreg is true>>, and <span class=\"red\">attempt to move further inside you</span><</if>>.",
+    "translation": "",
+    "pos": 21050
+  },
+  {
+    "passage": "Widgets Swarm",
+    "filepath": "base-combat/swarms.twee",
+    "key": "560_5_3_7|",
+    "original": "They writhe and squirm over your penis, rubbing and teasing the entire length.",
+    "translation": "",
+    "pos": 21388
+  }
+]

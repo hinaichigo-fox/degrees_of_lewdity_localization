@@ -1,0 +1,1402 @@
+[
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "6_5_3_7|",
+    "original": "<<case \"radio\" \"columnRadio\">>",
+    "translation": "",
+    "pos": 141
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "8_5_3_7|",
+    "original": "<<case \"lists\" \"limitedLists\">>",
+    "translation": "",
+    "pos": 242
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "17_5_3_7|",
+    "original": "<<print '<<radiobutton \"$'+_args[1]+'\" \"'+_valueC+'\" ' + (_valueC is _args[2] ? \"checked\" : \"\") + '>>'>>",
+    "translation": "",
+    "pos": 549
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "18_5_3_7|",
+    "original": "<span @class=\"combatListColor('', _valueC, 'Tentacle')\"><<print _labelC>></span>",
+    "translation": "",
+    "pos": 657
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "30_5_3_7|",
+    "original": "<span @id=\"_name + 'Select'\" @class=\"_args[2] + 'List flavorText '+(_args[3] is true?'reducedWidth':'')\">",
+    "translation": "",
+    "pos": 1101
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "31_5_3_7|",
+    "original": "<<listbox `\"$\"+_name` autoselect>>",
+    "translation": "",
+    "pos": 1211
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "32_5_3_7|",
+    "original": "<<optionsfrom _options>>",
+    "translation": "",
+    "pos": 1251
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "47_5_3_7|",
+    "original": "<<set _The to ($abomination is 1 ? \"<<His>>\" : \"The\")>>",
+    "translation": "",
+    "pos": 1583
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "48_5_3_7|",
+    "original": "<<set _the to ($abomination is 1 ? \"<<his>>\" : \"the\")>>",
+    "translation": "",
+    "pos": 1640
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "101_5_3_7|",
+    "original": "<span class=\"lewd\">Your left arm is free, but you can't stop the spasms.</span>",
+    "translation": "",
+    "pos": 3186
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "104_5_3_7|",
+    "original": "<span class=\"red\">Your left arm is free, but hurts to move.</span>",
+    "translation": "",
+    "pos": 3357
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "107_5_3_7|",
+    "original": "<span class=\"pink\">Your left arm is free, but doesn't feel real.</span>",
+    "translation": "",
+    "pos": 3499
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "113_5_3_7|",
+    "original": "<span @class=\"($lastOptions.left isnot _leftOptions ?'gold':'')\">Your left arm is free.</span>",
+    "translation": "",
+    "pos": 3759
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "119_5_3_7|",
+    "original": "<<case \"tentgrappled\">>",
+    "translation": "",
+    "pos": 4010
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "122_5_3_7|",
+    "original": "<span class=\"lewd\">Your left arm jerks against _the grip.</span>",
+    "translation": "",
+    "pos": 4102
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "125_5_3_7|",
+    "original": "<span class=\"red\">Your left arm is held in a painful grip.</span>",
+    "translation": "",
+    "pos": 4259
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "128_5_3_7|",
+    "original": "<span class=\"pink\">Your left arm lies limp in _the grip.</span>",
+    "translation": "",
+    "pos": 4399
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "133_5_3_7|",
+    "original": "<span @class=\"($lastOptions.left isnot _leftOptions ?'gold':'')\">_The $tentacles[_i].fullDesc entangles your left arm.</span>",
+    "translation": "",
+    "pos": 4614
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "142_5_3_7|",
+    "original": "<span @class=\"($lastOptions.left isnot _leftOptions ?'gold':'')\">Your left arm is being held down.</span>",
+    "translation": "",
+    "pos": 4970
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "145_5_3_7|",
+    "original": "<<case \"bound\">>",
+    "translation": "",
+    "pos": 5101
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "148_5_3_7|",
+    "original": "<span class=\"lewd\">Your left arm jerks against its bonds.</span>",
+    "translation": "",
+    "pos": 5185
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "150_5_3_7|",
+    "original": "<span class=\"red\">Your left arm is held in a painful bind.</span>",
+    "translation": "",
+    "pos": 5306
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "152_5_3_7|",
+    "original": "<span class=\"pink\">Your left arm lies limp in its bonds.</span>",
+    "translation": "",
+    "pos": 5410
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "154_5_3_7|",
+    "original": "<span @class=\"($lastOptions.left isnot _leftOptions ?'gold':'')\">Your left arm is bound.</span>",
+    "translation": "",
+    "pos": 5490
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "156_5_3_7|",
+    "original": "<<case \"grappled\" \"penis\" \"othervagina\" \"vagina\" \"coverpenis\" \"anus\" \"behind\">>",
+    "translation": "",
+    "pos": 5599
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "158_5_3_7|",
+    "original": "<<case \"trapped\">>",
+    "translation": "",
+    "pos": 5731
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "160_5_3_7|",
+    "original": "<<case \"struggle\">>",
+    "translation": "",
+    "pos": 5806
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "162_5_3_7|",
+    "original": "<<case \"swarmgrappled\">>",
+    "translation": "",
+    "pos": 5886
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "164_5_3_7|",
+    "original": "<<case \"mechgrappled\">>",
+    "translation": "",
+    "pos": 5968
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "171_5_3_7|",
+    "original": "<span @class=\"($lastOptions.left isnot _leftOptions ?'gold':'')\">You hold _the $tentacles[_i].fullDesc in your left hand.</span>",
+    "translation": "",
+    "pos": 6250
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "261_5_3_7|",
+    "original": "<<print '<<radiobutton \"$leftactionTarget\" \"'+$tentacles[_i].id+'\" ' + (_first is true or $tentacles[_i].id is $_found ? \"checked\" : \"\") + '>>'>>",
+    "translation": "",
+    "pos": 9912
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "262_5_3_7|",
+    "original": "$tentacles[_i].fullDesc",
+    "translation": "",
+    "pos": 10064
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "286_5_3_7|",
+    "original": "Target: <span @class=\"'whiteList ' + 'reducedWidth'\">",
+    "translation": "",
+    "pos": 10722
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "287_5_3_7|",
+    "original": "<<listbox \"$leftactionTarget\" autoselect>>",
+    "translation": "",
+    "pos": 10782
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "288_5_3_7|",
+    "original": "<<optionsfrom _availableTargets>>",
+    "translation": "",
+    "pos": 10832
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "293_5_3_7|",
+    "original": "<span @class=\"'whiteList ' + (_reducedWidths is true? 'reducedWidth':'')\">",
+    "translation": "",
+    "pos": 10927
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "294_5_3_7|",
+    "original": "<<listbox \"$leftactionTarget\" autoselect>>",
+    "translation": "",
+    "pos": 11007
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "295_5_3_7|",
+    "original": "<<optionsfrom _availableTargets>>",
+    "translation": "",
+    "pos": 11056
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "308_5_3_7|",
+    "original": "$tentacles[_i].fullDesc",
+    "translation": "",
+    "pos": 11341
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "313_5_3_7|",
+    "original": "<span @class=\"'whiteList ' + (_reducedWidths is true? 'reducedWidth':'')\">",
+    "translation": "",
+    "pos": 11496
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "314_5_3_7|",
+    "original": "<<listbox \"$leftactionTarget\" autoselect>>",
+    "translation": "",
+    "pos": 11574
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "315_5_3_7|",
+    "original": "<<optionsfrom _availableTargets>>",
+    "translation": "",
+    "pos": 11621
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "322_5_3_7|",
+    "original": "<<if _args[0] is undefined>>",
+    "translation": "",
+    "pos": 11746
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "328_5_3_7|",
+    "original": "<<case \"showbottomtentacle\" \"showthighstentacle\" \"showmouthtentacle\" \"showpenistentacle\" \"showvaginatentacle\">><<deviant5>>",
+    "translation": "",
+    "pos": 11915
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "339_5_3_7|",
+    "original": "<<case \"free\">>",
+    "translation": "",
+    "pos": 12286
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "350_5_3_7|",
+    "original": "<<case \"grappled\">>",
+    "translation": "",
+    "pos": 12706
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "359_5_3_7|",
+    "original": "<<case \"bound\">>",
+    "translation": "",
+    "pos": 13038
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "360_5_3_7|",
+    "original": "<<case \"tentacle\">>",
+    "translation": "",
+    "pos": 13057
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "383_5_3_7|",
+    "original": "<<case \"orgasm\">>",
+    "translation": "",
+    "pos": 14168
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "386_5_3_7|",
+    "original": "<<case \"pain\">>",
+    "translation": "",
+    "pos": 14278
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "389_5_3_7|",
+    "original": "<<case \"unreal\">>",
+    "translation": "",
+    "pos": 14404
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "401_5_3_7|",
+    "original": "<span class=\"lewd\">Your right arm is free, but you can't stop the spasms.</span>",
+    "translation": "",
+    "pos": 14751
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "404_5_3_7|",
+    "original": "<span class=\"red\">Your right arm is free, but hurts to move.</span>",
+    "translation": "",
+    "pos": 14924
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "407_5_3_7|",
+    "original": "<span class=\"pink\">Your right arm is free, but doesn't feel real.</span>",
+    "translation": "",
+    "pos": 15068
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "416_5_3_7|",
+    "original": "<span @class=\"($lastOptions.right isnot _rightOptions ?'gold':'')\">Your right arm is free.</span>",
+    "translation": "",
+    "pos": 15452
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "425_5_3_7|",
+    "original": "<<case \"tentgrappled\">>",
+    "translation": "",
+    "pos": 15791
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "428_5_3_7|",
+    "original": "<span class=\"lewd\">Your right arm jerks against _the grip.</span>",
+    "translation": "",
+    "pos": 15884
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "431_5_3_7|",
+    "original": "<span class=\"red\">Your right arm is held in a painful grip.</span>",
+    "translation": "",
+    "pos": 16043
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "434_5_3_7|",
+    "original": "<span class=\"pink\">Your right arm lies limp in _the grip.</span>",
+    "translation": "",
+    "pos": 16185
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "439_5_3_7|",
+    "original": "<span @class=\"($lastOptions.right isnot _rightOptions ?'gold':'')\">_The $tentacles[_i].fullDesc entangles your right arm.</span>",
+    "translation": "",
+    "pos": 16403
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "448_5_3_7|",
+    "original": "<span @class=\"($lastOptions.right isnot _rightOptions ?'gold':'')\">Your right arm is being held down.</span>",
+    "translation": "",
+    "pos": 16762
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "451_5_3_7|",
+    "original": "<<case \"bound\">>",
+    "translation": "",
+    "pos": 16896
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "454_5_3_7|",
+    "original": "<span class=\"lewd\">Your right arm jerks against its bonds.</span>",
+    "translation": "",
+    "pos": 16981
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "456_5_3_7|",
+    "original": "<span class=\"red\">Your right arm is held in a painful bind.</span>",
+    "translation": "",
+    "pos": 17103
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "458_5_3_7|",
+    "original": "<span class=\"pink\">Your right arm lies limp in its bonds.</span>",
+    "translation": "",
+    "pos": 17208
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "460_5_3_7|",
+    "original": "<span @class=\"($lastOptions.right isnot _rightOptions ?'gold':'')\">Your right arm is bound.</span>",
+    "translation": "",
+    "pos": 17289
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "462_5_3_7|",
+    "original": "<<case \"grappled\" \"penis\" \"othervagina\" \"vagina\" \"coverpenis\" \"anus\" \"behind\">>",
+    "translation": "",
+    "pos": 17401
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "464_5_3_7|",
+    "original": "<<case \"trapped\">>",
+    "translation": "",
+    "pos": 17534
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "466_5_3_7|",
+    "original": "<<case \"struggle\">>",
+    "translation": "",
+    "pos": 17610
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "468_5_3_7|",
+    "original": "<<case \"swarmgrappled\">>",
+    "translation": "",
+    "pos": 17691
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "470_5_3_7|",
+    "original": "<<case \"mechgrappled\">>",
+    "translation": "",
+    "pos": 17774
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "477_5_3_7|",
+    "original": "<span @class=\"($lastOptions.right isnot _rightOptions ?'gold':'')\">You hold _the $tentacles[_i].fullDesc in your right hand.</span>",
+    "translation": "",
+    "pos": 18060
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "567_5_3_7|",
+    "original": "<<print '<<radiobutton \"$rightactionTarget\" \"'+$tentacles[_i].id+'\" ' + (_first is true or $tentacles[_i].id is $_found ? \"checked\" : \"\") + '>>'>>",
+    "translation": "",
+    "pos": 21768
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "568_5_3_7|",
+    "original": "$tentacles[_i].fullDesc",
+    "translation": "",
+    "pos": 21921
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "592_5_3_7|",
+    "original": "Target: <span @class=\"'whiteList ' + 'reducedWidth'\">",
+    "translation": "",
+    "pos": 22579
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "593_5_3_7|",
+    "original": "<<listbox \"$rightactionTarget\" autoselect>>",
+    "translation": "",
+    "pos": 22639
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "594_5_3_7|",
+    "original": "<<optionsfrom _availableTargets>>",
+    "translation": "",
+    "pos": 22690
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "599_5_3_7|",
+    "original": "<span @class=\"'whiteList ' + (_reducedWidths is true? 'reducedWidth':'')\">",
+    "translation": "",
+    "pos": 22785
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "600_5_3_7|",
+    "original": "<<listbox \"$rightactionTarget\" autoselect>>",
+    "translation": "",
+    "pos": 22865
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "601_5_3_7|",
+    "original": "<<optionsfrom _availableTargets>>",
+    "translation": "",
+    "pos": 22915
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "614_5_3_7|",
+    "original": "$tentacles[_i].fullDesc",
+    "translation": "",
+    "pos": 23202
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "619_5_3_7|",
+    "original": "<span @class=\"'whiteList ' + (_reducedWidths is true? 'reducedWidth':'')\">",
+    "translation": "",
+    "pos": 23357
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "620_5_3_7|",
+    "original": "<<listbox \"$rightactionTarget\" autoselect>>",
+    "translation": "",
+    "pos": 23435
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "621_5_3_7|",
+    "original": "<<optionsfrom _availableTargets>>",
+    "translation": "",
+    "pos": 23483
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "628_5_3_7|",
+    "original": "<<if _args[0] is undefined>>",
+    "translation": "",
+    "pos": 23609
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "634_5_3_7|",
+    "original": "<<case \"showbottomtentacle\" \"showthighstentacle\" \"showmouthtentacle\" \"showpenistentacle\" \"showvaginatentacle\">><<deviant5>>",
+    "translation": "",
+    "pos": 23779
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "645_5_3_7|",
+    "original": "<<case \"free\">>",
+    "translation": "",
+    "pos": 24155
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "656_5_3_7|",
+    "original": "<<case \"grappled\">>",
+    "translation": "",
+    "pos": 24582
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "665_5_3_7|",
+    "original": "<<case \"bound\">>",
+    "translation": "",
+    "pos": 24917
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "666_5_3_7|",
+    "original": "<<case \"tentacle\">>",
+    "translation": "",
+    "pos": 24936
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "690_5_3_7|",
+    "original": "<<case \"orgasm\">>",
+    "translation": "",
+    "pos": 26071
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "693_5_3_7|",
+    "original": "<<case \"pain\">>",
+    "translation": "",
+    "pos": 26185
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "696_5_3_7|",
+    "original": "<<case \"unreal\">>",
+    "translation": "",
+    "pos": 26315
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "706_5_3_7|",
+    "original": "<<case \"penis\" \"othervagina\" \"bound\" \"walk\" \"run\" \"strut\" \"none\">>",
+    "translation": "",
+    "pos": 26684
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "708_5_3_7|",
+    "original": "<<case \"mechgrappled\">>",
+    "translation": "",
+    "pos": 26805
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "721_5_3_7|",
+    "original": "<span @class=\"($lastOptions.feet isnot _feetOptions ?'gold':'')\">Your legs are free.</span>",
+    "translation": "",
+    "pos": 27375
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "724_5_3_7|",
+    "original": "<span @class=\"($lastOptions.feet isnot _feetOptions ?'gold':'')\">Your left leg is free.</span>",
+    "translation": "",
+    "pos": 27541
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "727_5_3_7|",
+    "original": "<span @class=\"($lastOptions.feet isnot _feetOptions ?'gold':'')\">Your right leg is free.</span>",
+    "translation": "",
+    "pos": 27712
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "730_5_3_7|",
+    "original": "<span @class=\"($lastOptions.feet isnot _feetOptions ?'gold':'')\">Your legs are entangled and forced apart, leaving you less able to protect your <<genitals>>.</span>",
+    "translation": "",
+    "pos": 27919
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "733_5_3_7|",
+    "original": "<span @class=\"($lastOptions.feet isnot _feetOptions ?'gold':'')\">Your legs are bound and forced apart, leaving you less able to protect your <<genitals>>.</span>",
+    "translation": "",
+    "pos": 28187
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "739_5_3_7|",
+    "original": "<span @class=\"($lastOptions.feet isnot _feetOptions ?'gold':'')\">You hold _the $tentacles[_i].fullDesc between your feet.</span>",
+    "translation": "",
+    "pos": 28559
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "841_5_3_7|",
+    "original": "<<print '<<radiobutton \"$feetactionTarget\" \"'+$tentacles[_i].id+'\" ' + (_first is true or $tentacles[_i].id is $_found ? \"checked\" : \"\") + '>>'>>",
+    "translation": "",
+    "pos": 32603
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "842_5_3_7|",
+    "original": "$tentacles[_i].fullDesc",
+    "translation": "",
+    "pos": 32755
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "866_5_3_7|",
+    "original": "Target: <span @class=\"'whiteList ' + 'reducedWidth'\">",
+    "translation": "",
+    "pos": 33413
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "867_5_3_7|",
+    "original": "<<listbox \"$feetactionTarget\" autoselect>>",
+    "translation": "",
+    "pos": 33473
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "868_5_3_7|",
+    "original": "<<optionsfrom _availableTargets>>",
+    "translation": "",
+    "pos": 33523
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "873_5_3_7|",
+    "original": "<span @class=\"'whiteList ' + (_reducedWidths is true? 'reducedWidth':'')\">",
+    "translation": "",
+    "pos": 33618
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "874_5_3_7|",
+    "original": "<<listbox \"$feetactionTarget\" autoselect>>",
+    "translation": "",
+    "pos": 33698
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "875_5_3_7|",
+    "original": "<<optionsfrom _availableTargets>>",
+    "translation": "",
+    "pos": 33747
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "884_5_3_7|",
+    "original": "<<if _args[0] is undefined>>",
+    "translation": "",
+    "pos": 33897
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "890_5_3_7|",
+    "original": "<<case \"showbottomtentacle\" \"showthighstentacle\" \"showpenistentacle\" \"showvaginatentacle\">><<deviant5>>",
+    "translation": "",
+    "pos": 34066
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "899_5_3_7|",
+    "original": "<<case \"free\">>",
+    "translation": "",
+    "pos": 34344
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "906_5_3_7|",
+    "original": "<<case \"leftFree\" \"rightFree\">>",
+    "translation": "",
+    "pos": 34546
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "912_5_3_7|",
+    "original": "<<case \"tentacle\">>",
+    "translation": "",
+    "pos": 34714
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "946_5_3_7|",
+    "original": "<<case \"tentacleentrance\">>",
+    "translation": "",
+    "pos": 36063
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "951_5_3_7|",
+    "original": "<span @class=\"($lastOptions.mouth isnot _mouthOptions ?'gold':'')\">_The $tentacles[_i].fullDesc threatens your <<print $worn.face.name>>.</span>",
+    "translation": "",
+    "pos": 36331
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "953_5_3_7|",
+    "original": "<span @class=\"($lastOptions.mouth isnot _mouthOptions ?'gold':'')\">_The $tentacles[_i].fullDesc threatens your mouth.</span>",
+    "translation": "",
+    "pos": 36498
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "957_5_3_7|",
+    "original": "<<case \"tentacleimminent\">>",
+    "translation": "",
+    "pos": 36670
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "962_5_3_7|",
+    "original": "<span @class=\"($lastOptions.mouth isnot _mouthOptions ?'gold':'')\">_The $tentacles[_i].fullDesc presses against your <<print $worn.face.name>>.</span>",
+    "translation": "",
+    "pos": 36938
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "964_5_3_7|",
+    "original": "<span @class=\"($lastOptions.mouth isnot _mouthOptions ?'gold':'')\">_The $tentacles[_i].fullDesc presses against your mouth.</span>",
+    "translation": "",
+    "pos": 37111
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "968_5_3_7|",
+    "original": "<<case \"tentacle\">>",
+    "translation": "",
+    "pos": 37289
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "972_5_3_7|",
+    "original": "<span @class=\"($lastOptions.mouth isnot _mouthOptions ?'gold':'')\">_The $tentacles[_i].fullDesc thrusts into your mouth.</span>",
+    "translation": "",
+    "pos": 37458
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "975_5_3_7|",
+    "original": "<<case \"tentacledeep\">>",
+    "translation": "",
+    "pos": 37619
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "979_5_3_7|",
+    "original": "<span @class=\"($lastOptions.mouth isnot _mouthOptions ?'gold':'')\">_The $tentacles[_i].fullDesc thrusts into your mouth, ejaculating down your throat.</span>",
+    "translation": "",
+    "pos": 37796
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "982_5_3_7|",
+    "original": "<<case \"struggle\" \"struggle_pen\">>",
+    "translation": "",
+    "pos": 37987
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "1047_5_3_7|",
+    "original": "<<case \"entrance\">>",
+    "translation": "",
+    "pos": 40378
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "1056_5_3_7|",
+    "original": "<<case \"imminent\">>",
+    "translation": "",
+    "pos": 40799
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "1065_5_3_7|",
+    "original": "<<case \"penetrated\">>",
+    "translation": "",
+    "pos": 41220
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "1081_5_3_7|",
+    "original": "<<case \"tentacleentrance\">>",
+    "translation": "",
+    "pos": 41830
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "1085_5_3_7|",
+    "original": "<span @class=\"($lastOptions.penis isnot _penisOptions ?'gold':'')\">_The $tentacles[_i].fullDesc threatens your <<penis>>.</span>",
+    "translation": "",
+    "pos": 42013
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "1088_5_3_7|",
+    "original": "<<case \"tentacleimminent\">>",
+    "translation": "",
+    "pos": 42175
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "1092_5_3_7|",
+    "original": "<span @class=\"($lastOptions.penis isnot _penisOptions ?'gold':'')\">_The $tentacles[_i].fullDesc presses against your <<penis>>, about to engulf.</span>",
+    "translation": "",
+    "pos": 42358
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "1095_5_3_7|",
+    "original": "<<case \"tentacle\">>",
+    "translation": "",
+    "pos": 42543
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "1099_5_3_7|",
+    "original": "<span @class=\"($lastOptions.penis isnot _penisOptions ?'gold':'')\">_The $tentacles[_i].fullDesc envelops and pounds your <<penis>>.</span>",
+    "translation": "",
+    "pos": 42712
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "1102_5_3_7|",
+    "original": "<<case \"tentacledeep\">>",
+    "translation": "",
+    "pos": 42884
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "1106_5_3_7|",
+    "original": "<span @class=\"($lastOptions.penis isnot _penisOptions ?'gold':'')\">_The $tentacles[_i].fullDesc envelops and pounds your <<penis>>.</span>",
+    "translation": "",
+    "pos": 43061
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "1109_5_3_7|",
+    "original": "<<case \"tentaclerub\">>",
+    "translation": "",
+    "pos": 43233
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "1113_5_3_7|",
+    "original": "<span @class=\"($lastOptions.penis isnot _penisOptions ?'gold':'')\">_The $tentacles[_i].fullDesc runs between your thighs, coiling around your <<penis>> and pressing against your tummy.</span>",
+    "translation": "",
+    "pos": 43406
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "1116_5_3_7|",
+    "original": "<<case \"struggle\" \"struggle_pen\">>",
+    "translation": "",
+    "pos": 43631
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "1185_5_3_7|",
+    "original": "<<case \"entrance\" \"imminent\">>",
+    "translation": "",
+    "pos": 46082
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "1191_5_3_7|",
+    "original": "<<case \"penetrated\">>",
+    "translation": "",
+    "pos": 46378
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "1194_5_3_7|",
+    "original": "<<case \"penisrub\">>",
+    "translation": "",
+    "pos": 46525
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "1205_5_3_7|",
+    "original": "<<case \"tentacleentrance\">>",
+    "translation": "",
+    "pos": 46932
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "1209_5_3_7|",
+    "original": "<span @class=\"($lastOptions.right isnot _rightOptions ?'gold':'')\">_The $tentacles[_i].fullDesc threatens your <<pussy>>.</span>",
+    "translation": "",
+    "pos": 47118
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "1212_5_3_7|",
+    "original": "<<case \"tentacleimminent\">>",
+    "translation": "",
+    "pos": 47280
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "1216_5_3_7|",
+    "original": "<span @class=\"($lastOptions.vagina isnot _vaginaOptions ?'gold':'')\">_The $tentacles[_i].fullDesc presses against your <<pussy>>, about to penetrate.</span>",
+    "translation": "",
+    "pos": 47466
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "1219_5_3_7|",
+    "original": "<<case \"tentacle\">>",
+    "translation": "",
+    "pos": 47656
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "1223_5_3_7|",
+    "original": "<span @class=\"($lastOptions.vagina isnot _vaginaOptions ?'gold':'')\">_The $tentacles[_i].fullDesc thrusts into your <<pussy>>.</span>",
+    "translation": "",
+    "pos": 47828
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "1226_5_3_7|",
+    "original": "<<case \"tentacledeep\">>",
+    "translation": "",
+    "pos": 47995
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "1230_5_3_7|",
+    "original": "<span @class=\"($lastOptions.vagina isnot _vaginaOptions ?'gold':'')\">_The $tentacles[_i].fullDesc thrusts into your <<pussy>>, ejaculating deep into your womb.</span>",
+    "translation": "",
+    "pos": 48175
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "1233_5_3_7|",
+    "original": "<<case \"tentaclerub\">>",
+    "translation": "",
+    "pos": 48375
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "1237_5_3_7|",
+    "original": "<span @class=\"($lastOptions.vagina isnot _vaginaOptions ?'gold':'')\">_The $tentacles[_i].fullDesc runs between your thighs, pressing against your labia and continuing to your tummy.</span>",
+    "translation": "",
+    "pos": 48554
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "1240_5_3_7|",
+    "original": "<<case \"struggle\" \"struggle_pen\">>",
+    "translation": "",
+    "pos": 48776
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "1309_5_3_7|",
+    "original": "<<case \"entrance\" \"imminent\">>",
+    "translation": "",
+    "pos": 51267
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "1315_5_3_7|",
+    "original": "<<case \"penetrated\">>",
+    "translation": "",
+    "pos": 51570
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "1318_5_3_7|",
+    "original": "<<case \"vaginarub\">>",
+    "translation": "",
+    "pos": 51721
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "1332_5_3_7|",
+    "original": "<<case \"tentacleentrance\">>",
+    "translation": "",
+    "pos": 52247
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "1336_5_3_7|",
+    "original": "<span @class=\"($lastOptions.anus isnot _anusOptions ?'gold':'')\">_The $tentacles[_i].fullDesc threatens your <<bottom>>.</span>",
+    "translation": "",
+    "pos": 52431
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "1339_5_3_7|",
+    "original": "<<case \"tentacleimminent\">>",
+    "translation": "",
+    "pos": 52595
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "1343_5_3_7|",
+    "original": "<span @class=\"($lastOptions.anus isnot _anusOptions ?'gold':'')\">_The $tentacles[_i].fullDesc presses against your <<bottom>>, about to penetrate.</span>",
+    "translation": "",
+    "pos": 52779
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "1346_5_3_7|",
+    "original": "<<case \"tentacle\">>",
+    "translation": "",
+    "pos": 52969
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "1350_5_3_7|",
+    "original": "<span @class=\"($lastOptions.anus isnot _anusOptions ?'gold':'')\">_The $tentacles[_i].fullDesc thrusts into your <<bottom>>.</span>",
+    "translation": "",
+    "pos": 53139
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "1353_5_3_7|",
+    "original": "<<case \"tentacledeep\">>",
+    "translation": "",
+    "pos": 53306
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "1357_5_3_7|",
+    "original": "<span @class=\"($lastOptions.anus isnot _anusOptions ?'gold':'')\">_The $tentacles[_i].fullDesc thrusts into your <<bottom>>, ejaculating deep into your bowels.</span>",
+    "translation": "",
+    "pos": 53484
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "1360_5_3_7|",
+    "original": "<<case \"tentaclerub\">>",
+    "translation": "",
+    "pos": 53686
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "1364_5_3_7|",
+    "original": "<span @class=\"($lastOptions.anus isnot _anusOptions ?'gold':'')\">_The $tentacles[_i].fullDesc rubs itself between your butt cheeks.</span>",
+    "translation": "",
+    "pos": 53859
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "1367_5_3_7|",
+    "original": "<<case \"struggle\" \"struggle_pen\">>",
+    "translation": "",
+    "pos": 54034
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "1437_5_3_7|",
+    "original": "<<case \"entrance\" \"imminent\">>",
+    "translation": "",
+    "pos": 56464
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "1443_5_3_7|",
+    "original": "<<case \"penetrated\">>",
+    "translation": "",
+    "pos": 56753
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "1446_5_3_7|",
+    "original": "<<case \"anusrub\">>",
+    "translation": "",
+    "pos": 56896
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "1457_5_3_7|",
+    "original": "<<case \"tentaclerub\">>",
+    "translation": "",
+    "pos": 57293
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "1461_5_3_7|",
+    "original": "<span @class=\"($lastOptions.chest isnot _chestOptions ?'gold':'')\">_The $tentacles[_i].fullDesc rubs itself between your chest.</span>",
+    "translation": "",
+    "pos": 57466
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "1464_5_3_7|",
+    "original": "<<case \"penis\">>",
+    "translation": "",
+    "pos": 57634
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "1467_5_3_7|",
+    "original": "<<case \"struggle\">>",
+    "translation": "",
+    "pos": 57723
+  },
+  {
+    "passage": "Widgets Tentacle Actions Generation",
+    "filepath": "base-combat/tentacles/tentacleActionsGeneration.twee",
+    "key": "1513_5_3_7|",
+    "original": "<<case \"chestrub\">>",
+    "translation": "",
+    "pos": 59107
+  }
+]

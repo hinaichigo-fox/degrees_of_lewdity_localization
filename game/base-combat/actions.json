@@ -1,0 +1,194 @@
+[
+  {
+    "passage": "Widgets Actions Man",
+    "filepath": "base-combat/actions.twee",
+    "key": "9_5_3_7|",
+    "original": "<<if $NPCList[0].pronoun is \"m\">>",
+    "translation": "",
+    "pos": 120
+  },
+  {
+    "passage": "Widgets Actions Man",
+    "filepath": "base-combat/actions.twee",
+    "key": "12_5_3_7|",
+    "original": "<<if $NPCList[0].pronoun is \"f\">>",
+    "translation": "",
+    "pos": 193
+  },
+  {
+    "passage": "Widgets Actions Man",
+    "filepath": "base-combat/actions.twee",
+    "key": "15_5_3_7|",
+    "original": "<<if $NPCList[0].pronoun is \"i\">>",
+    "translation": "",
+    "pos": 266
+  },
+  {
+    "passage": "Widgets Actions Man",
+    "filepath": "base-combat/actions.twee",
+    "key": "18_5_3_7|",
+    "original": "<<if $NPCList[0].pronoun is \"n\">>",
+    "translation": "",
+    "pos": 339
+  },
+  {
+    "passage": "Widgets Actions Man",
+    "filepath": "base-combat/actions.twee",
+    "key": "21_5_3_7|",
+    "original": "<<if $NPCList[0].pronoun is \"t\">>",
+    "translation": "",
+    "pos": 412
+  },
+  {
+    "passage": "Widgets Actions Man",
+    "filepath": "base-combat/actions.twee",
+    "key": "28_5_3_7|",
+    "original": "<div @class=\"($debugLines ? 'debugLines-actionsman' : '')\">",
+    "translation": "",
+    "pos": 514
+  },
+  {
+    "passage": "Widgets Actions Man",
+    "filepath": "base-combat/actions.twee",
+    "key": "34_5_3_7|",
+    "original": "<i>As you gain focus, you become more and more likely to escape your helpless state of dissociation.</i>",
+    "translation": "",
+    "pos": 692
+  },
+  {
+    "passage": "Widgets Actions Man",
+    "filepath": "base-combat/actions.twee",
+    "key": "40_5_3_7|",
+    "original": "<span class=\"green\">Your lucidity returns.</span>",
+    "translation": "",
+    "pos": 978
+  },
+  {
+    "passage": "Widgets Actions Man",
+    "filepath": "base-combat/actions.twee",
+    "key": "43_5_3_7|",
+    "original": "<span class=\"red\">The weight of reality crashes down on you.</span>",
+    "translation": "",
+    "pos": 1051
+  },
+  {
+    "passage": "Widgets Actions Man",
+    "filepath": "base-combat/actions.twee",
+    "key": "61_5_3_7|",
+    "original": "| <label>Roll over <<radiobutton \"$bodyaction\" \"missionary\">></label>",
+    "translation": "",
+    "pos": 1630
+  },
+  {
+    "passage": "Widgets Actions Man",
+    "filepath": "base-combat/actions.twee",
+    "key": "63_5_3_7|",
+    "original": "| <label>Roll over <<radiobutton \"$bodyaction\" \"doggy\">></label>",
+    "translation": "",
+    "pos": 1791
+  },
+  {
+    "passage": "Widgets Actions Man",
+    "filepath": "base-combat/actions.twee",
+    "key": "66_5_3_7|",
+    "original": "| <label>Rest <<radiobutton \"$bodyaction\" \"rest\" checked>></label>",
+    "translation": "",
+    "pos": 1908
+  },
+  {
+    "passage": "Widgets Actions Man",
+    "filepath": "base-combat/actions.twee",
+    "key": "87_5_3_7|",
+    "original": "<<set _combatend to",
+    "translation": "",
+    "pos": 2251
+  },
+  {
+    "passage": "Widgets Actions Man",
+    "filepath": "base-combat/actions.twee",
+    "key": "88_5_3_7|",
+    "original": "($alarm is 1 and $rescue gte 1) or",
+    "translation": "",
+    "pos": 2273
+  },
+  {
+    "passage": "Widgets Actions Man",
+    "filepath": "base-combat/actions.twee",
+    "key": "89_5_3_7|",
+    "original": "($enemyhealth lte 0) or",
+    "translation": "",
+    "pos": 2310
+  },
+  {
+    "passage": "Widgets Actions Man",
+    "filepath": "base-combat/actions.twee",
+    "key": "90_5_3_7|",
+    "original": "($enemyarousal gte $enemyarousalmax) or",
+    "translation": "",
+    "pos": 2336
+  },
+  {
+    "passage": "Widgets Actions Man",
+    "filepath": "base-combat/actions.twee",
+    "key": "91_5_3_7|",
+    "original": "($finish is 1)",
+    "translation": "",
+    "pos": 2378
+  },
+  {
+    "passage": "Widgets Actions Man",
+    "filepath": "base-combat/actions.twee",
+    "key": "107_5_3_7|",
+    "original": "Enemy Health: $enemyhealth -- Enemy Health Max: $enemyhealthmax",
+    "translation": "",
+    "pos": 2806
+  },
+  {
+    "passage": "Widgets Actions Man",
+    "filepath": "base-combat/actions.twee",
+    "key": "109_5_3_7|",
+    "original": "Enemy number: $enemyno -- Enemy max number: $enemynomax",
+    "translation": "",
+    "pos": 2881
+  },
+  {
+    "passage": "Widgets Actions Man",
+    "filepath": "base-combat/actions.twee",
+    "key": "112_5_3_7|",
+    "original": "#<<print _i>>: $NPCList[_i].fullDescription",
+    "translation": "",
+    "pos": 2997
+  },
+  {
+    "passage": "Widgets Actions Man",
+    "filepath": "base-combat/actions.twee",
+    "key": "114_5_3_7|",
+    "original": "Head Location: $NPCList[_i].location.head -- Genitals Location: $NPCList[_i].location.genitals",
+    "translation": "",
+    "pos": 3054
+  },
+  {
+    "passage": "Widgets Actions Man",
+    "filepath": "base-combat/actions.twee",
+    "key": "116_5_3_7|",
+    "original": "Active: $NPCList[_i].active -- Stance: $NPCList[_i].stance -- Health: $NPCList[_i].health",
+    "translation": "",
+    "pos": 3162
+  },
+  {
+    "passage": "Widgets Actions Man",
+    "filepath": "base-combat/actions.twee",
+    "key": "118_5_3_7|",
+    "original": "Penis: $NPCList[_i].penis -- Vagina: $NPCList[_i].vagina -- Mouth: $NPCList[_i].mouth -- Anus: $NPCList[_i].anus",
+    "translation": "",
+    "pos": 3265
+  },
+  {
+    "passage": "Widgets Actions Man",
+    "filepath": "base-combat/actions.twee",
+    "key": "121_5_3_7|",
+    "original": "Left Hand: $NPCList[_i].lefthand -- Right Hand: $NPCList[_i].righthand",
+    "translation": "",
+    "pos": 3560
+  }
+]

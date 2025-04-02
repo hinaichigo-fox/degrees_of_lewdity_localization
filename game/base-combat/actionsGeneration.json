@@ -1,0 +1,2154 @@
+[
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "22_5_3_7|",
+    "original": "<span @id=\"(_valueC isnot 'ask' ?'':'askLabel')\" @class=\"(_valueC isnot 'ask' ? combatListColor('', _valueC, '') : $askActionColour)\"><<print _labelC>></span>",
+    "translation": "",
+    "pos": 821
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "35_5_3_7|",
+    "original": "<span @id=\"_name + 'Select'\" @class=\"_args[2] + 'List flavorText'\">",
+    "translation": "",
+    "pos": 1337
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "144_5_3_7|",
+    "original": "<a onclick=\"wikifier('replaceAction','Alternative')\">Switch to Alternative Actions</a>",
+    "translation": "",
+    "pos": 4400
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "148_5_3_7|",
+    "original": "<a onclick=\"wikifier('replaceAction','Submissive')\">Switch to Submissive Actions</a>",
+    "translation": "",
+    "pos": 4544
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "152_5_3_7|",
+    "original": "<a onclick=\"wikifier('replaceAction','Defiant')\">Switch to Defiant Actions</a>",
+    "translation": "",
+    "pos": 4683
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "156_5_3_7|",
+    "original": "<a onclick=\"wikifier('replaceAction','Normal')\">Switch to Normal Actions</a>",
+    "translation": "",
+    "pos": 4816
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "220_5_3_7|",
+    "original": "Target: <span @onchange=_onChangeString>",
+    "translation": "",
+    "pos": 7157
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "250_5_3_7|",
+    "original": "<span class=\"lewd\">Your left arm is free, but you can't stop the spasms.</span>",
+    "translation": "",
+    "pos": 8542
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "253_5_3_7|",
+    "original": "<span class=\"red\">Your left arm is free, but hurts to move.</span>",
+    "translation": "",
+    "pos": 8729
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "256_5_3_7|",
+    "original": "<span class=\"pink\">Your left arm is free, but doesn't feel real.</span>",
+    "translation": "",
+    "pos": 8887
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "259_5_3_7|",
+    "original": "Your left arm is free, <span class=\"pink\">but not under your control.</span>",
+    "translation": "",
+    "pos": 9028
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "268_5_3_7|",
+    "original": "<span @class=\"($lastOptions.left isnot _leftOptions or _leftGold is true ?'gold':'')\">Your left hand is free.</span>",
+    "translation": "",
+    "pos": 9447
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "279_5_3_7|",
+    "original": "<span @class=\"($lastOptions.left isnot _leftOptions or _leftGold is true ?'gold':'')\"><<selectNpcWithPartInPosition \"penis\" \"leftarm\">><<set $lefttarget to $index>>Your left hand is <<if $NPCList[$index] and $NPCList[$index].chastity.penis.includes(\"chastity\")>>teasing<<else>>holding<</if>> <<personselect $index>><<combatpersons>> $NPCList[$index].penisdesc<<if $NPCList[$index].chastity.penis.includes(\"chastity\")>> through <<his>> $NPCList[$index].chastity.penis<</if>>.</span>",
+    "translation": "",
+    "pos": 9891
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "283_5_3_7|",
+    "original": "<span class=\"lewd\">Your left arm jerks against their grip.</span>",
+    "translation": "",
+    "pos": 10467
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "286_5_3_7|",
+    "original": "<span class=\"red\">Your left arm is held in a painful grip.</span>",
+    "translation": "",
+    "pos": 10629
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "289_5_3_7|",
+    "original": "<span class=\"pink\">Your left arm lies limp in their grip.</span>",
+    "translation": "",
+    "pos": 10773
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "292_5_3_7|",
+    "original": "Your left arm writhes in their grip, unbidden.",
+    "translation": "",
+    "pos": 10912
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "295_5_3_7|",
+    "original": "<span @class=\"($lastOptions.left isnot _leftOptions or _leftGold is true ?'gold':'')\">Your left arm is being held down.</span>",
+    "translation": "",
+    "pos": 11014
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "300_5_3_7|",
+    "original": "<span class=\"lewd\">Your left arm jerks against its bonds.</span>",
+    "translation": "",
+    "pos": 11242
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "302_5_3_7|",
+    "original": "<span class=\"red\">Your left arm is held in a painful bind.</span>",
+    "translation": "",
+    "pos": 11363
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "304_5_3_7|",
+    "original": "<span class=\"pink\">Your left arm lies limp in its bonds.</span>",
+    "translation": "",
+    "pos": 11467
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "306_5_3_7|",
+    "original": "Your left arm writhes in its bounds, unbidden.",
+    "translation": "",
+    "pos": 11560
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "308_5_3_7|",
+    "original": "<span @class=\"($lastOptions.left isnot _leftOptions or _leftGold is true ?'gold':'')\">Your arms are helplessly bound.</span>",
+    "translation": "",
+    "pos": 11623
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "312_5_3_7|",
+    "original": "<span @class=\"($lastOptions.left isnot _leftOptions or _leftGold is true ?'gold':'')\"><<selectNpcWithPartInPosition \"vagina\" \"leftarm\">><<set $lefttarget to $index>>Your left hand is <<if $NPCList[$index].chastity.vagina.includes(\"chastity\")>>teasing<<else>>stroking<</if>> <<personselect $index>><<combatpersons>> pussy<<if $NPCList[$index].chastity.vagina.includes(\"chastity\")>> through <<his>> $NPCList[$index].chastity.vagina<</if>>.</span>",
+    "translation": "",
+    "pos": 11822
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "315_5_3_7|",
+    "original": "<span @class=\"($lastOptions.left isnot _leftOptions or _leftGold is true ?'gold':'')\">Your left hand is protecting your <<pussy>>.</span>",
+    "translation": "",
+    "pos": 12331
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "318_5_3_7|",
+    "original": "<span @class=\"($lastOptions.left isnot _leftOptions or _leftGold is true ?'gold':'')\">Your left hand is protecting your <<penis>>.</span>",
+    "translation": "",
+    "pos": 12536
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "321_5_3_7|",
+    "original": "<span @class=\"($lastOptions.left isnot _leftOptions or _leftGold is true ?'gold':'')\">Your left hand is protecting your <<bottom>>.</span>",
+    "translation": "",
+    "pos": 12733
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "324_5_3_7|",
+    "original": "<span @class=\"($lastOptions.left isnot _leftOptions or _leftGold is true ?'gold':'')\">Your left hand is behind your back.</span>",
+    "translation": "",
+    "pos": 12931
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "327_5_3_7|",
+    "original": "<span @class=\"($lastOptions.left isnot _leftOptions or _leftGold is true ?'gold':'')\">Your left hand is being held.</span>",
+    "translation": "",
+    "pos": 13123
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "336_5_3_7|",
+    "original": "<span @class=\"($lastOptions.left isnot _leftOptions or _leftGold is true ?'gold':'')\">Your left hand is holding the <<print $currentSexToyLeft.name>>.</span>",
+    "translation": "",
+    "pos": 13565
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "346_5_3_7|",
+    "original": "<span @class=\"($lastOptions.left isnot _leftOptions or _leftGold is true ?'gold':'')\">Your left hand is holding the <<print $currentSexToyLeft.name>> above your <<pussy>>.</span>",
+    "translation": "",
+    "pos": 14033
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "349_5_3_7|",
+    "original": "<span @class=\"($lastOptions.left isnot _leftOptions or _leftGold is true ?'gold':'')\">Your left hand fucks your <<pussy>> with the <<print $currentSexToyLeft.name>>.</span>",
+    "translation": "",
+    "pos": 14287
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "352_5_3_7|",
+    "original": "<span @class=\"($lastOptions.left isnot _leftOptions or _leftGold is true ?'gold':'')\">Your left hand is holding the <<print $currentSexToyLeft.name>> above your anus.</span>",
+    "translation": "",
+    "pos": 14549
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "355_5_3_7|",
+    "original": "<span @class=\"($lastOptions.left isnot _leftOptions or _leftGold is true ?'gold':'')\">Your left hand fucks your <<bottom>> with the <<print $currentSexToyLeft.name>>.</span>",
+    "translation": "",
+    "pos": 14796
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "358_5_3_7|",
+    "original": "<span @class=\"($lastOptions.left isnot _leftOptions or _leftGold is true ?'gold':'')\">Your left hand is holding the <<print $currentSexToyLeft.name>> above your <<penisSimple>>.</span>",
+    "translation": "",
+    "pos": 15065
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "361_5_3_7|",
+    "original": "<span @class=\"($lastOptions.left isnot _leftOptions or _leftGold is true ?'gold':'')\">Your left hand fucks your <<penisSimple>> with the <<print $currentSexToyLeft.name>></span>",
+    "translation": "",
+    "pos": 15329
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "364_5_3_7|",
+    "original": "<span @class=\"($lastOptions.left isnot _leftOptions or _leftGold is true ?'gold':'')\">Your left hand is <<if $NPCList[$lefttarget].chastity.vagina.includes(\"chastity\")>>teasing<<else>>stroking<</if>> <<combatpersons>> pussy<<if $NPCList[$lefttarget].chastity.vagina.includes(\"chastity\")>> through <<his>> $NPCList[$lefttarget].chastity.vagina<</if>> with your $currentSexToyLeft.name.</span>",
+    "translation": "",
+    "pos": 15594
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "367_5_3_7|",
+    "original": "<span @class=\"($lastOptions.left isnot _leftOptions or _leftGold is true ?'gold':'')\"><<selectNpcWithPartInPosition \"vagina\" \"leftDildo\">><<set $lefttarget to $index>>Your left hand fucks the <<combatpersons>> pussy with the $currentSexToyLeft.name.</span>",
+    "translation": "",
+    "pos": 16071
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "370_5_3_7|",
+    "original": "<span @class=\"($lastOptions.left isnot _leftOptions or _leftGold is true ?'gold':'')\">Your left hand is <<if $NPCList[$lefttarget].chastity.vagina.includes(\"chastity\")>>teasing<<else>>stroking<</if>> <<combatpersons>> ass<<if $NPCList[$lefttarget].chastity.vagina.includes(\"chastity\")>> through <<his>> $NPCList[$lefttarget].chastity.vagina<</if>> with your $currentSexToyLeft.name.</span>",
+    "translation": "",
+    "pos": 16413
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "373_5_3_7|",
+    "original": "<span @class=\"($lastOptions.left isnot _leftOptions or _leftGold is true ?'gold':'')\"><<selectNpcWithPartInPositionAnus \"leftDildoAnus\">><<set $lefttarget to $index>>Your left hand fucks <<combatpersons>> ass with the $currentSexToyLeft.name.</span>",
+    "translation": "",
+    "pos": 16886
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "376_5_3_7|",
+    "original": "<span @class=\"($lastOptions.left isnot _leftOptions or _leftGold is true ?'gold':'')\">Your left hand is <<if $NPCList[$lefttarget].chastity.penis.includes(\"chastity\")>>teasing<<else>>stroking<</if>> <<combatpersons>> <<npcPenisSimple $lefttarget>><<if $NPCList[$lefttarget].chastity.penis.includes(\"chastity\")>> through <<his>> $NPCList[$lefttarget].chastity.penis<</if>> with your $currentSexToyLeft.name.</span>",
+    "translation": "",
+    "pos": 17227
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "379_5_3_7|",
+    "original": "<span @class=\"($lastOptions.left isnot _leftOptions or _leftGold is true ?'gold':'')\">Your left hand fucks <<combatpersons>> <<npcPenisSimple $lefttarget>> with the $currentSexToyLeft.name.</span>",
+    "translation": "",
+    "pos": 17730
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "437_5_3_7|",
+    "original": "<<case \"spray\">>Remaining: $spray / $spraymax",
+    "translation": "",
+    "pos": 20063
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "514_5_3_7|",
+    "original": "<<if $NPCList[$lefttarget].chastity.penis.includes(\"chastity\")>>",
+    "translation": "",
+    "pos": 22563
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "528_5_3_7|",
+    "original": "<<if $NPCList[$lefttarget].chastity.vagina.includes(\"chastity\")>>",
+    "translation": "",
+    "pos": 23269
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "584_5_3_7|",
+    "original": "<<if $NPCList[$lefttarget].vagina is 0>>",
+    "translation": "",
+    "pos": 25995
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "590_5_3_7|",
+    "original": "<<if $NPCList[$lefttarget].vagina is \"leftDildo\">>",
+    "translation": "",
+    "pos": 26491
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "595_5_3_7|",
+    "original": "<<if $NPCList[$lefttarget].vagina is 0 or $NPCList[$lefttarget].penis is 0>>",
+    "translation": "",
+    "pos": 26817
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "600_5_3_7|",
+    "original": "<<if $NPCList[$lefttarget].vagina is \"leftDildoAnus\" or $NPCList[$lefttarget].penis is \"leftDildoAnus\">>",
+    "translation": "",
+    "pos": 27169
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "605_5_3_7|",
+    "original": "<<if $NPCList[$lefttarget].penis is 0 or $NPCList[$lefttarget].penis is \"leftStroker\">>",
+    "translation": "",
+    "pos": 27553
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "610_5_3_7|",
+    "original": "<<if $NPCList[$lefttarget].penis is \"leftStroker\">>",
+    "translation": "",
+    "pos": 27922
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "623_5_3_7|",
+    "original": "<span class=\"lewd\">Your right arm is free, but you can't stop the spasms.</span>",
+    "translation": "",
+    "pos": 28385
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "626_5_3_7|",
+    "original": "<span class=\"red\">Your right arm is free, but hurts to move.</span>",
+    "translation": "",
+    "pos": 28574
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "629_5_3_7|",
+    "original": "<span class=\"pink\">Your right arm is free, but doesn't feel real.</span>",
+    "translation": "",
+    "pos": 28734
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "632_5_3_7|",
+    "original": "Your right arm is free, <span class=\"pink\">but not under your control.</span>",
+    "translation": "",
+    "pos": 28877
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "641_5_3_7|",
+    "original": "<span @class=\"($lastOptions.right isnot _rightOptions or _rightGold is true ?'gold':'')\">Your right hand is free.</span>",
+    "translation": "",
+    "pos": 29300
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "652_5_3_7|",
+    "original": "<span @class=\"($lastOptions.right isnot _rightOptions or _rightGold is true ?'gold':'')\"><<selectNpcWithPartInPosition \"penis\" \"rightarm\">><<set $righttarget to $index>>Your right hand is <<if $NPCList[$index].chastity.penis.includes(\"chastity\")>>teasing<<else>>holding<</if>> <<personselect $index>><<combatpersons>> $NPCList[$index].penisdesc<<if $NPCList[$index].chastity.penis.includes(\"chastity\")>> through <<his>> $NPCList[$index].chastity.penis<</if>>.</span>",
+    "translation": "",
+    "pos": 29752
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "656_5_3_7|",
+    "original": "<span class=\"lewd\">Your right arm jerks against their grip.</span>",
+    "translation": "",
+    "pos": 30314
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "659_5_3_7|",
+    "original": "<span class=\"red\">Your right arm is held in a painful grip.</span>",
+    "translation": "",
+    "pos": 30478
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "662_5_3_7|",
+    "original": "<span class=\"pink\">Your right arm lies limp in their grip.</span>",
+    "translation": "",
+    "pos": 30624
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "665_5_3_7|",
+    "original": "Your right arm writhes in their grip, unbidden.",
+    "translation": "",
+    "pos": 30765
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "668_5_3_7|",
+    "original": "<span @class=\"($lastOptions.right isnot _rightOptions or _rightGold is true ?'gold':'')\">Your right arm is being held down.</span>",
+    "translation": "",
+    "pos": 30869
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "673_5_3_7|",
+    "original": "<span class=\"lewd\">Your right arm jerks against its bonds.</span>",
+    "translation": "",
+    "pos": 31102
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "675_5_3_7|",
+    "original": "<span class=\"red\">Your right arm is held in a painful bind.</span>",
+    "translation": "",
+    "pos": 31224
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "677_5_3_7|",
+    "original": "<span class=\"pink\">Your right arm lies limp in its bonds.</span>",
+    "translation": "",
+    "pos": 31329
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "679_5_3_7|",
+    "original": "Your right arm writhes in its bounds, unbidden.",
+    "translation": "",
+    "pos": 31423
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "681_5_3_7|",
+    "original": "<span @class=\"($lastOptions.right isnot _rightOptions or _rightGold is true ?'gold':'')\">Your arms are helplessly bound.</span>",
+    "translation": "",
+    "pos": 31487
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "685_5_3_7|",
+    "original": "<span @class=\"($lastOptions.right isnot _rightOptions or _rightGold is true ?'gold':'')\"><<selectNpcWithPartInPosition \"vagina\" \"rightarm\">><<set $righttarget to $index>>Your right hand is <<if $NPCList[$index].chastity.vagina.includes(\"chastity\")>>teasing<<else>>stroking<</if>> <<combatpersons>> pussy<<if $NPCList[$index].chastity.vagina.includes(\"chastity\")>> through <<his>> $NPCList[$index].chastity.vagina<</if>>.</span>",
+    "translation": "",
+    "pos": 31690
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "688_5_3_7|",
+    "original": "<span @class=\"($lastOptions.right isnot _rightOptions or _rightGold is true ?'gold':'')\">Your right hand is protecting your <<pussy>>.</span>",
+    "translation": "",
+    "pos": 32183
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "691_5_3_7|",
+    "original": "<span @class=\"($lastOptions.right isnot _rightOptions or _rightGold is true ?'gold':'')\">Your right hand is protecting your <<penis>>.</span>",
+    "translation": "",
+    "pos": 32393
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "694_5_3_7|",
+    "original": "<span @class=\"($lastOptions.right isnot _rightOptions or _rightGold is true ?'gold':'')\">Your right hand is protecting your <<bottom>>.</span>",
+    "translation": "",
+    "pos": 32595
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "697_5_3_7|",
+    "original": "<span @class=\"($lastOptions.right isnot _rightOptions or _rightGold is true ?'gold':'')\">Your right hand is behind your back.</span>",
+    "translation": "",
+    "pos": 32798
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "700_5_3_7|",
+    "original": "<span @class=\"($lastOptions.right isnot _rightOptions or _rightGold is true ?'gold':'')\">Your right hand is being held.</span>",
+    "translation": "",
+    "pos": 32995
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "709_5_3_7|",
+    "original": "<span @class=\"($lastOptions.right isnot _rightOptions or _rightGold is true ?'gold':'')\">Your right hand is holding the $currentSexToyRight.name.</span>",
+    "translation": "",
+    "pos": 33443
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "719_5_3_7|",
+    "original": "<span @class=\"($lastOptions.right isnot _rightOptions or _rightGold is true ?'gold':'')\">Your right hand is holding the <<print $currentSexToyRight.name>> above your <<pussy>>.</span>",
+    "translation": "",
+    "pos": 33909
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "722_5_3_7|",
+    "original": "<span @class=\"($lastOptions.right isnot _rightOptions or _rightGold is true ?'gold':'')\">Your right hand fucks your <<pussy>> with the <<print $currentSexToyRight.name>>.</span>",
+    "translation": "",
+    "pos": 34169
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "725_5_3_7|",
+    "original": "<span @class=\"($lastOptions.right isnot _rightOptions or _rightGold is true ?'gold':'')\">Your right hand is holding the <<print $currentSexToyRight.name>> above your anus.</span>",
+    "translation": "",
+    "pos": 34437
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "728_5_3_7|",
+    "original": "<span @class=\"($lastOptions.right isnot _rightOptions or _rightGold is true ?'gold':'')\">Your right hand fucks your <<bottom>> with the <<print $currentSexToyRight.name>>.</span>",
+    "translation": "",
+    "pos": 34692
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "731_5_3_7|",
+    "original": "<span @class=\"($lastOptions.right isnot _rightOptions or _rightGold is true ?'gold':'')\">Your right hand is holding the <<print $currentSexToyRight.name>> above your <<penisSimple>>.</span>",
+    "translation": "",
+    "pos": 34967
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "734_5_3_7|",
+    "original": "<span @class=\"($lastOptions.right isnot _rightOptions or _rightGold is true ?'gold':'')\">Your right hand fucks your <<penisSimple>> with the <<print $currentSexToyRight.name>></span>",
+    "translation": "",
+    "pos": 35237
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "737_5_3_7|",
+    "original": "<span @class=\"($lastOptions.right isnot _rightOptions or _rightGold is true ?'gold':'')\">Your right hand is <<if $NPCList[$righttarget].chastity.vagina.includes(\"chastity\")>>teasing<<else>>stroking<</if>> <<combatpersons>> pussy<<if $NPCList[$righttarget].chastity.vagina.includes(\"chastity\")>> through <<his>> $NPCList[$righttarget].chastity.vagina<</if>> with your $currentSexToyRight.name.</span>",
+    "translation": "",
+    "pos": 35508
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "740_5_3_7|",
+    "original": "<span @class=\"($lastOptions.right isnot _rightOptions or _rightGold is true ?'gold':'')\"><<selectNpcWithPartInPosition \"vagina\" \"rightDildo\">><<set $righttarget to $index>>Your right hand fucks <<combatpersons>> pussy with the $currentSexToyRight.name.</span>",
+    "translation": "",
+    "pos": 35994
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "743_5_3_7|",
+    "original": "<span @class=\"($lastOptions.right isnot _rightOptions or _rightGold is true ?'gold':'')\">Your right hand is <<if $NPCList[$righttarget].chastity.vagina.includes(\"chastity\")>>teasing<<else>>stroking<</if>> <<combatpersons>> ass<<if $NPCList[$righttarget].chastity.vagina.includes(\"chastity\")>> through <<his>> $NPCList[$righttarget].chastity.vagina<</if>> with your $currentSexToyRight.name.</span>",
+    "translation": "",
+    "pos": 36340
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "746_5_3_7|",
+    "original": "<span @class=\"($lastOptions.right isnot _rightOptions or _rightGold is true ?'gold':'')\"><<selectNpcWithPartInPositionAnus \"rightDildoAnus\">><<set $righttarget to $index>>Your right hand fucks <<combatpersons>> ass with the $currentSexToyRight.name.</span>",
+    "translation": "",
+    "pos": 36822
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "749_5_3_7|",
+    "original": "<span @class=\"($lastOptions.right isnot _rightOptions or _rightGold is true ?'gold':'')\">Your right hand is <<if $NPCList[$righttarget].chastity.penis.includes(\"chastity\")>>teasing<<else>>stroking<</if>> <<combatpersons>> <<npcPenisSimple $righttarget>><<if $NPCList[$righttarget].chastity.penis.includes(\"chastity\")>> through <<his>> $NPCList[$righttarget].chastity.penis<</if>> with your $currentSexToyRight.name.</span>",
+    "translation": "",
+    "pos": 37171
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "752_5_3_7|",
+    "original": "<span @class=\"($lastOptions.right isnot _rightOptions or _rightGold is true ?'gold':'')\">Your right hand fucks <<combatpersons>> <<npcPenisSimple $righttarget>> with the $currentSexToyRight.name.</span>",
+    "translation": "",
+    "pos": 37684
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "810_5_3_7|",
+    "original": "<<case \"spray\">>Remaining: $spray / $spraymax",
+    "translation": "",
+    "pos": 40057
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "887_5_3_7|",
+    "original": "<<if $NPCList[$righttarget].chastity.penis.includes(\"chastity\")>>",
+    "translation": "",
+    "pos": 42610
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "901_5_3_7|",
+    "original": "<<if $NPCList[$righttarget].chastity.vagina.includes(\"chastity\")>>",
+    "translation": "",
+    "pos": 43329
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "957_5_3_7|",
+    "original": "<<if $NPCList[$righttarget].vagina is 0>>",
+    "translation": "",
+    "pos": 46083
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "963_5_3_7|",
+    "original": "<<if $NPCList[$righttarget].vagina is \"rightDildo\">>",
+    "translation": "",
+    "pos": 46588
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "968_5_3_7|",
+    "original": "<<if $NPCList[$righttarget].vagina is 0 or $NPCList[$righttarget].penis is 0>>",
+    "translation": "",
+    "pos": 46922
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "973_5_3_7|",
+    "original": "<<if $NPCList[$righttarget].vagina is \"rightDildoAnus\" or $NPCList[$righttarget].penis is \"rightDildoAnus\">>",
+    "translation": "",
+    "pos": 47282
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "978_5_3_7|",
+    "original": "<<if $NPCList[$righttarget].penis is 0 or $NPCList[$righttarget].penis is \"rightstroker\">>",
+    "translation": "",
+    "pos": 47676
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "983_5_3_7|",
+    "original": "<<if $NPCList[$righttarget].penis is \"rightstroker\">>",
+    "translation": "",
+    "pos": 48054
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "997_5_3_7|",
+    "original": "Your legs are free, <span class=\"pink\">but you can't feel them beneath you.</span>",
+    "translation": "",
+    "pos": 48615
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1000_5_3_7|",
+    "original": "<span class=\"lewd\">Your legs are free, but you can't stop the spasms.</span>",
+    "translation": "",
+    "pos": 48774
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1012_5_3_7|",
+    "original": "<span @class=\"($lastOptions.feet isnot _feetOptions ?'gold':'')\">Your legs are free.</span>",
+    "translation": "",
+    "pos": 49348
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1015_5_3_7|",
+    "original": "<span @class=\"($lastOptions.feet isnot _feetOptions ?'gold':'')\">Your left leg is free.</span>",
+    "translation": "",
+    "pos": 49517
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1018_5_3_7|",
+    "original": "<span @class=\"($lastOptions.feet isnot _feetOptions ?'gold':'')\">Your right leg is free.</span>",
+    "translation": "",
+    "pos": 49691
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1021_5_3_7|",
+    "original": "<span @class=\"($lastOptions.feet isnot _feetOptions ?'gold':'')\">Your legs are entangled and forced apart, leaving you less able to protect your <<genitals>>.</span>",
+    "translation": "",
+    "pos": 49901
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1024_5_3_7|",
+    "original": "<span @class=\"($lastOptions.feet isnot _feetOptions ?'gold':'')\">Your legs are bound and forced apart, leaving you less able to protect your <<genitals>>.</span>",
+    "translation": "",
+    "pos": 50172
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1027_5_3_7|",
+    "original": "<span @class=\"($lastOptions.feet isnot _feetOptions or _feetGold is true ?'gold':'')\">Your feet are free.</span>",
+    "translation": "",
+    "pos": 50391
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1039_5_3_7|",
+    "original": "<span @class=\"($lastOptions.feet isnot _feetOptions or _feetGold is true ?'gold':'')\"><<selectNpcWithPartInPosition \"penis\" \"feet\">><<set $feettarget to $index>>Your feet are <<if $NPCList[$feettarget].chastity.penis.includes(\"chastity\")>>pressed against<<else>>holding<</if>> <<combatpersons>> <<npcPenis $feettarget>>.</span>",
+    "translation": "",
+    "pos": 50869
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1042_5_3_7|",
+    "original": "<span @class=\"($lastOptions.feet isnot _feetOptions or _feetGold is true ?'gold':'')\"><<selectNpcWithPartInPosition \"vagina\" \"feet\">><<set $feettarget to $index>>Your feet are <<if $NPCList[$feettarget].chastity.vagina.includes(\"chastity\")>>pressed against<<else>>holding back<</if>> <<combatpersons>> <<npcVagina $feettarget>>.</span>",
+    "translation": "",
+    "pos": 51269
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1045_5_3_7|",
+    "original": "Your legs thrash in their shackles, unbidden.",
+    "translation": "",
+    "pos": 51652
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1047_5_3_7|",
+    "original": "<span class=\"lewd\">Your legs thrash against their bindings.</span>",
+    "translation": "",
+    "pos": 51736
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1050_5_3_7|",
+    "original": "<span @class=\"($lastOptions.feet isnot _feetOptions or _feetGold is true ?'gold':'')\">Your legs are bound.</span>",
+    "translation": "",
+    "pos": 51858
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1054_5_3_7|",
+    "original": "<span @class=\"($lastOptions.feet isnot _feetOptions or _feetGold is true ?'gold':'')\">You are walking.</span>",
+    "translation": "",
+    "pos": 52042
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1057_5_3_7|",
+    "original": "<span @class=\"($lastOptions.feet isnot _feetOptions or _feetGold is true ?'gold':'')\">You are strutting.</span>",
+    "translation": "",
+    "pos": 52212
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1060_5_3_7|",
+    "original": "<span @class=\"($lastOptions.feet isnot _feetOptions or _feetGold is true ?'gold':'')\">You are running.</span>",
+    "translation": "",
+    "pos": 52380
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1063_5_3_7|",
+    "original": "<span @class=\"($lastOptions.feet isnot _feetOptions or _feetGold is true ?'gold':'')\">Your feet are free but unusable in this position.</span>",
+    "translation": "",
+    "pos": 52552
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1069_5_3_7|",
+    "original": "<span class=\"lewd\"><<if $position is \"missionary\">>Your legs clench around<<else>>You push back against<</if>> $NPCList[$leglocktarget].pronouns.him even harder as you climax.</span>",
+    "translation": "",
+    "pos": 52881
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1072_5_3_7|",
+    "original": "<span @class=\"($lastOptions.feet isnot _feetOptions or _feetGold is true ?'gold':'')\">Your legs are locked around <<personselect $leglocktarget>><<combatperson>>.</span>",
+    "translation": "",
+    "pos": 53123
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1129_5_3_7|",
+    "original": "<<case \"run\">><<if $NPCList[0].legs is \"run\">><<stalk_athletics_difficulty>><</if>>",
+    "translation": "",
+    "pos": 55368
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1130_5_3_7|",
+    "original": "<<case \"hide\">><<if $NPCList[0].state is \"stalk\">><<stalk_skulduggery_difficulty>><</if>>",
+    "translation": "",
+    "pos": 55454
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1162_5_3_7|",
+    "original": "<<run delete _feetaction[\"Rest\"]>>",
+    "translation": "",
+    "pos": 56166
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1165_5_3_7|",
+    "original": "<<run delete _feetaction[\"Rest\"]>>",
+    "translation": "",
+    "pos": 56244
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1170_5_3_7|",
+    "original": "<<run delete _feetaction[\"Rest\"]>>",
+    "translation": "",
+    "pos": 56430
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1187_5_3_7|",
+    "original": "<span class=\"lewd\">Your mouth is free, but involuntary moans and cries prevent speaking.</span>",
+    "translation": "",
+    "pos": 56949
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1196_5_3_7|",
+    "original": "<span class=\"red\">Your mouth is free, but involuntary sobs and cries prevent speaking.</span>",
+    "translation": "",
+    "pos": 57272
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1205_5_3_7|",
+    "original": "<span class=\"pink\">Your mouth is free, but you don't know why.</span>",
+    "translation": "",
+    "pos": 57577
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1214_5_3_7|",
+    "original": "Your mouth is free, <span class=\"pink\">but unfamiliar words spill from your tongue.</span>",
+    "translation": "",
+    "pos": 57836
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1217_5_3_7|",
+    "original": "Your mouth is blocked, muffling the foreign words that well up within you.",
+    "translation": "",
+    "pos": 58040
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1230_5_3_7|",
+    "original": "<span @class=\"($lastOptions.mouth isnot _mouthOptions or _mouthGold is true ?'gold':'')\">Your mouth is free.</span>",
+    "translation": "",
+    "pos": 58435
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1240_5_3_7|",
+    "original": "<span @class=\"($lastOptions.mouth isnot _mouthOptions or _mouthGold is true ?'gold':'')\"><<combatPersons>> pussy presses against your lips.</span>",
+    "translation": "",
+    "pos": 58926
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1246_5_3_7|",
+    "original": "<span @class=\"($lastOptions.mouth isnot _mouthOptions or _mouthGold is true ?'gold':'')\">Your mouth is about to be pressed by <<combatpersons>>.</span>",
+    "translation": "",
+    "pos": 59281
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1247_5_3_7|",
+    "original": "<<if $player.virginity.kiss is true>><span class=\"red\">Your first kiss is about to be taken.</span><</if>>",
+    "translation": "",
+    "pos": 59439
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1250_5_3_7|",
+    "original": "<span @class=\"($lastOptions.mouth isnot _mouthOptions or _mouthGold is true ?'gold':'')\">Your mouth is pressed by <<combatpersons>>.</span>",
+    "translation": "",
+    "pos": 59672
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1253_5_3_7|",
+    "original": "<span @class=\"($lastOptions.mouth isnot _mouthOptions or _mouthGold is true ?'gold':'')\">Your mouth is engulfed by <<combatpersons>>.</span>",
+    "translation": "",
+    "pos": 59922
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1262_5_3_7|",
+    "original": "<span @class=\"($lastOptions.mouth isnot _mouthOptions or _mouthGold is true ?'gold':'')\"><<facesitFlavorText>></span>",
+    "translation": "",
+    "pos": 60406
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1265_5_3_7|",
+    "original": "<span @class=\"($lastOptions.mouth isnot _mouthOptions or _mouthGold is true ?'gold':'')\">Your mouth is helplessly gagged.</span>",
+    "translation": "",
+    "pos": 60587
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1274_5_3_7|",
+    "original": "<span @class=\"($lastOptions.mouth isnot _mouthOptions or _mouthGold is true ?'gold':'')\"><<selectNpcWithPartInPosition \"penis\" \"mouthentrance\">><<set $mouthtarget to $index>><<combatPersons>> <<npcPenis $index>> hovers in front of your mouth.</span>",
+    "translation": "",
+    "pos": 60997
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1277_5_3_7|",
+    "original": "<span @class=\"($lastOptions.mouth isnot _mouthOptions or _mouthGold is true ?'gold':'')\"><<selectNpcWithPartInPosition \"penis\" \"mouthimminent\">><<set $mouthtarget to $index>><<combatPersons>> <<npcPenis $index>> presses against your lips.</span>",
+    "translation": "",
+    "pos": 61322
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1281_5_3_7|",
+    "original": "<span class=\"gold\"><<selectNpcWithPartInPosition \"penis\" \"mouth\">><<set $mouthtarget to $index>><<combatPersons>> <<npcPenis $index>> spasms in your mouth.</span>",
+    "translation": "",
+    "pos": 61695
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1283_5_3_7|",
+    "original": "<span @class=\"($lastOptions.mouth isnot _mouthOptions or _mouthGold is true ?'gold':'')\"><<selectNpcWithPartInPosition \"penis\" \"mouth\">><<set $mouthtarget to $index>><<combatPersons>> <<npcPenis $index>> penetrates your mouth.</span>",
+    "translation": "",
+    "pos": 61878
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1287_5_3_7|",
+    "original": "<span @class=\"($lastOptions.mouth isnot _mouthOptions or _mouthGold is true ?'gold':'')\">Your mouth is helplessly gagged.</span>",
+    "translation": "",
+    "pos": 62191
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1290_5_3_7|",
+    "original": "<span @class=\"($lastOptions.mouth isnot _mouthOptions or _mouthGold is true ?'gold':'')\"><<breastFlavorText>></span><<set $mouthtarget to $index>>",
+    "translation": "",
+    "pos": 62388
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1293_5_3_7|",
+    "original": "<span @class=\"($lastOptions.mouth isnot _mouthOptions or _mouthGold is true ?'gold':'')\"><<nippleFlavorText>></span><<set $mouthtarget to $index>>",
+    "translation": "",
+    "pos": 62601
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1296_5_3_7|",
+    "original": "<span @class=\"($lastOptions.mouth isnot _mouthOptions or _mouthGold is true ?'gold':'')\"><<combatPersons>> ass presses against your lips.</span>",
+    "translation": "",
+    "pos": 62906
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1305_5_3_7|",
+    "original": "<span @class=\"($lastOptions.mouth isnot _mouthOptions or _mouthGold is true ?'gold':'')\">Your mouth is blocked by <<combatpersons>> hand, muffling any noise you make.</span>",
+    "translation": "",
+    "pos": 63387
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1308_5_3_7|",
+    "original": "<span @class=\"($lastOptions.mouth isnot _mouthOptions or _mouthGold is true ?'gold':'')\">Your mouth is blocked, muffling any noise you make.</span>",
+    "translation": "",
+    "pos": 63622
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1373_5_3_7|",
+    "original": "<<option \"ethics\" \"ethics\" `$mockaction is \"ethics\" ? \"selected\" : \"\"`>>",
+    "translation": "",
+    "pos": 66484
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1374_5_3_7|",
+    "original": "<<option \"looks\" \"looks\" `$mockaction is \"looks\" ? \"selected\" : \"\"`>>",
+    "translation": "",
+    "pos": 66561
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1375_5_3_7|",
+    "original": "<<option \"strength\" \"weak\" `$mockaction is \"weak\" ? \"selected\" : \"\"`>>",
+    "translation": "",
+    "pos": 66635
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1376_5_3_7|",
+    "original": "<<option \"skill\" \"skill\" `$mockaction is \"skill\" ? \"selected\" : \"\"`>>",
+    "translation": "",
+    "pos": 66710
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1377_5_3_7|",
+    "original": "<<option \"penis\" \"penis\" `$mockaction is \"penis\" ? \"selected\" : \"\"`>>",
+    "translation": "",
+    "pos": 66784
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1378_5_3_7|",
+    "original": "<<option \"pussy\" \"vagina\" `$mockaction is \"vagina\" ? \"selected\" : \"\"`>>",
+    "translation": "",
+    "pos": 66858
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1388_5_3_7|",
+    "original": "<div id=\"askDifficulty\" @class=\"($options.combatControls is 'radio' ? '' : $_label)\" style=\"display:inline;\">",
+    "translation": "",
+    "pos": 67248
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1418_5_3_7|",
+    "original": "<<if $NPCList[$mouthtarget].mouth is 0 and $enemytype isnot \"beast\" and $NPCList[$mouthtarget].location.genitals isnot \"head\" and $consensual is 1 and !$gloryhole>>",
+    "translation": "",
+    "pos": 68360
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1483_5_3_7|",
+    "original": "<span @class=\"($lastOptions.penis isnot _penisOptions or _penisGold is true ?'gold':'')\">Your <<penis>> is free.</span>",
+    "translation": "",
+    "pos": 70811
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1493_5_3_7|",
+    "original": "<span @class=\"($lastOptions.penis isnot _penisOptions or _penisGold is true ?'gold':'')\">You feel breath on your <<penis>>.</span>",
+    "translation": "",
+    "pos": 71322
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1496_5_3_7|",
+    "original": "<span @class=\"($lastOptions.penis isnot _penisOptions or _penisGold is true ?'gold':'')\"><<combatPersons>> lips press against the tip of your <<penis>>.</span>",
+    "translation": "",
+    "pos": 71620
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1499_5_3_7|",
+    "original": "<span @class=\"($lastOptions.penis isnot _penisOptions or _penisGold is true ?'gold':'')\"><<combatPersons>> mouth envelops your <<penis>>.</span>",
+    "translation": "",
+    "pos": 71934
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1502_5_3_7|",
+    "original": "<span @class=\"($lastOptions.penis isnot _penisOptions or _penisGold is true ?'gold':'')\"><<selectNpcWithPartInPosition \"vagina\" \"penisentrance\">><<set $penistarget to $index>><<combatPersons>> <<npcVagina $penistarget>> hovers near your <<penis>>.</span>",
+    "translation": "",
+    "pos": 72151
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1505_5_3_7|",
+    "original": "<span @class=\"($lastOptions.penis isnot _penisOptions or _penisGold is true ?'gold':'')\"><<selectNpcWithPartInPosition \"vagina\" \"penisimminent\">><<set $penistarget to $index>><<combatPersons>> <<npcVagina $penistarget>> presses against your <<penis>>.</span>",
+    "translation": "",
+    "pos": 72478
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1508_5_3_7|",
+    "original": "<span @class=\"($lastOptions.penis isnot _penisOptions or _penisGold is true ?'gold':'')\"><<combatPersons>> vagina envelops your <<penis>>.</span>",
+    "translation": "",
+    "pos": 72892
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1511_5_3_7|",
+    "original": "<span @class=\"($lastOptions.penis isnot _penisOptions or _penisGold is true ?'gold':'')\"><<selectNpcWithPartInPositionAnus \"otheranusentrance\">><<set $penistarget to $index>><<combatPersons>> <<npcAnus $penistarget>> hovers near your <<penis>>.</span>",
+    "translation": "",
+    "pos": 73118
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1514_5_3_7|",
+    "original": "<span @class=\"($lastOptions.penis isnot _penisOptions or _penisGold is true ?'gold':'')\"><<selectNpcWithPartInPositionAnus \"otheranusimminent\">><<set $penistarget to $index>><<combatPersons>> <<npcAnus $penistarget>> presses against your <<penis>>.</span>",
+    "translation": "",
+    "pos": 73450
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1517_5_3_7|",
+    "original": "<span @class=\"($lastOptions.penis isnot _penisOptions or _penisGold is true ?'gold':'')\"><<combatPersons>> ass envelops your <<penis>>.</span>",
+    "translation": "",
+    "pos": 73858
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1520_5_3_7|",
+    "original": "<span @class=\"($lastOptions.penis isnot _penisOptions or _penisGold is true ?'gold':'')\"><<selectNpcWithPartInPosition \"penis\" \"penisentrance\">><<set $penistarget to $index>><<combatPersons>> <<npcPenisSimple $penistarget>> hovers near your <<penis>>.</span>",
+    "translation": "",
+    "pos": 74083
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1523_5_3_7|",
+    "original": "<span @class=\"($lastOptions.penis isnot _penisOptions or _penisGold is true ?'gold':'')\"><<selectNpcWithPartInPosition \"penis\" \"penisimminent\">><<set $penistarget to $index>><<combatPersons>> <<npcPenisSimple $penistarget>> threatens your <<penis>>.</span>",
+    "translation": "",
+    "pos": 74424
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1526_5_3_7|",
+    "original": "<span @class=\"($lastOptions.penis isnot _penisOptions or _penisGold is true ?'gold':'')\"><<selectNpcWithPartInPosition \"penis\" \"penis\">><<set $penistarget to $index>><<combatPersons>> <<npcPenisSimple $penistarget>> presses against your <<penis>>.</span>",
+    "translation": "",
+    "pos": 74758
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1529_5_3_7|",
+    "original": "<span @class=\"($lastOptions.penis isnot _penisOptions or _penisGold is true ?'gold':'')\"><<combatPersons>> fingers brush against your shaft.</span>",
+    "translation": "",
+    "pos": 75182
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1532_5_3_7|",
+    "original": "<span @class=\"($lastOptions.penis isnot _penisOptions or _penisGold is true ?'gold':'')\"><<combatPerson>> holds your penis.</span>",
+    "translation": "",
+    "pos": 75475
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1540_5_3_7|",
+    "original": "<span @class=\"($lastOptions.penis isnot _penisOptions or _penisGold is true ?'gold':'')\">Your $_stroker envelops your <<penis>>.</span>",
+    "translation": "",
+    "pos": 75909
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1543_5_3_7|",
+    "original": "<span @class=\"($lastOptions.penis isnot _penisOptions or _penisGold is true ?'gold':'')\"><<combatPersons>> stroker envelops your <<penis>>.</span>",
+    "translation": "",
+    "pos": 76174
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1552_5_3_7|",
+    "original": "<span @class=\"($lastOptions.penis isnot _penisOptions or _penisGold is true ?'gold':'')\">You press your <<penis>> against <<his>> <<if $enemytype is \"beast\">><<beasttype>> pussy<<else>>clit<</if>>.</span>",
+    "translation": "",
+    "pos": 76763
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1555_5_3_7|",
+    "original": "<span @class=\"($lastOptions.penis isnot _penisOptions or _penisGold is true ?'gold':'')\"><<selectNpcWithPartInPositionAnus \"otheranusfrot\">><<set $penistarget to $index>>You hold your <<penis>> between <<his>> ass cheeks<<if $NPCList[$penistarget].chastity.anus.includes(\"shield\")>>, teasing through <<his>> $NPCList[$penistarget].chastity.anus<</if>>.</span>",
+    "translation": "",
+    "pos": 77052
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1620_5_3_7|",
+    "original": "<<case \"forceImpregnation\">><span class=\"red\">- Demon</span>",
+    "translation": "",
+    "pos": 80203
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1695_5_3_7|",
+    "original": "<span @class=\"($lastOptions.vagina isnot _vaginaOptions ?'gold':'')\">Your <<pussy>> is free.</span>",
+    "translation": "",
+    "pos": 82638
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1705_5_3_7|",
+    "original": "<span @class=\"($lastOptions.vagina isnot _vaginaOptions or _vaginaGold is true ?'gold':'')\">You feel breath on your <<pussy>>.</span>",
+    "translation": "",
+    "pos": 83133
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1708_5_3_7|",
+    "original": "<span @class=\"($lastOptions.vagina isnot _vaginaOptions or _vaginaGold is true ?'gold':'')\"><<combatPersons>> lips press against your labia.</span>",
+    "translation": "",
+    "pos": 83437
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1711_5_3_7|",
+    "original": "<span @class=\"($lastOptions.vagina isnot _vaginaOptions or _vaginaGold is true ?'gold':'')\"><<combatPersons>> tongue penetrates your <<pussy>>.</span>",
+    "translation": "",
+    "pos": 83741
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1714_5_3_7|",
+    "original": "<span @class=\"($lastOptions.vagina isnot _vaginaOptions or _vaginaGold is true ?'gold':'')\"><<selectNpcWithPartInPosition \"penis\" \"vaginaentrance\">><<set $vaginatarget to $index>><<combatPersons>> <<npcPenis $vaginatarget>> hovers near your <<pussy>>.</span>",
+    "translation": "",
+    "pos": 83965
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1727_5_3_7|",
+    "original": "<span @class=\"($lastOptions.vagina isnot _vaginaOptions or _vaginaGold is true ?'gold':'')\"><<selectNpcWithPartInPosition \"penis\" \"vaginaimminent\">><<set $vaginatarget to $index>><<combatPersons>> <<npcPenis $vaginatarget>> presses against your <<pussy>>.</span>",
+    "translation": "",
+    "pos": 84696
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1740_5_3_7|",
+    "original": "<span @class=\"($lastOptions.vagina isnot _vaginaOptions or _vaginaGold is true ?'gold':'')\"><<selectNpcWithPartInPosition \"penis\" \"vagina\">><<set $vaginatarget to $index>><<combatPersons>> <<npcPenis $vaginatarget>> penetrates your <<pussy>>.</span>",
+    "translation": "",
+    "pos": 85435
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1753_5_3_7|",
+    "original": "<span @class=\"($lastOptions.vagina isnot _vaginaOptions or _vaginaGold is true ?'gold':'')\"><<combatPersons>> pussy hovers near yours.</span>",
+    "translation": "",
+    "pos": 86257
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1756_5_3_7|",
+    "original": "<span @class=\"($lastOptions.vagina isnot _vaginaOptions or _vaginaGold is true ?'gold':'')\"><<combatPersons>> pussy threatens yours.</span>",
+    "translation": "",
+    "pos": 86572
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1759_5_3_7|",
+    "original": "<span @class=\"($lastOptions.vagina isnot _vaginaOptions or _vaginaGold is true ?'gold':'')\"><<combatPersons>> pussy presses against yours.</span>",
+    "translation": "",
+    "pos": 86871
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1764_5_3_7|",
+    "original": "<<if $NPCList[$vaginatarget].penis is \"vaginaentrancedouble\" and $NPCList[$vaginadoubletarget].penis is \"vaginaentrancedouble\">>",
+    "translation": "",
+    "pos": 87338
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1765_5_3_7|",
+    "original": "<span @class=\"($lastOptions.vagina isnot _vaginaOptions or _vaginaGold is true ?'gold':'')\">Their cocks hover near your <<pussy>>.</span>",
+    "translation": "",
+    "pos": 87472
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1767_5_3_7|",
+    "original": "<span @class=\"($lastOptions.vagina isnot _vaginaOptions or _vaginaGold is true ?'gold':'')\">",
+    "translation": "",
+    "pos": 87865
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1768_5_3_7|",
+    "original": "<<personselect $_npcA>><<combatPersons>> <<npcPenisSimple $_npcA>> presses against your ?vulva while <<personselect $_npcB>><<combatpersons>> <<npcPenisSimple $_npcB>> hovers nearby.",
+    "translation": "",
+    "pos": 87963
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1771_5_3_7|",
+    "original": "<span @class=\"($lastOptions.vagina isnot _vaginaOptions or _vaginaGold is true ?'gold':'')\">Their cocks hover near your <<pussy>>.</span>",
+    "translation": "",
+    "pos": 88177
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1777_5_3_7|",
+    "original": "<<if $NPCList[$vaginatarget].penis is \"vaginaimminentdouble\" and $NPCList[$vaginadoubletarget].penis is \"vaginaimminentdouble\">>",
+    "translation": "",
+    "pos": 88648
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1778_5_3_7|",
+    "original": "<span @class=\"($lastOptions.vagina isnot _vaginaOptions or _vaginaGold is true ?'gold':'')\">Their cocks press against your <<pussy>>.</span>",
+    "translation": "",
+    "pos": 88782
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1780_5_3_7|",
+    "original": "<span @class=\"($lastOptions.vagina isnot _vaginaOptions or _vaginaGold is true ?'gold':'')\">",
+    "translation": "",
+    "pos": 89178
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1781_5_3_7|",
+    "original": "<<personselect $_npcA>><<combatPersons>> <<npcPenisSimple $_npcA>> penetrates your vagina while <<personselect $_npcB>><<combatpersons>> <<npcPenisSimple $_npcB>> presses against your ?vulva.",
+    "translation": "",
+    "pos": 89276
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1784_5_3_7|",
+    "original": "<span @class=\"($lastOptions.vagina isnot _vaginaOptions or _vaginaGold is true ?'gold':'')\">",
+    "translation": "",
+    "pos": 89499
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1785_5_3_7|",
+    "original": "<<personselect $_npcA>><<combatPersons>> <<npcPenisSimple $_npcA>> presses against your ?vulva while <<personselect $_npcB>><<combatpersons>> <<npcPenisSimple $_npcB>> hovers nearby.",
+    "translation": "",
+    "pos": 89597
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1792_5_3_7|",
+    "original": "<<if $NPCList[$vaginatarget].penis is \"vaginadouble\" and $NPCList[$vaginadoubletarget].penis is \"vaginadouble\">>",
+    "translation": "",
+    "pos": 90115
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1793_5_3_7|",
+    "original": "<span @class=\"($lastOptions.vagina isnot _vaginaOptions or _vaginaGold is true ?'gold':'')\">Their cocks penetrate your <<pussy>>.</span>",
+    "translation": "",
+    "pos": 90233
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1795_5_3_7|",
+    "original": "<span @class=\"($lastOptions.vagina isnot _vaginaOptions or _vaginaGold is true ?'gold':'')\">",
+    "translation": "",
+    "pos": 90625
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1796_5_3_7|",
+    "original": "<<personselect $_npcA>><<combatPersons>> <<npcPenisSimple $_npcA>> penetrates your vagina while <<personselect $_npcB>><<combatpersons>> <<npcPenisSimple $_npcB>> presses against your ?vulva.",
+    "translation": "",
+    "pos": 90723
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1799_5_3_7|",
+    "original": "<span @class=\"($lastOptions.vagina isnot _vaginaOptions or _vaginaGold is true ?'gold':'')\">",
+    "translation": "",
+    "pos": 90946
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1800_5_3_7|",
+    "original": "<<personselect $_npcA>><<combatPersons>> <<npcPenisSimple $_npcA>> penetrates your vagina while the other hovers nearby.",
+    "translation": "",
+    "pos": 91044
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1805_5_3_7|",
+    "original": "<span @class=\"($lastOptions.vagina isnot _vaginaOptions or _vaginaGold is true ?'gold':'')\"><<combatPersons>> fingers press against your ?vulva.</span>",
+    "translation": "",
+    "pos": 91362
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1808_5_3_7|",
+    "original": "<span @class=\"($lastOptions.vagina isnot _vaginaOptions or _vaginaGold is true ?'gold':'')\"><<combatPerson>> fingers your pussy.</span>",
+    "translation": "",
+    "pos": 91670
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1876_5_3_7|",
+    "original": "<<case \"forceImpregnation\">><span class=\"red\">- Demon</span>",
+    "translation": "",
+    "pos": 94906
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1939_5_3_7|",
+    "original": "<span @class=\"($lastOptions.anus isnot _anusOptions or _anusGold ?'gold':'')\">You press your <<bottom>> against <<combatpersons>> face.</span>",
+    "translation": "",
+    "pos": 97012
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1942_5_3_7|",
+    "original": "<span @class=\"($lastOptions.anus isnot _anusOptions or _anusGold ?'gold':'')\">You hold <<combatpersons>> <<npcPenis $anustarget>> between your buttocks.</span>",
+    "translation": "",
+    "pos": 97316
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1945_5_3_7|",
+    "original": "<span @class=\"($lastOptions.anus isnot _anusOptions or _anusGold ?'gold':'')\">You rub your clenched buttcheeks against <<combatpersons>> hand.</span>",
+    "translation": "",
+    "pos": 97634
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1953_5_3_7|",
+    "original": "<span @class=\"($lastOptions.anus isnot _anusOptions or _anusGold ?'gold':'')\">Your <<bottom>> is free.</span>",
+    "translation": "",
+    "pos": 98012
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1963_5_3_7|",
+    "original": "<span @class=\"($lastOptions.anus isnot _anusOptions or _anusGold ?'gold':'')\">You feel breath on your <<bottom>>.</span>",
+    "translation": "",
+    "pos": 98518
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1966_5_3_7|",
+    "original": "<span @class=\"($lastOptions.anus isnot _anusOptions or _anusGold ?'gold':'')\"><<combatPersons>> lips press against your anus<<andButtPlug>>.</span>",
+    "translation": "",
+    "pos": 98806
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1969_5_3_7|",
+    "original": "<span @class=\"($lastOptions.anus isnot _anusOptions or _anusGold ?'gold':'')\"><<combatPersons>> tongue penetrates your <<bottom>>.</span>",
+    "translation": "",
+    "pos": 99108
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1972_5_3_7|",
+    "original": "<span @class=\"($lastOptions.anus isnot _anusOptions or _anusGold ?'gold':'')\">You feel <<combatpersons>> hand on your <<bottom>>.</span>",
+    "translation": "",
+    "pos": 99405
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1975_5_3_7|",
+    "original": "<span @class=\"($lastOptions.anus isnot _anusOptions or _anusGold ?'gold':'')\"><<combatPersons>> finger penetrates your <<bottom>>.</span>",
+    "translation": "",
+    "pos": 99688
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1978_5_3_7|",
+    "original": "<span @class=\"($lastOptions.anus isnot _anusOptions or _anusGold ?'gold':'')\"><<combatPersons>> <<npcPenis $anustarget>> hovers near your <<bottom>><<andButtPlug>>.</span>",
+    "translation": "",
+    "pos": 99983
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1991_5_3_7|",
+    "original": "<span @class=\"($lastOptions.anus isnot _anusOptions or _anusGold ?'gold':'')\"><<combatPersons>> <<npcPenis $anustarget>> presses against your anus<<andButtPlug>>.</span>",
+    "translation": "",
+    "pos": 100710
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "1994_5_3_7|",
+    "original": "<span @class=\"($lastOptions.anus isnot _anusOptions or _anusGold ?'gold':'')\"><<combatPersons>> <<npcPenisSimple $anustarget>> penetrates your anus.</span>",
+    "translation": "",
+    "pos": 101034
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2007_5_3_7|",
+    "original": "<<if $NPCList[$anustarget].penis is \"anusentrancedouble\" and $NPCList[$anusdoubletarget].penis is \"anusentrancedouble\">>",
+    "translation": "",
+    "pos": 101674
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2008_5_3_7|",
+    "original": "<span @class=\"($lastOptions.anus isnot _anusOptions or _anusGold ?'gold':'')\">Their cocks hover near your <<bottom>><<andButtPlug>>.</span>",
+    "translation": "",
+    "pos": 101801
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2011_5_3_7|",
+    "original": "<span @class=\"($lastOptions.anus isnot _anusOptions or _anusGold ?'gold':'')\"><<combatPersons>> <<npcPenisSimple $anusdoubletarget>> penetrates your anus while the other penis hovers nearby.</span>",
+    "translation": "",
+    "pos": 102241
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2013_5_3_7|",
+    "original": "<span @class=\"($lastOptions.anus isnot _anusOptions or _anusGold ?'gold':'')\">Their cocks hover near your <<bottom>><<andButtPlug>>.</span>",
+    "translation": "",
+    "pos": 102459
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2017_5_3_7|",
+    "original": "<<if $NPCList[$anustarget].penis is \"anusimminentdouble\" and $NPCList[$anusdoubletarget].penis is \"anusimminentdouble\">>",
+    "translation": "",
+    "pos": 102698
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2018_5_3_7|",
+    "original": "<span @class=\"($lastOptions.anus isnot _anusOptions or _anusGold ?'gold':'')\">Their cocks press against your anus<<andButtPlug>>.</span>",
+    "translation": "",
+    "pos": 102825
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2021_5_3_7|",
+    "original": "<span @class=\"($lastOptions.anus isnot _anusOptions or _anusGold ?'gold':'')\"><<combatPersons>> <<npcPenisSimple $anusdoubletarget>> penetrates your anus while the other penis presses against the entrance.</span>",
+    "translation": "",
+    "pos": 103262
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2023_5_3_7|",
+    "original": "<span @class=\"($lastOptions.anus isnot _anusOptions or _anusGold ?'gold':'')\">Their cocks press against your anus<<andButtPlug>>.</span>",
+    "translation": "",
+    "pos": 103495
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2027_5_3_7|",
+    "original": "<<if $NPCList[$anustarget].penis is \"anusdouble\" and $NPCList[$anusdoubletarget].penis is \"anusdouble\">>",
+    "translation": "",
+    "pos": 103736
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2028_5_3_7|",
+    "original": "<span @class=\"($lastOptions.anus isnot _anusOptions or _anusGold ?'gold':'')\">Their cocks penetrate your anus.</span>",
+    "translation": "",
+    "pos": 103847
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2031_5_3_7|",
+    "original": "<span @class=\"($lastOptions.anus isnot _anusOptions or _anusGold ?'gold':'')\"><<combatPersons>> cock penetrates your anus while the other hovers nearby.</span>",
+    "translation": "",
+    "pos": 104038
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2102_5_3_7|",
+    "original": "<<case \"forceImpregnation\">><span class=\"red\">- Demon</span>",
+    "translation": "",
+    "pos": 107282
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2161_5_3_7|",
+    "original": "<span @class=\"($lastOptions.chest isnot _chestOptions ?'gold':'')\"><<combatPersons>> <<npcPenisSimple $chesttarget>> rests <<print ($player.breastsize is 0 ?\"against\":\"between\")>> your <<breasts>>.</span>",
+    "translation": "",
+    "pos": 109219
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2223_5_3_7|",
+    "original": "<span @class=\"($lastOptions.thigh isnot _thighOptions ?'gold':'')\">You press your thigh against <<combatpersons>> mouth.</span>",
+    "translation": "",
+    "pos": 111259
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2226_5_3_7|",
+    "original": "<span @class=\"($lastOptions.thigh isnot _thighOptions ?'gold':'')\">You hold <<combatpersons>> penis between your thighs.</span>",
+    "translation": "",
+    "pos": 111523
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2283_5_3_7|",
+    "original": "<<set $lastOptions to {",
+    "translation": "",
+    "pos": 113209
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2300_5_3_7|",
+    "original": "<<if $NPCList.some( x => Object.values(x).includes(\"active\"))>>",
+    "translation": "",
+    "pos": 113506
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2303_5_3_7|",
+    "original": "<<if $NPCList[0].type isnot \"human\" and $NPCList[0].type isnot \"plant\">>",
+    "translation": "",
+    "pos": 113688
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2314_5_3_7|",
+    "original": "<<if $NPCList[_namecontroller].fullDescription is \"Ivory Wraith\">>",
+    "translation": "",
+    "pos": 114224
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2370_5_3_7|",
+    "original": "<<if $NPCList[_namecontroller].active is \"active\" and $NPCList[_namecontroller].stance isnot \"defeated\" and $NPCList[_namecontroller].penis is 0 and !($NPCList[_namecontroller].chastity.penis.includes(\"chastity\"))>>",
+    "translation": "",
+    "pos": 116514
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2392_5_3_7|",
+    "original": "<<if $NPCList[_namecontroller].active is \"active\" and $NPCList[_namecontroller].stance isnot \"defeated\" and $NPCList[_namecontroller].vagina is 0 and !($NPCList[_namecontroller].vagina.penis.includes(\"chastity\"))>>",
+    "translation": "",
+    "pos": 117719
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2410_5_3_7|",
+    "original": "<<if _smollertext.includes(\"fifth\") is true>>",
+    "translation": "",
+    "pos": 118608
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2412_5_3_7|",
+    "original": "<<elseif _smollertext.includes(\"fourth\") is true>>",
+    "translation": "",
+    "pos": 118703
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2414_5_3_7|",
+    "original": "<<elseif _smollertext.includes(\"third\") is true>>",
+    "translation": "",
+    "pos": 118804
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2416_5_3_7|",
+    "original": "<<elseif _smollertext.includes(\"second\") is true>>",
+    "translation": "",
+    "pos": 118905
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2431_5_3_7|",
+    "original": "<span class=\"lewd\">Your left arm is free, but you can't stop the spasms.</span>",
+    "translation": "",
+    "pos": 119277
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2434_5_3_7|",
+    "original": "<span class=\"red\">Your left arm is free, but hurts to move.</span>",
+    "translation": "",
+    "pos": 119448
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2437_5_3_7|",
+    "original": "<span class=\"pink\">Your left arm is free, but doesn't feel real.</span>",
+    "translation": "",
+    "pos": 119590
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2446_5_3_7|",
+    "original": "<span @class=\"($lastOptions.left isnot _leftOptions or _leftGold is true ?'gold':'')\">Your left hand is free.</span>",
+    "translation": "",
+    "pos": 119971
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2457_5_3_7|",
+    "original": "<span @class=\"($lastOptions.left isnot _leftOptions or _leftGold is true ?'gold':'')\">Your left hand is protecting your <<pussy>>.</span>",
+    "translation": "",
+    "pos": 120389
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2460_5_3_7|",
+    "original": "<span @class=\"($lastOptions.left isnot _leftOptions or _leftGold is true ?'gold':'')\">Your left hand is protecting your <<penis>>.</span>",
+    "translation": "",
+    "pos": 120594
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2463_5_3_7|",
+    "original": "<span @class=\"($lastOptions.left isnot _leftOptions or _leftGold is true ?'gold':'')\">Your left hand is protecting your <<bottom>>.</span>",
+    "translation": "",
+    "pos": 120791
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2466_5_3_7|",
+    "original": "<span @class=\"($lastOptions.left isnot _leftOptions or _leftGold is true ?'gold':'')\">Your left hand is behind your back.</span>",
+    "translation": "",
+    "pos": 120989
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2475_5_3_7|",
+    "original": "<span @class=\"($lastOptions.left isnot _leftOptions or _leftGold is true ?'gold':'')\">Your left hand is holding the <<print $currentSexToyLeft.name>>.</span>",
+    "translation": "",
+    "pos": 121437
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2606_5_3_7|",
+    "original": "<span class=\"lewd\">Your right arm is free, but you can't stop the spasms.</span>",
+    "translation": "",
+    "pos": 126556
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2609_5_3_7|",
+    "original": "<span class=\"red\">Your right arm is free, but hurts to move.</span>",
+    "translation": "",
+    "pos": 126729
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2612_5_3_7|",
+    "original": "<span class=\"pink\">Your right arm is free, but doesn't feel real.</span>",
+    "translation": "",
+    "pos": 126873
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2621_5_3_7|",
+    "original": "<span @class=\"($lastOptions.right isnot _rightOptions or _rightGold is true ?'gold':'')\">Your right hand is free.</span>",
+    "translation": "",
+    "pos": 127257
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2632_5_3_7|",
+    "original": "<span @class=\"($lastOptions.right isnot _rightOptions or _rightGold is true ?'gold':'')\">Your right hand is protecting your <<pussy>>.</span>",
+    "translation": "",
+    "pos": 127682
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2635_5_3_7|",
+    "original": "<span @class=\"($lastOptions.right isnot _rightOptions or _rightGold is true ?'gold':'')\">Your right hand is protecting your <<penis>>.</span>",
+    "translation": "",
+    "pos": 127892
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2638_5_3_7|",
+    "original": "<span @class=\"($lastOptions.right isnot _rightOptions or _rightGold is true ?'gold':'')\">Your right hand is protecting your <<bottom>>.</span>",
+    "translation": "",
+    "pos": 128094
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2641_5_3_7|",
+    "original": "<span @class=\"($lastOptions.right isnot _rightOptions or _rightGold is true ?'gold':'')\">Your right hand is behind your back.</span>",
+    "translation": "",
+    "pos": 128297
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2650_5_3_7|",
+    "original": "<span @class=\"($lastOptions.right isnot _rightOptions or _rightGold is true ?'gold':'')\">Your right hand is holding the $currentSexToyRight.name.</span>",
+    "translation": "",
+    "pos": 128751
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2784_5_3_7|",
+    "original": "<span @class=\"($lastOptions.feet isnot _feetOptions or _feetGold is true ?'gold':'')\">Your feet are free.</span>",
+    "translation": "",
+    "pos": 134252
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2867_5_3_7|",
+    "original": "<span @class=\"combatListColor('', _valueC, _args[3])\"><<print _labelC>></span>",
+    "translation": "",
+    "pos": 137421
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2879_5_3_7|",
+    "original": "<span @id=\"_name + 'Select'\" @class=\"_args[2] + 'List flavorText'\">",
+    "translation": "",
+    "pos": 137845
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2896_5_3_7|",
+    "original": "<<if $NPCList[0].pronoun is \"m\">>",
+    "translation": "",
+    "pos": 138263
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2899_5_3_7|",
+    "original": "<<if $NPCList[0].pronoun is \"f\">>",
+    "translation": "",
+    "pos": 138336
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2902_5_3_7|",
+    "original": "<<if $NPCList[0].pronoun is \"i\">>",
+    "translation": "",
+    "pos": 138409
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2905_5_3_7|",
+    "original": "<<if $NPCList[0].pronoun is \"n\">>",
+    "translation": "",
+    "pos": 138482
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2908_5_3_7|",
+    "original": "<<if $NPCList[0].pronoun is \"t\">>",
+    "translation": "",
+    "pos": 138555
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2917_5_3_7|",
+    "original": "<i>As you gain focus, you become more and more likely to escape your helpless state of dissociation.</i>",
+    "translation": "",
+    "pos": 138748
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2923_5_3_7|",
+    "original": "<span class=\"green\">Your lucidity returns.</span>",
+    "translation": "",
+    "pos": 139034
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2926_5_3_7|",
+    "original": "<span class=\"red\">The weight of reality crashes down on you.</span>",
+    "translation": "",
+    "pos": 139107
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2946_5_3_7|",
+    "original": "| <label>Roll over <<radiobutton \"$bodyaction\" \"missionary\">></label>",
+    "translation": "",
+    "pos": 139759
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2948_5_3_7|",
+    "original": "| <label>Roll over <<radiobutton \"$bodyaction\" \"doggy\">></label>",
+    "translation": "",
+    "pos": 139875
+  },
+  {
+    "passage": "Widgets Actions Generation",
+    "filepath": "base-combat/actionsGeneration.twee",
+    "key": "2951_5_3_7|",
+    "original": "| <label>Rest <<radiobutton \"$bodyaction\" \"rest\" checked>></label>",
+    "translation": "",
+    "pos": 139992
+  }
+]

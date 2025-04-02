@@ -1,0 +1,2074 @@
+[
+  {
+    "passage": "Widgets Actions Left Hand",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "130_5_3_7|",
+    "original": "<<if $consensual isnot 1 and $spray gte 1 and $NPCList.some(npc => npc.health >= 0 && (!$fightTargets || $fightTargets.includes(npc.index)))>>",
+    "translation": "",
+    "pos": 7059
+  },
+  {
+    "passage": "Widgets Actions Left Hand",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "165_5_3_7|",
+    "original": "<<if $NPCList[$lefttarget].lefthand is \"shackle_entrance\" or $NPCList[$lefttarget].lefthand is \"shackle_imminent\" or $NPCList[$lefttarget].righthand is \"shackle_entrance\" or $NPCList[$lefttarget].righthand is \"shackle_imminent\">>",
+    "translation": "",
+    "pos": 8814
+  },
+  {
+    "passage": "Widgets Actions Left Hand",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "182_5_3_7|",
+    "original": "<<if $NPCList[$lefttarget].lefthand is \"dildo\" or $NPCList[$lefttarget].righthand is \"dildo\">>",
+    "translation": "",
+    "pos": 9644
+  },
+  {
+    "passage": "Widgets Actions Left Hand",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "194_5_3_7|",
+    "original": "<<if $NPCList[0].state is \"stalk\" and $NPCList[0].legs isnot \"run\">>",
+    "translation": "",
+    "pos": 10297
+  },
+  {
+    "passage": "Widgets Actions Left Hand",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "220_5_3_7|",
+    "original": "<<if $NPCList[0].state is \"stalk\" and $NPCList[0].legs isnot \"run\">>",
+    "translation": "",
+    "pos": 11709
+  },
+  {
+    "passage": "Widgets Actions Left Hand",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "248_5_3_7|",
+    "original": "<<if $NPCList[0].state is \"stalk\" and $NPCList[0].legs isnot \"run\">>",
+    "translation": "",
+    "pos": 13000
+  },
+  {
+    "passage": "Widgets Actions Right Hand",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "518_5_3_7|",
+    "original": "<<if $consensual isnot 1 and $spray gte 1 and $NPCList.some(npc => npc.health >= 0 && (!$fightTargets || $fightTargets.includes(npc.index)))>>",
+    "translation": "",
+    "pos": 7130
+  },
+  {
+    "passage": "Widgets Actions Right Hand",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "553_5_3_7|",
+    "original": "<<if $NPCList[$righttarget].lefthand is \"shackle_entrance\" or $NPCList[$righttarget].lefthand is \"shackle_imminent\" or $NPCList[$righttarget].righthand is \"shackle_entrance\" or $NPCList[$righttarget].righthand is \"shackle_imminent\">>",
+    "translation": "",
+    "pos": 8906
+  },
+  {
+    "passage": "Widgets Actions Right Hand",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "570_5_3_7|",
+    "original": "<<if $NPCList[$righttarget].lefthand is \"dildo\" or $NPCList[$righttarget].righthand is \"dildo\">>",
+    "translation": "",
+    "pos": 9750
+  },
+  {
+    "passage": "Widgets Actions Right Hand",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "582_5_3_7|",
+    "original": "<<if $NPCList[0].state is \"stalk\" and $NPCList[0].legs isnot \"run\">>",
+    "translation": "",
+    "pos": 10414
+  },
+  {
+    "passage": "Widgets Actions Right Hand",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "608_5_3_7|",
+    "original": "<<if $NPCList[0].state is \"stalk\" and $NPCList[0].legs isnot \"run\">>",
+    "translation": "",
+    "pos": 11841
+  },
+  {
+    "passage": "Widgets Actions Right Hand",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "636_5_3_7|",
+    "original": "<<if $NPCList[0].state is \"stalk\" and $NPCList[0].legs isnot \"run\">>",
+    "translation": "",
+    "pos": 13147
+  },
+  {
+    "passage": "Widgets Actions Either Hand",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "793_5_3_7|",
+    "original": "| <label><span class=\"brat\">Free your face</span><<radiobutton _actionVariable \"freeface\" `_default is \"freeface\" ? 'checked' : ''`>></label>",
+    "translation": "",
+    "pos": 780
+  },
+  {
+    "passage": "Widgets Actions Either Hand",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "806_5_3_7|",
+    "original": "<<if $NPCList[$righttarget].lefthand is 0 or $NPCList[$righttarget].lefthand is \"idle\">>",
+    "translation": "",
+    "pos": 1226
+  },
+  {
+    "passage": "Widgets Actions Either Hand",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "810_5_3_7|",
+    "original": "<<if $NPCList[$lefttarget].righthand is 0 or $NPCList[$lefttarget].righthand is \"idle\">>",
+    "translation": "",
+    "pos": 1500
+  },
+  {
+    "passage": "Widgets Actions Either Hand",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "966_5_3_7|",
+    "original": "<<if $NPCList[$lefttarget].vagina isnot \"none\" and $NPCList[$lefttarget].vagina is 0 and $currentSexToyLeft.type.includes(\"dildo\")>>",
+    "translation": "",
+    "pos": 9083
+  },
+  {
+    "passage": "Widgets Actions Either Hand",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "970_5_3_7|",
+    "original": "<<if $NPCList[$lefttarget].penis isnot \"none\" and $NPCList[$lefttarget].penis is 0 and !npcHasStrapon($lefttarget) and $currentSexToyLeft.type.includes(\"stroker\")>>",
+    "translation": "",
+    "pos": 9373
+  },
+  {
+    "passage": "Widgets Actions Either Hand",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1008_5_3_7|",
+    "original": "<<if $NPCList[$righttarget].vagina isnot \"none\" and $NPCList[$righttarget].vagina is 0 and $currentSexToyRight.type.includes(\"dildo\")>>",
+    "translation": "",
+    "pos": 11608
+  },
+  {
+    "passage": "Widgets Actions Either Hand",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1011_5_3_7|",
+    "original": "<<if $NPCList[$righttarget].penis isnot \"none\" and $NPCList[$righttarget].penis is 0 and !npcHasStrapon($righttarget) and $currentSexToyRight.type.includes(\"stroker\")>>",
+    "translation": "",
+    "pos": 11903
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1144_5_3_7|",
+    "original": "You clutch the tattered remains of your clothing.",
+    "translation": "",
+    "pos": 500
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1148_5_3_7|",
+    "original": "You pull down your $worn.over_upper.name.",
+    "translation": "",
+    "pos": 717
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1150_5_3_7|",
+    "original": "You pull down your $worn.over_upper.name <span class=\"lewd\">and your <<breasts>> flop out.</span>",
+    "translation": "",
+    "pos": 802
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1152_5_3_7|",
+    "original": "You pull down your $worn.over_upper.name, <span class=\"lewd\">exposing your <<breasts>>.</span>",
+    "translation": "",
+    "pos": 916
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1158_5_3_7|",
+    "original": "You pull up your $worn.over_upper.name.",
+    "translation": "",
+    "pos": 1176
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1160_5_3_7|",
+    "original": "You pull up your $worn.over_upper.name <span class=\"lewd\">and your <<breasts>> flop out.</span>",
+    "translation": "",
+    "pos": 1259
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1162_5_3_7|",
+    "original": "You pull up your $worn.over_upper.name, <span class=\"lewd\">exposing your <<breasts>>.</span>",
+    "translation": "",
+    "pos": 1371
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1172_5_3_7|",
+    "original": "You clutch the tattered remains of your clothing.",
+    "translation": "",
+    "pos": 1816
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1176_5_3_7|",
+    "original": "You pull down your $worn.upper.name <span class=\"lewd\">and your <<breasts>> flop out.</span>",
+    "translation": "",
+    "pos": 2018
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1178_5_3_7|",
+    "original": "You pull down your $worn.upper.name, <span class=\"lewd\">exposing your <<breasts>>.</span>",
+    "translation": "",
+    "pos": 2127
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1184_5_3_7|",
+    "original": "You pull up your $worn.upper.name <span class=\"lewd\">and your <<breasts>> flop out.</span>",
+    "translation": "",
+    "pos": 2368
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1186_5_3_7|",
+    "original": "You pull up your $worn.upper.name, <span class=\"lewd\">exposing your <<breasts>>.</span>",
+    "translation": "",
+    "pos": 2475
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1196_5_3_7|",
+    "original": "You clutch the tattered remains of your clothing.",
+    "translation": "",
+    "pos": 2941
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1200_5_3_7|",
+    "original": "You pull down your $worn.under_upper.name <span class=\"lewd\">and your <<breasts>> flop out.</span>",
+    "translation": "",
+    "pos": 3161
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1202_5_3_7|",
+    "original": "You pull down your $worn.under_upper.name, <span class=\"lewd\">exposing your <<breasts>>.</span>",
+    "translation": "",
+    "pos": 3276
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1208_5_3_7|",
+    "original": "You pull up your $worn.under_upper.name <span class=\"lewd\">and your <<breasts>> flop out.</span>",
+    "translation": "",
+    "pos": 3540
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1210_5_3_7|",
+    "original": "You pull up your $worn.under_upper.name, <span class=\"lewd\">exposing your <<breasts>>.</span>",
+    "translation": "",
+    "pos": 3653
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1223_5_3_7|",
+    "original": "You clutch the tattered remains of your clothing.",
+    "translation": "",
+    "pos": 4339
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1226_5_3_7|",
+    "original": "You lift up your $worn.lower.name, <span class=\"lewd\">exposing your <<undies>>.</span>",
+    "translation": "",
+    "pos": 4511
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1230_5_3_7|",
+    "original": "You pull down your $worn.lower.name, <span class=\"lewd\">exposing your <<undies>>.</span>",
+    "translation": "",
+    "pos": 4671
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1248_5_3_7|",
+    "original": "You clutch the tattered remains of your clothing.",
+    "translation": "",
+    "pos": 5541
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1250_5_3_7|",
+    "original": "You pull down your $worn.under_lower.name, <span class=\"lewd\">exposing your <<genitals>>.</span>",
+    "translation": "",
+    "pos": 5633
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1253_5_3_7|",
+    "original": "You pull down your $worn.under_lower.name under your $worn.lower.name.",
+    "translation": "",
+    "pos": 5767
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1265_5_3_7|",
+    "original": "You clutch the tattered remains of your clothing.",
+    "translation": "",
+    "pos": 6437
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1267_5_3_7|",
+    "original": "You pull your $worn.under_lower.name to the side, <span class=\"lewd\">exposing your <<genitals>>.</span>",
+    "translation": "",
+    "pos": 6529
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1269_5_3_7|",
+    "original": "You pull your $worn.under_lower.name to the side under your $worn.lower.name.",
+    "translation": "",
+    "pos": 6647
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1277_5_3_7|",
+    "original": "You clutch the tattered remains of your mask.",
+    "translation": "",
+    "pos": 7039
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1279_5_3_7|",
+    "original": "You pull down your $worn.face.name, <span class=\"lewd\">revealing your face.</span>",
+    "translation": "",
+    "pos": 7099
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1292_5_3_7|",
+    "original": "You hold the spray in both hands, and unload a full blast in the <<beasttypes>> face. It whimpers.",
+    "translation": "",
+    "pos": 7599
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1294_5_3_7|",
+    "original": "You hold the spray in both hands, and unload a full blast in the figure's face. <span class=\"red\">It doesn't even blink.</span>",
+    "translation": "",
+    "pos": 7762
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1296_5_3_7|",
+    "original": "You hold the spray in both hands, and unload a full blast at the <<group>>. They clutch their faces.",
+    "translation": "",
+    "pos": 7923
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1301_5_3_7|",
+    "original": "You hold the spray in both hands, and unload a full blast at the assailant. <<He>> clutches <<his>> face.",
+    "translation": "",
+    "pos": 8249
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1311_5_3_7|",
+    "original": "You spray the <<beasttype>> in the face. It whimpers.",
+    "translation": "",
+    "pos": 8755
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1313_5_3_7|",
+    "original": "You spray the figure in the face. <span class=\"red\">It doesn't even blink.</span>",
+    "translation": "",
+    "pos": 8873
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1315_5_3_7|",
+    "original": "You spray the <<group>>. They clutch their faces.",
+    "translation": "",
+    "pos": 8988
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1320_5_3_7|",
+    "original": "You spray the assailant. <<He>> clutches <<his>> face.",
+    "translation": "",
+    "pos": 9263
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1328_5_3_7|",
+    "original": "You try to spray the <<beasttype>> in the face. Nothing comes out.",
+    "translation": "",
+    "pos": 9609
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1330_5_3_7|",
+    "original": "You try to spray the <<group>>. Nothing comes out.",
+    "translation": "",
+    "pos": 9709
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1332_5_3_7|",
+    "original": "You try to spray the assailant. Nothing comes out.",
+    "translation": "",
+    "pos": 9776
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1341_5_3_7|",
+    "original": "You spray the <<beasttype>> in the face. It whimpers.",
+    "translation": "",
+    "pos": 10101
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1343_5_3_7|",
+    "original": "You spray the figure in the face. <span class=\"red\">It doesn't even blink.</span>",
+    "translation": "",
+    "pos": 10219
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1345_5_3_7|",
+    "original": "You spray the <<group>>. They clutch their faces.",
+    "translation": "",
+    "pos": 10334
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1350_5_3_7|",
+    "original": "You spray the assailant. <<He>> clutches <<his>> face.",
+    "translation": "",
+    "pos": 10609
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1358_5_3_7|",
+    "original": "You try to spray the <<beasttype>> in the face. Nothing comes out.",
+    "translation": "",
+    "pos": 10955
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1360_5_3_7|",
+    "original": "You try to spray the <<group>>. Nothing comes out.",
+    "translation": "",
+    "pos": 11055
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1362_5_3_7|",
+    "original": "You try to spray the assailant. Nothing comes out.",
+    "translation": "",
+    "pos": 11122
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1371_5_3_7|",
+    "original": "You spray the <<beasttype>> in the face. It whimpers.",
+    "translation": "",
+    "pos": 11451
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1373_5_3_7|",
+    "original": "You spray the figure in the face. <span class=\"red\">It doesn't even blink.</span>",
+    "translation": "",
+    "pos": 11569
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1375_5_3_7|",
+    "original": "You spray the <<group>>. They clutch their faces.",
+    "translation": "",
+    "pos": 11684
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1380_5_3_7|",
+    "original": "You spray the assailant. <<He>> clutches <<his>> face.",
+    "translation": "",
+    "pos": 11959
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1388_5_3_7|",
+    "original": "You try to spray the <<beasttype>> in the face. Nothing comes out.",
+    "translation": "",
+    "pos": 12305
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1390_5_3_7|",
+    "original": "You try to spray the <<group>>. Nothing comes out.",
+    "translation": "",
+    "pos": 12405
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1392_5_3_7|",
+    "original": "You try to spray the assailant. Nothing comes out.",
+    "translation": "",
+    "pos": 12472
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1401_5_3_7|",
+    "original": "<<if $NPCList[_npctodamage].active is \"active\" and $NPCList[_npctodamage].stance isnot \"defeated\" and (!$fightTargets or $fightTargets.includes(_npctodamage))>>",
+    "translation": "",
+    "pos": 12707
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1404_5_3_7|",
+    "original": "<<if $NPCList[_npctodamage].fullDescription is \"Ivory Wraith\">>",
+    "translation": "",
+    "pos": 13059
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1428_5_3_7|",
+    "original": "<</silently>><<if $_text_output>><span class=\"green\"><<print $_text_output>></span><</if>>",
+    "translation": "",
+    "pos": 13891
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1440_5_3_7|",
+    "original": "You rummage through the <<persons>> <<wallet $lefttarget>>. <<encountersteal>>",
+    "translation": "",
+    "pos": 14526
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1444_5_3_7|",
+    "original": "You rummage inside the <<persons>> <<wallet $lefttarget>>. <<He>> notices and shifts <<his>> valuables away from your hands.",
+    "translation": "",
+    "pos": 14748
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1454_5_3_7|",
+    "original": "You run your hand over the <<persons>> skin, until it rests on <<his>> <<wallet $lefttarget>>.",
+    "translation": "",
+    "pos": 15149
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1457_5_3_7|",
+    "original": "You open the <<persons>> <<wallet $lefttarget>>.",
+    "translation": "",
+    "pos": 15316
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1460_5_3_7|",
+    "original": "You rummage through the <<persons>> <<wallet $lefttarget>>.",
+    "translation": "",
+    "pos": 15437
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1463_5_3_7|",
+    "original": "You sneak your hand into the <<persons>> <<wallet $lefttarget>>. <<encountersteal>><<set $leftactiondefault to \"rest\">>",
+    "translation": "",
+    "pos": 15609
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1468_5_3_7|",
+    "original": "You run your hand over the <<persons>> skin, until it rests on <<his>> <<wallet $lefttarget>>. <<He>> isn't fooled. <<He>> shifts <<his>> valuables away from you.",
+    "translation": "",
+    "pos": 15846
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1470_5_3_7|",
+    "original": "You try to open the <<persons>> <<wallet $lefttarget>>. <<He>> notices and shifts <<his>> valuables away.",
+    "translation": "",
+    "pos": 16048
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1472_5_3_7|",
+    "original": "You rummage through the <<persons>> <<wallet $lefttarget>>. <<He>> notices and shifts <<his>> valuables away.",
+    "translation": "",
+    "pos": 16193
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1474_5_3_7|",
+    "original": "You sneak your hand into the <<persons>> <<wallet $lefttarget>>. <<He>> notices and shifts <<his>> valuables away.",
+    "translation": "",
+    "pos": 16319
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1486_5_3_7|",
+    "original": "You run your hand over the <<persons>> skin, until it rests on <<his>> <<wallet $righttarget>>.",
+    "translation": "",
+    "pos": 16756
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1489_5_3_7|",
+    "original": "You open the <<persons>> <<wallet $righttarget>>.",
+    "translation": "",
+    "pos": 16926
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1492_5_3_7|",
+    "original": "You rummage through the <<persons>> <<wallet $righttarget>>.",
+    "translation": "",
+    "pos": 17050
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1495_5_3_7|",
+    "original": "You sneak your hand into the <<persons>> <<wallet $righttarget>>. <<encountersteal>><<set $rightactiondefault to \"rest\">>",
+    "translation": "",
+    "pos": 17225
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1500_5_3_7|",
+    "original": "You run your hand over the <<persons>> skin, until it rests on <<his>> <<wallet $righttarget>>. <<He>> isn't fooled. <<He>> shifts <<his>> valuables away from you.",
+    "translation": "",
+    "pos": 17466
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1502_5_3_7|",
+    "original": "You try to open the <<persons>> <<wallet $righttarget>>. <<He>> notices and shifts <<his>> valuables away.",
+    "translation": "",
+    "pos": 17670
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1504_5_3_7|",
+    "original": "You rummage through the <<persons>> <<wallet $righttarget>>. <<He>> notices and shifts <<his>> valuables away.",
+    "translation": "",
+    "pos": 17817
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1506_5_3_7|",
+    "original": "You sneak your hand into the <<persons>> <<wallet $righttarget>>. <<He>> notices and shifts <<his>> valuables away.",
+    "translation": "",
+    "pos": 17944
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1519_5_3_7|",
+    "original": "You whack the <<print $_target.lefttool>> from the <<personselect $lefttarget>><<persons>> hand.",
+    "translation": "",
+    "pos": 18436
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1521_5_3_7|",
+    "original": "<<He>> pouts at you.",
+    "translation": "",
+    "pos": 18681
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1524_5_3_7|",
+    "original": "Anger flashes across <<his>> face.",
+    "translation": "",
+    "pos": 18745
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1529_5_3_7|",
+    "original": "You whack the <<print $_target.righttool>> from the <<personselect $lefttarget>><<persons>> hand.",
+    "translation": "",
+    "pos": 19014
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1531_5_3_7|",
+    "original": "<<He>> pouts at you.",
+    "translation": "",
+    "pos": 19260
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1534_5_3_7|",
+    "original": "Anger flashes across <<his>> face.",
+    "translation": "",
+    "pos": 19324
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1545_5_3_7|",
+    "original": "You whack the <<print $_target.lefttool>> from the <<personselect $righttarget>><<persons>> hand.",
+    "translation": "",
+    "pos": 19716
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1547_5_3_7|",
+    "original": "<<He>> pouts at you.",
+    "translation": "",
+    "pos": 19962
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1550_5_3_7|",
+    "original": "Anger flashes across <<his>> face.",
+    "translation": "",
+    "pos": 20027
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1555_5_3_7|",
+    "original": "You whack the <<print $_target.righttool>> from the <<personselect $righttarget>><<persons>> hand.",
+    "translation": "",
+    "pos": 20318
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1557_5_3_7|",
+    "original": "<<He>> pouts at you.",
+    "translation": "",
+    "pos": 20565
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1560_5_3_7|",
+    "original": "Anger flashes across <<his>> face.",
+    "translation": "",
+    "pos": 20630
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1578_5_3_7|",
+    "original": "You whack the shackles from the <<persons>> hands. <<He>> clenches <<his>> fist.",
+    "translation": "",
+    "pos": 21265
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1591_5_3_7|",
+    "original": "You whack the shackles from the <<persons>> hands. <<He>> clenches <<his>> fist.",
+    "translation": "",
+    "pos": 21793
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1602_5_3_7|",
+    "original": "You whack the <<print $_target.lefttool>> from the <<personselect $lefttarget>><<persons>> hand.",
+    "translation": "",
+    "pos": 22312
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1605_5_3_7|",
+    "original": "You whack the <<print $_target.righttool>> from the <<personselect $lefttarget>><<persons>> hand.",
+    "translation": "",
+    "pos": 22694
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1616_5_3_7|",
+    "original": "You whack the <<print $_target.lefttool>> from the <<personselect $righttarget>><<persons>> hand.",
+    "translation": "",
+    "pos": 23261
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1619_5_3_7|",
+    "original": "You whack the <<print $_target.righttool>> from the <<personselect $righttarget>><<persons>> hand.",
+    "translation": "",
+    "pos": 23644
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1631_5_3_7|",
+    "original": "You whack the <<print $_target.lefttool>> from the <<personselect $lefttarget>><<persons>> hand.",
+    "translation": "",
+    "pos": 24094
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1633_5_3_7|",
+    "original": "<<He>> pouts at you.",
+    "translation": "",
+    "pos": 24339
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1636_5_3_7|",
+    "original": "Disappointment flashes across <<his>> face.",
+    "translation": "",
+    "pos": 24422
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1639_5_3_7|",
+    "original": "Anger flashes across <<his>> face.",
+    "translation": "",
+    "pos": 24509
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1644_5_3_7|",
+    "original": "You whack the <<print $_target.righttool>> from the <<personselect $lefttarget>><<persons>> hand.",
+    "translation": "",
+    "pos": 24764
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1646_5_3_7|",
+    "original": "<<He>> pouts at you.",
+    "translation": "",
+    "pos": 25010
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1649_5_3_7|",
+    "original": "Disappointment flashes across <<his>> face.",
+    "translation": "",
+    "pos": 25093
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1651_5_3_7|",
+    "original": "Anger flashes across <<his>> face.",
+    "translation": "",
+    "pos": 25153
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1662_5_3_7|",
+    "original": "You whack the <<print $_target.lefttool>> from the <<personselect $righttarget>><<persons>> hand.",
+    "translation": "",
+    "pos": 25534
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1664_5_3_7|",
+    "original": "<<He>> pouts at you.",
+    "translation": "",
+    "pos": 25780
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1667_5_3_7|",
+    "original": "Disappointment flashes across <<his>> face.",
+    "translation": "",
+    "pos": 25864
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1670_5_3_7|",
+    "original": "Anger flashes across <<his>> face.",
+    "translation": "",
+    "pos": 25952
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1675_5_3_7|",
+    "original": "You whack the <<print $_target.righttool>> from the <<personselect $righttarget>><<persons>> hand.",
+    "translation": "",
+    "pos": 26209
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1677_5_3_7|",
+    "original": "<<He>> pouts at you.",
+    "translation": "",
+    "pos": 26456
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1680_5_3_7|",
+    "original": "Disappointment flashes across <<his>> face.",
+    "translation": "",
+    "pos": 26540
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1683_5_3_7|",
+    "original": "Anger flashes across <<his>> face.",
+    "translation": "",
+    "pos": 26628
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1697_5_3_7|",
+    "original": "You try to use both hands to free your face,",
+    "translation": "",
+    "pos": 27160
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1701_5_3_7|",
+    "original": "You try to use your hand to free your face,",
+    "translation": "",
+    "pos": 27345
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1705_5_3_7|",
+    "original": "You try to use your hand to free your face,",
+    "translation": "",
+    "pos": 27532
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1712_5_3_7|",
+    "original": "<span class=\"red\">but you can't tear yourself from the sweet nectar.</span>",
+    "translation": "",
+    "pos": 27987
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1714_5_3_7|",
+    "original": "You desperately suck <<his>> _npc.breastdesc.",
+    "translation": "",
+    "pos": 28101
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1716_5_3_7|",
+    "original": "You push your face back into <<his>> _npc.breastdesc.",
+    "translation": "",
+    "pos": 28190
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1718_5_3_7|",
+    "original": "You desperately lick the pussy pressing into your face.",
+    "translation": "",
+    "pos": 28260
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1727_5_3_7|",
+    "original": "\"and manage to wrestle <<him>> off of your face.\",",
+    "translation": "",
+    "pos": 28601
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1728_5_3_7|",
+    "original": "\"and lift <<his>> hips enough for you to escape out from under <<him>>.\",",
+    "translation": "",
+    "pos": 28659
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1729_5_3_7|",
+    "original": "\"and manage to tip <<him>> off of your face.\"",
+    "translation": "",
+    "pos": 28740
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1734_5_3_7|",
+    "original": "\"and manage to extricate your mouth from <<his>> _npc.breastdesc.\",",
+    "translation": "",
+    "pos": 28931
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1735_5_3_7|",
+    "original": "\"and push <<his>> nipple out of your mouth, pushing away <<his>> _npc.breastdesc.\",",
+    "translation": "",
+    "pos": 29006
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1736_5_3_7|",
+    "original": "\"and manage to shove <<his>> _npc.breastdesc out of your face, freeing your mouth.\"",
+    "translation": "",
+    "pos": 29097
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1747_5_3_7|",
+    "original": "\"and manage to free your face from <<if _npc.breastsize gte 6>>in between <</if>><<his>> _npc.breastsdesc.\",",
+    "translation": "",
+    "pos": 29510
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1748_5_3_7|",
+    "original": "\"and wriggle out from <<if _npc.breastsize gte 6>>in between <</if>><<his>> _npc.breastsdesc.\",",
+    "translation": "",
+    "pos": 29626
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1749_5_3_7|",
+    "original": "\"and <<if _npc.breastsize lt 6>>shove<<else>>heave<</if>> <<his>> _npc.breastsdesc away from your face.\"",
+    "translation": "",
+    "pos": 29729
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1760_5_3_7|",
+    "original": "\"and manage to wrench <<his>> hand off of your mouth.\",",
+    "translation": "",
+    "pos": 30184
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1761_5_3_7|",
+    "original": "\"and wrestle <<his>> hand away from your face.\",",
+    "translation": "",
+    "pos": 30247
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1762_5_3_7|",
+    "original": "\"and twist out of <<his>> grip, freeing your mouth.\"",
+    "translation": "",
+    "pos": 30303
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1772_5_3_7|",
+    "original": "\"and push <<his>> ass away from your face.\",",
+    "translation": "",
+    "pos": 30612
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1773_5_3_7|",
+    "original": "\"and manage to shove <<his>> ass from off of your face.\",",
+    "translation": "",
+    "pos": 30664
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1774_5_3_7|",
+    "original": "\"and wrestle <<him>> and <<his>> ass away from your mouth.\"",
+    "translation": "",
+    "pos": 30729
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1805_5_3_7|",
+    "original": "however, <<he>> seizes your arm and traps it against <<his>> thigh.",
+    "translation": "",
+    "pos": 31702
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1807_5_3_7|",
+    "original": "however, <<he>> grabs your arms and pins them against <<his>> thighs.",
+    "translation": "",
+    "pos": 31794
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1811_5_3_7|",
+    "original": "\"but you can't budge <<his>> weight from off of your face.\",",
+    "translation": "",
+    "pos": 31925
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1812_5_3_7|",
+    "original": "\"but <<he>> settles <<himself>> down more firmly on your face.\",",
+    "translation": "",
+    "pos": 31994
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1813_5_3_7|",
+    "original": "\"but <<he>> adjusts <<his>> position and sits down harder.\"",
+    "translation": "",
+    "pos": 32067
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1819_5_3_7|",
+    "original": "however, <<he>> shoves <<his>> _npc.breastdesc forcefully into your face, forcing <<his>> nipple further into your protesting mouth.",
+    "translation": "",
+    "pos": 32227
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1823_5_3_7|",
+    "original": "\"but cannot remove <<his>> _npc.breastdesc from your mouth.\",",
+    "translation": "",
+    "pos": 32428
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1824_5_3_7|",
+    "original": "\"but <<his>> nipple remains firmly plugged into your mouth.\",",
+    "translation": "",
+    "pos": 32498
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1825_5_3_7|",
+    "original": "\"but aren't able to push <<his>> _npc.breastdesc out of your mouth.\"",
+    "translation": "",
+    "pos": 32568
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1832_5_3_7|",
+    "original": "however, <<he>> more firmly squashes your face between <<his>> _npc.breastsdesc.",
+    "translation": "",
+    "pos": 32775
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1835_5_3_7|",
+    "original": "however, <<he>> more firmly shoves your face against <<his>> _npc.breastsdesc.",
+    "translation": "",
+    "pos": 32918
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1840_5_3_7|",
+    "original": "\"but cannot escape <<his>> _npc.breastsdesc.\",",
+    "translation": "",
+    "pos": 33081
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1841_5_3_7|",
+    "original": "\"but <<his>> _npc.breastsdesc continue to <<if _npc.breastsize gte 6>>engulf<<else>>press against<</if>> your face.\",",
+    "translation": "",
+    "pos": 33136
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1842_5_3_7|",
+    "original": "\"but aren't able to push <<his>> _npc.breastsdesc away from your face.\"",
+    "translation": "",
+    "pos": 33262
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1847_5_3_7|",
+    "original": "but <<he>> more firmly clamps down on your mouth, digging <<his>> nails into your face in <<his>> effort to keep hold.",
+    "translation": "",
+    "pos": 33455
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1851_5_3_7|",
+    "original": "\"but you can't pull <<his>> hand away.\",",
+    "translation": "",
+    "pos": 33657
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1852_5_3_7|",
+    "original": "\"but <<his>> hand stays firm over your mouth.\",",
+    "translation": "",
+    "pos": 33706
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1853_5_3_7|",
+    "original": "\"but you can't prise <<his>> hand from off of your mouth.\"",
+    "translation": "",
+    "pos": 33762
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1858_5_3_7|",
+    "original": "but <<he>> swats your hand away and cuffs you around the head.",
+    "translation": "",
+    "pos": 33923
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1862_5_3_7|",
+    "original": "\"but you aren't able to move <<him>> away.\",",
+    "translation": "",
+    "pos": 34069
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1863_5_3_7|",
+    "original": "\"but <<his>> ass remains pressed against your lips.\",",
+    "translation": "",
+    "pos": 34122
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1864_5_3_7|",
+    "original": "\"but you can't keep <<him>> away from your face.\"",
+    "translation": "",
+    "pos": 34184
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1891_5_3_7|",
+    "original": "You grasp <<combatpersons>> wrist,",
+    "translation": "",
+    "pos": 35193
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1893_5_3_7|",
+    "original": "<span class=\"green\">and pry <<his>> fingers off your <<penis>>.</span>",
+    "translation": "",
+    "pos": 35269
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1895_5_3_7|",
+    "original": "<span class=\"green\">and pull it off your crotch.</span>",
+    "translation": "",
+    "pos": 35356
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1898_5_3_7|",
+    "original": "<<if $NPCList[_n].lefthand and $NPCList[_n].lefthand.startsWith(\"penis\")>>",
+    "translation": "",
+    "pos": 35427
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1905_5_3_7|",
+    "original": "You try to grab <<combatpersons>> wrist,",
+    "translation": "",
+    "pos": 35656
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1907_5_3_7|",
+    "original": "<span class=\"red\">but <<he>> tightens <<his>> grip in retaliation.</span>",
+    "translation": "",
+    "pos": 35738
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1909_5_3_7|",
+    "original": "<span class=\"red\">but <<he>> swats your hand away and resumes <<his>> stroking.</span>",
+    "translation": "",
+    "pos": 35828
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1933_5_3_7|",
+    "original": "You grasp <<combatpersons>> wrist,",
+    "translation": "",
+    "pos": 36889
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1935_5_3_7|",
+    "original": "<span class=\"green\">and pry <<his>> fingers out of your <<pussy>>.</span>",
+    "translation": "",
+    "pos": 36966
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1937_5_3_7|",
+    "original": "<span class=\"green\">and pull it off your crotch.</span>",
+    "translation": "",
+    "pos": 37056
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1940_5_3_7|",
+    "original": "<<if $NPCList[_n].lefthand and $NPCList[_n].lefthand.startsWith(\"vagina\")>>",
+    "translation": "",
+    "pos": 37127
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1947_5_3_7|",
+    "original": "You try to grab <<combatpersons>> wrist,",
+    "translation": "",
+    "pos": 37359
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1949_5_3_7|",
+    "original": "<span class=\"red\">but <<he>> jams <<his>> fingers deeper in retaliation.</span>",
+    "translation": "",
+    "pos": 37442
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1951_5_3_7|",
+    "original": "<span class=\"red\">but <<he>> swats your hand away and resumes <<his>> stroking.</span>",
+    "translation": "",
+    "pos": 37538
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1975_5_3_7|",
+    "original": "You grasp <<combatpersons>> wrist,",
+    "translation": "",
+    "pos": 38581
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1977_5_3_7|",
+    "original": "<span class=\"green\">and pry <<his>> fingers out of your asshole.</span>",
+    "translation": "",
+    "pos": 38656
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1979_5_3_7|",
+    "original": "<span class=\"green\">and pull it off your <<bottom>>.</span>",
+    "translation": "",
+    "pos": 38744
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1982_5_3_7|",
+    "original": "<<if $NPCList[_n].lefthand and $NPCList[_n].lefthand.startsWith(\"anus\")>>",
+    "translation": "",
+    "pos": 38819
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1989_5_3_7|",
+    "original": "You try to grab <<combatpersons>> wrist,",
+    "translation": "",
+    "pos": 39045
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1991_5_3_7|",
+    "original": "<span class=\"red\">but <<he>> jams <<his>> fingers deeper in retaliation.</span>",
+    "translation": "",
+    "pos": 39126
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "1993_5_3_7|",
+    "original": "<span class=\"red\">but <<he>> swats your hand away and resumes <<his>> stroking.</span>",
+    "translation": "",
+    "pos": 39222
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2008_5_3_7|",
+    "original": "<<if $NPCList[_n].lefthand is $NPCList[_n].righthand>>",
+    "translation": "",
+    "pos": 39747
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2097_5_3_7|",
+    "original": "You remove your $worn.butt_plug.name, exposing your anus.",
+    "translation": "",
+    "pos": 44112
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2101_5_3_7|",
+    "original": "You remove your $worn.butt_plug.name, exposing your anus.",
+    "translation": "",
+    "pos": 44318
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2113_5_3_7|",
+    "original": "You retrieve your $currentSexToyRight.name and hold it with your right hand.",
+    "translation": "",
+    "pos": 45104
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2118_5_3_7|",
+    "original": "You retrieve your $currentSexToyLeft.name with your left hand.",
+    "translation": "",
+    "pos": 45427
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2123_5_3_7|",
+    "original": "You retrieve your $currentSexToyRight.name with your right hand.",
+    "translation": "",
+    "pos": 45743
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2131_5_3_7|",
+    "original": "You drop your sex toys.",
+    "translation": "",
+    "pos": 46110
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2136_5_3_7|",
+    "original": "You drop your $currentSexToyLeft.name in your left hand.",
+    "translation": "",
+    "pos": 46329
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2141_5_3_7|",
+    "original": "You drop your $currentSexToyRight.name in your right hand.",
+    "translation": "",
+    "pos": 46556
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2148_5_3_7|",
+    "original": "You drop your sex toys.",
+    "translation": "",
+    "pos": 46916
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2167_5_3_7|",
+    "original": "You drop your $currentSexToyLeft.name in your left hand.",
+    "translation": "",
+    "pos": 47690
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2170_5_3_7|",
+    "original": "<<if $NPCList[$_i].vagina is \"leftDildo\">>",
+    "translation": "",
+    "pos": 47826
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2173_5_3_7|",
+    "original": "<<if $NPCList[$_i].penis is \"leftDildo\">>",
+    "translation": "",
+    "pos": 47924
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2180_5_3_7|",
+    "original": "You drop your $currentSexToyRight.name in your right hand.",
+    "translation": "",
+    "pos": 48171
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2183_5_3_7|",
+    "original": "<<if $NPCList[$_i].vagina is \"rightDildo\">>",
+    "translation": "",
+    "pos": 48310
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2186_5_3_7|",
+    "original": "<<if $NPCList[$_i].penis is \"rightDildo\">>",
+    "translation": "",
+    "pos": 48409
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2195_5_3_7|",
+    "original": "You drop your sex toys.",
+    "translation": "",
+    "pos": 48790
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2214_5_3_7|",
+    "original": "You drop your $currentSexToyLeft.name in your left hand.",
+    "translation": "",
+    "pos": 49634
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2227_5_3_7|",
+    "original": "You drop your $currentSexToyRight.name in your right hand.",
+    "translation": "",
+    "pos": 50222
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2242_5_3_7|",
+    "original": "You drop your sex toys.",
+    "translation": "",
+    "pos": 50907
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2261_5_3_7|",
+    "original": "You drop the $currentSexToyLeft.name in your left hand.",
+    "translation": "",
+    "pos": 51699
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2264_5_3_7|",
+    "original": "<<if $NPCList[$_i].vagina is \"leftStroker\">>",
+    "translation": "",
+    "pos": 51834
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2267_5_3_7|",
+    "original": "<<if $NPCList[$_i].penis is \"leftStroker\">>",
+    "translation": "",
+    "pos": 51934
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2277_5_3_7|",
+    "original": "You drop the $currentSexToyRight.name in your right hand.",
+    "translation": "",
+    "pos": 52289
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2280_5_3_7|",
+    "original": "<<if $NPCList[$_i].vagina is \"rightStroker\">>",
+    "translation": "",
+    "pos": 52427
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2283_5_3_7|",
+    "original": "<<if $NPCList[$_i].penis is \"rightStroker\">>",
+    "translation": "",
+    "pos": 52528
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2353_5_3_7|",
+    "original": "You squeeze your chastity parasite, enjoying the waves of pleasure moving through your body.",
+    "translation": "",
+    "pos": 55357
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2363_5_3_7|",
+    "original": "You caress your inner thighs.",
+    "translation": "",
+    "pos": 55705
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2365_5_3_7|",
+    "original": "You tease your pussy, spreading it open with <<print $_hands>>.",
+    "translation": "",
+    "pos": 55770
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2367_5_3_7|",
+    "original": "You tease your pussy with your <<print $_hands>>, pointing at it.",
+    "translation": "",
+    "pos": 55848
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2372_5_3_7|",
+    "original": "You intend to cover your vagina,",
+    "translation": "",
+    "pos": 56017
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2374_5_3_7|",
+    "original": "but a lewd thought intrudes <span class=\"lewd\">and your mind immediately accepts it.</span>",
+    "translation": "",
+    "pos": 56087
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2376_5_3_7|",
+    "original": "<span class=\"pink\">but the thought is snatched from your mind, and replaced with another.</span>",
+    "translation": "",
+    "pos": 56193
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2379_5_3_7|",
+    "original": "You gently squeeze your chastity parasite, it sends a wave of pleasure through your body.",
+    "translation": "",
+    "pos": 56355
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2389_5_3_7|",
+    "original": "You gently caress your inner thighs.",
+    "translation": "",
+    "pos": 56694
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2391_5_3_7|",
+    "original": "You gently tease your pussy, spreading it open with <<print $_hands>>.",
+    "translation": "",
+    "pos": 56766
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2393_5_3_7|",
+    "original": "You gently tease your pussy with your <<print $_hands>>, pointing at it.",
+    "translation": "",
+    "pos": 56851
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2402_5_3_7|",
+    "original": "You",
+    "translation": "",
+    "pos": 57206
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2404_5_3_7|",
+    "original": "<span class=\"green\">resist intrusive thoughts</span> and",
+    "translation": "",
+    "pos": 57251
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2407_5_3_7|",
+    "original": "cover your <<print $_genital>> with your <<print $_hands>>, tugging the towel further over it.",
+    "translation": "",
+    "pos": 57443
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2409_5_3_7|",
+    "original": "cover your <<print $_genital>> with your <<print $_hands>>.",
+    "translation": "",
+    "pos": 57552
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2475_5_3_7|",
+    "original": "You squeeze your chastity parasite, enjoying the waves of pleasure moving through your body.",
+    "translation": "",
+    "pos": 60426
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2485_5_3_7|",
+    "original": "You caress your inner thighs.",
+    "translation": "",
+    "pos": 60773
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2487_5_3_7|",
+    "original": "You tease your penis, tracing a finger down the length with one hand and circling the tip with another.",
+    "translation": "",
+    "pos": 60838
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2489_5_3_7|",
+    "original": "You tease your penis with your left hand, tracing a finger down the length.",
+    "translation": "",
+    "pos": 60956
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2494_5_3_7|",
+    "original": "You intend to cover your penis,",
+    "translation": "",
+    "pos": 61135
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2496_5_3_7|",
+    "original": "but a lewd thought intrudes <span class=\"lewd\">and your mind immediately accepts it.</span>",
+    "translation": "",
+    "pos": 61204
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2498_5_3_7|",
+    "original": "<span class=\"pink\">but the thought is snatched from your mind, and replaced with another.</span>",
+    "translation": "",
+    "pos": 61310
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2501_5_3_7|",
+    "original": "You gently squeeze your chastity parasite, it sends a wave of pleasure through your body.",
+    "translation": "",
+    "pos": 61472
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2511_5_3_7|",
+    "original": "You gently caress your inner thighs.",
+    "translation": "",
+    "pos": 61810
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2513_5_3_7|",
+    "original": "You gently tease your penis, tracing a finger down the length with one hand and circling the tip with another.",
+    "translation": "",
+    "pos": 61882
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2515_5_3_7|",
+    "original": "You gently tease your penis with your left hand, tracing a finger down the length.",
+    "translation": "",
+    "pos": 62007
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2524_5_3_7|",
+    "original": "You",
+    "translation": "",
+    "pos": 62372
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2526_5_3_7|",
+    "original": "<span class=\"green\">resist intrusive thoughts</span> and",
+    "translation": "",
+    "pos": 62417
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2529_5_3_7|",
+    "original": "cover your <<print $_genital>> with your <<print $_hands>>, tugging the towel further over it.",
+    "translation": "",
+    "pos": 62609
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2531_5_3_7|",
+    "original": "cover your <<print $_genital>> with your <<print $_hands>>.",
+    "translation": "",
+    "pos": 62718
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2590_5_3_7|",
+    "original": "You grope your <<bottom>>, spreading your cheeks apart with both hands.",
+    "translation": "",
+    "pos": 65119
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2592_5_3_7|",
+    "original": "You grope your <<bottom>> with your <<print $_hands>>, giving it small slaps.",
+    "translation": "",
+    "pos": 65205
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2597_5_3_7|",
+    "original": "You intend to cover your ass",
+    "translation": "",
+    "pos": 65386
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2599_5_3_7|",
+    "original": "but a lewd thought intrudes <span class=\"lewd\">and your mind immediately accepts it.</span>",
+    "translation": "",
+    "pos": 65452
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2601_5_3_7|",
+    "original": "<span class=\"pink\">but the thought is snatched from your mind, and replaced with another.</span>",
+    "translation": "",
+    "pos": 65558
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2604_5_3_7|",
+    "original": "You grope your <<bottom>>, spreading your cheeks apart with both hands.",
+    "translation": "",
+    "pos": 65696
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2606_5_3_7|",
+    "original": "You grope your <<bottom>> with your <<print $_hands>>, giving it a small slap.",
+    "translation": "",
+    "pos": 65782
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2615_5_3_7|",
+    "original": "You",
+    "translation": "",
+    "pos": 66143
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2617_5_3_7|",
+    "original": "<span class=\"green\">resist intrusive thoughts</span> and",
+    "translation": "",
+    "pos": 66188
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2620_5_3_7|",
+    "original": "cover your ass with your <<print $_hands>>, tugging the towel further over it.",
+    "translation": "",
+    "pos": 66380
+  },
+  {
+    "passage": "Widgets Effects Hands",
+    "filepath": "base-combat/actions-hands.twee",
+    "key": "2622_5_3_7|",
+    "original": "cover your ass with your <<print $_hands>>.",
+    "translation": "",
+    "pos": 66473
+  }
+]

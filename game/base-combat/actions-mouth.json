@@ -1,0 +1,274 @@
+[
+  {
+    "passage": "Widgets Actions Mouth FlavorText",
+    "filepath": "base-combat/actions-mouth.twee",
+    "key": "3_5_3_7|",
+    "original": "<<set _j to ($NPCList.findIndex(x => x.chest is \"mouthentrance\"))>>",
+    "translation": "",
+    "pos": 31
+  },
+  {
+    "passage": "Widgets Actions Mouth FlavorText",
+    "filepath": "base-combat/actions-mouth.twee",
+    "key": "6_5_3_7|",
+    "original": "Your head is pressed <<print ($NPCList[_j].breastsize gte 6?\"between\":\"against\")>>",
+    "translation": "",
+    "pos": 140
+  },
+  {
+    "passage": "Widgets Actions Mouth FlavorText",
+    "filepath": "base-combat/actions-mouth.twee",
+    "key": "8_5_3_7|",
+    "original": "the <<persons>>",
+    "translation": "",
+    "pos": 250
+  },
+  {
+    "passage": "Widgets Actions Mouth FlavorText",
+    "filepath": "base-combat/actions-mouth.twee",
+    "key": "12_5_3_7|",
+    "original": "$NPCList[_j].breastsdesc.",
+    "translation": "",
+    "pos": 300
+  },
+  {
+    "passage": "Widgets Actions Mouth FlavorText",
+    "filepath": "base-combat/actions-mouth.twee",
+    "key": "14_5_3_7|",
+    "original": "Errors.report(\"breastFlavorText failed to find correct index, ignoring\")",
+    "translation": "",
+    "pos": 379
+  },
+  {
+    "passage": "Widgets Actions Mouth FlavorText",
+    "filepath": "base-combat/actions-mouth.twee",
+    "key": "19_5_3_7|",
+    "original": "<<set _j to ($NPCList.findIndex(x => x.chest is \"mouth\"))>>",
+    "translation": "",
+    "pos": 505
+  },
+  {
+    "passage": "Widgets Actions Mouth FlavorText",
+    "filepath": "base-combat/actions-mouth.twee",
+    "key": "22_5_3_7|",
+    "original": "Your head is pressed against",
+    "translation": "",
+    "pos": 606
+  },
+  {
+    "passage": "Widgets Actions Mouth FlavorText",
+    "filepath": "base-combat/actions-mouth.twee",
+    "key": "24_5_3_7|",
+    "original": "the <<persons>>",
+    "translation": "",
+    "pos": 662
+  },
+  {
+    "passage": "Widgets Actions Mouth FlavorText",
+    "filepath": "base-combat/actions-mouth.twee",
+    "key": "28_5_3_7|",
+    "original": "<<if $NPCList[_j].lactation is 1 and $breastfeedingdisable is \"f\">>",
+    "translation": "",
+    "pos": 712
+  },
+  {
+    "passage": "Widgets Actions Mouth FlavorText",
+    "filepath": "base-combat/actions-mouth.twee",
+    "key": "29_5_3_7|",
+    "original": "leaking",
+    "translation": "",
+    "pos": 783
+  },
+  {
+    "passage": "Widgets Actions Mouth FlavorText",
+    "filepath": "base-combat/actions-mouth.twee",
+    "key": "31_5_3_7|",
+    "original": "$NPCList[_j].breastdesc.",
+    "translation": "",
+    "pos": 803
+  },
+  {
+    "passage": "Widgets Actions Mouth FlavorText",
+    "filepath": "base-combat/actions-mouth.twee",
+    "key": "33_5_3_7|",
+    "original": "Errors.report(\"nippleFlavorText failed to find correct index, ignoring\")",
+    "translation": "",
+    "pos": 881
+  },
+  {
+    "passage": "Widgets Actions Mouth FlavorText",
+    "filepath": "base-combat/actions-mouth.twee",
+    "key": "41_5_3_7|",
+    "original": "<<print $npc[0]>>",
+    "translation": "",
+    "pos": 1107
+  },
+  {
+    "passage": "Widgets Actions Mouth FlavorText",
+    "filepath": "base-combat/actions-mouth.twee",
+    "key": "52_5_3_7|",
+    "original": "<<print $npc[$npcrow.indexOf(_j)]>>",
+    "translation": "",
+    "pos": 1363
+  },
+  {
+    "passage": "Widgets Actions Mouth FlavorText",
+    "filepath": "base-combat/actions-mouth.twee",
+    "key": "54_5_3_7|",
+    "original": "The <<person>>",
+    "translation": "",
+    "pos": 1413
+  },
+  {
+    "passage": "Widgets Actions Mouth FlavorText",
+    "filepath": "base-combat/actions-mouth.twee",
+    "key": "58_5_3_7|",
+    "original": "sits on your mouth.",
+    "translation": "",
+    "pos": 1479
+  },
+  {
+    "passage": "Widgets Actions Mouth FlavorText",
+    "filepath": "base-combat/actions-mouth.twee",
+    "key": "60_5_3_7|",
+    "original": "sits on your face.",
+    "translation": "",
+    "pos": 1511
+  },
+  {
+    "passage": "Widgets Actions Mouth",
+    "filepath": "base-combat/actions-mouth.twee",
+    "key": "87_5_3_7|",
+    "original": "<<if $NPCList[_j].penis is 0>>",
+    "translation": "",
+    "pos": 536
+  },
+  {
+    "passage": "Widgets Actions Mouth",
+    "filepath": "base-combat/actions-mouth.twee",
+    "key": "89_5_3_7|",
+    "original": "| <label><span class=\"sub\">Move your lips to <<his>> penis</span> <<radiobutton \"$mouthaction\" \"mouth\" checked>><<oraldifficulty>> <<combatpromiscuous4>></label>",
+    "translation": "",
+    "pos": 614
+  },
+  {
+    "passage": "Widgets Actions Mouth",
+    "filepath": "base-combat/actions-mouth.twee",
+    "key": "91_5_3_7|",
+    "original": "| <label><span class=\"sub\">Move your lips to <<his>> penis</span> <<radiobutton \"$mouthaction\" \"mouth\">><<oraldifficulty>> <<combatpromiscuous4>></label>",
+    "translation": "",
+    "pos": 794
+  },
+  {
+    "passage": "Widgets Actions Mouth",
+    "filepath": "base-combat/actions-mouth.twee",
+    "key": "97_5_3_7|",
+    "original": "<<if $NPCList[_j].vagina is 0>>",
+    "translation": "",
+    "pos": 1044
+  },
+  {
+    "passage": "Widgets Actions Mouth",
+    "filepath": "base-combat/actions-mouth.twee",
+    "key": "99_5_3_7|",
+    "original": "| <label><span class=\"sub\">Move your mouth to <<his>> pussy</span><<radiobutton \"$mouthaction\" \"othervagina\" checked>><<oraldifficulty>> <<combatpromiscuous4>></label>",
+    "translation": "",
+    "pos": 1129
+  },
+  {
+    "passage": "Widgets Actions Mouth",
+    "filepath": "base-combat/actions-mouth.twee",
+    "key": "101_5_3_7|",
+    "original": "| <label><span class=\"sub\">Move your mouth to <<his>> pussy</span><<radiobutton \"$mouthaction\" \"othervagina\">><<oraldifficulty>> <<combatpromiscuous4>></label>",
+    "translation": "",
+    "pos": 1315
+  },
+  {
+    "passage": "Widgets Actions Mouth",
+    "filepath": "base-combat/actions-mouth.twee",
+    "key": "112_5_3_7|",
+    "original": "<<if $NPCList[_j].chest is 0>>",
+    "translation": "",
+    "pos": 1676
+  },
+  {
+    "passage": "Widgets Actions Mouth",
+    "filepath": "base-combat/actions-mouth.twee",
+    "key": "114_5_3_7|",
+    "original": "| <label><span class=\"sub\">Move your lips to <<his>> chest</span> <<radiobutton \"$mouthaction\" \"movetochest\" checked>><<oraldifficulty>> <<combatpromiscuous3>></label>",
+    "translation": "",
+    "pos": 1760
+  },
+  {
+    "passage": "Widgets Actions Mouth",
+    "filepath": "base-combat/actions-mouth.twee",
+    "key": "116_5_3_7|",
+    "original": "| <label><span class=\"sub\">Move your lips to <<his>> chest</span> <<radiobutton \"$mouthaction\" \"movetochest\">><<oraldifficulty>> <<combatpromiscuous3>></label>",
+    "translation": "",
+    "pos": 1946
+  },
+  {
+    "passage": "Widgets Actions Mouth",
+    "filepath": "base-combat/actions-mouth.twee",
+    "key": "132_5_3_7|",
+    "original": "<<if $NPCList[$mouthtarget].penis is 0 and ($enemytype isnot \"man\" or ($NPCList[$mouthtarget].location.genitals is 0 and $NPCList[$mouthtarget].location.head isnot \"head\")) and !$worn.face.type.includes(\"covered\") and !$worn.face.type.includes(\"gag\")>>",
+    "translation": "",
+    "pos": 2489
+  },
+  {
+    "passage": "Widgets Actions Mouth",
+    "filepath": "base-combat/actions-mouth.twee",
+    "key": "133_5_3_7|",
+    "original": "<<if $NPCList[$mouthtarget].chastity.penis.includes(\"chastity\")>>",
+    "translation": "",
+    "pos": 2745
+  },
+  {
+    "passage": "Widgets Actions Mouth",
+    "filepath": "base-combat/actions-mouth.twee",
+    "key": "141_5_3_7|",
+    "original": "<<if $NPCList[$mouthtarget].vagina is 0 and ($enemytype isnot \"man\" or ($NPCList[$mouthtarget].location.genitals is 0 and $NPCList[$mouthtarget].location.head isnot \"head\")) and !$worn.face.type.includes(\"covered\") and !$worn.face.type.includes(\"gag\")>>",
+    "translation": "",
+    "pos": 3247
+  },
+  {
+    "passage": "Widgets Actions Mouth",
+    "filepath": "base-combat/actions-mouth.twee",
+    "key": "142_5_3_7|",
+    "original": "<<if $NPCList[$mouthtarget].chastity.vagina.includes(\"chastity\")>>",
+    "translation": "",
+    "pos": 3504
+  },
+  {
+    "passage": "Widgets Actions Mouth",
+    "filepath": "base-combat/actions-mouth.twee",
+    "key": "155_5_3_7|",
+    "original": "<<if $NPCList[$mouthtarget].chest is 0 and $NPCList[$mouthtarget].location.genitals isnot \"head\" and $NPCList[$mouthtarget].location.head isnot \"head\" and $NPCList[$mouthtarget].location.head isnot \"genitals\" and !$worn.face.type.includes(\"covered\") and !$worn.face.type.includes(\"gag\")>>",
+    "translation": "",
+    "pos": 4131
+  },
+  {
+    "passage": "Widgets Actions Mouth",
+    "filepath": "base-combat/actions-mouth.twee",
+    "key": "165_5_3_7|",
+    "original": "<<if $NPCList[0].penis is \"mouthentrance\" or $NPCList[0].penis is \"mouthimminent\" or $NPCList[1].penis is \"mouthentrance\" or $NPCList[1].penis is \"mouthimminent\" or $NPCList[2].penis is \"mouthentrance\" or $NPCList[2].penis is \"mouthimminent\" or $NPCList[3].penis is \"mouthentrance\" or $NPCList[3].penis is \"mouthimminent\" or $NPCList[4].penis is \"mouthentrance\" or $NPCList[4].penis is \"mouthimminent\" or $NPCList[5].penis is \"mouthentrance\" or $NPCList[5].penis is \"mouthimminent\">>",
+    "translation": "",
+    "pos": 4821
+  },
+  {
+    "passage": "Widgets Actions Mouth",
+    "filepath": "base-combat/actions-mouth.twee",
+    "key": "167_5_3_7|",
+    "original": "| <label><span class=\"sub\">Take <<his>> penis into your mouth</span> <<radiobutton \"$mouthaction\" \"swallow\" checked>><<oralvirginitywarning>> <<combatpromiscuous5>></label>",
+    "translation": "",
+    "pos": 5350
+  },
+  {
+    "passage": "Widgets Actions Mouth",
+    "filepath": "base-combat/actions-mouth.twee",
+    "key": "169_5_3_7|",
+    "original": "| <label><span class=\"sub\">Take <<his>> penis into your mouth</span> <<radiobutton \"$mouthaction\" \"swallow\">><<oralvirginitywarning>> <<combatpromiscuous5>></label>",
+    "translation": "",
+    "pos": 5539
+  }
+]
