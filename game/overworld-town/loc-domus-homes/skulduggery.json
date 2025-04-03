@@ -1,0 +1,1754 @@
+[
+  {
+    "passage": "Domus House Lock",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "4_5_3_7|",
+    "original": "The door is locked tight.",
+    "translation": "",
+    "pos": 104
+  },
+  {
+    "passage": "Domus House Lock",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "8_5_3_7|",
+    "original": "You think you'd be able to pick the lock, <span class=\"blue\">if your arms weren't bound.</span>",
+    "translation": "",
+    "pos": 244
+  },
+  {
+    "passage": "Domus House Lock",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "12_5_3_7|",
+    "original": "<span class=\"green\">The lock looks easy to pick.</span>",
+    "translation": "",
+    "pos": 389
+  },
+  {
+    "passage": "Domus House Lock",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "14_5_3_7|",
+    "original": "<<lockicon \"pick\">><<link [[Break in (0:05)|Domus House Sneak]]>><<handheldon>><<pass 5>><<crimeUp 5 \"trespassing\">><</link>><<crime \"trespassing\">>",
+    "translation": "",
+    "pos": 458
+  },
+  {
+    "passage": "Domus House Lock",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "18_5_3_7|",
+    "original": "<span class=\"red\">The lock looks beyond your ability to pick.</span><<skulduggeryrequired>>",
+    "translation": "",
+    "pos": 633
+  },
+  {
+    "passage": "Domus House Lock",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "21_5_3_7|",
+    "original": "<<domusicon>><<link [[Leave|Domus Street]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 743
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "27_5_3_7|",
+    "original": "You successfully pick the lock and enter the abode.",
+    "translation": "",
+    "pos": 84
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "31_5_3_7|",
+    "original": "<span class=\"blue\">There's nothing more you can learn from locks this simple.</span>",
+    "translation": "",
+    "pos": 198
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "35_5_3_7|",
+    "original": "You sneak around the house and look for anything of value.",
+    "translation": "",
+    "pos": 302
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "40_5_3_7|",
+    "original": "A low growl interrupts you, and a <<beasttype>> emerges from the darkness. <<bHe>> starts to bark.<<if $monster is 1>> \"Intruder! Away!\"<</if>>",
+    "translation": "",
+    "pos": 493
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "43_5_3_7|",
+    "original": "<<link [[Try to calm <<bhim>>|Domus House Dog]]>><<set $phase to 0>><<set $sexstart to 1>><<generate2>><</link>><<deviant2>>",
+    "translation": "",
+    "pos": 686
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "46_5_3_7|",
+    "original": "<<link [[Fight|Domus House Dog]]>><<set $molestationstart to 1>><<set $phase to 0>><<generate2>><</link>>",
+    "translation": "",
+    "pos": 831
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "48_5_3_7|",
+    "original": "<<link [[Run|Domus House Run]]>><<transform cat 1>><</link>>",
+    "translation": "",
+    "pos": 946
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "51_5_3_7|",
+    "original": "A low growl interrupts you, and a dog emerges from the darkness. It starts to bark.",
+    "translation": "",
+    "pos": 1030
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "53_5_3_7|",
+    "original": "You flee out the house, the dog snapping at your heels. It doesn't chase you beyond the front door, content to bark into the <<if Time.dayState is \"night\">>night<<else>>street<</if>>.",
+    "translation": "",
+    "pos": 1127
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "56_5_3_7|",
+    "original": "<<link [[Next|Domus Street]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1342
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "60_5_3_7|",
+    "original": "You find a safe with a combination lock.",
+    "translation": "",
+    "pos": 1434
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "62_5_3_7|",
+    "original": "<<link [[Try to open it|Domus House Safe]]>><</link>>",
+    "translation": "",
+    "pos": 1486
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "64_5_3_7|",
+    "original": "<<link [[Leave|Domus Street]]>><</link>>",
+    "translation": "",
+    "pos": 1547
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "68_5_3_7|",
+    "original": "As you creep through a darkened room a low voice startles you.",
+    "translation": "",
+    "pos": 1644
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "70_5_3_7|",
+    "original": "\"You're welcome to keep looking around, sweetheart, but there's nothing here. Nothing you'd want. This street is good people, but we haven't got much.",
+    "translation": "",
+    "pos": 1718
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "71_5_3_7|",
+    "original": "If you want a mark that's worth something head over to Danube. Nice big places over there. Full of nice stuff.\"",
+    "translation": "",
+    "pos": 1870
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "73_5_3_7|",
+    "original": "A lighter sparks twice, lighting up a <<person>>. Third time, the cigarette in <<his>> mouth catches. A point of glowing red in the dark.",
+    "translation": "",
+    "pos": 1989
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "75_5_3_7|",
+    "original": "\"I used to be a thief,\" <<he>> says. \"Just be careful. Thieving's good for a while. Lots of good stuff for free. Nice life. Thought I was untouchable.",
+    "translation": "",
+    "pos": 2138
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "76_5_3_7|",
+    "original": "Ha. You pay for it in the end. In this town you always pay. One way or another. Pillory is brutal. Prison's worse. Far worse. Nowadays, I cut the middleman.",
+    "translation": "",
+    "pos": 2290
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "77_5_3_7|",
+    "original": "Can make easy money spreading your legs in this town. Easier than penal time. And at least you get to choose who. Keep some control. Prison's brutal.\"",
+    "translation": "",
+    "pos": 2448
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "79_5_3_7|",
+    "original": "A trail of smoke winds your way. It tickles your throat making you cough.",
+    "translation": "",
+    "pos": 2610
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "81_5_3_7|",
+    "original": "\"Sorry,\" <<he>> says. \"Filthy habit. Need to quit. Anyway, there's nothing here. Go see for yourself. Rather that than you come stumbling around here another day.",
+    "translation": "",
+    "pos": 2695
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "82_5_3_7|",
+    "original": "Go on, look around all you want. Take whatever. I can get more. Knock yourself out. Baby's sleeping in that room there though. Hasn't been down an hour yet.",
+    "translation": "",
+    "pos": 2859
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "83_5_3_7|",
+    "original": "Don't wake him, okay? That's all I ask.\"",
+    "translation": "",
+    "pos": 3017
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "85_5_3_7|",
+    "original": "You quietly move away.",
+    "translation": "",
+    "pos": 3065
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "87_5_3_7|",
+    "original": "\"Growing up in this town, the little fucker's gonna need all the rest he can get,\" <<he>> mutters, seemingly to <<himself>>. \"Poor little bastard.\"",
+    "translation": "",
+    "pos": 3095
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "89_5_3_7|",
+    "original": "You find nothing and leave empty handed.",
+    "translation": "",
+    "pos": 3254
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "92_5_3_7|",
+    "original": "<<link [[Leave|Domus Street]]>><</link>>",
+    "translation": "",
+    "pos": 3320
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "95_5_3_7|",
+    "original": "While searching a room for valuables you find a drawer containing a number of phones. Most are used but all are fairly new.",
+    "translation": "",
+    "pos": 3391
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "98_5_3_7|",
+    "original": "Your knowledge of the skulduggerous lets you quickly determine that these are stolen phones.",
+    "translation": "",
+    "pos": 3599
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "99_5_3_7|",
+    "original": "Stealing them again should not be a crime. It's not like they can report someone stealing their stolen goods.",
+    "translation": "",
+    "pos": 3694
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "101_5_3_7|",
+    "original": "<<link [[Take them|Domus Street]]>><<handheldon>><<set $blackmoney += 60>><</link>>",
+    "translation": "",
+    "pos": 3817
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "103_5_3_7|",
+    "original": "Why would someone have so many nearly new phones? How odd.",
+    "translation": "",
+    "pos": 3913
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "105_5_3_7|",
+    "original": "<<link [[Take it|Domus Street]]>><<handheldon>><<set $blackmoney += 60>><<crimeUp 60 \"thievery\">><</link>><<crime \"thievery\">>",
+    "translation": "",
+    "pos": 3985
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "108_5_3_7|",
+    "original": "<<link [[Leave|Domus Street]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 4128
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "111_5_3_7|",
+    "original": "<<generate1>><<person1>>You're rummaging through the lounge when you hear footsteps approaching. You take cover behind the curtains, just before a <<person>> enters the room. <<He>> sits down and switches on the television like <<he>> plans to be there awhile.",
+    "translation": "",
+    "pos": 4213
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "113_5_3_7|",
+    "original": "<<link [[Sneak out|Domus House Sneak 2]]>><</link>>",
+    "translation": "",
+    "pos": 4485
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "115_5_3_7|",
+    "original": "<<link [[Wait (0:30)|Domus House Wait]]>><<pass 30>><</link>>",
+    "translation": "",
+    "pos": 4544
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "118_5_3_7|",
+    "original": "You're searching the lounge for valuables when you notice that one step sounds hollow.",
+    "translation": "",
+    "pos": 4636
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "119_5_3_7|",
+    "original": "<<if currentSkillValue('skulduggery') gte 500>>Suspecting a hidden stash,<<else>>Confused,<</if>> you look under the rug and find a trap door.",
+    "translation": "",
+    "pos": 4724
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "120_5_3_7|",
+    "original": "Lifting it up and peering down, it seems there is a set of steps leading down to an underground room.",
+    "translation": "",
+    "pos": 4868
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "122_5_3_7|",
+    "original": "You cannot make out anything in the darkness.",
+    "translation": "",
+    "pos": 4977
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "124_5_3_7|",
+    "original": "<<link [[Climb down|Domus House Dungeon]]>><</link>>",
+    "translation": "",
+    "pos": 5034
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "126_5_3_7|",
+    "original": "<<link [[Leave|Domus Street]]>><</link>>",
+    "translation": "",
+    "pos": 5094
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "143_5_3_7|",
+    "original": "The house is almost entirely bare. You are almost ready to leave when you stumble across an entire room dedicated to _bigthing.",
+    "translation": "",
+    "pos": 6330
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "144_5_3_7|",
+    "original": "Unfortunately, most of it - _thebits - is far too difficult to extract or far too bulky to steal.",
+    "translation": "",
+    "pos": 6459
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "146_5_3_7|",
+    "original": "Thankfully, the _littlething next to the chair is far easier to steal and should be worth something on the black markets.",
+    "translation": "",
+    "pos": 6564
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "148_5_3_7|",
+    "original": "<<link [[Take it|Domus Street]]>><<set $blackmoney += _blackmoney>><<crimeUp _blackmoney \"thievery\">><</link>><<crime \"thievery\">>",
+    "translation": "",
+    "pos": 6697
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "150_5_3_7|",
+    "original": "<<link [[Leave|Domus Street]]>><</link>>",
+    "translation": "",
+    "pos": 6835
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "153_5_3_7|",
+    "original": "There's nothing of value in the entire house. Even the beds are just greasy sheets over old soiled mattresses on bare wooden floors.",
+    "translation": "",
+    "pos": 6906
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "154_5_3_7|",
+    "original": "<<print either(\"It's actually kind of tragic.\",\"It's almost sad.\",\"Three kids, one adult, and one mouldy half-loaf of bread in the cupboard.\")>>",
+    "translation": "",
+    "pos": 7040
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "156_5_3_7|",
+    "original": "You can't steal from these people. You should probably leave <i>them</i> money.",
+    "translation": "",
+    "pos": 7196
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "159_5_3_7|",
+    "original": "<<link [[Leave £100|Domus Leave Money]]>><<set $phase to 0>><<money -10000>><<stress -6>><<trauma -6>><</link>><<lstress>><<ltrauma>>",
+    "translation": "",
+    "pos": 7313
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "163_5_3_7|",
+    "original": "<<link [[Leave £500|Domus Leave Money]]>><<set $phase to 1>><<money -50000>><<stress -24>><<trauma -12>><</link>><<llstress>><<lltrauma>>",
+    "translation": "",
+    "pos": 7490
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "167_5_3_7|",
+    "original": "<<link [[Leave £1000|Domus Leave Money]]>><<set $phase to 2>><<money -100000>><<stress -50>><<trauma -18>><</link>><<lllstress>><<llltrauma>>",
+    "translation": "",
+    "pos": 7672
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "170_5_3_7|",
+    "original": "<<link [[Just leave|Domus Street]]>><</link>>",
+    "translation": "",
+    "pos": 7831
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "175_5_3_7|",
+    "original": "You don't find much, just some loose change worth <<moneyGainDisplay 1 true true>>.",
+    "translation": "",
+    "pos": 7923
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "177_5_3_7|",
+    "original": "<<link [[Take it|Domus Street]]>><<money _money_gain>><<crimeUp `_money_gain / 100` \"petty\">><</link>><<crime \"petty\">>",
+    "translation": "",
+    "pos": 8020
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "179_5_3_7|",
+    "original": "<<link [[Leave|Domus Street]]>><</link>>",
+    "translation": "",
+    "pos": 8149
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "182_5_3_7|",
+    "original": "You don't find much, just some loose change worth <<moneyGainDisplay 2 true true>>.",
+    "translation": "",
+    "pos": 8223
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "184_5_3_7|",
+    "original": "<<link [[Take it|Domus Street]]>><<money _money_gain>><<crimeUp `_money_gain / 100` \"petty\">><</link>><<crime \"petty\">>",
+    "translation": "",
+    "pos": 8320
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "186_5_3_7|",
+    "original": "<<link [[Leave|Domus Street]]>><</link>>",
+    "translation": "",
+    "pos": 8449
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "189_5_3_7|",
+    "original": "You find <<moneyGainDisplay 5 true true>> hidden in a drawer.",
+    "translation": "",
+    "pos": 8523
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "191_5_3_7|",
+    "original": "<<link [[Take it|Domus Street]]>><<money _money_gain>><<crimeUp `_money_gain / 100` \"petty\">><</link>><<crime \"petty\">>",
+    "translation": "",
+    "pos": 8598
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "193_5_3_7|",
+    "original": "<<link [[Leave|Domus Street]]>><</link>>",
+    "translation": "",
+    "pos": 8727
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "196_5_3_7|",
+    "original": "You find a nice-looking brooch in a drawer.",
+    "translation": "",
+    "pos": 8801
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "198_5_3_7|",
+    "original": "<<link [[Take it|Domus Street]]>><<set $blackmoney += 5>><<crimeUp 5 \"thievery\">><</link>><<crime \"thievery\">>",
+    "translation": "",
+    "pos": 8858
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "200_5_3_7|",
+    "original": "<<link [[Leave|Domus Street]]>><</link>>",
+    "translation": "",
+    "pos": 8978
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "203_5_3_7|",
+    "original": "You find <<moneyGainDisplay 10 true true>> under a cushion on the sofa.",
+    "translation": "",
+    "pos": 9052
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "205_5_3_7|",
+    "original": "<<link [[Take it|Domus Street]]>><<money _money_gain>><<crimeUp `_money_gain / 100` \"petty\">><</link>><<crime \"petty\">>",
+    "translation": "",
+    "pos": 9137
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "207_5_3_7|",
+    "original": "<<link [[Leave|Domus Street]]>><</link>>",
+    "translation": "",
+    "pos": 9266
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "210_5_3_7|",
+    "original": "You find a necklace on a stool beside the coat stand.",
+    "translation": "",
+    "pos": 9340
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "212_5_3_7|",
+    "original": "<<link [[Take it|Domus Street]]>><<set $blackmoney += 10>><<crimeUp 10 \"thievery\">><</link>><<crime \"thievery\">>",
+    "translation": "",
+    "pos": 9407
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "214_5_3_7|",
+    "original": "<<link [[Leave|Domus Street]]>><</link>>",
+    "translation": "",
+    "pos": 9529
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "217_5_3_7|",
+    "original": "You find <<moneyGainDisplay 15 true true>> lying on the kitchen worktop.",
+    "translation": "",
+    "pos": 9603
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "219_5_3_7|",
+    "original": "<<link [[Take it|Domus Street]]>><<money _money_gain>><<crimeUp `_money_gain / 100` \"petty\">><</link>><<crime \"petty\">>",
+    "translation": "",
+    "pos": 9689
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "221_5_3_7|",
+    "original": "<<link [[Leave|Domus Street]]>><</link>>",
+    "translation": "",
+    "pos": 9818
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "224_5_3_7|",
+    "original": "You find a set of silverware.",
+    "translation": "",
+    "pos": 9892
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "226_5_3_7|",
+    "original": "<<link [[Take it|Domus Street]]>><<set $blackmoney += 15>><<crimeUp 15 \"thievery\">><</link>><<crime \"thievery\">>",
+    "translation": "",
+    "pos": 9931
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "228_5_3_7|",
+    "original": "<<link [[Leave|Domus Street]]>><</link>>",
+    "translation": "",
+    "pos": 10053
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "231_5_3_7|",
+    "original": "You find a pair of gold cufflinks in a coat pocket.",
+    "translation": "",
+    "pos": 10127
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "233_5_3_7|",
+    "original": "<<link [[Take them|Domus Street]]>><<set $blackmoney += 20>><<crimeUp 20 \"thievery\">><</link>><<crime \"thievery\">>",
+    "translation": "",
+    "pos": 10192
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "235_5_3_7|",
+    "original": "<<link [[Leave|Domus Street]]>><</link>>",
+    "translation": "",
+    "pos": 10316
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "238_5_3_7|",
+    "original": "You find <<moneyGainDisplay 30 true true>> in a pot beside the front door.",
+    "translation": "",
+    "pos": 10376
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "240_5_3_7|",
+    "original": "<<link [[Take it|Domus Street]]>><<money _money_gain>><<crimeUp `_money_gain / 100` \"petty\">><</link>><<crime \"petty\">>",
+    "translation": "",
+    "pos": 10464
+  },
+  {
+    "passage": "Domus House Sneak",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "242_5_3_7|",
+    "original": "<<link [[Leave|Domus Street]]>><</link>>",
+    "translation": "",
+    "pos": 10593
+  },
+  {
+    "passage": "Domus House Dog",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "269_5_3_7|",
+    "original": "You drop to the floor and adopt a mating posture. The <<beasttype>> calms down, and other instincts are roused by your display.",
+    "translation": "",
+    "pos": 471
+  },
+  {
+    "passage": "Domus House Dog",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "276_5_3_7|",
+    "original": "<<person2>>\"Wow,\" says the <<person>>. \"Being my <<beasttype>>'s bitch is making you cum. Maybe this isn't such a punishment for you after all, it's where you belong.\" You feel utterly humiliated.<<famebestiality 1>>",
+    "translation": "",
+    "pos": 724
+  },
+  {
+    "passage": "Domus House Dog",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "279_5_3_7|",
+    "original": "<<person2>>The <<person>> sits on the sofa, watching you.",
+    "translation": "",
+    "pos": 976
+  },
+  {
+    "passage": "Domus House Dog",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "284_5_3_7|",
+    "original": "<<alarmstate '<span class=\"red\"><<person2>>The <<person>> laughs. \"What\\'s the matter, bitch? <<person1>>Is <<bhe>> too big for you?\"</span><<person1>>' 1>>",
+    "translation": "",
+    "pos": 1104
+  },
+  {
+    "passage": "Domus House Dog",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "288_5_3_7|",
+    "original": "<<alarmstate '<span class=\"red\">Your screams go unanswered.</span>'>>",
+    "translation": "",
+    "pos": 1313
+  },
+  {
+    "passage": "Domus House Dog",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "297_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Domus House Dog Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 1496
+  },
+  {
+    "passage": "Domus House Dog",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "299_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Domus House Dog]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 1593
+  },
+  {
+    "passage": "Domus House Dog",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "303_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Domus House Dog Finish 2]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 1710
+  },
+  {
+    "passage": "Domus House Dog",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "305_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Domus House Dog]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 1809
+  },
+  {
+    "passage": "Domus House Run",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "312_5_3_7|",
+    "original": "You flee out the house, the <<beasttype>> snapping at your heels. <<bHe>> doesn't chase you beyond the front door, content to continue barking into the <<if Time.dayState is \"night\">>night<<else>>street<</if>>.",
+    "translation": "",
+    "pos": 84
+  },
+  {
+    "passage": "Domus House Run",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "315_5_3_7|",
+    "original": "<<link [[Next|Domus Street]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 320
+  },
+  {
+    "passage": "Domus House Dog Finish",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "323_5_3_7|",
+    "original": "The <<beasttype>> barks happily and walks over to the window.",
+    "translation": "",
+    "pos": 126
+  },
+  {
+    "passage": "Domus House Dog Finish",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "324_5_3_7|",
+    "original": "<<tearful>> you rise to your feet.",
+    "translation": "",
+    "pos": 189
+  },
+  {
+    "passage": "Domus House Dog Finish",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "331_5_3_7|",
+    "original": "The <<beasttype>> pacified, you notice <<bhis>> collar glinting. You look closer and see it's encrusted with jewels.",
+    "translation": "",
+    "pos": 354
+  },
+  {
+    "passage": "Domus House Dog Finish",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "333_5_3_7|",
+    "original": "<<link [[Take it|Domus House Collar]]>><<crimeUp 50 \"thievery\">><</link>><<crime \"thievery\">>",
+    "translation": "",
+    "pos": 482
+  },
+  {
+    "passage": "Domus House Dog Finish",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "335_5_3_7|",
+    "original": "<<link [[Leave|Domus Street]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 583
+  },
+  {
+    "passage": "Domus House Dog Finish",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "338_5_3_7|",
+    "original": "The <<beasttype>> cowers and rolls over in submission.",
+    "translation": "",
+    "pos": 673
+  },
+  {
+    "passage": "Domus House Dog Finish",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "339_5_3_7|",
+    "original": "<<tearful>> you rise to your feet.",
+    "translation": "",
+    "pos": 729
+  },
+  {
+    "passage": "Domus House Dog Finish",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "346_5_3_7|",
+    "original": "The <<beasttype>> pacified, you notice <<bhis>> collar glinting. You look closer and see it's encrusted with jewels.",
+    "translation": "",
+    "pos": 894
+  },
+  {
+    "passage": "Domus House Dog Finish",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "348_5_3_7|",
+    "original": "<<link [[Take it|Domus House Collar]]>><<crimeUp 50 \"thievery\">><</link>><<crime \"thievery\">>",
+    "translation": "",
+    "pos": 1022
+  },
+  {
+    "passage": "Domus House Dog Finish",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "350_5_3_7|",
+    "original": "<<link [[Leave|Domus Street]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1123
+  },
+  {
+    "passage": "Domus House Dog Finish",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "355_5_3_7|",
+    "original": "<<person2>>You hear footsteps coming towards you. \"What you got there, <<print $NPCList[0].pronouns.boy>>?\" says a <<person>>.",
+    "translation": "",
+    "pos": 1282
+  },
+  {
+    "passage": "Domus House Dog Finish",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "356_5_3_7|",
+    "original": "<<He>> laughs when <<he>> sees you. \"Serves you right, sneaking around my property like that.\" <<He>> takes a seat. \"Don't mind me.\"",
+    "translation": "",
+    "pos": 1411
+  },
+  {
+    "passage": "Domus House Dog Finish",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "358_5_3_7|",
+    "original": "<<link [[Next|Domus House Dog]]>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 1557
+  },
+  {
+    "passage": "Domus House Dog Finish",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "360_5_3_7|",
+    "original": "<<person2>>\"What you got there boy?\" says a <<person>>.",
+    "translation": "",
+    "pos": 1631
+  },
+  {
+    "passage": "Domus House Dog Finish",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "361_5_3_7|",
+    "original": "<<He>> laughs when <<he>> sees you. \"Serves you right, sneaking around my property like that. But I have a better idea.\" <<He>> grabs the <<beasttype>> by the collar and hauls it off you.",
+    "translation": "",
+    "pos": 1689
+  },
+  {
+    "passage": "Domus House Dog Finish",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "368_5_3_7|",
+    "original": "<<link [[Next|Domus House Sneak Molestation]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 2039
+  },
+  {
+    "passage": "Domus House Dog Finish",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "372_5_3_7|",
+    "original": "The <<beasttype>> backs away from you. <<bHe>> growls at you again, but doesn't move. <<tearful>> you glance around. You see nothing of value.",
+    "translation": "",
+    "pos": 2152
+  },
+  {
+    "passage": "Domus House Dog Finish",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "376_5_3_7|",
+    "original": "<<link [[Leave|Domus Street]]>><</link>>",
+    "translation": "",
+    "pos": 2336
+  },
+  {
+    "passage": "Domus House Collar",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "383_5_3_7|",
+    "original": "The <<beasttypes>> ears twitch, but other than that <<bhe>> makes no move as you remove <<bhis>> collar. You leave the premises with your prize in hand.",
+    "translation": "",
+    "pos": 84
+  },
+  {
+    "passage": "Domus House Collar",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "386_5_3_7|",
+    "original": "<<link [[Leave|Domus Street]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 272
+  },
+  {
+    "passage": "Domus House Sneak Molestation",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "405_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Domus House Sneak Molestation Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 236
+  },
+  {
+    "passage": "Domus House Sneak Molestation",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "407_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Domus House Sneak Molestation]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 345
+  },
+  {
+    "passage": "Domus House Dog Finish 2",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "415_5_3_7|",
+    "original": "<<person2>>The beast barks happily and walks over to the window, where it sits. \"It's nice to see a bitch get <<bred>> like that,\" says the <<person>>. <<He>> walks over to you before you can recover and grabs your neck. <<He>> drags you to the front door and hefts you onto the porch. \"If I see you again you'll get far worse.\" The door slams shut.",
+    "translation": "",
+    "pos": 126
+  },
+  {
+    "passage": "Domus House Dog Finish 2",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "416_5_3_7|",
+    "original": "<<tearful>> you rise to your feet.",
+    "translation": "",
+    "pos": 477
+  },
+  {
+    "passage": "Domus House Dog Finish 2",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "420_5_3_7|",
+    "original": "<<link [[Next|Domus Street]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 553
+  },
+  {
+    "passage": "Domus House Dog Finish 2",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "423_5_3_7|",
+    "original": "<<person2>>The beast cowers and rolls over in submission.",
+    "translation": "",
+    "pos": 642
+  },
+  {
+    "passage": "Domus House Dog Finish 2",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "424_5_3_7|",
+    "original": "<<tearful>> you escape the room before the <<person>> can react.",
+    "translation": "",
+    "pos": 701
+  },
+  {
+    "passage": "Domus House Dog Finish 2",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "428_5_3_7|",
+    "original": "<<link [[Next|Domus Street]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 807
+  },
+  {
+    "passage": "Domus House Dog Finish 2",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "431_5_3_7|",
+    "original": "<<person1>>The <<beasttype>> backs away from you. <<bHe>> growls at you again, but sits down by the window.",
+    "translation": "",
+    "pos": 875
+  },
+  {
+    "passage": "Domus House Dog Finish 2",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "432_5_3_7|",
+    "original": "<<person2>>The <<person>> sighs. \"Not even giving me a good show, huh?\" <<He>> walks over to you before you can recover and grabs your neck. <<He>> drags you to the front door and hefts you onto the porch. \"If I see you again you'll get far worse.\" The door slams shut.",
+    "translation": "",
+    "pos": 984
+  },
+  {
+    "passage": "Domus House Dog Finish 2",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "433_5_3_7|",
+    "original": "<<tearful>> you rise to your feet.",
+    "translation": "",
+    "pos": 1255
+  },
+  {
+    "passage": "Domus House Dog Finish 2",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "437_5_3_7|",
+    "original": "<<link [[Next|Domus Street]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1331
+  },
+  {
+    "passage": "Domus House Sneak Molestation Finish",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "443_5_3_7|",
+    "original": "You knock the <<person>> into one of <<his>> chairs. <<tearful>> you escape outside.",
+    "translation": "",
+    "pos": 27
+  },
+  {
+    "passage": "Domus House Sneak Molestation Finish",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "447_5_3_7|",
+    "original": "<<link [[Next|Domus Street]]>><</link>>",
+    "translation": "",
+    "pos": 153
+  },
+  {
+    "passage": "Domus House Sneak Molestation Finish",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "450_5_3_7|",
+    "original": "\"Serves you right,\" <<he>> says, grabbing you by the neck. \"You're lucky I don't get the police involved.\" <<He>> drags you to the front door and shoves you out, where you tumble to the ground. <<tearful>> you rise to your feet.",
+    "translation": "",
+    "pos": 257
+  },
+  {
+    "passage": "Domus House Sneak Molestation Finish",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "454_5_3_7|",
+    "original": "<<link [[Next|Domus Street]]>><</link>>",
+    "translation": "",
+    "pos": 527
+  },
+  {
+    "passage": "Domus House Safe",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "460_5_3_7|",
+    "original": "The safe doesn't look too fancy.",
+    "translation": "",
+    "pos": 104
+  },
+  {
+    "passage": "Domus House Safe",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "464_5_3_7|",
+    "original": "You think you'd be able to pick the lock, <span class=\"blue\">if your arms weren't bound.</span>",
+    "translation": "",
+    "pos": 251
+  },
+  {
+    "passage": "Domus House Safe",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "468_5_3_7|",
+    "original": "<span class=\"green\">The lock looks easy to pick.</span>",
+    "translation": "",
+    "pos": 396
+  },
+  {
+    "passage": "Domus House Safe",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "470_5_3_7|",
+    "original": "<<link [[Break in (0:05)|Domus House Safe Open]]>><<handheldon>><<pass 5>><<crimeUp 5 \"trespassing\">><</link>><<crime \"trespassing\">>",
+    "translation": "",
+    "pos": 465
+  },
+  {
+    "passage": "Domus House Safe",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "474_5_3_7|",
+    "original": "<span class=\"red\">The lock looks beyond your ability to pick.</span><<skulduggeryrequired>>",
+    "translation": "",
+    "pos": 625
+  },
+  {
+    "passage": "Domus House Safe",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "477_5_3_7|",
+    "original": "<<link [[Leave|Domus Street]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 735
+  },
+  {
+    "passage": "Domus House Safe Open",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "486_5_3_7|",
+    "original": "<span class=\"blue\">There's nothing more you can learn from locks this simple.</span>",
+    "translation": "",
+    "pos": 146
+  },
+  {
+    "passage": "Domus House Safe Open",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "490_5_3_7|",
+    "original": "You successfully open the safe, and find <<moneyGainDisplay 30 true true>> inside.",
+    "translation": "",
+    "pos": 269
+  },
+  {
+    "passage": "Domus House Safe Open",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "492_5_3_7|",
+    "original": "<<link [[Take it|Domus Street]]>><<money _money_gain>><<crimeUp `_money_gain / 100` \"thievery\">><</link>><<crime \"thievery\">>",
+    "translation": "",
+    "pos": 363
+  },
+  {
+    "passage": "Domus House Safe Open",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "494_5_3_7|",
+    "original": "<<link [[Leave|Domus Street]]>><</link>>",
+    "translation": "",
+    "pos": 496
+  },
+  {
+    "passage": "Domus House Safe Open",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "497_5_3_7|",
+    "original": "You successfully open the safe, and find an expensive-looking watch inside.",
+    "translation": "",
+    "pos": 553
+  },
+  {
+    "passage": "Domus House Safe Open",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "499_5_3_7|",
+    "original": "<<link [[Take it|Domus Street]]>><<set $blackmoney += 100>><<crimeUp 100 \"thievery\">><</link>><<crime \"thievery\">>",
+    "translation": "",
+    "pos": 640
+  },
+  {
+    "passage": "Domus House Safe Open",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "501_5_3_7|",
+    "original": "<<link [[Leave|Domus Street]]>><</link>>",
+    "translation": "",
+    "pos": 762
+  },
+  {
+    "passage": "Domus House Wait",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "510_5_3_7|",
+    "original": "You stay behind the curtain, remaining as still and quiet as possible. After thirty minutes, the <<person>> gets up, stretches, and walks to the kitchen. You start creeping out, but notice <<he>> left <<his>> phone lying on the sofa.",
+    "translation": "",
+    "pos": 137
+  },
+  {
+    "passage": "Domus House Wait",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "512_5_3_7|",
+    "original": "<<link [[Take it|Domus Street]]>><<crimeUp 30 \"thievery\">><<endevent>><<set $blackmoney += 30>><</link>><<crime \"thievery\">>",
+    "translation": "",
+    "pos": 382
+  },
+  {
+    "passage": "Domus House Wait",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "514_5_3_7|",
+    "original": "<<link [[Leave|Domus Street]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 514
+  },
+  {
+    "passage": "Domus House Wait",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "517_5_3_7|",
+    "original": "You stay behind the curtain, remaining as still and quiet as possible. After thirty minutes, the <<person>> gets up, stretches, and walks to the kitchen. You creep outside.",
+    "translation": "",
+    "pos": 583
+  },
+  {
+    "passage": "Domus House Wait",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "519_5_3_7|",
+    "original": "<<link [[Leave|Domus Street]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 767
+  },
+  {
+    "passage": "Domus House Sneak 2",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "526_5_3_7|",
+    "original": "The <<person>> can't see you from where <<he>> sits, so you slowly start to creep out.",
+    "translation": "",
+    "pos": 84
+  },
+  {
+    "passage": "Domus House Sneak 2",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "529_5_3_7|",
+    "original": "As you tiptoe past the back of <<his>> chair, <<he>> reaches back and grabs you. \"Thought I couldn't hear you?\" <<he>> says, hauling you onto <<his>> lap. \"I think you need to be taught a lesson.\"",
+    "translation": "",
+    "pos": 200
+  },
+  {
+    "passage": "Domus House Sneak 2",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "531_5_3_7|",
+    "original": "<<link [[Next|Domus House Sneak Molestation]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 408
+  },
+  {
+    "passage": "Domus House Sneak 2",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "534_5_3_7|",
+    "original": "<<He>> remains glued to <<his>> television, letting you slip out with no difficulty.",
+    "translation": "",
+    "pos": 511
+  },
+  {
+    "passage": "Domus House Sneak 2",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "536_5_3_7|",
+    "original": "<<link [[Leave|Domus Street]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 607
+  },
+  {
+    "passage": "Domus House Dungeon",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "543_5_3_7|",
+    "original": "You creep down into the cool depths.",
+    "translation": "",
+    "pos": 102
+  },
+  {
+    "passage": "Domus House Dungeon",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "545_5_3_7|",
+    "original": "As your eyes adjust, you notice light from further inside. You close the trapdoor behind you. An acrid smell hits you as you continue. Sweat, and something else. The room is lit by a single orange bulb, mounted above a metal door, bolted shut from this side.",
+    "translation": "",
+    "pos": 148
+  },
+  {
+    "passage": "Domus House Dungeon",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "547_5_3_7|",
+    "original": "You can make out a number of podiums with cameras on top. Most are set around a single metal-frame bed. It looks like a prison bed. There are no covers. Just a bare mattress covered in sinister stains.",
+    "translation": "",
+    "pos": 416
+  },
+  {
+    "passage": "Domus House Dungeon",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "549_5_3_7|",
+    "original": "A set of handcuffs hangs from the headboard. Several more sets, along with chains and ropes, lie in a tidy pile on the bed.",
+    "translation": "",
+    "pos": 627
+  },
+  {
+    "passage": "Domus House Dungeon",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "550_5_3_7|",
+    "original": "Next to that, a nasty looking metal hook lies on top of a heap of rags and towels.",
+    "translation": "",
+    "pos": 751
+  },
+  {
+    "passage": "Domus House Dungeon",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "552_5_3_7|",
+    "original": "Another camera is pointed at a wall covered with a clean, white sheet. A box nearby is filled with expensive camera equipment.",
+    "translation": "",
+    "pos": 843
+  },
+  {
+    "passage": "Domus House Dungeon",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "554_5_3_7|",
+    "original": "Studio lights are dotted around the room. At the moment these are off and only cast sinister shadows.",
+    "translation": "",
+    "pos": 979
+  },
+  {
+    "passage": "Domus House Dungeon",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "556_5_3_7|",
+    "original": "You think you hear breathing behind the door.",
+    "translation": "",
+    "pos": 1090
+  },
+  {
+    "passage": "Domus House Dungeon",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "558_5_3_7|",
+    "original": "<<link [[Get out. Now.|Domus House Dungeon 2]]>><<set $phase to 0>><</link>>",
+    "translation": "",
+    "pos": 1145
+  },
+  {
+    "passage": "Domus House Dungeon",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "560_5_3_7|",
+    "original": "<<link [[Steal equipment and escape|Domus House Dungeon 2]]>><<set $phase to 1>><<crimeUp 50 \"thievery\">><<set $blackmoney += 50>><</link>><<crime \"thievery\">>",
+    "translation": "",
+    "pos": 1227
+  },
+  {
+    "passage": "Domus House Dungeon",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "562_5_3_7|",
+    "original": "<<link [[Open door|Domus House Prisoner]]>><</link>>",
+    "translation": "",
+    "pos": 1392
+  },
+  {
+    "passage": "Domus House Dungeon 2",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "571_5_3_7|",
+    "original": "You head straight for the exit.",
+    "translation": "",
+    "pos": 143
+  },
+  {
+    "passage": "Domus House Dungeon 2",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "574_5_3_7|",
+    "original": "Grabbing as much of the equipment as you can conceal, you head for the exit.",
+    "translation": "",
+    "pos": 220
+  },
+  {
+    "passage": "Domus House Dungeon 2",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "578_5_3_7|",
+    "original": "You open the trapdoor and peek out.",
+    "translation": "",
+    "pos": 322
+  },
+  {
+    "passage": "Domus House Dungeon 2",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "580_5_3_7|",
+    "original": "The room remains empty and silent. You climb from the trapdoor, close it and silently escape the property.",
+    "translation": "",
+    "pos": 380
+  },
+  {
+    "passage": "Domus House Dungeon 2",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "582_5_3_7|",
+    "original": "<<link [[Leave|Domus Street]]>><<unset $resc>><</link>>",
+    "translation": "",
+    "pos": 498
+  },
+  {
+    "passage": "Domus House Dungeon 2",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "584_5_3_7|",
+    "original": "The room looks empty. Climbing out, <span class=\"red\">hands seize you.</span>",
+    "translation": "",
+    "pos": 564
+  },
+  {
+    "passage": "Domus House Dungeon 2",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "586_5_3_7|",
+    "original": "<<link [[Next|Domus House Dungeon Rape]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 653
+  },
+  {
+    "passage": "Domus House Dungeon Rape",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "593_5_3_7|",
+    "original": "<<generate1>><<person1>>A <<person>> pins you down.",
+    "translation": "",
+    "pos": 32
+  },
+  {
+    "passage": "Domus House Dungeon Rape",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "611_5_3_7|",
+    "original": "\"Soundproofed walls,\" <<he>> breathes. \"So I can enjoy the screams.\"",
+    "translation": "",
+    "pos": 383
+  },
+  {
+    "passage": "Domus House Dungeon Rape",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "613_5_3_7|",
+    "original": "\"Keep screaming!\" <<he>> whispers. \"It makes it hotter.\"",
+    "translation": "",
+    "pos": 466
+  },
+  {
+    "passage": "Domus House Dungeon Rape",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "616_5_3_7|",
+    "original": "\"Scream harder!\" <<he>> growls. \"You're turning me on.\"",
+    "translation": "",
+    "pos": 567
+  },
+  {
+    "passage": "Domus House Dungeon Rape",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "619_5_3_7|",
+    "original": "\"Scream!\" <<he>> growls. \"Like I'm hurting you.\"",
+    "translation": "",
+    "pos": 667
+  },
+  {
+    "passage": "Domus House Dungeon Rape",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "622_5_3_7|",
+    "original": "\"I own you bitch!\" <<he>> grunts. \"Scream!\"",
+    "translation": "",
+    "pos": 761
+  },
+  {
+    "passage": "Domus House Dungeon Rape",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "626_5_3_7|",
+    "original": "<br><span class=\"teal\"><<He>> releases <<his>> hand from your mouth.</span>",
+    "translation": "",
+    "pos": 926
+  },
+  {
+    "passage": "Domus House Dungeon Rape",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "642_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Domus House Dungeon Rape Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 1305
+  },
+  {
+    "passage": "Domus House Dungeon Rape",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "644_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Domus House Dungeon Rape]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 1409
+  },
+  {
+    "passage": "Domus House Dungeon Rape Finish",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "652_5_3_7|",
+    "original": "\"Shame the basement suite is full, otherwise I'd keep you,\" <<he>> says. \"Go on, scram.\"",
+    "translation": "",
+    "pos": 95
+  },
+  {
+    "passage": "Domus House Dungeon Rape Finish",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "655_5_3_7|",
+    "original": "<<tearful>> you recover.",
+    "translation": "",
+    "pos": 196
+  },
+  {
+    "passage": "Domus House Dungeon Rape Finish",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "659_5_3_7|",
+    "original": "Seeing you defeated, the frightened prisoner must have returned to their underground cell.",
+    "translation": "",
+    "pos": 253
+  },
+  {
+    "passage": "Domus House Dungeon Rape Finish",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "663_5_3_7|",
+    "original": "You leave the house.",
+    "translation": "",
+    "pos": 366
+  },
+  {
+    "passage": "Domus House Dungeon Rape Finish",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "666_5_3_7|",
+    "original": "You knock the <<person>> back. Staggering back, <<he>> steps into the empty space of the still-open trapdoor. With a loud crash and louder cursing <<he>> disappears beneath.",
+    "translation": "",
+    "pos": 419
+  },
+  {
+    "passage": "Domus House Dungeon Rape Finish",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "669_5_3_7|",
+    "original": "The frightened prisoner narrowly dodges <<him>> and frantically clambers up. Together you flee the house. Once clear, the prisoner thanks you.",
+    "translation": "",
+    "pos": 615
+  },
+  {
+    "passage": "Domus House Dungeon Rape Finish",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "670_5_3_7|",
+    "original": "\"You probably saved my life.\"",
+    "translation": "",
+    "pos": 760
+  },
+  {
+    "passage": "Domus House Dungeon Rape Finish",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "672_5_3_7|",
+    "original": "As the prisoner limps away, you feel a warm glow and a weight lifted from you for the good you have done.",
+    "translation": "",
+    "pos": 803
+  },
+  {
+    "passage": "Domus House Dungeon Rape Finish",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "675_5_3_7|",
+    "original": "You swiftly escape.",
+    "translation": "",
+    "pos": 998
+  },
+  {
+    "passage": "Domus House Dungeon Rape Finish",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "679_5_3_7|",
+    "original": "<<tearful>> you recover.",
+    "translation": "",
+    "pos": 1039
+  },
+  {
+    "passage": "Domus House Dungeon Rape Finish",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "686_5_3_7|",
+    "original": "<<link [[Next|Domus Street]]>><<unset $resc>><</link>>",
+    "translation": "",
+    "pos": 1111
+  },
+  {
+    "passage": "Domus House Prisoner",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "692_5_3_7|",
+    "original": "You unbolt the door. Behind, curled up like a dog, sleeping naked on the bare floor, you find a <<person>>. <<His>> body is covered in marks and bruises.",
+    "translation": "",
+    "pos": 147
+  },
+  {
+    "passage": "Domus House Prisoner",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "693_5_3_7|",
+    "original": "<<He>> snorts, and two wild eyes stare up at you.",
+    "translation": "",
+    "pos": 301
+  },
+  {
+    "passage": "Domus House Prisoner",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "696_5_3_7|",
+    "original": "With a few carefully chosen words, <span class=\"green\">you reassure <<him>> that you are a friend</span>, and that you are here to help. <<He>> smiles up at you.",
+    "translation": "",
+    "pos": 408
+  },
+  {
+    "passage": "Domus House Prisoner",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "698_5_3_7|",
+    "original": "Somehow sensing the purity radiating from you, <span class=\"green\"><<he>> trusts you</span>. You would never hurt <<him>>. <<He>> smiles up at you.",
+    "translation": "",
+    "pos": 607
+  },
+  {
+    "passage": "Domus House Prisoner",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "700_5_3_7|",
+    "original": "You stare, lost for words. Without warning, <<he>> howls, and cowers in the corer. It takes a couple of minutes for you to calm <<him>>, and convince <<him>> that you're a friend.",
+    "translation": "",
+    "pos": 765
+  },
+  {
+    "passage": "Domus House Prisoner",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "702_5_3_7|",
+    "original": "<span class=\"red\">You hope no one heard.</span>",
+    "translation": "",
+    "pos": 956
+  },
+  {
+    "passage": "Domus House Prisoner",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "708_5_3_7|",
+    "original": "You lead <<him>> from the room, and hand <<him>> the towels from the bed. <<He>> covers <<himself>>. Together, you creep up the steps and open the trapdoor.<<famegood 2>>",
+    "translation": "",
+    "pos": 1051
+  },
+  {
+    "passage": "Domus House Prisoner",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "711_5_3_7|",
+    "original": "The room above is still empty and silent. Together, you escape the property.",
+    "translation": "",
+    "pos": 1253
+  },
+  {
+    "passage": "Domus House Prisoner",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "713_5_3_7|",
+    "original": "Once clear, the <<person>> thanks you for saving <<his>> life. With a wave and a smile, <<he>> limps towards Danube Street.",
+    "translation": "",
+    "pos": 1341
+  },
+  {
+    "passage": "Domus House Prisoner",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "715_5_3_7|",
+    "original": "You feel good.",
+    "translation": "",
+    "pos": 1472
+  },
+  {
+    "passage": "Domus House Prisoner",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "719_5_3_7|",
+    "original": "<<link [[Leave|Domus Street]]>><<unset $resc>><</link>>",
+    "translation": "",
+    "pos": 1588
+  },
+  {
+    "passage": "Domus House Prisoner",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "721_5_3_7|",
+    "original": "The room above looks empty. <span class=\"red\">Hands seize you as you climb out.</span>",
+    "translation": "",
+    "pos": 1654
+  },
+  {
+    "passage": "Domus House Prisoner",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "724_5_3_7|",
+    "original": "<<link [[Next|Domus House Dungeon Rape]]>><<set $molestationstart to 1>><</link>>/*End event clears out prisoner before combat*/",
+    "translation": "",
+    "pos": 1766
+  },
+  {
+    "passage": "Domus Leave Money",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "731_5_3_7|",
+    "original": "You leave",
+    "translation": "",
+    "pos": 84
+  },
+  {
+    "passage": "Domus Leave Money",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "733_5_3_7|",
+    "original": "£100",
+    "translation": "",
+    "pos": 114
+  },
+  {
+    "passage": "Domus Leave Money",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "735_5_3_7|",
+    "original": "£500",
+    "translation": "",
+    "pos": 143
+  },
+  {
+    "passage": "Domus Leave Money",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "737_5_3_7|",
+    "original": "£1000",
+    "translation": "",
+    "pos": 158
+  },
+  {
+    "passage": "Domus Leave Money",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "739_5_3_7|",
+    "original": "on the counter for them to find. You hope it will help.",
+    "translation": "",
+    "pos": 172
+  },
+  {
+    "passage": "Domus Leave Money",
+    "filepath": "overworld-town/loc-domus-homes/skulduggery.twee",
+    "key": "742_5_3_7|",
+    "original": "<<link [[Leave|Domus Street]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 238
+  }
+]

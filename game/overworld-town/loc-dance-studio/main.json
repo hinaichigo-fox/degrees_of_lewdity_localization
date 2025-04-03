@@ -1,0 +1,1810 @@
+[
+  {
+    "passage": "Dance Studio",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "5_5_3_7|",
+    "original": "You are in the dance studio. Here you can pay for lessons to improve your dancing skill. They also offer lessons on how to walk in high heels, as well as yoga lessons. The instructor is said to be well-connected in the professional scene. Lessons cost £12.",
+    "translation": "",
+    "pos": 68
+  },
+  {
+    "passage": "Dance Studio",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "16_5_3_7|",
+    "original": "It's closing time. The receptionist is herding everyone outside.<<if $exposed gte 1>>Panic swells within you as you realise how exposed you'll be should you be found in this state of dress.<</if>>",
+    "translation": "",
+    "pos": 586
+  },
+  {
+    "passage": "Dance Studio",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "21_5_3_7|",
+    "original": "You remember you left your clothes in the changing room.",
+    "translation": "",
+    "pos": 866
+  },
+  {
+    "passage": "Dance Studio",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "23_5_3_7|",
+    "original": "<<link [[Dress before leaving|Barb Street]]>><<storeload _store_location>><</link>>",
+    "translation": "",
+    "pos": 934
+  },
+  {
+    "passage": "Dance Studio",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "27_5_3_7|",
+    "original": "You are alone in the darkness.",
+    "translation": "",
+    "pos": 1069
+  },
+  {
+    "passage": "Dance Studio",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "31_5_3_7|",
+    "original": "You are hiding in a cupboard, you wouldn't mind others seeing you exposed, but this time you stay put.",
+    "translation": "",
+    "pos": 1179
+  },
+  {
+    "passage": "Dance Studio",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "33_5_3_7|",
+    "original": "You are hiding in a cupboard to protect your dignity.",
+    "translation": "",
+    "pos": 1296
+  },
+  {
+    "passage": "Dance Studio",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "40_5_3_7|",
+    "original": "<span class=\"blue\">Charlie will have another job for you next week.</span>",
+    "translation": "",
+    "pos": 1492
+  },
+  {
+    "passage": "Dance Studio",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "43_5_3_7|",
+    "original": "<<socialiseicon \"ask\">><<link [[Ask for work|Dance Job Ask]]>><</link>>",
+    "translation": "",
+    "pos": 1592
+  },
+  {
+    "passage": "Dance Studio",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "50_5_3_7|",
+    "original": "<<dancestudioicon>><<link [[Take a dance lesson (£12 1:00)|Dancing Lesson Job Intro]]>><</link>><<gtiredness>><<note \"+ + Dancing Skill\" \"green\">>",
+    "translation": "",
+    "pos": 1841
+  },
+  {
+    "passage": "Dance Studio",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "53_5_3_7|",
+    "original": "<<dancestudioicon>><<link [[Take a dance lesson (£12 1:00)|Dancing Lesson]]>><<set $phase to 0>><<money -1200 \"danceStudioLessons\">><<set $dancestage to 0>><</link>><<gtiredness>><<note \"+ + Dancing Skill\" \"green\">>",
+    "translation": "",
+    "pos": 2016
+  },
+  {
+    "passage": "Dance Studio",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "57_5_3_7|",
+    "original": "<span class=\"blue\">You can't afford a dance lesson.</span>",
+    "translation": "",
+    "pos": 2270
+  },
+  {
+    "passage": "Dance Studio",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "63_5_3_7|",
+    "original": "<<heelsicon>><<link [[Take high heel lesson (£12 0:30)|Heel Lesson]]>><<set $phase to 0>><<money -1200 \"danceStudioLessons\">><<pass 30>><</link>><<ggtiredness>><<gfeetskill>>",
+    "translation": "",
+    "pos": 2495
+  },
+  {
+    "passage": "Dance Studio",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "67_5_3_7|",
+    "original": "<<socialiseicon \"ask\">><<link [[Enquire about high heel lessons|Heel Lesson Inquiry]]>><</link>>",
+    "translation": "",
+    "pos": 2704
+  },
+  {
+    "passage": "Dance Studio",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "72_5_3_7|",
+    "original": "<<ind>><<link [[Take a yoga lesson (£22 1:00)|Yoga Classes Change Room]]>><</link>><<gtiredness>><<gwillpower>><<llstress>>",
+    "translation": "",
+    "pos": 2920
+  },
+  {
+    "passage": "Dance Studio",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "76_5_3_7|",
+    "original": "<<socialiseicon \"ask\">><<link [[Enquire about yoga lessons|Yoga Classes Inquire]]>><</link>>",
+    "translation": "",
+    "pos": 3077
+  },
+  {
+    "passage": "Dance Studio",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "81_5_3_7|",
+    "original": "<<shopicon \"clothing\">><<link [[Changing room|Dance Studio Changing Room]]>><</link>>",
+    "translation": "",
+    "pos": 3236
+  },
+  {
+    "passage": "Dance Studio",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "85_5_3_7|",
+    "original": "<<shopicon \"register\">><<link [[Examine the cash register|Dance Studio Register]]>><</link>>",
+    "translation": "",
+    "pos": 3431
+  },
+  {
+    "passage": "Dance Studio",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "92_5_3_7|",
+    "original": "You left clothes in the changing room. Your <span class=\"lewd\"><<lewdness>></span> is fine in here, but would be considered lewd outside.",
+    "translation": "",
+    "pos": 3675
+  },
+  {
+    "passage": "Dance Studio",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "95_5_3_7|",
+    "original": "<<getouticon>><<link [[Go outside anyway|Dance Studio Outside Exhibitionism]]>><</link>><<if $daily.ex.studio isnot 1>><<exhibitionist2>><</if>>",
+    "translation": "",
+    "pos": 3867
+  },
+  {
+    "passage": "Dance Studio",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "99_5_3_7|",
+    "original": "<<barbicon>><<link [[Leave|Barb Street]]>><</link>>",
+    "translation": "",
+    "pos": 4042
+  },
+  {
+    "passage": "Dance Studio Changing Room",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "106_5_3_7|",
+    "original": "You are in the dance studio's changing room. Benches line the walls, with hooks for clothing hanging above.",
+    "translation": "",
+    "pos": 12
+  },
+  {
+    "passage": "Dance Studio Changing Room",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "109_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Dance Studio]]>><</link>>",
+    "translation": "",
+    "pos": 148
+  },
+  {
+    "passage": "Dance Studio Outside Exhibitionism",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "113_5_3_7|",
+    "original": "<<flaunting>> you step outside. You're not wearing normal outdoor attire. A few people glance over and look you up and down, examining your contours.",
+    "translation": "",
+    "pos": 12
+  },
+  {
+    "passage": "Dance Studio Outside Exhibitionism",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "119_5_3_7|",
+    "original": "Your heart beats faster as you walk away from the dance studio, and away from relative safety.",
+    "translation": "",
+    "pos": 270
+  },
+  {
+    "passage": "Dance Studio Outside Exhibitionism",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "121_5_3_7|",
+    "original": "<<link [[Next|Barb Street]]>><</link>>",
+    "translation": "",
+    "pos": 374
+  },
+  {
+    "passage": "Dance Studio Lock",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "129_5_3_7|",
+    "original": "You think you'd be able to pick the lock, <span class=\"blue\">if your arms weren't bound.</span>",
+    "translation": "",
+    "pos": 175
+  },
+  {
+    "passage": "Dance Studio Lock",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "133_5_3_7|",
+    "original": "<span class=\"green\">The lock looks easy to pick.</span>",
+    "translation": "",
+    "pos": 320
+  },
+  {
+    "passage": "Dance Studio Lock",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "135_5_3_7|",
+    "original": "<<lockicon \"pick\">><<link [[Pick it (0:10)|Dance Studio]]>><<handheldon>><<pass 10>><<crimeUp 5 \"trespassing\">><</link>><<crime \"trespassing\">>",
+    "translation": "",
+    "pos": 389
+  },
+  {
+    "passage": "Dance Studio Lock",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "139_5_3_7|",
+    "original": "<span class=\"red\">The lock looks beyond your ability to pick.</span><<skulduggeryrequired>>",
+    "translation": "",
+    "pos": 559
+  },
+  {
+    "passage": "Dance Studio Lock",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "142_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Barb Street]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 669
+  },
+  {
+    "passage": "Dance Studio Introduction",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "149_5_3_7|",
+    "original": "\"H-hello...\" you mumble, eyes transfixed on your feet.",
+    "translation": "",
+    "pos": 33
+  },
+  {
+    "passage": "Dance Studio Introduction",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "151_5_3_7|",
+    "original": "Without saying anything, the instructor walks over to you and puts a protective arm around your shoulders. <<He>> whispers, \"Don't worry, I don't bite. My name's Charlie. I'll help you out of your shell.\" <<He>> gently escorts you over to the rest of the class before commencing the lesson.",
+    "translation": "",
+    "pos": 99
+  },
+  {
+    "passage": "Dance Studio Introduction",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "153_5_3_7|",
+    "original": "\"Pleased to meet you! I can't wait to get started!\"",
+    "translation": "",
+    "pos": 414
+  },
+  {
+    "passage": "Dance Studio Introduction",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "155_5_3_7|",
+    "original": "The instructor responds, \"Woah there, eagerness is all well and good, but too much will get your muscles strained.\" Despite <<his>> caution, <<he>> seems happy. \"Come on over. I'm Charlie by the way. I'll be your teacher. Right then, where was I?\" You head over as the lesson commences.",
+    "translation": "",
+    "pos": 477
+  },
+  {
+    "passage": "Dance Studio Introduction",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "157_5_3_7|",
+    "original": "<<promiscuity1>>\"Nice outfit. Really shows off your assets.\" You let your eyes probe <<his>> body, letting <<him>> know exactly which assets you mean.",
+    "translation": "",
+    "pos": 788
+  },
+  {
+    "passage": "Dance Studio Introduction",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "159_5_3_7|",
+    "original": "<<He>> shifts uncomfortably on the spot, as if suddenly self-conscious. <<He>> looks annoyed, \"Would you like to take your place over here? My name's Charlie.\" <<He>> turns back to the rest of the class as you head over. The lesson soon commences.",
+    "translation": "",
+    "pos": 950
+  },
+  {
+    "passage": "Dance Studio Introduction",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "162_5_3_7|",
+    "original": "<<link [[Next|$danceStudioIntroExit]]>><<unset $danceStudioIntroExit>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1215
+  },
+  {
+    "passage": "Dancing Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "174_5_3_7|",
+    "original": "The rest of the lesson passes uneventfully.",
+    "translation": "",
+    "pos": 324
+  },
+  {
+    "passage": "Dancing Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "176_5_3_7|",
+    "original": "<<link [[Next|Dance Studio]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 379
+  },
+  {
+    "passage": "Dancing Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "182_5_3_7|",
+    "original": "You seem to be distracting the class somehow. Looking down, you immediately discover why.",
+    "translation": "",
+    "pos": 548
+  },
+  {
+    "passage": "Dancing Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "184_5_3_7|",
+    "original": "You feel a thrill at your exposure, and let the others take a quick peek of your body.",
+    "translation": "",
+    "pos": 679
+  },
+  {
+    "passage": "Dancing Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "186_5_3_7|",
+    "original": "You cover yourself, trying to feign decency as Charlie rushes over to you with some towels.",
+    "translation": "",
+    "pos": 777
+  },
+  {
+    "passage": "Dancing Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "190_5_3_7|",
+    "original": "Yelping, you cover yourself as Charlie rushes over to you with some towels.",
+    "translation": "",
+    "pos": 994
+  },
+  {
+    "passage": "Dancing Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "198_5_3_7|",
+    "original": "You stretch and work your muscles using a barre.",
+    "translation": "",
+    "pos": 1418
+  },
+  {
+    "passage": "Dancing Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "200_5_3_7|",
+    "original": "It's hard work to stay balanced. You can see in the mirror that you look a bit silly, especially compared to the more experienced students.",
+    "translation": "",
+    "pos": 1519
+  },
+  {
+    "passage": "Dancing Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "202_5_3_7|",
+    "original": "You're pretty good at staying balanced. You are able to practise more advanced techniques.",
+    "translation": "",
+    "pos": 1715
+  },
+  {
+    "passage": "Dancing Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "204_5_3_7|",
+    "original": "You are able to use it as a surrogate partner, supporting your weight as you practise airborne techniques. Some of the other students look on with envy.",
+    "translation": "",
+    "pos": 1820
+  },
+  {
+    "passage": "Dancing Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "209_5_3_7|",
+    "original": "You partner up with a <<person>>.",
+    "translation": "",
+    "pos": 2076
+  },
+  {
+    "passage": "Dancing Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "211_5_3_7|",
+    "original": "<<He>> has more experience than you, so you let <<him>> take the lead.",
+    "translation": "",
+    "pos": 2162
+  },
+  {
+    "passage": "Dancing Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "213_5_3_7|",
+    "original": "You practise techniques requiring a partner, taking turns supporting one another.",
+    "translation": "",
+    "pos": 2289
+  },
+  {
+    "passage": "Dancing Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "215_5_3_7|",
+    "original": "Being so experienced, you take the lead, careful not to push <<him>> too hard.",
+    "translation": "",
+    "pos": 2428
+  },
+  {
+    "passage": "Dancing Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "220_5_3_7|",
+    "original": "You stretch and work your muscles using an air barre.",
+    "translation": "",
+    "pos": 2591
+  },
+  {
+    "passage": "Dancing Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "222_5_3_7|",
+    "original": "More experienced students use it to develop strength and poise. You just have fun swinging around.",
+    "translation": "",
+    "pos": 2697
+  },
+  {
+    "passage": "Dancing Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "224_5_3_7|",
+    "original": "You work on developing your poise.",
+    "translation": "",
+    "pos": 2852
+  },
+  {
+    "passage": "Dancing Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "226_5_3_7|",
+    "original": "Held aloft, you are able to fully demonstrate your grace and skill.",
+    "translation": "",
+    "pos": 2944
+  },
+  {
+    "passage": "Dancing Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "230_5_3_7|",
+    "original": "You realise it may have been a mistake to wear a skirt. Performing airborne exercises without displaying your <<undies>> for the whole class to see proves to be virtually impossible.",
+    "translation": "",
+    "pos": 3112
+  },
+  {
+    "passage": "Dancing Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "231_5_3_7|",
+    "original": "<<set _uncomVar to ($worn.under_lower.type.includes(\"naked\") ? \"nude\" : \"underwear\")>>",
+    "translation": "",
+    "pos": 3298
+  },
+  {
+    "passage": "Dancing Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "233_5_3_7|",
+    "original": "<span class=\"lewd\">You don't mind people looking.</span>",
+    "translation": "",
+    "pos": 3434
+  },
+  {
+    "passage": "Dancing Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "243_5_3_7|",
+    "original": "Charlie gives you some personal attention.",
+    "translation": "",
+    "pos": 3725
+  },
+  {
+    "passage": "Dancing Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "245_5_3_7|",
+    "original": "<<He>> helps you with the basics.",
+    "translation": "",
+    "pos": 3820
+  },
+  {
+    "passage": "Dancing Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "247_5_3_7|",
+    "original": "<<He>> demonstrates some new steps for you to try.",
+    "translation": "",
+    "pos": 3910
+  },
+  {
+    "passage": "Dancing Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "249_5_3_7|",
+    "original": "<<He>> helps you iron out some flaws in your posture.",
+    "translation": "",
+    "pos": 4018
+  },
+  {
+    "passage": "Dancing Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "254_5_3_7|",
+    "original": "Charlie demonstrates some moves in front of the class, who do their best to emulate <<him>>.",
+    "translation": "",
+    "pos": 4161
+  },
+  {
+    "passage": "Dancing Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "261_5_3_7|",
+    "original": "<<link [[Next|Dancing Lesson]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 4423
+  },
+  {
+    "passage": "Widgets Events Dance",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "269_5_3_7|",
+    "original": "<<endevent>><<generate1>><<person1>>Charlie announces that they need to clear some room and asks you and a <<person>> to put away the portable barre. You manage to carry it out of the studio and into a room filled with other equipment. As you put it down however, you hear the door shut behind you. <span class=\"red\">You turn to find the <<person>> advancing on you, lust in <<his>> eyes.</span>",
+    "translation": "",
+    "pos": 99
+  },
+  {
+    "passage": "Widgets Events Dance",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "271_5_3_7|",
+    "original": "<<link [[Next|Dance Studio Molestation]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 508
+  },
+  {
+    "passage": "Widgets Events Dance",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "273_5_3_7|",
+    "original": "You don't think <<he>> has to keep <<his>> hand that close to your butt. Or pull your body that close against <<his>> for that matter. <span class=\"blue\">You can feel <<his>> hardened <<if $NPCList[1].penis is \"clothed\">>penis<<else>>nipples<</if>> pressing against you.</span>",
+    "translation": "",
+    "pos": 626
+  },
+  {
+    "passage": "Widgets Events Dance",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "275_5_3_7|",
+    "original": "<<link [[Endure|Dance Studio Duo]]>><<set $phase to 0>><</link>><<garousal>>",
+    "translation": "",
+    "pos": 917
+  },
+  {
+    "passage": "Widgets Events Dance",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "277_5_3_7|",
+    "original": "<<link [[Push away|Dance Studio Duo]]>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 1003
+  },
+  {
+    "passage": "Widgets Events Dance",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "280_5_3_7|",
+    "original": "<<link [[Reciprocate|Dance Studio Duo]]>><<set $phase to 2>><</link>><<promiscuous2>>",
+    "translation": "",
+    "pos": 1119
+  },
+  {
+    "passage": "Widgets Events Dance",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "284_5_3_7|",
+    "original": "The barre gives way slightly, enough to disrupt your delicate balance. Instinct causes you to twist in an attempt to save yourself from falling. You succeed, but the barre becomes wrapped around your waist.",
+    "translation": "",
+    "pos": 1264
+  },
+  {
+    "passage": "Widgets Events Dance",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "288_5_3_7|",
+    "original": "You try to struggle back upright, but with no success. Worse, you start to slip despite the barre coiled tightly around your body. You fall onto your back with a thud.",
+    "translation": "",
+    "pos": 1582
+  },
+  {
+    "passage": "Widgets Events Dance",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "290_5_3_7|",
+    "original": "As you regain your bearings, you see your $worn.under_lower.name suspended in the air above you. You take your time and wear a confident smile as you retrieve them, despite the whispers and giggling all around you.",
+    "translation": "",
+    "pos": 1795
+  },
+  {
+    "passage": "Widgets Events Dance",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "293_5_3_7|",
+    "original": "As you regain your bearings, you see your $worn.under_lower.name suspended in the air above you. Flustered at your <<genitals>> being exposed in the middle of class like this, you hasten to recover your $worn.under_lower.name as quickly as you can, conscious of the whispers and giggling all around you.",
+    "translation": "",
+    "pos": 2046
+  },
+  {
+    "passage": "Widgets Events Dance",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "298_5_3_7|",
+    "original": "You try to struggle back upright, but with no success. Worse, you start to slip despite the barre coiled tightly around your body. You fall onto your back with a thud. Your legs spread apart, giving the whole room a clear view of your <<genitals>>. You feign horror, unbothered by the whispers and giggling all around you.",
+    "translation": "",
+    "pos": 2459
+  },
+  {
+    "passage": "Widgets Events Dance",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "301_5_3_7|",
+    "original": "You try to struggle back upright, but with no success. Worse, you start to slip despite the barre coiled tightly around your body. You fall onto your back with a thud. Your legs spread apart, giving the whole room a clear view of your <<undies>> and causing your face to flush red with embarrassment. You hasten to cover up as quickly as you can, conscious of the whispers and giggling all around you.",
+    "translation": "",
+    "pos": 2818
+  },
+  {
+    "passage": "Widgets Events Dance",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "306_5_3_7|",
+    "original": "You skilfully shift your weight and ride the momentum back into an upright position. That was close!",
+    "translation": "",
+    "pos": 3339
+  },
+  {
+    "passage": "Widgets Events Dance",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "309_5_3_7|",
+    "original": "You try to struggle back upright, but with no success. Worse, you start to slip despite the barre coiled tightly around your body. You fall onto your back with a thud. As you regain your bearings, you see your <<bottoms>> suspended in the air above you. You take your time and wear a confident smile as you retrieve them, despite the whispers and giggling all around you. You wouldn't mind showing off even more.",
+    "translation": "",
+    "pos": 3499
+  },
+  {
+    "passage": "Widgets Events Dance",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "311_5_3_7|",
+    "original": "You try to struggle back upright, but with no success. Worse, you start to slip despite the barre coiled tightly around your body. You fall onto your back with a thud. As you regain your bearings, you see your <<bottoms>> suspended in the air above you. Flustered at your <<undies>> being exposed in the middle of class like this, you hasten to recover your <<bottoms>> as soon as you can, conscious of the whispers and giggling all around you.",
+    "translation": "",
+    "pos": 3928
+  },
+  {
+    "passage": "Widgets Events Dance",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "316_5_3_7|",
+    "original": "<<link [[Next|Dancing Lesson]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 4446
+  },
+  {
+    "passage": "Widgets Events Dance",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "318_5_3_7|",
+    "original": "<<He>> presses <<his>> body against your back and holds your hands in <<his>> own so that <<he>> can more directly demonstrate to you. <<takeHandholdingVirginity \"Charlie\">>Despite <<him>> making no overtly sexual moves, you can't help but feel a little turned on with <<his>> toned body so intimately close to yours.",
+    "translation": "",
+    "pos": 4543
+  },
+  {
+    "passage": "Widgets Events Dance",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "321_5_3_7|",
+    "original": "<<link [[Meek compliment|Dance Studio Instructor]]>><</link>>",
+    "translation": "",
+    "pos": 4904
+  },
+  {
+    "passage": "Widgets Events Dance",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "323_5_3_7|",
+    "original": "<<link [[Confident brag|Dance Studio Instructor]]>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 4975
+  },
+  {
+    "passage": "Widgets Events Dance",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "326_5_3_7|",
+    "original": "<<link [[Flirt|Dance Studio Instructor]]>><<set $phase to 2>><</link>><<promiscuous2>>",
+    "translation": "",
+    "pos": 5103
+  },
+  {
+    "passage": "Widgets Events Dance",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "330_5_3_7|",
+    "original": "The receptionist peeks her head through the door and looks at Charlie, who seems to understand her meaning. \"I need to take five,\" <<he>> announces. \"Keep practising, I won't be long.\"",
+    "translation": "",
+    "pos": 5220
+  },
+  {
+    "passage": "Widgets Events Dance",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "335_5_3_7|",
+    "original": "<<generate1>><<generate2>><<generate3>><<generate4>><<generate5>><<generate6>><<person1>>The sound of the door shutting is more ominous than usual. You soon realise why, the rest of the room is all but silent. Everyone else is looking at you. A <<person>> speaks. <span class=\"red\">\"We've had enough of your shit. Time for a real lesson.\"</span> They rush toward you.",
+    "translation": "",
+    "pos": 5503
+  },
+  {
+    "passage": "Widgets Events Dance",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "337_5_3_7|",
+    "original": "<<link [[Next|Dance Studio Strip]]>><<set $molestationstart to 1>><<set $timer to 10>><</link>>",
+    "translation": "",
+    "pos": 5886
+  },
+  {
+    "passage": "Widgets Events Dance",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "340_5_3_7|",
+    "original": "How do you want to conduct yourself while Charlie is away?",
+    "translation": "",
+    "pos": 6004
+  },
+  {
+    "passage": "Widgets Events Dance",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "342_5_3_7|",
+    "original": "<<link [[Focus on practising|Dancing Lesson No Instructor]]>><</link>>",
+    "translation": "",
+    "pos": 6078
+  },
+  {
+    "passage": "Widgets Events Dance",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "344_5_3_7|",
+    "original": "<<link [[Help other students|Dancing Lesson No Instructor]]>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 6160
+  },
+  {
+    "passage": "Widgets Events Dance",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "347_5_3_7|",
+    "original": "<<link [[Showboat your skills in front of less experienced students|Dancing Lesson No Instructor]]>><<set $phase to 2>><</link>><<lstress>>",
+    "translation": "",
+    "pos": 6330
+  },
+  {
+    "passage": "Dance Studio Molestation",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "371_5_3_7|",
+    "original": "No one comes to your aid.",
+    "translation": "",
+    "pos": 268
+  },
+  {
+    "passage": "Dance Studio Molestation",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "373_5_3_7|",
+    "original": "<<if $drugged gte 1>>The drugs inhibit you, you couldn't cry very convincingly.<</if>>",
+    "translation": "",
+    "pos": 318
+  },
+  {
+    "passage": "Dance Studio Molestation",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "376_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Dance Studio Molestation Ejaculation]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 463
+  },
+  {
+    "passage": "Dance Studio Molestation",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "378_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Dance Studio Molestation Escape]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 597
+  },
+  {
+    "passage": "Dance Studio Molestation",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "380_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Dance Studio Molestation]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 705
+  },
+  {
+    "passage": "Dance Studio Molestation",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "384_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Dance Studio Molestation Ejaculation]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 858
+  },
+  {
+    "passage": "Dance Studio Molestation",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "386_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Dance Studio Molestation Escape]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 988
+  },
+  {
+    "passage": "Dance Studio Molestation",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "388_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Dance Studio Molestation]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 1092
+  },
+  {
+    "passage": "Dance Studio Molestation Ejaculation",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "395_5_3_7|",
+    "original": "\"Don't you DARE tell anyone about this.\" Before leaving, <<he>> spits on you for good measure.",
+    "translation": "",
+    "pos": 77
+  },
+  {
+    "passage": "Dance Studio Molestation Ejaculation",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "399_5_3_7|",
+    "original": "\"Don't you dare tell anyone about this.\" With that, <<he>> leaves.",
+    "translation": "",
+    "pos": 292
+  },
+  {
+    "passage": "Dance Studio Molestation Ejaculation",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "402_5_3_7|",
+    "original": "<<He>> smiles at you, \"Let this be our little secret, okay?\" <<He>> leaves you sprawled on the floor.",
+    "translation": "",
+    "pos": 379
+  },
+  {
+    "passage": "Dance Studio Molestation Ejaculation",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "406_5_3_7|",
+    "original": "<<tearful>> you struggle to your feet and make your way back to the studio. You hope you can put on a brave face.",
+    "translation": "",
+    "pos": 513
+  },
+  {
+    "passage": "Dance Studio Molestation Ejaculation",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "409_5_3_7|",
+    "original": "<<link [[Next|Dancing Lesson]]>><</link>>",
+    "translation": "",
+    "pos": 650
+  },
+  {
+    "passage": "Dance Studio Molestation Escape",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "413_5_3_7|",
+    "original": "<<He>> yells out and falls to the ground. <span class=\"green\"><<tearful>> you use the opportunity to flee the room and escape back to the studio.</span>",
+    "translation": "",
+    "pos": 12
+  },
+  {
+    "passage": "Dance Studio Molestation Escape",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "417_5_3_7|",
+    "original": "Charlie immediately recognises that something is wrong. <<He>> pulls you aside and gently enquires. Wanting to put your ordeal behind you, you tell <<him>> that everything is fine. Charlie continues the lesson, but still looks concerned.",
+    "translation": "",
+    "pos": 215
+  },
+  {
+    "passage": "Dance Studio Molestation Escape",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "422_5_3_7|",
+    "original": "<<link [[Next|Dancing Lesson]]>><</link>>",
+    "translation": "",
+    "pos": 530
+  },
+  {
+    "passage": "Dance Studio Duo",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "427_5_3_7|",
+    "original": "Your reticence encourages <<him>> to be more bold. <<He>> takes every opportunity to grope and fondle you as you try your best to ignore <<him>> and focus. You breathe a sigh of relief when Charlie announces that it's time for something different.",
+    "translation": "",
+    "pos": 88
+  },
+  {
+    "passage": "Dance Studio Duo",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "431_5_3_7|",
+    "original": "You push <<him>> away from you, causing <<him>> to trip over <<his>> feet and falls loudly to the floor. Cursing, <<he>> stands up as Charlie announces that it's time to change partners. The <<person2>><<person>> gives you one last angry look before being matched up with an elderly <<personsimple>>; <span class=\"pink\">the entire class seems irritated with your behaviour.</span>",
+    "translation": "",
+    "pos": 421
+  },
+  {
+    "passage": "Dance Studio Duo",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "435_5_3_7|",
+    "original": "<<promiscuity2>>Not wanting to be outdone, you return <<his>> fondling with your own. Hiding the lewd touching under the veneer of dance practice, you grope each other right in the middle of the room, the rest of the class ignorant of the lechery occurring right in front of them. By the time Charlie calls for a stop, both you and the <<person>> are breathing far more heavily than anyone else.",
+    "translation": "",
+    "pos": 868
+  },
+  {
+    "passage": "Dance Studio Duo",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "438_5_3_7|",
+    "original": "<<link [[Next|Dancing Lesson]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1282
+  },
+  {
+    "passage": "Dance Studio Instructor",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "443_5_3_7|",
+    "original": "You turn your head to look at <<him>>. \"I hope to be as good as you someday.\" You avert your eyes meekly when <<he>> tries to meet your gaze.",
+    "translation": "",
+    "pos": 88
+  },
+  {
+    "passage": "Dance Studio Instructor",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "445_5_3_7|",
+    "original": "<<He>> squeezes your hands slightly, \"You will be, and sooner than you think.\" You swear <<he>> gives you more attention than the other students for the rest of the lesson.",
+    "translation": "",
+    "pos": 237
+  },
+  {
+    "passage": "Dance Studio Instructor",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "448_5_3_7|",
+    "original": "<span class=\"pink\">The other students notice too, many give you jealous looks.</span>",
+    "translation": "",
+    "pos": 476
+  },
+  {
+    "passage": "Dance Studio Instructor",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "451_5_3_7|",
+    "original": "\"You'd better watch out,\" you announce, \"I'll be bettering you soon!\"",
+    "translation": "",
+    "pos": 618
+  },
+  {
+    "passage": "Dance Studio Instructor",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "453_5_3_7|",
+    "original": "<<He>> laughs, \"I hope so, means I've done my job right. Now, shut your yap a moment and watch closely...\"",
+    "translation": "",
+    "pos": 695
+  },
+  {
+    "passage": "Dance Studio Instructor",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "455_5_3_7|",
+    "original": "You rub your butt against <<his>> crotch. \"You're so fit and well formed, I don't know how you do it.\"",
+    "translation": "",
+    "pos": 826
+  },
+  {
+    "passage": "Dance Studio Instructor",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "457_5_3_7|",
+    "original": "<<He>> moves <<his>> pelvis away from you, blood rushing to <<his>> face. \"Y-yes. I mean, no, I mean... you're doing OK, I need to go check on someone else.\" <<He>> avoids looking in your direction for the rest of the lesson.<<npcincr Charlie love -2>><<llove>>",
+    "translation": "",
+    "pos": 936
+  },
+  {
+    "passage": "Dance Studio Instructor",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "461_5_3_7|",
+    "original": "<<link [[Next|Dancing Lesson]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1233
+  },
+  {
+    "passage": "Dance Studio Strip",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "481_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Dance Studio Strip Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 285
+  },
+  {
+    "passage": "Dance Studio Strip",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "483_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Dance Studio Strip]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 383
+  },
+  {
+    "passage": "Dancing Lesson No Instructor",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "491_5_3_7|",
+    "original": "You practise as Charlie demonstrated. It's not long before <<he>> returns.",
+    "translation": "",
+    "pos": 130
+  },
+  {
+    "passage": "Dancing Lesson No Instructor",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "496_5_3_7|",
+    "original": "A <<generate2>><<person2>><<person>> near you loses <<his>> balance and would have fallen to the floor had you not intervened. You spend some time teaching <<him>> how to remain composed. You don't learn much yourself, but <<he>> is clearly grateful, <span class=\"green\">and the class seems pleased with your generosity.</span> Charlie soon returns.",
+    "translation": "",
+    "pos": 290
+  },
+  {
+    "passage": "Dancing Lesson No Instructor",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "501_5_3_7|",
+    "original": "You flaunt your skill in front of the other students. It feels good to act superior, <span class=\"pink\">but the looks you receive suggest that the other students dislike being shown up like this.</span> Charlie soon returns.",
+    "translation": "",
+    "pos": 738
+  },
+  {
+    "passage": "Dancing Lesson No Instructor",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "505_5_3_7|",
+    "original": "<<link [[Next|Dancing Lesson]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1026
+  },
+  {
+    "passage": "Dance Studio Strip Finish",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "510_5_3_7|",
+    "original": "<span class=\"green\">You hear Charlie's voice growing louder above the jeers of the <<group>>.</span> \"There's more where this came from,\" the <<person2>><<person>> says as they cease their attack.",
+    "translation": "",
+    "pos": 28
+  },
+  {
+    "passage": "Dance Studio Strip Finish",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "514_5_3_7|",
+    "original": "<<link [[Next|Dancing Lesson]]>><</link>>",
+    "translation": "",
+    "pos": 266
+  },
+  {
+    "passage": "Dance Studio Strip Finish",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "517_5_3_7|",
+    "original": "<span class=\"green\">You hear Charlie's voice growing louder above the jeers of the <<group>>.</span> \"There's more where this came from,\" the <<person2>><<person>> says as they cease their attack.",
+    "translation": "",
+    "pos": 372
+  },
+  {
+    "passage": "Dance Studio Strip Finish",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "521_5_3_7|",
+    "original": "<<link [[Next|Dancing Lesson]]>><</link>>",
+    "translation": "",
+    "pos": 610
+  },
+  {
+    "passage": "Dance Studio Strip Finish",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "523_5_3_7|",
+    "original": "<span class=\"green\">You hear Charlie's voice growing louder above the jeers of the <<group>>.</span> \"There's more where this came from,\" the <<person2>><<person>> says as they cease their attack.",
+    "translation": "",
+    "pos": 662
+  },
+  {
+    "passage": "Dance Studio Strip Finish",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "527_5_3_7|",
+    "original": "<<link [[Next|Dancing Lesson]]>><</link>>",
+    "translation": "",
+    "pos": 900
+  },
+  {
+    "passage": "Widgets Events Yoga Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "537_5_3_7|",
+    "original": "Charlie nods at your <<bellyDescription>> and asks how you've been feeling.",
+    "translation": "",
+    "pos": 185
+  },
+  {
+    "passage": "Widgets Events Yoga Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "540_5_3_7|",
+    "original": "\"I'm hanging in there,\" you say with a timid little smile. \"Just a bit light-headed lately. I was worried I'd faint this morning.\"",
+    "translation": "",
+    "pos": 320
+  },
+  {
+    "passage": "Widgets Events Yoga Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "542_5_3_7|",
+    "original": "\"Eh, could be better,\" you say with a shrug. \"Vertigo is kicking my ass today.\"",
+    "translation": "",
+    "pos": 502
+  },
+  {
+    "passage": "Widgets Events Yoga Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "544_5_3_7|",
+    "original": "\"A little dizzy,\" you admit. \"But otherwise fine.\"",
+    "translation": "",
+    "pos": 602
+  },
+  {
+    "passage": "Widgets Events Yoga Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "547_5_3_7|",
+    "original": "Charlie nods. \"That's to be expected,\" <<nnpc_he \"Charlie\">> says. \"We'll take it easy in class today with some restorative yoga. There are poses that can help mitigate the dizziness by evening out blood circulation and improving your centre of balance.\" <<nnpc_He \"Charlie\">> demonstrates some poses, and you feel steadier on your feet after completing the routine.",
+    "translation": "",
+    "pos": 685
+  },
+  {
+    "passage": "Widgets Events Yoga Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "549_5_3_7|",
+    "original": "The lesson goes on. You are able to follow without much difficulty.",
+    "translation": "",
+    "pos": 1070
+  },
+  {
+    "passage": "Widgets Events Yoga Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "553_5_3_7|",
+    "original": "Charlie leads the class in performing side lunges. You feel the stretch in your pelvic floor as you follow <<nnpc_his \"Charlie\">> instructions, and it eases your cramps. You sigh with relief. <<lpain>><<pain -12>>",
+    "translation": "",
+    "pos": 1224
+  },
+  {
+    "passage": "Widgets Events Yoga Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "555_5_3_7|",
+    "original": "Charlie demonstrates a couple of the easier positions. They are a good warm up, and you can feel your body getting a good stretch.",
+    "translation": "",
+    "pos": 1456
+  },
+  {
+    "passage": "Widgets Events Yoga Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "559_5_3_7|",
+    "original": "Charlie leads the class in performing a move called child's pose. You smile at the name, placing a hand over your <<bellyDescription>>. You kneel and bow your forehead to the mat, stretching your arms in front of you as you sit back on your heels. Charlie instructs you to hold the pose for several long, steady breaths to release the tension you're carrying in your body. You don't know why, but you soon find yourself crying.",
+    "translation": "",
+    "pos": 1671
+  },
+  {
+    "passage": "Widgets Events Yoga Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "561_5_3_7|",
+    "original": "When you come out of the pose, your yoga mat is wet with tears. Charlie gives you a concerned look as you wipe your face. <<nnpc_He \"Charlie\">> discreetly approaches you. \"Yoga is cathartic, isn't it?\" <<nnpc_he \"Charlie\">> murmurs. \"Don't be afraid to release those emotions.\" <<nnpc_He \"Charlie\">> gives your hand a quick squeeze before returning to the front of the classroom. <<ltrauma>><<glove>><<trauma -6>><<npcincr Charlie love 1>>",
+    "translation": "",
+    "pos": 2118
+  },
+  {
+    "passage": "Widgets Events Yoga Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "564_5_3_7|",
+    "original": "With Charlie's guidance, you and your classmates practise breathing exercises designed to help expel pent-up emotions. All the little irritants that had been building up throughout the day dissipate as you breathe through each stretch. <<lstress>><<stress -12>>",
+    "translation": "",
+    "pos": 2630
+  },
+  {
+    "passage": "Widgets Events Yoga Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "566_5_3_7|",
+    "original": "Charlie demonstrates a couple of the more difficult positions. They are much harder to maintain and you soon start to feel your body getting tired.",
+    "translation": "",
+    "pos": 2912
+  },
+  {
+    "passage": "Widgets Events Yoga Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "570_5_3_7|",
+    "original": "As the lesson progresses, Charlie chooses a position that is particularly hard to maintain. Noticing your struggle, <<nnpc_he \"Charlie\">> approaches you. <<nnpc_He \"Charlie\">> points out your errors and helps you to correct them. You soon feel a lot more stable, and are able to stay in position with much more ease.",
+    "translation": "",
+    "pos": 3103
+  },
+  {
+    "passage": "Widgets Events Yoga Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "575_5_3_7|",
+    "original": "The lesson goes on. Despite a mix of embarrassment and arousal you are able to follow without much difficulty.",
+    "translation": "",
+    "pos": 3487
+  },
+  {
+    "passage": "Widgets Events Yoga Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "577_5_3_7|",
+    "original": "Charlie demonstrates a couple of the easier positions. They are a good warm up, but also makes you feel much more conscious of your lewd state. You swear other students are looking at you from time to time.",
+    "translation": "",
+    "pos": 3616
+  },
+  {
+    "passage": "Widgets Events Yoga Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "579_5_3_7|",
+    "original": "Charlie demonstrates a couple of the more difficult positions. They are challenging enough that you almost forget how exposed you are. Most other students also seem too absorbed in the exercise to pay attention to you.",
+    "translation": "",
+    "pos": 3841
+  },
+  {
+    "passage": "Widgets Events Yoga Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "581_5_3_7|",
+    "original": "As the lesson progresses, Charlie chooses a position that is particularly hard to maintain. Noticing your struggle, <<nnpc_he \"Charlie\">> approaches you. Despite <<nnpc_his \"Charlie\">> clear embarrassment <<nnpc_he \"Charlie\">> points out your errors and helps you to correct them. You soon feel a lot more stable, and are able to stay in position with much more ease.",
+    "translation": "",
+    "pos": 4078
+  },
+  {
+    "passage": "Widgets Events Yoga Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "585_5_3_7|",
+    "original": "<<link [[Next|Yoga Classes Start 2]]>><</link>>",
+    "translation": "",
+    "pos": 4480
+  },
+  {
+    "passage": "Widgets Events Yoga Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "593_5_3_7|",
+    "original": "Charlie asks you and another student to help put the mats away. You both take a couple and take them to the closet. As soon as you enter, you hear the sound of mats hitting the floor, as well as the door being shut. You look back and see the <<person1>><<person>> approaching you.",
+    "translation": "",
+    "pos": 4684
+  },
+  {
+    "passage": "Widgets Events Yoga Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "595_5_3_7|",
+    "original": "<<link [[Next|Yoga Classes Molestation]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 4982
+  },
+  {
+    "passage": "Widgets Events Yoga Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "597_5_3_7|",
+    "original": "As the lesson progresses, Charlie gets called outside the classroom. <<nnpc_He \"Charlie\">> tells everyone to maintain position, and that <<nnpc_he \"Charlie\">> should be back in a minute. You try to do as <<nnpc_he \"Charlie\">> says, but soon feel a hand touching your butt.",
+    "translation": "",
+    "pos": 5082
+  },
+  {
+    "passage": "Widgets Events Yoga Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "599_5_3_7|",
+    "original": "\"Better stay quiet,\" the <<person1>><<person>> says. \"We don't want to cause a scene, do we?\"",
+    "translation": "",
+    "pos": 5372
+  },
+  {
+    "passage": "Widgets Events Yoga Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "601_5_3_7|",
+    "original": "<<link [[Next|Yoga Classes Molestation]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 5483
+  },
+  {
+    "passage": "Widgets Events Yoga Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "605_5_3_7|",
+    "original": "As the lesson progresses, Charlie gets called outside the classroom. <<nnpc_He \"Charlie\">> tells everyone to maintain position, and that <<nnpc_he \"Charlie\">> would be back in a minute. You try to do as <<nnpc_he \"Charlie\">> says, but soon feel a hand touching your butt.",
+    "translation": "",
+    "pos": 5658
+  },
+  {
+    "passage": "Widgets Events Yoga Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "607_5_3_7|",
+    "original": "\"Coming here dressed like this,\" the <<person1>><<person>> says. \"You're asking for it, right?\"",
+    "translation": "",
+    "pos": 5943
+  },
+  {
+    "passage": "Widgets Events Yoga Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "609_5_3_7|",
+    "original": "As you look around, you notice several other people have also gotten closer, gazing at your <<lewdness>> lustfully.",
+    "translation": "",
+    "pos": 6052
+  },
+  {
+    "passage": "Widgets Events Yoga Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "611_5_3_7|",
+    "original": "<<link [[Stay quiet|Yoga Classes Non-Orgy]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 6181
+  },
+  {
+    "passage": "Widgets Events Yoga Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "614_5_3_7|",
+    "original": "<<link [[Offer yourself|Yoga Classes Orgy]]>><<set $sexstart to 1>><</link>><<promiscuous5>>",
+    "translation": "",
+    "pos": 6314
+  },
+  {
+    "passage": "Yoga Classes Inquire",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "621_5_3_7|",
+    "original": "The receptionist looks at the advertisement. \"Oh, that? It's the newest addition to our studio. Lessons happen every Monday, Wednesday and Friday. They can be a little more expensive than our dance lessons, but are great for flexibility.\"",
+    "translation": "",
+    "pos": 12
+  },
+  {
+    "passage": "Yoga Classes Inquire",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "624_5_3_7|",
+    "original": "The receptionist glances at your <<bellyDescription \"pc\">>. \"Yoga is also a great form of prenatal exercise and has many benefits for you and your baby. Just keep in mind that if you want to participate, you better come with clothes that are easy to move in.\"",
+    "translation": "",
+    "pos": 289
+  },
+  {
+    "passage": "Yoga Classes Inquire",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "627_5_3_7|",
+    "original": "The receptionist looks back at you. \"Besides, there are great therapeutic benefits to yoga. Just keep in mind that, if you want to participate, you better come with clothes that are easy to move in.\"",
+    "translation": "",
+    "pos": 569
+  },
+  {
+    "passage": "Yoga Classes Inquire",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "630_5_3_7|",
+    "original": "<<link [[Next|Dance Studio]]>><</link>>",
+    "translation": "",
+    "pos": 787
+  },
+  {
+    "passage": "Yoga Classes Change Room",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "634_5_3_7|",
+    "original": "You enter the changing room, and think about how you would like to dress for the lesson.",
+    "translation": "",
+    "pos": 12
+  },
+  {
+    "passage": "Yoga Classes Change Room",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "638_5_3_7|",
+    "original": "<<getinicon>><<link [[Enter|Yoga Classes Enter]]>><</link>>",
+    "translation": "",
+    "pos": 155
+  },
+  {
+    "passage": "Yoga Classes Change Room",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "641_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Dance Studio]]>><</link>>",
+    "translation": "",
+    "pos": 229
+  },
+  {
+    "passage": "Yoga Classes Change Room",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "644_5_3_7|",
+    "original": "<<getinicon>><<link [[Go naked|Yoga Classes Enter]]>><<strip>><</link>><<exhibitionist5>>",
+    "translation": "",
+    "pos": 328
+  },
+  {
+    "passage": "Yoga Classes Enter",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "654_5_3_7|",
+    "original": "In your yoga clothes, you enter the classroom. Several mats are scattered on the floor, many of them already taken by the other students. No one pays attention to you, and you choose a mat closer to the back of the class to sit down.",
+    "translation": "",
+    "pos": 168
+  },
+  {
+    "passage": "Yoga Classes Enter",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "656_5_3_7|",
+    "original": "Soon, Charlie enters the classroom. <<nnpc_He \"Charlie\">> goes to the front, sitting on a mat facing the students. The lesson is about to start.",
+    "translation": "",
+    "pos": 413
+  },
+  {
+    "passage": "Yoga Classes Enter",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "658_5_3_7|",
+    "original": "<<link [[Next|Yoga Classes Start 2]]>><</link>>",
+    "translation": "",
+    "pos": 569
+  },
+  {
+    "passage": "Yoga Classes Enter",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "660_5_3_7|",
+    "original": "You take off all your clothes. Feeling exposed, you take a deep breath before leaving the changing room and going to the class. Once you enter, you notice several mats scattered around the floor, many of them already taken by other students. At first no one notices you, but as you walk around more and more heads turn into your direction. Some are clearly too embarrassed to keep looking, while others let their discontent show on their faces. Most, however, look at you with clear lust in their eyes.",
+    "translation": "",
+    "pos": 627
+  },
+  {
+    "passage": "Yoga Classes Enter",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "662_5_3_7|",
+    "original": "Charlie soon enters the room. Seeing you, however, <<nnpc_he \"Charlie\">> stops for a moment, surprised at your naked display. Still, <<nnpc_he \"Charlie\">> doesn't say anything. Averting <<nnpc_his \"Charlie\">> eyes, and with a slight blush on <<nnpc_his \"Charlie\">> face, <<nnpc_he \"Charlie\">> goes to the front of the class and sits on a mat facing the students. You also sit down, picking a mat closer to the front.",
+    "translation": "",
+    "pos": 1141
+  },
+  {
+    "passage": "Yoga Classes Enter",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "664_5_3_7|",
+    "original": "<<link [[Next|Yoga Classes Start 2]]>><</link>>",
+    "translation": "",
+    "pos": 1569
+  },
+  {
+    "passage": "Yoga Classes Start 2",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "677_5_3_7|",
+    "original": "At the end of the lesson, Charlie tells everyone to recline on their backs. You lay down as instructed, and <<nnpc_he \"Charlie\">> leads you in guided meditation. \"Close your eyes,\" <<nnpc_he \"Charlie\">> says, <<nnpc_his \"Charlie\">> voice barely audible over the soothing music playing in the background. \"Allow your body to become soft and heavy. Sink into the floor, and relax...\" Whatever else Charlie has to say is lost to you, as you drift off to sleep.",
+    "translation": "",
+    "pos": 519
+  },
+  {
+    "passage": "Yoga Classes Start 2",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "679_5_3_7|",
+    "original": "A gentle hand on your shoulder nudges you back into the realm of consciousness. You groggily look around the room to see students chattering amongst themselves as they roll up their yoga mats and leave the studio.",
+    "translation": "",
+    "pos": 988
+  },
+  {
+    "passage": "Yoga Classes Start 2",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "681_5_3_7|",
+    "original": "\"It's not unusual for one to fall asleep in shavasana,\" Charlie says with a smile. \"But I'm afraid it's time to leave now.\" <<nnpc_He \"Charlie\">> sounds apologetic as <<nnpc_he \"Charlie\">> offers you a hand to help you to your feet. \"You and your little one should go get some rest.\" <<nnpc_He \"Charlie\">> holds the door open for you as you leave.",
+    "translation": "",
+    "pos": 1213
+  },
+  {
+    "passage": "Yoga Classes Start 2",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "684_5_3_7|",
+    "original": "<<link [[Next|Dance Studio Changing Room]]>><<money -2200 \"danceStudioLessons\">><<if $exposed gte 2>><<clotheson>><</if>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1640
+  },
+  {
+    "passage": "Yoga Classes Start 2",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "686_5_3_7|",
+    "original": "The rest of the lesson passes uneventfully.",
+    "translation": "",
+    "pos": 1813
+  },
+  {
+    "passage": "Yoga Classes Start 2",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "688_5_3_7|",
+    "original": "<<link [[Next|Dance Studio Changing Room]]>><<money -2200 \"danceStudioLessons\">><<if $exposed gte 2>><<clotheson>><</if>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1868
+  },
+  {
+    "passage": "Yoga Classes Molestation",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "711_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Yoga Classes Molestation End]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 236
+  },
+  {
+    "passage": "Yoga Classes Molestation",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "713_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Yoga Classes Molestation]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 337
+  },
+  {
+    "passage": "Yoga Classes Molestation End",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "721_5_3_7|",
+    "original": "\"Don't you DARE tell anyone about this.\" Before leaving, <<he>> spits on you for good measure.",
+    "translation": "",
+    "pos": 122
+  },
+  {
+    "passage": "Yoga Classes Molestation End",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "725_5_3_7|",
+    "original": "\"Don't you dare tell anyone about this.\" With that, <<he>> leaves.",
+    "translation": "",
+    "pos": 341
+  },
+  {
+    "passage": "Yoga Classes Molestation End",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "728_5_3_7|",
+    "original": "<<He>> smiles at you, \"Let this be our little secret, okay?\" <<He>> leaves you sprawled on the floor.",
+    "translation": "",
+    "pos": 431
+  },
+  {
+    "passage": "Yoga Classes Molestation End",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "731_5_3_7|",
+    "original": "<<tearful>> you struggle to your feet and make your way back to the studio. You hope you can put on a brave face.",
+    "translation": "",
+    "pos": 554
+  },
+  {
+    "passage": "Yoga Classes Molestation End",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "736_5_3_7|",
+    "original": "<<link [[Next|Yoga Classes Start 2]]>><</link>>",
+    "translation": "",
+    "pos": 710
+  },
+  {
+    "passage": "Yoga Classes Molestation End",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "739_5_3_7|",
+    "original": "<<He>> yells out and falls to the ground. <span class=\"green\"><<tearful>> you use the opportunity to flee the room and escape back to the studio.</span>",
+    "translation": "",
+    "pos": 769
+  },
+  {
+    "passage": "Yoga Classes Molestation End",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "743_5_3_7|",
+    "original": "Charlie immediately recognises that something is wrong. <<nnpc_He \"Charlie\">> pulls you aside and gently enquires. Wanting to put your ordeal behind you, you tell <<nnpc_him \"Charlie\">> that everything is fine. Charlie continues the lesson, but still looks concerned. <<npcincr Charlie love 2>><<glove>>",
+    "translation": "",
+    "pos": 963
+  },
+  {
+    "passage": "Yoga Classes Molestation End",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "745_5_3_7|",
+    "original": "<<link [[Next|Yoga Classes Start 2]]>><</link>>",
+    "translation": "",
+    "pos": 1278
+  },
+  {
+    "passage": "Yoga Classes Non-Orgy",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "765_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Yoga Classes Orgy End]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 250
+  },
+  {
+    "passage": "Yoga Classes Non-Orgy",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "767_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Yoga Classes Non-Orgy]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 344
+  },
+  {
+    "passage": "Yoga Classes Orgy",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "778_5_3_7|",
+    "original": "You feel the heat growing in your groin. You part your legs wide, giving them a full view of your <<genitals>>. \"You... can do what you want...\"",
+    "translation": "",
+    "pos": 153
+  },
+  {
+    "passage": "Yoga Classes Orgy",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "780_5_3_7|",
+    "original": "You feel the heat growing in your groin. You smile at them. \"Well... what if I am asking for it? What're you gonna do about it?\"",
+    "translation": "",
+    "pos": 341
+  },
+  {
+    "passage": "Yoga Classes Orgy",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "782_5_3_7|",
+    "original": "You feel the heat growing in your groin. You don't say anything, but part your legs wide, giving them a full view of your <<genitals>>.",
+    "translation": "",
+    "pos": 482
+  },
+  {
+    "passage": "Yoga Classes Orgy",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "786_5_3_7|",
+    "original": "That's all the incentive they need. The crowd jumps at you.",
+    "translation": "",
+    "pos": 639
+  },
+  {
+    "passage": "Yoga Classes Orgy",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "798_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Yoga Classes Orgy End]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 844
+  },
+  {
+    "passage": "Yoga Classes Orgy",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "800_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Yoga Classes Orgy]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 938
+  },
+  {
+    "passage": "Yoga Classes Orgy End",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "806_5_3_7|",
+    "original": "You make your assailants practise a much more painful type of yoga as you lay them all low.",
+    "translation": "",
+    "pos": 39
+  },
+  {
+    "passage": "Yoga Classes Orgy End",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "809_5_3_7|",
+    "original": "The classroom door opens, prompting everyone to quickly return to their mats. Charlie looks at the students, many of whom are bruised and shaky. Still, <<nnpc_he \"Charlie\">> doesn't say anything, and just sits down on <<nnpc_his \"Charlie\">> mat.",
+    "translation": "",
+    "pos": 162
+  },
+  {
+    "passage": "Yoga Classes Orgy End",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "811_5_3_7|",
+    "original": "The rest of the lesson passes without further incident.",
+    "translation": "",
+    "pos": 419
+  },
+  {
+    "passage": "Yoga Classes Orgy End",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "813_5_3_7|",
+    "original": "<<link [[Next|Yoga Classes Start 2]]>><</link>>",
+    "translation": "",
+    "pos": 486
+  },
+  {
+    "passage": "Yoga Classes Orgy End",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "819_5_3_7|",
+    "original": "The classroom door opens, prompting your assailants to quickly return to their mats. Charlie looks at the students, many of whom are no longer maintaining position. Still, <<nnpc_he \"Charlie\">> doesn't say anything, and just sits down on <<nnpc_his \"Charlie\">> mat.",
+    "translation": "",
+    "pos": 634
+  },
+  {
+    "passage": "Yoga Classes Orgy End",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "821_5_3_7|",
+    "original": "The rest of the lesson passes without further incident.",
+    "translation": "",
+    "pos": 911
+  },
+  {
+    "passage": "Yoga Classes Orgy End",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "823_5_3_7|",
+    "original": "<<link [[Next|Yoga Classes Start 2]]>><</link>>",
+    "translation": "",
+    "pos": 978
+  },
+  {
+    "passage": "Yoga Classes Orgy End",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "828_5_3_7|",
+    "original": "The classroom door opens, prompting your assailants to quickly return to their mats. Charlie looks at the students, many of whom are no longer maintaining position. Still, <<nnpc_he \"Charlie\">> doesn't say anything, and just sits down on <<nnpc_his \"Charlie\">> mat.",
+    "translation": "",
+    "pos": 1072
+  },
+  {
+    "passage": "Yoga Classes Orgy End",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "830_5_3_7|",
+    "original": "The rest of the lesson passes without further incident.",
+    "translation": "",
+    "pos": 1349
+  },
+  {
+    "passage": "Yoga Classes Orgy End",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "832_5_3_7|",
+    "original": "<<link [[Next|Yoga Classes Start 2]]>><</link>>",
+    "translation": "",
+    "pos": 1416
+  },
+  {
+    "passage": "Heel Lesson Inquiry",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "838_5_3_7|",
+    "original": "The receptionist looks you up and down. \"We offer high heel classes every Tuesday and Thursday, but students must bring their own shoes to participate.",
+    "translation": "",
+    "pos": 68
+  },
+  {
+    "passage": "Heel Lesson Inquiry",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "840_5_3_7|",
+    "original": "Those $worn.feet.name look perfect for the curriculum.\"",
+    "translation": "",
+    "pos": 262
+  },
+  {
+    "passage": "Heel Lesson Inquiry",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "842_5_3_7|",
+    "original": "If you're interested, the shopping centre sells them.\"",
+    "translation": "",
+    "pos": 328
+  },
+  {
+    "passage": "Heel Lesson Inquiry",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "845_5_3_7|",
+    "original": "<<link [[Next|Dance Studio]]>><</link>>",
+    "translation": "",
+    "pos": 400
+  },
+  {
+    "passage": "Heel Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "858_5_3_7|",
+    "original": "Charlie hands you and the other class members a stack of books. Instead of telling you to read them, <<npc Charlie>><<person1>><<he>> instructs you to balance them on your head and do laps around the room. It takes all of your concentration to keep them from falling.",
+    "translation": "",
+    "pos": 265
+  },
+  {
+    "passage": "Heel Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "860_5_3_7|",
+    "original": "You enter the dance room to find an assortment of car tyres resting on the floor. To Charlie's direction, you and your classmates take turns stepping into and out of each tyre. Charlie shouts as you walk, \"Faster! Faster! Faster! Faster!\"",
+    "translation": "",
+    "pos": 557
+  },
+  {
+    "passage": "Heel Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "862_5_3_7|",
+    "original": "The dance room is cluttered with discarded leotards, dance equipment, and floor mats. Charlie greets the class and begins, \"For this lesson, I want you to clean the room up without using your hands. Use your heels.\" You do as <<npc Charlie>><<person1>><<he>> says.",
+    "translation": "",
+    "pos": 820
+  },
+  {
+    "passage": "Heel Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "864_5_3_7|",
+    "original": "A line of tape is placed on the dance room floor. You and your classmates take turns doing catwalks down the line, moving elegantly to imitate fashion models. As you walk, Charlie grabs you by the waist and guides each step. \"That's it! Keep moving!\"",
+    "translation": "",
+    "pos": 1097
+  },
+  {
+    "passage": "Heel Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "869_5_3_7|",
+    "original": "<span class=\"gold\">You feel more confident in your ability to give pleasure with your feet.</span>",
+    "translation": "",
+    "pos": 1404
+  },
+  {
+    "passage": "Heel Lesson",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "871_5_3_7|",
+    "original": "<<link [[Finish up|Heel Lesson Video]]>><</link>>",
+    "translation": "",
+    "pos": 1514
+  },
+  {
+    "passage": "Heel Lesson Video",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "875_5_3_7|",
+    "original": "As the class winds down, you and the other students are led to the corner where a television cart sits. Flipping the television on, Charlie instructs the class to watch a short educational video before leaving.",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Heel Lesson Video",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "879_5_3_7|",
+    "original": "This class's video is on the history of high heels. You watch pictures of 17th century shoes, and how men of royalty used to wear them.",
+    "translation": "",
+    "pos": 248
+  },
+  {
+    "passage": "Heel Lesson Video",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "881_5_3_7|",
+    "original": "A guide to etiquette appears on the screen. The posh narrator explains how to walk and carry oneself when at a fancy restaurant.",
+    "translation": "",
+    "pos": 406
+  },
+  {
+    "passage": "Heel Lesson Video",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "883_5_3_7|",
+    "original": "The video is low-quality and grainy. It shows a woman wearing tall heels, stepping on a banana.",
+    "translation": "",
+    "pos": 557
+  },
+  {
+    "passage": "Heel Lesson Video",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "885_5_3_7|",
+    "original": "\"This must be someone's fetish,\" you think.",
+    "translation": "",
+    "pos": 682
+  },
+  {
+    "passage": "Heel Lesson Video",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "889_5_3_7|",
+    "original": "A woman in a leotard appears on screen. You watch her perform a dance routine, paying attention to how she manages such grace in her heels.",
+    "translation": "",
+    "pos": 787
+  },
+  {
+    "passage": "Heel Lesson Video",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "892_5_3_7|",
+    "original": "The video is a guide to walking in high heels. It shows you how to stand, how to sit, and how to walk gracefully.",
+    "translation": "",
+    "pos": 966
+  },
+  {
+    "passage": "Heel Lesson Video",
+    "filepath": "overworld-town/loc-dance-studio/main.twee",
+    "key": "896_5_3_7|",
+    "original": "<<link [[Leave|Dance Studio]]>><</link>>",
+    "translation": "",
+    "pos": 1110
+  }
+]

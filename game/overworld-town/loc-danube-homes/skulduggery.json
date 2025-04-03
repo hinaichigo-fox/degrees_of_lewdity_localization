@@ -1,0 +1,1810 @@
+[
+  {
+    "passage": "Danube House Lock",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "4_5_3_7|",
+    "original": "The door is locked tight.",
+    "translation": "",
+    "pos": 105
+  },
+  {
+    "passage": "Danube House Lock",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "8_5_3_7|",
+    "original": "You think you'd be able to pick the lock, <span class=\"blue\">if your arms weren't bound.</span>",
+    "translation": "",
+    "pos": 245
+  },
+  {
+    "passage": "Danube House Lock",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "12_5_3_7|",
+    "original": "<span class=\"green\">The lock looks easy to pick.</span>",
+    "translation": "",
+    "pos": 390
+  },
+  {
+    "passage": "Danube House Lock",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "14_5_3_7|",
+    "original": "<<lockicon \"pick\">><<link [[Break in (0:05)|Danube House Sneak]]>><<handheldon>><<pass 5>><<crimeUp 5 \"trespassing\">><</link>><<crime \"trespassing\">>",
+    "translation": "",
+    "pos": 459
+  },
+  {
+    "passage": "Danube House Lock",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "18_5_3_7|",
+    "original": "<span class=\"red\">The lock looks beyond your ability to pick.</span>",
+    "translation": "",
+    "pos": 635
+  },
+  {
+    "passage": "Danube House Lock",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "22_5_3_7|",
+    "original": "<<danubeicon>><<link [[Leave|Danube Street]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 747
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "28_5_3_7|",
+    "original": "You successfully pick the lock and enter the abode.",
+    "translation": "",
+    "pos": 85
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "32_5_3_7|",
+    "original": "<span class=\"blue\">There's nothing more you can learn from locks this simple.</span>",
+    "translation": "",
+    "pos": 199
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "35_5_3_7|",
+    "original": "You sneak around the mansion and look for anything of value.",
+    "translation": "",
+    "pos": 302
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "40_5_3_7|",
+    "original": "You find little of value that could be easily carried away. While searching the basement, you come across an ancient-looking door. It is locked.",
+    "translation": "",
+    "pos": 427
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "43_5_3_7|",
+    "original": "<<link [[Try to open it|Danube House Wine Cellar]]>><</link>><<skulduggerydifficulty>>",
+    "translation": "",
+    "pos": 622
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "45_5_3_7|",
+    "original": "<<link [[Leave|Danube Street]]>><</link>>",
+    "translation": "",
+    "pos": 716
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "51_5_3_7|",
+    "original": "A pair of <<print either(\"hazel\", \"yellow\", \"green\", \"blue\")>> eyes pierce the darkness, and a large <<beasttype>> emerges. <<bHe>> prepares to pounce.",
+    "translation": "",
+    "pos": 845
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "53_5_3_7|",
+    "original": "\"Intruder! Masters won't be pleased.\" <<bHe>> flicks <<bhis>> tail.",
+    "translation": "",
+    "pos": 1021
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "57_5_3_7|",
+    "original": "<<link [[Meow|Danube House Meow]]>><</link>><<cat>>",
+    "translation": "",
+    "pos": 1129
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "62_5_3_7|",
+    "original": "<<link [[Try to calm <<bhim>>|Danube House Cat]]>><<set $sexstart to 1>><<generate2>><</link>><<deviant2>>",
+    "translation": "",
+    "pos": 1286
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "65_5_3_7|",
+    "original": "<<link [[Fight|Danube House Cat]]>><<set $molestationstart to 1>><<generate2>><<set $phase to 0>><</link>>",
+    "translation": "",
+    "pos": 1413
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "67_5_3_7|",
+    "original": "<<link [[Run|Danube House Run]]>><</link>><<athleticsdifficulty>>",
+    "translation": "",
+    "pos": 1529
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "70_5_3_7|",
+    "original": "<<link [[Run|Danube House Run]]>><<set $athleticsSuccess to true>><</link>>",
+    "translation": "",
+    "pos": 1618
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "76_5_3_7|",
+    "original": "<<generate1>><<person1>>You find a <<person>> dozing on a large sofa. <<He>> <<if $rng % 2>>is wearing expensive jewellery.<<else>>has fallen asleep holding some kind of tablet computer.<</if>>",
+    "translation": "",
+    "pos": 1770
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "79_5_3_7|",
+    "original": "<<link [[Rob <<him>>|Danube House Rob]]>><</link>><<skulduggerydifficulty>><<crime \"thievery\">>",
+    "translation": "",
+    "pos": 2014
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "81_5_3_7|",
+    "original": "<<link [[Leave|Danube Street]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 2117
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "86_5_3_7|",
+    "original": "You find a safe with a combination lock.",
+    "translation": "",
+    "pos": 2247
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "88_5_3_7|",
+    "original": "<<link [[Try to open it|Danube House Safe]]>><</link>>",
+    "translation": "",
+    "pos": 2299
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "90_5_3_7|",
+    "original": "<<link [[Leave|Danube Street]]>><</link>>",
+    "translation": "",
+    "pos": 2361
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "98_5_3_7|",
+    "original": "A huge noise is coming from the garden. As you creep toward the garden, you hear shouting, laughing and loud music. A house party.",
+    "translation": "",
+    "pos": 2636
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "100_5_3_7|",
+    "original": "A door smashes open and a <<person>> staggers in, vomiting in the sink. Mostly in the sink.",
+    "translation": "",
+    "pos": 2782
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "104_5_3_7|",
+    "original": "Before you have a chance to hide, the <<person>> turns and looks at you, steadying <<himself>> on the counter. Taking in your appearance, <<he>> smiles.",
+    "translation": "",
+    "pos": 2931
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "106_5_3_7|",
+    "original": "\"Shit, you mush be the stripper!\" <<He>> leers. \"I didn't think we... Who called you? Well, fuck it. You're here right?\"",
+    "translation": "",
+    "pos": 3097
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "108_5_3_7|",
+    "original": "You smile.",
+    "translation": "",
+    "pos": 3231
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "111_5_3_7|",
+    "original": "\"You're a nice piece of ass.\" <<He>> blinks and wipes <<his>> mouth with <<his>> hand. <<He>> looks troubled for a moment. \"I'm not at my best, okay? Don't judge. I've had a little too much to drink.\"",
+    "translation": "",
+    "pos": 3300
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "113_5_3_7|",
+    "original": "\"You're not bad.\" <<He>> smiles. <<if $player.perceived_breastsize lte 3>>\"I would've chose one with proper breasts but<<else>>\"Great breasts at least, and<</if>> it was pretty last minute.\" <<incgbreastinsecurity>>",
+    "translation": "",
+    "pos": 3519
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "116_5_3_7|",
+    "original": "You nod, smiling.",
+    "translation": "",
+    "pos": 3760
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "118_5_3_7|",
+    "original": "\"Okay,\" <<he>> says. \"Well the birthday <<if $player.gender_appearance is \"m\">>gal<<else>>boy<</if>> is out back.\" <<He>> pauses and steadies <<himself>> on the counter. \"You wanna surprise them, so you should go out that way.\" <<He>> points toward a door behind you. \"Wait, have you been paid yet?\"",
+    "translation": "",
+    "pos": 3791
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "120_5_3_7|",
+    "original": "<<link [[Not yet (Take £80 and leave)|Danube Street]]>><<money 8000 \"danubeParty\">><<crimeUp 80 \"thievery\">><<endevent>><</link>><<crime \"thievery\">>",
+    "translation": "",
+    "pos": 4108
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "122_5_3_7|",
+    "original": "<<link [[Yeah, fully paid. (Take nothing and leave)|Danube Street]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 4271
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "125_5_3_7|",
+    "original": "Before you have a chance to hide, the <<person>> turns and looks at you as <<he>> steadies <<himself>> on the counter. <<He>> looks at the tower of pizza boxes stacked beside you, and smiles.",
+    "translation": "",
+    "pos": 4387
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "127_5_3_7|",
+    "original": "\"Pizza delivery? Again? Aren't you, like, the fourth one?\" <<He>> looks at the sink and laughs. \"Well sure. Fuck it. I'm hungry again now.\"",
+    "translation": "",
+    "pos": 4592
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "129_5_3_7|",
+    "original": "<<He>> rummages through <<his>> pockets and holds out a few twenties. \"There, that should cover it. And the tip too? It's pretty late.\"",
+    "translation": "",
+    "pos": 4745
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "131_5_3_7|",
+    "original": "<<link [[Take money and leave (£60)|Danube Street]]>><<money 6000 \"danubeParty\">><<crimeUp 60 \"thievery\">><<endevent>><</link>><<crime \"thievery\">>",
+    "translation": "",
+    "pos": 4898
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "133_5_3_7|",
+    "original": "<<link [[Tell <<him>> they're complimentary (Leave)|Danube Street]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 5059
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "138_5_3_7|",
+    "original": "You come across the dying throes of a house party. Beer cans, pizza boxes and semi-dressed, fully-smashed people litter the floors, tables and sofas. The air is heavy with an acrid smoke. A few people are conscious, but barely.",
+    "translation": "",
+    "pos": 5212
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "139_5_3_7|",
+    "original": "Somewhere upstairs you hear what sounds like a gang-bang.<<if $awareness gte 300>> After everything you've seen, you just hope it's consensual.<</if>> Amid all the mess, one table is tidy. And full of drug paraphernalia.",
+    "translation": "",
+    "pos": 5443
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "141_5_3_7|",
+    "original": "Looking closer, you see that most of the plastic bags and foil-wraps are empty, but several have drugs inside.",
+    "translation": "",
+    "pos": 5679
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "143_5_3_7|",
+    "original": "\"Roll it up, slut,\" someone nearby slurs. <<He>> looks wasted.",
+    "translation": "",
+    "pos": 5801
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "145_5_3_7|",
+    "original": "There are definitely enough drugs left over to be worth something, and no one here can ID you or report it stolen.",
+    "translation": "",
+    "pos": 5879
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "147_5_3_7|",
+    "original": "<<link [[Take it|Danube Street]]>><<endevent>><<set $blackmoney += 50>><</link>>",
+    "translation": "",
+    "pos": 6009
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "149_5_3_7|",
+    "original": "<<link [[Leave it|Danube Street]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 6101
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "153_5_3_7|",
+    "original": "You come across the aftermath of a house party. Everyone's gone, but beer cans, pizza boxes and ash trays are everywhere. Acrid smoke still lingers in the air.",
+    "translation": "",
+    "pos": 6188
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "155_5_3_7|",
+    "original": "Amid all the mess, one table has been tidied up. It looks like someone collected the leftover drugs and put in all together here.",
+    "translation": "",
+    "pos": 6361
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "156_5_3_7|",
+    "original": "There's enough here to be worth something - and it's not like they can report it stolen.",
+    "translation": "",
+    "pos": 6493
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "158_5_3_7|",
+    "original": "<<link [[Take it|Danube Street]]>><<endevent>><<set $blackmoney += 25>><</link>>",
+    "translation": "",
+    "pos": 6595
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "160_5_3_7|",
+    "original": "<<link [[Leave it|Danube Street]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 6685
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "166_5_3_7|",
+    "original": "<<generate1>><<person1>>You search an ornate fountain in the middle of a hall. You peer into the water looking for any valuables inside, but there's a large drain at the bottom that would've sucked any small items away. You're about to move on when you hear footsteps approaching. There's not much time to hide.",
+    "translation": "",
+    "pos": 6819
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "169_5_3_7|",
+    "original": "<<link [[Hide in the fountain|Danube House Fountain]]>><</link>><<swimmingdifficulty 1 800>>",
+    "translation": "",
+    "pos": 7181
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "171_5_3_7|",
+    "original": "<<link [[Try to bluff your way out|Danube House Bluff]]>><</link>><<skulduggerydifficulty>>",
+    "translation": "",
+    "pos": 7281
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "177_5_3_7|",
+    "original": "The mansion is silent, empty. No one appears to be home. Many doors are closed and locked. One door is wide open and brightly lit. Approaching carefully, you peek in to see a bedroom.",
+    "translation": "",
+    "pos": 7475
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "178_5_3_7|",
+    "original": "In the centre of the room is a bed. On that lies a <<person>>, completely naked, fully spread-eagled, dildo-gagged and bound to the bed.",
+    "translation": "",
+    "pos": 7660
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "180_5_3_7|",
+    "original": "Noticing you in the doorway, <<he>> suddenly looks at you.",
+    "translation": "",
+    "pos": 7808
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "182_5_3_7|",
+    "original": "You're not sure, but you thought you saw excitement in that first look. Now you see... apprehension? Fear? Anger?",
+    "translation": "",
+    "pos": 7896
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "184_5_3_7|",
+    "original": "<<link [[Remove the gag|Danube House S&M]]>><<set $phase to 0>><</link>>",
+    "translation": "",
+    "pos": 8023
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "186_5_3_7|",
+    "original": "<<link [[Leave the gag|Danube House S&M]]>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 8105
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "188_5_3_7|",
+    "original": "<<link [[Leave|Danube Street]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 8186
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "191_5_3_7|",
+    "original": "You feel like crying. This town is hard - you know this already - but coming face to face with a helpless victim of kidnapping or trafficking and such fresh sexual abuse fills you with horror.",
+    "translation": "",
+    "pos": 8259
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "194_5_3_7|",
+    "original": "<<link [[Help this poor victim|Danube House S&M]]>><<set $phase to 2>><</link>>",
+    "translation": "",
+    "pos": 8491
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "196_5_3_7|",
+    "original": "<<link [[Leave|Danube Street]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 8580
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "202_5_3_7|",
+    "original": "The mansion interior is minimalist and sterile, the picture of artificial perfection. No one appears to be home. You don't find anything worth stealing inside, but floor-to-ceiling windows in the living room reveal a row of pristine citrus trees. You carefully test the sliding door that leads into the garden. It opens easily, and you catch a whiff of fragrant fruit.",
+    "translation": "",
+    "pos": 8711
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "204_5_3_7|",
+    "original": "<<icon \"tending/orange.png\">> <<link [[Pick oranges (0:20)|Danube House Oranges]]>><<pass 20>><</link>><<tendingdifficulty 1 300>>",
+    "translation": "",
+    "pos": 9091
+  },
+  {
+    "passage": "Danube House Sneak",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "206_5_3_7|",
+    "original": "<<danubeicon>><<link [[Leave|Danube Street]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 9229
+  },
+  {
+    "passage": "Danube House Petty Theft",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "224_5_3_7|",
+    "original": "You don't find much, just some loose change worth <<moneyGainDisplay 2 true true>>.",
+    "translation": "",
+    "pos": 144
+  },
+  {
+    "passage": "Danube House Petty Theft",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "228_5_3_7|",
+    "original": "You don't find much, just some loose change worth <<moneyGainDisplay 4 true true>>.",
+    "translation": "",
+    "pos": 297
+  },
+  {
+    "passage": "Danube House Petty Theft",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "232_5_3_7|",
+    "original": "You find <<moneyGainDisplay 10 true true>> hidden in a drawer.",
+    "translation": "",
+    "pos": 442
+  },
+  {
+    "passage": "Danube House Petty Theft",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "236_5_3_7|",
+    "original": "You find <<moneyGainDisplay 20 true true>> beneath a cushion.",
+    "translation": "",
+    "pos": 568
+  },
+  {
+    "passage": "Danube House Petty Theft",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "240_5_3_7|",
+    "original": "You find <<moneyGainDisplay 30 true true>> lying on the kitchen worktop.",
+    "translation": "",
+    "pos": 693
+  },
+  {
+    "passage": "Danube House Petty Theft",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "244_5_3_7|",
+    "original": "You find <<moneyGainDisplay 60 true true>> in a pot beside the front door.",
+    "translation": "",
+    "pos": 825
+  },
+  {
+    "passage": "Danube House Petty Theft",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "248_5_3_7|",
+    "original": "You find a nice-looking brooch in a drawer.",
+    "translation": "",
+    "pos": 962
+  },
+  {
+    "passage": "Danube House Petty Theft",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "254_5_3_7|",
+    "original": "You find a necklace on a stool beside the coat stand.",
+    "translation": "",
+    "pos": 1129
+  },
+  {
+    "passage": "Danube House Petty Theft",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "260_5_3_7|",
+    "original": "You find a set of silverware.",
+    "translation": "",
+    "pos": 1308
+  },
+  {
+    "passage": "Danube House Petty Theft",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "266_5_3_7|",
+    "original": "You find a pair of gold cufflinks in a coat pocket.",
+    "translation": "",
+    "pos": 1462
+  },
+  {
+    "passage": "Danube House Petty Theft",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "275_5_3_7|",
+    "original": "<<link [[\"Take \" + _it|Danube Street]]>><<set $blackmoney += _money_gain>><<crimeUp `_money_gain` \"thievery\">><</link>><<crime \"thievery\">>",
+    "translation": "",
+    "pos": 1670
+  },
+  {
+    "passage": "Danube House Petty Theft",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "277_5_3_7|",
+    "original": "<<link [[\"Take \" + _it|Danube Street]]>><<money _money_gain \"danubeParty\">><<crimeUp `_money_gain / 100` \"petty\">><</link>><<crime \"petty\">>",
+    "translation": "",
+    "pos": 1822
+  },
+  {
+    "passage": "Danube House Petty Theft",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "280_5_3_7|",
+    "original": "<<link [[Leave|Danube Street]]>><</link>>",
+    "translation": "",
+    "pos": 1979
+  },
+  {
+    "passage": "Danube House Oranges",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "287_5_3_7|",
+    "original": "You comb through the row of citrus trees for saleable oranges.",
+    "translation": "",
+    "pos": 85
+  },
+  {
+    "passage": "Danube House Oranges",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "291_5_3_7|",
+    "original": "<span class=\"green\">You find a bunch, firm and juicy.</span>",
+    "translation": "",
+    "pos": 196
+  },
+  {
+    "passage": "Danube House Oranges",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "294_5_3_7|",
+    "original": "<span class=\"red\">They're all bruised and spongy.</span><<gtending>><<tending 2>>",
+    "translation": "",
+    "pos": 297
+  },
+  {
+    "passage": "Danube House Oranges",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "298_5_3_7|",
+    "original": "<<link [[Next|Danube Street]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 397
+  },
+  {
+    "passage": "Danube House Wine Cellar",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "305_5_3_7|",
+    "original": "You attempt to pick the ancient mechanical lock system.",
+    "translation": "",
+    "pos": 86
+  },
+  {
+    "passage": "Danube House Wine Cellar",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "313_5_3_7|",
+    "original": "Despite the solid, hardwood door, the lock is a very simple 3 lever-tumbler type. Apply torque, poke around a little - 1, 2, 3 - and open it pops. The most difficult part is keeping the noise down as you drag the door open.",
+    "translation": "",
+    "pos": 228
+  },
+  {
+    "passage": "Danube House Wine Cellar",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "315_5_3_7|",
+    "original": "Inside you find a well-stocked wine-cellar. You won't be able to carry much, so you make a quick assessment. You know little about wine, but <<if $pubintro is 1>>Landry has told you years and labels to look for. Also, <</if>>the way the wine is positioned gives you some clues as to its worth. You identify a couple of the most expensive-looking bottles.",
+    "translation": "",
+    "pos": 463
+  },
+  {
+    "passage": "Danube House Wine Cellar",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "318_5_3_7|",
+    "original": "<<link [[Take bottles|Danube House Wine Steal]]>><<crimeUp 150 \"thievery\">><</link>><<crime \"thievery\">>",
+    "translation": "",
+    "pos": 830
+  },
+  {
+    "passage": "Danube House Wine Cellar",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "320_5_3_7|",
+    "original": "<<link [[Leave|Danube Street]]>><</link>>",
+    "translation": "",
+    "pos": 942
+  },
+  {
+    "passage": "Danube House Wine Cellar",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "325_5_3_7|",
+    "original": "You've never understood these old locks and can't do anything there. The door is completely solid and doesn't budge at all. You look around a little for any keys lying around, but no luck there either.",
+    "translation": "",
+    "pos": 1002
+  },
+  {
+    "passage": "Danube House Wine Cellar",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "327_5_3_7|",
+    "original": "You leave empty-handed.",
+    "translation": "",
+    "pos": 1215
+  },
+  {
+    "passage": "Danube House Wine Cellar",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "332_5_3_7|",
+    "original": "<<link [[Next|Danube Street]]>><</link>>",
+    "translation": "",
+    "pos": 1272
+  },
+  {
+    "passage": "Danube House Wine Steal",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "340_5_3_7|",
+    "original": "You take the most expensive-looking bottles, while leaving everything else untouched. You close the heavy door behind you, and easily lock it again.",
+    "translation": "",
+    "pos": 122
+  },
+  {
+    "passage": "Danube House Wine Steal",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "342_5_3_7|",
+    "original": "With a little luck, they will take a while to notice you were ever there.",
+    "translation": "",
+    "pos": 276
+  },
+  {
+    "passage": "Danube House Wine Steal",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "347_5_3_7|",
+    "original": "<<link [[Leave|Danube Street]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 388
+  },
+  {
+    "passage": "Danube House Cat",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "364_5_3_7|",
+    "original": "The <<beasttype>> pounces on you.",
+    "translation": "",
+    "pos": 245
+  },
+  {
+    "passage": "Danube House Cat",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "383_5_3_7|",
+    "original": "You drop to the ground and adopt a mating posture. The <<beasttype 0>> raises <<bhis 0>> head and stares at you. <<bHe 0>> paces closer.",
+    "translation": "",
+    "pos": 609
+  },
+  {
+    "passage": "Danube House Cat",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "385_5_3_7|",
+    "original": "\"I suppose... Masters don't have to know, if we can have some fun.\"",
+    "translation": "",
+    "pos": 770
+  },
+  {
+    "passage": "Danube House Cat",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "400_5_3_7|",
+    "original": "<<person2>>The <<person>> laughs and claps. \"<<bHis 0>> dick is shaped to encourage ovulation in <<bhis 0>> mate,\" <<he>> says. \"I'm glad it can satisfy human sluts too.\" You feel utterly humiliated.<<famebestiality 1>>",
+    "translation": "",
+    "pos": 1060
+  },
+  {
+    "passage": "Danube House Cat",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "404_5_3_7|",
+    "original": "<<person2>>The <<person>> reclines on the sofa, watching you.",
+    "translation": "",
+    "pos": 1328
+  },
+  {
+    "passage": "Danube House Cat",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "417_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Danube House Cat Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 1516
+  },
+  {
+    "passage": "Danube House Cat",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "419_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Danube House Cat]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 1614
+  },
+  {
+    "passage": "Danube House Cat",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "423_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Danube House Cat Finish 2]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 1730
+  },
+  {
+    "passage": "Danube House Cat",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "425_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Danube House Cat]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 1828
+  },
+  {
+    "passage": "Danube House Run",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "434_5_3_7|",
+    "original": "You turn and run. The <<beasttype 0>> pounces, but you <span class=\"green\">succeed</span> in evading <<bhim 0>>. You flee into the street.<<gstress>><<stress 6>>",
+    "translation": "",
+    "pos": 115
+  },
+  {
+    "passage": "Danube House Run",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "437_5_3_7|",
+    "original": "<<link [[Next|Danube Street]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 295
+  },
+  {
+    "passage": "Danube House Run",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "441_5_3_7|",
+    "original": "You turn and run. The <<beasttype 0>> pounces and you <span class=\"red\">fail</span> to evade <<bhim 0>>. <<bHis 0>> weight forces you to the ground.",
+    "translation": "",
+    "pos": 363
+  },
+  {
+    "passage": "Danube House Run",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "444_5_3_7|",
+    "original": "<<link [[Next|Danube House Cat]]>><<set $molestationstart to 1>><<generate2>><<set $phase to 3>><</link>>",
+    "translation": "",
+    "pos": 530
+  },
+  {
+    "passage": "Danube House Meow",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "451_5_3_7|",
+    "original": "You drop to all fours and meow at the <<beasttype 0>>. <<bHes 0>> taken aback, and eases <<bhis 0>> threatening posture.",
+    "translation": "",
+    "pos": 85
+  },
+  {
+    "passage": "Danube House Meow",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "453_5_3_7|",
+    "original": "\"You're... like me. Hmph. Masters said there were no others like me.\" <<bHe 0>> lies down. \"Stupid Masters. I'll break something later for this.\"",
+    "translation": "",
+    "pos": 231
+  },
+  {
+    "passage": "Danube House Meow",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "455_5_3_7|",
+    "original": "<<bHe>> growls again, but in a softer tone, and lies down.",
+    "translation": "",
+    "pos": 390
+  },
+  {
+    "passage": "Danube House Meow",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "459_5_3_7|",
+    "original": "The <<beasttype 0>> pacified, you notice <<bhis 0>> collar glinting. You look closer and see it's encrusted with jewels.",
+    "translation": "",
+    "pos": 467
+  },
+  {
+    "passage": "Danube House Meow",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "462_5_3_7|",
+    "original": "<<link [[Take it|Danube House Collar]]>><<crimeUp 100 \"thievery\">><</link>><<crime \"thievery\">>",
+    "translation": "",
+    "pos": 598
+  },
+  {
+    "passage": "Danube House Meow",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "464_5_3_7|",
+    "original": "<<link [[Leave|Danube Street]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 699
+  },
+  {
+    "passage": "Danube House Cat Finish",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "474_5_3_7|",
+    "original": "The <<beasttype 0>> yawns in satisfaction and walks over to the window.",
+    "translation": "",
+    "pos": 128
+  },
+  {
+    "passage": "Danube House Cat Finish",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "476_5_3_7|",
+    "original": "<<tearful>> you rise to your feet.",
+    "translation": "",
+    "pos": 202
+  },
+  {
+    "passage": "Danube House Cat Finish",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "481_5_3_7|",
+    "original": "The <<beasttype 0>> pacified, you notice <<bhis 0>> collar glinting. You look closer and see it's encrusted with jewels.",
+    "translation": "",
+    "pos": 265
+  },
+  {
+    "passage": "Danube House Cat Finish",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "488_5_3_7|",
+    "original": "<<link [[Take it|Danube House Collar]]>><<crimeUp 100 \"thievery\">><</link>><<crime \"thievery\">>",
+    "translation": "",
+    "pos": 490
+  },
+  {
+    "passage": "Danube House Cat Finish",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "490_5_3_7|",
+    "original": "<<link [[Leave|Danube Street]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 593
+  },
+  {
+    "passage": "Danube House Cat Finish",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "495_5_3_7|",
+    "original": "The <<beasttype>> cowers and rolls over in submission.",
+    "translation": "",
+    "pos": 686
+  },
+  {
+    "passage": "Danube House Cat Finish",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "497_5_3_7|",
+    "original": "<<tearful>> you rise to your feet.",
+    "translation": "",
+    "pos": 743
+  },
+  {
+    "passage": "Danube House Cat Finish",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "502_5_3_7|",
+    "original": "The <<beasttype>> pacified, you notice <<bhis>> collar glinting. You look closer and see it's encrusted with jewels.",
+    "translation": "",
+    "pos": 806
+  },
+  {
+    "passage": "Danube House Cat Finish",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "509_5_3_7|",
+    "original": "<<link [[Take it|Danube House Collar]]>><<crimeUp 100 \"thievery\">><</link>><<crime \"thievery\">>",
+    "translation": "",
+    "pos": 1027
+  },
+  {
+    "passage": "Danube House Cat Finish",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "511_5_3_7|",
+    "original": "<<link [[Leave|Danube Street]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1130
+  },
+  {
+    "passage": "Danube House Cat Finish",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "517_5_3_7|",
+    "original": "<<person2>>\"What's the matter now?\" says a <<person>>.",
+    "translation": "",
+    "pos": 1253
+  },
+  {
+    "passage": "Danube House Cat Finish",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "518_5_3_7|",
+    "original": "<<He>> laughs when <<he>> sees you. \"An intruder?\" <<He>> takes a seat. \"How exquisite.\"",
+    "translation": "",
+    "pos": 1310
+  },
+  {
+    "passage": "Danube House Cat Finish",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "521_5_3_7|",
+    "original": "\"I caught the intruder!\" the <<beasttype 0>> proudly yells.",
+    "translation": "",
+    "pos": 1436
+  },
+  {
+    "passage": "Danube House Cat Finish",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "525_5_3_7|",
+    "original": "<<link [[Next|Danube House Cat]]>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 1562
+  },
+  {
+    "passage": "Danube House Cat Finish",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "527_5_3_7|",
+    "original": "<<person2>>\"What's the matter now?\" says a <<person>>.",
+    "translation": "",
+    "pos": 1637
+  },
+  {
+    "passage": "Danube House Cat Finish",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "529_5_3_7|",
+    "original": "<<He>> laughs when <<he>> sees you. \"That's what you get for trespassing.\" <<He>> whistles and the <<beasttype 0>> ceases <<bhis>> attack. Before you can stand, <<he>> presses <<his>> foot against your <<genitals>>.",
+    "translation": "",
+    "pos": 1695
+  },
+  {
+    "passage": "Danube House Cat Finish",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "539_5_3_7|",
+    "original": "<<link [[Next|Danube House Sneak Molestation]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 2077
+  },
+  {
+    "passage": "Danube House Cat Finish",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "545_5_3_7|",
+    "original": "The <<beasttype 0>> backs away from you, where <<bhe 0>> stands still and stares. <<tearful>> you glance around. You see nothing of value.",
+    "translation": "",
+    "pos": 2193
+  },
+  {
+    "passage": "Danube House Cat Finish",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "551_5_3_7|",
+    "original": "<<link [[Leave|Danube Street]]>><</link>>",
+    "translation": "",
+    "pos": 2375
+  },
+  {
+    "passage": "Danube House Cat Finish 2",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "563_5_3_7|",
+    "original": "<<person2>>The <<beasttype 0>> makes a satisfied noise and walks over to the window, where <<bhe 0>> lies down. \"<<bHe 0>>'ll sleep like a log after that,\" says the <<person>>. <<He>> walks over to you before you can recover and grabs your neck. <<He>> drags you to the front door and hefts you outside. \"I'll overlook your trespass, this time.\" The door slams shut.",
+    "translation": "",
+    "pos": 128
+  },
+  {
+    "passage": "Danube House Cat Finish 2",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "565_5_3_7|",
+    "original": "<<tearful>> you rise to your feet.",
+    "translation": "",
+    "pos": 497
+  },
+  {
+    "passage": "Danube House Cat Finish 2",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "571_5_3_7|",
+    "original": "<<link [[Next|Danube Street]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 575
+  },
+  {
+    "passage": "Danube House Cat Finish 2",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "576_5_3_7|",
+    "original": "<<person2>>The <<beasttype 0>> cowers and rolls over in submission.",
+    "translation": "",
+    "pos": 646
+  },
+  {
+    "passage": "Danube House Cat Finish 2",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "578_5_3_7|",
+    "original": "<<tearful>> you escape the room before the <<person>> can react.",
+    "translation": "",
+    "pos": 716
+  },
+  {
+    "passage": "Danube House Cat Finish 2",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "584_5_3_7|",
+    "original": "<<link [[Next|Danube Street]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 824
+  },
+  {
+    "passage": "Danube House Collar",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "592_5_3_7|",
+    "original": "The <<beasttype 0>> makes no move as you remove <<bhis 0>> collar. You leave the premises with your prize in hand.",
+    "translation": "",
+    "pos": 85
+  },
+  {
+    "passage": "Danube House Collar",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "596_5_3_7|",
+    "original": "<<link [[Leave|Danube Street]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 237
+  },
+  {
+    "passage": "Danube House Sneak Molestation",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "609_5_3_7|",
+    "original": "\"It's best I use my foot,\" <<he>> says.\" You might be dirty.\"",
+    "translation": "",
+    "pos": 168
+  },
+  {
+    "passage": "Danube House Sneak Molestation",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "632_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Danube House Sneak Molestation Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 750
+  },
+  {
+    "passage": "Danube House Sneak Molestation",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "634_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Danube House Sneak Molestation]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 860
+  },
+  {
+    "passage": "Danube House Sneak Molestation Finish",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "640_5_3_7|",
+    "original": "You trip the <<person>> up. <<tearful>> you escape outside.",
+    "translation": "",
+    "pos": 28
+  },
+  {
+    "passage": "Danube House Sneak Molestation Finish",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "646_5_3_7|",
+    "original": "<<link [[Next|Danube Street]]>><</link>>",
+    "translation": "",
+    "pos": 131
+  },
+  {
+    "passage": "Danube House Sneak Molestation Finish",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "651_5_3_7|",
+    "original": "\"Good <<girl>>,\" <<he>> says, grabbing you by the neck. \"I don't think it's fair to get the police involved, but don't you dare trespass again.\" <<He>> drags you to the front door and shoves you out, slamming the door behind you. <<tearful>> you rise to your feet.",
+    "translation": "",
+    "pos": 238
+  },
+  {
+    "passage": "Danube House Sneak Molestation Finish",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "657_5_3_7|",
+    "original": "<<link [[Next|Danube Street]]>><</link>>",
+    "translation": "",
+    "pos": 546
+  },
+  {
+    "passage": "Danube House Rob",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "666_5_3_7|",
+    "original": "You sneak up to the <<person>> as quietly as you can. Once close enough, you reach out for the loot and",
+    "translation": "",
+    "pos": 115
+  },
+  {
+    "passage": "Danube House Rob",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "668_5_3_7|",
+    "original": "quickly ease it free. Like taking candy from a baby. A snoring, dribbling baby with more money than sense.",
+    "translation": "",
+    "pos": 252
+  },
+  {
+    "passage": "Danube House Rob",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "673_5_3_7|",
+    "original": "<<link [[Leave|Danube Street]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 441
+  },
+  {
+    "passage": "Danube House Rob",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "676_5_3_7|",
+    "original": "try to ease it free. Unfortunately, <<he>> rolls over at just that moment. As you try to adjust your grip, you hear a snort and look down to find <<him>> blearily looking up at you.",
+    "translation": "",
+    "pos": 511
+  },
+  {
+    "passage": "Danube House Rob",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "678_5_3_7|",
+    "original": "<<His>> face turns to anger and you leap back just before <<he>> can grab you.",
+    "translation": "",
+    "pos": 700
+  },
+  {
+    "passage": "Danube House Rob",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "680_5_3_7|",
+    "original": "You have no choice but to flee empty handed.",
+    "translation": "",
+    "pos": 790
+  },
+  {
+    "passage": "Danube House Rob",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "684_5_3_7|",
+    "original": "<<runicon>><<link [[Run|Danube Street]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 890
+  },
+  {
+    "passage": "Danube House Safe",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "691_5_3_7|",
+    "original": "The safe looks expensive, like it might contain something important.",
+    "translation": "",
+    "pos": 105
+  },
+  {
+    "passage": "Danube House Safe",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "695_5_3_7|",
+    "original": "You think you'd be able to pick the lock, <span class=\"blue\">if your arms weren't bound.</span>",
+    "translation": "",
+    "pos": 288
+  },
+  {
+    "passage": "Danube House Safe",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "699_5_3_7|",
+    "original": "<span class=\"green\">The lock looks easy to pick.</span>",
+    "translation": "",
+    "pos": 433
+  },
+  {
+    "passage": "Danube House Safe",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "701_5_3_7|",
+    "original": "<<lockicon \"pick\">><<link [[Break in (0:05)|Danube House Safe Open]]>><<handheldon>><<pass 5>><<crimeUp 1 \"thievery\">><</link>><<crime \"thievery\">>",
+    "translation": "",
+    "pos": 502
+  },
+  {
+    "passage": "Danube House Safe",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "705_5_3_7|",
+    "original": "<span class=\"red\">The lock looks beyond your ability to pick.</span><<skulduggeryrequired>>",
+    "translation": "",
+    "pos": 676
+  },
+  {
+    "passage": "Danube House Safe",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "708_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Danube Street]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 786
+  },
+  {
+    "passage": "Danube House Safe Open",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "716_5_3_7|",
+    "original": "<span class=\"blue\">There's nothing more you can learn from locks this simple.</span>",
+    "translation": "",
+    "pos": 146
+  },
+  {
+    "passage": "Danube House Safe Open",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "721_5_3_7|",
+    "original": "You successfully open the safe, and find <<moneyGainDisplay 60 true true>> inside.",
+    "translation": "",
+    "pos": 270
+  },
+  {
+    "passage": "Danube House Safe Open",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "723_5_3_7|",
+    "original": "<<link [[Take it|Danube Street]]>><<money _money_gain \"danubeParty\">><<crimeUp `_money_gain / 100` \"thievery\">><</link>><<crime \"thievery\">>",
+    "translation": "",
+    "pos": 364
+  },
+  {
+    "passage": "Danube House Safe Open",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "725_5_3_7|",
+    "original": "<<link [[Leave|Danube Street]]>><</link>>",
+    "translation": "",
+    "pos": 512
+  },
+  {
+    "passage": "Danube House Safe Open",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "728_5_3_7|",
+    "original": "You successfully open the safe, and find a piece of expensive-looking jewellery inside.",
+    "translation": "",
+    "pos": 570
+  },
+  {
+    "passage": "Danube House Safe Open",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "730_5_3_7|",
+    "original": "<<link [[Take it|Danube Street]]>><<set $blackmoney += 200>><<crimeUp 200 \"thievery\">><</link>><<crime \"thievery\">>",
+    "translation": "",
+    "pos": 669
+  },
+  {
+    "passage": "Danube House Safe Open",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "732_5_3_7|",
+    "original": "<<link [[Leave|Danube Street]]>><</link>>",
+    "translation": "",
+    "pos": 792
+  },
+  {
+    "passage": "Danube House Sneak 2",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "739_5_3_7|",
+    "original": "You burst from the water and gasp for air. The <<person>> runs and screams. \"Help! Someone call the police!\" You take that as your cue to leave.",
+    "translation": "",
+    "pos": 85
+  },
+  {
+    "passage": "Danube House Sneak 2",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "743_5_3_7|",
+    "original": "<<link [[Next|Danube Street]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 292
+  },
+  {
+    "passage": "Danube House Fountain",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "749_5_3_7|",
+    "original": "You slip into the fountain and hide beneath the surface of the water. A <<person>> appears above you and sits on the rim. <<He>> doesn't look down, but you hope <<he>> doesn't plan on staying there long. You don't know how long you could hold your breath.",
+    "translation": "",
+    "pos": 94
+  },
+  {
+    "passage": "Danube House Fountain",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "755_5_3_7|",
+    "original": "You <span class=\"green\">succeed</span> in holding your breath. After a few minutes <<he>> leaves. You come up to the surface and gasp for air. <<He>> left an unopened bottle of wine on the side of the fountain. It looks fancy.",
+    "translation": "",
+    "pos": 396
+  },
+  {
+    "passage": "Danube House Fountain",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "758_5_3_7|",
+    "original": "<<ind>><<link [[Take it|Danube Street]]>><<set $blackmoney += 30>><<crimeUp 30 \"petty\">><<endevent>><</link>><<crime \"petty\">>",
+    "translation": "",
+    "pos": 633
+  },
+  {
+    "passage": "Danube House Fountain",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "760_5_3_7|",
+    "original": "<<link [[Leave|Danube Street]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 765
+  },
+  {
+    "passage": "Danube House Fountain",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "765_5_3_7|",
+    "original": "A few minutes pass and <<he>> shows no sign of moving. You <span class=\"red\">fail</span> to hold your breath. You know you can't keep this up for much longer.",
+    "translation": "",
+    "pos": 835
+  },
+  {
+    "passage": "Danube House Fountain",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "768_5_3_7|",
+    "original": "<<swimicon \"dive\">><<link [[Dive through the drain|Danube House Dive]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1004
+  },
+  {
+    "passage": "Danube House Fountain",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "770_5_3_7|",
+    "original": "<<swimicon \"up\">><<link [[Come up for air|Danube House Sneak 2]]>><</link>>",
+    "translation": "",
+    "pos": 1103
+  },
+  {
+    "passage": "Danube House Bluff",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "782_5_3_7|",
+    "original": "You stand your ground. A <<person>> walks in and freezes on the spot upon seeing you.",
+    "translation": "",
+    "pos": 150
+  },
+  {
+    "passage": "Danube House Bluff",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "785_5_3_7|",
+    "original": "\"I-I'm the fairy of the fountain. I'm here to grant you a wish,\" you say, although it sounds less clever than it did in your head.",
+    "translation": "",
+    "pos": 273
+  },
+  {
+    "passage": "Danube House Bluff",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "787_5_3_7|",
+    "original": "\"I'm the spirit of the fountain, here to punish you for your sins,\" you say, although it sounds less clever than it did in your head.",
+    "translation": "",
+    "pos": 446
+  },
+  {
+    "passage": "Danube House Bluff",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "789_5_3_7|",
+    "original": "\"I seem to have taken a wrong turn and become lost,\" you say, although it sounds less clever than it did in your head.",
+    "translation": "",
+    "pos": 591
+  },
+  {
+    "passage": "Danube House Bluff",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "794_5_3_7|",
+    "original": "\"Do you think I was born yesterday?\" <<he>> says, recovered from <<his>> initial shock. \"Stay there, I'm calling the police.\" You take that as your cue to flee the scene.",
+    "translation": "",
+    "pos": 730
+  },
+  {
+    "passage": "Danube House Bluff",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "801_5_3_7|",
+    "original": "<span class=\"blue\">That was too easy. You didn't learn anything.</span>",
+    "translation": "",
+    "pos": 1026
+  },
+  {
+    "passage": "Danube House Bluff",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "805_5_3_7|",
+    "original": "<<link [[Next|Danube Street]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1117
+  },
+  {
+    "passage": "Danube House Bluff",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "811_5_3_7|",
+    "original": "You dunk yourself in the fountain, drenching you, then sit on the edge. A <<person>> walks in and freezes on the spot upon seeing you. You look at <<him>>, giving the best impression of confusion and hopelessness you can muster. \"I fell down a drain,\" you say. \"It was dark and scary. I just swam up, now I'm here. Where am I?\"",
+    "translation": "",
+    "pos": 1198
+  },
+  {
+    "passage": "Danube House Bluff",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "814_5_3_7|",
+    "original": "The <<person>> runs over and wraps <<his>> dressing gown around you. \"Oh you poor thing,\" <<he>> says. \"We've had animals turn up that way, I never thought...\" You keep your head bowed to conceal your smirk as <<he>> continues apologising and fussing over you.",
+    "translation": "",
+    "pos": 1536
+  },
+  {
+    "passage": "Danube House Bluff",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "817_5_3_7|",
+    "original": "\"Are you sure you'll be okay?\" <<he>> says once at the front door.",
+    "translation": "",
+    "pos": 1807
+  },
+  {
+    "passage": "Danube House Bluff",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "820_5_3_7|",
+    "original": "\"I will now, thanks to you,\" you reply. <<He>> let you keep the gown. It looks valuable.",
+    "translation": "",
+    "pos": 1884
+  },
+  {
+    "passage": "Danube House Bluff",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "827_5_3_7|",
+    "original": "<<link [[Next|Danube Street]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 2030
+  },
+  {
+    "passage": "Danube House Dive",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "835_5_3_7|",
+    "original": "You swim to the bottom of the fountain. As you approach the drain the pull becomes stronger, until you're being pulled along. You're sucked down into the dark and through a passage, before emerging in stale air somewhere underground.",
+    "translation": "",
+    "pos": 85
+  },
+  {
+    "passage": "Danube House Dive",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "838_5_3_7|",
+    "original": "<<link [[Next|Drain Water]]>><<set $bus to \"residentialdrain\">><</link>>",
+    "translation": "",
+    "pos": 329
+  },
+  {
+    "passage": "Danube House S&M",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "844_5_3_7|",
+    "original": "Uncertain, but fearing that the <<person>> may have been kidnapped or abused, you approach and gently extract the gag. <<He>> retches and coughs.",
+    "translation": "",
+    "pos": 115
+  },
+  {
+    "passage": "Danube House S&M",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "846_5_3_7|",
+    "original": "\"What are you doing in my house?!\" <<His>> voice is shrill. \"Get out! Get the fuck out!\"",
+    "translation": "",
+    "pos": 268
+  },
+  {
+    "passage": "Danube House S&M",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "848_5_3_7|",
+    "original": "Too much noise. You start to replace the gag. <<He>> struggles, trying to turn <<his>> head away, even while bound at the neck.",
+    "translation": "",
+    "pos": 364
+  },
+  {
+    "passage": "Danube House S&M",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "850_5_3_7|",
+    "original": "\"No!\" <<He>> tries to scream, but you manage to shove the 'gag' back into place. There is a clip to lock it in. Leaving <<him>> chained to the bed and quiet works nicely for your skulduggerous intents.",
+    "translation": "",
+    "pos": 499
+  },
+  {
+    "passage": "Danube House S&M",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "853_5_3_7|",
+    "original": "This looks like S&M play. <<His>> partner ties <<him>> up and abandons <<him>> for an hour or so in this humiliating state. Why interrupt their play? In any case, having <<him>> conveniently locked in place and quiet works nicely for your skulduggerous needs.",
+    "translation": "",
+    "pos": 735
+  },
+  {
+    "passage": "Danube House S&M",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "856_5_3_7|",
+    "original": "You rush over to help the poor victim, quickly easing the cruel dildo-gag out from <<his>> throat.",
+    "translation": "",
+    "pos": 1029
+  },
+  {
+    "passage": "Danube House S&M",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "858_5_3_7|",
+    "original": "\"What are you doing in my house?!\" <<His>> voice is shrill. \"Get out! Get the fuck out!\"",
+    "translation": "",
+    "pos": 1135
+  },
+  {
+    "passage": "Danube House S&M",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "860_5_3_7|",
+    "original": "You stare at <<him>> in shock.",
+    "translation": "",
+    "pos": 1231
+  },
+  {
+    "passage": "Danube House S&M",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "862_5_3_7|",
+    "original": "\"Stop looking at me! Get out of my house?! Are you..? Just fuck off! Right now!\"",
+    "translation": "",
+    "pos": 1269
+  },
+  {
+    "passage": "Danube House S&M",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "864_5_3_7|",
+    "original": "Looking at the open cupboard, you see whips and sex toys. Pictures of people tied up and spanked. You'd heard people do this kind of thing, but are shocked to come face to face with it.",
+    "translation": "",
+    "pos": 1357
+  },
+  {
+    "passage": "Danube House S&M",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "867_5_3_7|",
+    "original": "But if this is what people like...",
+    "translation": "",
+    "pos": 1581
+  },
+  {
+    "passage": "Danube House S&M",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "869_5_3_7|",
+    "original": "You try to push the dildo-gag back into <<his>> throat but <<he>> resists, screaming obscenities at you.",
+    "translation": "",
+    "pos": 1627
+  },
+  {
+    "passage": "Danube House S&M",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "872_5_3_7|",
+    "original": "Looking around the room, you can see a number of valuables, including BDSM gear and leather, erotic art, jewellery, electronics, and some very high-end sex-toys.",
+    "translation": "",
+    "pos": 1746
+  },
+  {
+    "passage": "Danube House S&M",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "875_5_3_7|",
+    "original": "<<link [[Rob them|Danube House S&M Steal]]>><<crimeUp 120 \"thievery\">><</link>><<crime \"thievery\">>",
+    "translation": "",
+    "pos": 1918
+  },
+  {
+    "passage": "Danube House S&M",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "877_5_3_7|",
+    "original": "<<link [[Leave|Danube Street]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 2023
+  },
+  {
+    "passage": "Danube House S&M Steal",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "883_5_3_7|",
+    "original": "You work through the room, selecting the most valuable things you can easily conceal and carry.",
+    "translation": "",
+    "pos": 96
+  },
+  {
+    "passage": "Danube House S&M Steal",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "885_5_3_7|",
+    "original": "As you work, the <<person>> twists and strains against <<his>> bonds in impotent rage.",
+    "translation": "",
+    "pos": 213
+  },
+  {
+    "passage": "Danube House S&M Steal",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "888_5_3_7|",
+    "original": "<<His>> $NPCList[0].penisdesc and $NPCList[0].breastsdesc swing and bob and several",
+    "translation": "",
+    "pos": 386
+  },
+  {
+    "passage": "Danube House S&M Steal",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "890_5_3_7|",
+    "original": "<<His>> $NPCList[0].penisdesc swings and several",
+    "translation": "",
+    "pos": 490
+  },
+  {
+    "passage": "Danube House S&M Steal",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "894_5_3_7|",
+    "original": "<<His>> $NPCList[0].breastsdesc jiggle and several",
+    "translation": "",
+    "pos": 612
+  },
+  {
+    "passage": "Danube House S&M Steal",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "896_5_3_7|",
+    "original": "Several",
+    "translation": "",
+    "pos": 680
+  },
+  {
+    "passage": "Danube House S&M Steal",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "899_5_3_7|",
+    "original": "interesting 'toys' bounce around the bed as <<he>> struggles, giving you some very bad thoughts.",
+    "translation": "",
+    "pos": 709
+  },
+  {
+    "passage": "Danube House S&M Steal",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "902_5_3_7|",
+    "original": "Finally, having made your selection of loot, you leave the <<person>> red-faced, sweating and thoroughly enraged on the bed.",
+    "translation": "",
+    "pos": 872
+  },
+  {
+    "passage": "Danube House S&M Steal",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "905_5_3_7|",
+    "original": "As you try to work, the <<person>> screams and hurls obscenities, while wishing various forms of violent sexual assault on you. <<He>> twists and strains against <<his>> bonds relentlessly. It makes it difficult for you to focus.",
+    "translation": "",
+    "pos": 1017
+  },
+  {
+    "passage": "Danube House S&M Steal",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "908_5_3_7|",
+    "original": "Finally, as you prepare to leave with your loot, the <<person>>, sweaty and red-faced, looks at you. <<He>> swallows and starts to speak.",
+    "translation": "",
+    "pos": 1296
+  },
+  {
+    "passage": "Danube House S&M Steal",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "910_5_3_7|",
+    "original": "\"Listen. Be a good <<girl>>. Before you go, would you- Would you put that gag back in. The gag. Th- The <<person2>><<if $pronoun is \"m\">>Master<<else>>Mistress<</if>> will hurt me otherwise.\"",
+    "translation": "",
+    "pos": 1436
+  },
+  {
+    "passage": "Danube House S&M Steal",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "912_5_3_7|",
+    "original": "You smile at <<person1>><<him>>. \"I tried. You didn't let me.\"",
+    "translation": "",
+    "pos": 1639
+  },
+  {
+    "passage": "Danube House S&M Steal",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "914_5_3_7|",
+    "original": "\"I-I thought I didn't... No. No, please, don't go yet! Please! Put it back, you...\"",
+    "translation": "",
+    "pos": 1713
+  },
+  {
+    "passage": "Danube House S&M Steal",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "916_5_3_7|",
+    "original": "You wave sweetly from the door on the way out. \"Bye!\"",
+    "translation": "",
+    "pos": 1808
+  },
+  {
+    "passage": "Danube House S&M Steal",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "918_5_3_7|",
+    "original": "\"You don't understand, <<person2>><<he>>-<<he>>... <<He>>'ll...\"",
+    "translation": "",
+    "pos": 1873
+  },
+  {
+    "passage": "Danube House S&M Steal",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "920_5_3_7|",
+    "original": "You can still hear <<person1>><<his>> pleas as the front door clicks shut.",
+    "translation": "",
+    "pos": 1949
+  },
+  {
+    "passage": "Danube House S&M Steal",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "922_5_3_7|",
+    "original": "You find yourself smiling.",
+    "translation": "",
+    "pos": 2035
+  },
+  {
+    "passage": "Danube House S&M Steal",
+    "filepath": "overworld-town/loc-danube-homes/skulduggery.twee",
+    "key": "926_5_3_7|",
+    "original": "<<link [[Leave|Danube Street]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 2106
+  }
+]

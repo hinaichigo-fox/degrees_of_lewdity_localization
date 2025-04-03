@@ -1,0 +1,3570 @@
+[
+  {
+    "passage": "Docks",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "5_5_3_7|",
+    "original": "You are on the docks.",
+    "translation": "",
+    "pos": 96
+  },
+  {
+    "passage": "Docks",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "7_5_3_7|",
+    "original": "They're already busy with activity as vehicles arrive to transfer cargo and shipments.",
+    "translation": "",
+    "pos": 150
+  },
+  {
+    "passage": "Docks",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "9_5_3_7|",
+    "original": "They're busy with activity as dockers work the moored ships.",
+    "translation": "",
+    "pos": 272
+  },
+  {
+    "passage": "Docks",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "11_5_3_7|",
+    "original": "They're closed off at night. The lights of patrolling security light up the stacked cargo containers.",
+    "translation": "",
+    "pos": 370
+  },
+  {
+    "passage": "Docks",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "13_5_3_7|",
+    "original": "The last ships are leaving, while others remain moored for the night.",
+    "translation": "",
+    "pos": 508
+  },
+  {
+    "passage": "Docks",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "20_5_3_7|",
+    "original": "You approach the other workers, but a manager stops you. \"Sorry, no can do, <<girl>>. You know the rules: no students on weekdays.\"",
+    "translation": "",
+    "pos": 688
+  },
+  {
+    "passage": "Docks",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "25_5_3_7|",
+    "original": "<span class=\"blue\">Maybe they'd let you work on school days if you showed them the ID you purchased from Briar?</span>",
+    "translation": "",
+    "pos": 877
+  },
+  {
+    "passage": "Docks",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "36_5_3_7|",
+    "original": "Dockers arrive for work. They won't let you join them on a school day.",
+    "translation": "",
+    "pos": 1189
+  },
+  {
+    "passage": "Docks",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "40_5_3_7|",
+    "original": "<<investigateicon>><<link [[Look for Robin (0:20)|Docks_Robin]]>><<pass 20>><</link>>",
+    "translation": "",
+    "pos": 1366
+  },
+  {
+    "passage": "Docks",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "44_5_3_7|",
+    "original": "<<docksicon>><<link [[Take job (0:30)|Docks Take Job]]>><<pass 30>><<set $dockwork to 2>><</link>>",
+    "translation": "",
+    "pos": 1540
+  },
+  {
+    "passage": "Docks",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "47_5_3_7|",
+    "original": "<<docksicon>><<link [[Work as a docker (12:00)|Docks Start]]>><</link>><<gtiredness>>",
+    "translation": "",
+    "pos": 1755
+  },
+  {
+    "passage": "Docks",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "50_5_3_7|",
+    "original": "<<socialiseicon \"ask\">><<link [[Ask for work (0:05)|Docks Ask]]>><<pass 5>><<set $dockwork to 1>><</link>>",
+    "translation": "",
+    "pos": 1933
+  },
+  {
+    "passage": "Docks",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "54_5_3_7|",
+    "original": "<<socialiseicon \"ask\">><<link [[Ask for raise (0:05)|Docks Raise]]>><<pass 5>><<set $dockwage += 100>><<dockstatus -20>><</link>><<llcool>>",
+    "translation": "",
+    "pos": 2154
+  },
+  {
+    "passage": "Docks",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "58_5_3_7|",
+    "original": "<<sneakicon>><<link [[Sneak inside (0:05)|Docks Sneak Start]]>><<set $bus to \"S\">><</link>>",
+    "translation": "",
+    "pos": 2341
+  },
+  {
+    "passage": "Docks",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "63_5_3_7|",
+    "original": "<<dressasyouwereicon>><<link [[Get dressed|Docks]]>><<storeon \"docks\">><</link>>",
+    "translation": "",
+    "pos": 2501
+  },
+  {
+    "passage": "Docks",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "67_5_3_7|",
+    "original": "<<ind>><<link [[Use fake ID (0:02)|Docks Fake ID]]>><</link>>",
+    "translation": "",
+    "pos": 2676
+  },
+  {
+    "passage": "Docks",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "71_5_3_7|",
+    "original": "<<mericon>><<link [[Leave|Mer Street]]>><</link>>",
+    "translation": "",
+    "pos": 2752
+  },
+  {
+    "passage": "Docks",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "75_5_3_7|",
+    "original": "<<link [[(debug) Max dock status|Docks]]>><<set $dockstatus to 100>><</link>>",
+    "translation": "",
+    "pos": 2828
+  },
+  {
+    "passage": "Docks",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "77_5_3_7|",
+    "original": "<<link [[(debug) Min dock status|Docks]]>><<set $dockstatus to 0>><</link>>",
+    "translation": "",
+    "pos": 2913
+  },
+  {
+    "passage": "Docks Raise",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "87_5_3_7|",
+    "original": "You ask a manager for a raise. \"Well...\" <<He>> adjusts <<his>> glasses and taps something into <<his>> computer. \"You have been pulling your weight around here. Fine. You're on <span class=\"gold\">£<<print (($dockwage * 12) / 100)>></span> a shift now.\"",
+    "translation": "",
+    "pos": 103
+  },
+  {
+    "passage": "Docks Raise",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "92_5_3_7|",
+    "original": "\"That's more than any other worker,\" <<he>> adds.",
+    "translation": "",
+    "pos": 447
+  },
+  {
+    "passage": "Docks Raise",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "96_5_3_7|",
+    "original": "The other dockers overheard, and grumble as you leave. They're just jealous.",
+    "translation": "",
+    "pos": 516
+  },
+  {
+    "passage": "Docks Raise",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "101_5_3_7|",
+    "original": "<<link [[Next|Docks]]>><</link>>",
+    "translation": "",
+    "pos": 617
+  },
+  {
+    "passage": "Docks Ask",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "107_5_3_7|",
+    "original": "You approach a <<generate1>><<person1>><<person>> standing on a raised platform. <<He>> jots something on <<his>> clipboard while observing the workers.",
+    "translation": "",
+    "pos": 77
+  },
+  {
+    "passage": "Docks Ask",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "111_5_3_7|",
+    "original": "\"Excuse me,\" you say. \"S-sorry to bother you. Are you hiring?\"",
+    "translation": "",
+    "pos": 275
+  },
+  {
+    "passage": "Docks Ask",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "113_5_3_7|",
+    "original": "\"Hey,\" you say. \"I'm looking for work. Who do I talk to?\"",
+    "translation": "",
+    "pos": 379
+  },
+  {
+    "passage": "Docks Ask",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "115_5_3_7|",
+    "original": "\"Hello,\" you say. \"Are you hiring?\"",
+    "translation": "",
+    "pos": 447
+  },
+  {
+    "passage": "Docks Ask",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "119_5_3_7|",
+    "original": "<<He>> doesn't look up from <<his>> clipboard, but points <<his>> pen in the direction of a small building a little closer to the water.",
+    "translation": "",
+    "pos": 501
+  },
+  {
+    "passage": "Docks Ask",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "122_5_3_7|",
+    "original": "The door is open. A <<generate2>><<person2>><<person>> looks up from <<his>> desk as you enter. \"Ah,\" <<he>> says, pushing <<his>> glasses up <<his>> nose. \"Looking for work?\" You nod. <<He>> stands and squeezes between <<his>> desk and the wall until <<he>> stands in front of you. <<He>> holds out <<his>> hand.",
+    "translation": "",
+    "pos": 648
+  },
+  {
+    "passage": "Docks Ask",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "125_5_3_7|",
+    "original": "<<link [[Next|Docks Ask 2]]>><</link>>",
+    "translation": "",
+    "pos": 972
+  },
+  {
+    "passage": "Docks Ask 2",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "131_5_3_7|",
+    "original": "\"We're looking for more hands,\" the <<person>> says. \"So many ships come and go nowadays. You'll want details.\" <<He>> sits back behind <<his>> desk. \"<span class=\"gold\">£10</span> an hour is the starting wage. Perform well and you might get a raise. Work begins at <span class=\"gold\"><<ampm 7 00>></span>.\"",
+    "translation": "",
+    "pos": 77
+  },
+  {
+    "passage": "Docks Ask 2",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "134_5_3_7|",
+    "original": "\"Oh, and don't be late,\" <<he>> adds. \"We can't just have workers show up throughout the day. Security reasons. You need to be here between seven and eight or we can't sign you in. No work for you on school days either, or I'll get in trouble. Work day is twelve hours, and you need to stay the whole shift if you want to get paid.\"",
+    "translation": "",
+    "pos": 395
+  },
+  {
+    "passage": "Docks Ask 2",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "139_5_3_7|",
+    "original": "You show <<him>> the fake ID you purchased from Briar. \"I'm not a student<<if $speech_attitude is \"meek\">>..<</if>>.\"",
+    "translation": "",
+    "pos": 784
+  },
+  {
+    "passage": "Docks Ask 2",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "142_5_3_7|",
+    "original": "<<He>> glances at it, then hands it back. \"Can't be too careful. Everything else still applies, then, except for the 'no working on school days' part.\"",
+    "translation": "",
+    "pos": 914
+  },
+  {
+    "passage": "Docks Ask 2",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "147_5_3_7|",
+    "original": "<<He>> runs <<his>> eyes up and down your body.",
+    "translation": "",
+    "pos": 1086
+  },
+  {
+    "passage": "Docks Ask 2",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "150_5_3_7|",
+    "original": "\"You're a strapping <<lass>>, aren't you. It's a physical job, but you won't have any problems.\"",
+    "translation": "",
+    "pos": 1183
+  },
+  {
+    "passage": "Docks Ask 2",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "152_5_3_7|",
+    "original": "\"You look good and fit. It's a physical job, but you should be fine.\"",
+    "translation": "",
+    "pos": 1332
+  },
+  {
+    "passage": "Docks Ask 2",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "154_5_3_7|",
+    "original": "\"This is a physically demanding job. You look like you can handle yourself, but go careful.\"",
+    "translation": "",
+    "pos": 1453
+  },
+  {
+    "passage": "Docks Ask 2",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "156_5_3_7|",
+    "original": "<<He>> sighs. \"This is a physically demanding job, and, well.\" <<He>> pauses. \"You're not the strongest <<girl>> I've seen, let me put it that way. I won't stop you, but you might be in for a rough time.\"",
+    "translation": "",
+    "pos": 1556
+  },
+  {
+    "passage": "Docks Ask 2",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "159_5_3_7|",
+    "original": "\"I think that's everything. I can give you a rundown of the more technical aspects, the rest you can learn on the job. So, interested?\"",
+    "translation": "",
+    "pos": 1778
+  },
+  {
+    "passage": "Docks Ask 2",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "162_5_3_7|",
+    "original": "<<link [[Yes (0:30)|Docks Take Job]]>><<pass 30>><<set $dockwork to 2>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1924
+  },
+  {
+    "passage": "Docks Ask 2",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "164_5_3_7|",
+    "original": "<<link [[No|Docks Refuse Job]]>><</link>>",
+    "translation": "",
+    "pos": 2022
+  },
+  {
+    "passage": "Docks Refuse Job",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "170_5_3_7|",
+    "original": "\"That's a shame,\" the <<person>> sighs. \"Come back if you change your mind.\"",
+    "translation": "",
+    "pos": 77
+  },
+  {
+    "passage": "Docks Refuse Job",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "174_5_3_7|",
+    "original": "<<link [[Next|Docks]]>><</link>>",
+    "translation": "",
+    "pos": 177
+  },
+  {
+    "passage": "Docks Take Job",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "180_5_3_7|",
+    "original": "\"Remember,\" the manager says. \"Work starts at <span class=\"gold\"><<ampm 7 00>></span><<if $idDocksReveal isnot 2>>, and you can't work on school days<</if>>. Welcome to the team.\"",
+    "translation": "",
+    "pos": 127
+  },
+  {
+    "passage": "Docks Take Job",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "183_5_3_7|",
+    "original": "<<link [[Next|Docks]]>><</link>>",
+    "translation": "",
+    "pos": 317
+  },
+  {
+    "passage": "Docks Start",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "189_5_3_7|",
+    "original": "You pass security and report to a manager for work. <<dockstatustext>>",
+    "translation": "",
+    "pos": 77
+  },
+  {
+    "passage": "Docks Start",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "192_5_3_7|",
+    "original": "<<link [[Strip and work (1:00)|Docks Work]]>><<undressclothes \"docks\">><<set $phase to 2>><<dockstatus 1>><</link>><<if $daily.dockExhibitionism isnot 1>><<exhibitionist5>><</if>><<gcool>>",
+    "translation": "",
+    "pos": 196
+  },
+  {
+    "passage": "Docks Work",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "205_5_3_7|",
+    "original": "You work hard. It's tiring.",
+    "translation": "",
+    "pos": 166
+  },
+  {
+    "passage": "Docks Work",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "210_5_3_7|",
+    "original": "You feel the other dockers ogling your body through your wet clothing.",
+    "translation": "",
+    "pos": 276
+  },
+  {
+    "passage": "Docks Work",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "215_5_3_7|",
+    "original": "You do as little work as you can get away with. Your colleagues grumble about you.",
+    "translation": "",
+    "pos": 444
+  },
+  {
+    "passage": "Docks Work",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "219_5_3_7|",
+    "original": "You feel the other dockers ogling your body through your wet clothing.",
+    "translation": "",
+    "pos": 593
+  },
+  {
+    "passage": "Docks Work",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "224_5_3_7|",
+    "original": "You strip naked behind some cargo containers. <<flaunting>> you take a deep breath and step out onto the dock.",
+    "translation": "",
+    "pos": 761
+  },
+  {
+    "passage": "Docks Work",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "232_5_3_7|",
+    "original": "<<covered>> Few notice at first, until someone whistles at you and attracts attention. More and more dockers stop what they're doing to cheer and whistle at you. Each new onlooker renews your thrill.",
+    "translation": "",
+    "pos": 1006
+  },
+  {
+    "passage": "Docks Work",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "235_5_3_7|",
+    "original": "A supervisor tells everyone to get back to work. They do so, though reluctant to take their eyes off you. <<generate1>><<person1>>The supervisor doesn't tell you to get dressed. The longing look <<he>> gives your body suggests why.<<endevent>>",
+    "translation": "",
+    "pos": 1218
+  },
+  {
+    "passage": "Docks Rape Capsize",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "245_5_3_7|",
+    "original": "The <<person1>><<person>> gets closer. You press one leg into the side of the boat, making the vessel rock. They stumble forwards. \"Don't you da-\" <<he>> manages before you give the boat another shove, this time turning it over and sending all three of you overboard.",
+    "translation": "",
+    "pos": 78
+  },
+  {
+    "passage": "Docks Rape Capsize",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "248_5_3_7|",
+    "original": "You swim back to shore. \"<<pShe>> capsized it on purpose!\" the <<person>> says to the amused dockers who help you from the water. Most think it was an accident, but some believe the pair.",
+    "translation": "",
+    "pos": 356
+  },
+  {
+    "passage": "Docks Rape",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "263_5_3_7|",
+    "original": "They push you onto the deck, flip you over, and bind your arms with tight knots.",
+    "translation": "",
+    "pos": 213
+  },
+  {
+    "passage": "Docks Rape",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "283_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Docks Rape Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 759
+  },
+  {
+    "passage": "Docks Rape",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "285_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Docks Rape]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 849
+  },
+  {
+    "passage": "Docks Rape Finish",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "294_5_3_7|",
+    "original": "\"That weren't so bad, were it?\" the <<person>> laughs. <<He>> turns on the engine and continues the task.",
+    "translation": "",
+    "pos": 74
+  },
+  {
+    "passage": "Docks Rape Finish",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "297_5_3_7|",
+    "original": "<<tearful>> you climb aboard the larger vessel. You help the crew manage the spring lines and swing the vessel around to a successful landing.",
+    "translation": "",
+    "pos": 203
+  },
+  {
+    "passage": "Docks Rape Finish",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "301_5_3_7|",
+    "original": "One of the sailors notices your tears and asks what's wrong, but you assure them you're fine.",
+    "translation": "",
+    "pos": 380
+  },
+  {
+    "passage": "Docks Rape Finish",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "312_5_3_7|",
+    "original": "You shove them off the boat, turn on the engine, and leave them to flounder. You'll finish the task yourself.",
+    "translation": "",
+    "pos": 606
+  },
+  {
+    "passage": "Docks Rape Finish",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "318_5_3_7|",
+    "original": "<<tearful>> you climb aboard the larger vessel. Feeling energised by your victory, you guide both the captain and crew to a successful landing.",
+    "translation": "",
+    "pos": 810
+  },
+  {
+    "passage": "Docks Rape Finish",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "321_5_3_7|",
+    "original": "<<generate1>><<person1>>A <<person>> asks where the other two are. You tell them they fell off the boat. Your colleagues are still laughing when the pair make it back to the docks, soaked and shivering.",
+    "translation": "",
+    "pos": 966
+  },
+  {
+    "passage": "Docks Binding",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "332_5_3_7|",
+    "original": "You turn your back to the <<person>>. <<He>> fiddles with the knots, and sets you free. \"There you go <<lass>>. Be more careful in the future.\"",
+    "translation": "",
+    "pos": 88
+  },
+  {
+    "passage": "Docks Binding Refuse",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "341_5_3_7|",
+    "original": "<<He>> shrugs. \"Suit yourself.\"",
+    "translation": "",
+    "pos": 77
+  },
+  {
+    "passage": "Docks Tourist Return",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "350_5_3_7|",
+    "original": "<<generate2>><<person2>>You return to the dock. Your manager greets you. \"Don't worry,\" <<he>> sighs. \"Those types never listen to us.\"",
+    "translation": "",
+    "pos": 77
+  },
+  {
+    "passage": "Docks Tourist Seduce",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "361_5_3_7|",
+    "original": "<<if $seductionskill lt 1000>><span class=\"gold\">You feel more confident in your powers of seduction.</span><</if>><<seductionskilluse>>",
+    "translation": "",
+    "pos": 142
+  },
+  {
+    "passage": "Docks Tourist Seduce",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "364_5_3_7|",
+    "original": "You slip beneath the table. \"What are you-\" <<He>> cuts off when you unzip <<his>> trousers.",
+    "translation": "",
+    "pos": 289
+  },
+  {
+    "passage": "Docks Tourist Seduce",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "369_5_3_7|",
+    "original": "<<He>> glances around. \"Maybe there has been an error,\" <<he>> says. \"Safety is of paramount importance.\"",
+    "translation": "",
+    "pos": 449
+  },
+  {
+    "passage": "Docks Tourist Seduce",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "372_5_3_7|",
+    "original": "<<link [[Next|Docks Tourist Sex]]>><<set $sexstart to 1>><</link>>",
+    "translation": "",
+    "pos": 567
+  },
+  {
+    "passage": "Docks Tourist Seduce",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "377_5_3_7|",
+    "original": "<<He>> pulls away from you, then laughs and <<if $pronoun is \"m\">>strokes<<else>>twirls<</if>> <<his>> hair. \"I have a ship full of hotties, all wanting to bed the captain. Take your charms to the docks where they might be worth a few scraps.\"",
+    "translation": "",
+    "pos": 652
+  },
+  {
+    "passage": "Docks Tourist Seduce",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "380_5_3_7|",
+    "original": "<<generate2>><<person2>>You return to the dock. Your manager greets you. \"Don't worry,\" <<he>> sighs. \"Those types never listen to us.\"",
+    "translation": "",
+    "pos": 908
+  },
+  {
+    "passage": "Docks Tourist Sex",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "395_5_3_7|",
+    "original": "You reward <<him>> with a playful lick.",
+    "translation": "",
+    "pos": 145
+  },
+  {
+    "passage": "Docks Tourist Sex",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "400_5_3_7|",
+    "original": "The surrounding passengers socialise, unaware of what you're up to beneath the table.",
+    "translation": "",
+    "pos": 217
+  },
+  {
+    "passage": "Docks Tourist Sex",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "411_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Docks Tourist Sex Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 405
+  },
+  {
+    "passage": "Docks Tourist Sex",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "413_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Docks Tourist Sex]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 502
+  },
+  {
+    "passage": "Docks Tourist Sex Finish",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "422_5_3_7|",
+    "original": "<<He>> moans. The passengers give <<him>> odd looks, and <<he>> blushes. \"I-I'll turn the ship,\" <<he>> whispers.",
+    "translation": "",
+    "pos": 95
+  },
+  {
+    "passage": "Docks Tourist Sex Finish",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "428_5_3_7|",
+    "original": "<<tearful>> you descend to your boat. You steer away.",
+    "translation": "",
+    "pos": 252
+  },
+  {
+    "passage": "Docks Tourist Sex Finish",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "431_5_3_7|",
+    "original": "Soon after, the larger vessel starts to turn.",
+    "translation": "",
+    "pos": 318
+  },
+  {
+    "passage": "Docks Tourist Sex Finish",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "434_5_3_7|",
+    "original": "You arrive back at the docks. A manager greets you. <<generate2>><<person2>>\"You did it,\" <<he>> says. \"Didn't expect that. Those types are so full of themselves. Good job.\"",
+    "translation": "",
+    "pos": 376
+  },
+  {
+    "passage": "Docks Tourist Sex Finish",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "439_5_3_7|",
+    "original": "You shove the <<person>> away from you, which attracts attention from the passengers. \"J-just stretching,\" <<he>> says, covering <<his>> groin.",
+    "translation": "",
+    "pos": 611
+  },
+  {
+    "passage": "Docks Tourist Sex Finish",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "445_5_3_7|",
+    "original": "<<tearful>> <<generate2>><<person2>>you return to the dock. Your manager greets you. \"Don't worry,\" <<he>> sighs. \"Those types never listen to us.\"",
+    "translation": "",
+    "pos": 798
+  },
+  {
+    "passage": "Docks Tourist Sex Finish",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "449_5_3_7|",
+    "original": "The <<person>> steps away from you and fixes <<his>> fly.",
+    "translation": "",
+    "pos": 958
+  },
+  {
+    "passage": "Docks Tourist Sex Finish",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "455_5_3_7|",
+    "original": "<<tearful>> <<generate2>><<person2>>you return to the dock. Your manager greets you. \"Don't worry,\" <<he>> sighs. \"Those types never listen to us.\"",
+    "translation": "",
+    "pos": 1059
+  },
+  {
+    "passage": "Docks Tourist Intimidate",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "465_5_3_7|",
+    "original": "\"Attention everybody,\" you shout. The passengers fall silent. \"This ship is on a collision course with another. You need to steer away from the docks. Or prepare to swim ashore.\" You turn and walk away. The crowd erupts into anxious babbling the moment you disappear from view. You descend to your ship and steer away.",
+    "translation": "",
+    "pos": 77
+  },
+  {
+    "passage": "Docks Tourist Intimidate",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "468_5_3_7|",
+    "original": "Soon after, the larger vessel starts to turn.",
+    "translation": "",
+    "pos": 406
+  },
+  {
+    "passage": "Docks Tourist Intimidate",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "471_5_3_7|",
+    "original": "You arrive back at the docks. A manager greets you. <<generate2>><<person2>>\"You did it,\" <<he>> says. \"Didn't expect that. Good job.\"",
+    "translation": "",
+    "pos": 462
+  },
+  {
+    "passage": "Docks Examine",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "480_5_3_7|",
+    "original": "You compare the numbers,",
+    "translation": "",
+    "pos": 97
+  },
+  {
+    "passage": "Docks Examine",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "482_5_3_7|",
+    "original": "<span class=\"green\">and find that some valuable cargo disappeared at some point between arrival and departure.</span> What's more, someone tried to cover it up. You inform a manager, who seems impressed at your deduction.",
+    "translation": "",
+    "pos": 179
+  },
+  {
+    "passage": "Docks Examine",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "485_5_3_7|",
+    "original": "<span class=\"red\">but find nothing wrong.</span> You finish recording the information.",
+    "translation": "",
+    "pos": 441
+  },
+  {
+    "passage": "Docks Examine",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "488_5_3_7|",
+    "original": "You're sure it's fine. You finish recording the information.",
+    "translation": "",
+    "pos": 547
+  },
+  {
+    "passage": "Docks Examine Valuables",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "499_5_3_7|",
+    "original": "You keep an eye out for anything valuable. There's a lot, but you need something small enough to carry.",
+    "translation": "",
+    "pos": 33
+  },
+  {
+    "passage": "Docks Examine Valuables",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "523_5_3_7|",
+    "original": "There's a bar of gold in a container at the <<skul_dock_location _dock_location>>. <span class=\"green\">It would sell on the black market.</span> You make a mental note of its location.",
+    "translation": "",
+    "pos": 627
+  },
+  {
+    "passage": "Docks Examine Valuables",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "525_5_3_7|",
+    "original": "A local company is moving something special through. It's being kept near the <<skul_dock_location _dock_location>>. <span class=\"teal\">It would sell on the black market.</span> You make a mental note of its location.",
+    "translation": "",
+    "pos": 859
+  },
+  {
+    "passage": "Docks Examine Valuables",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "527_5_3_7|",
+    "original": "There's a container full of goods, including valuable electronics, near the <<skul_dock_location _dock_location>>. <span class=\"lblue\">They would sell on the black market.</span> You make a mental note of its location.",
+    "translation": "",
+    "pos": 1123
+  },
+  {
+    "passage": "Docks Examine Valuables",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "529_5_3_7|",
+    "original": "There's a container full of what looks like fertiliser near the <<skul_dock_location _dock_location>>. <span class=\"lblue\">They might be useful to you.</span> You make a mental note of its location.",
+    "translation": "",
+    "pos": 1387
+  },
+  {
+    "passage": "Docks Examine Valuables",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "531_5_3_7|",
+    "original": "There's a container full of specialist equipment near the <<skul_dock_location _dock_location>>. <span class=\"teal\">It might be useful to you.</span> You make a mental note of its location.",
+    "translation": "",
+    "pos": 1630
+  },
+  {
+    "passage": "Docks Examine Valuables",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "533_5_3_7|",
+    "original": "You don't find anything suitable. Useful to know.",
+    "translation": "",
+    "pos": 1850
+  },
+  {
+    "passage": "Docks Examine Valuables",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "545_5_3_7|",
+    "original": "Your supervisor slaps your back. There was no sign you were doing anything illicit, but you almost jump from your seat all the same. You'll be teased for that later.<<lcool>><<dockstatus -1>>",
+    "translation": "",
+    "pos": 2130
+  },
+  {
+    "passage": "Docks Compound",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "560_5_3_7|",
+    "original": "You sneak under a parked vehicle and peek out from beneath.",
+    "translation": "",
+    "pos": 97
+  },
+  {
+    "passage": "Docks Compound",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "563_5_3_7|",
+    "original": "One of the workers places a crate in front of you, blocking your view. There's a crack in the bottom. A sweet, heady smell leaks out. It relaxes and heats you.",
+    "translation": "",
+    "pos": 167
+  },
+  {
+    "passage": "Docks Compound",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "566_5_3_7|",
+    "original": "It's the last crate they load into the cargo container. The <<person1>><<person>> locks it, and they climb into the vehicle before driving away.",
+    "translation": "",
+    "pos": 337
+  },
+  {
+    "passage": "Docks Compound",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "572_5_3_7|",
+    "original": "The container looks like it's going to remain in the unloading area overnight.",
+    "translation": "",
+    "pos": 560
+  },
+  {
+    "passage": "Docks Compound",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "574_5_3_7|",
+    "original": "<span class=\"teal\">The contents must be valuable.</span> You make a mental note of its location.",
+    "translation": "",
+    "pos": 690
+  },
+  {
+    "passage": "Docks Compound",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "578_5_3_7|",
+    "original": "A crane lifts the container, and carries it towards the <<skul_dock_location _dock_location>>. It will remain there overnight.",
+    "translation": "",
+    "pos": 833
+  },
+  {
+    "passage": "Docks Compound",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "580_5_3_7|",
+    "original": "<span class=\"teal\">The contents must be valuable.</span> You make a mental note of its location.",
+    "translation": "",
+    "pos": 1011
+  },
+  {
+    "passage": "Docks Compound Ignore",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "590_5_3_7|",
+    "original": "You ignore the strange vehicle and continue working.",
+    "translation": "",
+    "pos": 77
+  },
+  {
+    "passage": "Docks History",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "599_5_3_7|",
+    "original": "You look more closely,",
+    "translation": "",
+    "pos": 97
+  },
+  {
+    "passage": "Docks History",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "601_5_3_7|",
+    "original": "<span class=\"green\">and recognise the shape.</span> You <<generate1>><<person1>>inform a manager, who calls the captain in time. The ship steers around it.",
+    "translation": "",
+    "pos": 179
+  },
+  {
+    "passage": "Docks History",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "604_5_3_7|",
+    "original": "\"Damned reef,\" the manager says. \"I swear it just pops up where it pleases. Good job.\"",
+    "translation": "",
+    "pos": 349
+  },
+  {
+    "passage": "Docks History",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "608_5_3_7|",
+    "original": "<span class=\"red\">but the shape vanishes.</span>",
+    "translation": "",
+    "pos": 477
+  },
+  {
+    "passage": "Docks History",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "611_5_3_7|",
+    "original": "With a groan, the ship collides with something beneath the surface. Dockers rush to the moorings to assess the damage.",
+    "translation": "",
+    "pos": 540
+  },
+  {
+    "passage": "Docks History",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "615_5_3_7|",
+    "original": "You're sure it's fine. You finish cleaning.",
+    "translation": "",
+    "pos": 679
+  },
+  {
+    "passage": "Docks History",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "618_5_3_7|",
+    "original": "A metallic tearing sound shudders the pier. Something tears a giant gash down the side of the approaching ship, though it still makes it to the dock.",
+    "translation": "",
+    "pos": 735
+  },
+  {
+    "passage": "Docks Angry",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "628_5_3_7|",
+    "original": "\"I'm just trying to work,\" you say. \"Please let me.\"",
+    "translation": "",
+    "pos": 112
+  },
+  {
+    "passage": "Docks Angry",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "630_5_3_7|",
+    "original": "\"Fuck you,\" you say. \"You're supposed to be working.\"",
+    "translation": "",
+    "pos": 206
+  },
+  {
+    "passage": "Docks Angry",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "632_5_3_7|",
+    "original": "\"This is cruel,\" you say. \"I'll report you.\"",
+    "translation": "",
+    "pos": 270
+  },
+  {
+    "passage": "Docks Angry",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "636_5_3_7|",
+    "original": "\"We're just having fun,\" the <<person>> says. \"Your kind rarely sticks with it anyway.\" The other dockers nod.",
+    "translation": "",
+    "pos": 333
+  },
+  {
+    "passage": "Docks Walk",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "644_5_3_7|",
+    "original": "You walk away from the crowd. You try to ignore the jeers.",
+    "translation": "",
+    "pos": 77
+  },
+  {
+    "passage": "Docks Steal",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "652_5_3_7|",
+    "original": "It's a watch. It should be worth something. You mark it down as missing.",
+    "translation": "",
+    "pos": 77
+  },
+  {
+    "passage": "Docks Don't Steal",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "660_5_3_7|",
+    "original": "You mark down that a package is damaged, and continue working.",
+    "translation": "",
+    "pos": 77
+  },
+  {
+    "passage": "Docks Slave Ignore",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "670_5_3_7|",
+    "original": "There's nothing you can do. You move on to the next container.",
+    "translation": "",
+    "pos": 98
+  },
+  {
+    "passage": "Docks Slave Ignore",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "672_5_3_7|",
+    "original": "You ignore the voice, and move on to the next container.",
+    "translation": "",
+    "pos": 171
+  },
+  {
+    "passage": "Docks Slave Ignore",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "674_5_3_7|",
+    "original": "The <<person>> seems relieved.",
+    "translation": "",
+    "pos": 236
+  },
+  {
+    "passage": "Docks Slave Open",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "684_5_3_7|",
+    "original": "You successfully pick the lock and open the container. The <<person>> glances around. \"I didn't see anything,\" <<he>> says. \"I need this job.\" <<He>> walks away.",
+    "translation": "",
+    "pos": 77
+  },
+  {
+    "passage": "Docks Slave Open",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "690_5_3_7|",
+    "original": "<span class=\"blue\">There's nothing more you can learn from locks this simple.</span>",
+    "translation": "",
+    "pos": 311
+  },
+  {
+    "passage": "Docks Slave Open",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "694_5_3_7|",
+    "original": "<<person1>>There are sacks full of potatoes inside. You hear the voice again, from the back. One of the sacks moves. You find a <<person>> beneath, gagged and bound. Bruising surrounds <<his>> right eye. <<He>> starts crying.",
+    "translation": "",
+    "pos": 415
+  },
+  {
+    "passage": "Docks Slave Open",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "698_5_3_7|",
+    "original": "<<link [[Get help|Docks Slave Help]]>><</link>>",
+    "translation": "",
+    "pos": 675
+  },
+  {
+    "passage": "Docks Slave Open",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "700_5_3_7|",
+    "original": "<<link [[Comfort and untie|Docks Slave Untie]]>><</link>>",
+    "translation": "",
+    "pos": 728
+  },
+  {
+    "passage": "Docks Slave Help",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "706_5_3_7|",
+    "original": "You rush from the container, and find the <<person1>><<person>> who saw you open it.",
+    "translation": "",
+    "pos": 77
+  },
+  {
+    "passage": "Docks Slave Help",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "710_5_3_7|",
+    "original": "\"There's someone who needs help,\" you say. \"They're tied up and hurt.\"",
+    "translation": "",
+    "pos": 207
+  },
+  {
+    "passage": "Docks Slave Help",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "712_5_3_7|",
+    "original": "\"What's going on,\" you say. \"There's a bound person in there.\"",
+    "translation": "",
+    "pos": 319
+  },
+  {
+    "passage": "Docks Slave Help",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "714_5_3_7|",
+    "original": "\"I found a person inside,\" you say. \"They're bound and hurt.\"",
+    "translation": "",
+    "pos": 392
+  },
+  {
+    "passage": "Docks Slave Help",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "718_5_3_7|",
+    "original": "<<He>> looks around before leaning in close. \"Shut it, <<girl>>,\" <<he>> says. \"I didn't see anything. Remember? Shut your gob before you get us both in trouble.\"",
+    "translation": "",
+    "pos": 472
+  },
+  {
+    "passage": "Docks Slave Help",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "721_5_3_7|",
+    "original": "You return to the container, and find the <<person1>><<person>> lying where you left <<him>>.",
+    "translation": "",
+    "pos": 645
+  },
+  {
+    "passage": "Docks Slave Help",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "724_5_3_7|",
+    "original": "<<link [[Next|Docks Slave Untie]]>><</link>>",
+    "translation": "",
+    "pos": 749
+  },
+  {
+    "passage": "Docks Slave Untie",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "730_5_3_7|",
+    "original": "You untie the bindings and remove the gag.",
+    "translation": "",
+    "pos": 77
+  },
+  {
+    "passage": "Docks Slave Untie",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "733_5_3_7|",
+    "original": "\"Please don't cry,\" you say. \"I'll look after you. What's your name?\"",
+    "translation": "",
+    "pos": 156
+  },
+  {
+    "passage": "Docks Slave Untie",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "735_5_3_7|",
+    "original": "\"Don't cry,\" you say. \"Someone nasty might hear. What's your name?\"",
+    "translation": "",
+    "pos": 267
+  },
+  {
+    "passage": "Docks Slave Untie",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "737_5_3_7|",
+    "original": "\"It's okay,\" you say. \"You're safe now. What's your name?\"",
+    "translation": "",
+    "pos": 345
+  },
+  {
+    "passage": "Docks Slave Untie",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "741_5_3_7|",
+    "original": "<<His>> sobs recede a little, but <<he>> doesn't respond. You feel <<his>> arm through <<his>> worn school uniform as you help <<him>> to <<his>> feet. <<Hes>> very thin.",
+    "translation": "",
+    "pos": 422
+  },
+  {
+    "passage": "Docks Slave Untie",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "744_5_3_7|",
+    "original": "<<He>> stares at you, cheeks still wet. You take <<his>> hand and lead <<him>> toward the road. <<dockclotheson>> Security watch as you pass, but don't stop you.",
+    "translation": "",
+    "pos": 603
+  },
+  {
+    "passage": "Docks Slave Untie",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "747_5_3_7|",
+    "original": "<<harvesticon>><<link [[Take to train station (1:00)|Docks Slave Station]]>><<pass 60>><</link>>",
+    "translation": "",
+    "pos": 775
+  },
+  {
+    "passage": "Docks Slave Untie",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "749_5_3_7|",
+    "original": "<<foodicon \"eat\">><<link [[Get food first (£20)|Docks Slave Cafe]]>><<pass 60>><<famegood 1>><<money -2000 \"gift\">><</link>>",
+    "translation": "",
+    "pos": 877
+  },
+  {
+    "passage": "Docks Slave Cafe",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "755_5_3_7|",
+    "original": "You take <<him>> to a nearby cafe and sit at a table away from the window. <<His>> eyes light up when <<he>> sees the menu. <<He>> points at the picture of a burger, so you order one for <<him>> and one for yourself. <<He>> devours <<his>> meal, pausing only to drink the accompanying pop.",
+    "translation": "",
+    "pos": 76
+  },
+  {
+    "passage": "Docks Slave Cafe",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "758_5_3_7|",
+    "original": "You ask <<him>> <<his>> name and where <<hes>> from as <<he>> eats. <<He>> doesn't respond. You're not sure if <<he>> speaks English.",
+    "translation": "",
+    "pos": 376
+  },
+  {
+    "passage": "Docks Slave Cafe",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "761_5_3_7|",
+    "original": "<<He>> licks the plate once finished, and stares at your food with longing. You push your plate over to <<him>>. <<He>> eats it just as fast.",
+    "translation": "",
+    "pos": 520
+  },
+  {
+    "passage": "Docks Slave Cafe",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "764_5_3_7|",
+    "original": "You leave the cafe together. <<He>> looks much happier.",
+    "translation": "",
+    "pos": 672
+  },
+  {
+    "passage": "Docks Slave Cafe",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "767_5_3_7|",
+    "original": "<<link [[Next|Docks Slave Station]]>><<pass 60>><</link>>",
+    "translation": "",
+    "pos": 738
+  },
+  {
+    "passage": "Docks Slave Station",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "773_5_3_7|",
+    "original": "You take the <<person>> to the train station on Harvest Street. <<He>> walks close, and keeps bumping into you. The station itself is busy. There's a map of the country on the wall, detailing the train network.",
+    "translation": "",
+    "pos": 97
+  },
+  {
+    "passage": "Docks Slave Station",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "776_5_3_7|",
+    "original": "<<He>> points at one town in particular and smiles. You look more closely. It matches the name beneath <<his>> uniform's logo. \"Is this your home?\" you ask. <<He>> just smiles.",
+    "translation": "",
+    "pos": 318
+  },
+  {
+    "passage": "Docks Slave Station",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "779_5_3_7|",
+    "original": "You buy a ticket and walk onto the platform as the train arrives.",
+    "translation": "",
+    "pos": 505
+  },
+  {
+    "passage": "Docks Slave Station",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "781_5_3_7|",
+    "original": "The <<person>> seems anxious.",
+    "translation": "",
+    "pos": 595
+  },
+  {
+    "passage": "Docks Slave Station",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "786_5_3_7|",
+    "original": "<<link [[Give nothing|Docks Slave Station 2]]>><<famegood 5>><<set $phase to 0>><</link>>",
+    "translation": "",
+    "pos": 661
+  },
+  {
+    "passage": "Docks Slave Station",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "788_5_3_7|",
+    "original": "<<link [[Give £100|Docks Slave Station 2]]>><<set $dockslavemoney to 100>><<money -10000 \"gift\">><<famegood 10>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 758
+  },
+  {
+    "passage": "Docks Slave Station",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "791_5_3_7|",
+    "original": "<<link [[Wave goodbye|Docks Slave Station 2]]>><<famegood 5>><<set $phase to 0>><</link>>",
+    "translation": "",
+    "pos": 915
+  },
+  {
+    "passage": "Docks Slave Station",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "795_5_3_7|",
+    "original": "<<link [[Give £300|Docks Slave Station 2]]>><<set $dockslavemoney to 300>><<money -30000 \"gift\">><<famegood 30>><<set $phase to 2>><</link>>",
+    "translation": "",
+    "pos": 1044
+  },
+  {
+    "passage": "Docks Slave Station",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "799_5_3_7|",
+    "original": "<<link [[Give £1000|Docks Slave Station 2]]>><<set $dockslavemoney to 1000>><<money -100000 \"gift\">><<famegood 50>><<set $phase to 3>><</link>>",
+    "translation": "",
+    "pos": 1225
+  },
+  {
+    "passage": "Docks Slave Station 2",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "807_5_3_7|",
+    "original": "You hand the <<person>> the ticket and £<<print $dockslavemoney>>.",
+    "translation": "",
+    "pos": 97
+  },
+  {
+    "passage": "Docks Slave Station 2",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "809_5_3_7|",
+    "original": "You hand the <<person>> the ticket.",
+    "translation": "",
+    "pos": 174
+  },
+  {
+    "passage": "Docks Slave Station 2",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "813_5_3_7|",
+    "original": "\"It was nice to meet you,\" you say. \"I hope you have a nice journey.\"",
+    "translation": "",
+    "pos": 254
+  },
+  {
+    "passage": "Docks Slave Station 2",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "815_5_3_7|",
+    "original": "\"You should be okay from here,\" you say.",
+    "translation": "",
+    "pos": 365
+  },
+  {
+    "passage": "Docks Slave Station 2",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "817_5_3_7|",
+    "original": "\"This train will take you home,\" you say.",
+    "translation": "",
+    "pos": 416
+  },
+  {
+    "passage": "Docks Slave Station 2",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "820_5_3_7|",
+    "original": "<<He>> seems reluctant to leave you, but <<he>> understands and walks alone toward the waiting train. Before reaching it however, <<he>> turns and runs back. <<He>> almost knocks you over with a hug.",
+    "translation": "",
+    "pos": 467
+  },
+  {
+    "passage": "Docks Slave Station 2",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "823_5_3_7|",
+    "original": "<<He>> waves from the window as the train departs.",
+    "translation": "",
+    "pos": 677
+  },
+  {
+    "passage": "Docks Slave Station 2",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "826_5_3_7|",
+    "original": "<<link [[Next|Harvest Street]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 738
+  },
+  {
+    "passage": "Passout Docks",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "834_5_3_7|",
+    "original": "You awaken naked on a chair. Lengths of rope criss-cross your body and tie you down. A round board sits on your knees and leans against your chest, giving you some cover from prying eyes. You can't move an inch. Walls of corrugated metal suggest you're inside a cargo container. You're not alone.",
+    "translation": "",
+    "pos": 214
+  },
+  {
+    "passage": "Passout Docks",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "837_5_3_7|",
+    "original": "<<generate1>><<generate2>><<generate3>><<person2>>\"It's not fair,\" a <<person>> says. <<He>> sits opposite you with <<his>> arms folded. \"You set it up wrong.\"",
+    "translation": "",
+    "pos": 521
+  },
+  {
+    "passage": "Passout Docks",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "840_5_3_7|",
+    "original": "A dart thuds into the board. The <<person1>><<person>> who threw it laughs. \"Yeah yeah,\" <<he>> says. \"We're all using the same board, if you haven't noticed.\" <<He>> throws another dart. \"I win.\" <<He>> turns to a <<person3>><<person>>. \"Unless you score perfect.\"",
+    "translation": "",
+    "pos": 691
+  },
+  {
+    "passage": "Passout Docks",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "843_5_3_7|",
+    "original": "The <<person>> stands and takes <<his>> position in front of the board as the <<person1>><<person>> approaches to retrieve <<his>> darts. \"Hey,\" <<he>> says. \"<<pShes>> awake.\"",
+    "translation": "",
+    "pos": 967
+  },
+  {
+    "passage": "Passout Docks",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "846_5_3_7|",
+    "original": "<<link [[Insult|Passout Docks 2]]>><<set $phase to 0>><<def 1>><<trauma -6>><</link>><<ltrauma>>",
+    "translation": "",
+    "pos": 1154
+  },
+  {
+    "passage": "Passout Docks",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "848_5_3_7|",
+    "original": "<<link [[Plead|Passout Docks 2]]>><<set $phase to 1>><<sub 1>><<stress -6>><</link>><<lstress>>",
+    "translation": "",
+    "pos": 1256
+  },
+  {
+    "passage": "Passout Docks",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "850_5_3_7|",
+    "original": "<<link [[Remain silent|Passout Docks 2]]>><<set $phase to 2>><</link>>",
+    "translation": "",
+    "pos": 1357
+  },
+  {
+    "passage": "Passout Docks 2",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "858_5_3_7|",
+    "original": "\"L-let me go,\" you say. \"You're being mean.\"",
+    "translation": "",
+    "pos": 133
+  },
+  {
+    "passage": "Passout Docks 2",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "860_5_3_7|",
+    "original": "\"Untie me at once,\" you say. \"Or I'll throw you into the sea with the other scum.\"",
+    "translation": "",
+    "pos": 221
+  },
+  {
+    "passage": "Passout Docks 2",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "862_5_3_7|",
+    "original": "\"You scum,\" you say. \"Let me go.\"",
+    "translation": "",
+    "pos": 316
+  },
+  {
+    "passage": "Passout Docks 2",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "865_5_3_7|",
+    "original": "The <<person1>><<person>> laughs. \"Let you go? Sure. After I've had my fun.\"",
+    "translation": "",
+    "pos": 370
+  },
+  {
+    "passage": "Passout Docks 2",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "868_5_3_7|",
+    "original": "\"Please don't hurt me,\" you say. \"I promise I won't tell anyone.\"",
+    "translation": "",
+    "pos": 507
+  },
+  {
+    "passage": "Passout Docks 2",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "870_5_3_7|",
+    "original": "\"This is childish,\" you say. \"Let me go now and I won't tell anyone.\"",
+    "translation": "",
+    "pos": 616
+  },
+  {
+    "passage": "Passout Docks 2",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "872_5_3_7|",
+    "original": "\"Please let me go,\" you say. \"I won't tell anyone.\"",
+    "translation": "",
+    "pos": 698
+  },
+  {
+    "passage": "Passout Docks 2",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "875_5_3_7|",
+    "original": "The <<person1>><<person>> laughs. \"Sure. After I've had my fun.\"",
+    "translation": "",
+    "pos": 770
+  },
+  {
+    "passage": "Passout Docks 2",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "879_5_3_7|",
+    "original": "<<He>> returns to <<his>> seat as the <<person3>><<person>> prepares to throw.",
+    "translation": "",
+    "pos": 853
+  },
+  {
+    "passage": "Passout Docks 2",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "882_5_3_7|",
+    "original": "The dart flies over your shoulder. \"Fuck,\" the <<person>> says as <<he>> sits in defeat. The <<person1>><<person>> raises <<his>> fists. \"I win! Now clear off you two. I want privacy.\"",
+    "translation": "",
+    "pos": 942
+  },
+  {
+    "passage": "Passout Docks 2",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "885_5_3_7|",
+    "original": "The <<person2>><<person>> shakes <<his>> head. \"That wasn't agreed.\" <<He>> opens a beer. \"We're watching. I wanna see what you do to this <<girl>>.\"",
+    "translation": "",
+    "pos": 1137
+  },
+  {
+    "passage": "Passout Docks 2",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "888_5_3_7|",
+    "original": "The <<person1>><<person>> sighs, but doesn't protest. <<He>> pulls the board away from you. Their eyes feast on your <<lewdness>>.",
+    "translation": "",
+    "pos": 1297
+  },
+  {
+    "passage": "Passout Docks 2",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "891_5_3_7|",
+    "original": "<<link [[Next|Passout Docks Rape]]>><<set $enemyno to 1>><<set $enemynomax to 1>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 1438
+  },
+  {
+    "passage": "Passout Docks Rape",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "908_5_3_7|",
+    "original": "The pair cheer their colleague on.",
+    "translation": "",
+    "pos": 182
+  },
+  {
+    "passage": "Passout Docks Rape",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "916_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Passout Docks Rape Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 284
+  },
+  {
+    "passage": "Passout Docks Rape",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "918_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Passout Docks Rape]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 382
+  },
+  {
+    "passage": "Passout Docks Rape Finish",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "926_5_3_7|",
+    "original": "The pair applaud. \"I think I've learned something intimate about you,\" the <<person2>><<person>> says.",
+    "translation": "",
+    "pos": 73
+  },
+  {
+    "passage": "Passout Docks Rape Finish",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "929_5_3_7|",
+    "original": "\"Sh-shut it,\" the <<person1>><<person>> responds. <<He>> unties you from the chair, but leaves the rope around you. \"You keep it shut too. Not that anyone will care.\" <<He>> opens the container and kicks you out.",
+    "translation": "",
+    "pos": 188
+  },
+  {
+    "passage": "Passout Docks Rape Finish",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "932_5_3_7|",
+    "original": "<<tearful>> you climb to your feet.",
+    "translation": "",
+    "pos": 413
+  },
+  {
+    "passage": "Passout Docks Rape Finish",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "935_5_3_7|",
+    "original": "You kick the <<person>> against the metal wall. <<He>> cries out in pain and clutches <<his>> back.",
+    "translation": "",
+    "pos": 460
+  },
+  {
+    "passage": "Passout Docks Rape Finish",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "938_5_3_7|",
+    "original": "\"<<pShes>> tied up mate!\" the <<person2>><<person>> says as the <<person3>><<person>> keels over with laughter.",
+    "translation": "",
+    "pos": 572
+  },
+  {
+    "passage": "Passout Docks Rape Finish",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "941_5_3_7|",
+    "original": "<<tearful>> you kick open the door and leave the container. The pair don't stop you, but continue to mock their colleague.",
+    "translation": "",
+    "pos": 696
+  },
+  {
+    "passage": "Passout Docks Rape Finish",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "948_5_3_7|",
+    "original": "<<link [[Next|Docks]]>><</link>>",
+    "translation": "",
+    "pos": 866
+  },
+  {
+    "passage": "Docks Pub Crawl",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "957_5_3_7|",
+    "original": "Your colleagues pat your back, congratulating your endurance. They separate and stagger home.",
+    "translation": "",
+    "pos": 186
+  },
+  {
+    "passage": "Docks Pub Crawl",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "965_5_3_7|",
+    "original": "Accompanying your colleagues, you <<if $drunk gte 360>>stagger<<else>>walk<</if>> into a pub on Mer Street. It's busy. Sailors from the moored ships are unwinding here.",
+    "translation": "",
+    "pos": 501
+  },
+  {
+    "passage": "Docks Pub Crawl",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "968_5_3_7|",
+    "original": "\"Pub quiz in ten minutes,\" the jovial owner shouts. \"Winning team gets a round on the house.\" Your colleagues sign up at once. The sailors scoff. \"You got no chance,\" one of them, a <<person>>, says. Your colleagues throw colourful insults in response.",
+    "translation": "",
+    "pos": 682
+  },
+  {
+    "passage": "Docks Pub Crawl",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "971_5_3_7|",
+    "original": "\"You lot talk big,\" the <<person>> says after much back and forth. <<He>> pulls £60 from <<his>> pocket. <<His>> fellow sailors do likewise. \"That's £360 says we win the quiz.\" Despite their previous bluster, the dockers seem unsure.",
+    "translation": "",
+    "pos": 947
+  },
+  {
+    "passage": "Docks Pub Crawl",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "975_5_3_7|",
+    "original": "<<link [[Bet your body|Docks Pub Crawl Body]]>><<dockstatus 1>><</link>><<promiscuous3>><<gcool>>",
+    "translation": "",
+    "pos": 1231
+  },
+  {
+    "passage": "Docks Pub Crawl",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "979_5_3_7|",
+    "original": "<<link [[Match their bet (£60)|Docks Pub Crawl Bet]]>><<money -6000>><</link>>",
+    "translation": "",
+    "pos": 1371
+  },
+  {
+    "passage": "Docks Pub Crawl",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "982_5_3_7|",
+    "original": "<<link [[Don't bet anything|Docks Pub Crawl Quiz Refuse]]>><<set $phase to 0>><</link>>",
+    "translation": "",
+    "pos": 1468
+  },
+  {
+    "passage": "Docks Pub Crawl",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "984_5_3_7|",
+    "original": "<<link [[Don't take part|Docks Pub Crawl Quiz Refuse]]>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 1563
+  },
+  {
+    "passage": "Docks Pub Crawl",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "989_5_3_7|",
+    "original": "Accompanying your colleagues, you <<if $drunk gte 360>>stagger<<else>>walk<</if>> into a pub on Harvest Street. Some rough looking patrons eye you up as you enter.",
+    "translation": "",
+    "pos": 1680
+  },
+  {
+    "passage": "Docks Pub Crawl",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "994_5_3_7|",
+    "original": "<<generate1>><<person1>>A <<person>> sits beside you and places <<his>> hand on your thigh. \"Fancy disappearing together for a few minutes?\" <<he>> says.",
+    "translation": "",
+    "pos": 1956
+  },
+  {
+    "passage": "Docks Pub Crawl",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "997_5_3_7|",
+    "original": "<<link [[Accept|Docks Pub Crawl Sex]]>><<set $sexstart to 1>><</link>><<promiscuous1>>",
+    "translation": "",
+    "pos": 2124
+  },
+  {
+    "passage": "Docks Pub Crawl",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "999_5_3_7|",
+    "original": "<<refuseicon>><<link [[Refuse|Docks Pub Crawl Sex Refuse]]>><</link>>",
+    "translation": "",
+    "pos": 2220
+  },
+  {
+    "passage": "Docks Pub Crawl",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1002_5_3_7|",
+    "original": "You drink a couple of rounds together, ignoring evil looks from the regular patrons. You leave with the other dockers.",
+    "translation": "",
+    "pos": 2309
+  },
+  {
+    "passage": "Docks Pub Crawl",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1010_5_3_7|",
+    "original": "Accompanying your colleagues, you <<if $drunk gte 360>>stagger<<else>>walk<</if>> into a pub on Barb Street.",
+    "translation": "",
+    "pos": 2496
+  },
+  {
+    "passage": "Docks Pub Crawl",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1015_5_3_7|",
+    "original": "You overhear one of the other dockers talking about you. <<generate1>><<person1>>\"You sure the <<girl>> can handle it,\" <<he>> says. \"The drinking, I mean. I don't want to get in trouble with <<pher>> parents or nothing.\"",
+    "translation": "",
+    "pos": 2717
+  },
+  {
+    "passage": "Docks Pub Crawl",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1018_5_3_7|",
+    "original": "<<foodicon \"beer\">><<link [[Challenge to drinking contest|Docks Pub Crawl Contest]]>><<dockstatus 1>><<set $phase to 0>><</link>><<gcool>>",
+    "translation": "",
+    "pos": 2953
+  },
+  {
+    "passage": "Docks Pub Crawl",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1020_5_3_7|",
+    "original": "<<link [[Remain silent|Docks Pub Crawl Silent]]>><<dockstatus -1>><</link>><<lcool>>",
+    "translation": "",
+    "pos": 3101
+  },
+  {
+    "passage": "Docks Pub Crawl",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1024_5_3_7|",
+    "original": "People pay you and the other dockers no mind. You drink a few rounds and leave together.",
+    "translation": "",
+    "pos": 3206
+  },
+  {
+    "passage": "Docks Pub Crawl",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1032_5_3_7|",
+    "original": "Accompanying your colleagues, you <<if $drunk gte 360>>stagger<<else>>walk<</if>> into a pub on Connudatus Street.",
+    "translation": "",
+    "pos": 3363
+  },
+  {
+    "passage": "Docks Pub Crawl",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1035_5_3_7|",
+    "original": "<<generate1>><<generatep2>><<person2>>You notice a docker eyeing up a <<person>> on the other side of the room.",
+    "translation": "",
+    "pos": 3490
+  },
+  {
+    "passage": "Docks Pub Crawl",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1038_5_3_7|",
+    "original": "<<link [[Encourage|Docks Pub Crawl Eyeing Encourage]]>><</link>>",
+    "translation": "",
+    "pos": 3614
+  },
+  {
+    "passage": "Docks Pub Crawl",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1040_5_3_7|",
+    "original": "<<link [[Ignore|Docks Pub Crawl Eyeing Ignore]]>><</link>>",
+    "translation": "",
+    "pos": 3686
+  },
+  {
+    "passage": "Docks Pub Crawl",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1045_5_3_7|",
+    "original": "Accompanying your colleagues, you <<if $drunk gte 360>>stagger<<else>>walk<</if>> into a pub on the High Street.",
+    "translation": "",
+    "pos": 3763
+  },
+  {
+    "passage": "Docks Pub Crawl",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1050_5_3_7|",
+    "original": "You attract attention. Other patrons keep trying to flirt with you.",
+    "translation": "",
+    "pos": 3988
+  },
+  {
+    "passage": "Docks Pub Crawl",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1053_5_3_7|",
+    "original": "<<link [[Flirt|Docks Pub Crawl Flirt]]>><</link>><<promiscuous1>>",
+    "translation": "",
+    "pos": 4070
+  },
+  {
+    "passage": "Docks Pub Crawl",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1056_5_3_7|",
+    "original": "<<link [[Tease|Docks Pub Crawl Tease]]>><</link>><<exhibitionist1>>",
+    "translation": "",
+    "pos": 4223
+  },
+  {
+    "passage": "Docks Pub Crawl",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1059_5_3_7|",
+    "original": "<<link [[Ignore|Docks Pub Crawl Flirt Ignore]]>><</link>>",
+    "translation": "",
+    "pos": 4312
+  },
+  {
+    "passage": "Docks Pub Crawl",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1064_5_3_7|",
+    "original": "No one pays you or the other dockers much mind. You drink a few rounds and leave together.",
+    "translation": "",
+    "pos": 4391
+  },
+  {
+    "passage": "Docks Pub Crawl Eyeing Encourage",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1077_5_3_7|",
+    "original": "\"You should talk to <<him>>,\" you say. \"Just be yourself.\"",
+    "translation": "",
+    "pos": 110
+  },
+  {
+    "passage": "Docks Pub Crawl Eyeing Encourage",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1079_5_3_7|",
+    "original": "\"Talk to <<him>>,\" you say. \"<<He>> will appreciate the assertiveness.\"",
+    "translation": "",
+    "pos": 210
+  },
+  {
+    "passage": "Docks Pub Crawl Eyeing Encourage",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1081_5_3_7|",
+    "original": "\"You should talk to <<him>>,\" you say. \"You'll regret it if you don't.\"",
+    "translation": "",
+    "pos": 292
+  },
+  {
+    "passage": "Docks Pub Crawl Eyeing Encourage",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1084_5_3_7|",
+    "original": "The docker finishes their drink, takes a deep breath and marches over. The <<person>> looks up. You can't hear them over the din of the pub, but <<he>> seems to respond well.",
+    "translation": "",
+    "pos": 381
+  },
+  {
+    "passage": "Docks Pub Crawl Eyeing Encourage",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1087_5_3_7|",
+    "original": "<<He>> takes the docker's hand and together they walk outside. The docker gives you a grateful smile before disappearing.",
+    "translation": "",
+    "pos": 577
+  },
+  {
+    "passage": "Docks Pub Crawl Eyeing Encourage",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1090_5_3_7|",
+    "original": "Until <<he>> sneers and throws <<his>> drink in the docker's face.",
+    "translation": "",
+    "pos": 736
+  },
+  {
+    "passage": "Docks Pub Crawl Eyeing Encourage",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1093_5_3_7|",
+    "original": "The docker returns, eyes downcast and hair dripping.",
+    "translation": "",
+    "pos": 815
+  },
+  {
+    "passage": "Docks Pub Crawl Eyeing Encourage",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1097_5_3_7|",
+    "original": "You finish your drink and leave with your colleagues.",
+    "translation": "",
+    "pos": 886
+  },
+  {
+    "passage": "Docks Pub Crawl Eyeing Ignore",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1105_5_3_7|",
+    "original": "You decide to keep to yourself. You finish your drink and leave with your colleagues.",
+    "translation": "",
+    "pos": 75
+  },
+  {
+    "passage": "Docks Pub Crawl Flirt",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1113_5_3_7|",
+    "original": "You flirt back, revelling in the attention. You manage to convince someone to pay for drinks for you and your colleagues.",
+    "translation": "",
+    "pos": 75
+  },
+  {
+    "passage": "Docks Pub Crawl Flirt",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1118_5_3_7|",
+    "original": "You and the dockers finish your drinks and leave together.",
+    "translation": "",
+    "pos": 255
+  },
+  {
+    "passage": "Docks Pub Crawl Tease",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1126_5_3_7|",
+    "original": "You hike your skirt up, giving them a tantalising glimpse of your upper thighs just short of your <<undies>>. One of your colleagues, a <<generate1>><<person1>><<person>>, spoils the fun and pulls your $worn.lower.name over your thighs proper. \"Sorry,\" <<he>> says. \"But you're working them up a bit too well. I don't want to lose teeth protecting you.\"",
+    "translation": "",
+    "pos": 75
+  },
+  {
+    "passage": "Docks Pub Crawl Tease",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1130_5_3_7|",
+    "original": "You and the dockers finish your drinks and leave together.",
+    "translation": "",
+    "pos": 450
+  },
+  {
+    "passage": "Docks Pub Crawl Flirt Ignore",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1138_5_3_7|",
+    "original": "You ignore the flirters, finish your drink and leave with your colleagues.",
+    "translation": "",
+    "pos": 75
+  },
+  {
+    "passage": "Docks Pub Crawl Contest",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1148_5_3_7|",
+    "original": "\"You're wrong,\" you say. Everyone turns to you. \"I bet I can drink even more than you.\"",
+    "translation": "",
+    "pos": 150
+  },
+  {
+    "passage": "Docks Pub Crawl Contest",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1150_5_3_7|",
+    "original": "You laugh. Everyone turns to you. \"It's you I'm worried about,\" you say to the <<person>>. \"You'll be out cold within an hour.\"",
+    "translation": "",
+    "pos": 281
+  },
+  {
+    "passage": "Docks Pub Crawl Contest",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1152_5_3_7|",
+    "original": "\"I can handle myself,\" you say. Everyone turns to you. \"In fact, I can handle drink better than you.\"",
+    "translation": "",
+    "pos": 421
+  },
+  {
+    "passage": "Docks Pub Crawl Contest",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1156_5_3_7|",
+    "original": "The <<generate2>><<person2>><<person>> jabs the <<person1>><<person>> with <<his>> elbow. \"That's a challenge,\" <<person2>><<he>> says. The <<person1>><<person>> sighs and takes the seat in front of you as the other dockers rearrange themselves to watch. They're so enthused they offer to pay for the drinks.",
+    "translation": "",
+    "pos": 544
+  },
+  {
+    "passage": "Docks Pub Crawl Contest",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1159_5_3_7|",
+    "original": "<<link [[Next|Docks Pub Crawl Contest]]>><</link>>",
+    "translation": "",
+    "pos": 865
+  },
+  {
+    "passage": "Docks Pub Crawl Contest",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1164_5_3_7|",
+    "original": "<<generate3>><<person3>>The bartender arrives with two glasses. \"Scotch,\" <<he>> says. \"Let's start you off easy.\"",
+    "translation": "",
+    "pos": 967
+  },
+  {
+    "passage": "Docks Pub Crawl Contest",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1168_5_3_7|",
+    "original": "<<person1>>\"I don't think this'll take long,\" the <<person>> says. \"We've had more than a few already.\"",
+    "translation": "",
+    "pos": 1123
+  },
+  {
+    "passage": "Docks Pub Crawl Contest",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1172_5_3_7|",
+    "original": "<<foodicon \"beer\">><<link [[Drink|Docks Pub Crawl Contest]]>><<wearProp \"shotglass\">><<alcohol 180>><</link>>",
+    "translation": "",
+    "pos": 1249
+  },
+  {
+    "passage": "Docks Pub Crawl Contest",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1174_5_3_7|",
+    "original": "<<getouticon>><<link [[Stop|Docks Pub Crawl Contest Stop]]>><<dockstatus -1>><</link>><<lcool>>",
+    "translation": "",
+    "pos": 1366
+  },
+  {
+    "passage": "Docks Pub Crawl Contest",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1179_5_3_7|",
+    "original": "You drink the scotch as the audience cheers. It burns your throat.",
+    "translation": "",
+    "pos": 1513
+  },
+  {
+    "passage": "Docks Pub Crawl Contest",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1182_5_3_7|",
+    "original": "The <<person1>><<person>> coughs. \"No shame in quitting,\" <<he>> says. \"I'm a seasoned drinker, and I don't want to carry you home after.\"",
+    "translation": "",
+    "pos": 1592
+  },
+  {
+    "passage": "Docks Pub Crawl Contest",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1185_5_3_7|",
+    "original": "The <<person3>>bartender returns, holding two more glasses. \"Vodka,\" <<he>> says. \"But stronger than you're used to, I reckon.\"",
+    "translation": "",
+    "pos": 1743
+  },
+  {
+    "passage": "Docks Pub Crawl Contest",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1188_5_3_7|",
+    "original": "<<foodicon \"beer\">><<link [[Drink|Docks Pub Crawl Contest]]>><<alcohol 180>><</link>>",
+    "translation": "",
+    "pos": 1883
+  },
+  {
+    "passage": "Docks Pub Crawl Contest",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1190_5_3_7|",
+    "original": "<<getouticon>><<link [[Stop|Docks Pub Crawl Contest Stop]]>><<dockstatus -1>><</link>><<lcool>>",
+    "translation": "",
+    "pos": 1976
+  },
+  {
+    "passage": "Docks Pub Crawl Contest",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1195_5_3_7|",
+    "original": "You drink the vodka as the audience cheers once more. You feel a bit nauseous.",
+    "translation": "",
+    "pos": 2123
+  },
+  {
+    "passage": "Docks Pub Crawl Contest",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1198_5_3_7|",
+    "original": "\"That tasted foul,\" the <<person1>><<person>> says. \"I must be pretty pissed already if I'm doing this.\"",
+    "translation": "",
+    "pos": 2214
+  },
+  {
+    "passage": "Docks Pub Crawl Contest",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1201_5_3_7|",
+    "original": "The <<person3>>bartender returns, holding two more glasses. \"Absinthe,\" <<he>> says. \"Made locally. This was illegal not long ago.\"",
+    "translation": "",
+    "pos": 2331
+  },
+  {
+    "passage": "Docks Pub Crawl Contest",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1204_5_3_7|",
+    "original": "The <<person1>><<person>> sways slightly as <<he>> takes the drink.",
+    "translation": "",
+    "pos": 2475
+  },
+  {
+    "passage": "Docks Pub Crawl Contest",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1207_5_3_7|",
+    "original": "<<foodicon \"beer\">><<link [[Drink|Docks Pub Crawl Contest]]>><<alcohol 120>><<hallucinogen 120>><</link>>",
+    "translation": "",
+    "pos": 2555
+  },
+  {
+    "passage": "Docks Pub Crawl Contest",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1209_5_3_7|",
+    "original": "<<getouticon>><<link [[Stop|Docks Pub Crawl Contest Stop]]>><<dockstatus -1>><</link>><<lcool>>",
+    "translation": "",
+    "pos": 2668
+  },
+  {
+    "passage": "Docks Pub Crawl Contest",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1214_5_3_7|",
+    "original": "You drink the absinthe. You almost gag. The <<person1>><<person>> does, but <<he>> manages to keep it down. <<He>> doesn't say anything.",
+    "translation": "",
+    "pos": 2815
+  },
+  {
+    "passage": "Docks Pub Crawl Contest",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1217_5_3_7|",
+    "original": "The bartender returns with another two glasses. The liquid is bright and colourful. \"Local special.\" <<He>> smiles. \"Not on the menu.\"",
+    "translation": "",
+    "pos": 2964
+  },
+  {
+    "passage": "Docks Pub Crawl Contest",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1220_5_3_7|",
+    "original": "<<foodicon \"beer\">><<link [[Drink|Docks Pub Crawl Contest]]>><<alcohol 120>><<drugs 120>><<arousal 1800>><</link>><<ggarousal>>",
+    "translation": "",
+    "pos": 3111
+  },
+  {
+    "passage": "Docks Pub Crawl Contest",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1222_5_3_7|",
+    "original": "<<getouticon>><<link [[Stop|Docks Pub Crawl Contest Stop]]>><<dockstatus -1>><</link>><<lcool>>",
+    "translation": "",
+    "pos": 3246
+  },
+  {
+    "passage": "Docks Pub Crawl Contest",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1227_5_3_7|",
+    "original": "You drink the colourful liquid. It's sweet, and makes you feel warm.",
+    "translation": "",
+    "pos": 3360
+  },
+  {
+    "passage": "Docks Pub Crawl Contest",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1230_5_3_7|",
+    "original": "The <<person1>><<person>> lifts <<his>> drink. \"I prom-\" <<He>> hiccups. \"I promised myself. Never again.\" <<He>> places the glass on the table. \"You win.\" The audience cheers with more vigour than before. Someone raises your arm and several others pat your back. \"Now,\" the <<person>> continues. \"I need a piss.\"",
+    "translation": "",
+    "pos": 3441
+  },
+  {
+    "passage": "Docks Pub Crawl Contest",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1236_5_3_7|",
+    "original": "The warmth in you continues to build, and build, until your whole body shakes. You pass the point of no return.",
+    "translation": "",
+    "pos": 3860
+  },
+  {
+    "passage": "Docks Pub Crawl Contest",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1242_5_3_7|",
+    "original": "You fall to the ground, writhing and moaning in front of your astonished colleagues. The <<person>> returns as you regain control. <<He>> shakes <<his>> head.",
+    "translation": "",
+    "pos": 4011
+  },
+  {
+    "passage": "Docks Pub Crawl Contest",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1245_5_3_7|",
+    "original": "You leave the pub with the other dockers, feeling spent and flushed. They don't mention what happened, but something has them smiling.",
+    "translation": "",
+    "pos": 4184
+  },
+  {
+    "passage": "Docks Pub Crawl Contest",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1249_5_3_7|",
+    "original": "Your colleagues finish their drinks, the <<person>> returns, and you leave the pub together.",
+    "translation": "",
+    "pos": 4333
+  },
+  {
+    "passage": "Docks Pub Crawl Contest Stop",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1262_5_3_7|",
+    "original": "You shake your head and push the glass away from you. All eyes turn to the <<person>>, who lifts <<his>> and smells it. <<He>> places it back on the table. \"I prom-\" <<He>> hiccups. \"I promised myself. Never again.\" It's a draw. The dockers are disappointed.",
+    "translation": "",
+    "pos": 134
+  },
+  {
+    "passage": "Docks Pub Crawl Contest Stop",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1265_5_3_7|",
+    "original": "You shake your head and push the glass away from you. All eyes turn to the <<person>>, who lifts <<his>> and smells it. <<He>> downs it in one motion, and the dockers cheer. One raises <<his>> arm and several others pat <<his>> back.",
+    "translation": "",
+    "pos": 431
+  },
+  {
+    "passage": "Docks Pub Crawl Contest Stop",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1270_5_3_7|",
+    "original": "Your colleagues finish their drinks and you leave the pub together.",
+    "translation": "",
+    "pos": 711
+  },
+  {
+    "passage": "Docks Pub Crawl Silent",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1279_5_3_7|",
+    "original": "You don't interject.",
+    "translation": "",
+    "pos": 75
+  },
+  {
+    "passage": "Docks Pub Crawl Silent",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1282_5_3_7|",
+    "original": "You finish drinking and leave the pub with your colleagues.",
+    "translation": "",
+    "pos": 106
+  },
+  {
+    "passage": "Docks Pub Crawl Sex",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1295_5_3_7|",
+    "original": "<<He>> takes your hand and leads you to the <<if $pronoun is \"m\">>men's<<else>>women's<</if>> toilets. <<He>> pushes you against the sinks and grasps at your clothing.",
+    "translation": "",
+    "pos": 144
+  },
+  {
+    "passage": "Docks Pub Crawl Sex",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1307_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Docks Pub Crawl Sex Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 431
+  },
+  {
+    "passage": "Docks Pub Crawl Sex",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1309_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Docks Pub Crawl Sex]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 530
+  },
+  {
+    "passage": "Docks Pub Crawl Sex Finish",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1318_5_3_7|",
+    "original": "\"You dockers aren't usually so cute,\" <<he>> says as <<he>> adjusts <<his>> clothes.",
+    "translation": "",
+    "pos": 95
+  },
+  {
+    "passage": "Docks Pub Crawl Sex Finish",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1320_5_3_7|",
+    "original": "You shove the <<person>> into a cubicle and escape the toilets.",
+    "translation": "",
+    "pos": 211
+  },
+  {
+    "passage": "Docks Pub Crawl Sex Finish",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1322_5_3_7|",
+    "original": "\"Fine,\" <<he>> says. \"You're lucky I don't just take you anyway.\"",
+    "translation": "",
+    "pos": 285
+  },
+  {
+    "passage": "Docks Pub Crawl Sex Finish",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1329_5_3_7|",
+    "original": "<<tearful>> you return to the pub to find your colleagues finishing their drinks. You leave together.",
+    "translation": "",
+    "pos": 398
+  },
+  {
+    "passage": "Docks Pub Crawl Sex Refuse",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1338_5_3_7|",
+    "original": "The <<person>> grasps your neck and leans in. \"I tried asking nicely,\" <<he>> whispers. \"Now how abouts you come with me, and I won't need to hurt you.\"",
+    "translation": "",
+    "pos": 75
+  },
+  {
+    "passage": "Docks Pub Crawl Sex Refuse",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1343_5_3_7|",
+    "original": "\"You're gonna regret touching me,\" you say. You smash your glass over the <<persons>> head. <<He>> tries to dodge the blow, but loses balance and falls off <<his>> chair. Your colleagues cheer.",
+    "translation": "",
+    "pos": 313
+  },
+  {
+    "passage": "Docks Pub Crawl Sex Refuse",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1346_5_3_7|",
+    "original": "\"Unprovoked!\" the <<person>> says as <<he>> nurses <<his>> scalp.",
+    "translation": "",
+    "pos": 519
+  },
+  {
+    "passage": "Docks Pub Crawl Sex Refuse",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1349_5_3_7|",
+    "original": "The pub owner rushes over. <<generate2>><<person2>> \"Last thing I need is a brawl,\" <<he>> says. \"You dockers always bring trouble. Get out.\"",
+    "translation": "",
+    "pos": 597
+  },
+  {
+    "passage": "Docks Pub Crawl Sex Refuse",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1352_5_3_7|",
+    "original": "\"That was self defence,\" you argue, but <<he>> won't hear it. Your colleagues down the last of their drink and together you leave the pub. They don't seem to mind.",
+    "translation": "",
+    "pos": 751
+  },
+  {
+    "passage": "Docks Pub Crawl Sex Refuse",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1355_5_3_7|",
+    "original": "One of your colleagues notices, and smashes a glass over the <<persons>> head. <<He>> tries to dodge the blow, but loses balance and falls off <<his>> chair.",
+    "translation": "",
+    "pos": 952
+  },
+  {
+    "passage": "Docks Pub Crawl Sex Refuse",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1358_5_3_7|",
+    "original": "\"Unprovoked!\" the <<person>> says as <<he>> nurses <<his>> scalp.",
+    "translation": "",
+    "pos": 1122
+  },
+  {
+    "passage": "Docks Pub Crawl Sex Refuse",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1361_5_3_7|",
+    "original": "The pub owner rushes over. <<generate2>><<person2>> \"Last thing I need is a brawl,\" <<he>> says. \"You dockers always bring trouble. Get out.\"",
+    "translation": "",
+    "pos": 1200
+  },
+  {
+    "passage": "Docks Pub Crawl Sex Refuse",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1364_5_3_7|",
+    "original": "Your colleagues argue that it was justified, but <<he>> won't hear it. They down the last of their drink and together you leave the pub.",
+    "translation": "",
+    "pos": 1354
+  },
+  {
+    "passage": "Docks Pub Crawl Body",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1376_5_3_7|",
+    "original": "<<if $seductionskill lt 1000>><span class=\"gold\">You feel more confident in your powers of seduction.</span><</if>><<seductionskilluse>>",
+    "translation": "",
+    "pos": 140
+  },
+  {
+    "passage": "Docks Pub Crawl Body",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1380_5_3_7|",
+    "original": "\"I-I hope it's worth this much,\" you say. \"I bet my body.\"",
+    "translation": "",
+    "pos": 322
+  },
+  {
+    "passage": "Docks Pub Crawl Body",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1382_5_3_7|",
+    "original": "It's your turn to scoff. \"That all?\" you say. \"Fine. I bet my body. If you win, you can do whatever you want to me.\"",
+    "translation": "",
+    "pos": 422
+  },
+  {
+    "passage": "Docks Pub Crawl Body",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1384_5_3_7|",
+    "original": "\"Instead of money,\" you say. \"If you win, you can have me.\"",
+    "translation": "",
+    "pos": 549
+  },
+  {
+    "passage": "Docks Pub Crawl Body",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1390_5_3_7|",
+    "original": "The sailors look at each other, excited. \"Free drinks,\" the <<person>> says. \"And a free <<girl>>. It's our lucky night.\"",
+    "translation": "",
+    "pos": 684
+  },
+  {
+    "passage": "Docks Pub Crawl Body",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1393_5_3_7|",
+    "original": "\"Dream on,\" one of your colleagues says, though they seem happy that they don't stand to lose anything.",
+    "translation": "",
+    "pos": 818
+  },
+  {
+    "passage": "Docks Pub Crawl Body",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1396_5_3_7|",
+    "original": "The pub owner steps up to a microphone in the corner of the room, preparing to read the first question.",
+    "translation": "",
+    "pos": 934
+  },
+  {
+    "passage": "Docks Pub Crawl Body",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1399_5_3_7|",
+    "original": "<<link [[Next|Docks Pub Crawl Quiz]]>><<set $phase to 0>><<set $dockquizhome to 0>><<set $dockquizaway to 0>><</link>>",
+    "translation": "",
+    "pos": 1078
+  },
+  {
+    "passage": "Docks Pub Crawl Body",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1404_5_3_7|",
+    "original": "\"Nope,\" the <<person>> says. \"We could get a whore cheaper than that.\" <<person2>>The <<person>> sat beside <<him>> looks crestfallen, and eyes you up<<person1>>.",
+    "translation": "",
+    "pos": 1215
+  },
+  {
+    "passage": "Docks Pub Crawl Body",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1408_5_3_7|",
+    "original": "<<link [[Match their bet (£60)|Docks Pub Crawl Bet]]>><<money -6000>><</link>>",
+    "translation": "",
+    "pos": 1415
+  },
+  {
+    "passage": "Docks Pub Crawl Body",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1411_5_3_7|",
+    "original": "<<link [[Don't bet anything|Docks Pub Crawl Quiz Refuse]]>><</link>>",
+    "translation": "",
+    "pos": 1511
+  },
+  {
+    "passage": "Docks Pub Crawl Bet",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1419_5_3_7|",
+    "original": "You put £60 on the table. Your colleagues follow suit, though some with a grumble. \"Thanks for your contribution,\" the <<person>> says. \"That's our night paid for.\"",
+    "translation": "",
+    "pos": 75
+  },
+  {
+    "passage": "Docks Pub Crawl Bet",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1422_5_3_7|",
+    "original": "The pub owner steps up to a microphone in the corner of the room, preparing to read the first question.",
+    "translation": "",
+    "pos": 250
+  },
+  {
+    "passage": "Docks Pub Crawl Bet",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1425_5_3_7|",
+    "original": "<<link [[Next|Docks Pub Crawl Quiz]]>><<set $phase to 0>><<set $dockquizhome to 0>><<set $dockquizaway to 0>><</link>>",
+    "translation": "",
+    "pos": 392
+  },
+  {
+    "passage": "Docks Pub Crawl Quiz Refuse",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1433_5_3_7|",
+    "original": "You do nothing, and nor do any of your colleagues. \"Thought so,\" the <<person>> says as the other sailors laugh. \"You lot are all talk.\"",
+    "translation": "",
+    "pos": 96
+  },
+  {
+    "passage": "Docks Pub Crawl Quiz Refuse",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1436_5_3_7|",
+    "original": "The pub owner steps up to a microphone in the corner of the room, preparing to read the first question.",
+    "translation": "",
+    "pos": 245
+  },
+  {
+    "passage": "Docks Pub Crawl Quiz Refuse",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1439_5_3_7|",
+    "original": "<<link [[Next|Docks Pub Crawl Quiz]]>><<set $phase to 0>><<set $dockquizhome to 0>><<set $dockquizaway to 0>><</link>>",
+    "translation": "",
+    "pos": 389
+  },
+  {
+    "passage": "Docks Pub Crawl Quiz Refuse",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1444_5_3_7|",
+    "original": "You do nothing, and nor do any of your colleagues. \"Thought so,\" the <<person>> says as the other sailors laugh. \"You lot are all talk.\"",
+    "translation": "",
+    "pos": 526
+  },
+  {
+    "passage": "Docks Pub Crawl Quiz Refuse",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1447_5_3_7|",
+    "original": "You don't pay attention to the quiz, and your colleagues lose to the sailors. You leave together in a sour mood.",
+    "translation": "",
+    "pos": 675
+  },
+  {
+    "passage": "Docks Pub Crawl Quiz",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1458_5_3_7|",
+    "original": "The first category <<dockpubquiz>>",
+    "translation": "",
+    "pos": 114
+  },
+  {
+    "passage": "Docks Pub Crawl Quiz",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1460_5_3_7|",
+    "original": "The second category <<dockpubquiz>>",
+    "translation": "",
+    "pos": 192
+  },
+  {
+    "passage": "Docks Pub Crawl Quiz",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1462_5_3_7|",
+    "original": "The third category <<dockpubquiz>>",
+    "translation": "",
+    "pos": 271
+  },
+  {
+    "passage": "Docks Pub Crawl Quiz",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1464_5_3_7|",
+    "original": "The fourth category <<dockpubquiz>>",
+    "translation": "",
+    "pos": 349
+  },
+  {
+    "passage": "Docks Pub Crawl Quiz",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1466_5_3_7|",
+    "original": "The fifth category <<dockpubquiz>>",
+    "translation": "",
+    "pos": 428
+  },
+  {
+    "passage": "Docks Pub Crawl Quiz",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1471_5_3_7|",
+    "original": "\"And the winners are,\" the owner announces. \"The dockers!\" You cheer and drum the table with your colleagues, until the owner convinces you to settle down.",
+    "translation": "",
+    "pos": 515
+  },
+  {
+    "passage": "Docks Pub Crawl Quiz",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1475_5_3_7|",
+    "original": "The sailors aren't impressed. \"Rigged,\" the <<person>> says, but they hand over the cash. You've gained <<moneyGainDisplay 60>>.",
+    "translation": "",
+    "pos": 750
+  },
+  {
+    "passage": "Docks Pub Crawl Quiz",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1479_5_3_7|",
+    "original": "You and your colleagues enjoy your free drinks and leave in an elevated mood.",
+    "translation": "",
+    "pos": 913
+  },
+  {
+    "passage": "Docks Pub Crawl Quiz",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1485_5_3_7|",
+    "original": "The sailors aren't impressed. \"Rigged,\" the <<person>> says, but they hand over the cash.",
+    "translation": "",
+    "pos": 1090
+  },
+  {
+    "passage": "Docks Pub Crawl Quiz",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1488_5_3_7|",
+    "original": "<<link [[Take the money for yourself|Docks Pub Crawl Take]]>><<dockstatus -1>><</link>><<lcool>>",
+    "translation": "",
+    "pos": 1196
+  },
+  {
+    "passage": "Docks Pub Crawl Quiz",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1490_5_3_7|",
+    "original": "<<link [[Share the money with your colleagues|Docks Pub Crawl Share]]>><<dockstatus 1>><</link>><<gcool>>",
+    "translation": "",
+    "pos": 1304
+  },
+  {
+    "passage": "Docks Pub Crawl Quiz",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1494_5_3_7|",
+    "original": "The sailors aren't impressed. \"Rigged,\" the <<person>> says.",
+    "translation": "",
+    "pos": 1433
+  },
+  {
+    "passage": "Docks Pub Crawl Quiz",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1497_5_3_7|",
+    "original": "You and your colleagues enjoy your free drinks and leave in an elevated mood.",
+    "translation": "",
+    "pos": 1510
+  },
+  {
+    "passage": "Docks Pub Crawl Quiz",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1506_5_3_7|",
+    "original": "\"And the winners are,\" the owner announces. \"No one! It's a draw.\" The dockers and sailors seem equally upset.",
+    "translation": "",
+    "pos": 1708
+  },
+  {
+    "passage": "Docks Pub Crawl Quiz",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1508_5_3_7|",
+    "original": "You and your colleagues leave soon after.",
+    "translation": "",
+    "pos": 1832
+  },
+  {
+    "passage": "Docks Pub Crawl Quiz",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1513_5_3_7|",
+    "original": "\"And the winners are,\" the owner announces. \"The sailors!\" They cheer and laugh until the owner convinces them to settle down.",
+    "translation": "",
+    "pos": 1969
+  },
+  {
+    "passage": "Docks Pub Crawl Quiz",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1516_5_3_7|",
+    "original": "They take their money. \"Sorry guys,\" the <<person>> says. \"Shoulda known better than to challenge us.\"",
+    "translation": "",
+    "pos": 2140
+  },
+  {
+    "passage": "Docks Pub Crawl Quiz",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1519_5_3_7|",
+    "original": "You and your colleagues leave in a sour mood.",
+    "translation": "",
+    "pos": 2288
+  },
+  {
+    "passage": "Docks Pub Crawl Quiz",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1524_5_3_7|",
+    "original": "The <<person>> looks at you and makes a come-hither motion. <<His>> fellow sailors stare at you with ravenous eyes. \"Time to pay up,\" <<he>> says. \"Get that bum over here.\"",
+    "translation": "",
+    "pos": 2432
+  },
+  {
+    "passage": "Docks Pub Crawl Quiz",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1526_5_3_7|",
+    "original": "<<link [[Walk over|Docks Pub Crawl Gangbang]]>><<set $sexstart to 1>><</link>>",
+    "translation": "",
+    "pos": 2620
+  },
+  {
+    "passage": "Docks Pub Crawl Quiz",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1529_5_3_7|",
+    "original": "<<refuseicon>><<link [[Refuse|Docks Pub Crawl Fight]]>><<dockstatus -1>><</link>><<lcool>>",
+    "translation": "",
+    "pos": 2733
+  },
+  {
+    "passage": "Docks Pub Crawl Quiz",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1532_5_3_7|",
+    "original": "<<refuseicon>><<link [[Refuse|Docks Pub Crawl Gangbang Refuse]]>><<dockstatus -1>><</link>><<lcool>>",
+    "translation": "",
+    "pos": 2849
+  },
+  {
+    "passage": "Docks Pub Crawl Quiz",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1536_5_3_7|",
+    "original": "You and your colleagues leave in a sour mood.",
+    "translation": "",
+    "pos": 2984
+  },
+  {
+    "passage": "Docks Pub Crawl Gangbang Refuse",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1548_5_3_7|",
+    "original": "\"S-sorry,\" you say. \"But I don't want to.\"",
+    "translation": "",
+    "pos": 110
+  },
+  {
+    "passage": "Docks Pub Crawl Gangbang Refuse",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1550_5_3_7|",
+    "original": "\"Fuck off,\" you say. \"You didn't think I'd really bet myself for so little, right?\"",
+    "translation": "",
+    "pos": 194
+  },
+  {
+    "passage": "Docks Pub Crawl Gangbang Refuse",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1552_5_3_7|",
+    "original": "\"No.\" You shake your head. \"I'm not doing that over a pub quiz.\"",
+    "translation": "",
+    "pos": 288
+  },
+  {
+    "passage": "Docks Pub Crawl Gangbang Refuse",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1556_5_3_7|",
+    "original": "\"Figures,\" the <<person>> says. <<He>> walks closer, but your colleagues form a protective barrier and <<he>> relents. \"You're probably worn out after fucking half the docks.\"",
+    "translation": "",
+    "pos": 371
+  },
+  {
+    "passage": "Docks Pub Crawl Gangbang Refuse",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1559_5_3_7|",
+    "original": "You leave the pub with your colleagues.",
+    "translation": "",
+    "pos": 557
+  },
+  {
+    "passage": "Docks Pub Crawl Fight",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1568_5_3_7|",
+    "original": "\"S-sorry,\" you say. \"But I don't want to.\"",
+    "translation": "",
+    "pos": 110
+  },
+  {
+    "passage": "Docks Pub Crawl Fight",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1570_5_3_7|",
+    "original": "\"Fuck off,\" you say. \"You didn't think I'd really bet myself for so little, right?\"",
+    "translation": "",
+    "pos": 194
+  },
+  {
+    "passage": "Docks Pub Crawl Fight",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1572_5_3_7|",
+    "original": "\"No.\" You shake your head. \"I'm not doing that over a pub quiz.\"",
+    "translation": "",
+    "pos": 288
+  },
+  {
+    "passage": "Docks Pub Crawl Fight",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1576_5_3_7|",
+    "original": "\"Figures,\" the <<person>> says. <<He>> walks closer, but your colleagues form a protective barrier. <<He>> smacks one of them across the face, who then slaps <<him>> back. The other sailors rush to <<his>> defence as a brawl breaks out.",
+    "translation": "",
+    "pos": 371
+  },
+  {
+    "passage": "Docks Pub Crawl Fight",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1579_5_3_7|",
+    "original": "<<link [[Join in|Docks Pub Crawl Join]]>><<def 1>><<stress -6>><<pain 5>><<crimeUp 50 \"assault\">><<dockstatus 1>><</link>><<gcool>><<crime \"assault\">><<gpain>><<lstress>>",
+    "translation": "",
+    "pos": 618
+  },
+  {
+    "passage": "Docks Pub Crawl Fight",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1581_5_3_7|",
+    "original": "<<link [[Calm everyone down|Docks Pub Crawl Calm]]>><<dockstatus -1>><</link>><<lcool>>",
+    "translation": "",
+    "pos": 794
+  },
+  {
+    "passage": "Docks Pub Crawl Join",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1587_5_3_7|",
+    "original": "You pick up a bystander's drink and drench the <<persons>> hair. <<He>> sneers and lunges, clutching your throat and dragging you to the ground. One swift kick to the <<if $NPCList[0].penis isnot \"none\">>cock<<else>>pussy<</if>> and <<he>> releases you, and clutches <<his>> groin in agony.",
+    "translation": "",
+    "pos": 99
+  },
+  {
+    "passage": "Docks Pub Crawl Join",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1590_5_3_7|",
+    "original": "You stand up as security separate your colleagues from the sailors. \"Out!\" the pub owner shouts, gesturing at you and the other dockers. \"You lot first. Out!\"",
+    "translation": "",
+    "pos": 400
+  },
+  {
+    "passage": "Docks Pub Crawl Join",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1593_5_3_7|",
+    "original": "The owner glares at you as you leave with your laughing colleagues.",
+    "translation": "",
+    "pos": 569
+  },
+  {
+    "passage": "Docks Pub Crawl Calm",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1602_5_3_7|",
+    "original": "You stand in the middle of one of the fights and manage to hold a sailor and docker away from each other. A couple of the more level heads on both sides watch you and, inspired by your act, intervene themselves. They manage to calm things enough that security can form a line between the dockers and sailors.",
+    "translation": "",
+    "pos": 123
+  },
+  {
+    "passage": "Docks Pub Crawl Calm",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1604_5_3_7|",
+    "original": "You try separate one of the fights, but just get knocked aside. A couple of the more level heads on both sides watch you and, inspired by your act, intervene themselves. They manage to calm things enough that security can form a line between the dockers and sailors.",
+    "translation": "",
+    "pos": 442
+  },
+  {
+    "passage": "Docks Pub Crawl Calm",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1607_5_3_7|",
+    "original": "\"Out!\" the pub owner shouts, gesturing at you and the other dockers. \"You lot first. Out!\"",
+    "translation": "",
+    "pos": 718
+  },
+  {
+    "passage": "Docks Pub Crawl Calm",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1610_5_3_7|",
+    "original": "You leave with your laughing colleagues.",
+    "translation": "",
+    "pos": 819
+  },
+  {
+    "passage": "Docks Pub Crawl Gangbang",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1622_5_3_7|",
+    "original": "You walk over to the sailor's table. They grasp your arms and pull you onto it. \"Not in here!\" the pub owner shouts, but they pay no heed.",
+    "translation": "",
+    "pos": 117
+  },
+  {
+    "passage": "Docks Pub Crawl Gangbang",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1625_5_3_7|",
+    "original": "You feel your colleagues watching, along with the rest of the pub.",
+    "translation": "",
+    "pos": 268
+  },
+  {
+    "passage": "Docks Pub Crawl Gangbang",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1638_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Docks Pub Crawl Gangbang Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 459
+  },
+  {
+    "passage": "Docks Pub Crawl Gangbang",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1640_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Docks Pub Crawl Gangbang]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 563
+  },
+  {
+    "passage": "Docks Pub Crawl Gangbang Finish",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1648_5_3_7|",
+    "original": "Applause fills the pub. The sailors clink and swig their free drinks. \"This is the life,\" the <<person>> sighs.",
+    "translation": "",
+    "pos": 117
+  },
+  {
+    "passage": "Docks Pub Crawl Gangbang Finish",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1652_5_3_7|",
+    "original": "<<tearful>> you climb down from the table. Your colleagues pat your back. \"Thanks for taking one for the team,\" a <<generate1>><<person1>><<person>> says.",
+    "translation": "",
+    "pos": 275
+  },
+  {
+    "passage": "Docks Pub Crawl Gangbang Finish",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1654_5_3_7|",
+    "original": "\"One?\" a <<generate2>><<person2>><<person>> interjects. \"You mean six.\" The <<person1>><<person>> glares at <<person2>><<him>>.",
+    "translation": "",
+    "pos": 441
+  },
+  {
+    "passage": "Docks Pub Crawl Gangbang Finish",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1656_5_3_7|",
+    "original": "You leave the pub with your colleagues.",
+    "translation": "",
+    "pos": 580
+  },
+  {
+    "passage": "Docks Pub Crawl Gangbang Finish",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1660_5_3_7|",
+    "original": "You shove the <<person>> away from you. <<He>> stumbles into another patron, who punches <<him>> in the jaw. Someone throws a glass. Then, someone throws a table. The pub breaks into a brawl.",
+    "translation": "",
+    "pos": 681
+  },
+  {
+    "passage": "Docks Pub Crawl Gangbang Finish",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1664_5_3_7|",
+    "original": "Someone grasps your shoulders and hauls you to your feet. It's one of your colleagues. <<generate1>><<person1>><<He>> looks amused. <<tearful>> you keep low and escape the chaos with your fellow dockers.",
+    "translation": "",
+    "pos": 919
+  },
+  {
+    "passage": "Docks Pub Crawl Gangbang Finish",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1668_5_3_7|",
+    "original": "The sailors seem reluctant to stop, but your colleagues arrive at your side and help you to your feet.",
+    "translation": "",
+    "pos": 1163
+  },
+  {
+    "passage": "Docks Pub Crawl Gangbang Finish",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1673_5_3_7|",
+    "original": "<<tearful>> you leave the pub with the other dockers. The sailors heckle you.",
+    "translation": "",
+    "pos": 1340
+  },
+  {
+    "passage": "Docks Pub Crawl Take",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1682_5_3_7|",
+    "original": "Your colleagues reach for the money, but you snatch it away from them. You remind them whose butt was on the line. They grumble, but agree. You've gained <<moneyGain 360>>.",
+    "translation": "",
+    "pos": 76
+  },
+  {
+    "passage": "Docks Pub Crawl Take",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1685_5_3_7|",
+    "original": "You and your colleagues enjoy your free drinks and leave in an elevated mood.",
+    "translation": "",
+    "pos": 259
+  },
+  {
+    "passage": "Docks Pub Crawl Share",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1694_5_3_7|",
+    "original": "You let your colleagues have their share. You've gained <<moneyGain 60>>.",
+    "translation": "",
+    "pos": 75
+  },
+  {
+    "passage": "Docks Pub Crawl Share",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1697_5_3_7|",
+    "original": "You and your colleagues enjoy your free drinks and leave in an elevated mood.",
+    "translation": "",
+    "pos": 159
+  },
+  {
+    "passage": "Docks Pub Crawl Science",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1710_5_3_7|",
+    "original": "You let your colleagues answer the questions. They write them down, fold the paper and hand it to the pub owner. The sailors do likewise.",
+    "translation": "",
+    "pos": 153
+  },
+  {
+    "passage": "Docks Pub Crawl Science",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1713_5_3_7|",
+    "original": "\"That's a point to the dockers,\" the owner says. You cheer with your colleagues.",
+    "translation": "",
+    "pos": 305
+  },
+  {
+    "passage": "Docks Pub Crawl Science",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1716_5_3_7|",
+    "original": "You let your colleagues answer the questions. They write them down, fold the paper and hand it to the pub owner. The sailors do likewise.",
+    "translation": "",
+    "pos": 425
+  },
+  {
+    "passage": "Docks Pub Crawl Science",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1719_5_3_7|",
+    "original": "The owner reads your paper. \"The dockers score zero.\" You grumble with your colleagues.",
+    "translation": "",
+    "pos": 577
+  },
+  {
+    "passage": "Docks Pub Crawl Science",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1725_5_3_7|",
+    "original": "You write down the answers, fold the paper and hand it to the pub owner. The sailors do likewise.",
+    "translation": "",
+    "pos": 787
+  },
+  {
+    "passage": "Docks Pub Crawl Science",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1728_5_3_7|",
+    "original": "\"That's a point to the dockers,\" the owner says. You cheer with your colleagues.",
+    "translation": "",
+    "pos": 899
+  },
+  {
+    "passage": "Docks Pub Crawl Science",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1731_5_3_7|",
+    "original": "<<if currentSkillValue('science') lte 300>>You're not confident, but you write down the answers, fold the paper and hand it to the pub owner.<<else>>You write down the answers, fold the paper and hand it to the pub owner.<</if>> The sailors do likewise.",
+    "translation": "",
+    "pos": 1019
+  },
+  {
+    "passage": "Docks Pub Crawl Science",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1734_5_3_7|",
+    "original": "The owner reads your paper. \"The dockers score zero.\" You grumble with your colleagues. <<if currentSkillValue('science') gte 700>>You were sure you got it right.<</if>>",
+    "translation": "",
+    "pos": 1287
+  },
+  {
+    "passage": "Docks Pub Crawl Science",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1737_5_3_7|",
+    "original": "You convince your colleagues that you know your stuff, and write down nonsense answers. You fold the paper and hand it to the pub owner.",
+    "translation": "",
+    "pos": 1476
+  },
+  {
+    "passage": "Docks Pub Crawl Science",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1740_5_3_7|",
+    "original": "The owner reads your paper. \"The dockers score zero.\" You grumble with your colleagues. What a surprise.",
+    "translation": "",
+    "pos": 1625
+  },
+  {
+    "passage": "Docks Pub Crawl Science",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1744_5_3_7|",
+    "original": "The owner reads the sailor's answers.",
+    "translation": "",
+    "pos": 1748
+  },
+  {
+    "passage": "Docks Pub Crawl Science",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1747_5_3_7|",
+    "original": "\"That's a point to the sailors.\" A cheer erupts from their table.",
+    "translation": "",
+    "pos": 1840
+  },
+  {
+    "passage": "Docks Pub Crawl Science",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1749_5_3_7|",
+    "original": "\"Sorry guys. No points.\"",
+    "translation": "",
+    "pos": 1916
+  },
+  {
+    "passage": "Docks Pub Crawl Science",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1752_5_3_7|",
+    "original": "The <<person>> shoves the <<person2>><<person>> sat next to <<him>>. <<person1>>\"I thought you were good at this shit.\"",
+    "translation": "",
+    "pos": 1953
+  },
+  {
+    "passage": "Docks Pub Crawl Science",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1756_5_3_7|",
+    "original": "<<link [[Next|Docks Pub Crawl Quiz]]>><</link>>",
+    "translation": "",
+    "pos": 2091
+  },
+  {
+    "passage": "Docks Pub Crawl Maths",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1766_5_3_7|",
+    "original": "You let your colleagues answer the questions. They write them down, fold the paper and hand it to the pub owner. The sailors do likewise.",
+    "translation": "",
+    "pos": 153
+  },
+  {
+    "passage": "Docks Pub Crawl Maths",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1769_5_3_7|",
+    "original": "\"That's a point to the dockers,\" the owner says. You cheer with your colleagues.",
+    "translation": "",
+    "pos": 305
+  },
+  {
+    "passage": "Docks Pub Crawl Maths",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1773_5_3_7|",
+    "original": "You let your colleagues answer the questions. They write them down, fold the paper and hand it to the pub owner. The sailors do likewise.",
+    "translation": "",
+    "pos": 426
+  },
+  {
+    "passage": "Docks Pub Crawl Maths",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1776_5_3_7|",
+    "original": "The owner reads your paper. \"The dockers score zero.\" You grumble with your colleagues.",
+    "translation": "",
+    "pos": 578
+  },
+  {
+    "passage": "Docks Pub Crawl Maths",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1782_5_3_7|",
+    "original": "You write down the answers, fold the paper and hand it to the pub owner. The sailors do likewise.",
+    "translation": "",
+    "pos": 786
+  },
+  {
+    "passage": "Docks Pub Crawl Maths",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1785_5_3_7|",
+    "original": "\"That's a point to the dockers,\" the owner says. You cheer with your colleagues.",
+    "translation": "",
+    "pos": 898
+  },
+  {
+    "passage": "Docks Pub Crawl Maths",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1788_5_3_7|",
+    "original": "<<if currentSkillValue('maths') lte 300>>You're not confident, but you write down the answers, fold the paper and hand it to the pub owner.<<else>>You write down the answers, fold the paper and hand it to the pub owner.<</if>> The sailors do likewise.",
+    "translation": "",
+    "pos": 1018
+  },
+  {
+    "passage": "Docks Pub Crawl Maths",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1791_5_3_7|",
+    "original": "The owner reads your paper. \"The dockers score zero.\" You grumble with your colleagues. <<if currentSkillValue('maths') gte 700>>You were sure you got it right.<</if>>",
+    "translation": "",
+    "pos": 1284
+  },
+  {
+    "passage": "Docks Pub Crawl Maths",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1794_5_3_7|",
+    "original": "You convince your colleagues that you know your stuff, and write down nonsense answers. You fold the paper and hand it to the pub owner.",
+    "translation": "",
+    "pos": 1471
+  },
+  {
+    "passage": "Docks Pub Crawl Maths",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1797_5_3_7|",
+    "original": "The owner reads your paper. \"The dockers score zero.\" You grumble with your colleagues. What a surprise.",
+    "translation": "",
+    "pos": 1620
+  },
+  {
+    "passage": "Docks Pub Crawl Maths",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1801_5_3_7|",
+    "original": "The owner reads the sailor's answers.",
+    "translation": "",
+    "pos": 1743
+  },
+  {
+    "passage": "Docks Pub Crawl Maths",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1803_5_3_7|",
+    "original": "\"That's a point to the sailors.\" A cheer erupts from their table.",
+    "translation": "",
+    "pos": 1833
+  },
+  {
+    "passage": "Docks Pub Crawl Maths",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1805_5_3_7|",
+    "original": "\"Sorry guys. No points.\" They groan.",
+    "translation": "",
+    "pos": 1909
+  },
+  {
+    "passage": "Docks Pub Crawl Maths",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1809_5_3_7|",
+    "original": "<<link [[Next|Docks Pub Crawl Quiz]]>><</link>>",
+    "translation": "",
+    "pos": 1964
+  },
+  {
+    "passage": "Docks Pub Crawl English",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1819_5_3_7|",
+    "original": "You let your colleagues answer the questions. They write them down, fold the paper and hand it to the pub owner. The sailors do likewise.",
+    "translation": "",
+    "pos": 153
+  },
+  {
+    "passage": "Docks Pub Crawl English",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1822_5_3_7|",
+    "original": "\"That's a point to the dockers,\" the owner says. You cheer with your colleagues.",
+    "translation": "",
+    "pos": 305
+  },
+  {
+    "passage": "Docks Pub Crawl English",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1825_5_3_7|",
+    "original": "You let your colleagues answer the questions. They write them down, fold the paper and hand it to the pub owner. The sailors do likewise.",
+    "translation": "",
+    "pos": 425
+  },
+  {
+    "passage": "Docks Pub Crawl English",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1828_5_3_7|",
+    "original": "The owner reads your paper. \"The dockers score zero.\" You grumble with your colleagues.",
+    "translation": "",
+    "pos": 577
+  },
+  {
+    "passage": "Docks Pub Crawl English",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1834_5_3_7|",
+    "original": "You write down the answers, fold the paper and hand it to the pub owner. The sailors do likewise.",
+    "translation": "",
+    "pos": 754
+  },
+  {
+    "passage": "Docks Pub Crawl English",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1837_5_3_7|",
+    "original": "\"That's a point to the dockers,\" the owner says. You cheer with your colleagues.",
+    "translation": "",
+    "pos": 866
+  },
+  {
+    "passage": "Docks Pub Crawl English",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1840_5_3_7|",
+    "original": "<<if currentSkillValue('english') lte 300>>You're not confident, but you write down the answers, fold the paper and hand it to the pub owner.<<else>>You write down the answers, fold the paper and hand it to the pub owner.<</if>> The sailors do likewise.",
+    "translation": "",
+    "pos": 986
+  },
+  {
+    "passage": "Docks Pub Crawl English",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1843_5_3_7|",
+    "original": "The owner reads your paper. \"The dockers score zero.\" You grumble with your colleagues. <<if currentSkillValue('english') gte 700>>You were sure you got it right.<</if>>",
+    "translation": "",
+    "pos": 1254
+  },
+  {
+    "passage": "Docks Pub Crawl English",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1846_5_3_7|",
+    "original": "You convince your colleagues that you know your stuff, and write down nonsense answers. You fold the paper and hand it to the pub owner.",
+    "translation": "",
+    "pos": 1443
+  },
+  {
+    "passage": "Docks Pub Crawl English",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1849_5_3_7|",
+    "original": "The owner reads your paper. \"The dockers score zero.\" You grumble with your colleagues. What a surprise.",
+    "translation": "",
+    "pos": 1592
+  },
+  {
+    "passage": "Docks Pub Crawl English",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1853_5_3_7|",
+    "original": "The owner reads the sailor's answers.",
+    "translation": "",
+    "pos": 1715
+  },
+  {
+    "passage": "Docks Pub Crawl English",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1856_5_3_7|",
+    "original": "\"That's a point to the sailors.\" A cheer erupts from their table.",
+    "translation": "",
+    "pos": 1807
+  },
+  {
+    "passage": "Docks Pub Crawl English",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1858_5_3_7|",
+    "original": "\"Sorry guys. No points.\" They groan.",
+    "translation": "",
+    "pos": 1883
+  },
+  {
+    "passage": "Docks Pub Crawl English",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1862_5_3_7|",
+    "original": "<<link [[Next|Docks Pub Crawl Quiz]]>><</link>>",
+    "translation": "",
+    "pos": 1938
+  },
+  {
+    "passage": "Docks Pub Crawl History",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1872_5_3_7|",
+    "original": "You let your colleagues answer the questions. They write them down, fold the paper and hand it to the pub owner. The sailors do likewise.",
+    "translation": "",
+    "pos": 153
+  },
+  {
+    "passage": "Docks Pub Crawl History",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1875_5_3_7|",
+    "original": "\"That's a point to the dockers,\" the owner says. You cheer with your colleagues.",
+    "translation": "",
+    "pos": 305
+  },
+  {
+    "passage": "Docks Pub Crawl History",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1878_5_3_7|",
+    "original": "You let your colleagues answer the questions. They write them down, fold the paper and hand it to the pub owner. The sailors do likewise.",
+    "translation": "",
+    "pos": 425
+  },
+  {
+    "passage": "Docks Pub Crawl History",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1881_5_3_7|",
+    "original": "The owner reads your paper. \"The dockers score zero.\" You grumble with your colleagues.",
+    "translation": "",
+    "pos": 577
+  },
+  {
+    "passage": "Docks Pub Crawl History",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1887_5_3_7|",
+    "original": "You write down the answers, fold the paper and hand it to the pub owner. The sailors do likewise.",
+    "translation": "",
+    "pos": 787
+  },
+  {
+    "passage": "Docks Pub Crawl History",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1890_5_3_7|",
+    "original": "\"That's a point to the dockers,\" the owner says. You cheer with your colleagues.",
+    "translation": "",
+    "pos": 899
+  },
+  {
+    "passage": "Docks Pub Crawl History",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1893_5_3_7|",
+    "original": "<<if currentSkillValue('history') lte 300>>You're not confident, but you write down the answers, fold the paper and hand it to the pub owner.<<else>>You write down the answers, fold the paper and hand it to the pub owner.<</if>> The sailors do likewise.",
+    "translation": "",
+    "pos": 1019
+  },
+  {
+    "passage": "Docks Pub Crawl History",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1896_5_3_7|",
+    "original": "The owner reads your paper. \"The dockers score zero.\" You grumble with your colleagues. <<if $historytrait gte 4>>You were sure you got it right.<</if>>",
+    "translation": "",
+    "pos": 1287
+  },
+  {
+    "passage": "Docks Pub Crawl History",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1899_5_3_7|",
+    "original": "You convince your colleagues that you know your stuff, and write down nonsense answers. You fold the paper and hand it to the pub owner.",
+    "translation": "",
+    "pos": 1459
+  },
+  {
+    "passage": "Docks Pub Crawl History",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1902_5_3_7|",
+    "original": "The owner reads your paper. \"The dockers score zero.\" You grumble with your colleagues. What a surprise.",
+    "translation": "",
+    "pos": 1608
+  },
+  {
+    "passage": "Docks Pub Crawl History",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1906_5_3_7|",
+    "original": "The owner reads the sailor's answers.",
+    "translation": "",
+    "pos": 1731
+  },
+  {
+    "passage": "Docks Pub Crawl History",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1908_5_3_7|",
+    "original": "\"That's a point to the sailors.\" A cheer erupts from their table.",
+    "translation": "",
+    "pos": 1821
+  },
+  {
+    "passage": "Docks Pub Crawl History",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1910_5_3_7|",
+    "original": "\"Sorry guys. No points.\" They groan.",
+    "translation": "",
+    "pos": 1897
+  },
+  {
+    "passage": "Docks Pub Crawl History",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1914_5_3_7|",
+    "original": "<<link [[Next|Docks Pub Crawl Quiz]]>><</link>>",
+    "translation": "",
+    "pos": 1952
+  },
+  {
+    "passage": "Docks Pub Crawl Love",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1924_5_3_7|",
+    "original": "You let your colleagues answer the questions. They argue a bit, but write them down, fold the paper and hand it to the pub owner. The sailors do likewise.",
+    "translation": "",
+    "pos": 153
+  },
+  {
+    "passage": "Docks Pub Crawl Love",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1927_5_3_7|",
+    "original": "\"That's a point to the dockers,\" the owner says. You cheer with your colleagues. They make lewd gestures at the sailors, who return the display.",
+    "translation": "",
+    "pos": 322
+  },
+  {
+    "passage": "Docks Pub Crawl Love",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1930_5_3_7|",
+    "original": "You let your colleagues answer the questions. They write them down, fold the paper and hand it to the pub owner. The sailors do likewise.",
+    "translation": "",
+    "pos": 506
+  },
+  {
+    "passage": "Docks Pub Crawl Love",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1933_5_3_7|",
+    "original": "The owner reads your paper. \"The dockers score zero.\" You grumble with your colleagues. The sailors laugh. <<if $dockquiz is \"body\">>\"Guess it's up to us to teach you the ropes,\" the <<person>> teases.<<else>>\"Don't worry,\" the <<person>> teases. \"We didn't expect better.\"<</if>>",
+    "translation": "",
+    "pos": 658
+  },
+  {
+    "passage": "Docks Pub Crawl Love",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1939_5_3_7|",
+    "original": "You write down the answers, fold the paper and hand it to the pub owner. The sailors do likewise.",
+    "translation": "",
+    "pos": 1044
+  },
+  {
+    "passage": "Docks Pub Crawl Love",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1942_5_3_7|",
+    "original": "\"That's a point to the dockers,\" the owner says. You cheer with your colleagues.",
+    "translation": "",
+    "pos": 1156
+  },
+  {
+    "passage": "Docks Pub Crawl Love",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1945_5_3_7|",
+    "original": "<<if $promiscuity lte 30>>You're not confident, but you write down the answers, fold the paper and hand it to the pub owner.<<else>>You write down the answers, fold the paper and hand it to the pub owner.<</if>> The sailors do likewise.",
+    "translation": "",
+    "pos": 1276
+  },
+  {
+    "passage": "Docks Pub Crawl Love",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1948_5_3_7|",
+    "original": "The owner reads your paper. \"The dockers score zero.\" You grumble with your colleagues. The sailors laugh. <<if $dockquiz is \"body\">>\"Guess it's up to us to teach you the ropes,\" the <<person>> teases.<<else>>\"Don't worry,\" the <<person>> teases. \"We didn't expect better.\"<</if>>",
+    "translation": "",
+    "pos": 1527
+  },
+  {
+    "passage": "Docks Pub Crawl Love",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1951_5_3_7|",
+    "original": "You convince your colleagues that you know your stuff, and write down nonsense answers. You fold the paper and hand it to the pub owner.",
+    "translation": "",
+    "pos": 1827
+  },
+  {
+    "passage": "Docks Pub Crawl Love",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1954_5_3_7|",
+    "original": "The owner reads your paper. \"The dockers score zero.\" You grumble with your colleagues. What a surprise.",
+    "translation": "",
+    "pos": 1976
+  },
+  {
+    "passage": "Docks Pub Crawl Love",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1958_5_3_7|",
+    "original": "The owner reads the sailor's answers.",
+    "translation": "",
+    "pos": 2099
+  },
+  {
+    "passage": "Docks Pub Crawl Love",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1960_5_3_7|",
+    "original": "\"That's a point to the sailors.\" A cheer erupts from their table. \"You learn a thing or two sailing between ports,\" the <<person>> says.",
+    "translation": "",
+    "pos": 2189
+  },
+  {
+    "passage": "Docks Pub Crawl Love",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1962_5_3_7|",
+    "original": "\"Sorry guys. No points.\" They boo. \"You lot don't know nothing,\" the <<person>> says.",
+    "translation": "",
+    "pos": 2336
+  },
+  {
+    "passage": "Docks Pub Crawl Love",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1966_5_3_7|",
+    "original": "<<link [[Next|Docks Pub Crawl Quiz]]>><</link>>",
+    "translation": "",
+    "pos": 2440
+  },
+  {
+    "passage": "Docks Fake ID",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1972_5_3_7|",
+    "original": "You flag down a manager.",
+    "translation": "",
+    "pos": 37
+  },
+  {
+    "passage": "Docks Fake ID",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1975_5_3_7|",
+    "original": "\"Need something?\" <<he>> asks, only partially paying attention to you. \"You know we can't let you work today.\"",
+    "translation": "",
+    "pos": 72
+  },
+  {
+    "passage": "Docks Fake ID",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1978_5_3_7|",
+    "original": "\"I'm not actually a student anymore<<if $speech_attitude is \"meek\">>...\" you mumble,<<else>>,\" you say,<</if>> handing <<him>> the fake ID you purchased from Briar.",
+    "translation": "",
+    "pos": 193
+  },
+  {
+    "passage": "Docks Fake ID",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1981_5_3_7|",
+    "original": "<<He>> examines it briefly, then hands it back to you. \"So you aren't,\" <<he>> says, making a note of something on <<his>> clipboard. \"In that case, you're allowed to work during the week, starting now.\"",
+    "translation": "",
+    "pos": 368
+  },
+  {
+    "passage": "Docks Fake ID",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1984_5_3_7|",
+    "original": "The two of you hear a loud bang from across the docks. \"Woah, careful over there!\" <<he>> yells as <<he>> jogs off towards the source of the noise. \"Do you idiots have any idea how much that equipment costs?!\"",
+    "translation": "",
+    "pos": 582
+  },
+  {
+    "passage": "Docks Fake ID",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1987_5_3_7|",
+    "original": "<<He>> doesn't look back, apparently done with you.",
+    "translation": "",
+    "pos": 802
+  },
+  {
+    "passage": "Docks Fake ID",
+    "filepath": "overworld-town/loc-docks/main.twee",
+    "key": "1990_5_3_7|",
+    "original": "<<link [[Next|Docks]]>><<endevent>><<pass 2>><<set $idDocksReveal to 2>><</link>>",
+    "translation": "",
+    "pos": 864
+  }
+]

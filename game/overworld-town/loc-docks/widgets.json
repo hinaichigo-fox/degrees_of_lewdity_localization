@@ -1,0 +1,1634 @@
+[
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "6_5_3_7|",
+    "original": "You find your clothes where you left them.",
+    "translation": "",
+    "pos": 85
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "18_5_3_7|",
+    "original": "A <<generate1>><<person1>><<person>> approaches you, smiling. \"Rope accident?\" <<he>> asks. \"Come here, I'll sort it out.\"",
+    "translation": "",
+    "pos": 299
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "21_5_3_7|",
+    "original": "<<link [[Accept|Docks Binding]]>><</link>>",
+    "translation": "",
+    "pos": 434
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "23_5_3_7|",
+    "original": "<<link [[Refuse|Docks Binding Refuse]]>><</link>>",
+    "translation": "",
+    "pos": 484
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "29_5_3_7|",
+    "original": "<<ind>><<link [[Work (1:00)|Docks Work]]>><<set $phase to 0>><<tiredness 6>><</link>><<gtiredness>>",
+    "translation": "",
+    "pos": 593
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "31_5_3_7|",
+    "original": "<<ind>><<link [[Slack (1:00)|Docks Work]]>><<set $phase to 1>><<dockstatus -1>><</link>><<lcool>>",
+    "translation": "",
+    "pos": 700
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "34_5_3_7|",
+    "original": "<<docksicon>><<link [[Leave|Docks]]>><<storeon \"docks\">><</link>>",
+    "translation": "",
+    "pos": 810
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "41_5_3_7|",
+    "original": "<span class=\"green\">The other workers respect you.</span>",
+    "translation": "",
+    "pos": 1008
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "43_5_3_7|",
+    "original": "<span class=\"teal\">The other workers accept you.</span>",
+    "translation": "",
+    "pos": 1099
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "45_5_3_7|",
+    "original": "<span class=\"lblue\">The other workers tolerate you.</span>",
+    "translation": "",
+    "pos": 1188
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "47_5_3_7|",
+    "original": "<span class=\"blue\">The other workers view you with suspicion.</span>",
+    "translation": "",
+    "pos": 1280
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "49_5_3_7|",
+    "original": "<span class=\"purple\">The other workers view you with contempt.</span>",
+    "translation": "",
+    "pos": 1361
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "65_5_3_7|",
+    "original": "You've pushed yourself too much.",
+    "translation": "",
+    "pos": 1718
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "70_5_3_7|",
+    "original": "<<link [[Next|Passout Docks]]>><</link>>",
+    "translation": "",
+    "pos": 1822
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "77_5_3_7|",
+    "original": "You help put away equipment and make sure the containers are locked for the night.",
+    "translation": "",
+    "pos": 1954
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "80_5_3_7|",
+    "original": "You join the queue in front of security, where a surly <<generate1>><<person1>><<person>> hands out brown envelopes containing the day's pay.",
+    "translation": "",
+    "pos": 2070
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "83_5_3_7|",
+    "original": "You make <span class=\"gold\">£<<print (($dockwage * 12) / 100)>></span>.",
+    "translation": "",
+    "pos": 2236
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "88_5_3_7|",
+    "original": "<<generate1>><<person1>>A group of your colleagues gather at the gate. A <<person>> waves you over. \"We're going on a pub crawl,\" <<he>> says. \"You'd be welcome to join us, but...\"",
+    "translation": "",
+    "pos": 2424
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "89_5_3_7|",
+    "original": "<<He>> looks down at your <<bellyDescription \"pc\">>. \"I'm sure you don't want your kid coming out as messed up as any of us.\" They share a playful laugh with you.",
+    "translation": "",
+    "pos": 2609
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "92_5_3_7|",
+    "original": "<<link [[Next|Docks]]>><</link>>",
+    "translation": "",
+    "pos": 2806
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "95_5_3_7|",
+    "original": "<<generate1>><<person1>>A group of your colleagues gather at the gate. A <<person>> waves you over. \"We're going on a pub crawl,\" <<he>> says. \"You in?\"",
+    "translation": "",
+    "pos": 2864
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "99_5_3_7|",
+    "original": "<span class=\"blue\">You can't bring yourself to a night of such debauchery while you know you're with child.</span><br>",
+    "translation": "",
+    "pos": 3115
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "101_5_3_7|",
+    "original": "<<ind>><<link [[Accept (1:00 £5)|Docks Pub Crawl]]>><<set $dockpubcount to 0>><<money -500>><<alcohol 120>><<dockstatus 1>><<stress -6>><<pass 60>><</link>><<gcool>><<lstress>>",
+    "translation": "",
+    "pos": 3269
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "104_5_3_7|",
+    "original": "<<refuseicon>><<link [[Decline|Docks]]>><</link>>",
+    "translation": "",
+    "pos": 3472
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "108_5_3_7|",
+    "original": "<<link [[Next|Docks]]>><</link>>",
+    "translation": "",
+    "pos": 3556
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "113_5_3_7|",
+    "original": "You're tasked with inspecting the contents of the containers after they're lifted from the deck.",
+    "translation": "",
+    "pos": 3641
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "116_5_3_7|",
+    "original": "<<generatey1>><<generate2>><<person2>>You hear a muffled cry from one of them.",
+    "translation": "",
+    "pos": 3819
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "118_5_3_7|",
+    "original": "You enter the keycode, but it doesn't unlock. \"Not that one,\" another docker says. <<He>> points at the initials printed on the door. \"We don't inspect these.\" If <<he>> hears the crying, <<he>> ignores it.",
+    "translation": "",
+    "pos": 3915
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "123_5_3_7|",
+    "original": "You think you'd be able to pick the lock, <span class=\"blue\">if your arms weren't bound.</span>",
+    "translation": "",
+    "pos": 4277
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "127_5_3_7|",
+    "original": "<span class=\"green\">The lock looks easy to pick.</span>",
+    "translation": "",
+    "pos": 4438
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "129_5_3_7|",
+    "original": "<<lockicon \"pick\">><<link [[Break in anyway (£100 1:00)|Docks Slave Open]]>><<handheldon>><<set $dockslave to 1>><<crimeUp 1 \"trespassing\">><</link>><<crime \"trespassing\">>",
+    "translation": "",
+    "pos": 4515
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "133_5_3_7|",
+    "original": "<span class=\"red\">The lock looks beyond your ability to pick.</span><<skulduggeryrequired>>",
+    "translation": "",
+    "pos": 4730
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "136_5_3_7|",
+    "original": "<<getouticon>><<link [[Ignore the voice|Docks Slave Ignore]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 4852
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "141_5_3_7|",
+    "original": "Many containers contain goods ordered by private citizens. A package in one of them is torn open, and something glints from inside.",
+    "translation": "",
+    "pos": 4999
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "143_5_3_7|",
+    "original": "<<link [[Steal|Docks Steal]]>><<crimeUp 60 \"thievery\">><<set $blackmoney += 60>><</link>><<crime \"thievery\">>",
+    "translation": "",
+    "pos": 5150
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "145_5_3_7|",
+    "original": "<<link [[Don't steal|Docks Don't Steal]]>><</link>>",
+    "translation": "",
+    "pos": 5275
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "148_5_3_7|",
+    "original": "There's lots of machinery. You don't understand what it's for, but it's all tagged properly.",
+    "translation": "",
+    "pos": 5355
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "154_5_3_7|",
+    "original": "A vessel requests help making it to the dock. You, a <<generate1>><<person1>><<person>>, and a <<generate2>><<person2>><<person>> are tasked with helping. You board a small ship and sail to meet it.",
+    "translation": "",
+    "pos": 5534
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "158_5_3_7|",
+    "original": "You're halfway there when the <<person>> cuts out the engine. <<He>> and the <<person1>><<person>> stare at you. \"A fresh <<girl>>, all alone at sea,\" <<he>> says. \"Hows about you let us have some fun, and we won't need to hurt you.\" The <<person>> brandishes a length of rope.",
+    "translation": "",
+    "pos": 5852
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "160_5_3_7|",
+    "original": "<<link [[Nod|Docks Rape]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 6147
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "162_5_3_7|",
+    "original": "<<link [[Fight|Docks Rape]]>><<set $fightstart to 1>><</link>>",
+    "translation": "",
+    "pos": 6227
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "164_5_3_7|",
+    "original": "<<link [[Capsize the boat|Docks Rape Capsize]]>><<dockstatus -1>><</link>><<lcool>>",
+    "translation": "",
+    "pos": 6303
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "167_5_3_7|",
+    "original": "The <<person>> guides the captain while you and the <<person1>><<person>> help the crew with the spring lines. <<if $exposed gte 1>>The sailors ogle you, though they try to hide it. <</if>>You swing the vessel around and make a successful landing.",
+    "translation": "",
+    "pos": 6412
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "173_5_3_7|",
+    "original": "A tourist vessel cuts across the docks, delaying the launch of other ships. They won't respond to hails. You're sent in a small boat to deliver a message.",
+    "translation": "",
+    "pos": 6749
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "177_5_3_7|",
+    "original": "You climb aboard. The arrival of an undressed <<girl>> aboard the ship sends murmurs through the well-dressed crowd. You find the captain flirting with a passenger. <<He>> drops <<his>> glass when <<he>> sees you.",
+    "translation": "",
+    "pos": 6973
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "179_5_3_7|",
+    "original": "You climb aboard and push through the well-dressed crowd in search of the captain. You find <<him>> flirting with a passenger.",
+    "translation": "",
+    "pos": 7203
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "183_5_3_7|",
+    "original": "\"Please <<sir>>,\" you say. \"Your ship isn't meant to approach this way. You're blocking other ships.\"",
+    "translation": "",
+    "pos": 7395
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "185_5_3_7|",
+    "original": "\"Sorry to interrupt,\" you say. \"But your dumb arse is about to collide with another ship.\"",
+    "translation": "",
+    "pos": 7544
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "187_5_3_7|",
+    "original": "\"I'm delivering a message,\" you say. \"Your course is wrong. You need to pull away and approach from the proper angle. You're delaying other ships.\"",
+    "translation": "",
+    "pos": 7651
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "190_5_3_7|",
+    "original": "\"They can wait,\" <<he>> laughs. \"Lots of important passengers. They're anxious to be back on land.\" <<He>> turns away.",
+    "translation": "",
+    "pos": 7825
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "192_5_3_7|",
+    "original": "<<link [[Return to dock|Docks Tourist Return]]>><</link>>",
+    "translation": "",
+    "pos": 7959
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "195_5_3_7|",
+    "original": "<<link [[Seduce|Docks Tourist Seduce]]>><</link>><<promiscuous4>>",
+    "translation": "",
+    "pos": 8068
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "199_5_3_7|",
+    "original": "<<link [[Scare the passengers|Docks Tourist Intimidate]]>><<dockstatus 3>><</link>><<defianttext>><<ggcool>>",
+    "translation": "",
+    "pos": 8188
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "203_5_3_7|",
+    "original": "You're tasked with unloading a lorry. You notice another vehicle being unloaded nearby, but the workers wear a strange uniform. A <<generate1>><<person1>><<generate2>><<person>> supervises them.",
+    "translation": "",
+    "pos": 8345
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "205_5_3_7|",
+    "original": "\"Don't pay them no mind,\" the <<person2>><<person>> working beside you says. \"They handle their own shipments.\"",
+    "translation": "",
+    "pos": 8555
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "207_5_3_7|",
+    "original": "<<sneakicon>><<link [[Sneak closer for a look|Docks Compound]]>><<drugs 240>><<stress -6>><</link>><<garousal>><<lstress>>",
+    "translation": "",
+    "pos": 8682
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "209_5_3_7|",
+    "original": "<<ind>><<link [[Ignore|Docks Compound Ignore]]>><</link>>",
+    "translation": "",
+    "pos": 8816
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "212_5_3_7|",
+    "original": "You're tasked with recording cargo information onto a computer. While working through the notes you notice an inconsistency.",
+    "translation": "",
+    "pos": 8910
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "214_5_3_7|",
+    "original": "<<link [[Examine the inconsistency|Docks Examine]]>><<set $phase to 0>><<stress 6>><</link>><<skill_difficulty `currentSkillValue(\"maths\")` \"Maths\" 1 1000>><<gstress>>",
+    "translation": "",
+    "pos": 9050
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "218_5_3_7|",
+    "original": "<<link [[Note the location of valuable goods|Docks Examine Valuables]]>><<set $phase to 2>><</link>><<skulduggerydifficulty>>",
+    "translation": "",
+    "pos": 9323
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "221_5_3_7|",
+    "original": "<<link [[Ignore|Docks Examine]]>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 9472
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "224_5_3_7|",
+    "original": "You're tasked with cleaning the pier.",
+    "translation": "",
+    "pos": 9570
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "227_5_3_7|",
+    "original": "You notice a pink shape in the water, in front of an approaching ship.",
+    "translation": "",
+    "pos": 9645
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "230_5_3_7|",
+    "original": "<<link [[Examine|Docks History]]>><<set $phase to 0>><<stress 6>><</link>><<note \"History\" \"blue\">><<gstress>>",
+    "translation": "",
+    "pos": 9785
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "232_5_3_7|",
+    "original": "<<link [[Ignore|Docks History]]>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 9909
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "235_5_3_7|",
+    "original": "You finish without a problem.",
+    "translation": "",
+    "pos": 9996
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "240_5_3_7|",
+    "original": "You're tasked with moving some crates so they can be loaded onto vehicles. <<generate1>><<person1>>\"You'll need a forklift,\" the supervisor says. \"Let me find the keys.\"",
+    "translation": "",
+    "pos": 10098
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "243_5_3_7|",
+    "original": "The crates don't look too heavy. By the time <<he>> returns you've already finished. \"You're stronger than you look,\" <<he>> chuckles.",
+    "translation": "",
+    "pos": 10334
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "248_5_3_7|",
+    "original": "<<He>> keeps an eye on you as you move the crates, but you manage it without a problem.",
+    "translation": "",
+    "pos": 10548
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "254_5_3_7|",
+    "original": "You're tasked with untying a moored ship from the pier. The ropes are thick and heavy, and you don't have long before another ship needs the space.",
+    "translation": "",
+    "pos": 10709
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "257_5_3_7|",
+    "original": "You make it in time.",
+    "translation": "",
+    "pos": 10949
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "260_5_3_7|",
+    "original": "You manage to make it in time. Just.",
+    "translation": "",
+    "pos": 10999
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "262_5_3_7|",
+    "original": "<span class=\"pink\">It's sort of miraculous that you did so while your legs were restrained.</span>",
+    "translation": "",
+    "pos": 11072
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "275_5_3_7|",
+    "original": "You're tasked with lubricating machinery.",
+    "translation": "",
+    "pos": 11434
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "277_5_3_7|",
+    "original": "You manage it without a problem.",
+    "translation": "",
+    "pos": 11509
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "281_5_3_7|",
+    "original": "You're working on a crane when it roars to life, and the boom rises. You find yourself yanked upwards by a hook embedded in your $worn.over_lower.name.",
+    "translation": "",
+    "pos": 11634
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "283_5_3_7|",
+    "original": "<<generate1>><<person1>>The crane stops, leaving you suspended in the air. The <<person>> manning the crane waves at you as you spin. Other dockers step into view. They whistle and applaud.",
+    "translation": "",
+    "pos": 11803
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "288_5_3_7|",
+    "original": "Your weight tears you free of your clothing. <<generate2>><<person2>>A <<person>> catches you. <<He>> ogles your <<lewdness>>. So does everyone else. <<covered>> You squirm free and dash for safety, chased by jeers. You find a sheet to cover with.",
+    "translation": "",
+    "pos": 12177
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "295_5_3_7|",
+    "original": "Your weight tears you free from your <<print $worn.over_lower.name>>.",
+    "translation": "",
+    "pos": 12620
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "297_5_3_7|",
+    "original": "Your weight tears you free from the hook.",
+    "translation": "",
+    "pos": 12710
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "299_5_3_7|",
+    "original": "<<generate2>><<person2>>A <<person>> catches you, but you squirm free.",
+    "translation": "",
+    "pos": 12770
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "302_5_3_7|",
+    "original": "<<link [[Get angry|Docks Angry]]>><<stress -3>><<dockstatus 1>><</link>><<gcool>><<lstress>>",
+    "translation": "",
+    "pos": 12879
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "304_5_3_7|",
+    "original": "<<link [[Walk away|Docks Walk]]>><</link>>",
+    "translation": "",
+    "pos": 12987
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "308_5_3_7|",
+    "original": "You're working on a crane when it roars to life, and the boom rises. You find yourself yanked upwards by a hook embedded in your $worn.lower.name.",
+    "translation": "",
+    "pos": 13068
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "310_5_3_7|",
+    "original": "<<generate1>><<person1>>The crane stops, leaving you suspended in the air. The <<person>> manning the crane waves at you as you spin. Other dockers step into view. They whistle and applaud.",
+    "translation": "",
+    "pos": 13232
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "315_5_3_7|",
+    "original": "Your weight tears you free of your clothing. <<generate2>><<person2>>A <<person>> catches you. <<He>> ogles your <<lewdness>>. So does everyone else. <<covered>> You squirm free and dash for safety, chased by jeers. You find a sheet to cover with.",
+    "translation": "",
+    "pos": 13552
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "321_5_3_7|",
+    "original": "Your weight tears you free from the hook. <<generate2>><<person2>>A <<person>> catches you, but you squirm free.",
+    "translation": "",
+    "pos": 13949
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "324_5_3_7|",
+    "original": "<<link [[Get angry|Docks Angry]]>><<stress -3>><<dockstatus 1>><</link>><<gcool>><<lstress>>",
+    "translation": "",
+    "pos": 14100
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "326_5_3_7|",
+    "original": "<<link [[Walk away|Docks Walk]]>><</link>>",
+    "translation": "",
+    "pos": 14208
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "331_5_3_7|",
+    "original": "You lift crates from a moored ship, and drop them off on the dock. They're small compared to the rest of the cargo, but heavy.",
+    "translation": "",
+    "pos": 14298
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "333_5_3_7|",
+    "original": "You have no trouble. You keep going while the other dockers stop to rest.",
+    "translation": "",
+    "pos": 14534
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "337_5_3_7|",
+    "original": "You manage to keep up with the other dockers.",
+    "translation": "",
+    "pos": 14763
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "340_5_3_7|",
+    "original": "So heavy you don't even make it off the deck before stopping to rest. The other dockers make several deliveries before you make one.",
+    "translation": "",
+    "pos": 14838
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "342_5_3_7|",
+    "original": "<span class=\"pink\">Your bound arms make the process far more difficult than it would otherwise be as you can't manage a proper grip.</span>",
+    "translation": "",
+    "pos": 15032
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "345_5_3_7|",
+    "original": "You're struggling with the second crate when a muscular docker takes it from your hands. \"Last one,\" <<generate1>><<person1>><<he>> says. <<He>> doesn't look at you.",
+    "translation": "",
+    "pos": 15201
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "363_5_3_7|",
+    "original": "<<link [[Stop|High Street]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 15673
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "365_5_3_7|",
+    "original": "<<link [[Stop|Harvest Street]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 15779
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "367_5_3_7|",
+    "original": "<<link [[Stop|Connudatus Street]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 15891
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "369_5_3_7|",
+    "original": "<<link [[Stop|Barb Street]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 16000
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "371_5_3_7|",
+    "original": "<<link [[Stop|Mer Street]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 16086
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "378_5_3_7|",
+    "original": "<<link [[Continue (1:00 £5)|Docks Pub Crawl]]>><<set $dockpubcount to 0>><<money -500>><<alcohol 120>><<dockstatus 1>><<stress -6>><<pass 60>><</link>><<gcool>><<lstress>>",
+    "translation": "",
+    "pos": 16248
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "387_5_3_7|",
+    "original": "is science.",
+    "translation": "",
+    "pos": 16521
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "390_5_3_7|",
+    "original": "<<link [[Let your colleagues answer|Docks Pub Crawl Science]]>><<set $phase2 to 0>><</link>>",
+    "translation": "",
+    "pos": 16547
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "392_5_3_7|",
+    "original": "<<link [[Answer yourself|Docks Pub Crawl Science]]>><<set $phase2 to 1>><</link>><<skill_difficulty `currentSkillValue(\"science\")` \"Science\" 1 1000>>",
+    "translation": "",
+    "pos": 16649
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "394_5_3_7|",
+    "original": "<<link [[Give the wrong answers|Docks Pub Crawl Science]]>><<set $phase2 to 2>><</link>>",
+    "translation": "",
+    "pos": 16808
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "399_5_3_7|",
+    "original": "is arithmetic. One of your colleagues gets their fingers ready for counting.",
+    "translation": "",
+    "pos": 16932
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "402_5_3_7|",
+    "original": "<<link [[Let your colleagues answer|Docks Pub Crawl Maths]]>><<set $phase2 to 0>><</link>>",
+    "translation": "",
+    "pos": 17023
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "404_5_3_7|",
+    "original": "<<link [[Answer yourself|Docks Pub Crawl Maths]]>><<set $phase2 to 1>><</link>><<skill_difficulty `currentSkillValue(\"maths\")` \"Maths\" 1 1000>>",
+    "translation": "",
+    "pos": 17123
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "406_5_3_7|",
+    "original": "<<link [[Give the wrong answers|Docks Pub Crawl Maths]]>><<set $phase2 to 2>><</link>>",
+    "translation": "",
+    "pos": 17276
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "411_5_3_7|",
+    "original": "is literature.",
+    "translation": "",
+    "pos": 17398
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "414_5_3_7|",
+    "original": "<<link [[Let your colleagues answer|Docks Pub Crawl English]]>><<set $phase2 to 0>><</link>>",
+    "translation": "",
+    "pos": 17427
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "416_5_3_7|",
+    "original": "<<link [[Answer yourself|Docks Pub Crawl English]]>><<set $phase2 to 1>><</link>><<englishdifficulty 1 1000>>",
+    "translation": "",
+    "pos": 17529
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "418_5_3_7|",
+    "original": "<<link [[Give the wrong answers|Docks Pub Crawl English]]>><<set $phase2 to 2>><</link>>",
+    "translation": "",
+    "pos": 17648
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "423_5_3_7|",
+    "original": "is local history.",
+    "translation": "",
+    "pos": 17772
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "426_5_3_7|",
+    "original": "<<link [[Let your colleagues answer|Docks Pub Crawl History]]>><<set $phase2 to 0>><</link>>",
+    "translation": "",
+    "pos": 17804
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "428_5_3_7|",
+    "original": "<<link [[Answer yourself|Docks Pub Crawl History]]>><<set $phase2 to 1>><</link>><<skill_difficulty `currentSkillValue(\"history\")` \"History\" 1 1000>>",
+    "translation": "",
+    "pos": 17906
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "430_5_3_7|",
+    "original": "<<link [[Give the wrong answers|Docks Pub Crawl History]]>><<set $phase2 to 2>><</link>>",
+    "translation": "",
+    "pos": 18065
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "435_5_3_7|",
+    "original": "is lovemaking, which prompts a bawdy cheer. Your colleagues insist this will be easy.",
+    "translation": "",
+    "pos": 18175
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "438_5_3_7|",
+    "original": "<<link [[Let your colleagues answer|Docks Pub Crawl Love]]>><<set $phase2 to 0>><</link>>",
+    "translation": "",
+    "pos": 18275
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "440_5_3_7|",
+    "original": "<<link [[Answer yourself|Docks Pub Crawl Love]]>><<set $phase2 to 1>><<dockstatus 1>><</link>><<skill_difficulty $promiscuity \"Promiscuity\" 1 100>><<gcool>>",
+    "translation": "",
+    "pos": 18374
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "442_5_3_7|",
+    "original": "<<link [[Give the wrong answers|Docks Pub Crawl Love]]>><<set $phase2 to 2>><<dockstatus 1>><</link>><<gcool>>",
+    "translation": "",
+    "pos": 18540
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "526_5_3_7|",
+    "original": "<<case \"NW\">>",
+    "translation": "",
+    "pos": 21332
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "528_5_3_7|",
+    "original": "<<case \"N\">>",
+    "translation": "",
+    "pos": 21386
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "530_5_3_7|",
+    "original": "<<case \"NE\">>",
+    "translation": "",
+    "pos": 21444
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "532_5_3_7|",
+    "original": "<<case \"W\">>",
+    "translation": "",
+    "pos": 21499
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "534_5_3_7|",
+    "original": "<<case \"M\">>",
+    "translation": "",
+    "pos": 21550
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "536_5_3_7|",
+    "original": "<<case \"E\">>",
+    "translation": "",
+    "pos": 21629
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "538_5_3_7|",
+    "original": "<<case \"SW\">>",
+    "translation": "",
+    "pos": 21689
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "540_5_3_7|",
+    "original": "<<case \"S\">>",
+    "translation": "",
+    "pos": 21755
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "542_5_3_7|",
+    "original": "<<case \"SE\">>",
+    "translation": "",
+    "pos": 21810
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "545_5_3_7|",
+    "original": "<<print _text_output>>",
+    "translation": "",
+    "pos": 21876
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "550_5_3_7|",
+    "original": "<<sneakicon>><<link [[Sneak to the anchored ship (0:05)|Docks Sneak]]>><<pass 5>><<set $bus to \"NW\">><</link>><<skul_dock_state NW>>",
+    "translation": "",
+    "pos": 21961
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "554_5_3_7|",
+    "original": "<<sneakicon>><<link [[Sneak off the ship (0:05)|Docks Sneak]]>><<pass 5>><<set $bus to \"NW\">><</link>><<skul_dock_state NW>>",
+    "translation": "",
+    "pos": 22132
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "558_5_3_7|",
+    "original": "<<sneakicon>><<link [[Sneak aboard the anchored ship (0:05)|Docks Sneak]]>><<pass 5>><<set $bus to \"N\">><</link>><<skul_dock_state N>>",
+    "translation": "",
+    "pos": 22296
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "562_5_3_7|",
+    "original": "<<sneakicon>><<link [[Sneak to the warehouse (0:05)|Docks Sneak]]>><<pass 5>><<set $bus to \"NE\">><</link>><<skul_dock_state NE>>",
+    "translation": "",
+    "pos": 22469
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "566_5_3_7|",
+    "original": "<<sneakicon>><<link [[Sneak to the cranes (0:05)|Docks Sneak]]>><<pass 5>><<set $bus to \"W\">><</link>><<skul_dock_state W>>",
+    "translation": "",
+    "pos": 22653
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "570_5_3_7|",
+    "original": "<<sneakicon>><<link [[Sneak to the tallest stacks of cargo containers (0:05)|Docks Sneak]]>><<pass 5>><<set $bus to \"M\">><</link>><<skul_dock_state M>>",
+    "translation": "",
+    "pos": 22815
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "574_5_3_7|",
+    "original": "<<sneakicon>><<link [[Sneak to the office (0:05)|Docks Sneak]]>><<pass 5>><<set $bus to \"E\">><</link>><<skul_dock_state E>>",
+    "translation": "",
+    "pos": 23037
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "578_5_3_7|",
+    "original": "<<sneakicon>><<link [[Sneak to the lorry unloading area (0:05)|Docks Sneak]]>><<pass 5>><<set $bus to \"SW\">><</link>><<skul_dock_state SW>>",
+    "translation": "",
+    "pos": 23214
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "582_5_3_7|",
+    "original": "<<sneakicon>><<link [[Sneak to the gate (0:05)|Docks Sneak]]>><<pass 5>><<set $bus to \"S\">><</link>><<skul_dock_state S>>",
+    "translation": "",
+    "pos": 23409
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "587_5_3_7|",
+    "original": "<<sneakicon>><<link [[Sneak to the car park (0:05)|Docks Sneak]]>><<pass 5>><<set $bus to \"SE\">><</link>><<skul_dock_state SE>>",
+    "translation": "",
+    "pos": 23591
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "591_5_3_7|",
+    "original": "<<docksicon>><<link [[Leave|Docks]]>><<set $bus to \"mer\">><</link>>",
+    "translation": "",
+    "pos": 23757
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "600_5_3_7|",
+    "original": "<span class=\"purple\">The containers here contain nothing of value to you.</span>",
+    "translation": "",
+    "pos": 24012
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "602_5_3_7|",
+    "original": "<span class=\"purple\">The containers here contain nothing of value to you.</span>",
+    "translation": "",
+    "pos": 24177
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "604_5_3_7|",
+    "original": "<span class=\"teal\">A container here contains valuable <<print $skul_dock[_args[0]].contents>>.</span>",
+    "translation": "",
+    "pos": 24274
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "607_5_3_7|",
+    "original": "<span class=\"lblue\">You've checked here.</span>",
+    "translation": "",
+    "pos": 24441
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "609_5_3_7|",
+    "original": "<span class=\"blue\">Unknown contents.</span>",
+    "translation": "",
+    "pos": 24503
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "619_5_3_7|",
+    "original": "You hear footsteps approach. You take cover behind a container, and wait for the noise to pass. You exhale.<<gstress>><<stress 6>>",
+    "translation": "",
+    "pos": 24720
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "622_5_3_7|",
+    "original": "<<link [[Next|Docks Sneak]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 24867
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "626_5_3_7|",
+    "original": "Torchlight appears on the container in front of you. Whoever's holding it is close, and getting closer.",
+    "translation": "",
+    "pos": 25012
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "628_5_3_7|",
+    "original": "You look around. The containers are packed tight. You could run the way you came, but it's some distance and you don't have long.",
+    "translation": "",
+    "pos": 25131
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "631_5_3_7|",
+    "original": "<<link [[Hide|Docks Hide]]>><</link>><<skulduggerydifficulty>>",
+    "translation": "",
+    "pos": 25317
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "633_5_3_7|",
+    "original": "<<link [[Run|Docks Run]]>><<crimeUp 100 \"trespassing\">><<tiredness 6>><<dock_security 1>><</link>><<crime \"trespassing\">><<gtiredness>><<gsecurity>>",
+    "translation": "",
+    "pos": 25391
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "636_5_3_7|",
+    "original": "<<link [[Squeeze between the containers|Docks Squeeze]]>><</link>><<small_text>>",
+    "translation": "",
+    "pos": 25585
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "641_5_3_7|",
+    "original": "You hear a patter of feet on the other side of a row of containers.",
+    "translation": "",
+    "pos": 25752
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "644_5_3_7|",
+    "original": "You peer between them, and see a <<beasttype>> <<if $monster is 1>>on all fours <</if>>sniffing the ground. You walked there not long ago. <<bHe>> has your scent.",
+    "translation": "",
+    "pos": 25892
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "647_5_3_7|",
+    "original": "\"This way!\" <<bhe>> exclaims, breaking into a run.",
+    "translation": "",
+    "pos": 26095
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "649_5_3_7|",
+    "original": "<<bHe>> barks and breaks into a run.",
+    "translation": "",
+    "pos": 26162
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "651_5_3_7|",
+    "original": "You glimpse someone in a security uniform following.",
+    "translation": "",
+    "pos": 26213
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "653_5_3_7|",
+    "original": "They'll find you soon.",
+    "translation": "",
+    "pos": 26281
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "656_5_3_7|",
+    "original": "<<ind>><<link [[Ambush|Docks Ambush]]>><<dock_security 1>><</link>><<gsecurity>>",
+    "translation": "",
+    "pos": 26320
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "659_5_3_7|",
+    "original": "<<skinicon \"strip\">><<link [[Sacrifice your outfit to leave a false trail|Docks Sacrifice]]>><<set $phase to 0>><<dock_security -1>><</link>><<lsecurity>>",
+    "translation": "",
+    "pos": 26458
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "663_5_3_7|",
+    "original": "<<skinicon \"strip\">><<link [[Sacrifice your top to leave a false trail|Docks Sacrifice]]>><<set $phase to 1>><<dock_security -1>><</link>><<lsecurity>>",
+    "translation": "",
+    "pos": 26681
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "667_5_3_7|",
+    "original": "<<skinicon \"strip\">><<link [[Sacrifice your bottoms to leave a false trail|Docks Sacrifice]]>><<set $phase to 2>><<dock_security -1>><</link>><<lsecurity>>",
+    "translation": "",
+    "pos": 26902
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "672_5_3_7|",
+    "original": "<<skinicon \"strip\">><<link [[Sacrifice your under outfit to leave a false trail|Docks Sacrifice]]>><<set $phase to 3>><<dock_security -1>><</link>><<lsecurity>>",
+    "translation": "",
+    "pos": 27152
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "676_5_3_7|",
+    "original": "<<skinicon \"strip\">><<link [[Sacrifice your under top to leave a false trail|Docks Sacrifice]]>><<set $phase to 4>><<dock_security -1>><</link>><<lsecurity>>",
+    "translation": "",
+    "pos": 27387
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "680_5_3_7|",
+    "original": "<<skinicon \"strip\">><<link [[Sacrifice your underwear to leave a false trail|Docks Sacrifice]]>><<set $phase to 5>><<dock_security -1>><</link>><<lsecurity>>",
+    "translation": "",
+    "pos": 27620
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "685_5_3_7|",
+    "original": "<<swimicon \"dive\">><<link [[Dive into the sea|Docks Dive]]>><</link>>",
+    "translation": "",
+    "pos": 27869
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "690_5_3_7|",
+    "original": "You hear a click underfoot. <span class=\"red\">INTRUDER DETECTED.</span> Intones a voice. \"DO NOT RESIST.\" A hatch springs open, and metal arms shoot out.",
+    "translation": "",
+    "pos": 27986
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "693_5_3_7|",
+    "original": "<<link [[Dodge|Docks Machine Dodge]]>><</link>><<dancedifficulty 500 1200>>",
+    "translation": "",
+    "pos": 28156
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "695_5_3_7|",
+    "original": "<<link [[Struggle|Docks Machine Struggle]]>><</link>><<physiquedifficulty 12000 20000>>",
+    "translation": "",
+    "pos": 28243
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "697_5_3_7|",
+    "original": "<<link [[Go quietly|Docks Machine Brace]]>><</link>>",
+    "translation": "",
+    "pos": 28342
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "701_5_3_7|",
+    "original": "A <<person>> in a security uniform rounds a corner up ahead. You dive between two containers. You don't think <<he>> saw you.",
+    "translation": "",
+    "pos": 28454
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "703_5_3_7|",
+    "original": "As <<he>> passes by however, <<he>> reaches into your hiding place. \"Got you,\" <<he>> says, grasping your arm and pulling you out.",
+    "translation": "",
+    "pos": 28612
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "705_5_3_7|",
+    "original": "<<He>> reaches for <<his>> radio. \"Got the blighter,\" <<he>> says, shoving you against a container. \"Roger.\" <<He>> lets the radio fall to <<his>> side. \"Backup will be here soon. How's about we have a little fun while we wait?\"",
+    "translation": "",
+    "pos": 28760
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "708_5_3_7|",
+    "original": "<<link [[Next|Docks Sneak Rape]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 29007
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "711_5_3_7|",
+    "original": "<<He>> passes without looking.<<gstress>><<stress 6>>",
+    "translation": "",
+    "pos": 29106
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "714_5_3_7|",
+    "original": "<<link [[Next|Docks Sneak]]>><<set $eventskip to 1>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 29178
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "721_5_3_7|",
+    "original": "<span class=\"red\">You slip!</span> Something slick, like oil, covers the ground.",
+    "translation": "",
+    "pos": 29326
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "724_5_3_7|",
+    "original": "<<link [[Hold out your arms|Docks Slip]]>><<pain 8>><<stress 6>><</link>><<ggpain>><<gstress>>",
+    "translation": "",
+    "pos": 29423
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "726_5_3_7|",
+    "original": "<<link [[Try to stay upright|Docks Upright]]>><</link>><<dancedifficulty 400 1200>>",
+    "translation": "",
+    "pos": 29529
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "730_5_3_7|",
+    "original": "Moonlight reflects off the ocean. It captures you for a moment.<<lstress>><<stress -6>>",
+    "translation": "",
+    "pos": 29678
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "733_5_3_7|",
+    "original": "A cool breeze ruffles your hair.",
+    "translation": "",
+    "pos": 29795
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "736_5_3_7|",
+    "original": "<<link [[Next|Docks Sneak]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 29855
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "740_5_3_7|",
+    "original": "You hear voices up ahead. Two guards are in the way.",
+    "translation": "",
+    "pos": 29999
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "744_5_3_7|",
+    "original": "<<link [[Find a different way (0:10)|Docks Find]]>><<pass 10>><<dock_security 1>><</link>><<gsecurity>>",
+    "translation": "",
+    "pos": 30109
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "746_5_3_7|",
+    "original": "<<sneakicon>><<link [[Sneak by|Docks Sneak By]]>><</link>><<skulduggerydifficulty>>",
+    "translation": "",
+    "pos": 30224
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "749_5_3_7|",
+    "original": "You're quiet as you move through the dark, but you're leaving traces of yourself. Security is paying more attention.<<gsecurity>><<dock_security 1>>",
+    "translation": "",
+    "pos": 30342
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "752_5_3_7|",
+    "original": "<<link [[Next|Docks Sneak]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 30507
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "756_5_3_7|",
+    "original": "There's a security camera up ahead. You avoid it. <span class=\"green\">You're glad you spotted it in time.</span>",
+    "translation": "",
+    "pos": 30667
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "759_5_3_7|",
+    "original": "<<link [[Next|Docks Sneak]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 30798
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "762_5_3_7|",
+    "original": "You spot a security camera <span class=\"red\">too late.</span> You hide, but anyone paying attention would have seen you.<<gsecurity>><<dock_security 1>><<crimeUp 10 \"trespassing\">><<crime \"trespassing\">>",
+    "translation": "",
+    "pos": 30885
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "765_5_3_7|",
+    "original": "<<link [[Next|Docks Sneak]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 31107
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "769_5_3_7|",
+    "original": "These containers all look alike. They stack high around you. For a while, you're not quite sure where you are.<<gstress>><<stress 6>>",
+    "translation": "",
+    "pos": 31203
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "772_5_3_7|",
+    "original": "<<link [[Next|Docks Sneak]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 31353
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "786_5_3_7|",
+    "original": "<span class=\"red\">Security are on high alert.</span>",
+    "translation": "",
+    "pos": 31621
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "788_5_3_7|",
+    "original": "<span class=\"pink\">Security are aware of an intruder.</span>",
+    "translation": "",
+    "pos": 31709
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "790_5_3_7|",
+    "original": "<span class=\"purple\">Security are suspicious.</span>",
+    "translation": "",
+    "pos": 31805
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "792_5_3_7|",
+    "original": "<span class=\"teal\">Security are relaxed.</span>",
+    "translation": "",
+    "pos": 31870
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "798_5_3_7|",
+    "original": "<<He>> shines a torch on you, and laughs. \"Looks like you got more than you hoped for.\" You try to stand<<if $dock_knot>> again<</if>>, but the <<beasttype 1>> uses <<bhis 1>> weight to force you back down.",
+    "translation": "",
+    "pos": 31990
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "801_5_3_7|",
+    "original": "The <<person>> reaches for <<his>> radio. \"Yeah,\" <<he>> says. \"I got the intruder. You're gonna want to see this. <span class=\"red\">Bring everyone.\"</span>",
+    "translation": "",
+    "pos": 32209
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "805_5_3_7|",
+    "original": "<<link [[Beg|Docks Beg]]>><<sub 1>><<if $dock_knot>><<unset $dock_knot>><</if>><</link>><<submissivetext>>",
+    "translation": "",
+    "pos": 32408
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "808_5_3_7|",
+    "original": "<<link [[Plead|Docks Plead]]>><</link>>",
+    "translation": "",
+    "pos": 32532
+  },
+  {
+    "passage": "Widgets Docks",
+    "filepath": "overworld-town/loc-docks/widgets.twee",
+    "key": "810_5_3_7|",
+    "original": "<<link [[Remain silent|Docks Silent]]>><</link>>",
+    "translation": "",
+    "pos": 32579
+  }
+]

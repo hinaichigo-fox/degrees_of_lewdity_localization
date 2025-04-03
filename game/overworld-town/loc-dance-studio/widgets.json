@@ -1,0 +1,226 @@
+[
+  {
+    "passage": "Widgets Dance Studio",
+    "filepath": "overworld-town/loc-dance-studio/widgets.twee",
+    "key": "11_5_3_7|",
+    "original": "<<set _slots to _clothes.filter(item => setup.clothingLayer.torso.includes(item.slot))>>",
+    "translation": "",
+    "pos": 324
+  },
+  {
+    "passage": "Widgets Dance Studio",
+    "filepath": "overworld-town/loc-dance-studio/widgets.twee",
+    "key": "12_5_3_7|",
+    "original": "<<set _arrayClothes to _slots.map(slot => slot.name)>>",
+    "translation": "",
+    "pos": 416
+  },
+  {
+    "passage": "Widgets Dance Studio",
+    "filepath": "overworld-town/loc-dance-studio/widgets.twee",
+    "key": "13_5_3_7|",
+    "original": "<<set _them to ((_arrayClothes.length gt 1 or _slots[0].word is \"n\") ? \"them\" : \"it\")>>",
+    "translation": "",
+    "pos": 474
+  },
+  {
+    "passage": "Widgets Dance Studio",
+    "filepath": "overworld-town/loc-dance-studio/widgets.twee",
+    "key": "14_5_3_7|",
+    "original": "<<set _hooks to (_arrayClothes.length gt 1 ? \"the hooks\" : \"a hook\")>>",
+    "translation": "",
+    "pos": 565
+  },
+  {
+    "passage": "Widgets Dance Studio",
+    "filepath": "overworld-town/loc-dance-studio/widgets.twee",
+    "key": "17_5_3_7|",
+    "original": "<span class=\"purple\">",
+    "translation": "",
+    "pos": 690
+  },
+  {
+    "passage": "Widgets Dance Studio",
+    "filepath": "overworld-town/loc-dance-studio/widgets.twee",
+    "key": "18_5_3_7|",
+    "original": "You remove your _clothing, and hang _them on _hooks.",
+    "translation": "",
+    "pos": 716
+  },
+  {
+    "passage": "Widgets Dance Studio",
+    "filepath": "overworld-town/loc-dance-studio/widgets.twee",
+    "key": "21_5_3_7|",
+    "original": "<span class=\"purple\">",
+    "translation": "",
+    "pos": 794
+  },
+  {
+    "passage": "Widgets Dance Studio",
+    "filepath": "overworld-town/loc-dance-studio/widgets.twee",
+    "key": "22_5_3_7|",
+    "original": "You put your clothes on.",
+    "translation": "",
+    "pos": 820
+  },
+  {
+    "passage": "Widgets Dance Studio",
+    "filepath": "overworld-town/loc-dance-studio/widgets.twee",
+    "key": "31_5_3_7|",
+    "original": "Your clothes are hanging on the hooks on the wall.",
+    "translation": "",
+    "pos": 995
+  },
+  {
+    "passage": "Widgets Dance Studio",
+    "filepath": "overworld-town/loc-dance-studio/widgets.twee",
+    "key": "34_5_3_7|",
+    "original": "Your _clothes[0].name and _clothes[1].name are hanging on the hooks on the wall.",
+    "translation": "",
+    "pos": 1094
+  },
+  {
+    "passage": "Widgets Dance Studio",
+    "filepath": "overworld-town/loc-dance-studio/widgets.twee",
+    "key": "37_5_3_7|",
+    "original": "Your _clothes[0].name is hanging on one of the hooks.",
+    "translation": "",
+    "pos": 1200
+  },
+  {
+    "passage": "Widgets Dance Studio",
+    "filepath": "overworld-town/loc-dance-studio/widgets.twee",
+    "key": "40_5_3_7|",
+    "original": "<<clothingicon _clothes[0] _clothes[0].slot>><<link [[Change to your clothes|$passage]]>><<set $eventskip to 1>><<set $wearoutfittext to 2>><<storeload _store_location>><</link>>",
+    "translation": "",
+    "pos": 1277
+  },
+  {
+    "passage": "Widgets Dance Studio",
+    "filepath": "overworld-town/loc-dance-studio/widgets.twee",
+    "key": "43_5_3_7|",
+    "original": "You could equip a leotard or similar dance clothes here.",
+    "translation": "",
+    "pos": 1478
+  },
+  {
+    "passage": "Widgets Dance Studio",
+    "filepath": "overworld-town/loc-dance-studio/widgets.twee",
+    "key": "51_5_3_7|",
+    "original": "<<link [[Strip down to your dance clothes|$passage]]>>",
+    "translation": "",
+    "pos": 1870
+  },
+  {
+    "passage": "Widgets Dance Studio",
+    "filepath": "overworld-town/loc-dance-studio/widgets.twee",
+    "key": "67_5_3_7|",
+    "original": "<<if $wardrobe.under_upper.filter(a => a.type.includes(\"dance\")) lte 0>>",
+    "translation": "",
+    "pos": 2442
+  },
+  {
+    "passage": "Widgets Dance Studio",
+    "filepath": "overworld-town/loc-dance-studio/widgets.twee",
+    "key": "68_5_3_7|",
+    "original": "//You currently have no dancing clothes.//",
+    "translation": "",
+    "pos": 2518
+  },
+  {
+    "passage": "Widgets Dance Studio",
+    "filepath": "overworld-town/loc-dance-studio/widgets.twee",
+    "key": "70_5_3_7|",
+    "original": "//Dancing clothes://",
+    "translation": "",
+    "pos": 2575
+  },
+  {
+    "passage": "Widgets Dance Studio",
+    "filepath": "overworld-town/loc-dance-studio/widgets.twee",
+    "key": "85_5_3_7|",
+    "original": "You pay the receptionist who ushers you through the door to the left. You enter into a large room with wood panel floors and mirrors lining the walls. A dozen people are already inside. It's easy to pick out the instructor. Hands on hips, <<he>> stands addressing the class, explaining the importance of a proper posture.",
+    "translation": "",
+    "pos": 2886
+  },
+  {
+    "passage": "Widgets Dance Studio",
+    "filepath": "overworld-town/loc-dance-studio/widgets.twee",
+    "key": "87_5_3_7|",
+    "original": "The door closes behind you, alerting <<him>> to your presence. <<He>> turns <<his>> emerald eyes to you and smiles. \"We have a new student! Welcome.\" Short ginger hair crowns <<his>> freckled face. <<His>> skintight outfit shows off <<his>> toned and athletic body.",
+    "translation": "",
+    "pos": 3219
+  },
+  {
+    "passage": "Widgets Dance Studio",
+    "filepath": "overworld-town/loc-dance-studio/widgets.twee",
+    "key": "90_5_3_7|",
+    "original": "<<His>> generous breasts are held close to <<his>> torso, giving <<him>> a slim outline.",
+    "translation": "",
+    "pos": 3525
+  },
+  {
+    "passage": "Widgets Dance Studio",
+    "filepath": "overworld-town/loc-dance-studio/widgets.twee",
+    "key": "92_5_3_7|",
+    "original": "<<His>> breasts are held close to <<his>> torso, giving <<him>> a slim outline.",
+    "translation": "",
+    "pos": 3657
+  },
+  {
+    "passage": "Widgets Dance Studio",
+    "filepath": "overworld-town/loc-dance-studio/widgets.twee",
+    "key": "94_5_3_7|",
+    "original": "<<His>> small breasts are pressed flat against <<his>> torso, giving <<him>> a slim outline.",
+    "translation": "",
+    "pos": 3780
+  },
+  {
+    "passage": "Widgets Dance Studio",
+    "filepath": "overworld-town/loc-dance-studio/widgets.twee",
+    "key": "96_5_3_7|",
+    "original": "<<His>> flat chest gives <<him>> a slim outline.",
+    "translation": "",
+    "pos": 3885
+  },
+  {
+    "passage": "Widgets Dance Studio",
+    "filepath": "overworld-town/loc-dance-studio/widgets.twee",
+    "key": "100_5_3_7|",
+    "original": "You can't help but notice the bulge of <<his>> penis pressing against <<his>> bottoms.",
+    "translation": "",
+    "pos": 3981
+  },
+  {
+    "passage": "Widgets Dance Studio",
+    "filepath": "overworld-town/loc-dance-studio/widgets.twee",
+    "key": "104_5_3_7|",
+    "original": "If <<he>> noticed your lewd gaze, <<he>> gives no sign. You should introduce yourself, but how?",
+    "translation": "",
+    "pos": 4089
+  },
+  {
+    "passage": "Widgets Dance Studio",
+    "filepath": "overworld-town/loc-dance-studio/widgets.twee",
+    "key": "107_5_3_7|",
+    "original": "<<link [[Timidly|Dance Studio Introduction]]>><<npcincr Charlie love 20>><<set $phase to 1>><</link>><<ggglove>>",
+    "translation": "",
+    "pos": 4197
+  },
+  {
+    "passage": "Widgets Dance Studio",
+    "filepath": "overworld-town/loc-dance-studio/widgets.twee",
+    "key": "109_5_3_7|",
+    "original": "<<link [[Confidently|Dance Studio Introduction]]>><<set $phase to 2>><</link>>",
+    "translation": "",
+    "pos": 4317
+  },
+  {
+    "passage": "Widgets Dance Studio",
+    "filepath": "overworld-town/loc-dance-studio/widgets.twee",
+    "key": "111_5_3_7|",
+    "original": "<<link [[Flirtatiously|Dance Studio Introduction]]>><<npcincr Charlie love -10>><<stress -12>><<trauma -6>><<set $phase to 3>><</link>><<promiscuous1>><<lllove>><<lstress>><<ltrauma>>",
+    "translation": "",
+    "pos": 4403
+  }
+]
