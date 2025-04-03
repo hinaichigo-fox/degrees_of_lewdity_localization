@@ -1,0 +1,1802 @@
+[
+  {
+    "passage": "Widgets Underground",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "32_5_3_7|",
+    "original": "<<bedicon \"zzz\">><<link [[Rest (1:00)|Underground Cell Rest]]>><<pass 1 hour>><<set $tiredness -= 1000>><</link>><<ltiredness>>",
+    "translation": "",
+    "pos": 746
+  },
+  {
+    "passage": "Widgets Underground",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "35_5_3_7|",
+    "original": "<<ind>><<link [[Talk to Robin (0:10)|Underground Cell Robin Talk]]>><<pass 10>><<stress -4>><<trauma -4>><<npcincr Robin trauma -2>><</link>><<lstress>><<ltrauma>><<lrtrauma>>",
+    "translation": "",
+    "pos": 952
+  },
+  {
+    "passage": "Widgets Underground",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "39_5_3_7|",
+    "original": "<<investigateicon>><<link [[Look for a way out|Underground Cell Look]]>><</link>>",
+    "translation": "",
+    "pos": 1186
+  },
+  {
+    "passage": "Widgets Underground",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "41_5_3_7|",
+    "original": "<<getouticon \"hole\">><<link [[Escape|Underground Escape]]>><</link>>",
+    "translation": "",
+    "pos": 1316
+  },
+  {
+    "passage": "Widgets Underground",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "43_5_3_7|",
+    "original": "<<getouticon \"hole\">><<link [[Escape|Underground Escape]]>><</link>><<small_text>>",
+    "translation": "",
+    "pos": 1461
+  },
+  {
+    "passage": "Widgets Underground",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "45_5_3_7|",
+    "original": "<<getouticon \"hole\">><<link [[Escape|Underground Escape]]>><</link>><<small_text>>",
+    "translation": "",
+    "pos": 1620
+  },
+  {
+    "passage": "Widgets Underground",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "47_5_3_7|",
+    "original": "<<getouticon \"hole\">><<link [[Escape|Underground Escape]]>><</link>><<small_text>>",
+    "translation": "",
+    "pos": 1778
+  },
+  {
+    "passage": "Widgets Underground",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "49_5_3_7|",
+    "original": "<<getouticon \"dig\">><<link [[Dig (1:00)|Underground Cell Dig]]>><<pass 1 hour>><</link>>",
+    "translation": "",
+    "pos": 1873
+  },
+  {
+    "passage": "Widgets Underground",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "52_5_3_7|",
+    "original": "<<investigateicon>><<link [[Examine the door|Underground Cell Lock]]>><</link>>",
+    "translation": "",
+    "pos": 1978
+  },
+  {
+    "passage": "Widgets Underground",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "59_5_3_7|",
+    "original": "A chill runs up your spine, a warning from some primal instinct. <span class=\"red\">Something is hunting you.</span>",
+    "translation": "",
+    "pos": 2145
+  },
+  {
+    "passage": "Widgets Underground",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "63_5_3_7|",
+    "original": "<<link [[Next|Forest]]>><<set $forest to 40>><</link>>",
+    "translation": "",
+    "pos": 2390
+  },
+  {
+    "passage": "Widgets Underground",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "69_5_3_7|",
+    "original": "<<tearful>> you sit on the mattress.",
+    "translation": "",
+    "pos": 2519
+  },
+  {
+    "passage": "Widgets Underground",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "70_5_3_7|",
+    "original": "<<if _args[0] is \"Robin\">>",
+    "translation": "",
+    "pos": 2557
+  },
+  {
+    "passage": "Widgets Underground",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "71_5_3_7|",
+    "original": "At least Robin got away.",
+    "translation": "",
+    "pos": 2586
+  },
+  {
+    "passage": "Widgets Underground",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "78_5_3_7|",
+    "original": "<<if _args[0] is \"skip\">>",
+    "translation": "",
+    "pos": 2663
+  },
+  {
+    "passage": "Widgets Underground",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "82_5_3_7|",
+    "original": "<<if _args[0] is undefined or _args[0]>>",
+    "translation": "",
+    "pos": 2726
+  },
+  {
+    "passage": "Widgets Underground",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "83_5_3_7|",
+    "original": "<<link [[Next|Underground Cell]]>><</link>>",
+    "translation": "",
+    "pos": 2769
+  },
+  {
+    "passage": "Widgets Underground",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "89_5_3_7|",
+    "original": "\"Did you hit your head?\" the <<person2>><<person>> grunts. \"It doesn't matter if <<pshe>> wants to or not. <<pShes>> yours.\"",
+    "translation": "",
+    "pos": 2883
+  },
+  {
+    "passage": "Widgets Underground",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "92_5_3_7|",
+    "original": "\"Oh yeah! I forgot this place worked like that!\" The <<person1>><<person>> claps <<his>> hands together and lunges for you.",
+    "translation": "",
+    "pos": 3020
+  },
+  {
+    "passage": "Widgets Underground",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "95_5_3_7|",
+    "original": "<<link [[Next|Underground Plant Molestation]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 3156
+  },
+  {
+    "passage": "Underground Intro",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "114_5_3_7|",
+    "original": "You and Robin are dragged through a door and down a flight of stairs. You hear the sound of rushing water.",
+    "translation": "",
+    "pos": 558
+  },
+  {
+    "passage": "Underground Intro",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "115_5_3_7|",
+    "original": "At the bottom, the person dragging you, a <<person2>><<person>>, takes off your hoods. <<He>> turns on a torch, revealing an old stone corridor leading away into darkness.",
+    "translation": "",
+    "pos": 666
+  },
+  {
+    "passage": "Underground Intro",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "119_5_3_7|",
+    "original": "After walking awhile you come to a metal door. The <<person2>><<person>> knocks, and is answered by a thin opening sliding apart near the top.",
+    "translation": "",
+    "pos": 863
+  },
+  {
+    "passage": "Underground Intro",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "120_5_3_7|",
+    "original": "It closes promptly, and the door opens.",
+    "translation": "",
+    "pos": 1007
+  },
+  {
+    "passage": "Underground Intro",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "123_5_3_7|",
+    "original": "You are forced through the door and to your knees before a <<person4>><<person>>, who crouches and grabs your neck.",
+    "translation": "",
+    "pos": 1059
+  },
+  {
+    "passage": "Underground Intro",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "124_5_3_7|",
+    "original": "<<He>> turns your head to examine one side of your face, then the other, then forces your mouth open and looks inside.",
+    "translation": "",
+    "pos": 1176
+  },
+  {
+    "passage": "Underground Intro",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "125_5_3_7|",
+    "original": "\"<<pShe>> will do,\" <<he>> says, standing up. <<if _virginityShow>>\"You said <<pshe>> was a virgin? Let's get <<pher>> on stage.\"<</if>>",
+    "translation": "",
+    "pos": 1296
+  },
+  {
+    "passage": "Underground Intro",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "128_5_3_7|",
+    "original": "<<He>> then looks at Robin and does the same before making a sly grin in the torchlight.<<person1>>\"<<He>>'ll be popular, I can tell.\"",
+    "translation": "",
+    "pos": 1445
+  },
+  {
+    "passage": "Underground Intro",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "130_5_3_7|",
+    "original": "You are dragged through a door and down a flight of steps. You hear the sound of rushing water.",
+    "translation": "",
+    "pos": 1590
+  },
+  {
+    "passage": "Underground Intro",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "131_5_3_7|",
+    "original": "At the bottom the <<person>> turns on a torch, revealing an old stone corridor leading away into darkness.",
+    "translation": "",
+    "pos": 1687
+  },
+  {
+    "passage": "Underground Intro",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "135_5_3_7|",
+    "original": "After walking awhile you come to a metal door.",
+    "translation": "",
+    "pos": 1819
+  },
+  {
+    "passage": "Underground Intro",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "136_5_3_7|",
+    "original": "The <<person2>><<person>> knocks, and is answered by a thin opening sliding apart near the top. It closes promptly, and the door opens.",
+    "translation": "",
+    "pos": 1867
+  },
+  {
+    "passage": "Underground Intro",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "141_5_3_7|",
+    "original": "You are forced through the door and to your knees before a <<person>>, who crouches and grabs your neck.",
+    "translation": "",
+    "pos": 2056
+  },
+  {
+    "passage": "Underground Intro",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "142_5_3_7|",
+    "original": "<<He>> turns your head to examine one side of your face, then the other, then forces your mouth open and looks inside.",
+    "translation": "",
+    "pos": 2162
+  },
+  {
+    "passage": "Underground Intro",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "143_5_3_7|",
+    "original": "\"<<pShe>> will do,\" <<he>> says, standing up. <<if _virginityShow>>\"You said <<pshe>> was a virgin? Let's get <<pher>> on stage.\"<</if>>",
+    "translation": "",
+    "pos": 2282
+  },
+  {
+    "passage": "Underground Intro",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "149_5_3_7|",
+    "original": "Your neck is freed only briefly. Someone closes something hard and cold around it before you are yanked to your feet and pulled away.",
+    "translation": "",
+    "pos": 2490
+  },
+  {
+    "passage": "Underground Intro",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "152_5_3_7|",
+    "original": "Someone attaches a leash to your collar, yanks you to your feet, and pulls you away.",
+    "translation": "",
+    "pos": 2652
+  },
+  {
+    "passage": "Underground Intro",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "155_5_3_7|",
+    "original": "You feel cold metal clamp around your ankles.",
+    "translation": "",
+    "pos": 2790
+  },
+  {
+    "passage": "Underground Intro",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "161_5_3_7|",
+    "original": "Robin doesn't make a sound, and in the dim light you can see <<his>> eyes are full of determination.",
+    "translation": "",
+    "pos": 2918
+  },
+  {
+    "passage": "Underground Intro",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "164_5_3_7|",
+    "original": "\"A lot of people love the types who need to be broken in,\" the <<person4>><<person>> chuckles as <<he>> clamps Robin's ankles.",
+    "translation": "",
+    "pos": 3033
+  },
+  {
+    "passage": "Underground Intro",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "166_5_3_7|",
+    "original": "Robin whimpers. \"Get used to it,\" the <<person4>><<person>> snaps. \"You're never leaving this place.\"",
+    "translation": "",
+    "pos": 3172
+  },
+  {
+    "passage": "Underground Intro",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "170_5_3_7|",
+    "original": "<<if _virginityShow>>You're helplessly watching Robin being taken away by the <<person>>.<<set $undergroundbrothelwithRobin to true>><</if>>",
+    "translation": "",
+    "pos": 3295
+  },
+  {
+    "passage": "Underground Intro",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "171_5_3_7|",
+    "original": "A <<person3>><<person>> holds the other end of your leash<<if !_virginityShow>> in one hand, and Robin's in the other<</if>>.<<He>> leads you towards a door at the far end of the room.",
+    "translation": "",
+    "pos": 3437
+  },
+  {
+    "passage": "Underground Intro",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "174_5_3_7|",
+    "original": "A <<person>> holds the other end of your leash. <<He>> leads you towards a door at the far end of the room.",
+    "translation": "",
+    "pos": 3658
+  },
+  {
+    "passage": "Underground Intro",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "181_5_3_7|",
+    "original": "<<link [[Next|Underground Virgin]]>><</link>>",
+    "translation": "",
+    "pos": 3825
+  },
+  {
+    "passage": "Underground Intro",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "183_5_3_7|",
+    "original": "<<link [[Next|Underground Intro2]]>><</link>>",
+    "translation": "",
+    "pos": 3881
+  },
+  {
+    "passage": "Underground Intro2",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "196_5_3_7|",
+    "original": "Someone grabs your leash and tugs harshly, causing you to stumble and the crowd to laugh.<<pain 4>><<gpain>>",
+    "translation": "",
+    "pos": 260
+  },
+  {
+    "passage": "Underground Intro2",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "198_5_3_7|",
+    "original": "You look around the room, but to your astonishment, no one else is trying to rape you. You try to sit up but slip in a puddle of cum, causing the crowd to laugh. Before you can finish getting up, someone pulls on your leash. They drag you on your back for several paces while you stumble to try and stand up.<<pain 2>><<gpain>>",
+    "translation": "",
+    "pos": 381
+  },
+  {
+    "passage": "Underground Intro2",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "204_5_3_7|",
+    "original": "You and Robin enter another corridor, lined on one side with metal floor hatches. The <<person3>><<person>> opens one of them, and shoves you inside. You land on something soft at least.",
+    "translation": "",
+    "pos": 812
+  },
+  {
+    "passage": "Underground Intro2",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "205_5_3_7|",
+    "original": "Soon you hear an adjacent hatch open and <<person1>>Robin lets out a yelp as you assume <<hes>> tossed in as well.",
+    "translation": "",
+    "pos": 1000
+  },
+  {
+    "passage": "Underground Intro2",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "208_5_3_7|",
+    "original": "<<person3>>\"Both of you, your role here is simple. Do as you're told. You don't want to know what happened to the last <<girl>> who made a fuss.\"",
+    "translation": "",
+    "pos": 1127
+  },
+  {
+    "passage": "Underground Intro2",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "209_5_3_7|",
+    "original": "<<He>> slams the hatch shut, plunging you into complete darkness as you hear <<his>> receding footsteps.",
+    "translation": "",
+    "pos": 1274
+  },
+  {
+    "passage": "Underground Intro2",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "212_5_3_7|",
+    "original": "You fumble around in the dark, and find you fell on what feels like a mattress. There's also a locked metal door and a tap in the corner, but the room is otherwise bare.",
+    "translation": "",
+    "pos": 1391
+  },
+  {
+    "passage": "Underground Intro2",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "215_5_3_7|",
+    "original": "<<person1>>\"Are you there?\" You hear Robin's<<if _robin.dom lte 40>> trembling<</if>> voice coming from nearby.",
+    "translation": "",
+    "pos": 1573
+  },
+  {
+    "passage": "Underground Intro2",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "216_5_3_7|",
+    "original": "As you trace the location of <<his>> voice, you find that there is a small hole in the wall that connects you.",
+    "translation": "",
+    "pos": 1686
+  },
+  {
+    "passage": "Underground Intro2",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "218_5_3_7|",
+    "original": "You enter another corridor, lined on one side with metal floor hatches. <<person2>><<He>> opens one of them, and shoves you inside. You land on something soft at least.",
+    "translation": "",
+    "pos": 1831
+  },
+  {
+    "passage": "Underground Intro2",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "221_5_3_7|",
+    "original": "\"Your role here is simple. Do as you're told. You don't want to know what happened to the last <<girl>> who made a fuss.\" <<He>> slams the hatch shut, plunging you into complete darkness.",
+    "translation": "",
+    "pos": 2012
+  },
+  {
+    "passage": "Underground Intro2",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "224_5_3_7|",
+    "original": "You fumble around in the dark, and find you fell on what feels like a mattress.\tThere's also a locked metal door and a tap in the corner, but the room is otherwise bare.",
+    "translation": "",
+    "pos": 2212
+  },
+  {
+    "passage": "Underground Intro2",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "238_5_3_7|",
+    "original": "\"cold\": \"undiscussed\",",
+    "translation": "",
+    "pos": 2648
+  },
+  {
+    "passage": "Underground Intro2",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "239_5_3_7|",
+    "original": "\"lonely\": \"undiscussed\",",
+    "translation": "",
+    "pos": 2673
+  },
+  {
+    "passage": "Underground Intro2",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "240_5_3_7|",
+    "original": "\"dark\": \"undiscussed\",",
+    "translation": "",
+    "pos": 2700
+  },
+  {
+    "passage": "Underground Intro2",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "241_5_3_7|",
+    "original": "\"scared\": \"undiscussed\",",
+    "translation": "",
+    "pos": 2725
+  },
+  {
+    "passage": "Underground Intro2",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "242_5_3_7|",
+    "original": "\"touch\": \"undiscussed\"",
+    "translation": "",
+    "pos": 2752
+  },
+  {
+    "passage": "Underground Intro2",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "248_5_3_7|",
+    "original": "<<link [[Next|Underground Cell]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 2908
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "254_5_3_7|",
+    "original": "You are in an underground cell. You can't see a thing but can tell that the walls and floor are made of cold stone.",
+    "translation": "",
+    "pos": 68
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "256_5_3_7|",
+    "original": "There's a tap in the corner which barely dribbles water.",
+    "translation": "",
+    "pos": 223
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "262_5_3_7|",
+    "original": "There's a tap in the corner, which they turned off to punish your disobedience.",
+    "translation": "",
+    "pos": 390
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "264_5_3_7|",
+    "original": "<span class=\"red\">You're dying of thirst!</span>",
+    "translation": "",
+    "pos": 513
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "267_5_3_7|",
+    "original": "<span class=\"pink\">You really need water.</span>",
+    "translation": "",
+    "pos": 682
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "270_5_3_7|",
+    "original": "<span class=\"purple\">You're very thirsty.</span>",
+    "translation": "",
+    "pos": 791
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "273_5_3_7|",
+    "original": "<span class=\"blue\">You're thirsty.</span>",
+    "translation": "",
+    "pos": 900
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "276_5_3_7|",
+    "original": "<span class=\"lblue\">You feel a bit thirsty.</span>",
+    "translation": "",
+    "pos": 1001
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "294_5_3_7|",
+    "original": "The lights flicker on for a moment. You brace yourself, but your room remains sealed. A dim white light hovers above you.",
+    "translation": "",
+    "pos": 1454
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "295_5_3_7|",
+    "original": "You look, and see a cloaked pale figure looking down to you with <<wraithEyes>> eyes.",
+    "translation": "",
+    "pos": 1577
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "297_5_3_7|",
+    "original": "It rubs a necklace of ivory around its neck.",
+    "translation": "",
+    "pos": 1699
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "301_5_3_7|",
+    "original": "It puts a hand behind your head, and tilts it up. Its other hand clenches into a fist, and from it, water begins to flow.",
+    "translation": "",
+    "pos": 1765
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "302_5_3_7|",
+    "original": "Your body goes limp in relief as you drink. <<stress -12>><<trauma -12>><<pain -50>><<lstress>><<ltrauma>><<lpain>>",
+    "translation": "",
+    "pos": 1888
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "307_5_3_7|",
+    "original": "\"<span class=\"wraith\">Disappear. Drown. Don't make me repeat myself.</span>\"",
+    "translation": "",
+    "pos": 2107
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "309_5_3_7|",
+    "original": "\"<span class=\"wraith\">Alone. Desolate. Your suffering hasn't ended.</span>\"",
+    "translation": "",
+    "pos": 2198
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "312_5_3_7|",
+    "original": "\"<span class=\"wraith\">Our suffering isn't over. <<pcPetname \"Wraith\">>.</span>\"",
+    "translation": "",
+    "pos": 2325
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "314_5_3_7|",
+    "original": "\"<span class=\"wraith\">No one deserves to die in a cage.</span>\"",
+    "translation": "",
+    "pos": 2417
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "318_5_3_7|",
+    "original": "You cough. You're standing in front of the tap. No water runs from it, but you feel better.",
+    "translation": "",
+    "pos": 2502
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "321_5_3_7|",
+    "original": "<<link [[Next|Underground Cell]]>><</link>>",
+    "translation": "",
+    "pos": 2606
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "328_5_3_7|",
+    "original": "Dim pink-hued lights turn on, bathing the room in light. Before your eyes can adjust, one of the doors opens and a number of people enter.",
+    "translation": "",
+    "pos": 2903
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "329_5_3_7|",
+    "original": "You think there are four of them.",
+    "translation": "",
+    "pos": 3043
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "331_5_3_7|",
+    "original": "They grab your arms and legs, and force you onto your back.",
+    "translation": "",
+    "pos": 3132
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "337_5_3_7|",
+    "original": "Hands grope at your clothing, pulling and tugging them off your body while a <<person>> hefts a machine to the ground.",
+    "translation": "",
+    "pos": 3257
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "338_5_3_7|",
+    "original": "Metal rails protrude from the top, and various apparatus from the middle. <<He>> examines what looks like a needle.",
+    "translation": "",
+    "pos": 3378
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "342_5_3_7|",
+    "original": "A <<person>> hefts a machine to the ground. Metal rails protrude from the top, and various apparatus from the middle.",
+    "translation": "",
+    "pos": 3566
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "343_5_3_7|",
+    "original": "<<He>> examines what looks like a needle.",
+    "translation": "",
+    "pos": 3686
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "348_5_3_7|",
+    "original": "More shackles are clasped around your wrists and ankles, attached to chains connected to the rails.",
+    "translation": "",
+    "pos": 3799
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "352_5_3_7|",
+    "original": "<<link [[Struggle|Underground Tattoo Struggle]]>><<def 1>><</link>>",
+    "translation": "",
+    "pos": 3922
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "354_5_3_7|",
+    "original": "<<link [[Lie still|Underground Tattoo Still]]>><<sub 1>><</link>>",
+    "translation": "",
+    "pos": 3997
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "361_5_3_7|",
+    "original": "The lights turn on once more, and a <<person>> enters. \"Time for your performance,\" <<he>> says, yanking your leash. \"Your friend will be accompanying us. Hope you're feeling lucky.\"",
+    "translation": "",
+    "pos": 4220
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "363_5_3_7|",
+    "original": "<<link [[Go quietly|Underground Robin Dice Intro]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 4416
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "365_5_3_7|",
+    "original": "The lights turn on once more, and a <<person>> enters. \"Time for your performance,\" <<he>> says, yanking your leash.",
+    "translation": "",
+    "pos": 4502
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "366_5_3_7|",
+    "original": "\"Make sure you dance sexy. If you don't attract a customer we'll just let the whole audience have a piece.\" <<He>> tries to pull you from the room.",
+    "translation": "",
+    "pos": 4621
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "368_5_3_7|",
+    "original": "<<link [[Go quietly|Underground Dance Intro]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 4782
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "371_5_3_7|",
+    "original": "<<link [[Resist|Underground Cell Resist]]>><<set $molestationstart to 1>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 4867
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "377_5_3_7|",
+    "original": "The lights turn on once more, and a <<person1>><<person>> enters. \"Time for another performance,\" <<he>> says, yanking your leash.",
+    "translation": "",
+    "pos": 5146
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "380_5_3_7|",
+    "original": "<<link [[Go quietly|Underground Robin Stage Intro]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 5324
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "382_5_3_7|",
+    "original": "<<link [[Go quietly|Underground Robin Tentacles Intro]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 5413
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "385_5_3_7|",
+    "original": "The lights turn on once more, and a <<person>> enters. \"You're needed,\" <<he>> says, yanking your leash.",
+    "translation": "",
+    "pos": 5514
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "387_5_3_7|",
+    "original": "<<link [[Go quietly|Underground Presentation]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 5632
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "390_5_3_7|",
+    "original": "<<link [[Resist|Underground Cell Resist]]>><<set $molestationstart to 1>><<set $phase to 2>><</link>>",
+    "translation": "",
+    "pos": 5718
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "396_5_3_7|",
+    "original": "The lights turn on once more, and a <<person>> enters. \"Time for another performance,\" <<he>> says, yanking your leash.",
+    "translation": "",
+    "pos": 5977
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "398_5_3_7|",
+    "original": "<<link [[Go quietly|Underground Robin Machine Intro]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 6110
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "400_5_3_7|",
+    "original": "The lights turn on once more, and a <<person>> enters. \"Time for another performance,\" <<he>> says, yanking your leash.",
+    "translation": "",
+    "pos": 6199
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "402_5_3_7|",
+    "original": "<<link [[Go quietly|Underground Stage Intro]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 6332
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "405_5_3_7|",
+    "original": "<<link [[Resist|Underground Cell Resist]]>><<set $molestationstart to 1>><<set $phase to 3>><</link>>",
+    "translation": "",
+    "pos": 6417
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "411_5_3_7|",
+    "original": "The lights turn on once more, and a <<person>> enters. \"Time for another performance,\" <<he>> says, yanking your leash.",
+    "translation": "",
+    "pos": 6676
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "413_5_3_7|",
+    "original": "<<link [[Go quietly|Underground Robin Kiss Intro]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 6809
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "415_5_3_7|",
+    "original": "The lights turn on once more, and a <<person>> enters. \"Time for another performance,\" <<he>> says, yanking your leash.",
+    "translation": "",
+    "pos": 6895
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "417_5_3_7|",
+    "original": "<<link [[Go quietly|Underground Film Intro]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 7028
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "420_5_3_7|",
+    "original": "<<link [[Resist|Underground Cell Resist]]>><<set $molestationstart to 1>><<set $phase to 4>><</link>>",
+    "translation": "",
+    "pos": 7112
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "426_5_3_7|",
+    "original": "The lights turn on once more, and a <<person>> enters. \"Time for some fresh air,\" <<he>> says, yanking your leash.",
+    "translation": "",
+    "pos": 7371
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "428_5_3_7|",
+    "original": "<<link [[Go quietly|Underground Robin Hunt Intro]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 7499
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "430_5_3_7|",
+    "original": "The lights turn on once more, and a <<person>> enters. \"Time for some fresh air,\" <<he>> says, yanking your leash.",
+    "translation": "",
+    "pos": 7585
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "432_5_3_7|",
+    "original": "<<link [[Go quietly|Underground Hunt Intro]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 7713
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "435_5_3_7|",
+    "original": "<<link [[Resist|Underground Cell Resist]]>><<set $molestationstart to 1>><<set $phase to 5>><</link>>",
+    "translation": "",
+    "pos": 7797
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "441_5_3_7|",
+    "original": "The lights turn on once more, and a <<fullGroup>> enter.",
+    "translation": "",
+    "pos": 8093
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "442_5_3_7|",
+    "original": "The <<person1>><<person>> crouches beside you, grabs your neck and turns you to face <<him>>.",
+    "translation": "",
+    "pos": 8152
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "443_5_3_7|",
+    "original": "\"Yep,\" <<he>> says. \"<<pHer>> lights are out. Shame, <<pshes>> a pretty little thing.\"",
+    "translation": "",
+    "pos": 8248
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "445_5_3_7|",
+    "original": "Together they lift you by the shoulders and carry you from the room.",
+    "translation": "",
+    "pos": 8348
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "446_5_3_7|",
+    "original": "They take you down a flight of steps to a large hole in the ground. They dump you in.",
+    "translation": "",
+    "pos": 8419
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "448_5_3_7|",
+    "original": "You fall through darkness for several seconds before splashing into cold water.<<silently>><<water>><</silently>>",
+    "translation": "",
+    "pos": 8518
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "453_5_3_7|",
+    "original": "<<link [[Next|Underground Lake]]>><</link>>",
+    "translation": "",
+    "pos": 8755
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "456_5_3_7|",
+    "original": "The lights turn on once more, and a <<person1>><<person>> enters, holding a hose.",
+    "translation": "",
+    "pos": 8827
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "457_5_3_7|",
+    "original": "Water shoots from the tip, knocking you prone and drenching you.",
+    "translation": "",
+    "pos": 8911
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "458_5_3_7|",
+    "original": "<<He>> walks closer and continues spraying you from multiple angles, before finally turning it off.",
+    "translation": "",
+    "pos": 8978
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "459_5_3_7|",
+    "original": "\"There we go,\" <<he>> says. \"Nice and clean.\" The door slams shut behind <<him>>, plunging you into darkness.",
+    "translation": "",
+    "pos": 9080
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "463_5_3_7|",
+    "original": "<<link [[Next|Underground Cell]]>><</link>>",
+    "translation": "",
+    "pos": 9238
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "469_5_3_7|",
+    "original": "The lights turn on once more, and a <<person1>><<person>> steps inside. <<He>> hurls a bundle of fabric at you. \"Here you go, slut,\" <<he>> says. \"Don't want you catching a chill.\" <<He>> laughs and slams the door.",
+    "translation": "",
+    "pos": 9400
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "471_5_3_7|",
+    "original": "You unfurl the fabric. It's a shirt, with the word \"Slut\" emblazoned on the front.",
+    "translation": "",
+    "pos": 9626
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "474_5_3_7|",
+    "original": "<<link [[Wear|Underground Shirt]]>><<upperwear 27>><</link>>",
+    "translation": "",
+    "pos": 9721
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "476_5_3_7|",
+    "original": "<<link [[Tear it up|Underground Shirt Tear]]>><<trauma -12>><</link>><<lltrauma>>",
+    "translation": "",
+    "pos": 9789
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "481_5_3_7|",
+    "original": "Dim pink-hued lights turn on, bathing the room in light.",
+    "translation": "",
+    "pos": 10037
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "482_5_3_7|",
+    "original": "One of the doors opens and a <<generate1>><<person1>><<person>> walks in, closing the door behind <<him>>.",
+    "translation": "",
+    "pos": 10096
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "484_5_3_7|",
+    "original": "<<He>> sizes you up as <<he>> approaches.",
+    "translation": "",
+    "pos": 10219
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "486_5_3_7|",
+    "original": "<<case 1>>\t\"You're adorable. Don't worry, I'll be gentle.\"",
+    "translation": "",
+    "pos": 10289
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "487_5_3_7|",
+    "original": "<<case 2>>\t\"Good enough. Hold still.\"",
+    "translation": "",
+    "pos": 10351
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "488_5_3_7|",
+    "original": "<<case 3>>\t\"Yes, just my style.\"",
+    "translation": "",
+    "pos": 10392
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "489_5_3_7|",
+    "original": "<<case 4>>\t\"You better be worth it <<bitch>>.\" <<set $phase to 1>>",
+    "translation": "",
+    "pos": 10428
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "490_5_3_7|",
+    "original": "<<default>>\t\"I paid good money for you. You better be worth it.\" <<set $phase to 1>>",
+    "translation": "",
+    "pos": 10498
+  },
+  {
+    "passage": "Underground Cell",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "493_5_3_7|",
+    "original": "<<link [[Next|Underground Cell Molestation]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 10610
+  },
+  {
+    "passage": "Underground Cell Rest",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "506_5_3_7|",
+    "original": "You lie on the uncomfortable mattress and close your eyes. You're not sure how long you were lying there, but you feel refreshed.",
+    "translation": "",
+    "pos": 68
+  },
+  {
+    "passage": "Underground Cell Rest",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "509_5_3_7|",
+    "original": "<<link [[Next|Underground Cell]]>><</link>>",
+    "translation": "",
+    "pos": 208
+  },
+  {
+    "passage": "Underground Cell Look",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "516_5_3_7|",
+    "original": "You carefully feel around the edge of the room, looking for anything that might help you get out. You don't find anything. Feeling helpless, you press your back against the wall of Robin's cell and slide down.",
+    "translation": "",
+    "pos": 102
+  },
+  {
+    "passage": "Underground Cell Look",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "519_5_3_7|",
+    "original": "\"Psst!\" You hear Robin's voice, and turn to look at the hole between your cells. \"There are cracks under my mattress,\" Robin whispers. \"If you dig into my cell, I could dig through the floor and get us out.\"",
+    "translation": "",
+    "pos": 324
+  },
+  {
+    "passage": "Underground Cell Look",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "522_5_3_7|",
+    "original": "You shift yourself to peer through the tiny hole into Robin's cell. <<nnpc_His \"Robin\">> mattress has been shifted aside. You can barely make out cracks in the floor. It might be your imagination, but you think you can see a tiny amount of light through them too.",
+    "translation": "",
+    "pos": 544
+  },
+  {
+    "passage": "Underground Cell Look",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "524_5_3_7|",
+    "original": "You carefully feel around the edge of the room, looking for anything that might help you get out. You don't find anything.",
+    "translation": "",
+    "pos": 818
+  },
+  {
+    "passage": "Underground Cell Look",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "525_5_3_7|",
+    "original": "Feeling helpless, you sit back down on the mattress, and feel a cool breeze caress your leg.",
+    "translation": "",
+    "pos": 942
+  },
+  {
+    "passage": "Underground Cell Look",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "526_5_3_7|",
+    "original": "You put your hands against the floor and feel it again, coming from beneath the mattress.",
+    "translation": "",
+    "pos": 1036
+  },
+  {
+    "passage": "Underground Cell Look",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "529_5_3_7|",
+    "original": "You shunt it aside and the breeze becomes unmistakable. You can feel small cracks in the ground.",
+    "translation": "",
+    "pos": 1138
+  },
+  {
+    "passage": "Underground Cell Look",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "530_5_3_7|",
+    "original": "It might be your imagination, but you think you can see a tiny amount of light through them too.",
+    "translation": "",
+    "pos": 1236
+  },
+  {
+    "passage": "Underground Cell Look",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "536_5_3_7|",
+    "original": "<<link [[Next|Underground Cell]]>><</link>>",
+    "translation": "",
+    "pos": 1437
+  },
+  {
+    "passage": "Underground Cell Dig",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "542_5_3_7|",
+    "original": "You pick at the hole connecting your cell to Robin's.",
+    "translation": "",
+    "pos": 101
+  },
+  {
+    "passage": "Underground Cell Dig",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "544_5_3_7|",
+    "original": "You pick at the loose stone beneath the mattress.",
+    "translation": "",
+    "pos": 165
+  },
+  {
+    "passage": "Underground Cell Dig",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "548_5_3_7|",
+    "original": "It'll be a squeeze, but you think you can fit.",
+    "translation": "",
+    "pos": 305
+  },
+  {
+    "passage": "Underground Cell Dig",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "550_5_3_7|",
+    "original": "<<getouticon \"hole\">><<link [[Escape|Underground Escape]]>><</link>>",
+    "translation": "",
+    "pos": 363
+  },
+  {
+    "passage": "Underground Cell Dig",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "552_5_3_7|",
+    "original": "It'll be a squeeze, but you think you can fit.",
+    "translation": "",
+    "pos": 506
+  },
+  {
+    "passage": "Underground Cell Dig",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "554_5_3_7|",
+    "original": "<<getouticon \"hole\">><<link [[Escape|Underground Escape]]>><</link>><<small_text>>",
+    "translation": "",
+    "pos": 564
+  },
+  {
+    "passage": "Underground Cell Dig",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "556_5_3_7|",
+    "original": "It'll be a squeeze, but you think you can fit.",
+    "translation": "",
+    "pos": 721
+  },
+  {
+    "passage": "Underground Cell Dig",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "558_5_3_7|",
+    "original": "<<getouticon \"hole\">><<link [[Escape|Underground Escape]]>><</link>><<small_text>>",
+    "translation": "",
+    "pos": 779
+  },
+  {
+    "passage": "Underground Cell Dig",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "560_5_3_7|",
+    "original": "It'll be a squeeze, but you think you can fit.",
+    "translation": "",
+    "pos": 935
+  },
+  {
+    "passage": "Underground Cell Dig",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "562_5_3_7|",
+    "original": "<<getouticon \"hole\">><<link [[Escape|Underground Escape]]>><</link>><<small_text>>",
+    "translation": "",
+    "pos": 993
+  },
+  {
+    "passage": "Underground Cell Dig",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "564_5_3_7|",
+    "original": "The hole needs to be just a bit bigger and you'll be able to fit through.",
+    "translation": "",
+    "pos": 1122
+  },
+  {
+    "passage": "Underground Cell Dig",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "567_5_3_7|",
+    "original": "You can definitely break through, it just needs to be bigger.",
+    "translation": "",
+    "pos": 1277
+  },
+  {
+    "passage": "Underground Cell Dig",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "569_5_3_7|",
+    "original": "There's definitely a way out here, it just needs to be bigger.",
+    "translation": "",
+    "pos": 1351
+  },
+  {
+    "passage": "Underground Cell Dig",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "572_5_3_7|",
+    "original": "The hole grows wider.",
+    "translation": "",
+    "pos": 1468
+  },
+  {
+    "passage": "Underground Cell Dig",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "574_5_3_7|",
+    "original": "Some of the cracks grow into a small hole.",
+    "translation": "",
+    "pos": 1535
+  },
+  {
+    "passage": "Underground Cell Dig",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "576_5_3_7|",
+    "original": "You make the cracks a bit bigger.",
+    "translation": "",
+    "pos": 1588
+  },
+  {
+    "passage": "Underground Cell Dig",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "580_5_3_7|",
+    "original": "<<getouticon>><<link [[Stop|Underground Cell]]>><</link>>",
+    "translation": "",
+    "pos": 1640
+  },
+  {
+    "passage": "Underground Cell Lock",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "586_5_3_7|",
+    "original": "The metal door is locked tight. It uses an advanced electronic lock.",
+    "translation": "",
+    "pos": 89
+  },
+  {
+    "passage": "Underground Cell Lock",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "589_5_3_7|",
+    "original": "<span class=\"green\">You think you could manipulate it.</span>",
+    "translation": "",
+    "pos": 218
+  },
+  {
+    "passage": "Underground Cell Lock",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "591_5_3_7|",
+    "original": "<<link [[Open it (0:05)|Underground Cell Sneak]]>><<pass 5>><</link>>",
+    "translation": "",
+    "pos": 291
+  },
+  {
+    "passage": "Underground Cell Lock",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "594_5_3_7|",
+    "original": "<span class=\"red\">The lock looks beyond your ability to pick.</span><<skulduggeryrequired>>",
+    "translation": "",
+    "pos": 377
+  },
+  {
+    "passage": "Underground Cell Lock",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "598_5_3_7|",
+    "original": "<<link [[Stop|Underground Cell]]>><</link>>",
+    "translation": "",
+    "pos": 533
+  },
+  {
+    "passage": "Underground Cell Sneak",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "604_5_3_7|",
+    "original": "No lock is going to stop you. You open the door and sneak out, tiptoeing across the plush carpet. You hear laughter and music up ahead.",
+    "translation": "",
+    "pos": 68
+  },
+  {
+    "passage": "Underground Cell Sneak",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "605_5_3_7|",
+    "original": "You peek round the corner and see",
+    "translation": "",
+    "pos": 204
+  },
+  {
+    "passage": "Underground Cell Sneak",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "607_5_3_7|",
+    "original": "Whitney",
+    "translation": "",
+    "pos": 279
+  },
+  {
+    "passage": "Underground Cell Sneak",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "609_5_3_7|",
+    "original": "a <<persony>>",
+    "translation": "",
+    "pos": 297
+  },
+  {
+    "passage": "Underground Cell Sneak",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "611_5_3_7|",
+    "original": "getting brutally fucked on stage as a crowd of <<people>> watch.",
+    "translation": "",
+    "pos": 319
+  },
+  {
+    "passage": "Underground Cell Sneak",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "612_5_3_7|",
+    "original": "With the exception of the stage, the lights have been switched off, leaving the edge of the room in darkness.",
+    "translation": "",
+    "pos": 384
+  },
+  {
+    "passage": "Underground Cell Sneak",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "617_5_3_7|",
+    "original": "You sneak back to Robin's cell. It's unlocked from this side, fortunately.",
+    "translation": "",
+    "pos": 604
+  },
+  {
+    "passage": "Underground Cell Sneak",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "619_5_3_7|",
+    "original": "Robin cringes and turns <<his>> head away, as if expecting to be beaten,",
+    "translation": "",
+    "pos": 731
+  },
+  {
+    "passage": "Underground Cell Sneak",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "621_5_3_7|",
+    "original": "Robin gulps and shrinks away as the door opens,",
+    "translation": "",
+    "pos": 816
+  },
+  {
+    "passage": "Underground Cell Sneak",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "623_5_3_7|",
+    "original": "but relief floods <<his>> face when <<he>> sees that it's you. You raise your finger to your lips, but <<he>> seemingly already knows to be quiet.",
+    "translation": "",
+    "pos": 874
+  },
+  {
+    "passage": "Underground Cell Sneak",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "627_5_3_7|",
+    "original": "You slink into the room and round the side. No one notices you. You make it to the other side and up the stairs, emerging in the forest.",
+    "translation": "",
+    "pos": 1040
+  },
+  {
+    "passage": "Underground Cell Sneak",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "629_5_3_7|",
+    "original": "<<badEndTrackingEnd \"Underground Dungeon\" { reason: _robin ? \"uDungeonLakeRobin\" : \"uDungeonLake\" }>>",
+    "translation": "",
+    "pos": 1186
+  },
+  {
+    "passage": "Underground Cell Sneak",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "633_5_3_7|",
+    "original": "<<link [[Next|Underground Robin Escape Orphanage]]>><<set $phase to 1>><<set $stress -= 1000>><</link>>",
+    "translation": "",
+    "pos": 1322
+  },
+  {
+    "passage": "Underground Cell Sneak",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "635_5_3_7|",
+    "original": "<<link [[Next|Forest]]>><<set $forest to 40>><<set $stress -= 1000>><</link>>",
+    "translation": "",
+    "pos": 1436
+  },
+  {
+    "passage": "Underground Escape",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "642_5_3_7|",
+    "original": "\"I'm done on my end,\" Robin calls out, half-whispered. \"Can you make it through?\"",
+    "translation": "",
+    "pos": 102
+  },
+  {
+    "passage": "Underground Escape",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "646_5_3_7|",
+    "original": "\"Y-yeah! Let's hurry!\"",
+    "translation": "",
+    "pos": 234
+  },
+  {
+    "passage": "Underground Escape",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "648_5_3_7|",
+    "original": "\"Don't give them a chance to stop us!\"",
+    "translation": "",
+    "pos": 298
+  },
+  {
+    "passage": "Underground Escape",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "650_5_3_7|",
+    "original": "\"Let's go!\"",
+    "translation": "",
+    "pos": 349
+  },
+  {
+    "passage": "Underground Escape",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "652_5_3_7|",
+    "original": "You quickly squeeze through the hole and into Robin's cell.",
+    "translation": "",
+    "pos": 371
+  },
+  {
+    "passage": "Underground Escape",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "655_5_3_7|",
+    "original": "Robin immediately hugs you as you enter. \"Let's get out of here!\" Robin helps you into the hole and as you carefully lower yourself down you see Robin squeezing in after you.",
+    "translation": "",
+    "pos": 443
+  },
+  {
+    "passage": "Underground Escape",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "656_5_3_7|",
+    "original": "<<nnpc_He \"Robin\">> makes sure to use the mattress to hide the hole as <<nnpc_he \"Robin\">> does so.",
+    "translation": "",
+    "pos": 619
+  },
+  {
+    "passage": "Underground Escape",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "658_5_3_7|",
+    "original": "You sit on the edge with your legs hanging over the hole. You feel a slope. You carefully lower yourself down, pulling the mattress over as you do.",
+    "translation": "",
+    "pos": 729
+  },
+  {
+    "passage": "Underground Escape",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "659_5_3_7|",
+    "original": "Relying on your hands at least as much as your feet, you scramble downwards.",
+    "translation": "",
+    "pos": 878
+  },
+  {
+    "passage": "Underground Escape",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "663_5_3_7|",
+    "original": "The stone gives way and you fall several feet into cold water.",
+    "translation": "",
+    "pos": 973
+  },
+  {
+    "passage": "Underground Escape",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "666_5_3_7|",
+    "original": "<<link [[Next|Underground Lake]]>><<set $stress -= 1000>><</link>>",
+    "translation": "",
+    "pos": 1046
+  },
+  {
+    "passage": "Underground Lake",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "675_5_3_7|",
+    "original": "<<set _drown to ($wraith.state is \"haunt\" ? \"Drown\" : \"Don't\")>>",
+    "translation": "",
+    "pos": 258
+  },
+  {
+    "passage": "Underground Lake",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "676_5_3_7|",
+    "original": "<<ind>><<ind>><<ind>><span class=\"wraith-flicker\">_drown</span>",
+    "translation": "",
+    "pos": 324
+  },
+  {
+    "passage": "Underground Lake",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "682_5_3_7|",
+    "original": "You are pulled through the dark by a current. You've read about these tunnels, and should be able to influence where you end up.",
+    "translation": "",
+    "pos": 475
+  },
+  {
+    "passage": "Underground Lake",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "685_5_3_7|",
+    "original": "<<link [[Near the shore|Underground Lake2]]>><<set $sea to 10>><</link>>",
+    "translation": "",
+    "pos": 616
+  },
+  {
+    "passage": "Underground Lake",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "687_5_3_7|",
+    "original": "<<link [[Further out at sea|Underground Lake2]]>><<set $sea to 50>><</link>>",
+    "translation": "",
+    "pos": 696
+  },
+  {
+    "passage": "Underground Lake",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "690_5_3_7|",
+    "original": "You are pulled through the dark by a current. Without warning, you are sucked underwater.",
+    "translation": "",
+    "pos": 793
+  },
+  {
+    "passage": "Underground Lake",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "691_5_3_7|",
+    "original": "You try to fight it, but the force is too strong. After a few moments, the darkness gives way to light, and you are pushed upwards.",
+    "translation": "",
+    "pos": 884
+  },
+  {
+    "passage": "Underground Lake",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "692_5_3_7|",
+    "original": "You struggle further up, and emerge into the <<print Time.dayState>>.",
+    "translation": "",
+    "pos": 1017
+  },
+  {
+    "passage": "Underground Lake",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "698_5_3_7|",
+    "original": "Robin eventually bobs to the surface next to you.",
+    "translation": "",
+    "pos": 1178
+  },
+  {
+    "passage": "Underground Lake",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "702_5_3_7|",
+    "original": "<<He>> does <<his>> best to stay afloat, but <<his>> rapid breathing doesn't help <<him>>.",
+    "translation": "",
+    "pos": 1301
+  },
+  {
+    "passage": "Underground Lake",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "703_5_3_7|",
+    "original": "\"Grab on!\" <<he>> shouts as you drift closer to <<him>>. \"We can't get separated out here!\"",
+    "translation": "",
+    "pos": 1395
+  },
+  {
+    "passage": "Underground Lake",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "704_5_3_7|",
+    "original": "You get close and let <<him>> latch on to you.",
+    "translation": "",
+    "pos": 1490
+  },
+  {
+    "passage": "Underground Lake",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "707_5_3_7|",
+    "original": "<<He>> seems to be struggling to stay afloat against the waves.",
+    "translation": "",
+    "pos": 1583
+  },
+  {
+    "passage": "Underground Lake",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "708_5_3_7|",
+    "original": "\"H-help!\" <<he>> coughs out as you get close and let <<him>> latch onto you.",
+    "translation": "",
+    "pos": 1650
+  },
+  {
+    "passage": "Underground Lake",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "712_5_3_7|",
+    "original": "<<link [[Swim to shore|Underground Robin Escape Swim]]>><</link>><<swimmingdifficulty 1 _swimtestdiff>>",
+    "translation": "",
+    "pos": 1751
+  },
+  {
+    "passage": "Underground Lake",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "715_5_3_7|",
+    "original": "<<link [[Next|Sea]]>><<set $sea to 50>><</link>>",
+    "translation": "",
+    "pos": 1874
+  },
+  {
+    "passage": "Underground Lake",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "720_5_3_7|",
+    "original": "<<badEndTrackingEnd \"Underground Dungeon\" { reason: _robin ? \"uDungeonLakeRobin\" : \"uDungeonLake\" }>>",
+    "translation": "",
+    "pos": 1963
+  },
+  {
+    "passage": "Underground Lake",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "724_5_3_7|",
+    "original": "<<ind>><<ind>><<ind>><<ind>><<ind>><<ind>><span class=\"wraith-flicker\">_drown</span>",
+    "translation": "",
+    "pos": 2129
+  },
+  {
+    "passage": "Underground Lake",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "725_5_3_7|",
+    "original": "<br><br><br><br><br><br><span class=\"wraith-flicker\">_drown</span>",
+    "translation": "",
+    "pos": 2215
+  },
+  {
+    "passage": "Underground Lake2",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "731_5_3_7|",
+    "original": "The current sucks you underwater. After a few moments, the darkness gives way to light, and you are pushed upwards.",
+    "translation": "",
+    "pos": 68
+  },
+  {
+    "passage": "Underground Lake2",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "732_5_3_7|",
+    "original": "You struggle further, and emerge into the <<print Time.dayState>>.",
+    "translation": "",
+    "pos": 184
+  },
+  {
+    "passage": "Underground Lake2",
+    "filepath": "overworld-underground/loc-underground/main.twee",
+    "key": "734_5_3_7|",
+    "original": "<<link [[Next|Sea]]>><</link>>",
+    "translation": "",
+    "pos": 260
+  }
+]

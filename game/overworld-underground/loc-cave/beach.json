@@ -1,0 +1,290 @@
+[
+  {
+    "passage": "Beach Cave",
+    "filepath": "overworld-underground/loc-cave/beach.twee",
+    "key": "11_5_3_7|",
+    "original": "You are in a cave along the coast. Bioluminescent lichen clings to the walls.",
+    "translation": "",
+    "pos": 199
+  },
+  {
+    "passage": "Beach Cave",
+    "filepath": "overworld-underground/loc-cave/beach.twee",
+    "key": "14_5_3_7|",
+    "original": "<span class=\"lblue\">You're at the back of the cave.</span> A decayed wooden throne sits in front of you.",
+    "translation": "",
+    "pos": 308
+  },
+  {
+    "passage": "Beach Cave",
+    "filepath": "overworld-underground/loc-cave/beach.twee",
+    "key": "16_5_3_7|",
+    "original": "A chest sits there.",
+    "translation": "",
+    "pos": 449
+  },
+  {
+    "passage": "Beach Cave",
+    "filepath": "overworld-underground/loc-cave/beach.twee",
+    "key": "19_5_3_7|",
+    "original": "Your feet are submerged in rushing water.",
+    "translation": "",
+    "pos": 503
+  },
+  {
+    "passage": "Beach Cave",
+    "filepath": "overworld-underground/loc-cave/beach.twee",
+    "key": "21_5_3_7|",
+    "original": "Water comes up to your waist.",
+    "translation": "",
+    "pos": 570
+  },
+  {
+    "passage": "Beach Cave",
+    "filepath": "overworld-underground/loc-cave/beach.twee",
+    "key": "23_5_3_7|",
+    "original": "Water comes up to your neck.",
+    "translation": "",
+    "pos": 624
+  },
+  {
+    "passage": "Beach Cave",
+    "filepath": "overworld-underground/loc-cave/beach.twee",
+    "key": "25_5_3_7|",
+    "original": "Water comes up to your neck. The cave ceiling dips beneath the surface nearby. That way leads outside, but you'll need to swim.",
+    "translation": "",
+    "pos": 663
+  },
+  {
+    "passage": "Beach Cave",
+    "filepath": "overworld-underground/loc-cave/beach.twee",
+    "key": "30_5_3_7|",
+    "original": "You hear an echo of voices, and see the passage to the smuggler's den hidden behind a rock.",
+    "translation": "",
+    "pos": 875
+  },
+  {
+    "passage": "Beach Cave",
+    "filepath": "overworld-underground/loc-cave/beach.twee",
+    "key": "33_5_3_7|",
+    "original": "You hear an echo of voices. You think of the smuggler's den you read about in history class. It was in a cave like this.",
+    "translation": "",
+    "pos": 1115
+  },
+  {
+    "passage": "Beach Cave",
+    "filepath": "overworld-underground/loc-cave/beach.twee",
+    "key": "53_5_3_7|",
+    "original": "<<ind>><<link [[Follow the tunnel to the smuggler's pub (0:05)|Smuggler Pub]]>><<pass 5>><<beach_cave_end>><</link>>",
+    "translation": "",
+    "pos": 1689
+  },
+  {
+    "passage": "Beach Cave",
+    "filepath": "overworld-underground/loc-cave/beach.twee",
+    "key": "56_5_3_7|",
+    "original": "<<ind>><<link [[Follow the tunnel to the smuggler's pub (0:05)|Smuggler Pub Beach Cave Intro]]>><<pass 5>><<beach_cave_end>><</link>>",
+    "translation": "",
+    "pos": 1953
+  },
+  {
+    "passage": "Beach Cave",
+    "filepath": "overworld-underground/loc-cave/beach.twee",
+    "key": "60_5_3_7|",
+    "original": "<<caveicon \"west\">><<link [[Journey deeper (0:10)|Beach Cave]]>><<set $cave += 5>><<pass 10>><</link>>",
+    "translation": "",
+    "pos": 2126
+  },
+  {
+    "passage": "Beach Cave",
+    "filepath": "overworld-underground/loc-cave/beach.twee",
+    "key": "63_5_3_7|",
+    "original": "<<caveicon \"treasure\">><<link [[Open chest|Beach Cave Open]]>><<set $weekly.beachCaveCompass to true>><</link>>",
+    "translation": "",
+    "pos": 2276
+  },
+  {
+    "passage": "Beach Cave",
+    "filepath": "overworld-underground/loc-cave/beach.twee",
+    "key": "67_5_3_7|",
+    "original": "<<caveicon \"sea\">><<link [[Journey towards the sea (0:10)|Beach Cave]]>><<set $cave -= 5>><<pass 10>><</link>>",
+    "translation": "",
+    "pos": 2425
+  },
+  {
+    "passage": "Beach Cave",
+    "filepath": "overworld-underground/loc-cave/beach.twee",
+    "key": "70_5_3_7|",
+    "original": "<<swimicon \"up\">><<link [[Swim outside (0:05)|Beach Cave Up]]>><<pass 5>><</link>>",
+    "translation": "",
+    "pos": 2555
+  },
+  {
+    "passage": "Beach Cave Open",
+    "filepath": "overworld-underground/loc-cave/beach.twee",
+    "key": "80_5_3_7|",
+    "original": "You open the chest. Silver glints inside. A compass. It looks valuable. A collector would know more.",
+    "translation": "",
+    "pos": 42
+  },
+  {
+    "passage": "Beach Cave Open",
+    "filepath": "overworld-underground/loc-cave/beach.twee",
+    "key": "86_5_3_7|",
+    "original": "<<caveicon \"treasure\">><<handheldon>><<link [[Examine the chest more closely|Beach Cave Examine]]>><</link>><<skulduggerydifficulty>>",
+    "translation": "",
+    "pos": 484
+  },
+  {
+    "passage": "Beach Cave Open",
+    "filepath": "overworld-underground/loc-cave/beach.twee",
+    "key": "90_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Beach Cave]]>><<handheldon>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 633
+  },
+  {
+    "passage": "Beach Cave Examine",
+    "filepath": "overworld-underground/loc-cave/beach.twee",
+    "key": "98_5_3_7|",
+    "original": "You peer into the chest, then feel along the walls.",
+    "translation": "",
+    "pos": 14
+  },
+  {
+    "passage": "Beach Cave Examine",
+    "filepath": "overworld-underground/loc-cave/beach.twee",
+    "key": "104_5_3_7|",
+    "original": "You feel a button, barely perceptible against the wood. You don't push it. Instead, you feel with your fingertip. There's a smaller button, set into the first. You push down with a nail, and <span class=\"green\">a hidden compartment opens</span> from the base of the container.",
+    "translation": "",
+    "pos": 163
+  },
+  {
+    "passage": "Beach Cave Examine",
+    "filepath": "overworld-underground/loc-cave/beach.twee",
+    "key": "108_5_3_7|",
+    "original": "A leather scroll sits inside, bound by waxy string. You unfurl it. It's a map, and in good condition. A coastal settlement is depicted, squashed beside a forest. Lines criss-cross the sea, some of them dotted. A kraken has been drawn in the top left corner, and a dragon in the bottom right. A collector might know more.",
+    "translation": "",
+    "pos": 553
+  },
+  {
+    "passage": "Beach Cave Examine",
+    "filepath": "overworld-underground/loc-cave/beach.twee",
+    "key": "112_5_3_7|",
+    "original": "<<link [[Next|Beach Cave]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 906
+  },
+  {
+    "passage": "Beach Cave Examine",
+    "filepath": "overworld-underground/loc-cave/beach.twee",
+    "key": "117_5_3_7|",
+    "original": "You feel a button, barely perceptible against the wood. You push it. The base of the chest snaps open, <span class=\"red\">and a dart springs out.</span> It fires wide, but startles you. You drop the container. The water catches it, and sucks it down a thin crevice.<<gstress>><<stress 6>>",
+    "translation": "",
+    "pos": 976
+  },
+  {
+    "passage": "Beach Cave Examine",
+    "filepath": "overworld-underground/loc-cave/beach.twee",
+    "key": "122_5_3_7|",
+    "original": "<<link [[Next|Beach Cave]]>><</link>>",
+    "translation": "",
+    "pos": 1297
+  },
+  {
+    "passage": "Beach Cave Up",
+    "filepath": "overworld-underground/loc-cave/beach.twee",
+    "key": "131_5_3_7|",
+    "original": "You dive beneath the water, and swim. The cave curves upward.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Beach Cave Up",
+    "filepath": "overworld-underground/loc-cave/beach.twee",
+    "key": "135_5_3_7|",
+    "original": "You swim toward the moonlight above, emerging in the cold night breeze.",
+    "translation": "",
+    "pos": 138
+  },
+  {
+    "passage": "Beach Cave Up",
+    "filepath": "overworld-underground/loc-cave/beach.twee",
+    "key": "137_5_3_7|",
+    "original": "Such is the darkness that it's hard to tell which way is up. You emerge into the sea-borne rain before panic sets in.<<gstress>><<stress 6>>",
+    "translation": "",
+    "pos": 256
+  },
+  {
+    "passage": "Beach Cave Up",
+    "filepath": "overworld-underground/loc-cave/beach.twee",
+    "key": "139_5_3_7|",
+    "original": "Such is the darkness that it's hard to tell which way is up. You emerge into the cold night breeze before panic sets in.<<gstress>><<stress 6>>",
+    "translation": "",
+    "pos": 409
+  },
+  {
+    "passage": "Beach Cave Up",
+    "filepath": "overworld-underground/loc-cave/beach.twee",
+    "key": "143_5_3_7|",
+    "original": "You swim toward the sun above, emerging in the cool sea breeze.",
+    "translation": "",
+    "pos": 601
+  },
+  {
+    "passage": "Beach Cave Up",
+    "filepath": "overworld-underground/loc-cave/beach.twee",
+    "key": "145_5_3_7|",
+    "original": "You swim toward the light above, emerging in the sea-borne rain.",
+    "translation": "",
+    "pos": 711
+  },
+  {
+    "passage": "Beach Cave Up",
+    "filepath": "overworld-underground/loc-cave/beach.twee",
+    "key": "147_5_3_7|",
+    "original": "You swim toward the light above, emerging in the cool sea breeze.",
+    "translation": "",
+    "pos": 788
+  },
+  {
+    "passage": "Beach Cave Up",
+    "filepath": "overworld-underground/loc-cave/beach.twee",
+    "key": "152_5_3_7|",
+    "original": "<<link [[Next|Rocks Pool]]>><</link>>",
+    "translation": "",
+    "pos": 899
+  },
+  {
+    "passage": "Beach Cave Entrance",
+    "filepath": "overworld-underground/loc-cave/beach.twee",
+    "key": "159_5_3_7|",
+    "original": "You swim into the cave, towards the soft light. You grasp rock, and you pull yourself into a pocket of air. Bioluminescent lichen clings to the walls.",
+    "translation": "",
+    "pos": 69
+  },
+  {
+    "passage": "Beach Cave Entrance",
+    "filepath": "overworld-underground/loc-cave/beach.twee",
+    "key": "162_5_3_7|",
+    "original": "<<link [[Next|Beach Cave]]>><<set $cave to 0>><<beach_cave_init>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 230
+  },
+  {
+    "passage": "Beach Cave Pub Entrance",
+    "filepath": "overworld-underground/loc-cave/beach.twee",
+    "key": "168_5_3_7|",
+    "original": "You walk through the cave, leaving the mirth of the pub behind you. You find a rush of ankle-high water. Bioluminescent lichen clings to the walls.",
+    "translation": "",
+    "pos": 68
+  },
+  {
+    "passage": "Beach Cave Pub Entrance",
+    "filepath": "overworld-underground/loc-cave/beach.twee",
+    "key": "171_5_3_7|",
+    "original": "<<link [[Next|Beach Cave]]>><<pass 5>><<beach_cave_init>><<set $cave to 50>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 226
+  }
+]

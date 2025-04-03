@@ -1,0 +1,1570 @@
+[
+  {
+    "passage": "Smuggler Pub Intro",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "5_5_3_7|",
+    "original": "You trip up a set of stairs. Voices jeer all around. <<covered>>",
+    "translation": "",
+    "pos": 103
+  },
+  {
+    "passage": "Smuggler Pub Intro",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "8_5_3_7|",
+    "original": "\"Dance! Dance! Dance!\"",
+    "translation": "",
+    "pos": 178
+  },
+  {
+    "passage": "Smuggler Pub Intro",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "12_5_3_7|",
+    "original": "<<link [[Say you can't dance with your arms bound|Smuggler Pub Arms]]>><<set $phase to 1>><</link>><<englishdifficulty 200 1000>>",
+    "translation": "",
+    "pos": 212
+  },
+  {
+    "passage": "Smuggler Pub Intro",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "14_5_3_7|",
+    "original": "<<link [[Dance|Smuggler Pub Dance]]>><<danceinit>><<set $dancing to 1>><<set $audience to 25>><<set $venuemod to 4>><<set $timer to 24>><<set $dancelocation to \"smuggler_forced\">><<set $forceddance to 1>><</link>>",
+    "translation": "",
+    "pos": 347
+  },
+  {
+    "passage": "Smuggler Pub Intro",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "16_5_3_7|",
+    "original": "<<link [[Refuse|Smuggler Pub Refuse]]>><</link>>",
+    "translation": "",
+    "pos": 566
+  },
+  {
+    "passage": "Smuggler Pub Arms",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "24_5_3_7|",
+    "original": "\"I-I can't dance with my arms tied,\" you say.",
+    "translation": "",
+    "pos": 48
+  },
+  {
+    "passage": "Smuggler Pub Arms",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "26_5_3_7|",
+    "original": "\"How the fuck am I supposed to dance with my arms tied?\" you ask.",
+    "translation": "",
+    "pos": 135
+  },
+  {
+    "passage": "Smuggler Pub Arms",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "28_5_3_7|",
+    "original": "\"Could you untie my arms first?\" you ask. \"So I can dance properly.\"",
+    "translation": "",
+    "pos": 211
+  },
+  {
+    "passage": "Smuggler Pub Arms",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "34_5_3_7|",
+    "original": "The stage creaks as another steps onto it. \"Alright, <<girl>>,\" says a <<personsimple>>'s voice. \"But don't tire yourself. I don't want you passing out before my turn.\" A knife slices through the rope, <span class=\"green\">freeing your arms.</span>",
+    "translation": "",
+    "pos": 323
+  },
+  {
+    "passage": "Smuggler Pub Arms",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "37_5_3_7|",
+    "original": "<<link [[Dance|Smuggler Pub Dance]]>><<danceinit>><<set $dancing to 1>><<set $audience to 25>><<set $venuemod to 4>><<set $timer to 24>><<set $dancelocation to \"smuggler_forced\">><<set $forceddance to 1>><</link>>",
+    "translation": "",
+    "pos": 594
+  },
+  {
+    "passage": "Smuggler Pub Arms",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "39_5_3_7|",
+    "original": "<<link [[Refuse|Smuggler Pub Refuse]]>><</link>>",
+    "translation": "",
+    "pos": 815
+  },
+  {
+    "passage": "Smuggler Pub Arms",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "42_5_3_7|",
+    "original": "<<link [[Grab the knife|Smuggler Pub Knife]]>><</link>><<defianttext>><<dancedifficulty 200 1000>>",
+    "translation": "",
+    "pos": 900
+  },
+  {
+    "passage": "Smuggler Pub Arms",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "46_5_3_7|",
+    "original": "<span class=\"red\">They ignore you.</span> \"Dance! Dance! Dance!\" They start hammering the edge of the stage in anticipation.",
+    "translation": "",
+    "pos": 1025
+  },
+  {
+    "passage": "Smuggler Pub Arms",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "49_5_3_7|",
+    "original": "<<link [[Dance|Smuggler Pub Dance]]>><<danceinit>><<set $dancing to 1>><<set $audience to 25>><<set $venuemod to 4>><<set $timer to 24>><<set $dancelocation to \"smuggler_forced\">><<set $forceddance to 1>><</link>>",
+    "translation": "",
+    "pos": 1162
+  },
+  {
+    "passage": "Smuggler Pub Arms",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "51_5_3_7|",
+    "original": "<<link [[Refuse|Smuggler Pub Refuse]]>><</link>>",
+    "translation": "",
+    "pos": 1383
+  },
+  {
+    "passage": "Smuggler Pub Refuse",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "60_5_3_7|",
+    "original": "\"I-I won't,\" you say. \"I can't dance.\"",
+    "translation": "",
+    "pos": 48
+  },
+  {
+    "passage": "Smuggler Pub Refuse",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "62_5_3_7|",
+    "original": "\"Fuck off,\" you say. \"I'm not dancing for scum like you.\"",
+    "translation": "",
+    "pos": 128
+  },
+  {
+    "passage": "Smuggler Pub Refuse",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "64_5_3_7|",
+    "original": "\"I won't dance,\" you say. \"Let me go.\"",
+    "translation": "",
+    "pos": 196
+  },
+  {
+    "passage": "Smuggler Pub Refuse",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "68_5_3_7|",
+    "original": "\"Dance! Dance! Dance!\" It's no good.",
+    "translation": "",
+    "pos": 253
+  },
+  {
+    "passage": "Smuggler Pub Refuse",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "72_5_3_7|",
+    "original": "<<link [[Say you can't dance with your arms bound|Smuggler Pub Arms]]>><<set $phase to 1>><</link>><<englishdifficulty 200 1000>>",
+    "translation": "",
+    "pos": 373
+  },
+  {
+    "passage": "Smuggler Pub Refuse",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "75_5_3_7|",
+    "original": "<<link [[Grab the knife|Smuggler Pub Knife]]>><</link>><<defianttext>><<dancedifficulty 200 1000>>",
+    "translation": "",
+    "pos": 557
+  },
+  {
+    "passage": "Smuggler Pub Refuse",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "78_5_3_7|",
+    "original": "<<link [[Dance|Smuggler Pub Dance]]>><<danceinit>><<set $dancing to 1>><<set $audience to 25>><<set $venuemod to 4>><<set $timer to 24>><<set $dancelocation to \"smuggler_forced\">><<set $forceddance to 1>><</link>>",
+    "translation": "",
+    "pos": 670
+  },
+  {
+    "passage": "Smuggler Pub Refuse",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "80_5_3_7|",
+    "original": "<<link [[Refuse|Smuggler Pub Refuse 2]]>><</link>>",
+    "translation": "",
+    "pos": 889
+  },
+  {
+    "passage": "Smuggler Pub Refuse 2",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "88_5_3_7|",
+    "original": "You refuse again. The crowd boo, and the stage shakes as several bodies climb atop it.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Smuggler Pub Refuse 2",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "91_5_3_7|",
+    "original": "<<link [[Next|Smuggler Pub Gang Rape]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 110
+  },
+  {
+    "passage": "Smuggler Pub Knife",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "100_5_3_7|",
+    "original": "You spin and <span class=\"green\">twist the knife from the <<persons>> grip.</span> You predict <<his>> movements, ducking under <<his>> arms as you slice through your blindfold. You spin and push your knife against <<his>> throat.",
+    "translation": "",
+    "pos": 67
+  },
+  {
+    "passage": "Smuggler Pub Knife",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "105_5_3_7|",
+    "original": "The crowd roars with laughter as your eyes adjust to the light. You're stood on a stage in the middle of an open part of the cave. Tables and chairs surround you, all occupied by rough-looking <<people>>. Lights hang overhead, and the bar in the corner looks well-stocked.",
+    "translation": "",
+    "pos": 366
+  },
+  {
+    "passage": "Smuggler Pub Knife",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "107_5_3_7|",
+    "original": "You're in the smuggler's pub.",
+    "translation": "",
+    "pos": 674
+  },
+  {
+    "passage": "Smuggler Pub Knife",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "111_5_3_7|",
+    "original": "\"I'm leaving,\" you say, prompting more laughter.",
+    "translation": "",
+    "pos": 758
+  },
+  {
+    "passage": "Smuggler Pub Knife",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "113_5_3_7|",
+    "original": "\"Th-this isn't funny,\" the <<person>> stammers. \"Do what <<pshe>> says.\"",
+    "translation": "",
+    "pos": 814
+  },
+  {
+    "passage": "Smuggler Pub Knife",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "115_5_3_7|",
+    "original": "Careful not to fall, you back from the stage towards one of the exits. The one strung with more lights.",
+    "translation": "",
+    "pos": 898
+  },
+  {
+    "passage": "Smuggler Pub Knife",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "118_5_3_7|",
+    "original": "<<link [[Next|Smuggler Pub Knife 2]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 1014
+  },
+  {
+    "passage": "Smuggler Pub Knife",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "122_5_3_7|",
+    "original": "You spin and blindly reach for the knife. <span class=\"red\">The <<persons>> fist connects with your face,</span> knocking you to the floor. The crowd roars with laughter.<<gtrauma>><<gstress>><<garousal>><<trauma 6>><<stress 6>><<pain 4>>",
+    "translation": "",
+    "pos": 1093
+  },
+  {
+    "passage": "Smuggler Pub Knife",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "125_5_3_7|",
+    "original": "\"<<pShes>> a spirited one,\"",
+    "translation": "",
+    "pos": 1344
+  },
+  {
+    "passage": "Smuggler Pub Knife",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "127_5_3_7|",
+    "original": "\"Time to learn <<pher>> place.\"",
+    "translation": "",
+    "pos": 1379
+  },
+  {
+    "passage": "Smuggler Pub Knife",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "130_5_3_7|",
+    "original": "Others climb the stage.",
+    "translation": "",
+    "pos": 1423
+  },
+  {
+    "passage": "Smuggler Pub Knife",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "133_5_3_7|",
+    "original": "<<link [[Next|Smuggler Pub Gang Rape]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 1459
+  },
+  {
+    "passage": "Smuggler Pub Knife 2",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "141_5_3_7|",
+    "original": "The crowd parts to let you through, though they seem to play along for the amusement more than anything. You make it through the ring of tables, shove the <<person>> over one, and run.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Smuggler Pub Knife 2",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "144_5_3_7|",
+    "original": "Echoing laughter chases you through the cave, but they don't seem to be following.",
+    "translation": "",
+    "pos": 221
+  },
+  {
+    "passage": "Smuggler Pub Knife 2",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "150_5_3_7|",
+    "original": "You come to an old brick wall with a hole smashed through. You crawl to the other side, and almost slip on algae.",
+    "translation": "",
+    "pos": 378
+  },
+  {
+    "passage": "Smuggler Pub Knife 2",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "152_5_3_7|",
+    "original": "<<link [[Next|Sewers Algae]]>><<sewersstart>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 503
+  },
+  {
+    "passage": "Smuggler Pub Knife 2",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "155_5_3_7|",
+    "original": "You come to an old brick wall with a hole smashed through. You try to crawl through, but your hips get stuck.",
+    "translation": "",
+    "pos": 597
+  },
+  {
+    "passage": "Smuggler Pub Knife 2",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "157_5_3_7|",
+    "original": "\"Need a hand?\" asks a voice from behind. Before you can respond, a boot kicks your <<bottom>>, pushing you through and sending you skidding across algae-covered stone.",
+    "translation": "",
+    "pos": 718
+  },
+  {
+    "passage": "Smuggler Pub Knife 2",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "159_5_3_7|",
+    "original": "<<link [[Next|Sewers Intro]]>><</link>>",
+    "translation": "",
+    "pos": 897
+  },
+  {
+    "passage": "Smuggler Pub Dance",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "171_5_3_7|",
+    "original": "Being so exposed is humiliating, but there's nothing you can do.",
+    "translation": "",
+    "pos": 142
+  },
+  {
+    "passage": "Smuggler Pub Dance",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "174_5_3_7|",
+    "original": "Being so exposed is humiliating, but there's nothing you can do.",
+    "translation": "",
+    "pos": 337
+  },
+  {
+    "passage": "Smuggler Pub Dance",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "182_5_3_7|",
+    "original": "<<link [[Next|Smuggler Pub Rescue]]>><<set $enemyno to 1>><<set $enemynomax to 1>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 515
+  },
+  {
+    "passage": "Smuggler Pub Dance",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "185_5_3_7|",
+    "original": "<<link [[Next|Smuggler Pub Gang Rape]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 677
+  },
+  {
+    "passage": "Smuggler Pub Rescue",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "193_5_3_7|",
+    "original": "<span class=\"blue\">You hear a whistle,</span> and the room quiets. \"Calm down guys,\" says a <<nnpc_gender \"Wren\">>'s voice. <<if $wrenSeen?.length>><span class=\"blue\">A voice you recognise, but can't place.</span><</if>> It's coming from above. \"I think that's a good enough show. Besides, we don't know who <<pshe>> is. Someone might come looking.\"",
+    "translation": "",
+    "pos": 28
+  },
+  {
+    "passage": "Smuggler Pub Rescue",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "195_5_3_7|",
+    "original": "The owner of the voice doesn't sound much older than you, but the others heed <<nnpc_him \"Wren\">>.",
+    "translation": "",
+    "pos": 387
+  },
+  {
+    "passage": "Smuggler Pub Rescue",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "198_5_3_7|",
+    "original": "<<link [[Next|Smuggler Pub Blindfold]]>><</link>>",
+    "translation": "",
+    "pos": 496
+  },
+  {
+    "passage": "Smuggler Pub Gang Rape",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "219_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Smuggler Pub Gang Rape Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 250
+  },
+  {
+    "passage": "Smuggler Pub Gang Rape",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "221_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Smuggler Pub Gang Rape]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 351
+  },
+  {
+    "passage": "Smuggler Pub Gang Rape Finish",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "231_5_3_7|",
+    "original": "<<tearful>> you struggle to stand. The <<group>> vacate the stage, only to be replaced by others.",
+    "translation": "",
+    "pos": 103
+  },
+  {
+    "passage": "Smuggler Pub Gang Rape Finish",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "236_5_3_7|",
+    "original": "<<link [[Next|Smuggler Pub Gang Rape 2]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 319
+  },
+  {
+    "passage": "Smuggler Pub Gang Rape Finish",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "239_5_3_7|",
+    "original": "You hear the <<person1>><<person>> tumble from the stage and smash into something. <<tearful>> you jump after <<him>>. <<He>> shouts as your foot lands, and you run. It's no use. You can't see a thing, and have no clue where the exit is. You run straight into someone's arms.",
+    "translation": "",
+    "pos": 412
+  },
+  {
+    "passage": "Smuggler Pub Gang Rape Finish",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "244_5_3_7|",
+    "original": "<span class=\"blue\">You hear a whistle,</span> and the room quiets. \"Calm down guys,\" says a <<nnpc_gender \"Wren\">>'s voice. <<if $wrenSeen?.length>><span class=\"blue\">A voice you recognise, but can't place.</span><</if>> It's coming from above. \"Putting up a fight like that, I think <<pshes>> earned a chance.\"",
+    "translation": "",
+    "pos": 716
+  },
+  {
+    "passage": "Smuggler Pub Gang Rape Finish",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "246_5_3_7|",
+    "original": "The owner of the voice doesn't sound much older than you, but the others heed <<nnpc_him \"Wren\">>.",
+    "translation": "",
+    "pos": 1039
+  },
+  {
+    "passage": "Smuggler Pub Gang Rape Finish",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "249_5_3_7|",
+    "original": "<<link [[Next|Smuggler Pub Blindfold]]>><</link>>",
+    "translation": "",
+    "pos": 1150
+  },
+  {
+    "passage": "Smuggler Pub Gang Rape 2",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "273_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Smuggler Pub Gang Rape 2 Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 251
+  },
+  {
+    "passage": "Smuggler Pub Gang Rape 2",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "275_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Smuggler Pub Gang Rape 2]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 355
+  },
+  {
+    "passage": "Smuggler Pub Gang Rape 2 Finish",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "284_5_3_7|",
+    "original": "<<tearful>> you struggle to stand. The <<group>> vacate the stage, only to be replaced by others.",
+    "translation": "",
+    "pos": 74
+  },
+  {
+    "passage": "Smuggler Pub Gang Rape 2 Finish",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "289_5_3_7|",
+    "original": "<span class=\"blue\">You hear a whistle,</span> and the room quiets. \"Calm down guys,\" says a <<nnpc_gender \"Wren\">>'s voice. <<if $wrenSeen?.length>><span class=\"blue\">A voice you recognise, but can't place.</span><</if>> \"We don't know who <<pshe>> is. Someone might come looking for <<phim>>.\"",
+    "translation": "",
+    "pos": 200
+  },
+  {
+    "passage": "Smuggler Pub Gang Rape 2 Finish",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "291_5_3_7|",
+    "original": "The owner of the voice doesn't sound much older than you, but the others heed <<nnpc_him \"Wren\">>.",
+    "translation": "",
+    "pos": 506
+  },
+  {
+    "passage": "Smuggler Pub Gang Rape 2 Finish",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "294_5_3_7|",
+    "original": "<<link [[Next|Smuggler Pub Blindfold]]>><</link>>",
+    "translation": "",
+    "pos": 617
+  },
+  {
+    "passage": "Smuggler Pub Gang Rape 2 Finish",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "298_5_3_7|",
+    "original": "You hear the <<person1>><<person>> tumble from the stage and smash into something. <<tearful>> you jump after <<him>>. <<He>> shouts as your foot lands, and you run. It's no use. You can't see a thing, and have no clue where the exit is. You run straight into someone's arms.",
+    "translation": "",
+    "pos": 684
+  },
+  {
+    "passage": "Smuggler Pub Gang Rape 2 Finish",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "303_5_3_7|",
+    "original": "<span class=\"blue\">You hear a whistle,</span> and the room quiets. \"Calm down guys,\" says a <<nnpc_gender \"Wren\">>'s voice. <<if $wrenSeen?.length>><span class=\"blue\">A voice you recognise, but can't place.</span><</if>> It's coming from above. \"Putting up a fight like that, I think <<pshes>> earned some leniency.\"",
+    "translation": "",
+    "pos": 988
+  },
+  {
+    "passage": "Smuggler Pub Gang Rape 2 Finish",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "305_5_3_7|",
+    "original": "The owner of the voice doesn't sound much older than you, but the others heed <<nnpc_him \"Wren\">>.",
+    "translation": "",
+    "pos": 1316
+  },
+  {
+    "passage": "Smuggler Pub Gang Rape 2 Finish",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "308_5_3_7|",
+    "original": "<<link [[Next|Smuggler Pub Blindfold]]>><</link>>",
+    "translation": "",
+    "pos": 1427
+  },
+  {
+    "passage": "Smuggler Pub Blindfold",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "318_5_3_7|",
+    "original": "They leave the blindfold on as they push you down another tunnel. You hear the shuffling of feet either side, as well as behind.",
+    "translation": "",
+    "pos": 52
+  },
+  {
+    "passage": "Smuggler Pub Blindfold",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "323_5_3_7|",
+    "original": "\"Climb,\" says the young <<nnpc_gender \"Wren\">>. \"Before I change my mind.\" You reach forward and feel a ladder.",
+    "translation": "",
+    "pos": 216
+  },
+  {
+    "passage": "Smuggler Pub Blindfold",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "326_5_3_7|",
+    "original": "You climb until your head bumps against something. \"Watch your head,\" laughs the voice. \"Just push it.\" You do so, climbing atop the ladder. You feel a breeze and hear traffic all around. There's a metallic thud behind you.",
+    "translation": "",
+    "pos": 338
+  },
+  {
+    "passage": "Smuggler Pub Blindfold",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "331_5_3_7|",
+    "original": "Now that you're in the clear, you pull the blindfold off and toss it aside.",
+    "translation": "",
+    "pos": 675
+  },
+  {
+    "passage": "Smuggler Pub Sewer Intro",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "351_5_3_7|",
+    "original": "You crawl through the hole in the brick walls, and find a natural cave on the other side. You follow the passage. It reminds you of the smuggler passages you've read about in history class.",
+    "translation": "",
+    "pos": 45
+  },
+  {
+    "passage": "Smuggler Pub Sewer Intro",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "353_5_3_7|",
+    "original": "You hear voices. They sound like they're enjoying themselves. Artificial light shines on the walls up ahead. You walk around a corner, and emerge in an open space, full of lively people. Wooden platforms and walls have been erected over and around natural rock, supporting numerous tables and chairs, most occupied. There's a bar in the corner, and it looks well-stocked.",
+    "translation": "",
+    "pos": 244
+  },
+  {
+    "passage": "Smuggler Pub Sewer Intro",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "356_5_3_7|",
+    "original": "A cheer erupts from the nearby table as the occupants notice your <<lewdness>>. It draws attention, and the room reverberates with the resulting sound.<<covered>><<gtrauma>><<gstress>><<trauma 6>><<stress 6>>",
+    "translation": "",
+    "pos": 648
+  },
+  {
+    "passage": "Smuggler Pub Sewer Intro",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "358_5_3_7|",
+    "original": "You take cover behind one of the wooden walls.",
+    "translation": "",
+    "pos": 868
+  },
+  {
+    "passage": "Smuggler Pub Sewer Intro",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "361_5_3_7|",
+    "original": "Some of the <<people>> sat at the tables throw lascivious glances your way, but most don't pay your arrival any attention.",
+    "translation": "",
+    "pos": 935
+  },
+  {
+    "passage": "Smuggler Pub Sewer Intro",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "365_5_3_7|",
+    "original": "<<link [[Next|Smuggler Pub]]>><</link>>",
+    "translation": "",
+    "pos": 1077
+  },
+  {
+    "passage": "Smuggler Pub Beach Cave Intro",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "371_5_3_7|",
+    "original": "You walk through the passage, leaving the water behind, following the sound of the voices. They sound like they're enjoying themselves. The tunnel reminds you of the smuggler passages you've read about in history class.",
+    "translation": "",
+    "pos": 45
+  },
+  {
+    "passage": "Smuggler Pub Beach Cave Intro",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "373_5_3_7|",
+    "original": "Artificial light shines on the walls up ahead. You walk around a corner, and emerge in an open space, full of lively people. Wooden platforms and walls have been erected over and around natural rock, supporting numerous tables and chairs, most occupied. There's a bar in the corner, and it looks well-stocked.",
+    "translation": "",
+    "pos": 274
+  },
+  {
+    "passage": "Smuggler Pub Beach Cave Intro",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "376_5_3_7|",
+    "original": "A cheer erupts from the nearby table as the occupants notice your <<lewdness>>. It draws more attention. The room reverberates with the sound.<<covered>><<gtrauma>><<gstress>><<trauma 6>><<stress 6>>",
+    "translation": "",
+    "pos": 616
+  },
+  {
+    "passage": "Smuggler Pub Beach Cave Intro",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "378_5_3_7|",
+    "original": "You take cover behind one of the wooden walls.",
+    "translation": "",
+    "pos": 827
+  },
+  {
+    "passage": "Smuggler Pub Beach Cave Intro",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "381_5_3_7|",
+    "original": "Some of the <<people>> sat at the tables throw lascivious glances your way, but most don't pay your arrival any attention.",
+    "translation": "",
+    "pos": 894
+  },
+  {
+    "passage": "Smuggler Pub Beach Cave Intro",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "385_5_3_7|",
+    "original": "<<link [[Next|Smuggler Pub]]>><</link>>",
+    "translation": "",
+    "pos": 1036
+  },
+  {
+    "passage": "Smuggler Pub",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "391_5_3_7|",
+    "original": "You are in the smuggler's pub, hidden underground. Wooden platforms and walls have been erected within a natural cave. It's full of people, some carousing, others more guarded.",
+    "translation": "",
+    "pos": 68
+  },
+  {
+    "passage": "Smuggler Pub",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "395_5_3_7|",
+    "original": "You hide behind one of the wooden walls to conceal your <<nudity>>. You peer through a crack between planks.",
+    "translation": "",
+    "pos": 278
+  },
+  {
+    "passage": "Smuggler Pub",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "401_5_3_7|",
+    "original": "<<generate2>><<person2>><span class=\"pink\">A pair of strong arms lifts you from behind.</span>",
+    "translation": "",
+    "pos": 486
+  },
+  {
+    "passage": "Smuggler Pub",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "404_5_3_7|",
+    "original": "<<link [[Struggle|Smuggler Pub Zephyr Struggle]]>><</link>><<physiquedifficulty 12000 16000>>",
+    "translation": "",
+    "pos": 593
+  },
+  {
+    "passage": "Smuggler Pub",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "406_5_3_7|",
+    "original": "<<link [[Wait|Smuggler Pub Zephyr Wait]]>><</link>>",
+    "translation": "",
+    "pos": 694
+  },
+  {
+    "passage": "Smuggler Pub",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "411_5_3_7|",
+    "original": "<<stripclubicon>><<link [[Work as a dancer|Smuggler Pub Work Dance]]>><<set $dancestart to 1>><<stress -4>><<tiredness 4>><</link>><<lstress>><<gtiredness>>",
+    "translation": "",
+    "pos": 808
+  },
+  {
+    "passage": "Smuggler Pub",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "415_5_3_7|",
+    "original": "<<if $pubtask is \"sewers\" and $pubtask2 isnot 1 and [undefined, \"smuggler\"].includes($sewersBox)>>",
+    "translation": "",
+    "pos": 993
+  },
+  {
+    "passage": "Smuggler Pub",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "416_5_3_7|",
+    "original": "<<crimeicon \"black box\">><<link [[Search for Landry's black box|Smuggler Pub Box]]>><</link>><<set $sewersBox to \"smuggler\">>",
+    "translation": "",
+    "pos": 1094
+  },
+  {
+    "passage": "Smuggler Pub",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "420_5_3_7|",
+    "original": "<<socialiseicon>><<link [[Speak to Zephyr|Smuggler Pub Zephyr]]>><</link>>",
+    "translation": "",
+    "pos": 1272
+  },
+  {
+    "passage": "Smuggler Pub",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "423_5_3_7|",
+    "original": "<<sewericon>><<link [[Enter sewers (0:05)|Sewers Algae]]>><<pass 5>><<sewersstart>><</link>>",
+    "translation": "",
+    "pos": 1364
+  },
+  {
+    "passage": "Smuggler Pub",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "426_5_3_7|",
+    "original": "<<ind>><<link [[Follow the tunnel to the watery cave (0:05)|Beach Cave Pub Entrance]]>><</link>>",
+    "translation": "",
+    "pos": 1493
+  },
+  {
+    "passage": "Smuggler Pub Zephyr Struggle",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "434_5_3_7|",
+    "original": "You squirm and kick against the <<personsimple>> holding you as <<he>> tries to take you somewhere. Eyes are drawn from around the pub.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Smuggler Pub Zephyr Struggle",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "436_5_3_7|",
+    "original": "Your size alone is enough to make it hard for <<him>>, and with your kicking and squirming <span class=\"green\"><<he>> soon loses <<his>> grip.</span>",
+    "translation": "",
+    "pos": 174
+  },
+  {
+    "passage": "Smuggler Pub Zephyr Struggle",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "440_5_3_7|",
+    "original": "\"I knew it was ye, <<lass>>!\" says a familiar voice. Captain Zephyr watches you from a table, a tall mug of dark liquid gripped in one hand. \"I said this one had some fight in <<phim>>.\"",
+    "translation": "",
+    "pos": 376
+  },
+  {
+    "passage": "Smuggler Pub Zephyr Struggle",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "442_5_3_7|",
+    "original": "Zephyr leans back, and kicks the chair opposite <<him>> away from the table. \"Have a seat.\"",
+    "translation": "",
+    "pos": 576
+  },
+  {
+    "passage": "Smuggler Pub Zephyr Struggle",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "445_5_3_7|",
+    "original": "<<link [[Sit|Smuggler Pub Zephyr Known]]>><<set $phase to 0>><</link>>",
+    "translation": "",
+    "pos": 682
+  },
+  {
+    "passage": "Smuggler Pub Zephyr Struggle",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "447_5_3_7|",
+    "original": "<<link [[Stand|Smuggler Pub Zephyr Known]]>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 762
+  },
+  {
+    "passage": "Smuggler Pub Zephyr Struggle",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "450_5_3_7|",
+    "original": "\"That's it <<lass>>!\" shouts a <<personsimple>> with black braided hair. \"You're just what I need for me crew.\" <<He>> leans back, and kicks the chair opposite away from the table. \"Have a seat.\"",
+    "translation": "",
+    "pos": 854
+  },
+  {
+    "passage": "Smuggler Pub Zephyr Struggle",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "452_5_3_7|",
+    "original": "<<link [[Sit|Smuggler Pub Zephyr Unknown]]>><<set $phase to 0>><</link>>",
+    "translation": "",
+    "pos": 1063
+  },
+  {
+    "passage": "Smuggler Pub Zephyr Struggle",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "454_5_3_7|",
+    "original": "<<link [[Stand|Smuggler Pub Zephyr Unknown]]>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 1145
+  },
+  {
+    "passage": "Smuggler Pub Zephyr Struggle",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "458_5_3_7|",
+    "original": "<<He>> grunts as your foot connects with some weak spot on <<his>> shin, <span class=\"red\">but it's not enough to break <<his>> grip.</span>",
+    "translation": "",
+    "pos": 1246
+  },
+  {
+    "passage": "Smuggler Pub Zephyr Struggle",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "462_5_3_7|",
+    "original": "\"I knew it was ye, <<lass>>!\" says a familiar voice. Captain Zephyr watches you from a table, a tall mug of dark liquid grasped in one hand. \"What are ye waiting for?\" <<He>> leans back, and kicks the chair opposite away from the table. \"Put <<phim>> down.\"",
+    "translation": "",
+    "pos": 1439
+  },
+  {
+    "passage": "Smuggler Pub Zephyr Struggle",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "464_5_3_7|",
+    "original": "The <<person2>><<person>> does as bid, almost dropping you across from Zephyr.",
+    "translation": "",
+    "pos": 1710
+  },
+  {
+    "passage": "Smuggler Pub Zephyr Struggle",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "466_5_3_7|",
+    "original": "<<link [[Next|Smuggler Pub Zephyr Known]]>><<set $phase to 0>><</link>>",
+    "translation": "",
+    "pos": 1802
+  },
+  {
+    "passage": "Smuggler Pub Zephyr Struggle",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "469_5_3_7|",
+    "original": "\"This <<lass>> has some fight in <<phim>>!\" says a <<person1>><<personsimple>> sat at a nearby table. <<His>> black braided hair swings as <<he>> takes a swig of dark liquid from a mug. \"What are ye waiting for?\" <<He>> leans back, and kicks the chair opposite away from the table. \"Put <<phim>> down.\"",
+    "translation": "",
+    "pos": 1893
+  },
+  {
+    "passage": "Smuggler Pub Zephyr Struggle",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "471_5_3_7|",
+    "original": "The <<person2>><<person>> does as bid, almost dropping you on the chair opposite.",
+    "translation": "",
+    "pos": 2209
+  },
+  {
+    "passage": "Smuggler Pub Zephyr Struggle",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "474_5_3_7|",
+    "original": "<<link [[Next|Smuggler Pub Zephyr Unknown]]>><<set $phase to 0>><</link>>",
+    "translation": "",
+    "pos": 2305
+  },
+  {
+    "passage": "Smuggler Pub Zephyr Wait",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "484_5_3_7|",
+    "original": "You allow yourself to be carried through the pub, enduring the glances of the patrons.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Smuggler Pub Zephyr Wait",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "488_5_3_7|",
+    "original": "\"Well if it ain't my favourite <<lass>>,\" says a familiar voice. Captain Zephyr sits nearby, a mug of dark liquid in one hand. \"Ye look a might silly being carried. Here.\" <<He>> leans back, and kicks the chair opposite away from the table. \"Have a seat.\"",
+    "translation": "",
+    "pos": 148
+  },
+  {
+    "passage": "Smuggler Pub Zephyr Wait",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "490_5_3_7|",
+    "original": "The <<person2>><<person>> drops you on the chair, and slides it back in.",
+    "translation": "",
+    "pos": 415
+  },
+  {
+    "passage": "Smuggler Pub Zephyr Wait",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "493_5_3_7|",
+    "original": "<<link [[Next|Smuggler Pub Zephyr Known]]>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 500
+  },
+  {
+    "passage": "Smuggler Pub Zephyr Wait",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "496_5_3_7|",
+    "original": "\"Well what do we have here,\" says a <<personsimple>> sat nearby. <<His>> black braided hair swings as <<he>> takes a swig of dark liquid from a mug. \"Why don't ye have a seat.\" <<He>> leans back, and kicks the chair opposite away from the table. \"Put <<phim>> down.\"",
+    "translation": "",
+    "pos": 588
+  },
+  {
+    "passage": "Smuggler Pub Zephyr Wait",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "499_5_3_7|",
+    "original": "<<link [[Next|Smuggler Pub Zephyr Unknown]]>><<set $phase to 0>><</link>>",
+    "translation": "",
+    "pos": 867
+  },
+  {
+    "passage": "Smuggler Pub Zephyr Unknown",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "508_5_3_7|",
+    "original": "\"Stand if ye must,\" the <<personsimple>> says. \"I won't keep ye long. The name's Captain Zephyr,\" <<he>> says, watching your face for a glimmer of recognition. <<He>> hides <<his>> disappointment with a swig from <<his>> mug.",
+    "translation": "",
+    "pos": 78
+  },
+  {
+    "passage": "Smuggler Pub Zephyr Unknown",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "510_5_3_7|",
+    "original": "\"I won't keep ye long. The name's Captain Zephyr,\" <<he>> says, watching your face for a glimmer of recognition. <<He>> hides <<his>> disappointment with a swig from <<his>> mug.",
+    "translation": "",
+    "pos": 314
+  },
+  {
+    "passage": "Smuggler Pub Zephyr Unknown",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "513_5_3_7|",
+    "original": "The liquid dribbles over <<his>> <<if $pronoun is \"m\">>beard<<else>>chin<</if>>.",
+    "translation": "",
+    "pos": 502
+  },
+  {
+    "passage": "Smuggler Pub Zephyr Unknown",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "516_5_3_7|",
+    "original": "\"A little bird told me ye be looking for a way to that legendary island. Hah! I'm just the <<personsimple>> ye need. See, I have a ship that can take ye there. All I ask in return is that ye help look after me ship and its crew on the journey.\"",
+    "translation": "",
+    "pos": 593
+  },
+  {
+    "passage": "Smuggler Pub Zephyr Unknown",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "518_5_3_7|",
+    "original": "\"Or,\" <<he>> continues. \"If ye like, ye can pay me upfront for a cushier experience. Ye'll still be expected to help out, but we'll leave the rougher work to others. <span class=\"gold\">£15000</span> should cover expenses. It's up to ye.\"",
+    "translation": "",
+    "pos": 847
+  },
+  {
+    "passage": "Smuggler Pub Zephyr Unknown",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "521_5_3_7|",
+    "original": "\"Ye'll find me here,\" <<he>> says, downing the rest of the drink and slamming the mug on the table. \"Another!\"",
+    "translation": "",
+    "pos": 1095
+  },
+  {
+    "passage": "Smuggler Pub Zephyr Unknown",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "524_5_3_7|",
+    "original": "<<link [[Next|Smuggler Pub]]>><</link>>",
+    "translation": "",
+    "pos": 1216
+  },
+  {
+    "passage": "Smuggler Pub Zephyr Known",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "532_5_3_7|",
+    "original": "\"Stand if ye must,\" Zephyr says, taking another swig from <<his>> mug.",
+    "translation": "",
+    "pos": 78
+  },
+  {
+    "passage": "Smuggler Pub Zephyr Known",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "534_5_3_7|",
+    "original": "\"Just thought I'd introduce ye to a, ah, drier way to come aboard me ship. It's docked not far from here. Better than searching for me on the open water, aye? A little bird told me ye be looking for a way to that legendary island. I know the way.\"",
+    "translation": "",
+    "pos": 157
+  },
+  {
+    "passage": "Smuggler Pub Zephyr Known",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "538_5_3_7|",
+    "original": "\"Just let me know if ye be feeling a yearning for the salty breeze in your hair, and I'll show ye to it.\"",
+    "translation": "",
+    "pos": 442
+  },
+  {
+    "passage": "Smuggler Pub Zephyr Known",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "540_5_3_7|",
+    "original": "\"I'll even give ye an upgrade to your station. For a price of <span class=\"gold\">£15000.</span> Or you can sail as the scum ye are. Hah!\"",
+    "translation": "",
+    "pos": 558
+  },
+  {
+    "passage": "Smuggler Pub Zephyr Known",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "544_5_3_7|",
+    "original": "<<He>> downs the last of <<his>> drink, and shouts for another.",
+    "translation": "",
+    "pos": 714
+  },
+  {
+    "passage": "Smuggler Pub Zephyr Known",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "547_5_3_7|",
+    "original": "<<link [[Next|Smuggler Pub]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 788
+  },
+  {
+    "passage": "Smuggler Pub Zephyr",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "554_5_3_7|",
+    "original": "You sit at Zephyr's table. \"Well if it isn't me old chum,\" <<he>> says. \"Fancy a trip aboard me vessel?\"",
+    "translation": "",
+    "pos": 41
+  },
+  {
+    "passage": "Smuggler Pub Zephyr",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "557_5_3_7|",
+    "original": "<<link [[Board|Pirate Smuggler Entrance]]>><</link>>",
+    "translation": "",
+    "pos": 182
+  },
+  {
+    "passage": "Smuggler Pub Zephyr",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "560_5_3_7|",
+    "original": "\"For <span class=\"gold\">£15000</span> you can sail first class. Or you can sail second class for no money at all. A bargain!\"",
+    "translation": "",
+    "pos": 251
+  },
+  {
+    "passage": "Smuggler Pub Zephyr",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "562_5_3_7|",
+    "original": "\"Oh,\" <<he>> adds. \"One more thing. <span class=\"pink\">This trip won't be a short one.</span> I'd say it'll take us a week to get to the island, and who's telling how long ye'll be staying there. Make sure ye have your business seen to before ye set off.\"",
+    "translation": "",
+    "pos": 388
+  },
+  {
+    "passage": "Smuggler Pub Zephyr",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "565_5_3_7|",
+    "original": "<<link [[Ride first class (£15000)|Pirate Smuggler Entrance]]>><<set $phase to 1>><<money -1500000>><<set $pirate_rank to 1>><</link>>",
+    "translation": "",
+    "pos": 683
+  },
+  {
+    "passage": "Smuggler Pub Zephyr",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "568_5_3_7|",
+    "original": "<span class=\"blue\">You can't afford to sail first class.</span>",
+    "translation": "",
+    "pos": 837
+  },
+  {
+    "passage": "Smuggler Pub Zephyr",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "572_5_3_7|",
+    "original": "<<link [[Ride second class|Pirate Smuggler Entrance]]>><</link>>",
+    "translation": "",
+    "pos": 945
+  },
+  {
+    "passage": "Smuggler Pub Zephyr",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "575_5_3_7|",
+    "original": "<<link [[Ride second class|Pirate Smuggler Entrance]]>><<set $phase to 1>><<set $pirate_rank to 0>><</link>>",
+    "translation": "",
+    "pos": 1029
+  },
+  {
+    "passage": "Smuggler Pub Zephyr",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "579_5_3_7|",
+    "original": "<<link [[Leave|Smuggler Pub]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1162
+  },
+  {
+    "passage": "Smuggler Pub Work Dance",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "598_5_3_7|",
+    "original": "There's no way you could normally continue dancing while so exposed.",
+    "translation": "",
+    "pos": 374
+  },
+  {
+    "passage": "Smuggler Pub Work Dance",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "600_5_3_7|",
+    "original": "There's no way you can continue dancing while so exposed! Face reddening, you flee the scene.",
+    "translation": "",
+    "pos": 517
+  },
+  {
+    "passage": "Smuggler Pub Work Dance",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "603_5_3_7|",
+    "original": "There's no way you can continue dancing while so exposed! Face reddening, you flee the scene.",
+    "translation": "",
+    "pos": 741
+  },
+  {
+    "passage": "Smuggler Pub Work Dance",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "609_5_3_7|",
+    "original": "<<link [[Next|Smuggler Pub]]>><<clotheson>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 916
+  },
+  {
+    "passage": "Smuggler Pub Work Dance",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "611_5_3_7|",
+    "original": "<<link [[Next|Smuggler Pub Work Dance Rape]]>><<set $molestationstart to 1>><<unset $corruptionDancing>><</link>>",
+    "translation": "",
+    "pos": 1015
+  },
+  {
+    "passage": "Smuggler Pub Work Dance",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "614_5_3_7|",
+    "original": "The slime in your ear is forcing you.",
+    "translation": "",
+    "pos": 1202
+  },
+  {
+    "passage": "Smuggler Pub Work Dance",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "616_5_3_7|",
+    "original": "<<link [[Flee|Smuggler Pub]]>><<clotheson>><<endevent>><<unset $corruptionDancing>><</link>>",
+    "translation": "",
+    "pos": 1305
+  },
+  {
+    "passage": "Smuggler Pub Work Dance",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "618_5_3_7|",
+    "original": "<<link [[Flee|Smuggler Pub]]>><<clotheson>><<endevent>><<unset $corruptionDancing>><</link>>",
+    "translation": "",
+    "pos": 1463
+  },
+  {
+    "passage": "Smuggler Pub Work Dance",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "620_5_3_7|",
+    "original": "<<link [[Stop|Smuggler Pub]]>><<clotheson>><<endevent>><<unset $corruptionDancing>><</link>>",
+    "translation": "",
+    "pos": 1568
+  },
+  {
+    "passage": "Smuggler Pub Work Dance Rape",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "655_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Smuggler Pub Dance Rape Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 555
+  },
+  {
+    "passage": "Smuggler Pub Work Dance Rape",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "657_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Smuggler Pub Dance Rape Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 683
+  },
+  {
+    "passage": "Smuggler Pub Work Dance Rape",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "659_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Smuggler Pub Dance Rape]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 790
+  },
+  {
+    "passage": "Smuggler Pub Work Dance Rape",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "663_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Smuggler Pub Dance Rape Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 942
+  },
+  {
+    "passage": "Smuggler Pub Work Dance Rape",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "665_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Smuggler Pub Dance Rape Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 1066
+  },
+  {
+    "passage": "Smuggler Pub Work Dance Rape",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "667_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Smuggler Pub Dance Rape]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 1169
+  },
+  {
+    "passage": "Smuggler Pub Work Dance Rape Finish",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "675_5_3_7|",
+    "original": "<<He>> recoils in pain, giving you the chance you need. <<tearful>> you escape into the dressing room.",
+    "translation": "",
+    "pos": 77
+  },
+  {
+    "passage": "Smuggler Pub Work Dance Rape Finish",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "678_5_3_7|",
+    "original": "<<He>> recoils in pain, giving you the chance you need. <<tearful>> you escape into the dressing room.",
+    "translation": "",
+    "pos": 203
+  },
+  {
+    "passage": "Smuggler Pub Work Dance Rape Finish",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "684_5_3_7|",
+    "original": "A cheer erupts from the crowd as the <<person1>><<person>> climaxes. <<tearful>> you manage to stagger away before anyone else gets ideas.",
+    "translation": "",
+    "pos": 414
+  },
+  {
+    "passage": "Smuggler Pub Work Dance Rape Finish",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "686_5_3_7|",
+    "original": "The <<person1>><<person>> and <<person2>><<person>> high-five each other. <<tearful>> you manage to stagger away while the audience congratulates each other.",
+    "translation": "",
+    "pos": 583
+  },
+  {
+    "passage": "Smuggler Pub Work Dance Rape Finish",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "688_5_3_7|",
+    "original": "A cheer erupts from the crowd, seems they enjoyed the show. <<tearful>> you manage to stagger away before anyone else gets any ideas.",
+    "translation": "",
+    "pos": 753
+  },
+  {
+    "passage": "Smuggler Pub Work Dance Rape Finish",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "696_5_3_7|",
+    "original": "<<link [[Next|Smuggler Pub]]>><</link>>",
+    "translation": "",
+    "pos": 961
+  },
+  {
+    "passage": "Smuggler Pub Box",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "705_5_3_7|",
+    "original": "\"Look who's back,\" the <<person1>><<person>> says.",
+    "translation": "",
+    "pos": 132
+  },
+  {
+    "passage": "Smuggler Pub Box",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "707_5_3_7|",
+    "original": "\"We won't be as generous with our offer this time,\" the <<person3>><<person>> says. Several pairs of arms grab you before you can react, and you're hurled onto a table. More people arrive to watch, drawn by the commotion.",
+    "translation": "",
+    "pos": 194
+  },
+  {
+    "passage": "Smuggler Pub Box",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "710_5_3_7|",
+    "original": "<<link [[Next|Smuggler Pub Box Sex]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 428
+  },
+  {
+    "passage": "Smuggler Pub Box",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "713_5_3_7|",
+    "original": "You are looking around when a group of smugglers approach you.",
+    "translation": "",
+    "pos": 522
+  },
+  {
+    "passage": "Smuggler Pub Box",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "715_5_3_7|",
+    "original": "\"We know why you're here, <<girl>>,\" a <<person1>><<person>> says.",
+    "translation": "",
+    "pos": 596
+  },
+  {
+    "passage": "Smuggler Pub Box",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "717_5_3_7|",
+    "original": "A <<person2>><<person>> holds up the black box and shakes it lightly in front of you. \"This is what you want, isn't it?\"",
+    "translation": "",
+    "pos": 674
+  },
+  {
+    "passage": "Smuggler Pub Box",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "719_5_3_7|",
+    "original": "\"We'll give it to you, but not without something in exchange,\" a <<person3>><<person>> says with a grin, groping you.",
+    "translation": "",
+    "pos": 806
+  },
+  {
+    "passage": "Smuggler Pub Box",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "723_5_3_7|",
+    "original": "<<link [[Allow it|Smuggler Pub Box 2]]>><<set $phase to 0>><</link>><<promiscuous4>>",
+    "translation": "",
+    "pos": 974
+  },
+  {
+    "passage": "Smuggler Pub Box",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "727_5_3_7|",
+    "original": "<<link [[Beg|Smuggler Pub Box 2]]>><<set $phase to 1>><</link>><<submissivetext>>",
+    "translation": "",
+    "pos": 1106
+  },
+  {
+    "passage": "Smuggler Pub Box",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "730_5_3_7|",
+    "original": "<<link [[Walk away|Smuggler Pub Box 2]]>><<set $phase to 2>><<set $smugglerBox to true>><</link>>",
+    "translation": "",
+    "pos": 1205
+  },
+  {
+    "passage": "Smuggler Pub Box 2",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "738_5_3_7|",
+    "original": "The <<group>> surround you. You don't resist as they hurl you onto a table.<<promiscuity4>>",
+    "translation": "",
+    "pos": 46
+  },
+  {
+    "passage": "Smuggler Pub Box 2",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "740_5_3_7|",
+    "original": "\"I'm going to enjoy this,\" a <<person5>><<person>> says. More people crowd around to watch, drawn by the noise.",
+    "translation": "",
+    "pos": 140
+  },
+  {
+    "passage": "Smuggler Pub Box 2",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "743_5_3_7|",
+    "original": "<<link [[Next|Smuggler Pub Box Sex]]>><<set $sexstart to 1>><</link>>",
+    "translation": "",
+    "pos": 264
+  },
+  {
+    "passage": "Smuggler Pub Box 2",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "746_5_3_7|",
+    "original": "\"Please.\" You drop to your knees, hands clasping together. <<if $pain gte 20>>More tears well in your eyes.<</if>> The <<person3>><<person>> is taken by surprise, <<he>> withdraws <<his>> hand and backs away from you, almost bumping into a <<person4>><<person>>.",
+    "translation": "",
+    "pos": 374
+  },
+  {
+    "passage": "Smuggler Pub Box 2",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "748_5_3_7|",
+    "original": "You continue, \"I really, really need it. I-if you could be so kind and let me have the black box...\" Your voice fades into a soft sob. Some other people notice the commotion, starting to gather around you.",
+    "translation": "",
+    "pos": 648
+  },
+  {
+    "passage": "Smuggler Pub Box 2",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "750_5_3_7|",
+    "original": "\"Fine,\" the <<person2>><<person>> sighs. <<He>> glances at the black box in <<his>> hand, then glances to you. \"You can have it, just go.\" <<He>> drops it on the ground before you.",
+    "translation": "",
+    "pos": 865
+  },
+  {
+    "passage": "Smuggler Pub Box 2",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "753_5_3_7|",
+    "original": "\"Thank you so much, <<print ($pronoun is \"m\" ? \"sir\" : \"ma'am\")>>.\" You pick up the black box and give the <<person>> a small smile. <<He>> doesn't look at you as you leave.",
+    "translation": "",
+    "pos": 1058
+  },
+  {
+    "passage": "Smuggler Pub Box 2",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "759_5_3_7|",
+    "original": "<<link [[Next|Smuggler Pub]]>><<handheldon>><<unset $sewersBox>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1295
+  },
+  {
+    "passage": "Smuggler Pub Box 2",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "762_5_3_7|",
+    "original": "Deciding not to take any risks, you leave from where you entered.",
+    "translation": "",
+    "pos": 1413
+  },
+  {
+    "passage": "Smuggler Pub Box 2",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "764_5_3_7|",
+    "original": "The box remains in the smugglers' possession.",
+    "translation": "",
+    "pos": 1490
+  },
+  {
+    "passage": "Smuggler Pub Box 2",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "767_5_3_7|",
+    "original": "<<link [[Next|Smuggler Pub]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1548
+  },
+  {
+    "passage": "Smuggler Pub Box Sex",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "800_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Smuggler Pub Box Sex Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 378
+  },
+  {
+    "passage": "Smuggler Pub Box Sex",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "802_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Smuggler Pub Box Sex]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 478
+  },
+  {
+    "passage": "Smuggler Pub Box Sex Finish",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "809_5_3_7|",
+    "original": "They trip and fall over each other in a heap of tangled limbs. The audience is so bemused, none make attempt to block your escape.",
+    "translation": "",
+    "pos": 40
+  },
+  {
+    "passage": "Smuggler Pub Box Sex Finish",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "812_5_3_7|",
+    "original": "<<tearful>> you take advantage of the chaos to dart in, grab the black box, and leave.",
+    "translation": "",
+    "pos": 183
+  },
+  {
+    "passage": "Smuggler Pub Box Sex Finish",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "820_5_3_7|",
+    "original": "<<link [[Next|Smuggler Pub]]>><<handheldon>><<unset $sewersBox>><</link>>",
+    "translation": "",
+    "pos": 363
+  },
+  {
+    "passage": "Smuggler Pub Box Sex Finish",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "825_5_3_7|",
+    "original": "\"Man, that was great,\" the <<person3>><<person>> says.",
+    "translation": "",
+    "pos": 508
+  },
+  {
+    "passage": "Smuggler Pub Box Sex Finish",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "827_5_3_7|",
+    "original": "The <<person2>><<person>> hands you the box. \"Thanks for the release, <<girl>>.\" The audience cheers.",
+    "translation": "",
+    "pos": 574
+  },
+  {
+    "passage": "Smuggler Pub Box Sex Finish",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "830_5_3_7|",
+    "original": "<<tearful>> you turn back to the pub.",
+    "translation": "",
+    "pos": 713
+  },
+  {
+    "passage": "Smuggler Pub Box Sex Finish",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "832_5_3_7|",
+    "original": "<<tearful>> you walk away, leaving their laughs and jeers behind.",
+    "translation": "",
+    "pos": 763
+  },
+  {
+    "passage": "Smuggler Pub Box Sex Finish",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "841_5_3_7|",
+    "original": "<<link [[Next|Smuggler Pub]]>><<handheldon>><<unset $sewersBox>><</link>>",
+    "translation": "",
+    "pos": 931
+  },
+  {
+    "passage": "Smuggler Pub Box Sex Finish",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "845_5_3_7|",
+    "original": "\"You little <<cunt>>,\" the <<person1>><<person>> says. \"Fine. But don't expect us to be so generous next time.\" The audience boos and soon disperses.",
+    "translation": "",
+    "pos": 1051
+  },
+  {
+    "passage": "Smuggler Pub Box Sex Finish",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "847_5_3_7|",
+    "original": "The <<person3>><<person>> makes a show of putting the box back on the table.",
+    "translation": "",
+    "pos": 1212
+  },
+  {
+    "passage": "Smuggler Pub Box Sex Finish",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "849_5_3_7|",
+    "original": "<<tearful>> you leave empty handed.",
+    "translation": "",
+    "pos": 1300
+  },
+  {
+    "passage": "Smuggler Pub Box Sex Finish",
+    "filepath": "overworld-underground/loc-cave/pub.twee",
+    "key": "855_5_3_7|",
+    "original": "<<link [[Next|Smuggler Pub]]>><</link>>",
+    "translation": "",
+    "pos": 1379
+  }
+]

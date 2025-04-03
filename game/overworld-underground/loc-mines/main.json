@@ -1,0 +1,1666 @@
+[
+  {
+    "passage": "Mines Intro",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "5_5_3_7|",
+    "original": "Most of the walls, floor and ceiling look hewn from natural rock, but one portion looks like concrete. A metal door opens, and a <<person>> and <<person2>><<person>> march through. You glimpse a table and playing cards behind them.",
+    "translation": "",
+    "pos": 72
+  },
+  {
+    "passage": "Mines Intro",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "8_5_3_7|",
+    "original": "\"Welcome to your new home,\" the <<person1>><<person>> says while the <<person2>><<person>> appraises you. \"We mine crystals here. Well, the slaves mine them. Our job is to keep the slaves in line. But that's none of your concern. Your job is to clean, and keep us entertained. Lucky you.\"",
+    "translation": "",
+    "pos": 314
+  },
+  {
+    "passage": "Mines Intro",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "11_5_3_7|",
+    "original": "The <<person2>><<person>> turns back to the room with the playing guards. \"New toy is here,\" <<he>> shouts. An approving murmur answers. <<He>> grabs your arm, and pulls you through.",
+    "translation": "",
+    "pos": 613
+  },
+  {
+    "passage": "Mines Intro",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "14_5_3_7|",
+    "original": "<<link [[Next|Mines Intro 2]]>><</link>>",
+    "translation": "",
+    "pos": 806
+  },
+  {
+    "passage": "Mines Intro 2",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "34_5_3_7|",
+    "original": "You enter the room with the playing cards. It stretches a great distance to your left and right, with other passages leading away.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Mines Intro 2",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "37_5_3_7|",
+    "original": "A dozen <<people>> sit around the room. They look up as you enter. One licks <<his>> lips.",
+    "translation": "",
+    "pos": 154
+  },
+  {
+    "passage": "Mines Intro 2",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "40_5_3_7|",
+    "original": "The <<person1>><<person>> unholsters <<his>> baton, and prods your cheek. \"Kiss it,\" <<he>> says.",
+    "translation": "",
+    "pos": 255
+  },
+  {
+    "passage": "Mines Intro 2",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "43_5_3_7|",
+    "original": "<<link [[Kiss it|Mines Intro Kiss]]>><<trauma 6>><<stress 6>><</link>><<gtrauma>><<gstress>>",
+    "translation": "",
+    "pos": 363
+  },
+  {
+    "passage": "Mines Intro 2",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "45_5_3_7|",
+    "original": "<<link [[Refuse|Mines Intro Kiss Refuse]]>><<pain 8>><<stress 6>><</link>><<gpain>><<gstress>>",
+    "translation": "",
+    "pos": 461
+  },
+  {
+    "passage": "Mines Intro Kiss",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "51_5_3_7|",
+    "original": "You plant a kiss on the tip of the baton. \"You'll do well,\" the <<person1>><<person>>. \"Better than the last, anyway. Just do as you're told.\"",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Mines Intro Kiss",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "54_5_3_7|",
+    "original": "<<link [[Next|Mines Guards]]>><<endevent>><<mines_init>><</link>>",
+    "translation": "",
+    "pos": 166
+  },
+  {
+    "passage": "Mines Intro Kiss Refuse",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "61_5_3_7|",
+    "original": "You turn your head away from the baton. The <<person1>><<person>> retaliates with a blow to your shoulder. \"Best learn to as you're told,\" <<he>> says. \"Or you'll end up like the last.\"",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Mines Intro Kiss Refuse",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "64_5_3_7|",
+    "original": "<<link [[Next|Mines Guards]]>><<endevent>><<mines_init>><</link>>",
+    "translation": "",
+    "pos": 209
+  },
+  {
+    "passage": "Mines Guards",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "70_5_3_7|",
+    "original": "You are in the staff room in the old mines. Guards come and go, joining a game of cards or putting their feet up in front of the television.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Mines Guards",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "76_5_3_7|",
+    "original": "It's too much for you. You pass out.",
+    "translation": "",
+    "pos": 232
+  },
+  {
+    "passage": "Mines Guards",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "78_5_3_7|",
+    "original": "<<link [[Next|Mines Passout]]>><<passout>><</link>>",
+    "translation": "",
+    "pos": 286
+  },
+  {
+    "passage": "Mines Guards",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "81_5_3_7|",
+    "original": "<<covered>> There's a pile of cloth scraps in an adjoining room. Some are large enough to wear.",
+    "translation": "",
+    "pos": 377
+  },
+  {
+    "passage": "Mines Guards",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "85_5_3_7|",
+    "original": "<<link [[Next|Mines Guards]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 505
+  },
+  {
+    "passage": "Mines Guards",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "90_5_3_7|",
+    "original": "A <<person>> puts <<his>> arm around your waist, and tries to steer you towards an unoccupied room.",
+    "translation": "",
+    "pos": 705
+  },
+  {
+    "passage": "Mines Guards",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "93_5_3_7|",
+    "original": "<<link [[Go quietly|Mines Guards Room]]>><<stress 6>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 831
+  },
+  {
+    "passage": "Mines Guards",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "95_5_3_7|",
+    "original": "<<link [[Pull away|Mines Guards Refuse]]>><</link>><<difficulty `100 - $mines_suspicion`>> <i>Difficulty increases with suspicion.</i>",
+    "translation": "",
+    "pos": 926
+  },
+  {
+    "passage": "Mines Guards",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "100_5_3_7|",
+    "original": "You notice a <<person>> eyeing you up. <<He>> meets your gaze, grins, and swaggers over, pulling a length of cord from a pocket. Others turn to watch.",
+    "translation": "",
+    "pos": 1208
+  },
+  {
+    "passage": "Mines Guards",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "102_5_3_7|",
+    "original": "\"Hold out your wrists,\" <<he>> says. <<He>> waits, expecting you to obey.",
+    "translation": "",
+    "pos": 1384
+  },
+  {
+    "passage": "Mines Guards",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "105_5_3_7|",
+    "original": "<<link [[Hold out your wrists|Mines Guards Bondage]]>><</link>>",
+    "translation": "",
+    "pos": 1484
+  },
+  {
+    "passage": "Mines Guards",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "107_5_3_7|",
+    "original": "<<link [[Pull away|Mines Guards Refuse]]>><</link>><<difficulty `100 - $mines_suspicion`>> <i>Difficulty increases with suspicion.</i>",
+    "translation": "",
+    "pos": 1569
+  },
+  {
+    "passage": "Mines Guards",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "111_5_3_7|",
+    "original": "A <<person>> puts an arm around your shoulder, and steers you towards a table of waiting colleagues. \"Climb up,\" <<he>> says. \"We want a better look at you.\"",
+    "translation": "",
+    "pos": 1785
+  },
+  {
+    "passage": "Mines Guards",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "114_5_3_7|",
+    "original": "<<link [[Climb|Mines Guards Climb]]>><<mines_suspicion -5>><<trauma 6>><<stress 6>><</link>><<gtrauma>><<gstress>><<lsuspicion>>",
+    "translation": "",
+    "pos": 1969
+  },
+  {
+    "passage": "Mines Guards",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "116_5_3_7|",
+    "original": "<<link [[Pull away|Mines Guards Refuse]]>><</link>><<difficulty `100 - $mines_suspicion`>> <i>Difficulty increases with suspicion.</i>",
+    "translation": "",
+    "pos": 2119
+  },
+  {
+    "passage": "Mines Guards",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "120_5_3_7|",
+    "original": "A <<person>> wraps an arm around your waist, and tries to pull you towards a table of <<his>> colleagues, where a <<person2>><<person>> fills a jug with beer.",
+    "translation": "",
+    "pos": 2426
+  },
+  {
+    "passage": "Mines Guards",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "122_5_3_7|",
+    "original": "\"Feeding time,\" the <<person1>><<person>> says. <<He>> tries to push a funnel into your mouth.",
+    "translation": "",
+    "pos": 2610
+  },
+  {
+    "passage": "Mines Guards",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "124_5_3_7|",
+    "original": "<<link [[Endure|Mines Guards Beer]]>><<trauma 6>><<set $drunk += 180>><</link>><<gtrauma>>",
+    "translation": "",
+    "pos": 2730
+  },
+  {
+    "passage": "Mines Guards",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "126_5_3_7|",
+    "original": "<<link [[Pull away|Mines Guards Refuse]]>><</link>><<difficulty `100 - $mines_suspicion`>> <i>Difficulty increases with suspicion.</i>",
+    "translation": "",
+    "pos": 2842
+  },
+  {
+    "passage": "Mines Guards",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "131_5_3_7|",
+    "original": "A <<person>> accosts you, wrapping one arm around your waist from behind, and grabbing your neck with the other. <<He>> pulls you in for a kiss.",
+    "translation": "",
+    "pos": 3045
+  },
+  {
+    "passage": "Mines Guards",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "134_5_3_7|",
+    "original": "<<link [[Endure|Mines Guards Kiss]]>><<trauma 6>><<stress 6>><</link>><<kissvirginitywarning>><<gtrauma>><<gstress>>",
+    "translation": "",
+    "pos": 3216
+  },
+  {
+    "passage": "Mines Guards",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "136_5_3_7|",
+    "original": "<<link [[Pull away|Mines Guards Refuse]]>><</link>><<difficulty `100 - $mines_suspicion`>> <i>Difficulty increases with suspicion.</i>",
+    "translation": "",
+    "pos": 3354
+  },
+  {
+    "passage": "Mines Guards",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "141_5_3_7|",
+    "original": "<<edenicon \"broom\">><<link [[Clean (1:00)|Mines Guards Clean]]>><<pass 60>><<mines_suspicion -10>><</link>><<llsuspicion>>",
+    "translation": "",
+    "pos": 3528
+  },
+  {
+    "passage": "Mines Guards",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "144_5_3_7|",
+    "original": "<<investigateicon>><<link [[Search for a way to escape (1:00)|Mines Guards Dig]]>><<pass 60>><<mines_suspicion 5>><</link>><<gsuspicion>>",
+    "translation": "",
+    "pos": 3702
+  },
+  {
+    "passage": "Mines Guards",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "147_5_3_7|",
+    "original": "<<getouticon \"dig\">><<link [[Dig (1:00)|Mines Guards Dig]]>><<pass 60>><<mines_suspicion 5>><</link>><<gsuspicion>>",
+    "translation": "",
+    "pos": 3874
+  },
+  {
+    "passage": "Mines Guards Kiss",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "158_5_3_7|",
+    "original": "<<He>> pulls your face against <<his>>, and invades your mouth with <<his>> tongue while one hand remains firm around your neck, and the other roams your body.<<takeKissVirginity \"mine guard\" \"rape\" \"human\">>",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Mines Guards Kiss",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "161_5_3_7|",
+    "original": "<<He>> releases you, and walks away as if it didn't happen.",
+    "translation": "",
+    "pos": 232
+  },
+  {
+    "passage": "Mines Guards Kiss",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "164_5_3_7|",
+    "original": "<<link [[Next|Mines Guards]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 302
+  },
+  {
+    "passage": "Mines Guards Beer",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "170_5_3_7|",
+    "original": "The <<person1>><<person>> pushes the funnel between your lips, grasps your hair, and tilts back your head. The <<person2>><<person>> pours in the beer.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Mines Guards Beer",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "173_5_3_7|",
+    "original": "The liquid gushes down your throat, but you manage to swallow it all. The <<person2>><<person>> pulls the funnel away, letting the last of it spill over your face and chest. \"Better?\" <<he>> asks, shoving you away. You keep your footing, but it's not long before you feel unsteady.",
+    "translation": "",
+    "pos": 175
+  },
+  {
+    "passage": "Mines Guards Beer",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "176_5_3_7|",
+    "original": "<<link [[Next|Mines Guards]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 467
+  },
+  {
+    "passage": "Mines Guards Climb",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "183_5_3_7|",
+    "original": "You climb the table as instructed. You're surrounded by <<people>>. Their eyes search your body, and discuss your proportions in humiliating detail.",
+    "translation": "",
+    "pos": 79
+  },
+  {
+    "passage": "Mines Guards Climb",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "187_5_3_7|",
+    "original": "\"Let's see what <<pshes>> got under here,\" the <<person1>><<person>> says, reaching for your <<print $worn.lower.name>>.",
+    "translation": "",
+    "pos": 277
+  },
+  {
+    "passage": "Mines Guards Climb",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "190_5_3_7|",
+    "original": "<<link [[Slap hand away|Mines Guards Skirt]]>><<mines_suspicion 10>><<def 1>><</link>><<ggsuspicion>>",
+    "translation": "",
+    "pos": 416
+  },
+  {
+    "passage": "Mines Guards Climb",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "192_5_3_7|",
+    "original": "<<link [[Endure|Mines Guards Skirt Endure]]>><<trauma 6>><<stress 6>><</link>><<gtrauma>><<gstress>>",
+    "translation": "",
+    "pos": 531
+  },
+  {
+    "passage": "Mines Guards Climb",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "195_5_3_7|",
+    "original": "\"A fine arse as well,\" the <<person1>><<person>> says, reaching forward and giving you a spank.<<gpain>><<pain 4>>",
+    "translation": "",
+    "pos": 654
+  },
+  {
+    "passage": "Mines Guards Climb",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "198_5_3_7|",
+    "original": "\"That's enough, slut,\" <<he>> continues, motioning for you to step down. You do so, though their gaze follows you a while longer.",
+    "translation": "",
+    "pos": 787
+  },
+  {
+    "passage": "Mines Guards Climb",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "201_5_3_7|",
+    "original": "<<link [[Next|Mines Guards]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 935
+  },
+  {
+    "passage": "Mines Guards Skirt",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "208_5_3_7|",
+    "original": "You slap the <<person1>><<person>>'s hand away. \"Careful, <<girl>>,\" <<he>> cautions, though <<his>> colleagues laugh.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Mines Guards Skirt",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "212_5_3_7|",
+    "original": "<<He>> motions for you to step off the table after a few minutes of discussion. You do so, though their gaze follows you a while longer.",
+    "translation": "",
+    "pos": 153
+  },
+  {
+    "passage": "Mines Guards Skirt",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "215_5_3_7|",
+    "original": "<<link [[Next|Mines Guards]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 300
+  },
+  {
+    "passage": "Mines Guards Skirt Endure",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "221_5_3_7|",
+    "original": "The <<person1>><<person>> lifts your <<print $worn.lower.name>>, baring your",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Mines Guards Skirt Endure",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "225_5_3_7|",
+    "original": "<<print $worn.genitals.name>> to the room.",
+    "translation": "",
+    "pos": 199
+  },
+  {
+    "passage": "Mines Guards Skirt Endure",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "227_5_3_7|",
+    "original": "\"Do we have the key?\" asks a <<person2>><<person>>. No one replies.",
+    "translation": "",
+    "pos": 267
+  },
+  {
+    "passage": "Mines Guards Skirt Endure",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "229_5_3_7|",
+    "original": "\"Maybe we could break it off with mining equipment,\" a <<person3>><<person>> suggests.<<gstress>><<stress 6>>",
+    "translation": "",
+    "pos": 356
+  },
+  {
+    "passage": "Mines Guards Skirt Endure",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "231_5_3_7|",
+    "original": "\"That could work,\" the <<person1>><<person>> says. \"Who wants to try? If you damage the slave, it's coming out of your paycheck.\" That quells any interest.",
+    "translation": "",
+    "pos": 487
+  },
+  {
+    "passage": "Mines Guards Skirt Endure",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "234_5_3_7|",
+    "original": "<<link [[Next|Mines Guards Skirt Endure 2]]>><</link>>",
+    "translation": "",
+    "pos": 669
+  },
+  {
+    "passage": "Mines Guards Skirt Endure",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "237_5_3_7|",
+    "original": "<<genitals>> to the room. It naturally becomes the new topic of discussion. They comment on its size, and its shape.",
+    "translation": "",
+    "pos": 758
+  },
+  {
+    "passage": "Mines Guards Skirt Endure",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "239_5_3_7|",
+    "original": "\"I wonder how often it's been used,\" a <<person2>><<person>> wonders.",
+    "translation": "",
+    "pos": 900
+  },
+  {
+    "passage": "Mines Guards Skirt Endure",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "242_5_3_7|",
+    "original": "\"You don't know?\" the <<person3>><<person>> replies. \"This slut's been ridden by half the town. <<pShes>> infamous.\"",
+    "translation": "",
+    "pos": 1028
+  },
+  {
+    "passage": "Mines Guards Skirt Endure",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "244_5_3_7|",
+    "original": "\"Pardon me for not keeping up with famous sluttery,\" the <<person2>><<person>> says. \"I spend too much time in this hole.\"",
+    "translation": "",
+    "pos": 1174
+  },
+  {
+    "passage": "Mines Guards Skirt Endure",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "246_5_3_7|",
+    "original": "\"I bet <<pshe>> was an innocent virgin before being brought here,\" a <<person2>><<person>> says.",
+    "translation": "",
+    "pos": 1326
+  },
+  {
+    "passage": "Mines Guards Skirt Endure",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "248_5_3_7|",
+    "original": "\"No way,\" a <<person3>><<person>> replies. \"Everyone and their dog has had a go.\"",
+    "translation": "",
+    "pos": 1452
+  },
+  {
+    "passage": "Mines Guards Skirt Endure",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "251_5_3_7|",
+    "original": "They argue for a while, as the rest of the audience ogles.",
+    "translation": "",
+    "pos": 1563
+  },
+  {
+    "passage": "Mines Guards Skirt Endure",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "261_5_3_7|",
+    "original": "<<link [[Next|Mines Guards Skirt Endure 2]]>><</link>>",
+    "translation": "",
+    "pos": 1867
+  },
+  {
+    "passage": "Mines Guards Skirt Endure",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "265_5_3_7|",
+    "original": "<<print $worn.under_lower.name>> to the room.",
+    "translation": "",
+    "pos": 1960
+  },
+  {
+    "passage": "Mines Guards Skirt Endure",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "267_5_3_7|",
+    "original": "\"Cute,\" a <<person2>><<person>> says.",
+    "translation": "",
+    "pos": 2023
+  },
+  {
+    "passage": "Mines Guards Skirt Endure",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "269_5_3_7|",
+    "original": "\"Very cute,\" a <<person3>><<person>> agree. \"I was hoping for nothing, but this is somehow better.\"",
+    "translation": "",
+    "pos": 2074
+  },
+  {
+    "passage": "Mines Guards Skirt Endure",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "271_5_3_7|",
+    "original": "The pair discuss the virtues of underwear over nudity while the rest of the audience ogles.",
+    "translation": "",
+    "pos": 2187
+  },
+  {
+    "passage": "Mines Guards Skirt Endure",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "274_5_3_7|",
+    "original": "<<link [[Next|Mines Guards Skirt Endure 2]]>><</link>>",
+    "translation": "",
+    "pos": 2297
+  },
+  {
+    "passage": "Mines Guards Skirt Endure 2",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "281_5_3_7|",
+    "original": "\"That's enough slut,\" the <<person1>><<person>> says, motioning for you to step from the table. You do so, though their gaze follows you a while longer.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Mines Guards Skirt Endure 2",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "284_5_3_7|",
+    "original": "<<link [[Next|Mines Guards]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 176
+  },
+  {
+    "passage": "Mines Guards Bondage",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "291_5_3_7|",
+    "original": "You hold out your wrists. The <<person>> soon has them bound together. <<He>> keeps the other side of the cord in <<his>> hand, and jerks you forwards.",
+    "translation": "",
+    "pos": 22
+  },
+  {
+    "passage": "Mines Guards Bondage",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "294_5_3_7|",
+    "original": "The other guards watch as <<he>> leads you around the room. <<He>> seems content to pull you around.",
+    "translation": "",
+    "pos": 184
+  },
+  {
+    "passage": "Mines Guards Bondage",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "297_5_3_7|",
+    "original": "<<link [[Endure (0:05)|Mines Guards Bondage Endure]]>><<pass 5>><<trauma 6>><<stress 6>><<mines_suspicion -5>><<pain 4>><</link>><<gpain>><<gtrauma>><<gstress>><<lsuspicion>>",
+    "translation": "",
+    "pos": 295
+  },
+  {
+    "passage": "Mines Guards Bondage",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "299_5_3_7|",
+    "original": "<<link [[Overpower|Mines Guards Bondage Overpower]]>><</link>><<physiquedifficulty 1 16000>>",
+    "translation": "",
+    "pos": 475
+  },
+  {
+    "passage": "Mines Guards Bondage Endure",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "306_5_3_7|",
+    "original": "You endure the <<persons>> antics, until <<he>> gives a final tug that leaves you sprawled on the ground. <<He>> removes the cord, and returns to work.",
+    "translation": "",
+    "pos": 24
+  },
+  {
+    "passage": "Mines Guards Bondage Endure",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "309_5_3_7|",
+    "original": "<<link [[Next|Mines Guards]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 186
+  },
+  {
+    "passage": "Mines Guards Bondage Overpower",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "316_5_3_7|",
+    "original": "With a deft movement, you step forward and whirl more of the cord around your wrists. Then you stop, brace your legs, and pull as hard as you can.",
+    "translation": "",
+    "pos": 41
+  },
+  {
+    "passage": "Mines Guards Bondage Overpower",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "318_5_3_7|",
+    "original": "<span class=\"green\">The <<person>> is caught unprepared.</span> You pull <<him>> off <<his>> feet, and leave <<him>> sprawled on the ground.",
+    "translation": "",
+    "pos": 205
+  },
+  {
+    "passage": "Mines Guards Bondage Overpower",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "320_5_3_7|",
+    "original": "\"You'll pay for that.\" <<He>> clutches <<his>> arm, and looks at <<his>> colleagues for support. <<He>> finds none. They're too busy laughing.<<lllsuspicion>><<mines_suspicion -20>>",
+    "translation": "",
+    "pos": 363
+  },
+  {
+    "passage": "Mines Guards Bondage Overpower",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "323_5_3_7|",
+    "original": "<<link [[Next|Mines Guards]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 577
+  },
+  {
+    "passage": "Mines Guards Bondage Overpower",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "326_5_3_7|",
+    "original": "You pull against the <<person>>, <span class=\"red\">but <<he>> braces <<his>> feet and yanks you off yours,</span> leaving you sprawled on the ground. <<His>> colleagues burst into laughter.<<trauma 6>><<stress 6>><<mines_suspicion 5>><<pain 4>><<gpain>><<gtrauma>><<gstress>><<gsuspicion>>",
+    "translation": "",
+    "pos": 674
+  },
+  {
+    "passage": "Mines Guards Bondage Overpower",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "328_5_3_7|",
+    "original": "<<link [[Next|Mines Guards]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 981
+  },
+  {
+    "passage": "Mines Guards Room",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "335_5_3_7|",
+    "original": "The <<person>> shoves you through the doorway, and feels around the wall for a switch. A fluorescent lamp flickers on above you. <<He>> closes the door and advances, lust in <<his>> eyes.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Mines Guards Room",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "338_5_3_7|",
+    "original": "<<link [[Next|Mines Guards Rape]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 211
+  },
+  {
+    "passage": "Mines Guards Rape",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "361_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Mines Guards Rape Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 254
+  },
+  {
+    "passage": "Mines Guards Rape",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "363_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Mines Guards Rape]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 351
+  },
+  {
+    "passage": "Mines Guards Rape Finish",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "370_5_3_7|",
+    "original": "<<He>> swaggers back to work without another glance at you.",
+    "translation": "",
+    "pos": 110
+  },
+  {
+    "passage": "Mines Guards Rape Finish",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "372_5_3_7|",
+    "original": "<<tearful>> you gather yourself.",
+    "translation": "",
+    "pos": 181
+  },
+  {
+    "passage": "Mines Guards Rape Finish",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "377_5_3_7|",
+    "original": "The <<person>> trips and falls, grabbing the fluorescent light for purchase, but only bringing it with <<him>>. It shatters against the rock ground.<<gggsuspicion>><<mines_suspicion 20>>",
+    "translation": "",
+    "pos": 285
+  },
+  {
+    "passage": "Mines Guards Rape Finish",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "379_5_3_7|",
+    "original": "<<tearful>> you escape the darkness.",
+    "translation": "",
+    "pos": 483
+  },
+  {
+    "passage": "Mines Guards Rape Finish",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "385_5_3_7|",
+    "original": "<<link [[Next|Mines Guards]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 569
+  },
+  {
+    "passage": "Mines Guards Refuse",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "392_5_3_7|",
+    "original": "You refuse the <<persons>> advances. <<He>> whistles, drawing attention from all over. \"I've had enough of this <<girl>>'s impudence,\" <<he>> says. <span class=\"red\">\"Who wants to put <<phim>> in <<pher>> place?\"</span>",
+    "translation": "",
+    "pos": 61
+  },
+  {
+    "passage": "Mines Guards Refuse",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "394_5_3_7|",
+    "original": "Chair legs grind against rock as <<his>> colleagues rise. They surround you, lust in their eyes.",
+    "translation": "",
+    "pos": 298
+  },
+  {
+    "passage": "Mines Guards Refuse",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "397_5_3_7|",
+    "original": "<<link [[Next|Mines Guards Gangrape]]>><<generate1>><<generate2>><<generate3>><<generate4>><<generate5>><<generate6>><<person1>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 429
+  },
+  {
+    "passage": "Mines Guards Refuse",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "400_5_3_7|",
+    "original": "You refuse the <<persons>> advances. \"Careful, <<girl>>,\" <<he>> says. \"You better start playing along, or things will get unpleasant.\"<<ggsuspicion>><<mines_suspicion 10>>",
+    "translation": "",
+    "pos": 619
+  },
+  {
+    "passage": "Mines Guards Refuse",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "403_5_3_7|",
+    "original": "<span class=\"green\"><<He>> leaves you unmolested.</span>",
+    "translation": "",
+    "pos": 810
+  },
+  {
+    "passage": "Mines Guards Refuse",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "406_5_3_7|",
+    "original": "<<link [[Next|Mines Guards]]>><<set $eventskip to 1>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 885
+  },
+  {
+    "passage": "Mines Guards Gangrape",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "430_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Mines Guards Gangrape Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 266
+  },
+  {
+    "passage": "Mines Guards Gangrape",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "432_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Mines Guards Gangrape]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 367
+  },
+  {
+    "passage": "Mines Guards Gangrape Finish",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "439_5_3_7|",
+    "original": "\"Let that be a lesson,\" the <<person1>><<person>> says. They leave you lying on the floor.<<lllsuspicion>><<mines_suspicion -30>>",
+    "translation": "",
+    "pos": 72
+  },
+  {
+    "passage": "Mines Guards Gangrape Finish",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "441_5_3_7|",
+    "original": "<<tearful>> you struggle to your feet.",
+    "translation": "",
+    "pos": 213
+  },
+  {
+    "passage": "Mines Guards Gangrape Finish",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "446_5_3_7|",
+    "original": "<<link [[Next|Mines Guards]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 297
+  },
+  {
+    "passage": "Mines Guards Gangrape Finish",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "449_5_3_7|",
+    "original": "The <<person1>><<person>> falls backwards, stumbling and crashing through the table. Drinks and snacks fly through the air. The other guards step back to avoid being dirtied. You see the exit through the empty space. In the excitement, someone left it wide open.",
+    "translation": "",
+    "pos": 400
+  },
+  {
+    "passage": "Mines Guards Gangrape Finish",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "451_5_3_7|",
+    "original": "<<tearful>> you hop over the broken remains of the table. You're almost at the door before anyone notices their error.",
+    "translation": "",
+    "pos": 674
+  },
+  {
+    "passage": "Mines Guards Gangrape Finish",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "454_5_3_7|",
+    "original": "You rush into the cavern outside, and run towards the lift. You reach it and smack the \"up\" button. A metal grate rattles between you and your pursuers, just in time to stop them. They can only grasp the metal and stare as you ascend from the mines.",
+    "translation": "",
+    "pos": 808
+  },
+  {
+    "passage": "Mines Guards Gangrape Finish",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "457_5_3_7|",
+    "original": "<<link [[Next|Mines Escape]]>><</link>>",
+    "translation": "",
+    "pos": 1089
+  },
+  {
+    "passage": "Mines Guards Clean",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "465_5_3_7|",
+    "original": "You focus on cleaning up after the guards, hoping to blend into the background.",
+    "translation": "",
+    "pos": 33
+  },
+  {
+    "passage": "Mines Guards Clean",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "468_5_3_7|",
+    "original": "They traipse dirt into the room. You sweep up after them.",
+    "translation": "",
+    "pos": 164
+  },
+  {
+    "passage": "Mines Guards Clean",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "470_5_3_7|",
+    "original": "You clear a table of empty bottles, and clean up a spillage.",
+    "translation": "",
+    "pos": 248
+  },
+  {
+    "passage": "Mines Guards Clean",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "472_5_3_7|",
+    "original": "You sweep up crumbs and bin empty snack packets.",
+    "translation": "",
+    "pos": 322
+  },
+  {
+    "passage": "Mines Guards Clean",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "476_5_3_7|",
+    "original": "<<link [[Next|Mines Guards]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 389
+  },
+  {
+    "passage": "Mines Guards Dig",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "483_5_3_7|",
+    "original": "You return to the hidden tunnel, lift the pickaxe, and dig into the wall for as long as you dare.",
+    "translation": "",
+    "pos": 108
+  },
+  {
+    "passage": "Mines Guards Dig",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "485_5_3_7|",
+    "original": "<span class=\"red\">A trickle of water pierces the stone.</span> Then another, and another. You step back. The wall trembles. You turn and run.",
+    "translation": "",
+    "pos": 223
+  },
+  {
+    "passage": "Mines Guards Dig",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "487_5_3_7|",
+    "original": "A great torrent bursts into the tunnel behind you. You clamber up a tall rock, just in time. You sit and watch the water rush by. Their voices are almost swallowed by the river, but you hear the guards screaming.",
+    "translation": "",
+    "pos": 382
+  },
+  {
+    "passage": "Mines Guards Dig",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "490_5_3_7|",
+    "original": "<<link [[Escape|Mines Guards Escape]]>><</link>>",
+    "translation": "",
+    "pos": 613
+  },
+  {
+    "passage": "Mines Guards Dig",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "493_5_3_7|",
+    "original": "You return to the hidden tunnel, lift the pickaxe, and dig into the wall for as long as you dare.",
+    "translation": "",
+    "pos": 711
+  },
+  {
+    "passage": "Mines Guards Dig",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "495_5_3_7|",
+    "original": "<span class=\"teal\">You hear rushing water through the stone.</span> There's something up ahead.",
+    "translation": "",
+    "pos": 826
+  },
+  {
+    "passage": "Mines Guards Dig",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "497_5_3_7|",
+    "original": "<<link [[Next|Mines Guards]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 939
+  },
+  {
+    "passage": "Mines Guards Dig",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "500_5_3_7|",
+    "original": "You return to the hidden tunnel, lift the pickaxe, and dig into the wall for as long as you dare.",
+    "translation": "",
+    "pos": 1040
+  },
+  {
+    "passage": "Mines Guards Dig",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "502_5_3_7|",
+    "original": "<span class=\"lblue\">The wall is softer here.</span> There's a lot of sandstone. You make good progress.",
+    "translation": "",
+    "pos": 1155
+  },
+  {
+    "passage": "Mines Guards Dig",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "504_5_3_7|",
+    "original": "<<link [[Next|Mines Guards]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1276
+  },
+  {
+    "passage": "Mines Guards Dig",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "507_5_3_7|",
+    "original": "You return to the hidden tunnel, lift the pickaxe, and dig into the wall for as long as you dare.",
+    "translation": "",
+    "pos": 1376
+  },
+  {
+    "passage": "Mines Guards Dig",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "509_5_3_7|",
+    "original": "<span class=\"blue\">The tunnel is a bit longer than you found it,</span> but you've no idea how far you have left.",
+    "translation": "",
+    "pos": 1491
+  },
+  {
+    "passage": "Mines Guards Dig",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "511_5_3_7|",
+    "original": "<<link [[Next|Mines Guards]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1622
+  },
+  {
+    "passage": "Mines Guards Dig",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "514_5_3_7|",
+    "original": "You return to the hidden tunnel, lift the pickaxe, and chip away at the wall. It's slow going. You hope whoever started this tunnel went in this direction for a reason.",
+    "translation": "",
+    "pos": 1722
+  },
+  {
+    "passage": "Mines Guards Dig",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "516_5_3_7|",
+    "original": "<span class=\"purple\">The tunnel isn't much longer than you found it, </span>but you don't want to risk digging too long. They've overlooked this tunnel for now, but a dedicated search would find it, and you, fast.",
+    "translation": "",
+    "pos": 1908
+  },
+  {
+    "passage": "Mines Guards Dig",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "518_5_3_7|",
+    "original": "<<link [[Next|Mines Guards]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 2139
+  },
+  {
+    "passage": "Mines Guards Dig",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "521_5_3_7|",
+    "original": "You search the adjoining tunnels. Some are short, more like rooms, but others stretch some distance before winding back in on themselves.",
+    "translation": "",
+    "pos": 2213
+  },
+  {
+    "passage": "Mines Guards Dig",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "523_5_3_7|",
+    "original": "You're searching the last, a deserted corridor, when you notice a gap in the wall. You squeeze through, and find a hidden passage leading to a dead end. A pickaxe lies against the wall. It looks like someone already started digging here, but was interrupted.",
+    "translation": "",
+    "pos": 2368
+  },
+  {
+    "passage": "Mines Guards Dig",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "525_5_3_7|",
+    "original": "<<link [[Next|Mines Guards]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 2644
+  },
+  {
+    "passage": "Mines Guards Escape",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "535_5_3_7|",
+    "original": "The water diminishes, until it's a gentle stream. The shouting hasn't stopped, and it won't be long until someone arrives to investigate the source of the noise.",
+    "translation": "",
+    "pos": 100
+  },
+  {
+    "passage": "Mines Guards Escape",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "537_5_3_7|",
+    "original": "You return to the tunnel you were digging. <span class=\"green\">It now opens onto the storm drains.</span> You step through the gap before you're caught.",
+    "translation": "",
+    "pos": 271
+  },
+  {
+    "passage": "Mines Guards Escape",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "540_5_3_7|",
+    "original": "<<link [[Next|Residential Drain]]>><<mines_end>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 434
+  },
+  {
+    "passage": "Mines",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "554_5_3_7|",
+    "original": "<<link [[Sleeping Quarters (0:01)|Mines Sleeping Quarters]]>><<pass 1>><</link>>",
+    "translation": "",
+    "pos": 108
+  },
+  {
+    "passage": "Mines",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "556_5_3_7|",
+    "original": "<<link [[Canteen (0:01)|Mines Canteen]]>><<pass 1>><</link>>",
+    "translation": "",
+    "pos": 202
+  },
+  {
+    "passage": "Mines Passout",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "575_5_3_7|",
+    "original": "A jostling movement awakens you. You're lying in a metal container. Lights float by overhead. <span class=\"pink\">A ballgag has been stuffed in your mouth, and your arms are tied.</span>",
+    "translation": "",
+    "pos": 61
+  },
+  {
+    "passage": "Mines Passout",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "578_5_3_7|",
+    "original": "A <<person>> peers at you over the rim. \"Just in time,\" <<he>> says. The container comes to a halt, and <<he>> grasps your shoulders. \"Wanted some privacy with the public whore.\" Now higher, you can see more of your surroundings. You were lying in a mine cart, on a track in some forgotten corner of the mines. The only light comes from a lamp at the <<persons>> hip.",
+    "translation": "",
+    "pos": 257
+  },
+  {
+    "passage": "Mines Passout",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "581_5_3_7|",
+    "original": "<<He>> pulls you from the cart. While you're still unsteady from the movement, <<he>> trips you up and pushes <<himself>> atop you.",
+    "translation": "",
+    "pos": 635
+  },
+  {
+    "passage": "Mines Passout",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "584_5_3_7|",
+    "original": "<<link [[Next|Mines Passout Rape]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 777
+  },
+  {
+    "passage": "Mines Passout Rape",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "608_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Mines Passout Rape Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 273
+  },
+  {
+    "passage": "Mines Passout Rape",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "610_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Mines Passout Rape]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 371
+  },
+  {
+    "passage": "Mines Passout Rape Finish",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "619_5_3_7|",
+    "original": "<<He>> leans against the minecart to catch <<his>> breath, but puts too much weight on it, and pushes it into motion. It runs down an incline, disappearing in the dark.",
+    "translation": "",
+    "pos": 129
+  },
+  {
+    "passage": "Mines Passout Rape Finish",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "621_5_3_7|",
+    "original": "\"I'll be right back,\" the <<person>> sighs as <<he>> <span class=\"teal\">removes your ball gag.</span> <<He>> walks after the cart.",
+    "translation": "",
+    "pos": 309
+  },
+  {
+    "passage": "Mines Passout Rape Finish",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "623_5_3_7|",
+    "original": "<<tearful>> you steady yourself against the wall.",
+    "translation": "",
+    "pos": 454
+  },
+  {
+    "passage": "Mines Passout Rape Finish",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "627_5_3_7|",
+    "original": "<<He>> falls away from you, colliding with the minecart and pushing it into motion. It runs down an incline, disappearing in the dark.",
+    "translation": "",
+    "pos": 549
+  },
+  {
+    "passage": "Mines Passout Rape Finish",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "629_5_3_7|",
+    "original": "\"Look what you made me do,\" <<he>> says, <span class=\"teal\">tearing the ballgag from your face.</span> \"You'll be sorry. Wait here.\" <<He>> walks after the cart.",
+    "translation": "",
+    "pos": 701
+  },
+  {
+    "passage": "Mines Passout Rape Finish",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "631_5_3_7|",
+    "original": "<<tearful>> you steady yourself against the wall.",
+    "translation": "",
+    "pos": 874
+  },
+  {
+    "passage": "Mines Passout Rape Finish",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "637_5_3_7|",
+    "original": "<<link [[Next|Mines Passout Rape Finish 2]]>><</link>>",
+    "translation": "",
+    "pos": 958
+  },
+  {
+    "passage": "Mines Passout Rape Finish 2",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "644_5_3_7|",
+    "original": "<span class=\"green\">Your wolf ears tingle,</span> and turn in the direction of the <<person>>. You hear something, <span class=\"red\">A deep breathing.</span>",
+    "translation": "",
+    "pos": 40
+  },
+  {
+    "passage": "Mines Passout Rape Finish 2",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "646_5_3_7|",
+    "original": "The <<person>> continues into the dark, deaf to the danger.",
+    "translation": "",
+    "pos": 215
+  },
+  {
+    "passage": "Mines Passout Rape Finish 2",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "648_5_3_7|",
+    "original": "<<link [[Warn|Mines Passout Warn]]>><<famegood 20>><<stress 12>><</link>><<ggstress>>",
+    "translation": "",
+    "pos": 292
+  },
+  {
+    "passage": "Mines Passout Rape Finish 2",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "650_5_3_7|",
+    "original": "<<link [[Run|Mines Passout Run]]>><</link>>",
+    "translation": "",
+    "pos": 391
+  },
+  {
+    "passage": "Mines Passout Rape Finish 2",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "653_5_3_7|",
+    "original": "<span class=\"green\">Your cat ears tingle,</span> and turn in the direction of the <<person>>. You hear something, <span class=\"red\">A deep breathing.</span>",
+    "translation": "",
+    "pos": 470
+  },
+  {
+    "passage": "Mines Passout Rape Finish 2",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "655_5_3_7|",
+    "original": "The <<person>> continues into the dark, deaf to the danger.",
+    "translation": "",
+    "pos": 644
+  },
+  {
+    "passage": "Mines Passout Rape Finish 2",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "657_5_3_7|",
+    "original": "<<link [[Warn|Mines Passout Warn]]>><<famegood 20>><<stress 12>><</link>><<ggstress>>",
+    "translation": "",
+    "pos": 721
+  },
+  {
+    "passage": "Mines Passout Rape Finish 2",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "659_5_3_7|",
+    "original": "<<link [[Run|Mines Passout Run]]>><</link>>",
+    "translation": "",
+    "pos": 820
+  },
+  {
+    "passage": "Mines Passout Rape Finish 2",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "662_5_3_7|",
+    "original": "<span class=\"green\">Your fox ears tingle,</span> and turn in the direction of the <<person>>. You hear something, <span class=\"red\">A deep breathing.</span>",
+    "translation": "",
+    "pos": 899
+  },
+  {
+    "passage": "Mines Passout Rape Finish 2",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "664_5_3_7|",
+    "original": "The <<person>> continues into the dark, deaf to the danger.",
+    "translation": "",
+    "pos": 1073
+  },
+  {
+    "passage": "Mines Passout Rape Finish 2",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "666_5_3_7|",
+    "original": "<<link [[Warn|Mines Passout Warn]]>><<famegood 20>><<stress 12>><</link>><<ggstress>>",
+    "translation": "",
+    "pos": 1150
+  },
+  {
+    "passage": "Mines Passout Rape Finish 2",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "668_5_3_7|",
+    "original": "<<link [[Run|Mines Passout Run]]>><</link>>",
+    "translation": "",
+    "pos": 1249
+  },
+  {
+    "passage": "Mines Passout Rape Finish 2",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "671_5_3_7|",
+    "original": "The <<person1>><<person>> disappears in the dark. A few moments pass, <span class=\"red\">then a terrible roar reverberates through the tunnel.</span> The <<person>> screams, and reappears, running as fast as <<he>> can. <<He>> shoves you to the ground as <<he>> passes.",
+    "translation": "",
+    "pos": 1315
+  },
+  {
+    "passage": "Mines Passout Rape Finish 2",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "674_5_3_7|",
+    "original": "You rise to your feet. An inhuman number of eyes stare at you from the dark.",
+    "translation": "",
+    "pos": 1602
+  },
+  {
+    "passage": "Mines Passout Rape Finish 2",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "676_5_3_7|",
+    "original": "Tentacles snake across the ground, towards you.",
+    "translation": "",
+    "pos": 1722
+  },
+  {
+    "passage": "Mines Passout Rape Finish 2",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "680_5_3_7|",
+    "original": "<<link [[Next|Mines Passout Tentacles]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 1818
+  },
+  {
+    "passage": "Mines Passout Rape Finish 2",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "683_5_3_7|",
+    "original": "Panic strikes you. You turn and flee, every muscle straining to put distance between yourself and the creature. You run until you collapse from exhaustion. <<beastescape>>",
+    "translation": "",
+    "pos": 1933
+  },
+  {
+    "passage": "Mines Passout Rape Finish 2",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "686_5_3_7|",
+    "original": "You lie still, still terrified, listening for any sign of the creature. You don't hear a thing. Your breathing subsides, and you rise to your feet. You're alone in forgotten tunnels. Perhaps you can find a way out.",
+    "translation": "",
+    "pos": 2131
+  },
+  {
+    "passage": "Mines Passout Rape Finish 2",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "689_5_3_7|",
+    "original": "<<link [[Next|Mines Passout Run 2]]>><</link>>",
+    "translation": "",
+    "pos": 2372
+  },
+  {
+    "passage": "Mines Passout Tentacles",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "719_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Mines Passout Tentacles Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 339
+  },
+  {
+    "passage": "Mines Passout Tentacles",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "721_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Mines Passout Tentacles]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 442
+  },
+  {
+    "passage": "Mines Passout Tentacles Finish",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "727_5_3_7|",
+    "original": "The tentacles slink into the dark, and the eyes fade.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Mines Passout Tentacles Finish",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "730_5_3_7|",
+    "original": "<<tearful>> you set off, alone, into the tunnels. Perhaps you can find a way out.",
+    "translation": "",
+    "pos": 77
+  },
+  {
+    "passage": "Mines Passout Tentacles Finish",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "736_5_3_7|",
+    "original": "<<link [[Next|Mines Passout Run 2]]>><</link>>",
+    "translation": "",
+    "pos": 198
+  },
+  {
+    "passage": "Mines Passout Warn",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "743_5_3_7|",
+    "original": "\"St-stop,\" you hiss. \"There's something over there. Something dangerous.\"",
+    "translation": "",
+    "pos": 51
+  },
+  {
+    "passage": "Mines Passout Warn",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "745_5_3_7|",
+    "original": "\"Keep going,\" you hiss. \"If you want to end up as some monster's lunch.\"",
+    "translation": "",
+    "pos": 169
+  },
+  {
+    "passage": "Mines Passout Warn",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "747_5_3_7|",
+    "original": "\"You'd better get back,\" you hiss. \"We're not alone. There's something over there.\"",
+    "translation": "",
+    "pos": 255
+  },
+  {
+    "passage": "Mines Passout Warn",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "751_5_3_7|",
+    "original": "The <<person>> stops and turns towards you, bemusement on <<his>> face. \"There's no-\" <span class=\"red\">A growl reverberates through the tunnel.</span> Even <<he>> heard that. <<He>> freezes for just a moment before breaking into a run. You join <<him>>.",
+    "translation": "",
+    "pos": 357
+  },
+  {
+    "passage": "Mines Passout Warn",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "755_5_3_7|",
+    "original": "<<link [[Next|Mines Passout Warn 2]]>><<pass 5>><</link>>",
+    "translation": "",
+    "pos": 623
+  },
+  {
+    "passage": "Mines Passout Warn 2",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "761_5_3_7|",
+    "original": "You run for several minutes, until you're certain you're safe. You haven't heard the monster for a long time.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Mines Passout Warn 2",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "764_5_3_7|",
+    "original": "\"Why are you stopping?\" the <<person>> asks, slowing a little ahead of you.",
+    "translation": "",
+    "pos": 133
+  },
+  {
+    "passage": "Mines Passout Warn 2",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "766_5_3_7|",
+    "original": "\"We should be safe now,\" you reply.",
+    "translation": "",
+    "pos": 214
+  },
+  {
+    "passage": "Mines Passout Warn 2",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "768_5_3_7|",
+    "original": "<<He>> leans against the wall, and shuts <<his>> eyes. \"You might have saved me,\" <<he>> says. \"How can I ever repay you?\"",
+    "translation": "",
+    "pos": 255
+  },
+  {
+    "passage": "Mines Passout Warn 2",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "771_5_3_7|",
+    "original": "\"Y-you could help me escape,\" you say.",
+    "translation": "",
+    "pos": 421
+  },
+  {
+    "passage": "Mines Passout Warn 2",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "773_5_3_7|",
+    "original": "\"Show me the exit,\" you say. \"And I'll consider us even.\"",
+    "translation": "",
+    "pos": 504
+  },
+  {
+    "passage": "Mines Passout Warn 2",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "775_5_3_7|",
+    "original": "\"Show me a way out of these mines,\" you say.",
+    "translation": "",
+    "pos": 575
+  },
+  {
+    "passage": "Mines Passout Warn 2",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "778_5_3_7|",
+    "original": "<<He>> laughs. \"Sorry. Running off with you is one thing, but I didn't cover my tracks very well, and if I don't bring you back it'll be coming out of my salary.\"",
+    "translation": "",
+    "pos": 633
+  },
+  {
+    "passage": "Mines Passout Warn 2",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "781_5_3_7|",
+    "original": "You inhale. \"Monster!\" you say. \"Dinner's ready!\"",
+    "translation": "",
+    "pos": 806
+  },
+  {
+    "passage": "Mines Passout Warn 2",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "783_5_3_7|",
+    "original": "\"What the fuck are you doing?!\" the <<person>> hisses. \"Stop! Where the fuck did I leave that gag?!\"",
+    "translation": "",
+    "pos": 861
+  },
+  {
+    "passage": "Mines Passout Warn 2",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "785_5_3_7|",
+    "original": "\"We're over here!\" you say, louder, almost shouting now. You're well away from danger, but the <<person>> doesn't know that.",
+    "translation": "",
+    "pos": 967
+  },
+  {
+    "passage": "Mines Passout Warn 2",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "788_5_3_7|",
+    "original": "\"Stop!\" <<he>> cries, casting an anxious glance down the tunnel. \"I yield. I know an exit. I'll lead you there. Just stop.\"",
+    "translation": "",
+    "pos": 1102
+  },
+  {
+    "passage": "Mines Passout Warn 2",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "791_5_3_7|",
+    "original": "<<link [[Next|Mines Passout Warn 3]]>><<pass 15>><</link>>",
+    "translation": "",
+    "pos": 1236
+  },
+  {
+    "passage": "Mines Passout Warn 3",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "798_5_3_7|",
+    "original": "The <<person>> leads you through the tunnels, winding this way and that, until you reach a steep incline.",
+    "translation": "",
+    "pos": 100
+  },
+  {
+    "passage": "Mines Passout Warn 3",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "801_5_3_7|",
+    "original": "\"This connects to the drains below town,\" <<he>> says. \"The mines flooded one winter, during a storm. We traced the source of the flood here.\"",
+    "translation": "",
+    "pos": 216
+  },
+  {
+    "passage": "Mines Passout Warn 3",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "804_5_3_7|",
+    "original": "You peer up the incline. It's pitch black, but you hear the sound of running water. The <<person>> walks away, muttering about money.",
+    "translation": "",
+    "pos": 369
+  },
+  {
+    "passage": "Mines Passout Warn 3",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "807_5_3_7|",
+    "original": "You climb the slope. The hewn rock walls give way to cement, and you emerge in the storm drains.",
+    "translation": "",
+    "pos": 513
+  },
+  {
+    "passage": "Mines Passout Warn 3",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "810_5_3_7|",
+    "original": "<<link [[Next|Residential Drain]]>><<endcombat>><<mines_end>><<set $eventskip to 1>><<set $mines_entrance_drains to 1>><</link>>",
+    "translation": "",
+    "pos": 620
+  },
+  {
+    "passage": "Mines Passout Run",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "816_5_3_7|",
+    "original": "You turn and run, leaving the <<person>> behind. A few moments later a terrible roar reverberates through the tunnel, followed by a high-pitched scream.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Mines Passout Run",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "819_5_3_7|",
+    "original": "<<link [[Next|Mines Passout Run 2]]>><<pass 15>><</link>>",
+    "translation": "",
+    "pos": 176
+  },
+  {
+    "passage": "Mines Passout Run 2",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "826_5_3_7|",
+    "original": "The tunnels wind this way and that, until you reach a steep incline. You hear running water somewhere above.",
+    "translation": "",
+    "pos": 107
+  },
+  {
+    "passage": "Mines Passout Run 2",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "829_5_3_7|",
+    "original": "You climb the pitch black slope. The hewn rock walls give way to cement, and you emerge in the storm drains.",
+    "translation": "",
+    "pos": 226
+  },
+  {
+    "passage": "Mines Passout Run 2",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "832_5_3_7|",
+    "original": "<<link [[Next|Residential Drain]]>><<endcombat>><<mines_end>><<set $eventskip to 1>><<set $mines_entrance_drains to 1>><</link>>",
+    "translation": "",
+    "pos": 345
+  },
+  {
+    "passage": "Mines Escape",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "839_5_3_7|",
+    "original": "The lift arrives in a gloomy basement, far above. You hop off the platform as soon as the grate opens.",
+    "translation": "",
+    "pos": 103
+  },
+  {
+    "passage": "Mines Escape",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "842_5_3_7|",
+    "original": "You wind between tall shelves, until you find a staircase leading up. You climb, step through a door, and emerge at the bottom of the flats on Barb Street.",
+    "translation": "",
+    "pos": 216
+  },
+  {
+    "passage": "Mines Escape",
+    "filepath": "overworld-underground/loc-mines/main.twee",
+    "key": "845_5_3_7|",
+    "original": "<<link [[Next|Flats]]>><<endcombat>><<mines_end>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 382
+  }
+]
