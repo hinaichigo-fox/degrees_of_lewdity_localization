@@ -1,0 +1,2298 @@
+[
+  {
+    "passage": "Strip Club",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "9_5_3_7|",
+    "original": "You are in the strip club on Connudatus Street. <<if Time.dayState isnot \"day\" and Time.dayState isnot \"dawn\">>A few stages dot the room, with dancers working their trade. Two bouncers stand near the entrance, solemnly observing the clientele. Security is taken seriously here.<</if>>",
+    "translation": "",
+    "pos": 137
+  },
+  {
+    "passage": "Strip Club",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "20_5_3_7|",
+    "original": "It's closing time. Security is herding everyone outside.",
+    "translation": "",
+    "pos": 589
+  },
+  {
+    "passage": "Strip Club",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "22_5_3_7|",
+    "original": "You are ushered towards the dressing room.",
+    "translation": "",
+    "pos": 741
+  },
+  {
+    "passage": "Strip Club",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "25_5_3_7|",
+    "original": "<<shopicon \"clothing\">><<link [[Dressing room|Strip Club Dressing Room]]>><</link>>",
+    "translation": "",
+    "pos": 800
+  },
+  {
+    "passage": "Strip Club",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "28_5_3_7|",
+    "original": "<<if $exposed gte 1>>One hands you some towels.<<towelup>><</if>>",
+    "translation": "",
+    "pos": 906
+  },
+  {
+    "passage": "Strip Club",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "32_5_3_7|",
+    "original": "<<connudatusicon>><<link [[Leave|Strip Club Goon]]>><</link>>",
+    "translation": "",
+    "pos": 1065
+  },
+  {
+    "passage": "Strip Club",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "35_5_3_7|",
+    "original": "<<connudatusicon>><<link [[Leave|Connudatus Street]]>><</link>>",
+    "translation": "",
+    "pos": 1152
+  },
+  {
+    "passage": "Strip Club",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "40_5_3_7|",
+    "original": "You are alone in the empty club.",
+    "translation": "",
+    "pos": 1319
+  },
+  {
+    "passage": "Strip Club",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "43_5_3_7|",
+    "original": "<<shopicon \"clothing\">><<link [[Dressing room (0:01)|Strip Club Dressing Room]]>><<pass 1>><</link>>",
+    "translation": "",
+    "pos": 1366
+  },
+  {
+    "passage": "Strip Club",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "47_5_3_7|",
+    "original": "<<shopicon \"register\">><<link [[Examine the cash register|Strip Club Register]]>><</link>>",
+    "translation": "",
+    "pos": 1512
+  },
+  {
+    "passage": "Strip Club",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "51_5_3_7|",
+    "original": "<<connudatusicon>><<link [[Leave|Connudatus Street]]>><</link>>",
+    "translation": "",
+    "pos": 1624
+  },
+  {
+    "passage": "Strip Club",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "57_5_3_7|",
+    "original": "You feel exposed, despite not being the only one attired so lewdly.",
+    "translation": "",
+    "pos": 1732
+  },
+  {
+    "passage": "Strip Club",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "62_5_3_7|",
+    "original": "<<generate1>><<person1>>One of the bouncers approaches you.",
+    "translation": "",
+    "pos": 1855
+  },
+  {
+    "passage": "Strip Club",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "64_5_3_7|",
+    "original": "\"I'm going to have to ask you for an ID.\"",
+    "translation": "",
+    "pos": 1936
+  },
+  {
+    "passage": "Strip Club",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "67_5_3_7|",
+    "original": "\"I-Is it okay if I use this?\" you ask, fumbling for a moment before",
+    "translation": "",
+    "pos": 2031
+  },
+  {
+    "passage": "Strip Club",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "69_5_3_7|",
+    "original": "\"Can I use this?\" you ask,",
+    "translation": "",
+    "pos": 2146
+  },
+  {
+    "passage": "Strip Club",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "71_5_3_7|",
+    "original": "\"Is it okay if I use this?\" you ask,",
+    "translation": "",
+    "pos": 2189
+  },
+  {
+    "passage": "Strip Club",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "73_5_3_7|",
+    "original": "pulling out your school ID. \"I can prove I'm-\"",
+    "translation": "",
+    "pos": 2240
+  },
+  {
+    "passage": "Strip Club",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "75_5_3_7|",
+    "original": "\"We only accept legal ID,\" <<he>> interrupts. \"No entry without one.\" Forced to admit you don't have a legal ID, you are steered firmly toward the door.",
+    "translation": "",
+    "pos": 2302
+  },
+  {
+    "passage": "Strip Club",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "79_5_3_7|",
+    "original": "\"I'm going to have to ask you for an ID.\" You hand <<him>> your fake ID. <<He>> examines it for a moment, then hands it back to you. \"Welcome. Please enjoy yourself, but remember to keep your hands to yourself on the main floor. No second chances.\" <<He>> looks you up and down. \"We're also hiring. Positions are open for bartenders and dancers.\"",
+    "translation": "",
+    "pos": 2564
+  },
+  {
+    "passage": "Strip Club",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "88_5_3_7|",
+    "original": "<<socialiseicon \"ask\">><<link [[Enquire about the bartending job|Strip Club Management]]>><</link>>",
+    "translation": "",
+    "pos": 3127
+  },
+  {
+    "passage": "Strip Club",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "92_5_3_7|",
+    "original": "<<socialiseicon \"ask\">><<link [[Enquire about the dancing job|Strip Club Management]]>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 3288
+  },
+  {
+    "passage": "Strip Club",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "99_5_3_7|",
+    "original": "<<link [[Work as a bartender (1:00)|Strip Club Bartending]]>>",
+    "translation": "",
+    "pos": 3722
+  },
+  {
+    "passage": "Strip Club",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "103_5_3_7|",
+    "original": "| <label>Work normally <<radiobutton \"$bartendaction\" \"normal\" checked>></label>",
+    "translation": "",
+    "pos": 3929
+  },
+  {
+    "passage": "Strip Club",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "105_5_3_7|",
+    "original": "| <label>Work normally <<radiobutton \"$bartendaction\" \"normal\">></label>",
+    "translation": "",
+    "pos": 4026
+  },
+  {
+    "passage": "Strip Club",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "108_5_3_7|",
+    "original": "| <label><span class=\"purple\">Try to attract VIPs</span> <<radiobutton \"$bartendaction\" \"vip\" checked>></label>",
+    "translation": "",
+    "pos": 4148
+  },
+  {
+    "passage": "Strip Club",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "110_5_3_7|",
+    "original": "| <label><span class=\"purple\">Try to attract VIPs</span> <<radiobutton \"$bartendaction\" \"vip\">></label>",
+    "translation": "",
+    "pos": 4276
+  },
+  {
+    "passage": "Strip Club",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "113_5_3_7|",
+    "original": "| <label><span class=\"blue\">Listen</span> <<radiobutton \"$bartendaction\" \"listen\" checked>></label>",
+    "translation": "",
+    "pos": 4432
+  },
+  {
+    "passage": "Strip Club",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "115_5_3_7|",
+    "original": "| <label><span class=\"blue\">Listen</span> <<radiobutton \"$bartendaction\" \"listen\">></label>",
+    "translation": "",
+    "pos": 4548
+  },
+  {
+    "passage": "Strip Club",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "120_5_3_7|",
+    "original": "<<brothelicon \"stage\">><<link [[Work as a dancer (0:05)|Strip Club Dancing]]>>",
+    "translation": "",
+    "pos": 4770
+  },
+  {
+    "passage": "Strip Club",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "125_5_3_7|",
+    "original": "<<shopicon \"clothing\">><<link [[Dressing room (0:01)|Strip Club Dressing Room]]>><<pass 1>><</link>>",
+    "translation": "",
+    "pos": 5138
+  },
+  {
+    "passage": "Strip Club",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "127_5_3_7|",
+    "original": "<<bathroomicon \"shower\">><<link [[Bathroom and showers (0:01)|Strip Club Bathroom]]>><<pass 1>><</link>>",
+    "translation": "",
+    "pos": 5250
+  },
+  {
+    "passage": "Strip Club",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "132_5_3_7|",
+    "original": "<<connudatusicon>><<link [[Leave|Strip Club Proposition]]>><</link>>",
+    "translation": "",
+    "pos": 5412
+  },
+  {
+    "passage": "Strip Club",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "135_5_3_7|",
+    "original": "<<connudatusicon>><<link [[Leave|Strip Club Goon]]>><</link>>",
+    "translation": "",
+    "pos": 5571
+  },
+  {
+    "passage": "Strip Club",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "138_5_3_7|",
+    "original": "<<connudatusicon>><<link [[Leave|Connudatus Street]]>><</link>>",
+    "translation": "",
+    "pos": 5681
+  },
+  {
+    "passage": "Strip Club",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "141_5_3_7|",
+    "original": "<<connudatusicon>><<link [[Leave|Connudatus Street]]>><</link>>",
+    "translation": "",
+    "pos": 5846
+  },
+  {
+    "passage": "Strip Club",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "144_5_3_7|",
+    "original": "<<connudatusicon>><<link [[Leave|Strip Club Leave Naked]]>><</link>><<if $daily.ex.day isnot 1>><<exhibitionist4>><</if>>",
+    "translation": "",
+    "pos": 5984
+  },
+  {
+    "passage": "Strip Club",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "147_5_3_7|",
+    "original": "<<connudatusicon>><<link [[Leave|Strip Club Leave Undies]]>><</link>><<if $daily.ex.day isnot 1>><<exhibitionist2>><</if>>",
+    "translation": "",
+    "pos": 6180
+  },
+  {
+    "passage": "Strip Club Dressing Room",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "162_5_3_7|",
+    "original": "You are in the strip club's dressing room. <<if Time.dayState isnot \"day\" and Time.dayState isnot \"dawn\">>There are a few mirrors, currently occupied by staff fixing their hair and makeup.<</if>>",
+    "translation": "",
+    "pos": 137
+  },
+  {
+    "passage": "Strip Club Dressing Room",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "166_5_3_7|",
+    "original": "<<wardrobeicon>><<link [[Wardrobe|Strip Club Wardrobe]]>><</link>>",
+    "translation": "",
+    "pos": 344
+  },
+  {
+    "passage": "Strip Club Dressing Room",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "168_5_3_7|",
+    "original": "<<mirroricon>><<link [[Mirror|Strip Club Mirror]]>><<preMirror>><</link>>",
+    "translation": "",
+    "pos": 416
+  },
+  {
+    "passage": "Strip Club Dressing Room",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "173_5_3_7|",
+    "original": "<span class=\"blue\">Security won't let you leave until you dress.</span>",
+    "translation": "",
+    "pos": 547
+  },
+  {
+    "passage": "Strip Club Dressing Room",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "176_5_3_7|",
+    "original": "<<connudatusicon>><<link [[Leave|Connudatus Street]]>><</link>>",
+    "translation": "",
+    "pos": 638
+  },
+  {
+    "passage": "Strip Club Dressing Room",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "180_5_3_7|",
+    "original": "<<getouticon>><<link [[Return to the club (0:01)|Strip Club]]>><<pass 1>><</link>>",
+    "translation": "",
+    "pos": 728
+  },
+  {
+    "passage": "Strip Club Mirror",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "187_5_3_7|",
+    "original": "<<shopicon \"clothing\">><<link [[Step away|Strip Club Dressing Room]]>><<handheldon>><<unset $mirrorMenu>><<unset $bodywritingSet>><<postMirror>><</link>>",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Strip Club Mirror",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "190_5_3_7|",
+    "original": "<<mirror>>",
+    "translation": "",
+    "pos": 173
+  },
+  {
+    "passage": "Strip Club Leave Naked",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "197_5_3_7|",
+    "original": "You walk past the bemused bouncer guarding the door, and peek outside. It's <<if Time.dayState is \"night\">>dark<<else>>getting dark<</if>>, but neon light bathes the whole street. It'll be hard to avoid being seen. You don't care. <<flaunting>> you step outside. <<covered>>",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Strip Club Leave Naked",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "207_5_3_7|",
+    "original": "An arm grasps your shoulder. \"Where do you think you're going <<girl>>?\" asks the bouncer, a <<person>>. \"You can't go out naked. You'll get hurt, and get us in trouble.\"",
+    "translation": "",
+    "pos": 445
+  },
+  {
+    "passage": "Strip Club Leave Naked",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "210_5_3_7|",
+    "original": "<<He>> tries to steer you inside.",
+    "translation": "",
+    "pos": 628
+  },
+  {
+    "passage": "Strip Club Leave Naked",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "213_5_3_7|",
+    "original": "<<link [[Run|Strip Club Leave Run]]>><</link>><<athleticsdifficulty 1 400>>",
+    "translation": "",
+    "pos": 674
+  },
+  {
+    "passage": "Strip Club Leave Naked",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "215_5_3_7|",
+    "original": "<<link [[Go inside|Strip Club Leave Inside]]>><</link>>",
+    "translation": "",
+    "pos": 757
+  },
+  {
+    "passage": "Strip Club Leave Naked",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "218_5_3_7|",
+    "original": "<<link [[Next|Connudatus Street]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 829
+  },
+  {
+    "passage": "Strip Club Leave Undies",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "225_5_3_7|",
+    "original": "You walk past the bemused bouncer guarding the door, and peek outside. It's <<if Time.dayState is \"night\">>dark<<else>>getting dark<</if>>, but neon light bathes the whole street. It'll be hard to avoid being seen. You don't care. <<flaunting>> you step outside. <<covered>>",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Strip Club Leave Undies",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "235_5_3_7|",
+    "original": "An arm grasps your shoulder. \"Where do you think you're going <<girl>>?\" asks the bouncer, a <<person>>. \"Dress properly before you go home. You'll get in trouble.\"",
+    "translation": "",
+    "pos": 445
+  },
+  {
+    "passage": "Strip Club Leave Undies",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "238_5_3_7|",
+    "original": "<<He>> tries to steer you inside.",
+    "translation": "",
+    "pos": 622
+  },
+  {
+    "passage": "Strip Club Leave Undies",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "241_5_3_7|",
+    "original": "<<link [[Run|Strip Club Leave Run]]>><</link>><<athleticsdifficulty 1 400>>",
+    "translation": "",
+    "pos": 668
+  },
+  {
+    "passage": "Strip Club Leave Undies",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "243_5_3_7|",
+    "original": "<<link [[Go inside|Strip Club Leave Inside]]>><</link>>",
+    "translation": "",
+    "pos": 751
+  },
+  {
+    "passage": "Strip Club Leave Undies",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "246_5_3_7|",
+    "original": "<<link [[Next|Connudatus Street]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 823
+  },
+  {
+    "passage": "Strip Club Leave Run",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "253_5_3_7|",
+    "original": "You break free from the <<person1>><<persons>> grip, and run.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Strip Club Leave Run",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "256_5_3_7|",
+    "original": "<<He>> tries to grab you again, <span class=\"green\">but you're too quick.</span> You run out onto the street.",
+    "translation": "",
+    "pos": 102
+  },
+  {
+    "passage": "Strip Club Leave Run",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "259_5_3_7|",
+    "original": "<<link [[Next|Connudatus Street]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 224
+  },
+  {
+    "passage": "Strip Club Leave Run",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "262_5_3_7|",
+    "original": "<<He>> tries to grab you again, <span class=\"red\">and manages to clasp <<his>> hand over your shoulder.</span> \"I'm serious,\" <<he>> says, steering you back into the club. \"You'll get hurt carrying on like that.\"",
+    "translation": "",
+    "pos": 320
+  },
+  {
+    "passage": "Strip Club Leave Run",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "265_5_3_7|",
+    "original": "<<link [[Next|Strip Club]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 545
+  },
+  {
+    "passage": "Strip Club Leave Inside",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "272_5_3_7|",
+    "original": "You allow the <<person>> to bring you back into the safety of the club.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Strip Club Leave Inside",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "276_5_3_7|",
+    "original": "<<link [[Next|Strip Club]]>><</link>>",
+    "translation": "",
+    "pos": 108
+  },
+  {
+    "passage": "Strip Club Bathroom",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "282_5_3_7|",
+    "original": "You are in the bathroom at the Strip Club. There are several private cubicles for the dancers and staff to use after and during work. They look clean and well maintained.",
+    "translation": "",
+    "pos": 67
+  },
+  {
+    "passage": "Strip Club Bathroom",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "288_5_3_7|",
+    "original": "<<bathroomicon \"shower\">><<link [[Have a shower (0:20)|Strip Club Shower]]>><<strip>><<pass 20>><<stress -1>><<set $hygiene to 0>><</link>><<lstress>>",
+    "translation": "",
+    "pos": 305
+  },
+  {
+    "passage": "Strip Club Bathroom",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "290_5_3_7|",
+    "original": "<<getouticon>><<link [[Back to the club (0:01)|Strip Club]]>><<pass 1>><</link>>",
+    "translation": "",
+    "pos": 467
+  },
+  {
+    "passage": "Strip Club Shower",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "297_5_3_7|",
+    "original": "You wash until you're squeaky clean.<<wash>>",
+    "translation": "",
+    "pos": 86
+  },
+  {
+    "passage": "Strip Club Shower",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "300_5_3_7|",
+    "original": "<<skinicon \"masturbate\">><<link [[Masturbate|Strip Club Shower Masturbation]]>><<handheldon>><<set $masturbationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 141
+  },
+  {
+    "passage": "Strip Club Shower",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "303_5_3_7|",
+    "original": "<<getouticon>><<link [[Get out|Strip Club Bathroom]]>><<clotheson>><</link>>",
+    "translation": "",
+    "pos": 281
+  },
+  {
+    "passage": "Strip Club Lock",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "309_5_3_7|",
+    "original": "A sign reads: \"Open from <<ampm 18 00>>\"",
+    "translation": "",
+    "pos": 87
+  },
+  {
+    "passage": "Strip Club Lock",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "314_5_3_7|",
+    "original": "You think you'd be able to pick the lock, <span class=\"blue\">if your arms weren't bound.</span>",
+    "translation": "",
+    "pos": 243
+  },
+  {
+    "passage": "Strip Club Lock",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "318_5_3_7|",
+    "original": "<span class=\"green\">The lock looks easy to pick.</span>",
+    "translation": "",
+    "pos": 388
+  },
+  {
+    "passage": "Strip Club Lock",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "320_5_3_7|",
+    "original": "<<lockicon \"pick\">><<link [[Pick it (0:10)|Strip Club]]>><<handheldon>><<pass 10>><<crimeUp 10 \"trespassing\">><</link>><<crime \"trespassing\">>",
+    "translation": "",
+    "pos": 457
+  },
+  {
+    "passage": "Strip Club Lock",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "324_5_3_7|",
+    "original": "<span class=\"red\">The lock looks beyond your ability to pick.</span><<skulduggeryrequired>>",
+    "translation": "",
+    "pos": 626
+  },
+  {
+    "passage": "Strip Club Lock",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "328_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Connudatus Street]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 737
+  },
+  {
+    "passage": "Strip Club Management",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "336_5_3_7|",
+    "original": "You are led to the back of the club, then up a flight of stairs. A wooden door sits open at the top. The bouncer knocks twice and motions you through.",
+    "translation": "",
+    "pos": 194
+  },
+  {
+    "passage": "Strip Club Management",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "338_5_3_7|",
+    "original": "You enter what looks like a personal office. Shelves overflowing with books line the walls. There's a desk on the far side of the room. More books lie open on top of one another, a few lie on the ground at its base. Instead of a wall, one side of the room has a large window overlooking the club below. A <<personsimple>> stands facing away from you, looking for something on one of the shelves.",
+    "translation": "",
+    "pos": 354
+  },
+  {
+    "passage": "Strip Club Management",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "342_5_3_7|",
+    "original": "\"I'll be right with you,\" <<he>> says, sounding flustered. <<His>> shapely behind and dark trousers wiggle as <<he>> searches a lower shelf. \"It's no use. I'd lose my head if it wasn't screwed on.\" <<He>> turns to face you, revealing an attractive face in its mid-thirties. <<He>> wears a professional black outfit and a pair of glasses rest on top of <<his>> short brown hair.",
+    "translation": "",
+    "pos": 785
+  },
+  {
+    "passage": "Strip Club Management",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "345_5_3_7|",
+    "original": "\"I'll be right with you,\" <<he>> says, sounding flustered. <<His>> shapely behind and long black skirt wiggle as <<he>> searches a lower shelf. \"It's no use. I'd lose my head if it wasn't screwed on.\" <<He>> turns to face you, revealing an attractive face in its mid-thirties. <<He>> wears a professional black outfit and a pair of glasses rest on top of <<his>> brown hair, which is tied into a neat bun.",
+    "translation": "",
+    "pos": 1193
+  },
+  {
+    "passage": "Strip Club Management",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "350_5_3_7|",
+    "original": "\"My name is Darryl, I run this establishment. I hear you're looking for work.\" <<He>> doesn't give you the opportunity to question how <<he>> knew that already. \"Splendid! We're always on the look out for new talent.\"",
+    "translation": "",
+    "pos": 1619
+  },
+  {
+    "passage": "Strip Club Management",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "355_5_3_7|",
+    "original": "<<He>> pauses for a moment before reaching up and feeling around. As <<he>> grasps <<his>> glasses a look of relief lights up <<his>> face. \"Oh. This is embarrassing.\" <<His>> face does seem to be turning red. \"Thank you. Don't tell anyone though, please?\" <<He>> places the lenses over <<his>> eyes and starts reading one of the books sprawled on <<his>> desk.",
+    "translation": "",
+    "pos": 1896
+  },
+  {
+    "passage": "Strip Club Management",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "360_5_3_7|",
+    "original": "You decide to save <<him>> the embarrassment. <<He>> will no doubt find them soon anyway. You give <<him>> a nod and make your way back down to the main floor.",
+    "translation": "",
+    "pos": 2367
+  },
+  {
+    "passage": "Strip Club Management",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "364_5_3_7|",
+    "original": "Darryl looks up from <<his>> desk as you enter, <<his>> fringe and glasses obscuring <<his>> eyes. \"Welcome back! You want to know what other work is available?\"",
+    "translation": "",
+    "pos": 2589
+  },
+  {
+    "passage": "Strip Club Management",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "369_5_3_7|",
+    "original": "<<link [[Next|Strip Club Management]]>><<set $phase2 to 2>><</link>>",
+    "translation": "",
+    "pos": 2789
+  },
+  {
+    "passage": "Strip Club Management",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "375_5_3_7|",
+    "original": "\"The bartending job is exactly what it sounds like. You won't be expected to do anything lewd, but you might make more in tips if you dress provocatively. If the patrons give you trouble, just alert security. Pay is £5 an hour, plus any tips you receive.\"",
+    "translation": "",
+    "pos": 2948
+  },
+  {
+    "passage": "Strip Club Management",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "377_5_3_7|",
+    "original": "\"You can start whenever, we always need more hands.\"",
+    "translation": "",
+    "pos": 3213
+  },
+  {
+    "passage": "Strip Club Management",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "382_5_3_7|",
+    "original": "\"You want to dance? Good! You probably saw some stages were empty. You can dress how you want, but you should dress appropriately if you want decent tips. We operate a strict no-touching policy in the main room. If anyone gives you trouble, don't hesitate to call security. We take the safety of our staff very seriously.\"",
+    "translation": "",
+    "pos": 3383
+  },
+  {
+    "passage": "Strip Club Management",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "385_5_3_7|",
+    "original": "\"Any tips you get are yours to keep, but if it's serious money you're after you'll want to sell private dances to patrons. We provide rooms for such a purpose. What happens in there, and how much it will cost them, is between you and your client. Officially there's not supposed to be any physical contact, so be discreet. We take an eighty percent cut of anything you earn in a private room. That might seem high, but trust me, it isn't.\"",
+    "translation": "",
+    "pos": 3716
+  },
+  {
+    "passage": "Strip Club Management",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "388_5_3_7|",
+    "original": "<<He>> pauses a moment before continuing, \"Almost forgot, we have a dressing room of course. Use it as you need.\"",
+    "translation": "",
+    "pos": 4166
+  },
+  {
+    "passage": "Strip Club Management",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "393_5_3_7|",
+    "original": "As you leave the room Darryl calls out to you. \"Oh, by the way. If you see a pair of spectacles lying around. Would you let me know? I seem to have misplaced mine.\" Do you tell <<him>> or not?",
+    "translation": "",
+    "pos": 4377
+  },
+  {
+    "passage": "Strip Club Management",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "396_5_3_7|",
+    "original": "<<link [[Yes|Strip Club Management]]>><<endevent>><<set $phase to 2>><</link>>",
+    "translation": "",
+    "pos": 4580
+  },
+  {
+    "passage": "Strip Club Management",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "398_5_3_7|",
+    "original": "<<link [[No|Strip Club Management]]>><<endevent>><<set $phase to 3>><</link>>",
+    "translation": "",
+    "pos": 4664
+  },
+  {
+    "passage": "Strip Club Management",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "403_5_3_7|",
+    "original": "<<link [[Leave|Strip Club]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 4758
+  },
+  {
+    "passage": "Strip Club Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "412_5_3_7|",
+    "original": "You get to work supplying the patrons with overpriced drinks and snacks. <<if $drinksservedstat is 0>>You're new at this. Fortunately the other staff are happy to show you the ropes.<<elseif $drinksservedstat lte 500>>You've done this before, but you're still inexperienced and rely on other staff to make sure you don't screw up.<<elseif $drinksservedstat lte 10000>>You're pretty good at this.<<else>>You pull pints like a master.<</if>>",
+    "translation": "",
+    "pos": 86
+  },
+  {
+    "passage": "Strip Club Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "416_5_3_7|",
+    "original": "You focus on working. There are enough patrons to keep you busy.",
+    "translation": "",
+    "pos": 571
+  },
+  {
+    "passage": "Strip Club Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "419_5_3_7|",
+    "original": "You try to attract the attention of VIPs, people with more money and clout than regular clientele. Security aren't keen on upsetting them, making them more dangerous.",
+    "translation": "",
+    "pos": 682
+  },
+  {
+    "passage": "Strip Club Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "422_5_3_7|",
+    "original": "One such VIP, a <<generate1>><<person1>><<person>>, glances at you, <span class=\"purple\">before looking away with a dismissive sneer.</span> <i>You'll need to strip down to underwear or similar to hold their attention. You've lots of competition.</i><<endevent>>",
+    "translation": "",
+    "pos": 958
+  },
+  {
+    "passage": "Strip Club Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "426_5_3_7|",
+    "original": "<<generate1>><<person1>>A server in a bunny costume picks up a tray of beers from the counter. <<He>> gives you a sly look, then leans over. You feel <<his>> eyes on your <<nudity>>. \"Thought so,\" <<he>> says. \"The counter might be in the way, but I can tell you're naked below the waist by the way you carry yourself.\"",
+    "translation": "",
+    "pos": 1348
+  },
+  {
+    "passage": "Strip Club Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "428_5_3_7|",
+    "original": "\"Good thinking,\" <<he>> continues, fending off a groping client. \"That's sure to get you lots of tips.\"",
+    "translation": "",
+    "pos": 1683
+  },
+  {
+    "passage": "Strip Club Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "434_5_3_7|",
+    "original": "Several patrons are sat in quiet discussion, their voices drowned out by the noise of the club. You eavesdrop, listening for useful information.",
+    "translation": "",
+    "pos": 1873
+  },
+  {
+    "passage": "Strip Club Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "438_5_3_7|",
+    "original": "You overhear a <<generate1>><<generate2>><<fullGroup>> discussing their sexual exploits. <<if $awareness gte 400>>Sounds pretty vanilla.<<else>>You must have misheard though. <span class=\"lewd\"><i>That's not an appropriate way to use an aquarium!</i></span> <<gawareness>><<awareness 1>><</if>><<endevent>>",
+    "translation": "",
+    "pos": 2051
+  },
+  {
+    "passage": "Strip Club Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "441_5_3_7|",
+    "original": "You overhear a <<generate1>><<generate2>><<fullGroup>> discussing their sexual exploits. <<if $awareness gte 200>>Sounds pretty vanilla.<<else>>You must have misheard though. <span class=\"lewd\"><i>People don't really do such things!</i></span> <<gawareness>><<awareness 1>><</if>><<endevent>>",
+    "translation": "",
+    "pos": 2395
+  },
+  {
+    "passage": "Strip Club Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "444_5_3_7|",
+    "original": "You overhear a <<generate1>><<generate2>><<fullGroup>> discussing their sexual exploits. <<if $awareness gte 100>>Sounds pretty vanilla.<<else>>You must have misheard though. <span class=\"lewd\">They can't really be talking about putting <i>that</i> in such a place!</span> <<gawareness>><<awareness 1>><</if>><<endevent>>",
+    "translation": "",
+    "pos": 2725
+  },
+  {
+    "passage": "Strip Club Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "466_5_3_7|",
+    "original": "Some patrons eye you up, but they're mostly distracted by the dancers. <<tipreceive \"stripClubBartender\">>",
+    "translation": "",
+    "pos": 3459
+  },
+  {
+    "passage": "Strip Club Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "469_5_3_7|",
+    "original": "<<link [[Next|Strip Club]]>><<endevent>><<pass 30>><</link>>",
+    "translation": "",
+    "pos": 3576
+  },
+  {
+    "passage": "Widgets Events Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "477_5_3_7|",
+    "original": "<<generate1>><<person1>>\"Hey,\" says a voice behind you. You turn to the counter, and see a <<person>> leaning against it. <<He>> wears an expensive <<if $pronoun is \"f\">>dress.<<else>>suit.<</if>> \"Why don't you bring that ass closer? I might have something in my pocket.\"",
+    "translation": "",
+    "pos": 62
+  },
+  {
+    "passage": "Widgets Events Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "480_5_3_7|",
+    "original": "There's no question that <<his>> intentions are lewd.",
+    "translation": "",
+    "pos": 349
+  },
+  {
+    "passage": "Widgets Events Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "483_5_3_7|",
+    "original": "<<link [[Ignore|Bartending VIP Patron Ignore]]>><</link>>",
+    "translation": "",
+    "pos": 417
+  },
+  {
+    "passage": "Widgets Events Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "486_5_3_7|",
+    "original": "<<link [[Walk over|Bartending VIP Patron]]>><<set $phase to 0>><</link>><<promiscuous2>>",
+    "translation": "",
+    "pos": 523
+  },
+  {
+    "passage": "Widgets Events Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "501_5_3_7|",
+    "original": "You catch the eye of a <<person>> and <<person2>><<person>>, both dressed in formal attire. They watch you work and whisper between themselves. They examine every inch of your <<nudity>>.",
+    "translation": "",
+    "pos": 937
+  },
+  {
+    "passage": "Widgets Events Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "504_5_3_7|",
+    "original": "The <<person1>><<person>> starts counting out bank notes while the <<person2>><<person>> beckons you over. Before you arrive however, a <<person3>><<person>> dressed in a bunny costume walks over. <<He>> discards <<his>> server's tray and wraps <<his>> arms around the <<person1>><<persons>> neck. Both <<he>> and <<his>> friend lose interest in you.",
+    "translation": "",
+    "pos": 1139
+  },
+  {
+    "passage": "Widgets Events Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "507_5_3_7|",
+    "original": "<<link [[Just keep working|Bartending VIP Work]]>><</link>>",
+    "translation": "",
+    "pos": 1504
+  },
+  {
+    "passage": "Widgets Events Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "510_5_3_7|",
+    "original": "<<link [[Compete for their attention|Bartending VIP Compete]]>><</link>><<exhibitionist2>>",
+    "translation": "",
+    "pos": 1614
+  },
+  {
+    "passage": "Widgets Events Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "523_5_3_7|",
+    "original": "You see another member of staff, a <<person>>, leaning against the counter. <<Hes>> wearing a <<if $pronoun is \"m\">>butler costume<<else>>french maid costume<</if>>, and has attracted a lot of attention from wealthy-looking clientele. <<He>> leans back against the counter, teasing <<his>> onlookers. A <<person2>><<person>> in an expensive <<if $pronoun is \"f\">>dress<<else>>suit<</if>> tries to grope, but the <<person1>><<person>> gently pushes <<person2>><<his>> hand away.",
+    "translation": "",
+    "pos": 2066
+  },
+  {
+    "passage": "Widgets Events Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "526_5_3_7|",
+    "original": "<span class=\"lewd\">An idea strikes you.</span>",
+    "translation": "",
+    "pos": 2596
+  },
+  {
+    "passage": "Widgets Events Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "528_5_3_7|",
+    "original": "<<link [[Strip <<person1>><<him>>|Bartending VIP Strip]]>><</link>><<promiscuous2>>",
+    "translation": "",
+    "pos": 2658
+  },
+  {
+    "passage": "Widgets Events Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "531_5_3_7|",
+    "original": "<<link [[Continue working|Bartending VIP Work]]>><</link>>",
+    "translation": "",
+    "pos": 2764
+  },
+  {
+    "passage": "Widgets Events Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "535_5_3_7|",
+    "original": "<<generate1>><<person1>>\"Hey,\" says a voice behind you. You turn to the counter, and see a <<person>> leaning against it. <<He>> wears an expensive <<if $pronoun is \"f\">>dress.<<else>>suit.<</if>> \"Why don't you bring that ass closer? I might have something in my pocket.\"",
+    "translation": "",
+    "pos": 2887
+  },
+  {
+    "passage": "Widgets Events Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "538_5_3_7|",
+    "original": "There's no question that <<his>> intentions are lewd.",
+    "translation": "",
+    "pos": 3174
+  },
+  {
+    "passage": "Widgets Events Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "541_5_3_7|",
+    "original": "<<link [[Ignore|Bartending VIP Patron Ignore]]>><</link>>",
+    "translation": "",
+    "pos": 3242
+  },
+  {
+    "passage": "Widgets Events Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "544_5_3_7|",
+    "original": "<<link [[Walk over|Bartending VIP Patron]]>><<set $phase to 0>><</link>><<promiscuous2>>",
+    "translation": "",
+    "pos": 3348
+  },
+  {
+    "passage": "Widgets Events Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "550_5_3_7|",
+    "original": "<<generate1>><<person1>>A <<person>> leaves you a tip. <<tipreceive \"stripClubBartender\">>",
+    "translation": "",
+    "pos": 3481
+  },
+  {
+    "passage": "Widgets Events Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "553_5_3_7|",
+    "original": "<<link [[Next|Strip Club]]>><<endevent>><<pass 30>><</link>>",
+    "translation": "",
+    "pos": 3584
+  },
+  {
+    "passage": "Widgets Events Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "558_5_3_7|",
+    "original": "<<generate1>><<person1>>One patron seems more interested in you than in any of the dancers. After a few minutes of staring, <<he>> speaks.",
+    "translation": "",
+    "pos": 3695
+  },
+  {
+    "passage": "Widgets Events Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "561_5_3_7|",
+    "original": "\"Why don't you give us a little twirl? I'll make it worth your while.\"",
+    "translation": "",
+    "pos": 3873
+  },
+  {
+    "passage": "Widgets Events Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "564_5_3_7|",
+    "original": "<<link [[Comply|Strip Club Bartending Flash]]>><<set $phase to 1>><</link>><<exhibitionist1>>",
+    "translation": "",
+    "pos": 3960
+  },
+  {
+    "passage": "Widgets Events Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "567_5_3_7|",
+    "original": "<<link [[Refuse|Strip Club Bartending Flash]]>><</link>>",
+    "translation": "",
+    "pos": 4066
+  },
+  {
+    "passage": "Widgets Events Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "570_5_3_7|",
+    "original": "\"You're a fine-looking young man aren't you.\" <<He>> eyes up your chest. \"How about you let me see a little bit more of you? I'll reward you.\"",
+    "translation": "",
+    "pos": 4173
+  },
+  {
+    "passage": "Widgets Events Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "574_5_3_7|",
+    "original": "<<link [[Comply|Strip Club Bartending Flash]]>><<set $phase to 2>><</link>><<exhibitionist2>>",
+    "translation": "",
+    "pos": 4374
+  },
+  {
+    "passage": "Widgets Events Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "577_5_3_7|",
+    "original": "<<link [[Refuse|Strip Club Bartending Flash]]>><</link>>",
+    "translation": "",
+    "pos": 4491
+  },
+  {
+    "passage": "Widgets Events Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "580_5_3_7|",
+    "original": "\"You're a sexy little thing. How about you get your tits out? I'll give you something in return.\"",
+    "translation": "",
+    "pos": 4563
+  },
+  {
+    "passage": "Widgets Events Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "584_5_3_7|",
+    "original": "<<link [[Comply|Strip Club Bartending Flash]]>><<set $phase to 3>><</link>><<exhibitionist4>>",
+    "translation": "",
+    "pos": 4719
+  },
+  {
+    "passage": "Widgets Events Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "587_5_3_7|",
+    "original": "<<link [[Refuse|Strip Club Bartending Flash]]>><</link>>",
+    "translation": "",
+    "pos": 4836
+  },
+  {
+    "passage": "Widgets Events Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "593_5_3_7|",
+    "original": "<<npc Darryl>><<person1>>Darryl takes a seat at the bar and orders a drink. <<He>> looks dispirited.",
+    "translation": "",
+    "pos": 4918
+  },
+  {
+    "passage": "Widgets Events Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "596_5_3_7|",
+    "original": "<<link [[Focus on working|Strip Club Bartending Darryl]]>><</link>>",
+    "translation": "",
+    "pos": 5033
+  },
+  {
+    "passage": "Widgets Events Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "598_5_3_7|",
+    "original": "<<link [[Try to talk|Strip Club Bartending Darryl]]>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 5110
+  },
+  {
+    "passage": "Widgets Events Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "607_5_3_7|",
+    "original": "You overhear a <<generate1>><<person1>><<person>> leaning close to a <<generate2>><<person2>><<person>>. <<He>> whispers something about smuggling.",
+    "translation": "",
+    "pos": 5322
+  },
+  {
+    "passage": "Widgets Events Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "610_5_3_7|",
+    "original": "<<link [[Eavesdrop|Bartending Listen Smuggling]]>><</link>><<skulduggerydifficulty>>",
+    "translation": "",
+    "pos": 5523
+  },
+  {
+    "passage": "Widgets Events Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "612_5_3_7|",
+    "original": "<<link [[Just keep working|Bartending Listen Work]]>><</link>>",
+    "translation": "",
+    "pos": 5617
+  },
+  {
+    "passage": "Widgets Events Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "618_5_3_7|",
+    "original": "You overhear a <<person>> and <<person3>><<person>> discussing another patron. You realise with a sinking feeling that they're talking about the <<person1>><<person>> who harassed you earlier.",
+    "translation": "",
+    "pos": 5856
+  },
+  {
+    "passage": "Widgets Events Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "620_5_3_7|",
+    "original": "\"Apparently... someone upset <<him>>,\" the <<person2>><<person>> says between sips. \"Now they're out for blood. Want to set up an ambush for the poor fucker. Trying to rope others in...\"",
+    "translation": "",
+    "pos": 6062
+  },
+  {
+    "passage": "Widgets Events Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "622_5_3_7|",
+    "original": "<span class=\"red\">They're talking about you.</span>",
+    "translation": "",
+    "pos": 6262
+  },
+  {
+    "passage": "Widgets Events Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "625_5_3_7|",
+    "original": "<<link [[Tell Darryl|Bartending VIP Darryl]]>><</link>>",
+    "translation": "",
+    "pos": 6342
+  },
+  {
+    "passage": "Widgets Events Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "627_5_3_7|",
+    "original": "<<link [[Don't tell anyone|Bartending VIP Darryl Refuse]]>><</link>>",
+    "translation": "",
+    "pos": 6407
+  },
+  {
+    "passage": "Widgets Events Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "632_5_3_7|",
+    "original": "You overhear a <<person1>><<person>> and <<person2>><<person>>. \"Such a hot one,\" the <<person1>><<person>> says. The <<person2>><<person>> nods. They're leering at a <<person3>><<person>> dancing on a nearby stage.",
+    "translation": "",
+    "pos": 6624
+  },
+  {
+    "passage": "Widgets Events Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "635_5_3_7|",
+    "original": "\"How's about we buy <<him>> then? Can't be too expensive.\"",
+    "translation": "",
+    "pos": 6854
+  },
+  {
+    "passage": "Widgets Events Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "638_5_3_7|",
+    "original": "The <<person1>><<person>> laughs. \"Nah. Let's just follow <<person3>><<him>> home when <<he>> finishes work. Take it for free.\"",
+    "translation": "",
+    "pos": 6927
+  },
+  {
+    "passage": "Widgets Events Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "641_5_3_7|",
+    "original": "They both laugh. You're not sure if they're serious, but maybe you should inform Darryl.",
+    "translation": "",
+    "pos": 7069
+  },
+  {
+    "passage": "Widgets Events Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "644_5_3_7|",
+    "original": "<<link [[Tell Darryl|Bartending Listen Darryl]]>><</link>>",
+    "translation": "",
+    "pos": 7186
+  },
+  {
+    "passage": "Widgets Events Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "646_5_3_7|",
+    "original": "<<link [[Don't tell anyone|Bartending Listen Darryl Refuse]]>><</link>>",
+    "translation": "",
+    "pos": 7254
+  },
+  {
+    "passage": "Widgets Events Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "649_5_3_7|",
+    "original": "You don't hear anything interesting. Some patrons eye you up, but they're mostly distracted by the dancers. <<tipreceive \"stripClubBartender\">>",
+    "translation": "",
+    "pos": 7345
+  },
+  {
+    "passage": "Widgets Events Bartending",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "652_5_3_7|",
+    "original": "<<link [[Next|Strip Club]]>><<endevent>><<pass 30>><</link>>",
+    "translation": "",
+    "pos": 7503
+  },
+  {
+    "passage": "Strip Club Bartending Flash",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "666_5_3_7|",
+    "original": "The <<person>> looks dejected. \"Suit yourself.\" <<He>> leaves the club.<<tipreceive>>",
+    "translation": "",
+    "pos": 114
+  },
+  {
+    "passage": "Strip Club Bartending Flash",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "668_5_3_7|",
+    "original": "\"That wasn't a request.\" <<He>> lunges across the counter and grabs your shoulders. Before you find out what <<he>> intends to do next, security has <<him>> on the ground. <<He>> is quickly removed from the premises, but your heart still races.",
+    "translation": "",
+    "pos": 218
+  },
+  {
+    "passage": "Strip Club Bartending Flash",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "674_5_3_7|",
+    "original": "You give a little spin to show off your form. The <<person>> cheers, <<his>> eyes enjoying the feast. Satisfied, <<he>> leaves you a tip.",
+    "translation": "",
+    "pos": 622
+  },
+  {
+    "passage": "Strip Club Bartending Flash",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "680_5_3_7|",
+    "original": "You pull down your $worn.upper.name, revealing your <<breasts>>.",
+    "translation": "",
+    "pos": 854
+  },
+  {
+    "passage": "Strip Club Bartending Flash",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "682_5_3_7|",
+    "original": "You lift up your $worn.upper.name, displaying your <<breasts>>.",
+    "translation": "",
+    "pos": 931
+  },
+  {
+    "passage": "Strip Club Bartending Flash",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "684_5_3_7|",
+    "original": "You feel your face begin to heat up. The <<person>> cheers and raises <<his>> glass to you. Satisfied, <<he>> leaves a tip.",
+    "translation": "",
+    "pos": 1005
+  },
+  {
+    "passage": "Strip Club Bartending Flash",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "689_5_3_7|",
+    "original": "Despite it not being considered obscene for guys to display their chests, doing so on demand for money leaves you feeling flustered and vulnerable.",
+    "translation": "",
+    "pos": 1210
+  },
+  {
+    "passage": "Strip Club Bartending Flash",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "691_5_3_7|",
+    "original": "Despite everyone thinking you're a guy, displaying your <<breasts>> in public like this still fills you with a guilty thrill.",
+    "translation": "",
+    "pos": 1370
+  },
+  {
+    "passage": "Strip Club Bartending Flash",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "693_5_3_7|",
+    "original": "You cover up quickly.<<exhibitionism2>>",
+    "translation": "",
+    "pos": 1506
+  },
+  {
+    "passage": "Strip Club Bartending Flash",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "698_5_3_7|",
+    "original": "You pull down your $worn.upper.name, revealing your <<breasts>>. You feel your face begin to heat up.",
+    "translation": "",
+    "pos": 1606
+  },
+  {
+    "passage": "Strip Club Bartending Flash",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "700_5_3_7|",
+    "original": "You lift up your $worn.upper.name, displaying your <<breasts>>. You feel your face begin to heat up.",
+    "translation": "",
+    "pos": 1723
+  },
+  {
+    "passage": "Strip Club Bartending Flash",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "702_5_3_7|",
+    "original": "The <<person>> cheers and raises <<his>> glass to you. Satisfied, <<he>> leaves a tip.",
+    "translation": "",
+    "pos": 1834
+  },
+  {
+    "passage": "Strip Club Bartending Flash",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "707_5_3_7|",
+    "original": "Despite being in a strip club, actually displaying yourself publicly like this pervades you with excitement and embarrassment. You cover up quickly, before you draw too many eyes.",
+    "translation": "",
+    "pos": 2053
+  },
+  {
+    "passage": "Strip Club Bartending Flash",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "709_5_3_7|",
+    "original": "It's not normally a big deal for a guy's chest to be exposed. But your patrons don't know you're a guy. The hungry and sinful look in their eyes as they take in your bare flesh makes that very clear. You cover up quickly, before you feel too exposed.",
+    "translation": "",
+    "pos": 2248
+  },
+  {
+    "passage": "Strip Club Bartending Flash",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "715_5_3_7|",
+    "original": "<<link [[Next|Strip Club]]>><<endevent>><<pass 30>><</link>>",
+    "translation": "",
+    "pos": 2538
+  },
+  {
+    "passage": "Strip Club Bartending Darryl",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "722_5_3_7|",
+    "original": "You fulfil Darryl's order, but otherwise leave <<him>> be. After a short while <<he>> wordlessly stands and leaves you a tip.",
+    "translation": "",
+    "pos": 87
+  },
+  {
+    "passage": "Strip Club Bartending Darryl",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "726_5_3_7|",
+    "original": "You gently enquire about what is wrong. <<if C.npc.Darryl.love lte 30>>Darryl seems surprised when <<he>> looks up at you, before looking back at <<his>> drink. \"It's nothing. Thank you for asking though. Sorry, I need to get back to work.\" <<else>>Darryl smiles, but you see a sadness in <<his>> eyes. \"I'm fine, just something I have to deal with. Thank you for asking though.\"<</if>> <<He>> stands up to leave.",
+    "translation": "",
+    "pos": 263
+  },
+  {
+    "passage": "Strip Club Bartending Darryl",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "734_5_3_7|",
+    "original": "<<link [[Next|Strip Club]]>><<endevent>><<pass 30>><</link>>",
+    "translation": "",
+    "pos": 731
+  },
+  {
+    "passage": "Strip Club Bartending Darryl",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "738_5_3_7|",
+    "original": "Before <<he>> can move away however, the patron sat beside <<him>> grabs <<him>> by the waist and begins running <<endevent>><<generate1>><<person1>> <<his>> hands all over Darryl's body.",
+    "translation": "",
+    "pos": 803
+  },
+  {
+    "passage": "Strip Club Bartending Darryl",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "741_5_3_7|",
+    "original": "You look to security, but they are busy dealing with a brawl on the other side of the club. Darryl is clearly distraught, but makes no attempt to resist, merely whispering, \"Please, no.\"",
+    "translation": "",
+    "pos": 1001
+  },
+  {
+    "passage": "Strip Club Bartending Darryl",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "744_5_3_7|",
+    "original": "<<link [[Do nothing|Strip Club Bartending Darryl Molest]]>><</link>>",
+    "translation": "",
+    "pos": 1198
+  },
+  {
+    "passage": "Strip Club Bartending Darryl",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "747_5_3_7|",
+    "original": "<<link [[Seduce the assailant to save Darryl|Strip Club Bartending Molestation]]>><<set $timer to 10>><<set $molestationstart to 1>><</link>><<promiscuous3>>",
+    "translation": "",
+    "pos": 1309
+  },
+  {
+    "passage": "Strip Club Bartending Darryl",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "750_5_3_7|",
+    "original": "<<link [[Hit the assailant over the head to save Darryl|Strip Club Bartending Molestation]]>><<set $timer to 10>><<set $phase to 1>><<attackstat>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 1481
+  },
+  {
+    "passage": "Strip Club Bartending Molestation",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "764_5_3_7|",
+    "original": "You sprawl yourself on the counter and bite your lower lip, looking the assailant in the eyes. It has the effect you hoped. <<He>> drops Darryl and pounces on top of you. You both tumble off the counter.",
+    "translation": "",
+    "pos": 160
+  },
+  {
+    "passage": "Strip Club Bartending Molestation",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "768_5_3_7|",
+    "original": "You grab a glass and smash it over the assailant's head. The shattering force causes <<him>> to drop Darryl, but <<he>> turns to you instead. Furious, <<he>> lunges over the counter knocking you to the ground.",
+    "translation": "",
+    "pos": 426
+  },
+  {
+    "passage": "Strip Club Bartending Molestation",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "774_5_3_7|",
+    "original": "You still hear the sound of fighting on the other side of the counter.",
+    "translation": "",
+    "pos": 848
+  },
+  {
+    "passage": "Strip Club Bartending Molestation",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "778_5_3_7|",
+    "original": "You can't see with the counter in the way, but you think the brawl has been stopped.",
+    "translation": "",
+    "pos": 958
+  },
+  {
+    "passage": "Strip Club Bartending Molestation",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "787_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Strip Club Bartending Molestation]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 1215
+  },
+  {
+    "passage": "Strip Club Bartending Molestation",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "789_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Strip Club Bartending Molestation Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 1321
+  },
+  {
+    "passage": "Strip Club Bartending Darryl Molest",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "797_5_3_7|",
+    "original": "The <<person>> continues to probe and fondle Darryl all over. Darryl shuts <<endevent>><<npc Darryl>><<person1>> <<his>> eyes and remains motionless, simply allowing the violation to take place. Darryl begins to shake slightly when a hand starts groping around <<if $pronoun is \"m\">>the bulge in <<his>> trousers,<<else>> <<his>> crotch,<</if>> but it's not long before security has order restored and arrives to throw out the molesting patron.",
+    "translation": "",
+    "pos": 95
+  },
+  {
+    "passage": "Strip Club Bartending Darryl Molest",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "800_5_3_7|",
+    "original": "Darryl immediately heads back to <<his>> office. <<He>> doesn't look at you.",
+    "translation": "",
+    "pos": 550
+  },
+  {
+    "passage": "Strip Club Bartending Darryl Molest",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "803_5_3_7|",
+    "original": "<<link [[Next|Strip Club]]>><<endevent>><<pass 30>><</link>>",
+    "translation": "",
+    "pos": 637
+  },
+  {
+    "passage": "Strip Club Bartending Molestation Finish",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "810_5_3_7|",
+    "original": "The <<person>> blinks as if <<he>> has forgotten where <<he>> is. <<He>> stands up and begins to stagger off. <<He>> doesn't make it far before security restrains <<him>>.",
+    "translation": "",
+    "pos": 127
+  },
+  {
+    "passage": "Strip Club Bartending Molestation Finish",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "817_5_3_7|",
+    "original": "You manage to knock <<him>> prone. <<He>> struggles to stand up, but it gives you time to retreat to a safe distance. Security arrives and promptly detains <<him>>.",
+    "translation": "",
+    "pos": 372
+  },
+  {
+    "passage": "Strip Club Bartending Molestation Finish",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "826_5_3_7|",
+    "original": "<<He>> is grabbed by both shoulders and hoisted away from you. You breathe a sigh of relief as security drags <<him>> to the exit.",
+    "translation": "",
+    "pos": 613
+  },
+  {
+    "passage": "Strip Club Bartending Molestation Finish",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "834_5_3_7|",
+    "original": "<<npc Darryl>><<person1>>Darryl rushes over to you, <<his>> hair a tangled mess. \"Are you alright? I tried to get someone over here as fast as I could!\"",
+    "translation": "",
+    "pos": 795
+  },
+  {
+    "passage": "Strip Club Bartending Molestation Finish",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "838_5_3_7|",
+    "original": "<<link [[Be strong|Strip Club Bartending Molestation Talk]]>><<stress 6>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 985
+  },
+  {
+    "passage": "Strip Club Bartending Molestation Finish",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "841_5_3_7|",
+    "original": "<<link [[Let your tears flow|Strip Club Bartending Molestation Talk]]>><<stress -12>><<trauma -6>><<set $phase to 1>><<pain -4>><</link>><<ltrauma>><<lstress>><<lpain>>",
+    "translation": "",
+    "pos": 1105
+  },
+  {
+    "passage": "Strip Club Bartending Molestation Finish",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "843_5_3_7|",
+    "original": "<<link [[Break down|Strip Club Bartending Molestation Talk]]>><<stress -12>><<trauma -6>><<set $phase to 1>><<pain -4>><</link>><<ltrauma>><<lstress>><<lpain>>",
+    "translation": "",
+    "pos": 1284
+  },
+  {
+    "passage": "Strip Club Bartending Molestation Talk",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "851_5_3_7|",
+    "original": "\"It was nothing,\" you say, doing your best to suppress the tremor in your voice. Darryl responds, \"It wasn't nothing, you saved me!\" <<He>> stands closer to you, <<his>> voice dropping to a whisper. \"I just froze up, it was so horrible...\" <<He>> trails off as you put your arms around <<him>>. <<He>> leans against you and quietly sobs.",
+    "translation": "",
+    "pos": 122
+  },
+  {
+    "passage": "Strip Club Bartending Molestation Talk",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "854_5_3_7|",
+    "original": "You guide <<him>> to <<his>> office and you spend the rest of your shift comforting <<him>> and chatting.",
+    "translation": "",
+    "pos": 470
+  },
+  {
+    "passage": "Strip Club Bartending Molestation Talk",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "857_5_3_7|",
+    "original": "Darryl embraces you and",
+    "translation": "",
+    "pos": 624
+  },
+  {
+    "passage": "Strip Club Bartending Molestation Talk",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "859_5_3_7|",
+    "original": "you cry on <<his>> shoulder. <<He>> sounds like <<he>> is also on the verge of tears. \"You saved me, I won't forget it.\"",
+    "translation": "",
+    "pos": 668
+  },
+  {
+    "passage": "Strip Club Bartending Molestation Talk",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "861_5_3_7|",
+    "original": "you press your face into <<his>> shoulder. <<He>> sounds like <<hes>> on the verge of tears. \"You saved me, I won't forget it.\"",
+    "translation": "",
+    "pos": 799
+  },
+  {
+    "passage": "Strip Club Bartending Molestation Talk",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "865_5_3_7|",
+    "original": "<<He>> brings you to <<his>> office and you spend the rest of your shift chatting.",
+    "translation": "",
+    "pos": 945
+  },
+  {
+    "passage": "Strip Club Bartending Molestation Talk",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "869_5_3_7|",
+    "original": "<<link [[Next|Strip Club]]>><<endevent>><<pass 30>><</link>>",
+    "translation": "",
+    "pos": 1046
+  },
+  {
+    "passage": "Strip Club Proposition",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "874_5_3_7|",
+    "original": "<<generate1>><<person1>>Once escorted from the building, a <<person>> bumps into you on the street. \"I'm so sorry! Here, you dropped this.\" <<He>> practically forces a slip of paper into your hand, then marches away before you can say anything.",
+    "translation": "",
+    "pos": 67
+  },
+  {
+    "passage": "Strip Club Proposition",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "877_5_3_7|",
+    "original": "You read the paper. It has the address of a building on Harvest Street followed by a brief message: \"If you're looking for grander opportunities, come see us.\"",
+    "translation": "",
+    "pos": 322
+  },
+  {
+    "passage": "Strip Club Proposition",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "880_5_3_7|",
+    "original": "<<set $brothelknown to 1>><span class=\"gold\">You can now access the suspicious building on Harvest Street.</span>",
+    "translation": "",
+    "pos": 513
+  },
+  {
+    "passage": "Strip Club Proposition",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "887_5_3_7|",
+    "original": "<<link [[Next|Connudatus Street]]>><</link>>",
+    "translation": "",
+    "pos": 689
+  },
+  {
+    "passage": "Strip Club Exposed",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "893_5_3_7|",
+    "original": "You sneak closer to the strip club, taking cover beneath unused market stalls. You get as close as you can.",
+    "translation": "",
+    "pos": 46
+  },
+  {
+    "passage": "Strip Club Exposed",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "896_5_3_7|",
+    "original": "The club entrance is busy, with numerous pedestrians passing by and two bouncers guarding the door. There's a back entrance down a side alley, but it still requires running over exposed pavement. Perhaps no one will notice your state of dress in this dim light.",
+    "translation": "",
+    "pos": 164
+  },
+  {
+    "passage": "Strip Club Exposed",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "899_5_3_7|",
+    "original": "<<link [[Try to sneak in through the back door|Strip Club Exposed Sneak]]>><</link>>",
+    "translation": "",
+    "pos": 436
+  },
+  {
+    "passage": "Strip Club Exposed",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "902_5_3_7|",
+    "original": "<<link [[Just walk through the front door|Strip Club Exposed Walk]]>><</link>><<if $daily.ex.club isnot 1>><<exhibitionist4>><</if>>",
+    "translation": "",
+    "pos": 584
+  },
+  {
+    "passage": "Strip Club Exposed",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "905_5_3_7|",
+    "original": "<<link [[Just walk through the front door|Strip Club Exposed Walk]]>><</link>><<if $daily.ex.club isnot 1>><<exhibitionist2>><</if>>",
+    "translation": "",
+    "pos": 785
+  },
+  {
+    "passage": "Strip Club Exposed",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "908_5_3_7|",
+    "original": "<<link [[It's too dangerous|Connudatus Street]]>><</link>>",
+    "translation": "",
+    "pos": 932
+  },
+  {
+    "passage": "Strip Club Exposed Sneak",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "914_5_3_7|",
+    "original": "Staying low, you dart across the pavement towards the alley.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Strip Club Exposed Sneak",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "920_5_3_7|",
+    "original": "You make it over, but then hear a <<personsimple>>'s voice.",
+    "translation": "",
+    "pos": 135
+  },
+  {
+    "passage": "Strip Club Exposed Sneak",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "922_5_3_7|",
+    "original": "\"I just saw a naked <<girl>> run into that alley.\"",
+    "translation": "",
+    "pos": 208
+  },
+  {
+    "passage": "Strip Club Exposed Sneak",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "924_5_3_7|",
+    "original": "You make it over, but then hear a <<personsimple>>'s voice.",
+    "translation": "",
+    "pos": 271
+  },
+  {
+    "passage": "Strip Club Exposed Sneak",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "926_5_3_7|",
+    "original": "\"I just saw a <<girl>> run into that alley. <<pShe>> was only wearing underwear or something.\"",
+    "translation": "",
+    "pos": 344
+  },
+  {
+    "passage": "Strip Club Exposed Sneak",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "929_5_3_7|",
+    "original": "\"No way,\" another voice responds.",
+    "translation": "",
+    "pos": 455
+  },
+  {
+    "passage": "Strip Club Exposed Sneak",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "931_5_3_7|",
+    "original": "\"I did. Maybe <<pshe>> works here.\"",
+    "translation": "",
+    "pos": 496
+  },
+  {
+    "passage": "Strip Club Exposed Sneak",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "933_5_3_7|",
+    "original": "\"Did you see <<pher>> face?\"",
+    "translation": "",
+    "pos": 539
+  },
+  {
+    "passage": "Strip Club Exposed Sneak",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "935_5_3_7|",
+    "original": "\"Nah, <<pshe>> was too quick. Had <<haircolourtext>> hair though. Maybe we'll see <<phim>> inside.\"",
+    "translation": "",
+    "pos": 575
+  },
+  {
+    "passage": "Strip Club Exposed Sneak",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "937_5_3_7|",
+    "original": "\"We should check the alley out. <<pShe>> might still be there.\"",
+    "translation": "",
+    "pos": 682
+  },
+  {
+    "passage": "Strip Club Exposed Sneak",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "940_5_3_7|",
+    "original": "By now you're at the back entrance, your hands shaking as you throw the door open and step inside.",
+    "translation": "",
+    "pos": 758
+  },
+  {
+    "passage": "Strip Club Exposed Sneak",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "944_5_3_7|",
+    "original": "<<link [[Next|Strip Club]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 921
+  },
+  {
+    "passage": "Strip Club Exposed Sneak",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "947_5_3_7|",
+    "original": "You make it over, and up to the club's back entrance. You throw the door open and step inside. You don't think anyone noticed.",
+    "translation": "",
+    "pos": 987
+  },
+  {
+    "passage": "Strip Club Exposed Sneak",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "950_5_3_7|",
+    "original": "<<link [[Next|Strip Club]]>><</link>>",
+    "translation": "",
+    "pos": 1126
+  },
+  {
+    "passage": "Strip Club Exposed Walk",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "957_5_3_7|",
+    "original": "<<flaunting>> you emerge from your hiding place, and march toward the club.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Strip Club Exposed Walk",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "971_5_3_7|",
+    "original": "You don't get far before being spotted. A few wolf whistles are directed your way, and a <<person>> blocks your path. <<covered>> \"Hey, <<girl>>,\" <<he>> says. \"You a teaser for what I can expect inside? How about I try out that ass of yours?\" <<He>> doesn't ask for a response before grasping your <<bottom>> and pulling you close. <<if $NPCList[0].penis isnot \"none\">>You feel <<his>> $NPCList[0].penisdesc pressing against you. <<Hes>> already erect.<</if>>",
+    "translation": "",
+    "pos": 387
+  },
+  {
+    "passage": "Strip Club Exposed Walk",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "973_5_3_7|",
+    "original": "The bouncers step forward.",
+    "translation": "",
+    "pos": 859
+  },
+  {
+    "passage": "Strip Club Exposed Walk",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "977_5_3_7|",
+    "original": "<<link [[Wave the bouncers away|Strip Club Exposed Endure]]>><</link>><<promiscuous3>>",
+    "translation": "",
+    "pos": 936
+  },
+  {
+    "passage": "Strip Club Exposed Walk",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "980_5_3_7|",
+    "original": "<<link [[Let the bouncers rescue you|Strip Club Exposed Rescue]]>><</link>>",
+    "translation": "",
+    "pos": 1040
+  },
+  {
+    "passage": "Strip Club Exposed Walk",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "984_5_3_7|",
+    "original": "You attract a few wolf whistles, but no one harasses you. The bouncers let you through. They pretend not to check you out.",
+    "translation": "",
+    "pos": 1133
+  },
+  {
+    "passage": "Strip Club Exposed Walk",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "987_5_3_7|",
+    "original": "<<link [[Next|Strip Club]]>><</link>>",
+    "translation": "",
+    "pos": 1268
+  },
+  {
+    "passage": "Strip Club Exposed Endure",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "994_5_3_7|",
+    "original": "Despite what the <<person1>><<person>> intends, you wave the bouncers away. They hesitate, but return to their posts.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Strip Club Exposed Endure",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "997_5_3_7|",
+    "original": "The <<person>> leads you down the alley, and holds your arms against the wall.",
+    "translation": "",
+    "pos": 149
+  },
+  {
+    "passage": "Strip Club Exposed Endure",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1000_5_3_7|",
+    "original": "<<link [[Next|Strip Club Exposed Sex]]>><<set $sexstart to 1>><</link>>",
+    "translation": "",
+    "pos": 238
+  },
+  {
+    "passage": "Strip Club Exposed Sex",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1023_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Strip Club Exposed Sex Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 278
+  },
+  {
+    "passage": "Strip Club Exposed Sex",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1025_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Strip Club Exposed Sex]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 380
+  },
+  {
+    "passage": "Strip Club Exposed Sex Finish",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1033_5_3_7|",
+    "original": "\"Only idiots pay for sluts,\" the <<person1>><<person>> says as <<he>> walks back to the street.",
+    "translation": "",
+    "pos": 94
+  },
+  {
+    "passage": "Strip Club Exposed Sex Finish",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1035_5_3_7|",
+    "original": "<<tearful>> you gather yourself.",
+    "translation": "",
+    "pos": 201
+  },
+  {
+    "passage": "Strip Club Exposed Sex Finish",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1039_5_3_7|",
+    "original": "<<link [[Next|Connudatus Street]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 275
+  },
+  {
+    "passage": "Strip Club Exposed Sex Finish",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1042_5_3_7|",
+    "original": "You shove the <<person>> against the wall, where <<he>> falls the ground with a grimace.",
+    "translation": "",
+    "pos": 380
+  },
+  {
+    "passage": "Strip Club Exposed Sex Finish",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1044_5_3_7|",
+    "original": "<<tearful>> you throw open the club's back entrance. You dart inside.",
+    "translation": "",
+    "pos": 480
+  },
+  {
+    "passage": "Strip Club Exposed Sex Finish",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1048_5_3_7|",
+    "original": "<<link [[Next|Strip Club]]>><</link>>",
+    "translation": "",
+    "pos": 591
+  },
+  {
+    "passage": "Strip Club Exposed Sex Finish",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1052_5_3_7|",
+    "original": "The bouncers rush around the corner, and run towards you. The <<person1>><<person>> takes off. The bouncers slow to a stop beside you. \"Shouldn't have gone anywhere alone with that creep. You should know better.\"",
+    "translation": "",
+    "pos": 699
+  },
+  {
+    "passage": "Strip Club Exposed Sex Finish",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1054_5_3_7|",
+    "original": "One of the bouncers opens the back entrance for you. <<tearful>> you enter the safety of the club.",
+    "translation": "",
+    "pos": 923
+  },
+  {
+    "passage": "Strip Club Exposed Sex Finish",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1058_5_3_7|",
+    "original": "<<link [[Next|Strip Club]]>><</link>>",
+    "translation": "",
+    "pos": 1063
+  },
+  {
+    "passage": "Strip Club Exposed Sex Finish",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1061_5_3_7|",
+    "original": "\"Oh I get it,\" the <<person1>><<person>> sneers as <<he>> adjusts <<his>> clothing. \"Get me all hot so I'll pay out the ass inside. Not gonna fall for it, slut.\" <<He>> walks back to the street.",
+    "translation": "",
+    "pos": 1117
+  },
+  {
+    "passage": "Strip Club Exposed Sex Finish",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1063_5_3_7|",
+    "original": "<<tearful>> you gather yourself.",
+    "translation": "",
+    "pos": 1323
+  },
+  {
+    "passage": "Strip Club Exposed Sex Finish",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1067_5_3_7|",
+    "original": "<<link [[Next|Connudatus Street]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 1397
+  },
+  {
+    "passage": "Strip Club Exposed Rescue",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1074_5_3_7|",
+    "original": "<<generate2>><<generate3>>One of the bouncers, a <<person2>><<person>>, taps the <<person1>><<person>> on the shoulder. \"Could you take your hands off the <<girl>>, <<if $pronoun is \"m\">>sir<<else>>madam<</if>>,\" <<person2>><<he>> says. \"<<pShes>> a club employee, and this isn't that sort of establishment.\"",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Strip Club Exposed Rescue",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1077_5_3_7|",
+    "original": "<<person1>>\"Not that sort of establishment?\" the <<person>> scoffs. <<He>> releases you though, and wanders down the street.",
+    "translation": "",
+    "pos": 332
+  },
+  {
+    "passage": "Strip Club Exposed Rescue",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1080_5_3_7|",
+    "original": "The bouncers lead you into the safety of the club.",
+    "translation": "",
+    "pos": 467
+  },
+  {
+    "passage": "Strip Club Exposed Rescue",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1083_5_3_7|",
+    "original": "<<link [[Next|Strip Club]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 528
+  },
+  {
+    "passage": "Strip Club Goon",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1091_5_3_7|",
+    "original": "You leave the club, but don't get far. You're accosted by a <<person>>, who steps out of an alley.",
+    "translation": "",
+    "pos": 74
+  },
+  {
+    "passage": "Strip Club Goon",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1095_5_3_7|",
+    "original": "\"Don't piss yourself,\" <<he>> says. \"Briar sent me. <<nnpc_He \"Briar\">> wants the details.\"",
+    "translation": "",
+    "pos": 203
+  },
+  {
+    "passage": "Strip Club Goon",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1097_5_3_7|",
+    "original": "\"Easy there,\" <<he>> says. \"Briar sent me. Says you had an arrangement.\"",
+    "translation": "",
+    "pos": 319
+  },
+  {
+    "passage": "Strip Club Goon",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1099_5_3_7|",
+    "original": "\"Just here for information,\" <<he>> says. \"Briar's information.\"",
+    "translation": "",
+    "pos": 402
+  },
+  {
+    "passage": "Strip Club Goon",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1102_5_3_7|",
+    "original": "<<He>> wants information on Darryl's security and clientele.",
+    "translation": "",
+    "pos": 484
+  },
+  {
+    "passage": "Strip Club Goon",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1105_5_3_7|",
+    "original": "<<link [[Give accurate information|Strip Club Goon Accurate]]>><<npcincr Briar love 1>><</link>><<glove \"Briar\">>",
+    "translation": "",
+    "pos": 555
+  },
+  {
+    "passage": "Strip Club Goon",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1108_5_3_7|",
+    "original": "<<link [[Exaggerate Darryl's power|Strip Club Goon Exaggerate]]>><<set $skulduggerydifficulty to 500>><</link>><<skulduggerydifficulty>>",
+    "translation": "",
+    "pos": 712
+  },
+  {
+    "passage": "Strip Club Goon",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1111_5_3_7|",
+    "original": "<<link [[Underplay Darryl's power|Strip Club Goon Underplay]]>><<set $skulduggerydifficulty to 200>><</link>><<skulduggerydifficulty>>",
+    "translation": "",
+    "pos": 892
+  },
+  {
+    "passage": "Strip Club Goon Accurate",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1117_5_3_7|",
+    "original": "You give the <<person>> an accurate rundown. How many security, how many clientele, how wealthy they are, and altogether how much control Darryl seems to have. As best you can determine, at least.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Strip Club Goon Accurate",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1121_5_3_7|",
+    "original": "The <<person>> seems satisfied. \"Thanks. Briar will be pleased.\" <<He>> slips into an alley.",
+    "translation": "",
+    "pos": 250
+  },
+  {
+    "passage": "Strip Club Goon Accurate",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1124_5_3_7|",
+    "original": "<<link [[Next|Connudatus Street]]>><<set $eventskip to 1>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 353
+  },
+  {
+    "passage": "Strip Club Goon Exaggerate",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1131_5_3_7|",
+    "original": "You give the <<person>> a rundown, but exaggerate the number of security, and the wealth of the clientele.",
+    "translation": "",
+    "pos": 14
+  },
+  {
+    "passage": "Strip Club Goon Exaggerate",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1137_5_3_7|",
+    "original": "<span class=\"green\"><<He>> seems to buy it.</span>",
+    "translation": "",
+    "pos": 186
+  },
+  {
+    "passage": "Strip Club Goon Exaggerate",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1139_5_3_7|",
+    "original": "\"The prince? I'll let Briar know.\"",
+    "translation": "",
+    "pos": 259
+  },
+  {
+    "passage": "Strip Club Goon Exaggerate",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1141_5_3_7|",
+    "original": "\"A sheikh? I wouldn't have guessed.\"",
+    "translation": "",
+    "pos": 320
+  },
+  {
+    "passage": "Strip Club Goon Exaggerate",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1143_5_3_7|",
+    "original": "\"Ex-military you say? And I'm the one who has to tell Briar. Fuck.\"",
+    "translation": "",
+    "pos": 383
+  },
+  {
+    "passage": "Strip Club Goon Exaggerate",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1145_5_3_7|",
+    "original": "\"Security sounds nasty. Better for Briar to know before... never mind.\"",
+    "translation": "",
+    "pos": 477
+  },
+  {
+    "passage": "Strip Club Goon Exaggerate",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1147_5_3_7|",
+    "original": "\"I suppose the nights are busy here. I'll inform Briar.\"",
+    "translation": "",
+    "pos": 561
+  },
+  {
+    "passage": "Strip Club Goon Exaggerate",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1149_5_3_7|",
+    "original": "<<He>> slips into an alley.",
+    "translation": "",
+    "pos": 628
+  },
+  {
+    "passage": "Strip Club Goon Exaggerate",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1157_5_3_7|",
+    "original": "<<link [[Next|Connudatus Street]]>><<set $eventskip to 1>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 765
+  },
+  {
+    "passage": "Strip Club Goon Exaggerate",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1162_5_3_7|",
+    "original": "<<He>> smirks. <span class=\"red\">You don't think <<he>> buys it.</span>",
+    "translation": "",
+    "pos": 863
+  },
+  {
+    "passage": "Strip Club Goon Exaggerate",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1163_5_3_7|",
+    "original": "\"I'll let Briar know,\" <<he>> says, before slipping into an alley.<<llove \"Briar\">>",
+    "translation": "",
+    "pos": 936
+  },
+  {
+    "passage": "Strip Club Goon Exaggerate",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1169_5_3_7|",
+    "original": "<<link [[Next|Connudatus Street]]>><<set $eventskip to 1>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1110
+  },
+  {
+    "passage": "Strip Club Goon Underplay",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1178_5_3_7|",
+    "original": "You give the <<person>> a rundown of Darryl's clientele and security, but play down the numbers.",
+    "translation": "",
+    "pos": 14
+  },
+  {
+    "passage": "Strip Club Goon Underplay",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1183_5_3_7|",
+    "original": "<span class=\"green\"><<He>> seems to buy it.</span>",
+    "translation": "",
+    "pos": 175
+  },
+  {
+    "passage": "Strip Club Goon Underplay",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1185_5_3_7|",
+    "original": "\"Interesting. Briar will be happy to hear it.\"",
+    "translation": "",
+    "pos": 248
+  },
+  {
+    "passage": "Strip Club Goon Underplay",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1187_5_3_7|",
+    "original": "\"So few? I wonder if... never mind.\"",
+    "translation": "",
+    "pos": 321
+  },
+  {
+    "passage": "Strip Club Goon Underplay",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1189_5_3_7|",
+    "original": "\"It's a wonder they haven't been robbed. Perhaps that will change.\"",
+    "translation": "",
+    "pos": 384
+  },
+  {
+    "passage": "Strip Club Goon Underplay",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1191_5_3_7|",
+    "original": "\"I think Briar will be glad to know.\"",
+    "translation": "",
+    "pos": 478
+  },
+  {
+    "passage": "Strip Club Goon Underplay",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1193_5_3_7|",
+    "original": "\"Briar's more dominant than I thought.\"",
+    "translation": "",
+    "pos": 528
+  },
+  {
+    "passage": "Strip Club Goon Underplay",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1195_5_3_7|",
+    "original": "<<He>> slips into an alley.",
+    "translation": "",
+    "pos": 578
+  },
+  {
+    "passage": "Strip Club Goon Underplay",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1203_5_3_7|",
+    "original": "<<link [[Next|Connudatus Street]]>><<set $eventskip to 1>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 715
+  },
+  {
+    "passage": "Strip Club Goon Underplay",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1206_5_3_7|",
+    "original": "<<He>> smirks. <span class=\"red\">You don't think <<he>> buys it.</span>",
+    "translation": "",
+    "pos": 806
+  },
+  {
+    "passage": "Strip Club Goon Underplay",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1207_5_3_7|",
+    "original": "\"I'll let Briar know,\" <<he>> says, before slipping into an alley.<<llove \"Briar\">>",
+    "translation": "",
+    "pos": 879
+  },
+  {
+    "passage": "Strip Club Goon Underplay",
+    "filepath": "overworld-town/loc-strip club/main.twee",
+    "key": "1213_5_3_7|",
+    "original": "<<link [[Next|Connudatus Street]]>><<set $eventskip to 1>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1052
+  }
+]

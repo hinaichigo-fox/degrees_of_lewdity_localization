@@ -1,0 +1,522 @@
+[
+  {
+    "passage": "Strip Club Dancing",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "9_5_3_7|",
+    "original": "There's no way you can continue dancing while so exposed! Face reddening, you flee the scene.",
+    "translation": "",
+    "pos": 199
+  },
+  {
+    "passage": "Strip Club Dancing",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "12_5_3_7|",
+    "original": "There's no way you can continue dancing while so exposed! Face reddening, you flee the scene.",
+    "translation": "",
+    "pos": 431
+  },
+  {
+    "passage": "Strip Club Dancing",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "17_5_3_7|",
+    "original": "<<link [[Next|Strip Club]]>><<endevent>><<clotheson>><</link>>",
+    "translation": "",
+    "pos": 574
+  },
+  {
+    "passage": "Strip Club Dancing",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "20_5_3_7|",
+    "original": "<<link [[Private room|Strip Club Private Dance]]>><<dance_private_init>><</link>><<promiscuous3>>",
+    "translation": "",
+    "pos": 712
+  },
+  {
+    "passage": "Strip Club Dancing",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "23_5_3_7|",
+    "original": "<<link [[Private room|Strip Club Private Dance]]>><<set $desperateaction to 1>><<dance_private_init>><</link>><<promiscuous3>>",
+    "translation": "",
+    "pos": 868
+  },
+  {
+    "passage": "Strip Club Dancing",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "28_5_3_7|",
+    "original": "<<link [[Flee|Strip Club Dressing Room]]>><<clotheson>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1099
+  },
+  {
+    "passage": "Strip Club Dancing",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "30_5_3_7|",
+    "original": "<<link [[Flee|Strip Club Dressing Room]]>><<clotheson>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1240
+  },
+  {
+    "passage": "Strip Club Dancing",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "32_5_3_7|",
+    "original": "<<link [[Stop|Strip Club]]>><<clotheson>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1328
+  },
+  {
+    "passage": "Strip Club Private Dance",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "43_5_3_7|",
+    "original": "<<promiscuity3>>You lead the <<person>> into one of the back rooms. It's well-lit compared to the main room, it takes a moment for your eyes to adjust. There's a small stage with a pole in one corner. There's also a sofa, contoured to allow an extensive range of positions.",
+    "translation": "",
+    "pos": 119
+  },
+  {
+    "passage": "Strip Club Private Dance",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "47_5_3_7|",
+    "original": "Before you can turn around, the <<person>> has <<his>> hands wrapped around your waist and <<his>> mouth nuzzled against your neck.",
+    "translation": "",
+    "pos": 423
+  },
+  {
+    "passage": "Strip Club Private Dance",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "50_5_3_7|",
+    "original": "<<link [[Pull away|Strip Club Private Dance]]>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 566
+  },
+  {
+    "passage": "Strip Club Private Dance",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "52_5_3_7|",
+    "original": "<<link [[Try to negotiate while being fondled|Strip Club Private Dance]]>><<arousal 300 \"breasts\">><<arousal 300 \"genitals\">><<set $phase to 2>><<submission 5>><<garousal>><</link>>",
+    "translation": "",
+    "pos": 649
+  },
+  {
+    "passage": "Strip Club Private Dance",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "56_5_3_7|",
+    "original": "The <<person>> stands sheepishly by the door, clearly waiting for you to initiate things.",
+    "translation": "",
+    "pos": 848
+  },
+  {
+    "passage": "Strip Club Private Dance",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "61_5_3_7|",
+    "original": "You take <<him>> by the hands and sit on the sofa. You negotiate a price of <<printmoney $tip>>, less than you'd hoped.",
+    "translation": "",
+    "pos": 987
+  },
+  {
+    "passage": "Strip Club Private Dance",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "64_5_3_7|",
+    "original": "\"I know it's not much,\" <<he>> exclaims, \"but it's all I can afford and still eat tomorrow.\" <<He>> looks down at <<his>> feet.",
+    "translation": "",
+    "pos": 1117
+  },
+  {
+    "passage": "Strip Club Private Dance",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "68_5_3_7|",
+    "original": "\"Also, if it's okay, I don't want any touching. Well, maybe some, but mainly I'd just like to talk.\"",
+    "translation": "",
+    "pos": 1280
+  },
+  {
+    "passage": "Strip Club Private Dance",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "71_5_3_7|",
+    "original": "<<link [[Accept|Strip Club Private Dance]]>><<set $phase to 3>><<pass 30>><</link>>",
+    "translation": "",
+    "pos": 1397
+  },
+  {
+    "passage": "Strip Club Private Dance",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "73_5_3_7|",
+    "original": "<<link [[Refuse|Strip Club Private Dance]]>><<set $phase to 4>><</link>>",
+    "translation": "",
+    "pos": 1492
+  },
+  {
+    "passage": "Strip Club Private Dance",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "76_5_3_7|",
+    "original": "<<link [[Accept|Strip Club Private Dance Sex]]>><<set $consensual to 1>><<set $sexstart to 1>><</link>>",
+    "translation": "",
+    "pos": 1588
+  },
+  {
+    "passage": "Strip Club Private Dance",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "78_5_3_7|",
+    "original": "<<link [[Refuse|Strip Club Private Dance]]>><<set $phase to 4>><</link>>",
+    "translation": "",
+    "pos": 1703
+  },
+  {
+    "passage": "Strip Club Private Dance",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "83_5_3_7|",
+    "original": "You take <<him>> by the hands and sit on the sofa. You negotiate a price of <<printmoney $tip>>, which seems reasonable.",
+    "translation": "",
+    "pos": 1831
+  },
+  {
+    "passage": "Strip Club Private Dance",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "87_5_3_7|",
+    "original": "<<He>> speaks softly, \"If it's okay, I don't want any touching. Well, maybe some, but mainly I'd just like to talk.\"",
+    "translation": "",
+    "pos": 1987
+  },
+  {
+    "passage": "Strip Club Private Dance",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "90_5_3_7|",
+    "original": "<<link [[Accept|Strip Club Private Dance]]>><<set $phase to 3>><<pass 30>><</link>>",
+    "translation": "",
+    "pos": 2120
+  },
+  {
+    "passage": "Strip Club Private Dance",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "92_5_3_7|",
+    "original": "<<link [[Refuse|Strip Club Private Dance]]>><<set $phase to 4>><</link>>",
+    "translation": "",
+    "pos": 2215
+  },
+  {
+    "passage": "Strip Club Private Dance",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "95_5_3_7|",
+    "original": "<<link [[Accept|Strip Club Private Dance Sex]]>><<set $consensual to 1>><<set $sexstart to 1>><</link>>",
+    "translation": "",
+    "pos": 2311
+  },
+  {
+    "passage": "Strip Club Private Dance",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "97_5_3_7|",
+    "original": "<<link [[Refuse|Strip Club Private Dance]]>><<set $phase to 4>><</link>>",
+    "translation": "",
+    "pos": 2426
+  },
+  {
+    "passage": "Strip Club Private Dance",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "106_5_3_7|",
+    "original": "You pull away from the <<person>>. <<He>> seems frustrated, but it can't be helped.",
+    "translation": "",
+    "pos": 2583
+  },
+  {
+    "passage": "Strip Club Private Dance",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "110_5_3_7|",
+    "original": "You negotiate a price of <<printmoney $tip>>, less than you'd hoped.",
+    "translation": "",
+    "pos": 2727
+  },
+  {
+    "passage": "Strip Club Private Dance",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "113_5_3_7|",
+    "original": "\"You think you're worth more?\" <<He>> laughs, \"I can pick up sluts like you for free you know. This is charity, this is.\"",
+    "translation": "",
+    "pos": 2808
+  },
+  {
+    "passage": "Strip Club Private Dance",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "116_5_3_7|",
+    "original": "<<link [[Accept|Strip Club Private Dance Sex]]>><<set $consensual to 1>><<set $sexstart to 1>><</link>>",
+    "translation": "",
+    "pos": 2944
+  },
+  {
+    "passage": "Strip Club Private Dance",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "118_5_3_7|",
+    "original": "<<link [[Refuse|Strip Club Private Dance]]>><<set $phase to 5>><</link>>",
+    "translation": "",
+    "pos": 3059
+  },
+  {
+    "passage": "Strip Club Private Dance",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "122_5_3_7|",
+    "original": "You negotiate a price of <<printmoney $tip>>, which seems reasonable.",
+    "translation": "",
+    "pos": 3177
+  },
+  {
+    "passage": "Strip Club Private Dance",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "125_5_3_7|",
+    "original": "<<link [[Accept|Strip Club Private Dance Sex]]>><<set $consensual to 1>><<set $sexstart to 1>><</link>>",
+    "translation": "",
+    "pos": 3261
+  },
+  {
+    "passage": "Strip Club Private Dance",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "127_5_3_7|",
+    "original": "<<link [[Refuse|Strip Club Private Dance]]>><<set $phase to 5>><</link>>",
+    "translation": "",
+    "pos": 3376
+  },
+  {
+    "passage": "Strip Club Private Dance",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "133_5_3_7|",
+    "original": "You try to pull away from the <<his>> intruding hands, but <<he>> grapples your arms with one hand and clamps down on your mouth with the other.",
+    "translation": "",
+    "pos": 3480
+  },
+  {
+    "passage": "Strip Club Private Dance",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "137_5_3_7|",
+    "original": "<<link [[Next|Strip Club Private Dance Sex]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 3664
+  },
+  {
+    "passage": "Strip Club Private Dance",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "144_5_3_7|",
+    "original": "Despite <<his>> unrelenting pawing, you manage to negotiate a price of <<printmoney $tip>>, less than you'd hoped.",
+    "translation": "",
+    "pos": 3820
+  },
+  {
+    "passage": "Strip Club Private Dance",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "147_5_3_7|",
+    "original": "Despite <<his>> unrelenting pawing, you manage to negotiate a price of <<printmoney $tip>>, which seems reasonable.",
+    "translation": "",
+    "pos": 3978
+  },
+  {
+    "passage": "Strip Club Private Dance",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "151_5_3_7|",
+    "original": "<<link [[Accept|Strip Club Private Dance Sex]]>><<set $consensual to 1>><<set $sexstart to 1>><</link>>",
+    "translation": "",
+    "pos": 4114
+  },
+  {
+    "passage": "Strip Club Private Dance",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "153_5_3_7|",
+    "original": "<<link [[Refuse|Strip Club Private Dance]]>><<set $phase to 5>><</link>>",
+    "translation": "",
+    "pos": 4225
+  },
+  {
+    "passage": "Strip Club Private Dance",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "157_5_3_7|",
+    "original": "<<He>> rests <<his>> head on your lap and you gently stroke <<his>> hair. <<He>> talks about mundane topics while you lend a sympathetic ear. Despite the banality of the conversation <<he>> becomes tearful at one point, while mentioning how <<he>> doesn't feel able to open up to <<his>> spouse.",
+    "translation": "",
+    "pos": 4328
+  },
+  {
+    "passage": "Strip Club Private Dance",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "160_5_3_7|",
+    "original": "After <<his>> thirty minutes are up, <<he>> pays you the agreed fee and thanks you for you time. <<He>> seems genuinely grateful.",
+    "translation": "",
+    "pos": 4634
+  },
+  {
+    "passage": "Strip Club Private Dance",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "166_5_3_7|",
+    "original": "<<link [[Next|Strip Club]]>><<money $tip \"stripClub\">><<endevent>><</link>>",
+    "translation": "",
+    "pos": 4812
+  },
+  {
+    "passage": "Strip Club Private Dance",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "169_5_3_7|",
+    "original": "<<He>> nods, eyes downcast. <<He>> doesn't waste any time leaving the room.",
+    "translation": "",
+    "pos": 4912
+  },
+  {
+    "passage": "Strip Club Private Dance",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "174_5_3_7|",
+    "original": "<<link [[Next|Strip Club]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 5013
+  },
+  {
+    "passage": "Strip Club Private Dance",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "179_5_3_7|",
+    "original": "<<He>> looks at you, as if unsure what to do. Finally, <<he>> says, \"You've probably got something contagious anyway,\" before leaving the room.",
+    "translation": "",
+    "pos": 5116
+  },
+  {
+    "passage": "Strip Club Private Dance",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "184_5_3_7|",
+    "original": "<<link [[Next|Strip Club]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 5286
+  },
+  {
+    "passage": "Strip Club Private Dance",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "187_5_3_7|",
+    "original": "<<He>> looks at you blankly for a moment, then laughs. \"Good one, now get on your knees before I smack you down!\" <<He>> assaults you!",
+    "translation": "",
+    "pos": 5347
+  },
+  {
+    "passage": "Strip Club Private Dance",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "190_5_3_7|",
+    "original": "<<link [[Next|Strip Club Private Dance Sex]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 5492
+  },
+  {
+    "passage": "Strip Club Private Dance Sex",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "224_5_3_7|",
+    "original": "\"This better be worth it,\" <<he>> says.",
+    "translation": "",
+    "pos": 518
+  },
+  {
+    "passage": "Strip Club Private Dance Sex",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "229_5_3_7|",
+    "original": "\"This better be worth it,\" <<he>> says.",
+    "translation": "",
+    "pos": 623
+  },
+  {
+    "passage": "Strip Club Private Dance Sex",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "244_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Strip Club Private Dance Sex]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 891
+  },
+  {
+    "passage": "Strip Club Private Dance Sex",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "246_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Strip Club Private Dance Sex Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 992
+  },
+  {
+    "passage": "Strip Club Private Dance Sex Finish",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "257_5_3_7|",
+    "original": "\"Here's your pay, whore,\" the <<person>> gasps as <<he>> finishes off. <<He>> leaves the room without looking at you.",
+    "translation": "",
+    "pos": 229
+  },
+  {
+    "passage": "Strip Club Private Dance Sex Finish",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "261_5_3_7|",
+    "original": "\"Here's your pay, whore,\" the <<person>> gasps as <<he>> finishes off.",
+    "translation": "",
+    "pos": 423
+  },
+  {
+    "passage": "Strip Club Private Dance Sex Finish",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "264_5_3_7|",
+    "original": "\"I have something for you.\" <<He>> hands you a slip of paper before leaving the room. You read the paper. It has the address of a building on Harvest Street. <span class=\"gold\">You can now access the suspicious building on Harvest Street.</span>",
+    "translation": "",
+    "pos": 544
+  },
+  {
+    "passage": "Strip Club Private Dance Sex Finish",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "267_5_3_7|",
+    "original": "<<He>> leaves the room without looking at you.",
+    "translation": "",
+    "pos": 819
+  },
+  {
+    "passage": "Strip Club Private Dance Sex Finish",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "272_5_3_7|",
+    "original": "<<He>> smiles in contentment. \"Thank you for your time. Here you go.\" <<He>> gives you a broad smile before leaving the room.",
+    "translation": "",
+    "pos": 940
+  },
+  {
+    "passage": "Strip Club Private Dance Sex Finish",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "279_5_3_7|",
+    "original": "\"Fine. I hope you don't expect payment.\" <<He>> looks at you with disgust before leaving the room.",
+    "translation": "",
+    "pos": 1159
+  },
+  {
+    "passage": "Strip Club Private Dance Sex Finish",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "282_5_3_7|",
+    "original": "\"Fine. I hope you don't expect payment.\" <<He>> looks at you with disgust before leaving the room.",
+    "translation": "",
+    "pos": 1298
+  },
+  {
+    "passage": "Strip Club Private Dance Sex Finish",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "285_5_3_7|",
+    "original": "\"Did I do something wrong? I'm sorry!\" <<He>> runs from the room.",
+    "translation": "",
+    "pos": 1423
+  },
+  {
+    "passage": "Strip Club Private Dance Sex Finish",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "295_5_3_7|",
+    "original": "\"Here's your pay, whore,\" the <<person>> gasps as <<he>> finishes off. <<He>> leaves the room without looking at you.",
+    "translation": "",
+    "pos": 1617
+  },
+  {
+    "passage": "Strip Club Private Dance Sex Finish",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "299_5_3_7|",
+    "original": "You manage to knock the <<person>> backwards, giving you time to escape. You inform a member of security of the attack, who quickly subdues the <<person>>.",
+    "translation": "",
+    "pos": 1815
+  },
+  {
+    "passage": "Strip Club Private Dance Sex Finish",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "303_5_3_7|",
+    "original": "The door bursts open, revealing a burly member of security. The <<person>> is expertly subdued and dragged from the room. You breathe a sigh of relief.",
+    "translation": "",
+    "pos": 1995
+  },
+  {
+    "passage": "Strip Club Private Dance Sex Finish",
+    "filepath": "overworld-town/loc-strip club/dance.twee",
+    "key": "315_5_3_7|",
+    "original": "<<link [[Next|Strip Club]]>><</link>>",
+    "translation": "",
+    "pos": 2240
+  }
+]

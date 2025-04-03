@@ -1,0 +1,218 @@
+[
+  {
+    "passage": "Temple Bunk",
+    "filepath": "overworld-town/loc-temple/bunk.twee",
+    "key": "5_5_3_7|",
+    "original": "You are beside your bunk in the temple quarters. There's a cupboard for your clothes, and a small space behind a screen for dressing.",
+    "translation": "",
+    "pos": 48
+  },
+  {
+    "passage": "Temple Bunk",
+    "filepath": "overworld-town/loc-temple/bunk.twee",
+    "key": "9_5_3_7|",
+    "original": "The bunks are full and the rooms are silent save for an occasional snore.",
+    "translation": "",
+    "pos": 225
+  },
+  {
+    "passage": "Temple Bunk",
+    "filepath": "overworld-town/loc-temple/bunk.twee",
+    "key": "11_5_3_7|",
+    "original": "Initiates are hard at work dusting and cleaning.",
+    "translation": "",
+    "pos": 334
+  },
+  {
+    "passage": "Temple Bunk",
+    "filepath": "overworld-town/loc-temple/bunk.twee",
+    "key": "13_5_3_7|",
+    "original": "The monks and nuns are already up and active.",
+    "translation": "",
+    "pos": 419
+  },
+  {
+    "passage": "Temple Bunk",
+    "filepath": "overworld-town/loc-temple/bunk.twee",
+    "key": "15_5_3_7|",
+    "original": "Some of the monks and nuns are preparing for bed.",
+    "translation": "",
+    "pos": 501
+  },
+  {
+    "passage": "Temple Bunk",
+    "filepath": "overworld-town/loc-temple/bunk.twee",
+    "key": "22_5_3_7|",
+    "original": "You stare down at your bindings. You pull, and they fall apart, unable to hold against you.",
+    "translation": "",
+    "pos": 629
+  },
+  {
+    "passage": "Temple Bunk",
+    "filepath": "overworld-town/loc-temple/bunk.twee",
+    "key": "25_5_3_7|",
+    "original": "<span class=\"green\">You rub your bindings against the corner of a table.</span> It takes some effort, but eventually the material yields, freeing your limbs.",
+    "translation": "",
+    "pos": 744
+  },
+  {
+    "passage": "Temple Bunk",
+    "filepath": "overworld-town/loc-temple/bunk.twee",
+    "key": "32_5_3_7|",
+    "original": "<<undobindingsicon>><<link [[Undo your bindings (0:10)|Temple Bunk]]>><<set $unbind to 1>><<pass 10>><</link>>",
+    "translation": "",
+    "pos": 1018
+  },
+  {
+    "passage": "Temple Bunk",
+    "filepath": "overworld-town/loc-temple/bunk.twee",
+    "key": "36_5_3_7|",
+    "original": "<<if $earSlime.event and $earSlime.noSleep>>",
+    "translation": "",
+    "pos": 1148
+  },
+  {
+    "passage": "Temple Bunk",
+    "filepath": "overworld-town/loc-temple/bunk.twee",
+    "key": "38_5_3_7|",
+    "original": "<<ind>><span class=\"purple\">The slime in your head is silent.</span>",
+    "translation": "",
+    "pos": 1214
+  },
+  {
+    "passage": "Temple Bunk",
+    "filepath": "overworld-town/loc-temple/bunk.twee",
+    "key": "40_5_3_7|",
+    "original": "<<ind>><span class=\"red\">The slime wants you to <<print $earSlime.event>> before you can go to bed.</span>",
+    "translation": "",
+    "pos": 1295
+  },
+  {
+    "passage": "Temple Bunk",
+    "filepath": "overworld-town/loc-temple/bunk.twee",
+    "key": "44_5_3_7|",
+    "original": "<<bedicon>><<link [[Strip and get in bed|Temple Bunk Bed]]>><<undressSleep \"Temple Bunk Bed\">><</link>>",
+    "translation": "",
+    "pos": 1427
+  },
+  {
+    "passage": "Temple Bunk",
+    "filepath": "overworld-town/loc-temple/bunk.twee",
+    "key": "50_5_3_7|",
+    "original": "<<wardrobeicon>><<link [[Wardrobe|Temple Wardrobe]]>><</link>>",
+    "translation": "",
+    "pos": 1607
+  },
+  {
+    "passage": "Temple Bunk",
+    "filepath": "overworld-town/loc-temple/bunk.twee",
+    "key": "52_5_3_7|",
+    "original": "<<mirroricon>><<link [[Mirror|Temple Mirror]]>><<preMirror>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1675
+  },
+  {
+    "passage": "Temple Bunk",
+    "filepath": "overworld-town/loc-temple/bunk.twee",
+    "key": "54_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Temple Quarters]]>><</link>>",
+    "translation": "",
+    "pos": 1766
+  },
+  {
+    "passage": "Temple Bunk",
+    "filepath": "overworld-town/loc-temple/bunk.twee",
+    "key": "57_5_3_7|",
+    "original": "<<link [[Gameplay Settings|Temple Settings]]>><</link>>",
+    "translation": "",
+    "pos": 1834
+  },
+  {
+    "passage": "Temple Bunk",
+    "filepath": "overworld-town/loc-temple/bunk.twee",
+    "key": "61_5_3_7|",
+    "original": "<span class=\"goldLink\"><<link [[Attitudes]]>><<set $attitudesExitPassage to $passage>><</link>> </span><span class=\"red\">!!</span>",
+    "translation": "",
+    "pos": 1968
+  },
+  {
+    "passage": "Temple Bunk",
+    "filepath": "overworld-town/loc-temple/bunk.twee",
+    "key": "63_5_3_7|",
+    "original": "<<link [[Attitudes]]>><<set $attitudesExitPassage to $passage>><</link>>",
+    "translation": "",
+    "pos": 2109
+  },
+  {
+    "passage": "Temple Mirror",
+    "filepath": "overworld-town/loc-temple/bunk.twee",
+    "key": "76_5_3_7|",
+    "original": "<<getouticon>><<link [[Step away|Temple Bunk]]>><<handheldon>><<unset $mirrorMenu>><<unset $bodywritingSet>><</link>>",
+    "translation": "",
+    "pos": 12
+  },
+  {
+    "passage": "Temple Mirror",
+    "filepath": "overworld-town/loc-temple/bunk.twee",
+    "key": "78_5_3_7|",
+    "original": "<<mirror \"reflection\">>",
+    "translation": "",
+    "pos": 135
+  },
+  {
+    "passage": "Temple Bunk Bed",
+    "filepath": "overworld-town/loc-temple/bunk.twee",
+    "key": "85_5_3_7|",
+    "original": "<<if numberOfEarSlime() and $location is \"temple\" and random(0,100) lt 3 + Math.floor($earSlime.growth / 100) - $earSlime.eventTimer and !$earSlime.event>>",
+    "translation": "",
+    "pos": 28
+  },
+  {
+    "passage": "Temple Bunk Bed",
+    "filepath": "overworld-town/loc-temple/bunk.twee",
+    "key": "96_5_3_7|",
+    "original": "<<link [[Climb out of bed|Temple Bunk]]>><<storeon \"Temple Bunk Bed\">><<set $wardrobe_location to \"temple\">><<loadTempHairStyle>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 433
+  },
+  {
+    "passage": "Temple Sleep",
+    "filepath": "overworld-town/loc-temple/bunk.twee",
+    "key": "107_5_3_7|",
+    "original": "You dream you are being hunted by something <<if [\"haunt\", \"despair\"].includes($wraith.state) and $rng lte 25>>pale<<else>>dark<</if>> and terrible.",
+    "translation": "",
+    "pos": 238
+  },
+  {
+    "passage": "Temple Sleep",
+    "filepath": "overworld-town/loc-temple/bunk.twee",
+    "key": "110_5_3_7|",
+    "original": "Your sleep is plagued by dirty dreams.",
+    "translation": "",
+    "pos": 503
+  },
+  {
+    "passage": "Temple Sleep",
+    "filepath": "overworld-town/loc-temple/bunk.twee",
+    "key": "114_5_3_7|",
+    "original": "They push you over the edge.",
+    "translation": "",
+    "pos": 735
+  },
+  {
+    "passage": "Temple Sleep",
+    "filepath": "overworld-town/loc-temple/bunk.twee",
+    "key": "118_5_3_7|",
+    "original": "You sleep soundly.",
+    "translation": "",
+    "pos": 857
+  },
+  {
+    "passage": "Temple Sleep",
+    "filepath": "overworld-town/loc-temple/bunk.twee",
+    "key": "129_5_3_7|",
+    "original": "<<link [[Get up|Temple Bunk]]>><</link>>",
+    "translation": "",
+    "pos": 1069
+  }
+]

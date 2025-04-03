@@ -1,0 +1,154 @@
+[
+  {
+    "passage": "Avery Widgets",
+    "filepath": "overworld-town/special-avery/widgets.twee",
+    "key": "51_5_3_7|",
+    "original": "<<print $avery_cards.drink[_args[0]]>>",
+    "translation": "",
+    "pos": 1634
+  },
+  {
+    "passage": "Avery Widgets",
+    "filepath": "overworld-town/special-avery/widgets.twee",
+    "key": "60_5_3_7|",
+    "original": "<span class=\"def\">+ <<print _args[0]>>'s card skill</span>",
+    "translation": "",
+    "pos": 1832
+  },
+  {
+    "passage": "Avery Widgets",
+    "filepath": "overworld-town/special-avery/widgets.twee",
+    "key": "66_5_3_7|",
+    "original": "<span class=\"def\">+ + <<print _args[0]>>'s card skill</span>",
+    "translation": "",
+    "pos": 1970
+  },
+  {
+    "passage": "Avery Widgets",
+    "filepath": "overworld-town/special-avery/widgets.twee",
+    "key": "72_5_3_7|",
+    "original": "<span class=\"def\">+ + + <<print _args[0]>>'s card skill</span>",
+    "translation": "",
+    "pos": 2111
+  },
+  {
+    "passage": "Avery Widgets",
+    "filepath": "overworld-town/special-avery/widgets.twee",
+    "key": "78_5_3_7|",
+    "original": "<span class=\"sub\">- <<print _args[0]>>'s card skill</span>",
+    "translation": "",
+    "pos": 2252
+  },
+  {
+    "passage": "Avery Widgets",
+    "filepath": "overworld-town/special-avery/widgets.twee",
+    "key": "84_5_3_7|",
+    "original": "<span class=\"sub\">- - <<print _args[0]>>'s card skill</span>",
+    "translation": "",
+    "pos": 2390
+  },
+  {
+    "passage": "Avery Widgets",
+    "filepath": "overworld-town/special-avery/widgets.twee",
+    "key": "90_5_3_7|",
+    "original": "<span class=\"sub\">- - - <<print _args[0]>>'s card skill</span>",
+    "translation": "",
+    "pos": 2531
+  },
+  {
+    "passage": "Avery Widgets",
+    "filepath": "overworld-town/special-avery/widgets.twee",
+    "key": "115_5_3_7|",
+    "original": "<<He>> drives you to Barb Street, pulling up outside Bailey's block of flats. \"We'll be meeting my friends tonight,\" Avery says, climbing from the car. \"Be on your best behaviour.\"",
+    "translation": "",
+    "pos": 3362
+  },
+  {
+    "passage": "Avery Widgets",
+    "filepath": "overworld-town/special-avery/widgets.twee",
+    "key": "118_5_3_7|",
+    "original": "<<link [[Next|Avery Cards Repeat]]>><<set $outside to 0>><</link>>",
+    "translation": "",
+    "pos": 3557
+  },
+  {
+    "passage": "Avery Widgets",
+    "filepath": "overworld-town/special-avery/widgets.twee",
+    "key": "121_5_3_7|",
+    "original": "<<He>> drives you to Barb Street, pulling up outside a block of flats. \"We'll be meeting some friends of mine tonight,\" Avery says, climbing from the car. \"Very respectable individuals.\"",
+    "translation": "",
+    "pos": 3643
+  },
+  {
+    "passage": "Avery Widgets",
+    "filepath": "overworld-town/special-avery/widgets.twee",
+    "key": "123_5_3_7|",
+    "original": "<<link [[Say it looks like a dump|Avery Cards Dump]]>><<npcincr Avery love 1>><<set $endear -= 10>><</link>>",
+    "translation": "",
+    "pos": 3843
+  },
+  {
+    "passage": "Avery Widgets",
+    "filepath": "overworld-town/special-avery/widgets.twee",
+    "key": "125_5_3_7|",
+    "original": "<<link [[Stay silent|Avery Cards Intro]]>><</link>>",
+    "translation": "",
+    "pos": 3961
+  },
+  {
+    "passage": "Avery Widgets",
+    "filepath": "overworld-town/special-avery/widgets.twee",
+    "key": "130_5_3_7|",
+    "original": "<<He>> drives you to High Street, pulling up to an extravagant hotel. <<He>> hands you a key with a room number scribbled on it. \"Here. Take this and I'll meet you up there. I'm going to park the car.\" You climb out of the car and head inside.",
+    "translation": "",
+    "pos": 4110
+  },
+  {
+    "passage": "Avery Widgets",
+    "filepath": "overworld-town/special-avery/widgets.twee",
+    "key": "133_5_3_7|",
+    "original": "<<link [[Next|Avery Hotel]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 4366
+  },
+  {
+    "passage": "Avery Widgets",
+    "filepath": "overworld-town/special-avery/widgets.twee",
+    "key": "138_5_3_7|",
+    "original": "<<He>> drives you to Danube Street, up to the front gates of a mansion. <<He>> flashes an invitation at a <<person2>><<person>> in servant's garb, who waves you through just as another car pulls up behind you.",
+    "translation": "",
+    "pos": 4502
+  },
+  {
+    "passage": "Avery Widgets",
+    "filepath": "overworld-town/special-avery/widgets.twee",
+    "key": "142_5_3_7|",
+    "original": "<<link [[Next|Avery Party]]>><</link>>",
+    "translation": "",
+    "pos": 4762
+  },
+  {
+    "passage": "Avery Widgets",
+    "filepath": "overworld-town/special-avery/widgets.twee",
+    "key": "145_5_3_7|",
+    "original": "<<He>> drives you to Connudatus Street and parks outside a restaurant. <<He>> offers <<his>> hand as <<he>> leads you into the building.",
+    "translation": "",
+    "pos": 4845
+  },
+  {
+    "passage": "Avery Widgets",
+    "filepath": "overworld-town/special-avery/widgets.twee",
+    "key": "148_5_3_7|",
+    "original": "<<link [[Take it|Avery Date 2]]>><<set $phase to 1>><</link>><<handholdingvirginitywarning>>",
+    "translation": "",
+    "pos": 4994
+  },
+  {
+    "passage": "Avery Widgets",
+    "filepath": "overworld-town/special-avery/widgets.twee",
+    "key": "150_5_3_7|",
+    "original": "<<link [[Refuse|Avery Date 2]]>><<set $phase to 2>><<npcincr Avery love -1>><<set $endear -= 10>><</link>><<lendear>><<llove>>",
+    "translation": "",
+    "pos": 5094
+  }
+]

@@ -1,0 +1,1354 @@
+[
+  {
+    "passage": "Soup Kitchen",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "6_5_3_7|",
+    "original": "You search for the grey building you were told about. You find it hidden among the trees in the shadow of the temple. You smell cooked vegetables as you approach. Inside is a large hall, with rows of tables running down the length. They seat people of all ages, including several families. No one looks your way as you enter.",
+    "translation": "",
+    "pos": 131
+  },
+  {
+    "passage": "Soup Kitchen",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "9_5_3_7|",
+    "original": "You approach the far end, where a <<personsimple>> in a hair net spoons soup into bowls. It's River. Several <<monks>> assist <<him>>.",
+    "translation": "",
+    "pos": 494
+  },
+  {
+    "passage": "Soup Kitchen",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "11_5_3_7|",
+    "original": "<<link [[Next|Soup Kitchen Intro]]>><</link>>",
+    "translation": "",
+    "pos": 640
+  },
+  {
+    "passage": "Soup Kitchen",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "14_5_3_7|",
+    "original": "<<generate1>><<person1>>The kitchen closes for the evening. Several <<monks>> from the nearby temple arrive to help clean up.",
+    "translation": "",
+    "pos": 721
+  },
+  {
+    "passage": "Soup Kitchen",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "17_5_3_7|",
+    "original": "<<link [[Next|Wolf Street]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 872
+  },
+  {
+    "passage": "Soup Kitchen",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "20_5_3_7|",
+    "original": "You are in the soup kitchen on Wolf Street. Rows of crowded tables line the hall. The kitchen proper sits at the back, filling the room with the smell of warm soup.",
+    "translation": "",
+    "pos": 950
+  },
+  {
+    "passage": "Soup Kitchen",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "22_5_3_7|",
+    "original": "<<kitchenicon \"pot_clean\">><<link [[Help River (1:00)|Soup Kitchen Work]]>><<pass 60>><<famegood 5>><<trauma -6>><<npcincr River love 1>><</link>><<glove>><<ltrauma>>",
+    "translation": "",
+    "pos": 1126
+  },
+  {
+    "passage": "Soup Kitchen",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "25_5_3_7|",
+    "original": "<<socialiseicon \"ask\">><<link [[Ask River for help with maths competition|Soup Kitchen Maths]]>><</link>>",
+    "translation": "",
+    "pos": 1360
+  },
+  {
+    "passage": "Soup Kitchen",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "29_5_3_7|",
+    "original": "<<ind>><<link [[Tell River about the orphanage loft|River Loft]]>><</link>>",
+    "translation": "",
+    "pos": 1561
+  },
+  {
+    "passage": "Soup Kitchen",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "33_5_3_7|",
+    "original": "<<kitchenicon \"range\">><<link [[Cook your own food|Soup Kitchen Kitchen]]>><</link>>",
+    "translation": "",
+    "pos": 1684
+  },
+  {
+    "passage": "Soup Kitchen",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "36_5_3_7|",
+    "original": "<<socialiseicon \"ask\">><<link [[Ask River if you can cook your own food here|Soup Kitchen Kitchen Ask]]>><</link>>",
+    "translation": "",
+    "pos": 1788
+  },
+  {
+    "passage": "Soup Kitchen",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "39_5_3_7|",
+    "original": "<<wolficon>><<link [[Leave|Wolf Street]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 1920
+  },
+  {
+    "passage": "River Loft",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "47_5_3_7|",
+    "original": "You tell River about the loft at the orphanage. <<Hes>> quiet. You're not sure if <<he>> even listened, until <<he>> at last speaks. \"It's not my place to discuss this,\" <<he>> says.",
+    "translation": "",
+    "pos": 115
+  },
+  {
+    "passage": "River Loft",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "49_5_3_7|",
+    "original": "\"Are we allowed seconds?\" interrupts a <<person2>><<person>> you recognise from the orphanage. <<He>> places an empty bowl on the counter. River hesitates for a moment, then fills it. The <<person>> scurries away.",
+    "translation": "",
+    "pos": 307
+  },
+  {
+    "passage": "River Loft",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "52_5_3_7|",
+    "original": "\"However,\" River continues. \"We could set up another kitchen. We're crowded here as it is. It will cost <span class=\"gold\">£20000.</span> We'll funnel food over without further charge.\"",
+    "translation": "",
+    "pos": 542
+  },
+  {
+    "passage": "River Loft",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "54_5_3_7|",
+    "original": "<i>A kitchen will let the orphans prepare meals away from Bailey's gaze, which will make it easier to increase hope.</i>",
+    "translation": "",
+    "pos": 737
+  },
+  {
+    "passage": "River Loft",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "57_5_3_7|",
+    "original": "<<link [[Have kitchen installed (£20000 3:00)|River Loft 2]]>><<set $loft_river to 1>><<set $loft_upgrade += 1>><<money -2000000 \"orphanageUpgrades\">><</link>>",
+    "translation": "",
+    "pos": 894
+  },
+  {
+    "passage": "River Loft",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "60_5_3_7|",
+    "original": "<<link [[Leave|Soup Kitchen]]>><<endevent>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1068
+  },
+  {
+    "passage": "River Loft 2",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "66_5_3_7|",
+    "original": "River beckons a <<person3>><<monk>> over, and whispers in <<his>> ear. The <<monk>> nods, removes <<his>> apron, and marches toward the entrance. \"<<He>> will be back,\" River says. \"They'll need your help to carry everything.\"",
+    "translation": "",
+    "pos": 63
+  },
+  {
+    "passage": "River Loft 2",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "69_5_3_7|",
+    "original": "<<He>> spoons out another ladleful. \"Don't tell your caretaker,\" <<he>> continues. \"We have enough trouble staying afloat.\"",
+    "translation": "",
+    "pos": 311
+  },
+  {
+    "passage": "River Loft 2",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "72_5_3_7|",
+    "original": "A couple of minutes later the <<monk>> returns, several others in tow. You follow them into a backroom. \"We were gonna set up another kitchen on the other side of town,\" <<he>> says, leading you into a room. Inside is an unassembled kitchen. There are pots and pans, counter and cupboard components, even a fridge and oven. \"Had permission and everything, but someone in the mayor's office interfered.\"",
+    "translation": "",
+    "pos": 456
+  },
+  {
+    "passage": "River Loft 2",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "74_5_3_7|",
+    "original": "<<link [[Next|River Loft 3]]>><<pass 180>><</link>>",
+    "translation": "",
+    "pos": 868
+  },
+  {
+    "passage": "River Loft 3",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "80_5_3_7|",
+    "original": "The other <<monks>> shuffle in and begin to work out how to carry everything.",
+    "translation": "",
+    "pos": 61
+  },
+  {
+    "passage": "River Loft 3",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "82_5_3_7|",
+    "original": "A burly <<monk>> asks for your help lifting the oven.",
+    "translation": "",
+    "pos": 187
+  },
+  {
+    "passage": "River Loft 3",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "84_5_3_7|",
+    "original": "They give you a box of cutlery to carry.",
+    "translation": "",
+    "pos": 251
+  },
+  {
+    "passage": "River Loft 3",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "86_5_3_7|",
+    "original": "\"We'll take it slow,\" the <<monk>> says. \"Taking breaks if we need to.\"",
+    "translation": "",
+    "pos": 300
+  },
+  {
+    "passage": "River Loft 3",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "88_5_3_7|",
+    "original": "Together, you and the <<monks>> carry the kitchen out the back door and across the street, heading towards the orphanage. A few heads turn at the odd procession, but no one bothers you.",
+    "translation": "",
+    "pos": 381
+  },
+  {
+    "passage": "River Loft 3",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "90_5_3_7|",
+    "original": "You enter Domus Street, and see the orphanage up ahead. The <<monk>> stops. \"Trouble <<if $pronoun is \"m\">>lads<<else>>girls<</if>>,\" <<he>> says. You see why. Bailey stands beside an open car, talking to a <<generate4>><<person4>><<person>> you don't recognise. \"We don't want to get spotted.\"",
+    "translation": "",
+    "pos": 576
+  },
+  {
+    "passage": "River Loft 3",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "94_5_3_7|",
+    "original": "\"We should wait around the corner,\" the burly <<monk>> suggests. \"They won't hang around forever.\" <<He>> places the oven on the ground. You're glad to have a break.",
+    "translation": "",
+    "pos": 940
+  },
+  {
+    "passage": "River Loft 3",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "98_5_3_7|",
+    "original": "\"We should wait around the corner,\" another <<monk>> suggests. \"They won't hang around forever.\"",
+    "translation": "",
+    "pos": 1171
+  },
+  {
+    "passage": "River Loft 3",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "101_5_3_7|",
+    "original": "<<link [[Wait (1:00)|River Loft Wait]]>><<pass 60>><</link>>",
+    "translation": "",
+    "pos": 1286
+  },
+  {
+    "passage": "River Loft 3",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "103_5_3_7|",
+    "original": "<<link [[Go through the alleyways (0:10)|River Loft Alleyways]]>><<pass 10>><</link>>",
+    "translation": "",
+    "pos": 1352
+  },
+  {
+    "passage": "River Loft Wait",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "109_5_3_7|",
+    "original": "You and the <<monks>> hide around the corner. After some time the <<person4>><<person>> drives by. The lead <<person3>><<monk>> pokes <<his>> head around the side of the building. \"Gone,\" <<he>> says. \"Let's go.\"",
+    "translation": "",
+    "pos": 61
+  },
+  {
+    "passage": "River Loft Wait",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "111_5_3_7|",
+    "original": "You continue toward the orphanage. Once inside the <<monks>> follow you through the main hall and up the stairs. A couple of orphans stop and gawk. The lead <<monk>> smiles at them, and places a finger against <<his>> lips.",
+    "translation": "",
+    "pos": 283
+  },
+  {
+    "passage": "River Loft Wait",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "113_5_3_7|",
+    "original": "The ladder to the loft proves troublesome, but the <<monks>> are determined. They carry the smaller goods up first, then work to haul the bigger appliances. They're all much stronger than their habits and meek demeanours would suggest.",
+    "translation": "",
+    "pos": 516
+  },
+  {
+    "passage": "River Loft Wait",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "116_5_3_7|",
+    "original": "<<link [[Next|River Loft 4]]>><</link>>",
+    "translation": "",
+    "pos": 762
+  },
+  {
+    "passage": "River Loft Alleyways",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "122_5_3_7|",
+    "original": "You convince the <<monks>> to follow you through the alleyways. The garden fence proves troublesome, but the <<monks>> are determined. They carry the smaller goods over first, then work to haul the bigger appliances. They're all much stronger than their habits and meek demeanours would suggest.",
+    "translation": "",
+    "pos": 61
+  },
+  {
+    "passage": "River Loft Alleyways",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "124_5_3_7|",
+    "original": "Once inside the <<monks>> follow you through the main hall and up the stairs. A couple of orphans stop and gawk. The lead <<monk>> smiles at them, and places a finger against <<his>> lips.",
+    "translation": "",
+    "pos": 366
+  },
+  {
+    "passage": "River Loft Alleyways",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "126_5_3_7|",
+    "original": "The ladder to the loft proves even more troublesome than the fence, but the <<monks>> aren't thwarted.",
+    "translation": "",
+    "pos": 564
+  },
+  {
+    "passage": "River Loft Alleyways",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "128_5_3_7|",
+    "original": "<<link [[Next|River Loft 4]]>><</link>>",
+    "translation": "",
+    "pos": 676
+  },
+  {
+    "passage": "River Loft 4",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "134_5_3_7|",
+    "original": "They scour the loft for the best room to convert. They begin work after a brief and private discussion. \"The plumbing up here's working,\" the lead <<monk>> says to you. \"That'll make things easier.\"",
+    "translation": "",
+    "pos": 61
+  },
+  {
+    "passage": "River Loft 4",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "136_5_3_7|",
+    "original": "The <<monks>> make it look easy, though the noise attracts more orphans. The sink is installed last. They test the tap, and it works. The <<monks>> allow themselves a quiet cheer.",
+    "translation": "",
+    "pos": 269
+  },
+  {
+    "passage": "River Loft 4",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "138_5_3_7|",
+    "original": "They show the orphans how to work the kitchen by cooking a batch of soup. At the end of the demonstration the orphans crowd around to try the food. The rate it vanishes suggests they're impressed. Or maybe just hungry. They're eager to try cooking themselves.",
+    "translation": "",
+    "pos": 458
+  },
+  {
+    "passage": "River Loft 4",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "140_5_3_7|",
+    "original": "\"We'll hang around a bit to make sure they've got it,\" one <<monk>> says to you, smiling. \"You've done a good thing today.\"",
+    "translation": "",
+    "pos": 727
+  },
+  {
+    "passage": "River Loft 4",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "144_5_3_7|",
+    "original": "<<link [[Next|Orphanage Loft]]>><</link>>",
+    "translation": "",
+    "pos": 901
+  },
+  {
+    "passage": "Soup Kitchen Maths",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "151_5_3_7|",
+    "original": "You ask River for help with the maths competition.",
+    "translation": "",
+    "pos": 88
+  },
+  {
+    "passage": "Soup Kitchen Maths",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "154_5_3_7|",
+    "original": "\"It wouldn't be fair on the other students,\" River says, regarding you. \"However, I could give you a more general lesson on some advanced concepts. Putting them to use in the context of the competition will be up to you.\"",
+    "translation": "",
+    "pos": 180
+  },
+  {
+    "passage": "Soup Kitchen Maths",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "156_5_3_7|",
+    "original": "<<link [[Accept lesson (1:00)|Soup Kitchen Lesson]]>><<set $river_help to 1>><<set $mathsinfo += 3>><<pass 60>><</link>><<note \"+ + Mathematical Insight\" \"green\">>",
+    "translation": "",
+    "pos": 413
+  },
+  {
+    "passage": "Soup Kitchen Maths",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "158_5_3_7|",
+    "original": "<<link [[Not now|Soup Kitchen]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 584
+  },
+  {
+    "passage": "Soup Kitchen Maths",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "162_5_3_7|",
+    "original": "\"I won't show favouritism,\" River says, piercing you with <<his>> blue eyes. <i>Perhaps <<he>> would be more willing to help if <<he>> had a better opinion of you.</i>",
+    "translation": "",
+    "pos": 656
+  },
+  {
+    "passage": "Soup Kitchen Maths",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "165_5_3_7|",
+    "original": "<<link [[Next|Soup Kitchen]]>><</link>>",
+    "translation": "",
+    "pos": 849
+  },
+  {
+    "passage": "Soup Kitchen Lesson",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "171_5_3_7|",
+    "original": "River asks a <<monk>> to take over command of the kitchen, and leads you into a dusty back room. There's a small table and two chairs.",
+    "translation": "",
+    "pos": 63
+  },
+  {
+    "passage": "Soup Kitchen Lesson",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "173_5_3_7|",
+    "original": "<<He>> runs you through a series of concepts. There's too much to take in, but here and there you make connections to the competition question. You feel some of the pieces fall into place.",
+    "translation": "",
+    "pos": 207
+  },
+  {
+    "passage": "Soup Kitchen Lesson",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "175_5_3_7|",
+    "original": "\"I hope you paid attention,\" <<he>> says, standing. \"I need to get back to the kitchen. Before the <<monks>> make a mess of things.\"",
+    "translation": "",
+    "pos": 405
+  },
+  {
+    "passage": "Soup Kitchen Lesson",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "178_5_3_7|",
+    "original": "<<link [[Next|Soup Kitchen]]>><</link>>",
+    "translation": "",
+    "pos": 560
+  },
+  {
+    "passage": "Soup Kitchen Intro",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "184_5_3_7|",
+    "original": "River pierces you with <<his>> blue eyes. \"I didn't expect to see you here,\" <<he>> says, stirring the pot of soup. \"Don't cause any trouble.\"",
+    "translation": "",
+    "pos": 63
+  },
+  {
+    "passage": "Soup Kitchen Intro",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "187_5_3_7|",
+    "original": "\"I won't,\" you say. \"I heard you needed help.\"",
+    "translation": "",
+    "pos": 250
+  },
+  {
+    "passage": "Soup Kitchen Intro",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "189_5_3_7|",
+    "original": "\"Don't talk down to me,\" you say. \"We're not in school. I'm here to help.\"",
+    "translation": "",
+    "pos": 338
+  },
+  {
+    "passage": "Soup Kitchen Intro",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "191_5_3_7|",
+    "original": "\"I heard you needed help,\" you say.",
+    "translation": "",
+    "pos": 423
+  },
+  {
+    "passage": "Soup Kitchen Intro",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "194_5_3_7|",
+    "original": "<<He>> regards you for a moment, then returns <<his>> attention to the soup. \"If you want to make yourself useful, start cutting vegetables.\"",
+    "translation": "",
+    "pos": 476
+  },
+  {
+    "passage": "Soup Kitchen Intro",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "198_5_3_7|",
+    "original": "<<link [[Next|Soup Kitchen]]>><</link>>",
+    "translation": "",
+    "pos": 641
+  },
+  {
+    "passage": "Soup Kitchen Work",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "203_5_3_7|",
+    "original": "You help River work the kitchen. You cut vegetables ready for cooking and clean up any spillages made throughout the hall.",
+    "translation": "",
+    "pos": 62
+  },
+  {
+    "passage": "Soup Kitchen Work",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "210_5_3_7|",
+    "original": "You're bent over one such spillage when you feel a hand on your <<bottom>>. You turn to see a <<person>> groping you. <<He>> squeezes.",
+    "translation": "",
+    "pos": 357
+  },
+  {
+    "passage": "Soup Kitchen Work",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "213_5_3_7|",
+    "original": "<<link [[Ignore|Soup Kitchen Grope Ignore]]>><<sub 1>><<stress 6>><<arousal 600 \"bottom\">><</link>><<gstress>><<garousal>>",
+    "translation": "",
+    "pos": 554
+  },
+  {
+    "passage": "Soup Kitchen Work",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "215_5_3_7|",
+    "original": "<<link [[Walk away|Soup Kitchen Grope Walk]]>><<npcincr River love -1>><</link>><<llove>>",
+    "translation": "",
+    "pos": 686
+  },
+  {
+    "passage": "Soup Kitchen Work",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "217_5_3_7|",
+    "original": "<<link [[Get angry|Soup Kitchen Grope Angry]]>><<def 1>><<stress -6>><<trauma -6>><<npcincr River love -1>><</link>><<llove>><<ltrauma>><<lstress>>",
+    "translation": "",
+    "pos": 785
+  },
+  {
+    "passage": "Soup Kitchen Work",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "222_5_3_7|",
+    "original": "\"Hey cutie,\" a <<person>> says to you as you're cutting up a carrot. \"How about we go-\"",
+    "translation": "",
+    "pos": 1047
+  },
+  {
+    "passage": "Soup Kitchen Work",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "224_5_3_7|",
+    "original": "<<Hes>> interrupted by a ladle whack to the hand. \"I want none of that in my kitchen,\" River says, giving the <<person>> another whack. \"Keep those thoughts to yourself, or get out.\" <<person1>><<He>> looks pale despite <<his>> stern voice.",
+    "translation": "",
+    "pos": 1148
+  },
+  {
+    "passage": "Soup Kitchen Work",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "226_5_3_7|",
+    "original": "<<person2>>The <<person>> takes <<his>> soup and bread, and causes no further fuss.",
+    "translation": "",
+    "pos": 1402
+  },
+  {
+    "passage": "Soup Kitchen Work",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "229_5_3_7|",
+    "original": "<<link [[Next|Soup Kitchen]]>><</link>>",
+    "translation": "",
+    "pos": 1514
+  },
+  {
+    "passage": "Soup Kitchen Work",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "234_5_3_7|",
+    "original": "River asks you to bring more vegetables in from a van outside.",
+    "translation": "",
+    "pos": 1673
+  },
+  {
+    "passage": "Soup Kitchen Work",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "236_5_3_7|",
+    "original": "You're on the way back, crate in hands, when you hear a voice around the corner of the building.",
+    "translation": "",
+    "pos": 1749
+  },
+  {
+    "passage": "Soup Kitchen Work",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "238_5_3_7|",
+    "original": "\"You didn't think you'd get away, did you?\" says a husky <<personsimple>>'s voice. \"Cheating the boss like that, you'll be lucky if you don't end up in the pit.\"",
+    "translation": "",
+    "pos": 1859
+  },
+  {
+    "passage": "Soup Kitchen Work",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "240_5_3_7|",
+    "original": "\"I-It was an accident,\" a voice stammers in response. A third voice laughs.",
+    "translation": "",
+    "pos": 2034
+  },
+  {
+    "passage": "Soup Kitchen Work",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "242_5_3_7|",
+    "original": "<<link [[Investigate|Soup Kitchen Investigate]]>><</link>>",
+    "translation": "",
+    "pos": 2123
+  },
+  {
+    "passage": "Soup Kitchen Work",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "244_5_3_7|",
+    "original": "<<link [[Tell River|Soup Kitchen Tell]]>><</link>>",
+    "translation": "",
+    "pos": 2191
+  },
+  {
+    "passage": "Soup Kitchen Work",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "246_5_3_7|",
+    "original": "<<link [[Ignore|Soup Kitchen Ignore]]>><</link>>",
+    "translation": "",
+    "pos": 2251
+  },
+  {
+    "passage": "Soup Kitchen Work",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "252_5_3_7|",
+    "original": "An argument at the far end of the hall becomes heated. River asks you to handle the soup while <<he>> deals with it. You get to work spooning ladle fulls into bowls for the waiting crowd. You need to work fast to keep up with the flow of people, but manage to do so without making a mess.",
+    "translation": "",
+    "pos": 2427
+  },
+  {
+    "passage": "Soup Kitchen Work",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "254_5_3_7|",
+    "original": "River returns a few minutes later. <<He>> seems pleased you were able to handle things.",
+    "translation": "",
+    "pos": 2729
+  },
+  {
+    "passage": "Soup Kitchen Work",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "256_5_3_7|",
+    "original": "<<link [[Next|Soup Kitchen]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 2830
+  },
+  {
+    "passage": "Soup Kitchen Work",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "260_5_3_7|",
+    "original": "River asks you to take a batch of freshly baked bread from the oven. You replace the previous tray just as it empties.",
+    "translation": "",
+    "pos": 2951
+  },
+  {
+    "passage": "Soup Kitchen Work",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "262_5_3_7|",
+    "original": "<<link [[Next|Soup Kitchen]]>><</link>>",
+    "translation": "",
+    "pos": 3083
+  },
+  {
+    "passage": "Soup Kitchen Work",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "266_5_3_7|",
+    "original": "You spend most of the hour on your hands and knees, cleaning up spilled soup.",
+    "translation": "",
+    "pos": 3197
+  },
+  {
+    "passage": "Soup Kitchen Work",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "268_5_3_7|",
+    "original": "<<link [[Next|Soup Kitchen]]>><</link>>",
+    "translation": "",
+    "pos": 3288
+  },
+  {
+    "passage": "Soup Kitchen Work",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "273_5_3_7|",
+    "original": "A <<monk>> spills soup down <<his>> habit. \"Clumsy,\" River mutters. \"Go rinse yourself down in the back. You.\" River points at your chest. \"Get <<him>> a spare set of clothes from the temple.\"",
+    "translation": "",
+    "pos": 3429
+  },
+  {
+    "passage": "Soup Kitchen Work",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "275_5_3_7|",
+    "original": "You walk to the temple as instructed. You find a <<monk>> sweeping the floor near the entrance. You explain what happened, and <<he>> retrieves a fresh habit for <<his>> clumsy colleague.",
+    "translation": "",
+    "pos": 3635
+  },
+  {
+    "passage": "Soup Kitchen Work",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "277_5_3_7|",
+    "original": "You return to the soup kitchen and head to the back rooms. You find the soup-covered habit discarded beside an ajar door. You hear running water within.",
+    "translation": "",
+    "pos": 3836
+  },
+  {
+    "passage": "Soup Kitchen Work",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "279_5_3_7|",
+    "original": "<<link [[Peek|Soup Kitchen Peek]]>><</link>><<promiscuous1>>",
+    "translation": "",
+    "pos": 4002
+  },
+  {
+    "passage": "Soup Kitchen Work",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "281_5_3_7|",
+    "original": "<<link [[Leave the clean habit|Soup Kitchen Habit]]>><</link>>",
+    "translation": "",
+    "pos": 4072
+  },
+  {
+    "passage": "Soup Kitchen Work",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "286_5_3_7|",
+    "original": "You notice a <<person>> you recognise from the orphanage. \"D-don't tell anyone you saw me,\" <<he>> says. \"Bailey doesn't like us eating here.\"",
+    "translation": "",
+    "pos": 4232
+  },
+  {
+    "passage": "Soup Kitchen Work",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "289_5_3_7|",
+    "original": "<<link [[Next|Soup Kitchen]]>><</link>>",
+    "translation": "",
+    "pos": 4403
+  },
+  {
+    "passage": "Soup Kitchen Investigate",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "298_5_3_7|",
+    "original": "You walk around the corner. A <<person1>><<person>> pins a <<person3>><<person>> against the wall with <<his>> forearm, while a <<person2>><<person>> watches on, grinning. They turn to face you.",
+    "translation": "",
+    "pos": 63
+  },
+  {
+    "passage": "Soup Kitchen Investigate",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "300_5_3_7|",
+    "original": "\"What you looking at?\" the <<person1>><<person>> spits. \"Fuck off, or you're next.\"",
+    "translation": "",
+    "pos": 267
+  },
+  {
+    "passage": "Soup Kitchen Investigate",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "302_5_3_7|",
+    "original": "<<link [[Fight to stop them|Soup Kitchen Fight]]>><<set $fightstart to 1>><<def 1>><</link>>",
+    "translation": "",
+    "pos": 360
+  },
+  {
+    "passage": "Soup Kitchen Investigate",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "304_5_3_7|",
+    "original": "<<link [[Tell River|Soup Kitchen Tell]]>><</link>>",
+    "translation": "",
+    "pos": 458
+  },
+  {
+    "passage": "Soup Kitchen Investigate",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "306_5_3_7|",
+    "original": "<<link [[Ignore|Soup Kitchen Ignore]]>><<sub 1>><</link>>",
+    "translation": "",
+    "pos": 514
+  },
+  {
+    "passage": "Soup Kitchen Fight",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "321_5_3_7|",
+    "original": "You launch your fist at the <<person>>. <<He>> holds <<his>> arms up to protect <<his>> face, freeing the <<person3>><<person>> and letting <<him>> slide to the ground.",
+    "translation": "",
+    "pos": 284
+  },
+  {
+    "passage": "Soup Kitchen Fight",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "334_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Soup Kitchen Fight Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 620
+  },
+  {
+    "passage": "Soup Kitchen Fight",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "336_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Soup Kitchen Fight]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 718
+  },
+  {
+    "passage": "Soup Kitchen Fight Finish",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "344_5_3_7|",
+    "original": "<<tearful>> you grab the <<person3>><<persons>> arm and run into the kitchen. <<He>> sinks to the ground beside the ovens and hugs <<his>> legs. A <<monk>> crouches beside <<him>>, coaxes <<him>> to <<his>> feet and leads <<him>> into a back room.",
+    "translation": "",
+    "pos": 81
+  },
+  {
+    "passage": "Soup Kitchen Fight Finish",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "348_5_3_7|",
+    "original": "<<npc River>><<person1>>River examines you, taking in your dishevelled state. Without a word, <<he>> leaves through the door you entered. You hear shouting. River returns a moment later. \"That was foolish of you,\" <<he>> says. <<Hes>> smiling.",
+    "translation": "",
+    "pos": 375
+  },
+  {
+    "passage": "Soup Kitchen Fight Finish",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "352_5_3_7|",
+    "original": "<<link [[Next|Soup Kitchen]]>><</link>>",
+    "translation": "",
+    "pos": 679
+  },
+  {
+    "passage": "Soup Kitchen Fight Finish",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "354_5_3_7|",
+    "original": "<<tearful>> you shove the pair away from you, grab the <<person3>><<persons>> arm and run into the kitchen. <<He>> sinks to the ground beside the ovens and hugs <<his>> legs. A <<monk>> crouches beside <<him>>, coaxes <<him>> to <<his>> feet and leads <<him>> into a back room.",
+    "translation": "",
+    "pos": 765
+  },
+  {
+    "passage": "Soup Kitchen Fight Finish",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "358_5_3_7|",
+    "original": "<<npc River>><<person1>>River examines you, taking in your dishevelled state. Without a word, <<he>> leaves through the door you entered. You hear shouting. River returns a moment later. \"That was brave of you,\" <<he>> says. <<His>> shirt is torn, but <<hes>> smiling.",
+    "translation": "",
+    "pos": 1089
+  },
+  {
+    "passage": "Soup Kitchen Fight Finish",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "362_5_3_7|",
+    "original": "<<link [[Next|Soup Kitchen]]>><</link>>",
+    "translation": "",
+    "pos": 1418
+  },
+  {
+    "passage": "Soup Kitchen Fight Finish",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "364_5_3_7|",
+    "original": "You fall to the ground, too hurt to continue. The <<person1>><<person>> steps on the <<person3>><<person>>, who was trying to crawl away. The <<person2>><<person>> looks at you.",
+    "translation": "",
+    "pos": 1468
+  },
+  {
+    "passage": "Soup Kitchen Fight Finish",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "366_5_3_7|",
+    "original": "\"Let's take <<phim>> with us,\" <<he>> says. \"Boss'll be happy.\"",
+    "translation": "",
+    "pos": 1657
+  },
+  {
+    "passage": "Soup Kitchen Fight Finish",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "368_5_3_7|",
+    "original": "\"Alright,\" the <<person1>><<person>> says. \"You carry <<phim>>. I'll get this fuck in the van.\"",
+    "translation": "",
+    "pos": 1732
+  },
+  {
+    "passage": "Soup Kitchen Fight Finish",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "370_5_3_7|",
+    "original": "The <<person2>><<person>> is crouching to lift you when a <span class=\"red\">rolling pin smashes into <<his>> head.</span> <<He>> clutches at <<his>> temple and backs away. River steps over you, blue eyes boring a hole into the thugs. Two <<set $pronoun to C.npc.River.pronoun>><<monks>> flank <<him>>, each carrying a long metal rod.",
+    "translation": "",
+    "pos": 1839
+  },
+  {
+    "passage": "Soup Kitchen Fight Finish",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "372_5_3_7|",
+    "original": "The <<person2>><<person>> glances at <<his>> friend, and sees <<person1>><<him>> already running. The <<person2>><<person>> follows suit.",
+    "translation": "",
+    "pos": 2184
+  },
+  {
+    "passage": "Soup Kitchen Fight Finish",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "374_5_3_7|",
+    "original": "<<tearful>> you rise to your feet, helped by River, while the <<set $pronoun to C.npc.River.pronoun>><<monks>> help the <<person3>><<person>>.",
+    "translation": "",
+    "pos": 2333
+  },
+  {
+    "passage": "Soup Kitchen Fight Finish",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "378_5_3_7|",
+    "original": "<<link [[Thank them|Soup Kitchen Fight Thank]]>><</link>>",
+    "translation": "",
+    "pos": 2522
+  },
+  {
+    "passage": "Soup Kitchen Fight Finish",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "380_5_3_7|",
+    "original": "<<link [[Ask about the rods|Soup Kitchen Fight Rods]]>><</link>>",
+    "translation": "",
+    "pos": 2587
+  },
+  {
+    "passage": "Soup Kitchen Fight Thank",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "386_5_3_7|",
+    "original": "<<npc River>><<person1>>You thank River and the <<monks>> as they lead you back inside.",
+    "translation": "",
+    "pos": 63
+  },
+  {
+    "passage": "Soup Kitchen Fight Thank",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "389_5_3_7|",
+    "original": "<<link [[Next|Soup Kitchen]]>><</link>>",
+    "translation": "",
+    "pos": 173
+  },
+  {
+    "passage": "Soup Kitchen Fight Rods",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "397_5_3_7|",
+    "original": "\"Those rods look scary,\" you say. \"What are they for?\"",
+    "translation": "",
+    "pos": 123
+  },
+  {
+    "passage": "Soup Kitchen Fight Rods",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "399_5_3_7|",
+    "original": "\"You have some nasty looking weapons,\" you say.",
+    "translation": "",
+    "pos": 219
+  },
+  {
+    "passage": "Soup Kitchen Fight Rods",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "401_5_3_7|",
+    "original": "\"I didn't know the <<monks>> carried weapons,\" you say.",
+    "translation": "",
+    "pos": 277
+  },
+  {
+    "passage": "Soup Kitchen Fight Rods",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "404_5_3_7|",
+    "original": "One of the <<monks>> smiles. \"I don't know what you mean,\" <<he>> says. \"River scared them with <<his>> rolling pin.\"",
+    "translation": "",
+    "pos": 350
+  },
+  {
+    "passage": "Soup Kitchen Fight Rods",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "406_5_3_7|",
+    "original": "You try to probe as they lead you back to the kitchen, but to no avail.",
+    "translation": "",
+    "pos": 477
+  },
+  {
+    "passage": "Soup Kitchen Fight Rods",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "409_5_3_7|",
+    "original": "<<link [[Next|Soup Kitchen]]>><</link>>",
+    "translation": "",
+    "pos": 571
+  },
+  {
+    "passage": "Soup Kitchen Tell",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "415_5_3_7|",
+    "original": "You return to the kitchen and approach River.",
+    "translation": "",
+    "pos": 63
+  },
+  {
+    "passage": "Soup Kitchen Tell",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "417_5_3_7|",
+    "original": "\"S-someone's being threatened,\" you say. \"They sound scary.\"",
+    "translation": "",
+    "pos": 144
+  },
+  {
+    "passage": "Soup Kitchen Tell",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "419_5_3_7|",
+    "original": "\"A couple of thugs are harassing someone,\" you say.",
+    "translation": "",
+    "pos": 246
+  },
+  {
+    "passage": "Soup Kitchen Tell",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "421_5_3_7|",
+    "original": "\"Someone's being threatened,\" you say.",
+    "translation": "",
+    "pos": 308
+  },
+  {
+    "passage": "Soup Kitchen Tell",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "424_5_3_7|",
+    "original": "River tenses, but nods and walks outside.",
+    "translation": "",
+    "pos": 364
+  },
+  {
+    "passage": "Soup Kitchen Tell",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "426_5_3_7|",
+    "original": "A few moments later a <<person3>><<person>> staggers through the door, looking dishevelled and alarmed. <<He>> sinks to the ground beside the ovens and wraps <<his>> arms around <<his>> legs. A <<monk>> crouches in front of <<him>>. <<He>> manages to coax the <<person>> to <<his>> feet and lead <<him>> to the back rooms.",
+    "translation": "",
+    "pos": 415
+  },
+  {
+    "passage": "Soup Kitchen Tell",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "430_5_3_7|",
+    "original": "Another minute passes, and River returns as well. <<His>> hair net is gone, <<his>> shirt torn and <span class=\"red\">blood trickles down <<his>> temple.</span> <<He>> washes <<his>> face in the sink. \"Thank you for telling me,\" <<he>> says to you while rubbing <<himself>> dry with a cloth. \"Some people have no decency.\"",
+    "translation": "",
+    "pos": 785
+  },
+  {
+    "passage": "Soup Kitchen Tell",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "433_5_3_7|",
+    "original": "<<link [[Next|Soup Kitchen]]>><</link>>",
+    "translation": "",
+    "pos": 1129
+  },
+  {
+    "passage": "Soup Kitchen Ignore",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "439_5_3_7|",
+    "original": "Whatever's happening, it's none of your business, and might be dangerous. You return to the kitchen.",
+    "translation": "",
+    "pos": 63
+  },
+  {
+    "passage": "Soup Kitchen Ignore",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "442_5_3_7|",
+    "original": "<<link [[Next|Soup Kitchen]]>><</link>>",
+    "translation": "",
+    "pos": 186
+  },
+  {
+    "passage": "Soup Kitchen Peek",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "448_5_3_7|",
+    "original": "You open the door a little and peek through.",
+    "translation": "",
+    "pos": 63
+  },
+  {
+    "passage": "Soup Kitchen Peek",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "450_5_3_7|",
+    "original": "The <<monk>> is completely naked, showering with eyes closed. <<Hes>> oblivious to your presence.",
+    "translation": "",
+    "pos": 125
+  },
+  {
+    "passage": "Soup Kitchen Peek",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "452_5_3_7|",
+    "original": "<<He>> runs <<his>> soapy hands over <<his>> $NPCList[0].breastsdesc. They continue down <<his>> tummy, then over <<his>>",
+    "translation": "",
+    "pos": 247
+  },
+  {
+    "passage": "Soup Kitchen Peek",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "454_5_3_7|",
+    "original": "chastity cage. <<He>> tugs at it and frowns.",
+    "translation": "",
+    "pos": 410
+  },
+  {
+    "passage": "Soup Kitchen Peek",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "456_5_3_7|",
+    "original": "chastity belt. <<He>> tugs at it and frowns.",
+    "translation": "",
+    "pos": 467
+  },
+  {
+    "passage": "Soup Kitchen Peek",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "459_5_3_7|",
+    "original": "<<He>> runs <<his>> soapy hands down <<his>> chest. They continue further, over <<his>> tummy and the",
+    "translation": "",
+    "pos": 531
+  },
+  {
+    "passage": "Soup Kitchen Peek",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "461_5_3_7|",
+    "original": "chastity cage that restricts <<his>> $NPCList[0].penisdesc. <<He>> tugs at it and frowns.",
+    "translation": "",
+    "pos": 674
+  },
+  {
+    "passage": "Soup Kitchen Peek",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "463_5_3_7|",
+    "original": "chastity belt that covers <<his>> pussy. <<He>> tugs at it and frowns.",
+    "translation": "",
+    "pos": 776
+  },
+  {
+    "passage": "Soup Kitchen Peek",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "466_5_3_7|",
+    "original": "You return to the kitchen before you're seen.",
+    "translation": "",
+    "pos": 864
+  },
+  {
+    "passage": "Soup Kitchen Peek",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "468_5_3_7|",
+    "original": "The <<monk>> doesn't take much longer, though River chastises <<him>> for taking <<his>> time.",
+    "translation": "",
+    "pos": 919
+  },
+  {
+    "passage": "Soup Kitchen Peek",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "471_5_3_7|",
+    "original": "<<link [[Next|Soup Kitchen]]>><</link>>",
+    "translation": "",
+    "pos": 1036
+  },
+  {
+    "passage": "Soup Kitchen Habit",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "477_5_3_7|",
+    "original": "You leave the clean habit in a neat pile beside the door.",
+    "translation": "",
+    "pos": 63
+  },
+  {
+    "passage": "Soup Kitchen Habit",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "478_5_3_7|",
+    "original": "The <<monk>> returns a few minutes later, smelling soapy. River chastises <<him>> for taking so long.",
+    "translation": "",
+    "pos": 121
+  },
+  {
+    "passage": "Soup Kitchen Habit",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "481_5_3_7|",
+    "original": "<<link [[Next|Soup Kitchen]]>><</link>>",
+    "translation": "",
+    "pos": 245
+  },
+  {
+    "passage": "Soup Kitchen Grope Ignore",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "487_5_3_7|",
+    "original": "You ignore the <<person>> and continue cleaning the floor. <<He>> takes your lack of protest as encouragement, and redoubles the groping.",
+    "translation": "",
+    "pos": 63
+  },
+  {
+    "passage": "Soup Kitchen Grope Ignore",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "489_5_3_7|",
+    "original": "You feel flustered, but <<he>> doesn't try to take things further.",
+    "translation": "",
+    "pos": 210
+  },
+  {
+    "passage": "Soup Kitchen Grope Ignore",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "492_5_3_7|",
+    "original": "<<link [[Next|Soup Kitchen]]>><</link>>",
+    "translation": "",
+    "pos": 299
+  },
+  {
+    "passage": "Soup Kitchen Grope Walk",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "498_5_3_7|",
+    "original": "You stand and walk away from the pervert. You'll clean the spill later.",
+    "translation": "",
+    "pos": 63
+  },
+  {
+    "passage": "Soup Kitchen Grope Walk",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "500_5_3_7|",
+    "original": "<<person1>>River looks at the still-dirty floor you gave up on. <<He>> shakes <<his>> head.",
+    "translation": "",
+    "pos": 144
+  },
+  {
+    "passage": "Soup Kitchen Grope Walk",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "503_5_3_7|",
+    "original": "<<link [[Next|Soup Kitchen]]>><</link>>",
+    "translation": "",
+    "pos": 258
+  },
+  {
+    "passage": "Soup Kitchen Grope Angry",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "509_5_3_7|",
+    "original": "You turn and slap the <<person>>, attracting River's attention. <<person1>><<He>> glares at you as the <<person2>><<person>> clutches <<his>> face.",
+    "translation": "",
+    "pos": 63
+  },
+  {
+    "passage": "Soup Kitchen Grope Angry",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "511_5_3_7|",
+    "original": "The rest of the hour passes without event.",
+    "translation": "",
+    "pos": 220
+  },
+  {
+    "passage": "Soup Kitchen Grope Angry",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "514_5_3_7|",
+    "original": "<<link [[Next|Soup Kitchen]]>><</link>>",
+    "translation": "",
+    "pos": 285
+  },
+  {
+    "passage": "Soup Kitchen Closed",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "521_5_3_7|",
+    "original": "You search for the grey building you were told about. You find it hidden among the trees in the shadow of the temple. You try the door, but it's locked. You were told it opens between <span class=\"gold\"><<ampm 18 00>> and <<ampm 21 00>></span>.",
+    "translation": "",
+    "pos": 98
+  },
+  {
+    "passage": "Soup Kitchen Closed",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "524_5_3_7|",
+    "original": "You approach the soup kitchen, but the door is locked. You were told it opens between <span class=\"gold\"><<ampm 18 00>> and <<ampm 21 00>></span>.",
+    "translation": "",
+    "pos": 363
+  },
+  {
+    "passage": "Soup Kitchen Closed",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "527_5_3_7|",
+    "original": "<<link [[Next|Wolf Street]]>><</link>>",
+    "translation": "",
+    "pos": 528
+  },
+  {
+    "passage": "Soup Kitchen Kitchen Ask",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "537_5_3_7|",
+    "original": "\"Could I use the kitchen for other things?\" you ask River. \"I promise I won't get in the way.\"",
+    "translation": "",
+    "pos": 126
+  },
+  {
+    "passage": "Soup Kitchen Kitchen Ask",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "539_5_3_7|",
+    "original": "\"Could I use the kitchen for other things?\" you ask River. \"I know my way around a spatula.\"",
+    "translation": "",
+    "pos": 262
+  },
+  {
+    "passage": "Soup Kitchen Kitchen Ask",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "541_5_3_7|",
+    "original": "\"Could I use the kitchen for other things?\" you ask River. \"I won't get in your way.\"",
+    "translation": "",
+    "pos": 365
+  },
+  {
+    "passage": "Soup Kitchen Kitchen Ask",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "546_5_3_7|",
+    "original": "River spares a glance your way. <span class=\"green\">\"Fine,\"</span> <<he>> says. \"As long as you clean up after yourself. Feel free to use the fish and vegetables we get in. They change every day.\"",
+    "translation": "",
+    "pos": 501
+  },
+  {
+    "passage": "Soup Kitchen Kitchen Ask",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "548_5_3_7|",
+    "original": "<<link [[Next|Soup Kitchen]]>><<set $kitchen_river to 1>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 709
+  },
+  {
+    "passage": "Soup Kitchen Kitchen Ask",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "551_5_3_7|",
+    "original": "River doesn't look up from the half-prepared fish in front of <<him>>. \"This isn't a suitable place for cooking just anything,\" <<he>> says. \"Use the one at school. I'm sure the orphanage has a kitchen as well.\"",
+    "translation": "",
+    "pos": 804
+  },
+  {
+    "passage": "Soup Kitchen Kitchen Ask",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "553_5_3_7|",
+    "original": "<i>Helping River around the soup kitchen might change <<his>> mind.</i>",
+    "translation": "",
+    "pos": 1027
+  },
+  {
+    "passage": "Soup Kitchen Kitchen Ask",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "555_5_3_7|",
+    "original": "<<link [[Next|Soup Kitchen]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1110
+  },
+  {
+    "passage": "Soup Kitchen Kitchen",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "563_5_3_7|",
+    "original": "<<generate1>><<person1>>The kitchen closes for the evening. Several <<monks>> from the nearby temple arrive to help clean up.",
+    "translation": "",
+    "pos": 88
+  },
+  {
+    "passage": "Soup Kitchen Kitchen",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "566_5_3_7|",
+    "original": "<<link [[Next|Wolf Street]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 239
+  },
+  {
+    "passage": "Soup Kitchen Kitchen",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "569_5_3_7|",
+    "original": "You occupy a free space in the kitchen, out of the way of River and the <<monks>>.",
+    "translation": "",
+    "pos": 317
+  },
+  {
+    "passage": "Soup Kitchen Kitchen",
+    "filepath": "overworld-town/loc-temple/soup-kitchen.twee",
+    "key": "591_5_3_7|",
+    "original": "<<link [[Leave|Soup Kitchen]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 1199
+  }
+]
