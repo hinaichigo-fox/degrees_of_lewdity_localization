@@ -1,0 +1,3458 @@
+[
+  {
+    "passage": "Ambulance rescue",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "4_5_3_7|",
+    "original": "You feel yourself being lifted onto a stretcher before passing out again.",
+    "translation": "",
+    "pos": 49
+  },
+  {
+    "passage": "Ambulance rescue",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "6_5_3_7|",
+    "original": "You think you saw someone standing next to you. Someone pale and beautiful.",
+    "translation": "",
+    "pos": 144
+  },
+  {
+    "passage": "Ambulance rescue",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "10_5_3_7|",
+    "original": "<<link [[Sleep|Hospital Bed]]>><</link>>",
+    "translation": "",
+    "pos": 238
+  },
+  {
+    "passage": "Widgets Ambulance",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "16_5_3_7|",
+    "original": "<<link [[Wake up|Kylar Basement]]>><<pass 1 hour>><</link>>",
+    "translation": "",
+    "pos": 142
+  },
+  {
+    "passage": "Widgets Ambulance",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "18_5_3_7|",
+    "original": "<<link [[Wake up|Ambulance rescue]]>><<pass 1 hour>><</link>>",
+    "translation": "",
+    "pos": 214
+  },
+  {
+    "passage": "Hospital front",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "25_5_3_7|",
+    "original": "You are in front of the hospital. It is open at all hours.",
+    "translation": "",
+    "pos": 65
+  },
+  {
+    "passage": "Hospital front",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "27_5_3_7|",
+    "original": "Robin hugs you tightly. \"Thanks for saving me,\" <<nnpc_he \"Robin\">> says. \"I think I'm going to go home. I need a rest.\"",
+    "translation": "",
+    "pos": 158
+  },
+  {
+    "passage": "Hospital front",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "28_5_3_7|",
+    "original": "Robin then waves you goodbye and starts walking towards home.",
+    "translation": "",
+    "pos": 280
+  },
+  {
+    "passage": "Hospital front",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "37_5_3_7|",
+    "original": "You are hiding in the bushes just outside the entrance. You should be able to enter without being seen if you time it right.",
+    "translation": "",
+    "pos": 467
+  },
+  {
+    "passage": "Hospital front",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "44_5_3_7|",
+    "original": "<<getinicon>><<link [[Go inside hospital (0:01)|Hospital Foyer]]>><<pass 1>><</link>>",
+    "translation": "",
+    "pos": 688
+  },
+  {
+    "passage": "Hospital front",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "46_5_3_7|",
+    "original": "<<entertownicon>><<link [[Nightingale Street (0:01)|Nightingale Street]]>><<pass 1>><</link>>",
+    "translation": "",
+    "pos": 781
+  },
+  {
+    "passage": "Hospital Foyer",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "53_5_3_7|",
+    "original": "You are inside the hospital foyer. <<if $psych is 1>>You see a sign directing to Harper's office. <</if>><<if Time.weekDay is 6 and $daily.harperVisit isnot 1 and $psych is 1 and $trauma gte ($traumamax / 10) * 9>><span class=\"red\">You can't remember when your appointment was.</span><<elseif Time.weekDay is 6 and $daily.harperVisit isnot 1 and $psych is 1>>You're in time for your appointment.<<else>>You don't have an appointment right now.<</if>>",
+    "translation": "",
+    "pos": 65
+  },
+  {
+    "passage": "Hospital Foyer",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "63_5_3_7|",
+    "original": "You are hiding under a hospital bed, hoping no one spots you in this state of undress. You see a cart full of sheets not far away that you could use to cover yourself. You could wait until the coast looks clear then make a break for it. Alternatively, you could inch the bed closer to the cart to try to remain concealed from view.",
+    "translation": "",
+    "pos": 685
+  },
+  {
+    "passage": "Hospital Foyer",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "66_5_3_7|",
+    "original": "<<link [[Make a break for it (0:05)|Hospital Exhibition]]>><<set $phase to 0>><<pass 5>><</link>>",
+    "translation": "",
+    "pos": 1031
+  },
+  {
+    "passage": "Hospital Foyer",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "68_5_3_7|",
+    "original": "<<link [[Slide the bed closer (0:10)|Hospital Exhibition]]>><<set $phase to 1>><<pass 10>><</link>>",
+    "translation": "",
+    "pos": 1138
+  },
+  {
+    "passage": "Hospital Foyer",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "72_5_3_7|",
+    "original": "Mickey asked you to steal a hospital keycard for them.",
+    "translation": "",
+    "pos": 1305
+  },
+  {
+    "passage": "Hospital Foyer",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "74_5_3_7|",
+    "original": "The hospital is open at all times, so it wouldn't be any less busy at night.",
+    "translation": "",
+    "pos": 1411
+  },
+  {
+    "passage": "Hospital Foyer",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "76_5_3_7|",
+    "original": "The hospital is open at all times, so it's not any less busy than the daytime.",
+    "translation": "",
+    "pos": 1504
+  },
+  {
+    "passage": "Hospital Foyer",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "80_5_3_7|",
+    "original": "<<ind>><<link [[Approach a receptionist (0:05)|Hospital Keycard Receptionist]]>><<pass 5>><</link>>",
+    "translation": "",
+    "pos": 1610
+  },
+  {
+    "passage": "Hospital Foyer",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "86_5_3_7|",
+    "original": "<<socialiseicon \"ask\">><<link [[Ask for an emergency appointment with Doctor Harper|Doctor Harper Emergency]]>><<set $daily.harperVisit to 1>><</link>><<note \"If Doctor Harper sees you like this, you fear <<nnpc_he 'Harper'>> may intervene\" \"red\">>",
+    "translation": "",
+    "pos": 1833
+  },
+  {
+    "passage": "Hospital Foyer",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "89_5_3_7|",
+    "original": "<<officeicon>><<link [[Doctor Harper's office|Doctor Harper's Office]]>><<set $daily.harperVisit to 1>><</link>>",
+    "translation": "",
+    "pos": 2127
+  },
+  {
+    "passage": "Hospital Foyer",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "93_5_3_7|",
+    "original": "<<socialiseicon \"ask\">><<link [[Ask for Doctor Harper|Doctor Harper's Office School]]>><<set $daily.harperVisit to 1>><</link>>",
+    "translation": "",
+    "pos": 2320
+  },
+  {
+    "passage": "Hospital Foyer",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "97_5_3_7|",
+    "original": "<<ind>><<link [[Say that your waters have broken|Pregnancy Birth Hospital]]>><</link>>",
+    "translation": "",
+    "pos": 2498
+  },
+  {
+    "passage": "Hospital Foyer",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "101_5_3_7|",
+    "original": "<span class=\"pink\">You feel $vaginalchastityparasite squirming inside your vagina.</span>",
+    "translation": "",
+    "pos": 2648
+  },
+  {
+    "passage": "Hospital Foyer",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "106_5_3_7|",
+    "original": "<<procedureicon \"paternity\">><<link [[Enquire about a paternity test (0:10)|Hospital Paternity Test]]>><<pass 10>><</link>>",
+    "translation": "",
+    "pos": 2853
+  },
+  {
+    "passage": "Hospital Foyer",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "112_5_3_7|",
+    "original": "<<socialiseicon \"ask\">><<link [[Enquire about body parasite removal (0:10)|Hospital Parasite]]>><<pass 10>><</link>>",
+    "translation": "",
+    "pos": 3392
+  },
+  {
+    "passage": "Hospital Foyer",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "116_5_3_7|",
+    "original": "<<procedureicon \"breast enlarge\">><<link [[Enquire about breast enlargement (0:10)|Hospital Breast Enlargement]]>><<pass 10>><</link>>",
+    "translation": "",
+    "pos": 3565
+  },
+  {
+    "passage": "Hospital Foyer",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "120_5_3_7|",
+    "original": "<<procedureicon \"breast reduce\">><<link [[Enquire about breast reduction (0:10)|Hospital Breast Reduction]]>><<pass 10>><</link>>",
+    "translation": "",
+    "pos": 3755
+  },
+  {
+    "passage": "Hospital Foyer",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "124_5_3_7|",
+    "original": "<<procedureicon \"penis enlarge\">><<link [[Enquire about penis enlargement (0:10)|Hospital Penis Enlargement]]>><<pass 10>><</link>>",
+    "translation": "",
+    "pos": 3973
+  },
+  {
+    "passage": "Hospital Foyer",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "128_5_3_7|",
+    "original": "<<procedureicon \"penis reduce\">><<link [[Enquire about penis reduction (0:10)|Hospital Penis Reduction]]>><<pass 10>><</link>>",
+    "translation": "",
+    "pos": 4193
+  },
+  {
+    "passage": "Hospital Foyer",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "134_5_3_7|",
+    "original": "<<socialiseicon \"ask\">><<link [[Enquire about movement in your stomach (0:10)|Pregnancy Introduction]]>><<pass 10>><</link>>",
+    "translation": "",
+    "pos": 4494
+  },
+  {
+    "passage": "Hospital Foyer",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "140_5_3_7|",
+    "original": "<<socialiseicon \"ask\">><<link [[Enquire about your pregnancy and children (0:10)|Pregnancy Discussion]]>><<pass 10>><</link>>",
+    "translation": "",
+    "pos": 5182
+  },
+  {
+    "passage": "Hospital Foyer",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "143_5_3_7|",
+    "original": "<<socialiseicon \"ask\">><<link [[Enquire about the parasites inside you (0:10)|Pregnancy Discussion]]>><<pass 10>><</link>>",
+    "translation": "",
+    "pos": 5333
+  },
+  {
+    "passage": "Hospital Foyer",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "149_5_3_7|",
+    "original": "<<socialiseicon \"ask\">><<link [[Enquire about getting an ultrasound (0:10)|Pregnancy ultrasound]]>>",
+    "translation": "",
+    "pos": 5649
+  },
+  {
+    "passage": "Hospital Foyer",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "156_5_3_7|",
+    "original": "<<shopicon \"tattoo\">><<link [[Enquire about tattoo removal (0:10)|Hospital Tattoo Removal]]>><<pass 10>><</link>>",
+    "translation": "",
+    "pos": 5936
+  },
+  {
+    "passage": "Hospital Foyer",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "163_5_3_7|",
+    "original": "<<pillicon>><<link [[Pharmacy (0:02)|Pharmacy]]>><<pass 2>><</link>>",
+    "translation": "",
+    "pos": 6105
+  },
+  {
+    "passage": "Hospital Foyer",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "167_5_3_7|",
+    "original": "<<getouticon>><<link [[Go outside (0:01)|Hospital front]]>><<pass 1>><</link>>",
+    "translation": "",
+    "pos": 6189
+  },
+  {
+    "passage": "Abduction Hospital",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "176_5_3_7|",
+    "original": "You awaken on a hard metallic surface in a dark room.",
+    "translation": "",
+    "pos": 85
+  },
+  {
+    "passage": "Abduction Hospital",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "178_5_3_7|",
+    "original": "Dim lights along the walls switch on, illuminating a large and grimy room, the ceiling lost in the darkness above. Cages line one wall, full of golden eyes that stare out at you. The cage doors shift slightly, and a timer blinks into life \"1:00, 0:59, 0:58...\" Fighting back panic, you head to the door on the other side of the room, which appears to be the only way out.",
+    "translation": "",
+    "pos": 147
+  },
+  {
+    "passage": "Abduction Hospital",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "181_5_3_7|",
+    "original": "Through the door and to the left there is a precipitous drop. You peer down and see dark running water; you can vaguely make out a wide tunnel leading away from the bottom. To the right is a long corridor. A door stands shut at the other end. In front of you is a small hole in the wall, which you might be able to squeeze through.",
+    "translation": "",
+    "pos": 529
+  },
+  {
+    "passage": "Abduction Hospital",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "186_5_3_7|",
+    "original": "<<link [[Climb down to the water (0:01)|Abduction Hospital Water]]>><<set $molestationstart to 1>><<pass 1>><</link>>",
+    "translation": "",
+    "pos": 946
+  },
+  {
+    "passage": "Abduction Hospital",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "189_5_3_7|",
+    "original": "<<link [[Head down the corridor (0:01)|Abduction Hospital Corridor]]>><<pass 1>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1078
+  },
+  {
+    "passage": "Abduction Hospital",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "191_5_3_7|",
+    "original": "<<link [[Squeeze through the hole (0:01)|Abduction Hospital Hole]]>><<pass 1>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1185
+  },
+  {
+    "passage": "Molestation Hospital",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "201_5_3_7|",
+    "original": "<<generate1>><<nurseinit>><<person1>>You feel a sharp pain in your arm. You open your eyes to see a <<person>> in a nurse outfit and medical mask injecting you with a mystery liquid. Almost immediately a daze descends on you. You find it hard to move, or even think. A perverse warmth starts rising within your belly.",
+    "translation": "",
+    "pos": 125
+  },
+  {
+    "passage": "Molestation Hospital",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "218_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Hospital Ejaculation]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 687
+  },
+  {
+    "passage": "Molestation Hospital",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "220_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Hospital Escape]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 805
+  },
+  {
+    "passage": "Molestation Hospital",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "222_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Molestation Hospital]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 897
+  },
+  {
+    "passage": "Molestation Hospital",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "226_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Hospital Ejaculation]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 1046
+  },
+  {
+    "passage": "Molestation Hospital",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "228_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Hospital Escape]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 1160
+  },
+  {
+    "passage": "Molestation Hospital",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "230_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Molestation Hospital]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 1248
+  },
+  {
+    "passage": "Hospital Bed",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "240_5_3_7|",
+    "original": "You awaken in a bed at the civic hospital.",
+    "translation": "",
+    "pos": 230
+  },
+  {
+    "passage": "Hospital Bed",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "243_5_3_7|",
+    "original": "The nurse explains that you have suffered <<= $passoutReason || \"a severe stress response\">>, but you are otherwise physically healthy. <<He>> asks you to wait a moment while <<he>> fetches the doctor.",
+    "translation": "",
+    "pos": 301
+  },
+  {
+    "passage": "Hospital Bed",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "247_5_3_7|",
+    "original": "<<npc Harper>><<person1>>You don't have to wait long. A <<personsimple>> wearing a white medical coat and carrying a clipboard enters.",
+    "translation": "",
+    "pos": 529
+  },
+  {
+    "passage": "Hospital Bed",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "250_5_3_7|",
+    "original": "<<He>> smiles at you. \"Hello, I'm Doctor Harper.\" <<He>> takes a seat by your bedside and pulls <<his>> blond fringe away from <<his>> eyes. <<He>> looks young, can't be older than 25.",
+    "translation": "",
+    "pos": 676
+  },
+  {
+    "passage": "Hospital Bed",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "253_5_3_7|",
+    "original": "You awaken in a bed at the civic hospital.",
+    "translation": "",
+    "pos": 881
+  },
+  {
+    "passage": "Hospital Bed",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "255_5_3_7|",
+    "original": "<<npc Harper>><<person1>>Doctor Harper enters at that moment, carrying <<his>> usual clipboard. <<He>> assures you that there is no immediate concern, but <<he>> would like to examine you further.",
+    "translation": "",
+    "pos": 926
+  },
+  {
+    "passage": "Hospital Bed",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "259_5_3_7|",
+    "original": "<<link [[Next|Hospital Bed Examination]]>><</link>>",
+    "translation": "",
+    "pos": 1142
+  },
+  {
+    "passage": "Hospital Ejaculation",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "265_5_3_7|",
+    "original": "<<He>> tenses, throws back <<his>> head and lets out a loud moan as <<he>> climaxes.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Hospital Ejaculation",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "271_5_3_7|",
+    "original": "<<He>> adjusts <<his>> uniform and leaves the room, but not before giving you one last smack to the face.",
+    "translation": "",
+    "pos": 174
+  },
+  {
+    "passage": "Hospital Ejaculation",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "275_5_3_7|",
+    "original": "Without a word, <<he>> adjusts <<his>> uniform and leaves the room.",
+    "translation": "",
+    "pos": 336
+  },
+  {
+    "passage": "Hospital Ejaculation",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "278_5_3_7|",
+    "original": "Smiling, <<he>> kisses you on the cheek. \"This is for you.\" <<He>> adjusts <<his>> uniform and leaves the room.",
+    "translation": "",
+    "pos": 424
+  },
+  {
+    "passage": "Hospital Ejaculation",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "280_5_3_7|",
+    "original": "You've gained <<printmoney 500>><<money 500 \"prostitution\">>.",
+    "translation": "",
+    "pos": 543
+  },
+  {
+    "passage": "Hospital Ejaculation",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "286_5_3_7|",
+    "original": "<<tearful>> you climb off the bed and stumble onto the ward.",
+    "translation": "",
+    "pos": 639
+  },
+  {
+    "passage": "Hospital Ejaculation",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "291_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Recovery ward]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 725
+  },
+  {
+    "passage": "Hospital Escape",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "296_5_3_7|",
+    "original": "<<He>> recoils in pain. <<tearful>> you seize the opportunity and dart out the room, taking refuge in a maintenance cupboard.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Hospital Escape",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "303_5_3_7|",
+    "original": "<<link [[Next|Hospital cupboard]]>><</link>>",
+    "translation": "",
+    "pos": 179
+  },
+  {
+    "passage": "Hospital cupboard",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "308_5_3_7|",
+    "original": "This small maintenance cupboard contains a variety of cleaning implements and chemicals. You peek through the door. There's no one there.",
+    "translation": "",
+    "pos": 65
+  },
+  {
+    "passage": "Hospital cupboard",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "314_5_3_7|",
+    "original": "<<link [[Leave the cupboard (0:01)|Recovery ward]]>><<pass 1>><</link>>",
+    "translation": "",
+    "pos": 274
+  },
+  {
+    "passage": "Recovery ward",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "321_5_3_7|",
+    "original": "You are in the recovery ward of the hospital. Several nurses go about their business.",
+    "translation": "",
+    "pos": 65
+  },
+  {
+    "passage": "Recovery ward",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "328_5_3_7|",
+    "original": "You are hiding under a hospital bed, hoping no one spots you in this state of undress. You see a cart full of sheets not far away that you could use to cover yourself. You could wait until the coast looks clear then make a break for it. Alternatively, you could inch the bed closer to the cart to try to remain concealed from view.",
+    "translation": "",
+    "pos": 246
+  },
+  {
+    "passage": "Recovery ward",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "331_5_3_7|",
+    "original": "<<link [[Make a break for it (0:05)|Hospital Exhibition]]>><<set $phase to 0>><<pass 5>><</link>>",
+    "translation": "",
+    "pos": 592
+  },
+  {
+    "passage": "Recovery ward",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "333_5_3_7|",
+    "original": "<<link [[Slide the bed closer (0:10)|Hospital Exhibition]]>><<set $phase to 1>><<pass 10>><</link>>",
+    "translation": "",
+    "pos": 699
+  },
+  {
+    "passage": "Recovery ward",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "336_5_3_7|",
+    "original": "<<link [[Leave the ward (0:01)|Hospital Foyer]]>><<pass 1>><</link>>",
+    "translation": "",
+    "pos": 822
+  },
+  {
+    "passage": "Recovery ward",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "339_5_3_7|",
+    "original": "<<link [[Maintenance cupboard (0:01)|Hospital cupboard]]>><<pass 1>><</link>>",
+    "translation": "",
+    "pos": 901
+  },
+  {
+    "passage": "Passout hospital",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "345_5_3_7|",
+    "original": "You've pushed yourself too much.",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Passout hospital",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "353_5_3_7|",
+    "original": "<<link [[Wake up|Abduction Hospital]]>><<set $phase to 0>><</link>>",
+    "translation": "",
+    "pos": 185
+  },
+  {
+    "passage": "Passout hospital",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "355_5_3_7|",
+    "original": "<<link [[Wake up|Molestation Hospital]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 265
+  },
+  {
+    "passage": "Passout hospital",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "358_5_3_7|",
+    "original": "<<link [[Wake up|Hospital Bed]]>><</link>>",
+    "translation": "",
+    "pos": 365
+  },
+  {
+    "passage": "Widgets Passout Hospital",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "370_5_3_7|",
+    "original": "<<link [[Everything fades to black...|Passout hospital]]>><</link>>",
+    "translation": "",
+    "pos": 103
+  },
+  {
+    "passage": "Hospital Bed Examination",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "402_5_3_7|",
+    "original": "<<He>> gently interrogates you on the reason for your $passoutReason, lecturing you on the dangers of <<= $passoutReason is \"hypothermia\" ? \"severe frostbite\" : \"heatstroke\">>. <<He>> informs you that everything is okay as far as <<he>> can tell, but you should be more careful about how you dress in the future.",
+    "translation": "",
+    "pos": 920
+  },
+  {
+    "passage": "Hospital Bed Examination",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "405_5_3_7|",
+    "original": "A nurse helps you to your feet, and you soon find yourself being discharged.",
+    "translation": "",
+    "pos": 1270
+  },
+  {
+    "passage": "Hospital Bed Examination",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "409_5_3_7|",
+    "original": "It's dark out. Maybe you should wait until morning.",
+    "translation": "",
+    "pos": 1396
+  },
+  {
+    "passage": "Hospital Bed Examination",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "412_5_3_7|",
+    "original": "<<link [[Wait (0:10)|Hospital Wait]]>><<pass 10>><<endevent>><</link>><<ltiredness>>",
+    "translation": "",
+    "pos": 1462
+  },
+  {
+    "passage": "Hospital Bed Examination",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "415_5_3_7|",
+    "original": "<<link [[Leave now (0:10)|Hospital Rent]]>><<pass 10>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1582
+  },
+  {
+    "passage": "Hospital Bed Examination",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "418_5_3_7|",
+    "original": "<<link [[Leave now (0:10)|Hospital Arrest]]>><<pass 10>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1709
+  },
+  {
+    "passage": "Hospital Bed Examination",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "421_5_3_7|",
+    "original": "<<link [[Leave now (0:10)|Hospital Journey Home]]>><<pass 10>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1833
+  },
+  {
+    "passage": "Hospital Bed Examination",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "424_5_3_7|",
+    "original": "<<link [[Leave now (0:10)|Hospital front]]>><<pass 10>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1939
+  },
+  {
+    "passage": "Hospital Bed Examination",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "429_5_3_7|",
+    "original": "<<link [[Next (0:10)|Hospital Rent]]>><<pass 10>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 2072
+  },
+  {
+    "passage": "Hospital Bed Examination",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "432_5_3_7|",
+    "original": "<<link [[Next (0:10)|Hospital Arrest]]>><<pass 10>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 2194
+  },
+  {
+    "passage": "Hospital Bed Examination",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "435_5_3_7|",
+    "original": "<<link [[Next (0:10)|Hospital Journey Home]]>><<pass 10>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 2313
+  },
+  {
+    "passage": "Hospital Bed Examination",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "438_5_3_7|",
+    "original": "<<link [[Next (0:10)|Hospital front]]>><<pass 10>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 2414
+  },
+  {
+    "passage": "Hospital Bed Examination",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "444_5_3_7|",
+    "original": "<<He>> gently interrogates you on a variety of subjects relating to your home life, how school is going and how your well-being has been faring. <<He>> informs you that everything is okay as far as <<he>> can tell, but you should be careful in the future.",
+    "translation": "",
+    "pos": 2560
+  },
+  {
+    "passage": "Hospital Bed Examination",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "447_5_3_7|",
+    "original": "A nurse helps you to your feet, and you soon find yourself being discharged.",
+    "translation": "",
+    "pos": 2837
+  },
+  {
+    "passage": "Hospital Bed Examination",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "451_5_3_7|",
+    "original": "It's dark out. Maybe you should wait until morning.",
+    "translation": "",
+    "pos": 2963
+  },
+  {
+    "passage": "Hospital Bed Examination",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "454_5_3_7|",
+    "original": "<<link [[Wait (0:10)|Hospital Wait]]>><<pass 10>><<endevent>><</link>><<ltiredness>>",
+    "translation": "",
+    "pos": 3029
+  },
+  {
+    "passage": "Hospital Bed Examination",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "457_5_3_7|",
+    "original": "<<link [[Leave now (0:10)|Hospital Rent]]>><<pass 10>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 3149
+  },
+  {
+    "passage": "Hospital Bed Examination",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "460_5_3_7|",
+    "original": "<<link [[Leave now (0:10)|Hospital Arrest]]>><<pass 10>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 3276
+  },
+  {
+    "passage": "Hospital Bed Examination",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "463_5_3_7|",
+    "original": "<<link [[Leave now (0:10)|Hospital Journey Home]]>><<pass 10>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 3400
+  },
+  {
+    "passage": "Hospital Bed Examination",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "466_5_3_7|",
+    "original": "<<link [[Leave now (0:10)|Hospital front]]>><<pass 10>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 3506
+  },
+  {
+    "passage": "Hospital Bed Examination",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "471_5_3_7|",
+    "original": "<<link [[Next (0:10)|Hospital Rent]]>><<pass 10>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 3639
+  },
+  {
+    "passage": "Hospital Bed Examination",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "474_5_3_7|",
+    "original": "<<link [[Next (0:10)|Hospital Arrest]]>><<pass 10>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 3761
+  },
+  {
+    "passage": "Hospital Bed Examination",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "477_5_3_7|",
+    "original": "<<link [[Next (0:10)|Hospital Journey Home]]>><<pass 10>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 3880
+  },
+  {
+    "passage": "Hospital Bed Examination",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "480_5_3_7|",
+    "original": "<<link [[Next (0:10)|Hospital front]]>><<pass 10>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 3981
+  },
+  {
+    "passage": "Hospital Bed Examination",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "485_5_3_7|",
+    "original": "<<He>> gently interrogates you on a variety of subjects relating to your home life, how school is going and how your well-being has been faring. After a short while, <<he>> summons a nurse and they have a brief conversation in the corner of the room. They talk quietly, and after a short while the nurse nods and leave the room.",
+    "translation": "",
+    "pos": 4125
+  },
+  {
+    "passage": "Hospital Bed Examination",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "489_5_3_7|",
+    "original": "<span class=\"gold\">The doctor tells you to visit <<him>> here at the hospital on <span class=\"gold\">Fridays</span> for therapy.</span>",
+    "translation": "",
+    "pos": 4487
+  },
+  {
+    "passage": "Hospital Bed Examination",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "493_5_3_7|",
+    "original": "A nurse helps you to your feet, and you soon find yourself being discharged.",
+    "translation": "",
+    "pos": 4690
+  },
+  {
+    "passage": "Hospital Bed Examination",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "496_5_3_7|",
+    "original": "The doctor reminds you to visit <<him>> here at the hospital on <span class=\"gold\">Fridays</span>.",
+    "translation": "",
+    "pos": 4790
+  },
+  {
+    "passage": "Hospital Bed Examination",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "499_5_3_7|",
+    "original": "A nurse helps you to your feet, and you soon find yourself being discharged.",
+    "translation": "",
+    "pos": 4913
+  },
+  {
+    "passage": "Hospital Bed Examination",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "504_5_3_7|",
+    "original": "It's dark out. Maybe you should wait until morning.",
+    "translation": "",
+    "pos": 5049
+  },
+  {
+    "passage": "Hospital Bed Examination",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "507_5_3_7|",
+    "original": "<<link [[Wait (0:10)|Hospital Wait]]>><<pass 10>><<endevent>><</link>><<ltiredness>>",
+    "translation": "",
+    "pos": 5115
+  },
+  {
+    "passage": "Hospital Bed Examination",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "511_5_3_7|",
+    "original": "<<link [[Leave now (0:10)|Hospital Rent]]>><<pass 10>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 5236
+  },
+  {
+    "passage": "Hospital Bed Examination",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "514_5_3_7|",
+    "original": "<<link [[Leave now (0:10)|Hospital Arrest]]>><<pass 10>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 5363
+  },
+  {
+    "passage": "Hospital Bed Examination",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "517_5_3_7|",
+    "original": "<<link [[Leave now (0:10)|Hospital Journey Home]]>><<pass 10>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 5487
+  },
+  {
+    "passage": "Hospital Bed Examination",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "520_5_3_7|",
+    "original": "<<link [[Leave now (0:10)|Hospital front]]>><<pass 10>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 5592
+  },
+  {
+    "passage": "Hospital Bed Examination",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "525_5_3_7|",
+    "original": "<<link [[Next (0:10)|Hospital Rent]]>><<pass 10>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 5725
+  },
+  {
+    "passage": "Hospital Bed Examination",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "528_5_3_7|",
+    "original": "<<link [[Next (0:10)|Hospital Arrest]]>><<pass 10>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 5847
+  },
+  {
+    "passage": "Hospital Bed Examination",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "531_5_3_7|",
+    "original": "<<link [[Next (0:10)|Hospital Journey Home]]>><<pass 10>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 5966
+  },
+  {
+    "passage": "Hospital Bed Examination",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "534_5_3_7|",
+    "original": "<<link [[Next (0:10)|Hospital front]]>><<pass 10>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 6067
+  },
+  {
+    "passage": "Hospital Bed Examination",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "540_5_3_7|",
+    "original": "<<He>> gently interrogates you on a variety of subjects relating to your home life, how school is going and how your well-being has been faring. A look of concern grows on <<his>> face, but you've no idea why. After a short while, <<he>> summons a nurse into the room and they talk quietly for a short time. The nurse keeps glancing at you, looking concerned.",
+    "translation": "",
+    "pos": 6239
+  },
+  {
+    "passage": "Hospital Bed Examination",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "543_5_3_7|",
+    "original": "The nurse leaves you alone with the doctor, who presses a cloth to your face. A haze falls on you. \"Everything will be fine,\" you hear <<him>> say through the fog. Two blurred shapes enter the room. They help you to your feet and guide you away from the bed, an arm on each shoulder. Doctor Harper follows close behind.",
+    "translation": "",
+    "pos": 6611
+  },
+  {
+    "passage": "Hospital Bed Examination",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "546_5_3_7|",
+    "original": "Once out in the corridor another shape marches toward you. Harper blocks their path. The shape shouts something incomprehensible with Bailey's voice. The two beside you don't stop. They lead you outside and into the back of a waiting van. There's a cot inside. They push you onto it as the last of your consciousness slips.",
+    "translation": "",
+    "pos": 6943
+  },
+  {
+    "passage": "Hospital Bed Examination",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "550_5_3_7|",
+    "original": "<<link [[Next|Asylum Intro]]>><<pass 120>><</link>>",
+    "translation": "",
+    "pos": 7350
+  },
+  {
+    "passage": "Hospital Exhibition",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "558_5_3_7|",
+    "original": "You wait for the number of people in the vicinity to drop. You soon find yourself almost alone. There are still people at the far end of the hall, but they are facing away from you. You won't get a better chance than this. Steeling yourself, you emerge from beneath the bed and run toward the towels.",
+    "translation": "",
+    "pos": 85
+  },
+  {
+    "passage": "Hospital Exhibition",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "561_5_3_7|",
+    "original": "You've barely left the safety of the bed when doors on both sides of the hall open simultaneously. In an instant, the vacant room becomes packed with bodies. They immediately see you, and react in a diverse manner. Some look offended while others laugh, still others stare at you with depravity in their eyes. There's nowhere to hide; you can do nothing but crouch to preserve what little dignity you can. Not seeing any other option, you continue the original plan. You manage to cover yourself before people start filming the event with their phones. Blushing and light-headed, you flee the scene.",
+    "translation": "",
+    "pos": 423
+  },
+  {
+    "passage": "Hospital Exhibition",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "565_5_3_7|",
+    "original": "<<link [[Next|Hospital Foyer]]>><<endevent>><<towelup>><</link>>",
+    "translation": "",
+    "pos": 1111
+  },
+  {
+    "passage": "Hospital Exhibition",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "568_5_3_7|",
+    "original": "You make it the cart without incident. Crouching beside it, you help yourself to the towels, eyes affixed on a nearby door. You still feel exposed, but at least now you're covered. You should find something more suitable as soon as you can, before you attract unwanted attention.",
+    "translation": "",
+    "pos": 1195
+  },
+  {
+    "passage": "Hospital Exhibition",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "571_5_3_7|",
+    "original": "<<link [[Next|Hospital Foyer]]>><<endevent>><<towelup>><</link>>",
+    "translation": "",
+    "pos": 1489
+  },
+  {
+    "passage": "Hospital Exhibition",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "576_5_3_7|",
+    "original": "You slowly inch the bed forward. Slow enough, you hope, that no one will even notice. Peeking from beneath the bed, you see the towels drawing closer.",
+    "translation": "",
+    "pos": 1595
+  },
+  {
+    "passage": "Hospital Exhibition",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "579_5_3_7|",
+    "original": "You're almost there when the bed lurches into movement. You cling to the underside as you are pushed further and further away from the towels, through a set of doors, then another, and then down a ramp.",
+    "translation": "",
+    "pos": 1784
+  },
+  {
+    "passage": "Hospital Exhibition",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "582_5_3_7|",
+    "original": "You hear a metallic creaking, then you and the bed are shoved down a steep ramp. A short distance later you plunge into rushing water.",
+    "translation": "",
+    "pos": 2001
+  },
+  {
+    "passage": "Hospital Exhibition",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "585_5_3_7|",
+    "original": "<<link [[Next|Drain Water]]>><<endevent>><<set $bus to \"commercialdrain\">><</link>>",
+    "translation": "",
+    "pos": 2150
+  },
+  {
+    "passage": "Hospital Exhibition",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "587_5_3_7|",
+    "original": "When you are within arm's reach, you stretch out and manage to acquire a handful of towels. You awkwardly cover yourself while remaining under the bed. You still feel exposed, but at least now you're covered. You should find something more suitable as soon as you can, before you attract unwanted attention.",
+    "translation": "",
+    "pos": 2246
+  },
+  {
+    "passage": "Hospital Exhibition",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "590_5_3_7|",
+    "original": "<<link [[Next|Hospital Foyer]]>><<endevent>><<towelup>><</link>>",
+    "translation": "",
+    "pos": 2568
+  },
+  {
+    "passage": "Hospital Rent",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "600_5_3_7|",
+    "original": "As you walk down an empty corridor a door beside you opens and a pair of arms drag you through. <span class=\"red\">It's Bailey.</span>",
+    "translation": "",
+    "pos": 93
+  },
+  {
+    "passage": "Hospital Rent",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "601_5_3_7|",
+    "original": "The heavy doors slam shut. You're at the top of a staircase leading down into darkness.",
+    "translation": "",
+    "pos": 227
+  },
+  {
+    "passage": "Rent Hospital Fight",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "617_5_3_7|",
+    "original": "\"You think I won't beat it out of you?\" Bailey says.",
+    "translation": "",
+    "pos": 128
+  },
+  {
+    "passage": "Rent Hospital Fight",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "629_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Rent Hospital Fight Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 335
+  },
+  {
+    "passage": "Rent Hospital Fight",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "631_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Rent Hospital Fight]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 434
+  },
+  {
+    "passage": "Rent Hospital Fight Robin",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "654_5_3_7|",
+    "original": "\"Keep the other one under control, one of you,\" Bailey says.",
+    "translation": "",
+    "pos": 415
+  },
+  {
+    "passage": "Rent Hospital Fight Robin",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "655_5_3_7|",
+    "original": "The <<personselect $enemynomax>><<person>> nods and grabs at Robin, while Bailey returns <<person1>><<his>> gaze to you.",
+    "translation": "",
+    "pos": 477
+  },
+  {
+    "passage": "Rent Hospital Fight Robin",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "677_5_3_7|",
+    "original": "<span class=\"green\">",
+    "translation": "",
+    "pos": 932
+  },
+  {
+    "passage": "Rent Hospital Fight Robin",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "679_5_3_7|",
+    "original": "Robin struggles in <<nnpc_his \"Robin\">> restraints.",
+    "translation": "",
+    "pos": 975
+  },
+  {
+    "passage": "Rent Hospital Fight Robin",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "681_5_3_7|",
+    "original": "Robin tells you not to give up.",
+    "translation": "",
+    "pos": 1053
+  },
+  {
+    "passage": "Rent Hospital Fight Robin",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "683_5_3_7|",
+    "original": "Robin is kicking at the <<person>>'s heels.",
+    "translation": "",
+    "pos": 1111
+  },
+  {
+    "passage": "Rent Hospital Fight Robin",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "685_5_3_7|",
+    "original": "Robin tells you not to worry about <<nnpc_him \"Robin\">>.",
+    "translation": "",
+    "pos": 1181
+  },
+  {
+    "passage": "Rent Hospital Fight Robin",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "687_5_3_7|",
+    "original": "Robin bites the <<person>>'s hand holding <<nnpc_him \"Robin\">>.",
+    "translation": "",
+    "pos": 1250
+  },
+  {
+    "passage": "Rent Hospital Fight Robin",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "690_5_3_7|",
+    "original": "The <<person>> manages to wrap <<his>> arm around Robin's throat. <span class=\"red\">Robin cries out in pain.</span>",
+    "translation": "",
+    "pos": 1354
+  },
+  {
+    "passage": "Rent Hospital Fight Robin",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "692_5_3_7|",
+    "original": "<span class=\"red\">",
+    "translation": "",
+    "pos": 1480
+  },
+  {
+    "passage": "Rent Hospital Fight Robin",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "694_5_3_7|",
+    "original": "The <<person>> has Robin in a stranglehold.",
+    "translation": "",
+    "pos": 1521
+  },
+  {
+    "passage": "Rent Hospital Fight Robin",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "696_5_3_7|",
+    "original": "You can hear Robin choking.",
+    "translation": "",
+    "pos": 1591
+  },
+  {
+    "passage": "Rent Hospital Fight Robin",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "698_5_3_7|",
+    "original": "The <<person>> spits at Robin's eye while strangling <<nnpc_him \"Robin\">>.",
+    "translation": "",
+    "pos": 1645
+  },
+  {
+    "passage": "Rent Hospital Fight Robin",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "700_5_3_7|",
+    "original": "Robin tries to surrender, but the <<person>> doesn't lighten up.",
+    "translation": "",
+    "pos": 1746
+  },
+  {
+    "passage": "Rent Hospital Fight Robin",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "702_5_3_7|",
+    "original": "The <<person>> punches Robin while choking <<nnpc_him \"Robin\">>.",
+    "translation": "",
+    "pos": 1823
+  },
+  {
+    "passage": "Rent Hospital Fight Robin",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "713_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Rent Hospital Robin Fight Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 2068
+  },
+  {
+    "passage": "Rent Hospital Fight Robin",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "715_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Rent Hospital Fight Robin]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 2173
+  },
+  {
+    "passage": "Rent Hospital Fight Finish",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "724_5_3_7|",
+    "original": "<<He>> grips the bannister as the orgasm wracks <<his>> body. It's all the chance you need to escape back into the hospital proper. That won't be the last of it, but for now you're in the clear.",
+    "translation": "",
+    "pos": 184
+  },
+  {
+    "passage": "Rent Hospital Fight Finish",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "732_5_3_7|",
+    "original": "<<link [[Next|Hospital Arrest]]>><<pass 10>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 509
+  },
+  {
+    "passage": "Rent Hospital Fight Finish",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "735_5_3_7|",
+    "original": "<<link [[Next|Hospital front]]>><<pass 10>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 594
+  },
+  {
+    "passage": "Rent Hospital Fight Finish",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "741_5_3_7|",
+    "original": "<<He>> trips and tumbles down the stairs, shouting profanities as <<he>> falls. You waste no time and escape back into the hospital proper. That won't be the last of it, but for now you're in the clear.",
+    "translation": "",
+    "pos": 770
+  },
+  {
+    "passage": "Rent Hospital Fight Finish",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "749_5_3_7|",
+    "original": "<<link [[Next|Hospital Arrest]]>><<pass 10>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1103
+  },
+  {
+    "passage": "Rent Hospital Fight Finish",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "752_5_3_7|",
+    "original": "<<link [[Next|Hospital front]]>><<pass 10>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1188
+  },
+  {
+    "passage": "Rent Hospital Fight Finish",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "760_5_3_7|",
+    "original": "You fall to the ground, too hurt to move.",
+    "translation": "",
+    "pos": 1377
+  },
+  {
+    "passage": "Rent Hospital Fight Finish",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "770_5_3_7|",
+    "original": "<<link [[Next|Rent Intro]]>><</link>>",
+    "translation": "",
+    "pos": 1554
+  },
+  {
+    "passage": "Rent Hospital Robin Fight Finish",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "779_5_3_7|",
+    "original": "<<He>> grips the bannister as the orgasm wracks <<his>> body. It's all the chance you need to grab Robin and escape back into the hospital proper.",
+    "translation": "",
+    "pos": 184
+  },
+  {
+    "passage": "Rent Hospital Robin Fight Finish",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "780_5_3_7|",
+    "original": "That won't be the last of it, but for now you're in the clear.",
+    "translation": "",
+    "pos": 332
+  },
+  {
+    "passage": "Rent Hospital Robin Fight Finish",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "789_5_3_7|",
+    "original": "<<link [[Next|Hospital Arrest]]>><<pass 10>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 560
+  },
+  {
+    "passage": "Rent Hospital Robin Fight Finish",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "792_5_3_7|",
+    "original": "<<link [[Next|Hospital front]]>><<pass 10>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 645
+  },
+  {
+    "passage": "Rent Hospital Robin Fight Finish",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "798_5_3_7|",
+    "original": "<<He>> trips and tumbles down the stairs, shouting profanities as <<he>> falls. You waste no time grabbing Robin and escaping back into the hospital proper.",
+    "translation": "",
+    "pos": 821
+  },
+  {
+    "passage": "Rent Hospital Robin Fight Finish",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "799_5_3_7|",
+    "original": "That won't be the last of it, but for now you're in the clear.",
+    "translation": "",
+    "pos": 979
+  },
+  {
+    "passage": "Rent Hospital Robin Fight Finish",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "808_5_3_7|",
+    "original": "<<link [[Next|Hospital Arrest]]>><<pass 10>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1207
+  },
+  {
+    "passage": "Rent Hospital Robin Fight Finish",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "811_5_3_7|",
+    "original": "<<link [[Next|Hospital front]]>><<pass 10>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1292
+  },
+  {
+    "passage": "Rent Hospital Robin Fight Finish",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "819_5_3_7|",
+    "original": "You fall to the ground, too hurt to move.",
+    "translation": "",
+    "pos": 1481
+  },
+  {
+    "passage": "Rent Hospital Robin Fight Finish",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "820_5_3_7|",
+    "original": "You hear Robin struggling until Bailey hits <<nnpc_him \"Robin\">> hard on the head and <<nnpc_he \"Robin\">> falls to the ground as well.",
+    "translation": "",
+    "pos": 1524
+  },
+  {
+    "passage": "Rent Hospital Robin Fight Finish",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "830_5_3_7|",
+    "original": "<<link [[Next|Rent Intro]]>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 1794
+  },
+  {
+    "passage": "Hospital Journey Home",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "839_5_3_7|",
+    "original": "<<npc Bailey>><<person1>>Bailey waits for you beside <<his>> car. \"This is the last time I'm picking you up like this. I've already wasted enough time.\" The journey home is uneventful.",
+    "translation": "",
+    "pos": 126
+  },
+  {
+    "passage": "Hospital Journey Home",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "844_5_3_7|",
+    "original": "<<npc Bailey>><<person1>>Bailey waits for you beside <<his>> car. \"You need to be more careful. Next time you might not be so lucky.\" The journey home is uneventful.",
+    "translation": "",
+    "pos": 386
+  },
+  {
+    "passage": "Hospital Journey Home",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "849_5_3_7|",
+    "original": "<<npc Bailey>><<person1>>Bailey waits for you beside <<his>> car. \"I'm glad you're alright,\" <<he>> says. \"You wouldn't believe the paperwork involved when one of you idiots goes missing. Get in.\" The journey home is uneventful.",
+    "translation": "",
+    "pos": 603
+  },
+  {
+    "passage": "Hospital Journey Home",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "853_5_3_7|",
+    "original": "<<link [[Next (0:10)|Orphanage]]>><<endevent>><<pass 10>><</link>>",
+    "translation": "",
+    "pos": 851
+  },
+  {
+    "passage": "Hospital Wait",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "869_5_3_7|",
+    "original": "The nurse lets you stay in the waiting room until the sun rises.",
+    "translation": "",
+    "pos": 360
+  },
+  {
+    "passage": "Hospital Wait",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "873_5_3_7|",
+    "original": "<<link [[Next|Hospital Rent]]>><<pass 10>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 459
+  },
+  {
+    "passage": "Hospital Wait",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "876_5_3_7|",
+    "original": "<<link [[Next|Hospital Arrest]]>><<pass 10>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 568
+  },
+  {
+    "passage": "Hospital Wait",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "879_5_3_7|",
+    "original": "<<link [[Next|Hospital Journey Home]]>><<pass 10>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 674
+  },
+  {
+    "passage": "Hospital Wait",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "882_5_3_7|",
+    "original": "<<link [[Next|Hospital front]]>><<pass 10>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 762
+  },
+  {
+    "passage": "Hospital Paternity Test",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "890_5_3_7|",
+    "original": "The receptionist taps something into <<his>> computer and instructs you to take a seat in the waiting room.",
+    "translation": "",
+    "pos": 90
+  },
+  {
+    "passage": "Hospital Paternity Test",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "896_5_3_7|",
+    "original": "\"This is a very simple procedure. I'd just need a DNA sample from you and the possible father. It would take a while though,\" <<he>> says.",
+    "translation": "",
+    "pos": 239
+  },
+  {
+    "passage": "Hospital Paternity Test",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "899_5_3_7|",
+    "original": "\"It costs <<printmoney 500000>>.\"",
+    "translation": "",
+    "pos": 388
+  },
+  {
+    "passage": "Hospital Paternity Test",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "907_5_3_7|",
+    "original": "<<link [[Test for Alex (1:00)|Hospital Paternity Test 2]]>><<money -500000 \"hospitalPaternityTest\">><<set $paternityTestNPC to \"Alex\">><</link>>",
+    "translation": "",
+    "pos": 534
+  },
+  {
+    "passage": "Hospital Paternity Test",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "913_5_3_7|",
+    "original": "<span class=\"blue\">You can't afford it.</span>",
+    "translation": "",
+    "pos": 707
+  },
+  {
+    "passage": "Hospital Paternity Test",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "918_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Hospital Foyer]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 770
+  },
+  {
+    "passage": "Hospital Paternity Test 2",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "929_5_3_7|",
+    "original": "Harper accepts the payment and Alex strand hair. \"Please undress,\" <<he>> says as <<he>> stands to leave the room.",
+    "translation": "",
+    "pos": 136
+  },
+  {
+    "passage": "Hospital Paternity Test 2",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "932_5_3_7|",
+    "original": "You remove your clothing and stand waiting, feeling more than a little exposed.",
+    "translation": "",
+    "pos": 257
+  },
+  {
+    "passage": "Hospital Paternity Test 2",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "933_5_3_7|",
+    "original": "<<if playerChastity()>>You can't remove your $worn.genitals.name, you hope it won't be a problem.<</if>>",
+    "translation": "",
+    "pos": 337
+  },
+  {
+    "passage": "Hospital Paternity Test 2",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "934_5_3_7|",
+    "original": "<<He>> soon returns, carrying a medical gown.",
+    "translation": "",
+    "pos": 442
+  },
+  {
+    "passage": "Hospital Paternity Test 2",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "937_5_3_7|",
+    "original": "\"Wear this,\" <<he>> instructs. You put the gown on. \"Right, if you'd like to come with me, it's just a short walk away.\"",
+    "translation": "",
+    "pos": 498
+  },
+  {
+    "passage": "Hospital Paternity Test 2",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "940_5_3_7|",
+    "original": "<<He>> leads you to another room, containing a small bed. \"Please lie down. I'll put you under then move you to the theatre.\"",
+    "translation": "",
+    "pos": 629
+  },
+  {
+    "passage": "Hospital Paternity Test 2",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "943_5_3_7|",
+    "original": "You lie down. <<He>> presses a mask against your face, and you feel your consciousness start to slip. <<He>> pulls a camera from <<his>> pocket as you pass out.",
+    "translation": "",
+    "pos": 765
+  },
+  {
+    "passage": "Hospital Paternity Test 2",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "948_5_3_7|",
+    "original": "<<link [[Next|Hospital Paternity Test Done]]>><</link>>",
+    "translation": "",
+    "pos": 968
+  },
+  {
+    "passage": "Hospital Paternity Test Done",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "955_5_3_7|",
+    "original": "You awaken in the same room you passed out in. You don't feel any different.",
+    "translation": "",
+    "pos": 164
+  },
+  {
+    "passage": "Hospital Paternity Test Done",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "958_5_3_7|",
+    "original": "Harper enters the room. \"The test was a success,\" <<he>> says as <<he>> hands you the results.",
+    "translation": "",
+    "pos": 251
+  },
+  {
+    "passage": "Hospital Paternity Test Done",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "961_5_3_7|",
+    "original": "You look at the slip of paper. You are the mother,",
+    "translation": "",
+    "pos": 356
+  },
+  {
+    "passage": "Hospital Paternity Test Done",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "969_5_3_7|",
+    "original": "<span class=\"lewd\">and Alex is the father.</span>",
+    "translation": "",
+    "pos": 663
+  },
+  {
+    "passage": "Hospital Paternity Test Done",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "972_5_3_7|",
+    "original": "<<set _pregnancy.potentialFathers to _pregnancy.potentialFathers.filter(father => father.source isnot $paternityTestNPC)>>",
+    "translation": "",
+    "pos": 726
+  },
+  {
+    "passage": "Hospital Paternity Test Done",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "973_5_3_7|",
+    "original": "<span class=\"red\">but Alex is not the father</span>.",
+    "translation": "",
+    "pos": 851
+  },
+  {
+    "passage": "Hospital Paternity Test Done",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "979_5_3_7|",
+    "original": "The rest of the document is incomprehensible to you.",
+    "translation": "",
+    "pos": 924
+  },
+  {
+    "passage": "Hospital Paternity Test Done",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "982_5_3_7|",
+    "original": "<<He>> checks <<his>> clipboard. \"You can leave straight away. Be well.\" <<He>> leaves you to dress.",
+    "translation": "",
+    "pos": 987
+  },
+  {
+    "passage": "Hospital Paternity Test Done",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "987_5_3_7|",
+    "original": "<<link [[Next|Hospital Foyer]]>><<clotheson>><<unset $paternityTestNPC>><</link>>",
+    "translation": "",
+    "pos": 1112
+  },
+  {
+    "passage": "Hospital Breast Reduction",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "995_5_3_7|",
+    "original": "The receptionist taps something into <<his>> computer and instructs you to take a seat in the waiting room.",
+    "translation": "",
+    "pos": 90
+  },
+  {
+    "passage": "Hospital Breast Reduction",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1001_5_3_7|",
+    "original": "\"This is a very simple procedure.\" <<He>> pulls a chart of breast sizes from <<his>> desk. \"You're about here.\" <<He>> points at a picture labelled <span class=\"lewd\">",
+    "translation": "",
+    "pos": 239
+  },
+  {
+    "passage": "Hospital Breast Reduction",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1003_5_3_7|",
+    "original": "\"flat\".",
+    "translation": "",
+    "pos": 441
+  },
+  {
+    "passage": "Hospital Breast Reduction",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1005_5_3_7|",
+    "original": "\"<<breasts>>.\"",
+    "translation": "",
+    "pos": 461
+  },
+  {
+    "passage": "Hospital Breast Reduction",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1010_5_3_7|",
+    "original": "\"It costs £2000 to decrease your breasts by a single size, and a further £2000 for each size beyond that.\"",
+    "translation": "",
+    "pos": 503
+  },
+  {
+    "passage": "Hospital Breast Reduction",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1015_5_3_7|",
+    "original": "<<procedureicon \"breast reduce\">><<link [[Make your breasts gigantic|Hospital Breast Reduction 2]]>><<set $phase to 11>><</link>> | <<printmoney _breast12>> <!-- Appears even with blind stats enabled. All are intentional -->",
+    "translation": "",
+    "pos": 723
+  },
+  {
+    "passage": "Hospital Breast Reduction",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1020_5_3_7|",
+    "original": "<<procedureicon \"breast reduce\">><<link [[Make your breasts huge|Hospital Breast Reduction 2]]>><<set $phase to 10>><</link>> | <<printmoney _breast11>>",
+    "translation": "",
+    "pos": 1065
+  },
+  {
+    "passage": "Hospital Breast Reduction",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1025_5_3_7|",
+    "original": "<<procedureicon \"breast reduce\">><<link [[Make your breasts massive|Hospital Breast Reduction 2]]>><<set $phase to 9>><</link>> | <<printmoney _breast10>>",
+    "translation": "",
+    "pos": 1334
+  },
+  {
+    "passage": "Hospital Breast Reduction",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1030_5_3_7|",
+    "original": "<<procedureicon \"breast reduce\">><<link [[Make your breasts ample|Hospital Breast Reduction 2]]>><<set $phase to 8>><</link>> | <<printmoney _breast9>>",
+    "translation": "",
+    "pos": 1603
+  },
+  {
+    "passage": "Hospital Breast Reduction",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1035_5_3_7|",
+    "original": "<<procedureicon \"breast reduce\">><<link [[Make your breasts large|Hospital Breast Reduction 2]]>><<set $phase to 7>><</link>> | <<printmoney _breast8>>",
+    "translation": "",
+    "pos": 1869
+  },
+  {
+    "passage": "Hospital Breast Reduction",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1040_5_3_7|",
+    "original": "<<procedureicon \"breast reduce\">><<link [[Make your breasts full|Hospital Breast Reduction 2]]>><<set $phase to 6>><</link>> | <<printmoney _breast7>>",
+    "translation": "",
+    "pos": 2135
+  },
+  {
+    "passage": "Hospital Breast Reduction",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1045_5_3_7|",
+    "original": "<<procedureicon \"breast reduce\">><<link [[Make your breasts modest|Hospital Breast Reduction 2]]>><<set $phase to 5>><</link>> | <<printmoney _breast6>>",
+    "translation": "",
+    "pos": 2400
+  },
+  {
+    "passage": "Hospital Breast Reduction",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1050_5_3_7|",
+    "original": "<<procedureicon \"breast reduce\">><<link [[Make your breasts pert|Hospital Breast Reduction 2]]>><<set $phase to 4>><</link>> | <<printmoney _breast5>>",
+    "translation": "",
+    "pos": 2667
+  },
+  {
+    "passage": "Hospital Breast Reduction",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1055_5_3_7|",
+    "original": "<<procedureicon \"breast reduce\">><<link [[Make your breasts small|Hospital Breast Reduction 2]]>><<set $phase to 3>><</link>> | <<printmoney _breast4>>",
+    "translation": "",
+    "pos": 2932
+  },
+  {
+    "passage": "Hospital Breast Reduction",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1060_5_3_7|",
+    "original": "<<procedureicon \"breast reduce\">><<link [[Make your breasts tiny|Hospital Breast Reduction 2]]>><<set $phase to 2>><</link>> | <<printmoney _breast3>>",
+    "translation": "",
+    "pos": 3198
+  },
+  {
+    "passage": "Hospital Breast Reduction",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1065_5_3_7|",
+    "original": "<<procedureicon \"breast reduce\">><<link [[Make your breasts budding|Hospital Breast Reduction 2]]>><<set $phase to 1>><</link>> | <<printmoney _breast2>>",
+    "translation": "",
+    "pos": 3463
+  },
+  {
+    "passage": "Hospital Breast Reduction",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1070_5_3_7|",
+    "original": "<<procedureicon \"breast reduce\">><<link [[Make your breasts flat|Hospital Breast Reduction 2]]>><<set $phase to 0>><</link>> | <<printmoney _breast1>>",
+    "translation": "",
+    "pos": 3731
+  },
+  {
+    "passage": "Hospital Breast Reduction",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1075_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Hospital Foyer]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 3902
+  },
+  {
+    "passage": "Hospital Breast Reduction 2",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1081_5_3_7|",
+    "original": "\"This will cost <span class=\"gold\">£<<print (($player.breastsize - $phase) * 2000)>></span>,\" <<he>> says. \"And take four hours.\"",
+    "translation": "",
+    "pos": 65
+  },
+  {
+    "passage": "Hospital Breast Reduction 2",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1085_5_3_7|",
+    "original": "<<ind>><<link [[Accept (4:00)|Hospital Breast Reduction 3]]>><<pass 4 hours>><</link>>",
+    "translation": "",
+    "pos": 265
+  },
+  {
+    "passage": "Hospital Breast Reduction 2",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1088_5_3_7|",
+    "original": "You can't afford it.",
+    "translation": "",
+    "pos": 368
+  },
+  {
+    "passage": "Hospital Breast Reduction 2",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1092_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Hospital Foyer]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 408
+  },
+  {
+    "passage": "Hospital Breast Reduction 3",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1105_5_3_7|",
+    "original": "Harper accepts the payment. \"Please undress,\" <<he>> says as <<he>> stands to leave the room.",
+    "translation": "",
+    "pos": 250
+  },
+  {
+    "passage": "Hospital Breast Reduction 3",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1106_5_3_7|",
+    "original": "You remove your clothing and stand waiting, feeling more than a little exposed.",
+    "translation": "",
+    "pos": 344
+  },
+  {
+    "passage": "Hospital Breast Reduction 3",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1107_5_3_7|",
+    "original": "<<if playerChastity()>>You can't remove your $worn.genitals.name, you hope it won't be a problem.<</if>>",
+    "translation": "",
+    "pos": 424
+  },
+  {
+    "passage": "Hospital Breast Reduction 3",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1108_5_3_7|",
+    "original": "<<He>> soon returns, carrying a medical gown.",
+    "translation": "",
+    "pos": 529
+  },
+  {
+    "passage": "Hospital Breast Reduction 3",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1111_5_3_7|",
+    "original": "\"Wear this,\" <<he>> instructs. You put the gown on. \"Right, if you'd like to come with me, it's just a short walk away.\"",
+    "translation": "",
+    "pos": 585
+  },
+  {
+    "passage": "Hospital Breast Reduction 3",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1114_5_3_7|",
+    "original": "<<He>> leads you to another room, containing a small bed. \"Please lie down. I'll put you under then move you to the theatre.\" You lie down.",
+    "translation": "",
+    "pos": 716
+  },
+  {
+    "passage": "Hospital Breast Reduction 3",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1115_5_3_7|",
+    "original": "<<He>> presses a mask against your face, and you feel your consciousness start to slip. <<He>> pulls a camera from <<his>> pocket as you pass out.",
+    "translation": "",
+    "pos": 856
+  },
+  {
+    "passage": "Hospital Breast Reduction 3",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1120_5_3_7|",
+    "original": "<<link [[Next|Hospital Breast Done]]>><</link>>",
+    "translation": "",
+    "pos": 1045
+  },
+  {
+    "passage": "Hospital Breast Done",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1129_5_3_7|",
+    "original": "You awaken in the same room you passed out in. You don't feel any different, until you look down and see your <<breasts>>. Harper enters the room.",
+    "translation": "",
+    "pos": 148
+  },
+  {
+    "passage": "Hospital Breast Done",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1132_5_3_7|",
+    "original": "\"The operation was a success,\" <<he>> says. <<He>> looks at your chest.",
+    "translation": "",
+    "pos": 305
+  },
+  {
+    "passage": "Hospital Breast Done",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1135_5_3_7|",
+    "original": "\"I hope those things don't give you back problems.\"",
+    "translation": "",
+    "pos": 412
+  },
+  {
+    "passage": "Hospital Breast Done",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1138_5_3_7|",
+    "original": "\"You'll get a lot of attention with those.\"",
+    "translation": "",
+    "pos": 562
+  },
+  {
+    "passage": "Hospital Breast Done",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1141_5_3_7|",
+    "original": "\"That's a good size.\"",
+    "translation": "",
+    "pos": 704
+  },
+  {
+    "passage": "Hospital Breast Done",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1144_5_3_7|",
+    "original": "\"You look good with those.\"",
+    "translation": "",
+    "pos": 828
+  },
+  {
+    "passage": "Hospital Breast Done",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1147_5_3_7|",
+    "original": "\"You look cute with those.\"",
+    "translation": "",
+    "pos": 958
+  },
+  {
+    "passage": "Hospital Breast Done",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1150_5_3_7|",
+    "original": "\"Your chest looks cute.\"",
+    "translation": "",
+    "pos": 1087
+  },
+  {
+    "passage": "Hospital Breast Done",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1155_5_3_7|",
+    "original": "<<He>> checks <<his>> clipboard. \"You can leave straight away. Be well.\" <<He>> leaves you to dress.",
+    "translation": "",
+    "pos": 1195
+  },
+  {
+    "passage": "Hospital Breast Done",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1160_5_3_7|",
+    "original": "<<link [[Next|Hospital Foyer]]>><<clotheson>><</link>>",
+    "translation": "",
+    "pos": 1320
+  },
+  {
+    "passage": "Hospital Breast Enlargement",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1167_5_3_7|",
+    "original": "The receptionist taps something into <<his>> computer and instructs you to take a seat in the waiting room.",
+    "translation": "",
+    "pos": 90
+  },
+  {
+    "passage": "Hospital Breast Enlargement",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1173_5_3_7|",
+    "original": "\"This is a simple procedure.\" <<He>> pulls a chart of breast sizes from <<his>> desk. \"You're about here.\" <<He>> points at a picture labelled <span class=\"lewd\">",
+    "translation": "",
+    "pos": 239
+  },
+  {
+    "passage": "Hospital Breast Enlargement",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1175_5_3_7|",
+    "original": "\"flat\".",
+    "translation": "",
+    "pos": 434
+  },
+  {
+    "passage": "Hospital Breast Enlargement",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1177_5_3_7|",
+    "original": "\"<<breasts>>.\"",
+    "translation": "",
+    "pos": 452
+  },
+  {
+    "passage": "Hospital Breast Enlargement",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1182_5_3_7|",
+    "original": "\"It costs £5000 to increase your breasts by a single size, and a further £5000 for each size beyond that.\"",
+    "translation": "",
+    "pos": 493
+  },
+  {
+    "passage": "Hospital Breast Enlargement",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1187_5_3_7|",
+    "original": "<<procedureicon \"breast enlarge\">><<link [[Make your breasts enormous|Hospital Breast Enlargement 2]]>><<set $phase to 12>><</link>> | <<printmoney _breast12>>",
+    "translation": "",
+    "pos": 712
+  },
+  {
+    "passage": "Hospital Breast Enlargement",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1192_5_3_7|",
+    "original": "<<procedureicon \"breast enlarge\">><<link [[Make your breasts gigantic|Hospital Breast Enlargement 2]]>><<set $phase to 11>><</link>> | <<printmoney _breast11>>",
+    "translation": "",
+    "pos": 988
+  },
+  {
+    "passage": "Hospital Breast Enlargement",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1197_5_3_7|",
+    "original": "<<procedureicon \"breast enlarge\">><<link [[Make your breasts huge|Hospital Breast Enlargement 2]]>><<set $phase to 10>><</link>> | <<printmoney _breast10>>",
+    "translation": "",
+    "pos": 1264
+  },
+  {
+    "passage": "Hospital Breast Enlargement",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1202_5_3_7|",
+    "original": "<<procedureicon \"breast enlarge\">><<link [[Make your breasts massive|Hospital Breast Enlargement 2]]>><<set $phase to 9>><</link>> | <<printmoney _breast9>>",
+    "translation": "",
+    "pos": 1533
+  },
+  {
+    "passage": "Hospital Breast Enlargement",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1207_5_3_7|",
+    "original": "<<procedureicon \"breast enlarge\">><<link [[Make your breasts ample|Hospital Breast Enlargement 2]]>><<set $phase to 8>><</link>> | <<printmoney _breast8>>",
+    "translation": "",
+    "pos": 1803
+  },
+  {
+    "passage": "Hospital Breast Enlargement",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1212_5_3_7|",
+    "original": "<<procedureicon \"breast enlarge\">><<link [[Make your breasts large|Hospital Breast Enlargement 2]]>><<set $phase to 7>><</link>> | <<printmoney _breast7>>",
+    "translation": "",
+    "pos": 2071
+  },
+  {
+    "passage": "Hospital Breast Enlargement",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1217_5_3_7|",
+    "original": "<<procedureicon \"breast enlarge\">><<link [[Make your breasts full|Hospital Breast Enlargement 2]]>><<set $phase to 6>><</link>> | <<printmoney _breast6>>",
+    "translation": "",
+    "pos": 2339
+  },
+  {
+    "passage": "Hospital Breast Enlargement",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1222_5_3_7|",
+    "original": "<<procedureicon \"breast enlarge\">><<link [[Make your breasts modest|Hospital Breast Enlargement 2]]>><<set $phase to 5>><</link>> | <<printmoney _breast5>>",
+    "translation": "",
+    "pos": 2606
+  },
+  {
+    "passage": "Hospital Breast Enlargement",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1227_5_3_7|",
+    "original": "<<procedureicon \"breast enlarge\">><<link [[Make your breasts pert|Hospital Breast Enlargement 2]]>><<set $phase to 4>><</link>> | <<printmoney _breast4>>",
+    "translation": "",
+    "pos": 2875
+  },
+  {
+    "passage": "Hospital Breast Enlargement",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1232_5_3_7|",
+    "original": "<<procedureicon \"breast enlarge\">><<link [[Make your breasts small|Hospital Breast Enlargement 2]]>><<set $phase to 3>><</link>> | <<printmoney _breast3>>",
+    "translation": "",
+    "pos": 3142
+  },
+  {
+    "passage": "Hospital Breast Enlargement",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1237_5_3_7|",
+    "original": "<<procedureicon \"breast enlarge\">><<link [[Make your breasts tiny|Hospital Breast Enlargement 2]]>><<set $phase to 2>><</link>> | <<printmoney _breast2>>",
+    "translation": "",
+    "pos": 3410
+  },
+  {
+    "passage": "Hospital Breast Enlargement",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1242_5_3_7|",
+    "original": "<<procedureicon \"breast enlarge\">><<link [[Make your breasts budding|Hospital Breast Enlargement 2]]>><<set $phase to 1>><</link>> | <<printmoney _breast1>>",
+    "translation": "",
+    "pos": 3677
+  },
+  {
+    "passage": "Hospital Breast Enlargement",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1247_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Hospital Foyer]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 3854
+  },
+  {
+    "passage": "Hospital Breast Enlargement 2",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1253_5_3_7|",
+    "original": "\"This will cost <span class=\"gold\">£<<print (($phase - $player.breastsize) * 5000)>></span>,\" <<he>> says. \"And take four hours.\"",
+    "translation": "",
+    "pos": 65
+  },
+  {
+    "passage": "Hospital Breast Enlargement 2",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1257_5_3_7|",
+    "original": "<<ind>><<link [[Accept (4:00)|Hospital Breast Enlargement 3]]>><<pass 4 hours>><</link>>",
+    "translation": "",
+    "pos": 265
+  },
+  {
+    "passage": "Hospital Breast Enlargement 2",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1260_5_3_7|",
+    "original": "You can't afford it.",
+    "translation": "",
+    "pos": 370
+  },
+  {
+    "passage": "Hospital Breast Enlargement 2",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1264_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Hospital Foyer]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 410
+  },
+  {
+    "passage": "Hospital Breast Enlargement 3",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1277_5_3_7|",
+    "original": "Harper accepts the payment. \"Please undress,\" <<he>> says as <<he>> stands to leave the room.",
+    "translation": "",
+    "pos": 252
+  },
+  {
+    "passage": "Hospital Breast Enlargement 3",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1278_5_3_7|",
+    "original": "You remove your clothing and stand waiting, feeling more than a little exposed.",
+    "translation": "",
+    "pos": 346
+  },
+  {
+    "passage": "Hospital Breast Enlargement 3",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1279_5_3_7|",
+    "original": "<<if playerChastity()>>You can't remove your $worn.genitals.name, you hope it won't be a problem.<</if>>",
+    "translation": "",
+    "pos": 426
+  },
+  {
+    "passage": "Hospital Breast Enlargement 3",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1280_5_3_7|",
+    "original": "<<He>> soon returns, carrying a medical gown.",
+    "translation": "",
+    "pos": 531
+  },
+  {
+    "passage": "Hospital Breast Enlargement 3",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1283_5_3_7|",
+    "original": "\"Wear this,\" <<he>> instructs. You put the gown on. \"Right, if you'd like to come with me, it's just a short walk away.\"",
+    "translation": "",
+    "pos": 587
+  },
+  {
+    "passage": "Hospital Breast Enlargement 3",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1286_5_3_7|",
+    "original": "<<He>> leads you to another room, containing a small bed. \"Please lie down. I'll put you under then move you to the theatre.\" You lie down.",
+    "translation": "",
+    "pos": 718
+  },
+  {
+    "passage": "Hospital Breast Enlargement 3",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1287_5_3_7|",
+    "original": "<<He>> presses a mask against your face, and you feel your consciousness start to slip. <<He>> pulls a camera from <<his>> pocket as you pass out.",
+    "translation": "",
+    "pos": 858
+  },
+  {
+    "passage": "Hospital Breast Enlargement 3",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1292_5_3_7|",
+    "original": "<<link [[Next|Hospital Breast Done]]>><</link>>",
+    "translation": "",
+    "pos": 1047
+  },
+  {
+    "passage": "Hospital Penis Reduction",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1299_5_3_7|",
+    "original": "The receptionist taps something into <<his>> computer and instructs you to take a seat in the waiting room.",
+    "translation": "",
+    "pos": 90
+  },
+  {
+    "passage": "Hospital Penis Reduction",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1305_5_3_7|",
+    "original": "\"This would normally be a simple procedure...\" <<He>> pulls a chart of penis sizes from <<his>> desk drawer. \"However, I can't actually tell how large you are.\"",
+    "translation": "",
+    "pos": 288
+  },
+  {
+    "passage": "Hospital Penis Reduction",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1308_5_3_7|",
+    "original": "After a closer examination, <<he>> continues, \"You should get that parasite on your penis removed first. I'm afraid we don't have the tools to work with such a small device.\"",
+    "translation": "",
+    "pos": 515
+  },
+  {
+    "passage": "Hospital Penis Reduction",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1310_5_3_7|",
+    "original": "After a closer examination, <<he>> continues, \"You should get that <<print $worn.genitals.name>> unlocked and removed. I'm afraid we don't have the tools to work with such a small device.\"",
+    "translation": "",
+    "pos": 702
+  },
+  {
+    "passage": "Hospital Penis Reduction",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1314_5_3_7|",
+    "original": "\"This would normally be a simple procedure...\" <<He>> pulls a chart of penis sizes from <<his>> desk. \"You're about here.\" <<He>> points at the bottom picture labelled <span class=\"lewd\">\"<<penissize>> penis.\"</span>",
+    "translation": "",
+    "pos": 942
+  },
+  {
+    "passage": "Hospital Penis Reduction",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1316_5_3_7|",
+    "original": "While taking a closer look, <<he>> continues, \"We are unable to adjust it further than this. You could head to our Pharmacy and buy some penis shrinking pills. I personally recommend taking two doses per day to start with, however, I'm not quite sure if that would have much of an effect on it.\"",
+    "translation": "",
+    "pos": 1170
+  },
+  {
+    "passage": "Hospital Penis Reduction",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1319_5_3_7|",
+    "original": "\"This is a very simple procedure.\" <<He>> pulls a chart of penis sizes from <<his>> desk. \"You're about here.\" <<He>> points at",
+    "translation": "",
+    "pos": 1482
+  },
+  {
+    "passage": "Hospital Penis Reduction",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1321_5_3_7|",
+    "original": "<<case 4>>the top",
+    "translation": "",
+    "pos": 1642
+  },
+  {
+    "passage": "Hospital Penis Reduction",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1322_5_3_7|",
+    "original": "<<case -1>>the bottom",
+    "translation": "",
+    "pos": 1662
+  },
+  {
+    "passage": "Hospital Penis Reduction",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1323_5_3_7|",
+    "original": "<<default>>a",
+    "translation": "",
+    "pos": 1686
+  },
+  {
+    "passage": "Hospital Penis Reduction",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1325_5_3_7|",
+    "original": "picture labelled <span class=\"lewd\">\"<<print ($player.penissize is 2 ? \"average\" : \"<<penissize>>\")>> penis.\"</span>",
+    "translation": "",
+    "pos": 1713
+  },
+  {
+    "passage": "Hospital Penis Reduction",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1328_5_3_7|",
+    "original": "\"It costs £2000 to decrease your penis by a single size, and a further £2000 for each size beyond that.\"",
+    "translation": "",
+    "pos": 1842
+  },
+  {
+    "passage": "Hospital Penis Reduction",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1333_5_3_7|",
+    "original": "<<procedureicon \"penis reduce\">><<link [[Make your penis large|Hospital Penis Reduction 2]]>><<set $phase to 3>><</link>> | <<printmoney _penis4>>",
+    "translation": "",
+    "pos": 2058
+  },
+  {
+    "passage": "Hospital Penis Reduction",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1338_5_3_7|",
+    "original": "<<procedureicon \"penis reduce\">><<link [[Make your penis average|Hospital Penis Reduction 2]]>><<set $phase to 2>><</link>> | <<printmoney _penis3>>",
+    "translation": "",
+    "pos": 2321
+  },
+  {
+    "passage": "Hospital Penis Reduction",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1343_5_3_7|",
+    "original": "<<procedureicon \"penis reduce\">><<link [[Make your penis small|Hospital Penis Reduction 2]]>><<set $phase to 1>><</link>> | <<printmoney _penis2>>",
+    "translation": "",
+    "pos": 2586
+  },
+  {
+    "passage": "Hospital Penis Reduction",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1348_5_3_7|",
+    "original": "<<procedureicon \"penis reduce\">><<link [[Make your penis tiny|Hospital Penis Reduction 2]]>><<set $phase to 0>><</link>> | <<printmoney _penis1>>",
+    "translation": "",
+    "pos": 2845
+  },
+  {
+    "passage": "Hospital Penis Reduction",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1353_5_3_7|",
+    "original": "<<procedureicon \"penis reduce\">><<link [[Make your penis mini|Hospital Penis Reduction 2]]>><<set $phase to -1>><</link>> | <<printmoney _penis0>>",
+    "translation": "",
+    "pos": 3130
+  },
+  {
+    "passage": "Hospital Penis Reduction",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1359_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Hospital Foyer]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 3307
+  },
+  {
+    "passage": "Hospital Penis Reduction 2",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1365_5_3_7|",
+    "original": "\"This will cost <span class=\"gold\">£<<print (($player.penissize - $phase) * 2000)>></span>,\" <<he>> says. \"And take four hours.\"",
+    "translation": "",
+    "pos": 65
+  },
+  {
+    "passage": "Hospital Penis Reduction 2",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1369_5_3_7|",
+    "original": "<<ind>><<link [[Accept (4:00)|Hospital Penis Reduction 3]]>><<pass 4 hours>><</link>>",
+    "translation": "",
+    "pos": 263
+  },
+  {
+    "passage": "Hospital Penis Reduction 2",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1372_5_3_7|",
+    "original": "You can't afford it.",
+    "translation": "",
+    "pos": 365
+  },
+  {
+    "passage": "Hospital Penis Reduction 2",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1376_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Hospital Foyer]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 405
+  },
+  {
+    "passage": "Hospital Penis Reduction 3",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1389_5_3_7|",
+    "original": "Harper accepts the payment. \"Please undress,\" <<he>> says as <<he>> stands to leave the room.",
+    "translation": "",
+    "pos": 247
+  },
+  {
+    "passage": "Hospital Penis Reduction 3",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1390_5_3_7|",
+    "original": "You remove your clothing and stand waiting, feeling more than a little exposed.",
+    "translation": "",
+    "pos": 341
+  },
+  {
+    "passage": "Hospital Penis Reduction 3",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1391_5_3_7|",
+    "original": "<<if playerChastity()>>You can't remove your $worn.genitals.name, you hope it won't be a problem.<</if>>",
+    "translation": "",
+    "pos": 421
+  },
+  {
+    "passage": "Hospital Penis Reduction 3",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1392_5_3_7|",
+    "original": "<<He>> soon returns, carrying a medical gown.",
+    "translation": "",
+    "pos": 526
+  },
+  {
+    "passage": "Hospital Penis Reduction 3",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1395_5_3_7|",
+    "original": "\"Wear this,\" <<he>> instructs. You put the gown on. \"Right, if you'd like to come with me, it's just a short walk away.\"",
+    "translation": "",
+    "pos": 582
+  },
+  {
+    "passage": "Hospital Penis Reduction 3",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1398_5_3_7|",
+    "original": "<<He>> leads you to another room, containing a small bed. \"Please lie down. I'll put you under then move you to the theatre.\" You lie down.",
+    "translation": "",
+    "pos": 713
+  },
+  {
+    "passage": "Hospital Penis Reduction 3",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1399_5_3_7|",
+    "original": "<<He>> presses a mask against your face, and you feel your consciousness start to slip. <<He>> pulls a camera from <<his>> pocket as you pass out.",
+    "translation": "",
+    "pos": 853
+  },
+  {
+    "passage": "Hospital Penis Reduction 3",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1404_5_3_7|",
+    "original": "<<link [[Next|Hospital Penis Done]]>><</link>>",
+    "translation": "",
+    "pos": 1042
+  },
+  {
+    "passage": "Hospital Penis Done",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1412_5_3_7|",
+    "original": "You awaken in the same room you passed out in. You don't feel any different, until you look down and see your <<penissize>> penis. Harper enters the room.",
+    "translation": "",
+    "pos": 102
+  },
+  {
+    "passage": "Hospital Penis Done",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1415_5_3_7|",
+    "original": "\"The operation was a success,\" <<he>> says. <<He>> looks at your groin.",
+    "translation": "",
+    "pos": 267
+  },
+  {
+    "passage": "Hospital Penis Done",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1418_5_3_7|",
+    "original": "Stares, in fact. <<He>> blushes and looks away.",
+    "translation": "",
+    "pos": 372
+  },
+  {
+    "passage": "Hospital Penis Done",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1421_5_3_7|",
+    "original": "Stares, in fact. <<He>> blushes and looks away.",
+    "translation": "",
+    "pos": 513
+  },
+  {
+    "passage": "Hospital Penis Done",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1424_5_3_7|",
+    "original": "\"No one would look twice at it now.\" <<He>> blushes. \"N-not that it doesn't look nice.\"",
+    "translation": "",
+    "pos": 653
+  },
+  {
+    "passage": "Hospital Penis Done",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1426_5_3_7|",
+    "original": "\"Such a manageable size.\"",
+    "translation": "",
+    "pos": 776
+  },
+  {
+    "passage": "Hospital Penis Done",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1429_5_3_7|",
+    "original": "\"It looks so cute.\"",
+    "translation": "",
+    "pos": 873
+  },
+  {
+    "passage": "Hospital Penis Done",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1434_5_3_7|",
+    "original": "<<He>> checks <<his>> clipboard. \"You can leave straight away. Be well.\" <<He>> leaves you to dress.",
+    "translation": "",
+    "pos": 972
+  },
+  {
+    "passage": "Hospital Penis Done",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1439_5_3_7|",
+    "original": "<<link [[Next|Hospital Foyer]]>><<clotheson>><</link>>",
+    "translation": "",
+    "pos": 1097
+  },
+  {
+    "passage": "Hospital Penis Enlargement",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1446_5_3_7|",
+    "original": "The receptionist taps something into <<his>> computer and instructs you to take a seat in the waiting room.",
+    "translation": "",
+    "pos": 90
+  },
+  {
+    "passage": "Hospital Penis Enlargement",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1452_5_3_7|",
+    "original": "\"This would normally be a simple procedure...\" <<He>> pulls a chart of penis sizes from <<his>> desk drawer. \"However, I can't actually tell how large you are.\"",
+    "translation": "",
+    "pos": 288
+  },
+  {
+    "passage": "Hospital Penis Enlargement",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1455_5_3_7|",
+    "original": "After a closer examination, <<he>> continues, \"You should get that parasite on your penis removed first. I'm afraid we don't have the tools to work with such a small device.\"",
+    "translation": "",
+    "pos": 515
+  },
+  {
+    "passage": "Hospital Penis Enlargement",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1457_5_3_7|",
+    "original": "After a closer examination, <<he>> continues, \"You should get that <<print $worn.genitals.name>> unlocked and removed. I'm afraid we don't have the tools to work with such a small device.\"",
+    "translation": "",
+    "pos": 702
+  },
+  {
+    "passage": "Hospital Penis Enlargement",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1461_5_3_7|",
+    "original": "\"This is a simple procedure.\" <<He>> pulls a chart of penis sizes from <<his>> desk. \"You're about here.\" <<He>> points at",
+    "translation": "",
+    "pos": 943
+  },
+  {
+    "passage": "Hospital Penis Enlargement",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1463_5_3_7|",
+    "original": "<<case 4>>the top",
+    "translation": "",
+    "pos": 1098
+  },
+  {
+    "passage": "Hospital Penis Enlargement",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1464_5_3_7|",
+    "original": "<<case -1>>the bottom",
+    "translation": "",
+    "pos": 1118
+  },
+  {
+    "passage": "Hospital Penis Enlargement",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1465_5_3_7|",
+    "original": "<<default>>a",
+    "translation": "",
+    "pos": 1142
+  },
+  {
+    "passage": "Hospital Penis Enlargement",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1467_5_3_7|",
+    "original": "picture labelled <span class=\"lewd\">\"<<print ($player.penissize is 2 ? \"average\" : \"<<penissize>>\")>> penis.\"</span>",
+    "translation": "",
+    "pos": 1169
+  },
+  {
+    "passage": "Hospital Penis Enlargement",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1470_5_3_7|",
+    "original": "\"It costs £5000 to increase your penis by a single size, and a further £5000 for each size beyond that.\"",
+    "translation": "",
+    "pos": 1298
+  },
+  {
+    "passage": "Hospital Penis Enlargement",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1475_5_3_7|",
+    "original": "<<procedureicon \"penis enlarge\">><<link [[Make your penis enormous|Hospital Penis Enlargement 2]]>><<set $phase to 4>><</link>> | <<printmoney _penis4>>",
+    "translation": "",
+    "pos": 1513
+  },
+  {
+    "passage": "Hospital Penis Enlargement",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1480_5_3_7|",
+    "original": "<<procedureicon \"penis enlarge\">><<link [[Make your penis large|Hospital Penis Enlargement 2]]>><<set $phase to 3>><</link>> | <<printmoney _penis3>>",
+    "translation": "",
+    "pos": 1781
+  },
+  {
+    "passage": "Hospital Penis Enlargement",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1485_5_3_7|",
+    "original": "<<procedureicon \"penis enlarge\">><<link [[Make your penis average|Hospital Penis Enlargement 2]]>><<set $phase to 2>><</link>> | <<printmoney _penis2>>",
+    "translation": "",
+    "pos": 2046
+  },
+  {
+    "passage": "Hospital Penis Enlargement",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1490_5_3_7|",
+    "original": "<<procedureicon \"penis enlarge\">><<link [[Make your penis small|Hospital Penis Enlargement 2]]>><<set $phase to 1>><</link>> | <<printmoney _penis1>>",
+    "translation": "",
+    "pos": 2313
+  },
+  {
+    "passage": "Hospital Penis Enlargement",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1495_5_3_7|",
+    "original": "<<procedureicon \"penis enlarge\">><<link [[Make your penis tiny|Hospital Penis Enlargement 2]]>><<set $phase to 0>><</link>> | <<printmoney _penis0>>",
+    "translation": "",
+    "pos": 2578
+  },
+  {
+    "passage": "Hospital Penis Enlargement",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1499_5_3_7|",
+    "original": "\"This would normally be a simple procedure...\" <<He>> pulls a chart of penis sizes from <<his>> desk. \"However, you're not even at the smallest size.\" <<He>> points at a picture labelled <span class=\"lewd\">\"mini penis.\"</span>",
+    "translation": "",
+    "pos": 2753
+  },
+  {
+    "passage": "Hospital Penis Enlargement",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1501_5_3_7|",
+    "original": "While taking a closer look, <<he>> continues, \"You should head to our Pharmacy and buy some penis growth pills. I personally recommend taking two doses per day to start with, however, I'm not quite sure if that would be enough to revive it.\"",
+    "translation": "",
+    "pos": 2991
+  },
+  {
+    "passage": "Hospital Penis Enlargement",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1505_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Hospital Foyer]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 3252
+  },
+  {
+    "passage": "Hospital Penis Enlargement 2",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1511_5_3_7|",
+    "original": "\"This will cost <span class=\"gold\">£<<print (($phase - $player.penissize) * 5000)>></span>,\" <<he>> says. \"And take four hours.\"",
+    "translation": "",
+    "pos": 65
+  },
+  {
+    "passage": "Hospital Penis Enlargement 2",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1515_5_3_7|",
+    "original": "<<ind>><<link [[Accept (4:00)|Hospital Penis Enlargement 3]]>><<pass 4 hours>><</link>>",
+    "translation": "",
+    "pos": 263
+  },
+  {
+    "passage": "Hospital Penis Enlargement 2",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1518_5_3_7|",
+    "original": "You can't afford it.",
+    "translation": "",
+    "pos": 367
+  },
+  {
+    "passage": "Hospital Penis Enlargement 2",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1522_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Hospital Foyer]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 407
+  },
+  {
+    "passage": "Hospital Penis Enlargement 3",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1535_5_3_7|",
+    "original": "Harper accepts the payment. \"Please undress,\" <<he>> says as <<he>> stands to leave the room.",
+    "translation": "",
+    "pos": 249
+  },
+  {
+    "passage": "Hospital Penis Enlargement 3",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1536_5_3_7|",
+    "original": "You remove your clothing and stand waiting, feeling more than a little exposed.",
+    "translation": "",
+    "pos": 343
+  },
+  {
+    "passage": "Hospital Penis Enlargement 3",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1537_5_3_7|",
+    "original": "<<if playerChastity()>>You can't remove your $worn.genitals.name, you hope it won't be a problem.<</if>>",
+    "translation": "",
+    "pos": 423
+  },
+  {
+    "passage": "Hospital Penis Enlargement 3",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1538_5_3_7|",
+    "original": "<<He>> soon returns, carrying a medical gown.",
+    "translation": "",
+    "pos": 528
+  },
+  {
+    "passage": "Hospital Penis Enlargement 3",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1541_5_3_7|",
+    "original": "\"Wear this,\" <<he>> instructs. You put the gown on. \"Right, if you'd like to come with me, it's just a short walk away.\"",
+    "translation": "",
+    "pos": 584
+  },
+  {
+    "passage": "Hospital Penis Enlargement 3",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1544_5_3_7|",
+    "original": "<<He>> leads you to another room, containing a small bed. \"Please lie down. I'll put you under then move you to the theatre.\" You lie down.",
+    "translation": "",
+    "pos": 715
+  },
+  {
+    "passage": "Hospital Penis Enlargement 3",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1545_5_3_7|",
+    "original": "<<He>> presses a mask against your face, and you feel your consciousness start to slip. <<He>> pulls a camera from <<his>> pocket as you pass out.",
+    "translation": "",
+    "pos": 855
+  },
+  {
+    "passage": "Hospital Penis Enlargement 3",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1550_5_3_7|",
+    "original": "<<link [[Next|Hospital Penis Done]]>><</link>>",
+    "translation": "",
+    "pos": 1044
+  },
+  {
+    "passage": "Hospital Tattoo Removal",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1557_5_3_7|",
+    "original": "The receptionist taps something into <<his>> computer and instructs you to take a seat in the waiting room.",
+    "translation": "",
+    "pos": 38
+  },
+  {
+    "passage": "Hospital Tattoo Removal",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1563_5_3_7|",
+    "original": "\"So you have ink you'd like removed,\" <<he>> says. \"We can facilitate that. The procedure costs £3000, and will take three hours.\"",
+    "translation": "",
+    "pos": 187
+  },
+  {
+    "passage": "Hospital Tattoo Removal",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1569_5_3_7|",
+    "original": "<<capture _active_bodypart>><<link [[Remove|Hospital Tattoo Removal 2]]>><<pass 3 hours>><<money -300000 \"hospitalTattooRemoval\">><<set $remove_tattoo to _active_bodypart>><</link>><</capture>> the <<tattoo _active_bodypart>> on your <<bodypart _active_bodypart>>.",
+    "translation": "",
+    "pos": 453
+  },
+  {
+    "passage": "Hospital Tattoo Removal",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1575_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Hospital Foyer]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 759
+  },
+  {
+    "passage": "Hospital Tattoo Removal 2",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1582_5_3_7|",
+    "original": "Harper accepts the payment. \"Please undress,\" <<he>> says as <<he>> stands to leave the room. \"Everything. The presence of clothing interferes with the delicate apparatus.\"",
+    "translation": "",
+    "pos": 75
+  },
+  {
+    "passage": "Hospital Tattoo Removal 2",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1583_5_3_7|",
+    "original": "You remove your clothing and stand waiting, feeling more than a little exposed.",
+    "translation": "",
+    "pos": 248
+  },
+  {
+    "passage": "Hospital Tattoo Removal 2",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1584_5_3_7|",
+    "original": "<<if playerChastity()>>You can't remove your $worn.genitals.name, you hope it won't be a problem.<</if>>",
+    "translation": "",
+    "pos": 328
+  },
+  {
+    "passage": "Hospital Tattoo Removal 2",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1585_5_3_7|",
+    "original": "<<He>> soon returns, carrying a medical gown.",
+    "translation": "",
+    "pos": 433
+  },
+  {
+    "passage": "Hospital Tattoo Removal 2",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1588_5_3_7|",
+    "original": "\"Wear this,\" <<he>> instructs. You put the gown on. \"Right, if you'd like to come with me, it's just a short walk away.\"",
+    "translation": "",
+    "pos": 489
+  },
+  {
+    "passage": "Hospital Tattoo Removal 2",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1591_5_3_7|",
+    "original": "<<He>> leads you to another room, containing a small bed. \"Please lie down. I'll put you under then move you to the theatre.\" You lie down.",
+    "translation": "",
+    "pos": 620
+  },
+  {
+    "passage": "Hospital Tattoo Removal 2",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1592_5_3_7|",
+    "original": "<<He>> presses a mask against your face, and you feel your consciousness start to slip. <<He>> pulls a camera from <<his>> pocket as you pass out.",
+    "translation": "",
+    "pos": 760
+  },
+  {
+    "passage": "Hospital Tattoo Removal 2",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1597_5_3_7|",
+    "original": "<<link [[Next|Hospital Tattoo Removal Done]]>><</link>>",
+    "translation": "",
+    "pos": 949
+  },
+  {
+    "passage": "Hospital Tattoo Removal Done",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1602_5_3_7|",
+    "original": "You awaken in the same room you passed out in.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Hospital Tattoo Removal Done",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1604_5_3_7|",
+    "original": "You look in a mirror. The <<tattoo $remove_tattoo>> on your <<bodypart $remove_tattoo>> is gone.",
+    "translation": "",
+    "pos": 166
+  },
+  {
+    "passage": "Hospital Tattoo Removal Done",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1606_5_3_7|",
+    "original": "You look down at your <<bodypart $remove_tattoo>>. Your <<tattoo $remove_tattoo>> is gone.",
+    "translation": "",
+    "pos": 273
+  },
+  {
+    "passage": "Hospital Tattoo Removal Done",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1608_5_3_7|",
+    "original": "Harper enters the room.",
+    "translation": "",
+    "pos": 372
+  },
+  {
+    "passage": "Hospital Tattoo Removal Done",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1613_5_3_7|",
+    "original": "\"The removal was a success,\" <<he>> says. <<He>> checks <<his>> clipboard. \"You can leave straight away. Be well.\" <<He>> leaves you to dress.",
+    "translation": "",
+    "pos": 468
+  },
+  {
+    "passage": "Hospital Tattoo Removal Done",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1618_5_3_7|",
+    "original": "<<link [[Next|Hospital Foyer]]>><<clotheson>><</link>>",
+    "translation": "",
+    "pos": 635
+  },
+  {
+    "passage": "Doctor Harper Emergency",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1624_5_3_7|",
+    "original": "You approach the receptionist and ask for Harper. <<He>> looks at <<his>> screen.",
+    "translation": "",
+    "pos": 89
+  },
+  {
+    "passage": "Doctor Harper Emergency",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1626_5_3_7|",
+    "original": "\"You're already scheduled for today-\"",
+    "translation": "",
+    "pos": 197
+  },
+  {
+    "passage": "Doctor Harper Emergency",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1628_5_3_7|",
+    "original": "\"You don't seem to-\"",
+    "translation": "",
+    "pos": 245
+  },
+  {
+    "passage": "Doctor Harper Emergency",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1630_5_3_7|",
+    "original": "<<he>> gives you a quick glance. Worry spreads across <<his>> face, and <<he>> taps something into the computer. \"The doctor is currently seeing a patient. Please wait here.\"",
+    "translation": "",
+    "pos": 274
+  },
+  {
+    "passage": "Doctor Harper Emergency",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1633_5_3_7|",
+    "original": "You take a seat in the waiting room. With nothing to do but go over your troubled thoughts, you fidget in place. The wait seems unbearable.",
+    "translation": "",
+    "pos": 471
+  },
+  {
+    "passage": "Doctor Harper Emergency",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1634_5_3_7|",
+    "original": "Eventually, the receptionist calls you and points you to Harper's office. The previous patient exits, giving you a crooked smile.",
+    "translation": "",
+    "pos": 611
+  },
+  {
+    "passage": "Doctor Harper Emergency",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1637_5_3_7|",
+    "original": "<<link [[Next|Doctor Harper Emergency 2]]>><</link>>",
+    "translation": "",
+    "pos": 751
+  },
+  {
+    "passage": "Doctor Harper Emergency 2",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1642_5_3_7|",
+    "original": "You knock on the door to Harper's office and hear <<his>> voice on the other side. \"Come in.\" You enter. <<He>> sits at <<his>> desk in front of a computer.",
+    "translation": "",
+    "pos": 87
+  },
+  {
+    "passage": "Doctor Harper Emergency 2",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1644_5_3_7|",
+    "original": "\"This isn't our scheduled time. This must be serious.\"",
+    "translation": "",
+    "pos": 270
+  },
+  {
+    "passage": "Doctor Harper Emergency 2",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1646_5_3_7|",
+    "original": "\"I finished up with my last patient as fast as I could. How can I help you?\"",
+    "translation": "",
+    "pos": 335
+  },
+  {
+    "passage": "Doctor Harper Emergency 2",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1649_5_3_7|",
+    "original": "You sit down and waste no time going over your grievances with recent events. Harper lets you speak, for the most part, only occasionally asking for clarification regarding your home and school life along with your well-being. You have difficulty remembering when exactly you began to cry. <<He>> reaches for something in <<his>> desk drawer and approaches you. <<He>> gently wraps an arm around you.",
+    "translation": "",
+    "pos": 429
+  },
+  {
+    "passage": "Doctor Harper Emergency 2",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1652_5_3_7|",
+    "original": "\"There, there,\" Harper says, pressing a cloth against your face while tightening <<his>> grip around you. \"Everything will be fine,\" <<he>> says through a haze that rapidly falls on you. Two blurred shapes enter the office and help you to your feet. They guide you away from the office, an arm on each shoulder. Doctor Harper follows close behind.",
+    "translation": "",
+    "pos": 840
+  },
+  {
+    "passage": "Doctor Harper Emergency 2",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1655_5_3_7|",
+    "original": "You're quietly led through the corridor. Some shapes seem to glance your way. The two beside you don't stop. They lead you outside and into the back of a waiting van. There's a cot inside. They push you onto it as the last of your consciousness slips.",
+    "translation": "",
+    "pos": 1198
+  },
+  {
+    "passage": "Doctor Harper Emergency 2",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1660_5_3_7|",
+    "original": "<<link [[Next|Asylum Intro]]>><<pass 120>><</link>>",
+    "translation": "",
+    "pos": 1531
+  },
+  {
+    "passage": "Ambulance Sydney",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1670_5_3_7|",
+    "original": "You feel yourself being lifted onto a stretcher. You're holding onto something. It's holding on to you, too. It's warm, and makes you feel safe in a way you can't explain. Something tries to pull it away from you, so you hold on tighter. You pass out again.",
+    "translation": "",
+    "pos": 431
+  },
+  {
+    "passage": "Ambulance Sydney",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1675_5_3_7|",
+    "original": "You've gained the <span class=\"blue\">Rite of Promise: Sydney</span> trait.",
+    "translation": "",
+    "pos": 820
+  },
+  {
+    "passage": "Ambulance Sydney",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1678_5_3_7|",
+    "original": "You've gained the <span class=\"blue\">Chastity Vow</span> trait.",
+    "translation": "",
+    "pos": 918
+  },
+  {
+    "passage": "Ambulance Sydney",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1685_5_3_7|",
+    "original": "<<link [[Sleep|Hospital Bed Sydney]]>><</link>>",
+    "translation": "",
+    "pos": 1098
+  },
+  {
+    "passage": "Hospital Bed Sydney",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1693_5_3_7|",
+    "original": "You awaken in a bed at the civic hospital. You see Sydney on the same bed, asleep. You're still holding each other.",
+    "translation": "",
+    "pos": 174
+  },
+  {
+    "passage": "Hospital Bed Sydney",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1695_5_3_7|",
+    "original": "\"About time.\" It's a nurse. \"The doctor tried to separate you two, but even unconscious you wouldn't let go.\" <<He>> points to Sydney. \"Eventually <<nnpc_he \"Sydney\">> sat upright and... growled at me in <<nnpc_his \"Sydney\">> sleep. Then went right back down like nothing happened. That's when we stopped trying.\"",
+    "translation": "",
+    "pos": 315
+  },
+  {
+    "passage": "Hospital Bed Sydney",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1697_5_3_7|",
+    "original": "The nurse explains that you have suffered a severe stress response, but you are both otherwise physically healthy. <<He>> asks you to wait a moment while <<he>> fetches the doctor.",
+    "translation": "",
+    "pos": 630
+  },
+  {
+    "passage": "Hospital Bed Sydney",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1701_5_3_7|",
+    "original": "<<npc \"Harper\" 1>><<person1>><<npc \"Sydney\" 2>><<person2>> You don't have to wait long. A <<person1>><<personsimple>> wearing a white medical coat and carrying a clipboard enters.",
+    "translation": "",
+    "pos": 888
+  },
+  {
+    "passage": "Hospital Bed Sydney",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1703_5_3_7|",
+    "original": "<<He>> smiles at you. \"Hello, I'm Doctor Harper.\" <<He>> takes a seat by your bedside and pulls <<his>> blond fringe away from <<his>> eyes. <<He>> looks young, can't be older than 25.",
+    "translation": "",
+    "pos": 1079
+  },
+  {
+    "passage": "Hospital Bed Sydney",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1706_5_3_7|",
+    "original": "<<npc \"Harper\" 1>><<person1>><<npc \"Sydney\" 2>><<person2>>Doctor Harper enters at that moment, carrying <<person1>><<his>> usual clipboard. <<He>> assures you that there is no immediate concern, but <<he>> would like to examine you further.",
+    "translation": "",
+    "pos": 1284
+  },
+  {
+    "passage": "Hospital Bed Sydney",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1710_5_3_7|",
+    "original": "<<link [[Next|Hospital Bed Examination Sydney]]>><</link>>",
+    "translation": "",
+    "pos": 1544
+  },
+  {
+    "passage": "Hospital Bed Examination Sydney",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1715_5_3_7|",
+    "original": "You hear Sydney yawn. <<person2>><<His>> eyes flutter open, and <<he>> smiles. \"Glad you're the first thing I'm seeing.\" <<His>> expression immediately changes when <<he>> sees Doctor Harper. They stare each other down. It's hard to read either of their emotions.",
+    "translation": "",
+    "pos": 12
+  },
+  {
+    "passage": "Hospital Bed Examination Sydney",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1717_5_3_7|",
+    "original": "\"Not so glad that's the second thing I'm seeing.\"",
+    "translation": "",
+    "pos": 281
+  },
+  {
+    "passage": "Hospital Bed Examination Sydney",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1721_5_3_7|",
+    "original": "\"Sydney. It's been a while.\"",
+    "translation": "",
+    "pos": 418
+  },
+  {
+    "passage": "Hospital Bed Examination Sydney",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1723_5_3_7|",
+    "original": "\"Not nearly long enough.\" You feel like Sydney would jump up and attack were you not still holding each other.",
+    "translation": "",
+    "pos": 454
+  },
+  {
+    "passage": "Hospital Bed Examination Sydney",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1725_5_3_7|",
+    "original": "\"Let's not do this again. We can get this over with professionally.\"",
+    "translation": "",
+    "pos": 575
+  },
+  {
+    "passage": "Hospital Bed Examination Sydney",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1728_5_3_7|",
+    "original": "Sydney moves in front of you, as if to guard you. \"I'm invoking my right to refuse treatment. My <<sydneymum>> will handle the paperwork.\"",
+    "translation": "",
+    "pos": 661
+  },
+  {
+    "passage": "Hospital Bed Examination Sydney",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1730_5_3_7|",
+    "original": "Doctor Harper sighs. \"Very well. But I must still evaluate <<phim>>.\"",
+    "translation": "",
+    "pos": 809
+  },
+  {
+    "passage": "Hospital Bed Examination Sydney",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1733_5_3_7|",
+    "original": "<<He>> gently interrogates you on a variety of subjects relating to your home life, how school is going and how your well-being has been faring. <<He>> informs you that everything is okay as far as <<he>> can tell, but you should be careful in the future.",
+    "translation": "",
+    "pos": 933
+  },
+  {
+    "passage": "Hospital Bed Examination Sydney",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1736_5_3_7|",
+    "original": "Sydney helps you to your feet, and you soon find yourself being discharged.",
+    "translation": "",
+    "pos": 1210
+  },
+  {
+    "passage": "Hospital Bed Examination Sydney",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1739_5_3_7|",
+    "original": "<<link [[Leave (0:10)|Hospital Journey Home Sydney]]>><<pass 10>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1298
+  },
+  {
+    "passage": "Hospital Bed Examination Sydney",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1742_5_3_7|",
+    "original": "<<He>> gently interrogates you on a variety of subjects relating to your home life, how school is going and how your well-being has been faring. After a short while, <<he>> summons a nurse and they have a brief conversation in the corner of the room. They talk quietly, and after a short while the nurse nods and leave the room.",
+    "translation": "",
+    "pos": 1436
+  },
+  {
+    "passage": "Hospital Bed Examination Sydney",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1745_5_3_7|",
+    "original": "<span class=\"gold\">The doctor tells you to visit <<him>> here at the hospital on <span class=\"gold\">Fridays</span> for therapy.</span>",
+    "translation": "",
+    "pos": 1797
+  },
+  {
+    "passage": "Hospital Bed Examination Sydney",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1749_5_3_7|",
+    "original": "Sydney helps you to your feet, and you soon find yourself being discharged.",
+    "translation": "",
+    "pos": 2000
+  },
+  {
+    "passage": "Hospital Bed Examination Sydney",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1752_5_3_7|",
+    "original": "The doctor reminds you to visit <<him>> here at the hospital on <span class=\"gold\">Fridays</span>.",
+    "translation": "",
+    "pos": 2099
+  },
+  {
+    "passage": "Hospital Bed Examination Sydney",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1755_5_3_7|",
+    "original": "Sydney helps you to your feet, and you soon find yourself being discharged.",
+    "translation": "",
+    "pos": 2222
+  },
+  {
+    "passage": "Hospital Bed Examination Sydney",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1759_5_3_7|",
+    "original": "<<link [[Leave|Hospital Journey Home Sydney]]>><<pass 10>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 2320
+  },
+  {
+    "passage": "Hospital Bed Examination Sydney",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1762_5_3_7|",
+    "original": "<<He>> gently interrogates you on a variety of subjects relating to your home life, how school is going and how your well-being has been faring. A look of concern grows on <<his>> face, but you've no idea why. After a short while, <<he>> summons a nurse into the room and they talk quietly for a short time. The nurse keeps glancing at you, looking concerned.",
+    "translation": "",
+    "pos": 2416
+  },
+  {
+    "passage": "Hospital Bed Examination Sydney",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1765_5_3_7|",
+    "original": "Sydney looks uneasy. \"We need to leave.\" You find yourself unable to respond. The nurse moves towards Sydney, who pulls you away. \"No.\" The nurse freezes in place as Sydney glares.",
+    "translation": "",
+    "pos": 2788
+  },
+  {
+    "passage": "Hospital Bed Examination Sydney",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1768_5_3_7|",
+    "original": "\"Sydney, I assure you that-\"",
+    "translation": "",
+    "pos": 2981
+  },
+  {
+    "passage": "Hospital Bed Examination Sydney",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1770_5_3_7|",
+    "original": "\"Everything will be fine? No it won't. We're leaving, and you can't stop us.\" The nurse grabs Sydney by the arms and holds <<person2>><<him>> back. <<He>> pushes back with surprising strength, but is too slow. The doctor presses a cloth to your face, and a haze falls on you. You hear a yell in Sydney's voice, and everything begins to spin. You feel yourself pulled along, and more yelling.",
+    "translation": "",
+    "pos": 3017
+  },
+  {
+    "passage": "Hospital Bed Examination Sydney",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1772_5_3_7|",
+    "original": "Once out in the corridor multiple shapes march toward you. Someone blocks their path. The one holding you doesn't stop. They lead you outside and into the back of a waiting car as your consciousness slips.",
+    "translation": "",
+    "pos": 3420
+  },
+  {
+    "passage": "Hospital Bed Examination Sydney",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1775_5_3_7|",
+    "original": "<<link [[Next|Hospital Sydney Rescue]]>><<pass 1 hour>><</link>>",
+    "translation": "",
+    "pos": 3651
+  },
+  {
+    "passage": "Hospital Sydney Rescue",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1781_5_3_7|",
+    "original": "You awaken once more, your head spinning. Two figures are talking in the front seats. You slowly begin to recognise them. It's Sydney, and Sirris. <<npc \"Sydney\" 1>><<person1>><<npc \"Sirris\" 2>><<person2>>",
+    "translation": "",
+    "pos": 12
+  },
+  {
+    "passage": "Hospital Sydney Rescue",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1783_5_3_7|",
+    "original": "\"There, see? I told you <<pshe>>'d be okay, Syd.\" You notice you're no longer in front of the hospital, but on Elk Street.",
+    "translation": "",
+    "pos": 227
+  },
+  {
+    "passage": "Hospital Sydney Rescue",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1785_5_3_7|",
+    "original": "Sydney practically jumps out of the car, only to open the rear door and jump in, tackle-hugging you into the seat. \"I was so worried once <<nnpc_he \"Harper\">> got that cloth on you.\" You think about asking Sydney what happened, but the words simply won't form. You mindlessly return the hug.",
+    "translation": "",
+    "pos": 359
+  },
+  {
+    "passage": "Hospital Sydney Rescue",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1787_5_3_7|",
+    "original": "\"Alright, get comfortable back there, you two. Sydney, seatbelt! And you wonder why you can't get your license.",
+    "translation": "",
+    "pos": 660
+  },
+  {
+    "passage": "Hospital Sydney Rescue",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1790_5_3_7|",
+    "original": "So, where do you live?\" Sirris leans back over the seat to look at you.",
+    "translation": "",
+    "pos": 850
+  },
+  {
+    "passage": "Hospital Sydney Rescue",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1792_5_3_7|",
+    "original": "You answer Sirris in a monotone, giving flawless directions to the orphanage. You think you see a sympathetic frown, but you're not sure.",
+    "translation": "",
+    "pos": 933
+  },
+  {
+    "passage": "Hospital Sydney Rescue",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1794_5_3_7|",
+    "original": "The ride won't take long since I know where to go now.\"",
+    "translation": "",
+    "pos": 1081
+  },
+  {
+    "passage": "Hospital Sydney Rescue",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1796_5_3_7|",
+    "original": "Sirris keeps shooting concerned looks at you through the rear mirror. Sydney refuses to let go of you until you get to the orphanage, at which point you both exit the car.",
+    "translation": "",
+    "pos": 1145
+  },
+  {
+    "passage": "Hospital Sydney Rescue",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1798_5_3_7|",
+    "original": "Sydney walks you to the front door of the orphanage, and <<if $sydneyromance is 1>>kisses you on the cheek<<else>>hugs you<</if>>.",
+    "translation": "",
+    "pos": 1326
+  },
+  {
+    "passage": "Hospital Sydney Rescue",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1799_5_3_7|",
+    "original": "\"Be careful around that doctor. Don't trust a word <<nnpc_he \"Harper\">> says.\"",
+    "translation": "",
+    "pos": 1457
+  },
+  {
+    "passage": "Hospital Sydney Rescue",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1801_5_3_7|",
+    "original": "You watch Sydney walk back to the car, and they both wait for you to go inside before leaving.",
+    "translation": "",
+    "pos": 1545
+  },
+  {
+    "passage": "Hospital Sydney Rescue",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1803_5_3_7|",
+    "original": "<<link [[Next|Orphanage]]>><<pass 10>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1649
+  },
+  {
+    "passage": "Hospital Journey Home Sydney",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1808_5_3_7|",
+    "original": "Sydney leads you out of the hospital, into a waiting car. Sirris waits in the driver's seat. <<npc \"Sydney\" 1>><<person1>><<npc \"Sirris\" 2>><<person2>>",
+    "translation": "",
+    "pos": 12
+  },
+  {
+    "passage": "Hospital Journey Home Sydney",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1809_5_3_7|",
+    "original": "\"You two are quite the handful. Everything alright?\" <<He>> looks at you. \"Sydney refused to leave your side the whole time. I would have stayed too, had time permitted. Sydney, buckle up or you'll never get your license.\" Sydney pouts.",
+    "translation": "",
+    "pos": 164
+  },
+  {
+    "passage": "Hospital Journey Home Sydney",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1812_5_3_7|",
+    "original": "\"So, where do you live?\" Sirris leans back over the seat to look at you.",
+    "translation": "",
+    "pos": 479
+  },
+  {
+    "passage": "Hospital Journey Home Sydney",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1814_5_3_7|",
+    "original": "You give Sirris directions to the orphanage. You think you see a sympathetic frown, but you're not sure.",
+    "translation": "",
+    "pos": 563
+  },
+  {
+    "passage": "Hospital Journey Home Sydney",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1816_5_3_7|",
+    "original": "\"The ride won't take long since I know where to go now.\"",
+    "translation": "",
+    "pos": 678
+  },
+  {
+    "passage": "Hospital Journey Home Sydney",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1818_5_3_7|",
+    "original": "Sirris keeps shooting concerned looks at you through the rear mirror. You reach the orphanage quickly, and Sydney exits the car to take your hand.",
+    "translation": "",
+    "pos": 743
+  },
+  {
+    "passage": "Hospital Journey Home Sydney",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1820_5_3_7|",
+    "original": "<<person1>><<He>> walks you to the front door of the orphanage, and <<if $sydneyromance is 1>>kisses you on the cheek<<else>>hugs you<</if>>.",
+    "translation": "",
+    "pos": 899
+  },
+  {
+    "passage": "Hospital Journey Home Sydney",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1821_5_3_7|",
+    "original": "\"Be careful around that doctor. Don't trust a word <<nnpc_he \"Harper\">> says.\"",
+    "translation": "",
+    "pos": 1041
+  },
+  {
+    "passage": "Hospital Journey Home Sydney",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1823_5_3_7|",
+    "original": "You watch Sydney walk back to the car, and they both wait for you to go inside before leaving.",
+    "translation": "",
+    "pos": 1129
+  },
+  {
+    "passage": "Hospital Journey Home Sydney",
+    "filepath": "overworld-town/loc-hospital/main.twee",
+    "key": "1825_5_3_7|",
+    "original": "<<link [[Next|Orphanage]]>><<pass 10>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1233
+  }
+]

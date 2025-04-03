@@ -1,0 +1,1218 @@
+[
+  {
+    "passage": "Doctor Harper's Office",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "6_5_3_7|",
+    "original": "You knock on the door, and hear <<if $hospitalintro is 0>>a <<personsimple>><<else>>Harper<</if>>'s voice on the other side. \"Come in.\" You enter.",
+    "translation": "",
+    "pos": 92
+  },
+  {
+    "passage": "Doctor Harper's Office",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "16_5_3_7|",
+    "original": "<<He>> sits at <<his>> desk in front of a computer.",
+    "translation": "",
+    "pos": 489
+  },
+  {
+    "passage": "Doctor Harper's Office",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "19_5_3_7|",
+    "original": "<<He>> looks young, can't be older than 25. <<He>> glances up as you enter, pulling <<his>> blond fringe away from <<his>> eyes. \"Hello, I'm Doctor Harper. Please, sit.\" You do so.",
+    "translation": "",
+    "pos": 601
+  },
+  {
+    "passage": "Doctor Harper's Office",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "22_5_3_7|",
+    "original": "\"I've been expecting you. A panic attack at school, I've been told?\" You nod. Without looking, <<he>> nods back.",
+    "translation": "",
+    "pos": 796
+  },
+  {
+    "passage": "Doctor Harper's Office",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "24_5_3_7|",
+    "original": "<<He>> looks away from the screen, \"It's good that you've come.\" <<He>> motions for you to take a seat, you do so. \"Don't worry, we won't be doing anything too invasive today.\"",
+    "translation": "",
+    "pos": 921
+  },
+  {
+    "passage": "Doctor Harper's Office",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "27_5_3_7|",
+    "original": "You wonder what <<he>> means by \"invasive\". <<He>> interrupts your musing.",
+    "translation": "",
+    "pos": 1112
+  },
+  {
+    "passage": "Doctor Harper's Office",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "30_5_3_7|",
+    "original": "\"<span class=\"gold\">I'd like to prescribe some medication. I'll have it sent to your home</span>.\" <<He>> starts filling out a form, but doesn't stop speaking. \"There's something else I'd like to try. Please, sit back and relax.\"",
+    "translation": "",
+    "pos": 1230
+  },
+  {
+    "passage": "Doctor Harper's Office",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "33_5_3_7|",
+    "original": "<<He>> puts down the paper and swivels to face you. <<His>> voice has taken on a soothing quality. \"I want you to breathe deeply.\" <<He>> holds up <<his>> pen. \"Focus on the pen. There's nothing in the universe except this pen, my voice, and your own breath.\"",
+    "translation": "",
+    "pos": 1474
+  },
+  {
+    "passage": "Doctor Harper's Office",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "36_5_3_7|",
+    "original": "This continues for several minutes. Harper somehow picks up on whenever your mind starts to wander, and brings you back to focus. You start to feel something shift in your consciousness, as if you're entering a trance.",
+    "translation": "",
+    "pos": 1748
+  },
+  {
+    "passage": "Doctor Harper's Office",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "39_5_3_7|",
+    "original": "<<link [[This feels nice (0:10)|Doctor Harper's Office Trance]]>><<pass 10>><<set $phase to 1>><<npcincr Harper dom 5>><<control 25>><<set $trance to 1>><<trauma -6>><<stress -12>><<awareness -10>><</link>><<ggcontrol>><<llawareness>><<ltrauma>><<lstress>>",
+    "translation": "",
+    "pos": 1981
+  },
+  {
+    "passage": "Doctor Harper's Office",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "41_5_3_7|",
+    "original": "<<link [[Resist (0:10)|Doctor Harper's Office Trance]]>><<pass 10>><<set $phase to 0>><<stress 6>><<npcincr Harper dom -5>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 2247
+  },
+  {
+    "passage": "Doctor Harper's Office",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "44_5_3_7|",
+    "original": "\"<span class=\"gold\">I'd just like to prescribe some medication. I'll have it sent to your home</span>.\" <<He>> starts filling out a form, but doesn't stop speaking. \"That's all for today. Be sure to find time to relax.\" <<He>> holds open the door for you. \"Same time next week. Be well.\"",
+    "translation": "",
+    "pos": 2410
+  },
+  {
+    "passage": "Doctor Harper's Office",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "47_5_3_7|",
+    "original": "<<link [[Next|Hospital Foyer]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 2712
+  },
+  {
+    "passage": "Doctor Harper's Office",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "51_5_3_7|",
+    "original": "\"Please, sit down and relax.\" You do so, and <<he>> swivels to face you. <<His>> voice takes on a soothing quality. \"I want you to breathe deeply.\" <<He>> holds up <<his>> pen. \"Focus on the pen. There's nothing in the universe except this pen, my voice, and your own breath.\"",
+    "translation": "",
+    "pos": 2800
+  },
+  {
+    "passage": "Doctor Harper's Office",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "54_5_3_7|",
+    "original": "This continues for several minutes. Harper somehow picks up on whenever your mind starts to wander, and brings you back to focus. You start to feel something shift in your consciousness, as if you're entering a trance.",
+    "translation": "",
+    "pos": 3089
+  },
+  {
+    "passage": "Doctor Harper's Office",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "57_5_3_7|",
+    "original": "<<link [[This feels nice (0:10)|Doctor Harper's Office Trance]]>><<pass 10>><<control 25>><<set $trance to 1>><<set $phase to 1>><<npcincr Harper dom 5>><<trauma -6>><<stress -12>><<awareness -10>><</link>><<ggcontrol>><<llawareness>><<ltrauma>><<lstress>>",
+    "translation": "",
+    "pos": 3320
+  },
+  {
+    "passage": "Doctor Harper's Office",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "59_5_3_7|",
+    "original": "<<link [[Resist (0:10)|Doctor Harper's Office Trance]]>><<pass 10>><<set $phase to 0>><<stress 6>><<npcincr Harper dom -5>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 3584
+  },
+  {
+    "passage": "Doctor Harper's Office",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "67_5_3_7|",
+    "original": "\"Please strip down to your underwear and lie down on the bed.\" You hesitate. <<He>> notices your trepidation and smiles at you. \"Don't worry, it's normal to be embarrassed, but there's no reason to be.\" Despite your anxiety, you remove your clothes and lie on the bed. Harper rolls <<his>> chair over to your side. \"I'm going to examine you, just relax.\" <<He>> smiles. \"I promise I'll be gentle.\"",
+    "translation": "",
+    "pos": 3874
+  },
+  {
+    "passage": "Doctor Harper's Office",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "70_5_3_7|",
+    "original": "\"Please strip down to your underwear and lie down on the bed.\" You hesitate. <<He>> notices your trepidation and smiles at you. \"Don't worry, it's normal to be embarrassed, but there's no reason to be.\" You can't help but feel conscious of your lack of underwear.",
+    "translation": "",
+    "pos": 4298
+  },
+  {
+    "passage": "Doctor Harper's Office",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "73_5_3_7|",
+    "original": "Harper looks about to speak again when you blurt out.",
+    "translation": "",
+    "pos": 4578
+  },
+  {
+    "passage": "Doctor Harper's Office",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "75_5_3_7|",
+    "original": "\"I'm not wearing anything underneath this!\"",
+    "translation": "",
+    "pos": 4684
+  },
+  {
+    "passage": "Doctor Harper's Office",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "77_5_3_7|",
+    "original": "\"I've only got a $worn.genitals.name underneath this!\"",
+    "translation": "",
+    "pos": 4744
+  },
+  {
+    "passage": "Doctor Harper's Office",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "81_5_3_7|",
+    "original": "<<He>> looks at you blankly for a moment, then laughs. \"I didn't realise you were that sort of person.\" You shift uncomfortably. \"It's okay though, you need to get used to your doctor seeing those parts of you anyway. Come on, don't be shy.\"",
+    "translation": "",
+    "pos": 4826
+  },
+  {
+    "passage": "Doctor Harper's Office",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "84_5_3_7|",
+    "original": "You remove your clothing with shaking fingers, then lie on the bed with your hands covering your <<genitals>>. Harper rolls <<his>> chair over to your side. \"I'm going to examine you, just relax.\" <<He>> smiles. \"I promise I'll be gentle.\"",
+    "translation": "",
+    "pos": 5084
+  },
+  {
+    "passage": "Doctor Harper's Office",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "88_5_3_7|",
+    "original": "<<He>> rubs <<his>> fingers against your shoulders, slowly working <<his>> way down your chest. <<He>> gives your <<nipples>> extra attention for some reason. It's hard not to squirm at the sensation.",
+    "translation": "",
+    "pos": 5349
+  },
+  {
+    "passage": "Doctor Harper's Office",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "91_5_3_7|",
+    "original": "<<He>> continues further down your body, inching closer to <<if !$worn.under_lower.type.includes(\"naked\")>>your $worn.under_lower.name.<<elseif playerChastity()>>your $worn.genitals.name.<<else>>where your hands protect your <<genitals 1>>. <<He>> looks at you and asks. \"Could you move your hands for me? It's important I check beneath them.\" You move your hands aside, exposing yourself. You stare at the ceiling and try to stay calm.<</if>>",
+    "translation": "",
+    "pos": 5564
+  },
+  {
+    "passage": "Doctor Harper's Office",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "95_5_3_7|",
+    "original": "<<link [[Next|Doctor Harper's Office Exam]]>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 6023
+  },
+  {
+    "passage": "Doctor Harper's Office",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "99_5_3_7|",
+    "original": "\"I need to be more thorough this time. Please remove your clothing and lie down on the bed.\" You hesitate. All your clothing? <<He>> notices your trepidation and smiles at you. \"Don't worry, it's normal to be embarrassed, but there's really no reason to be.\"",
+    "translation": "",
+    "pos": 6171
+  },
+  {
+    "passage": "Doctor Harper's Office",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "102_5_3_7|",
+    "original": "You remove your clothing with shaking fingers, then lie on the bed with your hands covering your <<genitals>>. Harper rolls <<his>> chair over to your side. \"I'm going to examine you, just relax.\" <<He>> smiles. \"I promise I'll be gentle.\"",
+    "translation": "",
+    "pos": 6444
+  },
+  {
+    "passage": "Doctor Harper's Office",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "105_5_3_7|",
+    "original": "<<He>> rubs <<his>> fingers against your shoulders, slowly working <<his>> way down your chest. <<He>> gives your <<nipples>> extra attention for some reason. It's hard not to squirm at the sensation.",
+    "translation": "",
+    "pos": 6698
+  },
+  {
+    "passage": "Doctor Harper's Office",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "108_5_3_7|",
+    "original": "<<He>> continues further down your body, inching closer to where your hands protect your <<genitals>>. <<He>> looks at you and asks. \"Could you move your hands for me? It's important I check beneath them.\" You move your hands aside, exposing yourself. You stare at the ceiling and try to stay calm.",
+    "translation": "",
+    "pos": 6913
+  },
+  {
+    "passage": "Doctor Harper's Office",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "111_5_3_7|",
+    "original": "<<link [[Next|Doctor Harper's Office Exam]]>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 7226
+  },
+  {
+    "passage": "Doctor Harper's Office",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "116_5_3_7|",
+    "original": "<<generate2>>You and the doctor aren't alone. A young <<person2>><<person>> sits in the corner of the room, looking slightly nervous. Harper introduces <<him>>. \"This is a med student, <<he>> will be helping me today.\"",
+    "translation": "",
+    "pos": 7356
+  },
+  {
+    "passage": "Doctor Harper's Office",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "119_5_3_7|",
+    "original": "Harper doesn't wait for a response. \"Please remove your clothing and lie down on the bed.\" You feel embarrassed to be undressing in front of two people, but you assure yourself that it's fine. This is a medical check-up after all.",
+    "translation": "",
+    "pos": 7589
+  },
+  {
+    "passage": "Doctor Harper's Office",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "122_5_3_7|",
+    "original": "<<person1>>You remove your clothing with shaking fingers, then lie on the bed with your hands covering your <<genitals>>. Harper rolls <<his>> chair over to your side. \"I'm going to examine you, just relax.\" <<He>> smiles. \"I promise I'll be gentle.\" You can feel the <<person2>><<person>> staring at your exposed skin.",
+    "translation": "",
+    "pos": 7834
+  },
+  {
+    "passage": "Doctor Harper's Office",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "125_5_3_7|",
+    "original": "<<person1>>Harper commences <<his>> usual probing. As <<he>> reaches your pelvis, <<he>> asks, \"Could you move your hands for me?\" You move your hands aside, exposing yourself. You stare at the ceiling and try to stay calm.",
+    "translation": "",
+    "pos": 8168
+  },
+  {
+    "passage": "Doctor Harper's Office",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "128_5_3_7|",
+    "original": "<<link [[Next|Doctor Harper's Office Exam]]>><<set $phase to 2>><</link>>",
+    "translation": "",
+    "pos": 8406
+  },
+  {
+    "passage": "Doctor Harper's Office Trance",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "137_5_3_7|",
+    "original": "You shake yourself free of the effect. Harper doesn't change the tone of <<his>> voice. \"That's enough for today. Remember, don't be afraid to relax.\" <<He>> holds open the door for you. \"Same time next week. Be well.\"",
+    "translation": "",
+    "pos": 85
+  },
+  {
+    "passage": "Doctor Harper's Office Trance",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "140_5_3_7|",
+    "original": "<<link [[Next|Hospital Foyer]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 316
+  },
+  {
+    "passage": "Doctor Harper's Office Trance",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "144_5_3_7|",
+    "original": "You slip deeper into the trance. <span class=\"green\">You don't remember ever feeling so tranquil.</span> You hear Harper's voice drifting toward you. \"That's very good. Now, the next time you feel overwhelmed by it all, I want you to remember this feeling, and...\" <<He>> gives you instructions. \"...you won't remember this. When I drop this pen, you will awaken.\"",
+    "translation": "",
+    "pos": 457
+  },
+  {
+    "passage": "Doctor Harper's Office Trance",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "147_5_3_7|",
+    "original": "The pen clatters to the floor. You blink. You're back in reality, but feeling better than you were before you entered the office. You recall Harper talking to you while you were entranced, but can't recall what was said.",
+    "translation": "",
+    "pos": 836
+  },
+  {
+    "passage": "Doctor Harper's Office Trance",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "150_5_3_7|",
+    "original": "<<He>> smiles at you. \"Today was a success. Well done.\" <<He>> holds open the door for you. \"Same time next week. Be well.\"",
+    "translation": "",
+    "pos": 1071
+  },
+  {
+    "passage": "Doctor Harper's Office Trance",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "152_5_3_7|",
+    "original": "<<link [[Next|Hospital Foyer]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1208
+  },
+  {
+    "passage": "Doctor Harper's Office Trance",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "155_5_3_7|",
+    "original": "You slip deeper into the trance. <span class=\"green\">You return to the familiar state of tranquillity.</span> You hear Harper's voice drifting toward you. \"That's very good.\" <<He>> rummages through the drawer on <<his>> desk and produces a camera. \"Now, take off your clothes.\"",
+    "translation": "",
+    "pos": 1292
+  },
+  {
+    "passage": "Doctor Harper's Office Trance",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "158_5_3_7|",
+    "original": "<<link [[Take off your clothes (0:20)|Doctor Harper's Office Camera]]>><<pass 20>><<npcincr Harper dom 5>><<set $hypnosis to 2>><<hypnotised 1>><<set $phase to 1>><<strip>><</link>>",
+    "translation": "",
+    "pos": 1585
+  },
+  {
+    "passage": "Doctor Harper's Office Trance",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "160_5_3_7|",
+    "original": "<<link [[Refuse|Doctor Harper's Office Camera]]>><<npcincr Harper dom -5>><<set $phase to 0>><<stress 6>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1776
+  },
+  {
+    "passage": "Doctor Harper's Office Trance",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "163_5_3_7|",
+    "original": "<span class=\"green\">You slip deeper into the trance and return to the familiar state of tranquillity.</span> You hear Harper's voice drifting toward you. \"That's very good.\" <<He>> walks briskly over to the window. <<He>> opens it, and a <<generate2>><<person2>><<person>> climbs through, carrying a large camera and tripod.",
+    "translation": "",
+    "pos": 1938
+  },
+  {
+    "passage": "Doctor Harper's Office Trance",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "166_5_3_7|",
+    "original": "While <<he>> sets it up, <<person1>>Harper turns to you and softly speaks. \"Take off your clothes.\"",
+    "translation": "",
+    "pos": 2277
+  },
+  {
+    "passage": "Doctor Harper's Office Trance",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "169_5_3_7|",
+    "original": "<<link [[Take off your clothes (0:20)|Doctor Harper's Office Camera2]]>><<pass 20>><<npcincr Harper dom 5>><<set $hypnosis to 3>><<set $phase to 1>><<hypnotised 1>><<strip>><</link>>",
+    "translation": "",
+    "pos": 2391
+  },
+  {
+    "passage": "Doctor Harper's Office Trance",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "171_5_3_7|",
+    "original": "<<link [[Refuse|Doctor Harper's Office Camera2]]>><<npcincr Harper dom -5>><<stress 6>><<set $phase to 0>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 2583
+  },
+  {
+    "passage": "Doctor Harper's Office Trance",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "175_5_3_7|",
+    "original": "<span class=\"green\">You slip deeper into the trance and return to the familiar state of tranquillity.</span> You hear Harper's voice drifting toward you. \"That's very good.\" <<He>> walks briskly over to the window. <<He>> opens it, and a <<generate2>><<person2>><<person>> climbs through, carrying a large camera and tripod. <<generate3>><<generate4>><<generate5>><<generate6>><<He>> is closely followed by four others, a <<person3>><<person>>, a <<person4>><<person>>, a <<person5>><<person>> and a <<person6>><<person>>.",
+    "translation": "",
+    "pos": 2748
+  },
+  {
+    "passage": "Doctor Harper's Office Trance",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "178_5_3_7|",
+    "original": "<<person2>>While the <<person>> sets up the camera, the other four start handing Harper money.<<person1>> <<He>> counts it, then hides it away in <<his>> drawer before turning to face you. \"Take off your clothes,\" <<he>> says softly.",
+    "translation": "",
+    "pos": 3285
+  },
+  {
+    "passage": "Doctor Harper's Office Trance",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "181_5_3_7|",
+    "original": "<<link [[Take off your clothes (0:20)|Doctor Harper's Office Camera3]]>><<pass 20>><<npcincr Harper dom 5>><<set $phase to 1>><<hypnotised 1>><<strip>><</link>>",
+    "translation": "",
+    "pos": 3533
+  },
+  {
+    "passage": "Doctor Harper's Office Trance",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "183_5_3_7|",
+    "original": "<<link [[Refuse|Doctor Harper's Office Camera3]]>><<npcincr Harper dom -5>><<stress 6>><<set $phase to 0>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 3703
+  },
+  {
+    "passage": "Doctor Harper's Office Camera",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "192_5_3_7|",
+    "original": "You shake yourself free of the effect. Harper quickly hides the camera behind <<his>> back. \"That's enough for today. Remember, don't be afraid to relax.\" <<He>> holds open the door for you. \"Same time next week. Be well.\"",
+    "translation": "",
+    "pos": 85
+  },
+  {
+    "passage": "Doctor Harper's Office Camera",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "195_5_3_7|",
+    "original": "<<link [[Next|Hospital Foyer]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 320
+  },
+  {
+    "passage": "Doctor Harper's Office Camera",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "197_5_3_7|",
+    "original": "You remove your clothing, the flicker of resistance unable to break through the haze. \"Very good.\" Harper says. The softness in <<his>> voice is still present, but there is now also a distinct quavering. \"Just keep focusing on your breath.\" <<He>> starts circling you with the camera, which produces a clicking sound whenever <<he>> momentarily stops.",
+    "translation": "",
+    "pos": 398
+  },
+  {
+    "passage": "Doctor Harper's Office Camera",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "201_5_3_7|",
+    "original": "This continues for several minutes. <<He>> places the camera back in the drawer. \"Put your clothes back on,\" <<he>> says, as <<he>> sits back down and sighs. You dress yourself with robotic motions while Harper watches. After, <<he>> drops <<his>> pen on the ground and brings you back to reality.",
+    "translation": "",
+    "pos": 794
+  },
+  {
+    "passage": "Doctor Harper's Office Camera",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "204_5_3_7|",
+    "original": "<<He>> smiles at you, <<his>> face blushing. \"Today was a success. Well done.\" <<He>> holds open the door for you. \"Same time next week. Be well.\"",
+    "translation": "",
+    "pos": 1104
+  },
+  {
+    "passage": "Doctor Harper's Office Camera",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "207_5_3_7|",
+    "original": "<<link [[Next|Hospital Foyer]]>><<clotheson>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1263
+  },
+  {
+    "passage": "Doctor Harper's Office Camera2",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "214_5_3_7|",
+    "original": "You shake yourself free of the effect. The <<person2>><<person>> doesn't notice, but Harper jumps to action.<<person1>> <<He>> addresses the <<person2>><<person>>.<<person1>> \"Now's not the time for maintenance! Can't you see I have a patient?\"",
+    "translation": "",
+    "pos": 85
+  },
+  {
+    "passage": "Doctor Harper's Office Camera2",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "217_5_3_7|",
+    "original": "<<person2>>The <<person>> looks at Harper blankly for a moment, before realisation dawns on <<his>> face. <<He>> grabs the tripod and leaves via the window. Harper turns to you. \"I don't know why <<he>> didn't just use the door. <<person1>>Never mind, that's enough for today. Remember, don't be afraid to relax.\" <<He>> holds open the door for you. \"Same time next week. Be well.\"",
+    "translation": "",
+    "pos": 342
+  },
+  {
+    "passage": "Doctor Harper's Office Camera2",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "220_5_3_7|",
+    "original": "<<link [[Next|Hospital Foyer]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 736
+  },
+  {
+    "passage": "Doctor Harper's Office Camera2",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "222_5_3_7|",
+    "original": "You take off your clothes. As you do so, a green light winks into existence on the front of the camera. Once completely nude, Harper speaks. \"Very good. Next, I want you to twirl on the spot...\"",
+    "translation": "",
+    "pos": 814
+  },
+  {
+    "passage": "Doctor Harper's Office Camera2",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "225_5_3_7|",
+    "original": "For the next several minutes you obey Harper's instructions. You turn, bend over, and strike numerous poses for the lens of the camera, leaving no inch of your skin unexplored.",
+    "translation": "",
+    "pos": 1021
+  },
+  {
+    "passage": "Doctor Harper's Office Camera2",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "229_5_3_7|",
+    "original": "<<person2>>The <<person>> exchanges a look with Harper, then the green light flickers out. <<He>> begins dismantling the apparatus while Harper <<person1>>retrieves <<his>> own camera and starts snapping pictures.",
+    "translation": "",
+    "pos": 1242
+  },
+  {
+    "passage": "Doctor Harper's Office Camera2",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "232_5_3_7|",
+    "original": "<<person2>>When done, the <<person>> leaves via the window. <<person1>>Harper puts away <<his>> camera and turns back to you. \"Put on your clothes.\" You dress yourself with robotic motions while Harper watches. When you are finished, <<he>> drops <<his>> pen on the ground and brings you back to reality.",
+    "translation": "",
+    "pos": 1468
+  },
+  {
+    "passage": "Doctor Harper's Office Camera2",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "235_5_3_7|",
+    "original": "<<He>> smiles at you, <<his>> face blushing. \"Today was a success. Well done.\" <<He>> holds open the door for you. \"Same time next week. Be well.\"",
+    "translation": "",
+    "pos": 1785
+  },
+  {
+    "passage": "Doctor Harper's Office Camera2",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "238_5_3_7|",
+    "original": "<<link [[Next|Hospital Foyer]]>><<clotheson>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1944
+  },
+  {
+    "passage": "Doctor Harper's Office Camera3",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "245_5_3_7|",
+    "original": "You shake yourself free of the effect. The atmosphere of the room becomes tense and awkward.<<person1>> Harper speaks, sounding exasperated. \"Thank you for letting these students observe the examination. That'll be all for today. Same time next week.\" <<He>> hurries you from the room and promptly closes the door behind you.",
+    "translation": "",
+    "pos": 85
+  },
+  {
+    "passage": "Doctor Harper's Office Camera3",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "248_5_3_7|",
+    "original": "<<link [[Next|Hospital Foyer]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 423
+  },
+  {
+    "passage": "Doctor Harper's Office Camera3",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "252_5_3_7|",
+    "original": "You take off your clothes. As you do so, a green light winks into existence on the front of the camera. Once completely nude, Harper speaks. \"Very good. Next, I want you to twirl on the spot...\"",
+    "translation": "",
+    "pos": 550
+  },
+  {
+    "passage": "Doctor Harper's Office Camera3",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "255_5_3_7|",
+    "original": "For the next several minutes you obey Harper's instructions. You turn, bend over, and strike numerous poses for the lens of the camera, leaving no inch of your skin unexplored. The audience watches intently, looking increasingly flustered. The <<person3>><<person>> gets <<his>> phone out and starts filming.<<fameexhibitionism 50 \"vid\">>",
+    "translation": "",
+    "pos": 759
+  },
+  {
+    "passage": "Doctor Harper's Office Camera3",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "258_5_3_7|",
+    "original": "<<person2>>The <<person>> exchanges a look with Harper, then the green light flickers out. <<He>> begins dismantling the apparatus while Harper <<person1>>retrieves <<his>> own camera and starts snapping pictures.",
+    "translation": "",
+    "pos": 1112
+  },
+  {
+    "passage": "Doctor Harper's Office Camera3",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "261_5_3_7|",
+    "original": "When done, the group leaves via the window. <<person1>>Harper puts away <<his>> camera and turns back to you. \"Put on your clothes.\" You dress yourself with robotic motions while Harper watches. When you are finished, <<he>> drops <<his>> pen on the ground and brings you back to reality.",
+    "translation": "",
+    "pos": 1340
+  },
+  {
+    "passage": "Doctor Harper's Office Camera3",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "264_5_3_7|",
+    "original": "<<He>> smiles at you, <<his>> face blushing. \"Today was a success. Well done.\" <<He>> holds open the door for you. \"Same time next week. Be well.\"",
+    "translation": "",
+    "pos": 1643
+  },
+  {
+    "passage": "Doctor Harper's Office Camera3",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "267_5_3_7|",
+    "original": "<<link [[Next|Hospital Foyer]]>><<clotheson>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1804
+  },
+  {
+    "passage": "Doctor Harper's Office Camera3",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "270_5_3_7|",
+    "original": "You take off your clothes. As you do so, a green light winks into existence on the front of the camera. Once completely nude, Harper speaks. \"Very good. Next, I want you to twirl on the spot...\"",
+    "translation": "",
+    "pos": 1926
+  },
+  {
+    "passage": "Doctor Harper's Office Camera3",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "273_5_3_7|",
+    "original": "For the next several minutes you obey Harper's instructions. You turn, bend over, and strike numerous poses for the lens of the camera, leaving no inch of your skin unexplored. The audience watches intently, looking increasingly flustered. The <<person3>><<person>> gets <<his>> phone out and starts filming.<<fameexhibitionism 50 \"vid\">>",
+    "translation": "",
+    "pos": 2135
+  },
+  {
+    "passage": "Doctor Harper's Office Camera3",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "276_5_3_7|",
+    "original": "<<person2>>The <<person>> exchanges a look with Harper, then the green light flickers out. <<He>> begins dismantling the apparatus while Harper <<person1>>retrieves <<his>> own camera and starts snapping pictures.",
+    "translation": "",
+    "pos": 2488
+  },
+  {
+    "passage": "Doctor Harper's Office Camera3",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "279_5_3_7|",
+    "original": "You hear the <<person3>><<person>> say something, but you can't make it out. <<person1>>Everyone looks at Harper expectantly. <<He>> pauses for a moment, then nods. Immediately, a salacious feeling fills the room, and the audience moves closer.",
+    "translation": "",
+    "pos": 2716
+  },
+  {
+    "passage": "Doctor Harper's Office Camera3",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "282_5_3_7|",
+    "original": "<<link [[Next|Doctor Harper's Office Camera Molestation]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 2975
+  },
+  {
+    "passage": "Doctor Harper's Office Camera Molestation",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "307_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Doctor Harper's Office Camera Molestation Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 407
+  },
+  {
+    "passage": "Doctor Harper's Office Camera Molestation",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "309_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Doctor Harper's Office Camera Molestation]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 528
+  },
+  {
+    "passage": "Doctor Harper's Office Camera Molestation Finish",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "319_5_3_7|",
+    "original": "The audience backs away from you, surprised by your aggression.",
+    "translation": "",
+    "pos": 172
+  },
+  {
+    "passage": "Doctor Harper's Office Camera Molestation Finish",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "322_5_3_7|",
+    "original": "\"That's enough,\" Harper announces. \"We can't overdo it. Everyone back off.\" The audience does so, albeit reluctantly. They watch you spasm on the floor, until your orgasm recedes completely.",
+    "translation": "",
+    "pos": 254
+  },
+  {
+    "passage": "Doctor Harper's Office Camera Molestation Finish",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "324_5_3_7|",
+    "original": "The group soon leaves via the window. <<person1>> Harper closes it then turns to face you. \"Put on your clothes.\" You dress yourself with robotic motions while Harper watches. When you are finished, <<he>> drops <<his>> pen on the ground and brings you back to reality.",
+    "translation": "",
+    "pos": 454
+  },
+  {
+    "passage": "Doctor Harper's Office Camera Molestation Finish",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "329_5_3_7|",
+    "original": "<<He>> smiles at you, <<his>> face blushing. \"Today was a success. Well done.\" <<He>> holds open the door for you. \"Same time next week. Be well.\" You feel strangely drained.",
+    "translation": "",
+    "pos": 749
+  },
+  {
+    "passage": "Doctor Harper's Office Camera Molestation Finish",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "334_5_3_7|",
+    "original": "<<link [[Next|Hospital Foyer]]>><<clotheson>><</link>>",
+    "translation": "",
+    "pos": 949
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "339_5_3_7|",
+    "original": "<<He>> gently probes your <<genitals>> with <<his>> fingers.",
+    "translation": "",
+    "pos": 21
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "341_5_3_7|",
+    "original": "Cum and other lewd fluids",
+    "translation": "",
+    "pos": 176
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "343_5_3_7|",
+    "original": "gush",
+    "translation": "",
+    "pos": 256
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "345_5_3_7|",
+    "original": "dribble",
+    "translation": "",
+    "pos": 275
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "347_5_3_7|",
+    "original": "out <<if $player.penisExist>>of your pussy <</if>>and Harper's hands snap back.",
+    "translation": "",
+    "pos": 295
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "349_5_3_7|",
+    "original": "\"Sexual activity is perfectly normal, but it is crucial to look after your hygiene,\" Harper rebukes.",
+    "translation": "",
+    "pos": 388
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "351_5_3_7|",
+    "original": "Harper grabs a glass beaker from a nearby cupboard and holds it under your butt. With the other hand <<he>> holds open your vagina,",
+    "translation": "",
+    "pos": 498
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "352_5_3_7|",
+    "original": "allowing the lewd fluids to drain out into the beaker.",
+    "translation": "",
+    "pos": 632
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "355_5_3_7|",
+    "original": "\"There's still more,\" Harper says. A moment later, a finger is pushed deep inside your vagina. A final wave of fluids run out.",
+    "translation": "",
+    "pos": 748
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "359_5_3_7|",
+    "original": "\"There,\" <<he>> says. \"I'll take this away for... for testing. Now let's resume.\"",
+    "translation": "",
+    "pos": 930
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "361_5_3_7|",
+    "original": "Harper resumes the exam.",
+    "translation": "",
+    "pos": 1025
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "363_5_3_7|",
+    "original": "Almost as soon as <<he>> touches you, you feel a distinct warmth spread through your groin. You try to resist, but you don't have any control over it.",
+    "translation": "",
+    "pos": 1060
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "365_5_3_7|",
+    "original": "Your penis soon stands conspicuously erect. Harper continues as if nothing is amiss.",
+    "translation": "",
+    "pos": 1282
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "367_5_3_7|",
+    "original": "Your penis soon attempts to form an erection despite the lack of space. Harper continues as if nothing is amiss.",
+    "translation": "",
+    "pos": 1400
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "369_5_3_7|",
+    "original": "You can feel the fluid leaking from your slit. Harper lifts <<his>> hand up to <<his>> eyes, and you see the liquid drip from <<his>> fingers.",
+    "translation": "",
+    "pos": 1525
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "374_5_3_7|",
+    "original": "\"There's no need to be ashamed. This is a perfectly natural and normal response,\" <<he>> says in a dry tone.",
+    "translation": "",
+    "pos": 1690
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "375_5_3_7|",
+    "original": "<<He>> continues <<his>> systematic investigation of your <<genitals 1>>.",
+    "translation": "",
+    "pos": 1800
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "380_5_3_7|",
+    "original": "The warmth within you continues to build, but Harper shows no sign of letting up. You feel yourself pass the point of no return, and you whimper softly.",
+    "translation": "",
+    "pos": 1988
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "381_5_3_7|",
+    "original": "\"Please, no.\" Harper is looking at you puzzled when it hits you. The orgasm emerges and your back immediately arcs.",
+    "translation": "",
+    "pos": 2143
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "382_5_3_7|",
+    "original": "Uncontrollable moans escape your lips and you grip the side of the bed to stop your arms flailing.",
+    "translation": "",
+    "pos": 2261
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "388_5_3_7|",
+    "original": "You ejaculate, generating a large wet patch and filling the inside of your $worn.genitals.name with your fluids.",
+    "translation": "",
+    "pos": 2549
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "390_5_3_7|",
+    "original": "You ejaculate, generating a large wet patch and filling the inside of your $worn.under_lower.name with your fluids.",
+    "translation": "",
+    "pos": 2722
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "392_5_3_7|",
+    "original": "Semen spurts from the tip of your penis, rising into the air and splattering all over your thighs and torso.",
+    "translation": "",
+    "pos": 2854
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "396_5_3_7|",
+    "original": "Despite it all, Harper continues as if absolutely nothing is amiss. You lie there, spent and humiliated, as <<he>> finishes <<his>> examination. Finally, <<he>> grabs some paper towels and starts cleaning you up. You pretend to be elsewhere.",
+    "translation": "",
+    "pos": 2987
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "400_5_3_7|",
+    "original": "\"There we go, all done.\" <<He>> pushes <<his>> chair back over to <<his>> desk and starts typing something. \"You can put your clothes back on.\" You do so without delay. \"You seem to be perfectly healthy.\" <<He>> shows you to the door as soon as you're dressed. \"Same time next week. Be well.\"",
+    "translation": "",
+    "pos": 3251
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "403_5_3_7|",
+    "original": "<<link [[Next|Hospital Foyer]]>><<clotheson>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 3556
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "405_5_3_7|",
+    "original": "<<person1>><<He>> gently probes your <<genitals>> with <<his>> fingers.",
+    "translation": "",
+    "pos": 3647
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "407_5_3_7|",
+    "original": "Cum and other lewd fluids",
+    "translation": "",
+    "pos": 3813
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "409_5_3_7|",
+    "original": "gush",
+    "translation": "",
+    "pos": 3893
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "411_5_3_7|",
+    "original": "leak",
+    "translation": "",
+    "pos": 3912
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "413_5_3_7|",
+    "original": "out <<if $player.penisExist>>of your pussy<</if>>.",
+    "translation": "",
+    "pos": 3929
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "414_5_3_7|",
+    "original": "Harper's hands snap back and you hear the <<person2>><<person>> gasp.",
+    "translation": "",
+    "pos": 3982
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "416_5_3_7|",
+    "original": "\"Sexual activity is perfectly normal, but it is crucial to look after your hygiene,\" Harper rebukes. \"Hey you, uhh... Student. Bring over a beaker. No, a beaker. The glass thing in that cupboard there. There! That's it.\"",
+    "translation": "",
+    "pos": 4061
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "418_5_3_7|",
+    "original": "The <<person>> walks over with a glass beaker.",
+    "translation": "",
+    "pos": 4291
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "420_5_3_7|",
+    "original": "\"Hold it here,\" Harper indicates just under your pussy. You feel the cold glass press against your butt.",
+    "translation": "",
+    "pos": 4351
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "422_5_3_7|",
+    "original": "\"Good,\" Harper puts two fingers in your <<pussy>> and spreads, allowing the lewd fluids to drain out into the beaker.",
+    "translation": "",
+    "pos": 4465
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "426_5_3_7|",
+    "original": "\"I can still see more,\" the <<person>> says.",
+    "translation": "",
+    "pos": 4673
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "428_5_3_7|",
+    "original": "\"Go on then.\"",
+    "translation": "",
+    "pos": 4729
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "430_5_3_7|",
+    "original": "A moment later, a finger is pushed deep inside your vagina.",
+    "translation": "",
+    "pos": 4754
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "432_5_3_7|",
+    "original": "A final wave of fluids run out.",
+    "translation": "",
+    "pos": 4848
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "434_5_3_7|",
+    "original": "\"Good work, that's it,\"",
+    "translation": "",
+    "pos": 4891
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "436_5_3_7|",
+    "original": "\"That's it,\"",
+    "translation": "",
+    "pos": 4929
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "439_5_3_7|",
+    "original": "Harper says. \"Put the beaker over there for later. For testing that is. Let's resume.\"",
+    "translation": "",
+    "pos": 4989
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "441_5_3_7|",
+    "original": "<<person1>>Harper resumes the exam.",
+    "translation": "",
+    "pos": 5089
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "443_5_3_7|",
+    "original": "Almost as soon as <<he>> touches you, you feel a distinct warmth spread through your groin. You try to resist, but you don't have any control over it.",
+    "translation": "",
+    "pos": 5135
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "445_5_3_7|",
+    "original": "Your penis soon stands conspicuously erect. Harper continues as if nothing is amiss.",
+    "translation": "",
+    "pos": 5357
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "447_5_3_7|",
+    "original": "Your penis soon attempts to form erection despite the lack of space. Harper continues as if nothing is amiss.",
+    "translation": "",
+    "pos": 5475
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "449_5_3_7|",
+    "original": "You can feel the fluid leaking from your slit. Harper lifts <<his>> hand up to <<his>> eyes, and you see the liquid drip from <<his>> fingers.",
+    "translation": "",
+    "pos": 5597
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "453_5_3_7|",
+    "original": "\"There's no need to be ashamed. This is a perfectly natural and normal response,\" <<he>> says in a dry tone. \"Student, come give me a hand.\" <<person2>>The <<person>> arrives at your side, looking nervous but eager.<<person1>> Together, they continue the systematic investigation of your <<genitals 1>>.",
+    "translation": "",
+    "pos": 5761
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "458_5_3_7|",
+    "original": "The warmth within you continues to build, but Harper and the <<person2>><<person>><<person1>> show no sign of letting up. You feel yourself pass the point of no return, and you whimper softly. \"Please, no.\" Harper is looking at you puzzled when it hits you. The orgasm emerges and your back immediately arcs. Uncontrollable moans escape your lips and you grip the side of the bed to stop your arms flailing. The <<person2>><<person>> gasps.<<person1>>",
+    "translation": "",
+    "pos": 6179
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "464_5_3_7|",
+    "original": "You ejaculate, generating a large wet patch and filling the inside of your $worn.genitals.name with your fluids.",
+    "translation": "",
+    "pos": 6820
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "466_5_3_7|",
+    "original": "You ejaculate, generating a large wet patch and filling the inside of your $worn.under_lower.name with your fluids.",
+    "translation": "",
+    "pos": 6993
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "468_5_3_7|",
+    "original": "Semen spurts from the tip of your penis, rising into the air and splattering all over your thighs and torso.",
+    "translation": "",
+    "pos": 7125
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "472_5_3_7|",
+    "original": "Despite it all, Harper continues as if absolutely nothing is amiss. You lie there, spent and humiliated, as <<he>> finishes <<his>> examination. Finally, <<he>> grabs some paper towels and starts cleaning you up. You pretend to be elsewhere.",
+    "translation": "",
+    "pos": 7258
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "476_5_3_7|",
+    "original": "\"There we go, all done.\" <<He>> pushes <<his>> chair back over to <<his>> desk and starts typing something. \"You can put your clothes back on.\" You do so without delay. \"You seem to be perfectly healthy.\" <<He>> shows you to the door as soon as you're dressed. \"Same time next week. Be well.\"",
+    "translation": "",
+    "pos": 7522
+  },
+  {
+    "passage": "Doctor Harper's Office Exam",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "479_5_3_7|",
+    "original": "<<link [[Next|Hospital Foyer]]>><<clotheson>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 7827
+  },
+  {
+    "passage": "Doctor Harper's Office School",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "485_5_3_7|",
+    "original": "You approach the front desk, holding out the card the school nurse gave you.",
+    "translation": "",
+    "pos": 65
+  },
+  {
+    "passage": "Doctor Harper's Office School",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "487_5_3_7|",
+    "original": "The receptionist examines it from across the counter, then points to a sign.",
+    "translation": "",
+    "pos": 168
+  },
+  {
+    "passage": "Doctor Harper's Office School",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "491_5_3_7|",
+    "original": "You follow the sign's direction until you arrive at a dark door in a quiet section of the hospital. The same name on the card is imposed on a metallic plate: Doctor Harper.",
+    "translation": "",
+    "pos": 270
+  },
+  {
+    "passage": "Doctor Harper's Office School",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "494_5_3_7|",
+    "original": "<<link [[Next|Doctor Harper's Office]]>><<set $daily.harperVisit to 1>><</link>>",
+    "translation": "",
+    "pos": 455
+  },
+  {
+    "passage": "Doctor Harper's Office School",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "497_5_3_7|",
+    "original": "The receptionist examines it from across the counter.",
+    "translation": "",
+    "pos": 552
+  },
+  {
+    "passage": "Doctor Harper's Office School",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "500_5_3_7|",
+    "original": "\"The doctor isn't taking patients today,\" you're told. \"<span class=\"gold\">Come back on Friday.</span>\"",
+    "translation": "",
+    "pos": 618
+  },
+  {
+    "passage": "Doctor Harper's Office School",
+    "filepath": "overworld-town/loc-hospital/appointments.twee",
+    "key": "503_5_3_7|",
+    "original": "<<link [[Next|Hospital Foyer]]>><</link>>",
+    "translation": "",
+    "pos": 734
+  }
+]

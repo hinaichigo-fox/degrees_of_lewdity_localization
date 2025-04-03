@@ -1,0 +1,2402 @@
+[
+  {
+    "passage": "Museum Look around",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "5_5_3_7|",
+    "original": "You look around the museum. The pedestals are grooved, as if awaiting specific objects.",
+    "translation": "",
+    "pos": 70
+  },
+  {
+    "passage": "Museum Look around",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "8_5_3_7|",
+    "original": "The museum is <span class=\"red\">empty</span>.",
+    "translation": "",
+    "pos": 208
+  },
+  {
+    "passage": "Museum Look around",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "10_5_3_7|",
+    "original": "The museum is almost empty.",
+    "translation": "",
+    "pos": 326
+  },
+  {
+    "passage": "Museum Look around",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "12_5_3_7|",
+    "original": "The museum looks better than it did.",
+    "translation": "",
+    "pos": 426
+  },
+  {
+    "passage": "Museum Look around",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "14_5_3_7|",
+    "original": "The museum has a reasonable collection.",
+    "translation": "",
+    "pos": 537
+  },
+  {
+    "passage": "Museum Look around",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "16_5_3_7|",
+    "original": "The museum has a good collection.",
+    "translation": "",
+    "pos": 652
+  },
+  {
+    "passage": "Museum Look around",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "18_5_3_7|",
+    "original": "The museum has an amazing collection.",
+    "translation": "",
+    "pos": 754
+  },
+  {
+    "passage": "Museum Look around",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "20_5_3_7|",
+    "original": "Every spot is full.",
+    "translation": "",
+    "pos": 860
+  },
+  {
+    "passage": "Museum Look around",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "26_5_3_7|",
+    "original": "<summary class=\"journal\">Museum Items</summary>",
+    "translation": "",
+    "pos": 959
+  },
+  {
+    "passage": "Museum Look around",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "30_5_3_7|",
+    "original": "<<case \"museum\">>",
+    "translation": "",
+    "pos": 1122
+  },
+  {
+    "passage": "Museum Look around",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "31_5_3_7|",
+    "original": "<div class=\"item\" @tooltip=\"_museumAntiqueText[_labelM].museum\">",
+    "translation": "",
+    "pos": 1145
+  },
+  {
+    "passage": "Museum Look around",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "34_5_3_7|",
+    "original": "<<case \"stolen\">>",
+    "translation": "",
+    "pos": 1274
+  },
+  {
+    "passage": "Museum Look around",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "35_5_3_7|",
+    "original": "<div class=\"item\" @tooltip=\"_museumAntiqueText[_labelM].stolen\">",
+    "translation": "",
+    "pos": 1297
+  },
+  {
+    "passage": "Museum Look around",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "38_5_3_7|",
+    "original": "<<case \"recovered\">>",
+    "translation": "",
+    "pos": 1412
+  },
+  {
+    "passage": "Museum Look around",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "39_5_3_7|",
+    "original": "<div class=\"item\" @tooltip=\"_museumAntiqueText[_labelM].recovered\">",
+    "translation": "",
+    "pos": 1438
+  },
+  {
+    "passage": "Museum Look around",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "42_5_3_7|",
+    "original": "<<case \"found\" \"talk\">>",
+    "translation": "",
+    "pos": 1570
+  },
+  {
+    "passage": "Museum Look around",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "44_5_3_7|",
+    "original": "<div class=\"item\" @tooltip=\"$_tooltip\">",
+    "translation": "",
+    "pos": 1695
+  },
+  {
+    "passage": "Museum Look around",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "45_5_3_7|",
+    "original": "<span class=\"icon-container\">",
+    "translation": "",
+    "pos": 1742
+  },
+  {
+    "passage": "Museum Look around",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "50_5_3_7|",
+    "original": "<<case \"notFound\">>",
+    "translation": "",
+    "pos": 1912
+  },
+  {
+    "passage": "Museum Look around",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "51_5_3_7|",
+    "original": "<div class=\"item\" tooltip=\"Empty.\">",
+    "translation": "",
+    "pos": 1937
+  },
+  {
+    "passage": "Museum Look around",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "64_5_3_7|",
+    "original": "As you look around, Winter approaches.",
+    "translation": "",
+    "pos": 2262
+  },
+  {
+    "passage": "Museum Look around",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "66_5_3_7|",
+    "original": "<<print _museumAntiqueText[$winterHint].hint>>",
+    "translation": "",
+    "pos": 2314
+  },
+  {
+    "passage": "Museum Look around",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "77_5_3_7|",
+    "original": "<<getouticon>><<link [[Go back to the entrance|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 2606
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "88_5_3_7|",
+    "original": "<<case \"museum\">><<set $museumAntiques.museumCount++>>",
+    "translation": "",
+    "pos": 566
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "89_5_3_7|",
+    "original": "<<case \"stolen\">><<set $museumAntiques.stolenCount++>>",
+    "translation": "",
+    "pos": 625
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "90_5_3_7|",
+    "original": "<<case \"recovered\">><<set $museumAntiques.recoveredCount++>>",
+    "translation": "",
+    "pos": 684
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "103_5_3_7|",
+    "original": "hint: `\"For a jewellery case,\" Winter says while gesturing at an empty pedestal. \"People around here used to keep their valuables in ornate boxes, sculpted of the finest ivory and hewn from wood found right outside town.",
+    "translation": "",
+    "pos": 1174
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "104_5_3_7|",
+    "original": "I'd imagine they don't look like anything you'd find today.\"<br><br> <<He>> turns away. \"If you had paid attention in my class, you might know what to look for.\"`,",
+    "translation": "",
+    "pos": 1400
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "105_5_3_7|",
+    "original": "museum: \"The ivory box sits on a pedestal.\",",
+    "translation": "",
+    "pos": 1568
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "106_5_3_7|",
+    "original": "name: \"Waterlogged Ivory Box\",",
+    "translation": "",
+    "pos": 1617
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "107_5_3_7|",
+    "original": "journal: `\"A jewellery case. People around here used to keep their valuables in ornate boxes, sculpted of the finest ivory and hewn from wood found right outside town. I'd imagine they don't look like anything you'd find today. If you had paid attention in my class, you might know what to look for.\"`,",
+    "translation": "",
+    "pos": 1652
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "112_5_3_7|",
+    "original": "hint: `\"For a simple silver band,\" Winter says while gesturing at an empty pedestal. \"Silver was common in jewellery like this. Hardy enough to outlive its owner, so it was often buried with them.\" <br><br><<He>> turns away. \"Silver is even known to hold up well underwater, compared to most other metals.\"`,",
+    "translation": "",
+    "pos": 2074
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "113_5_3_7|",
+    "original": "museum: \"The worn silver ring sits on a red pillow on top of a pedestal.\",",
+    "translation": "",
+    "pos": 2387
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "114_5_3_7|",
+    "original": "name: \"Worn Silver Ring\",",
+    "translation": "",
+    "pos": 2466
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "115_5_3_7|",
+    "original": "journal: `\"A simple silver band. Silver was common in jewellery like this. Hardy enough to outlive its owner, so it was often buried with them. Silver is even known to hold up well underwater, compared to most other metals.\"`,",
+    "translation": "",
+    "pos": 2496
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "120_5_3_7|",
+    "original": "hint: `\"For a gold necklace. This would be quite the rare find,\" Winter says while gesturing at an empty pedestal. \"Usually worn by people of a higher class.\"<br><br><<He>> turns away. \"Did you know that Gold never rusts? You could keep it submerged until the end of time.\"`,",
+    "translation": "",
+    "pos": 2837
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "121_5_3_7|",
+    "original": "museum: \"The ornate gold necklace sits on a red pillow on top of a pedestal.\",",
+    "translation": "",
+    "pos": 3117
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "122_5_3_7|",
+    "original": "name: \"Ornate Gold Necklace\",",
+    "translation": "",
+    "pos": 3200
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "123_5_3_7|",
+    "original": "journal: `\"A gold necklace. This would be quite the rare find. Usually worn by people of a higher class. Did you know that Gold never rusts? You could keep it submerged until the end of time.\"`,",
+    "translation": "",
+    "pos": 3234
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "128_5_3_7|",
+    "original": "hint: `\"I'm not certain that this one exists,\" Winter says while gesturing at an empty pedestal. \"There's an old poem mentioning something like it. 'Great beast's tusks, carved anew. Starlight sapphire, midnight blue. Cut to perfection, lustre and hue. Immaculate vanity, known by the few. Locked away forever, the writhing ensue. Locked away forever, in lake creature's slew. Cast away forever, the waves to chew. Cast away forever, to be found by...'\" <<He>> turns on the spot, flicking you on the nose. \"You.\"<br><br><<He>> turns away. \"You would most likely find something like this surrounded by lesser jewellery. Good luck.\"`,",
+    "translation": "",
+    "pos": 3548
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "129_5_3_7|",
+    "original": "museum: \"The spot for the immaculate ivory necklace is bare, as it was taken away.\",",
+    "translation": "",
+    "pos": 4185
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "130_5_3_7|",
+    "original": "name: \"Immaculate Ivory Necklace\",",
+    "translation": "",
+    "pos": 4274
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "131_5_3_7|",
+    "original": "journal: `\"An ivory necklace. I'm not certain that this one exists, there's an old poem mentioning something like it. 'Great beast's tusks, carved anew. Starlight sapphire, midnight blue. Cut to perfection, lustre and hue. Immaculate vanity, known by the few. Locked away forever, the writhing ensue. Locked away forever, in lake creature's slew. Cast away forever, the waves to chew. Cast away forever, to be found by...' You. You would most likely find something like this surrounded by lesser jewellery. Good luck.\"`,",
+    "translation": "",
+    "pos": 4313
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "136_5_3_7|",
+    "original": "hint: `\"I received a call about the object meant for this one,\" Winter says while gesturing at an empty pedestal. \"A small pinkish crystal with an engraving. How unusual.\"<br><br><<He>> turns away. \"Whoever called about it mentioned losing something down a drainage pipe.\"`,",
+    "translation": "",
+    "pos": 4940
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "137_5_3_7|",
+    "original": "museum: \"The arousing crystal sits on a red pillow on top of a pedestal.\",",
+    "translation": "",
+    "pos": 5219
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "138_5_3_7|",
+    "original": "name: \"Arousing Crystal\",",
+    "translation": "",
+    "pos": 5298
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "139_5_3_7|",
+    "original": "journal: `\"I received a call about the object meant for this one, a small pinkish crystal with an engraving. How unusual. Whoever called about it mentioned losing something down a drainage pipe.\"`,",
+    "translation": "",
+    "pos": 5328
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "144_5_3_7|",
+    "original": "hint: `\"For a hunting trophy of some kind,\" Winter says while gesturing at an empty pedestal. \"A hollowed out horn. Hunters in the old town loved their trophies.\"<br><br><<He>> turns away. \"Sadly, most remains of the old town are buried.\"`,",
+    "translation": "",
+    "pos": 5634
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "145_5_3_7|",
+    "original": "museum: \"The hunting horn sits on a red pillow on top of a pedestal.\",",
+    "translation": "",
+    "pos": 5879
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "146_5_3_7|",
+    "original": "name: \"Hunting Horn\",",
+    "translation": "",
+    "pos": 5954
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "147_5_3_7|",
+    "original": "journal: `\"A hunting trophy of some kind, a hollowed out horn. Hunters in the old town loved their trophies. Sadly, most remains of the old town are buried.\"`,",
+    "translation": "",
+    "pos": 5980
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "151_5_3_7|",
+    "original": "hint: `\"For old clockwork, most likely non-functional,\" Winter says while gesturing at an empty pedestal. \"You'd be surprised how valuable a simple wristwatch could be.\"<br><br><<He>> turns away. \"Sometimes they were even locked in specialised safe boxes with a matching timer.\"`,",
+    "translation": "",
+    "pos": 6208
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "152_5_3_7|",
+    "original": "museum: \"The old watch sits in a specially prepared case on top of a pedestal.\",",
+    "translation": "",
+    "pos": 6493
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "153_5_3_7|",
+    "original": "name: \"Old Watch\",",
+    "translation": "",
+    "pos": 6578
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "154_5_3_7|",
+    "original": "journal: `\"Old clockwork of some sort, you'd be surprised how valuable a simple wristwatch could be. Sometimes they were even locked in specialised safe boxes with a matching timer.\"`,",
+    "translation": "",
+    "pos": 6601
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "158_5_3_7|",
+    "original": "hint: `\"Let's call this one a medical aid,\" Winter says while gesturing at an empty pedestal. \"Beyond obsolete. Often unsanitary.\"<br><br><<He>> turns away. \"Speaking of unsanitary, I heard that someone managed to stumble into the old sewers.\"`,",
+    "translation": "",
+    "pos": 6855
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "159_5_3_7|",
+    "original": "museum: \"The odd medical aid sits on a pedestal.\",",
+    "translation": "",
+    "pos": 7105
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "160_5_3_7|",
+    "original": "name: \"Odd Medical Aid\",",
+    "translation": "",
+    "pos": 7160
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "161_5_3_7|",
+    "original": "journal: `\"A 'medical aid.' Beyond obsolete. Often unsanitary. Speaking of unsanitary, I heard that someone managed to stumble into the old sewers.\"`,",
+    "translation": "",
+    "pos": 7189
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "165_5_3_7|",
+    "original": "hint: `\"For a humble candle, turned into a symbol of power for a house of nobles,\" Winter says while gesturing at an empty pedestal. \"With how many were made, there must be some still around.\"<br><br><<He>> turns away. \"The old sewers are the most likely place to find one.\"`,",
+    "translation": "",
+    "pos": 7415
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "166_5_3_7|",
+    "original": "museum: \"The noble candle stick sits in a mockup of a sconce hanging from the wall.\",",
+    "translation": "",
+    "pos": 7696
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "167_5_3_7|",
+    "original": "name: \"Noble Candlestick\",",
+    "translation": "",
+    "pos": 7786
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "168_5_3_7|",
+    "original": "journal: `\"A humble candle, turned into a symbol of power for a house of nobles. With how many were made, there must be some still around. The old sewers are the most likely place to find one.\"`,",
+    "translation": "",
+    "pos": 7817
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "172_5_3_7|",
+    "original": "hint: `\"For an arrowhead. A very common find,\" Winter says while gesturing at an empty pedestal. \"Little more than a curiosity, but having one to display would be valued nonetheless.\"<br><br><<He>> turns away. \"They're strewn about everywhere just outside of town.\"`,",
+    "translation": "",
+    "pos": 8094
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "173_5_3_7|",
+    "original": "museum: \"The mossy forest arrow sits on a green pillow on top of a pedestal.\",",
+    "translation": "",
+    "pos": 8366
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "174_5_3_7|",
+    "original": "name: \"Mossy Forest Arrow\",",
+    "translation": "",
+    "pos": 8449
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "175_5_3_7|",
+    "original": "journal: `\"An arrowhead. A very common find, little more than a curiosity, but having one to display would be valued nonetheless. They're strewn about everywhere just outside of town.\"`,",
+    "translation": "",
+    "pos": 8481
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "180_5_3_7|",
+    "original": "hint: `\"For an old weapon,\" Winter says while gesturing at an empty pedestal. \"Most likely buried under a few metres of dirt, and a good distance away from town.\"<br><br><<He>> turns away. \"Watch where you step out there, just in case.\"`,",
+    "translation": "",
+    "pos": 8774
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "181_5_3_7|",
+    "original": "museum: \"The rusted forest dagger sits on a green pillow on top of a pedestal.\",",
+    "translation": "",
+    "pos": 9017
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "182_5_3_7|",
+    "original": "name: \"Rusted Forest Dagger\",",
+    "translation": "",
+    "pos": 9102
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "183_5_3_7|",
+    "original": "journal: `\"An old weapon, most likely buried under a few metres of dirt, and a good distance away from town. Watch where you step out there, just in case.\"`,",
+    "translation": "",
+    "pos": 9136
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "188_5_3_7|",
+    "original": "hint: `\"Someone from the same class as you reported this one to me,\" Winter says while gesturing at an empty pedestal. \"They spun a tale of a verdant gemstone with shifting patterns that made them feel unnaturally calm. If it is indeed real, there's a decent reward for bringing it to me.\"<br><br><<He>> turns away. \"They used to mine gems like this deep in the forest.\"`,",
+    "translation": "",
+    "pos": 9399
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "189_5_3_7|",
+    "original": "museum: \"The pulsing forest gem sits on a green pillow on top of a pedestal.\",",
+    "translation": "",
+    "pos": 9776
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "190_5_3_7|",
+    "original": "name: \"Pulsing Forest Gem\",",
+    "translation": "",
+    "pos": 9859
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "191_5_3_7|",
+    "original": "journal: `\"Someone from the same class as you reported this one to me, they spun a tale of a verdant gemstone with shifting patterns that made them feel unnaturally calm. If it is indeed real, there's a decent reward for bringing it to me. They used to mine gems like this deep in the forest.\"`,",
+    "translation": "",
+    "pos": 9891
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "196_5_3_7|",
+    "original": "hint: `\"I'm at a loss,\" Winter says while gesturing at an empty pedestal. \"For a brooch made from sterling silver. Something like this should be more common. The design was popular just a few decades ago.\"<br><br><<He>> turns away. \"It's likely hidden away in a loft somewhere. Someone with a rebellious streak is bound to find one digging through their parents' old belongings eventually.\"`,",
+    "translation": "",
+    "pos": 10305
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "197_5_3_7|",
+    "original": "museum: \"The silver brooch sits on a pedestal.\",",
+    "translation": "",
+    "pos": 10702
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "198_5_3_7|",
+    "original": "name: \"Silver Brooch\",",
+    "translation": "",
+    "pos": 10755
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "199_5_3_7|",
+    "original": "journal: `\"A brooch made from sterling silver. Something like this should be more common. The design was popular just a few decades ago. It's likely hidden away in a loft somewhere. Someone with a rebellious streak is bound to find one digging through their parents' old belongings eventually.\"`,",
+    "translation": "",
+    "pos": 10782
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "203_5_3_7|",
+    "original": "hint: `\"Such a shame,\" Winter says while gesturing at an empty pedestal. \"For a simple drinking cup. These were common barely a century ago. No one thinks to keep them around.\"<br><br><<He>> turns away. \"Most people toss them away like common rubbish.\"`,",
+    "translation": "",
+    "pos": 11159
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "204_5_3_7|",
+    "original": "museum: \"The discarded cup sits on a pedestal.\",",
+    "translation": "",
+    "pos": 11418
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "205_5_3_7|",
+    "original": "name: \"Discarded Cup\",",
+    "translation": "",
+    "pos": 11471
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "206_5_3_7|",
+    "original": "journal: `\"A simple drinking cup. These were common barely a century ago. No one thinks to keep them around. Most people toss them away like common rubbish.\"`,",
+    "translation": "",
+    "pos": 11498
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "210_5_3_7|",
+    "original": "hint: `\"For an incense burner used in religious ceremonies,\" Winter says while gesturing at an empty pedestal. \"The temple still has some lying around. Don't think you can just take one, though.\"<br><br><<He>> turns away. \"They threw away a batch of these not too long ago. I suspect they burn through after too much use.\"`,",
+    "translation": "",
+    "pos": 11731
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "211_5_3_7|",
+    "original": "museum: \"The incense burner sits on a pedestal. It seems to have been cleaned and restored recently.\",",
+    "translation": "",
+    "pos": 12060
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "212_5_3_7|",
+    "original": "name: \"Incense Burner\",",
+    "translation": "",
+    "pos": 12167
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "213_5_3_7|",
+    "original": "journal: `\"An incense burner used in religious ceremonies, the temple still has some lying around. Don't think you can just take one, though. They threw away a batch of these not too long ago. I suspect they burn through after too much use.\"`,",
+    "translation": "",
+    "pos": 12195
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "217_5_3_7|",
+    "original": "hint: `\"For an exotic statuette, cast in brass. These particular ones were never produced here,\" Winter says while gesturing at an empty pedestal. \"Truly ancient. It might have spiritual significance to whoever brought it here.\"<br><br><<He>> turns away. \"I'm sure you could find something like this if you dug through enough religious areas.\"`,",
+    "translation": "",
+    "pos": 12519
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "218_5_3_7|",
+    "original": "museum: \"The forgotten brass statuette sits on a pedestal.\",",
+    "translation": "",
+    "pos": 12869
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "219_5_3_7|",
+    "original": "name: \"Forgotten Brass Statuette\",",
+    "translation": "",
+    "pos": 12934
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "220_5_3_7|",
+    "original": "journal: `\"An exotic statuette, cast in brass. These particular ones were never produced here, truly ancient. It might have spiritual significance to whoever brought it here. I'm sure you could find something like this if you dug through enough religious areas.\"`,",
+    "translation": "",
+    "pos": 12973
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "225_5_3_7|",
+    "original": "hint: `\"I have a particular interest in this one,\" Winter says while gesturing at an empty pedestal. \"Priestesses of old would wear special... protection, for ceremonies. Higher quality than what the temple gives out today. I imagine it could be used for more than just protection, however.\"<br><br><<He>> turns away. \"The word 'Gilded' comes up in the translation multiple times. Reminds me of a tale of tainted religious objects being cleansed in a holy lake.\"`,",
+    "translation": "",
+    "pos": 13364
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "226_5_3_7|",
+    "original": "museum: \"The golden chastity belt is wrapped around a feminine mannequin.\",",
+    "translation": "",
+    "pos": 13833
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "227_5_3_7|",
+    "original": "name: \"Golden Chastity Belt\",",
+    "translation": "",
+    "pos": 13913
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "228_5_3_7|",
+    "original": "journal: `\"Priestesses of old would wear special... protection, for ceremonies. Higher quality than what the temple gives out today. I imagine it could be used for more than just protection, however. The word 'Gilded' comes up in the translation multiple times. Reminds me of a tale of tainted religious objects being cleansed in a holy lake.\"`,",
+    "translation": "",
+    "pos": 13947
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "233_5_3_7|",
+    "original": "hint: `\"For a copper compass,\" Winter says while gesturing at an empty pedestal. \"Many were made, and they saw frequent use.\"<br><br> <<He>> turns away. \"I heard one washed ashore a few towns over. There must be more out there, lost at sea.\"`,",
+    "translation": "",
+    "pos": 14414
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "234_5_3_7|",
+    "original": "museum: \"The copper compass sits on a pedestal. It points north, as appropriate.\",",
+    "translation": "",
+    "pos": 14662
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "235_5_3_7|",
+    "original": "name: \"Copper Compass\",",
+    "translation": "",
+    "pos": 14749
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "236_5_3_7|",
+    "original": "journal: `\"A copper compass. Many were made, and they saw frequent use. I heard one washed ashore a few towns over. There must be more out there, lost at sea.\"`,",
+    "translation": "",
+    "pos": 14777
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "240_5_3_7|",
+    "original": "hint: `\"For something left over from the great war,\" Winter says while gesturing at an empty pedestal. \"Something that never saw its intended use.\"<br><br> <<He>> turns away. \"People out in the countryside sometimes find war relics, and build collections of their own.\"`,",
+    "translation": "",
+    "pos": 15019
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "241_5_3_7|",
+    "original": "museum: \"The grenade sits on a pedestal. You assume it isn't live.\",",
+    "translation": "",
+    "pos": 15295
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "242_5_3_7|",
+    "original": "name: \"Old Grenade\",",
+    "translation": "",
+    "pos": 15368
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "243_5_3_7|",
+    "original": "journal: `\"Something left over from the great war. Something that never saw its intended use. People out in the countryside sometimes find war relics, and build collections of their own.\"`,",
+    "translation": "",
+    "pos": 15393
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "248_5_3_7|",
+    "original": "hint: `\"For an ancient holy necklace,\" Winter says while gesturing at an empty pedestal. \"It would have been used in rituals far from the town proper.\"<br><br> <<He>> turns away. \"Not sure where you'd find one, I'm afraid. Somewhere no person has thought to look.\"`,",
+    "translation": "",
+    "pos": 15693
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "249_5_3_7|",
+    "original": "museum: \"The stone talisman sits on a pedestal.\",",
+    "translation": "",
+    "pos": 15964
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "250_5_3_7|",
+    "original": "name: \"Stone Talisman\",",
+    "translation": "",
+    "pos": 16018
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "251_5_3_7|",
+    "original": "journal: `\"An ancient holy necklace, it would have been used in rituals far from the town proper. Not sure where you'd find one, I'm afraid. Somewhere no person has thought to look.\"`,",
+    "translation": "",
+    "pos": 16046
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "256_5_3_7|",
+    "original": "hint: `\"For something peculiar,\" Winter says while gesturing at an empty pedestal. \"Ancient religious garb. Or perhaps jewellery.\"<br><br> <<He>> turns away. \"No idea where you'd find one. Perhaps one will turn up as you search for other things.\"`,",
+    "translation": "",
+    "pos": 16337
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "257_5_3_7|",
+    "original": "museum: \"The silver mask rests on the wall.\",",
+    "translation": "",
+    "pos": 16590
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "258_5_3_7|",
+    "original": "name: \"Silver Mask\",",
+    "translation": "",
+    "pos": 16640
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "259_5_3_7|",
+    "original": "journal: `\"Something peculiar, like ancient religious garb. Or perhaps jewellery. No idea where you'd find one. Perhaps one will turn up as you search for other things.\"`,",
+    "translation": "",
+    "pos": 16665
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "264_5_3_7|",
+    "original": "hint: `\"For a jewel,\" Winter says while gesturing at an empty pedestal. \"Or gemstone.\"<br><br> <<He>> turns away. \"Smugglers used to traffic such objects through town. A long time ago.\"`,",
+    "translation": "",
+    "pos": 16948
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "265_5_3_7|",
+    "original": "museum: \"The diamond rests on a pillow.\",",
+    "translation": "",
+    "pos": 17140
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "266_5_3_7|",
+    "original": "name: \"Diamond\",",
+    "translation": "",
+    "pos": 17186
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "267_5_3_7|",
+    "original": "journal: `\"A jewel, or gemstone. Smugglers used to traffic such objects through town. A long time ago.\"`,",
+    "translation": "",
+    "pos": 17207
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "272_5_3_7|",
+    "original": "hint: `\"For a compass,\" Winter says while gesturing at an empty pedestal. \"But not just any. Something used by a person of class.\"<br><br> <<He>> turns away. \"Not the sort of item to be misplaced. Not willingly.\"`,",
+    "translation": "",
+    "pos": 17418
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "273_5_3_7|",
+    "original": "museum: \"The silver compass rests on a pedestal.\",",
+    "translation": "",
+    "pos": 17637
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "274_5_3_7|",
+    "original": "name: \"Silver Compass\",",
+    "translation": "",
+    "pos": 17692
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "275_5_3_7|",
+    "original": "journal: `\"A compass, but not just any. Something used by a person of class. Not the sort of item to be misplaced. Not willingly.\"`,",
+    "translation": "",
+    "pos": 17720
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "280_5_3_7|",
+    "original": "hint: `\"For an ornamental weapon,\" Winter says while gesturing at an empty pedestal. \"Something not meant for combat, but worn as an accessory.\"<br><br> <<He>> turns away. \"Sailors used to wear them.\"`,",
+    "translation": "",
+    "pos": 17966
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "281_5_3_7|",
+    "original": "museum: \"The silver dagger rests on the wall.\",",
+    "translation": "",
+    "pos": 18173
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "282_5_3_7|",
+    "original": "name: \"Silver Dagger\",",
+    "translation": "",
+    "pos": 18225
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "283_5_3_7|",
+    "original": "journal: `\"An ornamental weapon. Something not meant for combat, but worn as an accessory. Sailors used to wear them.\"`,",
+    "translation": "",
+    "pos": 18252
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "288_5_3_7|",
+    "original": "hint: `\"For a cutlass,\" Winter says while gesturing at an empty pedestal. \"Something rusted would do.\"<br><br> <<He>> turns away. \"They were used by sailors. I'd be surprised if some weren't hidden in their old haunts.\"`,",
+    "translation": "",
+    "pos": 18496
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "289_5_3_7|",
+    "original": "museum: \"The rusted cutlass hangs on the wall.\",",
+    "translation": "",
+    "pos": 18722
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "290_5_3_7|",
+    "original": "name: \"Rusted Cutlass\",",
+    "translation": "",
+    "pos": 18775
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "291_5_3_7|",
+    "original": "journal: `\"A cutlass, even a rusted one would do. They were used by sailors. I'd be surprised if some weren't hidden in their old haunts.\"`,",
+    "translation": "",
+    "pos": 18803
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "295_5_3_7|",
+    "original": "hint: `\"For a cutlass,\" Winter says while gesturing at an empty pedestal. \"A well-preserved example. The ones I've seen have all been rusted and worn.\"<br><br> <<He>> turns away. \"Thousands must have passed through town. Some should have survived intact.\"`,",
+    "translation": "",
+    "pos": 19024
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "296_5_3_7|",
+    "original": "museum: \"The cutlass hangs on the wall.\",",
+    "translation": "",
+    "pos": 19286
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "297_5_3_7|",
+    "original": "name: \"Cutlass\",",
+    "translation": "",
+    "pos": 19332
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "298_5_3_7|",
+    "original": "journal: `\"A cutlass, preferably a well-preserved example. The ones I've seen have all been rusted and worn. Thousands must have passed through town. Some should have survived intact.\"`,",
+    "translation": "",
+    "pos": 19353
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "302_5_3_7|",
+    "original": "hint: `\"For a pirate map,\" Winter says while gesturing at an empty pedestal. \"A legend says they hid treasure in the nearby countryside.\" <br><br> <<He>> turns away. \"Sounds far-fetched, but pirates and smugglers did use a secret passage to enter town. Perhaps some of their effects are still there.\"`,",
+    "translation": "",
+    "pos": 19616
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "303_5_3_7|",
+    "original": "museum: \"The leather map rests on the wall.\",",
+    "translation": "",
+    "pos": 19923
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "304_5_3_7|",
+    "original": "name: \"Leather Map\",",
+    "translation": "",
+    "pos": 19973
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "305_5_3_7|",
+    "original": "journal: `\"A pirate map, legend says they hid treasure in the nearby countryside. Sounds far-fetched, but pirates and smugglers did use a secret passage to enter town. Perhaps some of their effects are still there.\"`,",
+    "translation": "",
+    "pos": 19998
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "310_5_3_7|",
+    "original": "hint: `\"For a bell,\" Winter says while gesturing at an empty pedestal. \"A relic of the old religion. Only one was made. They used to keep it at the temple, but it was stolen.\"<br><br> <<He>> turns away. \"Not been seen since. Surprised it hasn't turned up in a museum elsewhere.\"`,",
+    "translation": "",
+    "pos": 20313
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "311_5_3_7|",
+    "original": "museum: \"A sheet has been drawn over the bell's pedestal, concealing its contents.\",",
+    "translation": "",
+    "pos": 20598
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "312_5_3_7|",
+    "original": "stolen: \"The bell's pedestal is empty, save a note from Winter, apologising that the intended display is unavailable.\",",
+    "translation": "",
+    "pos": 20687
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "313_5_3_7|",
+    "original": "recovered: \"\",",
+    "translation": "",
+    "pos": 20811
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "314_5_3_7|",
+    "original": "name: \"Sonorous Bell\",",
+    "translation": "",
+    "pos": 20830
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "315_5_3_7|",
+    "original": "journal: `\"A bell, a relic of the old religion. Only one was made. They used to keep it at the temple, but it was stolen. Not been seen since. Surprised it hasn't turned up in a museum elsewhere.\"`,",
+    "translation": "",
+    "pos": 20857
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "320_5_3_7|",
+    "original": "hint: `\"For a bullet,\" Winter says while gesturing at an empty pedestal. \"Left over from the Great War. They'd practise with live ammunition. Ramblers find them on occasion.\"<br><br> <<He>> turns away. \"They used to drill volunteers out on the moor.\"`,",
+    "translation": "",
+    "pos": 21157
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "321_5_3_7|",
+    "original": "museum: \"The bullet rests on a pedestal.\",",
+    "translation": "",
+    "pos": 21414
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "322_5_3_7|",
+    "original": "name: \"Bullet\",",
+    "translation": "",
+    "pos": 21461
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "323_5_3_7|",
+    "original": "journal: `\"A bullet, left over from the Great War. They'd practise with live ammunition. Ramblers find them on occasion. They used to drill volunteers out on the moor.\"`,",
+    "translation": "",
+    "pos": 21481
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "327_5_3_7|",
+    "original": "hint: `\"For an explosive,\" Winter says while gesturing at an empty pedestal. \"Left over from the Great War. Ammunition would go missing, and turn up on the black market.\"<br><br> <<He>> turns away. \"They used to practise with live ammunition out on the moor.\"`,",
+    "translation": "",
+    "pos": 21722
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "328_5_3_7|",
+    "original": "museum: \"The artillery shell rests on a pedestal.\",",
+    "translation": "",
+    "pos": 21988
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "329_5_3_7|",
+    "original": "name: \"Artillery Shell\",",
+    "translation": "",
+    "pos": 22044
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "330_5_3_7|",
+    "original": "journal: `\"An explosive, left over from the Great War. Ammunition would go missing, and turn up on the black market. They used to practise with live ammunition out on the moor.\"`,",
+    "translation": "",
+    "pos": 22073
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "334_5_3_7|",
+    "original": "hint: `\"For an ancient gold ring,\" Winter says while gesturing at an empty pedestal. \"Something worn by nobility.\"<br><br> <<He>> turns away. \"It would be somewhere no one's looked. Perhaps buried.\"`,",
+    "translation": "",
+    "pos": 22329
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "335_5_3_7|",
+    "original": "museum: \"The gold ring rests on a pedestal.\",",
+    "translation": "",
+    "pos": 22534
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "336_5_3_7|",
+    "original": "name: \"Gold Ring\",",
+    "translation": "",
+    "pos": 22584
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "337_5_3_7|",
+    "original": "journal: `\"An ancient gold ring, something worn by nobility. It would be somewhere no one's looked. Perhaps buried.\"`,",
+    "translation": "",
+    "pos": 22607
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "341_5_3_7|",
+    "original": "hint: `\"For an ancient gold brooch,\" Winter says while gesturing at an empty pedestal. \"The sort of thing I suspect local nobility have squirrelled away.\"<br><br> <<He>> turns away. \"Not that they'd let the likes of me in to check.\"`,",
+    "translation": "",
+    "pos": 22804
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "342_5_3_7|",
+    "original": "museum: \"The gold brooch rests on a pedestal.\",",
+    "translation": "",
+    "pos": 23043
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "343_5_3_7|",
+    "original": "name: \"Gold Brooch\",",
+    "translation": "",
+    "pos": 23095
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "344_5_3_7|",
+    "original": "journal: `\"An ancient gold brooch, something hidden by nobility. Perhaps in one of their homes.\"`,",
+    "translation": "",
+    "pos": 23120
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "348_5_3_7|",
+    "original": "hint: `\"For an ancient coral ring,\" Winter says while gesturing at an empty pedestal. \"The captain of a local band of pirates used to wear one.\"<br><br> <<He>> turns away. \"They say their heirs still have it, but don't go getting yourself in trouble.\"`,",
+    "translation": "",
+    "pos": 23298
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "349_5_3_7|",
+    "original": "museum: \"The coral ring rests on a pedestal.\",",
+    "translation": "",
+    "pos": 23556
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "350_5_3_7|",
+    "original": "name: \"Coral Ring\",",
+    "translation": "",
+    "pos": 23607
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "351_5_3_7|",
+    "original": "journal: `\"An ancient coral ring, once worn by a pirate captain. Perhaps it's lost at sea.\"`,",
+    "translation": "",
+    "pos": 23631
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "355_5_3_7|",
+    "original": "hint: `\"For an ancient hourglass,\" Winter says while gesturing at an empty pedestal. \"Well, ancient in theory. Sources tend to disagree on how old it is.\"<br><br> <<He>> turns away. \"It's been mentioned relatively recently. I'm sure it fell into bad hands.\"`,",
+    "translation": "",
+    "pos": 23803
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "356_5_3_7|",
+    "original": "museum: \"The inscribed hourglass rests on a pedestal.\",",
+    "translation": "",
+    "pos": 24067
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "357_5_3_7|",
+    "original": "name: \"Inscribed Hourglass\",",
+    "translation": "",
+    "pos": 24127
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "358_5_3_7|",
+    "original": "journal: `\"An ancient hourglass, though how ancient is up for debate. It likely fell into bad hands.\"`,",
+    "translation": "",
+    "pos": 24160
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "363_5_3_7|",
+    "original": "hint: `\"For a copper coin,\" Winter says while gesturing at an empty pedestal. \"Many would have been minted, but not many would have survived the ages.\"<br><br> <<He>> turns away. \"Any remaining would be buried deep.\"`,",
+    "translation": "",
+    "pos": 24380
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "364_5_3_7|",
+    "original": "museum: \"A copper coin sits on display.\",",
+    "translation": "",
+    "pos": 24603
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "365_5_3_7|",
+    "original": "name: \"Copper Coin\",",
+    "translation": "",
+    "pos": 24649
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "366_5_3_7|",
+    "original": "journal: `\"An ancient copper coin. Perhaps buried underground.\"`,",
+    "translation": "",
+    "pos": 24674
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "370_5_3_7|",
+    "original": "hint: `\"For a silver coin,\" Winter says while gesturing at an empty pedestal. \"They sometimes find them in old tombs.\"<br><br> <<He>> turns away. \"Not many have survived out in the open.\"`,",
+    "translation": "",
+    "pos": 24820
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "371_5_3_7|",
+    "original": "museum: \"A silver coin sits on display.\",",
+    "translation": "",
+    "pos": 25014
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "372_5_3_7|",
+    "original": "name: \"Silver Coin\",",
+    "translation": "",
+    "pos": 25060
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "373_5_3_7|",
+    "original": "journal: `\"An ancient silver coin. Perhaps buried underground.\"`,",
+    "translation": "",
+    "pos": 25085
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "377_5_3_7|",
+    "original": "hint: `\"For a gold coin,\" Winter says while gesturing at an empty pedestal. \"Perhaps buried with a wealthy owner, as was their custom.\"<br><br> <<He>> turns away. \"Not that I expect you to go grave robbing!\"`,",
+    "translation": "",
+    "pos": 25229
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "378_5_3_7|",
+    "original": "museum: \"A gold coin sits on display.\",",
+    "translation": "",
+    "pos": 25443
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "379_5_3_7|",
+    "original": "name: \"Gold Coin\",",
+    "translation": "",
+    "pos": 25487
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "380_5_3_7|",
+    "original": "journal: `\"An ancient gold coin. Perhaps buried underground.\"`,",
+    "translation": "",
+    "pos": 25510
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "384_5_3_7|",
+    "original": "hint: `\"For a silver blade,\" Winter says while gesturing at an empty pedestal. \"It would need to have been protected from the elements.\"<br><br> <<He>> turns away. \"Buried, perhaps.\"`,",
+    "translation": "",
+    "pos": 25653
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "385_5_3_7|",
+    "original": "museum: \"The silver blade rests on a pedestal.\",",
+    "translation": "",
+    "pos": 25842
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "386_5_3_7|",
+    "original": "name: \"Silver Blade\",",
+    "translation": "",
+    "pos": 25895
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "387_5_3_7|",
+    "original": "journal: `\"An ancient silver blade. Perhaps buried underground.\"`,",
+    "translation": "",
+    "pos": 25921
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "391_5_3_7|",
+    "original": "hint: `\"For an ivory statuette,\" Winter says while gesturing at an empty pedestal. \"A unique religious artefact.\"<br><br> <<He>> turns away. \"If it exists. The priests seem to think it does. It would be somewhere deep and dark, where no one dares to look.\"`,",
+    "translation": "",
+    "pos": 26073
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "392_5_3_7|",
+    "original": "museum: \"The ivory statuette rests on a pedestal.\",",
+    "translation": "",
+    "pos": 26336
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "393_5_3_7|",
+    "original": "name: \"Ivory Statuette\",",
+    "translation": "",
+    "pos": 26392
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "394_5_3_7|",
+    "original": "journal: `\"An ancient ivory statuette. Perhaps buried underground.\"`,",
+    "translation": "",
+    "pos": 26421
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "398_5_3_7|",
+    "original": "hint: `\"For a strange fetish,\" Winter says while gesturing at an empty pedestal. \"From one of the earliest settlements.\"<br><br> <<He>> turns away. \"It would be somewhere ancient.\"`,",
+    "translation": "",
+    "pos": 26578
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "399_5_3_7|",
+    "original": "museum: \"The strange fetish rests on a pedestal.\",",
+    "translation": "",
+    "pos": 26765
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "400_5_3_7|",
+    "original": "name: \"Strange Fetish\",",
+    "translation": "",
+    "pos": 26820
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "401_5_3_7|",
+    "original": "journal: `\"An ancient strange fetish. Perhaps buried underground.\"`,",
+    "translation": "",
+    "pos": 26848
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "405_5_3_7|",
+    "original": "hint: `\"For a silver goblet,\" Winter says while gesturing at an empty pedestal. \"Must be locked away somewhere.\"<br><br> <<He>> turns away. \"Silver's always been valuable, so it must be somewhere no one's looked.\"`,",
+    "translation": "",
+    "pos": 26994
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "406_5_3_7|",
+    "original": "museum: \"The silver goblet rests on a pedestal.\",",
+    "translation": "",
+    "pos": 27214
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "407_5_3_7|",
+    "original": "name: \"Silver Goblet\",",
+    "translation": "",
+    "pos": 27268
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "408_5_3_7|",
+    "original": "journal: `\"An ancient silver goblet. Perhaps buried underground.\"`,",
+    "translation": "",
+    "pos": 27295
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "412_5_3_7|",
+    "original": "hint: `\"For a silver crown,\" Winter says while gesturing at an empty pedestal. \"A unique item.\"<br><br> <<He>> turns away. \"Likely buried with its owner.\"`,",
+    "translation": "",
+    "pos": 27446
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "413_5_3_7|",
+    "original": "museum: \"The silver crown rests on a pedestal.\",",
+    "translation": "",
+    "pos": 27607
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "414_5_3_7|",
+    "original": "name: \"Silver Crown\",",
+    "translation": "",
+    "pos": 27660
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "415_5_3_7|",
+    "original": "journal: `\"An ancient silver crown. Perhaps buried underground.\"`,",
+    "translation": "",
+    "pos": 27686
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "419_5_3_7|",
+    "original": "hint: `\"For a white crystal,\" Winter says while gesturing at an empty pedestal. \"I received a call about this one.\"<br><br> <<He>> turns away. \"It was lost in the forest, near the old churchyard.\"`,",
+    "translation": "",
+    "pos": 27836
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "420_5_3_7|",
+    "original": "museum: \"The white crystal rests on a cushion.\",",
+    "translation": "",
+    "pos": 28039
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "421_5_3_7|",
+    "original": "name: \"White Crystal\",",
+    "translation": "",
+    "pos": 28092
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "422_5_3_7|",
+    "original": "journal: `\"An ancient white crystal. Perhaps buried underground.\"`,",
+    "translation": "",
+    "pos": 28119
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "426_5_3_7|",
+    "original": "hint: `\"For a metal sign,\" Winter says while gesturing at an empty pedestal. \"It used to hang in front of a mine.\"<br><br> <<He>> turns away. \"It was thrown away when the mine closed.\"`,",
+    "translation": "",
+    "pos": 28261
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "427_5_3_7|",
+    "original": "museum: \"The Bailey sign rests on a cushion.\",",
+    "translation": "",
+    "pos": 28452
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "428_5_3_7|",
+    "original": "name: \"Bailey Sign\",",
+    "translation": "",
+    "pos": 28503
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "429_5_3_7|",
+    "original": "journal: `\"A sign for an old mine. Was thrown away years ago.\"`,",
+    "translation": "",
+    "pos": 28528
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "434_5_3_7|",
+    "original": "hint: `\"For an obsidian disc,\" Winter says while gesturing at an empty pedestal. \"Hewn a very long time ago by the peoples of old.\"<br><br> <<He>> turns away. \"It'd be somewhere no one has looked.\"`,",
+    "translation": "",
+    "pos": 28704
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "435_5_3_7|",
+    "original": "museum: \"The obsidian disc rests on a pedestal.\",",
+    "translation": "",
+    "pos": 28908
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "436_5_3_7|",
+    "original": "name: \"Obsidian Disc\",",
+    "translation": "",
+    "pos": 28962
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "437_5_3_7|",
+    "original": "journal: `\"An obsidian disc, made by people of old.\"`,",
+    "translation": "",
+    "pos": 28989
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "441_5_3_7|",
+    "original": "hint: `\"For a wooden mask,\" Winter says while gesturing at an empty pedestal. \"Like those worn by the peoples of this area centuries ago. One washed up on shore.\"<br><br> <<He>> turns away. \"But it was in an advanced state of decay.\"`,",
+    "translation": "",
+    "pos": 29117
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "442_5_3_7|",
+    "original": "museum: \"The wooden mask rests on a pedestal.\",",
+    "translation": "",
+    "pos": 29357
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "443_5_3_7|",
+    "original": "name: \"Wooden Mask\",",
+    "translation": "",
+    "pos": 29409
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "444_5_3_7|",
+    "original": "journal: `\"A wooden mask, worn by people of old.\"`,",
+    "translation": "",
+    "pos": 29434
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "448_5_3_7|",
+    "original": "hint: `\"For a trilobite fossil,\" Winter says while gesturing at an empty pedestal. \"Not just any. There's a large variant unique to this area, but a good specimen has never been found.\"<br><br> <<He>> turns away. \"They'd be somewhere no one has looked.\"`,",
+    "translation": "",
+    "pos": 29564
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "449_5_3_7|",
+    "original": "museum: \"The trilobite fossil rests on a pedestal.\",",
+    "translation": "",
+    "pos": 29824
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "450_5_3_7|",
+    "original": "name: \"Trilobite Fossil\",",
+    "translation": "",
+    "pos": 29881
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "451_5_3_7|",
+    "original": "journal: `\"A trilobite fossil, of a rare species.\"`,",
+    "translation": "",
+    "pos": 29911
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "455_5_3_7|",
+    "original": "hint: `\"For an arrow,\" Winter says while gesturing at an empty pedestal. \"Made entirely of wood, and used by peoples of old.\"<br><br> <<He>> turns away. \"I don't hold much hope. They'd have decayed centuries ago.\"`,",
+    "translation": "",
+    "pos": 30043
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "456_5_3_7|",
+    "original": "museum: \"The island arrow rests on a pedestal.\",",
+    "translation": "",
+    "pos": 30263
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "457_5_3_7|",
+    "original": "name: \"Islander Arrow\",",
+    "translation": "",
+    "pos": 30316
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "458_5_3_7|",
+    "original": "journal: `\"For an arrow used by people of old, made entirely of wood.\"`,",
+    "translation": "",
+    "pos": 30344
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "463_5_3_7|",
+    "original": "hint: `\"For a gold compass,\" Winter says while gesturing at an empty pedestal. \"It used to belong to one of the older families here in town, until a rogue stole away with it.\"<br><br> <<He>> turns away. \"I'm sure it'll turn up.\"`,",
+    "translation": "",
+    "pos": 30534
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "464_5_3_7|",
+    "original": "museum: \"The gold compass rests on a pedestal.\",",
+    "translation": "",
+    "pos": 30769
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "465_5_3_7|",
+    "original": "name: \"Gold Compass\",",
+    "translation": "",
+    "pos": 30822
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "466_5_3_7|",
+    "original": "journal: `\"For a gold compass that was stolen.\"`,",
+    "translation": "",
+    "pos": 30848
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "470_5_3_7|",
+    "original": "hint: `\"For a sword cane,\" Winter says while gesturing at an empty pedestal. \"Over a century old. More of a novelty than a real weapon.\"<br><br> <<He>> turns away. \"Still, I suspect it's found its way into the hands of those with a penchant for violence.\"`,",
+    "translation": "",
+    "pos": 30978
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "471_5_3_7|",
+    "original": "museum: \"The sword cane rests behind glass.\",",
+    "translation": "",
+    "pos": 31240
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "472_5_3_7|",
+    "original": "name: \"Sword Cane\",",
+    "translation": "",
+    "pos": 31290
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "473_5_3_7|",
+    "original": "journal: `\"For a sword cane, held by those of violent temperament.\"`,",
+    "translation": "",
+    "pos": 31314
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "477_5_3_7|",
+    "original": "hint: `\"For chocolate,\" Winter says while gesturing at an empty pedestal. \"But not just any chocolate. Something that's survived years uneaten.\"<br><br> <<He>> turns away. \"Why leave good chocolate to go to waste?\"`,",
+    "translation": "",
+    "pos": 31456
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "478_5_3_7|",
+    "original": "museum: \"The chocolate rests open, behind a glass case.\",",
+    "translation": "",
+    "pos": 31677
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "479_5_3_7|",
+    "original": "name: \"Chocolate\",",
+    "translation": "",
+    "pos": 31739
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "480_5_3_7|",
+    "original": "journal: `\"For chocolate left uneaten for many years.\"`,",
+    "translation": "",
+    "pos": 31762
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "484_5_3_7|",
+    "original": "hint: `\"For a tea caddy,\" Winter says while gesturing at an empty pedestal. \"Something used to ship cargo across the world.\"<br><br> <<He>> turns away. \"Might still be aboard an old vessel.\"`,",
+    "translation": "",
+    "pos": 31895
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "485_5_3_7|",
+    "original": "museum: \"The tea caddy rests on a pedestal.\",",
+    "translation": "",
+    "pos": 32092
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "486_5_3_7|",
+    "original": "name: \"Tea Caddy\",",
+    "translation": "",
+    "pos": 32142
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "487_5_3_7|",
+    "original": "journal: `\"For a tea caddy used to carry cargo across the sea.\"`,",
+    "translation": "",
+    "pos": 32165
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "491_5_3_7|",
+    "original": "hint: `\"For a wooden figurine,\" Winter says while gesturing at an empty pedestal. \"According to texts, they were popular years ago.\"<br><br> <<He>> turns away. \"I'm not aware of any surviving examples. They might have originated abroad.\"`,",
+    "translation": "",
+    "pos": 32307
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "492_5_3_7|",
+    "original": "museum: \"The wooden figurine rests on a pedestal.\",",
+    "translation": "",
+    "pos": 32551
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "493_5_3_7|",
+    "original": "name: \"Wooden Figurine\",",
+    "translation": "",
+    "pos": 32607
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "494_5_3_7|",
+    "original": "journal: `\"For a wooden figurine that might have originated abroad.\"`,",
+    "translation": "",
+    "pos": 32636
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "498_5_3_7|",
+    "original": "hint: `\"For a copper ring,\" Winter says while gesturing at an empty pedestal. \"Something from centuries ago.\"<br><br> <<He>> turns away. \"It'll likely be worn, and left somewhere forgotten.\"`,",
+    "translation": "",
+    "pos": 32784
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "499_5_3_7|",
+    "original": "museum: \"The copper ring rests on a pedestal.\",",
+    "translation": "",
+    "pos": 32981
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "500_5_3_7|",
+    "original": "name: \"Copper Ring\",",
+    "translation": "",
+    "pos": 33033
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "501_5_3_7|",
+    "original": "journal: `\"For a copper ring made centuries ago.\"`,",
+    "translation": "",
+    "pos": 33058
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "512_5_3_7|",
+    "original": "\"antiquebox\": \"notFound\",",
+    "translation": "",
+    "pos": 33306
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "513_5_3_7|",
+    "original": "\"antiquesilverring\": \"notFound\",",
+    "translation": "",
+    "pos": 33336
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "514_5_3_7|",
+    "original": "\"antiquegoldnecklace\": \"notFound\",",
+    "translation": "",
+    "pos": 33373
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "515_5_3_7|",
+    "original": "\"antiqueivorynecklace\": \"notFound\",",
+    "translation": "",
+    "pos": 33412
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "516_5_3_7|",
+    "original": "\"antiquecrystal\": \"notFound\",",
+    "translation": "",
+    "pos": 33452
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "517_5_3_7|",
+    "original": "\"antiquehorn\": \"notFound\",",
+    "translation": "",
+    "pos": 33486
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "518_5_3_7|",
+    "original": "\"antiquewatch\": \"notFound\",",
+    "translation": "",
+    "pos": 33517
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "519_5_3_7|",
+    "original": "\"antiquedildo\": \"notFound\",",
+    "translation": "",
+    "pos": 33549
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "520_5_3_7|",
+    "original": "\"antiquecandlestick\": \"notFound\",",
+    "translation": "",
+    "pos": 33581
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "521_5_3_7|",
+    "original": "\"antiqueforestarrow\": \"notFound\",",
+    "translation": "",
+    "pos": 33619
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "522_5_3_7|",
+    "original": "\"antiqueforestdagger\": \"notFound\",",
+    "translation": "",
+    "pos": 33657
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "523_5_3_7|",
+    "original": "\"antiqueforestgem\": \"notFound\",",
+    "translation": "",
+    "pos": 33696
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "524_5_3_7|",
+    "original": "\"antiquesilverbrooch\": \"notFound\",",
+    "translation": "",
+    "pos": 33732
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "525_5_3_7|",
+    "original": "\"antiquetrashcup\": \"notFound\",",
+    "translation": "",
+    "pos": 33771
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "526_5_3_7|",
+    "original": "\"antiquetrashburner\": \"notFound\",",
+    "translation": "",
+    "pos": 33806
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "527_5_3_7|",
+    "original": "\"antiquebrassstatuette\": \"notFound\",",
+    "translation": "",
+    "pos": 33844
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "528_5_3_7|",
+    "original": "\"antiquegoldchastitybelt\": \"notFound\",",
+    "translation": "",
+    "pos": 33885
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "529_5_3_7|",
+    "original": "\"antiquecoppercompass\": \"notFound\",",
+    "translation": "",
+    "pos": 33928
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "530_5_3_7|",
+    "original": "\"antiquegrenade\": \"notFound\",",
+    "translation": "",
+    "pos": 33968
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "531_5_3_7|",
+    "original": "\"antiquestonetalisman\": \"notFound\",",
+    "translation": "",
+    "pos": 34002
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "532_5_3_7|",
+    "original": "\"antiquesilvermask\": \"notFound\",",
+    "translation": "",
+    "pos": 34042
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "533_5_3_7|",
+    "original": "\"antiquediamond\": \"notFound\",",
+    "translation": "",
+    "pos": 34079
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "534_5_3_7|",
+    "original": "\"antiquesilvercompass\": \"notFound\",",
+    "translation": "",
+    "pos": 34113
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "535_5_3_7|",
+    "original": "\"antiquesilverdagger\": \"notFound\",",
+    "translation": "",
+    "pos": 34153
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "536_5_3_7|",
+    "original": "\"antiquerustedcutlass\": \"notFound\",",
+    "translation": "",
+    "pos": 34192
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "537_5_3_7|",
+    "original": "\"antiquecutlass\": \"notFound\",",
+    "translation": "",
+    "pos": 34232
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "538_5_3_7|",
+    "original": "\"antiqueleathermap\": \"notFound\",",
+    "translation": "",
+    "pos": 34266
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "539_5_3_7|",
+    "original": "\"antiquebell\": \"notFound\",",
+    "translation": "",
+    "pos": 34303
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "540_5_3_7|",
+    "original": "\"antiquebullet\": \"notFound\",",
+    "translation": "",
+    "pos": 34334
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "541_5_3_7|",
+    "original": "\"antiqueshell\": \"notFound\",",
+    "translation": "",
+    "pos": 34367
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "542_5_3_7|",
+    "original": "\"antiquegoldring\": \"notFound\",",
+    "translation": "",
+    "pos": 34399
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "543_5_3_7|",
+    "original": "\"antiquegoldbrooch\": \"notFound\",",
+    "translation": "",
+    "pos": 34434
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "544_5_3_7|",
+    "original": "\"antiquecoralring\": \"notFound\",",
+    "translation": "",
+    "pos": 34471
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "545_5_3_7|",
+    "original": "\"antiquehourglass\": \"notFound\",",
+    "translation": "",
+    "pos": 34507
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "546_5_3_7|",
+    "original": "\"antiquecoppercoin\": \"notFound\",",
+    "translation": "",
+    "pos": 34543
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "547_5_3_7|",
+    "original": "\"antiquesilvercoin\": \"notFound\",",
+    "translation": "",
+    "pos": 34580
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "548_5_3_7|",
+    "original": "\"antiquegoldcoin\": \"notFound\",",
+    "translation": "",
+    "pos": 34617
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "549_5_3_7|",
+    "original": "\"antiquesilverblade\": \"notFound\",",
+    "translation": "",
+    "pos": 34652
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "550_5_3_7|",
+    "original": "\"antiqueivorystatuette\": \"notFound\",",
+    "translation": "",
+    "pos": 34690
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "551_5_3_7|",
+    "original": "\"antiquestrangefetish\": \"notFound\",",
+    "translation": "",
+    "pos": 34731
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "552_5_3_7|",
+    "original": "\"antiquesilvergoblet\": \"notFound\",",
+    "translation": "",
+    "pos": 34771
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "553_5_3_7|",
+    "original": "\"antiquesilvercrown\": \"notFound\",",
+    "translation": "",
+    "pos": 34810
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "554_5_3_7|",
+    "original": "\"antiquewhitecrystal\": \"notFound\",",
+    "translation": "",
+    "pos": 34848
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "555_5_3_7|",
+    "original": "\"antiqueminesign\": \"notFound\",",
+    "translation": "",
+    "pos": 34887
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "556_5_3_7|",
+    "original": "\"antiqueobsidiandisc\": \"notFound\",",
+    "translation": "",
+    "pos": 34922
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "557_5_3_7|",
+    "original": "\"antiquewoodenmask\": \"notFound\",",
+    "translation": "",
+    "pos": 34961
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "558_5_3_7|",
+    "original": "\"antiquetrilobitefossil\": \"notFound\",",
+    "translation": "",
+    "pos": 34998
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "559_5_3_7|",
+    "original": "\"antiqueislandarrow\": \"notFound\",",
+    "translation": "",
+    "pos": 35040
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "560_5_3_7|",
+    "original": "\"antiquegoldcompass\": \"notFound\",",
+    "translation": "",
+    "pos": 35078
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "561_5_3_7|",
+    "original": "\"antiqueswordcane\": \"notFound\",",
+    "translation": "",
+    "pos": 35116
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "562_5_3_7|",
+    "original": "\"antiquechocolate\": \"notFound\",",
+    "translation": "",
+    "pos": 35152
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "563_5_3_7|",
+    "original": "\"antiqueteacaddy\": \"notFound\",",
+    "translation": "",
+    "pos": 35188
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "564_5_3_7|",
+    "original": "\"antiquewoodenfigurine\": \"notFound\",",
+    "translation": "",
+    "pos": 35223
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "565_5_3_7|",
+    "original": "\"antiquecopperring\": \"notFound\"",
+    "translation": "",
+    "pos": 35264
+  },
+  {
+    "passage": "MuseumAntiques",
+    "filepath": "overworld-town/loc-museum/museumAntiques.twee",
+    "key": "570_5_3_7|",
+    "original": "<<print '<<if $'+_labelM+' isnot undefined>>'+",
+    "translation": "",
+    "pos": 35386
+  }
+]

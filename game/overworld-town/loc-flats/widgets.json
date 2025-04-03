@@ -1,0 +1,298 @@
+[
+  {
+    "passage": "Widgets Flats",
+    "filepath": "overworld-town/loc-flats/widgets.twee",
+    "key": "3_5_3_7|",
+    "original": "<<if $pronoun is \"f\">>mistress<<else>>master<</if>>",
+    "translation": "",
+    "pos": 27
+  },
+  {
+    "passage": "Widgets Flats",
+    "filepath": "overworld-town/loc-flats/widgets.twee",
+    "key": "15_5_3_7|",
+    "original": "There's enough juice in the hookah for <<number $hookah.juice>> <<print $hookah.juice is 1 ? \"trip\" : \"trips\">>,",
+    "translation": "",
+    "pos": 266
+  },
+  {
+    "passage": "Widgets Flats",
+    "filepath": "overworld-town/loc-flats/widgets.twee",
+    "key": "17_5_3_7|",
+    "original": "There's no juice in the hookah,",
+    "translation": "",
+    "pos": 392
+  },
+  {
+    "passage": "Widgets Flats",
+    "filepath": "overworld-town/loc-flats/widgets.twee",
+    "key": "19_5_3_7|",
+    "original": "and",
+    "translation": "",
+    "pos": 432
+  },
+  {
+    "passage": "Widgets Flats",
+    "filepath": "overworld-town/loc-flats/widgets.twee",
+    "key": "22_5_3_7|",
+    "original": "<span class=\"green\">five</span>",
+    "translation": "",
+    "pos": 486
+  },
+  {
+    "passage": "Widgets Flats",
+    "filepath": "overworld-town/loc-flats/widgets.twee",
+    "key": "24_5_3_7|",
+    "original": "<span class=\"teal\">four</span>",
+    "translation": "",
+    "pos": 541
+  },
+  {
+    "passage": "Widgets Flats",
+    "filepath": "overworld-town/loc-flats/widgets.twee",
+    "key": "26_5_3_7|",
+    "original": "<span class=\"lblue\">three</span>",
+    "translation": "",
+    "pos": 595
+  },
+  {
+    "passage": "Widgets Flats",
+    "filepath": "overworld-town/loc-flats/widgets.twee",
+    "key": "28_5_3_7|",
+    "original": "<span class=\"blue\">two</span>",
+    "translation": "",
+    "pos": 651
+  },
+  {
+    "passage": "Widgets Flats",
+    "filepath": "overworld-town/loc-flats/widgets.twee",
+    "key": "30_5_3_7|",
+    "original": "<span class=\"purple\">one</span>",
+    "translation": "",
+    "pos": 704
+  },
+  {
+    "passage": "Widgets Flats",
+    "filepath": "overworld-town/loc-flats/widgets.twee",
+    "key": "32_5_3_7|",
+    "original": "<span class=\"pink\">no</span>",
+    "translation": "",
+    "pos": 760
+  },
+  {
+    "passage": "Widgets Flats",
+    "filepath": "overworld-town/loc-flats/widgets.twee",
+    "key": "34_5_3_7|",
+    "original": "<<print $hookah.lurkers is 1 ? \"lurker\" : \"lurkers\">> in the fridge.",
+    "translation": "",
+    "pos": 801
+  },
+  {
+    "passage": "Widgets Flats",
+    "filepath": "overworld-town/loc-flats/widgets.twee",
+    "key": "39_5_3_7|",
+    "original": "<<link [[Replenish the juice with a carried lurker|Flats Hookah Juice Carried]]>><<set $lurkers_held -= 1>><<set $hookah.juice += 50>><</link>>",
+    "translation": "",
+    "pos": 945
+  },
+  {
+    "passage": "Widgets Flats",
+    "filepath": "overworld-town/loc-flats/widgets.twee",
+    "key": "45_5_3_7|",
+    "original": "<<link [[Replenish the juice with a lurker from the fridge|Flats Hookah Juice Fridge]]>><<set $hookah.lurkers -= 1>><<set $hookah.juice += 50>><</link>>",
+    "translation": "",
+    "pos": 1206
+  },
+  {
+    "passage": "Widgets Flats",
+    "filepath": "overworld-town/loc-flats/widgets.twee",
+    "key": "51_5_3_7|",
+    "original": "<span class=\"blue\">You have no lurkers with which to replenish the juice.</span>",
+    "translation": "",
+    "pos": 1506
+  },
+  {
+    "passage": "Widgets Flats",
+    "filepath": "overworld-town/loc-flats/widgets.twee",
+    "key": "56_5_3_7|",
+    "original": "<<link [[Store a lurker in the fridge|Flats Hookah Fridge]]>><<set $lurkers_held -= 1>><<set $hookah.lurkers += 1>><</link>>",
+    "translation": "",
+    "pos": 1676
+  },
+  {
+    "passage": "Widgets Flats",
+    "filepath": "overworld-town/loc-flats/widgets.twee",
+    "key": "70_5_3_7|",
+    "original": "\"It's all right,\" the <<person1>><<person>> says, anger in <<his>> voice. \"You can pay another way. <span class=\"red\">You owe each of us.\"</span>",
+    "translation": "",
+    "pos": 2054
+  },
+  {
+    "passage": "Widgets Flats",
+    "filepath": "overworld-town/loc-flats/widgets.twee",
+    "key": "73_5_3_7|",
+    "original": "<<link [[Next|Flats Canal Rape]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 2287
+  },
+  {
+    "passage": "Widgets Flats",
+    "filepath": "overworld-town/loc-flats/widgets.twee",
+    "key": "76_5_3_7|",
+    "original": "They release you, only for a storm of kicks to assault your body. You curl up.<<ggpain>><<gtrauma>><<gstress>><<pain 4>><<trauma 6>><<stress 6>>",
+    "translation": "",
+    "pos": 2383
+  },
+  {
+    "passage": "Widgets Flats",
+    "filepath": "overworld-town/loc-flats/widgets.twee",
+    "key": "78_5_3_7|",
+    "original": "The attack ceases. The <<person>> grasps your hair, and pulls you to your knees. \"It's all right,\" <<he>> says, anger in <<his>> voice. \"You can pay another way.\"",
+    "translation": "",
+    "pos": 2545
+  },
+  {
+    "passage": "Widgets Flats",
+    "filepath": "overworld-town/loc-flats/widgets.twee",
+    "key": "81_5_3_7|",
+    "original": "<<link [[Next|Flats Canal Oral]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 2726
+  },
+  {
+    "passage": "Widgets Flats",
+    "filepath": "overworld-town/loc-flats/widgets.twee",
+    "key": "87_5_3_7|",
+    "original": "<<link [[Run|Flats Canal Run]]>><<flats_canal 9>><</link>>",
+    "translation": "",
+    "pos": 2859
+  },
+  {
+    "passage": "Widgets Flats",
+    "filepath": "overworld-town/loc-flats/widgets.twee",
+    "key": "89_5_3_7|",
+    "original": "<<athleticsdifficulty 400 1400>><<gggimpatience>><<note \"The weather has filled the canal with mud, making running difficult, and failure could be very dangerous\" \"red\">>",
+    "translation": "",
+    "pos": 2964
+  },
+  {
+    "passage": "Widgets Flats",
+    "filepath": "overworld-town/loc-flats/widgets.twee",
+    "key": "92_5_3_7|",
+    "original": "<<athleticsdifficulty 1 1000>><<gggimpatience>><<note \"Failure could be very dangerous\" \"red\">>",
+    "translation": "",
+    "pos": 3157
+  },
+  {
+    "passage": "Widgets Flats",
+    "filepath": "overworld-town/loc-flats/widgets.twee",
+    "key": "101_5_3_7|",
+    "original": "<<link [[Next|Flats Auction]]>><</link>>",
+    "translation": "",
+    "pos": 3395
+  },
+  {
+    "passage": "Widgets Flats",
+    "filepath": "overworld-town/loc-flats/widgets.twee",
+    "key": "117_5_3_7|",
+    "original": "<span class=\"purple\">\"FOUR MINUTES REMAINING,\" announces the voice.</span>",
+    "translation": "",
+    "pos": 3703
+  },
+  {
+    "passage": "Widgets Flats",
+    "filepath": "overworld-town/loc-flats/widgets.twee",
+    "key": "121_5_3_7|",
+    "original": "<span class=\"blue\">\"THREE MINUTES REMAINING,\" announces the voice. \"PLEASE ASSUME A SUBMISSIVE POSTURE.\"</span>",
+    "translation": "",
+    "pos": 3848
+  },
+  {
+    "passage": "Widgets Flats",
+    "filepath": "overworld-town/loc-flats/widgets.twee",
+    "key": "125_5_3_7|",
+    "original": "<span class=\"purple\">\"TWO MINUTES REMAINING,\" announces the voice.</span>",
+    "translation": "",
+    "pos": 4030
+  },
+  {
+    "passage": "Widgets Flats",
+    "filepath": "overworld-town/loc-flats/widgets.twee",
+    "key": "129_5_3_7|",
+    "original": "<span class=\"pink\">\"ONE MINUTE REMAINING,\" announces the voice. \"ASSISTANCE IMMINENT.\"</span>",
+    "translation": "",
+    "pos": 4174
+  },
+  {
+    "passage": "Widgets Flats",
+    "filepath": "overworld-town/loc-flats/widgets.twee",
+    "key": "134_5_3_7|",
+    "original": "<span class=\"red\">\"POLICE ON SCENE,\" announces the voice. \"HAVE A NICE DAY.\"</span> The shutter opens, and two police officers, a <<person1>><<person>> and <<person2>><<person>>, march in.",
+    "translation": "",
+    "pos": 4374
+  },
+  {
+    "passage": "Widgets Flats",
+    "filepath": "overworld-town/loc-flats/widgets.twee",
+    "key": "137_5_3_7|",
+    "original": "\"We got a live one,\" the <<person1>><<person>> says. \"Best come quietly.\" The <<person2>><<person>> advances with a pair of cuffs.",
+    "translation": "",
+    "pos": 4589
+  },
+  {
+    "passage": "Widgets Flats",
+    "filepath": "overworld-town/loc-flats/widgets.twee",
+    "key": "140_5_3_7|",
+    "original": "<<link [[Go quietly|Hospital Arrest Journey]]>><<flats_alarm_end>><</link>>",
+    "translation": "",
+    "pos": 4746
+  },
+  {
+    "passage": "Widgets Flats",
+    "filepath": "overworld-town/loc-flats/widgets.twee",
+    "key": "142_5_3_7|",
+    "original": "<<link [[Fight|Flats Sneak Fight]]>><<set $fightstart to 1>><</link>>",
+    "translation": "",
+    "pos": 4843
+  },
+  {
+    "passage": "Widgets Flats",
+    "filepath": "overworld-town/loc-flats/widgets.twee",
+    "key": "149_5_3_7|",
+    "original": "<span class=\"blue\">There's not enough time to finish a rope.</span>",
+    "translation": "",
+    "pos": 5102
+  },
+  {
+    "passage": "Widgets Flats",
+    "filepath": "overworld-town/loc-flats/widgets.twee",
+    "key": "152_5_3_7|",
+    "original": "<<link [[Make a rope from fabric (0:01)|Flats Sneak Housekeeping]]>><<pass 1>><<set $flats_alarm_time -= 1>><</link>><<housekeepingdifficulty 1 700>>",
+    "translation": "",
+    "pos": 5192
+  },
+  {
+    "passage": "Widgets Flats",
+    "filepath": "overworld-town/loc-flats/widgets.twee",
+    "key": "155_5_3_7|",
+    "original": "<<link [[Smash your way out (0:01)|Flats Sneak Physique]]>><<pass 1>><<set $flats_alarm_time -= 1>><</link>><<physiquedifficulty 1 35000>>",
+    "translation": "",
+    "pos": 5359
+  },
+  {
+    "passage": "Widgets Flats",
+    "filepath": "overworld-town/loc-flats/widgets.twee",
+    "key": "158_5_3_7|",
+    "original": "<<link [[Assume a submissive posture and wait for police|Flats Sneak Assume]]>><</link>>",
+    "translation": "",
+    "pos": 5538
+  },
+  {
+    "passage": "Widgets Flats",
+    "filepath": "overworld-town/loc-flats/widgets.twee",
+    "key": "162_5_3_7|",
+    "original": "<<link [[Hide|Flats Sneak Hide]]>><</link>><<difficulty 0>>",
+    "translation": "",
+    "pos": 5679
+  }
+]

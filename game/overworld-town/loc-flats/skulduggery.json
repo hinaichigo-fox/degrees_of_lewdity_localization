@@ -1,0 +1,1298 @@
+[
+  {
+    "passage": "Flats Lock",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "4_5_3_7|",
+    "original": "The door is locked tight.",
+    "translation": "",
+    "pos": 33
+  },
+  {
+    "passage": "Flats Lock",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "8_5_3_7|",
+    "original": "You think you'd be able to pick the lock, <span class=\"blue\">if your arms weren't bound.</span>",
+    "translation": "",
+    "pos": 173
+  },
+  {
+    "passage": "Flats Lock",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "12_5_3_7|",
+    "original": "<span class=\"green\">The lock looks easy to pick.</span>",
+    "translation": "",
+    "pos": 318
+  },
+  {
+    "passage": "Flats Lock",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "14_5_3_7|",
+    "original": "<<lockicon \"pick\">><<link [[Break in (0:05)|Flats Sneak]]>><<handheldon>><<pass 5>><<crimeUp 5 \"trespassing\">><</link>><<crime \"trespassing\">>",
+    "translation": "",
+    "pos": 387
+  },
+  {
+    "passage": "Flats Lock",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "18_5_3_7|",
+    "original": "<span class=\"red\">The lock looks beyond your ability to pick.</span><<skulduggeryrequired>>",
+    "translation": "",
+    "pos": 556
+  },
+  {
+    "passage": "Flats Lock",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "22_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Flats]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 667
+  },
+  {
+    "passage": "Flats Sneak",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "28_5_3_7|",
+    "original": "You successfully pick the lock and enter the abode.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Flats Sneak",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "32_5_3_7|",
+    "original": "<span class=\"blue\">There's nothing more you can learn from locks this simple.</span>",
+    "translation": "",
+    "pos": 127
+  },
+  {
+    "passage": "Flats Sneak",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "39_5_3_7|",
+    "original": "The interior is lit by a soft, pink light. Pornographic photographs decorate the walls, and the sofa has an odd curvature. It looks like a valuable antique, but it's too big to carry.",
+    "translation": "",
+    "pos": 292
+  },
+  {
+    "passage": "Flats Sneak",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "45_5_3_7|",
+    "original": "There's a vintage magazine on the floor however. It might be worth something on the black market.<<set _blackmoney += 10>>",
+    "translation": "",
+    "pos": 575
+  },
+  {
+    "passage": "Flats Sneak",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "47_5_3_7|",
+    "original": "There's £20 in foreign cash lying on the table beside it however. It might be worth something on the black market.<<set _blackmoney += 20>>",
+    "translation": "",
+    "pos": 714
+  },
+  {
+    "passage": "Flats Sneak",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "49_5_3_7|",
+    "original": "There's a pearl necklace lying on the table beside it however. It might be worth something on the black market.<<set _blackmoney += 30>>",
+    "translation": "",
+    "pos": 870
+  },
+  {
+    "passage": "Flats Sneak",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "51_5_3_7|",
+    "original": "A pair of gold cufflinks sit on the table beside it however. It might be worth something on the black market.<<set _blackmoney += 40>>",
+    "translation": "",
+    "pos": 1023
+  },
+  {
+    "passage": "Flats Sneak",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "53_5_3_7|",
+    "original": "There's a vintage ring on a table beside it however. It has a strange honeycomb shape, but it's made of real gold. It might be worth something on the black market.<<set _blackmoney += 80>>",
+    "translation": "",
+    "pos": 1175
+  },
+  {
+    "passage": "Flats Sneak",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "57_5_3_7|",
+    "original": "<<link [[Take it|Flats]]>><<set $blackmoney += _blackmoney>><<crimeUp _blackmoney \"thievery\">><</link>><<crime \"thievery\">>",
+    "translation": "",
+    "pos": 1389
+  },
+  {
+    "passage": "Flats Sneak",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "59_5_3_7|",
+    "original": "<<link [[Leave|Flats]]>><</link>>",
+    "translation": "",
+    "pos": 1520
+  },
+  {
+    "passage": "Flats Sneak",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "66_5_3_7|",
+    "original": "You hear running water. Someone's in the shower. There's nothing unusual about the flat, but you can't find any valuables, until you come across a safe hidden in the bedroom. It has an old-fashioned locking mechanism you should be able to crack, but it might take a bit of time.",
+    "translation": "",
+    "pos": 1727
+  },
+  {
+    "passage": "Flats Sneak",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "68_5_3_7|",
+    "original": "You hear a <<personsimple>>'s voice, singing in the shower.",
+    "translation": "",
+    "pos": 2017
+  },
+  {
+    "passage": "Flats Sneak",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "72_5_3_7|",
+    "original": "<<link [[Crack|Flats Sneak Crack]]>><</link>><<skulduggerydifficulty>>",
+    "translation": "",
+    "pos": 2128
+  },
+  {
+    "passage": "Flats Sneak",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "74_5_3_7|",
+    "original": "<<link [[Leave|Flats]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 2206
+  },
+  {
+    "passage": "Flats Sneak",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "79_5_3_7|",
+    "original": "A wind blows in from an open door, leading to a terrace. There's no one around, but you're not sure how long that'll last.",
+    "translation": "",
+    "pos": 2317
+  },
+  {
+    "passage": "Flats Sneak",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "83_5_3_7|",
+    "original": "You investigate the terrace. There's nothing there but some hanging washing. A neighbouring terrace is close enough to climb to. You're not sure how that flat is meant to be accessed normally, as there were no doors on that side.",
+    "translation": "",
+    "pos": 2492
+  },
+  {
+    "passage": "Flats Sneak",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "85_5_3_7|",
+    "original": "<<link [[Cross the gap to the other terrace|Flats Sneak Terrace]]>><</link>><<willpowerdifficulty 1 400>>",
+    "translation": "",
+    "pos": 2735
+  },
+  {
+    "passage": "Flats Sneak",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "87_5_3_7|",
+    "original": "<<link [[Investigate this flat|Flats Sneak Investigate]]>><</link>>",
+    "translation": "",
+    "pos": 2850
+  },
+  {
+    "passage": "Flats Sneak",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "90_5_3_7|",
+    "original": "You search the flat for any valuables, and find <span class=\"gold\">£30</span> under the mattress.",
+    "translation": "",
+    "pos": 2937
+  },
+  {
+    "passage": "Flats Sneak",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "93_5_3_7|",
+    "original": "<<link [[Take it|Flats]]>><<moneyGain 30>><<crimeUp 30 \"petty\">><</link>><<crime \"petty\">>",
+    "translation": "",
+    "pos": 3049
+  },
+  {
+    "passage": "Flats Sneak",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "95_5_3_7|",
+    "original": "<<link [[Leave it|Flats]]>><</link>>",
+    "translation": "",
+    "pos": 3149
+  },
+  {
+    "passage": "Flats Sneak",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "102_5_3_7|",
+    "original": "You close the door behind you. Thick curtains have been drawn over the windows, leaving the room dark. You fumble for the light switch. It illuminates the room, and reveals a <<person>> sat in a chair, a cat on <<his>> lap. <<He>>'s staring right at you.",
+    "translation": "",
+    "pos": 3287
+  },
+  {
+    "passage": "Flats Sneak",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "105_5_3_7|",
+    "original": "\"I wasn't expecting a guest,\" <<he>> says. \"Much less an intruder. What do you have to say for yourself?\" You can't help but notice <<his>> expensive watch. You avoid looking right at it.",
+    "translation": "",
+    "pos": 3554
+  },
+  {
+    "passage": "Flats Sneak",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "109_5_3_7|",
+    "original": "<<link [[Seduce|Flats Sneak Seduce]]>><</link>><<promiscuous2>>",
+    "translation": "",
+    "pos": 3792
+  },
+  {
+    "passage": "Flats Sneak",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "112_5_3_7|",
+    "original": "<<link [[Attack|Flats Sneak Attack]]>><</link>>",
+    "translation": "",
+    "pos": 3873
+  },
+  {
+    "passage": "Flats Sneak",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "114_5_3_7|",
+    "original": "<<link [[Run|Flats Sneak Run]]>><</link>>",
+    "translation": "",
+    "pos": 3928
+  },
+  {
+    "passage": "Flats Sneak",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "120_5_3_7|",
+    "original": "An acrid scent lingers in the air, but the flat appears otherwise normal. Two steps in, however, and a metal shutter slams across the door behind you. An alarm blares.",
+    "translation": "",
+    "pos": 4072
+  },
+  {
+    "passage": "Flats Sneak",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "123_5_3_7|",
+    "original": "\"POLICE NOTIFIED,\" announces a robotic voice. \"ESTIMATED TIME OF ARRIVAL: FIVE MINUTES. PLEASE STAND BY.\"",
+    "translation": "",
+    "pos": 4254
+  },
+  {
+    "passage": "Flats Sneak",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "126_5_3_7|",
+    "original": "The windows aren't shuttered, but you're many stories up. A rope would take at least a few minutes to make.",
+    "translation": "",
+    "pos": 4374
+  },
+  {
+    "passage": "Flats Sneak",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "139_5_3_7|",
+    "original": "A <<person>> snores on the sofa. You tiptoe by, searching for loot. You find a box of jewellery in the bedroom. Nothing spectacular, but it might be worth something on the black market.",
+    "translation": "",
+    "pos": 4682
+  },
+  {
+    "passage": "Flats Sneak",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "142_5_3_7|",
+    "original": "<<link [[Take it|Flats Sneak Snore]]>><<set $blackmoney += 30>><<crimeUp 30 \"thievery\">><</link>><<crime \"thievery\">>",
+    "translation": "",
+    "pos": 4880
+  },
+  {
+    "passage": "Flats Sneak",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "144_5_3_7|",
+    "original": "<<link [[Leave|Flats]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 5005
+  },
+  {
+    "passage": "Flats Sneak",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "150_5_3_7|",
+    "original": "The smell of roast vegetables greets you. A <<person>> stands in the kitchen, talking on a phone and looking out the window.",
+    "translation": "",
+    "pos": 5142
+  },
+  {
+    "passage": "Flats Sneak",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "153_5_3_7|",
+    "original": "<<His>> <<wallet>> sits on the table not far from <<him>>. There's <span class=\"gold\">£40</span> inside.",
+    "translation": "",
+    "pos": 5279
+  },
+  {
+    "passage": "Flats Sneak",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "156_5_3_7|",
+    "original": "<<link [[Take it|Flats Sneak Wallet]]>><<moneyGain 40>><<crimeUp 40 \"petty\">><</link>><<crime \"petty\">>",
+    "translation": "",
+    "pos": 5396
+  },
+  {
+    "passage": "Flats Sneak",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "158_5_3_7|",
+    "original": "<<link [[Leave|Flats]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 5507
+  },
+  {
+    "passage": "Flats Sneak",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "163_5_3_7|",
+    "original": "There's an antique gun on the wall, but it's affixed too firmly to take with you. You rummage around, and find <span class=\"gold\">£20</span> in a drawer.",
+    "translation": "",
+    "pos": 5618
+  },
+  {
+    "passage": "Flats Sneak",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "166_5_3_7|",
+    "original": "<<link [[Take it|Flats]]>><<moneyGain 20>><<crimeUp 20 \"petty\">><</link>><<crime \"petty\">>",
+    "translation": "",
+    "pos": 5784
+  },
+  {
+    "passage": "Flats Sneak",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "168_5_3_7|",
+    "original": "<<link [[Leave|Flats]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 5882
+  },
+  {
+    "passage": "Flats Sneak",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "173_5_3_7|",
+    "original": "A lava lamp glows in the corner, illuminating old-fashioned decor with a soft glow. There's little of value that you can carry however, though you do find some jewellery hidden in a shoebox.",
+    "translation": "",
+    "pos": 5993
+  },
+  {
+    "passage": "Flats Sneak",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "176_5_3_7|",
+    "original": "<<link [[Take it|Flats]]>><<set $blackmoney += 30>><<crimeUp 30 \"thievery\">><</link>><<crime \"thievery\">>",
+    "translation": "",
+    "pos": 6196
+  },
+  {
+    "passage": "Flats Sneak",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "178_5_3_7|",
+    "original": "<<link [[Leave|Flats]]>><</link>>",
+    "translation": "",
+    "pos": 6309
+  },
+  {
+    "passage": "Flats Sneak",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "183_5_3_7|",
+    "original": "It's empty. Even the lights and switches are missing, letting their cables dangle. You'll have to try somewhere else.",
+    "translation": "",
+    "pos": 6409
+  },
+  {
+    "passage": "Flats Sneak",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "185_5_3_7|",
+    "original": "<<link [[Leave|Flats]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 6538
+  },
+  {
+    "passage": "Flats Sneak Wallet",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "194_5_3_7|",
+    "original": "The <<person>> turns as you swipe the <<wallet>> from the table. <<He>> jumps in fright, almost dropping the phone, then furiously dials a number. You turn and run.",
+    "translation": "",
+    "pos": 34
+  },
+  {
+    "passage": "Flats Sneak Wallet",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "196_5_3_7|",
+    "original": "\"Police!\" the <<person>> says behind you. \"I'm being robbed!\"",
+    "translation": "",
+    "pos": 208
+  },
+  {
+    "passage": "Flats Sneak Wallet",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "198_5_3_7|",
+    "original": "You escape the flat while the occupant shouts into <<his>> phone.",
+    "translation": "",
+    "pos": 279
+  },
+  {
+    "passage": "Flats Sneak Wallet",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "201_5_3_7|",
+    "original": "<<link [[Next|Flats]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 355
+  },
+  {
+    "passage": "Flats Sneak Snore",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "208_5_3_7|",
+    "original": "You seize the goods, and tiptoe from the flat without issue.",
+    "translation": "",
+    "pos": 39
+  },
+  {
+    "passage": "Flats Sneak Snore",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "211_5_3_7|",
+    "original": "<<link [[Next|Flats]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 112
+  },
+  {
+    "passage": "Flats Sneak Snore",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "214_5_3_7|",
+    "original": "You seize the goods, but the <<person>> wakes as you try to tiptoe by.",
+    "translation": "",
+    "pos": 173
+  },
+  {
+    "passage": "Flats Sneak Snore",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "217_5_3_7|",
+    "original": "\"I don't know what you're up to,\" <<he>> says, reaching out and grasping your thigh. \"But you're in trouble now.\"",
+    "translation": "",
+    "pos": 256
+  },
+  {
+    "passage": "Flats Sneak Snore",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "220_5_3_7|",
+    "original": "<<link [[Next|Flats Sneak Rape 3]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 382
+  },
+  {
+    "passage": "Flats Sneak Rape 3",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "244_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Flats Sneak Rape 3 Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 306
+  },
+  {
+    "passage": "Flats Sneak Rape 3",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "246_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Flats Sneak Rape 3]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 404
+  },
+  {
+    "passage": "Flats Sneak Rape 3 Finish",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "253_5_3_7|",
+    "original": "<<He>> shoves you from the flat.",
+    "translation": "",
+    "pos": 72
+  },
+  {
+    "passage": "Flats Sneak Rape 3 Finish",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "255_5_3_7|",
+    "original": "<<tearful>> you climb to your feet.",
+    "translation": "",
+    "pos": 116
+  },
+  {
+    "passage": "Flats Sneak Rape 3 Finish",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "258_5_3_7|",
+    "original": "The <<person1>><<person>> runs, and hides in the bedroom.",
+    "translation": "",
+    "pos": 172
+  },
+  {
+    "passage": "Flats Sneak Rape 3 Finish",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "260_5_3_7|",
+    "original": "<<tearful>> you escape the flat.",
+    "translation": "",
+    "pos": 241
+  },
+  {
+    "passage": "Flats Sneak Rape 3 Finish",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "268_5_3_7|",
+    "original": "<<link [[Next|Flats]]>><</link>>",
+    "translation": "",
+    "pos": 336
+  },
+  {
+    "passage": "Flats Sneak Housekeeping",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "275_5_3_7|",
+    "original": "You ransack the flat for sheets, clothing, towels, and anything else you can tie together.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Flats Sneak Housekeeping",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "278_5_3_7|",
+    "original": "You give it a good tug.",
+    "translation": "",
+    "pos": 167
+  },
+  {
+    "passage": "Flats Sneak Housekeeping",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "281_5_3_7|",
+    "original": "<span class=\"green\">It feels firm.</span> You throw it out a window, and watch it tumble to the pavement below.",
+    "translation": "",
+    "pos": 254
+  },
+  {
+    "passage": "Flats Sneak Housekeeping",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "284_5_3_7|",
+    "original": "<<link [[Escape!|Flats Sneak Rope]]>><</link>>",
+    "translation": "",
+    "pos": 380
+  },
+  {
+    "passage": "Flats Sneak Housekeeping",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "288_5_3_7|",
+    "original": "<span class=\"green\">It feels firm,</span> but needs to be longer.",
+    "translation": "",
+    "pos": 473
+  },
+  {
+    "passage": "Flats Sneak Housekeeping",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "294_5_3_7|",
+    "original": "The raging alarm doesn't make it easy. You think you've tied the fabric securely, <span class=\"red\">but your makeshift rope falls apart at your tugging.</span>",
+    "translation": "",
+    "pos": 618
+  },
+  {
+    "passage": "Flats Sneak Physique",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "304_5_3_7|",
+    "original": "You throw your body against the door, hammering it with all your might.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Flats Sneak Physique",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "307_5_3_7|",
+    "original": "<span class=\"green\">You hear weakpoints groan as the shutter gives way a little.</span> You bash at it again and again, until the weakpoints snap, and the shutter falls to the carpet.",
+    "translation": "",
+    "pos": 111
+  },
+  {
+    "passage": "Flats Sneak Physique",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "313_5_3_7|",
+    "original": "You dash into the corridor outside, and away from the alarm. You can hear sirens outside. You avoid the main stairwell.",
+    "translation": "",
+    "pos": 356
+  },
+  {
+    "passage": "Flats Sneak Physique",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "316_5_3_7|",
+    "original": "<<link [[Next|Flats]]>><</link>>",
+    "translation": "",
+    "pos": 488
+  },
+  {
+    "passage": "Flats Sneak Physique",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "319_5_3_7|",
+    "original": "<span class=\"red\">It's no use.</span> The metal remains sturdy in the face of your hammering.",
+    "translation": "",
+    "pos": 537
+  },
+  {
+    "passage": "Flats Sneak Assume",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "329_5_3_7|",
+    "original": "You drop to all fours and stick your <<bottom>> in the air, awaiting the arrival of the police.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Flats Sneak Assume",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "333_5_3_7|",
+    "original": "<span class=\"red\">\"POLICE ON SCENE,\" announces the voice. \"HAVE A NICE DAY.\"</span> The shutter opens, and two police officers, a <<person1>><<person>> and <<person2>><<person>>, march in.",
+    "translation": "",
+    "pos": 146
+  },
+  {
+    "passage": "Flats Sneak Assume",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "336_5_3_7|",
+    "original": "\"Looks like <<pshes>> ready to come quietly,\" the <<person1>><<person>> chuckles. \"Hold still.\" The <<person2>><<person>> advances with a pair of cuffs.",
+    "translation": "",
+    "pos": 345
+  },
+  {
+    "passage": "Flats Sneak Assume",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "339_5_3_7|",
+    "original": "<<link [[Go quietly|Hospital Arrest Journey]]>><<flats_alarm_end>><</link>>",
+    "translation": "",
+    "pos": 508
+  },
+  {
+    "passage": "Flats Sneak Assume",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "341_5_3_7|",
+    "original": "<<link [[Fight|Flats Sneak Fight]]>><<set $fightstart to 1>><</link>>",
+    "translation": "",
+    "pos": 589
+  },
+  {
+    "passage": "Flats Sneak Hide",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "347_5_3_7|",
+    "original": "You search the flat for a good hiding place. The best you can find is a cupboard.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Flats Sneak Hide",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "350_5_3_7|",
+    "original": "You're still searching when you feel the thump of footsteps from the corridor outside. With no time remaining, you jump beneath a nearby table.",
+    "translation": "",
+    "pos": 105
+  },
+  {
+    "passage": "Flats Sneak Hide",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "354_5_3_7|",
+    "original": "<span class=\"red\">\"POLICE ON SCENE,\" announces the voice. \"HAVE A NICE DAY.\"</span> The shutter opens, and two police officers, a <<person1>><<person>> and <<person2>><<person>>, march in.",
+    "translation": "",
+    "pos": 286
+  },
+  {
+    "passage": "Flats Sneak Hide",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "357_5_3_7|",
+    "original": "\"I'll check the cupboard,\" the <<person1>><<person>> says.",
+    "translation": "",
+    "pos": 485
+  },
+  {
+    "passage": "Flats Sneak Hide",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "359_5_3_7|",
+    "original": "\"No need,\" the <<person2>><<person>> replies, nodding your way. \"<<pShes>> under the table.\"",
+    "translation": "",
+    "pos": 549
+  },
+  {
+    "passage": "Flats Sneak Hide",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "361_5_3_7|",
+    "original": "\"Best come quietly,\" the <<person1>><<person>> laughs as <<his>> partner advances with a pair of cuffs.",
+    "translation": "",
+    "pos": 647
+  },
+  {
+    "passage": "Flats Sneak Hide",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "364_5_3_7|",
+    "original": "<<link [[Go quietly|Hospital Arrest Journey]]>><<flats_alarm_end>><</link>>",
+    "translation": "",
+    "pos": 761
+  },
+  {
+    "passage": "Flats Sneak Hide",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "366_5_3_7|",
+    "original": "<<link [[Fight|Flats Sneak Fight]]>><<set $fightstart to 1>><</link>>",
+    "translation": "",
+    "pos": 842
+  },
+  {
+    "passage": "Flats Sneak Fight",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "387_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Flats Sneak Fight Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 299
+  },
+  {
+    "passage": "Flats Sneak Fight",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "389_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Flats Sneak Fight]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 396
+  },
+  {
+    "passage": "Flats Sneak Fight Finish",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "396_5_3_7|",
+    "original": "The pair lean against the wall to recover. <<tearful>> you seize the opportunity. You hear the <<person1>><<person>> weakly call for backup as you escape down the corridor.",
+    "translation": "",
+    "pos": 72
+  },
+  {
+    "passage": "Flats Sneak Fight Finish",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "403_5_3_7|",
+    "original": "<<link [[Next|Flats]]>><</link>>",
+    "translation": "",
+    "pos": 335
+  },
+  {
+    "passage": "Flats Sneak Fight Finish",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "407_5_3_7|",
+    "original": "The <<person2>><<person>> collapses, and the <<person1>><<person>> backs away, reaching for <<his>> radio. <<tearful>> you seize the opportunity. You hear <<him>> call for backup as you escape down the corridor.",
+    "translation": "",
+    "pos": 406
+  },
+  {
+    "passage": "Flats Sneak Fight Finish",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "416_5_3_7|",
+    "original": "<<link [[Next|Flats]]>><</link>>",
+    "translation": "",
+    "pos": 710
+  },
+  {
+    "passage": "Flats Sneak Fight Finish",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "419_5_3_7|",
+    "original": "<<tearful>> you fall to the ground. You're too hurt to continue fighting.",
+    "translation": "",
+    "pos": 759
+  },
+  {
+    "passage": "Flats Sneak Fight Finish",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "428_5_3_7|",
+    "original": "<<link [[Next|Hospital Arrest Journey]]>><<loadNPC 0 \"flats_arrest_1\">><<loadNPC 1 \"flats_arrest_2\">><<clearNPC \"flats_arrest_1\">><<clearNPC \"flats_arrest_2\">><</link>>",
+    "translation": "",
+    "pos": 961
+  },
+  {
+    "passage": "Flats Sneak Rope",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "437_5_3_7|",
+    "original": "You climb down the side of the building. An old couple watch you pass from their window, oddly unsurprised by your descent.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Flats Sneak Rope",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "440_5_3_7|",
+    "original": "You reach the bottom without issue. A head peeks out the window you escaped through, far above. They're too far to identify your face.",
+    "translation": "",
+    "pos": 147
+  },
+  {
+    "passage": "Flats Sneak Rope",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "443_5_3_7|",
+    "original": "<<link [[Next|Flats]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 292
+  },
+  {
+    "passage": "Flats Sneak Seduce",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "462_5_3_7|",
+    "original": "<span class=\"gold\">You feel more confident in your powers of seduction.</span>",
+    "translation": "",
+    "pos": 110
+  },
+  {
+    "passage": "Flats Sneak Seduce",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "468_5_3_7|",
+    "original": "\"S-sorry for the intrusion,\" you say. \"Someone paid me to provide them company. I must have the wrong address.\"",
+    "translation": "",
+    "pos": 265
+  },
+  {
+    "passage": "Flats Sneak Seduce",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "470_5_3_7|",
+    "original": "\"Wrong room?\" you ask. \"Good thing you told me. I'm an escort, you see. And already paid up too.\"",
+    "translation": "",
+    "pos": 418
+  },
+  {
+    "passage": "Flats Sneak Seduce",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "472_5_3_7|",
+    "original": "\"I must have the wrong room,\" you say. \"I'm an escort, and I've been paid to provide entertainment.\"",
+    "translation": "",
+    "pos": 526
+  },
+  {
+    "passage": "Flats Sneak Seduce",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "474_5_3_7|",
+    "original": "You turn to leave.",
+    "translation": "",
+    "pos": 635
+  },
+  {
+    "passage": "Flats Sneak Seduce",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "479_5_3_7|",
+    "original": "<span class=\"green\">\"Wait,\"</span> the person says at once, letting the cat leap to the floor. \"I was jesting. Of course I'm who you're here for.\"",
+    "translation": "",
+    "pos": 721
+  },
+  {
+    "passage": "Flats Sneak Seduce",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "482_5_3_7|",
+    "original": "You walk over to <<him>>, without glancing at the watch.",
+    "translation": "",
+    "pos": 880
+  },
+  {
+    "passage": "Flats Sneak Seduce",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "485_5_3_7|",
+    "original": "<<link [[Next|Flats Sneak Sex]]>><<set $sexstart to 1>><</link>>",
+    "translation": "",
+    "pos": 949
+  },
+  {
+    "passage": "Flats Sneak Seduce",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "490_5_3_7|",
+    "original": "<span class=\"red\">\"Nice try,\"</span> the <<person>> says, standing and letting the cat leap to the floor. \"But as you're here, why don't I take advantage?\"",
+    "translation": "",
+    "pos": 1032
+  },
+  {
+    "passage": "Flats Sneak Seduce",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "493_5_3_7|",
+    "original": "<<link [[Next|Flats Sneak Rape]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 1200
+  },
+  {
+    "passage": "Flats Sneak Sex",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "515_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Flats Sneak Sex Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 217
+  },
+  {
+    "passage": "Flats Sneak Sex",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "517_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Flats Sneak Sex]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 312
+  },
+  {
+    "passage": "Flats Sneak Sex Finish",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "525_5_3_7|",
+    "original": "You run your fingers down <<his>> arms as <<he>> spasms, slipping off the watch and squirrelling it away. <<He>> doesn't notice.<<set $blackmoney += 80>><<crimeUp 80 \"thievery\">><<crime \"thievery\">>",
+    "translation": "",
+    "pos": 94
+  },
+  {
+    "passage": "Flats Sneak Sex Finish",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "527_5_3_7|",
+    "original": "<<tearful>> you leave <<him>> slumped on the chair.",
+    "translation": "",
+    "pos": 304
+  },
+  {
+    "passage": "Flats Sneak Sex Finish",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "530_5_3_7|",
+    "original": "You shove the <<person1>><<person>> away, and grasp the watch as <<he>> falls. The force rips it off <<his>> wrist.<<set $blackmoney += 80>><<crimeUp 80 \"thievery\">><<crimeUp 20 \"assault\">><<crimes \"assault\" \"thievery\">>",
+    "translation": "",
+    "pos": 397
+  },
+  {
+    "passage": "Flats Sneak Sex Finish",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "532_5_3_7|",
+    "original": "<<tearful>> you escape the flat.",
+    "translation": "",
+    "pos": 629
+  },
+  {
+    "passage": "Flats Sneak Sex Finish",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "535_5_3_7|",
+    "original": "\"Some whore you are,\" the <<person1>><<person>> scoffs. \"Get out.\"",
+    "translation": "",
+    "pos": 682
+  },
+  {
+    "passage": "Flats Sneak Sex Finish",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "537_5_3_7|",
+    "original": "<<tearful>> you leave the flat.",
+    "translation": "",
+    "pos": 760
+  },
+  {
+    "passage": "Flats Sneak Sex Finish",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "544_5_3_7|",
+    "original": "<<link [[Next|Flats]]>><</link>>",
+    "translation": "",
+    "pos": 840
+  },
+  {
+    "passage": "Flats Sneak Attack",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "549_5_3_7|",
+    "original": "You don't wait for the <<person1>><<person>> to make the first move. You run at <<him>>, barely giving <<him>> time to stand. The cat leaps away from you.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Flats Sneak Attack",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "552_5_3_7|",
+    "original": "<<link [[Next|Flats Sneak Rape 2]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 178
+  },
+  {
+    "passage": "Flats Sneak Run",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "558_5_3_7|",
+    "original": "You try to open the front door, but the <<person>> leaps to <<his>> feet and rushes towards you, throwing the cat several feet.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Flats Sneak Run",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "561_5_3_7|",
+    "original": "<<link [[Next|Flats Sneak Rape 2]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 151
+  },
+  {
+    "passage": "Flats Sneak Rape 2",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "584_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Flats Sneak Rape 2 Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 281
+  },
+  {
+    "passage": "Flats Sneak Rape 2",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "586_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Flats Sneak Rape 2]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 379
+  },
+  {
+    "passage": "Flats Sneak Rape 2 Finish",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "593_5_3_7|",
+    "original": "<<He>> opens the door, and shoves you out.",
+    "translation": "",
+    "pos": 72
+  },
+  {
+    "passage": "Flats Sneak Rape 2 Finish",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "595_5_3_7|",
+    "original": "<<tearful>> you climb to your feet.",
+    "translation": "",
+    "pos": 126
+  },
+  {
+    "passage": "Flats Sneak Rape 2 Finish",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "598_5_3_7|",
+    "original": "You shove the <<person1>><<person>> away, and grasp the watch as <<he>> falls. The force rips it off <<his>> wrist.<<set $blackmoney += 80>><<crimeUp 80 \"thievery\">><<crimeUp 20 \"assault\">><<crimes \"assault\" \"thievery\">>",
+    "translation": "",
+    "pos": 203
+  },
+  {
+    "passage": "Flats Sneak Rape 2 Finish",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "600_5_3_7|",
+    "original": "<<tearful>> you escape the flat.",
+    "translation": "",
+    "pos": 435
+  },
+  {
+    "passage": "Flats Sneak Rape 2 Finish",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "606_5_3_7|",
+    "original": "<<link [[Next|Flats]]>><</link>>",
+    "translation": "",
+    "pos": 515
+  },
+  {
+    "passage": "Flats Sneak Terrace",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "612_5_3_7|",
+    "original": "It's not a wide gap, but crossing it over such a drop is still scary. You resist looking down, <span class=\"green\">and make it across.</span>",
+    "translation": "",
+    "pos": 39
+  },
+  {
+    "passage": "Flats Sneak Terrace",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "614_5_3_7|",
+    "original": "The terrace door to this flat is closed, but unlocked. There's no front door, other than the one you used, and there's only one room. There is a ladder however, leading to a ventilation shaft in the ceiling.",
+    "translation": "",
+    "pos": 192
+  },
+  {
+    "passage": "Flats Sneak Terrace",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "616_5_3_7|",
+    "original": "Two stacks of computer servers are the only furniture, aside from a stool. They sit behind screens of glass, blinking with blue lights.",
+    "translation": "",
+    "pos": 411
+  },
+  {
+    "passage": "Flats Sneak Terrace",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "618_5_3_7|",
+    "original": "<<link [[Next|Flats Sneak Terrace 2]]>><</link>>",
+    "translation": "",
+    "pos": 558
+  },
+  {
+    "passage": "Flats Sneak Terrace",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "621_5_3_7|",
+    "original": "You look down, at the pavement far below. Was the gap always this wide? You put one foot on the railing, <span class=\"red\">and a sudden terror grips you.</span> You flee the flat.<<gstress>><<stress 6>><<gwillpower>><<willpower 1>>",
+    "translation": "",
+    "pos": 623
+  },
+  {
+    "passage": "Flats Sneak Terrace",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "624_5_3_7|",
+    "original": "<<link [[Next|Flats]]>><</link>>",
+    "translation": "",
+    "pos": 867
+  },
+  {
+    "passage": "Flats Sneak Terrace 2",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "631_5_3_7|",
+    "original": "You climb the ladder, and look up and down a vent. It's wide enough for you to squeeze through. One direction leads to a dead-end, but the other slopes down, and disappears around a bend.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Flats Sneak Terrace 2",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "634_5_3_7|",
+    "original": "<<link [[Explore (0:10)|Flats Sneak Terrace Explore]]>><<pass 10>><</link>>",
+    "translation": "",
+    "pos": 211
+  },
+  {
+    "passage": "Flats Sneak Terrace 2",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "636_5_3_7|",
+    "original": "<<link [[Leave|Flats]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 292
+  },
+  {
+    "passage": "Flats Sneak Terrace Explore",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "643_5_3_7|",
+    "original": "You crawl through the vents. They turn this way and that, passing above rooms and letting you peek inside through thin slits. Some are occupied, but you pass by unbeknownst.",
+    "translation": "",
+    "pos": 43
+  },
+  {
+    "passage": "Flats Sneak Terrace Explore",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "646_5_3_7|",
+    "original": "There are no other entrances however, until you at last arrive at the bottom of a laundry room. You crawl from the vent, and peek outside. It's a normal corridor. You soon get your bearings.",
+    "translation": "",
+    "pos": 227
+  },
+  {
+    "passage": "Flats Sneak Terrace Explore",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "650_5_3_7|",
+    "original": "<<link [[Next|Flats]]>><</link>>",
+    "translation": "",
+    "pos": 429
+  },
+  {
+    "passage": "Flats Sneak Investigate",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "657_5_3_7|",
+    "original": "You search the flat for any valuables, and find <span class=\"gold\">£30</span> under the mattress.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Flats Sneak Investigate",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "660_5_3_7|",
+    "original": "<<link [[Take it|Flats]]>><<moneyGain 30>><<crimeUp 30 \"petty\">><</link>><<crime \"petty\">>",
+    "translation": "",
+    "pos": 121
+  },
+  {
+    "passage": "Flats Sneak Investigate",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "662_5_3_7|",
+    "original": "<<link [[Leave it|Flats]]>><</link>>",
+    "translation": "",
+    "pos": 217
+  },
+  {
+    "passage": "Flats Sneak Crack",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "669_5_3_7|",
+    "original": "You press your ear against the safe, and listen for telltale clicks as you turn the dial.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Flats Sneak Crack",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "675_5_3_7|",
+    "original": "<span class=\"green\">The safe opens,</span> yielding its contents. You find <span class=\"gold\">£120</span> inside.",
+    "translation": "",
+    "pos": 168
+  },
+  {
+    "passage": "Flats Sneak Crack",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "681_5_3_7|",
+    "original": "<span class=\"blue\">That was too easy. You didn't learn anything.</span>",
+    "translation": "",
+    "pos": 387
+  },
+  {
+    "passage": "Flats Sneak Crack",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "685_5_3_7|",
+    "original": "<<link [[Take it|Flats]]>><<moneyGain 120>><<crimeUp 120 \"thievery\">><<endevent>><</link>><<crime \"thievery\">>",
+    "translation": "",
+    "pos": 481
+  },
+  {
+    "passage": "Flats Sneak Crack",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "687_5_3_7|",
+    "original": "<<link [[Leave|Flats]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 599
+  },
+  {
+    "passage": "Flats Sneak Crack",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "692_5_3_7|",
+    "original": "<span class=\"red\">You hear the running water stop.</span> Before you can escape the bedroom, a <<person>> erupts from the bathroom, wearing just a bathrobe, and still dripping.",
+    "translation": "",
+    "pos": 663
+  },
+  {
+    "passage": "Flats Sneak Crack",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "695_5_3_7|",
+    "original": "\"Steal from me would you?\" <<he>> says. \"Time for a lesson.\"",
+    "translation": "",
+    "pos": 852
+  },
+  {
+    "passage": "Flats Sneak Crack",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "701_5_3_7|",
+    "original": "<span class=\"blue\">That was too easy. You didn't learn anything.</span>",
+    "translation": "",
+    "pos": 1018
+  },
+  {
+    "passage": "Flats Sneak Crack",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "705_5_3_7|",
+    "original": "<<link [[Next|Flats Sneak Rape]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 1112
+  },
+  {
+    "passage": "Flats Sneak Rape",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "730_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Flats Sneak Rape Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 253
+  },
+  {
+    "passage": "Flats Sneak Rape",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "732_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Flats Sneak Rape]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 349
+  },
+  {
+    "passage": "Flats Sneak Rape Finish",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "739_5_3_7|",
+    "original": "\"I needed that,\" <<he>> says, shoving you towards the door. \"Now get out.\"",
+    "translation": "",
+    "pos": 72
+  },
+  {
+    "passage": "Flats Sneak Rape Finish",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "741_5_3_7|",
+    "original": "<<tearful>> you hear the door slam behind you.",
+    "translation": "",
+    "pos": 158
+  },
+  {
+    "passage": "Flats Sneak Rape Finish",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "744_5_3_7|",
+    "original": "The <<person>> trips on <<his>> gown, and tumbles to the bathroom floor.",
+    "translation": "",
+    "pos": 246
+  },
+  {
+    "passage": "Flats Sneak Rape Finish",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "746_5_3_7|",
+    "original": "<<tearful>> you escape the flat.",
+    "translation": "",
+    "pos": 330
+  },
+  {
+    "passage": "Flats Sneak Rape Finish",
+    "filepath": "overworld-town/loc-flats/skulduggery.twee",
+    "key": "754_5_3_7|",
+    "original": "<<link [[Next|Flats]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 425
+  }
+]

@@ -1,0 +1,290 @@
+[
+  {
+    "passage": "Widgets Home",
+    "filepath": "overworld-town/loc-home/widgets.twee",
+    "key": "5_5_3_7|",
+    "original": "<<set _ex to ($exposed >= 2 ? (Time.dayState == \"night\" ? 4 : 5) : (Time.dayState == \"night\" ? 2 : 3))>>",
+    "translation": "",
+    "pos": 52
+  },
+  {
+    "passage": "Widgets Home",
+    "filepath": "overworld-town/loc-home/widgets.twee",
+    "key": "8_5_3_7|",
+    "original": "<<dooricon \"orphanage\">><<link [[Sneak outside (0:02)|Home Leave]]>><<pass 2>><</link>>",
+    "translation": "",
+    "pos": 238
+  },
+  {
+    "passage": "Widgets Home",
+    "filepath": "overworld-town/loc-home/widgets.twee",
+    "key": "10_5_3_7|",
+    "original": "<<dooricon \"orphanage\">><<link [[Sneak outside (0:05)|Home Leave]]>><<pass 5>><</link>>",
+    "translation": "",
+    "pos": 342
+  },
+  {
+    "passage": "Widgets Home",
+    "filepath": "overworld-town/loc-home/widgets.twee",
+    "key": "28_5_3_7|",
+    "original": "<<dooricon \"orphanage\">><<link [[Leave orphanage (0:01)|Robin Trauma Visit]]>><<set $phase to 2>><<pass 1>><</link>>",
+    "translation": "",
+    "pos": 838
+  },
+  {
+    "passage": "Widgets Home",
+    "filepath": "overworld-town/loc-home/widgets.twee",
+    "key": "31_5_3_7|",
+    "original": "<<dooricon \"orphanage\">><<link [[Leave orphanage (0:01)|Robin Weekend Gift]]>><<pass 1>><<set $weekly.robinGift to 1>><</link>>",
+    "translation": "",
+    "pos": 1189
+  },
+  {
+    "passage": "Widgets Home",
+    "filepath": "overworld-town/loc-home/widgets.twee",
+    "key": "34_5_3_7|",
+    "original": "<<dooricon \"orphanage\">><<link [[Leave orphanage (0:01)|Domus Street]]>><<pass 1>><</link>>",
+    "translation": "",
+    "pos": 1339
+  },
+  {
+    "passage": "Widgets Home",
+    "filepath": "overworld-town/loc-home/widgets.twee",
+    "key": "71_5_3_7|",
+    "original": "<<set $earSlime.eventTimer to 3>>",
+    "translation": "",
+    "pos": 2579
+  },
+  {
+    "passage": "Widgets Home",
+    "filepath": "overworld-town/loc-home/widgets.twee",
+    "key": "78_5_3_7|",
+    "original": "You wake up in a confused and disoriented state. The last thing you recall is getting into bed <<if $robinbed is \"theirs\">>with Robin<<else>>like normal<</if>>. However, you're clearly not in it anymore. You have a feeling that the slime in your ear is involved in some way.",
+    "translation": "",
+    "pos": 2797
+  },
+  {
+    "passage": "Widgets Home",
+    "filepath": "overworld-town/loc-home/widgets.twee",
+    "key": "89_5_3_7|",
+    "original": "<<set _coveredIn to (_coveredIn is \"slime\" ? \"slime and semen\" : \"semen\")>>",
+    "translation": "",
+    "pos": 3538
+  },
+  {
+    "passage": "Widgets Home",
+    "filepath": "overworld-town/loc-home/widgets.twee",
+    "key": "93_5_3_7|",
+    "original": "On top of this predicament, you find yourself covered in <<print _coveredIn>>. If this was the slime's doing, it clearly had its fun with your body while you slept.",
+    "translation": "",
+    "pos": 3698
+  },
+  {
+    "passage": "Widgets Home",
+    "filepath": "overworld-town/loc-home/widgets.twee",
+    "key": "96_5_3_7|",
+    "original": "Having a look round your surroundings, you think that you've somehow been relocated to the <<print _newLocation.toLocaleLowerCase()>>.",
+    "translation": "",
+    "pos": 3887
+  },
+  {
+    "passage": "Widgets Home",
+    "filepath": "overworld-town/loc-home/widgets.twee",
+    "key": "98_5_3_7|",
+    "original": "<<link [[Next|_newLocation]]>><</link>>",
+    "translation": "",
+    "pos": 4035
+  },
+  {
+    "passage": "Widgets Home",
+    "filepath": "overworld-town/loc-home/widgets.twee",
+    "key": "101_5_3_7|",
+    "original": "<<generate1>><<person1>>Without warning, a <<person>> passing by, bumps into you. <<He>> staggers back and looks at you with anger, but <<his>> rage turns to lechery as <<he>> beholds you. \"You're the cutest thing I've seen all week! Come 'ere.\"",
+    "translation": "",
+    "pos": 4112
+  },
+  {
+    "passage": "Widgets Home",
+    "filepath": "overworld-town/loc-home/widgets.twee",
+    "key": "103_5_3_7|",
+    "original": "<<link [[Next|Tutorial]]>><<set $molestationstart to 1>><<set $tutorialExit to \"Residential alleyways\">><</link>>",
+    "translation": "",
+    "pos": 4371
+  },
+  {
+    "passage": "Widgets Home",
+    "filepath": "overworld-town/loc-home/widgets.twee",
+    "key": "122_5_3_7|",
+    "original": "You wake up in a highly aroused and disoriented state. Unable to get up, you look at yourself, only to find that you're unable to stop",
+    "translation": "",
+    "pos": 5114
+  },
+  {
+    "passage": "Widgets Home",
+    "filepath": "overworld-town/loc-home/widgets.twee",
+    "key": "125_5_3_7|",
+    "original": "aggressively squeezing the parasite between your legs. The waves of pleasure flowing through you sends you <<if _deniedOrgasm>>close to the edge<<else>>over the edge<</if>>, immediately followed by a second<<if _deniedOrgasm>> ruined<</if>> orgasm.",
+    "translation": "",
+    "pos": 5408
+  },
+  {
+    "passage": "Widgets Home",
+    "filepath": "overworld-town/loc-home/widgets.twee",
+    "key": "131_5_3_7|",
+    "original": "aggressively stroking your penis. The pleasure quickly sends you <<if _deniedOrgasm>>close to the edge<<else>>over the edge<</if>>.",
+    "translation": "",
+    "pos": 5740
+  },
+  {
+    "passage": "Widgets Home",
+    "filepath": "overworld-town/loc-home/widgets.twee",
+    "key": "136_5_3_7|",
+    "original": "aggressively fingering your pussy. The pleasure quickly sends you <<if _deniedOrgasm>>close to the edge<<else>>over the edge<</if>>.",
+    "translation": "",
+    "pos": 6029
+  },
+  {
+    "passage": "Widgets Home",
+    "filepath": "overworld-town/loc-home/widgets.twee",
+    "key": "140_5_3_7|",
+    "original": "aggressively fingering your anus. The pleasure quickly sends you <<if _deniedOrgasm>>close to the edge<<else>>over the edge<</if>>.",
+    "translation": "",
+    "pos": 6305
+  },
+  {
+    "passage": "Widgets Home",
+    "filepath": "overworld-town/loc-home/widgets.twee",
+    "key": "144_5_3_7|",
+    "original": "aggressively pinching your nipples. The pleasure quickly sends you <<if _deniedOrgasm>>close to the edge<<else>>over the edge<</if>>.",
+    "translation": "",
+    "pos": 6473
+  },
+  {
+    "passage": "Widgets Home",
+    "filepath": "overworld-town/loc-home/widgets.twee",
+    "key": "148_5_3_7|",
+    "original": "After the final<<if _deniedOrgasm>> ruined<</if>> orgasm subsides, you regain control over your body. You slowly calm down and attempt to go back to sleep.",
+    "translation": "",
+    "pos": 6641
+  },
+  {
+    "passage": "Widgets Home",
+    "filepath": "overworld-town/loc-home/widgets.twee",
+    "key": "150_5_3_7|",
+    "original": "<<link [[Next|$passage]]>><</link>>",
+    "translation": "",
+    "pos": 6808
+  },
+  {
+    "passage": "Widgets Home",
+    "filepath": "overworld-town/loc-home/widgets.twee",
+    "key": "159_5_3_7|",
+    "original": "<span class=\"pink\">You're dressed too indecently to enter the youth ward.</span>",
+    "translation": "",
+    "pos": 7238
+  },
+  {
+    "passage": "Widgets Home",
+    "filepath": "overworld-town/loc-home/widgets.twee",
+    "key": "161_5_3_7|",
+    "original": "<span class=\"pink\">You should clean yourself before entering the youth ward.</span>",
+    "translation": "",
+    "pos": 7354
+  },
+  {
+    "passage": "Widgets Home",
+    "filepath": "overworld-town/loc-home/widgets.twee",
+    "key": "164_5_3_7|",
+    "original": "<<childicon \"blocks\">><<link [[Ward (0:01)|Orphanage Ward Intro]]>><<pass 1>><</link>>",
+    "translation": "",
+    "pos": 7484
+  },
+  {
+    "passage": "Widgets Home",
+    "filepath": "overworld-town/loc-home/widgets.twee",
+    "key": "166_5_3_7|",
+    "original": "<<childicon \"blocks\">><<link [[Ward (0:01)|Orphanage Ward]]>><<pass 1>><</link>>",
+    "translation": "",
+    "pos": 7587
+  },
+  {
+    "passage": "Widgets Home",
+    "filepath": "overworld-town/loc-home/widgets.twee",
+    "key": "175_5_3_7|",
+    "original": "<<childicon \"crib\">><<link [[Nursery|Orphanage Ward Wraith Sing]]>><<set $exitPassage to $passage>><</link>>",
+    "translation": "",
+    "pos": 7926
+  },
+  {
+    "passage": "Widgets Home",
+    "filepath": "overworld-town/loc-home/widgets.twee",
+    "key": "178_5_3_7|",
+    "original": "<<childicon \"crib\">><<link [[Nursery|Childrens Home]]>><<set $exitPassage to $passage>><</link>>",
+    "translation": "",
+    "pos": 8054
+  },
+  {
+    "passage": "Widgets Home",
+    "filepath": "overworld-town/loc-home/widgets.twee",
+    "key": "182_5_3_7|",
+    "original": "<<main_hall_icon>><<link [[Main hall|Orphanage Ward Door]]>><</link>>",
+    "translation": "",
+    "pos": 8215
+  },
+  {
+    "passage": "Widgets Home",
+    "filepath": "overworld-town/loc-home/widgets.twee",
+    "key": "185_5_3_7|",
+    "original": "<<main_hall_icon>><<link [[Main hall|Orphanage]]>><</link>>",
+    "translation": "",
+    "pos": 8304
+  },
+  {
+    "passage": "Widgets Home",
+    "filepath": "overworld-town/loc-home/widgets.twee",
+    "key": "193_5_3_7|",
+    "original": "Robin is in the bath.",
+    "translation": "",
+    "pos": 8507
+  },
+  {
+    "passage": "Widgets Home",
+    "filepath": "overworld-town/loc-home/widgets.twee",
+    "key": "196_5_3_7|",
+    "original": "<<bathroomicon>><<link [[Bathroom (0:01)|Robin Bath]]>><<pass 1>><</link>>",
+    "translation": "",
+    "pos": 8549
+  },
+  {
+    "passage": "Widgets Home",
+    "filepath": "overworld-town/loc-home/widgets.twee",
+    "key": "201_5_3_7|",
+    "original": "<<bathroomicon>><<link [[Bathroom (0:01)|Bathroom]]>><<pass 1>><</link>>",
+    "translation": "",
+    "pos": 8700
+  },
+  {
+    "passage": "Widgets Home",
+    "filepath": "overworld-town/loc-home/widgets.twee",
+    "key": "210_5_3_7|",
+    "original": "<<link [[Sleep for 1 hour|_sleep_passage]]>><<set $sleephour to 1>><</link>> &#8194;(<<timeAfterXHours 1>>)<<ltiredness>>",
+    "translation": "",
+    "pos": 8994
+  },
+  {
+    "passage": "Widgets Home",
+    "filepath": "overworld-town/loc-home/widgets.twee",
+    "key": "213_5_3_7|",
+    "original": "<<link [[\"Sleep for \" + _i + \" hours\"|_sleep_passage]]>><<set $sleephour to _i>><</link>> (<<timeAfterXHours _i>>)<<ltiredness>>",
+    "translation": "",
+    "pos": 9149
+  },
+  {
+    "passage": "Widgets Home",
+    "filepath": "overworld-town/loc-home/widgets.twee",
+    "key": "218_5_3_7|",
+    "original": "<<link [[Just sleep|_sleep_passage]]>><<set $sleephour to -1>><</link>> (??:??)<<ltiredness>>",
+    "translation": "",
+    "pos": 9322
+  }
+]

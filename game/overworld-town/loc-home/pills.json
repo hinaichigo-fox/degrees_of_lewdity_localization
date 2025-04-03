@@ -1,0 +1,410 @@
+[
+  {
+    "passage": "Widgets managePill",
+    "filepath": "overworld-town/loc-home/pills.twee",
+    "key": "4_5_3_7|",
+    "original": "<<if _args[3] isnot true or $sexStats.pills[_args[0]].owned[_args[1]] gt 0>>",
+    "translation": "",
+    "pos": 69
+  },
+  {
+    "passage": "Widgets managePill",
+    "filepath": "overworld-town/loc-home/pills.twee",
+    "key": "6_5_3_7|",
+    "original": "<<if _args[3] is true>>",
+    "translation": "",
+    "pos": 214
+  },
+  {
+    "passage": "Take Pill From Medicine Drawer",
+    "filepath": "overworld-town/loc-home/pills.twee",
+    "key": "16_5_3_7|",
+    "original": "<<print $lastPillTakenDescription>>",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Take Pill From Medicine Drawer",
+    "filepath": "overworld-town/loc-home/pills.twee",
+    "key": "25_5_3_7|",
+    "original": "<<link [[Return|PillCollection]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 255
+  },
+  {
+    "passage": "PillCollection",
+    "filepath": "overworld-town/loc-home/pills.twee",
+    "key": "31_5_3_7|",
+    "original": "You open the medicine drawer.",
+    "translation": "",
+    "pos": 68
+  },
+  {
+    "passage": "PillCollection",
+    "filepath": "overworld-town/loc-home/pills.twee",
+    "key": "35_5_3_7|",
+    "original": "Medicine Drawer",
+    "translation": "",
+    "pos": 163
+  },
+  {
+    "passage": "PillCollection",
+    "filepath": "overworld-town/loc-home/pills.twee",
+    "key": "41_5_3_7|",
+    "original": "<div class=\"hpi_gridDescContainer\" id=\"homeDescPillContainer\" style=\"display:none\">",
+    "translation": "",
+    "pos": 308
+  },
+  {
+    "passage": "PillCollection",
+    "filepath": "overworld-town/loc-home/pills.twee",
+    "key": "45_5_3_7|",
+    "original": "<div class=\"hpi_closeContainer\" id=\"hpi_closeContainer1\" title=\"close\" onclick=\"document.getElementById(`homeDescPillContainer`).style.display = `none`\">x</div>",
+    "translation": "",
+    "pos": 484
+  },
+  {
+    "passage": "PillCollection",
+    "filepath": "overworld-town/loc-home/pills.twee",
+    "key": "49_5_3_7|",
+    "original": "<<link [[Step away|$pillsExitPassage]]>><<unset $pillsExitPassage>><</link>>",
+    "translation": "",
+    "pos": 665
+  },
+  {
+    "passage": "PillCollectionSecondDose",
+    "filepath": "overworld-town/loc-home/pills.twee",
+    "key": "54_5_3_7|",
+    "original": "Disregarding the warning label, you exceed the recommended dosage of the hormonal pills.",
+    "translation": "",
+    "pos": 61
+  },
+  {
+    "passage": "PillCollectionSecondDose",
+    "filepath": "overworld-town/loc-home/pills.twee",
+    "key": "59_5_3_7|",
+    "original": "<<set $timePassed to 2>> Despite the warning, nothing wrong seems to happen.",
+    "translation": "",
+    "pos": 262
+  },
+  {
+    "passage": "PillCollectionSecondDose",
+    "filepath": "overworld-town/loc-home/pills.twee",
+    "key": "61_5_3_7|",
+    "original": "<<set $timePassed to 2>> Your <<print ($pillCat is \"breast\" ? \"breasts feel\" : $pillCat + \" feels\")>> a little odd for a few minutes but feel fine afterwards.",
+    "translation": "",
+    "pos": 374
+  },
+  {
+    "passage": "PillCollectionSecondDose",
+    "filepath": "overworld-town/loc-home/pills.twee",
+    "key": "63_5_3_7|",
+    "original": "<<set $timePassed to 10>> Your <<print ($pillCat is \"breast\" ? \"breasts feel\" : $pillCat + \" feels\")>> a little warm for a few minutes but feel fine afterwards.",
+    "translation": "",
+    "pos": 568
+  },
+  {
+    "passage": "PillCollectionSecondDose",
+    "filepath": "overworld-town/loc-home/pills.twee",
+    "key": "66_5_3_7|",
+    "original": "<<set $timePassed to 20>> Your <<print ($pillCat is \"breast\" ? \"breasts\" : $pillCat)>> suddenly starts to feel really warm and itchy which makes you unable to concentrate on anything else till it passes.",
+    "translation": "",
+    "pos": 793
+  },
+  {
+    "passage": "PillCollectionSecondDose",
+    "filepath": "overworld-town/loc-home/pills.twee",
+    "key": "72_5_3_7|",
+    "original": "You feel a sharp pain in your <<print ($pillCat is \"breast\" ? \"breasts\" : $pillCat)>>.",
+    "translation": "",
+    "pos": 1162
+  },
+  {
+    "passage": "PillCollectionSecondDose",
+    "filepath": "overworld-town/loc-home/pills.twee",
+    "key": "74_5_3_7|",
+    "original": "You feel a sharp pain in your <<print ($pillCat is \"breast\" ? \"breasts\" : $pillCat)>>, followed by another sharp pain in your <<print _secondaryPill>><<pain 12>><<set $timePassed += 30>>.",
+    "translation": "",
+    "pos": 1265
+  },
+  {
+    "passage": "PillCollectionSecondDose",
+    "filepath": "overworld-town/loc-home/pills.twee",
+    "key": "76_5_3_7|",
+    "original": "You feel a sharp pain in your <<print ($pillCat is \"breast\" ? \"breasts\" : $pillCat)>>, followed by more sharp pains in your <<print ($pillCat is \"breast\" ? \"penis and bottom\" : ($pillCat is \"penis\" ? \"breasts and bottom\" : \"breasts and penis\"))>><<pain 12>><<set $timePassed += 30>>.",
+    "translation": "",
+    "pos": 1469
+  },
+  {
+    "passage": "PillCollectionSecondDose",
+    "filepath": "overworld-town/loc-home/pills.twee",
+    "key": "80_5_3_7|",
+    "original": "It takes some time but you gradually feel better.",
+    "translation": "",
+    "pos": 1799
+  },
+  {
+    "passage": "PillCollectionSecondDose",
+    "filepath": "overworld-town/loc-home/pills.twee",
+    "key": "85_5_3_7|",
+    "original": "You feel a sharp pain in your <<print ($pillCat is \"breast\" ? \"breasts\" : $pillCat)>>. It continues to get worse until you pass out.",
+    "translation": "",
+    "pos": 1955
+  },
+  {
+    "passage": "PillCollectionSecondDose",
+    "filepath": "overworld-town/loc-home/pills.twee",
+    "key": "87_5_3_7|",
+    "original": "You feel a sharp pain in your <<print ($pillCat is \"breast\" ? \"breasts\" : $pillCat)>>, followed by another sharp pain in your <<print _secondaryPill>><<pain 12>><<set $timePassed += 30>>. It continues to get worse until you pass out.",
+    "translation": "",
+    "pos": 2104
+  },
+  {
+    "passage": "PillCollectionSecondDose",
+    "filepath": "overworld-town/loc-home/pills.twee",
+    "key": "89_5_3_7|",
+    "original": "You feel a sharp pain in your <<print ($pillCat is \"breast\" ? \"breasts\" : $pillCat)>>, followed by more sharp pains in your <<print ($pillCat is \"breast\" ? \"penis and bottom\" : ($pillCat is \"penis\" ? \"breasts and bottom\" : \"breasts and penis\"))>><<pain 12>><<set $timePassed += 30>>. It continues to get worse until you pass out.",
+    "translation": "",
+    "pos": 2354
+  },
+  {
+    "passage": "PillCollectionSecondDose",
+    "filepath": "overworld-town/loc-home/pills.twee",
+    "key": "101_5_3_7|",
+    "original": "<<link [[Next|PillCollectionPassOut]]>><<pass $timePassed>><</link>>",
+    "translation": "",
+    "pos": 2983
+  },
+  {
+    "passage": "PillCollectionSecondDose",
+    "filepath": "overworld-town/loc-home/pills.twee",
+    "key": "103_5_3_7|",
+    "original": "<<print '<<link [[Next ('+_hoursPassed+':'+ (_minutesPassed lt 10 ? \"0\" : \"\") + _minutesPassed + ')|PillCollection]]>><<unset $pillCat>><<pass $timePassed>><<unset $timePassed>><</link>>'>>",
+    "translation": "",
+    "pos": 3062
+  },
+  {
+    "passage": "PillCollectionPassOut",
+    "filepath": "overworld-town/loc-home/pills.twee",
+    "key": "110_5_3_7|",
+    "original": "You end up waking in agony and wondering what had happened to you. After a brief feel around your body, you shriek in pain after briefly touching your <<print ($pillCat is \"breast\" ? \"breasts\" : $pillCat)>>. You end up spending more time lying down till you feel like you can move without something else happening to you.",
+    "translation": "",
+    "pos": 98
+  },
+  {
+    "passage": "PillCollectionPassOut",
+    "filepath": "overworld-town/loc-home/pills.twee",
+    "key": "113_5_3_7|",
+    "original": "As you get up, you check the time to find that<<if $timePassed gt 240>> many <<else>> only a couple of <</if>>hours have passed since you took that pill.",
+    "translation": "",
+    "pos": 430
+  },
+  {
+    "passage": "PillCollectionPassOut",
+    "filepath": "overworld-town/loc-home/pills.twee",
+    "key": "117_5_3_7|",
+    "original": "You give your <<print ($pillCat is \"breast\" ? \"breasts\" : $pillCat)>> a check over, you think something might have changed about <<print ($pillCat is \"breast\" ? \"them\" : \"it\")>>.",
+    "translation": "",
+    "pos": 645
+  },
+  {
+    "passage": "PillCollectionPassOut",
+    "filepath": "overworld-town/loc-home/pills.twee",
+    "key": "146_5_3_7|",
+    "original": "<<link [[Next (1:00)|PillCollection]]>><<unset $pillCat>><<pass 60>><<unset $timePassed>><</link>>",
+    "translation": "",
+    "pos": 1602
+  },
+  {
+    "passage": "PillCollectionSecondDosePregnancy",
+    "filepath": "overworld-town/loc-home/pills.twee",
+    "key": "156_5_3_7|",
+    "original": "Disregarding the warning label, you take a second dose of the fertility pills.",
+    "translation": "",
+    "pos": 402
+  },
+  {
+    "passage": "PillCollectionSecondDosePregnancy",
+    "filepath": "overworld-town/loc-home/pills.twee",
+    "key": "159_5_3_7|",
+    "original": "Despite the warning, nothing wrong seems to happen.",
+    "translation": "",
+    "pos": 540
+  },
+  {
+    "passage": "PillCollectionSecondDosePregnancy",
+    "filepath": "overworld-town/loc-home/pills.twee",
+    "key": "161_5_3_7|",
+    "original": "<<link [[Next (0:02)|PillCollection]]>><<pass 2>><</link>>",
+    "translation": "",
+    "pos": 605
+  },
+  {
+    "passage": "PillCollectionSecondDosePregnancy",
+    "filepath": "overworld-town/loc-home/pills.twee",
+    "key": "164_5_3_7|",
+    "original": "Despite the warning, you only feel a little warm for a few minutes but feel fine afterwards. <<garousal>><<arousal 100>>",
+    "translation": "",
+    "pos": 737
+  },
+  {
+    "passage": "PillCollectionSecondDosePregnancy",
+    "filepath": "overworld-town/loc-home/pills.twee",
+    "key": "166_5_3_7|",
+    "original": "<<link [[Next (0:03)|PillCollection]]>><<pass 3>><</link>>",
+    "translation": "",
+    "pos": 871
+  },
+  {
+    "passage": "PillCollectionSecondDosePregnancy",
+    "filepath": "overworld-town/loc-home/pills.twee",
+    "key": "169_5_3_7|",
+    "original": "You start to feel a strange warmth around your <<genitals 2>> for a few minutes but feel fine afterwards. It was oddly soothing. <<garousal>><<arousal 200>>",
+    "translation": "",
+    "pos": 1005
+  },
+  {
+    "passage": "PillCollectionSecondDosePregnancy",
+    "filepath": "overworld-town/loc-home/pills.twee",
+    "key": "174_5_3_7|",
+    "original": "<<link [[Next (0:05)|PillCollection]]>><<pass 5>><</link>>",
+    "translation": "",
+    "pos": 1301
+  },
+  {
+    "passage": "PillCollectionSecondDosePregnancy",
+    "filepath": "overworld-town/loc-home/pills.twee",
+    "key": "177_5_3_7|",
+    "original": "You start feeling a strange warmth around your <<genitals 2>>, however, it doesn't seem to stop until at one point you feel like it's burning you. The heat seems to start expanding to other areas of your body but then begins to subside. <<garousal>><<arousal 1000>><<gpain>><<pain 10>>",
+    "translation": "",
+    "pos": 1435
+  },
+  {
+    "passage": "PillCollectionSecondDosePregnancy",
+    "filepath": "overworld-town/loc-home/pills.twee",
+    "key": "193_5_3_7|",
+    "original": "<<link [[Next (0:15)|PillCollection]]>><<pass 15>><</link>>",
+    "translation": "",
+    "pos": 2212
+  },
+  {
+    "passage": "PillCollectionSecondDosePregnancy",
+    "filepath": "overworld-town/loc-home/pills.twee",
+    "key": "196_5_3_7|",
+    "original": "You feel a strange warmth around your <<genitals 2>>, intensifying until it practically burns. It quickly spreads through the rest of your body, and you collapse from the pain. You remain that way until the heat finally dies down. <<garousal>><<arousal 1000>><<ggpain>><<pain 100>>",
+    "translation": "",
+    "pos": 2347
+  },
+  {
+    "passage": "PillCollectionSecondDosePregnancy",
+    "filepath": "overworld-town/loc-home/pills.twee",
+    "key": "212_5_3_7|",
+    "original": "<<link [[Next (1:00)|PillCollection]]>><<pass 60>><</link>>",
+    "translation": "",
+    "pos": 3120
+  },
+  {
+    "passage": "PillCollectionSecondDosePregnancy",
+    "filepath": "overworld-town/loc-home/pills.twee",
+    "key": "215_5_3_7|",
+    "original": "You feel a strange warmth around your <<genitals 2>>, intensifying until it practically burns. It quickly spreads through the rest of your body, and you collapse from the pain. The sheer intensity overwhelms your senses, and your vision fades to black... <<garousal>><<arousal 1000>><<ggpain>><<pain 100>>",
+    "translation": "",
+    "pos": 3257
+  },
+  {
+    "passage": "PillCollectionSecondDosePregnancy",
+    "filepath": "overworld-town/loc-home/pills.twee",
+    "key": "230_5_3_7|",
+    "original": "<<link [[Next (3:00)|PillCollectionFertilityPassOut]]>><<pass 3 hours>><</link>>",
+    "translation": "",
+    "pos": 4078
+  },
+  {
+    "passage": "PillCollectionSecondDosePregnancy",
+    "filepath": "overworld-town/loc-home/pills.twee",
+    "key": "233_5_3_7|",
+    "original": "Disregarding the warning label, you take a second dose of the contraceptive pills.",
+    "translation": "",
+    "pos": 4280
+  },
+  {
+    "passage": "PillCollectionSecondDosePregnancy",
+    "filepath": "overworld-town/loc-home/pills.twee",
+    "key": "236_5_3_7|",
+    "original": "Despite it, nothing wrong seems to happen.",
+    "translation": "",
+    "pos": 4426
+  },
+  {
+    "passage": "PillCollectionSecondDosePregnancy",
+    "filepath": "overworld-town/loc-home/pills.twee",
+    "key": "238_5_3_7|",
+    "original": "<<link [[Next (0:02)|PillCollection]]>><<pass 2>><</link>>",
+    "translation": "",
+    "pos": 4482
+  },
+  {
+    "passage": "PillCollectionSecondDosePregnancy",
+    "filepath": "overworld-town/loc-home/pills.twee",
+    "key": "241_5_3_7|",
+    "original": "Despite it, you only feel a little chilly for a few minutes but feel fine afterwards. <<larousal>><<arousal -100>>",
+    "translation": "",
+    "pos": 4618
+  },
+  {
+    "passage": "PillCollectionSecondDosePregnancy",
+    "filepath": "overworld-town/loc-home/pills.twee",
+    "key": "243_5_3_7|",
+    "original": "<<link [[Next (0:03)|PillCollection]]>><<pass 3>><</link>>",
+    "translation": "",
+    "pos": 4746
+  },
+  {
+    "passage": "PillCollectionSecondDosePregnancy",
+    "filepath": "overworld-town/loc-home/pills.twee",
+    "key": "246_5_3_7|",
+    "original": "After a few minutes, an odd, chilly sensation hits you. It spreads through your <<genitals 2>>, leaving a slight numbness in its wake that quickly dissipates on its own.<<llarousal>><<arousal -200>>",
+    "translation": "",
+    "pos": 4875
+  },
+  {
+    "passage": "PillCollectionSecondDosePregnancy",
+    "filepath": "overworld-town/loc-home/pills.twee",
+    "key": "254_5_3_7|",
+    "original": "<<link [[Next (0:30)|PillCollection]]>><<pass 30>><</link>>",
+    "translation": "",
+    "pos": 5239
+  },
+  {
+    "passage": "PillCollectionSecondDosePregnancy",
+    "filepath": "overworld-town/loc-home/pills.twee",
+    "key": "259_5_3_7|",
+    "original": "<span class=\"red\">An error has occur, people report this to the dev's with a save.</span>",
+    "translation": "",
+    "pos": 5392
+  },
+  {
+    "passage": "PillCollectionSecondDosePregnancy",
+    "filepath": "overworld-town/loc-home/pills.twee",
+    "key": "261_5_3_7|",
+    "original": "<<link [[Next|PillCollection]]>><</link>>",
+    "translation": "",
+    "pos": 5495
+  },
+  {
+    "passage": "PillCollectionFertilityPassOut",
+    "filepath": "overworld-town/loc-home/pills.twee",
+    "key": "271_5_3_7|",
+    "original": "You slowly regain consciousness, with your <<genitals 2>> feeling rather warm. You feel oddly comfortable. You wonder what effect the pills had on you.",
+    "translation": "",
+    "pos": 34
+  },
+  {
+    "passage": "PillCollectionFertilityPassOut",
+    "filepath": "overworld-town/loc-home/pills.twee",
+    "key": "274_5_3_7|",
+    "original": "<<link [[Next (0:02)|PillCollection]]>><<pass 2>><</link>>",
+    "translation": "",
+    "pos": 196
+  }
+]

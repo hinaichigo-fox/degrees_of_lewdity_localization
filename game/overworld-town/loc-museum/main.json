@@ -1,0 +1,2426 @@
+[
+  {
+    "passage": "Widgets Museum",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "70_5_3_7|",
+    "original": "<<link [[`Ask about the _antique`|`Museum `+ _museumAntiqueText[_labelM].name]]>><<set $museumAntiques.antiques[_labelM] to \"museum\">><<set $museumAntiques.museumCount++>><<npcincr Winter love 1>><</link>><<glove>>",
+    "translation": "",
+    "pos": 3458
+  },
+  {
+    "passage": "Museum Lock",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "80_5_3_7|",
+    "original": "The museum is closed. There's a sign on the door.",
+    "translation": "",
+    "pos": 63
+  },
+  {
+    "passage": "Museum Lock",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "83_5_3_7|",
+    "original": "\"Temporarily closed due to field work. Please contact me at my field office at the lake.\"",
+    "translation": "",
+    "pos": 157
+  },
+  {
+    "passage": "Museum Lock",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "85_5_3_7|",
+    "original": "\"Open weekends",
+    "translation": "",
+    "pos": 257
+  },
+  {
+    "passage": "Museum Lock",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "91_5_3_7|",
+    "original": "<<oxfordicon>><<link [[Leave|Oxford Street]]>><</link>>",
+    "translation": "",
+    "pos": 329
+  },
+  {
+    "passage": "Museum",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "100_5_3_7|",
+    "original": "<<npc Winter>><<person1>>You enter the dim museum. Small windows peek down from just beneath the high ceiling, doing little to break the gloom. The other rooms are no better.",
+    "translation": "",
+    "pos": 139
+  },
+  {
+    "passage": "Museum",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "103_5_3_7|",
+    "original": "Winter stands polishing a brass pot. <<He>> regards you with a level stare. \"Don't touch anything,\" <<he>> says. \"I doubt you've washed your hands.\"",
+    "translation": "",
+    "pos": 326
+  },
+  {
+    "passage": "Museum",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "106_5_3_7|",
+    "original": "<<link [[Respond indignantly|Museum Intro]]>><<def 1>><<set $phase to 0>><</link>>",
+    "translation": "",
+    "pos": 487
+  },
+  {
+    "passage": "Museum",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "108_5_3_7|",
+    "original": "<<link [[Respond obediently|Museum Intro]]>><<sub 1>><<set $phase to 1>><<npcincr Winter love 1>><</link>><<glove>>",
+    "translation": "",
+    "pos": 577
+  },
+  {
+    "passage": "Museum",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "110_5_3_7|",
+    "original": "<<link [[Respond flirtatiously|Museum Intro]]>><<set $phase to 2>><<npcincr Winter love -1>><</link>><<promiscuous1>><<llove>>",
+    "translation": "",
+    "pos": 700
+  },
+  {
+    "passage": "Museum",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "115_5_3_7|",
+    "original": "A hooded figure barges through as you open the doors. You trip over your $worn.feet.name, and together tumble to the ground. The figure jumps to <<his>> feet, but yelps in pain, and hurries away with a limp. You get your bearings, but the figure's already gone.",
+    "translation": "",
+    "pos": 931
+  },
+  {
+    "passage": "Museum",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "117_5_3_7|",
+    "original": "A hooded figure barges through as you open the doors, almost knocking you to the pavement. You get your bearings, but the figure's already gone.",
+    "translation": "",
+    "pos": 1205
+  },
+  {
+    "passage": "Museum",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "121_5_3_7|",
+    "original": "You enter the museum, <span class=\"red\">and find Winter lying on the ground.</span> <<His>> eyes are shut. Antiques litter the floor, knocked from pedestals. The leather map still rests on the wall, but a great tear runs through it.",
+    "translation": "",
+    "pos": 1397
+  },
+  {
+    "passage": "Museum",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "124_5_3_7|",
+    "original": "Winter coughs as you approach. \"No respect,\" <<he>> manages, opening <<his>> eyes. \"I'll be fine. I'm just old. They heard you coming, and it scared them. They grabbed the bell and ran. I suspect they wanted more.\"",
+    "translation": "",
+    "pos": 1642
+  },
+  {
+    "passage": "Museum",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "126_5_3_7|",
+    "original": "<<link [[Stay with Winter|Museum Attack Stay]]>><<museumAntiqueStatus \"antiquebell\" \"stolen\">><<npcincr Winter love 1>><<npcincr Winter dom -5>><<world_corruption \"hard\" 2>><</link>><<lldom>><<glove>>",
+    "translation": "",
+    "pos": 1868
+  },
+  {
+    "passage": "Museum",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "128_5_3_7|",
+    "original": "<<link [[Chase the culprit|Museum Attack]]>><</link>>",
+    "translation": "",
+    "pos": 2076
+  },
+  {
+    "passage": "Museum",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "132_5_3_7|",
+    "original": "<<npc Winter>><<person1>>You enter the dim museum. Winter stares at a brass pot sitting alone on a display. \"I can't find a place for it,\" <<he>> sighs. <<He>> notices you. \"I was hoping you'd visit. I have a favour to ask, seeing as you've been such a help already.\" <<He>> walks to the corner of the room, where something large hides beneath a dirty sheet. <<He>> tugs it off, revealing a wooden horse.",
+    "translation": "",
+    "pos": 2250
+  },
+  {
+    "passage": "Museum",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "135_5_3_7|",
+    "original": "\"It's genuine,\" <<he>> says with satisfaction. \"And in good condition.\"",
+    "translation": "",
+    "pos": 2667
+  },
+  {
+    "passage": "Museum",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "139_5_3_7|",
+    "original": "\"It's a torture device,\" you say.",
+    "translation": "",
+    "pos": 2779
+  },
+  {
+    "passage": "Museum",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "142_5_3_7|",
+    "original": "\"I'm impressed,\" <<he>> responds. \"That's exactly what it is. They would sit the victim on top, and weigh them down to put pressure on their crotch. They'd often be whipped at the same time.\"",
+    "translation": "",
+    "pos": 2827
+  },
+  {
+    "passage": "Museum",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "144_5_3_7|",
+    "original": "\"What is it for?\" you ask.",
+    "translation": "",
+    "pos": 3031
+  },
+  {
+    "passage": "Museum",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "147_5_3_7|",
+    "original": "\"Torture,\" <<he>> responds. \"Modern examples exist for... other uses. They would sit the victim on top, and weigh them down to put pressure on their crotch. They'd often be whipped at the same time.\"",
+    "translation": "",
+    "pos": 3072
+  },
+  {
+    "passage": "Museum",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "150_5_3_7|",
+    "original": "<<He>> rests a hand on the horse. \"I want to stage a demonstration, to get people interested in history.\" <<He>> regards you. \"I don't want you to feel pushed into it, but I'd like your help. Give it some thought.\"",
+    "translation": "",
+    "pos": 3292
+  },
+  {
+    "passage": "Museum",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "153_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 3519
+  },
+  {
+    "passage": "Museum",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "157_5_3_7|",
+    "original": "<<npc Winter>><<generate2>><<person2>>You enter the dim museum. A <<person>> brushes past you.",
+    "translation": "",
+    "pos": 3683
+  },
+  {
+    "passage": "Museum",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "160_5_3_7|",
+    "original": "\"Just who I wanted to see,\" Winter says, looking up from a dark brown wooden chair. \"I've been speaking with an interesting <<person2>><<if $pronoun is \"m\">>gentleman<<else>>lady<</if>>. You might have passed <<him>> on the way in.\"<<person1>>",
+    "translation": "",
+    "pos": 3802
+  },
+  {
+    "passage": "Museum",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "163_5_3_7|",
+    "original": "<<person1>>Winter places a finger on the chair beside <<him>>. \"I've received a donation. Something rather special.\"",
+    "translation": "",
+    "pos": 4058
+  },
+  {
+    "passage": "Museum",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "167_5_3_7|",
+    "original": "You look closer. The chair has a hook at the back, as if it were meant to be tied to something. \"It's a ducking stool,\" you say. \"They'd use it to suffocate people underwater.\"",
+    "translation": "",
+    "pos": 4215
+  },
+  {
+    "passage": "Museum",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "170_5_3_7|",
+    "original": "\"I'm very impressed,\" <<he>> responds. \"That's it precisely. They'd tie the chair to a... crane of sorts. Then dunk the victim in a river. It could be fatal, depending.\"",
+    "translation": "",
+    "pos": 4406
+  },
+  {
+    "passage": "Museum",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "172_5_3_7|",
+    "original": "\"What is it for?\" you ask.",
+    "translation": "",
+    "pos": 4588
+  },
+  {
+    "passage": "Museum",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "175_5_3_7|",
+    "original": "\"Punishment,\" <<he>> responds. \"It's called a ducking stool. See this hook at the back? They'd tie it to a crane with a victim strapped to the seat. Then suffocate said victim in water. It could be fatal.\"",
+    "translation": "",
+    "pos": 4629
+  },
+  {
+    "passage": "Museum",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "178_5_3_7|",
+    "original": "\"I want to demonstrate it in public,\" <<he>> continues. \"I've found someone who can provide the rest of the apparatus, and there's a river nearby. I don't presume anything, but I would like your help. Give it some thought.\"",
+    "translation": "",
+    "pos": 4855
+  },
+  {
+    "passage": "Museum",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "181_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 5091
+  },
+  {
+    "passage": "Museum",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "185_5_3_7|",
+    "original": "<<npc Winter>><<person1>>You enter the museum. Winter is chatting with a few visitors when <<he>> meets your gaze and quickly rushes over to you. \"The museum is getting more traffic than ever before. Your demonstration drew a lot of attention!\" <<he>> says. \"I think it's at a point where we could start charging for admission. If you're okay with it, I would like to make it into a bigger event. It would be a great opportunity to help educate the townsfolk, and I would give you a share of the profit, of course. Take a moment to think about it and let me know what you think.\"",
+    "translation": "",
+    "pos": 5354
+  },
+  {
+    "passage": "Museum",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "187_5_3_7|",
+    "original": "Winter moves on to another group of guests looking over a classical theatre mask, giving you a chance to consider your options.",
+    "translation": "",
+    "pos": 5945
+  },
+  {
+    "passage": "Museum",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "189_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 6084
+  },
+  {
+    "passage": "Museum",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "191_5_3_7|",
+    "original": "You are inside the museum. Items of historic value cover the walls and perch on pedestals.",
+    "translation": "",
+    "pos": 6140
+  },
+  {
+    "passage": "Museum",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "193_5_3_7|",
+    "original": "Visitors crowd the building, examining the antiques with interest. Winter looks overworked, but content.",
+    "translation": "",
+    "pos": 6265
+  },
+  {
+    "passage": "Museum",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "195_5_3_7|",
+    "original": "The building is full of visitors, here to examine the antiques.",
+    "translation": "",
+    "pos": 6407
+  },
+  {
+    "passage": "Museum",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "197_5_3_7|",
+    "original": "Several other visitors examine the displays.",
+    "translation": "",
+    "pos": 6508
+  },
+  {
+    "passage": "Museum",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "199_5_3_7|",
+    "original": "The building is empty of visitors, save yourself.",
+    "translation": "",
+    "pos": 6565
+  },
+  {
+    "passage": "Museum",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "207_5_3_7|",
+    "original": "<<ind>><<link [[Agree to wood horse demonstration|Museum Horse Agree]]>><<set $museumhorseintro to 1>><</link>>",
+    "translation": "",
+    "pos": 6740
+  },
+  {
+    "passage": "Museum",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "210_5_3_7|",
+    "original": "<<ind>><<link [[Demonstrate wooden horse (1:00)|Museum Horse]]>><<pass 60>><<set $museumhorse to 1>><</link>><<gpain>><<exhibitionist1>>",
+    "translation": "",
+    "pos": 6921
+  },
+  {
+    "passage": "Museum",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "214_5_3_7|",
+    "original": "<<ind>><<link [[Agree to paid wood horse demonstration|Museum Famous Horse Agree]]>><<set $museumfamoushorseintro to 1>><</link>>",
+    "translation": "",
+    "pos": 7138
+  },
+  {
+    "passage": "Museum",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "217_5_3_7|",
+    "original": "<<ind>><<link [[Demonstrate wooden horse for money (1:30)|Museum Famous Horse]]>><<pass 90>><<set $museumhorse to 1>><</link>><<exhibitionist1>>",
+    "translation": "",
+    "pos": 7343
+  },
+  {
+    "passage": "Museum",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "221_5_3_7|",
+    "original": "<<ind>><<link [[Agree to ducking stool demonstration|Museum Duck Agree]]>><<set $museumduckintro to 1>><</link>>",
+    "translation": "",
+    "pos": 7536
+  },
+  {
+    "passage": "Museum",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "224_5_3_7|",
+    "original": "<<ind>><<link [[Demonstrate ducking stool (1:00)|Museum Duck]]>><<pass 60>><<set $museumduck to 1>><</link>><<exhibitionist1>>",
+    "translation": "",
+    "pos": 7716
+  },
+  {
+    "passage": "Museum",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "232_5_3_7|",
+    "original": "<<crimeicon \"shackles\">><<link [[Ask to have your shackles removed (0:10)|Museum Shackle]]>><<pass 10>><</link>>",
+    "translation": "",
+    "pos": 8021
+  },
+  {
+    "passage": "Museum",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "236_5_3_7|",
+    "original": "<<socialiseicon \"ask\">><<link [[Ask about the artefact spear|Museum Spear]]>><</link>>",
+    "translation": "",
+    "pos": 8221
+  },
+  {
+    "passage": "Museum",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "240_5_3_7|",
+    "original": "<<antiqueicon \"forest_gem\">><<link [[Touch green gem|Museum Green Gem Touch]]>><<stress -9>><<set $daily.museumGreenGemTouch to 1>><</link>><<lstress>>",
+    "translation": "",
+    "pos": 8427
+  },
+  {
+    "passage": "Museum",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "244_5_3_7|",
+    "original": "<<highicon>><<link [[Sell antiques|Museum Sell]]>><<if $museumAntiques.antiques.antiquesilvermask is \"found\">><<set $phase to 1>><<else>><<set $phase to 0>><</if>><<if $museumAntiques.antiques.antiqueivorynecklace is \"found\">><<world_corruption \"hard\" 2>><</if>><<museumdonate>><</link>>",
+    "translation": "",
+    "pos": 8624
+  },
+  {
+    "passage": "Museum",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "247_5_3_7|",
+    "original": "<<crimeicon \"mark\">><<link [[Look around the museum|Museum Look around]]>><</link>>",
+    "translation": "",
+    "pos": 8929
+  },
+  {
+    "passage": "Museum",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "250_5_3_7|",
+    "original": "<<oxfordicon>><<link [[Leave|Oxford Street]]>><</link>>",
+    "translation": "",
+    "pos": 9025
+  },
+  {
+    "passage": "Museum Shackle",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "260_5_3_7|",
+    "original": "Winter examines the $worn.feet.name. \"I have just the thing,\" <<he>> says.",
+    "translation": "",
+    "pos": 40
+  },
+  {
+    "passage": "Museum Shackle",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "263_5_3_7|",
+    "original": "<<He>> leads you into a small room behind reception. A broken pot sits on a counter, the fragments ordered by size and shape. There's a table not far from it. Winter directs you to lie down.",
+    "translation": "",
+    "pos": 125
+  },
+  {
+    "passage": "Museum Shackle",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "266_5_3_7|",
+    "original": "You do so as <<he>> retrieves a set of black iron keys from a hook on the wall, each a different size and shape. <<He>> separates one without looking, and inserts it into the keyhole on your $worn.feet.name. Nothing happens.",
+    "translation": "",
+    "pos": 326
+  },
+  {
+    "passage": "Museum Shackle",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "268_5_3_7|",
+    "original": "<<He>> tries another key. <<He>> continues without expression, trying key after key, until at last you feel a click, <span class=\"green\">and the metal around your ankles comes loose.</span>",
+    "translation": "",
+    "pos": 560
+  },
+  {
+    "passage": "Museum Shackle",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "273_5_3_7|",
+    "original": "<<link [[Thank|Museum Shackle Thank]]>><</link>>",
+    "translation": "",
+    "pos": 780
+  },
+  {
+    "passage": "Museum Shackle",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "275_5_3_7|",
+    "original": "<<link [[Ask why Winter has so many keys|Museum Shackle Ask]]>><</link>>",
+    "translation": "",
+    "pos": 834
+  },
+  {
+    "passage": "Museum Shackle Thank",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "282_5_3_7|",
+    "original": "\"Th-thank you,\" you say. \"I felt so vulnerable.\"",
+    "translation": "",
+    "pos": 48
+  },
+  {
+    "passage": "Museum Shackle Thank",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "284_5_3_7|",
+    "original": "\"Thanks,\" you say. \"They were annoying.\"",
+    "translation": "",
+    "pos": 138
+  },
+  {
+    "passage": "Museum Shackle Thank",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "286_5_3_7|",
+    "original": "\"Thank you,\" you say. \"That was troublesome.\"",
+    "translation": "",
+    "pos": 189
+  },
+  {
+    "passage": "Museum Shackle Thank",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "290_5_3_7|",
+    "original": "\"You're welcome,\" Winter says, already examining the lock. \"I'll keep the shackles. They might have... historical value.\"",
+    "translation": "",
+    "pos": 253
+  },
+  {
+    "passage": "Museum Shackle Thank",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "293_5_3_7|",
+    "original": "You return to the museum proper.",
+    "translation": "",
+    "pos": 385
+  },
+  {
+    "passage": "Museum Shackle Thank",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "296_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 428
+  },
+  {
+    "passage": "Museum Shackle Ask",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "303_5_3_7|",
+    "original": "\"Wh-where did you get so many old keys?\" you ask.",
+    "translation": "",
+    "pos": 48
+  },
+  {
+    "passage": "Museum Shackle Ask",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "305_5_3_7|",
+    "original": "\"What are you doing with so many old keys?\" you ask.",
+    "translation": "",
+    "pos": 139
+  },
+  {
+    "passage": "Museum Shackle Ask",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "307_5_3_7|",
+    "original": "\"Why do you have so many old keys?\" you ask.",
+    "translation": "",
+    "pos": 202
+  },
+  {
+    "passage": "Museum Shackle Ask",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "311_5_3_7|",
+    "original": "\"I collect them,\" Winter replies after brief hesitation. \"People bring in antique lockboxes and the like now and then. It's fun to match the lock and key. There are more brute methods, of course, but some things ought be done properly.\"",
+    "translation": "",
+    "pos": 265
+  },
+  {
+    "passage": "Museum Shackle Ask",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "314_5_3_7|",
+    "original": "You return to the museum.",
+    "translation": "",
+    "pos": 512
+  },
+  {
+    "passage": "Museum Shackle Ask",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "317_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 548
+  },
+  {
+    "passage": "Museum Attack Stay",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "323_5_3_7|",
+    "original": "You crouch beside Winter, and ask if you should call an ambulance. <<He>> shakes <<his>> head. \"I'll be up in no time. Just winded.\"",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Museum Attack Stay",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "326_5_3_7|",
+    "original": "When <<hes>> ready, you help <<him>> to <<his>> feet. <<He>> steadies <<himself>> against a pedestal. \"Thank you. The police will bring our culprit to justice.\" <<He>> notices the slash across the leather map, and sighs.",
+    "translation": "",
+    "pos": 156
+  },
+  {
+    "passage": "Museum Attack Stay",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "329_5_3_7|",
+    "original": "<<link [[Help Winter clean up (0:30)|Museum Attack Help]]>><<pass 30>><<npcincr Winter love 1>><<npcincr Winter dom -1>><</link>><<ldom>><<glove>>",
+    "translation": "",
+    "pos": 387
+  },
+  {
+    "passage": "Museum Attack Stay",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "331_5_3_7|",
+    "original": "<<link [[Leave|Oxford Street]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 539
+  },
+  {
+    "passage": "Museum Attack Help",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "337_5_3_7|",
+    "original": "You restore the antiques to their pedestals while Winter phones the police. Once the scuff marks are removed from the floor, the museum looks almost as good as ever.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Museum Attack Help",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "340_5_3_7|",
+    "original": "\"There doesn't seem to be any lasting damage,\" Winter says, relieved. <<He>> points at the map. \"Except that. Could have been a lot worse. Thank you for the help.\"",
+    "translation": "",
+    "pos": 189
+  },
+  {
+    "passage": "Museum Attack Help",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "343_5_3_7|",
+    "original": "<<link [[Next|Oxford Street]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 363
+  },
+  {
+    "passage": "Museum Attack",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "351_5_3_7|",
+    "original": "You turn towards the exit. \"Wait,\" Winter asks. \"It's not worth-\" <<He>> coughs. \"It's not worth getting into danger. The police will-\" <<He>> can't stop coughing.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Museum Attack",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "354_5_3_7|",
+    "original": "<<link [[Stay|Museum Attack Stay]]>><<museumAntiqueStatus \"antiquebell\" \"stolen\">><<npcincr Winter love 1>><<npcincr Winter dom -5>><<world_corruption \"hard\" 2>><</link>><<lldom>><<glove>>",
+    "translation": "",
+    "pos": 187
+  },
+  {
+    "passage": "Museum Attack",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "356_5_3_7|",
+    "original": "<<link [[Chase the culprit|Museum Attack 2]]>><</link>><<athleticsdifficulty 1 800>>",
+    "translation": "",
+    "pos": 381
+  },
+  {
+    "passage": "Museum Attack 2",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "365_5_3_7|",
+    "original": "You run out onto Oxford Street, just in time to see the hooded figure rush around the corner. You give chase,",
+    "translation": "",
+    "pos": 51
+  },
+  {
+    "passage": "Museum Attack 2",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "371_5_3_7|",
+    "original": "round the corner, <span class=\"green\">and see <<him>> duck into an alley.</span> You follow through an industrial maze, until you trap <<him>> against a brick wall.",
+    "translation": "",
+    "pos": 269
+  },
+  {
+    "passage": "Museum Attack 2",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "374_5_3_7|",
+    "original": "<<He>> turns and plants <<his>> feet, holding the bell in front of <<him>>. <<He>> shakes <<his>> hand, but not to test the sound as you and Winter did. <<His>> movements are deliberate.",
+    "translation": "",
+    "pos": 446
+  },
+  {
+    "passage": "Museum Attack 2",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "377_5_3_7|",
+    "original": "<<link [[Next|Museum Attack 3]]>><</link>>",
+    "translation": "",
+    "pos": 645
+  },
+  {
+    "passage": "Museum Attack 2",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "381_5_3_7|",
+    "original": "<span class=\"red\">but they've already vanished</span> by the time you make it to the end of the street.",
+    "translation": "",
+    "pos": 781
+  },
+  {
+    "passage": "Museum Attack 2",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "384_5_3_7|",
+    "original": "You return to the museum. Winter is on <<his>> feet, steadying <<himself>> against a pedestal.",
+    "translation": "",
+    "pos": 935
+  },
+  {
+    "passage": "Museum Attack 2",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "386_5_3_7|",
+    "original": "\"Don't you dare do anything so stupid again,\" <<he>> says. \"The police will bring our culprit to justice.\" <<He>> notices the slash through the leather map, and sighs.",
+    "translation": "",
+    "pos": 1041
+  },
+  {
+    "passage": "Museum Attack 2",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "389_5_3_7|",
+    "original": "<<link [[Help Winter clean up (0:30)|Museum Attack Help]]>><<pass 30>><<npcincr Winter love 1>><<npcincr Winter dom -1>><</link>><<ldom>><<glove>>",
+    "translation": "",
+    "pos": 1221
+  },
+  {
+    "passage": "Museum Attack 2",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "391_5_3_7|",
+    "original": "<<link [[Leave|Oxford Street]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 1375
+  },
+  {
+    "passage": "Museum Attack 3",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "398_5_3_7|",
+    "original": "The bell tolls, and the familiar dread washes into you. Birds take flight from the surrounding rooftops, and a rat scurries from beneath a dumpster, running right past you.<<gstress>><<stress 6>>",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Museum Attack 3",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "401_5_3_7|",
+    "original": "You step forward. The bell tolls a second time. Your muscles seize. It's an effort to move again.<<ggstress>><<stress 12>>",
+    "translation": "",
+    "pos": 219
+  },
+  {
+    "passage": "Museum Attack 3",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "404_5_3_7|",
+    "original": "The <<persons>> hood conceals <<his>> eyes, but not <<his>> mad grin.",
+    "translation": "",
+    "pos": 352
+  },
+  {
+    "passage": "Museum Attack 3",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "407_5_3_7|",
+    "original": "<<link [[Walk closer|Museum Attack 4]]>><</link>><<willpowerdifficulty 1 300>>",
+    "translation": "",
+    "pos": 432
+  },
+  {
+    "passage": "Museum Attack 3",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "409_5_3_7|",
+    "original": "<<link [[Give up|Museum Attack Retreat]]>><</link>>",
+    "translation": "",
+    "pos": 516
+  },
+  {
+    "passage": "Museum Attack Retreat",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "416_5_3_7|",
+    "original": "You back away. The <<person>> grasps the bell with <<his>> other hand, stilling it. A relieved sigh escapes <<his>> lips.",
+    "translation": "",
+    "pos": 88
+  },
+  {
+    "passage": "Museum Attack Retreat",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "420_5_3_7|",
+    "original": "You return to the museum. Winter is on <<his>> feet, steadying <<himself>> against a pedestal.",
+    "translation": "",
+    "pos": 258
+  },
+  {
+    "passage": "Museum Attack Retreat",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "422_5_3_7|",
+    "original": "\"Don't you dare do anything so stupid again,\" <<he>> says. \"The police will bring our culprit to justice.\" <<He>> notices the slash through the leather map, and sighs.",
+    "translation": "",
+    "pos": 362
+  },
+  {
+    "passage": "Museum Attack Retreat",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "425_5_3_7|",
+    "original": "<<link [[Help Winter clean up (0:30)|Museum Attack Help]]>><<pass 30>><<npcincr Winter love 1>><<npcincr Winter dom -1>><</link>><<ldom>><<glove>>",
+    "translation": "",
+    "pos": 540
+  },
+  {
+    "passage": "Museum Attack Retreat",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "427_5_3_7|",
+    "original": "<<link [[Leave|Oxford Street]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 692
+  },
+  {
+    "passage": "Museum Attack 4",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "434_5_3_7|",
+    "original": "You force your muscles to move, and walk closer to the <<person>>. Another toll. The dread builds, urging you to turn back.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Museum Attack 4",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "437_5_3_7|",
+    "original": "<span class=\"green\">You ignore it.</span> You brave worse threats every day.<<gwillpower>><<willpower 3>>",
+    "translation": "",
+    "pos": 172
+  },
+  {
+    "passage": "Museum Attack 4",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "440_5_3_7|",
+    "original": "<span class=\"red\">Your heart races.</span><<llcontrol>><<gtrauma>><<gstress>><<control -25>><<trauma 6>><<stress 6>><<ggwillpower>><<willpower 10>>",
+    "translation": "",
+    "pos": 298
+  },
+  {
+    "passage": "Museum Attack 4",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "444_5_3_7|",
+    "original": "<<link [[Walk closer|Museum Attack 5]]>><</link>><<willpowerdifficulty 1 600>>",
+    "translation": "",
+    "pos": 465
+  },
+  {
+    "passage": "Museum Attack 4",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "446_5_3_7|",
+    "original": "<<link [[Give up|Museum Attack Retreat]]>><</link>>",
+    "translation": "",
+    "pos": 549
+  },
+  {
+    "passage": "Museum Attack 5",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "452_5_3_7|",
+    "original": "Another toll. A terrible fear strikes you. Your pulse races. You're certain something is about to lunge from that manhole, or that window, or from that dumpster. You want to turn and run.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Museum Attack 5",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "455_5_3_7|",
+    "original": "You take deep breaths. You're imagining things. <span class=\"green\">You're not in danger.</span> The <<person>> grimaces.<<gwillpower>><<willpower 3>>",
+    "translation": "",
+    "pos": 236
+  },
+  {
+    "passage": "Museum Attack 5",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "458_5_3_7|",
+    "original": "<span class=\"red\">You can't breathe.</span><<llcontrol>><<ggtrauma>><<ggstress>><<ggwillpower>><<control -25>><<trauma 12>><<stress 12>><<willpower 10>>",
+    "translation": "",
+    "pos": 407
+  },
+  {
+    "passage": "Museum Attack 5",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "463_5_3_7|",
+    "original": "<<link [[Walk closer|Museum Attack 6]]>><</link>><<willpowerdifficulty 1 900>>",
+    "translation": "",
+    "pos": 580
+  },
+  {
+    "passage": "Museum Attack 5",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "465_5_3_7|",
+    "original": "<<link [[Give up|Museum Attack Retreat]]>><</link>>",
+    "translation": "",
+    "pos": 664
+  },
+  {
+    "passage": "Museum Attack 6",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "471_5_3_7|",
+    "original": "The <<person>> holds the bell with both hands. It tolls again. The sky opens. The shadows grow, skittering across the tarmac. Heading for you, and the <<person>>.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Museum Attack 6",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "474_5_3_7|",
+    "original": "<span class=\"green\">You stay focused.</span> Shadows can't hurt you. With a thought, they return to nothingness.",
+    "translation": "",
+    "pos": 211
+  },
+  {
+    "passage": "Museum Attack 6",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "476_5_3_7|",
+    "original": "The <<person>> is less fortunate. <<He>> lies on <<his>> back, <<his>> face contorted as <<he>> clutches at <<his>> neck, gasping for every breath. The bell rolls in front of you.",
+    "translation": "",
+    "pos": 335
+  },
+  {
+    "passage": "Museum Attack 6",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "479_5_3_7|",
+    "original": "<<link [[Take it and leave|Museum Attack Take]]>><</link>>",
+    "translation": "",
+    "pos": 527
+  },
+  {
+    "passage": "Museum Attack 6",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "481_5_3_7|",
+    "original": "<<link [[Help the thief|Museum Attack Thief]]>><<famegood 2>><</link>>",
+    "translation": "",
+    "pos": 593
+  },
+  {
+    "passage": "Museum Attack 6",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "484_5_3_7|",
+    "original": "They speed up as they close in. <span class=\"red\">You back away,</span> throwing your arms in front of your face. The shadows pierce your limbs as if they weren't there, but feel quite corporeal as they tangle around your throat. You drop to your knees, gasping for air. You claw at the shadows. Your fingers find only skin.",
+    "translation": "",
+    "pos": 680
+  },
+  {
+    "passage": "Museum Attack 6",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "487_5_3_7|",
+    "original": "You hear a clatter as your consciousness fades.",
+    "translation": "",
+    "pos": 1017
+  },
+  {
+    "passage": "Museum Attack 6",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "490_5_3_7|",
+    "original": "<<link [[Next|Museum Attack Passout]]>><</link>>",
+    "translation": "",
+    "pos": 1077
+  },
+  {
+    "passage": "Museum Attack Take",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "497_5_3_7|",
+    "original": "You grab the bell, and leave the <<person>> to <<his>> struggle.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Museum Attack Take",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "500_5_3_7|",
+    "original": "<<link [[Next|Museum Attack Return]]>><</link>>",
+    "translation": "",
+    "pos": 88
+  },
+  {
+    "passage": "Museum Attack Return",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "509_5_3_7|",
+    "original": "You return to the museum. Winter is on <<his>> feet, busy returning antiques to their pedestals.",
+    "translation": "",
+    "pos": 80
+  },
+  {
+    "passage": "Museum Attack Return",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "511_5_3_7|",
+    "original": "\"Don't you ever do something so stupid again. The police will-\" <<He>> sees the bell in your hand and fails to conceal <<his>> surprise.",
+    "translation": "",
+    "pos": 186
+  },
+  {
+    "passage": "Museum Attack Return",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "515_5_3_7|",
+    "original": "\"I-I was careful,\" you say.",
+    "translation": "",
+    "pos": 368
+  },
+  {
+    "passage": "Museum Attack Return",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "517_5_3_7|",
+    "original": "\"I can handle myself,\" you say.",
+    "translation": "",
+    "pos": 437
+  },
+  {
+    "passage": "Museum Attack Return",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "519_5_3_7|",
+    "original": "\"I didn't take any risks,\" you say.",
+    "translation": "",
+    "pos": 479
+  },
+  {
+    "passage": "Museum Attack Return",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "523_5_3_7|",
+    "original": "Winter returns the bell to its resting place and throws a sheet over it. \"Not much lasting damage. Except that.\" <<He>> points at the slashed leather map. \"I'll contact the police.\" <<He>> steadies <<himself>> against the pedestal. \"I won't thank you for putting yourself in danger.\" <<He>> pauses. \"But I'm grateful for your help.\"",
+    "translation": "",
+    "pos": 533
+  },
+  {
+    "passage": "Museum Attack Return",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "526_5_3_7|",
+    "original": "<<link [[Next|Oxford Street]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 876
+  },
+  {
+    "passage": "Museum Attack Thief",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "533_5_3_7|",
+    "original": "You ignore the bell for now, and approach the <<person>>. You try pulling <<his>> hands away from <<his>> throat, but <<he>> won't budge.",
+    "translation": "",
+    "pos": 61
+  },
+  {
+    "passage": "Museum Attack Thief",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "535_5_3_7|",
+    "original": "\"P-please listen to me,\" you plead. \"There's no danger. You need to relax.\"",
+    "translation": "",
+    "pos": 234
+  },
+  {
+    "passage": "Museum Attack Thief",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "537_5_3_7|",
+    "original": "\"Idiot,\" you say. \"Stop hurting yourself and relax.\"",
+    "translation": "",
+    "pos": 351
+  },
+  {
+    "passage": "Museum Attack Thief",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "539_5_3_7|",
+    "original": "\"You have to listen to me,\" you say. \"You're hurting yourself. You need to relax.\"",
+    "translation": "",
+    "pos": 414
+  },
+  {
+    "passage": "Museum Attack Thief",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "542_5_3_7|",
+    "original": "Whether through your words, or lack of oxygen, <<his>> arms weaken enough for you to pull them away. You pin them to <<his>> side.",
+    "translation": "",
+    "pos": 514
+  },
+  {
+    "passage": "Museum Attack Thief",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "545_5_3_7|",
+    "original": "\"J-just breath in and out slowly. Please trust me.\"",
+    "translation": "",
+    "pos": 681
+  },
+  {
+    "passage": "Museum Attack Thief",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "547_5_3_7|",
+    "original": "\"Control your fucking breathing. You're a mess.\"",
+    "translation": "",
+    "pos": 774
+  },
+  {
+    "passage": "Museum Attack Thief",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "549_5_3_7|",
+    "original": "\"Take deep breaths. In and out.\"",
+    "translation": "",
+    "pos": 833
+  },
+  {
+    "passage": "Museum Attack Thief",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "553_5_3_7|",
+    "original": "Gradually, the <<persons>> breathing slows. <<He>> stares at you a moment. With a newfound strength, <<he>> shoves you aside and jumps to <<his>> feet. <<He>> runs down the alley, giving the bell a wide berth.",
+    "translation": "",
+    "pos": 884
+  },
+  {
+    "passage": "Museum Attack Thief",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "556_5_3_7|",
+    "original": "You pick up the bell, and hold it steady.",
+    "translation": "",
+    "pos": 1104
+  },
+  {
+    "passage": "Museum Attack Thief",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "559_5_3_7|",
+    "original": "<<link [[Next|Museum Attack Return]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 1156
+  },
+  {
+    "passage": "Museum Attack Passout",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "568_5_3_7|",
+    "original": "You awaken to the sight of a concerned face. \"Here,\" Winter says, offering you a glass of water. You sit up. <<He>> sounds relieved.<<gcontrol>><<control 10>>",
+    "translation": "",
+    "pos": 121
+  },
+  {
+    "passage": "Museum Attack Passout",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "571_5_3_7|",
+    "original": "You're in a small, old fashioned room. It could be one of the backrooms at the museum, if not for the bed. \"A doctor checked you out. A young <<if C.npc.Harper.pronoun is \"f\">>blonde lady<<else>>blond fellow<</if>>. Said you'd be up soon, and there was no need to worry. Wanted to keep an eye on you, though.\"",
+    "translation": "",
+    "pos": 290
+  },
+  {
+    "passage": "Museum Attack Passout",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "574_5_3_7|",
+    "original": "<<He>> leans back. \"Forgive me,\" <<he>> says. \"This is my home. It was here or your orphanage. This was more convenient.\"",
+    "translation": "",
+    "pos": 610
+  },
+  {
+    "passage": "Museum Attack Passout",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "577_5_3_7|",
+    "original": "<<link [[Next|Museum Attack Up]]>><</link>>",
+    "translation": "",
+    "pos": 742
+  },
+  {
+    "passage": "Museum Attack Up",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "584_5_3_7|",
+    "original": "Winter helps you off the bed, and leads you down a thin flight of stairs. \"The bell is back on its pedestal,\" <<he>> says. \"But I'm afraid the thief gave me the slip. I found you lying alone, and the bell nearby.\"",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Museum Attack Up",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "587_5_3_7|",
+    "original": "You emerge from the cottage, into a tidy garden on the edge of Domus Street. \"I need to return to the museum,\" Winter says. \"I won't thank you for putting yourself in danger.\" <<He>> pauses. \"But I'm grateful for your help.\"",
+    "translation": "",
+    "pos": 237
+  },
+  {
+    "passage": "Museum Attack Up",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "590_5_3_7|",
+    "original": "<<link [[Next|Domus Street]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 472
+  },
+  {
+    "passage": "Museum Intro",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "598_5_3_7|",
+    "original": "\"I-I thought you'd be happy I was showing interest,\" you say.",
+    "translation": "",
+    "pos": 118
+  },
+  {
+    "passage": "Museum Intro",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "600_5_3_7|",
+    "original": "You put your hands on your hips. \"Is that how you always greet people?\" you ask. \"I thought you'd be happy I was showing interest.\"",
+    "translation": "",
+    "pos": 222
+  },
+  {
+    "passage": "Museum Intro",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "602_5_3_7|",
+    "original": "\"I expected you to be happy I was showing interest,\" you say.",
+    "translation": "",
+    "pos": 365
+  },
+  {
+    "passage": "Museum Intro",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "605_5_3_7|",
+    "original": "A vein twitches on <<his>> forehead as <<he>> stares at you. \"You shouldn't speak to your elders that way,\" <<he>> says. \"But that was rude of me.\"",
+    "translation": "",
+    "pos": 446
+  },
+  {
+    "passage": "Museum Intro",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "609_5_3_7|",
+    "original": "You nod, and keep your hands firm at your sides.",
+    "translation": "",
+    "pos": 654
+  },
+  {
+    "passage": "Museum Intro",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "611_5_3_7|",
+    "original": "You clench your fists and look away. \"Sure,\" you say. \"Why would I want to touch these dumb things anyway?\"",
+    "translation": "",
+    "pos": 745
+  },
+  {
+    "passage": "Museum Intro",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "613_5_3_7|",
+    "original": "\"I will,\" you say, keeping your hands firm at your sides.",
+    "translation": "",
+    "pos": 864
+  },
+  {
+    "passage": "Museum Intro",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "616_5_3_7|",
+    "original": "\"Good,\" <<he>> says. \"Forgive my caution, but some of these are very old.\"",
+    "translation": "",
+    "pos": 941
+  },
+  {
+    "passage": "Museum Intro",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "620_5_3_7|",
+    "original": "\"I am very dirty,\" you purr. \"Would you help wash me?\"",
+    "translation": "",
+    "pos": 1062
+  },
+  {
+    "passage": "Museum Intro",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "622_5_3_7|",
+    "original": "\"That's okay,\" you purr. \"You're the only antique I want to touch.\"",
+    "translation": "",
+    "pos": 1159
+  },
+  {
+    "passage": "Museum Intro",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "624_5_3_7|",
+    "original": "\"The only thing I want to touch is you,\" you purr.",
+    "translation": "",
+    "pos": 1238
+  },
+  {
+    "passage": "Museum Intro",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "628_5_3_7|",
+    "original": "\"What insolence,\" <<he>> sneers. \"I suppose I should expect no better. Don't think I won't ban you from the premises.\"",
+    "translation": "",
+    "pos": 1316
+  },
+  {
+    "passage": "Museum Intro",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "633_5_3_7|",
+    "original": "<<He>> places the pot back on its pedestal. \"It's a sorry collection for an area so rich in history. The mayor's office agrees, and has set aside funds to reward anyone who provides local antiques.\"",
+    "translation": "",
+    "pos": 1454
+  },
+  {
+    "passage": "Museum Intro",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "636_5_3_7|",
+    "original": "<<He>> starts polishing an ornate breastplate. \"If you find anything, I'll appraise it. I won't hold my breath.\"",
+    "translation": "",
+    "pos": 1663
+  },
+  {
+    "passage": "Museum Intro",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "639_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><</link>>",
+    "translation": "",
+    "pos": 1798
+  },
+  {
+    "passage": "Museum Sell",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "646_5_3_7|",
+    "original": "Winter dons a pair of gloves and appraises the goods.",
+    "translation": "",
+    "pos": 89
+  },
+  {
+    "passage": "Museum Sell",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "648_5_3_7|",
+    "original": "\"Aha,\" <<he>> says. \"The mask. I'm glad you've decided to put it under my care.\" <<He>> places <<printmoney `$antiquemoney * 100`>> on the table.",
+    "translation": "",
+    "pos": 163
+  },
+  {
+    "passage": "Museum Sell",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "652_5_3_7|",
+    "original": "<<His>> scepticism fades as <<he>> works. \"Where did you get this?\" <<he>> asks. <<He>> doesn't wait for an answer, but places <<printmoney `$antiquemoney * 100`>> on the table.",
+    "translation": "",
+    "pos": 381
+  },
+  {
+    "passage": "Museum Sell",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "656_5_3_7|",
+    "original": "\"Thank you,\" <<he>> says. \"Your contribution is noted.\" <<He>> places <<printmoney `$antiquemoney * 100`>> on the table.",
+    "translation": "",
+    "pos": 630
+  },
+  {
+    "passage": "Museum Sell",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "659_5_3_7|",
+    "original": "Without a word, <<he>> places <<printmoney `$antiquemoney * 100`>> on the table.",
+    "translation": "",
+    "pos": 763
+  },
+  {
+    "passage": "Museum Sell",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "663_5_3_7|",
+    "original": "<<He>> takes the goods into a back room.",
+    "translation": "",
+    "pos": 862
+  },
+  {
+    "passage": "Museum Sell",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "668_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1035
+  },
+  {
+    "passage": "Museum Waterlogged Ivory Box",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "675_5_3_7|",
+    "original": "Winter picks up the small box. \"It's a jewellery case,\" <<he>> says. \"They would have made thousands of these. Very few have survived. That the lock still works is a miracle.\"",
+    "translation": "",
+    "pos": 121
+  },
+  {
+    "passage": "Museum Waterlogged Ivory Box",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "678_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 307
+  },
+  {
+    "passage": "Museum Worn Silver Ring",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "684_5_3_7|",
+    "original": "Winter holds the silver ring up to the light and examines it. \"Common jewellery,\" <<he>> says. \"And of enduring metal. There's a lot of these around. This one was worn by someone who lived here. There's value there, I think. Thanks for bringing it.\"",
+    "translation": "",
+    "pos": 78
+  },
+  {
+    "passage": "Museum Worn Silver Ring",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "687_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 338
+  },
+  {
+    "passage": "Museum Ornate Gold Necklace",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "693_5_3_7|",
+    "original": "Winter turns the gold necklace in <<his>> palm. \"This is magnificent,\" <<he>> says. \"Worn by someone of note, I imagine. Where did you find it?\"",
+    "translation": "",
+    "pos": 130
+  },
+  {
+    "passage": "Museum Ornate Gold Necklace",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "696_5_3_7|",
+    "original": "<<link [[Tell|Museum Tell]]>><<set $winterlakeknown to 1>><</link>>",
+    "translation": "",
+    "pos": 285
+  },
+  {
+    "passage": "Museum Ornate Gold Necklace",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "698_5_3_7|",
+    "original": "<<link [[Keep secret|Museum Secret]]>><</link>>",
+    "translation": "",
+    "pos": 358
+  },
+  {
+    "passage": "Museum Golden Chastity Belt",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "707_5_3_7|",
+    "original": "You tell Winter about a gold chastity belt that you found and decided to wear. \"How intriguing, can you strip for me?\" <<he>> says.",
+    "translation": "",
+    "pos": 233
+  },
+  {
+    "passage": "Museum Golden Chastity Belt",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "709_5_3_7|",
+    "original": "You strip and allow <<him>> to examine it.",
+    "translation": "",
+    "pos": 376
+  },
+  {
+    "passage": "Museum Golden Chastity Belt",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "711_5_3_7|",
+    "original": "Winter holds the gold chastity belt.",
+    "translation": "",
+    "pos": 429
+  },
+  {
+    "passage": "Museum Golden Chastity Belt",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "714_5_3_7|",
+    "original": "\"This is ancient,\" <<he>> says. \"There are religious inscriptions. This would have been worn by a priestess for a particular ritual or ceremony.\"",
+    "translation": "",
+    "pos": 475
+  },
+  {
+    "passage": "Museum Golden Chastity Belt",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "717_5_3_7|",
+    "original": "\"Let me take a couple of close up photos,\" <<he>> continues as <<he>> takes out a small camera. \"I'm sure I can get a replication set up. Try not to get it locked on you next time.\"",
+    "translation": "",
+    "pos": 715
+  },
+  {
+    "passage": "Museum Golden Chastity Belt",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "722_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><<clotheson>><</link>>",
+    "translation": "",
+    "pos": 945
+  },
+  {
+    "passage": "Museum Tell",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "727_5_3_7|",
+    "original": "\"The lake,\" <<he>> says. \"Buried on the shore I suppose. Interesting. I've heard there's evidence of old structures there. Maybe I'll take a look.\"",
+    "translation": "",
+    "pos": 63
+  },
+  {
+    "passage": "Museum Tell",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "730_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 221
+  },
+  {
+    "passage": "Museum Secret",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "735_5_3_7|",
+    "original": "<<He>> frowns and nods. \"That's your right,\" <<he>> says. \"Maybe I'll puzzle it out on my own.\"",
+    "translation": "",
+    "pos": 63
+  },
+  {
+    "passage": "Museum Secret",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "738_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 169
+  },
+  {
+    "passage": "Museum Immaculate Ivory Necklace",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "745_5_3_7|",
+    "original": "\"The ivory necklace?\" Winter says. \"I had to send it away. Terrible shame, but I was told to inform the mayor's office should I acquire anything fitting that description. They've sent someone to pick it up.\" <<He>> shakes <<his>> head. \"Best not interfere with those types.\"",
+    "translation": "",
+    "pos": 166
+  },
+  {
+    "passage": "Museum Immaculate Ivory Necklace",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "747_5_3_7|",
+    "original": "\"Thanks to you,\" Winter starts, \"we found the ivory necklace. I got nonstop calls from the mayor's office about it. They've sent someone to pick it up.\" <<He>> shakes <<his>> head. \"It was a beautiful piece.\"",
+    "translation": "",
+    "pos": 451
+  },
+  {
+    "passage": "Museum Immaculate Ivory Necklace",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "751_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 678
+  },
+  {
+    "passage": "Museum Arousing Crystal",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "757_5_3_7|",
+    "original": "\"I must admit,\" Winter says. \"I have no idea what it is. There's a carving. Looks like writing, but I don't recognise it.\" <<He>> frowns. \"A corporation is looking to buy the thing. They must know something I don't.\"",
+    "translation": "",
+    "pos": 75
+  },
+  {
+    "passage": "Museum Arousing Crystal",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "760_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 302
+  },
+  {
+    "passage": "Museum Hunting Horn",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "766_5_3_7|",
+    "original": "Winter runs <<his>> finger over the mouthpiece, and recoils as if hurt. <<His>> face shows no sign of pain. \"A hunting trophy from abroad,\" <<he>> says. \"They had it made into an instrument. Not what I would have done.\"",
+    "translation": "",
+    "pos": 72
+  },
+  {
+    "passage": "Museum Hunting Horn",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "769_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 302
+  },
+  {
+    "passage": "Museum Noble Candlestick",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "775_5_3_7|",
+    "original": "\"Candlesticks are common enough,\" Winter says. \"This one was made for a particular noble house that resided here.\" <<He>> shakes <<his>> head. \"A pity what became of them.\"",
+    "translation": "",
+    "pos": 79
+  },
+  {
+    "passage": "Museum Noble Candlestick",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "778_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 262
+  },
+  {
+    "passage": "Museum Old Watch",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "784_5_3_7|",
+    "original": "\"This is something special,\" Winter says. \"A century and a half, yet still ticking away. Was made during the town's glory days.\"",
+    "translation": "",
+    "pos": 73
+  },
+  {
+    "passage": "Museum Old Watch",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "787_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 212
+  },
+  {
+    "passage": "Museum Odd Medical Aid",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "793_5_3_7|",
+    "original": "Winter blushes. \"That's,\" <<he>> says. \"That's a... medical aid. A very old fashioned one. It's not terribly interesting.\" <<He>> wants to change the subject.",
+    "translation": "",
+    "pos": 73
+  },
+  {
+    "passage": "Museum Odd Medical Aid",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "796_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 242
+  },
+  {
+    "passage": "Museum Mossy Forest Arrow",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "802_5_3_7|",
+    "original": "\"You can't take twenty steps in the forest without finding an old arrowhead,\" Winter says. \"Not that I'm ungrateful. Most people wouldn't spot them.\"",
+    "translation": "",
+    "pos": 79
+  },
+  {
+    "passage": "Museum Mossy Forest Arrow",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "805_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 239
+  },
+  {
+    "passage": "Museum Rusted Forest Dagger",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "811_5_3_7|",
+    "original": "\"A nice find,\" Winter says. \"These would have been common in the distant past, but few have survived. I'm surprised you found it without any digging.\"",
+    "translation": "",
+    "pos": 80
+  },
+  {
+    "passage": "Museum Rusted Forest Dagger",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "814_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 241
+  },
+  {
+    "passage": "Museum Pulsing Forest Gem",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "820_5_3_7|",
+    "original": "Winter holds the gem up to the light. \"Pretty,\" <<he>> says. \"Similar to the ones they mine nearby.\" <<He>> frowns. \"Except a different hue.\"",
+    "translation": "",
+    "pos": 77
+  },
+  {
+    "passage": "Museum Pulsing Forest Gem",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "823_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 229
+  },
+  {
+    "passage": "Museum Green Gem Touch",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "828_5_3_7|",
+    "original": "You touch the green gem. A calmness falls over you.",
+    "translation": "",
+    "pos": 63
+  },
+  {
+    "passage": "Museum Green Gem Touch",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "831_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 125
+  },
+  {
+    "passage": "Museum Silver Brooch",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "837_5_3_7|",
+    "original": "\"Sterling silver,\" Winter says. \"The design was popular several decades ago. I imagine it was hidden away in a loft somewhere.\"",
+    "translation": "",
+    "pos": 80
+  },
+  {
+    "passage": "Museum Silver Brooch",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "840_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 218
+  },
+  {
+    "passage": "Museum Discarded Cup",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "846_5_3_7|",
+    "original": "\"This style was popular among the middle-classes some hundred years ago,\" Winter says. <<He>> curls <<his>> nose. \"I wouldn't drink from it now. I think it's had quite an adventure.\"",
+    "translation": "",
+    "pos": 76
+  },
+  {
+    "passage": "Museum Discarded Cup",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "849_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 269
+  },
+  {
+    "passage": "Museum Incense Burner",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "855_5_3_7|",
+    "original": "\"They still use these,\" Winter says. \"At the temple. Got them in trouble with the greater church in the past.\"",
+    "translation": "",
+    "pos": 79
+  },
+  {
+    "passage": "Museum Incense Burner",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "858_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 200
+  },
+  {
+    "passage": "Museum Forgotten Brass Statuette",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "864_5_3_7|",
+    "original": "\"This wasn't made locally,\" Winter says, examining the statuette through a magnifying glass. \"Possibly brought by foreign conquerors over a thousand years ago.\"",
+    "translation": "",
+    "pos": 82
+  },
+  {
+    "passage": "Museum Forgotten Brass Statuette",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "867_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 253
+  },
+  {
+    "passage": "Museum Copper Compass",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "873_5_3_7|",
+    "original": "\"Remarkable,\" Winter says, turning the compass and observing the spin. \"We're fortunate it survived its ordeal at sea.\"",
+    "translation": "",
+    "pos": 81
+  },
+  {
+    "passage": "Museum Copper Compass",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "876_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 211
+  },
+  {
+    "passage": "Museum Old Grenade",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "883_5_3_7|",
+    "original": "\"This one might be younger than me,\" Winter laughs. You assume <<hes>> joking. \"I'm not surprised you found it in the countryside. I hear of some impressive collections.\"",
+    "translation": "",
+    "pos": 75
+  },
+  {
+    "passage": "Museum Old Grenade",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "886_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 256
+  },
+  {
+    "passage": "Museum Stone Talisman",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "893_5_3_7|",
+    "original": "\"I wasn't sure about this one,\" Winter says. \"Had to phone an old colleague, but it's genuine. Ancient, and engraved with symbols of the old religion.\"",
+    "translation": "",
+    "pos": 81
+  },
+  {
+    "passage": "Museum Stone Talisman",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "896_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 243
+  },
+  {
+    "passage": "Museum Silver Mask",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "903_5_3_7|",
+    "original": "\"It was serendipitous,\" Winter says. \"That you found this where you did. Or sinister. We don't know much about its origins, but it was used by the old religion. The myths are colourful.\"",
+    "translation": "",
+    "pos": 78
+  },
+  {
+    "passage": "Museum Silver Mask",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "906_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 275
+  },
+  {
+    "passage": "Museum Diamond",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "914_5_3_7|",
+    "original": "\"I did some digging,\" Winter says. \"That rock you found was reported stolen almost two centuries ago. The authorities are content to let us hang on to it for now.\"",
+    "translation": "",
+    "pos": 75
+  },
+  {
+    "passage": "Museum Diamond",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "917_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 249
+  },
+  {
+    "passage": "Museum Silver Compass",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "926_5_3_7|",
+    "original": "\"Silver doesn't tarnish,\" Winter says. \"But a tool like this wouldn't be made of pure silver. It's in remarkably good condition.\"",
+    "translation": "",
+    "pos": 81
+  },
+  {
+    "passage": "Museum Silver Compass",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "929_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 221
+  },
+  {
+    "passage": "Museum Silver Dagger",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "938_5_3_7|",
+    "original": "\"It would have been worn as an accessory,\" Winter says. \"But do be careful around it. It's still a sharp blade.\"",
+    "translation": "",
+    "pos": 80
+  },
+  {
+    "passage": "Museum Silver Dagger",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "941_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 203
+  },
+  {
+    "passage": "Museum Rusted Cutlass",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "949_5_3_7|",
+    "original": "<<npc Winter>><<person1>>\"A sailor's weapon,\" Winter says. \"I looked into having it restored, but it's too far gone. We're lucky it hasn't crumbled.\"",
+    "translation": "",
+    "pos": 55
+  },
+  {
+    "passage": "Museum Rusted Cutlass",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "952_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 215
+  },
+  {
+    "passage": "Museum Cutlass",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "961_5_3_7|",
+    "original": "\"A sailor's weapon,\" Winter says, testing the straps. \"It's in good condition, but there are notches on the blade.\" <<He>> runs a finger along the surface. \"It saw use.\"",
+    "translation": "",
+    "pos": 75
+  },
+  {
+    "passage": "Museum Cutlass",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "964_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 255
+  },
+  {
+    "passage": "Museum Leather Map",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "974_5_3_7|",
+    "original": "\"An actual treasure map!\" Winter laughs. \"The coastline matches other depictions from the time. This is our town here, with the forest right here.\" <<His>> finger trails across, and taps on a rendition of a castle. A dragon perches on top. Winter rubs the paper, and a red X appears.",
+    "translation": "",
+    "pos": 105
+  },
+  {
+    "passage": "Museum Leather Map",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "976_5_3_7|",
+    "original": "\"As a younger <<personsimple>> I'd have gone on such an adventure.\" The old historian continues. \"But the moor is treacherous, and there's likely nothing there.\" <<He>> glances at you. \"Don't get any ideas. I mean it.\"",
+    "translation": "",
+    "pos": 398
+  },
+  {
+    "passage": "Museum Leather Map",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "979_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 627
+  },
+  {
+    "passage": "Museum Sonorous Bell",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "989_5_3_7|",
+    "original": "\"An exceptional find.\" Winter shakes the bell. The deep toll fills you with a familiar dread. \"And a unique sound,\" <<he>> muses. <<He>> seems affected as well, and places it back upon the pedestal. <<He>> throws a sheet over it. \"Should put it behind glass. This'll do for now.\"<<gstress>><<stress 6>>",
+    "translation": "",
+    "pos": 98
+  },
+  {
+    "passage": "Museum Sonorous Bell",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "992_5_3_7|",
+    "original": "\"Not surprised it had religious significance,\" <<he>> continues. \"But I never want to hear it again.\"",
+    "translation": "",
+    "pos": 411
+  },
+  {
+    "passage": "Museum Sonorous Bell",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "995_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 523
+  },
+  {
+    "passage": "Museum Bullet",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1003_5_3_7|",
+    "original": "Winter examines the bullet through a magnifying glass. \"Over a century old, but you can still make out the manufacturer,\" <<he>> says. \"Some careless volunteer dropped it during training, perhaps.\"",
+    "translation": "",
+    "pos": 74
+  },
+  {
+    "passage": "Museum Bullet",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1006_5_3_7|",
+    "original": "<<link [[Tease|Museum Bullet Tease]]>><<npcincr Winter love -1>><</link>><<llove>>",
+    "translation": "",
+    "pos": 282
+  },
+  {
+    "passage": "Museum Bullet",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1008_5_3_7|",
+    "original": "<<link [[Be polite|Museum Bullet Polite]]>><</link>>",
+    "translation": "",
+    "pos": 370
+  },
+  {
+    "passage": "Museum Bullet Tease",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1016_5_3_7|",
+    "original": "\"M-maybe it was you,\" you say.",
+    "translation": "",
+    "pos": 48
+  },
+  {
+    "passage": "Museum Bullet Tease",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1018_5_3_7|",
+    "original": "\"I bet it was you,\" you say.",
+    "translation": "",
+    "pos": 120
+  },
+  {
+    "passage": "Museum Bullet Tease",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1020_5_3_7|",
+    "original": "\"Maybe it was you,\" you say.",
+    "translation": "",
+    "pos": 159
+  },
+  {
+    "passage": "Museum Bullet Tease",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1024_5_3_7|",
+    "original": "\"I'm not that old,\" Winter snaps. \"And I'd remind you to treat your elders with respect.\" <<He>> collects <<himself>>. \"Could have been my grandfather, though.\"",
+    "translation": "",
+    "pos": 206
+  },
+  {
+    "passage": "Museum Bullet Tease",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1027_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 377
+  },
+  {
+    "passage": "Museum Bullet Polite",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1034_5_3_7|",
+    "original": "Winter goes off on a tangent, but you remain polite, and nod along.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Museum Bullet Polite",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1037_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 91
+  },
+  {
+    "passage": "Museum Artillery Shell",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1045_5_3_7|",
+    "original": "Winter taps the artillery shell. \"It's not live,\" <<he>> says. \"Not after all this time. It might never have worked. Not sure why else they'd cast it aside.\"",
+    "translation": "",
+    "pos": 73
+  },
+  {
+    "passage": "Museum Artillery Shell",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1048_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 241
+  },
+  {
+    "passage": "Museum Gold Ring",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1055_5_3_7|",
+    "original": "\"Magnificent,\" Winter says, turning the ring in <<his>> palm. \"To think something this valuable has remained hidden for so long. This would have been worn by nobility, or someone very wealthy.\"",
+    "translation": "",
+    "pos": 76
+  },
+  {
+    "passage": "Museum Gold Ring",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1058_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 280
+  },
+  {
+    "passage": "Museum Gold Brooch",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1066_5_3_7|",
+    "original": "\"This is interesting,\" Winter says, peering at the central jewel with one eye. \"It's hard to make out, but there's religious iconography, but not quite Christian. I don't think this would have been worn by a member of the clergy.\"",
+    "translation": "",
+    "pos": 78
+  },
+  {
+    "passage": "Museum Gold Brooch",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1070_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 320
+  },
+  {
+    "passage": "Museum Coral Ring",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1077_5_3_7|",
+    "original": "\"I'm surprised to see this,\" Winter says, ignoring the coral and examining the metal. \"I'd need to have it dated by someone with better equipment, but I've a hunch this is over a thousand years old. The pirates must have recognised its value.\"",
+    "translation": "",
+    "pos": 77
+  },
+  {
+    "passage": "Museum Coral Ring",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1080_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 331
+  },
+  {
+    "passage": "Museum Inscribed Hourglass",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1087_5_3_7|",
+    "original": "\"How odd,\" Winter murmurs, turning it in <<his>> hands. \"These symbols don't seem to match up to any script I know. And the inscriptions haven't worn down with age either. It's remarkably well preserved; I have no idea how old it is, but it must be very old indeed.\"",
+    "translation": "",
+    "pos": 77
+  },
+  {
+    "passage": "Museum Inscribed Hourglass",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1090_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 354
+  },
+  {
+    "passage": "Museum Copper Coin",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1097_5_3_7|",
+    "original": "\"Lots of these around,\" Winter says, looking across its surface. \"In private collections. Few quite as old as this though. Almost two thousand years. Preserved well for such an age. Almost as well as I.\"",
+    "translation": "",
+    "pos": 78
+  },
+  {
+    "passage": "Museum Copper Coin",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1100_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 292
+  },
+  {
+    "passage": "Museum Silver Coin",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1107_5_3_7|",
+    "original": "\"A later example of its kind,\" Winter says, peering at the worn metal. \"Minted late in the empire's reign. I'm surprised it's not more tarnished.\"",
+    "translation": "",
+    "pos": 78
+  },
+  {
+    "passage": "Museum Silver Coin",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1110_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 235
+  },
+  {
+    "passage": "Museum Gold Coin",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1119_5_3_7|",
+    "original": "\"Very valuable,\" Winter says, donning a latex glove. \"Even just as scrap metal. Though perish the thought at it being scrapped! I'm surprised it remained hidden all these years.\"",
+    "translation": "",
+    "pos": 76
+  },
+  {
+    "passage": "Museum Gold Coin",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1122_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 265
+  },
+  {
+    "passage": "Museum Silver Blade",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1130_5_3_7|",
+    "original": "\"Could have been part of a weapon,\" Winter says, running a finger along its edge. \"If not for the material. Ceremonial use, probably. What the metal was attached to however, I can only speculate.\"",
+    "translation": "",
+    "pos": 79
+  },
+  {
+    "passage": "Museum Silver Blade",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1133_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 286
+  },
+  {
+    "passage": "Museum Ivory Statuette",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1141_5_3_7|",
+    "original": "\"The priests were right,\" Winter says. \"They insisted their religious text was accurate, but I had doubts. A strange thing. Amazing they were able to carve such detail, so long ago.\"",
+    "translation": "",
+    "pos": 82
+  },
+  {
+    "passage": "Museum Ivory Statuette",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1144_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 275
+  },
+  {
+    "passage": "Museum Strange Fetish",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1152_5_3_7|",
+    "original": "\"I don't know what to make of this,\" Winter says, handling the fetish with a ginger touch, as if afraid it will fall apart. \"Perhaps it had religious significance? I've an old friend who studies the old religion. I'll send them a photograph.",
+    "translation": "",
+    "pos": 81
+  },
+  {
+    "passage": "Museum Strange Fetish",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1155_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 333
+  },
+  {
+    "passage": "Museum Silver Goblet",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1162_5_3_7|",
+    "original": "\"I'm glad it was cleaned before its long rest,\" Winter says, sniffing the interior. \"Ornate. Would have been used by someone important. Perhaps for special occasions. The metalworking techniques are too advanced for its age, interestingly. If my dating is accurate. I'll need a second opinion.\"",
+    "translation": "",
+    "pos": 80
+  },
+  {
+    "passage": "Museum Silver Goblet",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1165_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 385
+  },
+  {
+    "passage": "Museum Silver Crown",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1173_5_3_7|",
+    "original": "\"Would have been forged at great expense,\" Winter says, holding the crown up to <<his>> forehead. \"A petty monarch might have worn it. Likely before the gems were pried out. Was the metal not so valuable at that time? So many questions.\"",
+    "translation": "",
+    "pos": 79
+  },
+  {
+    "passage": "Museum Silver Crown",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1176_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 327
+  },
+  {
+    "passage": "Museum White Crystal",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1184_5_3_7|",
+    "original": "\"You know how to find strange things,\" Winter says, peering into the crystal depths. \"There's writing, carved inside somehow. I'd have thought it a modern art piece, if it weren't so ancient.\" A faint light flashes within.",
+    "translation": "",
+    "pos": 80
+  },
+  {
+    "passage": "Museum White Crystal",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1187_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 313
+  },
+  {
+    "passage": "Museum Bailey Sign",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1195_5_3_7|",
+    "original": "\"Ah, now this one is easy,\" Winter says, tracing the engraving. \"I remember the Bailey mine before it closed. Or the outside, at least. My parents warned me to stay away. It was deemed unsafe. In the end.\"",
+    "translation": "",
+    "pos": 76
+  },
+  {
+    "passage": "Museum Bailey Sign",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1198_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 292
+  },
+  {
+    "passage": "Museum Obsidian Disc",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1206_5_3_7|",
+    "original": "\"You say you found it on an island off the coast?\" Winter runs a finger over the rim, as if daring it to draw blood. \"Not the prison? I was unaware of other islands. Perhaps you roamed further than you realised.\"",
+    "translation": "",
+    "pos": 80
+  },
+  {
+    "passage": "Museum Obsidian Disc",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1209_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 303
+  },
+  {
+    "passage": "Museum Wooden Mask",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1217_5_3_7|",
+    "original": "\"This is a similar shape to some of the carvings on the temple murals,\" Winter says, staring into the mask's eyes. \"I thought they were supposed to depict angels. Or demons, perhaps.\"",
+    "translation": "",
+    "pos": 78
+  },
+  {
+    "passage": "Museum Wooden Mask",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1220_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 272
+  },
+  {
+    "passage": "Museum Trilobite Fossil",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1228_5_3_7|",
+    "original": "\"Trilobites aren't uncommon in certain parts of the world,\" Winter says, weighing the fossil in <<his>> hand. \"This is a rare species, however.\"",
+    "translation": "",
+    "pos": 83
+  },
+  {
+    "passage": "Museum Trilobite Fossil",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1231_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 238
+  },
+  {
+    "passage": "Museum Islander Arrow",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1239_5_3_7|",
+    "original": "\"They have one of these at the temple,\" Winter says, smelling the wood. \"They consider it a relic.\" <<He>> frowns. \"There's something on the tip. Forgive me, but I need to clear my head.\"",
+    "translation": "",
+    "pos": 79
+  },
+  {
+    "passage": "Museum Islander Arrow",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1242_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 277
+  },
+  {
+    "passage": "Museum Spear",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1249_5_3_7|",
+    "original": "\"You're the second person to ask about that,\" Winter says. \"A young <<if C.npc.Jordan.pronoun is \"m\">>monk<<else>>nun<</if>> visited, not so long ago. They were very polite. I fear I had nothing useful to tell them, but I resolved to investigate.\"",
+    "translation": "",
+    "pos": 80
+  },
+  {
+    "passage": "Museum Spear",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1251_5_3_7|",
+    "original": "<<He>> clears <<his>> throat. \"As it would happen, someone brought in a very old, very peculiar antique. They insisted it came from such an island. They seemed something of a rascal, and I'd have pegged them as a liar if not for the <<if C.npc.Jordan.pronoun is \"m\">>monk<<else>>nun<</if>>.\"",
+    "translation": "",
+    "pos": 337
+  },
+  {
+    "passage": "Museum Spear",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1254_5_3_7|",
+    "original": "<<link [[Next|Museum Spear 2]]>><</link>>",
+    "translation": "",
+    "pos": 639
+  },
+  {
+    "passage": "Museum Spear 2",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1260_5_3_7|",
+    "original": "\"I wanted to ask our fellow more questions, but they were anxious about something, and made their excuses. I know their ilk have a pub to themselves, hidden in the sewers. Not the storm drain. <span class=\"green\">The old sewers.</span> But I'm too old to go searching for such a place.\"",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Museum Spear 2",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1262_5_3_7|",
+    "original": "<<He>> frowns. \"Not that I'd recommend it to you either. Besides, I doubt you've paid enough attention in class to know how to get there.\"",
+    "translation": "",
+    "pos": 309
+  },
+  {
+    "passage": "Museum Spear 2",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1265_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 458
+  },
+  {
+    "passage": "Museum Gold Compass",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1273_5_3_7|",
+    "original": "\"This is a remarkable piece,\" Winter says. \"It's mine. That is, my own property. I used to carry it with me, but it went missing years ago.\" <<He>> examines the back, and smiles at something. \"It's worthy of the museum, and it'll be safer here.\"",
+    "translation": "",
+    "pos": 79
+  },
+  {
+    "passage": "Museum Gold Compass",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1276_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 335
+  },
+  {
+    "passage": "Museum Sword Cane",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1284_5_3_7|",
+    "original": "\"The edge is dull,\" Winter says, drawing the blade and running a finger along its length. \"Still, I should keep it behind glass.\" <<He>> sheathes it. \"We can't be having any accidents.\"",
+    "translation": "",
+    "pos": 77
+  },
+  {
+    "passage": "Museum Sword Cane",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1287_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 273
+  },
+  {
+    "passage": "Museum Chocolate",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1295_5_3_7|",
+    "original": "\"It would still be edible,\" Winter says, removing the lid. \"It would taste terrible.\" <<He>> leans <<his>> nose closer. \"The tin is interesting as well. It was a soldier's ration.\" <<He>> looks sad for a moment.",
+    "translation": "",
+    "pos": 77
+  },
+  {
+    "passage": "Museum Chocolate",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1298_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 299
+  },
+  {
+    "passage": "Museum Tea Caddy",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1306_5_3_7|",
+    "original": "\"This would have carried tea across the world,\" Winter says, sticking <<his>> nose inside. \"Always black tea. Green wouldn't survive the trip.\" <<He>> smiles. \"I could use a cup right now.\"",
+    "translation": "",
+    "pos": 76
+  },
+  {
+    "passage": "Museum Tea Caddy",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1309_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 276
+  },
+  {
+    "passage": "Museum Wooden Figurine",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1317_5_3_7|",
+    "original": "\"This matches the descriptions I've read,\" Winter says, peering into the figurine's eyes. \"A curious thing. I can't place the culture that produced it.\" <<He>> puts it down. \"Maybe just a local and eccentric cottage industry.\"",
+    "translation": "",
+    "pos": 82
+  },
+  {
+    "passage": "Museum Wooden Figurine",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1320_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 319
+  },
+  {
+    "passage": "Museum Copper Ring",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1328_5_3_7|",
+    "original": "\"There's an engraving here,\" Winter says, peering at the metal. \"But it's too worn.\" <<He>> looks thoughtful as <<he>> puts it down. \"It's a miracle it's survived as well as it has, considering where you found it.\"",
+    "translation": "",
+    "pos": 78
+  },
+  {
+    "passage": "Museum Copper Ring",
+    "filepath": "overworld-town/loc-museum/main.twee",
+    "key": "1331_5_3_7|",
+    "original": "<<link [[Next|Museum]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 303
+  }
+]

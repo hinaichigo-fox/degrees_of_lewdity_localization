@@ -1,0 +1,866 @@
+[
+  {
+    "passage": "Flats Canal",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "6_5_3_7|",
+    "original": "You walk down the old steps into the canal. Water used to flow here, until the mines were closed and the water dammed. The steps up to the flats are a ways down the passage.",
+    "translation": "",
+    "pos": 94
+  },
+  {
+    "passage": "Flats Canal",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "11_5_3_7|",
+    "original": "\"Oi,\" says a voice from an alcove near the steps. Several figures emerge, led by a <<person>> in a ruined mockery of a suit. \"There's a toll for passing.\" <<He>> stares at your face, then looks over your body. \"It's <<printmoney 1000>> to enter, but seeing as you're new to the neighbourhood, you get a freebie. Next time, bring some cash.\"",
+    "translation": "",
+    "pos": 373
+  },
+  {
+    "passage": "Flats Canal",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "14_5_3_7|",
+    "original": "\"Or not,\" <<he>> adds, returning to the alcove. \"I'm sure we can find a use for a cute one like you.\"",
+    "translation": "",
+    "pos": 726
+  },
+  {
+    "passage": "Flats Canal",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "17_5_3_7|",
+    "original": "You walk down the canal, and climb the steps opposite. The flats tower ahead.",
+    "translation": "",
+    "pos": 840
+  },
+  {
+    "passage": "Flats Canal",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "20_5_3_7|",
+    "original": "<<link [[Next|Flats]]>><<saveNPC 0 \"flats_thug\">><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 930
+  },
+  {
+    "passage": "Flats Canal",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "23_5_3_7|",
+    "original": "You walk down the old steps to the canal, and walk between the tall walls. It's scary in the dark, but you reach the other side unmolested. The thugs have to sleep, after all.",
+    "translation": "",
+    "pos": 1067
+  },
+  {
+    "passage": "Flats Canal",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "26_5_3_7|",
+    "original": "<<link [[Next|Flats]]>><</link>>",
+    "translation": "",
+    "pos": 1255
+  },
+  {
+    "passage": "Flats Canal",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "30_5_3_7|",
+    "original": "You walk down the steps to the canal.",
+    "translation": "",
+    "pos": 1343
+  },
+  {
+    "passage": "Flats Canal",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "32_5_3_7|",
+    "original": "The <<person>> emerges from <<his>> alcove, hand outstretched. \"We work hard to maintain this passage,\" <<he>> says. \"<span class=\"gold\">£10</span>, if you please, to help with the upkeep.\"<<gimpatience>><<flats_canal 3>>",
+    "translation": "",
+    "pos": 1438
+  },
+  {
+    "passage": "Flats Canal",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "35_5_3_7|",
+    "original": "<<link [[Pay|Flats Canal Pay]]>><<money -1000>><</link>>",
+    "translation": "",
+    "pos": 1699
+  },
+  {
+    "passage": "Flats Canal",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "38_5_3_7|",
+    "original": "<span class=\"blue\">You can't afford it.</span>",
+    "translation": "",
+    "pos": 1778
+  },
+  {
+    "passage": "Flats Canal",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "43_5_3_7|",
+    "original": "<<link [[Say you don't have the money|Flats Canal Refuse]]>><<flats_canal 6>><</link>><<ggimpatience>>",
+    "translation": "",
+    "pos": 1868
+  },
+  {
+    "passage": "Flats Canal",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "46_5_3_7|",
+    "original": "The <<person>> emerges from <<his>> alcove, hand outstretched. \"We work hard to maintain this passage,\" <<he>> says. \"So hard, in fact, that we're asking passers by for a larger contribution than normal. <span class=\"gold\">£20</span>.\"<<gimpatience>><<flats_canal 3>>",
+    "translation": "",
+    "pos": 2018
+  },
+  {
+    "passage": "Flats Canal",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "49_5_3_7|",
+    "original": "<<link [[Pay|Flats Canal Pay]]>><<money -2000>><</link>>",
+    "translation": "",
+    "pos": 2325
+  },
+  {
+    "passage": "Flats Canal",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "52_5_3_7|",
+    "original": "<span class=\"blue\">You can't afford it.</span>",
+    "translation": "",
+    "pos": 2404
+  },
+  {
+    "passage": "Flats Canal",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "57_5_3_7|",
+    "original": "<<link [[Say you don't have the money|Flats Canal Refuse]]>><<flats_canal 6>><</link>><<ggimpatience>>",
+    "translation": "",
+    "pos": 2494
+  },
+  {
+    "passage": "Flats Canal",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "60_5_3_7|",
+    "original": "The <<person>> emerges from <<his>> alcove, bowing and stretching out <<his>> hand. \"You know the drill,\" <<he>> says. \"<span class=\"gold\">£30</span> this time, if you please.\"<<gimpatience>><<flats_canal 3>>",
+    "translation": "",
+    "pos": 2644
+  },
+  {
+    "passage": "Flats Canal",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "63_5_3_7|",
+    "original": "<<link [[Pay|Flats Canal Pay]]>><<money -3000>><</link>>",
+    "translation": "",
+    "pos": 2892
+  },
+  {
+    "passage": "Flats Canal",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "66_5_3_7|",
+    "original": "<span class=\"blue\">You can't afford it.</span>",
+    "translation": "",
+    "pos": 2971
+  },
+  {
+    "passage": "Flats Canal",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "71_5_3_7|",
+    "original": "<<link [[Say you don't have the money|Flats Canal Refuse]]>><<flats_canal 6>><</link>><<ggimpatience>>",
+    "translation": "",
+    "pos": 3061
+  },
+  {
+    "passage": "Flats Canal",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "74_5_3_7|",
+    "original": "The <<person>> emerges from <<his>> alcove, hand outstretched. \"Well look who it is,\" <<he>> says. \"Such an upstanding citizen as you can afford more than common riff-raff. <span class=\"gold\">£40</span>.\"<<gimpatience>><<flats_canal 3>>",
+    "translation": "",
+    "pos": 3211
+  },
+  {
+    "passage": "Flats Canal",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "77_5_3_7|",
+    "original": "<<link [[Pay|Flats Canal Pay]]>><<money -4000>><</link>>",
+    "translation": "",
+    "pos": 3487
+  },
+  {
+    "passage": "Flats Canal",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "80_5_3_7|",
+    "original": "<span class=\"blue\">You can't afford it.</span>",
+    "translation": "",
+    "pos": 3566
+  },
+  {
+    "passage": "Flats Canal",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "85_5_3_7|",
+    "original": "<<link [[Say you don't have the money|Flats Canal Refuse]]>><<flats_canal 6>><</link>><<ggimpatience>>",
+    "translation": "",
+    "pos": 3656
+  },
+  {
+    "passage": "Flats Canal",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "88_5_3_7|",
+    "original": "The <<person>> emerges from <<his>> alcove, pacing to a strange rhythm. <<He>> spins on the spot, then bows, holding out <<his>> hand. \"Times are hard,\" <<he>> says. \"<span class=\"gold\">£50,</span> or my dear old <<if maleChance($pronoun) gte random(1, 100)>>dad<<else>>mum<</if>> goes hungry.\"<<gimpatience>><<flats_canal 3>>",
+    "translation": "",
+    "pos": 3807
+  },
+  {
+    "passage": "Flats Canal",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "91_5_3_7|",
+    "original": "<<link [[Pay|Flats Canal Pay]]>><<money -5000>><</link>>",
+    "translation": "",
+    "pos": 4173
+  },
+  {
+    "passage": "Flats Canal",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "94_5_3_7|",
+    "original": "<span class=\"blue\">You can't afford it.</span>",
+    "translation": "",
+    "pos": 4252
+  },
+  {
+    "passage": "Flats Canal",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "99_5_3_7|",
+    "original": "<<link [[Say you don't have the money|Flats Canal Refuse]]>><<flats_canal 6>><</link>><<ggimpatience>>",
+    "translation": "",
+    "pos": 4342
+  },
+  {
+    "passage": "Flats Canal",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "102_5_3_7|",
+    "original": "The <<person>> emerges from <<his>> alcove, and walks straight towards you. \"We're searching for contraband,\" <<he>> says. \"Put your hands in the air and turn around.\"<<gimpatience>><<flats_canal 3>>",
+    "translation": "",
+    "pos": 4493
+  },
+  {
+    "passage": "Flats Canal",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "104_5_3_7|",
+    "original": "<<link [[Put your hands in the air and turn around|Flats Canal Turn]]>><<trauma 6>><<stress 6>><<arousal 600>><</link>><<gtrauma>><<gstress>><<garousal>>",
+    "translation": "",
+    "pos": 4706
+  },
+  {
+    "passage": "Flats Canal",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "108_5_3_7|",
+    "original": "The <<person>> emerges from <<his>> alcove, eyes running over your body. \"You're a fine specimen,\" <<he>> says, stroking <<his>> chin. <<His>> cronies flank <<him>>. \"How about you give us a little something to help us get through the day.",
+    "translation": "",
+    "pos": 4930
+  },
+  {
+    "passage": "Flats Canal",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "110_5_3_7|",
+    "original": "Show us your <<if $player.gender_appearance is \"m\">>cock<<else>>pussy<</if>>.\" <<His>> friends leer at you.<<gimpatience>><<flats_canal 3>>",
+    "translation": "",
+    "pos": 5244
+  },
+  {
+    "passage": "Flats Canal",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "113_5_3_7|",
+    "original": "<<link [[Show|Flats Canal Genitals]]>><<trauma 6>><<stress 6>><</link>><<gtrauma>><<gstress>>",
+    "translation": "",
+    "pos": 5400
+  },
+  {
+    "passage": "Flats Canal",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "117_5_3_7|",
+    "original": "Show us your <<if $player.gender_appearance is \"m\">>chest<<else>>tits<</if>>.\" <<His>> friends leer at you.<<gimpatience>><<flats_canal 3>>",
+    "translation": "",
+    "pos": 5539
+  },
+  {
+    "passage": "Flats Canal",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "120_5_3_7|",
+    "original": "<<link [[Show|Flats Canal Breasts]]>><<trauma 6>><<stress 6>><</link>><<gtrauma>><<gstress>>",
+    "translation": "",
+    "pos": 5695
+  },
+  {
+    "passage": "Flats Canal",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "125_5_3_7|",
+    "original": "The <<person>> emerges from <<his>> alcove, a lascivious glint in <<his>> eyes. \"Muddy path today,\" <<he>> says. \"A <<gentleman>> like you should keep your clothes clean.\" <<His>> cronies catch up with <<him>>. \"How about you let us hold them? You can keep your underwear on.\"<<gimpatience>><<flats_canal 3>>",
+    "translation": "",
+    "pos": 5870
+  },
+  {
+    "passage": "Flats Canal",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "128_5_3_7|",
+    "original": "<span class=\"pink\">You aren't wearing any.</span>",
+    "translation": "",
+    "pos": 6234
+  },
+  {
+    "passage": "Flats Canal",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "131_5_3_7|",
+    "original": "<<link [[Strip|Flats Canal Strip]]>><<trauma 6>><<stress 6>><</link>><<gtrauma>><<gstress>>",
+    "translation": "",
+    "pos": 6308
+  },
+  {
+    "passage": "Flats Canal",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "135_5_3_7|",
+    "original": "The <<person>> emerges from <<his>> alcove. \"People have been carrying contraband in their mouths,\" <<he>> says, shaking <<his>> head. \"I'm afraid I must insist on an inspection.\" <<He>> licks <<his>> lips. \"With my tongue.\"",
+    "translation": "",
+    "pos": 6470
+  },
+  {
+    "passage": "Flats Canal",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "137_5_3_7|",
+    "original": "<<link [[Kiss|Flats Canal Kiss]]>><</link>><<kissvirginitywarning>>",
+    "translation": "",
+    "pos": 6708
+  },
+  {
+    "passage": "Flats Canal",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "141_5_3_7|",
+    "original": "The <<person>> emerges from <<his>> alcove. \"People have been carrying contraband in their mouths,\" <<he>> says, shaking <<his>> head. \"I'm afraid I must insist on an inspection.\" <<He>> grins.",
+    "translation": "",
+    "pos": 6817
+  },
+  {
+    "passage": "Flats Canal",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "143_5_3_7|",
+    "original": "\"With my cock.\"",
+    "translation": "",
+    "pos": 7054
+  },
+  {
+    "passage": "Flats Canal",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "145_5_3_7|",
+    "original": "\"With my pussy.\"",
+    "translation": "",
+    "pos": 7084
+  },
+  {
+    "passage": "Flats Canal",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "148_5_3_7|",
+    "original": "\"Get on your knees.\"",
+    "translation": "",
+    "pos": 7124
+  },
+  {
+    "passage": "Flats Canal",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "150_5_3_7|",
+    "original": "<<link [[Get on your knees|Flats Canal Oral]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 7158
+  },
+  {
+    "passage": "Flats Canal Pay",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "159_5_3_7|",
+    "original": "You hand over the money. The <<person>> gives you a shifty look, counts it, then returns to the alcove without a word. You're free to continue.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Flats Canal Pay",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "162_5_3_7|",
+    "original": "You walk down the canal, climb up another set of steps, and emerge by the flats.",
+    "translation": "",
+    "pos": 167
+  },
+  {
+    "passage": "Flats Canal Pay",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "165_5_3_7|",
+    "original": "<<link [[Next|Flats]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 258
+  },
+  {
+    "passage": "Flats Canal Run",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "171_5_3_7|",
+    "original": "You run down the canal. Footsteps erupt behind you,",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Flats Canal Run",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "173_5_3_7|",
+    "original": "<span class=\"green\">but fall away as you approach the next set of steps.</span> You climb out of the canal, and emerge beside the flats.",
+    "translation": "",
+    "pos": 91
+  },
+  {
+    "passage": "Flats Canal Run",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "176_5_3_7|",
+    "original": "<<link [[Next|Flats]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 240
+  },
+  {
+    "passage": "Flats Canal Run",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "179_5_3_7|",
+    "original": "<span class=\"red\">drawing closer until a pair of arms tackle you to the ground.</span>",
+    "translation": "",
+    "pos": 301
+  },
+  {
+    "passage": "Flats Canal Refuse",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "189_5_3_7|",
+    "original": "\"I-I'm very sorry,\" you say. \"I don't have the money.\"",
+    "translation": "",
+    "pos": 48
+  },
+  {
+    "passage": "Flats Canal Refuse",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "191_5_3_7|",
+    "original": "\"I'm skint,\" you say with a shrug. \"Hope that doesn't disappoint.\"",
+    "translation": "",
+    "pos": 144
+  },
+  {
+    "passage": "Flats Canal Refuse",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "193_5_3_7|",
+    "original": "\"I don't have the money,\" you say. \"I hope that's not a problem.\"",
+    "translation": "",
+    "pos": 221
+  },
+  {
+    "passage": "Flats Canal Refuse",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "196_5_3_7|",
+    "original": "The <<person>> spits on the ground. \"Fine. Go. But next time we might not be so nice.\"",
+    "translation": "",
+    "pos": 304
+  },
+  {
+    "passage": "Flats Canal Refuse",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "199_5_3_7|",
+    "original": "You walk the rest of the way down the canal, up the next set of steps, and emerge in front of the flats.",
+    "translation": "",
+    "pos": 401
+  },
+  {
+    "passage": "Flats Canal Refuse",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "202_5_3_7|",
+    "original": "<<link [[Next|Flats]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 516
+  },
+  {
+    "passage": "Flats Canal Oral",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "227_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Flats Canal Oral Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 280
+  },
+  {
+    "passage": "Flats Canal Oral",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "229_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Flats Canal Oral]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 376
+  },
+  {
+    "passage": "Flats Canal Oral Finish",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "236_5_3_7|",
+    "original": "<<He>> shoves you to the ground, gives you one last kick for good measure, then walks back up the canal. The others follow suit.",
+    "translation": "",
+    "pos": 72
+  },
+  {
+    "passage": "Flats Canal Oral Finish",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "238_5_3_7|",
+    "original": "<<tearful>> you struggle to your feet. You climb the steps out of the canal, and arrive outside the flats.",
+    "translation": "",
+    "pos": 212
+  },
+  {
+    "passage": "Flats Canal Oral Finish",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "245_5_3_7|",
+    "original": "You shove the <<person>> onto <<his>> back, and run with a renewed vigour, weaving between other thugs and escaping up the steps.",
+    "translation": "",
+    "pos": 387
+  },
+  {
+    "passage": "Flats Canal Oral Finish",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "247_5_3_7|",
+    "original": "You arrive outside the flats. They don't follow. <<tearful>> you lean on your knees, and take a deep breath.",
+    "translation": "",
+    "pos": 528
+  },
+  {
+    "passage": "Flats Canal Oral Finish",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "254_5_3_7|",
+    "original": "<<link [[Next|Flats]]>><</link>>",
+    "translation": "",
+    "pos": 687
+  },
+  {
+    "passage": "Flats Canal Rape",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "279_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Flats Canal Rape Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 312
+  },
+  {
+    "passage": "Flats Canal Rape",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "281_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Flats Canal Rape]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 408
+  },
+  {
+    "passage": "Flats Canal Rape Finish",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "288_5_3_7|",
+    "original": "\"It'd be easier to pay in cash next time,\" the <<person1>><<person>> says. \"I'm sure you agree.\"",
+    "translation": "",
+    "pos": 72
+  },
+  {
+    "passage": "Flats Canal Rape Finish",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "290_5_3_7|",
+    "original": "<<tearful>> you rise to your feet. You climb the steps out of the canal, and arrive outside the flats.",
+    "translation": "",
+    "pos": 180
+  },
+  {
+    "passage": "Flats Canal Rape Finish",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "294_5_3_7|",
+    "original": "You shove the <<person>> onto <<his>> back, and run with a renewed vigour, weaving between other thugs and escaping up the steps.",
+    "translation": "",
+    "pos": 311
+  },
+  {
+    "passage": "Flats Canal Rape Finish",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "296_5_3_7|",
+    "original": "You arrive outside the flats. They didn't follow. <<tearful>> you lean on your knees, and take a deep breath.",
+    "translation": "",
+    "pos": 452
+  },
+  {
+    "passage": "Flats Canal Rape Finish",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "302_5_3_7|",
+    "original": "<<link [[Next|Flats]]>><</link>>",
+    "translation": "",
+    "pos": 609
+  },
+  {
+    "passage": "Flats Canal Breasts",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "310_5_3_7|",
+    "original": "The <<person1>><<person>> licks <<his>> lips while <<his>> friends whistle. \"That'll do,\" <<he>> says. You cover yourself.",
+    "translation": "",
+    "pos": 28
+  },
+  {
+    "passage": "Flats Canal Breasts",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "313_5_3_7|",
+    "original": "The hoodlums return to their alcove. You continue down the canal, and climb the steps to the flats.",
+    "translation": "",
+    "pos": 161
+  },
+  {
+    "passage": "Flats Canal Breasts",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "316_5_3_7|",
+    "original": "<<link [[Next|Flats]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 271
+  },
+  {
+    "passage": "Flats Canal Genitals",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "324_5_3_7|",
+    "original": "Your audience hoot at the display. A couple step towards you, but the <<person1>><<person>> swings out <<his>> arms to stop them. \"Maybe next time,\" <<he>> says. You cover yourself.",
+    "translation": "",
+    "pos": 30
+  },
+  {
+    "passage": "Flats Canal Genitals",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "327_5_3_7|",
+    "original": "The hoodlums return to their alcove. You continue down the canal, and climb the steps to the flats.",
+    "translation": "",
+    "pos": 222
+  },
+  {
+    "passage": "Flats Canal Genitals",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "330_5_3_7|",
+    "original": "<<link [[Next|Flats]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 332
+  },
+  {
+    "passage": "Flats Canal Turn",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "336_5_3_7|",
+    "original": "You do as instructed, resting your hands on your head and turning your back to the <<person1>><<person>>.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Flats Canal Turn",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "339_5_3_7|",
+    "original": "<<He>> reaches around your chest, and clasps your <<breasts>>. \"This won't take long,\" <<he>> says, pulling you against <<him>>. <<He>> gropes your chest, then works down your body, feeling your abdomen and waist. <<He>> reaches between your thighs to grope your <<genitals 1>>.",
+    "translation": "",
+    "pos": 129
+  },
+  {
+    "passage": "Flats Canal Turn",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "342_5_3_7|",
+    "original": "<<He>> finds the <<print $worn.genitals.name>> instead. \"What's this?\" <<he>> asks, tugging it. \"It's like a chastity thing. You pervert.\"",
+    "translation": "",
+    "pos": 458
+  },
+  {
+    "passage": "Flats Canal Turn",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "344_5_3_7|",
+    "original": "You endure <<his>> incessant fondling.",
+    "translation": "",
+    "pos": 607
+  },
+  {
+    "passage": "Flats Canal Turn",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "348_5_3_7|",
+    "original": "<<He>> ends by smacking a hand against your <<bottom>>, and giving it a squeeze. \"All clean,\" <<he>> says. \"Carry on.\" <<He>> returns to the alcove near the stairwell.",
+    "translation": "",
+    "pos": 664
+  },
+  {
+    "passage": "Flats Canal Turn",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "351_5_3_7|",
+    "original": "You walk down the canal, and climb the steps to the flats.",
+    "translation": "",
+    "pos": 842
+  },
+  {
+    "passage": "Flats Canal Turn",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "354_5_3_7|",
+    "original": "<<link [[Next|Flats]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 911
+  },
+  {
+    "passage": "Flats Canal Strip",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "365_5_3_7|",
+    "original": "\"No panties!\" a <<person2>><<person>> cries amidst amused gasps and whistles.",
+    "translation": "",
+    "pos": 147
+  },
+  {
+    "passage": "Flats Canal Strip",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "368_5_3_7|",
+    "original": "Several arms reach to snatch your clothes away. \"There we go,\" the <<person1>><<person>> says. \"We'll follow behind, and return them on the other side.\"",
+    "translation": "",
+    "pos": 243
+  },
+  {
+    "passage": "Flats Canal Strip",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "371_5_3_7|",
+    "original": "You ignore the <<person2>><<person>> burying <<his>> face in your garment, and walk down the canal with your body displayed. They follow behind, watching your <<bottom>>. You wonder how this must seem for anyone who looks in the canal from above.",
+    "translation": "",
+    "pos": 406
+  },
+  {
+    "passage": "Flats Canal Strip",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "374_5_3_7|",
+    "original": "<<link [[Next|Flats Canal Strip 2]]>><</link>>",
+    "translation": "",
+    "pos": 663
+  },
+  {
+    "passage": "Flats Canal Strip 2",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "380_5_3_7|",
+    "original": "You make it to the other side. \"Nicely done,\" the <<person1>><<person>> says. \"Give <<phim>> <<pher>> clothes back.\"",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Flats Canal Strip 2",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "383_5_3_7|",
+    "original": "They hurl the fabric part-way up the steps. You climb to retrieve them, their eyes on you the whole time. You consider cresting the steps and leaving the canal to get out of sight, but you don't know who will be up there, or watching from the many windows.",
+    "translation": "",
+    "pos": 140
+  },
+  {
+    "passage": "Flats Canal Strip 2",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "386_5_3_7|",
+    "original": "You dress in front of the hoodlums, then climb the rest of the way to the flats.",
+    "translation": "",
+    "pos": 407
+  },
+  {
+    "passage": "Flats Canal Strip 2",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "388_5_3_7|",
+    "original": "<<link [[Next|Flats]]>><<clotheson>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 497
+  },
+  {
+    "passage": "Flats Canal Kiss",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "394_5_3_7|",
+    "original": "The <<person1>><<person>> grasps the back of your neck, and pulls your face against <<his>>. <<He>> pushes <<his>> tongue between your lips, and assaults the interior with a flurry of prods and flicks.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Flats Canal Kiss",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "399_5_3_7|",
+    "original": "<<He>> tightens <<his>> grip around your neck. <span class=\"red\">You can't breathe!</span><<gtrauma>><<gstress>><<trauma 6>><<stress 6>>",
+    "translation": "",
+    "pos": 329
+  },
+  {
+    "passage": "Flats Canal Kiss",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "402_5_3_7|",
+    "original": "<<link [[Endure|Flats Canal Kiss Endure]]>><<trauma 6>><<stress 12>><</link>><<difficulty 50>><<gtrauma>><<ggstress>>",
+    "translation": "",
+    "pos": 478
+  },
+  {
+    "passage": "Flats Canal Kiss",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "404_5_3_7|",
+    "original": "<<link [[Shove|Flats Canal Kiss Shove]]>><<flats_canal 3>><</link>><<gimpatience>>",
+    "translation": "",
+    "pos": 603
+  },
+  {
+    "passage": "Flats Canal Kiss",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "407_5_3_7|",
+    "original": "<<He>> pulls away, leaving a thread of saliva behind. \"No contraband there,\" <<he>> says. \"Thanks for cooperating.\" <<He>> returns to the alcove, leaving you to continue down the canal. You climb the steps to the flats.",
+    "translation": "",
+    "pos": 702
+  },
+  {
+    "passage": "Flats Canal Kiss",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "410_5_3_7|",
+    "original": "<<link [[Next|Flats]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 934
+  },
+  {
+    "passage": "Flats Canal Kiss Endure",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "418_5_3_7|",
+    "original": "The <<person>> tightens <<his>> grip further, <<his>> mouth still pressed against yours. Just when you think you're going to pass out, <span class=\"green\"><<he>> releases you.</span> You gasp for air. Stars swarm your vision.",
+    "translation": "",
+    "pos": 39
+  },
+  {
+    "passage": "Flats Canal Kiss Endure",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "421_5_3_7|",
+    "original": "\"No contraband there,\" <<he>> says. \"Thanks for cooperating.\" <<He>> returns to the alcove, leaving you to continue down the canal. You climb the steps to the flats.",
+    "translation": "",
+    "pos": 277
+  },
+  {
+    "passage": "Flats Canal Kiss Endure",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "424_5_3_7|",
+    "original": "<<link [[Next|Flats]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 455
+  },
+  {
+    "passage": "Flats Canal Kiss Endure",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "427_5_3_7|",
+    "original": "The <<person>> tightens <<his>> grip further, <<his>> mouth still pressed against yours. Stars swarm your vision, <span class=\"red\">but <<he>> refuses to release you.</span> <<His>> friends are talking. Something about an auction.",
+    "translation": "",
+    "pos": 516
+  },
+  {
+    "passage": "Flats Canal Kiss Endure",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "429_5_3_7|",
+    "original": "Instinct kicks in, and you struggle for air, but your muscles are too weak. <span class=\"red\">The world fades to black.</span>",
+    "translation": "",
+    "pos": 758
+  },
+  {
+    "passage": "Flats Canal Kiss Endure",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "432_5_3_7|",
+    "original": "<<link [[Next|Flats Auction]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 909
+  },
+  {
+    "passage": "Flats Canal Kiss Shove",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "439_5_3_7|",
+    "original": "You shove the <<person1>><<person>> away from you. <<He>> almost falls over, but never loses <<his>> grin. \"No trust these days.\" <<He>> shakes <<his>> head. \"No contraband either. On your way.\"",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Flats Canal Kiss Shove",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "442_5_3_7|",
+    "original": "You continue down the canal, and climb the stairs to the flats.",
+    "translation": "",
+    "pos": 218
+  },
+  {
+    "passage": "Flats Canal Kiss Shove",
+    "filepath": "overworld-town/loc-flats/canal.twee",
+    "key": "445_5_3_7|",
+    "original": "<<link [[Next|Flats]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 292
+  }
+]

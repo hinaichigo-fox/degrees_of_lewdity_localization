@@ -1,0 +1,386 @@
+[
+  {
+    "passage": "Office Stairwell",
+    "filepath": "overworld-town/loc-office/stairs.twee",
+    "key": "3_5_3_7|",
+    "original": "You are in the stairwell on <<checkfloor>>. Besides the sound of the AC fan blowing, the stairwell is bereft of sound.",
+    "translation": "",
+    "pos": 45
+  },
+  {
+    "passage": "Office Stairwell",
+    "filepath": "overworld-town/loc-office/stairs.twee",
+    "key": "5_5_3_7|",
+    "original": "As the stairwell doors lock from the inside, the only exit is in the lobby, <<number $officeFloor>> floor<<if $officeFloor gt 2>>s<</if>> below.",
+    "translation": "",
+    "pos": 173
+  },
+  {
+    "passage": "Office Stairwell",
+    "filepath": "overworld-town/loc-office/stairs.twee",
+    "key": "15_5_3_7|",
+    "original": "<<link [[Rest (0:05)|Office Stairwell Rest]]>><<pass 5>><<tiredness -2>><</link>><<ltiredness>>",
+    "translation": "",
+    "pos": 468
+  },
+  {
+    "passage": "Office Stairwell",
+    "filepath": "overworld-town/loc-office/stairs.twee",
+    "key": "18_5_3_7|",
+    "original": "<<link [[Descend 10 floors (0:08)|Office Stairwell Descend]]>><<pass 8>><<tiredness 10>><<set $stairSpeed to 10>><</link>><<ggtiredness>>",
+    "translation": "",
+    "pos": 599
+  },
+  {
+    "passage": "Office Stairwell",
+    "filepath": "overworld-town/loc-office/stairs.twee",
+    "key": "22_5_3_7|",
+    "original": "<<link [[Descend 5 floors (0:05)|Office Stairwell Descend]]>><<pass 5>><<tiredness 5>><<set $stairSpeed to 5>><</link>><<gtiredness>>",
+    "translation": "",
+    "pos": 781
+  },
+  {
+    "passage": "Office Stairwell",
+    "filepath": "overworld-town/loc-office/stairs.twee",
+    "key": "26_5_3_7|",
+    "original": "<<link [[Descend to lobby (0:05)|Office Lobby]]>><<pass 5>><<tiredness 5>><</link>><<gtiredness>>",
+    "translation": "",
+    "pos": 960
+  },
+  {
+    "passage": "Office Stairwell Descend",
+    "filepath": "overworld-town/loc-office/stairs.twee",
+    "key": "35_5_3_7|",
+    "original": "You begin descending the gruelling stairwell. You keep up a brisk pace, but after a while, your legs and feet start to burn with fatigue. You stop to take a breather.",
+    "translation": "",
+    "pos": 38
+  },
+  {
+    "passage": "Office Stairwell Descend",
+    "filepath": "overworld-town/loc-office/stairs.twee",
+    "key": "38_5_3_7|",
+    "original": "You make your way down the stairs. You keep up a decent pace, but your legs soon begin to ache. You stop to take a breather.",
+    "translation": "",
+    "pos": 245
+  },
+  {
+    "passage": "Office Stairwell Descend",
+    "filepath": "overworld-town/loc-office/stairs.twee",
+    "key": "40_5_3_7|",
+    "original": "You head down the stairs. You keep a steady pace but stop for a breather before your legs get too tired.",
+    "translation": "",
+    "pos": 380
+  },
+  {
+    "passage": "Office Stairwell Descend",
+    "filepath": "overworld-town/loc-office/stairs.twee",
+    "key": "44_5_3_7|",
+    "original": "<<link [[Next|Office Stairwell]]>><</link>>",
+    "translation": "",
+    "pos": 559
+  },
+  {
+    "passage": "Office Stairwell Rest",
+    "filepath": "overworld-town/loc-office/stairs.twee",
+    "key": "48_5_3_7|",
+    "original": "You decide to rest before continuing your descent.",
+    "translation": "",
+    "pos": 12
+  },
+  {
+    "passage": "Office Stairwell Rest",
+    "filepath": "overworld-town/loc-office/stairs.twee",
+    "key": "51_5_3_7|",
+    "original": "While you catch your breath, you hear someone approaching the stairwell door.",
+    "translation": "",
+    "pos": 103
+  },
+  {
+    "passage": "Office Stairwell Rest",
+    "filepath": "overworld-town/loc-office/stairs.twee",
+    "key": "53_5_3_7|",
+    "original": "\"Yeah, the boss said that some streaker is on the steps. I'm going to check it out now,\" you hear a security guard say to someone on their radio.",
+    "translation": "",
+    "pos": 188
+  },
+  {
+    "passage": "Office Stairwell Rest",
+    "filepath": "overworld-town/loc-office/stairs.twee",
+    "key": "55_5_3_7|",
+    "original": "<span class=\"red\">If the guard sees you, you're going to get into trouble!</span>",
+    "translation": "",
+    "pos": 345
+  },
+  {
+    "passage": "Office Stairwell Rest",
+    "filepath": "overworld-town/loc-office/stairs.twee",
+    "key": "58_5_3_7|",
+    "original": "<<link [[Run straight to lobby (0:05)|Office Lobby]]>><<pass 5>><<tiredness 5>><</link>><<gtiredness>>",
+    "translation": "",
+    "pos": 465
+  },
+  {
+    "passage": "Office Stairwell Rest",
+    "filepath": "overworld-town/loc-office/stairs.twee",
+    "key": "61_5_3_7|",
+    "original": "<<link [[Run downstairs|Office Stairwell Run Down]]>><<tiredness 5>><</link>><<gtiredness>>",
+    "translation": "",
+    "pos": 587
+  },
+  {
+    "passage": "Office Stairwell Rest",
+    "filepath": "overworld-town/loc-office/stairs.twee",
+    "key": "65_5_3_7|",
+    "original": "<<link [[Run upstairs|Office Stairwell Run Up]]>><<tiredness 8>><</link>><<gtiredness>>",
+    "translation": "",
+    "pos": 724
+  },
+  {
+    "passage": "Office Stairwell Rest",
+    "filepath": "overworld-town/loc-office/stairs.twee",
+    "key": "68_5_3_7|",
+    "original": "<<link [[Hide behind door|Office Stairwell Hide]]>><</link>>",
+    "translation": "",
+    "pos": 829
+  },
+  {
+    "passage": "Office Stairwell Rest",
+    "filepath": "overworld-town/loc-office/stairs.twee",
+    "key": "71_5_3_7|",
+    "original": "After resting for a few minutes, you decide that you should continue before someone else enters the stairwell.",
+    "translation": "",
+    "pos": 906
+  },
+  {
+    "passage": "Office Stairwell Rest",
+    "filepath": "overworld-town/loc-office/stairs.twee",
+    "key": "73_5_3_7|",
+    "original": "<<link [[Next|Office Stairwell]]>><</link>>",
+    "translation": "",
+    "pos": 1028
+  },
+  {
+    "passage": "Office Stairwell Run Up",
+    "filepath": "overworld-town/loc-office/stairs.twee",
+    "key": "78_5_3_7|",
+    "original": "You think it would be safer to run upstairs, so you gather your stamina and start climbing.",
+    "translation": "",
+    "pos": 12
+  },
+  {
+    "passage": "Office Stairwell Run Up",
+    "filepath": "overworld-town/loc-office/stairs.twee",
+    "key": "80_5_3_7|",
+    "original": "\"I'm going to check upstairs,\" the guard says, heading up the stairs.",
+    "translation": "",
+    "pos": 109
+  },
+  {
+    "passage": "Office Stairwell Run Up",
+    "filepath": "overworld-town/loc-office/stairs.twee",
+    "key": "83_5_3_7|",
+    "original": "You stay ahead and out of sight of the guard, and they finally give up after <span class=\"blue\">_ascendCount</span> floors.",
+    "translation": "",
+    "pos": 224
+  },
+  {
+    "passage": "Office Stairwell Run Up",
+    "filepath": "overworld-town/loc-office/stairs.twee",
+    "key": "85_5_3_7|",
+    "original": "\"Heading back in; no one is here,\" the guard reports before using their pass to exit the stairwell on the floor below you.",
+    "translation": "",
+    "pos": 353
+  },
+  {
+    "passage": "Office Stairwell Run Up",
+    "filepath": "overworld-town/loc-office/stairs.twee",
+    "key": "88_5_3_7|",
+    "original": "<<link [[Next|Office Stairwell]]>><</link>>",
+    "translation": "",
+    "pos": 522
+  },
+  {
+    "passage": "Office Stairwell Run Down",
+    "filepath": "overworld-town/loc-office/stairs.twee",
+    "key": "92_5_3_7|",
+    "original": "You think it would be safer to run downstairs, so you quickly start descending.",
+    "translation": "",
+    "pos": 12
+  },
+  {
+    "passage": "Office Stairwell Run Down",
+    "filepath": "overworld-town/loc-office/stairs.twee",
+    "key": "94_5_3_7|",
+    "original": "\"Hey, you! Stop right there!\" the guard shouts from above.",
+    "translation": "",
+    "pos": 97
+  },
+  {
+    "passage": "Office Stairwell Run Down",
+    "filepath": "overworld-town/loc-office/stairs.twee",
+    "key": "97_5_3_7|",
+    "original": "<<link [[Run straight to lobby|Office Stairwell Escape]]>><</link>> <<ggsecurity>><<ggtiredness>>",
+    "translation": "",
+    "pos": 191
+  },
+  {
+    "passage": "Office Stairwell Run Down",
+    "filepath": "overworld-town/loc-office/stairs.twee",
+    "key": "99_5_3_7|",
+    "original": "<span class=\"purple\">If the lobby wasn't so many floors away, you might have been able to outrun security.</span>",
+    "translation": "",
+    "pos": 299
+  },
+  {
+    "passage": "Office Stairwell Run Down",
+    "filepath": "overworld-town/loc-office/stairs.twee",
+    "key": "103_5_3_7|",
+    "original": "<<link [[Go quietly|Office Security Escort]]>><</link>>",
+    "translation": "",
+    "pos": 431
+  },
+  {
+    "passage": "Office Stairwell Escape",
+    "filepath": "overworld-town/loc-office/stairs.twee",
+    "key": "107_5_3_7|",
+    "original": "You ignore the guard and keep running, but you fear this may come back to burn you later. <<ggsecurity>><<set $officecomplaints += 2>>",
+    "translation": "",
+    "pos": 12
+  },
+  {
+    "passage": "Office Stairwell Escape",
+    "filepath": "overworld-town/loc-office/stairs.twee",
+    "key": "109_5_3_7|",
+    "original": "<<link [[Lobby|Office Lobby]]>><<tiredness 10>><</link>>",
+    "translation": "",
+    "pos": 156
+  },
+  {
+    "passage": "Office Stairwell Hide",
+    "filepath": "overworld-town/loc-office/stairs.twee",
+    "key": "113_5_3_7|",
+    "original": "You decide to hide behind the door. The door swings outwards, and the guard enters the stairwell. The guard begins ascending the stairs, unaware of your presence.",
+    "translation": "",
+    "pos": 12
+  },
+  {
+    "passage": "Office Stairwell Hide",
+    "filepath": "overworld-town/loc-office/stairs.twee",
+    "key": "115_5_3_7|",
+    "original": "You wait a few moments to make sure you're safe and step away from the door.",
+    "translation": "",
+    "pos": 184
+  },
+  {
+    "passage": "Office Stairwell Hide",
+    "filepath": "overworld-town/loc-office/stairs.twee",
+    "key": "118_5_3_7|",
+    "original": "You feel restriction at your waist. Part of your $worn.upper.name is caught in the hinge of the door!",
+    "translation": "",
+    "pos": 321
+  },
+  {
+    "passage": "Office Stairwell Hide",
+    "filepath": "overworld-town/loc-office/stairs.twee",
+    "key": "120_5_3_7|",
+    "original": "You try with all your might to free your $worn.upper.name but are met with nothing but rips and tears.",
+    "translation": "",
+    "pos": 436
+  },
+  {
+    "passage": "Office Stairwell Hide",
+    "filepath": "overworld-town/loc-office/stairs.twee",
+    "key": "121_5_3_7|",
+    "original": "<<tearful>> <span class=\"lewd\">you step out of the garment, leaving it dangling from the door.</span>",
+    "translation": "",
+    "pos": 541
+  },
+  {
+    "passage": "Office Stairwell Hide",
+    "filepath": "overworld-town/loc-office/stairs.twee",
+    "key": "124_5_3_7|",
+    "original": "You feel restriction at your waist. Part of your $worn.under_lower.name is caught in the hinge of the door!",
+    "translation": "",
+    "pos": 747
+  },
+  {
+    "passage": "Office Stairwell Hide",
+    "filepath": "overworld-town/loc-office/stairs.twee",
+    "key": "126_5_3_7|",
+    "original": "You try with all your might to free your $worn.lower.name but are met with nothing but rips and tears.",
+    "translation": "",
+    "pos": 868
+  },
+  {
+    "passage": "Office Stairwell Hide",
+    "filepath": "overworld-town/loc-office/stairs.twee",
+    "key": "127_5_3_7|",
+    "original": "<<tearful>> <span class=\"lewd\">you step out of the garment, leaving it dangling from the door.</span>",
+    "translation": "",
+    "pos": 973
+  },
+  {
+    "passage": "Office Stairwell Hide",
+    "filepath": "overworld-town/loc-office/stairs.twee",
+    "key": "130_5_3_7|",
+    "original": "You feel restriction at your <<breasts>>. Part of your $worn.under_upper.name is caught in the hinge of the door!",
+    "translation": "",
+    "pos": 1185
+  },
+  {
+    "passage": "Office Stairwell Hide",
+    "filepath": "overworld-town/loc-office/stairs.twee",
+    "key": "132_5_3_7|",
+    "original": "You try with all your might to free your $worn.under_upper.name but are met with nothing but rips and tears.",
+    "translation": "",
+    "pos": 1312
+  },
+  {
+    "passage": "Office Stairwell Hide",
+    "filepath": "overworld-town/loc-office/stairs.twee",
+    "key": "133_5_3_7|",
+    "original": "<<tearful>> <span class=\"lewd\">you step out of the garment, leaving it dangling from the door.</span>",
+    "translation": "",
+    "pos": 1423
+  },
+  {
+    "passage": "Office Stairwell Hide",
+    "filepath": "overworld-town/loc-office/stairs.twee",
+    "key": "136_5_3_7|",
+    "original": "You feel restriction at your <<bottom>>. Part of your $worn.under_lower.name is caught in the hinge of the door!",
+    "translation": "",
+    "pos": 1645
+  },
+  {
+    "passage": "Office Stairwell Hide",
+    "filepath": "overworld-town/loc-office/stairs.twee",
+    "key": "138_5_3_7|",
+    "original": "You try with all your might to free your $worn.under_lower.name but are met with nothing but rips and tears.",
+    "translation": "",
+    "pos": 1771
+  },
+  {
+    "passage": "Office Stairwell Hide",
+    "filepath": "overworld-town/loc-office/stairs.twee",
+    "key": "139_5_3_7|",
+    "original": "<<tearful>> <span class=\"lewd\">you step out of the garment, leaving it dangling from the door.</span>",
+    "translation": "",
+    "pos": 1882
+  },
+  {
+    "passage": "Office Stairwell Hide",
+    "filepath": "overworld-town/loc-office/stairs.twee",
+    "key": "143_5_3_7|",
+    "original": "You check to make sure the coast is clear.",
+    "translation": "",
+    "pos": 2072
+  },
+  {
+    "passage": "Office Stairwell Hide",
+    "filepath": "overworld-town/loc-office/stairs.twee",
+    "key": "146_5_3_7|",
+    "original": "<<link [[Next|Office Stairwell]]>><</link>>",
+    "translation": "",
+    "pos": 2132
+  }
+]

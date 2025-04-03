@@ -1,0 +1,578 @@
+[
+  {
+    "passage": "Park Lichen",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "4_5_3_7|",
+    "original": "You approach the statue in the middle of the park. It's covered in white lichen.",
+    "translation": "",
+    "pos": 83
+  },
+  {
+    "passage": "Park Lichen",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "8_5_3_7|",
+    "original": "You peel some from the stone.",
+    "translation": "",
+    "pos": 226
+  },
+  {
+    "passage": "Park Lichen",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "11_5_3_7|",
+    "original": "<<link [[Step away|Park]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 300
+  },
+  {
+    "passage": "Park Lichen",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "14_5_3_7|",
+    "original": "You could collect some for your science project, but the plinth is taller than you.",
+    "translation": "",
+    "pos": 367
+  },
+  {
+    "passage": "Park Lichen",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "16_5_3_7|",
+    "original": "<<laddericon>><<link [[Climb up (0:30)|Park Lichen Climb]]>><<pass 30>><<set $sciencelichenpark to 1>><</link>><<athleticsdifficulty 1 1000>>",
+    "translation": "",
+    "pos": 462
+  },
+  {
+    "passage": "Park Lichen",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "18_5_3_7|",
+    "original": "<<socialiseicon \"ask\">><<link [[Ask someone for help (0:30)|Park Lichen Help]]>><<set $sciencelichenpark to 1>><<pass 30>><</link>>",
+    "translation": "",
+    "pos": 611
+  },
+  {
+    "passage": "Park Lichen",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "20_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Park]]>><</link>>",
+    "translation": "",
+    "pos": 750
+  },
+  {
+    "passage": "Park Lichen Climb",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "29_5_3_7|",
+    "original": "You <span class=\"green\">successfully</span> climb onto the plinth. The lichen is attached firm, but you manage to pry it free with some effort. A few heads turn but no one bothers you until you hear a voice shout from across the park. \"Oi!\" It's a <<npc Avery>><<initnpc Avery>><<generatePolice 2>><<person2>><<person>> dressed as a police officer. \"Get down from there or I'll have your hide.\"",
+    "translation": "",
+    "pos": 140
+  },
+  {
+    "passage": "Park Lichen Climb",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "32_5_3_7|",
+    "original": "<<link [[Explain yourself|Park Lichen Explain]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 571
+  },
+  {
+    "passage": "Park Lichen Climb",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "34_5_3_7|",
+    "original": "<<link [[Run|Park Lichen Run]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 651
+  },
+  {
+    "passage": "Park Lichen Climb",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "37_5_3_7|",
+    "original": "You reach up and try to lift your body, but your arms give way and you tumble to the ground.",
+    "translation": "",
+    "pos": 723
+  },
+  {
+    "passage": "Park Lichen Climb",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "40_5_3_7|",
+    "original": "<<npc Avery>><<initnpc Avery>><<person1>>You hear a <<nnpc_gender \"Avery\">>'s laughter. Before you can recover a pair of arms picks you up by your shoulders. Not stopping there, <<he>> holds you by the hips and helps lift you with surprising strength. It's enough for you to clamber up.",
+    "translation": "",
+    "pos": 871
+  },
+  {
+    "passage": "Park Lichen Climb",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "42_5_3_7|",
+    "original": "You feel your face flush as you realise <<he>> could have seen up your $worn.lower.name. If <<he>> did <<he>> gives no sign.",
+    "translation": "",
+    "pos": 1235
+  },
+  {
+    "passage": "Park Lichen Climb",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "44_5_3_7|",
+    "original": "<<He>> smiles at you. \"Why'd you want to go up there anyway?\"",
+    "translation": "",
+    "pos": 1370
+  },
+  {
+    "passage": "Park Lichen Climb",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "46_5_3_7|",
+    "original": "<<link [[Honest|Park Lichen Honest]]>><</link>>",
+    "translation": "",
+    "pos": 1443
+  },
+  {
+    "passage": "Park Lichen Climb",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "48_5_3_7|",
+    "original": "<<link [[Evasive|Park Lichen Evasive]]>><</link>>",
+    "translation": "",
+    "pos": 1498
+  },
+  {
+    "passage": "Park Lichen Help",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "55_5_3_7|",
+    "original": "You look around for someone who might help. You see a <<npc Avery>><<initnpc Avery>><<person1>><<nnpc_gender \"Avery\">> already watching you. <<He>> laughs and approaches you. <<He>> says nothing, but grabs you by the hips and helps lift you with surprising strength. It's enough for you to clamber up.",
+    "translation": "",
+    "pos": 83
+  },
+  {
+    "passage": "Park Lichen Help",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "57_5_3_7|",
+    "original": "You feel your face flush as you realise <<he>> could have seen up your $worn.lower.name. If <<he>> did <<he>> gives no sign.",
+    "translation": "",
+    "pos": 460
+  },
+  {
+    "passage": "Park Lichen Help",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "59_5_3_7|",
+    "original": "<<He>> smiles at you. \"Why'd you want to go up there anyway?\"",
+    "translation": "",
+    "pos": 593
+  },
+  {
+    "passage": "Park Lichen Help",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "61_5_3_7|",
+    "original": "<<link [[Honest|Park Lichen Honest]]>><</link>>",
+    "translation": "",
+    "pos": 664
+  },
+  {
+    "passage": "Park Lichen Help",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "63_5_3_7|",
+    "original": "<<link [[Evasive|Park Lichen Evasive]]>><</link>>",
+    "translation": "",
+    "pos": 717
+  },
+  {
+    "passage": "Park Lichen Run",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "69_5_3_7|",
+    "original": "<<person2>>You turn away from the <<person>> and jump from the plinth. Right into the arms of a waiting <<person1>><<nnpc_gender \"Avery\">>. The <<person2>><<person2>><<person>> runs around the plinth, but stops when <<he>> sees the newcomer. \"This your <<girl>> then?\" <<he>> says. \"<<pShe>> was defacing public property.\"",
+    "translation": "",
+    "pos": 83
+  },
+  {
+    "passage": "Park Lichen Run",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "71_5_3_7|",
+    "original": "\"<<pShes>> done no such thing,\" the <<person1>><<nnpc_gender \"Avery\">> says, holding you tight. <<He>> glares at the <<person2>><<person>>. \"And you know it.\"",
+    "translation": "",
+    "pos": 415
+  },
+  {
+    "passage": "Park Lichen Run",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "73_5_3_7|",
+    "original": "The <<person>> seems less confident. <<He>> sheathes <<his>> baton and turns away.",
+    "translation": "",
+    "pos": 583
+  },
+  {
+    "passage": "Park Lichen Run",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "75_5_3_7|",
+    "original": "<<person1>>The newcomer releases you from <<his>> arms and smiles. \"I hope you're okay,\" <<he>> says. \"I'm Avery. I bet you're thirsty after that. Would you like to get a drink? I know this cute little place.\"",
+    "translation": "",
+    "pos": 675
+  },
+  {
+    "passage": "Park Lichen Run",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "77_5_3_7|",
+    "original": "<<link [[Accept|Park Lichen Accept]]>><</link>>",
+    "translation": "",
+    "pos": 894
+  },
+  {
+    "passage": "Park Lichen Run",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "79_5_3_7|",
+    "original": "<<link [[Refuse|Park Lichen Refuse]]>><</link>>",
+    "translation": "",
+    "pos": 947
+  },
+  {
+    "passage": "Park Lichen Explain",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "86_5_3_7|",
+    "original": "\"I-it's for my science project,\" you say.",
+    "translation": "",
+    "pos": 118
+  },
+  {
+    "passage": "Park Lichen Explain",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "88_5_3_7|",
+    "original": "\"I need it to win the science fair,\" you say.",
+    "translation": "",
+    "pos": 201
+  },
+  {
+    "passage": "Park Lichen Explain",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "90_5_3_7|",
+    "original": "\"I need lichen for my science project,\" you say.",
+    "translation": "",
+    "pos": 257
+  },
+  {
+    "passage": "Park Lichen Explain",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "93_5_3_7|",
+    "original": "\"Is that right?\" <<he>> says. \"Looks like you're defacing a statue to me.\" <<He>> raises <<his>> baton and rubs <<his>> palm with it.",
+    "translation": "",
+    "pos": 323
+  },
+  {
+    "passage": "Park Lichen Explain",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "95_5_3_7|",
+    "original": "<<person1>>\"The <<girl>>'s doing no such thing,\" a <<nnpc_gender \"Avery\">>'s voice says from behind you. <<He>> walks around the statue and glares at the <<person2>><<person>>. \"And you know it.\"",
+    "translation": "",
+    "pos": 466
+  },
+  {
+    "passage": "Park Lichen Explain",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "97_5_3_7|",
+    "original": "The <<person>> seems less confident. \"This your <<girl>> then? Tell <<phim>> to get down from there.\" <<He>> sheathes <<his>> baton and turns away.",
+    "translation": "",
+    "pos": 671
+  },
+  {
+    "passage": "Park Lichen Explain",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "99_5_3_7|",
+    "original": "<<person1>>The newcomer offers an arm and helps you climb down. \"Did I hear you right?\" <<he>> asks. \"A scientist in the making?\" <<He>> smiles. \"I'm Avery. I bet you're thirsty after that. Would you like to get a drink? I know this cute little place.\"",
+    "translation": "",
+    "pos": 828
+  },
+  {
+    "passage": "Park Lichen Explain",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "101_5_3_7|",
+    "original": "<<link [[Accept|Park Lichen Accept]]>><</link>>",
+    "translation": "",
+    "pos": 1090
+  },
+  {
+    "passage": "Park Lichen Explain",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "103_5_3_7|",
+    "original": "<<link [[Refuse|Park Lichen Refuse]]>><</link>>",
+    "translation": "",
+    "pos": 1143
+  },
+  {
+    "passage": "Park Lichen Honest",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "111_5_3_7|",
+    "original": "\"I-it's for my science project,\" you say.",
+    "translation": "",
+    "pos": 148
+  },
+  {
+    "passage": "Park Lichen Honest",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "113_5_3_7|",
+    "original": "\"I need it to win the science fair,\" you say.",
+    "translation": "",
+    "pos": 231
+  },
+  {
+    "passage": "Park Lichen Honest",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "115_5_3_7|",
+    "original": "\"I need lichen for my science project,\" you say.",
+    "translation": "",
+    "pos": 287
+  },
+  {
+    "passage": "Park Lichen Honest",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "118_5_3_7|",
+    "original": "\"A scientist in the making?\" <<he>> says. \"I'll help you down when you're done. I'm only out for a stroll, there's no rush.\"",
+    "translation": "",
+    "pos": 353
+  },
+  {
+    "passage": "Park Lichen Honest",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "120_5_3_7|",
+    "original": "The lichen is attached firm, but you manage to pry it free with some effort. <<He>> offers an arm and helps you climb down. \"I'm Avery,\" <<he>> says. \"I bet you're thirsty after that. Would you like to get a drink? I know this cute little place.\"",
+    "translation": "",
+    "pos": 487
+  },
+  {
+    "passage": "Park Lichen Honest",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "122_5_3_7|",
+    "original": "<<link [[Accept|Park Lichen Accept]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 743
+  },
+  {
+    "passage": "Park Lichen Honest",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "124_5_3_7|",
+    "original": "<<link [[Refuse|Park Lichen Refuse]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 810
+  },
+  {
+    "passage": "Park Lichen Evasive",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "132_5_3_7|",
+    "original": "\"I-it's nothing,\" you say.",
+    "translation": "",
+    "pos": 148
+  },
+  {
+    "passage": "Park Lichen Evasive",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "134_5_3_7|",
+    "original": "\"None of your business,\" you say.",
+    "translation": "",
+    "pos": 216
+  },
+  {
+    "passage": "Park Lichen Evasive",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "136_5_3_7|",
+    "original": "\"School stuff,\" you say.",
+    "translation": "",
+    "pos": 260
+  },
+  {
+    "passage": "Park Lichen Evasive",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "139_5_3_7|",
+    "original": "<<He>> nods. \"I'll help you down when you're done. I'm only out for a stroll, there's no rush.\"",
+    "translation": "",
+    "pos": 302
+  },
+  {
+    "passage": "Park Lichen Evasive",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "141_5_3_7|",
+    "original": "The lichen is attached firm, but you manage to pry it free with some effort. <<He>> offers an arm and helps you climb down. \"I'm Avery,\" <<he>> says. \"I bet you're thirsty after that. Would you like to get a drink? I know this cute little place.\"",
+    "translation": "",
+    "pos": 407
+  },
+  {
+    "passage": "Park Lichen Evasive",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "143_5_3_7|",
+    "original": "<<link [[Accept|Park Lichen Accept]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 663
+  },
+  {
+    "passage": "Park Lichen Evasive",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "145_5_3_7|",
+    "original": "<<link [[Refuse|Park Lichen Refuse]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 730
+  },
+  {
+    "passage": "Park Lichen Accept",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "151_5_3_7|",
+    "original": "<<He>> leads you to a small cafe at the edge of the park. <<He>> orders a coffee for <<him>> and some fruit juice for you. The <<generateRole 2 0 \"waiter/waitress\">><<person3>><<personsimple>><<person1>> thinks you're Avery's <<if $player.gender_appearance is \"m\">>son<<else>>daughter<</if>>. <<He>> is old enough to be your <<if $pronoun is \"m\">>father<<else>>mother<</if>>, but <<hes>> in good shape. <<He>> smiles at you across the table.",
+    "translation": "",
+    "pos": 81
+  },
+  {
+    "passage": "Park Lichen Accept",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "153_5_3_7|",
+    "original": "You talk with Avery over the drinks. <<He>> asks a lot of questions, but is reluctant to answer yours. <<He>> doesn't take <<his>> eyes off you.",
+    "translation": "",
+    "pos": 532
+  },
+  {
+    "passage": "Park Lichen Accept",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "155_5_3_7|",
+    "original": "<<Hes>> asking if you're happy at school when <<hes>> interrupted by a buzzing in <<his>> pocket. \"I'm sorry,\" <<he>> says. \"It's work. I need to go.\" <<He>> stands up, then hesitates a moment before leaning close.",
+    "translation": "",
+    "pos": 686
+  },
+  {
+    "passage": "Park Lichen Accept",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "157_5_3_7|",
+    "original": "<<link [[Smooch|Park Lichen Smooch]]>><<handheldon>><<npcincr Avery love 1>><</link>><<glove>><<promiscuous1>><<kissvirginitywarning>>",
+    "translation": "",
+    "pos": 910
+  },
+  {
+    "passage": "Park Lichen Accept",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "159_5_3_7|",
+    "original": "<<link [[Stay still|Park Lichen Still]]>><<handheldon>><<npcincr Avery love 1>><</link>><<glove>>",
+    "translation": "",
+    "pos": 1050
+  },
+  {
+    "passage": "Park Lichen Accept",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "161_5_3_7|",
+    "original": "<<link [[Move away|Park Lichen Move]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 1153
+  },
+  {
+    "passage": "Park Lichen Refuse",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "167_5_3_7|",
+    "original": "<<He>> frowns for a moment, but covers it with a smile. \"Of course,\" <<he>> says. \"I'm sure you're busy. I'll see you around.\"",
+    "translation": "",
+    "pos": 61
+  },
+  {
+    "passage": "Park Lichen Refuse",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "171_5_3_7|",
+    "original": "<span class=\"gold\">You can add the lichen you found to your project in your room or the school library.</span>",
+    "translation": "",
+    "pos": 235
+  },
+  {
+    "passage": "Park Lichen Refuse",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "174_5_3_7|",
+    "original": "<<link [[Next|Park]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 358
+  },
+  {
+    "passage": "Park Lichen Smooch",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "184_5_3_7|",
+    "original": "You lean in and plant a kiss on <<his>> lips. <<He>> kisses back. <<takeKissVirginity \"Avery\" `($dateCount.Avery gte 3?\"loveInterest\":\"romantic\")`>>",
+    "translation": "",
+    "pos": 61
+  },
+  {
+    "passage": "Park Lichen Smooch",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "186_5_3_7|",
+    "original": "<<He>> pulls away and glances around the cafe as if concerned about who's watching. \"I'll be in touch,\" <<he>> says, smiling.",
+    "translation": "",
+    "pos": 227
+  },
+  {
+    "passage": "Park Lichen Smooch",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "188_5_3_7|",
+    "original": "You leave soon after <<him>>, but <<hes>> already gone.",
+    "translation": "",
+    "pos": 362
+  },
+  {
+    "passage": "Park Lichen Smooch",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "191_5_3_7|",
+    "original": "<span class=\"gold\">You can add the lichen you found to your project in your room or the school library.</span>",
+    "translation": "",
+    "pos": 464
+  },
+  {
+    "passage": "Park Lichen Smooch",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "193_5_3_7|",
+    "original": "<<link [[Next|Park]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 586
+  },
+  {
+    "passage": "Park Lichen Still",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "203_5_3_7|",
+    "original": "<<He>> plants a kiss on your cheek and smiles. \"I'll be in touch.\"",
+    "translation": "",
+    "pos": 61
+  },
+  {
+    "passage": "Park Lichen Still",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "205_5_3_7|",
+    "original": "You leave soon after <<him>>, but <<hes>> already gone.",
+    "translation": "",
+    "pos": 137
+  },
+  {
+    "passage": "Park Lichen Still",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "208_5_3_7|",
+    "original": "<span class=\"gold\">You can add the lichen you found to your project in your room or the school library.</span>",
+    "translation": "",
+    "pos": 239
+  },
+  {
+    "passage": "Park Lichen Still",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "210_5_3_7|",
+    "original": "<<link [[Next|Park]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 361
+  },
+  {
+    "passage": "Park Lichen Move",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "220_5_3_7|",
+    "original": "<<He>> tries to plant a kiss on your cheek, but you pull away. <<He>> raises <<his>> hand as if to pull you back, but catches <<himself>> and smiles. \"I'll be in touch.\"",
+    "translation": "",
+    "pos": 61
+  },
+  {
+    "passage": "Park Lichen Move",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "222_5_3_7|",
+    "original": "You leave soon after <<him>>, but <<hes>> already gone.",
+    "translation": "",
+    "pos": 240
+  },
+  {
+    "passage": "Park Lichen Move",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "225_5_3_7|",
+    "original": "<span class=\"gold\">You can add the lichen you found to your project in your room or the school library.</span>",
+    "translation": "",
+    "pos": 342
+  },
+  {
+    "passage": "Park Lichen Move",
+    "filepath": "overworld-town/loc-park/science-project.twee",
+    "key": "227_5_3_7|",
+    "original": "<<link [[Next|Park]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 464
+  }
+]

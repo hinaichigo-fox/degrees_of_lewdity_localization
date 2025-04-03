@@ -1,0 +1,2746 @@
+[
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "6_5_3_7|",
+    "original": "\"Time to pay up,\" <<he>> says.",
+    "translation": "",
+    "pos": 88
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "8_5_3_7|",
+    "original": "<<generateRole 1 0 \"thug\">><<generateRole 2 0 \"thug\">>",
+    "translation": "",
+    "pos": 275
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "9_5_3_7|",
+    "original": "A rough-looking <<person2>><<person>> and <<person3>><<person>> stand next to <<person1>><<him>>.",
+    "translation": "",
+    "pos": 332
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "10_5_3_7|",
+    "original": "The <<person2>><<person>> cracks <<his>> knuckles, and the <<person3>><<person>> grins darkly.",
+    "translation": "",
+    "pos": 432
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "12_5_3_7|",
+    "original": "<<generateRole 1 0 \"thug\">>",
+    "translation": "",
+    "pos": 568
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "13_5_3_7|",
+    "original": "A rough-looking <<person2>><<person>> stands next to <<person1>><<him>>.",
+    "translation": "",
+    "pos": 598
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "14_5_3_7|",
+    "original": "<<person2>><<He>> cracks <<his>> knuckles.",
+    "translation": "",
+    "pos": 673
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "20_5_3_7|",
+    "original": "You look around, but Robin is nowhere to be found.",
+    "translation": "",
+    "pos": 770
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "23_5_3_7|",
+    "original": "\"Don't bother, <<nnpc_hes \"Robin\">> being kept for safe keeping,\" Bailey sneers at you.",
+    "translation": "",
+    "pos": 835
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "38_5_3_7|",
+    "original": "<<link [[Pay|Rent Pay]]>><<set $phase to $_robinWasInRoom>><</link>>",
+    "translation": "",
+    "pos": 1255
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "40_5_3_7|",
+    "original": "<<link [[Refuse|Rent Refuse]]>><<def 1>><</link>>",
+    "translation": "",
+    "pos": 1333
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "44_5_3_7|",
+    "original": "<<link [[Seduce|Rent Seduce]]>><<set $phase to ($_rentSeduce ? 1 : 0)>><<trauma 3>><</link>><<promiscuous2>><<gtrauma>>",
+    "translation": "",
+    "pos": 1465
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "47_5_3_7|",
+    "original": "<<link [[Seduce|Rent Seduce]]>><<set $phase to ($_rentSeduce ? 1 : 0)>><<trauma 12>><<set $desperateaction to 1>><</link>><<promiscuous2>><<ggtrauma>>",
+    "translation": "",
+    "pos": 1649
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "54_5_3_7|",
+    "original": "You stare at <<him>> in defiance. \"I don't have your money. And wouldn't give it to you if I did.\"",
+    "translation": "",
+    "pos": 1895
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "56_5_3_7|",
+    "original": "You hang your head, unable to pay and afraid of what's to come.",
+    "translation": "",
+    "pos": 2037
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "58_5_3_7|",
+    "original": "\"I don't have it,\" you say, afraid of what's to come.",
+    "translation": "",
+    "pos": 2115
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "73_5_3_7|",
+    "original": "\"Time to pay up,\" <<he>> says.",
+    "translation": "",
+    "pos": 2518
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "75_5_3_7|",
+    "original": "<<generateRole 1 0 \"thug\">><<generateRole 2 0 \"thug\">><<generateRole 3 0 \"thug\">>",
+    "translation": "",
+    "pos": 2586
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "76_5_3_7|",
+    "original": "A rough-looking <<person2>><<person>> and <<person3>><<person>> stand next to <<person1>><<him>>.",
+    "translation": "",
+    "pos": 2670
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "78_5_3_7|",
+    "original": "Behind them, a third <<person4>><<person>> walks in with a length of rope and rushes Robin. Robin tries to resist, but it's no use.",
+    "translation": "",
+    "pos": 2794
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "80_5_3_7|",
+    "original": "Behind them, a third <<person4>><<person>> stands, bringing Robin in with <<him>>. Robin has restraints on <<nnpc_his \"Robin\">> hands.",
+    "translation": "",
+    "pos": 2940
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "82_5_3_7|",
+    "original": "The <<person2>><<person>> cracks <<his>> knuckles, and the <<person3>><<person>> grins darkly.",
+    "translation": "",
+    "pos": 3087
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "84_5_3_7|",
+    "original": "<<generateRole 1 0 \"thug\">><<generateRole 2 0 \"thug\">>",
+    "translation": "",
+    "pos": 3223
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "85_5_3_7|",
+    "original": "A rough-looking <<person2>><<person>> and <<person3>><<person>> stand next to <<person1>><<him>>.",
+    "translation": "",
+    "pos": 3280
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "87_5_3_7|",
+    "original": "The <<person3>><<person>> walks in with a length of rope and rushes Robin. Robin tries to resist, but it's no use.",
+    "translation": "",
+    "pos": 3404
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "88_5_3_7|",
+    "original": "The <<person2>><<person>> cracks <<his>> knuckles.",
+    "translation": "",
+    "pos": 3522
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "90_5_3_7|",
+    "original": "The <<person2>><<person>> cracks <<his>> knuckles, and the <<person3>><<person>> grins darkly, bringing Robin in with <<him>>.",
+    "translation": "",
+    "pos": 3587
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "91_5_3_7|",
+    "original": "Robin has restraints on <<nnpc_his \"Robin\">> hands.",
+    "translation": "",
+    "pos": 3717
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "94_5_3_7|",
+    "original": "<<generateRole 1 0 \"thug\">>",
+    "translation": "",
+    "pos": 3791
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "95_5_3_7|",
+    "original": "A rough-looking <<person2>><<person>> stands next to <<person1>><<him>>.",
+    "translation": "",
+    "pos": 3821
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "97_5_3_7|",
+    "original": "The <<person2>><<person>> walks in with a length of rope and rushes Robin. Robin tries to resist, but it's no use.",
+    "translation": "",
+    "pos": 3920
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "99_5_3_7|",
+    "original": "The <<person2>><<person>> brings Robin in with <<him>>. Robin has restraints on <<nnpc_his \"Robin\">> hands.",
+    "translation": "",
+    "pos": 4049
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "114_5_3_7|",
+    "original": "<<link [[Pay|Rent Pay Robin]]>><<set $inRobinsRoom to true>><</link>>",
+    "translation": "",
+    "pos": 4491
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "116_5_3_7|",
+    "original": "<<link [[Pay|Rent Pay Robin]]>><</link>>",
+    "translation": "",
+    "pos": 4575
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "119_5_3_7|",
+    "original": "<<link [[Refuse|Rent Refuse Robin]]>><<def 1>><</link>>",
+    "translation": "",
+    "pos": 4635
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "124_5_3_7|",
+    "original": "You stare at <<him>> in defiance. \"I don't have your money. And wouldn't give it to you if I did. Leave Robin out of this.\"",
+    "translation": "",
+    "pos": 4780
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "126_5_3_7|",
+    "original": "You hang your head, unable to pay and afraid of what's to come. \"I'm sorry, Robin.\"",
+    "translation": "",
+    "pos": 4947
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "129_5_3_7|",
+    "original": "\"I-it's not your fault,\" Robin interjects.",
+    "translation": "",
+    "pos": 5047
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "131_5_3_7|",
+    "original": "\"I don't have it,\" you say, afraid of what's to come for the both of you.",
+    "translation": "",
+    "pos": 5104
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "134_5_3_7|",
+    "original": "Robin looks terrified.",
+    "translation": "",
+    "pos": 5194
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "138_5_3_7|",
+    "original": "\"That's okay,\" <<he>> says, smiling. \"I've already made arrangements. I don't know what they intend for you two, and frankly I don't care.\"",
+    "translation": "",
+    "pos": 5241
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "139_5_3_7|",
+    "original": "<<He>> produces a hood and length of rope. \"Hold still.\"",
+    "translation": "",
+    "pos": 5383
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "142_5_3_7|",
+    "original": "<<link [[Submit|Rent Intro]]>><<endevent>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 5454
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "145_5_3_7|",
+    "original": "<<link [[Fight|Rent Hospital Fight Robin]]>><<set $fightstart to 1>><</link>>",
+    "translation": "",
+    "pos": 5563
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "148_5_3_7|",
+    "original": "<<link [[Fight|Rent Robin Fight]]>><<set $fightstart to 1>><</link>>",
+    "translation": "",
+    "pos": 5663
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "162_5_3_7|",
+    "original": "Bailey is silent for a few seconds, before shrugging. \"That's okay,\" <<he>> says.",
+    "translation": "",
+    "pos": 6247
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "163_5_3_7|",
+    "original": "\"I've learned my lesson. Trying to get value out of you directly is fruitless.\"",
+    "translation": "",
+    "pos": 6331
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "166_5_3_7|",
+    "original": "On an unseen signal, the thugs advance on you.",
+    "translation": "",
+    "pos": 6425
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "167_5_3_7|",
+    "original": "The <<person3>><<person>> reaches for you. You duck under <<his>> arm, but the <<person2>><<person>> grabs yours.",
+    "translation": "",
+    "pos": 6474
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "168_5_3_7|",
+    "original": "The <<person3>><<person>> grabs your other arm, and they hold you there.",
+    "translation": "",
+    "pos": 6590
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "171_5_3_7|",
+    "original": "<<link [[Next|Rent First Robin Fight]]>><<set $fightstart to 1>><<set $combatPhase to \"talk\">><<set $robinRentEvent to 1>><<set $timer to 5>><</link>>",
+    "translation": "",
+    "pos": 6677
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "174_5_3_7|",
+    "original": "\"That's okay,\" <<he>> says, smiling. \"I've already made arrangements. I don't know what they intend for you, and frankly I don't care.\"",
+    "translation": "",
+    "pos": 6854
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "175_5_3_7|",
+    "original": "<<He>> produces a hood and length of rope. \"Hold still.\"",
+    "translation": "",
+    "pos": 6992
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "178_5_3_7|",
+    "original": "<<link [[Submit|Rent Intro]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 7063
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "181_5_3_7|",
+    "original": "<<link [[Fight|Rent Hospital Fight]]>><<set $fightstart to 1>><</link>>",
+    "translation": "",
+    "pos": 7153
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "184_5_3_7|",
+    "original": "<<link [[Fight|Rent Fight]]>><<set $fightstart to 1>><</link>>",
+    "translation": "",
+    "pos": 7247
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "189_5_3_7|",
+    "original": "<<link [[Seduce|Rent Seduce]]>><<trauma 3>><</link>><<promiscuous2>><<gtrauma>>",
+    "translation": "",
+    "pos": 7423
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "192_5_3_7|",
+    "original": "<<link [[Seduce|Rent Seduce]]>><<trauma 12>><<set $desperateaction to 1>><</link>><<promiscuous2>><<ggtrauma>>",
+    "translation": "",
+    "pos": 7567
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "200_5_3_7|",
+    "original": "<<babyRent true>><<if $babyRent>><<print _args[0]>><<printmoney $babyRent _args[2]>><<print _args[1]>><</if>>",
+    "translation": "",
+    "pos": 7759
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "208_5_3_7|",
+    "original": "if (!T.skipReductions) curr.localVariables.interactions = 0;",
+    "translation": "",
+    "pos": 8120
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "209_5_3_7|",
+    "original": "return prev + 1;",
+    "translation": "",
+    "pos": 8185
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "211_5_3_7|",
+    "original": "if (!T.skipReductions) curr.localVariables.interactions = 0;",
+    "translation": "",
+    "pos": 8210
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "213_5_3_7|",
+    "original": "return prev;",
+    "translation": "",
+    "pos": 8277
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "214_5_3_7|",
+    "original": "}, 0)>>",
+    "translation": "",
+    "pos": 8291
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "237_5_3_7|",
+    "original": "Bailey snatches the money from your hand and starts counting. \"Good,\" <<nnpc_he \"Bailey\">> says, satisfied. \"You came through.",
+    "translation": "",
+    "pos": 9109
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "239_5_3_7|",
+    "original": "Next week I want <<printmoney $rentmoney \"pink\">><<babyRentDisplay \" plus \" \" if you don't look after your children\" \"pink\">>. You didn't think it would get any easier did you?\"",
+    "translation": "",
+    "pos": 9262
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "241_5_3_7|",
+    "original": "Next week I want <<printmoney $rentmoney \"pink\">><<babyRentDisplay \" plus \" \" if you don't look after your children\" \"pink\">>.\"",
+    "translation": "",
+    "pos": 9452
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "256_5_3_7|",
+    "original": "You journey for some time until you feel that you're walking on grass. A small breeze flows by you. Another set of footsteps approach.",
+    "translation": "",
+    "pos": 9882
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "260_5_3_7|",
+    "original": "\"Oh, <<nnpc_hes \"Robin\">> cute. A perfect little travel companion,\" an unfamiliar <<person2>><<personsimple>>'s voice says.",
+    "translation": "",
+    "pos": 10157
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "262_5_3_7|",
+    "original": "You're not sure who they're referring to.",
+    "translation": "",
+    "pos": 10342
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "265_5_3_7|",
+    "original": "\"Hand over the cash,\" Bailey demands.",
+    "translation": "",
+    "pos": 10397
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "268_5_3_7|",
+    "original": "\"Can't believe you're making me do this when we're about to sail,\" a second <<person3>><<personsimple>>'s voice says.",
+    "translation": "",
+    "pos": 10449
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "271_5_3_7|",
+    "original": "\"Hand over the cash,\" Bailey demands.",
+    "translation": "",
+    "pos": 10609
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "274_5_3_7|",
+    "original": "There is no response, save for the rustling of clothes.",
+    "translation": "",
+    "pos": 10661
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "277_5_3_7|",
+    "original": "\"Just hand it over already.\" Bailey sounds slightly unnerved.",
+    "translation": "",
+    "pos": 10731
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "282_5_3_7|",
+    "original": "You hear a rustle of paper.",
+    "translation": "",
+    "pos": 10847
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "284_5_3_7|",
+    "original": "\"Let go of me!\" Robin yells. \"<<pShe>> needs me, stop it!\"",
+    "translation": "",
+    "pos": 10903
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "287_5_3_7|",
+    "original": "The sounds of Robin's protests fade off into the distance.",
+    "translation": "",
+    "pos": 10976
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "289_5_3_7|",
+    "original": "\"No, no!\" Robin shrieks. \"Let me go!\"",
+    "translation": "",
+    "pos": 11047
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "292_5_3_7|",
+    "original": "The sounds of Robin crying fade off into the distance.",
+    "translation": "",
+    "pos": 11099
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "294_5_3_7|",
+    "original": "You're pulled elsewhere by Bailey.",
+    "translation": "",
+    "pos": 11164
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "299_5_3_7|",
+    "original": "You aren't left hanging there for long.",
+    "translation": "",
+    "pos": 11265
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "300_5_3_7|",
+    "original": "Your hood is yanked off your head as a<<if $syndromeeden gte 1>> familiar<</if>> <<personsimple>>'s voice appears beside you.",
+    "translation": "",
+    "pos": 11306
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "303_5_3_7|",
+    "original": "\"I told you I'd find you again,\" Eden growls as <<he>> pulls you to the ground. <<He>> doesn't untie you. \"This time the lesson better stick.\"",
+    "translation": "",
+    "pos": 11460
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "306_5_3_7|",
+    "original": "You're roughly led through the woods, helpless to resist, until you finally reach the cabin. \"Welcome home,\" Eden sneers.",
+    "translation": "",
+    "pos": 11617
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "307_5_3_7|",
+    "original": "<<He>> drags you towards the sleeping area, where a metal cage awaits.",
+    "translation": "",
+    "pos": 11741
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "310_5_3_7|",
+    "original": "<<link [[Next (0:30)|Eden Caged Intro]]>><<pass 30>><<set $phase to 2>><</link>>",
+    "translation": "",
+    "pos": 11826
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "313_5_3_7|",
+    "original": "\"I trusted you,\" Eden says as <<he>> cuts your bindings. You fall to the floor in a heap.",
+    "translation": "",
+    "pos": 11967
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "314_5_3_7|",
+    "original": "\"This is what happens if you don't obey me. It's for your own protection.\" <<He>> pulls you to your feet. \"Let's go home.\"",
+    "translation": "",
+    "pos": 12059
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "317_5_3_7|",
+    "original": "<<link [[Next (0:30)|Eden Recaptured]]>><<pass 30>><</link>>",
+    "translation": "",
+    "pos": 12196
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "320_5_3_7|",
+    "original": "\"I trusted you,\" Eden says as <<he>> cuts your bindings. You fall to the floor in a heap.",
+    "translation": "",
+    "pos": 12316
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "321_5_3_7|",
+    "original": "\"This is what happens if you don't obey me. It's for your own protection.\" <<He>> pulls you to your feet. \"Let's go home.\"",
+    "translation": "",
+    "pos": 12408
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "324_5_3_7|",
+    "original": "<<link [[Next (0:30)|Eden Recaptured]]>><<pass 30>><</link>>",
+    "translation": "",
+    "pos": 12545
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "327_5_3_7|",
+    "original": "\"I knew you'd end up like this. The town is dangerous,\" Eden says, cutting your bindings. <<He>> catches you as you fall. \"Let's go home.\"",
+    "translation": "",
+    "pos": 12647
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "330_5_3_7|",
+    "original": "<<He>> takes you back to <<his>> cabin.",
+    "translation": "",
+    "pos": 12800
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "333_5_3_7|",
+    "original": "<<link [[Next (0:30)|Eden Cabin]]>><<pass 30>><</link>>",
+    "translation": "",
+    "pos": 12868
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "338_5_3_7|",
+    "original": "\"I knew I'd get you back.\"",
+    "translation": "",
+    "pos": 13024
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "340_5_3_7|",
+    "original": "\"I'm not used to my prey being so helpless. Not that I'm complaining.\"",
+    "translation": "",
+    "pos": 13065
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "342_5_3_7|",
+    "original": "<<He>> crept up on you without making a sound.",
+    "translation": "",
+    "pos": 13148
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "347_5_3_7|",
+    "original": "<<link [[Next|Forest Hunter Intro]]>><</link>>",
+    "translation": "",
+    "pos": 13225
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "353_5_3_7|",
+    "original": "<<set _fatherEvent to !!$babyIntros.Bailey.find(child => child.mother !== \"pc\")>>",
+    "translation": "",
+    "pos": 13329
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "354_5_3_7|",
+    "original": "<<set _motherEvent to !!$babyIntros.Bailey.find(child => child.mother === \"pc\")>>",
+    "translation": "",
+    "pos": 13412
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "355_5_3_7|",
+    "original": "<<set $_newChildrenCount to $babyIntros.Bailey.reduce((prev, curr) => prev + curr.children, 0)>>",
+    "translation": "",
+    "pos": 13495
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "360_5_3_7|",
+    "original": "prev.pushUnique(curr.mother + curr.birthId);",
+    "translation": "",
+    "pos": 13777
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "361_5_3_7|",
+    "original": "return prev;",
+    "translation": "",
+    "pos": 13824
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "366_5_3_7|",
+    "original": "T.playerBornChildren.push(child.childId);",
+    "translation": "",
+    "pos": 13989
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "367_5_3_7|",
+    "original": "T.playerChildrenBirthLocations.pushUnique(child.birthLocation);",
+    "translation": "",
+    "pos": 14035
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "369_5_3_7|",
+    "original": "T.playerFatheredChildren.push(child.childId);",
+    "translation": "",
+    "pos": 14115
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "371_5_3_7|",
+    "original": "child.localVariables.interactionsTotal = 0;",
+    "translation": "",
+    "pos": 14169
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "372_5_3_7|",
+    "original": "child.localVariables.interactions = 7 - Math.clamp(V.renttime, 0, 7);",
+    "translation": "",
+    "pos": 14216
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "377_5_3_7|",
+    "original": "\"Before we begin, I have news for you.\" <<He>> pulls out a piece of paper, and looks back to you.",
+    "translation": "",
+    "pos": 14333
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "379_5_3_7|",
+    "original": "<<He>> pulls out a piece of paper, and looks back to you.",
+    "translation": "",
+    "pos": 14443
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "382_5_3_7|",
+    "original": "\"You've been fucking busy. Or busy fucking. Congratulations",
+    "translation": "",
+    "pos": 14552
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "384_5_3_7|",
+    "original": "\"First of all, congratulations",
+    "translation": "",
+    "pos": 14624
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "387_5_3_7|",
+    "original": "<span class=\"lewd\">on being both a mother and a father</span>. <span class=\"green\"><<childrenNames _playerBornChildren>> got here safely from the <<print formatList(_playerChildrenBirthLocations, \"and\", true)>></span>.\"",
+    "translation": "",
+    "pos": 14704
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "389_5_3_7|",
+    "original": "<span class=\"lewd\">on being a father</span>.\"",
+    "translation": "",
+    "pos": 14951
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "391_5_3_7|",
+    "original": "on being a mother. <span class=\"green\"><<childrenNames _playerBornChildren>> arrived safely from the <<print formatList(_playerChildrenBirthLocations, \"and\", true)>></span>.\"",
+    "translation": "",
+    "pos": 15009
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "397_5_3_7|",
+    "original": "<br><<He>> looks back to the paper.<br><br>",
+    "translation": "",
+    "pos": 15341
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "410_5_3_7|",
+    "original": "<br><<He>> continues.",
+    "translation": "",
+    "pos": 15914
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "413_5_3_7|",
+    "original": "\"That waif popped out <<print _childrenText>>, and insists that they're yours. I'm inclined to believe <<nnpc_him \"Robin\">> with how much time you two spend together.\"",
+    "translation": "",
+    "pos": 15986
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "417_5_3_7|",
+    "original": "\"I got word that you knocked up some <<if C.npc.Alex.pronoun is \"f\">>bitch<<else>>slut<</if>> outside town. I paid them a little visit and saw that that farm's no place for a brat. I did you the favour of bringing your spawn back here, where it belongs.\"",
+    "translation": "",
+    "pos": 16384
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "420_5_3_7|",
+    "original": "\"I've paid a little visit to that farmer <<if C.npc.Alex.pronoun is \"f\">>girl<<else>>boy<</if>> You should have done the same. Anyway, <<nnpc_he \"Alex\">> popped out <<print _childrenText>>, and I already know it's yours.\"",
+    "translation": "",
+    "pos": 16665
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "425_5_3_7|",
+    "original": "\"You're a careless little fuck, you know that? Making me drive all the way there again just because you don't know how to assume your own responsibilities, instead, making more and more,\" <<he>> says.",
+    "translation": "",
+    "pos": 16920
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "428_5_3_7|",
+    "original": "\"It's from that farmer <<if C.npc.Alex.pronoun is \"f\">>girl<<else>>boy<</if>>, again.\"",
+    "translation": "",
+    "pos": 17141
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "433_5_3_7|",
+    "original": "\"Someone named _value.mother dropped off <<print _childrenText>>, and a paternity test with your name on it to match.\"",
+    "translation": "",
+    "pos": 17297
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "435_5_3_7|",
+    "original": "\"A _value.mother dropped off <<print _childrenText>>, and a paternity test with your name on it.\"",
+    "translation": "",
+    "pos": 17432
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "442_5_3_7|",
+    "original": "\"They're in the ward already.",
+    "translation": "",
+    "pos": 17603
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "445_5_3_7|",
+    "original": "You're responsible for your offspring's care,\" <<he>> says. \"If I have to intervene, it'll cost you an extra <span class=\"red\">£100</span> a week, starting now. They don't leave the nursery. Ever.\"",
+    "translation": "",
+    "pos": 17767
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "447_5_3_7|",
+    "original": "You already know that you're responsible for your offspring's care,\" <<he>> says. \"If I have to intervene, it'll cost you an extra <span class=\"red\">£100</span> a week, each.\"",
+    "translation": "",
+    "pos": 18006
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "449_5_3_7|",
+    "original": "You're an irresponsible slut,\" <<he>> says. \"Remember that if I have to intervene in the care of your offspring, it'll cost you an extra <span class=\"red\">£100</span> a week, each.\"",
+    "translation": "",
+    "pos": 18194
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "452_5_3_7|",
+    "original": "You see <<him>> sneer, but only for a brief instant. \"I'd rather not make someone else take care of your twerps, but if you keep being a difficult little shit, don't think you'll be allowed to see them again.\"",
+    "translation": "",
+    "pos": 18422
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "454_5_3_7|",
+    "original": "You see <<his>> face soften for a moment, but it was so slight that you might have imagined it. \"And if you want the luxury of being able to take care of them, you'll pay up.\"",
+    "translation": "",
+    "pos": 18660
+  },
+  {
+    "passage": "Widgets Rent",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "459_5_3_7|",
+    "original": "<span class=\"gold\">You can now access the youth ward, and the nursery.</span>",
+    "translation": "",
+    "pos": 18882
+  },
+  {
+    "passage": "Rent Pay",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "472_5_3_7|",
+    "original": "<<link [[Next|Hospital Arrest]]>><<pass 10>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 89
+  },
+  {
+    "passage": "Rent Pay",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "475_5_3_7|",
+    "original": "<<link [[Next|Hospital front]]>><<pass 10>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 174
+  },
+  {
+    "passage": "Rent Pay",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "482_5_3_7|",
+    "original": "You see Robin run up to you from around a corner as you exit <<his>> room. \"You're okay!\" <<He>> tackles you into a hug.",
+    "translation": "",
+    "pos": 328
+  },
+  {
+    "passage": "Rent Pay",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "483_5_3_7|",
+    "original": "\"Bailey took me away last night and I thought something awful was going to happen,\" <<he>> says before calming down.",
+    "translation": "",
+    "pos": 451
+  },
+  {
+    "passage": "Rent Pay",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "486_5_3_7|",
+    "original": "You return the embrace before returning to your room.",
+    "translation": "",
+    "pos": 582
+  },
+  {
+    "passage": "Rent Pay",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "490_5_3_7|",
+    "original": "<<link [[Next|Bedroom]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 658
+  },
+  {
+    "passage": "Rent Pay Robin",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "501_5_3_7|",
+    "original": "Robin hugs you softly after Bailey leaves. \"I'm so sorry,\" <<he>> says.",
+    "translation": "",
+    "pos": 66
+  },
+  {
+    "passage": "Rent Pay Robin",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "508_5_3_7|",
+    "original": "<<link [[Next|Hospital Arrest]]>><<pass 10>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 248
+  },
+  {
+    "passage": "Rent Pay Robin",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "511_5_3_7|",
+    "original": "<<link [[Next|Hospital front]]>><<pass 10>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 333
+  },
+  {
+    "passage": "Rent Pay Robin",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "516_5_3_7|",
+    "original": "<<He>> sits down on <<his>> bed. \"That was scary.\"",
+    "translation": "",
+    "pos": 447
+  },
+  {
+    "passage": "Rent Pay Robin",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "519_5_3_7|",
+    "original": "After a moment to make sure Robin is okay, you leave the room and go back to the main hall.",
+    "translation": "",
+    "pos": 512
+  },
+  {
+    "passage": "Rent Pay Robin",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "522_5_3_7|",
+    "original": "<<link [[Next|Orphanage]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 618
+  },
+  {
+    "passage": "Rent Pay Robin",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "524_5_3_7|",
+    "original": "<<He>> eventually leaves your bedroom. \"If you need anything, just let me know.\"",
+    "translation": "",
+    "pos": 679
+  },
+  {
+    "passage": "Rent Pay Robin",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "527_5_3_7|",
+    "original": "<<link [[Next|Bedroom]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 774
+  },
+  {
+    "passage": "Rent Refuse",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "537_5_3_7|",
+    "original": "You stare at <<him>> in defiance. \"I'm not paying you. I don't care what you do to me.\"",
+    "translation": "",
+    "pos": 50
+  },
+  {
+    "passage": "Rent Refuse",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "539_5_3_7|",
+    "original": "\"N-no,\" you stutter, surprised by your bravery. \"I-I won't.\"",
+    "translation": "",
+    "pos": 177
+  },
+  {
+    "passage": "Rent Refuse",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "541_5_3_7|",
+    "original": "\"The money isn't yours,\" you say, \"I'm keeping it.\"",
+    "translation": "",
+    "pos": 248
+  },
+  {
+    "passage": "Rent Refuse Robin",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "553_5_3_7|",
+    "original": "You stare at <<him>> in defiance. \"I'm not paying you. I don't care what you do to me, but leave Robin out of this.\"",
+    "translation": "",
+    "pos": 214
+  },
+  {
+    "passage": "Rent Refuse Robin",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "555_5_3_7|",
+    "original": "\"N-no,\" you stutter, surprised by your bravery. \"I-I won't let you hurt either of us...\"",
+    "translation": "",
+    "pos": 370
+  },
+  {
+    "passage": "Rent Refuse Robin",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "557_5_3_7|",
+    "original": "\"The money isn't yours,\" you say. \"Punish me however you want but leave <<nnpc_him \"Robin\">> out of this.\"",
+    "translation": "",
+    "pos": 469
+  },
+  {
+    "passage": "Rent Refuse Robin",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "562_5_3_7|",
+    "original": "\"That's okay,\" <<he>> says, smiling. \"I've already made arrangements. I don't know what they intend for you two, and frankly I don't care.\"",
+    "translation": "",
+    "pos": 607
+  },
+  {
+    "passage": "Rent Refuse Robin",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "563_5_3_7|",
+    "original": "<<He>> produces a hood and length of rope. \"Hold still.\"",
+    "translation": "",
+    "pos": 747
+  },
+  {
+    "passage": "Rent Refuse Robin",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "566_5_3_7|",
+    "original": "<<link [[Submit|Rent Intro]]>><<set $phase to 1>><<endevent \"phaseless\">><</link>>",
+    "translation": "",
+    "pos": 814
+  },
+  {
+    "passage": "Rent Refuse Robin",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "569_5_3_7|",
+    "original": "<<link [[Fight|Rent Hospital Fight Robin]]>><<set $fightstart to 1>><</link>>",
+    "translation": "",
+    "pos": 929
+  },
+  {
+    "passage": "Rent Refuse Robin",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "572_5_3_7|",
+    "original": "<<link [[Fight|Rent Robin Fight]]>><<set $fightstart to 1>><</link>>",
+    "translation": "",
+    "pos": 1023
+  },
+  {
+    "passage": "Rent Seduce",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "581_5_3_7|",
+    "original": "\"P-please, <<sir>>,\" you plead. \"Can't I p-pay you some other way?\" You bite your lip.",
+    "translation": "",
+    "pos": 76
+  },
+  {
+    "passage": "Rent Seduce",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "583_5_3_7|",
+    "original": "\"You know,\" you say, running your hands over your body, \"I could pay you in a different way. A much better way.\"",
+    "translation": "",
+    "pos": 204
+  },
+  {
+    "passage": "Rent Seduce",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "585_5_3_7|",
+    "original": "\"Can't I pay you some other way?\" you ask, licking your lips. \"I'll make it worth it.\"",
+    "translation": "",
+    "pos": 327
+  },
+  {
+    "passage": "Rent Seduce",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "590_5_3_7|",
+    "original": "Bailey smirks. <<His>> cold hand snakes over your shoulder, around the back of your head, and <<he>> begins to stroke your hair.",
+    "translation": "",
+    "pos": 460
+  },
+  {
+    "passage": "Rent Seduce",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "592_5_3_7|",
+    "original": "Then, without warning, <<he>> grabs a fistful of your hair and yanks you close, your face inches from <<his>> own.",
+    "translation": "",
+    "pos": 596
+  },
+  {
+    "passage": "Rent Seduce",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "594_5_3_7|",
+    "original": "\"Nice try,\" <<he>> hisses. \"But that's not going to save your ass. Not this time.\"",
+    "translation": "",
+    "pos": 718
+  },
+  {
+    "passage": "Rent Seduce",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "597_5_3_7|",
+    "original": "<<He>> releases you and presses <<his>> hand on your chest, shoving you. You stumble backwards as Bailey takes a menacing step towards you",
+    "translation": "",
+    "pos": 813
+  },
+  {
+    "passage": "Rent Seduce",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "599_5_3_7|",
+    "original": "with <<his>> palm open expectantly. \"Your payment. Now.\"",
+    "translation": "",
+    "pos": 1003
+  },
+  {
+    "passage": "Rent Seduce",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "602_5_3_7|",
+    "original": "<<link [[Pay|Rent Pay]]>><</link>>",
+    "translation": "",
+    "pos": 1074
+  },
+  {
+    "passage": "Rent Seduce",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "604_5_3_7|",
+    "original": "<<link [[Refuse|Rent Refuse]]>><<def 1>><</link>>",
+    "translation": "",
+    "pos": 1118
+  },
+  {
+    "passage": "Rent Seduce",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "607_5_3_7|",
+    "original": "and begins unwinding the rope. \"Don't worry,\" <<he>> taunts. \"I'll put in a good word for you.\"",
+    "translation": "",
+    "pos": 1187
+  },
+  {
+    "passage": "Rent Seduce",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "610_5_3_7|",
+    "original": "<<link [[Submit|Rent Intro]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1297
+  },
+  {
+    "passage": "Rent Seduce",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "613_5_3_7|",
+    "original": "<<link [[Fight|Rent Hospital Fight]]>><<set $fightstart to 1>><</link>>",
+    "translation": "",
+    "pos": 1387
+  },
+  {
+    "passage": "Rent Seduce",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "616_5_3_7|",
+    "original": "<<link [[Fight|Rent Fight]]>><<set $fightstart to 1>><</link>>",
+    "translation": "",
+    "pos": 1481
+  },
+  {
+    "passage": "Rent Seduce",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "621_5_3_7|",
+    "original": "\"You can pay me,\" <<person1>><<he>> sneers. \"With money. <span class=\"pink\">£<<print ($rentmoney + ($babyRent or 0)) / 100>>.</span> <span class=\"red\">That's what your body's worth.</span>\"",
+    "translation": "",
+    "pos": 1581
+  },
+  {
+    "passage": "Rent Seduce",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "625_5_3_7|",
+    "original": "<<person2>>\"I'll take that as payment,\" the <<person>> beside <<nnpc_him Bailey>> says.",
+    "translation": "",
+    "pos": 1819
+  },
+  {
+    "passage": "Rent Seduce",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "628_5_3_7|",
+    "original": "Bailey cows <<him>> with a glare, and <<he>> looks away.",
+    "translation": "",
+    "pos": 1921
+  },
+  {
+    "passage": "Rent Seduce",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "632_5_3_7|",
+    "original": "It's too late to negotiate with Bailey. <<He>> wants <<his>> payment.",
+    "translation": "",
+    "pos": 2013
+  },
+  {
+    "passage": "Rent Seduce",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "635_5_3_7|",
+    "original": "<<He>> holds out <<his>> hand.",
+    "translation": "",
+    "pos": 2135
+  },
+  {
+    "passage": "Rent Seduce",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "639_5_3_7|",
+    "original": "<<link [[Pay|Rent Pay]]>><</link>>",
+    "translation": "",
+    "pos": 2181
+  },
+  {
+    "passage": "Rent Seduce",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "641_5_3_7|",
+    "original": "<<link [[Refuse|Rent Refuse]]>><<def 1>><</link>>",
+    "translation": "",
+    "pos": 2225
+  },
+  {
+    "passage": "Rent Seduce",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "645_5_3_7|",
+    "original": "\"Now like I said.\" <<He>> brandishes the rope at you. \"Hold still.\"",
+    "translation": "",
+    "pos": 2295
+  },
+  {
+    "passage": "Rent Seduce",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "648_5_3_7|",
+    "original": "<<link [[Submit|Rent Intro]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 2377
+  },
+  {
+    "passage": "Rent Seduce",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "651_5_3_7|",
+    "original": "<<link [[Fight|Rent Hospital Fight]]>><<set $fightstart to 1>><</link>>",
+    "translation": "",
+    "pos": 2467
+  },
+  {
+    "passage": "Rent Seduce",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "654_5_3_7|",
+    "original": "<<link [[Fight|Rent Fight]]>><<set $fightstart to 1>><</link>>",
+    "translation": "",
+    "pos": 2561
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "670_5_3_7|",
+    "original": "<<set _andRobin to (_robinIsPresent ? \"and Robin\" : \"\")>>",
+    "translation": "",
+    "pos": 386
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "672_5_3_7|",
+    "original": "With your head covered by a hood and your arms bound behind your back, you _andRobin are led down a flight of stairs and along a tunnel.",
+    "translation": "",
+    "pos": 445
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "673_5_3_7|",
+    "original": "You trip a couple of times, prompting Bailey to drag you back to your feet and slap your face in anger.",
+    "translation": "",
+    "pos": 582
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "677_5_3_7|",
+    "original": "\"Please, stop hurting <<phim>>!\" Robin begs. Bailey ignores <<nnpc_him \"Robin\">>.",
+    "translation": "",
+    "pos": 720
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "685_5_3_7|",
+    "original": "After journeying for some time you hear another set of footsteps. \"This is the wimp?\" says a <<personsimple>>'s voice.",
+    "translation": "",
+    "pos": 896
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "688_5_3_7|",
+    "original": "\"Yes, I'm just taking my <<print (_robin.pronoun is $player.gender_appearance ? (_robin.pronoun is \"m\" ? \"boys\" : \"girls\") : \"kids\")>> for a tour of the outside world,\"",
+    "translation": "",
+    "pos": 1051
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "690_5_3_7|",
+    "original": "\"Yes, I'm just taking my <<girl>> for a tour of the outside world,\"",
+    "translation": "",
+    "pos": 1232
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "692_5_3_7|",
+    "original": "says Bailey, <<person1>><<nnpc_his \"Bailey\">> temper barely concealed beneath the sarcasm.",
+    "translation": "",
+    "pos": 1310
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "693_5_3_7|",
+    "original": "\"Just give me the cash. And I want you gone in 10 minutes.\"",
+    "translation": "",
+    "pos": 1402
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "695_5_3_7|",
+    "original": "Someone presses their hand between your shoulders and shoves you forward, into another pair of arms. A moment later, your hood is removed, revealing a <<person>>. \"You're the cutest thing I've seen all week! Come 'ere.\"",
+    "translation": "",
+    "pos": 1473
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "697_5_3_7|",
+    "original": "<<link [[Next|Tutorial]]>><<set $molestationstart to 1>><<set $tutorialExit to \"Tutorial Bailey\">><</link>>",
+    "translation": "",
+    "pos": 1704
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "701_5_3_7|",
+    "original": "After journeying for some time you hear another set of footsteps.",
+    "translation": "",
+    "pos": 1888
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "703_5_3_7|",
+    "original": "\"Hand them over,\" says a <<personsimple>>'s voice.",
+    "translation": "",
+    "pos": 1980
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "706_5_3_7|",
+    "original": "\"Money first,\" responds Bailey. \"Will I get them back?\"",
+    "translation": "",
+    "pos": 2045
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "709_5_3_7|",
+    "original": "\"You won't want them when we're done.\"",
+    "translation": "",
+    "pos": 2115
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "712_5_3_7|",
+    "original": "\"Hand <<phim>> over,\" says a <<personsimple>>'s voice.",
+    "translation": "",
+    "pos": 2177
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "715_5_3_7|",
+    "original": "\"Money first,\" responds Bailey. \"Will I get <<phim>> back?\"",
+    "translation": "",
+    "pos": 2246
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "718_5_3_7|",
+    "original": "\"You won't want <<phim>> when we're done.\"",
+    "translation": "",
+    "pos": 2320
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "722_5_3_7|",
+    "original": "You hear a rustle of paper before being dragged further along the tunnel.",
+    "translation": "",
+    "pos": 2385
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "726_5_3_7|",
+    "original": "<<link [[Next|Underground Intro]]>><<set $baileySold to true>><<endevent \"phaseless\">><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 2568
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "729_5_3_7|",
+    "original": "<<link [[Next|Underground Intro]]>><<set $baileySold to true>><</link>>",
+    "translation": "",
+    "pos": 2763
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "736_5_3_7|",
+    "original": "You journey for some time until you feel solid concrete beneath your feet. Another set of footsteps approach.",
+    "translation": "",
+    "pos": 2940
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "737_5_3_7|",
+    "original": "You think you hear the rustle of an officer's belt.",
+    "translation": "",
+    "pos": 3052
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "740_5_3_7|",
+    "original": "\"Hand the suspect over,\" a voice commands.",
+    "translation": "",
+    "pos": 3118
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "743_5_3_7|",
+    "original": "\"Cash first. No time behind bars.\" Bailey's anger is very apparent. \"I want <<nnpc_him \"Robin\">> back in one piece.\"",
+    "translation": "",
+    "pos": 3175
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "746_5_3_7|",
+    "original": "\"Very well. We have other plans for this one anyway.\" You hear what sounds like the rustling of cash.",
+    "translation": "",
+    "pos": 3306
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "749_5_3_7|",
+    "original": "Robin begins to cry. \"I-I didn't do anything! Please, don't!\" <<nnpc_His \"Robin\">> voice trails off. Bailey tugs you elsewhere.",
+    "translation": "",
+    "pos": 3422
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "753_5_3_7|",
+    "original": "You continue for a while longer,",
+    "translation": "",
+    "pos": 3596
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "755_5_3_7|",
+    "original": "You journey for some time,",
+    "translation": "",
+    "pos": 3641
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "757_5_3_7|",
+    "original": "until you hear the sound of engines up ahead. The sound echoes, becoming closer, until you hear it all around you.",
+    "translation": "",
+    "pos": 3678
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "758_5_3_7|",
+    "original": "\"Good stock,\" says an unfamiliar voice. \"Would make a fine breeder.\"",
+    "translation": "",
+    "pos": 3794
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "760_5_3_7|",
+    "original": "\"The money,\" Bailey responds, impatient.",
+    "translation": "",
+    "pos": 3870
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "762_5_3_7|",
+    "original": "\"Ah. Here.\" There's a rustle to one side, then someone tugs on your leash, pulling you forward.",
+    "translation": "",
+    "pos": 3918
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "764_5_3_7|",
+    "original": "\"A pleasure,\" Bailey says, already walking away.",
+    "translation": "",
+    "pos": 4021
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "767_5_3_7|",
+    "original": "\"Watch the step,\" says the unfamiliar voice. Whatever you've stepped onto is rumbling. \"Sit.\"",
+    "translation": "",
+    "pos": 4082
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "768_5_3_7|",
+    "original": "You fumble around your knees, and find what feels like a bench.",
+    "translation": "",
+    "pos": 4177
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "769_5_3_7|",
+    "original": "You sit, then hear the slam of doors, and a few moment later you lurch as the floor moves beneath you. You're in a vehicle.",
+    "translation": "",
+    "pos": 4242
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "772_5_3_7|",
+    "original": "<<link [[Next|Street Van Bailey]]>><<set $baileySold to true>><</link>>",
+    "translation": "",
+    "pos": 4378
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "782_5_3_7|",
+    "original": "Your journey with Bailey continues.",
+    "translation": "",
+    "pos": 4615
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "784_5_3_7|",
+    "original": "After journeying for some time you emerge outside.",
+    "translation": "",
+    "pos": 4663
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "786_5_3_7|",
+    "original": "You hear wind rustling through leaves.",
+    "translation": "",
+    "pos": 4724
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "787_5_3_7|",
+    "original": "Bailey lifts you and hooks your bindings on something behind you, leaving you suspended in the air.",
+    "translation": "",
+    "pos": 4764
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "788_5_3_7|",
+    "original": "\"Don't go anywhere, you'll be picked up shortly,\" <<he>> says. You hear <<him>> walk away, leaving you alone.",
+    "translation": "",
+    "pos": 4865
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "796_5_3_7|",
+    "original": "After journeying for some time you hear another set of footsteps. \"This is the merchandise?\" says a <<personsimple>>'s voice.",
+    "translation": "",
+    "pos": 5079
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "799_5_3_7|",
+    "original": "\"No, I'm just taking my <<print (_robin.pronoun is $player.gender_appearance ? (_robin.pronoun is \"m\" ? \"boys\" : \"girls\") : \"kids\")>> for a walk,\"",
+    "translation": "",
+    "pos": 5241
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "800_5_3_7|",
+    "original": "says Bailey, <<person1>><<his>> temper barely concealed beneath the sarcasm.",
+    "translation": "",
+    "pos": 5390
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "801_5_3_7|",
+    "original": "\"Just give me the cash. And I want them back in one piece, you're not paying enough...\"",
+    "translation": "",
+    "pos": 5469
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "803_5_3_7|",
+    "original": "\"No, I'm just taking my <<girl>> for a walk,\"",
+    "translation": "",
+    "pos": 5569
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "804_5_3_7|",
+    "original": "says Bailey, <<person1>><<his>> temper barely concealed beneath the sarcasm.",
+    "translation": "",
+    "pos": 5617
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "805_5_3_7|",
+    "original": "\"Just give me the cash. And I want <<phim>> back in one piece, you're not paying enough...\"",
+    "translation": "",
+    "pos": 5696
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "811_5_3_7|",
+    "original": "\"Please, let us go! We didn't do anything-\"",
+    "translation": "",
+    "pos": 5862
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "813_5_3_7|",
+    "original": "\"Wait! Let <<phim>> go! Please don't hurt my <<girlfriend>>-\"",
+    "translation": "",
+    "pos": 5920
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "815_5_3_7|",
+    "original": "Robin's voice suddenly becomes muffled, and to your alarm, you hear <<nnpc_him \"Robin\">> fall to the ground soon after.",
+    "translation": "",
+    "pos": 5994
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "818_5_3_7|",
+    "original": "A moment later, you feel someone press something against your mouth, and your consciousness fades. <<arousal 6000>><<gggarousal>>",
+    "translation": "",
+    "pos": 6135
+  },
+  {
+    "passage": "Rent Intro",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "821_5_3_7|",
+    "original": "<<link [[Next|Danube Meal]]>><<endevent>><<set $phase to (_robinIsPresent ? 1 : 0)>><</link>>",
+    "translation": "",
+    "pos": 6277
+  },
+  {
+    "passage": "Rent Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "832_5_3_7|",
+    "original": "\"You think I won't beat it out of you?\" Bailey says.",
+    "translation": "",
+    "pos": 128
+  },
+  {
+    "passage": "Rent Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "843_5_3_7|",
+    "original": "Orphans arrive to watch the fight, drawn by the noise.",
+    "translation": "",
+    "pos": 298
+  },
+  {
+    "passage": "Rent Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "852_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Rent Fight Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 472
+  },
+  {
+    "passage": "Rent Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "854_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Rent Fight]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 562
+  },
+  {
+    "passage": "Rent Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "877_5_3_7|",
+    "original": "\"Keep the other one under control, one of you,\" Bailey says. The <<personselect $enemynomax>><<person>> nods and grabs at Robin,",
+    "translation": "",
+    "pos": 415
+  },
+  {
+    "passage": "Rent Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "878_5_3_7|",
+    "original": "while Bailey returns <<person1>><<his>> gaze to you.",
+    "translation": "",
+    "pos": 545
+  },
+  {
+    "passage": "Rent Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "898_5_3_7|",
+    "original": "Orphans arrive to watch the fight, drawn by the noise.",
+    "translation": "",
+    "pos": 908
+  },
+  {
+    "passage": "Rent Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "904_5_3_7|",
+    "original": "<span class=\"green\">",
+    "translation": "",
+    "pos": 1031
+  },
+  {
+    "passage": "Rent Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "906_5_3_7|",
+    "original": "Robin struggles in <<nnpc_his \"Robin\">> restraints.",
+    "translation": "",
+    "pos": 1074
+  },
+  {
+    "passage": "Rent Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "908_5_3_7|",
+    "original": "Robin tells you not to give up.",
+    "translation": "",
+    "pos": 1152
+  },
+  {
+    "passage": "Rent Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "910_5_3_7|",
+    "original": "Robin is kicking at the <<person>>'s heels.",
+    "translation": "",
+    "pos": 1210
+  },
+  {
+    "passage": "Rent Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "912_5_3_7|",
+    "original": "Robin tells you not to worry about <<nnpc_him \"Robin\">>.",
+    "translation": "",
+    "pos": 1280
+  },
+  {
+    "passage": "Rent Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "914_5_3_7|",
+    "original": "Robin bites the <<person>>'s hand holding <<nnpc_him \"Robin\">>.",
+    "translation": "",
+    "pos": 1349
+  },
+  {
+    "passage": "Rent Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "917_5_3_7|",
+    "original": "The <<person>> manages to wrap <<his>> arm around Robin's throat. <span class=\"red\">Robin cries out in pain.</span>",
+    "translation": "",
+    "pos": 1453
+  },
+  {
+    "passage": "Rent Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "919_5_3_7|",
+    "original": "<span class=\"red\">",
+    "translation": "",
+    "pos": 1579
+  },
+  {
+    "passage": "Rent Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "921_5_3_7|",
+    "original": "The <<person>> has Robin in a stranglehold.",
+    "translation": "",
+    "pos": 1620
+  },
+  {
+    "passage": "Rent Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "923_5_3_7|",
+    "original": "You can hear Robin choking.",
+    "translation": "",
+    "pos": 1690
+  },
+  {
+    "passage": "Rent Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "925_5_3_7|",
+    "original": "The <<person>> spits at Robin's eye while strangling <<nnpc_him \"Robin\">>.",
+    "translation": "",
+    "pos": 1744
+  },
+  {
+    "passage": "Rent Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "927_5_3_7|",
+    "original": "Robin tries to surrender, but the <<person>> doesn't lighten up.",
+    "translation": "",
+    "pos": 1845
+  },
+  {
+    "passage": "Rent Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "929_5_3_7|",
+    "original": "The <<person>> punches Robin while choking <<nnpc_him \"Robin\">>.",
+    "translation": "",
+    "pos": 1922
+  },
+  {
+    "passage": "Rent Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "941_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Rent Robin Fight Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 2168
+  },
+  {
+    "passage": "Rent Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "943_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Rent Robin Fight]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 2264
+  },
+  {
+    "passage": "Rent Robin Fight Finish",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "953_5_3_7|",
+    "original": "<<person1>>One of the watching orphans giggles. Bailey spins to find the culprit, but another laughs behind <<him>>.",
+    "translation": "",
+    "pos": 223
+  },
+  {
+    "passage": "Rent Robin Fight Finish",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "954_5_3_7|",
+    "original": "Soon the whole room is filled with laughter. <<He>> looks back at you. \"You'll pay for this,\" <<he>> says, before storming from the room.",
+    "translation": "",
+    "pos": 341
+  },
+  {
+    "passage": "Rent Robin Fight Finish",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "958_5_3_7|",
+    "original": "The <<person2>><<person>> slinks out after <<person1>><<him>>.",
+    "translation": "",
+    "pos": 527
+  },
+  {
+    "passage": "Rent Robin Fight Finish",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "961_5_3_7|",
+    "original": "You walk over to Robin and undo <<nnpc_his \"Robin\">> bindings. <<nnpc_He \"Robin\">> pulls you into a hug. \"Thank you, my hero!\" With a peck on your <<if _robin.lust gte 60>>lips<<else>>cheek<</if>>, <<nnpc_he \"Robin\">> walks away.",
+    "translation": "",
+    "pos": 611
+  },
+  {
+    "passage": "Rent Robin Fight Finish",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "964_5_3_7|",
+    "original": "The orphans cheer your defeat of the tyrant. <<He>> will be back, but for now you're in the clear.",
+    "translation": "",
+    "pos": 853
+  },
+  {
+    "passage": "Rent Robin Fight Finish",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "971_5_3_7|",
+    "original": "<<link [[Next|Bedroom]]>><</link>>",
+    "translation": "",
+    "pos": 1082
+  },
+  {
+    "passage": "Rent Robin Fight Finish",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "975_5_3_7|",
+    "original": "<<person1>><<He>> backs off for a moment, surprised by your aggression and nursing a bruise.",
+    "translation": "",
+    "pos": 1212
+  },
+  {
+    "passage": "Rent Robin Fight Finish",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "976_5_3_7|",
+    "original": "<<He>> notices the crowd formed around the hall. \"You'll pay for this. Mark my words.\" <<He>> storms out.",
+    "translation": "",
+    "pos": 1306
+  },
+  {
+    "passage": "Rent Robin Fight Finish",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "980_5_3_7|",
+    "original": "The <<person2>><<person>> slinks out after <<person1>><<him>>.",
+    "translation": "",
+    "pos": 1460
+  },
+  {
+    "passage": "Rent Robin Fight Finish",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "983_5_3_7|",
+    "original": "You walk over to Robin and undo <<nnpc_his \"Robin\">> bindings. <<nnpc_He \"Robin\">> pulls you into a hug, \"Thank you, my hero!\"",
+    "translation": "",
+    "pos": 1544
+  },
+  {
+    "passage": "Rent Robin Fight Finish",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "987_5_3_7|",
+    "original": "With a peck on your lips, Robin walks away.",
+    "translation": "",
+    "pos": 1711
+  },
+  {
+    "passage": "Rent Robin Fight Finish",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "989_5_3_7|",
+    "original": "With a peck on your cheek, Robin walks away.",
+    "translation": "",
+    "pos": 1767
+  },
+  {
+    "passage": "Rent Robin Fight Finish",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "993_5_3_7|",
+    "original": "Bailey's departure lifts a weight from the watching orphans, who cheer your defeat of the tyrant. <<He>> will be back, but for now you're in the clear.",
+    "translation": "",
+    "pos": 1833
+  },
+  {
+    "passage": "Rent Robin Fight Finish",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1000_5_3_7|",
+    "original": "<<link [[Next|Bedroom]]>><</link>>",
+    "translation": "",
+    "pos": 2115
+  },
+  {
+    "passage": "Rent Robin Fight Finish",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1008_5_3_7|",
+    "original": "You fall to the ground, too hurt to move.",
+    "translation": "",
+    "pos": 2260
+  },
+  {
+    "passage": "Rent Robin Fight Finish",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1009_5_3_7|",
+    "original": "Robin struggles, until Bailey hits <<nnpc_him \"Robin\">> hard on the head. <<nnpc_He \"Robin\">> collapses beside you.",
+    "translation": "",
+    "pos": 2303
+  },
+  {
+    "passage": "Rent Robin Fight Finish",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1019_5_3_7|",
+    "original": "<<link [[Next|Rent Intro]]>><<endevent>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 2573
+  },
+  {
+    "passage": "Rent Fight Finish",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1028_5_3_7|",
+    "original": "<<person1>>One of the watching orphans giggles. Bailey spins to find the culprit, but another laughs behind <<him>>.",
+    "translation": "",
+    "pos": 184
+  },
+  {
+    "passage": "Rent Fight Finish",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1029_5_3_7|",
+    "original": "Soon the whole room is filled with laughter. <<He>> looks back at you. \"You'll pay for this,\" <<he>> says, before storming from the room.",
+    "translation": "",
+    "pos": 302
+  },
+  {
+    "passage": "Rent Fight Finish",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1033_5_3_7|",
+    "original": "The <<person2>><<person>> slinks out after <<person1>><<him>>.",
+    "translation": "",
+    "pos": 488
+  },
+  {
+    "passage": "Rent Fight Finish",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1037_5_3_7|",
+    "original": "The orphans cheer your defeat of the tyrant. <<He>> will be back, but for now you're in the clear.",
+    "translation": "",
+    "pos": 573
+  },
+  {
+    "passage": "Rent Fight Finish",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1044_5_3_7|",
+    "original": "<<link [[Next|Bedroom]]>><</link>>",
+    "translation": "",
+    "pos": 802
+  },
+  {
+    "passage": "Rent Fight Finish",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1048_5_3_7|",
+    "original": "<<person1>><<He>> backs off for a moment, surprised by your aggression and nursing a bruise.",
+    "translation": "",
+    "pos": 932
+  },
+  {
+    "passage": "Rent Fight Finish",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1049_5_3_7|",
+    "original": "<<He>> notices the crowd formed around the hall. \"You'll pay for this. Mark my words.\" <<He>> storms out.",
+    "translation": "",
+    "pos": 1026
+  },
+  {
+    "passage": "Rent Fight Finish",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1053_5_3_7|",
+    "original": "The <<person2>><<person>> slinks out after <<person1>><<him>>.",
+    "translation": "",
+    "pos": 1180
+  },
+  {
+    "passage": "Rent Fight Finish",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1057_5_3_7|",
+    "original": "<<His>> departure lifts a weight from the watching orphans, who cheer your defeat of the tyrant. <<He>> will be back, but for now you're in the clear.",
+    "translation": "",
+    "pos": 1265
+  },
+  {
+    "passage": "Rent Fight Finish",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1064_5_3_7|",
+    "original": "<<link [[Next|Bedroom]]>><</link>>",
+    "translation": "",
+    "pos": 1546
+  },
+  {
+    "passage": "Rent Fight Finish",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1072_5_3_7|",
+    "original": "You fall to the ground, too hurt to move.",
+    "translation": "",
+    "pos": 1691
+  },
+  {
+    "passage": "Rent Fight Finish",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1082_5_3_7|",
+    "original": "<<link [[Next|Rent Intro]]>><</link>>",
+    "translation": "",
+    "pos": 1887
+  },
+  {
+    "passage": "Rent First Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1105_5_3_7|",
+    "original": "Bailey stares at you.",
+    "translation": "",
+    "pos": 465
+  },
+  {
+    "passage": "Rent First Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1107_5_3_7|",
+    "original": "Bailey turns and walks away.",
+    "translation": "",
+    "pos": 503
+  },
+  {
+    "passage": "Rent First Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1109_5_3_7|",
+    "original": "Bailey walks down the hall and turns a corner, out of sight.",
+    "translation": "",
+    "pos": 548
+  },
+  {
+    "passage": "Rent First Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1111_5_3_7|",
+    "original": "You hear Bailey say something, <span class=\"purple\">followed by a <<nnpc_gendery \"Robin\">> screaming</span>.",
+    "translation": "",
+    "pos": 625
+  },
+  {
+    "passage": "Rent First Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1113_5_3_7|",
+    "original": "Bailey walks back from the hallway, <span class=\"red\">dragging Robin by <<nnpc_his \"Robin\">> hair</span>.",
+    "translation": "",
+    "pos": 751
+  },
+  {
+    "passage": "Rent First Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1117_5_3_7|",
+    "original": "<span class=\"red\">The <<person2>><<person>> and <<person3>><<person>> hold you firm.</span>",
+    "translation": "",
+    "pos": 956
+  },
+  {
+    "passage": "Rent First Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1123_5_3_7|",
+    "original": "\"Save your breath,\" Bailey says. \"If you really want to save <<nnpc_him \"Robin\">>, it's not too late to pay.\"",
+    "translation": "",
+    "pos": 1249
+  },
+  {
+    "passage": "Rent First Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1125_5_3_7|",
+    "original": "\"I told you, all that time ago,\" Bailey says. \"Get me my money... or I'll find a way to extract value from you.\"",
+    "translation": "",
+    "pos": 1377
+  },
+  {
+    "passage": "Rent First Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1129_5_3_7|",
+    "original": "Bailey rolls <<his>> eyes. \"If you'd paid me on time, maybe you wouldn't be crying your eyes out now.\"",
+    "translation": "",
+    "pos": 1577
+  },
+  {
+    "passage": "Rent First Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1132_5_3_7|",
+    "original": "\"You think you're going to convince me with shouting?\" Bailey sneers.",
+    "translation": "",
+    "pos": 1769
+  },
+  {
+    "passage": "Rent First Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1135_5_3_7|",
+    "original": "\"Don't know why you took this waif's debt in the first place if you weren't ready to pay it,\" Bailey sneers.",
+    "translation": "",
+    "pos": 1885
+  },
+  {
+    "passage": "Rent First Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1139_5_3_7|",
+    "original": "Bailey scoffs at you. \"Oh, now you're sorry? Now that there's consequences?\"",
+    "translation": "",
+    "pos": 2082
+  },
+  {
+    "passage": "Rent First Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1142_5_3_7|",
+    "original": "\"Shut up,\" Bailey snaps at you. \"You didn't pay the price, so <<nnpc_he \"Robin\">> will.\"",
+    "translation": "",
+    "pos": 2248
+  },
+  {
+    "passage": "Rent First Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1145_5_3_7|",
+    "original": "\"You see?\" Bailey says, looking at Robin. \"<<pShe>> didn't pay the price, so you will.\"",
+    "translation": "",
+    "pos": 2383
+  },
+  {
+    "passage": "Rent First Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1149_5_3_7|",
+    "original": "<<print either(\"Robin stares at you with teary eyes.\",\"Robin sniffles.\",\"Robin feebly struggles in Bailey's grip.\",\"Robin reaches for you.\")>>",
+    "translation": "",
+    "pos": 2561
+  },
+  {
+    "passage": "Rent First Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1151_5_3_7|",
+    "original": "<<print either(\"Robin holds a brave face.\",\"Robin grits <<nnpc_his \\\"Robin\\\">> teeth.\",\"Robin struggles in Bailey's grip.\",\"Robin almost wrenches <<nnpc_himself \\\"Robin\\\">> from Bailey's grasp.\")>>",
+    "translation": "",
+    "pos": 2718
+  },
+  {
+    "passage": "Rent First Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1154_5_3_7|",
+    "original": "\"You want to keep <<nnpc_him \"Robin\">> safe?\" Bailey asks. \"Say it to me. Tell me you'll pay me from now on.\"",
+    "translation": "",
+    "pos": 2938
+  },
+  {
+    "passage": "Rent First Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1156_5_3_7|",
+    "original": "Robin hiccups.",
+    "translation": "",
+    "pos": 3111
+  },
+  {
+    "passage": "Rent First Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1158_5_3_7|",
+    "original": "Robin shakes <<nnpc_his \"Robin\">> head.",
+    "translation": "",
+    "pos": 3140
+  },
+  {
+    "passage": "Rent First Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1163_5_3_7|",
+    "original": "<span class=\"red\">The <<person2>><<person>> and <<person3>><<person>> hold you firm.</span>",
+    "translation": "",
+    "pos": 3257
+  },
+  {
+    "passage": "Rent First Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1166_5_3_7|",
+    "original": "\"There,\" Bailey sneers. \"Was that so hard?\" <<He>> gestures to <<his>> thugs, and they let go of your arms.",
+    "translation": "",
+    "pos": 3408
+  },
+  {
+    "passage": "Rent First Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1169_5_3_7|",
+    "original": "\"Well, isn't that a shame,\" Bailey sneers. \"But I'm feeling generous. You can still save <<nnpc_him \"Robin\">>. Just stay still.\"",
+    "translation": "",
+    "pos": 3567
+  },
+  {
+    "passage": "Rent First Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1171_5_3_7|",
+    "original": "Robin desperately shakes <<nnpc_his \"Robin\">> head.",
+    "translation": "",
+    "pos": 3705
+  },
+  {
+    "passage": "Rent First Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1174_5_3_7|",
+    "original": "Bailey pretends to check <<his>> watch. \"I'm a busy <<personsimple>>. If you won't <i>pay up</i>, I'm leaving.\"",
+    "translation": "",
+    "pos": 3836
+  },
+  {
+    "passage": "Rent First Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1176_5_3_7|",
+    "original": "<span class=\"red\">The <<person2>><<person>> and <<person3>><<person>> hold you firm.</span>",
+    "translation": "",
+    "pos": 3957
+  },
+  {
+    "passage": "Rent First Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1178_5_3_7|",
+    "original": "\"I'm done here,\" Bailey scoffs. \"If you didn't want to pay for <<nnpc_him \"Robin\">>, you shouldn't have wasted my time in the first place.\"",
+    "translation": "",
+    "pos": 4061
+  },
+  {
+    "passage": "Rent First Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1183_5_3_7|",
+    "original": "\"Good,\" Bailey says, nodding to the thugs. <<He>> nods to the thugs holding your arms, and they march you out of the orphanage.",
+    "translation": "",
+    "pos": 4318
+  },
+  {
+    "passage": "Rent First Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1185_5_3_7|",
+    "original": "<span class=\"red\">Robin shouts your name through tears as you're led out.</span>",
+    "translation": "",
+    "pos": 4459
+  },
+  {
+    "passage": "Rent First Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1188_5_3_7|",
+    "original": "\"Did you hear me?\" Bailey growls. \"If you don't want <<nnpc_him \"Robin\">> to get it, <i>don't struggle</i>. Just stay still.\"",
+    "translation": "",
+    "pos": 4586
+  },
+  {
+    "passage": "Rent First Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1190_5_3_7|",
+    "original": "<span class=\"red\">The <<person2>><<person>> and <<person3>><<person>> hold you firm.</span> The <<person2>><<persons>> grip tightens.",
+    "translation": "",
+    "pos": 4721
+  },
+  {
+    "passage": "Rent First Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1192_5_3_7|",
+    "original": "Bailey scowls. \"I'm done here. If you didn't want to pay for <<nnpc_him \"Robin\">>, you shouldn't have wasted my time in the first place.\"",
+    "translation": "",
+    "pos": 4867
+  },
+  {
+    "passage": "Rent First Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1202_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Rent First Robin Fight Finish]]>><<endevent>><<set $phase to \"pay\">><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 5166
+  },
+  {
+    "passage": "Rent First Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1204_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Rent First Robin Fight Finish]]>><<endevent>><<set $phase to \"still\">><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 5356
+  },
+  {
+    "passage": "Rent First Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1206_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Rent First Robin Fight Finish]]>><<endevent>><<set $phase to \"finish\">><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 5510
+  },
+  {
+    "passage": "Rent First Robin Fight",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1208_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Rent First Robin Fight]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 5650
+  },
+  {
+    "passage": "Rent First Robin Fight Finish",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1219_5_3_7|",
+    "original": "Bailey lets go of Robin, who runs up to and embraces you. <<He>> sobs softly.",
+    "translation": "",
+    "pos": 129
+  },
+  {
+    "passage": "Rent First Robin Fight Finish",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1223_5_3_7|",
+    "original": "Bailey walks off, and Robin continues clinging to you.",
+    "translation": "",
+    "pos": 232
+  },
+  {
+    "passage": "Rent First Robin Fight Finish",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1225_5_3_7|",
+    "original": "\"I th-thought...\" <<He>> chokes up and holds you tighter.",
+    "translation": "",
+    "pos": 318
+  },
+  {
+    "passage": "Rent First Robin Fight Finish",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1227_5_3_7|",
+    "original": "\"I thought I was going to lose you,\" <<he>> says after a long moment.",
+    "translation": "",
+    "pos": 388
+  },
+  {
+    "passage": "Rent First Robin Fight Finish",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1231_5_3_7|",
+    "original": "You gently hold <<his>> hand, and give <<him>> a comforting kiss on the forehead.",
+    "translation": "",
+    "pos": 479
+  },
+  {
+    "passage": "Rent First Robin Fight Finish",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1235_5_3_7|",
+    "original": "Robin manages to calm down, the tears ebbing away.",
+    "translation": "",
+    "pos": 611
+  },
+  {
+    "passage": "Rent First Robin Fight Finish",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1237_5_3_7|",
+    "original": "\"I need to become stronger...\" <<he>> whispers under <<his>> breath, shaking <<his>> head.",
+    "translation": "",
+    "pos": 690
+  },
+  {
+    "passage": "Rent First Robin Fight Finish",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1239_5_3_7|",
+    "original": "\"Thank you. For everything,\" <<he>> says. <<He>> eventually releases <<his>> embrace and goes back towards <<his>> room.",
+    "translation": "",
+    "pos": 791
+  },
+  {
+    "passage": "Rent First Robin Fight Finish",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1246_5_3_7|",
+    "original": "<<link [[Next|Orphanage]]>><</link>>",
+    "translation": "",
+    "pos": 982
+  },
+  {
+    "passage": "Rent First Robin Fight Finish",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1248_5_3_7|",
+    "original": "The thugs drag you away. You hear Robin crying for you. <<His>> cries eventually fade away as you leave the orphanage. You are met face to face with Bailey.",
+    "translation": "",
+    "pos": 1049
+  },
+  {
+    "passage": "Rent First Robin Fight Finish",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1252_5_3_7|",
+    "original": "\"Now was that so hard?\" Bailey sneers as <<he>> covers your head and binds your arms. \"You saved your little friend. This time.\"",
+    "translation": "",
+    "pos": 1247
+  },
+  {
+    "passage": "Rent First Robin Fight Finish",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1259_5_3_7|",
+    "original": "<<link [[Next|Rent Intro]]>><</link>>",
+    "translation": "",
+    "pos": 1446
+  },
+  {
+    "passage": "Rent First Robin Fight Finish",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1262_5_3_7|",
+    "original": "Bailey drags Robin away. You struggle against the thugs' grip, but can't break free.",
+    "translation": "",
+    "pos": 1525
+  },
+  {
+    "passage": "Rent First Robin Fight Finish",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1265_5_3_7|",
+    "original": "Eventually Bailey returns, and sneers at you. \"Since I'm so generous, this will be a warning. Get me my money, or <<he>>'ll pay the price.\"",
+    "translation": "",
+    "pos": 1622
+  },
+  {
+    "passage": "Rent First Robin Fight Finish",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1272_5_3_7|",
+    "original": "<<link [[Next|Orphanage]]>><</link>>",
+    "translation": "",
+    "pos": 1832
+  },
+  {
+    "passage": "Tutorial Bailey",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1279_5_3_7|",
+    "original": "You feel someone put their hand on your shoulder, turning you see it's Bailey.",
+    "translation": "",
+    "pos": 78
+  },
+  {
+    "passage": "Tutorial Bailey",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1281_5_3_7|",
+    "original": "\"Welcome to the outside world, I hope you learned your lesson of not doing anything all week,\" <<he>> says, \"I expect you to try harder this week, you're not going to like to see what happens if you fail to pay me again.\"",
+    "translation": "",
+    "pos": 166
+  },
+  {
+    "passage": "Tutorial Bailey",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1283_5_3_7|",
+    "original": "You're escorted by Bailey back to your bedroom and left alone.",
+    "translation": "",
+    "pos": 397
+  },
+  {
+    "passage": "Tutorial Bailey",
+    "filepath": "overworld-town/loc-home/rent.twee",
+    "key": "1286_5_3_7|",
+    "original": "<<link [[Next|Bedroom]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 470
+  }
+]

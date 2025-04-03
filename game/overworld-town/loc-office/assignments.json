@@ -1,0 +1,130 @@
+[
+  {
+    "passage": "Office Assignment Start",
+    "filepath": "overworld-town/loc-office/assignments.twee",
+    "key": "9_5_3_7|",
+    "original": "You pick up an assignment to deliver coffee to workers on <<checkfloor>>.",
+    "translation": "",
+    "pos": 127
+  },
+  {
+    "passage": "Office Assignment Start",
+    "filepath": "overworld-town/loc-office/assignments.twee",
+    "key": "12_5_3_7|",
+    "original": "You pick up an assignment to take notes for a meeting on <<checkfloor>>.",
+    "translation": "",
+    "pos": 272
+  },
+  {
+    "passage": "Office Assignment Start",
+    "filepath": "overworld-town/loc-office/assignments.twee",
+    "key": "15_5_3_7|",
+    "original": "You pick up an assignment to destroy some documents on <<checkfloor>>.",
+    "translation": "",
+    "pos": 417
+  },
+  {
+    "passage": "Office Assignment Start",
+    "filepath": "overworld-town/loc-office/assignments.twee",
+    "key": "18_5_3_7|",
+    "original": "You pick up an assignment to assist an executive on <<checkfloor>>.",
+    "translation": "",
+    "pos": 561
+  },
+  {
+    "passage": "Office Assignment Start",
+    "filepath": "overworld-town/loc-office/assignments.twee",
+    "key": "21_5_3_7|",
+    "original": "You pick up an assignment to file documents on <<checkfloor>>.",
+    "translation": "",
+    "pos": 703
+  },
+  {
+    "passage": "Office Assignment Start",
+    "filepath": "overworld-town/loc-office/assignments.twee",
+    "key": "24_5_3_7|",
+    "original": "You pick up an assignment to relieve a secretary on <<checkfloor>>.",
+    "translation": "",
+    "pos": 823
+  },
+  {
+    "passage": "Office Assignment Start",
+    "filepath": "overworld-town/loc-office/assignments.twee",
+    "key": "28_5_3_7|",
+    "original": "A security guard enters the breakroom and directs everyone to the lobby. The building is closing to the general public.",
+    "translation": "",
+    "pos": 958
+  },
+  {
+    "passage": "Office Assignment Start",
+    "filepath": "overworld-town/loc-office/assignments.twee",
+    "key": "30_5_3_7|",
+    "original": "<<getouticon>><<link [[Return to lobby (0:01)|Office Lobby]]>><<pass 1>><</link>>",
+    "translation": "",
+    "pos": 1089
+  },
+  {
+    "passage": "Widgets Office Assignment",
+    "filepath": "overworld-town/loc-office/assignments.twee",
+    "key": "39_5_3_7|",
+    "original": "Do you want to accept this assignment?",
+    "translation": "",
+    "pos": 74
+  },
+  {
+    "passage": "Widgets Office Assignment",
+    "filepath": "overworld-town/loc-office/assignments.twee",
+    "key": "41_5_3_7|",
+    "original": "<<link [[Yes|_assignment]]>><</link>>",
+    "translation": "",
+    "pos": 124
+  },
+  {
+    "passage": "Widgets Office Assignment",
+    "filepath": "overworld-town/loc-office/assignments.twee",
+    "key": "43_5_3_7|",
+    "original": "<<link [[Wait for next assignment (0:10)|Office Assignment Start]]>><<pass 10>><</link>>",
+    "translation": "",
+    "pos": 169
+  },
+  {
+    "passage": "Widgets Office Assignment",
+    "filepath": "overworld-town/loc-office/assignments.twee",
+    "key": "45_5_3_7|",
+    "original": "<<link [[Return to lobby (0:01)|Office Lobby]]>><<pass 1>><</link>>",
+    "translation": "",
+    "pos": 265
+  },
+  {
+    "passage": "Widgets Office Assignment",
+    "filepath": "overworld-town/loc-office/assignments.twee",
+    "key": "49_5_3_7|",
+    "original": "<<if _args[0] is undefined>>",
+    "translation": "",
+    "pos": 379
+  },
+  {
+    "passage": "Widgets Office Assignment",
+    "filepath": "overworld-town/loc-office/assignments.twee",
+    "key": "58_5_3_7|",
+    "original": "You return to the temp's lounge and receive your pay of <span class=\"gold\"><<printmoney _assignmentPay>></span>. <<money _assignmentPay>>",
+    "translation": "",
+    "pos": 611
+  },
+  {
+    "passage": "Widgets Office Assignment",
+    "filepath": "overworld-town/loc-office/assignments.twee",
+    "key": "61_5_3_7|",
+    "original": "<span class=\"green\"><<office_manager>> gives you a <<printmoney _managerTip>> bonus.</span> <<money _managerTip>>",
+    "translation": "",
+    "pos": 860
+  },
+  {
+    "passage": "Widgets Office Assignment",
+    "filepath": "overworld-town/loc-office/assignments.twee",
+    "key": "67_5_3_7|",
+    "original": "<<link [[Agency office|Office Agency]]>><<endevent>><<pass $assignmentTime>><</link>>",
+    "translation": "",
+    "pos": 1090
+  }
+]

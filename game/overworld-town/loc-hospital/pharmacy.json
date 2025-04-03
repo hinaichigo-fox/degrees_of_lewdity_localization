@@ -1,0 +1,2154 @@
+[
+  {
+    "passage": "Pharmacy",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "4_5_3_7|",
+    "original": "A \"Closed\" sign hangs on the door. You tug the door but it's locked.",
+    "translation": "",
+    "pos": 52
+  },
+  {
+    "passage": "Pharmacy",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "7_5_3_7|",
+    "original": "<<link [[Go back|Hospital Foyer]]>><</link>>",
+    "translation": "",
+    "pos": 133
+  },
+  {
+    "passage": "Pharmacy",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "11_5_3_7|",
+    "original": "You are inside the hospital pharmacy.",
+    "translation": "",
+    "pos": 267
+  },
+  {
+    "passage": "Pharmacy",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "17_5_3_7|",
+    "original": "\"Hey, you're back,\" the <<person>> notices you, then goes back to <<his>> book.",
+    "translation": "",
+    "pos": 438
+  },
+  {
+    "passage": "Pharmacy",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "20_5_3_7|",
+    "original": "The <<person>> at the till glances at you, then returns to <<his>> book, blushing slightly.",
+    "translation": "",
+    "pos": 616
+  },
+  {
+    "passage": "Pharmacy",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "22_5_3_7|",
+    "original": "The <<person>> at the till glances at you, then returns to <<his>> book with a smirk.",
+    "translation": "",
+    "pos": 766
+  },
+  {
+    "passage": "Pharmacy",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "24_5_3_7|",
+    "original": "The <<person>> at the till glances at you, then returns to <<his>> book.",
+    "translation": "",
+    "pos": 868
+  },
+  {
+    "passage": "Pharmacy",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "27_5_3_7|",
+    "original": "The <<person>> at the till glances at you, then returns to <<his>> book.",
+    "translation": "",
+    "pos": 966
+  },
+  {
+    "passage": "Pharmacy",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "30_5_3_7|",
+    "original": "<<generateRole 0 0 \"nurse\">><<person1>>",
+    "translation": "",
+    "pos": 1061
+  },
+  {
+    "passage": "Pharmacy",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "32_5_3_7|",
+    "original": "A $description <<male>> nurse sits by the till and reads a book.",
+    "translation": "",
+    "pos": 1132
+  },
+  {
+    "passage": "Pharmacy",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "37_5_3_7|",
+    "original": "<<link [[Ask about buying condoms in bulk (0:15)|Pharmacy Buy Condoms in Bulk]]>><<pass 15>><</link>>",
+    "translation": "",
+    "pos": 1338
+  },
+  {
+    "passage": "Pharmacy",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "40_5_3_7|",
+    "original": "Looking at the items on the shelves, you notice a few objects of interest.",
+    "translation": "",
+    "pos": 1461
+  },
+  {
+    "passage": "Pharmacy",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "44_5_3_7|",
+    "original": "Penis Enhancement Pills:",
+    "translation": "",
+    "pos": 1576
+  },
+  {
+    "passage": "Pharmacy",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "46_5_3_7|",
+    "original": "<<pillicon \"penisReduce\">><<link [[Pack of 14 penis reduction|Pharmacy Sale]]>><<set $pharmacyItem to setup.pharmacyItems[\"penis_reduction\"]>><</link>> | Owned: <span class=\"gold\"><<=  $sexStats.pills.pills[\"penis reduction\"].owned>></span>",
+    "translation": "",
+    "pos": 1610
+  },
+  {
+    "passage": "Pharmacy",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "48_5_3_7|",
+    "original": "<<pillicon \"penisEnlarge\">><<link [[Pack of 14 penis growth|Pharmacy Sale]]>><<set $pharmacyItem to setup.pharmacyItems[\"penis_growth\"]>><</link>> | Owned: <span class=\"gold\"><<=  $sexStats.pills.pills[\"penis growth\"].owned>></span>",
+    "translation": "",
+    "pos": 1860
+  },
+  {
+    "passage": "Pharmacy",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "50_5_3_7|",
+    "original": "<<pillicon \"penisBlock\">><<link [[Pack of 14 penis growth blocker|Pharmacy Sale]]>><<set $pharmacyItem to setup.pharmacyItems[\"penis_blocker\"]>><</link>> | Owned: <span class=\"gold\"><<=  $sexStats.pills.pills[\"penis blocker\"].owned>></span>",
+    "translation": "",
+    "pos": 2102
+  },
+  {
+    "passage": "Pharmacy",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "54_5_3_7|",
+    "original": "Breast Enhancement Pills:",
+    "translation": "",
+    "pos": 2365
+  },
+  {
+    "passage": "Pharmacy",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "56_5_3_7|",
+    "original": "<<pillicon \"breastReduce\">><<link [[Pack of 14 breast reduction|Pharmacy Sale]]>><<set $pharmacyItem to setup.pharmacyItems[\"breast_reduction\"]>><</link>> | Owned: <span class=\"gold\"><<=  $sexStats.pills.pills[\"breast reduction\"].owned>></span>",
+    "translation": "",
+    "pos": 2398
+  },
+  {
+    "passage": "Pharmacy",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "58_5_3_7|",
+    "original": "<<pillicon \"breastEnlarge\">><<link [[Pack of 14 breast growth|Pharmacy Sale]]>><<set $pharmacyItem to setup.pharmacyItems[\"breast_growth\"]>><</link>> | Owned: <span class=\"gold\"><<=  $sexStats.pills.pills[\"breast growth\"].owned>></span>",
+    "translation": "",
+    "pos": 2650
+  },
+  {
+    "passage": "Pharmacy",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "60_5_3_7|",
+    "original": "<<pillicon \"breastBlock\">><<link [[Pack of 14 breast growth blocker|Pharmacy Sale]]>><<set $pharmacyItem to setup.pharmacyItems[\"breast_blocker\"]>><</link>> | Owned: <span class=\"gold\"><<=  $sexStats.pills.pills[\"breast blocker\"].owned>></span>",
+    "translation": "",
+    "pos": 2894
+  },
+  {
+    "passage": "Pharmacy",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "63_5_3_7|",
+    "original": "Butt Enhancement Pills:",
+    "translation": "",
+    "pos": 3151
+  },
+  {
+    "passage": "Pharmacy",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "65_5_3_7|",
+    "original": "<<pillicon \"bottomReduce\">><<link [[Pack of 14 butt reduction|Pharmacy Sale]]>><<set $pharmacyItem to setup.pharmacyItems[\"bottom_reduction\"]>><</link>> | Owned: <span class=\"gold\"><<=  $sexStats.pills.pills[\"bottom reduction\"].owned>></span>",
+    "translation": "",
+    "pos": 3182
+  },
+  {
+    "passage": "Pharmacy",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "67_5_3_7|",
+    "original": "<<pillicon \"bottomEnlarge\">><<link [[Pack of 14 butt growth|Pharmacy Sale]]>><<set $pharmacyItem to setup.pharmacyItems[\"bottom_growth\"]>><</link>> | Owned: <span class=\"gold\"><<=  $sexStats.pills.pills[\"bottom growth\"].owned>></span>",
+    "translation": "",
+    "pos": 3432
+  },
+  {
+    "passage": "Pharmacy",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "69_5_3_7|",
+    "original": "<<pillicon \"bottomBlock\">><<link [[Pack of 14 butt growth blocker|Pharmacy Sale]]>><<set $pharmacyItem to setup.pharmacyItems[\"bottom_blocker\"]>><</link>> | Owned: <span class=\"gold\"><<=  $sexStats.pills.pills[\"bottom blocker\"].owned>></span>",
+    "translation": "",
+    "pos": 3674
+  },
+  {
+    "passage": "Pharmacy",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "72_5_3_7|",
+    "original": "Parasite Prevention:",
+    "translation": "",
+    "pos": 3929
+  },
+  {
+    "passage": "Pharmacy",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "74_5_3_7|",
+    "original": "<<procedureicon \"parasite\">><<link [[Tube of anti-parasite cream|Pharmacy Sale]]>><<wearProp \"parasite cream\">><<set $pharmacyItem to setup.pharmacyItems[\"Anti-Parasite Cream\"]>><</link>> | Owned: <span class=\"gold\"><<=  $sexStats.pills.pills[\"Anti-Parasite Cream\"].owned>></span>",
+    "translation": "",
+    "pos": 3957
+  },
+  {
+    "passage": "Pharmacy",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "77_5_3_7|",
+    "original": "Family Planning:",
+    "translation": "",
+    "pos": 4250
+  },
+  {
+    "passage": "Pharmacy",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "79_5_3_7|",
+    "original": "<<sextoysicon \"pump\">><<link [[Breast pump|Pharmacy Sale]]>><<wearProp \"breast pump\">><<set $pharmacyItem to setup.pharmacyItems[\"breast_pump\"]>><</link>> | Owned: <span class=\"gold\"><<= $player.inventory.sextoys[\"breast pump\"]?.length || 0>></span>",
+    "translation": "",
+    "pos": 4274
+  },
+  {
+    "passage": "Pharmacy",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "81_5_3_7|",
+    "original": "<<pregnancytesticon>><<link [[Pack of 2 pregnancy tests|Pharmacy Sale]]>><<set $pharmacyItem to setup.pharmacyItems[\"pregnancy_test\"]>><</link>> | Owned: <span class=\"gold\"><<= $pregnancyTest || 0>></span>",
+    "translation": "",
+    "pos": 4531
+  },
+  {
+    "passage": "Pharmacy",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "83_5_3_7|",
+    "original": "<<pillicon \"fertility\">><<link [[Pack of 14 fertility pills|Pharmacy Sale]]>><<set $pharmacyItem to setup.pharmacyItems[\"fertility_pills\"]>><</link>> | Owned: <span class=\"gold\"><<=  $sexStats.pills.pills[\"fertility booster\"].owned>></span>",
+    "translation": "",
+    "pos": 4744
+  },
+  {
+    "passage": "Pharmacy",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "86_5_3_7|",
+    "original": "Contraceptives:",
+    "translation": "",
+    "pos": 4997
+  },
+  {
+    "passage": "Pharmacy",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "89_5_3_7|",
+    "original": "<<condomicon>><<link [[Buy condoms for the brothel (0:10)|Pharmacy Buy Condoms in Bulk]]>><<pass 10>><</link>>",
+    "translation": "",
+    "pos": 5178
+  },
+  {
+    "passage": "Pharmacy",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "93_5_3_7|",
+    "original": "<<condomicon>><<link [[Pack of 3 condoms|Pharmacy Sale]]>><<wearProp \"condom\">><<set $pharmacyItem to setup.pharmacyItems[\"condoms\"]>><</link>> | Owned: <span class=\"gold\"><<= $condoms || 0>></span>",
+    "translation": "",
+    "pos": 5332
+  },
+  {
+    "passage": "Pharmacy",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "96_5_3_7|",
+    "original": "<<pillicon \"contraceptive\">><<link [[Pack of 14 contraceptive pills|Pharmacy Sale]]>><<set $pharmacyItem to setup.pharmacyItems[\"contraceptive_pills\"]>><</link>> | Owned: <span class=\"gold\"><<=  $sexStats.pills.pills[\"contraceptive\"].owned>></span>",
+    "translation": "",
+    "pos": 5548
+  },
+  {
+    "passage": "Pharmacy",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "98_5_3_7|",
+    "original": "<<pillicon \"morningAfter\">><<link [[Ask for the morning-after-pill|Pharmacy Morning After pill]]>><<set $pharmacyItem to setup.pharmacyItems[\"Morning_After_pill\"]>><</link>>",
+    "translation": "",
+    "pos": 5804
+  },
+  {
+    "passage": "Pharmacy",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "101_5_3_7|",
+    "original": "Contacts:",
+    "translation": "",
+    "pos": 5990
+  },
+  {
+    "passage": "Pharmacy",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "103_5_3_7|",
+    "original": "<<cosmeticsicon \"contacts\">><<link [[Take a look at the contact lenses display|Pharmacy Lenses]]>><</link>>",
+    "translation": "",
+    "pos": 6007
+  },
+  {
+    "passage": "Pharmacy",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "106_5_3_7|",
+    "original": "<<cosmeticsicon \"contacts\">><<link [[Ask if your custom contact lenses arrived|Pharmacy Ask If Lenses Delivered]]>><</link>>",
+    "translation": "",
+    "pos": 6196
+  },
+  {
+    "passage": "Pharmacy",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "109_5_3_7|",
+    "original": "<<getouticon>><<link [[Return to foyer|Hospital Foyer]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 6341
+  },
+  {
+    "passage": "Pharmacy Lenses",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "113_5_3_7|",
+    "original": "An assortment of colourful contact lenses is displayed behind the glass. You can purchase lenses to change the colour of your eyes.",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Pharmacy Lenses",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "116_5_3_7|",
+    "original": "You already own lenses of the following colours:",
+    "translation": "",
+    "pos": 222
+  },
+  {
+    "passage": "Pharmacy Lenses",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "117_5_3_7|",
+    "original": "<span style=\"display: inline-block;\">",
+    "translation": "",
+    "pos": 272
+  },
+  {
+    "passage": "Pharmacy Lenses",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "120_5_3_7|",
+    "original": "const colourClass = colour.replace(/ /g, '-')",
+    "translation": "",
+    "pos": 386
+  },
+  {
+    "passage": "Pharmacy Lenses",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "121_5_3_7|",
+    "original": "_lenses.push(`<span @class=\"'eye-${colourClass}'\"><span class=\"left-iris\" style=\"color:#6E4E11;\">${colour}</span></span>`);",
+    "translation": "",
+    "pos": 434
+  },
+  {
+    "passage": "Pharmacy Lenses",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "126_5_3_7|",
+    "original": "const colour = window.colorNameTranslate(lens, \"spaced name\");",
+    "translation": "",
+    "pos": 779
+  },
+  {
+    "passage": "Pharmacy Lenses",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "127_5_3_7|",
+    "original": "const colourClass = nullable(nullable($custom_eyecolours.find(c => c.name is colour)).canvasfilter).blend; /* nullable fix to be removed when we can use ?. again */",
+    "translation": "",
+    "pos": 845
+  },
+  {
+    "passage": "Pharmacy Lenses",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "129_5_3_7|",
+    "original": "_lenses.push(`<span class=\"eye-custom\"><span @style=\"'color:${colourClass}'\">${colour}</span></span>`);",
+    "translation": "",
+    "pos": 1035
+  },
+  {
+    "passage": "Pharmacy Lenses",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "134_5_3_7|",
+    "original": "<<print _lenses.join(\", \")>>. /* Print the list */",
+    "translation": "",
+    "pos": 1162
+  },
+  {
+    "passage": "Pharmacy Lenses",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "139_5_3_7|",
+    "original": "<<set _availableColours = [\"dark blue\", \"light blue\", \"purple\", \"hazel\", \"amber\", \"green\", \"light green\", \"lime green\", \"grey\", \"light grey\", \"red\", \"pink\"].filter(x => !$makeup.owned.eyelenses.includes(x))>>",
+    "translation": "",
+    "pos": 1240
+  },
+  {
+    "passage": "Pharmacy Lenses",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "141_5_3_7|",
+    "original": "You have collected all available colours of contact lenses, there's nothing left for you to buy.",
+    "translation": "",
+    "pos": 1487
+  },
+  {
+    "passage": "Pharmacy Lenses",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "144_5_3_7|",
+    "original": "Each pair of lenses costs <span class=\"gold\">£200</span>.",
+    "translation": "",
+    "pos": 1604
+  },
+  {
+    "passage": "Pharmacy Lenses",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "148_5_3_7|",
+    "original": "<label><span @class=\"'eye-' + _colour.replace(/ /g, '-')\"><span class=\"colour-eye\" style=\"color:#6E4E11;\">_colour</span></span>&nbsp;<<print '<<radiobutton \"_lensChoice\" \"'+_colour+'\" ' + (_lensChoice is _colour ? \"checked\" : \"\") + '>>'>></label> |",
+    "translation": "",
+    "pos": 1759
+  },
+  {
+    "passage": "Pharmacy Lenses",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "153_5_3_7|",
+    "original": "<<link [[Buy and send home|Pharmacy Lenses]]>><<money -20000 \"pharmacyContacts\">><<set $makeup.owned.eyelenses.push(_lensChoice)>><</link>>",
+    "translation": "",
+    "pos": 2056
+  },
+  {
+    "passage": "Pharmacy Lenses",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "155_5_3_7|",
+    "original": "<<link [[Buy and wear|Pharmacy]]>><<money -20000 \"pharmacyContacts\">><<set $makeup.owned.eyelenses.push(_lensChoice)>><<set $makeup.eyelenses = {\"left\":_lensChoice, \"right\":_lensChoice}>><</link>>",
+    "translation": "",
+    "pos": 2205
+  },
+  {
+    "passage": "Pharmacy Lenses",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "158_5_3_7|",
+    "original": "<span class=\"purple\">You can't afford the purchase.</span>",
+    "translation": "",
+    "pos": 2421
+  },
+  {
+    "passage": "Pharmacy Lenses",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "162_5_3_7|",
+    "original": "<<link [[Ask for custom-coloured contact ones|Pharmacy Ask Custom Lenses]]>><</link>>",
+    "translation": "",
+    "pos": 2504
+  },
+  {
+    "passage": "Pharmacy Lenses",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "164_5_3_7|",
+    "original": "<<link [[Go back|Pharmacy]]>><</link>>",
+    "translation": "",
+    "pos": 2595
+  },
+  {
+    "passage": "Pharmacy Ask Custom Lenses",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "168_5_3_7|",
+    "original": "\"Who do we have here,\" says the nurse, a rictus on <<his>> face. \"Get out, you wasted enough of my time already. Try again tomorrow if you're done with your little game.\"",
+    "translation": "",
+    "pos": 36
+  },
+  {
+    "passage": "Pharmacy Ask Custom Lenses",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "169_5_3_7|",
+    "original": "<br><br><<getouticon>><<link [[Leave|Pharmacy Lenses]]>><</link>>",
+    "translation": "",
+    "pos": 208
+  },
+  {
+    "passage": "Pharmacy Ask Custom Lenses",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "172_5_3_7|",
+    "original": "\"I hope the ones you ordered last time please you,\" the nurse asks, \"You know the prices, <<printmoney 45000>> for the product, plus <<printmoney 5000>> for the delivery. <<printmoney 95000>> total if you pick two different colours for each eye.\"",
+    "translation": "",
+    "pos": 329
+  },
+  {
+    "passage": "Pharmacy Ask Custom Lenses",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "174_5_3_7|",
+    "original": "\"Not pleased with the ones available?\" the nurse asks,",
+    "translation": "",
+    "pos": 588
+  },
+  {
+    "passage": "Pharmacy Ask Custom Lenses",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "175_5_3_7|",
+    "original": "\"I could place an order for ones with a colour of your choosing, but this will double the cost. Count about <<printmoney 45000>> for the product, plus <<printmoney 5000>> for the delivery which takes about a day. If you wish to choose two different colours for each eye, it will be <<printmoney 95000>> total.\"",
+    "translation": "",
+    "pos": 645
+  },
+  {
+    "passage": "Pharmacy Ask Custom Lenses",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "179_5_3_7|",
+    "original": "<<ind>><<link [[Choose your custom colour|Pharmacy Select Custom Lenses]]>><<set $pharmacy_order_colours to 1>><</link>>",
+    "translation": "",
+    "pos": 1002
+  },
+  {
+    "passage": "Pharmacy Ask Custom Lenses",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "182_5_3_7|",
+    "original": "<span class=\"purple\">You can't afford the purchase.</span>",
+    "translation": "",
+    "pos": 1142
+  },
+  {
+    "passage": "Pharmacy Ask Custom Lenses",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "186_5_3_7|",
+    "original": "<<ind>><<link [[Choose a different colour for each eye|Pharmacy Select Custom Lenses]]>><<set $pharmacy_order_colours to 2>><</link>>",
+    "translation": "",
+    "pos": 1244
+  },
+  {
+    "passage": "Pharmacy Ask Custom Lenses",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "189_5_3_7|",
+    "original": "<span style=\"color:#566a9b; cursor:pointer\">Choose a different colour for each eye</span> <span class=\"purple\">You can't afford the purchase.</span>",
+    "translation": "",
+    "pos": 1416
+  },
+  {
+    "passage": "Pharmacy Ask Custom Lenses",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "192_5_3_7|",
+    "original": "<<getouticon>><<link [[Go back|Pharmacy Lenses]]>><</link>>",
+    "translation": "",
+    "pos": 1582
+  },
+  {
+    "passage": "Pharmacy Select Custom Lenses",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "196_5_3_7|",
+    "original": "\"Here,\" <<he>> says, handing you a tablet. \"You can use the colour palette to help you. Pick any colour you like and I'll place the order for you.\"",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Pharmacy Select Custom Lenses",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "202_5_3_7|",
+    "original": "<<link [[Order it|Pharmacy Order Custom Lenses]]>>",
+    "translation": "",
+    "pos": 302
+  },
+  {
+    "passage": "Pharmacy Select Custom Lenses",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "212_5_3_7|",
+    "original": "<<link [[Go back|Pharmacy]]>><</link>>",
+    "translation": "",
+    "pos": 973
+  },
+  {
+    "passage": "Pharmacy Order Custom Lenses",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "215_5_3_7|",
+    "original": "\"Here is your receipt,\" the nurse adds, handing you the ticket. \"It's likely to arrive by tomorrow, you come back anytime with your receipt and whoever is on duty that day will hand it over to you.\"",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Pharmacy Order Custom Lenses",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "217_5_3_7|",
+    "original": "<<link [[Next|Pharmacy]]>><</link>>",
+    "translation": "",
+    "pos": 208
+  },
+  {
+    "passage": "Pharmacy Ask If Lenses Delivered",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "221_5_3_7|",
+    "original": "\"Hello how can I he—\" <<He>> frowns. \"Don't you think I forgot last time. It's not cool; you can't just send me looking for your package and just leave. Don't do that again, please.\"",
+    "translation": "",
+    "pos": 36
+  },
+  {
+    "passage": "Pharmacy Ask If Lenses Delivered",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "222_5_3_7|",
+    "original": "<br>You apologise, and <<he>> then goes to check if your package arrived.",
+    "translation": "",
+    "pos": 220
+  },
+  {
+    "passage": "Pharmacy Ask If Lenses Delivered",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "224_5_3_7|",
+    "original": "\"Who do we have here?\" says the nurse, a rictus on <<his>> face. \"Get out, you wasted enough of my time already. Try again tomorrow if you're done with your little game.\"",
+    "translation": "",
+    "pos": 334
+  },
+  {
+    "passage": "Pharmacy Ask If Lenses Delivered",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "227_5_3_7|",
+    "original": "\"How can I h—\" <<He>> stops. \"Oh, you're the one who ordered the contact lenses. Hold on a second sweetheart, I'll check if we received them already.\" You watch as <<he>> disappears in a back room.",
+    "translation": "",
+    "pos": 552
+  },
+  {
+    "passage": "Pharmacy Ask If Lenses Delivered",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "231_5_3_7|",
+    "original": "<<loitericon>><<link [[Wait (0:15)|Pharmacy Ask If Lenses Delivered 2]]>><<set $daily.pharm.impatient to 0>><<pass 15>><</link>>",
+    "translation": "",
+    "pos": 807
+  },
+  {
+    "passage": "Pharmacy Ask If Lenses Delivered",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "234_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Pharmacy]]>><<set $daily.pharm.impatient to ($daily.pharm.impatient + 1) || 1>><</link>>",
+    "translation": "",
+    "pos": 950
+  },
+  {
+    "passage": "Pharmacy Ask If Lenses Delivered 2",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "246_5_3_7|",
+    "original": "name: _spaced_colour_name,",
+    "translation": "",
+    "pos": 494
+  },
+  {
+    "passage": "Pharmacy Ask If Lenses Delivered 2",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "253_5_3_7|",
+    "original": "brightness: +$lenses_ordered[_i][2][1]",
+    "translation": "",
+    "pos": 701
+  },
+  {
+    "passage": "Pharmacy Ask If Lenses Delivered 2",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "260_5_3_7|",
+    "original": "<<if _received > 0>>",
+    "translation": "",
+    "pos": 824
+  },
+  {
+    "passage": "Pharmacy Ask If Lenses Delivered 2",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "263_5_3_7|",
+    "original": "<<He>> returns a little while later, noticeably panting. \"We received the <<if _received > 1>><<print _received>><</if>> contact lenses you ordered, but for the other <<print (_tmp_length - _received == 1) ? 'one' : _tmp_length - _received>> you'll have to try again tomorrow\", <<he>> says while handing you the package.",
+    "translation": "",
+    "pos": 972
+  },
+  {
+    "passage": "Pharmacy Ask If Lenses Delivered 2",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "265_5_3_7|",
+    "original": "You see the nurse coming back from the room, with a small package in the hands, \"Here it is,\" <<he>> says handing it to you.",
+    "translation": "",
+    "pos": 1305
+  },
+  {
+    "passage": "Pharmacy Ask If Lenses Delivered 2",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "267_5_3_7|",
+    "original": "\"If anything's wrong you just come back here sweetie, and we'll sort a solution out.\"",
+    "translation": "",
+    "pos": 1439
+  },
+  {
+    "passage": "Pharmacy Ask If Lenses Delivered 2",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "271_5_3_7|",
+    "original": "<span class=\"gold\">You pick up the package containing your contact lenses.</span>",
+    "translation": "",
+    "pos": 1546
+  },
+  {
+    "passage": "Pharmacy Ask If Lenses Delivered 2",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "273_5_3_7|",
+    "original": "A few moments later <<he>> returns, \"It hasn't arrived yet, sorry honey. Try again tomorrow. I'm sure it'll have arrived by then.\"",
+    "translation": "",
+    "pos": 1638
+  },
+  {
+    "passage": "Pharmacy Ask If Lenses Delivered 2",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "276_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Pharmacy]]>><</link>>",
+    "translation": "",
+    "pos": 1786
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "281_5_3_7|",
+    "original": "The <<person>> looks at the <<print $pharmacyItem.name>> you're holding.",
+    "translation": "",
+    "pos": 64
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "284_5_3_7|",
+    "original": "<<case \"penis reduction\">>",
+    "translation": "",
+    "pos": 204
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "285_5_3_7|",
+    "original": "\"That'll be _printmoney.<<if !$daily.pharm.seductionResult>> So is it too big, or do you just want it to be tiny?<</if>>\"",
+    "translation": "",
+    "pos": 233
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "286_5_3_7|",
+    "original": "<<case \"penis growth\">>",
+    "translation": "",
+    "pos": 356
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "287_5_3_7|",
+    "original": "\"That'll be _printmoney.<<if !$daily.pharm.seductionResult>> So you think yours is too small?<</if>>\"",
+    "translation": "",
+    "pos": 382
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "288_5_3_7|",
+    "original": "<<case \"penis blocker\">>",
+    "translation": "",
+    "pos": 485
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "289_5_3_7|",
+    "original": "\"_printmoney please.<<if !$daily.pharm.seductionResult>> I wonder how big you are.<</if>>\"",
+    "translation": "",
+    "pos": 512
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "290_5_3_7|",
+    "original": "<<case \"breast reduction\">>",
+    "translation": "",
+    "pos": 604
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "291_5_3_7|",
+    "original": "\"_printmoney please. The effects will vary.\"",
+    "translation": "",
+    "pos": 634
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "292_5_3_7|",
+    "original": "<<case \"breast growth\">>",
+    "translation": "",
+    "pos": 680
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "293_5_3_7|",
+    "original": "\"_printmoney please. The effects will vary.\"",
+    "translation": "",
+    "pos": 707
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "294_5_3_7|",
+    "original": "<<case \"breast blocker\">>",
+    "translation": "",
+    "pos": 753
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "295_5_3_7|",
+    "original": "\"_printmoney please.\"",
+    "translation": "",
+    "pos": 781
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "296_5_3_7|",
+    "original": "<<case \"bottom reduction\">>",
+    "translation": "",
+    "pos": 804
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "297_5_3_7|",
+    "original": "\"_printmoney please. The effects will vary.\"",
+    "translation": "",
+    "pos": 834
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "298_5_3_7|",
+    "original": "<<case \"bottom growth\">>",
+    "translation": "",
+    "pos": 880
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "299_5_3_7|",
+    "original": "\"_printmoney please. The effects will vary.\"",
+    "translation": "",
+    "pos": 907
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "300_5_3_7|",
+    "original": "<<case \"bottom blocker\">>",
+    "translation": "",
+    "pos": 953
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "301_5_3_7|",
+    "original": "\"_printmoney please.\"",
+    "translation": "",
+    "pos": 981
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "302_5_3_7|",
+    "original": "<<case \"Anti-Parasite Cream\">>",
+    "translation": "",
+    "pos": 1004
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "303_5_3_7|",
+    "original": "\"_printmoney please. The tube should last for about 2 weeks, depending on where you need to apply it.\"",
+    "translation": "",
+    "pos": 1037
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "304_5_3_7|",
+    "original": "<<case \"Breast Pump\">>",
+    "translation": "",
+    "pos": 1141
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "305_5_3_7|",
+    "original": "\"_printmoney please.\"",
+    "translation": "",
+    "pos": 1166
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "306_5_3_7|",
+    "original": "<<case \"condoms\">>",
+    "translation": "",
+    "pos": 1189
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "307_5_3_7|",
+    "original": "\"_printmoney please.\" <<He>> looks you over.",
+    "translation": "",
+    "pos": 1210
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "309_5_3_7|",
+    "original": "\"Glad to see people playing it safe. Your girl is lucky.\"",
+    "translation": "",
+    "pos": 1300
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "311_5_3_7|",
+    "original": "<<case \"pregnancy test\">>",
+    "translation": "",
+    "pos": 1369
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "312_5_3_7|",
+    "original": "\"_printmoney please.\" <<He>> looks you over.",
+    "translation": "",
+    "pos": 1397
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "314_5_3_7|",
+    "original": "\"Your girl is lucky.",
+    "translation": "",
+    "pos": 1487
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "316_5_3_7|",
+    "original": "\"Hope you get the result you're after.",
+    "translation": "",
+    "pos": 1522
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "318_5_3_7|",
+    "original": "They're somewhat inaccurate right after conception, so just give it some time, or take another test a couple of days later.\"",
+    "translation": "",
+    "pos": 1573
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "320_5_3_7|",
+    "original": "<<case \"fertility booster\">>",
+    "translation": "",
+    "pos": 1770
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "321_5_3_7|",
+    "original": "\"_printmoney please.\" <<He>> looks you over.",
+    "translation": "",
+    "pos": 1801
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "323_5_3_7|",
+    "original": "\"Trying to get your girl knocked up? Good luck.",
+    "translation": "",
+    "pos": 1891
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "325_5_3_7|",
+    "original": "\"Oh, who's the lucky father?",
+    "translation": "",
+    "pos": 1953
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "328_5_3_7|",
+    "original": "Take one per day, try to normalise the time.\"",
+    "translation": "",
+    "pos": 2033
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "329_5_3_7|",
+    "original": "<<case \"contraceptive\">>",
+    "translation": "",
+    "pos": 2080
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "330_5_3_7|",
+    "original": "\"_printmoney please.",
+    "translation": "",
+    "pos": 2107
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "332_5_3_7|",
+    "original": "Glad to see people playing it safe. Your girl is lucky.",
+    "translation": "",
+    "pos": 2173
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "334_5_3_7|",
+    "original": "Take one per day, and try to normalise the time. You still need to be careful, though. The only sure way to be safe is to be abstinent.\"",
+    "translation": "",
+    "pos": 2241
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "342_5_3_7|",
+    "original": "<<case \"Breast Pump\">>",
+    "translation": "",
+    "pos": 2563
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "343_5_3_7|",
+    "original": "<<link [[Hand over the money|Pharmacy]]>><<run sexShopOnBuyClick(11, false, V.worn.handheld.colour.replace(\" \",\"-\"), false)>><<handheldon>><<money `-$pharmacyItem.price` \"pharmacyBreastPump\">><</link>>",
+    "translation": "",
+    "pos": 2589
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "344_5_3_7|",
+    "original": "<<case \"condoms\">>",
+    "translation": "",
+    "pos": 2793
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "345_5_3_7|",
+    "original": "<<link [[Hand over the money|Pharmacy]]>><<handheldon>><<money `-$pharmacyItem.price` \"pharmacyCondoms\">><<gcondoms 3>><</link>>",
+    "translation": "",
+    "pos": 2815
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "346_5_3_7|",
+    "original": "<<case \"pregnancy test\">>",
+    "translation": "",
+    "pos": 2946
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "347_5_3_7|",
+    "original": "<<link [[Hand over the money|Pharmacy]]>><<handheldon>><<money `-$pharmacyItem.price` \"pharmacyPregnancyTest\">><<set $pregnancyTest += 2>><</link>>",
+    "translation": "",
+    "pos": 2975
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "348_5_3_7|",
+    "original": "<<case \"Anti-Parasite Cream\">>",
+    "translation": "",
+    "pos": 3125
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "349_5_3_7|",
+    "original": "<<link [[Hand over the money|Pharmacy]]>><<handheldon>><<money `-$pharmacyItem.price` \"pharmacyCream\">><<set $sexStats.pills.pills[$pharmacyItem.type].owned += 1>><<boughtOnce>><</link>>",
+    "translation": "",
+    "pos": 3159
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "351_5_3_7|",
+    "original": "<<link [[Hand over the money|Pharmacy]]>><<handheldon>><<money `-$pharmacyItem.price` \"pharmacyPills\">><<set $sexStats.pills.pills[$pharmacyItem.type].owned += 14>><<boughtOnce>><</link>>",
+    "translation": "",
+    "pos": 3363
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "354_5_3_7|",
+    "original": "<span class=\"purple\">You cannot afford them.</span>",
+    "translation": "",
+    "pos": 3574
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "358_5_3_7|",
+    "original": "<<link [[Seduce|Pharmacy Seduction]]>><</link>><<seductiondifficulty>><<promiscuous2>>",
+    "translation": "",
+    "pos": 3751
+  },
+  {
+    "passage": "Pharmacy Sale",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "361_5_3_7|",
+    "original": "<<link [[Don't buy|Pharmacy]]>><</link>>",
+    "translation": "",
+    "pos": 3852
+  },
+  {
+    "passage": "Pharmacy Seduction",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "369_5_3_7|",
+    "original": "\"Why don't you see it for yourself?\" you say, gazing into <<his>> eyes.",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Pharmacy Seduction",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "375_5_3_7|",
+    "original": "<<if $seductionskill lt 1000>><span class=\"gold\">You feel more confident in your powers of seduction.</span><</if>><<seductionskilluse>><<promiscuity2>>",
+    "translation": "",
+    "pos": 218
+  },
+  {
+    "passage": "Pharmacy Seduction",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "379_5_3_7|",
+    "original": "<<He>> arches an eyebrow and blushes while glancing around to make sure you're alone. Satisfied, <<he>> takes you by the hand and leads you behind the counter.",
+    "translation": "",
+    "pos": 468
+  },
+  {
+    "passage": "Pharmacy Seduction",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "381_5_3_7|",
+    "original": "<<He>> pushes you against the wall, drops down on <<his>> knees and hastens to remove your <<allBottomsUnderwear>>.",
+    "translation": "",
+    "pos": 635
+  },
+  {
+    "passage": "Pharmacy Seduction",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "385_5_3_7|",
+    "original": "<<link [[Next|Pharmacy Encounter Sex]]>><</link>>",
+    "translation": "",
+    "pos": 787
+  },
+  {
+    "passage": "Pharmacy Seduction",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "388_5_3_7|",
+    "original": "After a brief pause, <<he>> bursts into a ringing laugh.<<ggstress>><<stress 23>>",
+    "translation": "",
+    "pos": 895
+  },
+  {
+    "passage": "Pharmacy Seduction",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "390_5_3_7|",
+    "original": "\"Nice try, <<lass>>!\" <<he>> says.",
+    "translation": "",
+    "pos": 984
+  },
+  {
+    "passage": "Pharmacy Seduction",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "392_5_3_7|",
+    "original": "\"So, are you buying them or what?\"",
+    "translation": "",
+    "pos": 1026
+  },
+  {
+    "passage": "Pharmacy Seduction",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "395_5_3_7|",
+    "original": "A box of <<print $pharmacyItem.name>> lies on the table.",
+    "translation": "",
+    "pos": 1073
+  },
+  {
+    "passage": "Pharmacy Seduction",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "400_5_3_7|",
+    "original": "<<link [[\"Pay \" + _printmoney|Pharmacy Seduction End]]>><<set $phase to \"pay\">><</link>>",
+    "translation": "",
+    "pos": 1220
+  },
+  {
+    "passage": "Pharmacy Seduction",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "402_5_3_7|",
+    "original": "<span class=\"purple\">You cannot afford them.</span>",
+    "translation": "",
+    "pos": 1321
+  },
+  {
+    "passage": "Pharmacy Seduction",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "405_5_3_7|",
+    "original": "<<link [[Nevermind|Pharmacy Seduction End]]>><<set $phase to \"nevermind\">><</link>>",
+    "translation": "",
+    "pos": 1389
+  },
+  {
+    "passage": "Pharmacy Seduction End",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "410_5_3_7|",
+    "original": "<<case \"nevermind\">>",
+    "translation": "",
+    "pos": 19
+  },
+  {
+    "passage": "Pharmacy Seduction End",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "411_5_3_7|",
+    "original": "You turn and leave.",
+    "translation": "",
+    "pos": 42
+  },
+  {
+    "passage": "Pharmacy Seduction End",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "413_5_3_7|",
+    "original": "\"Hey,\" <<he>> says. \"I didn't mean to upset you.\"",
+    "translation": "",
+    "pos": 71
+  },
+  {
+    "passage": "Pharmacy Seduction End",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "416_5_3_7|",
+    "original": "<<link [[Next|Hospital Foyer]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 135
+  },
+  {
+    "passage": "Pharmacy Seduction End",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "417_5_3_7|",
+    "original": "<<case \"pay\">>",
+    "translation": "",
+    "pos": 190
+  },
+  {
+    "passage": "Pharmacy Seduction End",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "418_5_3_7|",
+    "original": "You hand over the money in awkward silence, take your box of pills, and leave.",
+    "translation": "",
+    "pos": 207
+  },
+  {
+    "passage": "Pharmacy Seduction End",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "422_5_3_7|",
+    "original": "<<link [[Next|Hospital Foyer]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 421
+  },
+  {
+    "passage": "Pharmacy Encounter Sex",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "457_5_3_7|",
+    "original": "\"What the fuck is this?\" <<He>> looks at your <<genitals>>. \"That's not funny!\"",
+    "translation": "",
+    "pos": 864
+  },
+  {
+    "passage": "Pharmacy Encounter Sex",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "459_5_3_7|",
+    "original": "<<He>> stays silent for a moment.",
+    "translation": "",
+    "pos": 953
+  },
+  {
+    "passage": "Pharmacy Encounter Sex",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "461_5_3_7|",
+    "original": "\"I don't wanna go on. Get out.\"",
+    "translation": "",
+    "pos": 996
+  },
+  {
+    "passage": "Pharmacy Encounter Sex",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "463_5_3_7|",
+    "original": "\"How disappointing,\" <<he>> adds quietly.",
+    "translation": "",
+    "pos": 1037
+  },
+  {
+    "passage": "Pharmacy Encounter Sex",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "466_5_3_7|",
+    "original": "<<He>> freezes the moment your <<penis>> is revealed.",
+    "translation": "",
+    "pos": 1168
+  },
+  {
+    "passage": "Pharmacy Encounter Sex",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "468_5_3_7|",
+    "original": "\"What the fuck? You kidding me? This is what you wanted me to see?\" <<He>> starts to chuckle.",
+    "translation": "",
+    "pos": 1353
+  },
+  {
+    "passage": "Pharmacy Encounter Sex",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "471_5_3_7|",
+    "original": "<<He>> doesn't say anything for a while. \"Yeah. I'm not in the mood anymore.\"",
+    "translation": "",
+    "pos": 1463
+  },
+  {
+    "passage": "Pharmacy Encounter Sex",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "475_5_3_7|",
+    "original": "<<He>> gets up, fixes <<his>> clothing and returns to the till and <<his>> book.",
+    "translation": "",
+    "pos": 1585
+  },
+  {
+    "passage": "Pharmacy Encounter Sex",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "478_5_3_7|",
+    "original": "\"Aww, how cute.\" <<He>> starts to chuckle.",
+    "translation": "",
+    "pos": 1728
+  },
+  {
+    "passage": "Pharmacy Encounter Sex",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "483_5_3_7|",
+    "original": "You hear a snicker as your <<penis>> flops out, but <<he>> doesn't say anything and keeps going.",
+    "translation": "",
+    "pos": 1868
+  },
+  {
+    "passage": "Pharmacy Encounter Sex",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "485_5_3_7|",
+    "original": "<<He>> stops short the moment your <<penis>> flops out. \"Oh, and that's it? You sounded like you had something special in your pants,\" <<he>> says.",
+    "translation": "",
+    "pos": 1979
+  },
+  {
+    "passage": "Pharmacy Encounter Sex",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "488_5_3_7|",
+    "original": "\"I'm not impressed. And I kinda lost all desire to go on. Buy more pills and come back when you're bigger.\"",
+    "translation": "",
+    "pos": 2143
+  },
+  {
+    "passage": "Pharmacy Encounter Sex",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "492_5_3_7|",
+    "original": "<<He>> gets up, fixes <<his>> clothing and returns to the till and <<his>> book.",
+    "translation": "",
+    "pos": 2295
+  },
+  {
+    "passage": "Pharmacy Encounter Sex",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "496_5_3_7|",
+    "original": "You hear a gasp of surprise coming from down below as your <<penis>> flops out.",
+    "translation": "",
+    "pos": 2472
+  },
+  {
+    "passage": "Pharmacy Encounter Sex",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "498_5_3_7|",
+    "original": "You look at <<his>> face and see <<his>> eyes light up.",
+    "translation": "",
+    "pos": 2561
+  },
+  {
+    "passage": "Pharmacy Encounter Sex",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "500_5_3_7|",
+    "original": "\"Shit,\" you hear a quiet whisper from down below as your <<penis>> flops out.",
+    "translation": "",
+    "pos": 2655
+  },
+  {
+    "passage": "Pharmacy Encounter Sex",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "502_5_3_7|",
+    "original": "You look down and see <<him>> staring at your cock, mouth agape.",
+    "translation": "",
+    "pos": 2742
+  },
+  {
+    "passage": "Pharmacy Encounter Sex",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "515_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Pharmacy Encounter Sex Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 3083
+  },
+  {
+    "passage": "Pharmacy Encounter Sex",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "517_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Pharmacy Encounter Sex]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 3185
+  },
+  {
+    "passage": "Pharmacy Encounter Sex Finish",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "528_5_3_7|",
+    "original": "\"Wow!\" <<he>> pants as <<he>> struggles to <<his>> feet, leaning against the counter. <<tearful>> you gather yourself.",
+    "translation": "",
+    "pos": 193
+  },
+  {
+    "passage": "Pharmacy Encounter Sex Finish",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "533_5_3_7|",
+    "original": "<<He>> takes a breath, fixes <<his>> clothing, and walks back to the till.",
+    "translation": "",
+    "pos": 340
+  },
+  {
+    "passage": "Pharmacy Encounter Sex Finish",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "537_5_3_7|",
+    "original": "\"I think you've earned a discount, sweetie. You can have these pills for <<printmoney $pharmacyItem.price true>>.\"",
+    "translation": "",
+    "pos": 534
+  },
+  {
+    "passage": "Pharmacy Encounter Sex Finish",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "539_5_3_7|",
+    "original": "\"Please come back for more.\" <<He>> winks.",
+    "translation": "",
+    "pos": 658
+  },
+  {
+    "passage": "Pharmacy Encounter Sex Finish",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "544_5_3_7|",
+    "original": "<<pillicon>><<link [[\"Buy \" + $pharmacyItem.name + \" for \" + _printmoney|Pharmacy]]>>",
+    "translation": "",
+    "pos": 772
+  },
+  {
+    "passage": "Pharmacy Encounter Sex Finish",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "549_5_3_7|",
+    "original": "<span class=\"purple\">You cannot afford them.</span>",
+    "translation": "",
+    "pos": 1075
+  },
+  {
+    "passage": "Pharmacy Encounter Sex Finish",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "554_5_3_7|",
+    "original": "\"Sorry, sweetheart. I can't sell you these reduction pills after what you've done to me with your juicy cock. I just can't. I want it to stay as big as it is.\"",
+    "translation": "",
+    "pos": 1248
+  },
+  {
+    "passage": "Pharmacy Encounter Sex Finish",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "556_5_3_7|",
+    "original": "\"I can sell you growth blocker pills at a discount instead.\" <<He>> smiles.",
+    "translation": "",
+    "pos": 1417
+  },
+  {
+    "passage": "Pharmacy Encounter Sex Finish",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "562_5_3_7|",
+    "original": "<<pillicon>><<link [[\"Buy growth blocker pills for \" + _printmoney|Pharmacy]]>>",
+    "translation": "",
+    "pos": 1603
+  },
+  {
+    "passage": "Pharmacy Encounter Sex Finish",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "567_5_3_7|",
+    "original": "<span class=\"purple\">You cannot afford them.</span>",
+    "translation": "",
+    "pos": 1897
+  },
+  {
+    "passage": "Pharmacy Encounter Sex Finish",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "571_5_3_7|",
+    "original": "<<getouticon>><<link [[Don't buy|Pharmacy]]>><<set $eventskip to 1>><<set $daily.pharm.sexResult to \"dontBuy\">><</link>>",
+    "translation": "",
+    "pos": 1975
+  },
+  {
+    "passage": "Pharmacy Encounter Sex Finish",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "574_5_3_7|",
+    "original": "The <<personsimple>> drops on the floor and nurses <<his>> injuries. <<tearful>> you gather yourself.",
+    "translation": "",
+    "pos": 2128
+  },
+  {
+    "passage": "Pharmacy Encounter Sex Finish",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "579_5_3_7|",
+    "original": "You look at the counter and see the box of <<print $pharmacyItem.name>> you tried to purchase.",
+    "translation": "",
+    "pos": 2258
+  },
+  {
+    "passage": "Pharmacy Encounter Sex Finish",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "583_5_3_7|",
+    "original": "<<ind>><<link [[Steal the pills before the nurse picks <<himself>> up|Hospital Foyer]]>>",
+    "translation": "",
+    "pos": 2402
+  },
+  {
+    "passage": "Pharmacy Encounter Sex Finish",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "588_5_3_7|",
+    "original": "<<getouticon>><<link [[Just leave|Hospital Foyer]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 2675
+  },
+  {
+    "passage": "Pharmacy Encounter Sex Finish",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "595_5_3_7|",
+    "original": "<<case \"chastity\">>",
+    "translation": "",
+    "pos": 2897
+  },
+  {
+    "passage": "Pharmacy Encounter Sex Finish",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "596_5_3_7|",
+    "original": "Embarrassed, you don't speak as you rise to your feet.",
+    "translation": "",
+    "pos": 2920
+  },
+  {
+    "passage": "Pharmacy Encounter Sex Finish",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "599_5_3_7|",
+    "original": "<<case \"tiny\">>",
+    "translation": "",
+    "pos": 3008
+  },
+  {
+    "passage": "Pharmacy Encounter Sex Finish",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "600_5_3_7|",
+    "original": "Face red from intense embarrassment, you rise to your feet. <<clotheson>>",
+    "translation": "",
+    "pos": 3027
+  },
+  {
+    "passage": "Pharmacy Encounter Sex Finish",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "601_5_3_7|",
+    "original": "The nurse doesn't even look your way.",
+    "translation": "",
+    "pos": 3104
+  },
+  {
+    "passage": "Pharmacy Encounter Sex Finish",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "605_5_3_7|",
+    "original": "<<case \"small\">>",
+    "translation": "",
+    "pos": 3174
+  },
+  {
+    "passage": "Pharmacy Encounter Sex Finish",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "606_5_3_7|",
+    "original": "Embarrassed, you rise to your feet. <<clotheson>>",
+    "translation": "",
+    "pos": 3194
+  },
+  {
+    "passage": "Pharmacy Encounter Sex Finish",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "607_5_3_7|",
+    "original": "\"Don't forget your pills,\" the nurse says. <<if $pharmacyItem.type.includes(\"growth\")>>\"You need them.\"<</if>>",
+    "translation": "",
+    "pos": 3247
+  },
+  {
+    "passage": "Pharmacy Encounter Sex Finish",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "613_5_3_7|",
+    "original": "<<pillicon>><<link [[\"Pay \" + _printmoney + \" for \" + $pharmacyItem.name|Pharmacy]]>>",
+    "translation": "",
+    "pos": 3473
+  },
+  {
+    "passage": "Pharmacy Encounter Sex Finish",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "619_5_3_7|",
+    "original": "<span class=\"purple\">You cannot afford them.</span>",
+    "translation": "",
+    "pos": 3751
+  },
+  {
+    "passage": "Pharmacy Encounter Sex Finish",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "624_5_3_7|",
+    "original": "The <<personsimple>> looks dejected as <<he>> gets up and fixes <<his>> clothing. <<He>> returns to the till, and picks up <<his>> book.",
+    "translation": "",
+    "pos": 3915
+  },
+  {
+    "passage": "Pharmacy Encounter Sex Finish",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "629_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Hospital Foyer]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 4105
+  },
+  {
+    "passage": "Pharmacy Encounter Sex Finish",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "632_5_3_7|",
+    "original": "<<link [[Next|Hospital Foyer]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 4205
+  },
+  {
+    "passage": "Pharmacy Morning After pill",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "641_5_3_7|",
+    "original": "You ask the nurse for after morning pills.",
+    "translation": "",
+    "pos": 64
+  },
+  {
+    "passage": "Pharmacy Morning After pill",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "644_5_3_7|",
+    "original": "\"You <<if $pregnancyStats.aftermorningpills>>already know you <</if>>can't take these pills if you are pregnant, and it's obvious you are. It's very dangerous for your health and it won't have the desired effects\", <<he>> tells you while looking openly at your <<bellyDescription \"pc\">>. \"If you still want to take it, £500 please. For legal reasons, we're unable to sell these in bulk. You'll have to take it while I'm supervising you, just in case issues occur.\"",
+    "translation": "",
+    "pos": 145
+  },
+  {
+    "passage": "Pharmacy Morning After pill",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "648_5_3_7|",
+    "original": "<<link [[Hand over the money and take the pill anyway (0:15)|Pharmacy Morning After pill 2]]>><<pass 15>><</link>>",
+    "translation": "",
+    "pos": 690
+  },
+  {
+    "passage": "Pharmacy Morning After pill",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "650_5_3_7|",
+    "original": "<span class=\"purple\">You cannot afford them.</span>",
+    "translation": "",
+    "pos": 819
+  },
+  {
+    "passage": "Pharmacy Morning After pill",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "653_5_3_7|",
+    "original": "You know you are pregnant and you won't take any risks.",
+    "translation": "",
+    "pos": 893
+  },
+  {
+    "passage": "Pharmacy Morning After pill",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "657_5_3_7|",
+    "original": "<<link [[\"Don't buy\"|Pharmacy]]>><</link>>",
+    "translation": "",
+    "pos": 972
+  },
+  {
+    "passage": "Pharmacy Morning After pill",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "659_5_3_7|",
+    "original": "\"These pills are only effective for a short period after intercourse. If an egg has been fertilised and nestled in your uterus, taking them can be dangerous to your health.<<if $pregnancyStats.aftermorningpills>> Keep in mind that these pills are not a contraceptive method. Perhaps you should consider the option of using condoms or contraceptive pills that you can buy here, they are less harmful.<</if>>\"",
+    "translation": "",
+    "pos": 1025
+  },
+  {
+    "passage": "Pharmacy Morning After pill",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "661_5_3_7|",
+    "original": "<<He>> opens a drawer and pulls out a blister with a single pill. \"£500 please. For legal reasons, we're unable to sell these in bulk. You'll have to take it while I'm supervising you, just in case issues occur.\"",
+    "translation": "",
+    "pos": 1444
+  },
+  {
+    "passage": "Pharmacy Morning After pill",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "664_5_3_7|",
+    "original": "<<link [[Hand over the money and take the pill (0:15)|Pharmacy Morning After pill 2]]>><<pass 15>><</link>>",
+    "translation": "",
+    "pos": 1694
+  },
+  {
+    "passage": "Pharmacy Morning After pill",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "666_5_3_7|",
+    "original": "<span class=\"purple\">You cannot afford them.</span>",
+    "translation": "",
+    "pos": 1814
+  },
+  {
+    "passage": "Pharmacy Morning After pill",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "669_5_3_7|",
+    "original": "<<link [[\"Don't buy\"|Pharmacy]]>><</link>>",
+    "translation": "",
+    "pos": 1882
+  },
+  {
+    "passage": "Pharmacy Morning After pill 2",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "679_5_3_7|",
+    "original": "The nurse points you to a chair to sit on and you take the pill while <<he>> watches you carefully.",
+    "translation": "",
+    "pos": 176
+  },
+  {
+    "passage": "Pharmacy Morning After pill 2",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "682_5_3_7|",
+    "original": "<<case \"no pregnant\">>",
+    "translation": "",
+    "pos": 321
+  },
+  {
+    "passage": "Pharmacy Morning After pill 2",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "683_5_3_7|",
+    "original": "You sit on the chair and wait for it to take effect. You only feel a cold sensation in your belly. After a few minutes, the nurse checks your pupils and your blood pressure. \"Everything is fine, you can go.\" <<lllarousal>> <<llstress>>",
+    "translation": "",
+    "pos": 346
+  },
+  {
+    "passage": "Pharmacy Morning After pill 2",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "687_5_3_7|",
+    "original": "<<link [[Go back|Pharmacy]]>><</link>>",
+    "translation": "",
+    "pos": 632
+  },
+  {
+    "passage": "Pharmacy Morning After pill 2",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "688_5_3_7|",
+    "original": "<<case \"successful\">>",
+    "translation": "",
+    "pos": 672
+  },
+  {
+    "passage": "Pharmacy Morning After pill 2",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "689_5_3_7|",
+    "original": "You sit on the chair and wait for it to take effect. You feel a cold sensation in your belly and a little pain. After a few minutes, the nurse checks your pupils and your blood pressure. <<He>> can see the discomfort in your face. \"It seems that the pill has taken effect. You may feel some pain, but it will pass quickly. You can go now.\" <<lllarousal>> <<llstress>> <<gpain>>",
+    "translation": "",
+    "pos": 696
+  },
+  {
+    "passage": "Pharmacy Morning After pill 2",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "694_5_3_7|",
+    "original": "<<link [[Go back|Pharmacy]]>><</link>>",
+    "translation": "",
+    "pos": 1137
+  },
+  {
+    "passage": "Pharmacy Morning After pill 2",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "695_5_3_7|",
+    "original": "<<case \"a little late\">>",
+    "translation": "",
+    "pos": 1177
+  },
+  {
+    "passage": "Pharmacy Morning After pill 2",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "696_5_3_7|",
+    "original": "You sit on the chair and wait for it to take effect. You feel an unpleasant sensation in your belly and a sharp pain. The nurse notices your pained face and approaches you. <<He>> check your pupils and your blood pressure. \"It seems that the pill has taken effect, but you have reached the limit of time. If you ever need this pill again, don't wait for so long. The pain you feel now will disappear after a while. You can go now.\" <<lllarousal>> <<llstress>> <<ggpain>>",
+    "translation": "",
+    "pos": 1204
+  },
+  {
+    "passage": "Pharmacy Morning After pill 2",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "701_5_3_7|",
+    "original": "<<link [[Go back|Pharmacy]]>><</link>>",
+    "translation": "",
+    "pos": 1738
+  },
+  {
+    "passage": "Pharmacy Morning After pill 2",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "702_5_3_7|",
+    "original": "<<case \"late\">>",
+    "translation": "",
+    "pos": 1778
+  },
+  {
+    "passage": "Pharmacy Morning After pill 2",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "703_5_3_7|",
+    "original": "You sit on the chair and wait for it to take effect. You feel a strange sensation in your belly and immediately you writhe in pain. The nurse rushes over to you and checks your pupils and your blood pressure. <<He>> can see the discomfort in your face. \"It seems like it's been too long since...\" You feel a sharp pinch in your belly and wince in pain. The nurse notices your pained face. \"Well, in any case, the pill has taken effect. You will feel pain for a while, it's normal, it will pass. If you ever need this pill again, don't wait for so long. You can go now.\" <<lllarousal>> <<ggtrauma>> <<ggpain>>",
+    "translation": "",
+    "pos": 1796
+  },
+  {
+    "passage": "Pharmacy Morning After pill 2",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "708_5_3_7|",
+    "original": "<<link [[Go back|Pharmacy]]>><</link>>",
+    "translation": "",
+    "pos": 2468
+  },
+  {
+    "passage": "Pharmacy Morning After pill 2",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "709_5_3_7|",
+    "original": "<<case \"too late\">>",
+    "translation": "",
+    "pos": 2508
+  },
+  {
+    "passage": "Pharmacy Morning After pill 2",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "710_5_3_7|",
+    "original": "You sit on the chair and wait for it to take effect. You feel an unpleasant sensation in your belly and immediately writhe in pain. The nurse rushes over to you and checks your pupils and your blood pressure. <<He>> can see the discomfort in your face. \"It seems like it's been too long since...\" You notice a very sharp pain in your belly, you bend over and fall from the chair. Your vision blurs, the pain is unbearable. <<lllarousal>> <<ggtrauma>> <<ggpain>>",
+    "translation": "",
+    "pos": 2530
+  },
+  {
+    "passage": "Pharmacy Morning After pill 2",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "715_5_3_7|",
+    "original": "<<link [[Everything fades to black...|Pharmacy Morning After pill passout]]>><<pass 60>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 3060
+  },
+  {
+    "passage": "Pharmacy Morning After pill 2",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "717_5_3_7|",
+    "original": "There must be an error...",
+    "translation": "",
+    "pos": 3185
+  },
+  {
+    "passage": "Pharmacy Morning After pill 2",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "719_5_3_7|",
+    "original": "<<link [[Go back|Pharmacy]]>><</link>>",
+    "translation": "",
+    "pos": 3224
+  },
+  {
+    "passage": "Pharmacy Morning After pill passout",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "723_5_3_7|",
+    "original": "You feel your body rise, being moved, you hear voices around you. You open your eyes for a moment and you see the nurse with a worried face. Another person in a white coat approaches and you recognise Dr Harper. \"I don't know if you were aware of it, but <span class=\"red\">you're pregnant</span>. You shouldn't have taken that pill.\" <<lllarousal>> <<ggstress>>",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Pharmacy Morning After pill passout",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "725_5_3_7|",
+    "original": "Before you can answer, you feel another intense and painful cramp in your belly. <<ggtrauma>> <<gggpain>>",
+    "translation": "",
+    "pos": 371
+  },
+  {
+    "passage": "Pharmacy Morning After pill passout",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "732_5_3_7|",
+    "original": "<<link [[Next|Passout hospital]]>><<endevent>><<pass 60>><</link>>",
+    "translation": "",
+    "pos": 596
+  },
+  {
+    "passage": "Pharmacy Buy Condoms in Bulk",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "738_5_3_7|",
+    "original": "You already have refilled the vending machine with condoms this week.",
+    "translation": "",
+    "pos": 135
+  },
+  {
+    "passage": "Pharmacy Buy Condoms in Bulk",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "740_5_3_7|",
+    "original": "<<link [[Return|Pharmacy]]>><</link>>",
+    "translation": "",
+    "pos": 218
+  },
+  {
+    "passage": "Pharmacy Buy Condoms in Bulk",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "742_5_3_7|",
+    "original": "The vending machine doesn't need to be refilled with condoms right now.",
+    "translation": "",
+    "pos": 308
+  },
+  {
+    "passage": "Pharmacy Buy Condoms in Bulk",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "744_5_3_7|",
+    "original": "<<link [[Return|Pharmacy]]>><</link>>",
+    "translation": "",
+    "pos": 393
+  },
+  {
+    "passage": "Pharmacy Buy Condoms in Bulk",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "746_5_3_7|",
+    "original": "You can't afford condoms to refill the vending machine.",
+    "translation": "",
+    "pos": 461
+  },
+  {
+    "passage": "Pharmacy Buy Condoms in Bulk",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "748_5_3_7|",
+    "original": "<<link [[Return|Pharmacy]]>><</link>>",
+    "translation": "",
+    "pos": 530
+  },
+  {
+    "passage": "Pharmacy Buy Condoms in Bulk",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "750_5_3_7|",
+    "original": "You ask the nurse for the quantity of condoms you need:",
+    "translation": "",
+    "pos": 580
+  },
+  {
+    "passage": "Pharmacy Buy Condoms in Bulk",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "752_5_3_7|",
+    "original": "<<link [[Buy 10 packs (£600)|Pharmacy Bought Condoms in Bulk]]>><<set $condomsBought to 10>><</link>>",
+    "translation": "",
+    "pos": 649
+  },
+  {
+    "passage": "Pharmacy Buy Condoms in Bulk",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "756_5_3_7|",
+    "original": "<<link [[Buy 25 packs (£1,500)|Pharmacy Bought Condoms in Bulk]]>><<set $condomsBought to 25>><</link>>",
+    "translation": "",
+    "pos": 841
+  },
+  {
+    "passage": "Pharmacy Buy Condoms in Bulk",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "759_5_3_7|",
+    "original": "You can't afford 25 packs.",
+    "translation": "",
+    "pos": 970
+  },
+  {
+    "passage": "Pharmacy Buy Condoms in Bulk",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "765_5_3_7|",
+    "original": "<<link [[Buy 50 packs (£3,000)|Pharmacy Bought Condoms in Bulk]]>><<set $condomsBought to 50>><</link>>",
+    "translation": "",
+    "pos": 1110
+  },
+  {
+    "passage": "Pharmacy Buy Condoms in Bulk",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "768_5_3_7|",
+    "original": "You can't afford 50 packs.",
+    "translation": "",
+    "pos": 1239
+  },
+  {
+    "passage": "Pharmacy Buy Condoms in Bulk",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "776_5_3_7|",
+    "original": "<<link [[`Buy 100 packs (${_printmoney})`|Pharmacy Bought Condoms in Bulk]]>><<set $condomsBought to 100>><</link>>",
+    "translation": "",
+    "pos": 1427
+  },
+  {
+    "passage": "Pharmacy Buy Condoms in Bulk",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "779_5_3_7|",
+    "original": "You can't afford 100 packs.",
+    "translation": "",
+    "pos": 1568
+  },
+  {
+    "passage": "Pharmacy Buy Condoms in Bulk",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "787_5_3_7|",
+    "original": "<<link [[`Buy 150 packs (${_printmoney})`|Pharmacy Bought Condoms in Bulk]]>><<set $condomsBought to 150>><</link>>",
+    "translation": "",
+    "pos": 1757
+  },
+  {
+    "passage": "Pharmacy Buy Condoms in Bulk",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "790_5_3_7|",
+    "original": "You can't afford 150 packs.",
+    "translation": "",
+    "pos": 1898
+  },
+  {
+    "passage": "Pharmacy Buy Condoms in Bulk",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "798_5_3_7|",
+    "original": "<<link [[`Buy ${$brothelVending.condomsToRefill} packs (${_printmoney})`|Pharmacy Bought Condoms in Bulk]]>><<set $condomsBought to $brothelVending.condomsToRefill>><</link>>",
+    "translation": "",
+    "pos": 2114
+  },
+  {
+    "passage": "Pharmacy Buy Condoms in Bulk",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "801_5_3_7|",
+    "original": "You can't afford $brothelVending.condomsToRefill packs.",
+    "translation": "",
+    "pos": 2314
+  },
+  {
+    "passage": "Pharmacy Buy Condoms in Bulk",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "805_5_3_7|",
+    "original": "<<link [[\"Don't buy\"|Pharmacy]]>><</link>>",
+    "translation": "",
+    "pos": 2402
+  },
+  {
+    "passage": "Pharmacy Buy Condoms in Bulk",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "808_5_3_7|",
+    "original": "You tell the nurse about the vending machine in the brothel and ask <<him>> for a discount for buying large quantities of condoms.",
+    "translation": "",
+    "pos": 2464
+  },
+  {
+    "passage": "Pharmacy Buy Condoms in Bulk",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "810_5_3_7|",
+    "original": "<<He>> makes an incredulous face. \"What do you consider a large quantity? Hundreds, thousands, millions? Maybe it's better if you look for a wholesaler.\"",
+    "translation": "",
+    "pos": 2606
+  },
+  {
+    "passage": "Pharmacy Buy Condoms in Bulk",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "812_5_3_7|",
+    "original": "You answer that the vending machine has room for 200 packs and that you're thinking of buying them in increments of 10.",
+    "translation": "",
+    "pos": 2771
+  },
+  {
+    "passage": "Pharmacy Buy Condoms in Bulk",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "814_5_3_7|",
+    "original": "\"That is not a large quantity, <<girl>>. I can't give you a discount under 50 units. From 51 to 100, I can cut 2%. Above 100, I will give you a 5% discount. No more than that; the margin I work with isn't very high. Condoms are very expensive here. But I will add, as a bonus, delivery of the condoms you buy to the brothel.\"",
+    "translation": "",
+    "pos": 2902
+  },
+  {
+    "passage": "Pharmacy Buy Condoms in Bulk",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "818_5_3_7|",
+    "original": "<<link [[Buy condoms for the brothel (0:10)|Pharmacy Buy Condoms in Bulk]]>><<pass 10>><</link>>",
+    "translation": "",
+    "pos": 3326
+  },
+  {
+    "passage": "Pharmacy Buy Condoms in Bulk",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "820_5_3_7|",
+    "original": "<<link [[\"Don't buy\"|Pharmacy]]>><</link>>",
+    "translation": "",
+    "pos": 3430
+  },
+  {
+    "passage": "Pharmacy Bought Condoms in Bulk",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "828_5_3_7|",
+    "original": "\"All right, $condomsBought 3-packs of condoms.\" <<He>> prepares the packages in a<<if $condomsBought lte 25>> small<</if>> cardboard box while calculating the total out loud. \"This is _partial units, £60 each, _printmoney.",
+    "translation": "",
+    "pos": 162
+  },
+  {
+    "passage": "Pharmacy Bought Condoms in Bulk",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "834_5_3_7|",
+    "original": "Plus _partial units, £60 each, with a 2% discount, _printmoney.",
+    "translation": "",
+    "pos": 568
+  },
+  {
+    "passage": "Pharmacy Bought Condoms in Bulk",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "839_5_3_7|",
+    "original": "And _partial units, £60 each, reduced by 5%, _printmoney.",
+    "translation": "",
+    "pos": 776
+  },
+  {
+    "passage": "Pharmacy Bought Condoms in Bulk",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "841_5_3_7|",
+    "original": "Your total is <<printmoney _price>>.",
+    "translation": "",
+    "pos": 844
+  },
+  {
+    "passage": "Pharmacy Bought Condoms in Bulk",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "843_5_3_7|",
+    "original": "I'll send these out to be delivered. Thanks for your purchase.\"",
+    "translation": "",
+    "pos": 889
+  },
+  {
+    "passage": "Pharmacy Bought Condoms in Bulk",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "845_5_3_7|",
+    "original": "You count the money and give it to <<him>>.",
+    "translation": "",
+    "pos": 962
+  },
+  {
+    "passage": "Pharmacy Bought Condoms in Bulk",
+    "filepath": "overworld-town/loc-hospital/pharmacy.twee",
+    "key": "854_5_3_7|",
+    "original": "<<link [[Next|Pharmacy]]>><</link>>",
+    "translation": "",
+    "pos": 1299
+  }
+]

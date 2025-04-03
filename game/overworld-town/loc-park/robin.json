@@ -1,0 +1,5890 @@
+[
+  {
+    "passage": "Robin Chocolate Widgets",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "5_5_3_7|",
+    "original": "<<link [[Tell Robin the truth|Balloon Robin Check-In]]>><<endevent>><<set $phase to (\"confess_\"+$balloonStand.robin.status)>><</link>>",
+    "translation": "",
+    "pos": 180
+  },
+  {
+    "passage": "Robin Chocolate Widgets",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "7_5_3_7|",
+    "original": "<<link [[Stay silent|Balloon Robin Check-In]]>><<endevent>><<set $phase to (\"quiet_\"+$balloonStand.robin.status)>><</link>>",
+    "translation": "",
+    "pos": 324
+  },
+  {
+    "passage": "Robin Chocolate Widgets",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "11_5_3_7|",
+    "original": "<<foodicon \"cocoa\">><<link [[Buy hot chocolate (0:15)|Robin Chocolate Purchase]]>><<stress -6>><<trauma -1>><<pass 15>><<clotheson>><<endevent>><</link>><<lstress>><<ltrauma>>",
+    "translation": "",
+    "pos": 601
+  },
+  {
+    "passage": "Robin Chocolate Widgets",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "14_5_3_7|",
+    "original": "<<robinicon \"cocoa\">><<link [[Offer help (0:30)|Robin Chocolate Help]]>><<endevent>><<npcincr Robin love 1>><<npcincr Robin trauma -1>><<pass 30>><<clotheson>><</link>><<glove>><<lrtrauma>>",
+    "translation": "",
+    "pos": 797
+  },
+  {
+    "passage": "Robin Chocolate Widgets",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "16_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Park]]>><<endevent>><<clotheson>><</link>>",
+    "translation": "",
+    "pos": 996
+  },
+  {
+    "passage": "Robin Chocolate",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "27_5_3_7|",
+    "original": "Robin waves when <<he>> sees you. <<He>> stirs a steaming pot with <<his>> other hand. \"Hey,\" <<he>> says. \"People don't buy much lemonade when it's so cold. I'm selling hot chocolate instead. Here.\" <<He>> mixes warm milk from the pot with cocoa powder and sugar, then hands you the mug. It's very sweet.<<lstress>><<stress -6>>",
+    "translation": "",
+    "pos": 194
+  },
+  {
+    "passage": "Robin Chocolate",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "29_5_3_7|",
+    "original": "You see Robin <<if $robin.stayup isnot 2>>stood<<else>>nodding off<</if>> behind <<his>> hot chocolate stand, wrapped up warm against the cold. <<print $robin.timer.hurt gte 1 ? \"<<He>> glances away when <<he>> sees you.\" : C.npc.Robin.trauma gte 40 ? \"<<He>> flinches whenever somebody passes <<him>>. When <<he>> sees you, <<he>> gives a timid wave.\" : $robin.stayup is 2 ? \"<<He>> startles awake when you approach <<him>>.\" : \"<<He>> waves when <<he>> sees you.\">>",
+    "translation": "",
+    "pos": 534
+  },
+  {
+    "passage": "Robin Chocolate Purchase",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "40_5_3_7|",
+    "original": "\"<<print $robin.timer.hurt gte 1 ? \"I guess.\" : \"Sure!\">> One hot chocolate, coming right up!\" Robin says, turning to warm up the milk.",
+    "translation": "",
+    "pos": 73
+  },
+  {
+    "passage": "Robin Chocolate Purchase",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "43_5_3_7|",
+    "original": "You slip £2 across the counter to <<him>>, and accept the offered mug once it's ready.",
+    "translation": "",
+    "pos": 219
+  },
+  {
+    "passage": "Robin Chocolate Purchase",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "52_5_3_7|",
+    "original": "\"I-I can't take this from you...\" <<he>> says, sliding the money back across the counter to you. \"You're already paying Bailey for me. Besides, I'd just end up giving it back to you.\"",
+    "translation": "",
+    "pos": 505
+  },
+  {
+    "passage": "Robin Chocolate Purchase",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "57_5_3_7|",
+    "original": "\"I... do have to take it from you this time,\" <<he>> says, frowning as <<he>> looks down at the money. \"I have to pay for the powder and milk. I can't keep giving it away, even if I want to.\"",
+    "translation": "",
+    "pos": 759
+  },
+  {
+    "passage": "Robin Chocolate Purchase",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "61_5_3_7|",
+    "original": "\"Thanks for your purchase!\" <<he>> says with a smile, putting the money somewhere under the counter.",
+    "translation": "",
+    "pos": 988
+  },
+  {
+    "passage": "Robin Chocolate Purchase",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "66_5_3_7|",
+    "original": "You take your time with the mug, letting it warm your hands as you sip away at the hot chocolate.",
+    "translation": "",
+    "pos": 1108
+  },
+  {
+    "passage": "Robin Chocolate Purchase",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "69_5_3_7|",
+    "original": "\"<<print either(",
+    "translation": "",
+    "pos": 1216
+  },
+  {
+    "passage": "Robin Chocolate Purchase",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "70_5_3_7|",
+    "original": "\"...Have you ever watched the sky on a clear night? There's so many stars out there... So many worlds just like ours. ...It might be a little too cold for that now, though.\",",
+    "translation": "",
+    "pos": 1233
+  },
+  {
+    "passage": "Robin Chocolate Purchase",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "71_5_3_7|",
+    "original": "\"...Do you think Bailey will ever be gone? There has to be someone powerful out there who hates <<nnpc_him Bailey>>, right?\",",
+    "translation": "",
+    "pos": 1408
+  },
+  {
+    "passage": "Robin Chocolate Purchase",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "72_5_3_7|",
+    "original": "\"It's hard to keep the stand running some days. But it's worth it in the end.\")>>\"",
+    "translation": "",
+    "pos": 1534
+  },
+  {
+    "passage": "Robin Chocolate Purchase",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "73_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 1617
+  },
+  {
+    "passage": "Robin Chocolate Purchase",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "75_5_3_7|",
+    "original": "<<if Time.hour gte 17>>",
+    "translation": "",
+    "pos": 1627
+  },
+  {
+    "passage": "Robin Chocolate Purchase",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "76_5_3_7|",
+    "original": "\"It's getting nippy out,\" Robin says. \"Could you help me carry my stuff home?\"",
+    "translation": "",
+    "pos": 1652
+  },
+  {
+    "passage": "Robin Chocolate Purchase",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "77_5_3_7|",
+    "original": "<<endevent>>",
+    "translation": "",
+    "pos": 1732
+  },
+  {
+    "passage": "Robin Chocolate Purchase",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "78_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 1746
+  },
+  {
+    "passage": "Robin Chocolate Purchase",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "79_5_3_7|",
+    "original": "<<link [[Accept (0:30)|Orphanage]]>><<npcincr Robin love 1>><<pass 30>><<clotheson>><</link>><<glove>>",
+    "translation": "",
+    "pos": 1756
+  },
+  {
+    "passage": "Robin Chocolate Purchase",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "80_5_3_7|",
+    "original": "<br>",
+    "translation": "",
+    "pos": 1860
+  },
+  {
+    "passage": "Robin Chocolate Purchase",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "81_5_3_7|",
+    "original": "<<link [[Refuse|Park]]>><<clotheson>><</link>>",
+    "translation": "",
+    "pos": 1866
+  },
+  {
+    "passage": "Robin Chocolate Purchase",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "82_5_3_7|",
+    "original": "<br>",
+    "translation": "",
+    "pos": 1914
+  },
+  {
+    "passage": "Robin Chocolate Purchase",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "84_5_3_7|",
+    "original": "<<else>>",
+    "translation": "",
+    "pos": 1920
+  },
+  {
+    "passage": "Robin Chocolate Purchase",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "85_5_3_7|",
+    "original": "<<robinChocolateOfferHelp>>",
+    "translation": "",
+    "pos": 1930
+  },
+  {
+    "passage": "Robin Chocolate Purchase",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "87_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 1959
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "89_5_3_7|",
+    "original": ":: Robin Chocolate Help",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "90_5_3_7|",
+    "original": "<<npc Robin>><<person1>>",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "91_5_3_7|",
+    "original": "<<set _robin to statusCheck(\"Robin\")>>",
+    "translation": "",
+    "pos": 25
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "92_5_3_7|",
+    "original": "<<effects>>",
+    "translation": "",
+    "pos": 64
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "93_5_3_7|",
+    "original": "<<if $leftarm is \"bound\" or $rightarm is \"bound\">>",
+    "translation": "",
+    "pos": 76
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "94_5_3_7|",
+    "original": "<<He>> looks at your arms. \"Oh. You can't help like that. Here.\" <<He>> walks behind you, and undoes your bindings with deft hands.<<unbind>>",
+    "translation": "",
+    "pos": 128
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "95_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 271
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "96_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 280
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "97_5_3_7|",
+    "original": "<<if Time.hour gte 17>>",
+    "translation": "",
+    "pos": 288
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "98_5_3_7|",
+    "original": "<<if _robin.trauma gte 40>>",
+    "translation": "",
+    "pos": 313
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "99_5_3_7|",
+    "original": "\"I think I want to go home,\" Robin says, shivering. \"This is too much right now.\"",
+    "translation": "",
+    "pos": 343
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "100_5_3_7|",
+    "original": "<<else>>",
+    "translation": "",
+    "pos": 426
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "101_5_3_7|",
+    "original": "\"I'd like help carrying my stuff home,\" Robin says. \"It's getting nippy.\"",
+    "translation": "",
+    "pos": 437
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "102_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 512
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "103_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 521
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "104_5_3_7|",
+    "original": "You walk with Robin back to the orphanage.",
+    "translation": "",
+    "pos": 531
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "105_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 575
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "107_5_3_7|",
+    "original": "<<if $arousal gte $arousalmax>>",
+    "translation": "",
+    "pos": 586
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "108_5_3_7|",
+    "original": "You're almost back when your body finally betrays you.",
+    "translation": "",
+    "pos": 620
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "109_5_3_7|",
+    "original": "<<orgasm>>",
+    "translation": "",
+    "pos": 677
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "110_5_3_7|",
+    "original": "Robin politely looks away, but can't help but be affected.<<npcincr Robin lust 1>>",
+    "translation": "",
+    "pos": 690
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "111_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 775
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "112_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 785
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "113_5_3_7|",
+    "original": "<<endevent>>",
+    "translation": "",
+    "pos": 794
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "114_5_3_7|",
+    "original": "<<link [[Next|Orphanage]]>><</link>>",
+    "translation": "",
+    "pos": 808
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "115_5_3_7|",
+    "original": "<br>",
+    "translation": "",
+    "pos": 846
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "116_5_3_7|",
+    "original": "<<elseif $robin.timer.hurt gte 1>>",
+    "translation": "",
+    "pos": 851
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "117_5_3_7|",
+    "original": "<<balloonRobinAngryHelp>>",
+    "translation": "",
+    "pos": 887
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "118_5_3_7|",
+    "original": "<<robinChocolateOfferHelp>>",
+    "translation": "",
+    "pos": 914
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "119_5_3_7|",
+    "original": "<<else>>",
+    "translation": "",
+    "pos": 942
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "120_5_3_7|",
+    "original": "<<He>> smiles.",
+    "translation": "",
+    "pos": 952
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "121_5_3_7|",
+    "original": "<<if $rng gte 81 and $cow gte 6 and $livestock_intro isnot undefined>>",
+    "translation": "",
+    "pos": 968
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "122_5_3_7|",
+    "original": "<<if _robin.trauma gte 40>>",
+    "translation": "",
+    "pos": 1041
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "123_5_3_7|",
+    "original": "\"I think I'm okay right now, but could you please stay with me?\" Robin asks you as <<he>> fidgets.",
+    "translation": "",
+    "pos": 1072
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "124_5_3_7|",
+    "original": "<<else>>",
+    "translation": "",
+    "pos": 1173
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "125_5_3_7|",
+    "original": "\"I have everything I need. You're welcome to stay though. I would like the company.\"",
+    "translation": "",
+    "pos": 1185
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "126_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 1272
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "127_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 1282
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "128_5_3_7|",
+    "original": "You keep Robin company while <<he>> runs the stand, and chat with <<him>> while there are no customers.",
+    "translation": "",
+    "pos": 1293
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "129_5_3_7|",
+    "original": "<<npcincr Robin love 1>><<glove>><<ltrauma>><<lstress>><<trauma -3>><<stress -6>>",
+    "translation": "",
+    "pos": 1399
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "130_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 1483
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "132_5_3_7|",
+    "original": "<<generate2>><<person2>>",
+    "translation": "",
+    "pos": 1495
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "133_5_3_7|",
+    "original": "A <<person>> approaches the stand.",
+    "translation": "",
+    "pos": 1522
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "134_5_3_7|",
+    "original": "<<if _robin.trauma gte 40>>",
+    "translation": "",
+    "pos": 1559
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "135_5_3_7|",
+    "original": "\"Hi,\" Robin says, looking down. \"T-two pounds for chocolate if that's okay.\"",
+    "translation": "",
+    "pos": 1590
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "136_5_3_7|",
+    "original": "<<else>>",
+    "translation": "",
+    "pos": 1669
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "137_5_3_7|",
+    "original": "\"Welcome,\" Robin says. \"Two pounds for a warm mug of chocolate.\"",
+    "translation": "",
+    "pos": 1681
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "138_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 1748
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "139_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 1758
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "140_5_3_7|",
+    "original": "\"Sure, sweetie,\" the <<person>> says before turning to you. <<He>> sprouts a lecherous, crooked smile. \"I remember you. From the farm. Why don't you come with me? I'll bring you home.\" <<He>> holds <<his>> hand out.",
+    "translation": "",
+    "pos": 1769
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "141_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 1987
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "142_5_3_7|",
+    "original": "You feel conflicted. Memories of your abuse conflict with pleasant thoughts of open fields. You hesitate, then bring your hand to <<hers>>.",
+    "translation": "",
+    "pos": 1998
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "143_5_3_7|",
+    "original": "<<if _robin.dom gte 60>>",
+    "translation": "",
+    "pos": 2140
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "144_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 2168
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "145_5_3_7|",
+    "original": "<<link [[Next|Robin Chocolate Cow]]>><</link>>",
+    "translation": "",
+    "pos": 2180
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "146_5_3_7|",
+    "original": "<br>",
+    "translation": "",
+    "pos": 2230
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "148_5_3_7|",
+    "original": "<<else>>",
+    "translation": "",
+    "pos": 2238
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "149_5_3_7|",
+    "original": "\"E-Excuse me, <<sir>>,\" Robin interrupts. \"Your hot chocolate.\"",
+    "translation": "",
+    "pos": 2250
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "150_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 2317
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "151_5_3_7|",
+    "original": "The <<person>> looks surprised, but <<his>> smile doesn't fade. \"Thanks, sweetheart,\" <<he>> says, taking the proffered mug. \"Keep a close eye on your friend.\" <<He>> walks away.",
+    "translation": "",
+    "pos": 2329
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "152_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 2511
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "153_5_3_7|",
+    "original": "The other customers are less creepy, but Robin seems shaken.",
+    "translation": "",
+    "pos": 2523
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "154_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 2587
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "156_5_3_7|",
+    "original": "<<robinChocolateOfferHelp>>",
+    "translation": "",
+    "pos": 2600
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "157_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 2630
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "158_5_3_7|",
+    "original": "<<elseif $rng gte 61>>",
+    "translation": "",
+    "pos": 2639
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "159_5_3_7|",
+    "original": "\"I'd like to give out free samples. Could you take this tray around the park, and offer them to anyone who looks cold? I hope it's not too heavy.\"",
+    "translation": "",
+    "pos": 2664
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "160_5_3_7|",
+    "original": "<<wearProp \"tray\">>",
+    "translation": "",
+    "pos": 2813
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "161_5_3_7|",
+    "original": "<<if _robin.trauma gte 40>>",
+    "translation": "",
+    "pos": 2835
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "162_5_3_7|",
+    "original": "<<He>> pauses before handing you the tray. \"Hurry back please,\" <<he>> adds in a quiet voice.",
+    "translation": "",
+    "pos": 2866
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "163_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 2962
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "164_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 2972
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "165_5_3_7|",
+    "original": "You take the tray, and walk through the park. You find no shortage of cold and thirsty hands, and make sure to mention Robin's stand.",
+    "translation": "",
+    "pos": 2983
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "166_5_3_7|",
+    "original": "<<set $robinmoney += 5>>",
+    "translation": "",
+    "pos": 3119
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "167_5_3_7|",
+    "original": "<<generate2>><<person2>>",
+    "translation": "",
+    "pos": 3146
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "168_5_3_7|",
+    "original": "<<set $danger to random(1, 10000)>><<set $dangerevent to 0>>",
+    "translation": "",
+    "pos": 3173
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "169_5_3_7|",
+    "original": "<<if $danger gte (9900 - $allure)>>",
+    "translation": "",
+    "pos": 3236
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "170_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 3275
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "171_5_3_7|",
+    "original": "A <<person>> creeps up behind you,",
+    "translation": "",
+    "pos": 3287
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "172_5_3_7|",
+    "original": "<<if setup.clothes.lower[clothesIndex('lower', $worn.lower)].skirt is 1>>",
+    "translation": "",
+    "pos": 3325
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "173_5_3_7|",
+    "original": "<span class=\"purple\">and grasps the hem of your skirt.</span>",
+    "translation": "",
+    "pos": 3403
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "174_5_3_7|",
+    "original": "<<elseif $worn.lower.set isnot $worn.upper.set>>",
+    "translation": "",
+    "pos": 3468
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "175_5_3_7|",
+    "original": "<span class=\"purple\">and grasps the hem of your $worn.lower.name.</span>",
+    "translation": "",
+    "pos": 3521
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "176_5_3_7|",
+    "original": "<<else>>",
+    "translation": "",
+    "pos": 3597
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "177_5_3_7|",
+    "original": "<span class=\"purple\">and grasps your <<breasts>>.</span>",
+    "translation": "",
+    "pos": 3610
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "178_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 3670
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "179_5_3_7|",
+    "original": "<<gstress>><<stress 6>>",
+    "translation": "",
+    "pos": 3681
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "180_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 3708
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "182_5_3_7|",
+    "original": "You could stop <<him>>, but your hands are occupied by the awkward tray.",
+    "translation": "",
+    "pos": 3721
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "183_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 3797
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "185_5_3_7|",
+    "original": "<<link [[Shove|Robin Chocolate Slap]]>><<def 1>><</link>><<dancedifficulty 1 1000>>",
+    "translation": "",
+    "pos": 3810
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "186_5_3_7|",
+    "original": "<br>",
+    "translation": "",
+    "pos": 3897
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "187_5_3_7|",
+    "original": "<<link [[Endure|Robin Chocolate Endure]]>><<sub 1>><<trauma 6>><<stress 6>><</link>><<gtrauma>><<gstress>>",
+    "translation": "",
+    "pos": 3905
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "188_5_3_7|",
+    "original": "<br>",
+    "translation": "",
+    "pos": 4015
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "189_5_3_7|",
+    "original": "<<else>>",
+    "translation": "",
+    "pos": 4022
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "190_5_3_7|",
+    "original": "<<famebusiness 1>>",
+    "translation": "",
+    "pos": 4034
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "191_5_3_7|",
+    "original": "<<rng 5>>",
+    "translation": "",
+    "pos": 4056
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "192_5_3_7|",
+    "original": "<<switch $rng>>",
+    "translation": "",
+    "pos": 4069
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "193_5_3_7|",
+    "original": "<<case 1>> Passing a bus stop is enough to empty half the tray.",
+    "translation": "",
+    "pos": 4089
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "194_5_3_7|",
+    "original": "<<case 2>> A red-nosed <<father>> is particularly grateful for two mugs, which <<he>> uses to coax <<his>> children down from a tree.",
+    "translation": "",
+    "pos": 4157
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "195_5_3_7|",
+    "original": "<<case 3>> A homeless <<personsimple>> takes one, and warms <<his>> hands against the mug.",
+    "translation": "",
+    "pos": 4295
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "196_5_3_7|",
+    "original": "<<case 4>> A <<person>> grabs one as <<he>> jogs past, and drinks it without slowing.",
+    "translation": "",
+    "pos": 4390
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "197_5_3_7|",
+    "original": "<<case 5>> A lot of people weren't prepared for the cold.",
+    "translation": "",
+    "pos": 4480
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "198_5_3_7|",
+    "original": "<</switch>>",
+    "translation": "",
+    "pos": 4541
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "199_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 4556
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "200_5_3_7|",
+    "original": "<<person1>>",
+    "translation": "",
+    "pos": 4568
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "201_5_3_7|",
+    "original": "Robin smiles when you return to <<him>>.",
+    "translation": "",
+    "pos": 4583
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "202_5_3_7|",
+    "original": "<<if _robin.trauma gte 40>>",
+    "translation": "",
+    "pos": 4627
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "203_5_3_7|",
+    "original": "<<He>> hugs you the moment you place the tray down. \"Thank you.\"",
+    "translation": "",
+    "pos": 4659
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "204_5_3_7|",
+    "original": "<<else>>",
+    "translation": "",
+    "pos": 4727
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "205_5_3_7|",
+    "original": "\"Business has improved a lot,\" <<he>> says. \"Thank you.\"",
+    "translation": "",
+    "pos": 4740
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "206_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 4800
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "207_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 4811
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "208_5_3_7|",
+    "original": "<<robinChocolateOfferHelp>>",
+    "translation": "",
+    "pos": 4823
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "209_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 4853
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "210_5_3_7|",
+    "original": "<<elseif $rng gte 41 and Weather.isSnow>>",
+    "translation": "",
+    "pos": 4862
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "211_5_3_7|",
+    "original": "<<if _robin.trauma gte 40>>",
+    "translation": "",
+    "pos": 4906
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "212_5_3_7|",
+    "original": "\"I think I'm okay right now, but could you please stay with me?\" Robin asks you as <<he>> fidgets.",
+    "translation": "",
+    "pos": 4937
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "213_5_3_7|",
+    "original": "<<else>>",
+    "translation": "",
+    "pos": 5038
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "214_5_3_7|",
+    "original": "\"I have everything I need. You're welcome to stay though. I would like the company.\"",
+    "translation": "",
+    "pos": 5050
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "215_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 5137
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "216_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 5147
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "217_5_3_7|",
+    "original": "You keep Robin company while <<he>> runs the stand, and chat with <<him>> while there are no customers.",
+    "translation": "",
+    "pos": 5158
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "218_5_3_7|",
+    "original": "<<npcincr Robin love 1>><<glove>><<ltrauma>><<lstress>><<trauma -3>><<stress -6>>",
+    "translation": "",
+    "pos": 5264
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "219_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 5348
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "220_5_3_7|",
+    "original": "<<set $danger to random(1, 10000)>><<set $dangerevent to 0>>",
+    "translation": "",
+    "pos": 5359
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "221_5_3_7|",
+    "original": "<<if $danger gte (9900 - $allure) and !$daily.robin.parkSnow>>",
+    "translation": "",
+    "pos": 5422
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "222_5_3_7|",
+    "original": "<<set $daily.robin.parkSnow to 1>>",
+    "translation": "",
+    "pos": 5488
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "223_5_3_7|",
+    "original": "A snowball hurtles through the air.",
+    "translation": "",
+    "pos": 5526
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "224_5_3_7|",
+    "original": "<<if _robin.trauma gte 40>>",
+    "translation": "",
+    "pos": 5565
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "225_5_3_7|",
+    "original": "Robin sees the snowball but freezes, only managing to flinch before <<hes>> hit with a faceful of snow. You duck and pull <<him>> down.",
+    "translation": "",
+    "pos": 5597
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "226_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 5737
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "227_5_3_7|",
+    "original": "Robin wipes the snow from <<his>> face and shivers. \"Let's just w-wait,\" <<he>> says. \"They'll leave us alone eventually.\"",
+    "translation": "",
+    "pos": 5750
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "228_5_3_7|",
+    "original": "<<else>>",
+    "translation": "",
+    "pos": 5876
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "229_5_3_7|",
+    "original": "Robin ducks just in time, then pulls you down by the arm. Another snowball soars overhead. You hear juvenile laughter.",
+    "translation": "",
+    "pos": 5889
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "230_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 6012
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "231_5_3_7|",
+    "original": "\"They'll get bored and leave,\" Robin says, sitting on the snow. \"We just need to be patient.\"",
+    "translation": "",
+    "pos": 6025
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "232_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 6122
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "233_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 6133
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "234_5_3_7|",
+    "original": "<<link [[Wait|Robin Chocolate Wait]]>><</link>>",
+    "translation": "",
+    "pos": 6145
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "235_5_3_7|",
+    "original": "<br>",
+    "translation": "",
+    "pos": 6196
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "236_5_3_7|",
+    "original": "<<link [[Challenge the leader|Robin Chocolate Challenge]]>><</link>>",
+    "translation": "",
+    "pos": 6204
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "237_5_3_7|",
+    "original": "<br>",
+    "translation": "",
+    "pos": 6276
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "238_5_3_7|",
+    "original": "<<link [[Take them all on|Robin Chocolate Take]]>><</link>>",
+    "translation": "",
+    "pos": 6284
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "239_5_3_7|",
+    "original": "<br>",
+    "translation": "",
+    "pos": 6347
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "240_5_3_7|",
+    "original": "<<if $robinromance is 1>>",
+    "translation": "",
+    "pos": 6355
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "241_5_3_7|",
+    "original": "<<link [[Make out|Robin Chocolate Kiss]]>><<npcincr Robin love 1>><<npcincr Robin lust 1>><</link>><<promiscuous1>><<glove>><<glust>>",
+    "translation": "",
+    "pos": 6385
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "242_5_3_7|",
+    "original": "<br>",
+    "translation": "",
+    "pos": 6523
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "243_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 6531
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "244_5_3_7|",
+    "original": "<<else>>",
+    "translation": "",
+    "pos": 6541
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "245_5_3_7|",
+    "original": "\"Thank you for spending time with me,\" <<he>> says after a while.",
+    "translation": "",
+    "pos": 6553
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "246_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 6622
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "247_5_3_7|",
+    "original": "<<robinChocolateOfferHelp>>",
+    "translation": "",
+    "pos": 6634
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "248_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 6664
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "249_5_3_7|",
+    "original": "<<else>>",
+    "translation": "",
+    "pos": 6673
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "250_5_3_7|",
+    "original": "<<if _robin.trauma gte 40>>",
+    "translation": "",
+    "pos": 6684
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "251_5_3_7|",
+    "original": "\"I need some more milk. I'm sorry. I know it's heavy, but could you buy some more?\" <<He>> shivers even through <<his>> warm attire. \"Harvest Street has some.\" <<He>> hands you £5 and a large bottle. \"That should be enough.\"",
+    "translation": "",
+    "pos": 6715
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "252_5_3_7|",
+    "original": "<<else>>",
+    "translation": "",
+    "pos": 6942
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "253_5_3_7|",
+    "original": "\"I need to start heating another pot of milk. I don't like asking because it's heavy, but could you buy some more? You'll need to go to Harvest Street for the fresh stuff.\" <<He>> hands you £5 and a large bottle. \"That should be enough to fill it.\"",
+    "translation": "",
+    "pos": 6954
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "254_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 7205
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "255_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 7215
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "256_5_3_7|",
+    "original": "<<if $breastfeedingdisable is \"f\" and $lactating is 1 and hasSexStat(\"promiscuity\", 3) and $awareness gte 100>>",
+    "translation": "",
+    "pos": 7226
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "257_5_3_7|",
+    "original": "A thought strikes as you pass the toilets. There's a closer source of fresh milk.",
+    "translation": "",
+    "pos": 7341
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "258_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 7426
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "260_5_3_7|",
+    "original": "<<link [[Milk yourself|Robin Milk Masturbation]]>><<set $masturbationstart to 1>><</link>><<promiscuous3>>",
+    "translation": "",
+    "pos": 7439
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "261_5_3_7|",
+    "original": "<br>",
+    "translation": "",
+    "pos": 7549
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "262_5_3_7|",
+    "original": "<<else>>",
+    "translation": "",
+    "pos": 7556
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "263_5_3_7|",
+    "original": "You leave the park, and follow the road to Harvest Street.",
+    "translation": "",
+    "pos": 7568
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "264_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 7630
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "265_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 7641
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "266_5_3_7|",
+    "original": "<<link [[Buy the milk|Robin Milk Buy]]>><</link>>",
+    "translation": "",
+    "pos": 7651
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "267_5_3_7|",
+    "original": "<br>",
+    "translation": "",
+    "pos": 7703
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "268_5_3_7|",
+    "original": "<<set $skulduggerydifficulty to 400>>",
+    "translation": "",
+    "pos": 7710
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "269_5_3_7|",
+    "original": "<<link [[Steal the milk|Robin Milk Steal]]>><<crimeUp 5 \"petty\">><</link>><<skulduggerydifficulty>><<crime \"petty\">>",
+    "translation": "",
+    "pos": 7750
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "270_5_3_7|",
+    "original": "<br>",
+    "translation": "",
+    "pos": 7869
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "271_5_3_7|",
+    "original": "<<if hasSexStat(\"promiscuity\", 2)>>",
+    "translation": "",
+    "pos": 7876
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "272_5_3_7|",
+    "original": "<<link [[Flirt for cheaper milk|Robin Milk Seduction]]>><</link>><<promiscuous2>>",
+    "translation": "",
+    "pos": 7915
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "273_5_3_7|",
+    "original": "<br>",
+    "translation": "",
+    "pos": 8000
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "274_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 8007
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "275_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 8016
+  },
+  {
+    "passage": "Robin Chocolate Help",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "276_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 8024
+  },
+  {
+    "passage": "Robin Chocolate Set",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "279_5_3_7|",
+    "original": ":: Robin Chocolate Set",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Robin Chocolate Set",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "280_5_3_7|",
+    "original": "<<set $outside to 1>><<set $location to \"park\">><<effects>>",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Robin Chocolate Set",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "281_5_3_7|",
+    "original": "<<set _robin to statusCheck(\"Robin\")>>",
+    "translation": "",
+    "pos": 60
+  },
+  {
+    "passage": "Robin Chocolate Set",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "283_5_3_7|",
+    "original": "<<if $leftarm is \"bound\" or $rightarm is \"bound\">>",
+    "translation": "",
+    "pos": 100
+  },
+  {
+    "passage": "Robin Chocolate Set",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "284_5_3_7|",
+    "original": "<<He>> looks at your arms. \"Oh. You can't help like that. Here.\" <<He>> walks behind you, and undoes your bindings with deft hands.<<unbind>>",
+    "translation": "",
+    "pos": 152
+  },
+  {
+    "passage": "Robin Chocolate Set",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "285_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 295
+  },
+  {
+    "passage": "Robin Chocolate Set",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "286_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 304
+  },
+  {
+    "passage": "Robin Chocolate Set",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "287_5_3_7|",
+    "original": "You help Robin carry <<his>> equipment to the park. \"Thank you for the help,\" <<he>> says.",
+    "translation": "",
+    "pos": 312
+  },
+  {
+    "passage": "Robin Chocolate Set",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "288_5_3_7|",
+    "original": "<<if _robin.trauma gte 40>>",
+    "translation": "",
+    "pos": 403
+  },
+  {
+    "passage": "Robin Chocolate Set",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "289_5_3_7|",
+    "original": "\"I don't know what I'd do if I was by myself.\"",
+    "translation": "",
+    "pos": 432
+  },
+  {
+    "passage": "Robin Chocolate Set",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "290_5_3_7|",
+    "original": "<<else>>",
+    "translation": "",
+    "pos": 479
+  },
+  {
+    "passage": "Robin Chocolate Set",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "291_5_3_7|",
+    "original": "\"It's hard carrying it all on my own.\"",
+    "translation": "",
+    "pos": 489
+  },
+  {
+    "passage": "Robin Chocolate Set",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "292_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 528
+  },
+  {
+    "passage": "Robin Chocolate Set",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "293_5_3_7|",
+    "original": "<<He>> lights <<his>> portable stove.",
+    "translation": "",
+    "pos": 536
+  },
+  {
+    "passage": "Robin Chocolate Set",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "294_5_3_7|",
+    "original": "<<balloonRobinTalk>>",
+    "translation": "",
+    "pos": 574
+  },
+  {
+    "passage": "Robin Chocolate Set",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "295_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 595
+  },
+  {
+    "passage": "Robin Chocolate Set",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "296_5_3_7|",
+    "original": "<<robinChocolateOfferHelp>>",
+    "translation": "",
+    "pos": 604
+  },
+  {
+    "passage": "Robin Chocolate Set Tutorial",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "298_5_3_7|",
+    "original": ":: Robin Chocolate Set Tutorial",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Robin Chocolate Set Tutorial",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "299_5_3_7|",
+    "original": "<<set $outside to 1>><<set $location to \"town\">><<effects>>",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Robin Chocolate Set Tutorial",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "300_5_3_7|",
+    "original": "You and Robin leave for the park. You are walking a little ahead, carrying some of <<his>> equipment. Just as you leave the orphanage with Robin you bump into a <<endevent>><<generate1>><<person1>><<person>> passing by. The clash causes you to drop what you are holding.",
+    "translation": "",
+    "pos": 60
+  },
+  {
+    "passage": "Robin Chocolate Set Tutorial",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "301_5_3_7|",
+    "original": "<<He>> staggers back and looks at you with anger, but <<his>> rage turns to lechery as <<he>> beholds you. \"You're the cutest thing I've seen all week! Come 'ere.\"",
+    "translation": "",
+    "pos": 331
+  },
+  {
+    "passage": "Robin Chocolate Set Tutorial",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "302_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 495
+  },
+  {
+    "passage": "Robin Chocolate Set Tutorial",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "303_5_3_7|",
+    "original": "<<link [[Next|Tutorial]]>><<set $molestationstart to 1>><<set $tutorialExit to \"Robin Chocolate Set Tutorial 2\">><</link>>",
+    "translation": "",
+    "pos": 504
+  },
+  {
+    "passage": "Robin Chocolate Set Tutorial 2",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "305_5_3_7|",
+    "original": ":: Robin Chocolate Set Tutorial 2",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Robin Chocolate Set Tutorial 2",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "306_5_3_7|",
+    "original": "<<set $outside to 1>><<set $location to \"park\">><<effects>>",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Robin Chocolate Set Tutorial 2",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "307_5_3_7|",
+    "original": "<<npc Robin>><<person1>>",
+    "translation": "",
+    "pos": 60
+  },
+  {
+    "passage": "Robin Chocolate Set Tutorial 2",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "308_5_3_7|",
+    "original": "Robin spots you exiting the alley. \"A-Are you okay?\" <<he>> asks, with a worried expression. \"They didn't hurt you, did they?\"",
+    "translation": "",
+    "pos": 85
+  },
+  {
+    "passage": "Robin Chocolate Set Tutorial 2",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "309_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 212
+  },
+  {
+    "passage": "Robin Chocolate Set Tutorial 2",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "310_5_3_7|",
+    "original": "You nod, pick up <<his>> dropped equipment and continue to walk to the park with Robin. The rest of the trip is uneventful.",
+    "translation": "",
+    "pos": 221
+  },
+  {
+    "passage": "Robin Chocolate Set Tutorial 2",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "311_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 345
+  },
+  {
+    "passage": "Robin Chocolate Set Tutorial 2",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "312_5_3_7|",
+    "original": "<<robinChocolateOfferHelp>>",
+    "translation": "",
+    "pos": 354
+  },
+  {
+    "passage": "Robin Chocolate Cow",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "314_5_3_7|",
+    "original": ":: Robin Chocolate Cow",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Robin Chocolate Cow",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "315_5_3_7|",
+    "original": "<<effects>>",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Robin Chocolate Cow",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "316_5_3_7|",
+    "original": "<<set _robin to statusCheck(\"Robin\")>>",
+    "translation": "",
+    "pos": 12
+  },
+  {
+    "passage": "Robin Chocolate Cow",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "318_5_3_7|",
+    "original": "Before your hand meets the <<persons>>, someone pulls your arm back. Robin pushes you behind <<person1>><<him>>.",
+    "translation": "",
+    "pos": 52
+  },
+  {
+    "passage": "Robin Chocolate Cow",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "319_5_3_7|",
+    "original": "<<if _robin.trauma gte 40>>",
+    "translation": "",
+    "pos": 165
+  },
+  {
+    "passage": "Robin Chocolate Cow",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "320_5_3_7|",
+    "original": "\"Y-you're not taking <<phim>>!\" <<he>> says, handing the <<person2>><<person>> <<his>> cup with a shaky hand.",
+    "translation": "",
+    "pos": 194
+  },
+  {
+    "passage": "Robin Chocolate Cow",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "321_5_3_7|",
+    "original": "<<else>>",
+    "translation": "",
+    "pos": 304
+  },
+  {
+    "passage": "Robin Chocolate Cow",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "322_5_3_7|",
+    "original": "\"I need to ask you to leave,\" <<he>> says, handing the <<person2>><<person>> <<his>> cup.",
+    "translation": "",
+    "pos": 314
+  },
+  {
+    "passage": "Robin Chocolate Cow",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "323_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 404
+  },
+  {
+    "passage": "Robin Chocolate Cow",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "324_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 412
+  },
+  {
+    "passage": "Robin Chocolate Cow",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "326_5_3_7|",
+    "original": "\"Careful, <<nnpc_gendery \"Robin\">>,\" the <<person2>><<person>> says. \"Your friend is worth a lot. I'd hate to see you wind up like <<phim>>.\"",
+    "translation": "",
+    "pos": 422
+  },
+  {
+    "passage": "Robin Chocolate Cow",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "327_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 564
+  },
+  {
+    "passage": "Robin Chocolate Cow",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "329_5_3_7|",
+    "original": "<<if _robin.trauma gte 40>>",
+    "translation": "",
+    "pos": 574
+  },
+  {
+    "passage": "Robin Chocolate Cow",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "330_5_3_7|",
+    "original": "Robin flinches, but holds <<nnpc_his \"Robin\">> ground. \"Leave before I call the police.\"",
+    "translation": "",
+    "pos": 603
+  },
+  {
+    "passage": "Robin Chocolate Cow",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "331_5_3_7|",
+    "original": "<<else>>",
+    "translation": "",
+    "pos": 692
+  },
+  {
+    "passage": "Robin Chocolate Cow",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "332_5_3_7|",
+    "original": "Robin frowns. \"I'm asking you to leave one last time before I call the police.\"",
+    "translation": "",
+    "pos": 702
+  },
+  {
+    "passage": "Robin Chocolate Cow",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "333_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 782
+  },
+  {
+    "passage": "Robin Chocolate Cow",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "334_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 790
+  },
+  {
+    "passage": "Robin Chocolate Cow",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "336_5_3_7|",
+    "original": "The <<person>> laughs and pours the chocolate into the snow. \"Keep the money. Better keep an eye on your friend.\" <<He>> leaves.",
+    "translation": "",
+    "pos": 800
+  },
+  {
+    "passage": "Robin Chocolate Cow",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "337_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 929
+  },
+  {
+    "passage": "Robin Chocolate Cow",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "339_5_3_7|",
+    "original": "You turn to Robin, tilt your head, and give a worried moo.",
+    "translation": "",
+    "pos": 939
+  },
+  {
+    "passage": "Robin Chocolate Cow",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "340_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 998
+  },
+  {
+    "passage": "Robin Chocolate Cow",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "342_5_3_7|",
+    "original": "<<if _robin.trauma gte 40>>",
+    "translation": "",
+    "pos": 1008
+  },
+  {
+    "passage": "Robin Chocolate Cow",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "343_5_3_7|",
+    "original": "\"Everything's okay,\" Robin says. \"Here.\"",
+    "translation": "",
+    "pos": 1037
+  },
+  {
+    "passage": "Robin Chocolate Cow",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "344_5_3_7|",
+    "original": "<<else>>",
+    "translation": "",
+    "pos": 1078
+  },
+  {
+    "passage": "Robin Chocolate Cow",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "345_5_3_7|",
+    "original": "\"It's okay,\" Robin says. \"Here.\"",
+    "translation": "",
+    "pos": 1088
+  },
+  {
+    "passage": "Robin Chocolate Cow",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "346_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 1121
+  },
+  {
+    "passage": "Robin Chocolate Cow",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "347_5_3_7|",
+    "original": "<<person1>><<He>> mixes another mug of hot chocolate, and hands it to you.",
+    "translation": "",
+    "pos": 1129
+  },
+  {
+    "passage": "Robin Chocolate Cow",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "348_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 1204
+  },
+  {
+    "passage": "Robin Chocolate Cow",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "350_5_3_7|",
+    "original": "\"This should make you feel better.\" <<Hes>> right.<<gdom>><<npcincr Robin dom 1>><<lstress>><<stress -6>>",
+    "translation": "",
+    "pos": 1214
+  },
+  {
+    "passage": "Robin Chocolate Cow",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "351_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 1320
+  },
+  {
+    "passage": "Robin Chocolate Cow",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "353_5_3_7|",
+    "original": "The other customers are less creepy.",
+    "translation": "",
+    "pos": 1330
+  },
+  {
+    "passage": "Robin Chocolate Cow",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "354_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 1367
+  },
+  {
+    "passage": "Robin Chocolate Cow",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "356_5_3_7|",
+    "original": "<<robinChocolateOfferHelp>>",
+    "translation": "",
+    "pos": 1377
+  },
+  {
+    "passage": "Robin Chocolate Slap",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "358_5_3_7|",
+    "original": ":: Robin Chocolate Slap",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Robin Chocolate Slap",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "359_5_3_7|",
+    "original": "<<effects>>",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Robin Chocolate Slap",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "360_5_3_7|",
+    "original": "<<set _robin to statusCheck(\"Robin\")>>",
+    "translation": "",
+    "pos": 12
+  },
+  {
+    "passage": "Robin Chocolate Slap",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "362_5_3_7|",
+    "original": "You throw the tray in the air, spin, and smack the <<person>> across the face. <<He>> skids on the icy ground, and falls on <<his>> ass.<<ltrauma>><<trauma -6>>",
+    "translation": "",
+    "pos": 52
+  },
+  {
+    "passage": "Robin Chocolate Slap",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "363_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 213
+  },
+  {
+    "passage": "Robin Chocolate Slap",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "364_5_3_7|",
+    "original": "<<if $danceSuccess>>",
+    "translation": "",
+    "pos": 222
+  },
+  {
+    "passage": "Robin Chocolate Slap",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "365_5_3_7|",
+    "original": "You whirl around, <span class=\"green\">and catch the tray,</span> the mugs unspilled.<<lstress>><<stress -6>>",
+    "translation": "",
+    "pos": 244
+  },
+  {
+    "passage": "Robin Chocolate Slap",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "366_5_3_7|",
+    "original": "<<else>>",
+    "translation": "",
+    "pos": 353
+  },
+  {
+    "passage": "Robin Chocolate Slap",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "367_5_3_7|",
+    "original": "You try to catch the tray, <span class=\"red\">but you're too slow.</span> It clatters to the ground, spilling hot chocolate over the snow.<<gstress>><<stress 6>>",
+    "translation": "",
+    "pos": 363
+  },
+  {
+    "passage": "Robin Chocolate Slap",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "368_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 524
+  },
+  {
+    "passage": "Robin Chocolate Slap",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "369_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 532
+  },
+  {
+    "passage": "Robin Chocolate Slap",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "371_5_3_7|",
+    "original": "<<person1>>",
+    "translation": "",
+    "pos": 542
+  },
+  {
+    "passage": "Robin Chocolate Slap",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "372_5_3_7|",
+    "original": "Robin smiles when you return to <<him>>.",
+    "translation": "",
+    "pos": 554
+  },
+  {
+    "passage": "Robin Chocolate Slap",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "373_5_3_7|",
+    "original": "<<if _robin.trauma gte 40>>",
+    "translation": "",
+    "pos": 595
+  },
+  {
+    "passage": "Robin Chocolate Slap",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "374_5_3_7|",
+    "original": "<<He>> hugs you the moment you place the tray down. \"Thank you.\"",
+    "translation": "",
+    "pos": 624
+  },
+  {
+    "passage": "Robin Chocolate Slap",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "375_5_3_7|",
+    "original": "<<else>>",
+    "translation": "",
+    "pos": 689
+  },
+  {
+    "passage": "Robin Chocolate Slap",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "376_5_3_7|",
+    "original": "\"Business has improved a lot,\" <<he>> says. \"Thank you.\"",
+    "translation": "",
+    "pos": 699
+  },
+  {
+    "passage": "Robin Chocolate Slap",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "377_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 756
+  },
+  {
+    "passage": "Robin Chocolate Slap",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "378_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 764
+  },
+  {
+    "passage": "Robin Chocolate Slap",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "380_5_3_7|",
+    "original": "<<if !$danceSuccess>>",
+    "translation": "",
+    "pos": 774
+  },
+  {
+    "passage": "Robin Chocolate Slap",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "381_5_3_7|",
+    "original": "<<link [[Confess about spilling the chocolate|Robin Chocolate Confess]]>><<npcincr Robin dom 1>><</link>><<gdom>>",
+    "translation": "",
+    "pos": 797
+  },
+  {
+    "passage": "Robin Chocolate Slap",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "382_5_3_7|",
+    "original": "<br>",
+    "translation": "",
+    "pos": 912
+  },
+  {
+    "passage": "Robin Chocolate Slap",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "383_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 917
+  },
+  {
+    "passage": "Robin Chocolate Slap",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "384_5_3_7|",
+    "original": "<<robinChocolateOfferHelp>>",
+    "translation": "",
+    "pos": 925
+  },
+  {
+    "passage": "Robin Chocolate Confess",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "386_5_3_7|",
+    "original": ":: Robin Chocolate Confess",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Robin Chocolate Confess",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "387_5_3_7|",
+    "original": "<<effects>>",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Robin Chocolate Confess",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "388_5_3_7|",
+    "original": "<<set _robin to statusCheck(\"Robin\")>>",
+    "translation": "",
+    "pos": 12
+  },
+  {
+    "passage": "Robin Chocolate Confess",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "390_5_3_7|",
+    "original": "<<if $speech_attitude is \"meek\">>",
+    "translation": "",
+    "pos": 52
+  },
+  {
+    "passage": "Robin Chocolate Confess",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "391_5_3_7|",
+    "original": "\"I-I'm sorry,\" you say. \"I spilled some of the hot chocolate.\"",
+    "translation": "",
+    "pos": 87
+  },
+  {
+    "passage": "Robin Chocolate Confess",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "392_5_3_7|",
+    "original": "<<elseif $speech_attitude is \"bratty\">>",
+    "translation": "",
+    "pos": 150
+  },
+  {
+    "passage": "Robin Chocolate Confess",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "393_5_3_7|",
+    "original": "\"I spilled some of it,\" you say. \"Thought you should know.\"",
+    "translation": "",
+    "pos": 191
+  },
+  {
+    "passage": "Robin Chocolate Confess",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "394_5_3_7|",
+    "original": "<<else>>",
+    "translation": "",
+    "pos": 251
+  },
+  {
+    "passage": "Robin Chocolate Confess",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "395_5_3_7|",
+    "original": "\"I'm afraid I spilled some,\" you say. \"Sorry.\"",
+    "translation": "",
+    "pos": 261
+  },
+  {
+    "passage": "Robin Chocolate Confess",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "396_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 308
+  },
+  {
+    "passage": "Robin Chocolate Confess",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "397_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 316
+  },
+  {
+    "passage": "Robin Chocolate Confess",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "399_5_3_7|",
+    "original": "<<if _robin.trauma gte 40>>",
+    "translation": "",
+    "pos": 326
+  },
+  {
+    "passage": "Robin Chocolate Confess",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "400_5_3_7|",
+    "original": "\"It's fine,\" Robin mumbles. \"As long as you're not hurt.\"",
+    "translation": "",
+    "pos": 355
+  },
+  {
+    "passage": "Robin Chocolate Confess",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "401_5_3_7|",
+    "original": "<<else>>",
+    "translation": "",
+    "pos": 413
+  },
+  {
+    "passage": "Robin Chocolate Confess",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "402_5_3_7|",
+    "original": "\"That's okay,\" Robin laughs. \"Just be careful not to slip. The ground can get icy.\"",
+    "translation": "",
+    "pos": 423
+  },
+  {
+    "passage": "Robin Chocolate Confess",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "403_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 507
+  },
+  {
+    "passage": "Robin Chocolate Confess",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "404_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 515
+  },
+  {
+    "passage": "Robin Chocolate Confess",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "406_5_3_7|",
+    "original": "<<robinChocolateOfferHelp>>",
+    "translation": "",
+    "pos": 525
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "408_5_3_7|",
+    "original": ":: Robin Chocolate Endure",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "409_5_3_7|",
+    "original": "<<effects>>",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "410_5_3_7|",
+    "original": "<<set _robin to statusCheck(\"Robin\")>>",
+    "translation": "",
+    "pos": 12
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "412_5_3_7|",
+    "original": "<<set _wearingSkirt to (setup.clothes.lower[clothesIndex('lower', $worn.lower)].skirt is 1)>>",
+    "translation": "",
+    "pos": 52
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "413_5_3_7|",
+    "original": "<<set _notWearingSet to ($worn.lower.set isnot $worn.upper.set)>>",
+    "translation": "",
+    "pos": 146
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "415_5_3_7|",
+    "original": "<<if _wearingSkirt or _notWearingSet>>",
+    "translation": "",
+    "pos": 213
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "416_5_3_7|",
+    "original": "The <<person>> <<if _wearingSkirt>>lifts<<else>>tugs down<</if>> your $worn.lower.name,",
+    "translation": "",
+    "pos": 253
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "417_5_3_7|",
+    "original": "<span class=\"lewd\">exposing your <<undies>> in the middle of the park.</span>",
+    "translation": "",
+    "pos": 342
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "418_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 421
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "420_5_3_7|",
+    "original": "<<if $worn.under_lower.type.includes(\"naked\")>>",
+    "translation": "",
+    "pos": 432
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "421_5_3_7|",
+    "original": "<<if playerChastity()>>",
+    "translation": "",
+    "pos": 482
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "422_5_3_7|",
+    "original": "\"Someone's locked you up,\" <<he>> laughs. \"A shame.\"",
+    "translation": "",
+    "pos": 509
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "423_5_3_7|",
+    "original": "<<else>>",
+    "translation": "",
+    "pos": 564
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "424_5_3_7|",
+    "original": "\"No underwear?\" <<he>> laughs. \"I had you pegged as a <<slut>>.\"",
+    "translation": "",
+    "pos": 576
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "425_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 643
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "426_5_3_7|",
+    "original": "<<set _exhib to 10>>",
+    "translation": "",
+    "pos": 653
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "427_5_3_7|",
+    "original": "<<else>>",
+    "translation": "",
+    "pos": 675
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "428_5_3_7|",
+    "original": "\"Nice underwear,\" <<he>> says. \"I thought a <<slut>> like you wouldn't be wearing any.\"",
+    "translation": "",
+    "pos": 686
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "429_5_3_7|",
+    "original": "<<set _exhib to 5>>",
+    "translation": "",
+    "pos": 776
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "430_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 797
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "431_5_3_7|",
+    "original": "<<if _wearingSkirt>>",
+    "translation": "",
+    "pos": 806
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "432_5_3_7|",
+    "original": "<<He>> holds your skirt against your waist.",
+    "translation": "",
+    "pos": 829
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "433_5_3_7|",
+    "original": "<<else>>",
+    "translation": "",
+    "pos": 874
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "434_5_3_7|",
+    "original": "<<He>> steps back to admire your <<bottom>>.",
+    "translation": "",
+    "pos": 885
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "435_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 931
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "436_5_3_7|",
+    "original": "Your hands remain glued to the tray. People point in your direction. A breeze makes you shiver.",
+    "translation": "",
+    "pos": 940
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "437_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 1037
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "439_5_3_7|",
+    "original": "<<fameexhibitionism _exhib>>",
+    "translation": "",
+    "pos": 1048
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "440_5_3_7|",
+    "original": "<<if _wearingSkirt>>",
+    "translation": "",
+    "pos": 1078
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "441_5_3_7|",
+    "original": "At last, <<he>> lets your skirt fall.",
+    "translation": "",
+    "pos": 1101
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "442_5_3_7|",
+    "original": "<<else>>",
+    "translation": "",
+    "pos": 1140
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "443_5_3_7|",
+    "original": "At last, <<he>> pulls your $worn.lower.name back up.",
+    "translation": "",
+    "pos": 1151
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "444_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 1205
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "445_5_3_7|",
+    "original": "<<else>>",
+    "translation": "",
+    "pos": 1213
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "446_5_3_7|",
+    "original": "<<if $player.breastsize gte 3>>",
+    "translation": "",
+    "pos": 1223
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "447_5_3_7|",
+    "original": "The <<person>> squeezes your <<breasts>>,",
+    "translation": "",
+    "pos": 1257
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "448_5_3_7|",
+    "original": "<<else>>",
+    "translation": "",
+    "pos": 1300
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "449_5_3_7|",
+    "original": "The <<person>> runs <<his>> fingers over your <<breasts>>,",
+    "translation": "",
+    "pos": 1311
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "450_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 1371
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "451_5_3_7|",
+    "original": "<<if $worn.upper.type.includes(\"naked\") and $worn.under_upper.type.includes(\"naked\")>>",
+    "translation": "",
+    "pos": 1380
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "452_5_3_7|",
+    "original": "and pinches your exposed nipples.",
+    "translation": "",
+    "pos": 1469
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "453_5_3_7|",
+    "original": "<<else>>",
+    "translation": "",
+    "pos": 1504
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "454_5_3_7|",
+    "original": "and pinches your nipples through the fabric.",
+    "translation": "",
+    "pos": 1515
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "455_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 1561
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "456_5_3_7|",
+    "original": "\"I knew you were the sort of <<slut>> to get off on something like this,\" <<he>> says. Your hands remain glued to the tray. You shiver.",
+    "translation": "",
+    "pos": 1570
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "457_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 1707
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "459_5_3_7|",
+    "original": "At last, the <<person>> pulls away.",
+    "translation": "",
+    "pos": 1718
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "460_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 1754
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "461_5_3_7|",
+    "original": "<<He>> takes a mug of hot chocolate, thanks you, and walks away.",
+    "translation": "",
+    "pos": 1762
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "462_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 1827
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "464_5_3_7|",
+    "original": "<<set $robinmoney += 5>>",
+    "translation": "",
+    "pos": 1837
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "465_5_3_7|",
+    "original": "<<person1>>",
+    "translation": "",
+    "pos": 1862
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "466_5_3_7|",
+    "original": "Robin smiles when you return to <<him>>.",
+    "translation": "",
+    "pos": 1874
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "467_5_3_7|",
+    "original": "<<if _robin.trauma gte 40>>",
+    "translation": "",
+    "pos": 1915
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "468_5_3_7|",
+    "original": "<<He>> hugs you the moment you place the tray down. \"Thank you.\"",
+    "translation": "",
+    "pos": 1944
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "469_5_3_7|",
+    "original": "<<else>>",
+    "translation": "",
+    "pos": 2009
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "470_5_3_7|",
+    "original": "\"Business has improved a lot,\" <<he>> says. \"Thank you.\"",
+    "translation": "",
+    "pos": 2019
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "471_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 2076
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "472_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 2084
+  },
+  {
+    "passage": "Robin Chocolate Endure",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "474_5_3_7|",
+    "original": "<<robinChocolateOfferHelp>>",
+    "translation": "",
+    "pos": 2094
+  },
+  {
+    "passage": "Robin Milk Masturbation",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "477_5_3_7|",
+    "original": ":: Robin Milk Masturbation",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Robin Milk Masturbation",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "478_5_3_7|",
+    "original": "<<effects>>",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Robin Milk Masturbation",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "480_5_3_7|",
+    "original": "<<if $masturbationstart is 1>>",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Robin Milk Masturbation",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "481_5_3_7|",
+    "original": "<<set $masturbationstart to 0>>",
+    "translation": "",
+    "pos": 45
+  },
+  {
+    "passage": "Robin Milk Masturbation",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "482_5_3_7|",
+    "original": "<<set $masturbationstat += 1>>",
+    "translation": "",
+    "pos": 78
+  },
+  {
+    "passage": "Robin Milk Masturbation",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "483_5_3_7|",
+    "original": "<<masturbationstart>>",
+    "translation": "",
+    "pos": 110
+  },
+  {
+    "passage": "Robin Milk Masturbation",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "484_5_3_7|",
+    "original": "<<set $timer to 40>>",
+    "translation": "",
+    "pos": 133
+  },
+  {
+    "passage": "Robin Milk Masturbation",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "485_5_3_7|",
+    "original": "<<set $masturbation_bowl to 1>>",
+    "translation": "",
+    "pos": 155
+  },
+  {
+    "passage": "Robin Milk Masturbation",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "486_5_3_7|",
+    "original": "<<set $mouth to \"disabled\">>",
+    "translation": "",
+    "pos": 188
+  },
+  {
+    "passage": "Robin Milk Masturbation",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "487_5_3_7|",
+    "original": "You enter a cubicle, where you're unlikely to be disturbed.",
+    "translation": "",
+    "pos": 218
+  },
+  {
+    "passage": "Robin Milk Masturbation",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "488_5_3_7|",
+    "original": "<<promiscuity3>>",
+    "translation": "",
+    "pos": 279
+  },
+  {
+    "passage": "Robin Milk Masturbation",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "489_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 296
+  },
+  {
+    "passage": "Robin Milk Masturbation",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "490_5_3_7|",
+    "original": "<<masturbationeffects>>",
+    "translation": "",
+    "pos": 304
+  },
+  {
+    "passage": "Robin Milk Masturbation",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "491_5_3_7|",
+    "original": "<<masturbationactions>>",
+    "translation": "",
+    "pos": 328
+  },
+  {
+    "passage": "Robin Milk Masturbation",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "492_5_3_7|",
+    "original": "<<masturbationbowl>>",
+    "translation": "",
+    "pos": 352
+  },
+  {
+    "passage": "Robin Milk Masturbation",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "493_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 373
+  },
+  {
+    "passage": "Robin Milk Masturbation",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "495_5_3_7|",
+    "original": "<<if $corruptionMasturbation>>",
+    "translation": "",
+    "pos": 383
+  },
+  {
+    "passage": "Robin Milk Masturbation",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "496_5_3_7|",
+    "original": "<span class=\"red\">The slime in your ear will not allow you to stop.</span>",
+    "translation": "",
+    "pos": 415
+  },
+  {
+    "passage": "Robin Milk Masturbation",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "497_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 490
+  },
+  {
+    "passage": "Robin Milk Masturbation",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "498_5_3_7|",
+    "original": "<div id=\"masturbationButtons\">",
+    "translation": "",
+    "pos": 498
+  },
+  {
+    "passage": "Robin Milk Masturbation",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "499_5_3_7|",
+    "original": "<<if $timer lte 0 or $masturbation_fluid gte 500>>",
+    "translation": "",
+    "pos": 530
+  },
+  {
+    "passage": "Robin Milk Masturbation",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "500_5_3_7|",
+    "original": "<div id=\"next\"><<link [[Continue|$passage + \" Finish\"]]>><<set $finish to 1>><</link>><<nexttext>></div>",
+    "translation": "",
+    "pos": 583
+  },
+  {
+    "passage": "Robin Milk Masturbation",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "501_5_3_7|",
+    "original": "<<else>>",
+    "translation": "",
+    "pos": 689
+  },
+  {
+    "passage": "Robin Milk Masturbation",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "502_5_3_7|",
+    "original": "<div id=\"next\"><<link [[Continue|$passage]]>><</link>><<nexttext>></div>",
+    "translation": "",
+    "pos": 700
+  },
+  {
+    "passage": "Robin Milk Masturbation",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "503_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 774
+  },
+  {
+    "passage": "Robin Milk Masturbation",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "504_5_3_7|",
+    "original": "<<masturbationStopControls>>",
+    "translation": "",
+    "pos": 783
+  },
+  {
+    "passage": "Robin Milk Masturbation",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "505_5_3_7|",
+    "original": "</div>",
+    "translation": "",
+    "pos": 812
+  },
+  {
+    "passage": "Robin Milk Masturbation",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "506_5_3_7|",
+    "original": "<br><br><br><br><br>",
+    "translation": "",
+    "pos": 819
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "508_5_3_7|",
+    "original": ":: Robin Milk Masturbation Finish",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "510_5_3_7|",
+    "original": "<<endmasturbation>>",
+    "translation": "",
+    "pos": 1
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "511_5_3_7|",
+    "original": "<<endcombat>>",
+    "translation": "",
+    "pos": 21
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "512_5_3_7|",
+    "original": "<<clothesontowel>>",
+    "translation": "",
+    "pos": 35
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "513_5_3_7|",
+    "original": "<<npc Robin>><<person1>>",
+    "translation": "",
+    "pos": 54
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "514_5_3_7|",
+    "original": "<<set _robin to statusCheck(\"Robin\")>>",
+    "translation": "",
+    "pos": 79
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "515_5_3_7|",
+    "original": "<<if $masturbation_fluid gte 500>>",
+    "translation": "",
+    "pos": 118
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "516_5_3_7|",
+    "original": "<<wearProp \"milk bottle\" 0 \"breast milk\">>",
+    "translation": "",
+    "pos": 154
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "517_5_3_7|",
+    "original": "<span class=\"green\">The bottle filled with milk,</span> you leave the toilets.",
+    "translation": "",
+    "pos": 198
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "518_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 278
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "519_5_3_7|",
+    "original": "Robin smiles when <<he>> sees you.",
+    "translation": "",
+    "pos": 288
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "520_5_3_7|",
+    "original": "<<if _robin.trauma gte 40>>",
+    "translation": "",
+    "pos": 324
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "521_5_3_7|",
+    "original": "\"Thanks for coming back so quickly,\"",
+    "translation": "",
+    "pos": 354
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "522_5_3_7|",
+    "original": "<<else>>",
+    "translation": "",
+    "pos": 392
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "523_5_3_7|",
+    "original": "\"You were quick,\"",
+    "translation": "",
+    "pos": 403
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "524_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 422
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "525_5_3_7|",
+    "original": "<<he>> says. <<He>> takes the milk. \"It's still warm! I didn't know you could get it so fresh.\" <<He>> pours it into a pot while you quietly leave <<his>> £5 on the counter.",
+    "translation": "",
+    "pos": 431
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "526_5_3_7|",
+    "original": "<<gglove>><<npcincr Robin love 3>>",
+    "translation": "",
+    "pos": 606
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "527_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 642
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "529_5_3_7|",
+    "original": "<<else>>",
+    "translation": "",
+    "pos": 652
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "530_5_3_7|",
+    "original": "<<wearProp \"milk bottle\" 0 \"milk\">>",
+    "translation": "",
+    "pos": 662
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "531_5_3_7|",
+    "original": "You stop masturbating.",
+    "translation": "",
+    "pos": 699
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "532_5_3_7|",
+    "original": "<<if $finish isnot 1>>",
+    "translation": "",
+    "pos": 723
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "533_5_3_7|",
+    "original": "You've been trying a while, and Robin is waiting.",
+    "translation": "",
+    "pos": 748
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "534_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 799
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "536_5_3_7|",
+    "original": "<<if $masturbation_fluid gte 400>>",
+    "translation": "",
+    "pos": 809
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "537_5_3_7|",
+    "original": "<span class=\"teal\">You almost gathered enough fluid,</span> but you'll need to buy the rest.",
+    "translation": "",
+    "pos": 846
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "538_5_3_7|",
+    "original": "<<elseif $masturbatoin_fluid gte 300>>",
+    "translation": "",
+    "pos": 940
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "539_5_3_7|",
+    "original": "<span class=\"lblue\">You gathered a lot of fluid,</span> but you'll need to buy the rest.",
+    "translation": "",
+    "pos": 981
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "540_5_3_7|",
+    "original": "<<elseif $masturbation_fluid gte 200>>",
+    "translation": "",
+    "pos": 1071
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "541_5_3_7|",
+    "original": "<span class=\"blue\">You gathered some fluid,</span> but you'll need to buy the rest.",
+    "translation": "",
+    "pos": 1112
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "542_5_3_7|",
+    "original": "<<elseif $masturbation_fluid gte 100>>",
+    "translation": "",
+    "pos": 1197
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "543_5_3_7|",
+    "original": "<span class=\"purple\">You gathered some fluid,</span> but you'll need to buy the rest.",
+    "translation": "",
+    "pos": 1238
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "544_5_3_7|",
+    "original": "<<elseif $masturbation_fluid gte 50>>",
+    "translation": "",
+    "pos": 1325
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "545_5_3_7|",
+    "original": "<span class=\"purple\">You gathered a little fluid,</span> but you'll need to buy the rest.",
+    "translation": "",
+    "pos": 1365
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "546_5_3_7|",
+    "original": "<<elseif $masturbation_fluid gte 1>>",
+    "translation": "",
+    "pos": 1456
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "547_5_3_7|",
+    "original": "<span class=\"pink\">You gathered a little fluid,</span> but you'll need to buy the rest.",
+    "translation": "",
+    "pos": 1495
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "548_5_3_7|",
+    "original": "<<else>>",
+    "translation": "",
+    "pos": 1584
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "549_5_3_7|",
+    "original": "<span class=\"red\">You didn't gather any fluid,</span> so you'll need to buy it.",
+    "translation": "",
+    "pos": 1595
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "550_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 1676
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "551_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 1685
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "553_5_3_7|",
+    "original": "<<set _moneySaved to Math.round($masturbation_fluid / 100)>>",
+    "translation": "",
+    "pos": 1696
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "554_5_3_7|",
+    "original": "<<set $robinmoney += _moneySaved>>",
+    "translation": "",
+    "pos": 1758
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "556_5_3_7|",
+    "original": "You walk to Harvest Street, to a rustic shop advertising fresh farm produce. They sell milk by the millilitre, and the proprietor is willing to top up your bottle.",
+    "translation": "",
+    "pos": 1795
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "557_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 1960
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "559_5_3_7|",
+    "original": "<<if $masturbation_fluid gte 1>>",
+    "translation": "",
+    "pos": 1971
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "560_5_3_7|",
+    "original": "You return to Robin. <<He>> smiles when <<he>> sees you, and takes the milk. <<He>> pours it into a pot while you quietly leave <<his>> change on the counter.<<glove>><<npcincr Robin love 1>>",
+    "translation": "",
+    "pos": 2006
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "561_5_3_7|",
+    "original": "<<else>>",
+    "translation": "",
+    "pos": 2199
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "562_5_3_7|",
+    "original": "You return to Robin. <<He>> smiles when <<he>> sees you, and pours the milk into a pot.",
+    "translation": "",
+    "pos": 2210
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "563_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 2299
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "564_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 2308
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "565_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 2317
+  },
+  {
+    "passage": "Robin Milk Masturbation Finish",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "567_5_3_7|",
+    "original": "<<robinChocolateOfferHelp>>",
+    "translation": "",
+    "pos": 2326
+  },
+  {
+    "passage": "Robin Milk Seduction",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "570_5_3_7|",
+    "original": ":: Robin Milk Seduction",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Robin Milk Seduction",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "571_5_3_7|",
+    "original": "<<effects>>",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Robin Milk Seduction",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "572_5_3_7|",
+    "original": "<<wearProp \"milk bottle\" 0 \"milk\">>",
+    "translation": "",
+    "pos": 12
+  },
+  {
+    "passage": "Robin Milk Seduction",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "573_5_3_7|",
+    "original": "<<endevent>><<generate1>><<generate2>><<person1>>",
+    "translation": "",
+    "pos": 48
+  },
+  {
+    "passage": "Robin Milk Seduction",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "574_5_3_7|",
+    "original": "You arrive at Harvest Street, and enter a rustic shop. The proprietor, a <<person>>, is willing to sell milk by the millilitre. You lean over the counter while <<he>> fills the bottle.",
+    "translation": "",
+    "pos": 98
+  },
+  {
+    "passage": "Robin Milk Seduction",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "575_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 283
+  },
+  {
+    "passage": "Robin Milk Seduction",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "577_5_3_7|",
+    "original": "<<set $seductiondifficulty to 6000>>",
+    "translation": "",
+    "pos": 293
+  },
+  {
+    "passage": "Robin Milk Seduction",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "578_5_3_7|",
+    "original": "<<seductioncheck>>",
+    "translation": "",
+    "pos": 330
+  },
+  {
+    "passage": "Robin Milk Seduction",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "579_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 349
+  },
+  {
+    "passage": "Robin Milk Seduction",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "580_5_3_7|",
+    "original": "<<if $seductionskill lt 1000>>",
+    "translation": "",
+    "pos": 358
+  },
+  {
+    "passage": "Robin Milk Seduction",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "581_5_3_7|",
+    "original": "<span class=\"gold\">You feel more confident in your powers of seduction.</span>",
+    "translation": "",
+    "pos": 390
+  },
+  {
+    "passage": "Robin Milk Seduction",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "582_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 470
+  },
+  {
+    "passage": "Robin Milk Seduction",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "583_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 479
+  },
+  {
+    "passage": "Robin Milk Seduction",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "584_5_3_7|",
+    "original": "<<seductionskilluse>>",
+    "translation": "",
+    "pos": 487
+  },
+  {
+    "passage": "Robin Milk Seduction",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "586_5_3_7|",
+    "original": "\"Is there any other way I could pay?\" you coo.",
+    "translation": "",
+    "pos": 510
+  },
+  {
+    "passage": "Robin Milk Seduction",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "587_5_3_7|",
+    "original": "<<promiscuity2>>",
+    "translation": "",
+    "pos": 557
+  },
+  {
+    "passage": "Robin Milk Seduction",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "589_5_3_7|",
+    "original": "<<if $seductionrating gte $seductionrequired>>",
+    "translation": "",
+    "pos": 575
+  },
+  {
+    "passage": "Robin Milk Seduction",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "591_5_3_7|",
+    "original": "<span class=\"green\">The <<person>> is so entranced <<he>> overfills the bottle,</span> only noticing when it spills on <<his>> hand.",
+    "translation": "",
+    "pos": 624
+  },
+  {
+    "passage": "Robin Milk Seduction",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "592_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 758
+  },
+  {
+    "passage": "Robin Milk Seduction",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "594_5_3_7|",
+    "original": "<<if $pronoun is \"m\">>",
+    "translation": "",
+    "pos": 769
+  },
+  {
+    "passage": "Robin Milk Seduction",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "595_5_3_7|",
+    "original": "You slip behind the counter, and push your <<bottom>> against <<his>> crotch, just as another customer enters.",
+    "translation": "",
+    "pos": 794
+  },
+  {
+    "passage": "Robin Milk Seduction",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "596_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 907
+  },
+  {
+    "passage": "Robin Milk Seduction",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "597_5_3_7|",
+    "original": "The customer, a <<person2>><<person>>, frowns a little when <<he>> sees how close you and the <<person1>><<person>> are standing.",
+    "translation": "",
+    "pos": 918
+  },
+  {
+    "passage": "Robin Milk Seduction",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "598_5_3_7|",
+    "original": "The proprietor manages to serve the customer, but stammers as you grind against <<his>> <<if $NPCList[0].penis isnot \"none\">>$NPCList[0].penisdesc<<else>>pussy<</if>>.",
+    "translation": "",
+    "pos": 1050
+  },
+  {
+    "passage": "Robin Milk Seduction",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "599_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 1220
+  },
+  {
+    "passage": "Robin Milk Seduction",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "600_5_3_7|",
+    "original": "You lift the full bottle, and leave the <<person1>><<person>> panting.",
+    "translation": "",
+    "pos": 1231
+  },
+  {
+    "passage": "Robin Milk Seduction",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "601_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 1304
+  },
+  {
+    "passage": "Robin Milk Seduction",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "603_5_3_7|",
+    "original": "<<else>>",
+    "translation": "",
+    "pos": 1315
+  },
+  {
+    "passage": "Robin Milk Seduction",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "604_5_3_7|",
+    "original": "You slip behind the counter, and push your <<if $player.penisExist>><<penis>><<else>><<pussy>><</if>> against <<his>> ass, just as another customer enters.",
+    "translation": "",
+    "pos": 1326
+  },
+  {
+    "passage": "Robin Milk Seduction",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "605_5_3_7|",
+    "original": "You reach around <<his>> waist and grope <<his>> <<if $NPCList[0].penis isnot \"none\">>$NPCList[0].penisdesc<<else>>pussy<</if>>.",
+    "translation": "",
+    "pos": 1484
+  },
+  {
+    "passage": "Robin Milk Seduction",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "606_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 1615
+  },
+  {
+    "passage": "Robin Milk Seduction",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "607_5_3_7|",
+    "original": "The customer, a <<person2>><<person>>, frowns a little when <<he>> sees how close you and the <<person1>><<person>> are standing.",
+    "translation": "",
+    "pos": 1626
+  },
+  {
+    "passage": "Robin Milk Seduction",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "608_5_3_7|",
+    "original": "The proprietor manages to serve the customer, but stammers as you tease <<him>>.",
+    "translation": "",
+    "pos": 1758
+  },
+  {
+    "passage": "Robin Milk Seduction",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "609_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 1841
+  },
+  {
+    "passage": "Robin Milk Seduction",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "610_5_3_7|",
+    "original": "You leave the <<person1>><<person>> panting as you walk from the shop, a full bottle of milk in hand.",
+    "translation": "",
+    "pos": 1852
+  },
+  {
+    "passage": "Robin Milk Seduction",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "611_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 1956
+  },
+  {
+    "passage": "Robin Milk Seduction",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "612_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 1966
+  },
+  {
+    "passage": "Robin Milk Seduction",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "614_5_3_7|",
+    "original": "<<npc Robin 3>><<person3>>",
+    "translation": "",
+    "pos": 1976
+  },
+  {
+    "passage": "Robin Milk Seduction",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "615_5_3_7|",
+    "original": "You return to Robin. <<He>> smiles when <<he>> sees you, and takes the milk. <<He>> pours it into a pot while you quietly leave <<his>> £5 on the counter.<<glove>><<npcincr Robin love 1>>",
+    "translation": "",
+    "pos": 2004
+  },
+  {
+    "passage": "Robin Milk Seduction",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "616_5_3_7|",
+    "original": "<<else>>",
+    "translation": "",
+    "pos": 2192
+  },
+  {
+    "passage": "Robin Milk Seduction",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "618_5_3_7|",
+    "original": "<span class=\"red\">\"You're not my type,\"</span> the <<person>> says without looking away from the milk.",
+    "translation": "",
+    "pos": 2203
+  },
+  {
+    "passage": "Robin Milk Seduction",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "619_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 2307
+  },
+  {
+    "passage": "Robin Milk Seduction",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "620_5_3_7|",
+    "original": "<<npc Robin 3>><<person3>>",
+    "translation": "",
+    "pos": 2317
+  },
+  {
+    "passage": "Robin Milk Seduction",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "621_5_3_7|",
+    "original": "You return to Robin. <<He>> smiles when <<he>> sees you. <<He>> takes the milk and pours it into a pot.",
+    "translation": "",
+    "pos": 2345
+  },
+  {
+    "passage": "Robin Milk Seduction",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "622_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 2449
+  },
+  {
+    "passage": "Robin Milk Seduction",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "623_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 2457
+  },
+  {
+    "passage": "Robin Milk Seduction",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "624_5_3_7|",
+    "original": "<<robinChocolateOfferHelp>>",
+    "translation": "",
+    "pos": 2466
+  },
+  {
+    "passage": "Robin Milk Steal",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "626_5_3_7|",
+    "original": ":: Robin Milk Steal",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Robin Milk Steal",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "627_5_3_7|",
+    "original": "<<effects>>",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Robin Milk Steal",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "629_5_3_7|",
+    "original": "Milk from the surrounding farms is processed in a factory on the corner of Harvest Street. No one will notice a few missing litres. You haul yourself over a brick wall, and enter the plant through a metal-framed door.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Robin Milk Steal",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "630_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 231
+  },
+  {
+    "passage": "Robin Milk Steal",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "632_5_3_7|",
+    "original": "You enter a large room, full of tall metal tanks. You hear a low hum from deeper within.",
+    "translation": "",
+    "pos": 241
+  },
+  {
+    "passage": "Robin Milk Steal",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "633_5_3_7|",
+    "original": "<<skulduggerycheck>>",
+    "translation": "",
+    "pos": 330
+  },
+  {
+    "passage": "Robin Milk Steal",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "634_5_3_7|",
+    "original": "<<if $skulduggerysuccess is 1>>",
+    "translation": "",
+    "pos": 351
+  },
+  {
+    "passage": "Robin Milk Steal",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "635_5_3_7|",
+    "original": "There's no one around, so you open a tap, and fill your bottle with milk. <span class=\"green\">Nobody notices you.</span> This should be fresh enough for Robin.",
+    "translation": "",
+    "pos": 384
+  },
+  {
+    "passage": "Robin Milk Steal",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "636_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 545
+  },
+  {
+    "passage": "Robin Milk Steal",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "638_5_3_7|",
+    "original": "<<skulduggeryuse>>",
+    "translation": "",
+    "pos": 556
+  },
+  {
+    "passage": "Robin Milk Steal",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "640_5_3_7|",
+    "original": "<<endevent>><<npc Robin>><<person1>>",
+    "translation": "",
+    "pos": 577
+  },
+  {
+    "passage": "Robin Milk Steal",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "641_5_3_7|",
+    "original": "You return to Robin. <<He>> smiles when <<he>> sees you, and takes the milk. <<He>> pours it into a pot while you quietly leave <<his>> £5 on the counter.<<glove>><<npcincr Robin love 1>>",
+    "translation": "",
+    "pos": 615
+  },
+  {
+    "passage": "Robin Milk Steal",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "642_5_3_7|",
+    "original": "<<else>>",
+    "translation": "",
+    "pos": 803
+  },
+  {
+    "passage": "Robin Milk Steal",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "643_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 813
+  },
+  {
+    "passage": "Robin Milk Steal",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "644_5_3_7|",
+    "original": "<span class=\"red\">\"Oi,\" shouts a voice from above.</span> \"Where do you think you're going? Security!\" You turn and run the way you came, hauling yourself over the wall before anyone arrives.",
+    "translation": "",
+    "pos": 823
+  },
+  {
+    "passage": "Robin Milk Steal",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "645_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 1016
+  },
+  {
+    "passage": "Robin Milk Steal",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "647_5_3_7|",
+    "original": "<<skulduggeryuse>>",
+    "translation": "",
+    "pos": 1027
+  },
+  {
+    "passage": "Robin Milk Steal",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "648_5_3_7|",
+    "original": "You resort to plan B, and enter a rustic shop. The proprietor fills your bottle from a tank behind the counter.",
+    "translation": "",
+    "pos": 1047
+  },
+  {
+    "passage": "Robin Milk Steal",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "649_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 1160
+  },
+  {
+    "passage": "Robin Milk Steal",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "651_5_3_7|",
+    "original": "<<endevent>><<npc Robin>><<person1>>",
+    "translation": "",
+    "pos": 1171
+  },
+  {
+    "passage": "Robin Milk Steal",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "652_5_3_7|",
+    "original": "You return to Robin. <<He>> smiles when <<he>> sees you, and pours the milk into a pot.",
+    "translation": "",
+    "pos": 1209
+  },
+  {
+    "passage": "Robin Milk Steal",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "653_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 1297
+  },
+  {
+    "passage": "Robin Milk Steal",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "654_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 1305
+  },
+  {
+    "passage": "Robin Milk Steal",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "656_5_3_7|",
+    "original": "<<robinChocolateOfferHelp>>",
+    "translation": "",
+    "pos": 1315
+  },
+  {
+    "passage": "Robin Milk Buy",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "658_5_3_7|",
+    "original": ":: Robin Milk Buy",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Robin Milk Buy",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "659_5_3_7|",
+    "original": "<<effects>>",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Robin Milk Buy",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "661_5_3_7|",
+    "original": "You arrive at Harvest Street, and enter a rustic shop. The proprietor fills your bottle from a tank behind the counter.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Robin Milk Buy",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "662_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 133
+  },
+  {
+    "passage": "Robin Milk Buy",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "664_5_3_7|",
+    "original": "You return to the park. Robin smiles when <<he>> sees you, and pours the milk into a pot.",
+    "translation": "",
+    "pos": 143
+  },
+  {
+    "passage": "Robin Milk Buy",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "665_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 233
+  },
+  {
+    "passage": "Robin Milk Buy",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "667_5_3_7|",
+    "original": "<<robinChocolateOfferHelp>>",
+    "translation": "",
+    "pos": 243
+  },
+  {
+    "passage": "Robin Chocolate Wait",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "669_5_3_7|",
+    "original": ":: Robin Chocolate Wait",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Robin Chocolate Wait",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "670_5_3_7|",
+    "original": "<<effects>>",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Robin Chocolate Wait",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "672_5_3_7|",
+    "original": "You wait behind the stand until the delinquents find someone else to harass.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Robin Chocolate Wait",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "673_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 90
+  },
+  {
+    "passage": "Robin Chocolate Wait",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "675_5_3_7|",
+    "original": "<<robinChocolateOfferHelp>>",
+    "translation": "",
+    "pos": 100
+  },
+  {
+    "passage": "Robin Chocolate Challenge",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "677_5_3_7|",
+    "original": ":: Robin Chocolate Challenge",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Robin Chocolate Challenge",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "678_5_3_7|",
+    "original": "<<effects>>",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Robin Chocolate Challenge",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "680_5_3_7|",
+    "original": "You stand, and walk into the open. Robin grasps your leg to stop you, but you shake <<him>> off.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Robin Chocolate Challenge",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "681_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 110
+  },
+  {
+    "passage": "Robin Chocolate Challenge",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "683_5_3_7|",
+    "original": "<<generatey2>><<generatey3>><<generatey4>><!--<<generatey5>>-->",
+    "translation": "",
+    "pos": 120
+  },
+  {
+    "passage": "Robin Chocolate Challenge",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "684_5_3_7|",
+    "original": "There are four of them, each armed with a snowball. They're about to pelt you when you speak.",
+    "translation": "",
+    "pos": 184
+  },
+  {
+    "passage": "Robin Chocolate Challenge",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "686_5_3_7|",
+    "original": "<<if $speech_attitude is \"meek\">>",
+    "translation": "",
+    "pos": 279
+  },
+  {
+    "passage": "Robin Chocolate Challenge",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "687_5_3_7|",
+    "original": "\"C-cowards,\" you say. \"I bet none of you would take me one-on-one.\"",
+    "translation": "",
+    "pos": 314
+  },
+  {
+    "passage": "Robin Chocolate Challenge",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "688_5_3_7|",
+    "original": "<<elseif $speech_attitude is \"bratty\">>",
+    "translation": "",
+    "pos": 382
+  },
+  {
+    "passage": "Robin Chocolate Challenge",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "689_5_3_7|",
+    "original": "\"Listen up fuckers,\" you say. \"I challenge your best to a one-on-one fight. Or are you all as cowardly as you look?\"",
+    "translation": "",
+    "pos": 423
+  },
+  {
+    "passage": "Robin Chocolate Challenge",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "690_5_3_7|",
+    "original": "<<else>>",
+    "translation": "",
+    "pos": 540
+  },
+  {
+    "passage": "Robin Chocolate Challenge",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "691_5_3_7|",
+    "original": "\"Cowards,\" you say. \"I challenge your best to a one-on-one fight.\"",
+    "translation": "",
+    "pos": 550
+  },
+  {
+    "passage": "Robin Chocolate Challenge",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "692_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 617
+  },
+  {
+    "passage": "Robin Chocolate Challenge",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "693_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 625
+  },
+  {
+    "passage": "Robin Chocolate Challenge",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "695_5_3_7|",
+    "original": "They hold fire as a <<person2>><<person>> steps forward. \"You don't know what you're in for,\" <<he>> says. \"On the count of three.\" <<He>> scans the ground as <<he>> speaks. \"One... Two... \"",
+    "translation": "",
+    "pos": 635
+  },
+  {
+    "passage": "Robin Chocolate Challenge",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "696_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 826
+  },
+  {
+    "passage": "Robin Chocolate Challenge",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "698_5_3_7|",
+    "original": "<<link [[Attack as fast as possible|Robin Chocolate Challenge Attack]]>><</link>><<skill_difficulty `currentSkillValue(\"handskill\")` \"Hand Skill\" 1 800>>",
+    "translation": "",
+    "pos": 836
+  },
+  {
+    "passage": "Robin Chocolate Challenge",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "699_5_3_7|",
+    "original": "<br>",
+    "translation": "",
+    "pos": 990
+  },
+  {
+    "passage": "Robin Chocolate Challenge",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "700_5_3_7|",
+    "original": "<<link [[Bide your time|Robin Chocolate Challenge Bide]]>><</link>><<dancedifficulty 1 800>>",
+    "translation": "",
+    "pos": 995
+  },
+  {
+    "passage": "Robin Chocolate Challenge",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "701_5_3_7|",
+    "original": "<br>",
+    "translation": "",
+    "pos": 1088
+  },
+  {
+    "passage": "Robin Chocolate Challenge",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "702_5_3_7|",
+    "original": "<<link [[This is a bad idea|Robin Chocolate Cover]]>><<set $phase to 0>><</link>>",
+    "translation": "",
+    "pos": 1093
+  },
+  {
+    "passage": "Robin Chocolate Challenge",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "703_5_3_7|",
+    "original": "<br>",
+    "translation": "",
+    "pos": 1175
+  },
+  {
+    "passage": "Robin Chocolate Cover",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "706_5_3_7|",
+    "original": ":: Robin Chocolate Cover",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Robin Chocolate Cover",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "707_5_3_7|",
+    "original": "<<effects>>",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Robin Chocolate Cover",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "709_5_3_7|",
+    "original": "<<if $phase is 0>>",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Robin Chocolate Cover",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "710_5_3_7|",
+    "original": "\"...Three!\" You dive behind the stand as the snowball sails overhead.",
+    "translation": "",
+    "pos": 33
+  },
+  {
+    "passage": "Robin Chocolate Cover",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "711_5_3_7|",
+    "original": "<<else>>",
+    "translation": "",
+    "pos": 103
+  },
+  {
+    "passage": "Robin Chocolate Cover",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "712_5_3_7|",
+    "original": "You dive behind the stand as a volley of snowballs sail overhead.",
+    "translation": "",
+    "pos": 113
+  },
+  {
+    "passage": "Robin Chocolate Cover",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "713_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 179
+  },
+  {
+    "passage": "Robin Chocolate Cover",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "714_5_3_7|",
+    "original": "More snowballs follow. You wait with Robin until the delinquents find someone else to harass.",
+    "translation": "",
+    "pos": 187
+  },
+  {
+    "passage": "Robin Chocolate Cover",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "715_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 281
+  },
+  {
+    "passage": "Robin Chocolate Cover",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "717_5_3_7|",
+    "original": "<<robinChocolateOfferHelp>>",
+    "translation": "",
+    "pos": 291
+  },
+  {
+    "passage": "Robin Chocolate Challenge Attack",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "720_5_3_7|",
+    "original": ":: Robin Chocolate Challenge Attack",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Robin Chocolate Challenge Attack",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "721_5_3_7|",
+    "original": "<<effects>><<wearProp \"snowball\">>",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Robin Chocolate Challenge Attack",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "723_5_3_7|",
+    "original": "\"..Three!\"",
+    "translation": "",
+    "pos": 36
+  },
+  {
+    "passage": "Robin Chocolate Challenge Attack",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "724_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 47
+  },
+  {
+    "passage": "Robin Chocolate Challenge Attack",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "726_5_3_7|",
+    "original": "You crouch and gather snow, aware that the <<person>> is doing the same. Robin watches with <<person1>><<his>> hands over <<his>> mouth.",
+    "translation": "",
+    "pos": 57
+  },
+  {
+    "passage": "Robin Chocolate Challenge Attack",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "727_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 194
+  },
+  {
+    "passage": "Robin Chocolate Challenge Attack",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "729_5_3_7|",
+    "original": "You finish first. You hurl the snowball at your opponent. <<person2>><<He>> flinches, covering <<his>> face with <<his>> hands,",
+    "translation": "",
+    "pos": 204
+  },
+  {
+    "passage": "Robin Chocolate Challenge Attack",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "731_5_3_7|",
+    "original": "<<if currentSkillValue(\"handskill\") gte random(1, 800)>>",
+    "translation": "",
+    "pos": 333
+  },
+  {
+    "passage": "Robin Chocolate Challenge Attack",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "732_5_3_7|",
+    "original": "<span class=\"green\">but the snowball thuds into <<his>> chest.</span> <<He>> loses <<his>> footing, and slips on the ice.<<ltrauma>><<trauma -6>>",
+    "translation": "",
+    "pos": 391
+  },
+  {
+    "passage": "Robin Chocolate Challenge Attack",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "733_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 538
+  },
+  {
+    "passage": "Robin Chocolate Challenge Attack",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "734_5_3_7|",
+    "original": "<<person1>>Robin gasps. Your opponent's friends laugh. You return to a grateful Robin's side, the honour of the hot chocolate stand defended.<<person1>><<npcincr Robin love 1>><<glove>>",
+    "translation": "",
+    "pos": 548
+  },
+  {
+    "passage": "Robin Chocolate Challenge Attack",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "735_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 735
+  },
+  {
+    "passage": "Robin Chocolate Challenge Attack",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "736_5_3_7|",
+    "original": "<<earnFeat \"Flurry\">>",
+    "translation": "",
+    "pos": 745
+  },
+  {
+    "passage": "Robin Chocolate Challenge Attack",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "737_5_3_7|",
+    "original": "<<else>>",
+    "translation": "",
+    "pos": 767
+  },
+  {
+    "passage": "Robin Chocolate Challenge Attack",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "738_5_3_7|",
+    "original": "<span class=\"red\">but the snowball sails over <<his>> shoulder.</span> <<He>> grins, and returns fire. The snowball smashes into your face.<<gstress>><<stress 6>><<gpain>><<pain 4>>",
+    "translation": "",
+    "pos": 777
+  },
+  {
+    "passage": "Robin Chocolate Challenge Attack",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "739_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 960
+  },
+  {
+    "passage": "Robin Chocolate Challenge Attack",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "740_5_3_7|",
+    "original": "<<person1>>",
+    "translation": "",
+    "pos": 970
+  },
+  {
+    "passage": "Robin Chocolate Challenge Attack",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "741_5_3_7|",
+    "original": "Robin gasps and rushes over. <<He>> shields you with <<his>> coat as the delinquents fire a volley, and together you take cover behind the stand.<<gdom>><<npcincr Robin dom 1>>",
+    "translation": "",
+    "pos": 983
+  },
+  {
+    "passage": "Robin Chocolate Challenge Attack",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "742_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 1161
+  },
+  {
+    "passage": "Robin Chocolate Challenge Attack",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "744_5_3_7|",
+    "original": "They soon find someone else to harass.",
+    "translation": "",
+    "pos": 1172
+  },
+  {
+    "passage": "Robin Chocolate Challenge Attack",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "745_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 1212
+  },
+  {
+    "passage": "Robin Chocolate Challenge Attack",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "746_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 1221
+  },
+  {
+    "passage": "Robin Chocolate Challenge Attack",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "748_5_3_7|",
+    "original": "<<robinChocolateOfferHelp>>",
+    "translation": "",
+    "pos": 1230
+  },
+  {
+    "passage": "Robin Chocolate Challenge Bide",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "751_5_3_7|",
+    "original": ":: Robin Chocolate Challenge Bide",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Robin Chocolate Challenge Bide",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "752_5_3_7|",
+    "original": "<<effects>><<wearProp \"snowball\">>",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Robin Chocolate Challenge Bide",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "754_5_3_7|",
+    "original": "You focus on making the snowball as sturdy as possible, until the <<person2>><<person>> prepares to fire. You plant your feet,",
+    "translation": "",
+    "pos": 36
+  },
+  {
+    "passage": "Robin Chocolate Challenge Bide",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "756_5_3_7|",
+    "original": "<<if $danceSuccess>>",
+    "translation": "",
+    "pos": 164
+  },
+  {
+    "passage": "Robin Chocolate Challenge Bide",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "757_5_3_7|",
+    "original": "<span class=\"green\">and step aside as the snowball hurtles towards you.</span> Now defenceless, the <<person>> can only cover <<his>> face as you take your time, lining up the perfect shot. It hits square in the chest. <<He>> loses <<his>> footing, and slips on the ice.<<ltrauma>><<trauma -6>>",
+    "translation": "",
+    "pos": 186
+  },
+  {
+    "passage": "Robin Chocolate Challenge Bide",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "758_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 482
+  },
+  {
+    "passage": "Robin Chocolate Challenge Bide",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "759_5_3_7|",
+    "original": "Robin gasps. Your opponent's friends laugh. You return to a grateful Robin's side, the honour of the hot chocolate stand defended.<<person1>><<npcincr Robin love 1>><<glove>>",
+    "translation": "",
+    "pos": 492
+  },
+  {
+    "passage": "Robin Chocolate Challenge Bide",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "760_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 668
+  },
+  {
+    "passage": "Robin Chocolate Challenge Bide",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "761_5_3_7|",
+    "original": "<<earnFeat \"Flurry\">>",
+    "translation": "",
+    "pos": 678
+  },
+  {
+    "passage": "Robin Chocolate Challenge Bide",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "762_5_3_7|",
+    "original": "<<else>>",
+    "translation": "",
+    "pos": 700
+  },
+  {
+    "passage": "Robin Chocolate Challenge Bide",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "763_5_3_7|",
+    "original": "<span class=\"red\">but fail to dodge quick enough.</span> The snowball smashes into your face.<<gstress>><<stress 6>><<gpain>><<pain 4>>",
+    "translation": "",
+    "pos": 710
+  },
+  {
+    "passage": "Robin Chocolate Challenge Bide",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "764_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 847
+  },
+  {
+    "passage": "Robin Chocolate Challenge Bide",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "765_5_3_7|",
+    "original": "<<person1>>",
+    "translation": "",
+    "pos": 857
+  },
+  {
+    "passage": "Robin Chocolate Challenge Bide",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "766_5_3_7|",
+    "original": "Robin gasps and rushes over. <<He>> shields you with <<his>> coat as the delinquents fire a volley, and together you take cover behind the stand.<<gdom>><<npcincr Robin dom 1>>",
+    "translation": "",
+    "pos": 870
+  },
+  {
+    "passage": "Robin Chocolate Challenge Bide",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "767_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 1048
+  },
+  {
+    "passage": "Robin Chocolate Challenge Bide",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "769_5_3_7|",
+    "original": "They soon find someone else to harass.",
+    "translation": "",
+    "pos": 1059
+  },
+  {
+    "passage": "Robin Chocolate Challenge Bide",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "770_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 1099
+  },
+  {
+    "passage": "Robin Chocolate Challenge Bide",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "771_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 1108
+  },
+  {
+    "passage": "Robin Chocolate Challenge Bide",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "773_5_3_7|",
+    "original": "<<robinChocolateOfferHelp>>",
+    "translation": "",
+    "pos": 1117
+  },
+  {
+    "passage": "Robin Chocolate Take",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "775_5_3_7|",
+    "original": ":: Robin Chocolate Take",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Robin Chocolate Take",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "776_5_3_7|",
+    "original": "<<effects>><<wearProp \"snowball\">>",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Robin Chocolate Take",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "777_5_3_7|",
+    "original": "<<set _robin to statusCheck(\"Robin\")>>",
+    "translation": "",
+    "pos": 35
+  },
+  {
+    "passage": "Robin Chocolate Take",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "779_5_3_7|",
+    "original": "You start preparing your ammunition.",
+    "translation": "",
+    "pos": 75
+  },
+  {
+    "passage": "Robin Chocolate Take",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "781_5_3_7|",
+    "original": "<<if _robin.dom gte 20 and _robin.trauma lt 40>>",
+    "translation": "",
+    "pos": 113
+  },
+  {
+    "passage": "Robin Chocolate Take",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "782_5_3_7|",
+    "original": "<<if _robin.dom gte 60>><<set $phase to 0>><<else>><<set $phase to 1>><</if>>",
+    "translation": "",
+    "pos": 163
+  },
+  {
+    "passage": "Robin Chocolate Take",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "783_5_3_7|",
+    "original": "Robin watches, <span class=\"green\">then joins in.</span> Together you soon have enough snowballs.<<note \"+ Preparedness\" \"green\">>",
+    "translation": "",
+    "pos": 242
+  },
+  {
+    "passage": "Robin Chocolate Take",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "784_5_3_7|",
+    "original": "<<else>>",
+    "translation": "",
+    "pos": 373
+  },
+  {
+    "passage": "Robin Chocolate Take",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "785_5_3_7|",
+    "original": "<<set $phase to 2>>",
+    "translation": "",
+    "pos": 383
+  },
+  {
+    "passage": "Robin Chocolate Take",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "786_5_3_7|",
+    "original": "Robin watches with a frightened expression. You think you have enough snowballs.",
+    "translation": "",
+    "pos": 404
+  },
+  {
+    "passage": "Robin Chocolate Take",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "787_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 485
+  },
+  {
+    "passage": "Robin Chocolate Take",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "788_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 493
+  },
+  {
+    "passage": "Robin Chocolate Take",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "789_5_3_7|",
+    "original": "You need to draw fire away from Robin's apparatus, so you bundle them in an arm, and spring from your hiding place.",
+    "translation": "",
+    "pos": 502
+  },
+  {
+    "passage": "Robin Chocolate Take",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "790_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 618
+  },
+  {
+    "passage": "Robin Chocolate Take",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "791_5_3_7|",
+    "original": "How do you fight?",
+    "translation": "",
+    "pos": 627
+  },
+  {
+    "passage": "Robin Chocolate Take",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "792_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 645
+  },
+  {
+    "passage": "Robin Chocolate Take",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "794_5_3_7|",
+    "original": "<<generatey2>><<generatey3>><<generatey4>><!--<<generatey5>>-->",
+    "translation": "",
+    "pos": 655
+  },
+  {
+    "passage": "Robin Chocolate Take",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "795_5_3_7|",
+    "original": "<<set _handMaxDifficulty to ($phase is 2 ? 2000 : 1200)>>",
+    "translation": "",
+    "pos": 719
+  },
+  {
+    "passage": "Robin Chocolate Take",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "796_5_3_7|",
+    "original": "<<link [[Audaciously|Robin Chocolate Audacious]]>><</link>><<skill_difficulty `currentSkillValue(\"handskill\")` \"Hand Skill\" 1 _handMaxDifficulty>>",
+    "translation": "",
+    "pos": 777
+  },
+  {
+    "passage": "Robin Chocolate Take",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "797_5_3_7|",
+    "original": "<br>",
+    "translation": "",
+    "pos": 924
+  },
+  {
+    "passage": "Robin Chocolate Take",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "798_5_3_7|",
+    "original": "<<link [[Patiently|Robin Chocolate Patient]]>><</link>><<dancedifficulty 1 1200>>",
+    "translation": "",
+    "pos": 929
+  },
+  {
+    "passage": "Robin Chocolate Take",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "799_5_3_7|",
+    "original": "<br>",
+    "translation": "",
+    "pos": 1011
+  },
+  {
+    "passage": "Robin Chocolate Take",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "800_5_3_7|",
+    "original": "<<link [[This is a bad idea|Robin Chocolate Cover]]>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 1016
+  },
+  {
+    "passage": "Robin Chocolate Take",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "801_5_3_7|",
+    "original": "<br>",
+    "translation": "",
+    "pos": 1098
+  },
+  {
+    "passage": "Robin Chocolate Audacious",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "804_5_3_7|",
+    "original": ":: Robin Chocolate Audacious",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Robin Chocolate Audacious",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "805_5_3_7|",
+    "original": "<<effects>>",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Robin Chocolate Audacious",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "807_5_3_7|",
+    "original": "The delinquents are surprised by your sally. They're stood together in the open. A <<person2>><<person>> is the first to go down, slipping on the ice as the snowball smashes into <<his>> face. <<His>> friends scatter.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Robin Chocolate Audacious",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "808_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 231
+  },
+  {
+    "passage": "Robin Chocolate Audacious",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "809_5_3_7|",
+    "original": "<<set _handMaxDifficulty to ($phase is 2 ? 2000 : 1200)>>",
+    "translation": "",
+    "pos": 240
+  },
+  {
+    "passage": "Robin Chocolate Audacious",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "810_5_3_7|",
+    "original": "<<if currentSkillValue(\"handskill\") gte random(1, _handMaxDifficulty)>>",
+    "translation": "",
+    "pos": 298
+  },
+  {
+    "passage": "Robin Chocolate Audacious",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "811_5_3_7|",
+    "original": "<<if $phase is 2>>",
+    "translation": "",
+    "pos": 371
+  },
+  {
+    "passage": "Robin Chocolate Audacious",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "812_5_3_7|",
+    "original": "You don't have much ammunition, <span class=\"green\">but you make every shot count.</span>",
+    "translation": "",
+    "pos": 392
+  },
+  {
+    "passage": "Robin Chocolate Audacious",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "813_5_3_7|",
+    "original": "<<else>>",
+    "translation": "",
+    "pos": 483
+  },
+  {
+    "passage": "Robin Chocolate Audacious",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "814_5_3_7|",
+    "original": "<span class=\"green\">Your pre-made ammunition proves decisive.</span>",
+    "translation": "",
+    "pos": 494
+  },
+  {
+    "passage": "Robin Chocolate Audacious",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "815_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 564
+  },
+  {
+    "passage": "Robin Chocolate Audacious",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "816_5_3_7|",
+    "original": "You pelt them as they struggle to put together their own snowballs. They give up, and retreat behind the trees.<<lltrauma>><<trauma -6>>",
+    "translation": "",
+    "pos": 573
+  },
+  {
+    "passage": "Robin Chocolate Audacious",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "817_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 711
+  },
+  {
+    "passage": "Robin Chocolate Audacious",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "818_5_3_7|",
+    "original": "<<earnFeat \"Flurry\">>",
+    "translation": "",
+    "pos": 721
+  },
+  {
+    "passage": "Robin Chocolate Audacious",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "819_5_3_7|",
+    "original": "You return to a grateful Robin's side, the honour of the hot chocolate stand defended.<<gglove>><<npcincr Robin love 1>>",
+    "translation": "",
+    "pos": 744
+  },
+  {
+    "passage": "Robin Chocolate Audacious",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "820_5_3_7|",
+    "original": "<<else>>",
+    "translation": "",
+    "pos": 865
+  },
+  {
+    "passage": "Robin Chocolate Audacious",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "821_5_3_7|",
+    "original": "You pelt them as they struggle to put together their own snowballs, <span class=\"red\">but your ammo is limited.</span> Snowballs exhausted, you are forced to scramble for more snow like your adversaries.",
+    "translation": "",
+    "pos": 875
+  },
+  {
+    "passage": "Robin Chocolate Audacious",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "822_5_3_7|",
+    "original": "<<if $phase is 0>>",
+    "translation": "",
+    "pos": 1080
+  },
+  {
+    "passage": "Robin Chocolate Audacious",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "823_5_3_7|",
+    "original": "You finish preparing another shot as they do. They take aim.",
+    "translation": "",
+    "pos": 1101
+  },
+  {
+    "passage": "Robin Chocolate Audacious",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "824_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 1164
+  },
+  {
+    "passage": "Robin Chocolate Audacious",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "826_5_3_7|",
+    "original": "The snowballs will come from several angles. You brace yourself. <span class=\"green\">Then a snowball sails over your shoulder from behind</span>, smashing against a <<person3>><<persons>> face. You look behind you. Robin stands there, feet planted, an armful of snowballs and raw determination on <<his>> face.",
+    "translation": "",
+    "pos": 1176
+  },
+  {
+    "passage": "Robin Chocolate Audacious",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "827_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 1489
+  },
+  {
+    "passage": "Robin Chocolate Audacious",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "829_5_3_7|",
+    "original": "Tired already, this fresh onslaught from Robin proves too much. <<He>> chases them off the field with snowballs to spare.",
+    "translation": "",
+    "pos": 1501
+  },
+  {
+    "passage": "Robin Chocolate Audacious",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "830_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 1625
+  },
+  {
+    "passage": "Robin Chocolate Audacious",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "831_5_3_7|",
+    "original": "<<earnFeat \"Flurry\">>",
+    "translation": "",
+    "pos": 1636
+  },
+  {
+    "passage": "Robin Chocolate Audacious",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "832_5_3_7|",
+    "original": "The honour of the hot chocolate stand defended, you return to your posts. <<gdom>><<npcincr Robin dom 1>>",
+    "translation": "",
+    "pos": 1660
+  },
+  {
+    "passage": "Robin Chocolate Audacious",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "833_5_3_7|",
+    "original": "<<else>>",
+    "translation": "",
+    "pos": 1767
+  },
+  {
+    "passage": "Robin Chocolate Audacious",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "834_5_3_7|",
+    "original": "Outnumbered, you're knocked to the ground by a volley.<<gstress>><<stress 6>><<gpain>><<pain 4>>",
+    "translation": "",
+    "pos": 1778
+  },
+  {
+    "passage": "Robin Chocolate Audacious",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "835_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 1877
+  },
+  {
+    "passage": "Robin Chocolate Audacious",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "836_5_3_7|",
+    "original": "<<person1>>",
+    "translation": "",
+    "pos": 1888
+  },
+  {
+    "passage": "Robin Chocolate Audacious",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "837_5_3_7|",
+    "original": "Robin gasps and rushes over. Shielding you with <<his>> coat, <<he>> helps you to your feet, and pulls you back behind the stand.<<gdom>><<npcincr Robin dom 1>>",
+    "translation": "",
+    "pos": 1902
+  },
+  {
+    "passage": "Robin Chocolate Audacious",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "838_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 2065
+  },
+  {
+    "passage": "Robin Chocolate Audacious",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "840_5_3_7|",
+    "original": "You wait for the delinquents to lose interest, and leave to harass someone else.",
+    "translation": "",
+    "pos": 2077
+  },
+  {
+    "passage": "Robin Chocolate Audacious",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "841_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 2159
+  },
+  {
+    "passage": "Robin Chocolate Audacious",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "842_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 2167
+  },
+  {
+    "passage": "Robin Chocolate Audacious",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "843_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 2175
+  },
+  {
+    "passage": "Robin Chocolate Audacious",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "845_5_3_7|",
+    "original": "<<robinChocolateOfferHelp>>",
+    "translation": "",
+    "pos": 2185
+  },
+  {
+    "passage": "Robin Chocolate Patient",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "848_5_3_7|",
+    "original": ":: Robin Chocolate Patient",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Robin Chocolate Patient",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "849_5_3_7|",
+    "original": "<<effects>>",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Robin Chocolate Patient",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "851_5_3_7|",
+    "original": "The delinquents are surprised by your sally. They're stood together in the open. A <<person2>><<person>> is the first to go down, slipping on the ice as the snowball smashes into <<his>> face. <<His>> friends scatter.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Robin Chocolate Patient",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "852_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 231
+  },
+  {
+    "passage": "Robin Chocolate Patient",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "853_5_3_7|",
+    "original": "The element of surprise gone, you slip behind a hedge while your adversaries are still distracted. By the time they're ready to return fire, so are you. The snowball sails from an unexpected angle, smashing against the side of a <<person3>><<persons>> head.",
+    "translation": "",
+    "pos": 240
+  },
+  {
+    "passage": "Robin Chocolate Patient",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "854_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 498
+  },
+  {
+    "passage": "Robin Chocolate Patient",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "856_5_3_7|",
+    "original": "<<His>> friends throw a barrage of snowballs.",
+    "translation": "",
+    "pos": 508
+  },
+  {
+    "passage": "Robin Chocolate Patient",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "857_5_3_7|",
+    "original": "<<if $danceSuccess>>",
+    "translation": "",
+    "pos": 554
+  },
+  {
+    "passage": "Robin Chocolate Patient",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "858_5_3_7|",
+    "original": "<span class=\"green\">You dodge, and disappear once again.</span>",
+    "translation": "",
+    "pos": 576
+  },
+  {
+    "passage": "Robin Chocolate Patient",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "859_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 641
+  },
+  {
+    "passage": "Robin Chocolate Patient",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "860_5_3_7|",
+    "original": "The delinquents bunch together, looking in all directions. Right where you want them.",
+    "translation": "",
+    "pos": 651
+  },
+  {
+    "passage": "Robin Chocolate Patient",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "861_5_3_7|",
+    "original": "<<if $phase is 2>>",
+    "translation": "",
+    "pos": 738
+  },
+  {
+    "passage": "Robin Chocolate Patient",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "862_5_3_7|",
+    "original": "You don't have much ammo remaining, but you make it count.",
+    "translation": "",
+    "pos": 759
+  },
+  {
+    "passage": "Robin Chocolate Patient",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "863_5_3_7|",
+    "original": "<<else>>",
+    "translation": "",
+    "pos": 819
+  },
+  {
+    "passage": "Robin Chocolate Patient",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "864_5_3_7|",
+    "original": "You have plenty of ammo remaining.",
+    "translation": "",
+    "pos": 830
+  },
+  {
+    "passage": "Robin Chocolate Patient",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "865_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 866
+  },
+  {
+    "passage": "Robin Chocolate Patient",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "866_5_3_7|",
+    "original": "<<earnFeat \"Flurry\">>",
+    "translation": "",
+    "pos": 875
+  },
+  {
+    "passage": "Robin Chocolate Patient",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "867_5_3_7|",
+    "original": "A final volley sends them running to the safety of the trees. The honour of the stand defended, you return to a grateful Robin.<<glove>><<npcincr Robin love 1>><<ltrauma>><<trauma -6>>",
+    "translation": "",
+    "pos": 898
+  },
+  {
+    "passage": "Robin Chocolate Patient",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "868_5_3_7|",
+    "original": "<<else>>",
+    "translation": "",
+    "pos": 1083
+  },
+  {
+    "passage": "Robin Chocolate Patient",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "869_5_3_7|",
+    "original": "You dodge, <span class=\"red\">but slip on the ice,</span> landing on your back in the snow.",
+    "translation": "",
+    "pos": 1093
+  },
+  {
+    "passage": "Robin Chocolate Patient",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "870_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 1185
+  },
+  {
+    "passage": "Robin Chocolate Patient",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "871_5_3_7|",
+    "original": "<<if $phase is 0>>",
+    "translation": "",
+    "pos": 1195
+  },
+  {
+    "passage": "Robin Chocolate Patient",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "872_5_3_7|",
+    "original": "The delinquents prepare a final volley, but before they can fire, <span class=\"green\">another snowball smashes against a <<person4>><<persons>> shoulder.</span> <<person1>>Robin stands away from the stand, a bundle of snowballs in <<his>> arm, and raw determination on <<his>> face.",
+    "translation": "",
+    "pos": 1216
+  },
+  {
+    "passage": "Robin Chocolate Patient",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "873_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 1501
+  },
+  {
+    "passage": "Robin Chocolate Patient",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "875_5_3_7|",
+    "original": "Your adversaries are distracted by this new threat. You scramble to your feet and recover a couple of your snowballs. Caught between you and Robin, the delinquents flee behind the trees.",
+    "translation": "",
+    "pos": 1513
+  },
+  {
+    "passage": "Robin Chocolate Patient",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "876_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 1702
+  },
+  {
+    "passage": "Robin Chocolate Patient",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "877_5_3_7|",
+    "original": "<<earnFeat \"Flurry\">>",
+    "translation": "",
+    "pos": 1713
+  },
+  {
+    "passage": "Robin Chocolate Patient",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "878_5_3_7|",
+    "original": "The honour of the hot chocolate stand defended, you return to your posts.<<gdom>><<npcincr Robin dom 1>>",
+    "translation": "",
+    "pos": 1737
+  },
+  {
+    "passage": "Robin Chocolate Patient",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "879_5_3_7|",
+    "original": "<<else>>",
+    "translation": "",
+    "pos": 1843
+  },
+  {
+    "passage": "Robin Chocolate Patient",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "880_5_3_7|",
+    "original": "The delinquents pelt you with another volley.<<gstress>><<stress 6>><<gpain>><<pain 4>>",
+    "translation": "",
+    "pos": 1854
+  },
+  {
+    "passage": "Robin Chocolate Patient",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "881_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 1944
+  },
+  {
+    "passage": "Robin Chocolate Patient",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "882_5_3_7|",
+    "original": "<<person1>>",
+    "translation": "",
+    "pos": 1955
+  },
+  {
+    "passage": "Robin Chocolate Patient",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "883_5_3_7|",
+    "original": "Robin gasps and rushes over. Shielding you with <<his>> coat, <<he>> helps you to your feet, and pulls you back behind the stand.<<gdom>><<npcincr Robin dom 1>>",
+    "translation": "",
+    "pos": 1969
+  },
+  {
+    "passage": "Robin Chocolate Patient",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "884_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 2132
+  },
+  {
+    "passage": "Robin Chocolate Patient",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "886_5_3_7|",
+    "original": "You wait for the delinquents to lose interest, and leave to harass someone else.",
+    "translation": "",
+    "pos": 2144
+  },
+  {
+    "passage": "Robin Chocolate Patient",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "887_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 2227
+  },
+  {
+    "passage": "Robin Chocolate Patient",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "888_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 2237
+  },
+  {
+    "passage": "Robin Chocolate Patient",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "889_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 2245
+  },
+  {
+    "passage": "Robin Chocolate Patient",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "890_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 2253
+  },
+  {
+    "passage": "Robin Chocolate Patient",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "891_5_3_7|",
+    "original": "<<robinChocolateOfferHelp>>",
+    "translation": "",
+    "pos": 2262
+  },
+  {
+    "passage": "Robin Chocolate Kiss",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "893_5_3_7|",
+    "original": ":: Robin Chocolate Kiss",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Robin Chocolate Kiss",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "894_5_3_7|",
+    "original": "<<effects>>",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Robin Chocolate Kiss",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "895_5_3_7|",
+    "original": "<<set _robin to statusCheck(\"Robin\")>>",
+    "translation": "",
+    "pos": 12
+  },
+  {
+    "passage": "Robin Chocolate Kiss",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "896_5_3_7|",
+    "original": "<<person1>>",
+    "translation": "",
+    "pos": 51
+  },
+  {
+    "passage": "Robin Chocolate Kiss",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "897_5_3_7|",
+    "original": "\"I know how we can pass the time,\" you say, crawling on top of Robin. <<He>> laughs at first, then gasps as you kiss <<his>> neck.",
+    "translation": "",
+    "pos": 63
+  },
+  {
+    "passage": "Robin Chocolate Kiss",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "898_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 194
+  },
+  {
+    "passage": "Robin Chocolate Kiss",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "899_5_3_7|",
+    "original": "<<if _robin.trauma gte 40>>",
+    "translation": "",
+    "pos": 203
+  },
+  {
+    "passage": "Robin Chocolate Kiss",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "900_5_3_7|",
+    "original": "<<He>> spends most of <<his>> time holding you close, rather than reciprocating. You eventually stop kissing and embrace <<him>> back.",
+    "translation": "",
+    "pos": 232
+  },
+  {
+    "passage": "Robin Chocolate Kiss",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "901_5_3_7|",
+    "original": "<<npcincr Robin trauma -2>><<lrtrauma>>",
+    "translation": "",
+    "pos": 368
+  },
+  {
+    "passage": "Robin Chocolate Kiss",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "902_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 408
+  },
+  {
+    "passage": "Robin Chocolate Kiss",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "903_5_3_7|",
+    "original": "<<generate2>>",
+    "translation": "",
+    "pos": 416
+  },
+  {
+    "passage": "Robin Chocolate Kiss",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "904_5_3_7|",
+    "original": "The delinquents find someone else to harass as predicated. Robin and you are too busy to care, until you hear a voice close by. \"Hello?\" a <<person2>><<personsimple>> says. \"The hot chocolate smells good. Is anyone around?\"",
+    "translation": "",
+    "pos": 430
+  },
+  {
+    "passage": "Robin Chocolate Kiss",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "905_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 654
+  },
+  {
+    "passage": "Robin Chocolate Kiss",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "906_5_3_7|",
+    "original": "<<person1>>",
+    "translation": "",
+    "pos": 663
+  },
+  {
+    "passage": "Robin Chocolate Kiss",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "907_5_3_7|",
+    "original": "You let Robin stand, surprising the customer with <<his>> sudden appearance. You decide to hide until the customer departs.",
+    "translation": "",
+    "pos": 675
+  },
+  {
+    "passage": "Robin Chocolate Kiss",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "908_5_3_7|",
+    "original": "<<if _robin.trauma lt 40>>",
+    "translation": "",
+    "pos": 799
+  },
+  {
+    "passage": "Robin Chocolate Kiss",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "909_5_3_7|",
+    "original": "<<person2>><<He>> would work out what you were up to, and Robin would be terribly embarrassed.",
+    "translation": "",
+    "pos": 827
+  },
+  {
+    "passage": "Robin Chocolate Kiss",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "910_5_3_7|",
+    "original": "<</if>>",
+    "translation": "",
+    "pos": 922
+  },
+  {
+    "passage": "Robin Chocolate Kiss",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "911_5_3_7|",
+    "original": "<br><br>",
+    "translation": "",
+    "pos": 930
+  },
+  {
+    "passage": "Robin Chocolate Kiss",
+    "filepath": "overworld-town/loc-park/robin.twee",
+    "key": "912_5_3_7|",
+    "original": "<<robinChocolateOfferHelp>>",
+    "translation": "",
+    "pos": 939
+  }
+]
