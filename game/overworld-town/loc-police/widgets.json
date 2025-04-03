@@ -1,0 +1,226 @@
+[
+  {
+    "passage": "Widgets Police",
+    "filepath": "overworld-town/loc-police/widgets.twee",
+    "key": "4_5_3_7|",
+    "original": "The police computer gives access to criminal records. Looking at your own, you see that",
+    "translation": "",
+    "pos": 38
+  },
+  {
+    "passage": "Widgets Police",
+    "filepath": "overworld-town/loc-police/widgets.twee",
+    "key": "7_5_3_7|",
+    "original": "<span class=\"red\">you are on the \"most wanted\" list and they plan to punish you severely.</span>",
+    "translation": "",
+    "pos": 164
+  },
+  {
+    "passage": "Widgets Police",
+    "filepath": "overworld-town/loc-police/widgets.twee",
+    "key": "9_5_3_7|",
+    "original": "<span class=\"red\">your arrest is a priority and they have enough on you to warrant extreme punishment.</span>",
+    "translation": "",
+    "pos": 302
+  },
+  {
+    "passage": "Widgets Police",
+    "filepath": "overworld-town/loc-police/widgets.twee",
+    "key": "11_5_3_7|",
+    "original": "<span class=\"red\">your arrest is being actively sought</span> and they have enough on you to warrant <span class=\"red\">heavy punishment.</span>",
+    "translation": "",
+    "pos": 453
+  },
+  {
+    "passage": "Widgets Police",
+    "filepath": "overworld-town/loc-police/widgets.twee",
+    "key": "13_5_3_7|",
+    "original": "<span class=\"red\">an arrest warrant has been issued for you</span> and they have enough to warrant <span class=\"red\">serious punishment.</span>",
+    "translation": "",
+    "pos": 638
+  },
+  {
+    "passage": "Widgets Police",
+    "filepath": "overworld-town/loc-police/widgets.twee",
+    "key": "15_5_3_7|",
+    "original": "<span class=\"red\">an arrest warrant has been issued for you</span> and they have enough to warrant significant punishment.",
+    "translation": "",
+    "pos": 823
+  },
+  {
+    "passage": "Widgets Police",
+    "filepath": "overworld-town/loc-police/widgets.twee",
+    "key": "17_5_3_7|",
+    "original": "<span class=\"red\">an arrest warrant</span> has been issued for you. They have enough evidence to warrant a punishment.",
+    "translation": "",
+    "pos": 987
+  },
+  {
+    "passage": "Widgets Police",
+    "filepath": "overworld-town/loc-police/widgets.twee",
+    "key": "19_5_3_7|",
+    "original": "<span class=\"gold\">they may soon have enough on you to issue an arrest warrant.</span>",
+    "translation": "",
+    "pos": 1146
+  },
+  {
+    "passage": "Widgets Police",
+    "filepath": "overworld-town/loc-police/widgets.twee",
+    "key": "21_5_3_7|",
+    "original": "<span class=\"teal\">they have nothing significant on you.</span>",
+    "translation": "",
+    "pos": 1245
+  },
+  {
+    "passage": "Widgets Police",
+    "filepath": "overworld-town/loc-police/widgets.twee",
+    "key": "25_5_3_7|",
+    "original": "Options:",
+    "translation": "",
+    "pos": 1356
+  },
+  {
+    "passage": "Widgets Police",
+    "filepath": "overworld-town/loc-police/widgets.twee",
+    "key": "27_5_3_7|",
+    "original": "<span class=\"teal\">Installing a Wiper worm</span> will destroy lots of police records on everyone, including you.",
+    "translation": "",
+    "pos": 1374
+  },
+  {
+    "passage": "Widgets Police",
+    "filepath": "overworld-town/loc-police/widgets.twee",
+    "key": "29_5_3_7|",
+    "original": "<span class=\"teal\">Framing someone</span> will attach all evidence on you to someone else. This should mislead the police.",
+    "translation": "",
+    "pos": 1497
+  },
+  {
+    "passage": "Widgets Police",
+    "filepath": "overworld-town/loc-police/widgets.twee",
+    "key": "30_5_3_7|",
+    "original": "However, you can only attach it to those who already have a record in the system.",
+    "translation": "",
+    "pos": 1622
+  },
+  {
+    "passage": "Widgets Police",
+    "filepath": "overworld-town/loc-police/widgets.twee",
+    "key": "33_5_3_7|",
+    "original": "<<link [[Install Wiper|Police Sneak Caught]]>><</link>>",
+    "translation": "",
+    "pos": 1769
+  },
+  {
+    "passage": "Widgets Police",
+    "filepath": "overworld-town/loc-police/widgets.twee",
+    "key": "36_5_3_7|",
+    "original": "<<link [[Frame Whitney|Police Sneak Caught]]>><</link>>",
+    "translation": "",
+    "pos": 1928
+  },
+  {
+    "passage": "Widgets Police",
+    "filepath": "overworld-town/loc-police/widgets.twee",
+    "key": "40_5_3_7|",
+    "original": "<<link [[Frame Leighton|Police Sneak Caught]]>><</link>>",
+    "translation": "",
+    "pos": 2052
+  },
+  {
+    "passage": "Widgets Police",
+    "filepath": "overworld-town/loc-police/widgets.twee",
+    "key": "44_5_3_7|",
+    "original": "<span class=\"red\">You have already framed <<print ($framed.toUpperFirst())>> for your crimes - you cannot do it again until they have paid for your crimes.</span>",
+    "translation": "",
+    "pos": 2159
+  },
+  {
+    "passage": "Widgets Police",
+    "filepath": "overworld-town/loc-police/widgets.twee",
+    "key": "47_5_3_7|",
+    "original": "<<link [[Install Wiper (0:10)|Police Computer]]>><<pass 10>><<set $phase to 11>><<crimeDown 0.5 \"all\">><<set _randomCrime to ((random(5,35) + 20)/100)>><<crimeDown _randomCrime \"all\">><<set $police_delete += 1>><</link>>",
+    "translation": "",
+    "pos": 2347
+  },
+  {
+    "passage": "Widgets Police",
+    "filepath": "overworld-town/loc-police/widgets.twee",
+    "key": "52_5_3_7|",
+    "original": "<<link [[Frame Whitney (0:10)|Police Computer]]>><<pass 10>><<set $phase to 12>><<crimeClear \"all\">><<set $police_delete += 1>><</link>>",
+    "translation": "",
+    "pos": 2781
+  },
+  {
+    "passage": "Widgets Police",
+    "filepath": "overworld-town/loc-police/widgets.twee",
+    "key": "56_5_3_7|",
+    "original": "<<link [[Frame Leighton (0:10)|Police Computer]]>><<pass 10>><<set $phase to 13>><<crimeClear \"all\">><<set $police_delete += 1>><</link>>",
+    "translation": "",
+    "pos": 2986
+  },
+  {
+    "passage": "Widgets Police",
+    "filepath": "overworld-town/loc-police/widgets.twee",
+    "key": "60_5_3_7|",
+    "original": "<span class=\"red\">You have already framed <<print ($framed.toUpperFirst())>> for your crimes - you cannot do it again until they have paid for your crimes.</span>",
+    "translation": "",
+    "pos": 3174
+  },
+  {
+    "passage": "Widgets Police",
+    "filepath": "overworld-town/loc-police/widgets.twee",
+    "key": "64_5_3_7|",
+    "original": "Options:",
+    "translation": "",
+    "pos": 3399
+  },
+  {
+    "passage": "Widgets Police",
+    "filepath": "overworld-town/loc-police/widgets.twee",
+    "key": "66_5_3_7|",
+    "original": "<span class=\"teal\">Deleting electronic evidence</span> will reduce the amount of crime they can pin on you and should not be detected.",
+    "translation": "",
+    "pos": 3417
+  },
+  {
+    "passage": "Widgets Police",
+    "filepath": "overworld-town/loc-police/widgets.twee",
+    "key": "68_5_3_7|",
+    "original": "<span class=\"teal\">Installing a Wiper worm</span> will destroy lots of police records on everyone, including you.",
+    "translation": "",
+    "pos": 3561
+  },
+  {
+    "passage": "Widgets Police",
+    "filepath": "overworld-town/loc-police/widgets.twee",
+    "key": "71_5_3_7|",
+    "original": "<<link [[Delete evidence|Police Sneak Caught]]>><</link>>",
+    "translation": "",
+    "pos": 3736
+  },
+  {
+    "passage": "Widgets Police",
+    "filepath": "overworld-town/loc-police/widgets.twee",
+    "key": "73_5_3_7|",
+    "original": "<<link [[Install Wiper|Police Sneak Caught]]>><</link>>",
+    "translation": "",
+    "pos": 3805
+  },
+  {
+    "passage": "Widgets Police",
+    "filepath": "overworld-town/loc-police/widgets.twee",
+    "key": "76_5_3_7|",
+    "original": "<<link [[Delete evidence (0:15)|Police Computer]]>><<pass 15>><<set $phase to 10>><<set _randomCrime to ((random(5,35) + 20)/100)>><<crimeDown _randomCrime \"all\">><<set $police_delete += 1>><</link>>",
+    "translation": "",
+    "pos": 3883
+  },
+  {
+    "passage": "Widgets Police",
+    "filepath": "overworld-town/loc-police/widgets.twee",
+    "key": "80_5_3_7|",
+    "original": "<<link [[Install Wiper (0:10)|Police Computer]]>><<pass 10>><<set $phase to 11>><<crimeDown 0.5 \"all\">><<set $police_delete += 1>><</link>>",
+    "translation": "",
+    "pos": 4201
+  }
+]

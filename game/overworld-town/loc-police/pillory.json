@@ -1,0 +1,2242 @@
+[
+  {
+    "passage": "Police Pillory Start",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "4_5_3_7|",
+    "original": "<<pass 5>>The <<person1>><<person>> holds you by your cuffs and pushes you outside. <<He>> hands you over to another officer, a <<endevent>><<generatePolice 1>><<person1>><<person>>, who pushes you down the street. The pillory sits outside the town hall, a short walk away. Onlookers gawk at you as you are led up to it, and the <<person>> removes your cuffs.",
+    "translation": "",
+    "pos": 61
+  },
+  {
+    "passage": "Police Pillory Start",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "7_5_3_7|",
+    "original": "You have an opportunity to escape, but the <<person>> is aware of that, and keeps one hand gripping your arm. You'll have to fight to get away.",
+    "translation": "",
+    "pos": 431
+  },
+  {
+    "passage": "Police Pillory Start",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "10_5_3_7|",
+    "original": "<<link [[Try to break free|Police Pillory Fight]]>><<set $fightstart to 1>><<crimeUp 200 \"resisting\">><</link>><<crime \"resisting\">>",
+    "translation": "",
+    "pos": 585
+  },
+  {
+    "passage": "Police Pillory Start",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "12_5_3_7|",
+    "original": "<<link [[Let yourself be fixed in place|Police Pillory Start 2]]>><</link>>",
+    "translation": "",
+    "pos": 723
+  },
+  {
+    "passage": "Police Pillory Fight",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "34_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Police Pillory Fight Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 312
+  },
+  {
+    "passage": "Police Pillory Fight",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "36_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Police Pillory Fight]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 412
+  },
+  {
+    "passage": "Police Pillory Start 2",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "47_5_3_7|",
+    "original": "The <<person>> moves your arms and head into position before lifting the top into place, restraining you. <<He>> locks it shut and attaches the key to a chain on <<his>> belt. \"Someone will be over to release you in _hours hours.\" <<if $worn.handheld.name isnot \"naked\">><<He>> looks at your $worn.handheld.name. \"You'll get that back when you're released.<</if>><<bindtemp>><<He>> leaves without looking back.",
+    "translation": "",
+    "pos": 322
+  },
+  {
+    "passage": "Police Pillory Start 2",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "50_5_3_7|",
+    "original": "With <<him>> gone, some onlookers lose interest and return to their routines. Others still gawk however. If any tried to abuse you there'd be little you could do to stop them, but people seem hesitant to make the first move. You hope it stays that way.",
+    "translation": "",
+    "pos": 743
+  },
+  {
+    "passage": "Police Pillory Start 2",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "54_5_3_7|",
+    "original": "<<link [[Next|Pillory]]>><<endevent>><<set $pillory.audience to 1>><</link>>",
+    "translation": "",
+    "pos": 1020
+  },
+  {
+    "passage": "Police Pillory Fight Finish",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "63_5_3_7|",
+    "original": "The <<person>> looks mortified that <<he>> just came in public. Some people point and laugh, others whisper amongst themselves, but it's clear what they're talking about. \"Th-that wasn't what it looked like!\" <<he>> protests, having all but forgotten you. <<tearful>> you slink away.",
+    "translation": "",
+    "pos": 130
+  },
+  {
+    "passage": "Police Pillory Fight Finish",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "73_5_3_7|",
+    "original": "You knock the <<person>> down, giving you the chance you need. <<tearful>> you make your escape. Some people cheer for you.",
+    "translation": "",
+    "pos": 505
+  },
+  {
+    "passage": "Police Pillory Fight Finish",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "84_5_3_7|",
+    "original": "In too much pain to resist, you're helpless as the <<person>> continues <<his>> work.",
+    "translation": "",
+    "pos": 750
+  },
+  {
+    "passage": "Police Pillory Fight Finish",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "87_5_3_7|",
+    "original": "<<link [[Next|Police Pillory Start 2]]>><</link>>",
+    "translation": "",
+    "pos": 848
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "102_5_3_7|",
+    "original": "You are stuck in a pillory on Cliff Street, in front of the town hall.",
+    "translation": "",
+    "pos": 287
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "105_5_3_7|",
+    "original": "You have <<number _timeLeft>> hours left until release.",
+    "translation": "",
+    "pos": 382
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "107_5_3_7|",
+    "original": "You should be released any moment from now.",
+    "translation": "",
+    "pos": 447
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "112_5_3_7|",
+    "original": "<span class=\"teal\">A few people stop to look at you but most just glance then continue their business.</span>",
+    "translation": "",
+    "pos": 542
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "116_5_3_7|",
+    "original": "<span class=\"lblue\">You've attracted a small crowd of onlookers.</span>",
+    "translation": "",
+    "pos": 699
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "120_5_3_7|",
+    "original": "<span class=\"blue\">You've attracted a growing crowd of onlookers.</span>",
+    "translation": "",
+    "pos": 818
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "124_5_3_7|",
+    "original": "<span class=\"purple\">A large group has gathered around you, big enough that the crowd itself is attracting more people to see what the fuss is about.</span>",
+    "translation": "",
+    "pos": 938
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "128_5_3_7|",
+    "original": "<span class=\"pink\">A large crowd has gathered around you. People throw jeers and insults your way.</span>",
+    "translation": "",
+    "pos": 1142
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "132_5_3_7|",
+    "original": "<span class=\"red\">A huge crowd has gathered around you. People jeer and insult you. Some throw litter.</span>",
+    "translation": "",
+    "pos": 1259
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "138_5_3_7|",
+    "original": "You can do nothing about your <<lewdness>> displayed for everyone to see, humiliating you further.",
+    "translation": "",
+    "pos": 1402
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "155_5_3_7|",
+    "original": "A person pulls out their <<print [\"camera\", \"phone\"].pluck()>> and takes a photo.",
+    "translation": "",
+    "pos": 1916
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "157_5_3_7|",
+    "original": "\"Now your <<undies>> can be exposed forever.\",",
+    "translation": "",
+    "pos": 2012
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "158_5_3_7|",
+    "original": "\"I can't wait to post this online.\",",
+    "translation": "",
+    "pos": 2061
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "159_5_3_7|",
+    "original": "\"I can't wait to share this with my friends.\",",
+    "translation": "",
+    "pos": 2100
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "160_5_3_7|",
+    "original": "\"If you didn't want your <<undies>> photographed you shouldn't be such a slut.\",",
+    "translation": "",
+    "pos": 2149
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "161_5_3_7|",
+    "original": "\"If you didn't want your <<undies>> photographed you shouldn't have broken the law.\",",
+    "translation": "",
+    "pos": 2232
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "162_5_3_7|",
+    "original": "\"Aww, is it embarrassing having your <<undies>> photographed?\",",
+    "translation": "",
+    "pos": 2320
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "163_5_3_7|",
+    "original": "\"Is it embarrassing, not being able to cover up?\",",
+    "translation": "",
+    "pos": 2386
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "164_5_3_7|",
+    "original": "\"If you don't want your <<undies>> photographed, don't break the law.\",",
+    "translation": "",
+    "pos": 2439
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "165_5_3_7|",
+    "original": "\"If you don't want people taking photos of your <<undies>> then don't break the law.\",",
+    "translation": "",
+    "pos": 2513
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "166_5_3_7|",
+    "original": "\"I bet <<pshes>> getting off on this.\",",
+    "translation": "",
+    "pos": 2602
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "167_5_3_7|",
+    "original": "\"Is it embarrassing being exposed like this? Too bad.\",",
+    "translation": "",
+    "pos": 2644
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "168_5_3_7|",
+    "original": "\"Is it embarrassing being exposed like this? Too bad, criminal.\",",
+    "translation": "",
+    "pos": 2702
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "169_5_3_7|",
+    "original": "\"I bet <<pshe>> gets off on the humiliation anyway.\",",
+    "translation": "",
+    "pos": 2770
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "170_5_3_7|",
+    "original": "\"Do you like having your <<undies>> photographed?\"",
+    "translation": "",
+    "pos": 2826
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "171_5_3_7|",
+    "original": "].pluck()>>\"",
+    "translation": "",
+    "pos": 2878
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "184_5_3_7|",
+    "original": "A <<generatePolice 1>><<person1>><<person>> in a police uniform arrives. <<He>> removes your collar and unlocks the pillory, freeing you. The crowd boos its disappointment as the officer disperses them.",
+    "translation": "",
+    "pos": 3206
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "201_5_3_7|",
+    "original": "You feel something prod your <<bottom>>. A <<beasttype>> is sniffing you curiously.",
+    "translation": "",
+    "pos": 3846
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "204_5_3_7|",
+    "original": "<<link [[Next|Pillory Dog]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 3946
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "208_5_3_7|",
+    "original": "<<generate1>><<person1>>A <<person>> walks right up to the pillory.",
+    "translation": "",
+    "pos": 4053
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "211_5_3_7|",
+    "original": "<<link [[Next|Pillory Molestation]]>><<set $molestationstart to 1>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 4137
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "219_5_3_7|",
+    "original": "A <<generate1>><<person1>><<person>> crouches beside you, and reaches for your <<breasts>>.",
+    "translation": "",
+    "pos": 4423
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "222_5_3_7|",
+    "original": "<<link [[Spit on <<him>>|Pillory Spit]]>><<stress -12>><<trauma -6>><<attackstat>><<set $pillory.audience += 1>><</link>><<ltrauma>><<llstress>><<gattention>>",
+    "translation": "",
+    "pos": 4533
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "224_5_3_7|",
+    "original": "<<link [[Stay still|Pillory Chest]]>><<trauma 6>><<stress 6>><<arousal 600 \"breasts\">><</link>><<gtrauma>><<gstress>><<garousal>>",
+    "translation": "",
+    "pos": 4705
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "229_5_3_7|",
+    "original": "A <<generate1>><<person1>><<person>> approaches, and grasps your $worn.under_upper.name.",
+    "translation": "",
+    "pos": 5018
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "232_5_3_7|",
+    "original": "<<link [[Spit on <<him>>|Pillory Spit]]>><<stress -12>><<trauma -6>><<attackstat>><<set $pillory.audience += 1>><</link>><<ltrauma>><<llstress>><<gattention>>",
+    "translation": "",
+    "pos": 5127
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "234_5_3_7|",
+    "original": "<<link [[Stay still|Pillory Under Upper]]>><<trauma 6>><<stress 6>><<arousal 600>><</link>><<gtrauma>><<gstress>><<garousal>>",
+    "translation": "",
+    "pos": 5301
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "237_5_3_7|",
+    "original": "A <<generate1>><<person1>><<person>> approaches with a camera in hand. <<He>> snaps a couple of pictures before returning to the crowd.<<gstress>><<stress 6>>",
+    "translation": "",
+    "pos": 5455
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "246_5_3_7|",
+    "original": "<<link [[Next (1:00)|Pillory]]>><<pass 1 hour>><</link>>",
+    "translation": "",
+    "pos": 5795
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "251_5_3_7|",
+    "original": "A <<generate1>><<person1>><<person>> approaches, and grasps your $worn.upper.name.",
+    "translation": "",
+    "pos": 6031
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "254_5_3_7|",
+    "original": "<<link [[Spit on <<him>>|Pillory Spit]]>><<stress -12>><<trauma -6>><<attackstat>><<set $pillory.audience += 1>><</link>><<ltrauma>><<llstress>><<gattention>>",
+    "translation": "",
+    "pos": 6134
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "256_5_3_7|",
+    "original": "<<link [[Stay still|Pillory Upper]]>><<trauma 6>><<stress 6>><<arousal 600>><</link>><<gtrauma>><<gstress>><<garousal>>",
+    "translation": "",
+    "pos": 6308
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "259_5_3_7|",
+    "original": "A <<generate1>><<person1>><<person>> approaches with a camera in hand. <<He>> snaps a couple of pictures before returning to the crowd.<<gstress>><<stress 6>>",
+    "translation": "",
+    "pos": 6456
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "268_5_3_7|",
+    "original": "<<link [[Next (1:00)|Pillory]]>><<pass 1 hour>><</link>>",
+    "translation": "",
+    "pos": 6796
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "272_5_3_7|",
+    "original": "A <<generate1>><<person1>><<person>> approaches with a camera in hand. <<He>> snaps a couple of pictures before returning to the crowd.<<gstress>><<stress 6>>",
+    "translation": "",
+    "pos": 6891
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "281_5_3_7|",
+    "original": "<<link [[Next (1:00)|Pillory]]>><<pass 1 hour>><</link>>",
+    "translation": "",
+    "pos": 7223
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "288_5_3_7|",
+    "original": "A <<generate1>><<person1>><<person>> emerges from the crowd, dressed in a flamboyant ringmaster's costume.",
+    "translation": "",
+    "pos": 7590
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "289_5_3_7|",
+    "original": "<<He>> takes off <<his>> hat and lays it in front of the onlookers, before unfurling a whip and striding behind you. Everyone watches for a moment in fascination.",
+    "translation": "",
+    "pos": 7701
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "292_5_3_7|",
+    "original": "<<link [[Dodge|Pillory Whip Master]]>><<set $phase to 1>><</link>><<skill_difficulty `currentSkillValue(\"danceskill\")` \"Dance\" 1 1000>>",
+    "translation": "",
+    "pos": 7882
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "294_5_3_7|",
+    "original": "<<link [[Brace|Pillory Whip Master]]>><<stress 6>><<trauma 6>><</link>><<gstress>><<gtrauma>>",
+    "translation": "",
+    "pos": 8031
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "296_5_3_7|",
+    "original": "<<elseif $rng gte 91 and $analdisable isnot 't' and $toydildodisable isnot 't' and $adultshopunlocked and $worn.lower.exposed gte 2 and $worn.under_lower.exposed gte 1 and",
+    "translation": "",
+    "pos": 8137
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "297_5_3_7|",
+    "original": "!playerHasButtPlug() and countCarriedSextoys() lt 5 and $worn.genitals.anal_shield !== 1>>",
+    "translation": "",
+    "pos": 8313
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "300_5_3_7|",
+    "original": "A <<person>> emerges from the crowd, a gigantic",
+    "translation": "",
+    "pos": 8532
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "301_5_3_7|",
+    "original": "<<print V.player.inventory.sextoys['butt plug'][V.player.inventory.sextoys['butt plug'].length - 1].colour>>",
+    "translation": "",
+    "pos": 8584
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "302_5_3_7|",
+    "original": "butt plug in hand. <<He>> approaches you from behind.",
+    "translation": "",
+    "pos": 8697
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "305_5_3_7|",
+    "original": "<<link [[Warn them off|Pillory Butt Plug]]>><<set $phase to 1>><</link>><<skill_difficulty `Math.abs($submissive - 1000)` \"\" 1 850>>",
+    "translation": "",
+    "pos": 8769
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "307_5_3_7|",
+    "original": "<<link [[Brace yourself|Pillory Butt Plug]]>><</link>>",
+    "translation": "",
+    "pos": 8915
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "310_5_3_7|",
+    "original": "A <<generate1>><<person1>><<person>> walks behind you and grabs the hem of your $worn.lower.name.",
+    "translation": "",
+    "pos": 9025
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "313_5_3_7|",
+    "original": "<<link [[Kick <<him>>|Pillory Kick]]>><<stress -12>><<trauma -6>><<attackstat>><<set $pillory.audience += 1>><</link>><<ltrauma>><<llstress>><<gattention>>",
+    "translation": "",
+    "pos": 9141
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "315_5_3_7|",
+    "original": "<<link [[Stay still|Pillory Skirt]]>><<trauma 6>><<stress 6>><</link>><<gtrauma>><<gstress>>",
+    "translation": "",
+    "pos": 9310
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "318_5_3_7|",
+    "original": "A <<generate1>><<person1>><<person>> walks behind you and grabs the hem of your $worn.lower.name.",
+    "translation": "",
+    "pos": 9567
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "320_5_3_7|",
+    "original": "<<link [[Kick <<him>>|Pillory Kick]]>><<stress -12>><<trauma -6>><<attackstat>><<set $pillory.audience += 1>><</link>><<ltrauma>><<llstress>><<gattention>>",
+    "translation": "",
+    "pos": 9682
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "322_5_3_7|",
+    "original": "<<link [[Stay still|Pillory Lower]]>><<trauma 6>><<stress 6>><</link>><<gtrauma>><<gstress>>",
+    "translation": "",
+    "pos": 9851
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "325_5_3_7|",
+    "original": "A <<generate1>><<person1>><<person>> walks behind you and grabs the hem of your $worn.under_lower.name.",
+    "translation": "",
+    "pos": 10032
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "327_5_3_7|",
+    "original": "<<link [[Kick <<him>>|Pillory Kick]]>><<stress -12>><<trauma -6>><<attackstat>><<set $pillory.audience += 1>><</link>><<ltrauma>><<llstress>><<gattention>>",
+    "translation": "",
+    "pos": 10153
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "329_5_3_7|",
+    "original": "<<link [[Stay still|Pillory Under]]>><<trauma 6>><<stress 6>><</link>><<gtrauma>><<gstress>>",
+    "translation": "",
+    "pos": 10322
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "334_5_3_7|",
+    "original": "A <<generate1>><<person1>><<person>> walks behind you and gives your exposed <<bottom>> a hard spank. The crowd cheers.",
+    "translation": "",
+    "pos": 10442
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "339_5_3_7|",
+    "original": "<<link [[Next (1:00)|Pillory]]>><<pass 1 hour>><</link>>",
+    "translation": "",
+    "pos": 10658
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "344_5_3_7|",
+    "original": "<<generate1>><<person1>>A <<person>> approaches you and pulls down <<his>> <<npcClothesText $NPCList[0] \"lower\">>. <<He>> turns around and backs up against your face.",
+    "translation": "",
+    "pos": 10799
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "346_5_3_7|",
+    "original": "\"<<print [\"Eat up!\", \"Kiss my ass!\"].pluck()>>\" <<he>> says with a snicker.",
+    "translation": "",
+    "pos": 10977
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "349_5_3_7|",
+    "original": "<<link [[Keep your mouth closed|Pillory Analingus]]>><<def 1>><<set $phase to 0>><</link>><<defianttext>>",
+    "translation": "",
+    "pos": 11069
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "351_5_3_7|",
+    "original": "<<link [[Lick grudgingly|Pillory Analingus]]>><<trauma 6>><<set $phase to 1>><</link>><<gtrauma>>",
+    "translation": "",
+    "pos": 11186
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "354_5_3_7|",
+    "original": "<<link [[Lick willingly|Pillory Analingus]]>><<arousal 600>><<set $phase to 2>><</link>><<promiscuous3>><<garousal>>",
+    "translation": "",
+    "pos": 11335
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "358_5_3_7|",
+    "original": "<<generate1>><<person1>>A <<person>> approaches you and presses <<his>> crotch against your helpless face.",
+    "translation": "",
+    "pos": 11492
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "361_5_3_7|",
+    "original": "<<link [[Next|Pillory Oral]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 11615
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "364_5_3_7|",
+    "original": "A number of people disembark from a bus nearby. Some of them gather round to gawk. <span class=\"pink\">The crowd becomes larger and bolder.</span>",
+    "translation": "",
+    "pos": 11707
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "367_5_3_7|",
+    "original": "<<link [[Next (1:00)|Pillory]]>><<pass 1 hour>><</link>>",
+    "translation": "",
+    "pos": 11869
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "374_5_3_7|",
+    "original": "A <<person>> approaches you, and <span class=\"pink\">pulls the lid off a permanent marker.</span>",
+    "translation": "",
+    "pos": 12098
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "378_5_3_7|",
+    "original": "A <<person>> approaches you, and <span class=\"purple\">pulls the lid off a pen.</span>",
+    "translation": "",
+    "pos": 12244
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "381_5_3_7|",
+    "original": "<<link [[Warn them off|Pillory Pen Warn]]>><<set $pillory.audience += 1>><</link>><<gattention>>",
+    "translation": "",
+    "pos": 12354
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "383_5_3_7|",
+    "original": "<<link [[Brace|Pillory Pen]]>><</link>><<gbodywriting>>",
+    "translation": "",
+    "pos": 12460
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "388_5_3_7|",
+    "original": "<<generate1>><<person1>>A <<person>> approaches you and <<npcUndressText $NPCList[0] \"lower\" \"self\">>,",
+    "translation": "",
+    "pos": 12597
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "389_5_3_7|",
+    "original": "<span class=\"purple\"><<npcRevealText $NPCList[0] \"lower\">>.</span>",
+    "translation": "",
+    "pos": 12702
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "391_5_3_7|",
+    "original": "Without warning, <<he>> begins to urinate on your face. The crowd watches in excitement.<<ggtrauma>><<trauma 12>><<gstress>><<stress 6>><<urinestat>>",
+    "translation": "",
+    "pos": 12782
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "394_5_3_7|",
+    "original": "<<link [[Next (1:00)|Pillory]]>><<pass 1 hour>><</link>>",
+    "translation": "",
+    "pos": 12960
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "397_5_3_7|",
+    "original": "<<generatey1>><<generatey2>>A <<person1>><<person>> whispers something to <<his>> friend, a <<person2>><<person>>, who laughs and produces a piece of fruit from <<his>> bag.",
+    "translation": "",
+    "pos": 13051
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "400_5_3_7|",
+    "original": "<<link [[Warn them off|Pillory Warn]]>><<set $pillory.audience += 1>><</link>><<gattention>>",
+    "translation": "",
+    "pos": 13239
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "402_5_3_7|",
+    "original": "<<link [[Brace yourself|Pillory Brace]]>><</link>>",
+    "translation": "",
+    "pos": 13341
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "405_5_3_7|",
+    "original": "<<generate1>><<person1>>A <<person>> takes a picture of you with <<his>> phone.",
+    "translation": "",
+    "pos": 13426
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "408_5_3_7|",
+    "original": "<<link [[Next (1:00)|Pillory]]>><<pass 1 hour>><</link>>",
+    "translation": "",
+    "pos": 13534
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "411_5_3_7|",
+    "original": "A number of people disembark from a bus nearby. Some of them gather round to gawk. <span class=\"pink\">The crowd becomes larger and bolder.</span>",
+    "translation": "",
+    "pos": 13611
+  },
+  {
+    "passage": "Pillory",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "414_5_3_7|",
+    "original": "<<link [[Next (1:00)|Pillory]]>><<pass 1 hour>><</link>>",
+    "translation": "",
+    "pos": 13771
+  },
+  {
+    "passage": "Pillory Dog",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "445_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Pillory Dog Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 374
+  },
+  {
+    "passage": "Pillory Dog",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "447_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Pillory Dog]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 465
+  },
+  {
+    "passage": "Pillory Dog Finish",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "457_5_3_7|",
+    "original": "The <<beasttype>> barks in satisfaction, and wanders into the crowd.",
+    "translation": "",
+    "pos": 128
+  },
+  {
+    "passage": "Pillory Dog Finish",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "464_5_3_7|",
+    "original": "\"Serves you right, bitch,\" you hear someone shout.",
+    "translation": "",
+    "pos": 339
+  },
+  {
+    "passage": "Pillory Dog Finish",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "466_5_3_7|",
+    "original": "\"<<pShe>> actually got that <<beasttype>> off.\"",
+    "translation": "",
+    "pos": 397
+  },
+  {
+    "passage": "Pillory Dog Finish",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "468_5_3_7|",
+    "original": "\"Not even a punishment, I bet <<pshe>> enjoyed it, the filthy slut.\"",
+    "translation": "",
+    "pos": 452
+  },
+  {
+    "passage": "Pillory Dog Finish",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "470_5_3_7|",
+    "original": "<span class=\"pink\">The crowd becomes larger and bolder.</span>",
+    "translation": "",
+    "pos": 528
+  },
+  {
+    "passage": "Pillory Dog Finish",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "476_5_3_7|",
+    "original": "<<link [[Next (1:00)|Pillory]]>><<pass 1 hour>><</link>>",
+    "translation": "",
+    "pos": 647
+  },
+  {
+    "passage": "Pillory Dog Finish",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "480_5_3_7|",
+    "original": "The <<beasttype>> gives up and flees into the crowd.",
+    "translation": "",
+    "pos": 742
+  },
+  {
+    "passage": "Pillory Dog Finish",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "483_5_3_7|",
+    "original": "\"<<pShe>> beats innocent <<beastsplural>>. <<pShe>> belongs up there.\" You hear someone shout.",
+    "translation": "",
+    "pos": 807
+  },
+  {
+    "passage": "Pillory Dog Finish",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "485_5_3_7|",
+    "original": "<span class=\"teal\">The crowd becomes smaller and more cautious.</span>",
+    "translation": "",
+    "pos": 909
+  },
+  {
+    "passage": "Pillory Dog Finish",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "491_5_3_7|",
+    "original": "<<link [[Next (1:00)|Pillory]]>><<pass 1 hour>><</link>>",
+    "translation": "",
+    "pos": 1040
+  },
+  {
+    "passage": "Pillory Molestation",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "518_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Pillory Molestation Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 342
+  },
+  {
+    "passage": "Pillory Molestation",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "520_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Pillory Molestation]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 441
+  },
+  {
+    "passage": "Pillory Molestation Finish",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "530_5_3_7|",
+    "original": "The <<person>> slaps your <<bottom>> then steps away from the pillory.",
+    "translation": "",
+    "pos": 123
+  },
+  {
+    "passage": "Pillory Molestation Finish",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "537_5_3_7|",
+    "original": "\"Serves you right, bitch,\" you hear someone shout.",
+    "translation": "",
+    "pos": 330
+  },
+  {
+    "passage": "Pillory Molestation Finish",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "539_5_3_7|",
+    "original": "\"At least <<pshe>> can be of some use to society.\"",
+    "translation": "",
+    "pos": 388
+  },
+  {
+    "passage": "Pillory Molestation Finish",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "541_5_3_7|",
+    "original": "\"Not even a punishment, I bet <<pshe>> enjoyed it, the filthy slut.\"",
+    "translation": "",
+    "pos": 446
+  },
+  {
+    "passage": "Pillory Molestation Finish",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "543_5_3_7|",
+    "original": "<span class=\"pink\">The crowd becomes larger and bolder.</span>",
+    "translation": "",
+    "pos": 522
+  },
+  {
+    "passage": "Pillory Molestation Finish",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "549_5_3_7|",
+    "original": "<<link [[Next (1:00)|Pillory]]>><<pass 1 hour>><</link>>",
+    "translation": "",
+    "pos": 641
+  },
+  {
+    "passage": "Pillory Molestation Finish",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "553_5_3_7|",
+    "original": "The <<person>> steps away from the pillory.",
+    "translation": "",
+    "pos": 736
+  },
+  {
+    "passage": "Pillory Molestation Finish",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "556_5_3_7|",
+    "original": "\"So violent. <<pShe>> belongs up there.\" You hear someone shout.",
+    "translation": "",
+    "pos": 792
+  },
+  {
+    "passage": "Pillory Molestation Finish",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "558_5_3_7|",
+    "original": "<span class=\"teal\">The crowd becomes smaller and more cautious.</span>",
+    "translation": "",
+    "pos": 864
+  },
+  {
+    "passage": "Pillory Molestation Finish",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "564_5_3_7|",
+    "original": "<<link [[Next (1:00)|Pillory]]>><<pass 1 hour>><</link>>",
+    "translation": "",
+    "pos": 995
+  },
+  {
+    "passage": "Pillory Whip Master",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "571_5_3_7|",
+    "original": "<<He>> cracks the whip a couple of times on the pavement before lashing out at you.",
+    "translation": "",
+    "pos": 61
+  },
+  {
+    "passage": "Pillory Whip Master",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "575_5_3_7|",
+    "original": "A couple of blows land on your <<bottom>> with a sharp sting, <span class=\"green\">but you're able to avoid most of them.</span>",
+    "translation": "",
+    "pos": 215
+  },
+  {
+    "passage": "Pillory Whip Master",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "576_5_3_7|",
+    "original": "A few of the audience members murmur to one another. It's clear you're ruining the <<personsimple>>'s act.",
+    "translation": "",
+    "pos": 345
+  },
+  {
+    "passage": "Pillory Whip Master",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "577_5_3_7|",
+    "original": "Eventually <<he>> gives up, takes <<his>> hat, and storms off. The crowd boos, and a couple of delinquents throw fruit at <<him>>.",
+    "translation": "",
+    "pos": 454
+  },
+  {
+    "passage": "Pillory Whip Master",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "582_5_3_7|",
+    "original": "<<link [[Next (1:00)|Pillory]]>><<pass 1 hour>><</link>>",
+    "translation": "",
+    "pos": 645
+  },
+  {
+    "passage": "Pillory Whip Master",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "584_5_3_7|",
+    "original": "<span class=\"red\">You're unable to dodge <<his>> blows.</span> You try to stifle your cries as the lashes strike your <<bottom>>.",
+    "translation": "",
+    "pos": 714
+  },
+  {
+    "passage": "Pillory Whip Master",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "585_5_3_7|",
+    "original": "Behind you, the ringmaster draws in a sharp breath. Your clumsy movements seem to be making things worse than <<he>> intended.",
+    "translation": "",
+    "pos": 846
+  },
+  {
+    "passage": "Pillory Whip Master",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "589_5_3_7|",
+    "original": "<<link [[Next|Pillory Whip Master 2]]>><</link>>",
+    "translation": "",
+    "pos": 1019
+  },
+  {
+    "passage": "Pillory Whip Master",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "592_5_3_7|",
+    "original": "You brace yourself, prepared for a volley of painful blows. <span class=\"green\">They're not as intense as anticipated.</span>",
+    "translation": "",
+    "pos": 1087
+  },
+  {
+    "passage": "Pillory Whip Master",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "593_5_3_7|",
+    "original": "<<His>> lashes twinge slightly, but it is immediately clear the ringmaster is not attempting to hurt you.",
+    "translation": "",
+    "pos": 1214
+  },
+  {
+    "passage": "Pillory Whip Master",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "597_5_3_7|",
+    "original": "<<link [[Next|Pillory Whip Master 2]]>><</link>>",
+    "translation": "",
+    "pos": 1370
+  },
+  {
+    "passage": "Pillory Whip Master 2",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "606_5_3_7|",
+    "original": "<<run _articles.push($worn.lower.name)>>",
+    "translation": "",
+    "pos": 108
+  },
+  {
+    "passage": "Pillory Whip Master 2",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "611_5_3_7|",
+    "original": "<<run _articles.push($worn.under_lower.name)>>",
+    "translation": "",
+    "pos": 297
+  },
+  {
+    "passage": "Pillory Whip Master 2",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "615_5_3_7|",
+    "original": "After delivering one final strike, <<he>> swiftly withdraws the whip. The crowd goes silent.",
+    "translation": "",
+    "pos": 430
+  },
+  {
+    "passage": "Pillory Whip Master 2",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "616_5_3_7|",
+    "original": "Suddenly, to your horror, your <span class=\"red\"><<print _articles.join(\" and \")>>",
+    "translation": "",
+    "pos": 523
+  },
+  {
+    "passage": "Pillory Whip Master 2",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "617_5_3_7|",
+    "original": "<<if _plural>>fall",
+    "translation": "",
+    "pos": 606
+  },
+  {
+    "passage": "Pillory Whip Master 2",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "618_5_3_7|",
+    "original": "<<else>>falls <</if>>",
+    "translation": "",
+    "pos": 625
+  },
+  {
+    "passage": "Pillory Whip Master 2",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "619_5_3_7|",
+    "original": "to the ground, cut to ribbons by the whip.</span>",
+    "translation": "",
+    "pos": 647
+  },
+  {
+    "passage": "Pillory Whip Master 2",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "620_5_3_7|",
+    "original": "The onlookers clap and applaud. Several toss money into <<his>> hat.",
+    "translation": "",
+    "pos": 697
+  },
+  {
+    "passage": "Pillory Whip Master 2",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "621_5_3_7|",
+    "original": "The ringmaster bows in front of your exposed lower half, scoops up <<his>> earnings, and leaves.",
+    "translation": "",
+    "pos": 766
+  },
+  {
+    "passage": "Pillory Whip Master 2",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "626_5_3_7|",
+    "original": "<<link [[Next (1:00)|Pillory]]>><<pass 1 hour>><</link>>",
+    "translation": "",
+    "pos": 939
+  },
+  {
+    "passage": "Pillory Butt Plug",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "637_5_3_7|",
+    "original": "\"Don't even think about it,\" you say, glaring at the <<personsimple>>.",
+    "translation": "",
+    "pos": 245
+  },
+  {
+    "passage": "Pillory Butt Plug",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "639_5_3_7|",
+    "original": "\"P-please don't,\" you say, hanging your head.",
+    "translation": "",
+    "pos": 357
+  },
+  {
+    "passage": "Pillory Butt Plug",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "641_5_3_7|",
+    "original": "\"Please don't,\" you say.",
+    "translation": "",
+    "pos": 415
+  },
+  {
+    "passage": "Pillory Butt Plug",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "645_5_3_7|",
+    "original": "The <<personsimple>> hesitates and looks down at the butt plug. \"Ah, forget it,\" <<he>> mutters. <<He>> disappears back into the crowd.",
+    "translation": "",
+    "pos": 573
+  },
+  {
+    "passage": "Pillory Butt Plug",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "648_5_3_7|",
+    "original": "The <<personsimple>> laughs at you. \"Shut up, you dumb",
+    "translation": "",
+    "pos": 749
+  },
+  {
+    "passage": "Pillory Butt Plug",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "650_5_3_7|",
+    "original": "asshole.",
+    "translation": "",
+    "pos": 849
+  },
+  {
+    "passage": "Pillory Butt Plug",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "652_5_3_7|",
+    "original": "bitch.",
+    "translation": "",
+    "pos": 872
+  },
+  {
+    "passage": "Pillory Butt Plug",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "654_5_3_7|",
+    "original": "You're in no position to tell me what to do.\" <<stress 2>>",
+    "translation": "",
+    "pos": 891
+  },
+  {
+    "passage": "Pillory Butt Plug",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "657_5_3_7|",
+    "original": "You brace yourself and get ready for what is coming.",
+    "translation": "",
+    "pos": 969
+  },
+  {
+    "passage": "Pillory Butt Plug",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "667_5_3_7|",
+    "original": "<<He>> walks up to you and rams the butt plug into your <<bottom>>, heedless of your comfort. You scream in pain at the sudden insertion.",
+    "translation": "",
+    "pos": 1183
+  },
+  {
+    "passage": "Pillory Butt Plug",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "668_5_3_7|",
+    "original": "Some members of the crowd appear disgusted and surprised, while others look on with lust.",
+    "translation": "",
+    "pos": 1322
+  },
+  {
+    "passage": "Pillory Butt Plug",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "669_5_3_7|",
+    "original": "The <<person>> leaves the plug inside you and walks away, content with the discomfort <<he>> inflicted.",
+    "translation": "",
+    "pos": 1413
+  },
+  {
+    "passage": "Pillory Butt Plug",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "676_5_3_7|",
+    "original": "<<link [[Next (1:00)|Pillory]]>><<pass 1 hour>><</link>>",
+    "translation": "",
+    "pos": 1708
+  },
+  {
+    "passage": "Pillory Kick",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "683_5_3_7|",
+    "original": "You kick the <<person>> in the shin. \"Ow!\" <<he>> says. \"Fucking bitch.\" <<He>> hobbles away from you.",
+    "translation": "",
+    "pos": 61
+  },
+  {
+    "passage": "Pillory Kick",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "686_5_3_7|",
+    "original": "<<link [[Next (1:00)|Pillory]]>><<pass 1 hour>><</link>>",
+    "translation": "",
+    "pos": 186
+  },
+  {
+    "passage": "Pillory Skirt",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "694_5_3_7|",
+    "original": "<<He>> flips the hem of your skirt up, laying bare your <<undies>> for all to see. \"Yes,\" <<he>> says. \"I think this suits you better.\" <<He>> returns to the crowd, leaving you exposed.",
+    "translation": "",
+    "pos": 155
+  },
+  {
+    "passage": "Pillory Skirt",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "696_5_3_7|",
+    "original": "<<He>> unbuttons the front of your trousers, laying bare your <<undies>> for all to see. \"Yes,\" <<he>> says. \"I think this suits you better.\" <<He>> returns to the crowd, leaving you exposed.",
+    "translation": "",
+    "pos": 351
+  },
+  {
+    "passage": "Pillory Skirt",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "702_5_3_7|",
+    "original": "<<link [[Next (1:00)|Pillory]]>><<pass 1 hour>><</link>>",
+    "translation": "",
+    "pos": 718
+  },
+  {
+    "passage": "Pillory Skirt",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "708_5_3_7|",
+    "original": "<<He>> lifts the hem of your skirt slightly and peeks under.",
+    "translation": "",
+    "pos": 866
+  },
+  {
+    "passage": "Pillory Skirt",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "710_5_3_7|",
+    "original": "<<He>> pulls your waistband out slightly and peeks inside.",
+    "translation": "",
+    "pos": 937
+  },
+  {
+    "passage": "Pillory Skirt",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "715_5_3_7|",
+    "original": "\"<<pShe>> isn't wearing anything under <<pher>> skirt!\" the <<person>> announces loudly.",
+    "translation": "",
+    "pos": 1155
+  },
+  {
+    "passage": "Pillory Skirt",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "717_5_3_7|",
+    "original": "\"<<pShe>> isn't wearing anything under there!\" the <<person>> announces loudly.",
+    "translation": "",
+    "pos": 1258
+  },
+  {
+    "passage": "Pillory Skirt",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "720_5_3_7|",
+    "original": "\"What a pervert,\" says someone in the crowd.",
+    "translation": "",
+    "pos": 1360
+  },
+  {
+    "passage": "Pillory Skirt",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "723_5_3_7|",
+    "original": "\"<<pShe>> is wearing a $worn.genitals.name!\" the <<person>> announces loudly.",
+    "translation": "",
+    "pos": 1490
+  },
+  {
+    "passage": "Pillory Skirt",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "725_5_3_7|",
+    "original": "\"Guess <<pshe>> likes being locked up,\" says someone in the crowd. \"Having the time of <<pher>> life I bet.\"",
+    "translation": "",
+    "pos": 1579
+  },
+  {
+    "passage": "Pillory Skirt",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "728_5_3_7|",
+    "original": "\"<<pShe>> is wearing $worn.under_lower.colour $worn.under_lower.name!\" the <<person>> announces loudly.",
+    "translation": "",
+    "pos": 1709
+  },
+  {
+    "passage": "Pillory Skirt",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "731_5_3_7|",
+    "original": "\"What a pervert,\" says someone in the crowd. \"Crossdressing, and in front of so many people!\"",
+    "translation": "",
+    "pos": 1930
+  },
+  {
+    "passage": "Pillory Skirt",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "737_5_3_7|",
+    "original": "<<link [[Next (1:00)|Pillory]]>><<pass 1 hour>><</link>>",
+    "translation": "",
+    "pos": 2068
+  },
+  {
+    "passage": "Pillory Lower",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "747_5_3_7|",
+    "original": "<<He>> pulls your $worn.lower.name down to your thighs, revealing your <<undies>> for all to see.",
+    "translation": "",
+    "pos": 81
+  },
+  {
+    "passage": "Pillory Lower",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "750_5_3_7|",
+    "original": "\"No underwear!\" <<he>> says. \"What a perv.\"",
+    "translation": "",
+    "pos": 230
+  },
+  {
+    "passage": "Pillory Lower",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "754_5_3_7|",
+    "original": "<<He>> returns to the crowd, leaving you exposed and humiliated.",
+    "translation": "",
+    "pos": 294
+  },
+  {
+    "passage": "Pillory Lower",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "759_5_3_7|",
+    "original": "<<link [[Next (1:00)|Pillory]]>><<pass 1 hour>><</link>>",
+    "translation": "",
+    "pos": 528
+  },
+  {
+    "passage": "Pillory Lower",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "764_5_3_7|",
+    "original": "<<He>> pulls your $worn.lower.name down to your thighs, revealing your <<undies>> for all to see.",
+    "translation": "",
+    "pos": 614
+  },
+  {
+    "passage": "Pillory Lower",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "767_5_3_7|",
+    "original": "\"No underwear!\" the <<person>> announces loudly.",
+    "translation": "",
+    "pos": 763
+  },
+  {
+    "passage": "Pillory Lower",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "769_5_3_7|",
+    "original": "\"What a pervert,\" says someone in the crowd.",
+    "translation": "",
+    "pos": 823
+  },
+  {
+    "passage": "Pillory Lower",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "772_5_3_7|",
+    "original": "\"<<pShe>> is wearing a $worn.genitals.name!\" the <<person>> announces loudly.",
+    "translation": "",
+    "pos": 908
+  },
+  {
+    "passage": "Pillory Lower",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "774_5_3_7|",
+    "original": "\"Guess <<pshe>> likes being locked up,\" says someone in the crowd. \"Having the time of <<pher>> life I bet.\"",
+    "translation": "",
+    "pos": 997
+  },
+  {
+    "passage": "Pillory Lower",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "777_5_3_7|",
+    "original": "\"<<pShe>> is wearing $worn.under_lower.colour $worn.under_lower.name!\" the <<person>> announces loudly.",
+    "translation": "",
+    "pos": 1127
+  },
+  {
+    "passage": "Pillory Lower",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "780_5_3_7|",
+    "original": "\"What a pervert,\" says someone in the crowd. \"Crossdressing, and in front of so many people!\"",
+    "translation": "",
+    "pos": 1348
+  },
+  {
+    "passage": "Pillory Lower",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "784_5_3_7|",
+    "original": "<<He>> pulls up your $worn.lower.name before returning to the crowd.",
+    "translation": "",
+    "pos": 1472
+  },
+  {
+    "passage": "Pillory Lower",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "787_5_3_7|",
+    "original": "<<link [[Next (1:00)|Pillory]]>><<pass 1 hour>><</link>>",
+    "translation": "",
+    "pos": 1563
+  },
+  {
+    "passage": "Pillory Under",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "797_5_3_7|",
+    "original": "<<He>> pulls your $worn.under_lower.name down to your thighs, revealing your <<genitals>> for all to see.",
+    "translation": "",
+    "pos": 81
+  },
+  {
+    "passage": "Pillory Under",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "799_5_3_7|",
+    "original": "<<He>> returns to the crowd, leaving you exposed and humiliated.",
+    "translation": "",
+    "pos": 188
+  },
+  {
+    "passage": "Pillory Under",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "805_5_3_7|",
+    "original": "<<link [[Next (1:00)|Pillory]]>><<pass 1 hour>><</link>>",
+    "translation": "",
+    "pos": 502
+  },
+  {
+    "passage": "Pillory Under",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "810_5_3_7|",
+    "original": "<<He>> pulls up your $worn.under_lower.name, stretching them taut and emphasising your <<bottom>> cheeks. <<He>> gives you a firm spank before returning to the crowd.",
+    "translation": "",
+    "pos": 588
+  },
+  {
+    "passage": "Pillory Under",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "813_5_3_7|",
+    "original": "<<link [[Next (1:00)|Pillory]]>><<pass 1 hour>><</link>>",
+    "translation": "",
+    "pos": 777
+  },
+  {
+    "passage": "Pillory Warn",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "823_5_3_7|",
+    "original": "\"Don't you dare. Or I'll find you when I get out,\" you say, glaring at the <<person>>. <<He>> looks away from you and puts the fruit away.",
+    "translation": "",
+    "pos": 98
+  },
+  {
+    "passage": "Pillory Warn",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "828_5_3_7|",
+    "original": "\"P-please don't,\" you say, hanging your head. The <<person>> takes pity on you and puts the fruit away.",
+    "translation": "",
+    "pos": 286
+  },
+  {
+    "passage": "Pillory Warn",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "833_5_3_7|",
+    "original": "\"Please don't,\" you say. <<He>> hesitates a moment. <<His>> friend pokes <<him>> and <<he>> throws the fruit, but it flies clear of the pillory.",
+    "translation": "",
+    "pos": 410
+  },
+  {
+    "passage": "Pillory Warn",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "840_5_3_7|",
+    "original": "<<link [[Next (1:00)|Pillory]]>><<pass 1 hour>><</link>>",
+    "translation": "",
+    "pos": 588
+  },
+  {
+    "passage": "Pillory Brace",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "846_5_3_7|",
+    "original": "You brace for the impact as the fruit comes flying towards you.",
+    "translation": "",
+    "pos": 61
+  },
+  {
+    "passage": "Pillory Brace",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "850_5_3_7|",
+    "original": "It smashes into your face, hurting more than you expected. Some people applaud.",
+    "translation": "",
+    "pos": 148
+  },
+  {
+    "passage": "Pillory Brace",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "856_5_3_7|",
+    "original": "Their aim is off and it thuds into the pillory beside your head, smashing into pieces but leaving you mostly clean.",
+    "translation": "",
+    "pos": 310
+  },
+  {
+    "passage": "Pillory Brace",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "863_5_3_7|",
+    "original": "<<link [[Next (1:00)|Pillory]]>><<pass 1 hour>><</link>>",
+    "translation": "",
+    "pos": 461
+  },
+  {
+    "passage": "Pillory Analingus",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "872_5_3_7|",
+    "original": "You enthusiastically comply and <<oraltext>> lick <<his>> asshole, giving it a few wet kisses as well.",
+    "translation": "",
+    "pos": 94
+  },
+  {
+    "passage": "Pillory Analingus",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "875_5_3_7|",
+    "original": "Your tongue soon sends <<him>> over the edge, and <<he>>",
+    "translation": "",
+    "pos": 255
+  },
+  {
+    "passage": "Pillory Analingus",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "877_5_3_7|",
+    "original": "ejaculates onto the ground.",
+    "translation": "",
+    "pos": 357
+  },
+  {
+    "passage": "Pillory Analingus",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "879_5_3_7|",
+    "original": "buckles at the knees.",
+    "translation": "",
+    "pos": 401
+  },
+  {
+    "passage": "Pillory Analingus",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "883_5_3_7|",
+    "original": "You're not very good at it, but <<he>> encourages you with little grunts and moans. <<He>> doesn't cum, but <<he>> seems satisfied nonetheless.",
+    "translation": "",
+    "pos": 479
+  },
+  {
+    "passage": "Pillory Analingus",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "886_5_3_7|",
+    "original": "\"Good <<girl>>,\" <<he>> says. <<He>> pulls up <<his>> pants and leaves.",
+    "translation": "",
+    "pos": 646
+  },
+  {
+    "passage": "Pillory Analingus",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "888_5_3_7|",
+    "original": "You reluctantly stick out your tongue, forcing yourself to comply. You do your best to avoid licking <<his>> asshole directly. <<He>> presses against you, trying to redirect your mouth.",
+    "translation": "",
+    "pos": 732
+  },
+  {
+    "passage": "Pillory Analingus",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "890_5_3_7|",
+    "original": "Finally, <<he>> gives up in frustration. \"You tried, I guess,\" <<he>> grumbles. <<He>> pulls up <<his>> pants and leaves.",
+    "translation": "",
+    "pos": 927
+  },
+  {
+    "passage": "Pillory Analingus",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "892_5_3_7|",
+    "original": "You keep your mouth closed and turn away from the intrusion. After a while, <<he>> gives up and slaps your face.<<gpain>><<gtrauma>><<trauma 6>><<pain 4>><<bruise face>>",
+    "translation": "",
+    "pos": 1064
+  },
+  {
+    "passage": "Pillory Analingus",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "897_5_3_7|",
+    "original": "<<link [[Next (1:00)|Pillory]]>><<pass 1 hour>><</link>>",
+    "translation": "",
+    "pos": 1269
+  },
+  {
+    "passage": "Pillory Oral",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "921_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Pillory Oral Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 307
+  },
+  {
+    "passage": "Pillory Oral",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "923_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Pillory Oral]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 399
+  },
+  {
+    "passage": "Pillory Oral Finish",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "933_5_3_7|",
+    "original": "The <<person>> pats your head then steps away from the pillory.",
+    "translation": "",
+    "pos": 75
+  },
+  {
+    "passage": "Pillory Oral Finish",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "940_5_3_7|",
+    "original": "\"Serves you right, bitch,\" you hear someone shout.",
+    "translation": "",
+    "pos": 275
+  },
+  {
+    "passage": "Pillory Oral Finish",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "942_5_3_7|",
+    "original": "\"At least <<pshe>> can be of some use to society.\"",
+    "translation": "",
+    "pos": 333
+  },
+  {
+    "passage": "Pillory Oral Finish",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "944_5_3_7|",
+    "original": "\"Not even a punishment, I bet <<pshe>> enjoyed it, the filthy slut.\"",
+    "translation": "",
+    "pos": 391
+  },
+  {
+    "passage": "Pillory Oral Finish",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "946_5_3_7|",
+    "original": "<span class=\"pink\">The crowd becomes larger and bolder.</span>",
+    "translation": "",
+    "pos": 467
+  },
+  {
+    "passage": "Pillory Oral Finish",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "952_5_3_7|",
+    "original": "<<link [[Next (1:00)|Pillory]]>><<pass 1 hour>><</link>>",
+    "translation": "",
+    "pos": 586
+  },
+  {
+    "passage": "Pillory Oral Finish",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "956_5_3_7|",
+    "original": "Pride wounded, the <<person>> leaves the pillory.",
+    "translation": "",
+    "pos": 681
+  },
+  {
+    "passage": "Pillory Oral Finish",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "959_5_3_7|",
+    "original": "\"So violent. <<pShe>> belongs up there.\" You hear someone shout.",
+    "translation": "",
+    "pos": 743
+  },
+  {
+    "passage": "Pillory Oral Finish",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "961_5_3_7|",
+    "original": "<span class=\"teal\">The crowd becomes smaller and more cautious.</span>",
+    "translation": "",
+    "pos": 815
+  },
+  {
+    "passage": "Pillory Oral Finish",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "967_5_3_7|",
+    "original": "<<link [[Next (1:00)|Pillory]]>><<pass 1 hour>><</link>>",
+    "translation": "",
+    "pos": 946
+  },
+  {
+    "passage": "Pillory Pen Warn",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "976_5_3_7|",
+    "original": "\"P-please don't,\" you say. \"Th-this is hard enough.\" The <<person>> takes pity on you, and walks away.",
+    "translation": "",
+    "pos": 48
+  },
+  {
+    "passage": "Pillory Pen Warn",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "978_5_3_7|",
+    "original": "\"Just try it,\" you say. \"I'll find you later.\" The <<person>> pauses, then looks down and step away.",
+    "translation": "",
+    "pos": 192
+  },
+  {
+    "passage": "Pillory Pen Warn",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "980_5_3_7|",
+    "original": "\"Please don't,\" you say. The <<person>> hesitates, then puts the lid back on and walks away.",
+    "translation": "",
+    "pos": 303
+  },
+  {
+    "passage": "Pillory Pen Warn",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "984_5_3_7|",
+    "original": "<<link [[Next (1:00)|Pillory]]>><<endevent>><<pass 1 hour>><</link>>",
+    "translation": "",
+    "pos": 414
+  },
+  {
+    "passage": "Pillory Pen",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "991_5_3_7|",
+    "original": "The <<person>> approaches you,",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Pillory Pen",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "993_5_3_7|",
+    "original": "<<his>> marker pen at the ready.",
+    "translation": "",
+    "pos": 64
+  },
+  {
+    "passage": "Pillory Pen",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "996_5_3_7|",
+    "original": "<<his>> pen at the ready.",
+    "translation": "",
+    "pos": 133
+  },
+  {
+    "passage": "Pillory Pen",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "1003_5_3_7|",
+    "original": "<<He>> circles behind, and writes on your <<bottom>>.",
+    "translation": "",
+    "pos": 400
+  },
+  {
+    "passage": "Pillory Pen",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "1010_5_3_7|",
+    "original": "<<He>> circles behind, and writes on your <<bottom>>.",
+    "translation": "",
+    "pos": 760
+  },
+  {
+    "passage": "Pillory Pen",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "1017_5_3_7|",
+    "original": "<<He>> circles behind, and writes on your left thigh.",
+    "translation": "",
+    "pos": 1246
+  },
+  {
+    "passage": "Pillory Pen",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "1024_5_3_7|",
+    "original": "<<He>> circles behind, and writes on your right thigh.",
+    "translation": "",
+    "pos": 1729
+  },
+  {
+    "passage": "Pillory Pen",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "1031_5_3_7|",
+    "original": "<<He>> stops in front of you, and writes on your left shoulder.",
+    "translation": "",
+    "pos": 2064
+  },
+  {
+    "passage": "Pillory Pen",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "1038_5_3_7|",
+    "original": "<<He>> stops in front of you, and writes on your right shoulder.",
+    "translation": "",
+    "pos": 2413
+  },
+  {
+    "passage": "Pillory Pen",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "1045_5_3_7|",
+    "original": "<<He>> stops in front of you, and writes on your <<breasts>>.",
+    "translation": "",
+    "pos": 2758
+  },
+  {
+    "passage": "Pillory Pen",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "1052_5_3_7|",
+    "original": "<<He>> stops in front of you, and writes on your left cheek.",
+    "translation": "",
+    "pos": 3038
+  },
+  {
+    "passage": "Pillory Pen",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "1059_5_3_7|",
+    "original": "<<He>> stops in front of you, and writes on your right cheek.",
+    "translation": "",
+    "pos": 3324
+  },
+  {
+    "passage": "Pillory Pen",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "1066_5_3_7|",
+    "original": "<<He>> stops in front of you, and writes on your forehead.",
+    "translation": "",
+    "pos": 3558
+  },
+  {
+    "passage": "Pillory Pen",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "1073_5_3_7|",
+    "original": "<<He>> circles you a few times, <span class=\"lblue\">then decides not to write on you after all.</span> <<He>> instead gives your <<bottom>> a sharp smack.<<gtrauma>><<gstress>><<gpain>><<stress 6>><<trauma 6>><<pain 4>>",
+    "translation": "",
+    "pos": 3760
+  },
+  {
+    "passage": "Pillory Pen",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "1078_5_3_7|",
+    "original": "<<He>> steps back<<if _hasWritten>> to admire <<his>> handiwork<</if>>, then returns to the growing audience.",
+    "translation": "",
+    "pos": 4027
+  },
+  {
+    "passage": "Pillory Pen",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "1082_5_3_7|",
+    "original": "<<link [[Next (1:00)|Pillory]]>><<endevent>><<pass 1 hour>><</link>>",
+    "translation": "",
+    "pos": 4148
+  },
+  {
+    "passage": "Pillory Spit",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "1088_5_3_7|",
+    "original": "You spit on the <<persons>> face. <<He>> flinches in surprise, and almost tumbles backwards. <<He>> doesn't try again.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Pillory Spit",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "1093_5_3_7|",
+    "original": "<<link [[Next (1:00)|Pillory]]>><<pass 1 hour>><</link>>",
+    "translation": "",
+    "pos": 156
+  },
+  {
+    "passage": "Pillory Chest",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "1100_5_3_7|",
+    "original": "The <<person>> grasps your <<breasts>>, and squeezes. You endure <<his>> fondling as best you can.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Pillory Chest",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "1104_5_3_7|",
+    "original": "Your body responds to the stimulation, <span class=\"purple\">and milk leaks from your buds,</span> running over the <<person>>s hands and onto the floor.",
+    "translation": "",
+    "pos": 170
+  },
+  {
+    "passage": "Pillory Chest",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "1109_5_3_7|",
+    "original": "\"Is that milk?\"",
+    "translation": "",
+    "pos": 378
+  },
+  {
+    "passage": "Pillory Chest",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "1111_5_3_7|",
+    "original": "\"Is <<pshe>> lactating?\"",
+    "translation": "",
+    "pos": 406
+  },
+  {
+    "passage": "Pillory Chest",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "1115_5_3_7|",
+    "original": "\"<<pShes>> like a cow.\"",
+    "translation": "",
+    "pos": 474
+  },
+  {
+    "passage": "Pillory Chest",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "1117_5_3_7|",
+    "original": "\"<<pShe>> belongs on a farm.\"",
+    "translation": "",
+    "pos": 510
+  },
+  {
+    "passage": "Pillory Chest",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "1121_5_3_7|",
+    "original": "\"Wish I had a bucket.\"",
+    "translation": "",
+    "pos": 583
+  },
+  {
+    "passage": "Pillory Chest",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "1123_5_3_7|",
+    "original": "\"I bet it's sweet.\"",
+    "translation": "",
+    "pos": 618
+  },
+  {
+    "passage": "Pillory Chest",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "1128_5_3_7|",
+    "original": "It's too much. <<orgasm>>",
+    "translation": "",
+    "pos": 693
+  },
+  {
+    "passage": "Pillory Chest",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "1130_5_3_7|",
+    "original": "The audience jeers and mocks, attracting more attention. You feel humiliated. <span class=\"red\">The crowd becomes much larger and bolder.</span>",
+    "translation": "",
+    "pos": 722
+  },
+  {
+    "passage": "Pillory Chest",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "1135_5_3_7|",
+    "original": "<span class=\"pink\">The crowd becomes larger and bolder.</span>",
+    "translation": "",
+    "pos": 949
+  },
+  {
+    "passage": "Pillory Chest",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "1141_5_3_7|",
+    "original": "It's too much. <<orgasm>>",
+    "translation": "",
+    "pos": 1103
+  },
+  {
+    "passage": "Pillory Chest",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "1144_5_3_7|",
+    "original": "\"Did <<pshe>> just cum?\"",
+    "translation": "",
+    "pos": 1158
+  },
+  {
+    "passage": "Pillory Chest",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "1146_5_3_7|",
+    "original": "\"Look at <<phim>> twitch.\"",
+    "translation": "",
+    "pos": 1195
+  },
+  {
+    "passage": "Pillory Chest",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "1150_5_3_7|",
+    "original": "\"I knew <<pshe>> was a <<slut>>.\"",
+    "translation": "",
+    "pos": 1265
+  },
+  {
+    "passage": "Pillory Chest",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "1152_5_3_7|",
+    "original": "\"What a <<slut>>.\"",
+    "translation": "",
+    "pos": 1311
+  },
+  {
+    "passage": "Pillory Chest",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "1156_5_3_7|",
+    "original": "\"Bully <<phim>> more.\"",
+    "translation": "",
+    "pos": 1373
+  },
+  {
+    "passage": "Pillory Chest",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "1158_5_3_7|",
+    "original": "\"I bet <<pshes>> enjoying this.\"",
+    "translation": "",
+    "pos": 1408
+  },
+  {
+    "passage": "Pillory Chest",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "1162_5_3_7|",
+    "original": "You feel humiliated. <span class=\"pink\">The crowd becomes larger and bolder.</span>",
+    "translation": "",
+    "pos": 1462
+  },
+  {
+    "passage": "Pillory Chest",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "1169_5_3_7|",
+    "original": "<<link [[Next (1:00)|Pillory]]>><<pass 1 hour>><</link>>",
+    "translation": "",
+    "pos": 1636
+  },
+  {
+    "passage": "Pillory Under Upper",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "1178_5_3_7|",
+    "original": "<<He>> grasps the top of your $worn.under_upper.name, <span class=\"pink\">and tugs it down your chest,</span> revealing your <<breasts>> for all to see.",
+    "translation": "",
+    "pos": 70
+  },
+  {
+    "passage": "Pillory Under Upper",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "1180_5_3_7|",
+    "original": "<<He>> returns to the crowd, leaving you exposed and humiliated.",
+    "translation": "",
+    "pos": 235
+  },
+  {
+    "passage": "Pillory Under Upper",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "1185_5_3_7|",
+    "original": "<<He>> grasps the hem of your $worn.under_upper.name, <span class=\"pink\">and pulls it up your chest,</span> revealing your <<breasts>> for all to see.",
+    "translation": "",
+    "pos": 415
+  },
+  {
+    "passage": "Pillory Under Upper",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "1187_5_3_7|",
+    "original": "<<He>> returns to the crowd, leaving you exposed and humiliated.",
+    "translation": "",
+    "pos": 579
+  },
+  {
+    "passage": "Pillory Under Upper",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "1193_5_3_7|",
+    "original": "<<He>> grasps the back of your $worn.under_upper.name, pulling it tight and emphasising your <<breasts>>. <<He>> slaps your face before returning to the crowd.",
+    "translation": "",
+    "pos": 760
+  },
+  {
+    "passage": "Pillory Under Upper",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "1198_5_3_7|",
+    "original": "<<link [[Next (1:00)|Pillory]]>><<pass 1 hour>><</link>>",
+    "translation": "",
+    "pos": 952
+  },
+  {
+    "passage": "Pillory Upper",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "1206_5_3_7|",
+    "original": "<<He>> grasps the top of your $worn.upper.name, <span class=\"pink\">and tugs it down your chest,</span> revealing your <<undertop>> for all to see.",
+    "translation": "",
+    "pos": 52
+  },
+  {
+    "passage": "Pillory Upper",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "1208_5_3_7|",
+    "original": "<<He>> returns to the crowd, leaving you exposed and humiliated.",
+    "translation": "",
+    "pos": 212
+  },
+  {
+    "passage": "Pillory Upper",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "1213_5_3_7|",
+    "original": "<<He>> grasps the hem of your $worn.upper.name, <span class=\"pink\">and pulls it up your chest,</span> revealing your <<undertop>> for all to see.",
+    "translation": "",
+    "pos": 380
+  },
+  {
+    "passage": "Pillory Upper",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "1215_5_3_7|",
+    "original": "<<He>> returns to the crowd, leaving you exposed and humiliated.",
+    "translation": "",
+    "pos": 539
+  },
+  {
+    "passage": "Pillory Upper",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "1221_5_3_7|",
+    "original": "<<He>> grasps the back of your $worn.upper.name, pulling it tight and emphasising your <<breasts>>. <<He>> slaps your face before returning to the crowd.",
+    "translation": "",
+    "pos": 708
+  },
+  {
+    "passage": "Pillory Upper",
+    "filepath": "overworld-town/loc-police/pillory.twee",
+    "key": "1226_5_3_7|",
+    "original": "<<link [[Next (1:00)|Pillory]]>><<pass 1 hour>><</link>>",
+    "translation": "",
+    "pos": 894
+  }
+]

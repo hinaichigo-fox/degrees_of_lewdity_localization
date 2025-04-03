@@ -1,0 +1,802 @@
+[
+  {
+    "passage": "Hospital Arrest",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "4_5_3_7|",
+    "original": "<<generatePolice 1>><<generatePolice 2>>Two police officers are sitting in the lobby. They stand when you approach. \"You're under arrest. Please come quietly.\"",
+    "translation": "",
+    "pos": 61
+  },
+  {
+    "passage": "Hospital Arrest",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "6_5_3_7|",
+    "original": "The <<person1>><<person>> gestures towards Robin. \"Your friend can stay here.\"",
+    "translation": "",
+    "pos": 255
+  },
+  {
+    "passage": "Hospital Arrest",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "9_5_3_7|",
+    "original": "\"Please be careful,\" Robin whispers. <<nnpc_He \"Robin\">> steps away from you.",
+    "translation": "",
+    "pos": 346
+  },
+  {
+    "passage": "Hospital Arrest",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "13_5_3_7|",
+    "original": "<<link [[Run|Hospital Arrest Run]]>><<crimeUp 100 \"resisting\">><</link>><<athleticsdifficulty 1 1000>><<crime \"resisting\">>",
+    "translation": "",
+    "pos": 463
+  },
+  {
+    "passage": "Hospital Arrest",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "15_5_3_7|",
+    "original": "<<link [[Go quietly|Hospital Arrest Journey]]>><</link>>",
+    "translation": "",
+    "pos": 592
+  },
+  {
+    "passage": "Hospital Arrest Run",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "21_5_3_7|",
+    "original": "You turn and run from the hospital.",
+    "translation": "",
+    "pos": 61
+  },
+  {
+    "passage": "Hospital Arrest Run",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "27_5_3_7|",
+    "original": "With the police close on your heels you run down streets and alleys, but they're persistent. You <span class=\"green\">succeed</span> in gaining distance on them, but round a corner and find yourself facing a dead end.",
+    "translation": "",
+    "pos": 203
+  },
+  {
+    "passage": "Hospital Arrest Run",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "30_5_3_7|",
+    "original": "You're about to give up when a small hatch opens at the base of a nearby wall. You have no idea what's inside, but it's that or face the police.",
+    "translation": "",
+    "pos": 448
+  },
+  {
+    "passage": "Hospital Arrest Run",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "32_5_3_7|",
+    "original": "<<link [[Go through the hatch|Hospital Arrest Molestation]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 606
+  },
+  {
+    "passage": "Hospital Arrest Run",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "34_5_3_7|",
+    "original": "<<link [[Surrender to the police|Hospital Arrest Surrender]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 716
+  },
+  {
+    "passage": "Hospital Arrest Run",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "37_5_3_7|",
+    "original": "With the police close on your heels you run down streets and alleys. The police aren't able to keep up, and you <span class=\"green\">succeed</span> in escaping them.",
+    "translation": "",
+    "pos": 819
+  },
+  {
+    "passage": "Hospital Arrest Run",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "39_5_3_7|",
+    "original": "<<link [[Next|Industrial alleyways]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 997
+  },
+  {
+    "passage": "Hospital Arrest Run",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "43_5_3_7|",
+    "original": "You try to run from the hospital, but <span class=\"red\">fail</span> to outrun the police. They tackle you to the ground.",
+    "translation": "",
+    "pos": 1083
+  },
+  {
+    "passage": "Hospital Arrest Run",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "45_5_3_7|",
+    "original": "<<link [[Next|Hospital Arrest Journey]]>><</link>>",
+    "translation": "",
+    "pos": 1215
+  },
+  {
+    "passage": "Hospital Arrest Journey",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "52_5_3_7|",
+    "original": "They cuff you and lead you to their waiting car. They put you in the back, climb in the front and set off.",
+    "translation": "",
+    "pos": 61
+  },
+  {
+    "passage": "Hospital Arrest Journey",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "56_5_3_7|",
+    "original": "The driver, a <<person1>><<person>>, looks back at you. \"You've been a bad <<girl>> haven't you? Caused all sorts of problems.\"",
+    "translation": "",
+    "pos": 286
+  },
+  {
+    "passage": "Hospital Arrest Journey",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "58_5_3_7|",
+    "original": "<<His>> partner, a <<person2>><<person>>, interjects, \"Watch the road.\"",
+    "translation": "",
+    "pos": 425
+  },
+  {
+    "passage": "Hospital Arrest Journey",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "60_5_3_7|",
+    "original": "The <<person1>><<person>> is about to say something, but thinks better of it and looks back at the road. No one says anything for a while.",
+    "translation": "",
+    "pos": 508
+  },
+  {
+    "passage": "Hospital Arrest Journey",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "63_5_3_7|",
+    "original": "<<link [[Offer your body in return for letting you go|Hospital Arrest Offer]]>><</link>><<promiscuous2>>",
+    "translation": "",
+    "pos": 696
+  },
+  {
+    "passage": "Hospital Arrest Journey",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "66_5_3_7|",
+    "original": "<<link [[Reluctantly offer your body in return for letting you go|Hospital Arrest Offer]]>><<set $desperateaction to 2>><</link>><<promiscuous2>>",
+    "translation": "",
+    "pos": 859
+  },
+  {
+    "passage": "Hospital Arrest Journey",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "69_5_3_7|",
+    "original": "<<link [[Sit quietly|Hospital Arrest Sit]]>><</link>>",
+    "translation": "",
+    "pos": 1022
+  },
+  {
+    "passage": "Hospital Arrest Journey",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "72_5_3_7|",
+    "original": "The driver, a <<person1>><<person>>, looks back at you. \"If you cooperate, everything will be fine.\"",
+    "translation": "",
+    "pos": 1092
+  },
+  {
+    "passage": "Hospital Arrest Journey",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "75_5_3_7|",
+    "original": "<<link [[Offer your body in return for letting you go|Hospital Arrest Offer]]>><</link>><<promiscuous2>>",
+    "translation": "",
+    "pos": 1242
+  },
+  {
+    "passage": "Hospital Arrest Journey",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "78_5_3_7|",
+    "original": "<<link [[Reluctantly offer your body in return for letting you go|Hospital Arrest Offer]]>><<set $desperateaction to 2>><</link>><<promiscuous2>>",
+    "translation": "",
+    "pos": 1405
+  },
+  {
+    "passage": "Hospital Arrest Journey",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "81_5_3_7|",
+    "original": "<<link [[Sit quietly|Hospital Arrest Sit]]>><</link>>",
+    "translation": "",
+    "pos": 1568
+  },
+  {
+    "passage": "Hospital Arrest Molestation",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "94_5_3_7|",
+    "original": "You crawl through the hole and into darkness. You hear the hatch shut behind you as the lights come on, revealing four people. <<person1>>\"What do we have here?\" says a <<person>>. \"Do you think they'd want <<phim>> below?\"",
+    "translation": "",
+    "pos": 212
+  },
+  {
+    "passage": "Hospital Arrest Molestation",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "96_5_3_7|",
+    "original": "\"Dunno,\" responds a <<person2>><<person>>, who crouches beside you. \"I think we should try <<phim>> ourselves first.\"",
+    "translation": "",
+    "pos": 447
+  },
+  {
+    "passage": "Hospital Arrest Molestation",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "110_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Hospital Arrest Molestation Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 753
+  },
+  {
+    "passage": "Hospital Arrest Molestation",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "112_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Hospital Arrest Molestation]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 860
+  },
+  {
+    "passage": "Hospital Arrest Surrender",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "120_5_3_7|",
+    "original": "You decide against going through the strange hatch. The police arrive, panting. One of them threatens you with a taser. \"We've got you,\" <<he>> says. \"You're coming with us.\"",
+    "translation": "",
+    "pos": 114
+  },
+  {
+    "passage": "Hospital Arrest Surrender",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "122_5_3_7|",
+    "original": "<<link [[Next|Hospital Arrest Journey]]>><</link>>",
+    "translation": "",
+    "pos": 298
+  },
+  {
+    "passage": "Hospital Arrest Offer",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "132_5_3_7|",
+    "original": "<<if $seductionskill lt 1000>><span class=\"gold\">You feel more confident in your powers of seduction.</span><</if>><<seductionskilluse>>",
+    "translation": "",
+    "pos": 165
+  },
+  {
+    "passage": "Hospital Arrest Offer",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "135_5_3_7|",
+    "original": "You look at the <<person1>><<person>> through the mirror. \"I know I've been naughty,\" you say. \"But I'd be very thankful if you let me go. Very thankful.\" You stretch out on the back seat, displaying your figure.",
+    "translation": "",
+    "pos": 362
+  },
+  {
+    "passage": "Hospital Arrest Offer",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "138_5_3_7|",
+    "original": "The <<person2>><<person>> doesn't seem impressed, but the <<person1>><<person>> feels differently. \"No one knows we have <<phim>> anyway. It'll just be more paperwork.\"",
+    "translation": "",
+    "pos": 597
+  },
+  {
+    "passage": "Hospital Arrest Offer",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "140_5_3_7|",
+    "original": "\"Stop,\" says the <<person2>><<person>>. \"You're embarrassing yourself.\"",
+    "translation": "",
+    "pos": 779
+  },
+  {
+    "passage": "Hospital Arrest Offer",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "142_5_3_7|",
+    "original": "The <<person1>><<persons>> voice lowers. \"We'll be able to do whatever we like to <<phim>> though, it's not like <<pshe>> can refuse.\"",
+    "translation": "",
+    "pos": 864
+  },
+  {
+    "passage": "Hospital Arrest Offer",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "144_5_3_7|",
+    "original": "The <<person2>><<person>> doesn't respond for a moment. The <<person1>><<person>> opens <<his>> mouth to argue again, but is interrupted. \"Pull over.\"",
+    "translation": "",
+    "pos": 1012
+  },
+  {
+    "passage": "Hospital Arrest Offer",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "147_5_3_7|",
+    "original": "The <<person2>><<person>> drags you from the car and down an alleyway. You come to a metal door which <<he>> shoves you through with enough force that you almost fall over. You think you're in an empty warehouse.",
+    "translation": "",
+    "pos": 1177
+  },
+  {
+    "passage": "Hospital Arrest Offer",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "149_5_3_7|",
+    "original": "\"Don't think you're getting off easy,\" <<he>> says. \"Scum like you are treated far too leniently. No, you're getting what you deserve.\"",
+    "translation": "",
+    "pos": 1403
+  },
+  {
+    "passage": "Hospital Arrest Offer",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "151_5_3_7|",
+    "original": "<<link [[Next|Police Molestation]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 1552
+  },
+  {
+    "passage": "Hospital Arrest Offer",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "154_5_3_7|",
+    "original": "You look at the <<person1>><<person>> through the mirror. \"I know I've been naughty,\" you say. \"But I'd be very thankful if you let me go. Very thankful.\" You stretch out on the back seat, displaying your figure.",
+    "translation": "",
+    "pos": 1647
+  },
+  {
+    "passage": "Hospital Arrest Offer",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "157_5_3_7|",
+    "original": "The <<person2>><<person>> doesn't seem impressed, but the <<person1>><<person>> feels differently. \"No one knows we have <<phim>> anyway. It'll just be more paperwork.\"",
+    "translation": "",
+    "pos": 1882
+  },
+  {
+    "passage": "Hospital Arrest Offer",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "159_5_3_7|",
+    "original": "\"Stop,\" says the <<person2>><<person>>. \"You're embarrassing yourself.\"",
+    "translation": "",
+    "pos": 2064
+  },
+  {
+    "passage": "Hospital Arrest Offer",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "161_5_3_7|",
+    "original": "The <<person1>><<persons>> voice lowers. \"We'll be able to do whatever we like to <<phim>> though, it's not like <<pshe>> can refuse.\"",
+    "translation": "",
+    "pos": 2149
+  },
+  {
+    "passage": "Hospital Arrest Offer",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "163_5_3_7|",
+    "original": "\"I said no,\" the <<person2>><<person>> responds, <<his>> tone quelling any further argument. It was worth a try.",
+    "translation": "",
+    "pos": 2297
+  },
+  {
+    "passage": "Hospital Arrest Offer",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "165_5_3_7|",
+    "original": "<<link [[Next|Hospital Arrest Sit]]>><</link>>",
+    "translation": "",
+    "pos": 2423
+  },
+  {
+    "passage": "Hospital Arrest Offer",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "172_5_3_7|",
+    "original": "<<if $seductionskill lt 1000>><span class=\"gold\">You feel more confident in your powers of seduction.</span><</if>><<seductionskilluse>>",
+    "translation": "",
+    "pos": 2564
+  },
+  {
+    "passage": "Hospital Arrest Offer",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "175_5_3_7|",
+    "original": "You look at the <<person1>><<person>> through the mirror. \"I know I've been naughty,\" you say. \"But I'd be very thankful if you let me go. Very thankful.\" You stretch out on the back seat, displaying your figure.",
+    "translation": "",
+    "pos": 2761
+  },
+  {
+    "passage": "Hospital Arrest Offer",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "178_5_3_7|",
+    "original": "The <<person2>><<person>> doesn't seem impressed, but the <<person1>><<person>> feels differently. \"No one knows we have <<phim>> anyway. It'll just be more paperwork.\"",
+    "translation": "",
+    "pos": 2996
+  },
+  {
+    "passage": "Hospital Arrest Offer",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "180_5_3_7|",
+    "original": "\"Stop,\" says the <<person2>><<person>>. \"You're embarrassing yourself.\"",
+    "translation": "",
+    "pos": 3178
+  },
+  {
+    "passage": "Hospital Arrest Offer",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "181_5_3_7|",
+    "original": "The <<person1>><<persons>> voice lowers. \"We'll be able to do whatever we like to <<phim>> though, it's not like <<pshe>> can refuse.\"",
+    "translation": "",
+    "pos": 3252
+  },
+  {
+    "passage": "Hospital Arrest Offer",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "183_5_3_7|",
+    "original": "The <<person2>><<person>> doesn't respond for a moment. The <<person1>><<person>> opens <<his>> mouth to argue again, but is interrupted. \"Pull over.\"",
+    "translation": "",
+    "pos": 3400
+  },
+  {
+    "passage": "Hospital Arrest Offer",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "185_5_3_7|",
+    "original": "The <<person2>><<person>> drags you from the car and down an alleyway. You come to a metal door which opens into a large open area. You think you're in an abandoned warehouse.",
+    "translation": "",
+    "pos": 3564
+  },
+  {
+    "passage": "Hospital Arrest Offer",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "187_5_3_7|",
+    "original": "<<link [[Next|Police Molestation]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 3753
+  },
+  {
+    "passage": "Hospital Arrest Offer",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "190_5_3_7|",
+    "original": "You look at the <<person1>><<person>> through the mirror. \"I know I've been naughty,\" you say. \"But I'd be very thankful if you let me go. Very thankful.\" You stretch out on the back seat, displaying your figure.",
+    "translation": "",
+    "pos": 3848
+  },
+  {
+    "passage": "Hospital Arrest Offer",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "193_5_3_7|",
+    "original": "The <<person2>><<person>> doesn't seem impressed, but the <<person1>><<person>> feels differently. \"No one knows we have <<phim>> anyway. It'll just be more paperwork.\"",
+    "translation": "",
+    "pos": 4083
+  },
+  {
+    "passage": "Hospital Arrest Offer",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "195_5_3_7|",
+    "original": "\"Stop,\" says the <<person2>><<person>>. \"You're embarrassing yourself.\"",
+    "translation": "",
+    "pos": 4265
+  },
+  {
+    "passage": "Hospital Arrest Offer",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "196_5_3_7|",
+    "original": "The <<person1>><<persons>> voice lowers. \"We'll be able to do whatever we like to <<phim>> though, it's not like <<pshe>> can refuse.\"",
+    "translation": "",
+    "pos": 4339
+  },
+  {
+    "passage": "Hospital Arrest Offer",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "198_5_3_7|",
+    "original": "\"I said no,\" the <<person2>><<person>> responds, <<his>> tone quelling any further argument. It was worth a try.",
+    "translation": "",
+    "pos": 4487
+  },
+  {
+    "passage": "Hospital Arrest Offer",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "200_5_3_7|",
+    "original": "<<link [[Next|Hospital Arrest Sit]]>><</link>>",
+    "translation": "",
+    "pos": 4613
+  },
+  {
+    "passage": "Hospital Arrest Sit",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "214_5_3_7|",
+    "original": "<<pass 5>>You sit quietly for the remainder of the journey. Before long you're pulling up to the police station on Barb Street, where other officers wait. Once out the car, they lead you inside. You walk down a flight of metal steps and down a grim-looking corridor. They shove you in one of the tiny cells. \"Sit tight,\" the <<person1>><<person>> says. \"We'll soon decide what to do with you.\"",
+    "translation": "",
+    "pos": 225
+  },
+  {
+    "passage": "Hospital Arrest Sit",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "216_5_3_7|",
+    "original": "<<link [[Wait (1:00)|Police Cell]]>><<pass 1 hour>><<endcombat>><</link>>",
+    "translation": "",
+    "pos": 628
+  },
+  {
+    "passage": "Police Molestation",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "241_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Police Molestation Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 420
+  },
+  {
+    "passage": "Police Molestation",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "243_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Police Molestation Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 539
+  },
+  {
+    "passage": "Police Molestation",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "245_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Police Molestation]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 637
+  },
+  {
+    "passage": "Police Molestation Finish",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "251_5_3_7|",
+    "original": "You shove the <<person1>><<person>> into the <<person2>><<person>>, causing them to trip over each other and fall to the ground. <<tearful>> you flee from the warehouse.",
+    "translation": "",
+    "pos": 28
+  },
+  {
+    "passage": "Police Molestation Finish",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "255_5_3_7|",
+    "original": "<<link [[Next|Industrial alleyways]]>><<set $stress -= 1000>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 239
+  },
+  {
+    "passage": "Police Molestation Finish",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "258_5_3_7|",
+    "original": "\"Come on,\" says the <<person2>><<person>> \"Before we're missed.\" <<unbind>>They remove your cuffs and leave you lying on the warehouse floor. <<tearful>> you stand and stumble outside.",
+    "translation": "",
+    "pos": 449
+  },
+  {
+    "passage": "Police Molestation Finish",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "262_5_3_7|",
+    "original": "<<link [[Next|Industrial alleyways]]>><<set $stress -= 1000>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 675
+  },
+  {
+    "passage": "Police Cell",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "273_5_3_7|",
+    "original": "You sit on the dingy bed and wait.",
+    "translation": "",
+    "pos": 328
+  },
+  {
+    "passage": "Police Cell",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "275_5_3_7|",
+    "original": "After an hour, a <<generatePolice 1>><<person1>><<person>> in a police uniform arrives beside the cell. \"Come on, let's get you processed,\" <<he>> says, unlocking the cell door. \"Turn around.\"",
+    "translation": "",
+    "pos": 372
+  },
+  {
+    "passage": "Police Cell",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "279_5_3_7|",
+    "original": "You comply, and hear <<him>> remove something from <<his>> belt. <<He>> fastens it around your neck, and you hear it click shut. \"This collar has a shock function, just to ensure your continued cooperation. We'll remove it once you've served your sentence.\"",
+    "translation": "",
+    "pos": 627
+  },
+  {
+    "passage": "Police Cell",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "282_5_3_7|",
+    "original": "You comply. \"Oh,\" <<he>> says. \"You're already collared.\" <<He>> walks right up behind you and examines the collar more closely. \"And the shock function appears to work.\" <<He>> attaches a leash. \"Everything is in order. We'll remove it once you've served your sentence.\"",
+    "translation": "",
+    "pos": 905
+  },
+  {
+    "passage": "Police Cell",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "286_5_3_7|",
+    "original": "<<He>> leads you up another flight of stairs and into a small room. Three people in suits sit at a table on the far side. In the middle, a <<generatePolice 2>><<person2>><<person>> gestures at the chair in front of <<him>>. \"Take a seat,\" <<he>> says. \"And don't tarry.\" The <<person1>><<person>> follows you in, and closes the door behind you.",
+    "translation": "",
+    "pos": 1234
+  },
+  {
+    "passage": "Police Cell",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "291_5_3_7|",
+    "original": "Once seated, the <<person2>><<person>> continues. \"You've been a naughty <<girl>>. A repeat offender.\"",
+    "translation": "",
+    "pos": 1660
+  },
+  {
+    "passage": "Police Cell",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "292_5_3_7|",
+    "original": "<<He>> reads off your crimes.",
+    "translation": "",
+    "pos": 1765
+  },
+  {
+    "passage": "Police Cell",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "297_5_3_7|",
+    "original": "\"<span class=\"red\">Perhaps a stint in prison will set you straight.</span> I sentence you to <span class=\"red\"><<print Math.trunc(crimeSumCurrent() / 250)>></span> days.\" <<He>> stamps a document in front of <<him>>. \"Get this wretch out of my sight.\"",
+    "translation": "",
+    "pos": 1914
+  },
+  {
+    "passage": "Police Cell",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "300_5_3_7|",
+    "original": "<<link [[Next|Police Prison Intro]]>><</link>>",
+    "translation": "",
+    "pos": 2180
+  },
+  {
+    "passage": "Police Cell",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "303_5_3_7|",
+    "original": "Once seated, the <<person2>><<person>> continues. \"You didn't think you'd get away with it did you? You've been leaving traces of yourself all over.\"",
+    "translation": "",
+    "pos": 2246
+  },
+  {
+    "passage": "Police Cell",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "304_5_3_7|",
+    "original": "<<He>> reads off your crimes.",
+    "translation": "",
+    "pos": 2398
+  },
+  {
+    "passage": "Police Cell",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "308_5_3_7|",
+    "original": "\"These are only petty crimes however, so public humiliation is an appropriate punishment. Take <<phim>> to the pillory.\"",
+    "translation": "",
+    "pos": 2466
+  },
+  {
+    "passage": "Police Cell",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "310_5_3_7|",
+    "original": "<<link [[Next|Police Pillory Start]]>><<set $stat_police.pillory += 1>><</link>>",
+    "translation": "",
+    "pos": 2600
+  },
+  {
+    "passage": "Police Cell",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "315_5_3_7|",
+    "original": "Once seated, the <<person2>><<person>> continues. \"You were given the chance to give back to the community, but couldn't keep your nose clean, could you?\"",
+    "translation": "",
+    "pos": 2741
+  },
+  {
+    "passage": "Police Cell",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "316_5_3_7|",
+    "original": "<<He>> reads off your crimes.",
+    "translation": "",
+    "pos": 2898
+  },
+  {
+    "passage": "Police Cell",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "320_5_3_7|",
+    "original": "\"Public humiliation will teach you better. Take <<phim>> to the pillory.\"",
+    "translation": "",
+    "pos": 2966
+  },
+  {
+    "passage": "Police Cell",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "322_5_3_7|",
+    "original": "<<link [[Next|Police Pillory Start]]>><<set $stat_police.pillory += 1>><</link>>",
+    "translation": "",
+    "pos": 3053
+  },
+  {
+    "passage": "Police Cell",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "325_5_3_7|",
+    "original": "Once seated, the <<person2>><<person>> reads off your crimes.",
+    "translation": "",
+    "pos": 3153
+  },
+  {
+    "passage": "Police Cell",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "329_5_3_7|",
+    "original": "\"These are only petty crimes. You'll be given the chance to make amends, and give back to the community. <span class=\"pink\">You are to report to the police station every day, starting tomorrow.</span> There you will be assigned a service. It'll take about an hour. You can arrive anytime during daylight hours.\"",
+    "translation": "",
+    "pos": 3253
+  },
+  {
+    "passage": "Police Cell",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "331_5_3_7|",
+    "original": "\"These crimes warrant",
+    "translation": "",
+    "pos": 3578
+  },
+  {
+    "passage": "Police Cell",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "333_5_3_7|",
+    "original": "<span class=\"pink\">_service days</span> of community service. If you don't reform your ways, or don't turn up, the situation could get much worse for you. Take <<phim>> outside.\"",
+    "translation": "",
+    "pos": 3660
+  },
+  {
+    "passage": "Police Cell",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "339_5_3_7|",
+    "original": "<<link [[Next|Police Community Start]]>><<set $stat_police.community += 1>><</link>>",
+    "translation": "",
+    "pos": 3934
+  },
+  {
+    "passage": "Hospital Arrest Molestation Finish",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "347_5_3_7|",
+    "original": "They back off from you, surprised by your strength. <<tearful>> you open the hatch and escape outside before they can stop you.",
+    "translation": "",
+    "pos": 28
+  },
+  {
+    "passage": "Hospital Arrest Molestation Finish",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "351_5_3_7|",
+    "original": "<<link [[Next|Industrial alleyways]]>><<set $stress -= 1000>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 197
+  },
+  {
+    "passage": "Hospital Arrest Molestation Finish",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "355_5_3_7|",
+    "original": "The second orgasm is a bit much for them, and gives you a chance to escape through the hatch.",
+    "translation": "",
+    "pos": 385
+  },
+  {
+    "passage": "Hospital Arrest Molestation Finish",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "359_5_3_7|",
+    "original": "<<link [[Next|Industrial alleyways]]>><<set $stress -= 1000>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 524
+  },
+  {
+    "passage": "Hospital Arrest Molestation Finish",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "362_5_3_7|",
+    "original": "<<person2>>\"<<pShe>> should be worth something,\" says the <<person>>. \"Be a good little fucktoy and come with us.\" <<He>> grabs your arm and tries to pull you deeper into the building.",
+    "translation": "",
+    "pos": 648
+  },
+  {
+    "passage": "Hospital Arrest Molestation Finish",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "364_5_3_7|",
+    "original": "<<link [[Go quietly|Underground Intro]]>><<badEndTracking \"Underground Dungeon\" { reason: \"uDungeonPolice\" }>><</link>>",
+    "translation": "",
+    "pos": 846
+  },
+  {
+    "passage": "Hospital Arrest Molestation Finish",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "366_5_3_7|",
+    "original": "<<link [[Resist|Hospital Arrest Molestation]]>><<set $phase to 1>><<set $enemyanger += 120>><<set $enemytrust -= 40>><<set $enemyarousal to 0>><</link>>",
+    "translation": "",
+    "pos": 975
+  },
+  {
+    "passage": "Hospital Arrest Molestation Finish",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "370_5_3_7|",
+    "original": "You're too hurt to fight any longer. The <<person1>><<person>> and <<person2>><<person>> drag your limp body deeper into the building.",
+    "translation": "",
+    "pos": 1232
+  },
+  {
+    "passage": "Hospital Arrest Molestation Finish",
+    "filepath": "overworld-town/loc-police/arrest.twee",
+    "key": "372_5_3_7|",
+    "original": "<<link [[Next|Underground Intro]]>><<set $phase to 0>><</link>>",
+    "translation": "",
+    "pos": 1378
+  }
+]

@@ -1,0 +1,802 @@
+[
+  {
+    "passage": "Police Station",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "7_5_3_7|",
+    "original": "You are stood in the police station lobby. A <<person1>><<person>> in an officer's uniform sits behind the front desk.",
+    "translation": "",
+    "pos": 129
+  },
+  {
+    "passage": "Police Station",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "9_5_3_7|",
+    "original": "There's a wanted poster behind <<him>>. <span class=\"red\">It has a picture of your face.</span>",
+    "translation": "",
+    "pos": 283
+  },
+  {
+    "passage": "Police Station",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "16_5_3_7|",
+    "original": "<<ind>><<link [[Community service (1:00)|Police Community]]>><</link>>",
+    "translation": "",
+    "pos": 600
+  },
+  {
+    "passage": "Police Station",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "20_5_3_7|",
+    "original": "<<ind>><<link [[Turn yourself in (1:00)|Police Turn]]>><<pass 6>><</link>><<note \"You'll receive a more lenient sentence\" \"green\">>",
+    "translation": "",
+    "pos": 720
+  },
+  {
+    "passage": "Police Station",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "24_5_3_7|",
+    "original": "<<socialiseicon \"ask\">><<link [[Ask for collar removal|Police Station Collar]]>><</link>>",
+    "translation": "",
+    "pos": 930
+  },
+  {
+    "passage": "Police Station",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "28_5_3_7|",
+    "original": "<<crimeicon \"shackles\">><<link [[Ask for shackle removal|Police Station Shackle]]>><</link>>",
+    "translation": "",
+    "pos": 1078
+  },
+  {
+    "passage": "Police Station",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "32_5_3_7|",
+    "original": "<<ind>><<link [[Give evidence against Leighton|Police Leighton]]>><</link>>",
+    "translation": "",
+    "pos": 1233
+  },
+  {
+    "passage": "Police Station",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "37_5_3_7|",
+    "original": "<<barbicon>><<link [[Leave|Barb Street]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1329
+  },
+  {
+    "passage": "Police Turn",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "44_5_3_7|",
+    "original": "You approach the desk.",
+    "translation": "",
+    "pos": 40
+  },
+  {
+    "passage": "Police Turn",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "46_5_3_7|",
+    "original": "\"I-I've been bad,\" you say. \"I'm here to turn myself in.\"",
+    "translation": "",
+    "pos": 98
+  },
+  {
+    "passage": "Police Turn",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "48_5_3_7|",
+    "original": "\"It's your lucky day,\" you say. \"I'm here to turn myself in.\"",
+    "translation": "",
+    "pos": 197
+  },
+  {
+    "passage": "Police Turn",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "50_5_3_7|",
+    "original": "\"I'm a wanted criminal,\" you say. \"I'm here to turn myself in.\"",
+    "translation": "",
+    "pos": 269
+  },
+  {
+    "passage": "Police Turn",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "54_5_3_7|",
+    "original": "The <<person>> frowns at you, then turns to the wanted poster behind <<him>>. <<He>> pulls it from the wall, and holds it over the desk. <<He>> compares you to the photo, as if suspecting a trick, then shrugs. <<He>> pushes a button below the desk, and two more officers enter.",
+    "translation": "",
+    "pos": 385
+  },
+  {
+    "passage": "Police Turn",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "57_5_3_7|",
+    "original": "The <<person>> frowns at you, then pushes a button below the desk. Two more officers enter.",
+    "translation": "",
+    "pos": 683
+  },
+  {
+    "passage": "Police Turn",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "60_5_3_7|",
+    "original": "\"Take <<phim>> to a cell,\" <<he>> says, still looking at you. \"We'll soon decide what to do with you. Thank you for cooperating.\"",
+    "translation": "",
+    "pos": 793
+  },
+  {
+    "passage": "Police Turn",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "64_5_3_7|",
+    "original": "You are led down a flight of steps, and into a tiny cell. The door rattles shut behind you.",
+    "translation": "",
+    "pos": 957
+  },
+  {
+    "passage": "Police Turn",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "67_5_3_7|",
+    "original": "<<link [[Next|Police Cell]]>><<endevent>><<pass 60>><</link>>",
+    "translation": "",
+    "pos": 1059
+  },
+  {
+    "passage": "Police Station Collar",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "73_5_3_7|",
+    "original": "You ask the <<person>> if you can have your collar removed.",
+    "translation": "",
+    "pos": 71
+  },
+  {
+    "passage": "Police Station Collar",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "75_5_3_7|",
+    "original": "<span class=\"red\">\"No can do,\"</span> <<he>> says. \"That's part of your sentence. Finish your community service, then we'll remove it.\"",
+    "translation": "",
+    "pos": 199
+  },
+  {
+    "passage": "Police Station Collar",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "78_5_3_7|",
+    "original": "<<link [[Seduce|Police Station Seduce]]>><<set $daily.policeCollarSeduceAttempt to 1>><<set $phase to 1>><</link>><<promiscuous2>>",
+    "translation": "",
+    "pos": 429
+  },
+  {
+    "passage": "Police Station Collar",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "82_5_3_7|",
+    "original": "\"Sure,\" <<he>> says. \"It'll cost £200. You really shouldn't go putting those things on for fun. They're government property for one thing, and a bitch to get off by design.\"",
+    "translation": "",
+    "pos": 586
+  },
+  {
+    "passage": "Police Station Collar",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "85_5_3_7|",
+    "original": "<<link [[Seduce|Police Station Seduce]]>><<set $daily.policeCollarSeduceAttempt to 1>><<set $phase to 0>><</link>><<promiscuous2>>",
+    "translation": "",
+    "pos": 854
+  },
+  {
+    "passage": "Police Station Collar",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "89_5_3_7|",
+    "original": "<<link [[Pay up|Police Station Collar Removal]]>><<money -20000 \"collarRemoval\">><</link>>",
+    "translation": "",
+    "pos": 1028
+  },
+  {
+    "passage": "Police Station Collar",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "93_5_3_7|",
+    "original": "<<link [[Leave|Police Station]]>><</link>>",
+    "translation": "",
+    "pos": 1143
+  },
+  {
+    "passage": "Police Station Shackle",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "99_5_3_7|",
+    "original": "You ask the <<person>> if you can have your shackles removed. \"Dunno what you expect us to do,\" <<he>> laughs, looking at your ankles. \"These aren't the middle ages.\" <<He>> laughs again. <span class=\"gold\">\"Try a museum.\"</span>",
+    "translation": "",
+    "pos": 71
+  },
+  {
+    "passage": "Police Station Shackle",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "102_5_3_7|",
+    "original": "<<link [[Leave|Police Station]]>><</link>>",
+    "translation": "",
+    "pos": 311
+  },
+  {
+    "passage": "Police Station Seduce",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "115_5_3_7|",
+    "original": "<<if $seductionskill lt 1000>><span class=\"gold\">You feel more confident in your powers of seduction.</span><</if>><<seductionskilluse>>",
+    "translation": "",
+    "pos": 212
+  },
+  {
+    "passage": "Police Station Seduce",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "118_5_3_7|",
+    "original": "\"I'll pretend I didn't hear that.",
+    "translation": "",
+    "pos": 406
+  },
+  {
+    "passage": "Police Station Seduce",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "120_5_3_7|",
+    "original": "Just do your time.\"",
+    "translation": "",
+    "pos": 462
+  },
+  {
+    "passage": "Police Station Seduce",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "122_5_3_7|",
+    "original": "If you can't pay up, I can't help you.\"",
+    "translation": "",
+    "pos": 494
+  },
+  {
+    "passage": "Police Station Seduce",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "124_5_3_7|",
+    "original": "As you turn to leave however, <<he>> whispers to you. \"Meet me behind the station in five minutes, in that old ruin.\" <<promiscuity2>>",
+    "translation": "",
+    "pos": 544
+  },
+  {
+    "passage": "Police Station Seduce",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "127_5_3_7|",
+    "original": "You go to the ruin the <<person>> mentioned, which looks like the remains of an ancient wall. You wait in the hollow interior. You don't have to wait long.",
+    "translation": "",
+    "pos": 693
+  },
+  {
+    "passage": "Police Station Seduce",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "129_5_3_7|",
+    "original": "\"I'll remove your collar once we're done,\" <<he>> says, stooping through the arched entrance. \"I think it'll make it more fun.\"",
+    "translation": "",
+    "pos": 860
+  },
+  {
+    "passage": "Police Station Seduce",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "131_5_3_7|",
+    "original": "<<link [[Next|Police Station Sex]]>><<set $sexstart to 1>><</link>>",
+    "translation": "",
+    "pos": 999
+  },
+  {
+    "passage": "Police Station Seduce",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "134_5_3_7|",
+    "original": "\"I'll pretend I didn't hear that.",
+    "translation": "",
+    "pos": 1083
+  },
+  {
+    "passage": "Police Station Seduce",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "136_5_3_7|",
+    "original": "Just do your time.\"",
+    "translation": "",
+    "pos": 1139
+  },
+  {
+    "passage": "Police Station Seduce",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "138_5_3_7|",
+    "original": "If you can't pay up, I can't help you.\"",
+    "translation": "",
+    "pos": 1171
+  },
+  {
+    "passage": "Police Station Seduce",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "141_5_3_7|",
+    "original": "<i>You can try again tomorrow.</i>",
+    "translation": "",
+    "pos": 1231
+  },
+  {
+    "passage": "Police Station Seduce",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "143_5_3_7|",
+    "original": "<<link [[Next|Police Station]]>><</link>>",
+    "translation": "",
+    "pos": 1277
+  },
+  {
+    "passage": "Police Station Collar Removal",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "153_5_3_7|",
+    "original": "\"I'll be right round,\" the <<person>> says. <<He>> enters the lobby proper moments later, holding a strange-looking key. <<He>> holds it up to the collar, and the lock clicks open, releasing your neck. <<He>> takes the collar. \"As I said, government property.\"",
+    "translation": "",
+    "pos": 137
+  },
+  {
+    "passage": "Police Station Collar Removal",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "156_5_3_7|",
+    "original": "<<link [[Next|Police Station]]>><</link>>",
+    "translation": "",
+    "pos": 503
+  },
+  {
+    "passage": "Police Station Sex",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "178_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Police Station Sex Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 245
+  },
+  {
+    "passage": "Police Station Sex",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "180_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Police Station Sex]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 343
+  },
+  {
+    "passage": "Police Station Sex Finish",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "188_5_3_7|",
+    "original": "<<He>> takes a strange key from <<his>> belt and holds it up to your collar. Your collar comes loose with a click, falling to the ground. <<He>> picks it up. \"Government property. Goes without saying you shouldn't tell anyone this happened.\" <<tearful>> you gather yourself, and watch <<him>> leave.",
+    "translation": "",
+    "pos": 200
+  },
+  {
+    "passage": "Police Station Sex Finish",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "194_5_3_7|",
+    "original": "The <<person>> staggers backward, tripping over a tree stump. <<tearful>> you flee from the ruin.",
+    "translation": "",
+    "pos": 625
+  },
+  {
+    "passage": "Police Station Sex Finish",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "199_5_3_7|",
+    "original": "\"Fine,\" <<he>> says \"I'm not taking the collar off though.\"",
+    "translation": "",
+    "pos": 788
+  },
+  {
+    "passage": "Police Station Sex Finish",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "205_5_3_7|",
+    "original": "<<link [[Next|Residential alleyways]]>><</link>>",
+    "translation": "",
+    "pos": 897
+  },
+  {
+    "passage": "Police Leighton",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "211_5_3_7|",
+    "original": "You walk up to the desk. \"I have something,\" you say, and put the flash drive on the counter. \"T-the head of the local school has been doing awful things to students.\"",
+    "translation": "",
+    "pos": 106
+  },
+  {
+    "passage": "Police Leighton",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "213_5_3_7|",
+    "original": "You stride up to the desk. \"I have evidence of a crime,\" you say, placing the flash drive on the counter. \"The school head has been abusing students.\"",
+    "translation": "",
+    "pos": 315
+  },
+  {
+    "passage": "Police Leighton",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "215_5_3_7|",
+    "original": "You walk up to the desk. \"I have evidence of a crime,\" you say, and put the flash drive on the counter. \"The school head has been abusing students.\"",
+    "translation": "",
+    "pos": 476
+  },
+  {
+    "passage": "Police Leighton",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "218_5_3_7|",
+    "original": "The <<person>> takes the flash drive. \"Alright. I'll add it to the pile,\" <<he>> says uninterested. \"Is there anything else?\"",
+    "translation": "",
+    "pos": 642
+  },
+  {
+    "passage": "Police Leighton",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "220_5_3_7|",
+    "original": "You get the feeling the police aren't going to be helpful. At least you tried to do the right thing.",
+    "translation": "",
+    "pos": 777
+  },
+  {
+    "passage": "Police Leighton",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "224_5_3_7|",
+    "original": "<<link [[Next|Police Station]]>><</link>>",
+    "translation": "",
+    "pos": 989
+  },
+  {
+    "passage": "Police Back Office",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "233_5_3_7|",
+    "original": "You find yourself in a small passage between a set of administrative back offices.",
+    "translation": "",
+    "pos": 259
+  },
+  {
+    "passage": "Police Back Office",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "234_5_3_7|",
+    "original": "The rooms nearby are dark and empty. Further along the corridor a few offices glow with light, however a thick, glass door bars entry.",
+    "translation": "",
+    "pos": 344
+  },
+  {
+    "passage": "Police Back Office",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "235_5_3_7|",
+    "original": "You hear distant voices, strange cries and grunts and the occasional burst of laughter.",
+    "translation": "",
+    "pos": 481
+  },
+  {
+    "passage": "Police Back Office",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "237_5_3_7|",
+    "original": "The door to a nearby office is wide open. The office is dim, lit by the glow from a computer screen. Slipping inside,",
+    "translation": "",
+    "pos": 578
+  },
+  {
+    "passage": "Police Back Office",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "238_5_3_7|",
+    "original": "you find a locked police computer.",
+    "translation": "",
+    "pos": 698
+  },
+  {
+    "passage": "Police Back Office",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "241_5_3_7|",
+    "original": "The office is dim, lit by the glow from the locked computer screen.",
+    "translation": "",
+    "pos": 774
+  },
+  {
+    "passage": "Police Back Office",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "242_5_3_7|",
+    "original": "<<print either(\"A sound like a whip-crack echoes down the hallway.\",\"A muffled voice can be heard through the wall.\",\"Drunken singing can be heard from further in the building.\",",
+    "translation": "",
+    "pos": 844
+  },
+  {
+    "passage": "Police Back Office",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "243_5_3_7|",
+    "original": "\"Sinister laughter echoes through the halls.\", \"Sobbing can be heard from further in the building.\",\"A door slams alarmingly nearby.\")>>",
+    "translation": "",
+    "pos": 1026
+  },
+  {
+    "passage": "Police Back Office",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "249_5_3_7|",
+    "original": "<span class=\"red\">The login prompt taunts you.</span> You know no way to access the computer, <span class=\"teal\">you'll need help from a hacker or a professional thief.</span>",
+    "translation": "",
+    "pos": 1280
+  },
+  {
+    "passage": "Police Back Office",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "254_5_3_7|",
+    "original": "<br><span class=\"gold\">A police access card lies on the desk.</span> A note on it says \"external access only.\"",
+    "translation": "",
+    "pos": 1586
+  },
+  {
+    "passage": "Police Back Office",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "256_5_3_7|",
+    "original": "<<ind>><<link [[Steal access card|Police Back Office]]>><<set $police_access_card to 1>><</link>>",
+    "translation": "",
+    "pos": 1710
+  },
+  {
+    "passage": "Police Back Office",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "263_5_3_7|",
+    "original": "<<techicon \"computer\">><<link [[Access police computer (0:10)|Police Computer]]>><<pass 1>><<set $phase to 0>><</link>>",
+    "translation": "",
+    "pos": 1998
+  },
+  {
+    "passage": "Police Back Office",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "266_5_3_7|",
+    "original": "<<techicon \"computer\">><<link [[Access police computer (0:10)|Police Computer]]>><<pass 10>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 2157
+  },
+  {
+    "passage": "Police Back Office",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "270_5_3_7|",
+    "original": "You find yourself amid a set of administrative back offices. There are police everywhere. You cannot go anywhere or access anything. About to be discovered you have no choice but to slip away.",
+    "translation": "",
+    "pos": 2304
+  },
+  {
+    "passage": "Police Back Office",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "275_5_3_7|",
+    "original": "<span class=\"gold\">It would probably be quieter at night.</span>",
+    "translation": "",
+    "pos": 2583
+  },
+  {
+    "passage": "Police Back Office",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "279_5_3_7|",
+    "original": "<<barbicon>><<link [[Leave|Barb Street]]>><<set $police_intro to 0>><</link>>",
+    "translation": "",
+    "pos": 2671
+  },
+  {
+    "passage": "Police Computer",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "285_5_3_7|",
+    "original": "The password you have no longer works. It must have been changed.",
+    "translation": "",
+    "pos": 90
+  },
+  {
+    "passage": "Police Computer",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "286_5_3_7|",
+    "original": "<span class=\"yellow\">Landry can get you the new password.</span>",
+    "translation": "",
+    "pos": 157
+  },
+  {
+    "passage": "Police Computer",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "288_5_3_7|",
+    "original": "You access the police computer.",
+    "translation": "",
+    "pos": 246
+  },
+  {
+    "passage": "Police Computer",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "291_5_3_7|",
+    "original": "You delete a number of crimes from your record, and randomly change several evidence reference numbers.",
+    "translation": "",
+    "pos": 331
+  },
+  {
+    "passage": "Police Computer",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "293_5_3_7|",
+    "original": "A messagebox tells you the software installed correctly. It should lock out everything within the next few hours.",
+    "translation": "",
+    "pos": 460
+  },
+  {
+    "passage": "Police Computer",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "296_5_3_7|",
+    "original": "You transfer all the evidence of crimes to Whitney's profile. <span class=\"teal\">You are now squeaky clean.</span>",
+    "translation": "",
+    "pos": 626
+  },
+  {
+    "passage": "Police Computer",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "299_5_3_7|",
+    "original": "You transfer all the evidence of crimes to Leighton's profile. <span class=\"teal\">You are now squeaky clean.</span>",
+    "translation": "",
+    "pos": 849
+  },
+  {
+    "passage": "Police Computer",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "302_5_3_7|",
+    "original": "The police computer has started updating. It's at 3%. Shouldn't take too long...",
+    "translation": "",
+    "pos": 1076
+  },
+  {
+    "passage": "Police Computer",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "304_5_3_7|",
+    "original": "<<link [[Wait (12:00)|Police Back Office]]>><<pass 720>><</link>>(Don't wait! This is an error, please report!)<!-- Appears even with blind stats enabled. Intentional -->",
+    "translation": "",
+    "pos": 1164
+  },
+  {
+    "passage": "Police Computer",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "308_5_3_7|",
+    "original": "<<link [[Leave|Police Back Office]]>><<set $phase to 0>><</link>>",
+    "translation": "",
+    "pos": 1353
+  },
+  {
+    "passage": "Police Sneak Caught",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "314_5_3_7|",
+    "original": "Before you can access the computer, a beam of light shines on you.",
+    "translation": "",
+    "pos": 122
+  },
+  {
+    "passage": "Police Sneak Caught",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "316_5_3_7|",
+    "original": "\"I've caught you, sneaky little rat,\" a voice snarls.",
+    "translation": "",
+    "pos": 198
+  },
+  {
+    "passage": "Police Sneak Caught",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "318_5_3_7|",
+    "original": "You turn, shielding your eyes from the bright torchlight. <span class=\"red\">It's a police officer</span>. Before you can make a break for it, <<he>> tackles you to the floor.",
+    "translation": "",
+    "pos": 261
+  },
+  {
+    "passage": "Police Sneak Caught",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "320_5_3_7|",
+    "original": "<<link [[Next|Police Sneak Rape]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 445
+  },
+  {
+    "passage": "Police Sneak Rape",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "333_5_3_7|",
+    "original": "\"Let's see who we have here.\" Pinning you to the ground, the <<person>> <<if $worn.face.name isnot \"naked\">>displaces your $worn.face.name, <</if>>tilts your head, and examines your face.",
+    "translation": "",
+    "pos": 212
+  },
+  {
+    "passage": "Police Sneak Rape",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "337_5_3_7|",
+    "original": "\"Well, well, it looks like I've landed myself quite the big catch.\" <<He>> snickers triumphantly. \"Could never miss the chance to punish criminal scum like you.\"",
+    "translation": "",
+    "pos": 448
+  },
+  {
+    "passage": "Police Sneak Rape",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "341_5_3_7|",
+    "original": "\"You certainly are a catch, aren't you?\" You don't think <<hes>> talking about your criminal history. <<He>> hungrily rakes <<his>> eyes down your body, pausing only to <<if $player.breastsize gte 1>>paw at your <<breasts>><<else>>grope your crotch.<</if>>",
+    "translation": "",
+    "pos": 715
+  },
+  {
+    "passage": "Police Sneak Rape",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "343_5_3_7|",
+    "original": "\"I'm going to enjoy this.\"",
+    "translation": "",
+    "pos": 985
+  },
+  {
+    "passage": "Police Sneak Rape",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "347_5_3_7|",
+    "original": "\"Tsk.\" <<He>> clicks <<his>> tongue. \"Don't know what I expected, but still, I won't turn down a chance to punish criminals like you.\"",
+    "translation": "",
+    "pos": 1080
+  },
+  {
+    "passage": "Police Sneak Rape",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "362_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Police Sneak Rape Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 1426
+  },
+  {
+    "passage": "Police Sneak Rape",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "364_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Police Sneak Rape]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 1523
+  },
+  {
+    "passage": "Police Sneak Rape Finish",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "370_5_3_7|",
+    "original": "\"Learnt your lesson?\" <<He>> pulls your hair violently, yanking your head up to look at <<him>>. \"Because I'm not finished,\" <<he>> says, throwing you to the ground and stripping you of your clothes. \"These belong in the evidence locker. Now, get your ass out. I don't want to see you around here again.\"",
+    "translation": "",
+    "pos": 58
+  },
+  {
+    "passage": "Police Sneak Rape Finish",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "372_5_3_7|",
+    "original": "The <<person>> kicks you out, leaving you exposed.",
+    "translation": "",
+    "pos": 374
+  },
+  {
+    "passage": "Police Sneak Rape Finish",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "375_5_3_7|",
+    "original": "<<tearful>> you try to cover yourself.",
+    "translation": "",
+    "pos": 455
+  },
+  {
+    "passage": "Police Sneak Rape Finish",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "379_5_3_7|",
+    "original": "<<link [[Next|Barb Street]]>><</link>>",
+    "translation": "",
+    "pos": 535
+  },
+  {
+    "passage": "Police Sneak Rape Finish",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "386_5_3_7|",
+    "original": "You shove the <<person>> off of you, scrambling to your feet. However, <<he>> doesn't give up easily.",
+    "translation": "",
+    "pos": 692
+  },
+  {
+    "passage": "Police Sneak Rape Finish",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "389_5_3_7|",
+    "original": "\"Not so fast,\" <<He>> grunts with effort. You feel <<his>> hands clasp on your ankle, along with something metallic. You hear a 'click' before you manage to kick <<him>> away.",
+    "translation": "",
+    "pos": 850
+  },
+  {
+    "passage": "Police Sneak Rape Finish",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "392_5_3_7|",
+    "original": "<<He>> grabs the chain of your shackles and yanks, sending you tumbling down to the floor with a crash.<<pain 10>><<gpain>>",
+    "translation": "",
+    "pos": 1057
+  },
+  {
+    "passage": "Police Sneak Rape Finish",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "394_5_3_7|",
+    "original": "It takes a moment, but you're able to kick <<him>> away from you.",
+    "translation": "",
+    "pos": 1194
+  },
+  {
+    "passage": "Police Sneak Rape Finish",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "397_5_3_7|",
+    "original": "<<tearful>> you flee the scene.",
+    "translation": "",
+    "pos": 1280
+  },
+  {
+    "passage": "Police Sneak Rape Finish",
+    "filepath": "overworld-town/loc-police/main.twee",
+    "key": "401_5_3_7|",
+    "original": "<<link [[Next|Barb Street]]>><</link>>",
+    "translation": "",
+    "pos": 1353
+  }
+]

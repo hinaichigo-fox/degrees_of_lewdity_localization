@@ -1,0 +1,722 @@
+[
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "17_5_3_7|",
+    "original": "<<if _args[1] is \"scum\" and $pirate_rank isnot 0 or _args[1] is \"mate\" and $pirate_rank isnot 1>>",
+    "translation": "",
+    "pos": 362
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "62_5_3_7|",
+    "original": "<<if _args[0] is \"deck\">>",
+    "translation": "",
+    "pos": 1345
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "64_5_3_7|",
+    "original": "<<generateRole 0 0 \"pirate\">><<person1>>",
+    "translation": "",
+    "pos": 1395
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "65_5_3_7|",
+    "original": "A <<person>> shoves a mop in your hand. \"Don't just stand there. Get swabbing.\"",
+    "translation": "",
+    "pos": 1438
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "68_5_3_7|",
+    "original": "<<link [[Swab the deck (2:00)|Pirate Swab]]>><<endevent>><<pirate_status 1 \"mate\">><<pass 120>><<tiredness 6>><</link>><<gtiredness>><<grespect \"mate\">>",
+    "translation": "",
+    "pos": 1532
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "70_5_3_7|",
+    "original": "<<link [[Refuse|Pirate Work Refuse]]>><</link>>",
+    "translation": "",
+    "pos": 1694
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "74_5_3_7|",
+    "original": "<<generateRole 0 0 \"pirate\">><<person1>>",
+    "translation": "",
+    "pos": 1805
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "75_5_3_7|",
+    "original": "\"Look at the state of this dump,\" a <<person>> says. <<He>> only now seems to notice you. \"You. Get cleaning, or I'll have your arse bent over the prow.\"",
+    "translation": "",
+    "pos": 1848
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "78_5_3_7|",
+    "original": "<<link [[Clean the cabin (2:00)|Pirate Cabin Clean]]>><<pirate_status 1 \"mate\">><<pass 120>><<tiredness 6>><</link>><<gtiredness>><<grespect \"mate\">>",
+    "translation": "",
+    "pos": 2016
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "80_5_3_7|",
+    "original": "<<link [[Refuse|Pirate Work Refuse]]>><</link>>",
+    "translation": "",
+    "pos": 2175
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "84_5_3_7|",
+    "original": "<<generateRole 0 0 \"pirate\">><<person1>>",
+    "translation": "",
+    "pos": 2286
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "85_5_3_7|",
+    "original": "\"We need to plug some of these leaks,\" a <<person>> says, stepping over a puddle. \"You. Get to it.\"",
+    "translation": "",
+    "pos": 2329
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "88_5_3_7|",
+    "original": "<<link [[Plug leaks (2:00)|Pirate Bilge Plug]]>><<pirate_status 1 \"mate\">><<pass 120>><<tiredness 6>><</link>><<gtiredness>><<grespect \"mate\">>",
+    "translation": "",
+    "pos": 2443
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "90_5_3_7|",
+    "original": "<<link [[Refuse|Pirate Work Refuse]]>><</link>>",
+    "translation": "",
+    "pos": 2596
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "97_5_3_7|",
+    "original": "<<link [[Next|Pirate Deck]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 2735
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "100_5_3_7|",
+    "original": "<<link [[Next|Pirate Cabin]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 2842
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "103_5_3_7|",
+    "original": "<<link [[Next|Pirate Bilge]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 2936
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "111_5_3_7|",
+    "original": "<<generateRole 0 0 \"pirate\">><<person1>>",
+    "translation": "",
+    "pos": 3137
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "112_5_3_7|",
+    "original": "A <<person>> steps into you, reaching with both hands to fondle your <<bottom>> and pushing you against the railing. \"Nice arse,\" <<he>> says. \"Let's take a closer look.\" <<He>> wraps an arm around your waist, and tries to spin you around.<<gtrauma>><<garousal>><<trauma 6>><<arousal 6>>",
+    "translation": "",
+    "pos": 3180
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "115_5_3_7|",
+    "original": "<<link [[Endure|Pirate Scum Deck Endure]]>><<sub 1>><</link>>",
+    "translation": "",
+    "pos": 3482
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "117_5_3_7|",
+    "original": "<<link [[Smack|Pirate Scum Deck Smack]]>><<def 1>><<pain 4>><<pirate_status 1 \"scum\">><</link>><<gpain>><<grespect \"scum\">>",
+    "translation": "",
+    "pos": 3553
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "122_5_3_7|",
+    "original": "<<generateRole 0 0 \"pirate\">><<generateRole 1 0 \"pirate\">><<generateRole 2 0 \"pirate\">><<person1>>",
+    "translation": "",
+    "pos": 3751
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "123_5_3_7|",
+    "original": "A <<person>>, <<person2>><<person>>, and <<person3>><<person>> step around you, blocking your passage.",
+    "translation": "",
+    "pos": 3852
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "125_5_3_7|",
+    "original": "\"Just who we were looking for,\" the <<person1>><<person>> says. \"My friend here needs to practise <<his>> rope knotting skills. Very important.\" The <<person2>><<person>> grins, and brandishes a length of rope. \"Why don't you stand there by the mast.\"",
+    "translation": "",
+    "pos": 3968
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "127_5_3_7|",
+    "original": "<<link [[Do as bid (0:10)|Pirate Scum Deck Rope]]>><<sub 1>><<pass 10>><</link>>",
+    "translation": "",
+    "pos": 4233
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "129_5_3_7|",
+    "original": "<<link [[Refuse|Pirate Scum Deck Rope Refuse]]>><<pirate_status 1 \"scum\">><</link>><<grespect \"scum\">>",
+    "translation": "",
+    "pos": 4323
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "131_5_3_7|",
+    "original": "<<link [[Offer to show them the ropes instead (0:10)|Pirate Scum Deck Rope Seduce]]>><<def 1>><<pass 10>><</link>>",
+    "translation": "",
+    "pos": 4435
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "136_5_3_7|",
+    "original": "<<generateRole 0 0 \"pirate\">><<person1>>",
+    "translation": "",
+    "pos": 4624
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "138_5_3_7|",
+    "original": "A <<person>> interrupts <<his>> swabbing of the deck to sweep <<his>> mop at your feet. In your tipsy state, you notice it too late. It trips you at the ankles, and leaves you on your knees.",
+    "translation": "",
+    "pos": 4690
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "141_5_3_7|",
+    "original": "The <<person>> doubles down on the humiliation by sitting on your back before you can stand, forcing you down further. <<He>> gives your <<bottom>> a spank, to the amusement of the crew.<<gpain>><<gtrauma>><<gstress>><<pain 4>><<trauma 6>><<stress 6>>",
+    "translation": "",
+    "pos": 4897
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "144_5_3_7|",
+    "original": "<<link [[Endure (0:03)|Pirate Scum Deck Mop Endure]]>><<sub 1>><<pass 3>><<arousal 1500>><</link>><<garousal>>",
+    "translation": "",
+    "pos": 5165
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "146_5_3_7|",
+    "original": "<<link [[Threaten (0:03)|Pirate Scum Deck Mop Threaten]]>><<def 1>><<pass 3>><<pain 4>><<stress 6>><<pirate_status 1 \"scum\">><</link>><<gpain>><<gstress>><<grespect \"scum\">>",
+    "translation": "",
+    "pos": 5287
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "149_5_3_7|",
+    "original": "A <<person>> interrupts <<his>> swabbing of the deck to sweep <<his>> mop at your feet.",
+    "translation": "",
+    "pos": 5476
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "151_5_3_7|",
+    "original": "A thought strikes as you <span class=\"green\">spring over it.</span>",
+    "translation": "",
+    "pos": 5629
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "153_5_3_7|",
+    "original": "<<link [[Kick the mop|Pirate Scum Deck Mop Kick]]>><<def 1>><<pirate_status 1 \"scum\">><</link>><<grespect \"scum\">>",
+    "translation": "",
+    "pos": 5714
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "155_5_3_7|",
+    "original": "<<link [[Land with grace|Pirate Scum Deck Mop Land]]>><<stress -6>><</link>><<lstress>>",
+    "translation": "",
+    "pos": 5842
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "158_5_3_7|",
+    "original": "<span class=\"red\">It trips you at the ankles,</span> and leaves you on your knees.",
+    "translation": "",
+    "pos": 5955
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "161_5_3_7|",
+    "original": "The <<person>> doubles down on the humiliation by sitting on your back before you can stand, forcing you down further. <<He>> gives your <<bottom>> a spank, to the amusement of the crew.<<gpain>><<gtrauma>><<gstress>><<pain 4>><<trauma 6>><<stress 6>>",
+    "translation": "",
+    "pos": 6056
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "164_5_3_7|",
+    "original": "<<link [[Endure|Pirate Scum Deck Mop Endure]]>><<sub 1>><<arousal 1500>><</link>><<garousal>>",
+    "translation": "",
+    "pos": 6326
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "166_5_3_7|",
+    "original": "<<link [[Threaten|Pirate Scum Deck Mop Threaten]]>><<def 1>><<pain 4>><<stress 6>><<pirate_status 1 \"scum\">><</link>><<gpain>><<gstress>><<grespect \"scum\">>",
+    "translation": "",
+    "pos": 6433
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "172_5_3_7|",
+    "original": "<<generateRole 0 0 \"pirate\">><<generateRole 1 0 \"pirate\">><<person1>>",
+    "translation": "",
+    "pos": 6680
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "173_5_3_7|",
+    "original": "A <<person>> sings a shanty under <<his>> breath as <<he>> swabs, sweeping <<his>> mop rhythmically. After about a minute, a <<person2>><<person>> joins in the chorus. One by one, more of the crew join in, until half the ship is singing in dubious harmony, stomping their feet to the rhythm.",
+    "translation": "",
+    "pos": 6752
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "176_5_3_7|",
+    "original": "<<link [[Join in|Pirate Scum Deck Shanty Join]]>><<stress -6>><</link>><<lstress>>",
+    "translation": "",
+    "pos": 7058
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "178_5_3_7|",
+    "original": "<<link [[Take the lead|Pirate Scum Deck Shanty Lead]]>><</link>><<if $harpy gte 6>><<harpy>><<else>><<englishdifficulty 1 1000>><</if>>",
+    "translation": "",
+    "pos": 7150
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "180_5_3_7|",
+    "original": "<<link [[Ignore|Pirate Scum Deck Shanty Ignore]]>><</link>>",
+    "translation": "",
+    "pos": 7295
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "189_5_3_7|",
+    "original": "<<generateRole 0 0 \"pirate\">><<generateRole 1 0 \"pirate\">><<generateRole 2 0 \"pirate\">><<person1>>",
+    "translation": "",
+    "pos": 7513
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "190_5_3_7|",
+    "original": "\"Hey,\" a <<person>> calls to you. <<Hes>> sat with a <<person2>><<person>> and <<person3>><<person>>, drinking. \"Come over here. Give us a kiss.\"",
+    "translation": "",
+    "pos": 7614
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "192_5_3_7|",
+    "original": "<<link [[Do as bid|Pirate Scum Cabin Kiss]]>><<sub 1>><</link>><<kissvirginitywarning>>",
+    "translation": "",
+    "pos": 7773
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "194_5_3_7|",
+    "original": "<<link [[Ignore|Pirate Scum Cabin Ignore]]>><</link>>",
+    "translation": "",
+    "pos": 7870
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "196_5_3_7|",
+    "original": "<<link [[Insult|Pirate Scum Cabin Insult]]>><<def 1>><<pirate_status 1 \"scum\">><</link>><<grespect>>",
+    "translation": "",
+    "pos": 7933
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "200_5_3_7|",
+    "original": "<<generateRole 0 0 \"pirate\">><<person1>>",
+    "translation": "",
+    "pos": 8102
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "201_5_3_7|",
+    "original": "A <<person>> pins you to the cabin wall. \"My bunk's in there,\" <<he>> says, gesturing at a gap in a bulkhead. \"I'm gonna take you for a tumble, scum.\"",
+    "translation": "",
+    "pos": 8145
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "204_5_3_7|",
+    "original": "<<link [[Shove away|Pirate Scum Cabin Shove]]>><<def 1>><<trauma -6>><<stress 6>><<pirate_status 1 \"scum\">><</link>><<gstress \"scum\">><<ltrauma>><<grespect \"scum\">>",
+    "translation": "",
+    "pos": 8310
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "206_5_3_7|",
+    "original": "<<link [[Go along with it|Pirate Scum Cabin Go]]>><<sub 1>><<trauma 6>><</link>><<gtrauma>>",
+    "translation": "",
+    "pos": 8484
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "211_5_3_7|",
+    "original": "<<generateRole 0 0 \"pirate\">><<person1>>",
+    "translation": "",
+    "pos": 8651
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "213_5_3_7|",
+    "original": "\"Nice <<breasts>>,\" laughs a <<person>>, pulling a phone from <<his>> pocket. <<covered>> \"Give us a better look.\"<<gstress>><<stress 6>>",
+    "translation": "",
+    "pos": 8784
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "216_5_3_7|",
+    "original": "<<link [[Refuse|Pirate Scum Cabin Breast Refuse]]>><<def 1>><<pirate_status 1 \"scum\">><<pain 4>><</link>><<gpain>><<grespect \"scum\">>",
+    "translation": "",
+    "pos": 8938
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "218_5_3_7|",
+    "original": "<<link [[Relent|Pirate Scum Cabin Show]]>><<sub 1>><<pirate_status -1>><<trauma 6>><</link>><<lrespect>><<gtrauma>>",
+    "translation": "",
+    "pos": 9083
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "221_5_3_7|",
+    "original": "\"Take your top off,\" says a <<person>>. \"I wanna see your <<if $player.gender_appearance is \"m\">>chest<<else>>breasts<</if>>.\"",
+    "translation": "",
+    "pos": 9221
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "224_5_3_7|",
+    "original": "<<link [[Refuse|Pirate Scum Cabin Refuse]]>><<def 1>><<pirate_status 1 \"scum\">><</link>><<grespect \"scum\">>",
+    "translation": "",
+    "pos": 9364
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "227_5_3_7|",
+    "original": "<<link [[Trick|Pirate Scum Cabin Trick]]>><<def 1>><</link>><<skulduggerydifficulty>>",
+    "translation": "",
+    "pos": 9524
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "229_5_3_7|",
+    "original": "<<link [[Do as bid|Pirate Scum Cabin Bid]]>><<sub 1>><<pirate_status -1>><</link>><<lrespect>>",
+    "translation": "",
+    "pos": 9621
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "235_5_3_7|",
+    "original": "<<generateRole 0 0 \"pirate\">><<person1>>",
+    "translation": "",
+    "pos": 9804
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "236_5_3_7|",
+    "original": "\"Oi,\" a <<person>> calls, waving you over. <<Hes>> hunched over a table, clutching a bottle like it's a lifeline. \"Take a listen, <<lass>>. You're gonna want to... really want to hear this one.\"",
+    "translation": "",
+    "pos": 9847
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "239_5_3_7|",
+    "original": "<<He>> attempts to take a draw from the bottle, missing <<his>> mouth by a good margin. \"Heard this one at a pub,\" <<he>> chuckles. \"What's a... get this... what's a pirate's favourite letter?\"",
+    "translation": "",
+    "pos": 10056
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "242_5_3_7|",
+    "original": "<<link [[X!|Pirate Scum Cabin Letter]]>><<set $phase to \"X\">><</link>>",
+    "translation": "",
+    "pos": 10264
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "244_5_3_7|",
+    "original": "<<link [[R!|Pirate Scum Cabin Letter]]>><<set $phase to \"R\">><</link>>",
+    "translation": "",
+    "pos": 10344
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "246_5_3_7|",
+    "original": "<<link [[C!|Pirate Scum Cabin Letter]]>><<set $phase to \"C\">><</link>>",
+    "translation": "",
+    "pos": 10424
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "248_5_3_7|",
+    "original": "<<link [[I!|Pirate Scum Cabin Letter]]>><<set $phase to \"I\">><</link>>",
+    "translation": "",
+    "pos": 10504
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "250_5_3_7|",
+    "original": "<<link [[Say you don't know|Pirate Scum Cabin Letter]]>><<set $phase to 0>><</link>>",
+    "translation": "",
+    "pos": 10584
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "259_5_3_7|",
+    "original": "<<generateRole 0 0 \"pirate\">><<generateRole 1 0 \"pirate\">><<person1>>",
+    "translation": "",
+    "pos": 10827
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "260_5_3_7|",
+    "original": "A drunk <<person>> lurches from the shadows, almost forcing you over with <<his>> weight. \"What a pretty thing,\" <<he>> says, making a clumsy attempt to grope you.<<gstress>><<stress 6>>",
+    "translation": "",
+    "pos": 10899
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "262_5_3_7|",
+    "original": "A <<person2>><<person>> staggers from behind, equally drunk.",
+    "translation": "",
+    "pos": 11099
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "265_5_3_7|",
+    "original": "In your inebriated state, you're too clumsy to get away.",
+    "translation": "",
+    "pos": 11198
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "268_5_3_7|",
+    "original": "<<link [[Next|Pirate Scum Bilge Pair Rape]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 11271
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "271_5_3_7|",
+    "original": "<<link [[Endure|Pirate Scum Bilge Endure]]>><<sub 1>><<trauma 6>><</link>><<gtrauma>>",
+    "translation": "",
+    "pos": 11378
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "273_5_3_7|",
+    "original": "<<link [[Shove|Pirate Scum Bilge Shove]]>><<def 1>><<pirate_status 1 \"scum\">><<pain 4>><</link>><<gpain>><<grespect \"scum\">>",
+    "translation": "",
+    "pos": 11475
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "279_5_3_7|",
+    "original": "You hear a faint slurping, growing louder. An unnatural silhouette is cast on the wall. You're not sure where the light is coming from. It's suddenly very cold.",
+    "translation": "",
+    "pos": 11686
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "282_5_3_7|",
+    "original": "<<link [[Run|Pirate Scum Bilge Run]]>><</link>>",
+    "translation": "",
+    "pos": 11861
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "284_5_3_7|",
+    "original": "<<link [[Hide (0:05)|Pirate Scum Bilge Hide]]>><<pass 5>><</link>>",
+    "translation": "",
+    "pos": 11918
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "286_5_3_7|",
+    "original": "<<link [[Scream|Pirate Scum Bilge Scream]]>><</link>>",
+    "translation": "",
+    "pos": 11994
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "288_5_3_7|",
+    "original": "<<link [[Find the source of the noise|Pirate Scum Bilge Search]]>><</link>><<willpowerdifficulty 1 1000>>",
+    "translation": "",
+    "pos": 12057
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "293_5_3_7|",
+    "original": "You hear the ship groan around you. It almost sounds alive.<<gstress>><<stress 6>>",
+    "translation": "",
+    "pos": 12238
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "295_5_3_7|",
+    "original": "<<link [[Next|Pirate Bilge]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 12334
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "300_5_3_7|",
+    "original": "<<generateRole 0 0 \"pirate\">><<person1>>",
+    "translation": "",
+    "pos": 12486
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "301_5_3_7|",
+    "original": "You see a <<person>> rifling through a barrel, presumably taking inventory. <<He>> sways <<his>> bottom as <<he>> works.",
+    "translation": "",
+    "pos": 12529
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "305_5_3_7|",
+    "original": "<<link [[Slap|Pirate Scum Bilge Slap]]>><<pirate_status 1 \"scum\">><</link>><<promiscuous2>><<grespect \"scum\">>",
+    "translation": "",
+    "pos": 12703
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "308_5_3_7|",
+    "original": "<<link [[Ignore|Pirate Scum Bilge Slap Ignore]]>><</link>>",
+    "translation": "",
+    "pos": 12834
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "314_5_3_7|",
+    "original": "You've pushed yourself too much. Everything fades to black.",
+    "translation": "",
+    "pos": 12974
+  },
+  {
+    "passage": "Widgets Pirates",
+    "filepath": "overworld-town/loc-pirates/widgets.twee",
+    "key": "316_5_3_7|",
+    "original": "<<link [[Next|Pirate Passout]]>><</link>>",
+    "translation": "",
+    "pos": 13045
+  }
+]

@@ -1,0 +1,434 @@
+[
+  {
+    "passage": "Prison Kylar Intro",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "4_5_3_7|",
+    "original": "Kylar gazes at you in bewilderment. Another shove brings <<him>> back to reality. <<veteran_guard 2 cap>> marches <<him>> the rest of the way to <<his>> cell.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Prison Kylar Intro",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "7_5_3_7|",
+    "original": "<<methodical_guard 1 cap>> snaps the ledger shut, annoyed by the interruption. A tall gate opens at the far end of the hall, and the prisoners march towards it.",
+    "translation": "",
+    "pos": 182
+  },
+  {
+    "passage": "Prison Kylar Intro",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "10_5_3_7|",
+    "original": "<<link [[Next|Prison Kylar Intro 2]]>><<endevent>><<npc Kylar>><<person1>><</link>>",
+    "translation": "",
+    "pos": 353
+  },
+  {
+    "passage": "Prison Kylar Intro 2",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "16_5_3_7|",
+    "original": "Kylar runs from <<his>> cell as soon as it opens, and climbs the stairs to the walkway. <<Hes>> coming this way.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Prison Kylar Intro 2",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "19_5_3_7|",
+    "original": "<<He>> stops a few feet from you, and steadies <<himself>> with the railing. <<His>> mouth gapes as <<he>> watches you.",
+    "translation": "",
+    "pos": 136
+  },
+  {
+    "passage": "Prison Kylar Intro 2",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "22_5_3_7|",
+    "original": "\"I-is that really you?\" <<he>> asks. \"A-am I seeing things again?\"",
+    "translation": "",
+    "pos": 266
+  },
+  {
+    "passage": "Prison Kylar Intro 2",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "25_5_3_7|",
+    "original": "<<link [[Apologise|Prison Kylar Intro Apologise]]>><<npcincr Kylar rage -50>><<prison_inmates -1>><</link>><<lllksuspicion>><<lrespect>>",
+    "translation": "",
+    "pos": 343
+  },
+  {
+    "passage": "Prison Kylar Intro 2",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "27_5_3_7|",
+    "original": "<<link [[Be polite|Prison Kylar Intro Polite]]>><<npcincr Kylar rage -10>><</link>><<llksuspicion>>",
+    "translation": "",
+    "pos": 485
+  },
+  {
+    "passage": "Prison Kylar Intro 2",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "29_5_3_7|",
+    "original": "<<link [[Dismiss|Prison Kylar Intro Dismiss]]>><<npcincr Kylar rage 30>><<prison_inmates 1>><</link>><<gggksuspicion>><<grespect>>",
+    "translation": "",
+    "pos": 590
+  },
+  {
+    "passage": "Prison Kylar Intro Apologise",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "37_5_3_7|",
+    "original": "You can't speak with this gag in the way, so look at your feet and mumble apologetically. You think your point comes across.",
+    "translation": "",
+    "pos": 53
+  },
+  {
+    "passage": "Prison Kylar Intro Apologise",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "41_5_3_7|",
+    "original": "\"I-I'm sorry,\" you say. \"I didn't want you to get arrested.\"",
+    "translation": "",
+    "pos": 234
+  },
+  {
+    "passage": "Prison Kylar Intro Apologise",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "43_5_3_7|",
+    "original": "\"Sorry you ended up in here,\" you say.",
+    "translation": "",
+    "pos": 338
+  },
+  {
+    "passage": "Prison Kylar Intro Apologise",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "45_5_3_7|",
+    "original": "\"I'm sorry you ended up in here,\" you say.",
+    "translation": "",
+    "pos": 389
+  },
+  {
+    "passage": "Prison Kylar Intro Apologise",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "50_5_3_7|",
+    "original": "Kylar drops to <<his>> knees and bows <<his>> head. Other inmates give you funny looks. \"I-it was a mistake,\" <<he>> says. \"I've gone over it in my head, over and over. The cake, the a-arrest. A misunderstanding.\"",
+    "translation": "",
+    "pos": 460
+  },
+  {
+    "passage": "Prison Kylar Intro Apologise",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "53_5_3_7|",
+    "original": "<<He>> looks up, and clings to your knees. \"I'll look after you. I'll get you things. Just give me time.\" <<He>> rises to <<his>> feet, and rushes along the walkway.",
+    "translation": "",
+    "pos": 684
+  },
+  {
+    "passage": "Prison Kylar Intro Apologise",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "56_5_3_7|",
+    "original": "<<link [[Next|Prison Walkway]]>><<endevent>><<set $prison.hours_worked to 0>><</link>>",
+    "translation": "",
+    "pos": 860
+  },
+  {
+    "passage": "Prison Kylar Intro Polite",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "65_5_3_7|",
+    "original": "You can't speak with this gag in the way, so you give <<him>> a polite nod before walking by.",
+    "translation": "",
+    "pos": 53
+  },
+  {
+    "passage": "Prison Kylar Intro Polite",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "68_5_3_7|",
+    "original": "\"I-It's good to see a familiar face,\" you say.",
+    "translation": "",
+    "pos": 193
+  },
+  {
+    "passage": "Prison Kylar Intro Polite",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "70_5_3_7|",
+    "original": "\"Thank fuck I'm not alone in here,\" you say.",
+    "translation": "",
+    "pos": 283
+  },
+  {
+    "passage": "Prison Kylar Intro Polite",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "72_5_3_7|",
+    "original": "\"I'm glad to see you,\" you say. \"It's good to have someone familiar around.\"",
+    "translation": "",
+    "pos": 340
+  },
+  {
+    "passage": "Prison Kylar Intro Polite",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "75_5_3_7|",
+    "original": "Kylar nods with enthusiasm. \"Y-yes,\" <<he>> says. \"I'll look out for you. I'll get you things. Just give me time.\" <<He>> turns and rushes along the walkway.",
+    "translation": "",
+    "pos": 437
+  },
+  {
+    "passage": "Prison Kylar Intro Polite",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "79_5_3_7|",
+    "original": "<<link [[Next|Prison Walkway]]>><<endevent>><<set $prison.hours_worked to 0>><</link>>",
+    "translation": "",
+    "pos": 613
+  },
+  {
+    "passage": "Prison Kylar Intro Dismiss",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "87_5_3_7|",
+    "original": "You can't speak with this gag in the way, so you stick your nose in the air and walk by Kylar without giving <<him>> another look. You think that got the point across.",
+    "translation": "",
+    "pos": 53
+  },
+  {
+    "passage": "Prison Kylar Intro Dismiss",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "90_5_3_7|",
+    "original": "\"Pl-please stay away from me,\" you say, walking by. \"I don't need you.\"",
+    "translation": "",
+    "pos": 267
+  },
+  {
+    "passage": "Prison Kylar Intro Dismiss",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "92_5_3_7|",
+    "original": "\"You're the last thing I need,\" you say, walking by. \"Stay the fuck away from me.\"",
+    "translation": "",
+    "pos": 382
+  },
+  {
+    "passage": "Prison Kylar Intro Dismiss",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "94_5_3_7|",
+    "original": "\"I don't need you,\" you say, walking by. \"Please leave me alone.\"",
+    "translation": "",
+    "pos": 477
+  },
+  {
+    "passage": "Prison Kylar Intro Dismiss",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "99_5_3_7|",
+    "original": "You look back towards your cell as you descend the stairs. Kylar is nowhere to be seen.",
+    "translation": "",
+    "pos": 570
+  },
+  {
+    "passage": "Prison Kylar Intro Dismiss",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "102_5_3_7|",
+    "original": "<<link [[Next|Prison Block]]>><<endevent>><<set $prison.hours_worked to 0>><</link>>",
+    "translation": "",
+    "pos": 668
+  },
+  {
+    "passage": "Prison Kylar",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "109_5_3_7|",
+    "original": "Kylar looks up as you enter, then jumps to <<his>> feet when <<he>> sees who it is. \"I-I was hoping you'd visit,\" <<he>> says.",
+    "translation": "",
+    "pos": 37
+  },
+  {
+    "passage": "Prison Kylar",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "113_5_3_7|",
+    "original": "<<socialiseicon>><<link [[Chat (up to an hour)|Prison Kylar Chat]]>><<set $prison_kylar_cell to 1>><<npcincr Kylar love 1>><<npcincr Kylar lust 5>><<npcincr Kylar rage -1>><</link>><<glust>><<glove>><<lksuspicion>>",
+    "translation": "",
+    "pos": 175
+  },
+  {
+    "passage": "Prison Kylar",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "115_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Prison Block]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 395
+  },
+  {
+    "passage": "Prison Kylar Chat",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "124_5_3_7|",
+    "original": "You chat with Kylar.",
+    "translation": "",
+    "pos": 42
+  },
+  {
+    "passage": "Prison Kylar Chat",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "128_5_3_7|",
+    "original": "<<He>> talks about what <<he>> did to another inmate when <<he>> first arrived. \"Th-that's why I was in solitary,\" <<he>> says. \"When you got here.\"<<gstress>><<stress 6>>",
+    "translation": "",
+    "pos": 104
+  },
+  {
+    "passage": "Prison Kylar Chat",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "130_5_3_7|",
+    "original": "\"I've found lots of hideaways,\" <<he>> says. \"People aren't clever about where they stash things.\"",
+    "translation": "",
+    "pos": 290
+  },
+  {
+    "passage": "Prison Kylar Chat",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "132_5_3_7|",
+    "original": "\"I avoid eye contact,\" <<he>> says. \"People leave me alone.\"",
+    "translation": "",
+    "pos": 403
+  },
+  {
+    "passage": "Prison Kylar Chat",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "134_5_3_7|",
+    "original": "\"It's not so different from school here,\" <<he>> says.",
+    "translation": "",
+    "pos": 478
+  },
+  {
+    "passage": "Prison Kylar Chat",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "136_5_3_7|",
+    "original": "\"I dunno why people try to climb the walls,\" <<he>> says. \"Those birds are huge.\"",
+    "translation": "",
+    "pos": 547
+  },
+  {
+    "passage": "Prison Kylar Chat",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "138_5_3_7|",
+    "original": "\"I'm surprised they don't serve fish in the canteen,\" <<he>> says. \"Where'd they get all that food from, anyway?\"",
+    "translation": "",
+    "pos": 643
+  },
+  {
+    "passage": "Prison Kylar Chat",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "140_5_3_7|",
+    "original": "\"There's a cupboard in medical,\" <<he>> says. \"I wonder what's inside.\"",
+    "translation": "",
+    "pos": 771
+  },
+  {
+    "passage": "Prison Kylar Chat",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "142_5_3_7|",
+    "original": "\"That locked door in the yard must go somewhere interesting,\" <<he>> says.",
+    "translation": "",
+    "pos": 857
+  },
+  {
+    "passage": "Prison Kylar Chat",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "144_5_3_7|",
+    "original": "\"They wouldn't let me in the spire,\" <<he>> says. \"I just wanted to explore.\"",
+    "translation": "",
+    "pos": 946
+  },
+  {
+    "passage": "Prison Kylar Chat",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "146_5_3_7|",
+    "original": "\"I've seen the way people look at you,\" <<he>> says. \"Th-they won't try anything while I'm around.\"",
+    "translation": "",
+    "pos": 1039
+  },
+  {
+    "passage": "Prison Kylar Chat",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "152_5_3_7|",
+    "original": "<<He>> grasps your wrist when you stand to leave. \"I-I've got something for you.\" <<He>> thrusts a hand into <<his>> pocket, and pulls out a handful of shark's teeth. \"H-here.\"",
+    "translation": "",
+    "pos": 1224
+  },
+  {
+    "passage": "Prison Kylar Chat",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "157_5_3_7|",
+    "original": "<<link [[Next|Prison Block]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1505
+  },
+  {
+    "passage": "Prison Attention Kylar",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "165_5_3_7|",
+    "original": "\"Kylar!\" you shout.",
+    "translation": "",
+    "pos": 68
+  },
+  {
+    "passage": "Prison Attention Kylar",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "167_5_3_7|",
+    "original": "\"I-I need you.\"",
+    "translation": "",
+    "pos": 123
+  },
+  {
+    "passage": "Prison Attention Kylar",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "169_5_3_7|",
+    "original": "\"Lend a hand.\"",
+    "translation": "",
+    "pos": 180
+  },
+  {
+    "passage": "Prison Attention Kylar",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "171_5_3_7|",
+    "original": "\"Help me.\"",
+    "translation": "",
+    "pos": 205
+  },
+  {
+    "passage": "Prison Attention Kylar",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "177_5_3_7|",
+    "original": "<<person2>><<veteran_guard 1 cap>> stomps over to a nearby vent, and throws it open. <<Hes>> flashing <<his>> torch into the dark when <span class=\"green\">a dart pierces <<his>> neck.</span> <<He>> rips it out, and turns to find Kylar stood in the open, a makeshift blowgun in <<person1>><<his>> hand.",
+    "translation": "",
+    "pos": 292
+  },
+  {
+    "passage": "Prison Attention Kylar",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "180_5_3_7|",
+    "original": "Kylar tries to run, but <<veteran_guard 1>> is too fast. <<person2>><<He>> resists the dart's poison long enough to pin Kylar to the ground.",
+    "translation": "",
+    "pos": 608
+  },
+  {
+    "passage": "Prison Attention Kylar",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "183_5_3_7|",
+    "original": "<span class=\"green\">A dart pierces <<veteran_guard 1 cap>>'s neck.</span> <<He>> spins on the spot, searching for the culprit. <<He>> stomps over to a nearby vent, reaches in, and pulls out a struggling Kylar.",
+    "translation": "",
+    "pos": 774
+  },
+  {
+    "passage": "Prison Attention Kylar",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "186_5_3_7|",
+    "original": "<<He>> resists the dart's poison long enough to pin Kylar to the ground.",
+    "translation": "",
+    "pos": 998
+  },
+  {
+    "passage": "Prison Attention Kylar",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "190_5_3_7|",
+    "original": "Inmates crowd around to watch the spectacle, while the other guards push their way through. You slip away in the chaos.",
+    "translation": "",
+    "pos": 1107
+  },
+  {
+    "passage": "Prison Attention Kylar",
+    "filepath": "overworld-town/loc-prison/kylar.twee",
+    "key": "192_5_3_7|",
+    "original": "<span class=\"purple\">Kylar will be in solitary for a while.</span>",
+    "translation": "",
+    "pos": 1228
+  }
+]

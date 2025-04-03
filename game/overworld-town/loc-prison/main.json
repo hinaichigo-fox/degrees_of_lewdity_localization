@@ -1,0 +1,4874 @@
+[
+  {
+    "passage": "Prison Cell",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "4_5_3_7|",
+    "original": "You are in your cell. There's a bed in one corner, and a cupboard in another. A barred gate separates you from the walkway outside. There's no privacy.",
+    "translation": "",
+    "pos": 95
+  },
+  {
+    "passage": "Prison Cell",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "6_5_3_7|",
+    "original": "A poster depicting a sexy gentleman hangs on one wall.",
+    "translation": "",
+    "pos": 279
+  },
+  {
+    "passage": "Prison Cell",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "8_5_3_7|",
+    "original": "A poster depicting a sexy lady hangs on one wall.",
+    "translation": "",
+    "pos": 372
+  },
+  {
+    "passage": "Prison Cell",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "10_5_3_7|",
+    "original": "A poster depicting a cute puppy hangs on one wall.",
+    "translation": "",
+    "pos": 460
+  },
+  {
+    "passage": "Prison Cell",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "14_5_3_7|",
+    "original": "Thuds echo down the hall as cells lock shut.",
+    "translation": "",
+    "pos": 580
+  },
+  {
+    "passage": "Prison Cell",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "18_5_3_7|",
+    "original": "The door is locked.",
+    "translation": "",
+    "pos": 708
+  },
+  {
+    "passage": "Prison Cell",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "26_5_3_7|",
+    "original": "The lights buzz into life, and a rattle echoes as the cell doors slide open. A <<personsimple \"normal\">>'s voice rings through the hall. \"Roll call.\" You see other prisoners lining up.",
+    "translation": "",
+    "pos": 982
+  },
+  {
+    "passage": "Prison Cell",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "29_5_3_7|",
+    "original": "<<link [[Line up|Prison Cell Role]]>><<cell_trouble -1>><</link>>",
+    "translation": "",
+    "pos": 1179
+  },
+  {
+    "passage": "Prison Cell",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "31_5_3_7|",
+    "original": "<<link [[Refuse|Prison Cell Refuse]]>><<prison_guards 1>><<prison_inmates 1>><<pain 4>><<cell_trouble 1>><</link>><<gpain>><<gsuspicion>><<grespect>>",
+    "translation": "",
+    "pos": 1252
+  },
+  {
+    "passage": "Prison Cell",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "39_5_3_7|",
+    "original": "You stare down at your bindings. You pull, and they fall apart, unable to hold against you.",
+    "translation": "",
+    "pos": 1512
+  },
+  {
+    "passage": "Prison Cell",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "42_5_3_7|",
+    "original": "<span class=\"green\">You rub your bindings against a sharp piece of metal.</span> It takes some effort, but eventually the material yields, freeing your limbs.",
+    "translation": "",
+    "pos": 1630
+  },
+  {
+    "passage": "Prison Cell",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "48_5_3_7|",
+    "original": "<<undobindingsicon>><<link [[Undo your bindings (0:10)|Prison Cell]]>><<set $unbind to 1>><<pass 10>><<arm_unbind>><</link>>",
+    "translation": "",
+    "pos": 1875
+  },
+  {
+    "passage": "Prison Cell",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "52_5_3_7|",
+    "original": "<<furnitureicon \"poster\">><<link [[Examine your poster|Prison Poster]]>><<set $prison.tunnel to 1>><</link>>",
+    "translation": "",
+    "pos": 2065
+  },
+  {
+    "passage": "Prison Cell",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "55_5_3_7|",
+    "original": "<<furnitureicon \"poster\">><<link [[Test the wall behind the poster|Prison Poster 2]]>><<set $prison.tunnel to 2>><</link>>",
+    "translation": "",
+    "pos": 2239
+  },
+  {
+    "passage": "Prison Cell",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "58_5_3_7|",
+    "original": "<<investigateicon>><<link [[Examine tunnel|Prison Tunnel]]>><</link>>",
+    "translation": "",
+    "pos": 2441
+  },
+  {
+    "passage": "Prison Cell",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "61_5_3_7|",
+    "original": "<<getouticon \"dig\">><<link [[Dig tunnel|Prison Tunnel]]>><</link>>",
+    "translation": "",
+    "pos": 2588
+  },
+  {
+    "passage": "Prison Cell",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "65_5_3_7|",
+    "original": "<span class=\"blue\">It's too noisy to sleep.</span>",
+    "translation": "",
+    "pos": 2710
+  },
+  {
+    "passage": "Prison Cell",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "69_5_3_7|",
+    "original": "<<prisonicon \"bed\">><<link [[Strip and get in bed|Prison Bed]]>><<undressSleep \"prison bed\">><</link>>",
+    "translation": "",
+    "pos": 2816
+  },
+  {
+    "passage": "Prison Cell",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "74_5_3_7|",
+    "original": "<<prisonicon \"plaque\">><<link [[Plaque|Prison Plaque]]>><</link>>",
+    "translation": "",
+    "pos": 3039
+  },
+  {
+    "passage": "Prison Cell",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "77_5_3_7|",
+    "original": "<<prisonicon \"wardrobe\">><<link [[Cupboard|Prison Wardrobe]]>><</link>>",
+    "translation": "",
+    "pos": 3122
+  },
+  {
+    "passage": "Prison Cell",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "80_5_3_7|",
+    "original": "<<prisonicon \"mirror\">><<link [[Mirror|Prison Mirror]]>><<preMirror>><</link>>",
+    "translation": "",
+    "pos": 3231
+  },
+  {
+    "passage": "Prison Cell",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "85_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Prison Walkway]]>><</link>>",
+    "translation": "",
+    "pos": 3376
+  },
+  {
+    "passage": "Prison Cell",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "89_5_3_7|",
+    "original": "<<link [[Gameplay Settings|Prison Settings]]>><</link>>",
+    "translation": "",
+    "pos": 3456
+  },
+  {
+    "passage": "Prison Cell",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "93_5_3_7|",
+    "original": "<span class=\"goldLink\"><<link [[Attitudes]]>><<set $attitudesExitPassage to $passage>><</link>> </span><span class=\"red\">!!</span>",
+    "translation": "",
+    "pos": 3594
+  },
+  {
+    "passage": "Prison Cell",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "95_5_3_7|",
+    "original": "<<link [[Attitudes]]>><<set $attitudesExitPassage to $passage>><</link>>",
+    "translation": "",
+    "pos": 3737
+  },
+  {
+    "passage": "Prison Mirror",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "105_5_3_7|",
+    "original": "<<prisonicon \"cell\">><<link [[Step away|Prison Cell]]>><<handheldon>><<unset $mirrorMenu>><<unset $bodywritingSet>><<postMirror>><</link>>",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Prison Mirror",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "108_5_3_7|",
+    "original": "<<mirror>>",
+    "translation": "",
+    "pos": 158
+  },
+  {
+    "passage": "Prison Poster",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "114_5_3_7|",
+    "original": "You examine your poster.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Prison Poster",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "116_5_3_7|",
+    "original": "He wears a seductive expression, but there's something in his eyes. Like he's keeping a secret.",
+    "translation": "",
+    "pos": 70
+  },
+  {
+    "passage": "Prison Poster",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "118_5_3_7|",
+    "original": "She wears a seductive expression, but there's something in her eyes. Like she's keeping a secret.",
+    "translation": "",
+    "pos": 203
+  },
+  {
+    "passage": "Prison Poster",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "120_5_3_7|",
+    "original": "The puppy looks spirited and mischievous. Almost like it's hiding something.",
+    "translation": "",
+    "pos": 339
+  },
+  {
+    "passage": "Prison Poster",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "124_5_3_7|",
+    "original": "You remember the crack in the wall. You pull the poster back, and run your finger down the schism. Some of the stone crumbles away.",
+    "translation": "",
+    "pos": 434
+  },
+  {
+    "passage": "Prison Poster",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "126_5_3_7|",
+    "original": "<i>If you had something to dig with, you could do more.</i>",
+    "translation": "",
+    "pos": 575
+  },
+  {
+    "passage": "Prison Poster",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "128_5_3_7|",
+    "original": "<<link [[Next|Prison Cell]]>><</link>>",
+    "translation": "",
+    "pos": 644
+  },
+  {
+    "passage": "Prison Poster 2",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "135_5_3_7|",
+    "original": "Hammer in hand, and careful not to make too much noise, you tap the wall behind the poster. More stone crumbles away. <span class=\"purple\">It would take a very long time,</span> but with the hammer to dig, and poster to conceal your work, you could tunnel to the edge of the island.",
+    "translation": "",
+    "pos": 44
+  },
+  {
+    "passage": "Prison Poster 2",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "138_5_3_7|",
+    "original": "You could only dig during lockdown. Too risky otherwise.",
+    "translation": "",
+    "pos": 337
+  },
+  {
+    "passage": "Prison Poster 2",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "141_5_3_7|",
+    "original": "<<link [[Next|Prison Cell]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 404
+  },
+  {
+    "passage": "Prison Tunnel",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "148_5_3_7|",
+    "original": "You peer down the tunnel. The sky peers back.",
+    "translation": "",
+    "pos": 44
+  },
+  {
+    "passage": "Prison Tunnel",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "151_5_3_7|",
+    "original": "<<ind>><<link [[Crawl to the edge (0:03)|Prison Tunnel Edge]]>><<pass 3>><</link>>",
+    "translation": "",
+    "pos": 102
+  },
+  {
+    "passage": "Prison Tunnel",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "155_5_3_7|",
+    "original": "The tunnel stretches into darkness.",
+    "translation": "",
+    "pos": 232
+  },
+  {
+    "passage": "Prison Tunnel",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "157_5_3_7|",
+    "original": "The tunnel passes through the prison wall, into the natural rock of the island.",
+    "translation": "",
+    "pos": 304
+  },
+  {
+    "passage": "Prison Tunnel",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "159_5_3_7|",
+    "original": "The short tunnel bores through the prison wall.",
+    "translation": "",
+    "pos": 420
+  },
+  {
+    "passage": "Prison Tunnel",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "161_5_3_7|",
+    "original": "The hole in the wall is wide enough to fit your body.",
+    "translation": "",
+    "pos": 504
+  },
+  {
+    "passage": "Prison Tunnel",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "163_5_3_7|",
+    "original": "The wall is cracked.",
+    "translation": "",
+    "pos": 570
+  },
+  {
+    "passage": "Prison Tunnel",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "168_5_3_7|",
+    "original": "<<getouticon \"dig\">><<link [[Dig for 1 hour|Prison Tunnel Dig]]>><<set $prison_dig to 1>><</link>><<gtiredness>>",
+    "translation": "",
+    "pos": 662
+  },
+  {
+    "passage": "Prison Tunnel",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "172_5_3_7|",
+    "original": "<<getouticon \"dig\">><<link [[\"Dig for \" + _i + \" hours\"|Prison Tunnel Dig]]>><<set $prison_dig to _i>><</link>><<gtiredness>>",
+    "translation": "",
+    "pos": 816
+  },
+  {
+    "passage": "Prison Tunnel",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "181_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Prison Cell]]>><</link>>",
+    "translation": "",
+    "pos": 998
+  },
+  {
+    "passage": "Prison Tunnel Dig",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "200_5_3_7|",
+    "original": "You crawl deep into the dark, and continue digging.",
+    "translation": "",
+    "pos": 300
+  },
+  {
+    "passage": "Prison Tunnel Dig",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "202_5_3_7|",
+    "original": "<span class=\"green\">You're struck by a sudden, exhilarating breeze.</span> The smell of salt. You dig away the last of the rock, widening the hole large enough to fit your body.",
+    "translation": "",
+    "pos": 363
+  },
+  {
+    "passage": "Prison Tunnel Dig",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "205_5_3_7|",
+    "original": "You're at the edge of the island, above the sea.",
+    "translation": "",
+    "pos": 586
+  },
+  {
+    "passage": "Prison Tunnel Dig",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "209_5_3_7|",
+    "original": "You crawl deep into the dark, and continue digging.",
+    "translation": "",
+    "pos": 681
+  },
+  {
+    "passage": "Prison Tunnel Dig",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "213_5_3_7|",
+    "original": "Shells melt into the surrounding stone.",
+    "translation": "",
+    "pos": 802
+  },
+  {
+    "passage": "Prison Tunnel Dig",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "215_5_3_7|",
+    "original": "You think you hear a seagull, but you might be imagining it.",
+    "translation": "",
+    "pos": 856
+  },
+  {
+    "passage": "Prison Tunnel Dig",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "217_5_3_7|",
+    "original": "You hear a rumble.",
+    "translation": "",
+    "pos": 931
+  },
+  {
+    "passage": "Prison Tunnel Dig",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "220_5_3_7|",
+    "original": "You crawl into the dark, and continue digging.",
+    "translation": "",
+    "pos": 997
+  },
+  {
+    "passage": "Prison Tunnel Dig",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "224_5_3_7|",
+    "original": "You hear rushing water.",
+    "translation": "",
+    "pos": 1113
+  },
+  {
+    "passage": "Prison Tunnel Dig",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "226_5_3_7|",
+    "original": "The tunnel trembles. Dust falls from the ceiling.",
+    "translation": "",
+    "pos": 1151
+  },
+  {
+    "passage": "Prison Tunnel Dig",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "228_5_3_7|",
+    "original": "You breathe in some dust, and cough.<<gstress>><<stress 6>>",
+    "translation": "",
+    "pos": 1215
+  },
+  {
+    "passage": "Prison Tunnel Dig",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "231_5_3_7|",
+    "original": "You crawl through the hole and continue digging.",
+    "translation": "",
+    "pos": 1322
+  },
+  {
+    "passage": "Prison Tunnel Dig",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "235_5_3_7|",
+    "original": "The soft rock breaks apart with ease.<<lstress>><<stress -6>>",
+    "translation": "",
+    "pos": 1440
+  },
+  {
+    "passage": "Prison Tunnel Dig",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "237_5_3_7|",
+    "original": "You graze your arm against the coarse rock.<<gpain>><<pain 4>>",
+    "translation": "",
+    "pos": 1516
+  },
+  {
+    "passage": "Prison Tunnel Dig",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "239_5_3_7|",
+    "original": "The rock is uniform in consistency.",
+    "translation": "",
+    "pos": 1593
+  },
+  {
+    "passage": "Prison Tunnel Dig",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "242_5_3_7|",
+    "original": "You crawl down the hole and continue digging.",
+    "translation": "",
+    "pos": 1676
+  },
+  {
+    "passage": "Prison Tunnel Dig",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "246_5_3_7|",
+    "original": "You strike something hard. It feels like a pebble. You're able to dig around it, and prise it from the rock.",
+    "translation": "",
+    "pos": 1791
+  },
+  {
+    "passage": "Prison Tunnel Dig",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "248_5_3_7|",
+    "original": "The natural rock crumbles away, almost like sand.",
+    "translation": "",
+    "pos": 1914
+  },
+  {
+    "passage": "Prison Tunnel Dig",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "250_5_3_7|",
+    "original": "The stonework bleeds into natural rock. The latter is softer.",
+    "translation": "",
+    "pos": 1978
+  },
+  {
+    "passage": "Prison Tunnel Dig",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "253_5_3_7|",
+    "original": "You crawl into the hole and continue digging.",
+    "translation": "",
+    "pos": 2087
+  },
+  {
+    "passage": "Prison Tunnel Dig",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "257_5_3_7|",
+    "original": "One of the bricks is already loose, which is nice.<<lstress>><<stress -6>>",
+    "translation": "",
+    "pos": 2202
+  },
+  {
+    "passage": "Prison Tunnel Dig",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "259_5_3_7|",
+    "original": "The stonework is ancient. Some of the bricks have warped together.",
+    "translation": "",
+    "pos": 2291
+  },
+  {
+    "passage": "Prison Tunnel Dig",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "261_5_3_7|",
+    "original": "One of the bricks above falls, landing on your back.<<gpain>><<gstress>><<pain 4>><<stress 6>>",
+    "translation": "",
+    "pos": 2372
+  },
+  {
+    "passage": "Prison Tunnel Dig",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "264_5_3_7|",
+    "original": "You reach into the hole and continue digging.",
+    "translation": "",
+    "pos": 2514
+  },
+  {
+    "passage": "Prison Tunnel Dig",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "268_5_3_7|",
+    "original": "The poster flaps in a sudden breeze. You pause a moment before continuing.",
+    "translation": "",
+    "pos": 2629
+  },
+  {
+    "passage": "Prison Tunnel Dig",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "270_5_3_7|",
+    "original": "It's too dark to see, but you find yourself glancing at the cell door to make sure no one's watching.",
+    "translation": "",
+    "pos": 2718
+  },
+  {
+    "passage": "Prison Tunnel Dig",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "272_5_3_7|",
+    "original": "The next layer of stone is firmer than the last, and darker in colour.",
+    "translation": "",
+    "pos": 2834
+  },
+  {
+    "passage": "Prison Tunnel Dig",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "275_5_3_7|",
+    "original": "You chip away the wall, piece by piece.",
+    "translation": "",
+    "pos": 2928
+  },
+  {
+    "passage": "Prison Tunnel Dig",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "279_5_3_7|",
+    "original": "The crack widens.",
+    "translation": "",
+    "pos": 3037
+  },
+  {
+    "passage": "Prison Tunnel Dig",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "281_5_3_7|",
+    "original": "You hear a cough, and freeze for a moment before continuing.<<gstress>><<stress 6>>",
+    "translation": "",
+    "pos": 3069
+  },
+  {
+    "passage": "Prison Tunnel Dig",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "283_5_3_7|",
+    "original": "It crumbles with little effort.",
+    "translation": "",
+    "pos": 3167
+  },
+  {
+    "passage": "Prison Tunnel Dig",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "290_5_3_7|",
+    "original": "You hear a rattle as the cell doors open behind you.",
+    "translation": "",
+    "pos": 3337
+  },
+  {
+    "passage": "Prison Tunnel Dig",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "292_5_3_7|",
+    "original": "You rush down the tunnel, and cover the entrance with the poster.",
+    "translation": "",
+    "pos": 3422
+  },
+  {
+    "passage": "Prison Tunnel Dig",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "294_5_3_7|",
+    "original": "You cover the entrance with the poster.",
+    "translation": "",
+    "pos": 3500
+  },
+  {
+    "passage": "Prison Tunnel Dig",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "297_5_3_7|",
+    "original": "A <<personsimple \"normal\">>'s voice rings through the hall. \"Roll call.\" You see other prisoners lining up.",
+    "translation": "",
+    "pos": 3551
+  },
+  {
+    "passage": "Prison Tunnel Dig",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "300_5_3_7|",
+    "original": "<<link [[Line up|Prison Cell Role]]>><<handheldon>><<cell_trouble -1>><</link>>",
+    "translation": "",
+    "pos": 3671
+  },
+  {
+    "passage": "Prison Tunnel Dig",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "302_5_3_7|",
+    "original": "<<link [[Refuse|Prison Cell Refuse]]>><<handheldon>><<prison_guards 1>><<prison_inmates 1>><<pain 4>><<cell_trouble 1>><</link>><<gpain>><<gsuspicion>><<grespect>>",
+    "translation": "",
+    "pos": 3758
+  },
+  {
+    "passage": "Prison Tunnel Dig",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "306_5_3_7|",
+    "original": "<<link [[Next|Prison Cell]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 3968
+  },
+  {
+    "passage": "Prison Tunnel Edge",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "315_5_3_7|",
+    "original": "You climb the rocks, and squeeze into your tunnel.",
+    "translation": "",
+    "pos": 33
+  },
+  {
+    "passage": "Prison Tunnel Edge",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "318_5_3_7|",
+    "original": "You crawl to the precipice, and peer off the edge. There's a sandy beach, trailing out of sight. It's not far down, but the waves are violent.",
+    "translation": "",
+    "pos": 115
+  },
+  {
+    "passage": "Prison Tunnel Edge",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "320_5_3_7|",
+    "original": "You can see the surrounding mist in the moonlight.",
+    "translation": "",
+    "pos": 288
+  },
+  {
+    "passage": "Prison Tunnel Edge",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "322_5_3_7|",
+    "original": "You can't see far.",
+    "translation": "",
+    "pos": 351
+  },
+  {
+    "passage": "Prison Tunnel Edge",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "327_5_3_7|",
+    "original": "<<prisonicon \"cell\">><<link [[Crawl to cell|Prison Cell]]>><</link>>",
+    "translation": "",
+    "pos": 397
+  },
+  {
+    "passage": "Prison Tunnel Edge",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "329_5_3_7|",
+    "original": "<<beachicon \"rocks\">><<link [[Climb to beach (0:05)|Prison Beach]]>><<pass 5>><</link>>",
+    "translation": "",
+    "pos": 471
+  },
+  {
+    "passage": "Prison Bed",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "337_5_3_7|",
+    "original": "You lie on your mattress. It's hard to get comfortable<<if ($worn.neck.name is \"free use collar\" or $worn.neck.name is \"free use collar with leash\")>>, especially with the jagged metal around your neck poking into your skin<</if>>.",
+    "translation": "",
+    "pos": 72
+  },
+  {
+    "passage": "Prison Sleep",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "349_5_3_7|",
+    "original": "You dreamt of",
+    "translation": "",
+    "pos": 174
+  },
+  {
+    "passage": "Prison Sleep",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "351_5_3_7|",
+    "original": "You dream you are",
+    "translation": "",
+    "pos": 200
+  },
+  {
+    "passage": "Prison Sleep",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "353_5_3_7|",
+    "original": "being hunted by something <<if [\"haunt\", \"despair\"].includes($wraith.state) and $rng lte 25>>pale<<else>>dark<</if>> and terrible.",
+    "translation": "",
+    "pos": 228
+  },
+  {
+    "passage": "Prison Sleep",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "357_5_3_7|",
+    "original": "You slept soundly, but now feel a little rough.",
+    "translation": "",
+    "pos": 437
+  },
+  {
+    "passage": "Prison Sleep",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "360_5_3_7|",
+    "original": "Your sleep is plagued by dirty dreams.",
+    "translation": "",
+    "pos": 586
+  },
+  {
+    "passage": "Prison Sleep",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "364_5_3_7|",
+    "original": "They push you over the edge.",
+    "translation": "",
+    "pos": 775
+  },
+  {
+    "passage": "Prison Sleep",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "370_5_3_7|",
+    "original": "You sleep soundly.",
+    "translation": "",
+    "pos": 880
+  },
+  {
+    "passage": "Prison Sleep",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "378_5_3_7|",
+    "original": "A bell rings, waking you from your slumber.",
+    "translation": "",
+    "pos": 992
+  },
+  {
+    "passage": "Prison Sleep",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "384_5_3_7|",
+    "original": "<<link [[Next|Prison Cell]]>><<bedclotheson \"prison bed\">><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1143
+  },
+  {
+    "passage": "Prison Sleep",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "393_5_3_7|",
+    "original": "<<link [[Get up|Prison Cell]]>><<bedclotheson \"prison bed\">><</link>>",
+    "translation": "",
+    "pos": 1346
+  },
+  {
+    "passage": "Prison Wardrobe",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "399_5_3_7|",
+    "original": "You open the cupboard.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Prison Plaque",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "416_5_3_7|",
+    "original": "<span class=\"red\">God is watching.</span><br>",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Prison Plaque",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "417_5_3_7|",
+    "original": "Obey the guards<br>",
+    "translation": "",
+    "pos": 59
+  },
+  {
+    "passage": "Prison Plaque",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "418_5_3_7|",
+    "original": "The guards obey the warden<br>",
+    "translation": "",
+    "pos": 79
+  },
+  {
+    "passage": "Prison Plaque",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "419_5_3_7|",
+    "original": "You owe nine hours of work each day<br>",
+    "translation": "",
+    "pos": 110
+  },
+  {
+    "passage": "Prison Plaque",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "423_5_3_7|",
+    "original": "<span class=\"red\">Do not remove your \"free use\" collar</span>",
+    "translation": "",
+    "pos": 212
+  },
+  {
+    "passage": "Prison Plaque",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "427_5_3_7|",
+    "original": "<span class=\"pink\">Wear no clothes</span>",
+    "translation": "",
+    "pos": 340
+  },
+  {
+    "passage": "Prison Plaque",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "430_5_3_7|",
+    "original": "<span class=\"blue\">Wear nothing above the waist</span>",
+    "translation": "",
+    "pos": 447
+  },
+  {
+    "passage": "Prison Plaque",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "433_5_3_7|",
+    "original": "<span class=\"blue\">Wear nothing below the waist</span>",
+    "translation": "",
+    "pos": 570
+  },
+  {
+    "passage": "Prison Plaque",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "437_5_3_7|",
+    "original": "<span class=\"teal\">Underwear only</span>",
+    "translation": "",
+    "pos": 748
+  },
+  {
+    "passage": "Prison Plaque",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "441_5_3_7|",
+    "original": "<span class=\"purple\">Do not remove your blindfold</span>",
+    "translation": "",
+    "pos": 860
+  },
+  {
+    "passage": "Prison Plaque",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "445_5_3_7|",
+    "original": "<span class=\"lblue\">Do not remove your leash</span>",
+    "translation": "",
+    "pos": 984
+  },
+  {
+    "passage": "Prison Plaque",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "449_5_3_7|",
+    "original": "<span class=\"lblue\">Do not remove your shackles</span>",
+    "translation": "",
+    "pos": 1103
+  },
+  {
+    "passage": "Prison Plaque",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "453_5_3_7|",
+    "original": "<span class=\"purple\">Do not remove your gag</span>",
+    "translation": "",
+    "pos": 1223
+  },
+  {
+    "passage": "Prison Plaque",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "457_5_3_7|",
+    "original": "<span class=\"pink\">Do not remove your bindings</span>",
+    "translation": "",
+    "pos": 1344
+  },
+  {
+    "passage": "Prison Plaque",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "462_5_3_7|",
+    "original": "Schedule:",
+    "translation": "",
+    "pos": 1418
+  },
+  {
+    "passage": "Prison Plaque",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "464_5_3_7|",
+    "original": "<<ampm 6 00>>: Shower and breakfast",
+    "translation": "",
+    "pos": 1433
+  },
+  {
+    "passage": "Prison Plaque",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "466_5_3_7|",
+    "original": "<<ampm 7 00>>: Work",
+    "translation": "",
+    "pos": 1474
+  },
+  {
+    "passage": "Prison Plaque",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "468_5_3_7|",
+    "original": "<<ampm 12 00>>: Lunch",
+    "translation": "",
+    "pos": 1499
+  },
+  {
+    "passage": "Prison Plaque",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "470_5_3_7|",
+    "original": "<<ampm 13 00>>: Yard",
+    "translation": "",
+    "pos": 1526
+  },
+  {
+    "passage": "Prison Plaque",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "472_5_3_7|",
+    "original": "<<ampm 14 00>>: Work",
+    "translation": "",
+    "pos": 1552
+  },
+  {
+    "passage": "Prison Plaque",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "474_5_3_7|",
+    "original": "<<ampm 18 00>>: Dinner",
+    "translation": "",
+    "pos": 1578
+  },
+  {
+    "passage": "Prison Plaque",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "476_5_3_7|",
+    "original": "<<ampm 19 00>>: Free Time",
+    "translation": "",
+    "pos": 1606
+  },
+  {
+    "passage": "Prison Plaque",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "478_5_3_7|",
+    "original": "<<ampm 20 00>>: Lights out",
+    "translation": "",
+    "pos": 1637
+  },
+  {
+    "passage": "Prison Plaque",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "481_5_3_7|",
+    "original": "You have <span class=\"red\">$prison.time</span> days left until release.",
+    "translation": "",
+    "pos": 1674
+  },
+  {
+    "passage": "Prison Plaque",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "484_5_3_7|",
+    "original": "<<link [[Step away|Prison Cell]]>><</link>>",
+    "translation": "",
+    "pos": 1756
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "495_5_3_7|",
+    "original": "You stand outside your cell, and wait as <<methodical_guard 0>> reads out each number.",
+    "translation": "",
+    "pos": 133
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "497_5_3_7|",
+    "original": "\"...prisoner 144.\"",
+    "translation": "",
+    "pos": 229
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "500_5_3_7|",
+    "original": "\"Mmmhr!\" you say. The inmates laugh.<<lrespect>><<prison_inmates -1>>",
+    "translation": "",
+    "pos": 293
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "502_5_3_7|",
+    "original": "\"Here,\" you say.",
+    "translation": "",
+    "pos": 373
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "514_5_3_7|",
+    "original": "<<person2>><<He>> opens <<his>> mouth again, but is interrupted by a banging door somewhere below. You see <<veteran_guard 2>> through the walkway beneath your feet, pushing a small figure ahead of <<person3>><<him>>.",
+    "translation": "",
+    "pos": 712
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "516_5_3_7|",
+    "original": "A final shove knocks the newcomer off <<person1>><<his>> feet, and <<he>> falls on <<his>> face. <<He>> scrambles to <<his>> feet, and pulls <<his>> hair away from <<his>> face. <span class=\"gold\">It's Kylar.</span>",
+    "translation": "",
+    "pos": 941
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "519_5_3_7|",
+    "original": "<<link [[Next|Prison Kylar Intro]]>><</link>>",
+    "translation": "",
+    "pos": 1169
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "522_5_3_7|",
+    "original": "\"Where's your collar?\" <<he>> asks. \"Best come with me.\"",
+    "translation": "",
+    "pos": 1380
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "526_5_3_7|",
+    "original": "\"Aren't you supposed to be naked?\" <<he>> asks. \"Come with me.\"",
+    "translation": "",
+    "pos": 1687
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "530_5_3_7|",
+    "original": "\"Where's your blindfold?\" <<he>> asks. \"Best come with me.\"",
+    "translation": "",
+    "pos": 1898
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "534_5_3_7|",
+    "original": "\"You're supposed to be topless,\" <<he>> says. \"Come with me.\"",
+    "translation": "",
+    "pos": 2137
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "538_5_3_7|",
+    "original": "\"You're supposed to be bottomless,\" <<he>> says. \"Come with me.\"",
+    "translation": "",
+    "pos": 2381
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "542_5_3_7|",
+    "original": "\"Where's your leash?\" <<he>> asks. \"Come with me.\"",
+    "translation": "",
+    "pos": 2578
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "546_5_3_7|",
+    "original": "\"That doesn't look like underwear,\" <<he>> says. \"Come with me.\"",
+    "translation": "",
+    "pos": 2804
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "550_5_3_7|",
+    "original": "\"Where are your shackles?\" <<he>> asks. \"Come with me.\"",
+    "translation": "",
+    "pos": 3010
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "554_5_3_7|",
+    "original": "\"Where's your gag?\" <<he>> asks. \"Come with me.\"",
+    "translation": "",
+    "pos": 3201
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "558_5_3_7|",
+    "original": "\"Your arms aren't supposed to be free,\" <<he>> says. \"Come with me.\"",
+    "translation": "",
+    "pos": 3409
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "562_5_3_7|",
+    "original": "There's a pause. <span class=\"green\">\"Your release is due,\"</span> <<he>> says. <<He>> snaps the ledger shut. \"Come with me.\"",
+    "translation": "",
+    "pos": 3552
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "565_5_3_7|",
+    "original": "<<link [[Next|Prison End]]>><<set $prison.hours_worked to 0>><</link>>",
+    "translation": "",
+    "pos": 3690
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "568_5_3_7|",
+    "original": "There's a pause. <span class=\"red\">\"You didn't meet your work quota,\"</span> <<he>> says. <<He>> snaps the ledger shut. \"Come with me.\"",
+    "translation": "",
+    "pos": 3805
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "571_5_3_7|",
+    "original": "<<link [[Go quietly|Prison Punishment]]>><<endevent>><<set $prison.hours_worked to 0>><</link>>",
+    "translation": "",
+    "pos": 3953
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "573_5_3_7|",
+    "original": "<<link [[Refuse|Prison Cell Punishment Refuse]]>><</link>>",
+    "translation": "",
+    "pos": 4056
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "577_5_3_7|",
+    "original": "There's a pause.",
+    "translation": "",
+    "pos": 4240
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "579_5_3_7|",
+    "original": "<span class=\"teal\">\"I think we can remove one of your punishments,\"</span> <<he>> says. <<He>> snaps the ledger shut.",
+    "translation": "",
+    "pos": 4307
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "581_5_3_7|",
+    "original": "<span class=\"teal\">\"I think we can remove your punishment,\"</span> <<he>> says. <<He>> snaps the ledger shut.",
+    "translation": "",
+    "pos": 4437
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "587_5_3_7|",
+    "original": "<<case \"free use\">>",
+    "translation": "",
+    "pos": 4743
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "589_5_3_7|",
+    "original": "<<He>> walks along the walkway, and fishes a key from <<his>> pocket.",
+    "translation": "",
+    "pos": 4823
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "592_5_3_7|",
+    "original": "<<link [[Next|Prison Remove Free Use]]>><</link>>",
+    "translation": "",
+    "pos": 4909
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "594_5_3_7|",
+    "original": "<<case \"nude\">>",
+    "translation": "",
+    "pos": 4969
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "598_5_3_7|",
+    "original": "\"You can wear clothes again. <span class=\"pink\">Underwear only however, and you must remain bottomless, for now.\"</span>",
+    "translation": "",
+    "pos": 5127
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "602_5_3_7|",
+    "original": "\"You can wear clothes again. <span class=\"pink\">Underwear only however, and you must remain topless, for now.\"</span>",
+    "translation": "",
+    "pos": 5337
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "605_5_3_7|",
+    "original": "<<link [[Next|Prison Walkway]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 5482
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "607_5_3_7|",
+    "original": "<<case \"blindfold\">>",
+    "translation": "",
+    "pos": 5546
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "609_5_3_7|",
+    "original": "The walkway moves as steps approach.",
+    "translation": "",
+    "pos": 5628
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "612_5_3_7|",
+    "original": "<<link [[Next|Prison Remove Blindfold]]>><</link>>",
+    "translation": "",
+    "pos": 5681
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "614_5_3_7|",
+    "original": "<<case \"topless\">>",
+    "translation": "",
+    "pos": 5742
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "619_5_3_7|",
+    "original": "\"You can wear a bra or vest, but nothing more. <span class=\"pink\">Remain naked from the waist down.\"</span>",
+    "translation": "",
+    "pos": 5990
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "622_5_3_7|",
+    "original": "\"You can wear a shirt again, <span class=\"pink\">but must remain naked from the waist down.</span>",
+    "translation": "",
+    "pos": 6130
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "627_5_3_7|",
+    "original": "\"You can cover your chest with a bra or vest, <span class=\"pink\">but no shirts or such, for now.\"</span>",
+    "translation": "",
+    "pos": 6331
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "629_5_3_7|",
+    "original": "<span class=\"green\">\"You can clothe yourself properly again.\"</span> This prompts the other inmates to take another gawk at you.",
+    "translation": "",
+    "pos": 6454
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "633_5_3_7|",
+    "original": "<<link [[Next|Prison Walkway]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 6622
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "635_5_3_7|",
+    "original": "<<case \"leash\">>",
+    "translation": "",
+    "pos": 6686
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "637_5_3_7|",
+    "original": "<<He>> pulls a pair of pliers from <<his>> pocket as <<he>> walks towards you.",
+    "translation": "",
+    "pos": 6760
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "639_5_3_7|",
+    "original": "<<link [[Next|Prison Remove Leash]]>><</link>>",
+    "translation": "",
+    "pos": 6854
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "641_5_3_7|",
+    "original": "<<case \"underwear\">>",
+    "translation": "",
+    "pos": 6911
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "646_5_3_7|",
+    "original": "\"You can wear clothes again. <span class=\"pink\">Underwear only however, and you must remain bottomless, for now.\"</span>",
+    "translation": "",
+    "pos": 7132
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "650_5_3_7|",
+    "original": "\"You can wear clothes again. <span class=\"pink\">Underwear only however, and you must remain topless, for now.\"</span>",
+    "translation": "",
+    "pos": 7346
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "656_5_3_7|",
+    "original": "\"You can wear trousers again. <span class=\"pink\">But keep your chest bare, for now.\"</span>",
+    "translation": "",
+    "pos": 7624
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "659_5_3_7|",
+    "original": "\"You can wear a shirt again. <span class=\"pink\">You must remain naked from the waist down however, for now.\"</span>",
+    "translation": "",
+    "pos": 7800
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "662_5_3_7|",
+    "original": "<span class=\"green\">\"You can clothe yourself properly again.\"</span> This prompts the other inmates to take another gawk at you.",
+    "translation": "",
+    "pos": 7948
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "666_5_3_7|",
+    "original": "<<link [[Next|Prison Walkway]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 8117
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "668_5_3_7|",
+    "original": "<<case \"cuffs\">>",
+    "translation": "",
+    "pos": 8181
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "670_5_3_7|",
+    "original": "<<He>> pulls a key from <<his>> pocket as <<he>> walks towards you.",
+    "translation": "",
+    "pos": 8255
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "673_5_3_7|",
+    "original": "<<link [[Next|Prison Remove Cuffs]]>><</link>>",
+    "translation": "",
+    "pos": 8339
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "675_5_3_7|",
+    "original": "<<case \"bottomless\">>",
+    "translation": "",
+    "pos": 8396
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "680_5_3_7|",
+    "original": "\"You can wear underwear again, <span class=\"pink\">but must remain topless.\"</span>",
+    "translation": "",
+    "pos": 8650
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "682_5_3_7|",
+    "original": "\"You can wear trousers again, <span class=\"pink\">but must remain topless.\"</span>",
+    "translation": "",
+    "pos": 8751
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "687_5_3_7|",
+    "original": "\"You can wear underwear again, <span class=\"pink\">but no shirts or such, for now.\"</span>",
+    "translation": "",
+    "pos": 8935
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "689_5_3_7|",
+    "original": "<span class=\"green\">\"You can clothe yourself properly again.\"</span> This prompts the other inmates to take another gawk at you.",
+    "translation": "",
+    "pos": 9043
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "693_5_3_7|",
+    "original": "<<link [[Next|Prison Walkway]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 9211
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "695_5_3_7|",
+    "original": "<<case \"gag\">>",
+    "translation": "",
+    "pos": 9275
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "697_5_3_7|",
+    "original": "<<He>> walks closer. \"My job's easier when you can speak anyway.\"",
+    "translation": "",
+    "pos": 9345
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "700_5_3_7|",
+    "original": "<<link [[Next|Prison Remove Gag]]>><</link>>",
+    "translation": "",
+    "pos": 9427
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "704_5_3_7|",
+    "original": "The walkway moves underfoot as <<he>> walks towards you. \"You're more useful with your arms free.\"",
+    "translation": "",
+    "pos": 9554
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "707_5_3_7|",
+    "original": "<<link [[Next|Prison Remove Bindings]]>><</link>>",
+    "translation": "",
+    "pos": 9669
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "711_5_3_7|",
+    "original": "<<methodical_guard 0 cap>> snaps the ledger shut, and a tall gate opens at the far end of the hall. The prisoners shuffle towards it.",
+    "translation": "",
+    "pos": 9750
+  },
+  {
+    "passage": "Prison Cell Role",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "714_5_3_7|",
+    "original": "<<link [[Next|Prison Walkway]]>><<endevent>><<set $prison.hours_worked to 0>><</link>>",
+    "translation": "",
+    "pos": 9896
+  },
+  {
+    "passage": "Prison Cell Refuse",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "723_5_3_7|",
+    "original": "<<methodical_guard 0 cap>> sighs, and reaches into <<his>> shirt pocket. <span class=\"red\">A terrible jolt runs through you,</span> emanating from your neck. It only lasts a moment, but it's enough to make you fall to the ground, and twitch.<<gtrauma>><<ggstress>><<gggpain>><<trauma 4>><<stress 4>><<pain 4>>",
+    "translation": "",
+    "pos": 58
+  },
+  {
+    "passage": "Prison Cell Refuse",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "726_5_3_7|",
+    "original": "You're too hurt to resist as <<methodical_guard 0>> cuffs you, and drags you from your cell. The other inmates tease you as you pass, but it doesn't sound malicious.<<grespect>><<prison_inmates 1>>",
+    "translation": "",
+    "pos": 380
+  },
+  {
+    "passage": "Prison Cell Refuse",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "729_5_3_7|",
+    "original": "<<link [[Next|Prison Punishment]]>><<endevent>><<set $prison.hours_worked to 0>><</link>>",
+    "translation": "",
+    "pos": 599
+  },
+  {
+    "passage": "Prison Cell Refuse",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "733_5_3_7|",
+    "original": "The walkway rattles beneath <<methodical_guard 0 apo>> feet. <<Hes>> not alone. \"Must we make an example of you?\" <<he>> says. \"Because we will.\"",
+    "translation": "",
+    "pos": 822
+  },
+  {
+    "passage": "Prison Cell Refuse",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "736_5_3_7|",
+    "original": "<<He>> arrives at your cell, with <<veteran_guard 1>>, <<anxious_guard 2>>, and <<relaxed_guard 3>> close behind. They unstrap their batons.",
+    "translation": "",
+    "pos": 982
+  },
+  {
+    "passage": "Prison Cell Refuse",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "739_5_3_7|",
+    "original": "<<link [[Next|Prison Cell Fight]]>><<set $fightstart to 1>><</link>>",
+    "translation": "",
+    "pos": 1137
+  },
+  {
+    "passage": "Prison Cell Refuse",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "743_5_3_7|",
+    "original": "The walkway rattles beneath <<methodical_guard 0 apo>> feet. <<Hes>> not alone. \"Must we make an example of you?\" <<he>> says. \"Because we will.\"",
+    "translation": "",
+    "pos": 1313
+  },
+  {
+    "passage": "Prison Cell Refuse",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "746_5_3_7|",
+    "original": "<<He>> arrives at your cell, with <<veteran_guard 1>> and <<anxious_guard 2>> close behind. They unstrap their batons.",
+    "translation": "",
+    "pos": 1473
+  },
+  {
+    "passage": "Prison Cell Refuse",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "749_5_3_7|",
+    "original": "<<link [[Next|Prison Cell Fight]]>><<set $fightstart to 1>><</link>>",
+    "translation": "",
+    "pos": 1606
+  },
+  {
+    "passage": "Prison Cell Refuse",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "753_5_3_7|",
+    "original": "The walkway rattles beneath <<methodical_guard 0 apo>> feet. <<Hes>> not alone. \"Must we make an example of you?\" <<he>> says. \"Because we will.\"",
+    "translation": "",
+    "pos": 1754
+  },
+  {
+    "passage": "Prison Cell Refuse",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "756_5_3_7|",
+    "original": "<<He>> arrives at your cell, with <<veteran_guard 1>> close behind. They unstrap their batons.",
+    "translation": "",
+    "pos": 1914
+  },
+  {
+    "passage": "Prison Cell Refuse",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "759_5_3_7|",
+    "original": "<<link [[Next|Prison Cell Fight]]>><<set $fightstart to 1>><</link>>",
+    "translation": "",
+    "pos": 2023
+  },
+  {
+    "passage": "Prison Cell Refuse",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "762_5_3_7|",
+    "original": "The walkway rattles beneath <<methodical_guard 0 apo>> feet. \"You'd better be sick in there,\" <<he>> says. \"Or you'll be sorry.\"",
+    "translation": "",
+    "pos": 2140
+  },
+  {
+    "passage": "Prison Cell Refuse",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "765_5_3_7|",
+    "original": "<<He>> finds you lazing on your bed, and unstraps the baton from <<his>> side.",
+    "translation": "",
+    "pos": 2283
+  },
+  {
+    "passage": "Prison Cell Refuse",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "768_5_3_7|",
+    "original": "<<link [[Next|Prison Cell Fight]]>><<set $fightstart to 1>><</link>>",
+    "translation": "",
+    "pos": 2376
+  },
+  {
+    "passage": "Prison Cell Refuse",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "771_5_3_7|",
+    "original": "You remain in your cell. \"Number 144,\" <<methodical_guard 0>> says. \"Leave your cell at once.\"",
+    "translation": "",
+    "pos": 2464
+  },
+  {
+    "passage": "Prison Cell Refuse",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "773_5_3_7|",
+    "original": "<<link [[Leave your cell|Prison Cell Role]]>><</link>>",
+    "translation": "",
+    "pos": 2572
+  },
+  {
+    "passage": "Prison Cell Refuse",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "775_5_3_7|",
+    "original": "<<link [[Refuse|Prison Cell Refuse]]>><<cell_trouble 1>><<prison_guards 1>><<prison_inmates 1>><</link>><<gsuspicion>><<grespect>>",
+    "translation": "",
+    "pos": 2636
+  },
+  {
+    "passage": "Prison Cell Punishment Refuse",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "784_5_3_7|",
+    "original": "<<methodical_guard 0 cap>> sighs, and reaches into <<his>> shirt pocket. <span class=\"red\">A terrible jolt runs through you,</span> emanating from your neck. It only lasts a moment, but it's enough to make you fall to the ground, and twitch.<<gtrauma>><<ggstress>><<gggpain>><<trauma 4>><<stress 4>><<pain 4>>",
+    "translation": "",
+    "pos": 58
+  },
+  {
+    "passage": "Prison Cell Punishment Refuse",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "787_5_3_7|",
+    "original": "You're too hurt to resist as <<methodical_guard 0>> cuffs you, and drags you from your cell. The other inmates tease you as you pass, but it doesn't sound malicious.<<grespect>><<prison_inmates 1>>",
+    "translation": "",
+    "pos": 380
+  },
+  {
+    "passage": "Prison Cell Punishment Refuse",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "790_5_3_7|",
+    "original": "<<link [[Next|Prison Punishment]]>><<endevent>><<set $prison.hours_worked to 0>><</link>>",
+    "translation": "",
+    "pos": 599
+  },
+  {
+    "passage": "Prison Cell Punishment Refuse",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "794_5_3_7|",
+    "original": "The walkway rattles beneath <<methodical_guard 0 apo>> feet. <<Hes>> not alone. \"Must we make an example of you?\" <<he>> says. \"Because we will.\"",
+    "translation": "",
+    "pos": 822
+  },
+  {
+    "passage": "Prison Cell Punishment Refuse",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "797_5_3_7|",
+    "original": "<<He>> arrives at your cell, with <<veteran_guard 1>>, <<anxious_guard 2>>, and <<relaxed_guard 3>> close behind. They unstrap their batons.",
+    "translation": "",
+    "pos": 982
+  },
+  {
+    "passage": "Prison Cell Punishment Refuse",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "800_5_3_7|",
+    "original": "<<link [[Next|Prison Cell Fight]]>><<set $fightstart to 1>><</link>>",
+    "translation": "",
+    "pos": 1137
+  },
+  {
+    "passage": "Prison Cell Punishment Refuse",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "804_5_3_7|",
+    "original": "The walkway rattles beneath <<methodical_guard 0 apo>> feet. <<Hes>> not alone. \"Must we make an example of you?\" <<he>> says. \"Because we will.\"",
+    "translation": "",
+    "pos": 1313
+  },
+  {
+    "passage": "Prison Cell Punishment Refuse",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "807_5_3_7|",
+    "original": "<<He>> arrives at your cell, with <<veteran_guard 1>> and <<anxious_guard 2>> close behind. They unstrap their batons.",
+    "translation": "",
+    "pos": 1473
+  },
+  {
+    "passage": "Prison Cell Punishment Refuse",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "810_5_3_7|",
+    "original": "<<link [[Next|Prison Cell Fight]]>><<set $fightstart to 1>><</link>>",
+    "translation": "",
+    "pos": 1606
+  },
+  {
+    "passage": "Prison Cell Punishment Refuse",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "814_5_3_7|",
+    "original": "The walkway rattles beneath <<methodical_guard 0 apo>> feet. <<Hes>> not alone. \"Must we make an example of you?\" <<he>> says. \"Because we will.\"",
+    "translation": "",
+    "pos": 1754
+  },
+  {
+    "passage": "Prison Cell Punishment Refuse",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "817_5_3_7|",
+    "original": "<<He>> arrives at your cell, with <<veteran_guard 1>> close behind. They unstrap their batons.",
+    "translation": "",
+    "pos": 1914
+  },
+  {
+    "passage": "Prison Cell Punishment Refuse",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "820_5_3_7|",
+    "original": "<<link [[Next|Prison Cell Fight]]>><<set $fightstart to 1>><</link>>",
+    "translation": "",
+    "pos": 2023
+  },
+  {
+    "passage": "Prison Cell Punishment Refuse",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "823_5_3_7|",
+    "original": "The walkway rattles beneath <<methodical_guard 0 apo>> feet. \"You're holding up the whole system.\" <<He>> unstraps the baton from <<his>> side before <<he>> arrives at the cell.",
+    "translation": "",
+    "pos": 2111
+  },
+  {
+    "passage": "Prison Cell Punishment Refuse",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "826_5_3_7|",
+    "original": "<<link [[Next|Prison Cell Fight]]>><<set $fightstart to 1>><</link>>",
+    "translation": "",
+    "pos": 2303
+  },
+  {
+    "passage": "Prison Cell Fight",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "849_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Prison Cell Fight Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 299
+  },
+  {
+    "passage": "Prison Cell Fight",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "851_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Prison Cell Fight]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 396
+  },
+  {
+    "passage": "Prison Cell Fight Finish",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "860_5_3_7|",
+    "original": "The inmates cheer as the guards stagger from your cell. <<veteran_guard 1>> eyes you cautiously, but <<methodical_guard 0>> shakes <<person1>><<his>> head. \"No time for this,\" <<he>> says, groping for <<his>> glasses. \"We'll be watching you.\"<<ggsuspicion>><<prison_guards -3>><<ggrespect>><<prison_inmates 3>>",
+    "translation": "",
+    "pos": 108
+  },
+  {
+    "passage": "Prison Cell Fight Finish",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "862_5_3_7|",
+    "original": "The inmates cheer as <<methodical_guard 0>> staggers from your cell, and would fall from the walkway if not for the railing. \"No time for this,\" <<he>> says, groping for <<his>> glasses. \"I'll be watching you.\"<<ggsuspicion>><<prison_guards -3>><<ggrespect>><<prison_inmates 3>>",
+    "translation": "",
+    "pos": 431
+  },
+  {
+    "passage": "Prison Cell Fight Finish",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "872_5_3_7|",
+    "original": "The inmates cheer as the guards stagger from your cell. <<veteran_guard 1>> eyes you cautiously, but <<methodical_guard 0>> shakes <<person1>><<his>> head. \"No time for this,\" <<he>> says, groping for <<his>> glasses. \"We'll be watching you.\"<<ggsuspicion>><<prison_guards -3>><<ggrespect>><<prison_inmates 3>>",
+    "translation": "",
+    "pos": 846
+  },
+  {
+    "passage": "Prison Cell Fight Finish",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "874_5_3_7|",
+    "original": "The inmates cheer as <<methodical_guard 0>> staggers from your cell, and would fall from the walkway if not for the railing. \"No time for this,\" <<he>> says, groping for <<his>> glasses. \"I'll be watching you.\"<<ggsuspicion>><<prison_guards -3>><<ggrespect>><<prison_inmates 3>>",
+    "translation": "",
+    "pos": 1169
+  },
+  {
+    "passage": "Prison Cell Fight Finish",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "891_5_3_7|",
+    "original": "You're too hurt to resist as <<methodical_guard 0>> cuffs you, and drags you from your cell. The other inmates tease you as you pass, but it doesn't sound malicious.<<grespect>><<prison_inmates 1>>",
+    "translation": "",
+    "pos": 1738
+  },
+  {
+    "passage": "Prison Cell Fight Finish",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "896_5_3_7|",
+    "original": "<<link [[Next|Prison Punishment]]>><</link>>",
+    "translation": "",
+    "pos": 1987
+  },
+  {
+    "passage": "Prison Shower",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "905_5_3_7|",
+    "original": "You are in the prison showers.",
+    "translation": "",
+    "pos": 55
+  },
+  {
+    "passage": "Prison Shower",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "909_5_3_7|",
+    "original": "Prisoners undress, leaving their clothes on wood benches, before entering the shower. You hear running water.",
+    "translation": "",
+    "pos": 227
+  },
+  {
+    "passage": "Prison Shower",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "911_5_3_7|",
+    "original": "Kylar stands in the corner, watching you.",
+    "translation": "",
+    "pos": 373
+  },
+  {
+    "passage": "Prison Shower",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "914_5_3_7|",
+    "original": "<<generate_veteran_guard 0>><<person1>><<veteran_guard 0 cap>> paces through the room.",
+    "translation": "",
+    "pos": 435
+  },
+  {
+    "passage": "Prison Shower",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "923_5_3_7|",
+    "original": "<<bathroomicon \"shower\">><<link [[Have a shower (0:10)|Prison Shower Take]]>><<pass 10>><</link>>",
+    "translation": "",
+    "pos": 772
+  },
+  {
+    "passage": "Prison Shower",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "925_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Prison Block]]>><</link>>",
+    "translation": "",
+    "pos": 879
+  },
+  {
+    "passage": "Prison Shower",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "929_5_3_7|",
+    "original": "<<skinicon \"strip\">><<link [[Undress in the open (0:10)|Prison Shower Open]]>><</link>>",
+    "translation": "",
+    "pos": 994
+  },
+  {
+    "passage": "Prison Shower",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "932_5_3_7|",
+    "original": "<span class=\"blue\">You can't bear to undress in front of everyone.</span>",
+    "translation": "",
+    "pos": 1104
+  },
+  {
+    "passage": "Prison Shower",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "935_5_3_7|",
+    "original": "<<skinicon \"strip\">><<link [[Find somewhere private to undress (0:10)|Prison Shower Private]]>><</link>>",
+    "translation": "",
+    "pos": 1198
+  },
+  {
+    "passage": "Prison Shower",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "937_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Prison Block]]>><</link>>",
+    "translation": "",
+    "pos": 1312
+  },
+  {
+    "passage": "Prison Shower",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "941_5_3_7|",
+    "original": "There's no one around. The guards only leave the plumbing on for an hour.",
+    "translation": "",
+    "pos": 1393
+  },
+  {
+    "passage": "Prison Shower",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "944_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Prison Block]]>><</link>>",
+    "translation": "",
+    "pos": 1479
+  },
+  {
+    "passage": "Prison Walkway",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "954_5_3_7|",
+    "original": "You are on the metal walkway outside your cell, at the top of the cell block. There's a staircase leading to the floor.",
+    "translation": "",
+    "pos": 77
+  },
+  {
+    "passage": "Prison Walkway",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "957_5_3_7|",
+    "original": "You hear a bell ring. \"Lockdown,\" <<generate_veteran_guard 0>><<veteran_guard 0>> shouts. \"Back to your cells.\"",
+    "translation": "",
+    "pos": 230
+  },
+  {
+    "passage": "Prison Walkway",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "959_5_3_7|",
+    "original": "You're shuffled along with the other prisoners.",
+    "translation": "",
+    "pos": 353
+  },
+  {
+    "passage": "Prison Walkway",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "961_5_3_7|",
+    "original": "<<link [[Next|Prison Cell]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 412
+  },
+  {
+    "passage": "Prison Walkway",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "967_5_3_7|",
+    "original": "Other prisoners shuffle towards the showers.",
+    "translation": "",
+    "pos": 569
+  },
+  {
+    "passage": "Prison Walkway",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "970_5_3_7|",
+    "original": "Many prisoners lounge on their beds.",
+    "translation": "",
+    "pos": 671
+  },
+  {
+    "passage": "Prison Walkway",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "973_5_3_7|",
+    "original": "You hear snoring.",
+    "translation": "",
+    "pos": 764
+  },
+  {
+    "passage": "Prison Walkway",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "988_5_3_7|",
+    "original": "Your cell is in the corner.",
+    "translation": "",
+    "pos": 1099
+  },
+  {
+    "passage": "Prison Walkway",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "991_5_3_7|",
+    "original": "<<prisonicon \"cell\">><<link [[Your cell|Prison Cell]]>><</link>>",
+    "translation": "",
+    "pos": 1139
+  },
+  {
+    "passage": "Prison Walkway",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "998_5_3_7|",
+    "original": "<<scarred_inmate 0 capo>> cell is more spartan than most. Almost as if it were unoccupied.",
+    "translation": "",
+    "pos": 1440
+  },
+  {
+    "passage": "Prison Walkway",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1001_5_3_7|",
+    "original": "<<prisonicon \"cell\">><<link [[Spartan cell|Prison Scarred]]>><</link>>",
+    "translation": "",
+    "pos": 1567
+  },
+  {
+    "passage": "Prison Walkway",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1014_5_3_7|",
+    "original": "A heavy wood door sits across from the tower. A faded green cross embellishes it, painted over a silver crucifix.",
+    "translation": "",
+    "pos": 1996
+  },
+  {
+    "passage": "Prison Walkway",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1017_5_3_7|",
+    "original": "<span class=\"blue\">The door to medical is locked.</span>",
+    "translation": "",
+    "pos": 2163
+  },
+  {
+    "passage": "Prison Walkway",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1020_5_3_7|",
+    "original": "<<prisonicon \"medical\">><<link [[Medical|Prison Medical]]>><</link>>",
+    "translation": "",
+    "pos": 2249
+  },
+  {
+    "passage": "Prison Walkway",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1023_5_3_7|",
+    "original": "The stairs snake around the central tower.",
+    "translation": "",
+    "pos": 2345
+  },
+  {
+    "passage": "Prison Walkway",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1025_5_3_7|",
+    "original": "<<stairsicon \"down\" \"prison\">><<link [[Downstairs|Prison Block]]>><</link>>",
+    "translation": "",
+    "pos": 2399
+  },
+  {
+    "passage": "Prison Block",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1038_5_3_7|",
+    "original": "You are at the bottom of the cell block. There are stairs leading to a walkway above, and halls leading to other parts of the prison.",
+    "translation": "",
+    "pos": 80
+  },
+  {
+    "passage": "Prison Block",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1042_5_3_7|",
+    "original": "You hear a bell ring. \"Lockdown,\" <<generate_veteran_guard 0>><<veteran_guard 0>> shouts. \"Back to your cells.\"",
+    "translation": "",
+    "pos": 248
+  },
+  {
+    "passage": "Prison Block",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1044_5_3_7|",
+    "original": "You're shuffled along with the other prisoners.",
+    "translation": "",
+    "pos": 371
+  },
+  {
+    "passage": "Prison Block",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1046_5_3_7|",
+    "original": "<<link [[Next|Prison Cell]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 430
+  },
+  {
+    "passage": "Prison Block",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1052_5_3_7|",
+    "original": "Other prisoners shuffle towards the showers.",
+    "translation": "",
+    "pos": 587
+  },
+  {
+    "passage": "Prison Block",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1055_5_3_7|",
+    "original": "Many prisoners lounge on their beds.",
+    "translation": "",
+    "pos": 689
+  },
+  {
+    "passage": "Prison Block",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1058_5_3_7|",
+    "original": "You hear snoring.",
+    "translation": "",
+    "pos": 782
+  },
+  {
+    "passage": "Prison Block",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1073_5_3_7|",
+    "original": "There's a set of double doors on one end of the block, crowned by a couple of signs. \"Showers\" says one. \"Sex is forbidden\" warns another.",
+    "translation": "",
+    "pos": 1117
+  },
+  {
+    "passage": "Prison Block",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1075_5_3_7|",
+    "original": "<span class=\"lblue\">Steam flows out.</span>",
+    "translation": "",
+    "pos": 1297
+  },
+  {
+    "passage": "Prison Block",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1078_5_3_7|",
+    "original": "<<bathroomicon \"shower\">><<link [[Showers|Prison Shower]]>><</link>>",
+    "translation": "",
+    "pos": 1363
+  },
+  {
+    "passage": "Prison Block",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1080_5_3_7|",
+    "original": "A faint chemical smell surrounds another door. The closest cells are vacant, the metal warped and corroded.",
+    "translation": "",
+    "pos": 1447
+  },
+  {
+    "passage": "Prison Block",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1082_5_3_7|",
+    "original": "<<prisonicon \"laundry\">><<link [[Laundry|Prison Laundry]]>><</link>>",
+    "translation": "",
+    "pos": 1566
+  },
+  {
+    "passage": "Prison Block",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1087_5_3_7|",
+    "original": "Kylar sits on the bed in <<his>> cell, fussing over something in <<his>> lap.",
+    "translation": "",
+    "pos": 1809
+  },
+  {
+    "passage": "Prison Block",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1090_5_3_7|",
+    "original": "<<prisonicon \"cell\">><<link [[Kylar's cell|Prison Kylar]]>><</link>>",
+    "translation": "",
+    "pos": 1917
+  },
+  {
+    "passage": "Prison Block",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1094_5_3_7|",
+    "original": "A corridor leads away, towards daylight.",
+    "translation": "",
+    "pos": 2014
+  },
+  {
+    "passage": "Prison Block",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1096_5_3_7|",
+    "original": "<<getouticon>><<link [[Outside|Prison Yard]]>><</link>>",
+    "translation": "",
+    "pos": 2066
+  },
+  {
+    "passage": "Prison Block",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1098_5_3_7|",
+    "original": "The stairs circle a central tower. You entered here.",
+    "translation": "",
+    "pos": 2137
+  },
+  {
+    "passage": "Prison Block",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1100_5_3_7|",
+    "original": "<<stairsicon \"up\" \"prison\">><<link [[Climb the stairs towards your cell|Prison Walkway]]>><</link>>",
+    "translation": "",
+    "pos": 2201
+  },
+  {
+    "passage": "Prison Laundry",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1112_5_3_7|",
+    "original": "You are in the laundry room. The walls give way to raw rock part way in. Thick pipes extend from the rough surface in an irregular pattern.",
+    "translation": "",
+    "pos": 77
+  },
+  {
+    "passage": "Prison Laundry",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1114_5_3_7|",
+    "original": "Inmates sort through clothes, and large machines rumble.",
+    "translation": "",
+    "pos": 252
+  },
+  {
+    "passage": "Prison Laundry",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1116_5_3_7|",
+    "original": "<<generate_relaxed_guard 0>><<relaxed_guard 0 cap>> sits on a stool beside a short table, staring across the room and absentmindedly rolling a pair of dice.",
+    "translation": "",
+    "pos": 320
+  },
+  {
+    "passage": "Prison Laundry",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1120_5_3_7|",
+    "original": "The machines are still.",
+    "translation": "",
+    "pos": 511
+  },
+  {
+    "passage": "Prison Laundry",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1128_5_3_7|",
+    "original": "You hear a bell ring. \"Lockdown,\" <<generate_relaxed_guard 0>><<relaxed_guard 0>> shouts. \"Back to your cells.\"",
+    "translation": "",
+    "pos": 648
+  },
+  {
+    "passage": "Prison Laundry",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1130_5_3_7|",
+    "original": "You're shuffled along with the other prisoners.",
+    "translation": "",
+    "pos": 771
+  },
+  {
+    "passage": "Prison Laundry",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1132_5_3_7|",
+    "original": "<<link [[Next|Prison Cell]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 830
+  },
+  {
+    "passage": "Prison Laundry",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1142_5_3_7|",
+    "original": "<<prisonicon \"laundry_work\">><<link [[Work|Prison Laundry Work]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1231
+  },
+  {
+    "passage": "Prison Laundry",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1145_5_3_7|",
+    "original": "<span class=\"blue\">Your labours are expected elsewhere.</span>",
+    "translation": "",
+    "pos": 1344
+  },
+  {
+    "passage": "Prison Laundry",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1149_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Prison Block]]>><</link>>",
+    "translation": "",
+    "pos": 1439
+  },
+  {
+    "passage": "Prison Medical",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1160_5_3_7|",
+    "original": "You are in the medical room. Rows of beds stretch down its length, many occupied. There's a cupboard, locked by a modern mechanism at odds with the surroundings.",
+    "translation": "",
+    "pos": 77
+  },
+  {
+    "passage": "Prison Medical",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1164_5_3_7|",
+    "original": "<<generate_methodical_guard 0>><<person1>> <<methodical_guard 0 cap>> stands over one, writing on a clipboard.",
+    "translation": "",
+    "pos": 284
+  },
+  {
+    "passage": "Prison Medical",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1171_5_3_7|",
+    "original": "You hear a bell ring. \"Lockdown,\" <<generate_methodical_guard 0>><<methodical_guard 0>> says. \"Go back to your cell.\"",
+    "translation": "",
+    "pos": 461
+  },
+  {
+    "passage": "Prison Medical",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1173_5_3_7|",
+    "original": "<<methodical_guard 0 cap>> leaves as well, and locks the door behind <<him>>.",
+    "translation": "",
+    "pos": 590
+  },
+  {
+    "passage": "Prison Medical",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1175_5_3_7|",
+    "original": "<<link [[Next|Prison Cell]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 679
+  },
+  {
+    "passage": "Prison Medical",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1183_5_3_7|",
+    "original": "<<prisonicon \"medical_work\">><<link [[Work|Prison Medical Work]]>><</link>>",
+    "translation": "",
+    "pos": 946
+  },
+  {
+    "passage": "Prison Medical",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1186_5_3_7|",
+    "original": "<span class=\"blue\">Your labours are expected elsewhere.</span>",
+    "translation": "",
+    "pos": 1047
+  },
+  {
+    "passage": "Prison Medical",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1192_5_3_7|",
+    "original": "There's a black and yellow door in one corner.",
+    "translation": "",
+    "pos": 1179
+  },
+  {
+    "passage": "Prison Medical",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1194_5_3_7|",
+    "original": "<<prisonicon \"medical_door\">><<link [[Approach|Prison Medical Door]]>><</link>>",
+    "translation": "",
+    "pos": 1237
+  },
+  {
+    "passage": "Prison Medical",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1197_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Prison Walkway]]>><</link>>",
+    "translation": "",
+    "pos": 1341
+  },
+  {
+    "passage": "Prison Medical Door",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1206_5_3_7|",
+    "original": "You approach the black and yellow door. There's no visible lock, but there is a keypad next to it.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Prison Medical Door",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1209_5_3_7|",
+    "original": "Wren claims the code <<nnpc_he Wren>> sold you will work.",
+    "translation": "",
+    "pos": 139
+  },
+  {
+    "passage": "Prison Medical Door",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1212_5_3_7|",
+    "original": "You'll need to wait for <<methodical_guard 0>> to leave before trying.",
+    "translation": "",
+    "pos": 279
+  },
+  {
+    "passage": "Prison Medical Door",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1216_5_3_7|",
+    "original": "<<prisonicon \"medical_door\">><<link [[Enter|Prison Medical Shock]]>><</link>>",
+    "translation": "",
+    "pos": 384
+  },
+  {
+    "passage": "Prison Medical Door",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1220_5_3_7|",
+    "original": "You'll need to find the code.",
+    "translation": "",
+    "pos": 488
+  },
+  {
+    "passage": "Prison Medical Door",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1224_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Prison Medical]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 537
+  },
+  {
+    "passage": "Prison Medical Shock",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1230_5_3_7|",
+    "original": "You input the code, a green light flickers on above the door, and it slides open.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Prison Medical Shock",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1233_5_3_7|",
+    "original": "The interior is dark, even compared to the rest of the prison. There's a rack of hammers, screwdrivers, and other tools near the entrance. As your eyes adjust, you see a machine the size of a small bus, also black and yellow. An array of metal coils spring from the top. There's a plaque. You get a static shock when you wipe away the grime.",
+    "translation": "",
+    "pos": 105
+  },
+  {
+    "passage": "Prison Medical Shock",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1236_5_3_7|",
+    "original": "\"Experimental shock generator. Requires specialised collars to function.\"",
+    "translation": "",
+    "pos": 457
+  },
+  {
+    "passage": "Prison Medical Shock",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1239_5_3_7|",
+    "original": "This machine doesn't look or sound stable. You could probably inflict irreparable damage with one of the tools lying around, but you wouldn't get away with it.",
+    "translation": "",
+    "pos": 541
+  },
+  {
+    "passage": "Prison Medical Shock",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1242_5_3_7|",
+    "original": "<<edenicon \"fix\">><<link [[Sabotage|Prison Medical Sabotage]]>><<prison_hope 20>><<prison_reb 20>><<set $prison.shock to 0>><<prison_guards -20>><<prison_inmates 20>><</link>><<gggsuspicion>><<gggreb>><<ggghope>><<gggrespect>>",
+    "translation": "",
+    "pos": 711
+  },
+  {
+    "passage": "Prison Medical Shock",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1244_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Prison Medical]]>><</link>>",
+    "translation": "",
+    "pos": 943
+  },
+  {
+    "passage": "Prison Medical Sabotage",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1251_5_3_7|",
+    "original": "You lift the largest hammer, one with a wooden handle, and get to work. You smash pipes, shatter glass, and dent plates.",
+    "translation": "",
+    "pos": 67
+  },
+  {
+    "passage": "Prison Medical Sabotage",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1254_5_3_7|",
+    "original": "With your strength, you're able to inflict considerable damage before the guards arrive.<<ggrespect>><<prison_inmates 10>>",
+    "translation": "",
+    "pos": 237
+  },
+  {
+    "passage": "Prison Medical Sabotage",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1256_5_3_7|",
+    "original": "Even with your limited strength, you're able to inflict a lot of damage before the guards arrive.",
+    "translation": "",
+    "pos": 370
+  },
+  {
+    "passage": "Prison Medical Sabotage",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1263_5_3_7|",
+    "original": "<<methodical_guard 0 cap>><<person1>> arrives with <<veteran_guard 1>> in tow. \"What have you done?\" <<he>> asks, reaching into <<his>> shirt pocket. <<He>> pulls out a remote, points at you, and presses the button. <span class=\"green\">Nothing happens.</span> <<He>> tries again and again, to no avail.",
+    "translation": "",
+    "pos": 548
+  },
+  {
+    "passage": "Prison Medical Sabotage",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1266_5_3_7|",
+    "original": "\"Back to basics,\" <<veteran_guard 1>><<person2>> says, stepping forward with <<his>> baton at the ready. \"Good. Best come quietly.\"",
+    "translation": "",
+    "pos": 861
+  },
+  {
+    "passage": "Prison Medical Sabotage",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1269_5_3_7|",
+    "original": "<<link [[Go quietly|Prison Punishment]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1003
+  },
+  {
+    "passage": "Prison Medical Sabotage",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1271_5_3_7|",
+    "original": "<<link [[Fight|Prison Medical Fight]]>><<handheldon>><<set $fightstart to 1>><</link>>",
+    "translation": "",
+    "pos": 1071
+  },
+  {
+    "passage": "Prison Medical Fight",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1283_5_3_7|",
+    "original": "Inmates crowd around the door to watch, some wearing bandages.",
+    "translation": "",
+    "pos": 156
+  },
+  {
+    "passage": "Prison Medical Fight",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1295_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Prison Medical Fight Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 373
+  },
+  {
+    "passage": "Prison Medical Fight",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1297_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Prison Medical Fight]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 473
+  },
+  {
+    "passage": "Prison Medical Fight Finish",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1304_5_3_7|",
+    "original": "They stagger and fall against the broken machine, drained of energy. The inmates taunt them, until <<veteran_guard 1>> turns and raises <<his>> baton.<<ggsuspicion>><<prison_guards -3>><<ggrespect>><<prison_inmates 3>>",
+    "translation": "",
+    "pos": 80
+  },
+  {
+    "passage": "Prison Medical Fight Finish",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1306_5_3_7|",
+    "original": "\"Enough of this,\" <<methodical_guard 0>> says. \"I need to make some calls.\"",
+    "translation": "",
+    "pos": 310
+  },
+  {
+    "passage": "Prison Medical Fight Finish",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1313_5_3_7|",
+    "original": "They back away from you, towards the door. The inmates taunt them, until <<veteran_guard 1>> turns and raises <<his>> baton. <<ggsuspicion>><<prison_guards -3>><<ggrespect>><<prison_inmates 3>><<greb>><<prison_reb 1>>",
+    "translation": "",
+    "pos": 485
+  },
+  {
+    "passage": "Prison Medical Fight Finish",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1315_5_3_7|",
+    "original": "\"Enough of this,\" <<methodical_guard 0>> says. \"I need to make some calls.\"",
+    "translation": "",
+    "pos": 714
+  },
+  {
+    "passage": "Prison Medical Fight Finish",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1321_5_3_7|",
+    "original": "You fall to the ground, too hurt to continue. <<He>> cuffs you, and pulls to you to your feet. The other inmates tease you as you pass, but it doesn't sound malicious.<<grespect>><<prison_inmates 1>>",
+    "translation": "",
+    "pos": 867
+  },
+  {
+    "passage": "Prison Medical Fight Finish",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1327_5_3_7|",
+    "original": "<<link [[Next|Prison Punishment]]>><</link>>",
+    "translation": "",
+    "pos": 1128
+  },
+  {
+    "passage": "Prison Yard",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1334_5_3_7|",
+    "original": "You are in the prison yard. It's spacious, but the surrounding walls are unreasonably tall, and seem to curve inward.",
+    "translation": "",
+    "pos": 103
+  },
+  {
+    "passage": "Prison Yard",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1338_5_3_7|",
+    "original": "Inmates lift weights and socialise. <<generate_veteran_guard 0>><<veteran_guard 0 cap>> watches with a sternful gaze.<<endevent>>",
+    "translation": "",
+    "pos": 266
+  },
+  {
+    "passage": "Prison Yard",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1342_5_3_7|",
+    "original": "Shadows roam the grass as <<beastsplural>> fly overhead. Inmates dart across the yard in groups, or stick to the shadows. Some are caught and carried into the sky. You're not sure where they're taken.",
+    "translation": "",
+    "pos": 472
+  },
+  {
+    "passage": "Prison Yard",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1347_5_3_7|",
+    "original": "You hear a bell ring. \"Lockdown,\" <<generate_veteran_guard 0>><<veteran_guard 0>> shouts. \"Back to your cells.\"",
+    "translation": "",
+    "pos": 729
+  },
+  {
+    "passage": "Prison Yard",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1349_5_3_7|",
+    "original": "You're shuffled along with the other prisoners.",
+    "translation": "",
+    "pos": 852
+  },
+  {
+    "passage": "Prison Yard",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1351_5_3_7|",
+    "original": "<<link [[Next|Prison Cell]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 911
+  },
+  {
+    "passage": "Prison Yard",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1358_5_3_7|",
+    "original": "\"I've mixed feelings about meeting you here,\" says a young <<if $pronoun is \"m\">>man with short<<else>>woman with shoulder-length<</if>> hair. <span class=\"gold\">It's <<= $wrenSeenLast is \"pregnancy\" ? \"the person who rescued you when you were in labour\" : \"Wren\">>.</span>",
+    "translation": "",
+    "pos": 1142
+  },
+  {
+    "passage": "Prison Yard",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1362_5_3_7|",
+    "original": "\"Poking around dangerous places caught up to you, huh? <<= playerBellyVisible() ? \"And you're knocked up again to boot.\" : \"At least you're not knocked up this time.\">>",
+    "translation": "",
+    "pos": 1469
+  },
+  {
+    "passage": "Prison Yard",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1365_5_3_7|",
+    "original": "\"Did old Winter's requests fall outside the law?",
+    "translation": "",
+    "pos": 1712
+  },
+  {
+    "passage": "Prison Yard",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1367_5_3_7|",
+    "original": "\"I'm sorry your <<= $wrenSeen.includes(\"catsuit\") ? \"skulking\" : \"sneaking\">> didn't work out.",
+    "translation": "",
+    "pos": 1775
+  },
+  {
+    "passage": "Prison Yard",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1369_5_3_7|",
+    "original": "Maybe we can be useful to each other.\"",
+    "translation": "",
+    "pos": 1882
+  },
+  {
+    "passage": "Prison Yard",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1372_5_3_7|",
+    "original": "<<link [[Next|Prison Wren Intro]]>><<unset $prison_wren_intro>><<set $wrenSeen.pushUnique(\"prison\")>><<set $wrenSeenLast to \"prison\">><</link>>",
+    "translation": "",
+    "pos": 1935
+  },
+  {
+    "passage": "Prison Yard",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1374_5_3_7|",
+    "original": "\"Newcomer?\" asks a young <<if $pronoun is \"m\">>man with short<<else>>woman with shoulder-length<</if>> hair. \"Just my type.\" <<He>> wears a prison uniform, but seems apart from the other inmates, freer.",
+    "translation": "",
+    "pos": 2091
+  },
+  {
+    "passage": "Prison Yard",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1377_5_3_7|",
+    "original": "<<link [[Next|Prison Wren Intro]]>><<set $phase to \"intro\">><<unset $prison_wren_intro>><<set $wrenSeen.pushUnique(\"prison\")>><<set $wrenSeenLast to \"prison\">><</link>>",
+    "translation": "",
+    "pos": 2308
+  },
+  {
+    "passage": "Prison Yard",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1397_5_3_7|",
+    "original": "<span class=\"blue\">You can't run with <<= $worn.feet.name is \"ball and chain\" ? \"a ball and a chain\" : \"your legs bound\">>.</span>",
+    "translation": "",
+    "pos": 3145
+  },
+  {
+    "passage": "Prison Yard",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1400_5_3_7|",
+    "original": "<<prisonicon \"run\">><<link [[Run (0:30)|Prison Yard Run]]>><<endevent>><<tiredness 4>><</link>><<gathletics>><<gphysique>>",
+    "translation": "",
+    "pos": 3307
+  },
+  {
+    "passage": "Prison Yard",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1404_5_3_7|",
+    "original": "<span class=\"blue\">You can't lift with your arms bound.</span>",
+    "translation": "",
+    "pos": 3516
+  },
+  {
+    "passage": "Prison Yard",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1407_5_3_7|",
+    "original": "<<prisonicon \"lift\">><<link [[Lift weights (0:30)|Prison Yard Exercise]]>><<endevent>><<tiredness 6>><</link>><<gtiredness>><<ggphysique>>",
+    "translation": "",
+    "pos": 3610
+  },
+  {
+    "passage": "Prison Yard",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1413_5_3_7|",
+    "original": "<span class=\"blue\">You can't speak to the guard or inmates with this gag in the way.</span>",
+    "translation": "",
+    "pos": 3873
+  },
+  {
+    "passage": "Prison Yard",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1416_5_3_7|",
+    "original": "<<socialiseicon>><<link [[Speak with the guard (0:30)|Prison Yard Speak]]>><<pass 30>><<prison_rep veteran 1>><<endevent>><</link>><<glove>>",
+    "translation": "",
+    "pos": 3996
+  },
+  {
+    "passage": "Prison Yard",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1418_5_3_7|",
+    "original": "<<loveicon>><<link [[Cutely flirt with inmates (0:30)|Prison Yard Flirt]]>><<set $phase to 0>><<pass 30>><<prison_hope 1>><<endevent>><</link>><<promiscuous1>><<ghope>>",
+    "translation": "",
+    "pos": 4154
+  },
+  {
+    "passage": "Prison Yard",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1421_5_3_7|",
+    "original": "<<brothelicon>><<link [[Salaciously flirt with inmates (0:30)|Prison Yard Flirt]]>><<set $phase to 1>><<pass 30>><<prison_reb 1>><<endevent>><</link>><<promiscuous2>><<greb>>",
+    "translation": "",
+    "pos": 4383
+  },
+  {
+    "passage": "Prison Yard",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1429_5_3_7|",
+    "original": "<span class=\"teal\">Wren leans against a wall.</span> If the guards notice <<him>>, they pretend not to.",
+    "translation": "",
+    "pos": 4713
+  },
+  {
+    "passage": "Prison Yard",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1432_5_3_7|",
+    "original": "<<socialiseicon>><<link [[Speak with Wren|Prison Wren]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 4833
+  },
+  {
+    "passage": "Prison Yard",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1436_5_3_7|",
+    "original": "The ground slopes gently, leading to a pair of wide doors. The smell of stale food lingers in the air.",
+    "translation": "",
+    "pos": 4947
+  },
+  {
+    "passage": "Prison Yard",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1438_5_3_7|",
+    "original": "<<prisonicon \"canteen\">><<link [[Canteen|Prison Canteen]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 5063
+  },
+  {
+    "passage": "Prison Yard",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1441_5_3_7|",
+    "original": "The wall protrudes, giving rise to a tower far taller than the rest of the prison. There's a metal door at the bottom.",
+    "translation": "",
+    "pos": 5162
+  },
+  {
+    "passage": "Prison Yard",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1444_5_3_7|",
+    "original": "<<stairsicon \"up\" \"prison\">><<link [[Climb the spire (0:05)|Prison Spire]]>><<tiredness 6>><<pass 5>><</link>><<gtiredness>>",
+    "translation": "",
+    "pos": 5329
+  },
+  {
+    "passage": "Prison Yard",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1449_5_3_7|",
+    "original": "You could let your rope down the hole at the bottom of the spire.",
+    "translation": "",
+    "pos": 5558
+  },
+  {
+    "passage": "Prison Yard",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1451_5_3_7|",
+    "original": "<span class=\"clothes-tan\"><<icon \"clothes/shibari_ropes.png\">></span><<link [[Use rope|Prison Spire Rope]]>><<set $prison.rope to 2>><</link>>",
+    "translation": "",
+    "pos": 5643
+  },
+  {
+    "passage": "Prison Yard",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1454_5_3_7|",
+    "original": "<<stairsicon \"down\" \"prison\">><<link [[Descend the spire (0:05)|Prison Spire Descend]]>><<tiredness 6>><<pass 5>><</link>><<gtiredness>>",
+    "translation": "",
+    "pos": 5840
+  },
+  {
+    "passage": "Prison Yard",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1458_5_3_7|",
+    "original": "There's a deep hole at the bottom of the spire.",
+    "translation": "",
+    "pos": 6023
+  },
+  {
+    "passage": "Prison Yard",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1460_5_3_7|",
+    "original": "<<getouticon \"hole\">><<link [[Look in the hole|Prison Spire Hole]]>><</link>>",
+    "translation": "",
+    "pos": 6090
+  },
+  {
+    "passage": "Prison Yard",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1465_5_3_7|",
+    "original": "<<insufficientStat \"trust\" \"to be in the spire\">>",
+    "translation": "",
+    "pos": 6225
+  },
+  {
+    "passage": "Prison Yard",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1469_5_3_7|",
+    "original": "There's a small area sheltered from view. A large locked door blends into the surrounding stone.",
+    "translation": "",
+    "pos": 6310
+  },
+  {
+    "passage": "Prison Yard",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1472_5_3_7|",
+    "original": "<<prisonicon \"door\">><<link [[Sneak to beach (0:01)|Prison Beach]]>><<endevent>><<pass 1>><</link>>",
+    "translation": "",
+    "pos": 6455
+  },
+  {
+    "passage": "Prison Yard",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1475_5_3_7|",
+    "original": "<<prisonicon \"door\">><<link [[Large door|Prison Yard Door]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 6583
+  },
+  {
+    "passage": "Prison Yard",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1479_5_3_7|",
+    "original": "<<getinicon>><<link [[Prison block|Prison Block]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 6701
+  },
+  {
+    "passage": "Prison Spire Hole",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1491_5_3_7|",
+    "original": "You cautiously approach the hole and peer over the edge. Shoddy stonework lines a shaft leading down an abyss. It's too deep to see the bottom. You hear strange, squelching sounds and the occasional rush of water, but you can't make out anything beyond the darkness. The thought of what might lie below fills you with unease.<<stress 2>><<gstress>>",
+    "translation": "",
+    "pos": 34
+  },
+  {
+    "passage": "Prison Spire Hole",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1494_5_3_7|",
+    "original": "You wonder what could be down there, <span class=\"blue\">but without something to help you descend the spire, there's no way of telling.</span>",
+    "translation": "",
+    "pos": 393
+  },
+  {
+    "passage": "Prison Spire Hole",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1497_5_3_7|",
+    "original": "You return to the yard.",
+    "translation": "",
+    "pos": 546
+  },
+  {
+    "passage": "Prison Spire Hole",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1500_5_3_7|",
+    "original": "<<link [[Next|Prison Yard]]>><</link>>",
+    "translation": "",
+    "pos": 580
+  },
+  {
+    "passage": "Prison Spire Rope",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1507_5_3_7|",
+    "original": "You tie the rope firm, and toss the other end down the hole. You hear a thud below after a few seconds. You test the rope. It seems safe. You can descend whenever you want.",
+    "translation": "",
+    "pos": 80
+  },
+  {
+    "passage": "Prison Spire Rope",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1510_5_3_7|",
+    "original": "<<link [[Next|Prison Yard]]>><<handheldon>><<location \"prison\">><</link>>",
+    "translation": "",
+    "pos": 263
+  },
+  {
+    "passage": "Prison Spire Descend",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1517_5_3_7|",
+    "original": "You climb down the spire, into the darkness beneath the prison.",
+    "translation": "",
+    "pos": 86
+  },
+  {
+    "passage": "Prison Spire Descend",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1520_5_3_7|",
+    "original": "Your feet almost slip on the slick rock at the bottom. This is the cavern where you found the egg. You feel uneasy, and don't want to explore again without reason, so you climb back to the surface.",
+    "translation": "",
+    "pos": 208
+  },
+  {
+    "passage": "Prison Spire Descend",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1523_5_3_7|",
+    "original": "Your feet almost slip on the slick rock at the bottom. There's something down here, hidden in the shadows. If you continue, however, it might be hard to find your way back.",
+    "translation": "",
+    "pos": 426
+  },
+  {
+    "passage": "Prison Spire Descend",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1526_5_3_7|",
+    "original": "<<investigateicon>><<link [[Explore the rut|Prison Rut]]>><<handheldon>><<set $rut to 0>><<set $rut_entry to \"rope\">><</link>>",
+    "translation": "",
+    "pos": 611
+  },
+  {
+    "passage": "Prison Spire Descend",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1530_5_3_7|",
+    "original": "<<stairsicon \"up\" \"prison\">><<link [[Climb back up|Prison Yard]]>><<handheldon>><<location \"prison\">><</link>>",
+    "translation": "",
+    "pos": 753
+  },
+  {
+    "passage": "Prison Yard Door",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1536_5_3_7|",
+    "original": "You approach the large door. It's locked.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Prison Yard Door",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1540_5_3_7|",
+    "original": "<<lockicon \"bronze key\">><<link [[Use the key|Prison Yard Door Key]]>><<set $prison.yard_door to 1>><</link>>",
+    "translation": "",
+    "pos": 95
+  },
+  {
+    "passage": "Prison Yard Door",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1545_5_3_7|",
+    "original": "The door is locked tight.",
+    "translation": "",
+    "pos": 245
+  },
+  {
+    "passage": "Prison Yard Door",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1550_5_3_7|",
+    "original": "You think you'd be able to pick the lock, <span class=\"blue\">if your arms weren't bound.</span>",
+    "translation": "",
+    "pos": 390
+  },
+  {
+    "passage": "Prison Yard Door",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1554_5_3_7|",
+    "original": "<span class=\"green\">The lock looks easy to pick.</span>",
+    "translation": "",
+    "pos": 539
+  },
+  {
+    "passage": "Prison Yard Door",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1556_5_3_7|",
+    "original": "<<lockicon \"pick\">><<link [[Break in (0:05)|Prison Yard Door Pick]]>><<handheldon>><<set $prison.yard_door to 1>><<pass 5>><</link>>",
+    "translation": "",
+    "pos": 610
+  },
+  {
+    "passage": "Prison Yard Door",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1560_5_3_7|",
+    "original": "<span class=\"red\">The lock looks beyond your ability to pick.</span><<skulduggeryrequired>>",
+    "translation": "",
+    "pos": 773
+  },
+  {
+    "passage": "Prison Yard Door",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1565_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Prison Yard]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 894
+  },
+  {
+    "passage": "Prison Yard Door Key",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1571_5_3_7|",
+    "original": "The key fits, but needs a lot of force to turn. The door creaks open. A straight stone tunnel slopes downwards. There's light at the bottom.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Prison Yard Door Key",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1574_5_3_7|",
+    "original": "You close the door behind you, and walk towards the light, emerging on a beach.",
+    "translation": "",
+    "pos": 164
+  },
+  {
+    "passage": "Prison Yard Door Key",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1577_5_3_7|",
+    "original": "<<link [[Next|Prison Beach]]>><</link>>",
+    "translation": "",
+    "pos": 254
+  },
+  {
+    "passage": "Prison Yard Door Pick",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1584_5_3_7|",
+    "original": "The lock is sophisticated. It'd have to be, here. But it's still no match for you. The door creaks open. A straight stone tunnel slopes downwards. There's light at the bottom.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Prison Yard Door Pick",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1587_5_3_7|",
+    "original": "You close the door behind you, and walk towards the light, emerging on a beach.",
+    "translation": "",
+    "pos": 199
+  },
+  {
+    "passage": "Prison Yard Door Pick",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1590_5_3_7|",
+    "original": "<<link [[Next|Prison Beach]]>><</link>>",
+    "translation": "",
+    "pos": 289
+  },
+  {
+    "passage": "Prison Yard Speak",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1601_5_3_7|",
+    "original": "You find <<veteran_guard 0>> examining something in <<his>> palm. <<He>> closes <<his>> fist around it when <<he>> sees you approach. <<He>> was so absorbed <<he>> didn't notice you at first. Nor does <<he>> notice the <<person2>><<person>> backing into <<person1>><<him>>.",
+    "translation": "",
+    "pos": 144
+  },
+  {
+    "passage": "Prison Yard Speak",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1603_5_3_7|",
+    "original": "The collision is accidental, but <<veteran_guard 0>> reaches for their baton, and delivers a punishing blow to the <<person2>><<persons>> stomach. The object slips from <<person1>><<his>> hand, landing in the grass.",
+    "translation": "",
+    "pos": 429
+  },
+  {
+    "passage": "Prison Yard Speak",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1606_5_3_7|",
+    "original": "<<link [[Pick it up|Prison Yard Locket]]>><</link>>",
+    "translation": "",
+    "pos": 657
+  },
+  {
+    "passage": "Prison Yard Speak",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1610_5_3_7|",
+    "original": "You approach <<veteran_guard 0>>.",
+    "translation": "",
+    "pos": 740
+  },
+  {
+    "passage": "Prison Yard Speak",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1612_5_3_7|",
+    "original": "<<He>> seems happy to chat, despite <<his>> gruff demeanor.",
+    "translation": "",
+    "pos": 776
+  },
+  {
+    "passage": "Prison Yard Speak",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1616_5_3_7|",
+    "original": "A <<person2>><<person>> tries to climb the wall. <<veteran_guard 0 cap>><<person1>> doesn't seem concerned. \"You'll get it this time,\" <<he>> laughs. \"Just keep trying.\"",
+    "translation": "",
+    "pos": 869
+  },
+  {
+    "passage": "Prison Yard Speak",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1618_5_3_7|",
+    "original": "You follow as <<he>> marches up and down the yard, stopping only to spank a <<person2>><<person>> with <<person1>><<his>> baton.",
+    "translation": "",
+    "pos": 1065
+  },
+  {
+    "passage": "Prison Yard Speak",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1620_5_3_7|",
+    "original": "<<He>> leers at a <<person2>><<person>> doing squats.",
+    "translation": "",
+    "pos": 1220
+  },
+  {
+    "passage": "Prison Yard Speak",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1622_5_3_7|",
+    "original": "\"They think we'll let them leave if they manage to climb the wall,\" <<he>> chuckles, looking up at the spire. \"But it's not up to us.\"",
+    "translation": "",
+    "pos": 1300
+  },
+  {
+    "passage": "Prison Yard Speak",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1624_5_3_7|",
+    "original": "<<He>> stops to break up a fight between a <<person2>><<person>> and <<person3>><<person>>.",
+    "translation": "",
+    "pos": 1447
+  },
+  {
+    "passage": "Prison Yard Speak",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1628_5_3_7|",
+    "original": "<<link [[Next|Prison Yard]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1560
+  },
+  {
+    "passage": "Prison Yard Locket",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1638_5_3_7|",
+    "original": "It's an open locket. There's a picture of a young <<person3>><<personsimple>> inside. A drawing rather than a photograph, but rich in detail. \"To my <<veteran_guard 0>>,\" it reads. \"Yours forever.\"",
+    "translation": "",
+    "pos": 73
+  },
+  {
+    "passage": "Prison Yard Locket",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1641_5_3_7|",
+    "original": "Panting, <<veteran_guard 0>> steps away from the curled <<person2>><<person>>. You hold out the locket. <<person1>><<He>> snatches it from your grasp, and gives you an evil look.",
+    "translation": "",
+    "pos": 281
+  },
+  {
+    "passage": "Prison Yard Locket",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1644_5_3_7|",
+    "original": "<<link [[Next|Prison Yard]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 470
+  },
+  {
+    "passage": "Prison Spire",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1651_5_3_7|",
+    "original": "The metal door clangs as you knock. A camera perched atop swivels to face you. You hear a mechanical whir, then a click. The door opens, and a rush of air blows by.",
+    "translation": "",
+    "pos": 111
+  },
+  {
+    "passage": "Prison Spire",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1654_5_3_7|",
+    "original": "There's nothing inside except a staircase, spiralling up, and down, though the downward steps soon open onto a gaping pit. You decide to climb up.",
+    "translation": "",
+    "pos": 288
+  },
+  {
+    "passage": "Prison Spire",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1657_5_3_7|",
+    "original": "<<link [[Next|Prison Spire Intro]]>><<set $prison.spire_intro to 1>><<set $prison.birds to 0>><</link>>",
+    "translation": "",
+    "pos": 447
+  },
+  {
+    "passage": "Prison Spire",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1661_5_3_7|",
+    "original": "You are in the small cabin atop the spire.",
+    "translation": "",
+    "pos": 633
+  },
+  {
+    "passage": "Prison Spire",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1663_5_3_7|",
+    "original": "<<anxious_guard 5 cap>> sits in front of several security monitors, but <<person6>><<his>> eyes follow the <<person1>><<beastsplural 0>> outside.",
+    "translation": "",
+    "pos": 713
+  },
+  {
+    "passage": "Prison Spire",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1665_5_3_7|",
+    "original": "You watch the <<person1>><<beastsplural 0>> through a window.",
+    "translation": "",
+    "pos": 871
+  },
+  {
+    "passage": "Prison Spire",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1671_5_3_7|",
+    "original": "You hear a bell ring. \"Lockdown,\" <<anxious_guard 0>><<person1>> sighs. \"At last. Off to your cell.\"",
+    "translation": "",
+    "pos": 1023
+  },
+  {
+    "passage": "Prison Spire",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1673_5_3_7|",
+    "original": "You run for the stairs with <<anxious_guard 0>> before the creatures react. <<He>> leads you down the stairs, through the yard and prison block, and into your cell.",
+    "translation": "",
+    "pos": 1137
+  },
+  {
+    "passage": "Prison Spire",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1675_5_3_7|",
+    "original": "<<link [[Next|Prison Cell]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1315
+  },
+  {
+    "passage": "Prison Spire",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1679_5_3_7|",
+    "original": "The <<beastsplural>> watch you in silence. Then one launches through the air, talons outstretched. You trip in fright, but <<bhe>> catches you, lifting you into the air.",
+    "translation": "",
+    "pos": 1474
+  },
+  {
+    "passage": "Prison Spire",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1681_5_3_7|",
+    "original": "<<bHe>> flies in a circle around the beacon as the others sing, before landing on top.",
+    "translation": "",
+    "pos": 1657
+  },
+  {
+    "passage": "Prison Spire",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1684_5_3_7|",
+    "original": "<<link [[Next|Prison Spire Beacon]]>><<set $prison.watchers_friend to 1>><</link>>",
+    "translation": "",
+    "pos": 1758
+  },
+  {
+    "passage": "Prison Spire",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1694_5_3_7|",
+    "original": "<span class=\"green\">The watchers are fond of you.</span>",
+    "translation": "",
+    "pos": 2133
+  },
+  {
+    "passage": "Prison Spire",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1696_5_3_7|",
+    "original": "<span class=\"teal\">The watchers think you're useful.</span>",
+    "translation": "",
+    "pos": 2231
+  },
+  {
+    "passage": "Prison Spire",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1698_5_3_7|",
+    "original": "<span class=\"lblue\">The watchers recognise you.</span>",
+    "translation": "",
+    "pos": 2332
+  },
+  {
+    "passage": "Prison Spire",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1700_5_3_7|",
+    "original": "<span class=\"blue\">The watchers see you as meat.</span>",
+    "translation": "",
+    "pos": 2405
+  },
+  {
+    "passage": "Prison Spire",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1704_5_3_7|",
+    "original": "<<ind>><<link [[Work|Prison Spire Work]]>><</link>>",
+    "translation": "",
+    "pos": 2525
+  },
+  {
+    "passage": "Prison Spire",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1707_5_3_7|",
+    "original": "<span class=\"blue\">Your labours are expected elsewhere.</span>",
+    "translation": "",
+    "pos": 2605
+  },
+  {
+    "passage": "Prison Spire",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1711_5_3_7|",
+    "original": "<<ind>><<link [[Hold up the egg|Prison Spire Egg]]>><</link>>",
+    "translation": "",
+    "pos": 2756
+  },
+  {
+    "passage": "Prison Spire",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1716_5_3_7|",
+    "original": "Your wings, and the wind, are strong. You think you could fly all the way to the mainland from here.",
+    "translation": "",
+    "pos": 2898
+  },
+  {
+    "passage": "Prison Spire",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1718_5_3_7|",
+    "original": "<<glideicon>><<link [[Soar to the mainland|Prison Soar]]>><</link>>",
+    "translation": "",
+    "pos": 3014
+  },
+  {
+    "passage": "Prison Spire",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1721_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave (0:05)|Prison Yard]]>><<pass 5>><</link>>",
+    "translation": "",
+    "pos": 3112
+  },
+  {
+    "passage": "Prison Spire",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1726_5_3_7|",
+    "original": "Your wings, and the wind, are strong. You think you could fly all the way to the mainland from here.",
+    "translation": "",
+    "pos": 3260
+  },
+  {
+    "passage": "Prison Spire",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1728_5_3_7|",
+    "original": "<<glideicon>><<link [[Soar to the mainland|Prison Soar]]>><</link>>",
+    "translation": "",
+    "pos": 3374
+  },
+  {
+    "passage": "Prison Spire",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1731_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave (0:05)|Prison Yard]]>><<pass 5>><</link>>",
+    "translation": "",
+    "pos": 3469
+  },
+  {
+    "passage": "Prison Soar",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1743_5_3_7|",
+    "original": "You run and jump, letting the wind catch your wings. You soar.",
+    "translation": "",
+    "pos": 48
+  },
+  {
+    "passage": "Prison Soar",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1747_5_3_7|",
+    "original": "The <<beastsplural>> are too busy dealing with the revolt to stop, or even notice you. <span class=\"green\">There's nothing stopping you from escaping.</span>",
+    "translation": "",
+    "pos": 150
+  },
+  {
+    "passage": "Prison Soar",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1750_5_3_7|",
+    "original": "<<link [[Escape (0:30)|Prison Soar Escape]]>><<tiredness 12>><<prison_end>><<prisoncrimeUp>><<pass 30>><<prison_guards -40>><</link>><<gggcrime>><<gggsuspicion>><<ggtiredness>>",
+    "translation": "",
+    "pos": 320
+  },
+  {
+    "passage": "Prison Soar",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1752_5_3_7|",
+    "original": "<<link [[Land|Prison Spire]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 504
+  },
+  {
+    "passage": "Prison Soar",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1755_5_3_7|",
+    "original": "Two <<beastsplural>> fly alongside you for a moment.",
+    "translation": "",
+    "pos": 604
+  },
+  {
+    "passage": "Prison Soar",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1757_5_3_7|",
+    "original": "\"Safe journey,\" one shouts over the wind.",
+    "translation": "",
+    "pos": 681
+  },
+  {
+    "passage": "Prison Soar",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1761_5_3_7|",
+    "original": "Then they both turn, and return to the spire.",
+    "translation": "",
+    "pos": 744
+  },
+  {
+    "passage": "Prison Soar",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1762_5_3_7|",
+    "original": "<span class=\"green\">There's nothing stopping you from escaping.</span>",
+    "translation": "",
+    "pos": 791
+  },
+  {
+    "passage": "Prison Soar",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1765_5_3_7|",
+    "original": "<<link [[Escape (0:30)|Prison Soar Escape]]>><<tiredness 12>><<prison_end>><<prisoncrimeUp>><<pass 30>><<prison_guards -40>><</link>><<gggcrime>><<gggsuspicion>><<ggtiredness>>",
+    "translation": "",
+    "pos": 874
+  },
+  {
+    "passage": "Prison Soar",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1767_5_3_7|",
+    "original": "<<link [[Land|Prison Spire]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1058
+  },
+  {
+    "passage": "Prison Soar",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1770_5_3_7|",
+    "original": "<span class=\"red\">Two <<beastsplural>> fly after you.</span> You evade one, but the other grasps your shoulders in <<his>> talons. <<He>> carries you back to the spire.<<gpain>><<gtrauma>><<gstress>><<pain 4>><<trauma 6>><<stress 6>>",
+    "translation": "",
+    "pos": 1126
+  },
+  {
+    "passage": "Prison Soar",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1773_5_3_7|",
+    "original": "\"We're watching,\" <<bhe>> warns. \"Don't forget.\" <<bHe>> returns to the beacon.",
+    "translation": "",
+    "pos": 1394
+  },
+  {
+    "passage": "Prison Soar",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1775_5_3_7|",
+    "original": "<<bHe>> chirps a warning, then returns to the beacon.",
+    "translation": "",
+    "pos": 1486
+  },
+  {
+    "passage": "Prison Soar",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1777_5_3_7|",
+    "original": "You won't be able to fly away without distracting the <<beastsplural>>, or befriending them somehow.",
+    "translation": "",
+    "pos": 1550
+  },
+  {
+    "passage": "Prison Soar",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1780_5_3_7|",
+    "original": "<<link [[Next|Prison Spire]]>><</link>>",
+    "translation": "",
+    "pos": 1663
+  },
+  {
+    "passage": "Prison Soar Escape",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1788_5_3_7|",
+    "original": "You soar away from the island, over the mist, and towards the mainland.",
+    "translation": "",
+    "pos": 109
+  },
+  {
+    "passage": "Prison Soar Escape",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1792_5_3_7|",
+    "original": "You see the lights of town light up the horizon ahead.",
+    "translation": "",
+    "pos": 244
+  },
+  {
+    "passage": "Prison Soar Escape",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1794_5_3_7|",
+    "original": "You can't make out the coast in the dark, but you know it's there.",
+    "translation": "",
+    "pos": 311
+  },
+  {
+    "passage": "Prison Soar Escape",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1797_5_3_7|",
+    "original": "You see the town on the horizon ahead.",
+    "translation": "",
+    "pos": 397
+  },
+  {
+    "passage": "Prison Soar Escape",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1803_5_3_7|",
+    "original": "You feel the air tear away your bondage, piece by piece.",
+    "translation": "",
+    "pos": 518
+  },
+  {
+    "passage": "Prison Soar Escape",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1806_5_3_7|",
+    "original": "It's a tiring journey, but the wind is on your side. Free as a bird, you swoop onto the beach.",
+    "translation": "",
+    "pos": 584
+  },
+  {
+    "passage": "Prison Soar Escape",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1809_5_3_7|",
+    "original": "<<link [[Next|Beach]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 689
+  },
+  {
+    "passage": "Prison Spire Beacon",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1816_5_3_7|",
+    "original": "The beacon is covered with nests, made mostly of driftwood. The other <<beastsplural>> land, surrounding you. You sense no malice. The one that carried you bows <<his>> head, and scrapes the middle of one of the nests. There's an indentation, as if something once sat there.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Prison Spire Beacon",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1820_5_3_7|",
+    "original": "\"Egg stolen,\" <<bhe>> says. \"Eggs rare. Please, find below. Far below! Too far below.\" The others sing a melancholy tune.",
+    "translation": "",
+    "pos": 320
+  },
+  {
+    "passage": "Prison Spire Beacon",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1822_5_3_7|",
+    "original": "Are they missing an egg? It would have to be hidden somewhere they couldn't reach.",
+    "translation": "",
+    "pos": 452
+  },
+  {
+    "passage": "Prison Spire Beacon",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1826_5_3_7|",
+    "original": "You already found an egg far below. You hold it out. <span class=\"green\">The <<beastsplural>> hop in surprise, then chirp in excitement and relief.</span>",
+    "translation": "",
+    "pos": 569
+  },
+  {
+    "passage": "Prison Spire Beacon",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1829_5_3_7|",
+    "original": "<<link [[Next|Prison Spire Egg 2]]>><<set $spraymax += 1>><<spray 5>><<set $prison.watchers_friend to 2>><</link>>",
+    "translation": "",
+    "pos": 736
+  },
+  {
+    "passage": "Prison Spire Beacon",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1833_5_3_7|",
+    "original": "Another <<beasttype>> grasps your shoulders, and carries you back to the platform.",
+    "translation": "",
+    "pos": 877
+  },
+  {
+    "passage": "Prison Spire Beacon",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1836_5_3_7|",
+    "original": "<<link [[Next|Prison Spire]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 972
+  },
+  {
+    "passage": "Prison Spire Egg",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1844_5_3_7|",
+    "original": "You stand in front of the beacon, and hold up the egg. One <<beasttype>> notices, hops in excitement, and sings. This gets the others' attention. They rise from their nests and join the chorus. One swoops down and lifts you from your feet.",
+    "translation": "",
+    "pos": 48
+  },
+  {
+    "passage": "Prison Spire Egg",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1847_5_3_7|",
+    "original": "<<bHe>> carries you up to the beacon, and gently places you beside the empty nest. Others land, forming a circle around you.",
+    "translation": "",
+    "pos": 298
+  },
+  {
+    "passage": "Prison Spire Egg",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1850_5_3_7|",
+    "original": "<<link [[Next|Prison Spire Egg 2]]>><<set $spraymax += 1>><<spray 5>><<set $prison.watchers_friend to 2>><</link>>",
+    "translation": "",
+    "pos": 433
+  },
+  {
+    "passage": "Prison Spire Egg 2",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1856_5_3_7|",
+    "original": "You place the egg in the nest. The <<beasttype>> ruffles <<bhis>> feathers, then sits atop it.",
+    "translation": "",
+    "pos": 34
+  },
+  {
+    "passage": "Prison Spire Egg 2",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1859_5_3_7|",
+    "original": "\"Thank you,\" <<he>> says. \"We are friends. Here.\" <<He>> shifts a heavy piece of driftwood.",
+    "translation": "",
+    "pos": 185
+  },
+  {
+    "passage": "Prison Spire Egg 2",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1861_5_3_7|",
+    "original": "<<bHe>> bows <<his>> head and shifts a heavy piece of driftwood.",
+    "translation": "",
+    "pos": 287
+  },
+  {
+    "passage": "Prison Spire Egg 2",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1863_5_3_7|",
+    "original": "There's a strange cylinder beneath, with an exposed computer chip at the base. It looks like a charge for your pepper spray. The <<beasttype>> rolls it over to you, and you plug it in.",
+    "translation": "",
+    "pos": 360
+  },
+  {
+    "passage": "Prison Spire Egg 2",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1867_5_3_7|",
+    "original": "<span class=\"green\">You have befriended the watchers,</span> and <span class=\"gold\">gained an additional pepper spray charge.</span>",
+    "translation": "",
+    "pos": 595
+  },
+  {
+    "passage": "Prison Spire Egg 2",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1870_5_3_7|",
+    "original": "Another <<beasttype>> grasps your shoulders, and carries you back to the platform.",
+    "translation": "",
+    "pos": 738
+  },
+  {
+    "passage": "Prison Spire Egg 2",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1873_5_3_7|",
+    "original": "<<link [[Next|Prison Spire]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 831
+  },
+  {
+    "passage": "Prison Spire Intro",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1879_5_3_7|",
+    "original": "The climb takes your breath. You pass through another metal door, and onto a wide-open platform. There's another, smaller tower some distance away. Atop it perches a light, now dim. It's the beacon.",
+    "translation": "",
+    "pos": 34
+  },
+  {
+    "passage": "Prison Spire Intro",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1882_5_3_7|",
+    "original": "A great wind howls. You're far above the prison block.",
+    "translation": "",
+    "pos": 243
+  },
+  {
+    "passage": "Prison Spire Intro",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1885_5_3_7|",
+    "original": "<<link [[Next|Prison Spire Intro 2]]>><</link>>",
+    "translation": "",
+    "pos": 308
+  },
+  {
+    "passage": "Prison Spire Intro 2",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1892_5_3_7|",
+    "original": "<<person1>>\"Over here,\" says a voice to your left. It's <<anxious_guard 0>>. <<Hes>> stood outside a small concrete cabin, one foot still inside. <<He>> looks up at the sky. \"Hurry.\"",
+    "translation": "",
+    "pos": 484
+  },
+  {
+    "passage": "Prison Spire Intro 2",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1895_5_3_7|",
+    "original": "You hasten towards <<him>> as you hear a whoosh, as if the wind were picking up. \"Fuck,\" <<anxious_guard 0>> says as <<he>> recoils into the building. \"Run!\"",
+    "translation": "",
+    "pos": 677
+  },
+  {
+    "passage": "Prison Spire Intro 2",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1897_5_3_7|",
+    "original": "Animated by a terrible fear, you run for the door, sparing a glance behind. A <<beasttype 1>> swoops through the air, talons outstretched.<<ggstress>><<stress 12>>",
+    "translation": "",
+    "pos": 844
+  },
+  {
+    "passage": "Prison Spire Intro 2",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1899_5_3_7|",
+    "original": "You manage to clear the cabin entrance just moments before the <<beasttype 1>> lands, <<anxious_guard 0>> shutting the door behind you. The <<beasttype 1>> takes off again, leaving talon marks in the stone. You watch through the window as other <<beastsplural 1>> descend, landing on and around the beacon.",
+    "translation": "",
+    "pos": 1017
+  },
+  {
+    "passage": "Prison Spire Intro 2",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1902_5_3_7|",
+    "original": "<<link [[Next|Prison Spire Intro 3]]>><</link>>",
+    "translation": "",
+    "pos": 1334
+  },
+  {
+    "passage": "Prison Spire Intro 3",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1909_5_3_7|",
+    "original": "<<person1>>\"They're always agitated when they come back from hunting,\" <<anxious_guard 0>> says. \"Not that it's ever safe up here. Hope you last longer than the last.\" <<He>> points at the ground some distance away. \"Stay away from the edge. The wall is long gone.\"",
+    "translation": "",
+    "pos": 52
+  },
+  {
+    "passage": "Prison Spire Intro 3",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1912_5_3_7|",
+    "original": "\"Tried to put collars on them once.\" <<He>> shakes <<his>> head. \"Anyway, main job is keeping them fed, collecting shark's teeth, and confiscating contraband. Dunno where they get it out here, but it'll end up in inmate hands if we do nothing.\"",
+    "translation": "",
+    "pos": 328
+  },
+  {
+    "passage": "Prison Spire Intro 3",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1915_5_3_7|",
+    "original": "<<link [[Next|Prison Spire]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 583
+  },
+  {
+    "passage": "Prison Tattooed",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1923_5_3_7|",
+    "original": "<<link [[Next|Prison Walkway]]>><</link>>",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Prison Spire Precipice",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1930_5_3_7|",
+    "original": "<<anxious_guard 0 cap>> shouts, but <<his>> words are incoherent. <<He>> isn't carried high, or far, before release, but the force sends <<him>> rolling <span class=\"red\">off the edge.</span>",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Prison Spire Precipice",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1933_5_3_7|",
+    "original": "Only <<his>> fingers can be seen, grasping the ledge in desperation.",
+    "translation": "",
+    "pos": 215
+  },
+  {
+    "passage": "Prison Spire Precipice",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1936_5_3_7|",
+    "original": "<<link [[Help|Prison Spire Precipice Help]]>><<famegood 20>><<prison_rep anxious 1>><</link>><<ggglove>>",
+    "translation": "",
+    "pos": 294
+  },
+  {
+    "passage": "Prison Spire Precipice",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1938_5_3_7|",
+    "original": "<<link [[Make demands|Prison Spire Precipice Demand]]>><<def 3>><</link>>",
+    "translation": "",
+    "pos": 404
+  },
+  {
+    "passage": "Prison Spire Precipice Help",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1944_5_3_7|",
+    "original": "You rush over to the edge and grasp <<anxious_guard 0 apo>> hand. Together, you're able to pull <<him>> up and over the top.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Prison Spire Precipice Help",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1947_5_3_7|",
+    "original": "<<He>> staggers towards the cabin, but collapses to <<his>> shaking knees after a couple of steps. You help <<him>> up again, and hold <<his>> until you make it to safety.",
+    "translation": "",
+    "pos": 148
+  },
+  {
+    "passage": "Prison Spire Precipice Help",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1952_5_3_7|",
+    "original": "<<He>> sits for several minutes before managing to speak. \"Thank you,\" <<he>> says. \"I'm <<anxious_guard 0>> by the way. Not meant to share our names, but fuck it. I thought that was it for me.\"",
+    "translation": "",
+    "pos": 400
+  },
+  {
+    "passage": "Prison Spire Precipice Help",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1955_5_3_7|",
+    "original": "<<link [[Next|Prison Spire]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 625
+  },
+  {
+    "passage": "Prison Spire Precipice Demand",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1963_5_3_7|",
+    "original": "\"I-I don't have anything,\" <<anxious_guard 0>> says. \"Please, just... Wait. I have a key! The key to the beach. I'll give it to you if you save me, and I won't tell anyone you have it.\"",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Prison Spire Precipice Demand",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1967_5_3_7|",
+    "original": "That key is of little use to one with your talents, but it might be to someone else.",
+    "translation": "",
+    "pos": 239
+  },
+  {
+    "passage": "Prison Spire Precipice Demand",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1971_5_3_7|",
+    "original": "You grasp <<anxious_guard 0 apo>> hand. Together, you're able to pull <<him>> up and over the top.",
+    "translation": "",
+    "pos": 342
+  },
+  {
+    "passage": "Prison Spire Precipice Demand",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1974_5_3_7|",
+    "original": "<<He>> staggers towards the cabin, but collapses to <<his>> shaking knees after a couple of steps. You help <<him>> up again, and hold <<his>> until you make it to safety.",
+    "translation": "",
+    "pos": 451
+  },
+  {
+    "passage": "Prison Spire Precipice Demand",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1979_5_3_7|",
+    "original": "<<He>> sits for several minutes before managing to speak. \"Thank you,\" <<he>> says. \"I'm <<anxious_guard 0>> by the way. Not meant to share our names, but fuck it. I thought that was it for me.\"",
+    "translation": "",
+    "pos": 703
+  },
+  {
+    "passage": "Prison Spire Precipice Demand",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1982_5_3_7|",
+    "original": "You hold out your hand. \"Y-yes,\" <<he>> says. \"I gave my word.\" <<He>> pulls a heavy iron key from <<his>> pocket. \"If you're caught, don't tell them where you got it.\"",
+    "translation": "",
+    "pos": 908
+  },
+  {
+    "passage": "Prison Spire Precipice Demand",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1988_5_3_7|",
+    "original": "<<link [[Next|Prison Spire]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1147
+  },
+  {
+    "passage": "Passout Prison",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1996_5_3_7|",
+    "original": "You've pushed yourself too much.",
+    "translation": "",
+    "pos": 12
+  },
+  {
+    "passage": "Passout Prison",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "1999_5_3_7|",
+    "original": "<<link [[Wake up|Passout Prison 2]]>><</link>>",
+    "translation": "",
+    "pos": 66
+  },
+  {
+    "passage": "Passout Prison 2",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2008_5_3_7|",
+    "original": "\"Wake up you shit,\" says a <<personsimple \"normal\">>'s voice. It's <<veteran_guard 0>>. \"Sleeping ain't allowed anywhere but your cell. Up you get.\" <<He>> grasps your collar and helps haul you to your feet.",
+    "translation": "",
+    "pos": 74
+  },
+  {
+    "passage": "Passout Prison 2",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2011_5_3_7|",
+    "original": "<<He>> has you marching before you can properly recover.",
+    "translation": "",
+    "pos": 292
+  },
+  {
+    "passage": "Passout Prison 2",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2014_5_3_7|",
+    "original": "<<link [[Next|Prison Punishment]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 359
+  },
+  {
+    "passage": "Prison Revolt Refuse",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2020_5_3_7|",
+    "original": "It's enough to bask in your victory, for now.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Prison Revolt",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2029_5_3_7|",
+    "original": "You mumble insistently at a pair of nearby inmates. They tug at your gag. It takes a bit of effort, but they manage to snap it enough that you can pull it out.",
+    "translation": "",
+    "pos": 89
+  },
+  {
+    "passage": "Prison Revolt",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2035_5_3_7|",
+    "original": "\"It's time to end their bullying,\" you shout. \"Let's show them we won't be pushed around!\"",
+    "translation": "",
+    "pos": 358
+  },
+  {
+    "passage": "Prison Revolt",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2037_5_3_7|",
+    "original": "\"I'm fed up with these fuckers telling us what to do!\" you shout. \"Let's fuck them up!\"",
+    "translation": "",
+    "pos": 490
+  },
+  {
+    "passage": "Prison Revolt",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2039_5_3_7|",
+    "original": "\"It's time for some changes around here,\" you shout. \"We're in charge now!\"",
+    "translation": "",
+    "pos": 588
+  },
+  {
+    "passage": "Prison Revolt",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2043_5_3_7|",
+    "original": "The inmates cheer. A <<person>> grasps the bars of a nearby window, and pulls them apart with <<his>> bare hands. Another throws a rock, shattering one of the lights. Anarchy breaks out.",
+    "translation": "",
+    "pos": 719
+  },
+  {
+    "passage": "Pregnancy Birth Prison",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2055_5_3_7|",
+    "original": "You awaken on a medical bed. Several blurry figures move around. One leans closer, <<his>> features coalescing into those of <<methodical_guard 0>>. \"Relax. <<if $prison.schedule is \"lockdown\">>You're lucky someone found you. I'll overlook you being out of your cell, given the circumstances. You're in medical.<<else>>In case you've forgotten, you're in medical. You're in labour.<</if>>\"",
+    "translation": "",
+    "pos": 222
+  },
+  {
+    "passage": "Pregnancy Birth Prison",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2058_5_3_7|",
+    "original": "You feel a light prick on your arm, and you start to feel fuzzy. \"You'll be feeling the effects of the sedative shortly...\" <<His>> voice fades again. The pain starts to blissfully trickle away.",
+    "translation": "",
+    "pos": 622
+  },
+  {
+    "passage": "Pregnancy Birth Prison",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2062_5_3_7|",
+    "original": "Another voice cuts through the haze. It sounds like <<anxious_guard 2>>. \"I-I can't believe this. Are you sure you know what you're doing? Maybe we should take <<phim>> to the mainland-\"",
+    "translation": "",
+    "pos": 839
+  },
+  {
+    "passage": "Pregnancy Birth Prison",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2064_5_3_7|",
+    "original": "\"Shut it. <<pShe>>'ll never make that trip. Look at <<phim>>, <<pshes>> ready to pop!\" That sounded like <<veteran_guard 3>>.",
+    "translation": "",
+    "pos": 1031
+  },
+  {
+    "passage": "Pregnancy Birth Prison",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2066_5_3_7|",
+    "original": "\"<<He>> has it under control. This is the best we can do until help from the mainland comes,\" says the voice of <<relaxed_guard 1>>.",
+    "translation": "",
+    "pos": 1162
+  },
+  {
+    "passage": "Pregnancy Birth Prison",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2069_5_3_7|",
+    "original": "\"Quiet, please. I'm going to need to undress you.\"",
+    "translation": "",
+    "pos": 1305
+  },
+  {
+    "passage": "Pregnancy Birth Prison",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2071_5_3_7|",
+    "original": "<<He>> notices your <<print $worn.genitals.name>>, and opens a chest-high cupboard. <<He>> retrieves a tool shaped like a pair of prongs, but bulkier. \"We need to remove that device. This won't hurt.\"",
+    "translation": "",
+    "pos": 1389
+  },
+  {
+    "passage": "Pregnancy Birth Prison",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2073_5_3_7|",
+    "original": "<<He>> grasps your <<print $worn.genitals.name>> with the prongs, and presses a button on the handle. You hear a whirring noise within the tool, <span class=\"pink\">and they snap the metal.</span>",
+    "translation": "",
+    "pos": 1601
+  },
+  {
+    "passage": "Pregnancy Birth Prison",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2079_5_3_7|",
+    "original": "<<link [[Next|Pregnancy Birth Prison 2]]>><</link>>",
+    "translation": "",
+    "pos": 1894
+  },
+  {
+    "passage": "Pregnancy Birth Prison 2",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2085_5_3_7|",
+    "original": "<<methodical_guard 0 cap>> places a mask over your face. You feel your consciousness fade again.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Pregnancy Birth Prison 2",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2108_5_3_7|",
+    "original": "<<case \"human\">>",
+    "translation": "",
+    "pos": 717
+  },
+  {
+    "passage": "Pregnancy Birth Prison 2",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2109_5_3_7|",
+    "original": "<<methodical_guard 0 capo>> voice floats through the fog. \"Its head is down. We're lucky. I'm going to need you to...\"",
+    "translation": "",
+    "pos": 736
+  },
+  {
+    "passage": "Pregnancy Birth Prison 2",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2112_5_3_7|",
+    "original": "The pain grows as time seems to rapidly speed up and slow down. You hear the words \"breathe\" and \"push\" many times, and you do your best to comply.",
+    "translation": "",
+    "pos": 869
+  },
+  {
+    "passage": "Pregnancy Birth Prison 2",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2115_5_3_7|",
+    "original": "<<link [[\"Next (\"+_hours+\":\"+(_minutes lt 10 ? \"0\": \"\")+_minutes+\")\"| Pregnancy Birth Prison 3]]>><<endevent>><<pass _timeCalc>><<playerPrebirth>><</link>>",
+    "translation": "",
+    "pos": 1031
+  },
+  {
+    "passage": "Pregnancy Birth Prison 2",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2116_5_3_7|",
+    "original": "<<case \"wolf\">>",
+    "translation": "",
+    "pos": 1188
+  },
+  {
+    "passage": "Pregnancy Birth Prison 2",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2117_5_3_7|",
+    "original": "<<methodical_guard 0 capo>> voice floats through the fog. \"This is... unexpected. Non-human pregnancy. Focus...\"",
+    "translation": "",
+    "pos": 1206
+  },
+  {
+    "passage": "Pregnancy Birth Prison 2",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2120_5_3_7|",
+    "original": "The pain grows as time seems to rapidly speed up and slow down. You hear the words \"breathe\" and \"push\" many times, and you do your best to comply.",
+    "translation": "",
+    "pos": 1333
+  },
+  {
+    "passage": "Pregnancy Birth Prison 2",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2123_5_3_7|",
+    "original": "<<link [[\"Next (\"+_hours+\":\"+(_minutes lt 10 ? \"0\": \"\")+_minutes+\")\"| Pregnancy Birth Prison Wolf]]>><<endevent>><<pass _timeCalc>><<playerPrebirth>><</link>>",
+    "translation": "",
+    "pos": 1495
+  },
+  {
+    "passage": "Pregnancy Birth Prison 3",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2130_5_3_7|",
+    "original": "You awaken in the medical room. A smiling midwife stands beside your bed,",
+    "translation": "",
+    "pos": 95
+  },
+  {
+    "passage": "Pregnancy Birth Prison 3",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2132_5_3_7|",
+    "original": "holding a bundled baby in <<his>> arms.",
+    "translation": "",
+    "pos": 195
+  },
+  {
+    "passage": "Pregnancy Birth Prison 3",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2135_5_3_7|",
+    "original": "\"Looks like mummy's awake,\" <<he>> says, passing you the baby. They sit in your arms, eyes shut, chest rising and falling with gentle breaths.",
+    "translation": "",
+    "pos": 247
+  },
+  {
+    "passage": "Pregnancy Birth Prison 3",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2138_5_3_7|",
+    "original": "\"I got here as fast as I could. That guard did a wonderful job delivering your baby. I've run all the tests,\" the midwife says. \"There's not a single health problem. Have you thought of a name?\"",
+    "translation": "",
+    "pos": 402
+  },
+  {
+    "passage": "Pregnancy Birth Prison 3",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2142_5_3_7|",
+    "original": "holding two bundled babies in <<his>> arms.",
+    "translation": "",
+    "pos": 638
+  },
+  {
+    "passage": "Pregnancy Birth Prison 3",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2145_5_3_7|",
+    "original": "\"Looks like mummy's awake,\" <<he>> says, passing you one, and then the other. One sits in each of your arms, eyes shut, chests rising and falling with gentle breaths.",
+    "translation": "",
+    "pos": 694
+  },
+  {
+    "passage": "Pregnancy Birth Prison 3",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2148_5_3_7|",
+    "original": "\"I got here as fast as I could. That guard did a wonderful job delivering your babies. I've run all the tests,\" the midwife says. \"There's not a single health problem. Have you thought of their names?\" the midwife asks.",
+    "translation": "",
+    "pos": 873
+  },
+  {
+    "passage": "Pregnancy Birth Prison 3",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2153_5_3_7|",
+    "original": "holding a trio of bundled babies in <<his>> arms.",
+    "translation": "",
+    "pos": 1115
+  },
+  {
+    "passage": "Pregnancy Birth Prison 3",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2156_5_3_7|",
+    "original": "\"Looks like mummy's awake,\" <<he>> says, passing you one, and then another. One sits in each of your arms. The midwife holds the third right in front of your chest. Their eyes are shut, their chests rising and falling with gentle breaths.",
+    "translation": "",
+    "pos": 1177
+  },
+  {
+    "passage": "Pregnancy Birth Prison 3",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2159_5_3_7|",
+    "original": "\"I got here as fast as I could. That guard did a wonderful job delivering your babies. I've run all the tests,\" the midwife says. \"There's not a single health problem. Have you thought of their names?\" the midwife asks.",
+    "translation": "",
+    "pos": 1428
+  },
+  {
+    "passage": "Pregnancy Birth Prison 4",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2176_5_3_7|",
+    "original": "You cradle your baby for a while longer, enjoying <<childhis>> tiny breaths and movements. <<childHe>> spends most of the time sleeping, but opens <<childhis>> eyes occasionally, and gazes into yours.",
+    "translation": "",
+    "pos": 161
+  },
+  {
+    "passage": "Pregnancy Birth Prison 4",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2178_5_3_7|",
+    "original": "The midwife returns.",
+    "translation": "",
+    "pos": 373
+  },
+  {
+    "passage": "Pregnancy Birth Prison 4",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2180_5_3_7|",
+    "original": "<<He>> teaches you how to change <<childname>>'s nappy, and how to bathe <<childhim>>.",
+    "translation": "",
+    "pos": 417
+  },
+  {
+    "passage": "Pregnancy Birth Prison 4",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2182_5_3_7|",
+    "original": "<<He>> assists you with changing <<childname>>'s nappy, and bathing <<childhim>>.",
+    "translation": "",
+    "pos": 516
+  },
+  {
+    "passage": "Pregnancy Birth Prison 4",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2184_5_3_7|",
+    "original": "\"Let me know when you're feeling sleepy,\" <<he>> says. \"You need your rest as well, and we can take care of your baby in the meantime. You've been exempted from your duties for the day.\"",
+    "translation": "",
+    "pos": 608
+  },
+  {
+    "passage": "Pregnancy Birth Prison 4",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2186_5_3_7|",
+    "original": "You want nothing more than to hold <<childname>>, but you find yourself dozing all the same.",
+    "translation": "",
+    "pos": 806
+  },
+  {
+    "passage": "Pregnancy Birth Prison 4",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2189_5_3_7|",
+    "original": "You cradle your babies for a while longer, enjoying their tiny breaths and movements. They spend most of the time sleeping, but open their eyes occasionally, and gaze into yours.",
+    "translation": "",
+    "pos": 939
+  },
+  {
+    "passage": "Pregnancy Birth Prison 4",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2191_5_3_7|",
+    "original": "The midwife returns.",
+    "translation": "",
+    "pos": 1129
+  },
+  {
+    "passage": "Pregnancy Birth Prison 4",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2194_5_3_7|",
+    "original": "<<He>> teaches you how to change their nappies and how to bathe them.",
+    "translation": "",
+    "pos": 1174
+  },
+  {
+    "passage": "Pregnancy Birth Prison 4",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2196_5_3_7|",
+    "original": "<<He>> assists you with changing their nappies, and with bathing them.",
+    "translation": "",
+    "pos": 1256
+  },
+  {
+    "passage": "Pregnancy Birth Prison 4",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2198_5_3_7|",
+    "original": "\"Let me know when you're feeling sleepy,\" <<he>> says. \"You need your rest as well, and we can take care of your babies in the meantime. You've been exempted from your duties for the day.\"",
+    "translation": "",
+    "pos": 1337
+  },
+  {
+    "passage": "Pregnancy Birth Prison 4",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2200_5_3_7|",
+    "original": "You want nothing more than to hold the twins, but you find yourself dozing all the same.",
+    "translation": "",
+    "pos": 1537
+  },
+  {
+    "passage": "Pregnancy Birth Prison 4",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2203_5_3_7|",
+    "original": "You cradle your babies for a while longer, enjoying their tiny breaths and movements. They spend most of the time sleeping, but open their eyes occasionally, and gaze into yours.",
+    "translation": "",
+    "pos": 1666
+  },
+  {
+    "passage": "Pregnancy Birth Prison 4",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2205_5_3_7|",
+    "original": "The midwife returns.",
+    "translation": "",
+    "pos": 1856
+  },
+  {
+    "passage": "Pregnancy Birth Prison 4",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2208_5_3_7|",
+    "original": "<<He>> teaches you how to change their nappies, and how to bathe them.",
+    "translation": "",
+    "pos": 1901
+  },
+  {
+    "passage": "Pregnancy Birth Prison 4",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2210_5_3_7|",
+    "original": "<<He>> assists you with changing their nappies, and with bathing them.",
+    "translation": "",
+    "pos": 1984
+  },
+  {
+    "passage": "Pregnancy Birth Prison 4",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2212_5_3_7|",
+    "original": "\"Let me know when you're feeling sleepy,\" <<he>> says. \"You need your rest as well, and we can take care of your babies in the meantime. You've been exempted from your duties for the day.\"",
+    "translation": "",
+    "pos": 2065
+  },
+  {
+    "passage": "Pregnancy Birth Prison 4",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2214_5_3_7|",
+    "original": "You want nothing more than to hold the triplets, but you find yourself dozing all the same.",
+    "translation": "",
+    "pos": 2265
+  },
+  {
+    "passage": "Pregnancy Birth Prison 4",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2218_5_3_7|",
+    "original": "<<link [[Next|Pregnancy Birth Prison 5]]>><<storeon \"prison_birth\">><<pass 24 hour>><<stress -40>><</link>>",
+    "translation": "",
+    "pos": 2376
+  },
+  {
+    "passage": "Pregnancy Birth Prison 5",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2224_5_3_7|",
+    "original": "<<if $litter_size gte 2>><<childrenNames $bornChildrenIds>> lie<<else>><<childname>> lies<</if>> in a cradle while the midwife helps you stand.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Pregnancy Birth Prison 5",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2227_5_3_7|",
+    "original": "You feel your insides drop as you stand, but <<he>> assures you that's normal.",
+    "translation": "",
+    "pos": 216
+  },
+  {
+    "passage": "Pregnancy Birth Prison 5",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2230_5_3_7|",
+    "original": "Despite the pain, you feel a lot more comfortable walking than you did before the birth. You'd forgotten how easy it is to move without people inside you.",
+    "translation": "",
+    "pos": 307
+  },
+  {
+    "passage": "Pregnancy Birth Prison 5",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2233_5_3_7|",
+    "original": "The midwife helps you to dress.",
+    "translation": "",
+    "pos": 474
+  },
+  {
+    "passage": "Pregnancy Birth Prison 5",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2235_5_3_7|",
+    "original": "You feel your insides drop as you stand. You remember this feeling from your last birth, and know it's normal.",
+    "translation": "",
+    "pos": 562
+  },
+  {
+    "passage": "Pregnancy Birth Prison 5",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2238_5_3_7|",
+    "original": "Despite the pain, you feel a lot more comfortable walking than you did before the birth. You'd forgotten how easy it is to move without people inside you.",
+    "translation": "",
+    "pos": 685
+  },
+  {
+    "passage": "Pregnancy Birth Prison 5",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2241_5_3_7|",
+    "original": "The midwife helps you to dress.",
+    "translation": "",
+    "pos": 852
+  },
+  {
+    "passage": "Pregnancy Birth Prison 5",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2243_5_3_7|",
+    "original": "You feel your insides drop as you stand. You're still not used to the feeling.",
+    "translation": "",
+    "pos": 940
+  },
+  {
+    "passage": "Pregnancy Birth Prison 5",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2246_5_3_7|",
+    "original": "You get walking again quite easily. It's a little awkward, but the transition isn't as bad as it used to be. It's still easier to move around when there isn't another human inside you.",
+    "translation": "",
+    "pos": 1031
+  },
+  {
+    "passage": "Pregnancy Birth Prison 5",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2249_5_3_7|",
+    "original": "The midwife still insists on helping you dress.",
+    "translation": "",
+    "pos": 1228
+  },
+  {
+    "passage": "Pregnancy Birth Prison 5",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2251_5_3_7|",
+    "original": "You stand up without a hitch. There's hardly any difference in feeling anymore, although you do feel much more nimble.",
+    "translation": "",
+    "pos": 1333
+  },
+  {
+    "passage": "Pregnancy Birth Prison 5",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2254_5_3_7|",
+    "original": "<<He>> looks impressed at your mobility, only keeping an arm around you for stability. \"I don't see many people get back up that quickly. You must be hardy!\"",
+    "translation": "",
+    "pos": 1464
+  },
+  {
+    "passage": "Pregnancy Birth Prison 5",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2257_5_3_7|",
+    "original": "The midwife still insists on helping you dress.",
+    "translation": "",
+    "pos": 1634
+  },
+  {
+    "passage": "Pregnancy Birth Prison 5",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2259_5_3_7|",
+    "original": "You stand up without assistance, feeling empty inside. You already miss the feeling of being pregnant.",
+    "translation": "",
+    "pos": 1730
+  },
+  {
+    "passage": "Pregnancy Birth Prison 5",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2262_5_3_7|",
+    "original": "<<He>> stares at you, mouth agape, as you walk without any assistance. You throw your clothes back on quickly.",
+    "translation": "",
+    "pos": 1845
+  },
+  {
+    "passage": "Pregnancy Birth Prison 5",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2265_5_3_7|",
+    "original": "\"Y-you should be good to go,\" <<he>> says.",
+    "translation": "",
+    "pos": 1968
+  },
+  {
+    "passage": "Pregnancy Birth Prison 5",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2267_5_3_7|",
+    "original": "\"Your children will be sent to the orphanage for temporary care until your release, at which point they will be returned to your custody.\"",
+    "translation": "",
+    "pos": 2019
+  },
+  {
+    "passage": "Pregnancy Birth Prison 5",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2270_5_3_7|",
+    "original": "<<link [[Next|Pregnancy Birth Prison 6]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 2168
+  },
+  {
+    "passage": "Pregnancy Birth Prison 6",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2275_5_3_7|",
+    "original": "You're returned to your cell. You already miss the embrace of <<childrenNames $bornChildrenIds>>. You feel a renewed sense of determination to leave this place. <<stress -10>><<llstress>><<trauma -10>><<lltrauma>>",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Pregnancy Birth Prison 6",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2278_5_3_7|",
+    "original": "<<link [[Next|Prison Cell]]>><<unset $litter_size>><<unset $first_birth>><<endevent>><<unset $bornChildrenIds>><</link>>",
+    "translation": "",
+    "pos": 237
+  },
+  {
+    "passage": "Pregnancy Birth Prison Wolf",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2287_5_3_7|",
+    "original": "You awaken in another room. You hear faint whimpering. A smiling midwife stands beside your bed,",
+    "translation": "",
+    "pos": 186
+  },
+  {
+    "passage": "Pregnancy Birth Prison Wolf",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2289_5_3_7|",
+    "original": "holding a bundled _baby_type pup in <<his>> arms.",
+    "translation": "",
+    "pos": 309
+  },
+  {
+    "passage": "Pregnancy Birth Prison Wolf",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2292_5_3_7|",
+    "original": "\"Looks like mummy's awake,\" <<he>> says, passing you the pup. They sit in your arms, eyes shut, chest rising and falling with gentle breaths.",
+    "translation": "",
+    "pos": 371
+  },
+  {
+    "passage": "Pregnancy Birth Prison Wolf",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2295_5_3_7|",
+    "original": "\"I got here as fast as I could. That guard did a wonderful job delivering your babies. I've run all the tests,\" the midwife says. \"There's not a single health problem. Have you thought of a name?\"",
+    "translation": "",
+    "pos": 525
+  },
+  {
+    "passage": "Pregnancy Birth Prison Wolf",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2299_5_3_7|",
+    "original": "pushing a cot with <<number $litter_size>> _baby_type pups inside.",
+    "translation": "",
+    "pos": 743
+  },
+  {
+    "passage": "Pregnancy Birth Prison Wolf",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2302_5_3_7|",
+    "original": "\"Looks like mummy's awake,\" <<he>> says, pushing the cot into your reach. You hold them one by one, their eyes shut, chests rising and falling with gentle breaths.",
+    "translation": "",
+    "pos": 822
+  },
+  {
+    "passage": "Pregnancy Birth Prison Wolf",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2305_5_3_7|",
+    "original": "\"I got here as fast as I could. That guard did a wonderful job delivering your babies. I've run all the tests,\" the midwife says. \"There's not a single health problem. Have you thought of their names?\" the midwife asks.",
+    "translation": "",
+    "pos": 998
+  },
+  {
+    "passage": "Pregnancy Birth Prison Wolf 2",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2320_5_3_7|",
+    "original": "You cradle your <<childtype>> for a while longer, enjoying <<childhis>> tiny breaths and movements. <<childHe>> spends most of the time sleeping, but opens <<childhis>> eyes occasionally, and gazes into yours.",
+    "translation": "",
+    "pos": 124
+  },
+  {
+    "passage": "Pregnancy Birth Prison Wolf 2",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2322_5_3_7|",
+    "original": "The midwife returns.",
+    "translation": "",
+    "pos": 345
+  },
+  {
+    "passage": "Pregnancy Birth Prison Wolf 2",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2323_5_3_7|",
+    "original": "\"Let me know when you're feeling sleepy,\" <<he>> says. \"You need your rest as well, and we can take care of your pup in the meantime.\"",
+    "translation": "",
+    "pos": 367
+  },
+  {
+    "passage": "Pregnancy Birth Prison Wolf 2",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2325_5_3_7|",
+    "original": "You want nothing more than to hold <<childname>>, but you find yourself dozing all the same.",
+    "translation": "",
+    "pos": 513
+  },
+  {
+    "passage": "Pregnancy Birth Prison Wolf 2",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2328_5_3_7|",
+    "original": "You cradle your pups for a while longer, enjoying their tiny breaths and movements. They spend most of the time sleeping, but open their eyes occasionally, and gaze into yours.",
+    "translation": "",
+    "pos": 626
+  },
+  {
+    "passage": "Pregnancy Birth Prison Wolf 2",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2330_5_3_7|",
+    "original": "The midwife returns.",
+    "translation": "",
+    "pos": 814
+  },
+  {
+    "passage": "Pregnancy Birth Prison Wolf 2",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2331_5_3_7|",
+    "original": "\"Let me know when you're feeling sleepy,\" <<he>> says. \"You need your rest as well, and we can take care of your pups in the meantime.\"",
+    "translation": "",
+    "pos": 836
+  },
+  {
+    "passage": "Pregnancy Birth Prison Wolf 2",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2333_5_3_7|",
+    "original": "You want nothing more than to hold them, but you find yourself dozing all the same.",
+    "translation": "",
+    "pos": 983
+  },
+  {
+    "passage": "Pregnancy Birth Prison Wolf 2",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2337_5_3_7|",
+    "original": "<<link [[Next|Pregnancy Birth Prison Wolf 3]]>><<storeon \"prison_birth\">><<pass 24 hour>><<stress -40>><</link>>",
+    "translation": "",
+    "pos": 1086
+  },
+  {
+    "passage": "Pregnancy Birth Prison Wolf 3",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2343_5_3_7|",
+    "original": "<<if $litter_size gte 2>><<childrenNames $bornChildrenIds>> lie<<else>><<childname>> lies<</if>> in a cradle while the midwife helps you stand.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Pregnancy Birth Prison Wolf 3",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2346_5_3_7|",
+    "original": "You feel your insides drop as you stand, but <<he>> assures you that's normal.",
+    "translation": "",
+    "pos": 216
+  },
+  {
+    "passage": "Pregnancy Birth Prison Wolf 3",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2349_5_3_7|",
+    "original": "Despite the pain, you feel a lot more comfortable walking than you did before the birth. You'd forgotten how easy it is to move without wolves inside you.",
+    "translation": "",
+    "pos": 307
+  },
+  {
+    "passage": "Pregnancy Birth Prison Wolf 3",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2352_5_3_7|",
+    "original": "The midwife helps you to dress.",
+    "translation": "",
+    "pos": 474
+  },
+  {
+    "passage": "Pregnancy Birth Prison Wolf 3",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2354_5_3_7|",
+    "original": "You feel your insides drop as you stand. You remember this feeling from your last birth, and know it's normal.",
+    "translation": "",
+    "pos": 562
+  },
+  {
+    "passage": "Pregnancy Birth Prison Wolf 3",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2357_5_3_7|",
+    "original": "Despite the pain, you feel a lot more comfortable walking than you did before the birth. You'd forgotten how easy it is to move without wolves inside you.",
+    "translation": "",
+    "pos": 685
+  },
+  {
+    "passage": "Pregnancy Birth Prison Wolf 3",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2360_5_3_7|",
+    "original": "The midwife helps you to dress.",
+    "translation": "",
+    "pos": 852
+  },
+  {
+    "passage": "Pregnancy Birth Prison Wolf 3",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2362_5_3_7|",
+    "original": "You feel your insides drop as you stand. You're still not used to the feeling.",
+    "translation": "",
+    "pos": 940
+  },
+  {
+    "passage": "Pregnancy Birth Prison Wolf 3",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2365_5_3_7|",
+    "original": "You get walking again quite easily. It's a little awkward, but the transition isn't as bad as it used to be. It's still easier to move around when there isn't a litter of wolves inside you.",
+    "translation": "",
+    "pos": 1031
+  },
+  {
+    "passage": "Pregnancy Birth Prison Wolf 3",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2368_5_3_7|",
+    "original": "The midwife still insists on helping you dress.",
+    "translation": "",
+    "pos": 1233
+  },
+  {
+    "passage": "Pregnancy Birth Prison Wolf 3",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2370_5_3_7|",
+    "original": "You stand up without a hitch. There's hardly any difference in feeling anymore, although you do feel much more nimble.",
+    "translation": "",
+    "pos": 1338
+  },
+  {
+    "passage": "Pregnancy Birth Prison Wolf 3",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2373_5_3_7|",
+    "original": "<<He>> looks impressed at your mobility, only keeping an arm around you for stability. \"I don't see many people get back up that quickly. You must be hardy!\"",
+    "translation": "",
+    "pos": 1469
+  },
+  {
+    "passage": "Pregnancy Birth Prison Wolf 3",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2376_5_3_7|",
+    "original": "The midwife still insists on helping you dress.",
+    "translation": "",
+    "pos": 1639
+  },
+  {
+    "passage": "Pregnancy Birth Prison Wolf 3",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2378_5_3_7|",
+    "original": "You stand up without assistance, feeling empty inside. You already miss the feeling of being pregnant.",
+    "translation": "",
+    "pos": 1735
+  },
+  {
+    "passage": "Pregnancy Birth Prison Wolf 3",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2381_5_3_7|",
+    "original": "<<He>> stares at you, mouth agape, as you walk without any assistance. You throw your clothes back on quickly.",
+    "translation": "",
+    "pos": 1850
+  },
+  {
+    "passage": "Pregnancy Birth Prison Wolf 3",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2384_5_3_7|",
+    "original": "\"Y-you should be good to go,\" <<he>> says.",
+    "translation": "",
+    "pos": 1973
+  },
+  {
+    "passage": "Pregnancy Birth Prison Wolf 3",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2386_5_3_7|",
+    "original": "\"The pups will be released into the forest once they can fend for themselves.\"",
+    "translation": "",
+    "pos": 2024
+  },
+  {
+    "passage": "Pregnancy Birth Prison Wolf 3",
+    "filepath": "overworld-town/loc-prison/main.twee",
+    "key": "2389_5_3_7|",
+    "original": "<<link [[Next|Pregnancy Birth Prison 6]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 2113
+  }
+]

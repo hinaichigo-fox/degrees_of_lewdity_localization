@@ -1,0 +1,722 @@
+[
+  {
+    "passage": "Prison Wren Intro",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "4_5_3_7|",
+    "original": "<<He>> reaches into <<his>> pocket, and produces a white, translucent gem between thumb and forefinger. \"We call these shark's teeth,\" <<he>> says. \"The birds here fish them from the water. Sometimes they end up down here.\"",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Prison Wren Intro",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "7_5_3_7|",
+    "original": "<<He>> puts the tooth away. \"If you find some, <span class=\"gold\">find me in the yard on Fridays, after lunch.</span>\" <<He>> smiles. \"I'll make it worth your while.\"",
+    "translation": "",
+    "pos": 247
+  },
+  {
+    "passage": "Prison Wren Intro",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "11_5_3_7|",
+    "original": "<span class=\"gold\">\"The name's Wren,\"</span> <<he>> says as <<he>> brushes past you. \"Until we meet again.\"",
+    "translation": "",
+    "pos": 450
+  },
+  {
+    "passage": "Prison Wren Intro",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "17_5_3_7|",
+    "original": "<<= $phase is \"intro\" ? \"This is the person that 'Mickey' wanted you to deliver the letter to.\" : \"'Mickey' wanted you to deliver the letter to Wren.\">> However, <span class=\"red\">the guards confiscated the letter alongside your personal belongings.</span>",
+    "translation": "",
+    "pos": 705
+  },
+  {
+    "passage": "Prison Wren Intro",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "21_5_3_7|",
+    "original": "<<link [[Next|Prison Yard]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 981
+  },
+  {
+    "passage": "Prison Wren",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "28_5_3_7|",
+    "original": "Wren smiles at you. \"If you've got teeth,\" <<he>> says. \"I have some goodies from the outside.\"",
+    "translation": "",
+    "pos": 39
+  },
+  {
+    "passage": "Prison Wren",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "31_5_3_7|",
+    "original": "<span class=\"gold\">You have<<tendingicon \"sharks_teeth\">><<number $prison.teeth>> shark's <<= $prison.teeth gt 1 ? \"teeth\" : \"tooth\">>.</span>",
+    "translation": "",
+    "pos": 145
+  },
+  {
+    "passage": "Prison Wren",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "34_5_3_7|",
+    "original": "<<prisonicon \"clothingselection\">><<link [[Clothing selection|Prison Wren Clothes]]>><</link>>",
+    "translation": "",
+    "pos": 298
+  },
+  {
+    "passage": "Prison Wren",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "38_5_3_7|",
+    "original": "Small hammer: <span class=\"gold\">20</span> teeth",
+    "translation": "",
+    "pos": 427
+  },
+  {
+    "passage": "Prison Wren",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "41_5_3_7|",
+    "original": "<<prisonicon \"hammer\">><<link [[Buy|Prison Wren Hammer]]>><<prison_teeth -20>><<set $prison.hammer to 1>><</link>>",
+    "translation": "",
+    "pos": 513
+  },
+  {
+    "passage": "Prison Wren",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "43_5_3_7|",
+    "original": "<span class=\"blue\">You need more teeth.</span>",
+    "translation": "",
+    "pos": 640
+  },
+  {
+    "passage": "Prison Wren",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "48_5_3_7|",
+    "original": "Mirror: <span class=\"gold\">30</span> teeth",
+    "translation": "",
+    "pos": 745
+  },
+  {
+    "passage": "Prison Wren",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "51_5_3_7|",
+    "original": "<<prisonicon \"mirror\">><<link [[Buy|Prison Wren Mirror]]>><<prison_teeth -30>><<set $prison.mirror to 1>><</link>>",
+    "translation": "",
+    "pos": 825
+  },
+  {
+    "passage": "Prison Wren",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "53_5_3_7|",
+    "original": "<span class=\"blue\">You need more teeth.</span>",
+    "translation": "",
+    "pos": 952
+  },
+  {
+    "passage": "Prison Wren",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "58_5_3_7|",
+    "original": "Code to the locked room in medical: <span class=\"gold\">50</span> teeth",
+    "translation": "",
+    "pos": 1055
+  },
+  {
+    "passage": "Prison Wren",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "61_5_3_7|",
+    "original": "<<prisonicon \"code\">><<link [[Buy|Prison Wren Code]]>><<prison_teeth -50>><<set $prison.code to 1>><</link>>",
+    "translation": "",
+    "pos": 1163
+  },
+  {
+    "passage": "Prison Wren",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "63_5_3_7|",
+    "original": "<span class=\"blue\">You need more teeth.</span>",
+    "translation": "",
+    "pos": 1284
+  },
+  {
+    "passage": "Prison Wren",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "68_5_3_7|",
+    "original": "Poster of a sexy gentleman: <span class=\"gold\">50</span> teeth",
+    "translation": "",
+    "pos": 1393
+  },
+  {
+    "passage": "Prison Wren",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "71_5_3_7|",
+    "original": "<<prisonicon \"man\">><<link [[Buy|Prison Wren Poster]]>><<set $poster_choice to \"man\">><<set $phase to 0>><</link>>",
+    "translation": "",
+    "pos": 1493
+  },
+  {
+    "passage": "Prison Wren",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "73_5_3_7|",
+    "original": "<span class=\"blue\">You need more teeth.</span>",
+    "translation": "",
+    "pos": 1620
+  },
+  {
+    "passage": "Prison Wren",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "78_5_3_7|",
+    "original": "Poster of a sexy lady: <span class=\"gold\">50</span> teeth",
+    "translation": "",
+    "pos": 1731
+  },
+  {
+    "passage": "Prison Wren",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "81_5_3_7|",
+    "original": "<<prisonicon \"woman\">><<link [[Buy|Prison Wren Poster]]>><<set $poster_choice to \"woman\">><<set $phase to 0>><</link>>",
+    "translation": "",
+    "pos": 1826
+  },
+  {
+    "passage": "Prison Wren",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "83_5_3_7|",
+    "original": "<span class=\"blue\">You need more teeth.</span>",
+    "translation": "",
+    "pos": 1957
+  },
+  {
+    "passage": "Prison Wren",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "88_5_3_7|",
+    "original": "Poster of a cute puppy: <span class=\"gold\">50</span> teeth",
+    "translation": "",
+    "pos": 2068
+  },
+  {
+    "passage": "Prison Wren",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "91_5_3_7|",
+    "original": "<<prisonicon \"puppy\">><<link [[Buy|Prison Wren Poster]]>><<set $poster_choice to \"puppy\">><<set $phase to 0>><</link>>",
+    "translation": "",
+    "pos": 2164
+  },
+  {
+    "passage": "Prison Wren",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "93_5_3_7|",
+    "original": "<span class=\"blue\">You need more teeth.</span>",
+    "translation": "",
+    "pos": 2295
+  },
+  {
+    "passage": "Prison Wren",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "98_5_3_7|",
+    "original": "Rope: <span class=\"gold\">100</span> teeth",
+    "translation": "",
+    "pos": 2391
+  },
+  {
+    "passage": "Prison Wren",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "101_5_3_7|",
+    "original": "<<prisonicon \"rope\">><<link [[Buy|Prison Wren Rope]]>><<prison_teeth -100>><<set $prison.rope to 1>><</link>>",
+    "translation": "",
+    "pos": 2471
+  },
+  {
+    "passage": "Prison Wren",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "103_5_3_7|",
+    "original": "<span class=\"blue\">You need more teeth.</span>",
+    "translation": "",
+    "pos": 2593
+  },
+  {
+    "passage": "Prison Wren",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "108_5_3_7|",
+    "original": "You have no more use for your large iron key. Wren offers you <span class=\"gold\">200</span> teeth for it.",
+    "translation": "",
+    "pos": 2724
+  },
+  {
+    "passage": "Prison Wren",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "110_5_3_7|",
+    "original": "<<lockicon \"iron key\">><<link [[Sell|Prison Wren Yard Key]]>><<set $prison.yard_key to 0>><<prison_teeth 200>><</link>>",
+    "translation": "",
+    "pos": 2837
+  },
+  {
+    "passage": "Prison Wren",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "114_5_3_7|",
+    "original": "<<socialiseicon \"ask\">><<link [[Ask about escape|Prison Wren Ask]]>><</link>>",
+    "translation": "",
+    "pos": 2976
+  },
+  {
+    "passage": "Prison Wren",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "117_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Prison Yard]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 3064
+  },
+  {
+    "passage": "Prison Wren Clothes",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "127_5_3_7|",
+    "original": "name:\"panties\",",
+    "translation": "",
+    "pos": 109
+  },
+  {
+    "passage": "Prison Wren Clothes",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "133_5_3_7|",
+    "original": "name:\"briefs\",",
+    "translation": "",
+    "pos": 188
+  },
+  {
+    "passage": "Prison Wren Clothes",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "139_5_3_7|",
+    "original": "name:\"bra\",",
+    "translation": "",
+    "pos": 267
+  },
+  {
+    "passage": "Prison Wren Clothes",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "145_5_3_7|",
+    "original": "name:\"vest\",",
+    "translation": "",
+    "pos": 343
+  },
+  {
+    "passage": "Prison Wren Clothes",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "151_5_3_7|",
+    "original": "name:\"shirt\",",
+    "translation": "",
+    "pos": 420
+  },
+  {
+    "passage": "Prison Wren Clothes",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "157_5_3_7|",
+    "original": "name:\"trousers\",",
+    "translation": "",
+    "pos": 493
+  },
+  {
+    "passage": "Prison Wren Clothes",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "163_5_3_7|",
+    "original": "name:\"jumpsuit\",",
+    "translation": "",
+    "pos": 569
+  },
+  {
+    "passage": "Prison Wren Clothes",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "172_5_3_7|",
+    "original": "<<set _colorOptions = setup.clothes[_item.category].find(ele => ele.index === _item.index).colour_options.filter(item => item !== \"custom\");>>",
+    "translation": "",
+    "pos": 732
+  },
+  {
+    "passage": "Prison Wren Clothes",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "178_5_3_7|",
+    "original": "if (color !== undefined) return \"icon-\" + color.replace(\" \", \"-\");",
+    "translation": "",
+    "pos": 1077
+  },
+  {
+    "passage": "Prison Wren Clothes",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "181_5_3_7|",
+    "original": "<span class=\"gold\">You have<<tendingicon \"sharks_teeth\">><<number $prison.teeth>> shark's <<= $prison.teeth gt 1 ? \"teeth\" : \"tooth\">>.</span>",
+    "translation": "",
+    "pos": 1149
+  },
+  {
+    "passage": "Prison Wren Clothes",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "185_5_3_7|",
+    "original": "<<set _iconFile = setup.clothes[_item.category].find(ele => ele.index === _item.index).iconFile>>",
+    "translation": "",
+    "pos": 1341
+  },
+  {
+    "passage": "Prison Wren Clothes",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "188_5_3_7|",
+    "original": "<span class=\"capitalize\">_item.name</span>: <span class=\"gold\">_item.teeth</span> teeth",
+    "translation": "",
+    "pos": 1514
+  },
+  {
+    "passage": "Prison Wren Clothes",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "191_5_3_7|",
+    "original": "<span @class=\"_colorClass($pickedColor[_item.name])\"><<icon _icon>></span>",
+    "translation": "",
+    "pos": 1648
+  },
+  {
+    "passage": "Prison Wren Clothes",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "193_5_3_7|",
+    "original": "<<link [[Buy|Prison Wren Clothes Buy]]>>",
+    "translation": "",
+    "pos": 1766
+  },
+  {
+    "passage": "Prison Wren Clothes",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "197_5_3_7|",
+    "original": "<<case \"under_lower\">>",
+    "translation": "",
+    "pos": 1906
+  },
+  {
+    "passage": "Prison Wren Clothes",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "199_5_3_7|",
+    "original": "<<case \"under_upper\">>",
+    "translation": "",
+    "pos": 2015
+  },
+  {
+    "passage": "Prison Wren Clothes",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "201_5_3_7|",
+    "original": "<<case \"lower\">>",
+    "translation": "",
+    "pos": 2124
+  },
+  {
+    "passage": "Prison Wren Clothes",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "203_5_3_7|",
+    "original": "<<case \"upper\">>",
+    "translation": "",
+    "pos": 2197
+  },
+  {
+    "passage": "Prison Wren Clothes",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "209_5_3_7|",
+    "original": "<span class=\"blue\">You need more teeth.</span>",
+    "translation": "",
+    "pos": 2321
+  },
+  {
+    "passage": "Prison Wren Clothes",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "214_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Prison Wren]]>><<unset $pickedColor>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 2397
+  },
+  {
+    "passage": "Prison Wren Clothes Buy",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "221_5_3_7|",
+    "original": "<<case \"panties\" \"briefs\">>",
+    "translation": "",
+    "pos": 32
+  },
+  {
+    "passage": "Prison Wren Clothes Buy",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "222_5_3_7|",
+    "original": "\"They'll be sent to your cell,\" Wren says. \"I don't think the staff even bother to order their own. Everyone comes to me.\"",
+    "translation": "",
+    "pos": 62
+  },
+  {
+    "passage": "Prison Wren Clothes Buy",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "223_5_3_7|",
+    "original": "<<case \"bra\" \"vest\">>",
+    "translation": "",
+    "pos": 186
+  },
+  {
+    "passage": "Prison Wren Clothes Buy",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "224_5_3_7|",
+    "original": "\"It'll be sent to your cell,\" Wren says. \"I'm basically an underwear <<= $pronoun is \"m\" ? \"salesman\" : \"saleswoman\">>.\"",
+    "translation": "",
+    "pos": 210
+  },
+  {
+    "passage": "Prison Wren Clothes Buy",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "225_5_3_7|",
+    "original": "<<case \"shirt\">>",
+    "translation": "",
+    "pos": 332
+  },
+  {
+    "passage": "Prison Wren Clothes Buy",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "226_5_3_7|",
+    "original": "\"It'll be sent to your cell,\" Wren says. \"I like the old fashioned style. Might be why I enjoy the estate so much.\"",
+    "translation": "",
+    "pos": 351
+  },
+  {
+    "passage": "Prison Wren Clothes Buy",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "227_5_3_7|",
+    "original": "<<case \"trousers\">>",
+    "translation": "",
+    "pos": 468
+  },
+  {
+    "passage": "Prison Wren Clothes Buy",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "228_5_3_7|",
+    "original": "\"They'll be sent to your cell,\" Wren says. \"Don't worry if they get a little muddy.\"",
+    "translation": "",
+    "pos": 490
+  },
+  {
+    "passage": "Prison Wren Clothes Buy",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "229_5_3_7|",
+    "original": "<<case \"jumpsuit\">>",
+    "translation": "",
+    "pos": 576
+  },
+  {
+    "passage": "Prison Wren Clothes Buy",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "230_5_3_7|",
+    "original": "\"It'll be sent to your cell,\" Wren says. \"I hear the prison has a ton of these, but they only give the one to newcomers.\"",
+    "translation": "",
+    "pos": 598
+  },
+  {
+    "passage": "Prison Wren Clothes Buy",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "234_5_3_7|",
+    "original": "<<link [[Next|Prison Wren Clothes]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 742
+  },
+  {
+    "passage": "Prison Wren Code",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "240_5_3_7|",
+    "original": "Wren passes you a note with a four-digit number written down. \"Dunno what they keep in there,\" <<he>> says. \"Must be important though. Careful not to get caught. If you are caught, we've never met.\"",
+    "translation": "",
+    "pos": 32
+  },
+  {
+    "passage": "Prison Wren Code",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "243_5_3_7|",
+    "original": "<<link [[Next|Prison Wren]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 241
+  },
+  {
+    "passage": "Prison Wren Rope",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "249_5_3_7|",
+    "original": "\"Strong and long,\" Wren says. It looks like <<he>> wants to say something else, but <<he>> contents <<himself>> with a smirk.",
+    "translation": "",
+    "pos": 32
+  },
+  {
+    "passage": "Prison Wren Rope",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "252_5_3_7|",
+    "original": "<<link [[Next|Prison Wren]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 168
+  },
+  {
+    "passage": "Prison Wren Yard Key",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "258_5_3_7|",
+    "original": "Wren hands you the teeth. \"Good to have a spare.\" <<He>> smiles.",
+    "translation": "",
+    "pos": 40
+  },
+  {
+    "passage": "Prison Wren Yard Key",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "261_5_3_7|",
+    "original": "<<link [[Next|Prison Wren]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 115
+  },
+  {
+    "passage": "Prison Wren Mirror",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "267_5_3_7|",
+    "original": "Wren hands you a shard of reflective glass. \"Watch the edges,\" <<he>> says. \"I don't carry bandages.\"",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Prison Wren Mirror",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "270_5_3_7|",
+    "original": "<span class=\"gold\">You now have a mirror. You can use it in your cell.</span>",
+    "translation": "",
+    "pos": 125
+  },
+  {
+    "passage": "Prison Wren Mirror",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "273_5_3_7|",
+    "original": "<<link [[Next|Prison Wren]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 213
+  },
+  {
+    "passage": "Prison Wren Hammer",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "279_5_3_7|",
+    "original": "Wren hands you a small hammer, barely the size of your thumb. \"Hope you weren't expecting bigger,\" <<he>> says. \"Can't bring in whatever I like.\"",
+    "translation": "",
+    "pos": 44
+  },
+  {
+    "passage": "Prison Wren Hammer",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "282_5_3_7|",
+    "original": "<span class=\"gold\">You now have a small hammer.</span>",
+    "translation": "",
+    "pos": 200
+  },
+  {
+    "passage": "Prison Wren Hammer",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "285_5_3_7|",
+    "original": "<<link [[Next|Prison Wren]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 265
+  },
+  {
+    "passage": "Prison Wren Poster",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "293_5_3_7|",
+    "original": "\"I'll be taking the old one back,\" <<he>> says. \"Consider it a favour. Too much garnish attracts the gawkers.\"",
+    "translation": "",
+    "pos": 55
+  },
+  {
+    "passage": "Prison Wren Poster",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "296_5_3_7|",
+    "original": "<<He>> rolls the teeth in <<his>> palm. \"You still in?\"",
+    "translation": "",
+    "pos": 178
+  },
+  {
+    "passage": "Prison Wren Poster",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "299_5_3_7|",
+    "original": "<<link [[Replace your poster|Prison Wren Poster]]>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 246
+  },
+  {
+    "passage": "Prison Wren Poster",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "301_5_3_7|",
+    "original": "<<link [[Nevermind|Prison Wren]]>><<unset $poster_choice>><</link>>",
+    "translation": "",
+    "pos": 333
+  },
+  {
+    "passage": "Prison Wren Poster",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "304_5_3_7|",
+    "original": "\"I'll have it put up in your cell,\" Wren says. \"Free of charge.\"",
+    "translation": "",
+    "pos": 417
+  },
+  {
+    "passage": "Prison Wren Poster",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "308_5_3_7|",
+    "original": "<span class=\"gold\">The poster on your cell wall has been replaced.</span>",
+    "translation": "",
+    "pos": 515
+  },
+  {
+    "passage": "Prison Wren Poster",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "310_5_3_7|",
+    "original": "<span class=\"gold\">You now have a poster on your cell wall.</span>",
+    "translation": "",
+    "pos": 601
+  },
+  {
+    "passage": "Prison Wren Poster",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "314_5_3_7|",
+    "original": "<<link [[Next|Prison Wren]]>><<prison_teeth -50>><<set $prison.poster to $poster_choice>><<unset $poster_choice>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 689
+  },
+  {
+    "passage": "Prison Wren Ask",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "321_5_3_7|",
+    "original": "\"People don't escape from here,\" Wren says. \"Only one person can steer a ship through the mist, and <<person2>><<hes>> not a mercenary. The watchers keep an eye out for swimmers. Doesn't matter anyway, as you can't reach the water. Best wait for the system to process you. Don't attract attention to yourself in the meantime.\"",
+    "translation": "",
+    "pos": 41
+  },
+  {
+    "passage": "Prison Wren Ask",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "324_5_3_7|",
+    "original": "\"That said,\" <<he>> continues. \"If you could reach the water, and the birds weren't willing or able to stop you, a strong swimmer might be able to make it.\" <<He>> shrugs. \"Fun to think about.\"",
+    "translation": "",
+    "pos": 389
+  },
+  {
+    "passage": "Prison Wren Ask",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "327_5_3_7|",
+    "original": "<<link [[Ask <<him>> how <<he>> gets in and out|Prison Wren Ask 2]]>><</link>>",
+    "translation": "",
+    "pos": 593
+  },
+  {
+    "passage": "Prison Wren Ask",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "329_5_3_7|",
+    "original": "<<link [[Leave|Prison Wren]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 677
+  },
+  {
+    "passage": "Prison Wren Ask 2",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "335_5_3_7|",
+    "original": "Wren smiles. \"That's <<= $prison_wren_boat_intro is 1 ? \"my\" : \"our\">> secret.\"",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Prison Wren Ask 2",
+    "filepath": "overworld-town/loc-prison/wren.twee",
+    "key": "338_5_3_7|",
+    "original": "<<link [[Next|Prison Wren]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 103
+  }
+]
