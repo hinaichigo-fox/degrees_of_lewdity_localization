@@ -1,0 +1,906 @@
+[
+  {
+    "passage": "Bondage Run",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "4_5_3_7|",
+    "original": "You hunch down and walk as fast as you dare. You keep near walls and stay well away from what you think are roads. You hope no one sees you in such a humiliating predicament, but at the same time you know you need help.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Bondage Hide",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "12_5_3_7|",
+    "original": "You hunch down beside a wall in what you hope is a sheltered position.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Bondage Wolf",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "20_5_3_7|",
+    "original": "You feel soil beneath your feet and hear <<if Time.hour gte 7 and Time.hour lte 20>>the distant sounds of the town.<<else>>a wolf howling disturbingly close.<</if>>",
+    "translation": "",
+    "pos": 84
+  },
+  {
+    "passage": "Bondage Wolf",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "31_5_3_7|",
+    "original": "<span class=\"green\">The tattered blindfold falls to pieces around your head, freeing you.</span> You squint against the light.",
+    "translation": "",
+    "pos": 431
+  },
+  {
+    "passage": "Bondage Wolf",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "41_5_3_7|",
+    "original": "<<link [[Run towards the sound of machinery (0:05)|Bondage Run]]>><<set $bus to \"nightingale\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 862
+  },
+  {
+    "passage": "Bondage Wolf",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "43_5_3_7|",
+    "original": "<<link [[Run towards the sound of the sea (0:05)|Bondage Run]]>><<set $bus to \"commercial\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1009
+  },
+  {
+    "passage": "Bondage Wolf",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "45_5_3_7|",
+    "original": "<<link [[Run towards the sound of traffic (0:05)|Bondage Run]]>><<set $bus to \"danube\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1153
+  },
+  {
+    "passage": "Bondage Wolf",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "47_5_3_7|",
+    "original": "<<link [[Hide (0:05)|Bondage Hide]]>><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1293
+  },
+  {
+    "passage": "Bondage Nightingale",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "57_5_3_7|",
+    "original": "You feel soil beneath your feet and hear <<if Time.hour gte 7 and Time.hour lte 20>>the distant sounds of the town.<<else>>a wolf howling disturbingly close.<</if>>",
+    "translation": "",
+    "pos": 90
+  },
+  {
+    "passage": "Bondage Nightingale",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "68_5_3_7|",
+    "original": "<span class=\"green\">The tattered blindfold falls to pieces around your head, freeing you.</span> You squint against the light.",
+    "translation": "",
+    "pos": 437
+  },
+  {
+    "passage": "Bondage Nightingale",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "78_5_3_7|",
+    "original": "<<link [[Run towards the sound of machinery (0:05)|Bondage Run]]>><<set $bus to \"elk\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 868
+  },
+  {
+    "passage": "Bondage Nightingale",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "80_5_3_7|",
+    "original": "<<link [[Run towards the sound of the sea (0:05)|Bondage Run]]>><<set $bus to \"park\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1007
+  },
+  {
+    "passage": "Bondage Nightingale",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "82_5_3_7|",
+    "original": "<<link [[Run towards the sound of traffic (0:05)|Bondage Run]]>><<set $bus to \"wolf\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1145
+  },
+  {
+    "passage": "Bondage Nightingale",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "84_5_3_7|",
+    "original": "<<link [[Hide (0:05)|Bondage Hide]]>><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1283
+  },
+  {
+    "passage": "Bondage Danube",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "94_5_3_7|",
+    "original": "You feel soil beneath your feet and hear <<if Time.hour gte 7 and Time.hour lte 20>>the distant sounds of the town.<<else>>a wolf howling disturbingly close.<</if>>",
+    "translation": "",
+    "pos": 85
+  },
+  {
+    "passage": "Bondage Danube",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "105_5_3_7|",
+    "original": "<span class=\"green\">The tattered blindfold falls to pieces around your head, freeing you.</span> You squint against the light.",
+    "translation": "",
+    "pos": 432
+  },
+  {
+    "passage": "Bondage Danube",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "115_5_3_7|",
+    "original": "<<link [[Run towards the sound of machinery (0:05)|Bondage Run]]>><<set $bus to \"wolf\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 863
+  },
+  {
+    "passage": "Bondage Danube",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "117_5_3_7|",
+    "original": "<<link [[Run towards the sound of the sea (0:05)|Bondage Run]]>><<set $bus to \"residential\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1003
+  },
+  {
+    "passage": "Bondage Danube",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "119_5_3_7|",
+    "original": "<<link [[Run towards the sound of traffic (0:05)|Bondage Run]]>><<set $bus to \"domus\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1148
+  },
+  {
+    "passage": "Bondage Danube",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "121_5_3_7|",
+    "original": "<<link [[Hide (0:05)|Bondage Hide]]>><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1287
+  },
+  {
+    "passage": "Bondage Park",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "131_5_3_7|",
+    "original": "You feel soil beneath your feet and hear <<if Time.hour gte 7 and Time.hour lte 20>>the distant sounds of the town.<<else>>a dog barking nearby.<</if>>",
+    "translation": "",
+    "pos": 83
+  },
+  {
+    "passage": "Bondage Park",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "142_5_3_7|",
+    "original": "<span class=\"green\">The tattered blindfold falls to pieces around your head, freeing you.</span> You squint against the light.",
+    "translation": "",
+    "pos": 417
+  },
+  {
+    "passage": "Bondage Park",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "152_5_3_7|",
+    "original": "<<link [[Run towards the sound of machinery (0:05)|Bondage Run]]>><<set $bus to \"oxford\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 848
+  },
+  {
+    "passage": "Bondage Park",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "154_5_3_7|",
+    "original": "<<link [[Run towards the sound of the sea (0:05)|Bondage Run]]>><<set $bus to \"starfish\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 990
+  },
+  {
+    "passage": "Bondage Park",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "156_5_3_7|",
+    "original": "<<link [[Run towards the sound of traffic (0:05)|Bondage Run]]>><<set $bus to \"high\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1132
+  },
+  {
+    "passage": "Bondage Park",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "158_5_3_7|",
+    "original": "<<link [[Run away from the sounds of the town (0:05)|Bondage Run]]>><<set $bus to \"nightingale\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1270
+  },
+  {
+    "passage": "Bondage Park",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "160_5_3_7|",
+    "original": "<<link [[Hide (0:05)|Bondage Hide]]>><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1419
+  },
+  {
+    "passage": "Bondage Elk",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "170_5_3_7|",
+    "original": "You hear heavy trucks rumbling nearby and smell acrid chemicals.",
+    "translation": "",
+    "pos": 82
+  },
+  {
+    "passage": "Bondage Elk",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "181_5_3_7|",
+    "original": "<span class=\"green\">The tattered blindfold falls to pieces around your head, freeing you.</span> You squint against the light.",
+    "translation": "",
+    "pos": 329
+  },
+  {
+    "passage": "Bondage Elk",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "191_5_3_7|",
+    "original": "<<link [[Run towards the sound of machinery (0:05)|Bondage Run]]>><<set $bus to \"harvest\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 759
+  },
+  {
+    "passage": "Bondage Elk",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "193_5_3_7|",
+    "original": "<<link [[Run towards the sound of the sea (0:05)|Bondage Run]]>><<set $bus to \"industrial\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 902
+  },
+  {
+    "passage": "Bondage Elk",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "195_5_3_7|",
+    "original": "<<link [[Run towards the sound of traffic (0:05)|Bondage Run]]>><<set $bus to \"oxford\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1046
+  },
+  {
+    "passage": "Bondage Elk",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "197_5_3_7|",
+    "original": "<<link [[Run away from the sounds of the town (0:05)|Bondage Run]]>><<set $bus to \"nightingale\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1186
+  },
+  {
+    "passage": "Bondage Elk",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "199_5_3_7|",
+    "original": "<<link [[Hide (0:05)|Bondage Hide]]>><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1335
+  },
+  {
+    "passage": "Bondage Harvest",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "209_5_3_7|",
+    "original": "You hear heavy trucks rumbling nearby and smell acrid chemicals.",
+    "translation": "",
+    "pos": 86
+  },
+  {
+    "passage": "Bondage Harvest",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "220_5_3_7|",
+    "original": "<span class=\"green\">The tattered blindfold falls to pieces around your head, freeing you.</span> You squint against the light.",
+    "translation": "",
+    "pos": 333
+  },
+  {
+    "passage": "Bondage Harvest",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "230_5_3_7|",
+    "original": "<<link [[Run towards the sound of the sea (0:05)|Bondage Run]]>><<set $bus to \"mer\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 763
+  },
+  {
+    "passage": "Bondage Harvest",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "232_5_3_7|",
+    "original": "<<link [[Run towards the sound of traffic (0:05)|Bondage Run]]>><<set $bus to \"industrial\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 900
+  },
+  {
+    "passage": "Bondage Harvest",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "234_5_3_7|",
+    "original": "<<link [[Run away from the sounds of the town (0:05)|Bondage Run]]>><<set $bus to \"elk\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1044
+  },
+  {
+    "passage": "Bondage Harvest",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "236_5_3_7|",
+    "original": "<<link [[Hide (0:05)|Bondage Hide]]>><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1185
+  },
+  {
+    "passage": "Bondage Oxford",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "246_5_3_7|",
+    "original": "You hear heavy trucks rumbling nearby and smell acrid chemicals.",
+    "translation": "",
+    "pos": 85
+  },
+  {
+    "passage": "Bondage Oxford",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "257_5_3_7|",
+    "original": "<span class=\"green\">The tattered blindfold falls to pieces around your head, freeing you.</span> You squint against the light.",
+    "translation": "",
+    "pos": 332
+  },
+  {
+    "passage": "Bondage Oxford",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "267_5_3_7|",
+    "original": "<<link [[Run towards the sound of machinery (0:05)|Bondage Run]]>><<set $bus to \"industrial\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 762
+  },
+  {
+    "passage": "Bondage Oxford",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "269_5_3_7|",
+    "original": "<<link [[Run towards the sound of the sea (0:05)|Bondage Run]]>><<set $bus to \"starfish\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 908
+  },
+  {
+    "passage": "Bondage Oxford",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "271_5_3_7|",
+    "original": "<<link [[Run towards the sound of traffic (0:05)|Bondage Run]]>><<set $bus to \"park\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1050
+  },
+  {
+    "passage": "Bondage Oxford",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "273_5_3_7|",
+    "original": "<<link [[Run away from the sounds of the town (0:05)|Bondage Run]]>><<set $bus to \"nightingale\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1188
+  },
+  {
+    "passage": "Bondage Oxford",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "275_5_3_7|",
+    "original": "<<link [[Hide (0:05)|Bondage Hide]]>><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1337
+  },
+  {
+    "passage": "Bondage Industrial",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "285_5_3_7|",
+    "original": "You hear heavy trucks rumbling nearby and smell acrid chemicals.",
+    "translation": "",
+    "pos": 89
+  },
+  {
+    "passage": "Bondage Industrial",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "296_5_3_7|",
+    "original": "<span class=\"green\">The tattered blindfold falls to pieces around your head, freeing you.</span> You squint against the light.",
+    "translation": "",
+    "pos": 336
+  },
+  {
+    "passage": "Bondage Industrial",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "306_5_3_7|",
+    "original": "<<link [[Run towards the sound of machinery (0:05)|Bondage Run]]>><<set $bus to \"harvest\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 766
+  },
+  {
+    "passage": "Bondage Industrial",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "308_5_3_7|",
+    "original": "<<link [[Run towards the sound of the sea (0:05)|Bondage Run]]>><<set $bus to \"mer\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 909
+  },
+  {
+    "passage": "Bondage Industrial",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "310_5_3_7|",
+    "original": "<<link [[Run towards the sound of traffic (0:05)|Bondage Run]]>><<set $bus to \"oxford\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1046
+  },
+  {
+    "passage": "Bondage Industrial",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "312_5_3_7|",
+    "original": "<<link [[Run away from the sounds of the town (0:05)|Bondage Run]]>><<set $bus to \"elk\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1186
+  },
+  {
+    "passage": "Bondage Industrial",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "314_5_3_7|",
+    "original": "<<link [[Hide (0:05)|Bondage Hide]]>><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1327
+  },
+  {
+    "passage": "Bondage Mer",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "324_5_3_7|",
+    "original": "You smell the sea and hear <<if Time.hour gte 7 and Time.hour lte 20>>the sound of distant dockwork.<<else>>waves breaking.<</if>>",
+    "translation": "",
+    "pos": 82
+  },
+  {
+    "passage": "Bondage Mer",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "336_5_3_7|",
+    "original": "<span class=\"green\">The tattered blindfold falls to pieces around your head, freeing you.</span> You squint against the light.",
+    "translation": "",
+    "pos": 397
+  },
+  {
+    "passage": "Bondage Mer",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "346_5_3_7|",
+    "original": "<<link [[Run towards the sound of machinery (0:05)|Bondage Run]]>><<set $bus to \"harvest\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 828
+  },
+  {
+    "passage": "Bondage Mer",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "348_5_3_7|",
+    "original": "<<link [[Run towards the sound of traffic (0:05)|Bondage Run]]>><<set $bus to \"starfish\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 971
+  },
+  {
+    "passage": "Bondage Mer",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "350_5_3_7|",
+    "original": "<<link [[Run away from the sounds of the town (0:05)|Bondage Run]]>><<set $bus to \"elk\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1113
+  },
+  {
+    "passage": "Bondage Mer",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "352_5_3_7|",
+    "original": "<<link [[Hide (0:05)|Bondage Hide]]>><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1254
+  },
+  {
+    "passage": "Bondage Starfish",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "362_5_3_7|",
+    "original": "You smell the sea and hear <<if Time.hour gte 7 and Time.hour lte 20>>the sound of distant dockwork.<<else>>waves breaking.<</if>>",
+    "translation": "",
+    "pos": 87
+  },
+  {
+    "passage": "Bondage Starfish",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "373_5_3_7|",
+    "original": "<span class=\"green\">The tattered blindfold falls to pieces around your head, freeing you.</span> You squint against the light.",
+    "translation": "",
+    "pos": 401
+  },
+  {
+    "passage": "Bondage Starfish",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "383_5_3_7|",
+    "original": "<<link [[Run towards the sound of machinery (0:05)|Bondage Run]]>><<set $bus to \"mer\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 832
+  },
+  {
+    "passage": "Bondage Starfish",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "385_5_3_7|",
+    "original": "<<link [[Run towards the sound of traffic (0:05)|Bondage Run]]>><<set $bus to \"cliff\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 971
+  },
+  {
+    "passage": "Bondage Starfish",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "387_5_3_7|",
+    "original": "<<link [[Run away from the sounds of the town (0:05)|Bondage Run]]>><<set $bus to \"park\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1110
+  },
+  {
+    "passage": "Bondage Starfish",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "389_5_3_7|",
+    "original": "<<link [[Hide (0:05)|Bondage Hide]]>><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1252
+  },
+  {
+    "passage": "Bondage Cliff",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "399_5_3_7|",
+    "original": "You smell the sea and hear <<if Time.hour gte 7 and Time.hour lte 20>>the sound of distant dockwork.<<else>>waves breaking.<</if>>",
+    "translation": "",
+    "pos": 84
+  },
+  {
+    "passage": "Bondage Cliff",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "410_5_3_7|",
+    "original": "<span class=\"green\">The tattered blindfold falls to pieces around your head, freeing you.</span> You squint against the light.",
+    "translation": "",
+    "pos": 398
+  },
+  {
+    "passage": "Bondage Cliff",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "420_5_3_7|",
+    "original": "<<link [[Run towards the sound of machinery (0:05)|Bondage Run]]>><<set $bus to \"starfish\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 829
+  },
+  {
+    "passage": "Bondage Cliff",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "422_5_3_7|",
+    "original": "<<link [[Run towards the sound of traffic (0:05)|Bondage Run]]>><<set $bus to \"barb\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 973
+  },
+  {
+    "passage": "Bondage Cliff",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "424_5_3_7|",
+    "original": "<<link [[Run away from the sounds of the town (0:05)|Bondage Run]]>><<set $bus to \"commercial\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1111
+  },
+  {
+    "passage": "Bondage Cliff",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "426_5_3_7|",
+    "original": "<<link [[Hide (0:05)|Bondage Hide]]>><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1259
+  },
+  {
+    "passage": "Bondage High",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "436_5_3_7|",
+    "original": "You smell the sea and hear <<if Time.hour gte 7 and Time.hour lte 20>>the sound of distant dockwork.<<else>>waves breaking.<</if>>",
+    "translation": "",
+    "pos": 83
+  },
+  {
+    "passage": "Bondage High",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "447_5_3_7|",
+    "original": "<span class=\"green\">The tattered blindfold falls to pieces around your head, freeing you.</span> You squint against the light.",
+    "translation": "",
+    "pos": 397
+  },
+  {
+    "passage": "Bondage High",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "457_5_3_7|",
+    "original": "<<link [[Run towards the sound of machinery (0:05)|Bondage Run]]>><<set $bus to \"park\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 828
+  },
+  {
+    "passage": "Bondage High",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "459_5_3_7|",
+    "original": "<<link [[Run towards the sound of the sea (0:05)|Bondage Run]]>><<set $bus to \"cliff\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 968
+  },
+  {
+    "passage": "Bondage High",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "461_5_3_7|",
+    "original": "<<link [[Run towards the sound of traffic (0:05)|Bondage Run]]>><<set $bus to \"commercial\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1107
+  },
+  {
+    "passage": "Bondage High",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "463_5_3_7|",
+    "original": "<<link [[Run away from the sounds of the town (0:05)|Bondage Run]]>><<set $bus to \"wolf\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1251
+  },
+  {
+    "passage": "Bondage High",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "465_5_3_7|",
+    "original": "<<link [[Hide (0:05)|Bondage Hide]]>><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1393
+  },
+  {
+    "passage": "Bondage Commercial",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "475_5_3_7|",
+    "original": "You smell the sea and hear <<if Time.hour gte 7 and Time.hour lte 20>>the sound of distant dockwork.<<else>>waves breaking.<</if>>",
+    "translation": "",
+    "pos": 89
+  },
+  {
+    "passage": "Bondage Commercial",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "486_5_3_7|",
+    "original": "<span class=\"green\">The tattered blindfold falls to pieces around your head, freeing you.</span> You squint against the light.",
+    "translation": "",
+    "pos": 403
+  },
+  {
+    "passage": "Bondage Commercial",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "496_5_3_7|",
+    "original": "<<link [[Run towards the sound of machinery (0:05)|Bondage Run]]>><<set $bus to \"high\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 834
+  },
+  {
+    "passage": "Bondage Commercial",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "498_5_3_7|",
+    "original": "<<link [[Run towards the sound of the sea (0:05)|Bondage Run]]>><<set $bus to \"barb\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 974
+  },
+  {
+    "passage": "Bondage Commercial",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "500_5_3_7|",
+    "original": "<<link [[Run towards the sound of traffic (0:05)|Bondage Run]]>><<set $bus to \"connudatus\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1112
+  },
+  {
+    "passage": "Bondage Commercial",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "502_5_3_7|",
+    "original": "<<link [[Run away from the sounds of the town (0:05)|Bondage Run]]>><<set $bus to \"danube\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1256
+  },
+  {
+    "passage": "Bondage Commercial",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "504_5_3_7|",
+    "original": "<<link [[Hide (0:05)|Bondage Hide]]>><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1400
+  },
+  {
+    "passage": "Bondage Connudatus",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "514_5_3_7|",
+    "original": "You feel pavement beneath your feet and hear <<if Time.hour gte 7 && Time.hour lte 20>>cars and pedestrians nearby.<<else>>the occasional car driving nearby.<</if>>",
+    "translation": "",
+    "pos": 89
+  },
+  {
+    "passage": "Bondage Connudatus",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "525_5_3_7|",
+    "original": "<span class=\"green\">The tattered blindfold falls to pieces around your head, freeing you.</span> You squint against the light.",
+    "translation": "",
+    "pos": 436
+  },
+  {
+    "passage": "Bondage Connudatus",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "535_5_3_7|",
+    "original": "<<link [[Run towards the sound of machinery (0:05)|Bondage Run]]>><<set $bus to \"commercial\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 866
+  },
+  {
+    "passage": "Bondage Connudatus",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "537_5_3_7|",
+    "original": "<<link [[Run towards the sound of the sea (0:05)|Bondage Run]]>><<set $bus to \"cliff\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1012
+  },
+  {
+    "passage": "Bondage Connudatus",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "539_5_3_7|",
+    "original": "<<link [[Run towards the sound of traffic (0:05)|Bondage Run]]>><<set $bus to \"residential\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1151
+  },
+  {
+    "passage": "Bondage Connudatus",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "541_5_3_7|",
+    "original": "<<link [[Run away from the sounds of the town (0:05)|Bondage Run]]>><<set $bus to \"danube\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1296
+  },
+  {
+    "passage": "Bondage Connudatus",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "543_5_3_7|",
+    "original": "<<link [[Hide (0:05)|Bondage Hide]]>><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1440
+  },
+  {
+    "passage": "Bondage Barb",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "553_5_3_7|",
+    "original": "You feel pavement beneath your feet and hear <<if Time.hour gte 7 && Time.hour lte 20>>cars and pedestrians nearby.<<else>>the occasional car driving nearby.<</if>>",
+    "translation": "",
+    "pos": 83
+  },
+  {
+    "passage": "Bondage Barb",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "564_5_3_7|",
+    "original": "<span class=\"green\">The tattered blindfold falls to pieces around your head, freeing you.</span> You squint against the light.",
+    "translation": "",
+    "pos": 430
+  },
+  {
+    "passage": "Bondage Barb",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "574_5_3_7|",
+    "original": "<<link [[Run towards the sound of machinery (0:05)|Bondage Run]]>><<set $bus to \"connudatus\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 860
+  },
+  {
+    "passage": "Bondage Barb",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "576_5_3_7|",
+    "original": "<<link [[Run towards the sound of the sea (0:05)|Bondage Run]]>><<set $bus to \"cliff\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1006
+  },
+  {
+    "passage": "Bondage Barb",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "578_5_3_7|",
+    "original": "<<link [[Run towards the sound of traffic (0:05)|Bondage Run]]>><<set $bus to \"domus\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1145
+  },
+  {
+    "passage": "Bondage Barb",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "580_5_3_7|",
+    "original": "<<link [[Run away from the sounds of the town (0:05)|Bondage Run]]>><<set $bus to \"danube\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1284
+  },
+  {
+    "passage": "Bondage Barb",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "582_5_3_7|",
+    "original": "<<link [[Hide (0:05)|Bondage Hide]]>><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1428
+  },
+  {
+    "passage": "Bondage Domus",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "592_5_3_7|",
+    "original": "You feel pavement beneath your feet and hear <<if Time.hour gte 7 && Time.hour lte 20>>cars and pedestrians nearby.<<else>>the occasional car driving nearby.<</if>>",
+    "translation": "",
+    "pos": 84
+  },
+  {
+    "passage": "Bondage Domus",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "603_5_3_7|",
+    "original": "<span class=\"green\">The tattered blindfold falls to pieces around your head, freeing you.</span> You squint against the light.",
+    "translation": "",
+    "pos": 431
+  },
+  {
+    "passage": "Bondage Domus",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "613_5_3_7|",
+    "original": "<<link [[Run towards the sound of machinery (0:05)|Bondage Run]]>><<set $bus to \"residential\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 861
+  },
+  {
+    "passage": "Bondage Domus",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "615_5_3_7|",
+    "original": "<<link [[Run towards the sound of the sea (0:05)|Bondage Run]]>><<set $bus to \"barb\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1008
+  },
+  {
+    "passage": "Bondage Domus",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "617_5_3_7|",
+    "original": "<<link [[Run away from the sounds of the town (0:05)|Bondage Run]]>><<set $bus to \"danube\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1146
+  },
+  {
+    "passage": "Bondage Domus",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "619_5_3_7|",
+    "original": "<<link [[Hide (0:05)|Bondage Hide]]>><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1290
+  },
+  {
+    "passage": "Bondage Residential",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "629_5_3_7|",
+    "original": "You feel pavement beneath your feet and hear <<if Time.hour gte 7 && Time.hour lte 20>>cars and pedestrians nearby.<<else>>the occasional car driving nearby.<</if>>",
+    "translation": "",
+    "pos": 90
+  },
+  {
+    "passage": "Bondage Residential",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "640_5_3_7|",
+    "original": "<span class=\"green\">The tattered blindfold falls to pieces around your head, freeing you.</span> You squint against the light.",
+    "translation": "",
+    "pos": 437
+  },
+  {
+    "passage": "Bondage Residential",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "650_5_3_7|",
+    "original": "<<link [[Run towards the sound of machinery (0:05)|Bondage Run]]>><<set $bus to \"connudatus\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 867
+  },
+  {
+    "passage": "Bondage Residential",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "652_5_3_7|",
+    "original": "<<link [[Run towards the sound of the sea (0:05)|Bondage Run]]>><<set $bus to \"barb\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1013
+  },
+  {
+    "passage": "Bondage Residential",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "654_5_3_7|",
+    "original": "<<link [[Run towards the sound of traffic (0:05)|Bondage Run]]>><<set $bus to \"domus\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1151
+  },
+  {
+    "passage": "Bondage Residential",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "656_5_3_7|",
+    "original": "<<link [[Run away from the sounds of the town (0:05)|Bondage Run]]>><<set $bus to \"danube\">><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1290
+  },
+  {
+    "passage": "Bondage Residential",
+    "filepath": "overworld-town/loc-street/bondage.twee",
+    "key": "658_5_3_7|",
+    "original": "<<link [[Hide (0:05)|Bondage Hide]]>><<pass 5>><<stress 3>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1434
+  }
+]

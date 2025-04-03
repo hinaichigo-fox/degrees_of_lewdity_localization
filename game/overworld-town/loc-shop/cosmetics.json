@@ -1,0 +1,530 @@
+[
+  {
+    "passage": "Cosmetics Lock",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "7_5_3_7|",
+    "original": "You think you'd be able to pick the lock, <span class=\"blue\">if your arms weren't bound.</span>",
+    "translation": "",
+    "pos": 158
+  },
+  {
+    "passage": "Cosmetics Lock",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "11_5_3_7|",
+    "original": "<span class=\"green\">The lock looks easy to pick.</span>",
+    "translation": "",
+    "pos": 303
+  },
+  {
+    "passage": "Cosmetics Lock",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "14_5_3_7|",
+    "original": "<<lockicon \"pick\">><<link [[Pick it (0:10)|Cosmetics Store]]>><<handheldon>><<pass 10>><<crimeUp 5 \"trespassing\">><</link>><<crime \"trespassing\">>",
+    "translation": "",
+    "pos": 373
+  },
+  {
+    "passage": "Cosmetics Lock",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "18_5_3_7|",
+    "original": "<span class=\"red\">The lock looks beyond your ability to pick.</span>",
+    "translation": "",
+    "pos": 546
+  },
+  {
+    "passage": "Cosmetics Lock",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "23_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Shopping Centre Top]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 659
+  },
+  {
+    "passage": "Cosmetics Store",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "28_5_3_7|",
+    "original": "You are in the cosmetics store. Several shelvings stand before you, filled with all kinds of colourful tubes, jars and boxes.",
+    "translation": "",
+    "pos": 72
+  },
+  {
+    "passage": "Cosmetics Store",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "32_5_3_7|",
+    "original": "<<shopicon \"register\">><<link [[Examine the cash register|Cosmetics Store Register]]>><</link>>",
+    "translation": "",
+    "pos": 297
+  },
+  {
+    "passage": "Cosmetics Store",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "35_5_3_7|",
+    "original": "<<cosmeticsicon>><<link [[Look at lipsticks|Cosmetics Lipstick]]>><</link>>",
+    "translation": "",
+    "pos": 411
+  },
+  {
+    "passage": "Cosmetics Store",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "37_5_3_7|",
+    "original": "<<cosmeticsicon \"eyeshadow\">><<link [[Look at eyeshadows|Cosmetics Eyeshadow]]>><</link>>",
+    "translation": "",
+    "pos": 492
+  },
+  {
+    "passage": "Cosmetics Store",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "39_5_3_7|",
+    "original": "<<cosmeticsicon \"mascara\">><<link [[Look at mascaras|Cosmetics Mascara]]>><</link>>",
+    "translation": "",
+    "pos": 587
+  },
+  {
+    "passage": "Cosmetics Store",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "41_5_3_7|",
+    "original": "<<cosmeticsicon \"blusher\">><<link [[Look at blushers|Cosmetics Blusher]]>><</link>>",
+    "translation": "",
+    "pos": 676
+  },
+  {
+    "passage": "Cosmetics Store",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "43_5_3_7|",
+    "original": "<<cosmeticsicon \"dyes\">><<link [[Look at hair dyes|Cosmetics Dyes]]>><</link>>",
+    "translation": "",
+    "pos": 765
+  },
+  {
+    "passage": "Cosmetics Store",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "45_5_3_7|",
+    "original": "<<cosmeticsicon \"sunscreen\">><<link [[Look at sunscreen|Cosmetics Sunscreen]]>><</link>>",
+    "translation": "",
+    "pos": 849
+  },
+  {
+    "passage": "Cosmetics Store",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "47_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Shopping Centre Top]]>><</link>>",
+    "translation": "",
+    "pos": 947
+  },
+  {
+    "passage": "Cosmetics Lipstick",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "50_5_3_7|",
+    "original": "<<CosmeticsGenericDepartment \"lipstick\" \"lipstick\" \"lipsticks\" \"lipstick\" \"\" \"#FF0000\" 1000 \"Cosmetics Lipstick\" \"A bunch of colourful lipsticks stand on a shelf.\" true true 20 `setup.colours.lipstick.map(c=>c.variable)`>>",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Cosmetics Eyeshadow",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "53_5_3_7|",
+    "original": "<<CosmeticsGenericDepartment \"eyeshadow\" \"eyeshadow\" \"eyeshadows\" \"eyeshadow\" \"\" \"#FF0000\" 1500 \"Cosmetics Eyeshadow\" \"Small boxes of sparkly eyeshadow lie before you.\" true true 20 `setup.colours.eyeshadow.map(c=>c.variable)`>>",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Cosmetics Mascara",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "56_5_3_7|",
+    "original": "<<CosmeticsGenericDepartment \"mascara\" \"mascara\" \"mascaras\" \"mascara\" \"\" \"#FF0000\" 1500 \"Cosmetics Mascara\" \"There's a dozen mascaras lying before you. They're all black though.\" true true 20 `setup.colours.mascara.map(c=>c.variable)`>>",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Cosmetics Blusher",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "59_5_3_7|",
+    "original": "<<CosmeticsGenericDepartment \"blusher\" \"blusher\" \"blushers\" \"blusher\" \"\" \"#FF0000\" 1500 \"Cosmetics Blusher\" \"Several blusher compacts lie before you. One of them looks like it would go well with your skin tone.\" true true 20 `setup.colours.blusher.map(c=>c.variable)`>>",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Cosmetics Dyes",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "62_5_3_7|",
+    "original": "<<CosmeticsGenericDepartment \"hairdye\" \"hair dye\" \"hair dyes\" \"hair\" \"colour-hair\" \"#FD6064\" 4000 \"Cosmetics Dyes\" \"You come to the shelf with hair dyes.\" false true 1 `setup.colours.hair.filter(c=>c.dye).map(c=>c.variable)`>>",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Cosmetics Sunscreen",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "69_5_3_7|",
+    "original": "You come to a shelf with many bottles of sunscreen.",
+    "translation": "",
+    "pos": 148
+  },
+  {
+    "passage": "Cosmetics Sunscreen",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "73_5_3_7|",
+    "original": "You already own <<print _ownedBottles>> bottle<<if _ownedBottles gt 1>>s<</if>>, with <<print Skin.Sunscreen.usesLeft>> use<<if Skin.Sunscreen.usesLeft gt 1>>s<</if>> left.",
+    "translation": "",
+    "pos": 322
+  },
+  {
+    "passage": "Cosmetics Sunscreen",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "77_5_3_7|",
+    "original": "Each bottle costs <<printmoney _sunscreen.price>> and has <<print _sunscreen.uses>> uses. Each use lasts around <<print _sunscreen.durationHours>> hour<<if _sunscreen.durationHours isnot 1>>s<</if>>.",
+    "translation": "",
+    "pos": 513
+  },
+  {
+    "passage": "Cosmetics Sunscreen",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "80_5_3_7|",
+    "original": "<<link [[Steal a bottle|Cosmetics Sunscreen]]>>",
+    "translation": "",
+    "pos": 751
+  },
+  {
+    "passage": "Cosmetics Sunscreen",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "85_5_3_7|",
+    "original": "<<link [[Steal a bottle and apply right now|Cosmetics Sunscreen]]>>",
+    "translation": "",
+    "pos": 937
+  },
+  {
+    "passage": "Cosmetics Sunscreen",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "91_5_3_7|",
+    "original": "<<link [[Buy a bottle (<<printmoney _sunscreen.price>>)|Cosmetics Sunscreen]]>>",
+    "translation": "",
+    "pos": 1209
+  },
+  {
+    "passage": "Cosmetics Sunscreen",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "96_5_3_7|",
+    "original": "<<link [[Buy a bottle and apply right now (<<printmoney _sunscreen.price>>)|Cosmetics Sunscreen]]>>",
+    "translation": "",
+    "pos": 1401
+  },
+  {
+    "passage": "Cosmetics Sunscreen",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "102_5_3_7|",
+    "original": "<span class=\"purple\">You can't afford the purchase.</span>",
+    "translation": "",
+    "pos": 1649
+  },
+  {
+    "passage": "Cosmetics Sunscreen",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "105_5_3_7|",
+    "original": "<<link [[Go back|Cosmetics Store]]>><</link>>",
+    "translation": "",
+    "pos": 1725
+  },
+  {
+    "passage": "Cosmetics Store Widgets",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "110_5_3_7|",
+    "original": "<<if _args.length < 13>>",
+    "translation": "",
+    "pos": 41
+  },
+  {
+    "passage": "Cosmetics Store Widgets",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "111_5_3_7|",
+    "original": "<div class=\"red\">Error in passage \"Cosmetics Generic Department\". Missing arguments.<br><<print _args>></div>",
+    "translation": "",
+    "pos": 68
+  },
+  {
+    "passage": "Cosmetics Store Widgets",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "131_5_3_7|",
+    "original": "_textIntro",
+    "translation": "",
+    "pos": 761
+  },
+  {
+    "passage": "Cosmetics Store Widgets",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "133_5_3_7|",
+    "original": "<<if $makeup.owned[_itemType].length > 0>>",
+    "translation": "",
+    "pos": 807
+  },
+  {
+    "passage": "Cosmetics Store Widgets",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "135_5_3_7|",
+    "original": "You already own _itemPlural of the following colours:",
+    "translation": "",
+    "pos": 861
+  },
+  {
+    "passage": "Cosmetics Store Widgets",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "137_5_3_7|",
+    "original": "<span class=\"grey-shadow\"><span @class=\"_cssClassOuter + '-' + _colour.replace(/ /g, '-')\"><span @class=\"_cssClassInner\"><span @style=\"'color:' + _baseColour + ';'\"><<print setup.colourName(_colour)>></span></span></span></span>",
+    "translation": "",
+    "pos": 973
+  },
+  {
+    "passage": "Cosmetics Store Widgets",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "138_5_3_7|",
+    "original": "<<if _i < $makeup.owned[_itemType].length - 1>>, <</if>>",
+    "translation": "",
+    "pos": 1206
+  },
+  {
+    "passage": "Cosmetics Store Widgets",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "139_5_3_7|",
+    "original": "<</for>>.",
+    "translation": "",
+    "pos": 1266
+  },
+  {
+    "passage": "Cosmetics Store Widgets",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "142_5_3_7|",
+    "original": "<<set _owned = $makeup.owned[_itemType].filter(x => x.count > 0)>>",
+    "translation": "",
+    "pos": 1298
+  },
+  {
+    "passage": "Cosmetics Store Widgets",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "143_5_3_7|",
+    "original": "<<if _owned.length > 0>>",
+    "translation": "",
+    "pos": 1367
+  },
+  {
+    "passage": "Cosmetics Store Widgets",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "145_5_3_7|",
+    "original": "You already own _itemPlural of the following colours:",
+    "translation": "",
+    "pos": 1403
+  },
+  {
+    "passage": "Cosmetics Store Widgets",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "147_5_3_7|",
+    "original": "<<if _item.count > 0>>",
+    "translation": "",
+    "pos": 1495
+  },
+  {
+    "passage": "Cosmetics Store Widgets",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "148_5_3_7|",
+    "original": "<span class=\"grey-shadow\"><span @class=\"_cssClassOuter + '-' + _item.colour.replace(/ /g, '-')\"><span @class=\"_cssClassInner\"><span @style=\"'color:' + _baseColour + ';'\"><<print setup.colourName(_item.colour)>></span></span></span></span>",
+    "translation": "",
+    "pos": 1523
+  },
+  {
+    "passage": "Cosmetics Store Widgets",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "149_5_3_7|",
+    "original": "&nbsp;×&nbsp;_item.count",
+    "translation": "",
+    "pos": 1767
+  },
+  {
+    "passage": "Cosmetics Store Widgets",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "150_5_3_7|",
+    "original": "<<if _i < _owned.length - 1>>, <</if>>",
+    "translation": "",
+    "pos": 1797
+  },
+  {
+    "passage": "Cosmetics Store Widgets",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "152_5_3_7|",
+    "original": "<</for>>.",
+    "translation": "",
+    "pos": 1851
+  },
+  {
+    "passage": "Cosmetics Store Widgets",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "159_5_3_7|",
+    "original": "<<set _availableColours = _availableColours.filter(x => !$makeup.owned[_itemType].includes(x))>>",
+    "translation": "",
+    "pos": 1925
+  },
+  {
+    "passage": "Cosmetics Store Widgets",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "162_5_3_7|",
+    "original": "You have collected all available colours of _itemPlural. There's nothing left for you to buy.",
+    "translation": "",
+    "pos": 2071
+  },
+  {
+    "passage": "Cosmetics Store Widgets",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "165_5_3_7|",
+    "original": "Each _itemSingular costs <<printmoney _price>><<if _usesPerBuy > 1>> and has _usesPerBuy uses<</if>>.",
+    "translation": "",
+    "pos": 2188
+  },
+  {
+    "passage": "Cosmetics Store Widgets",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "171_5_3_7|",
+    "original": "<label><span class=\"grey-shadow\"><span @class=\"_cssClassOuter + '-' + _colour.replace(/ /g, '-')\"><span @class=\"_cssClassInner\"><span @style=\"'color:' + _baseColour + ';'\"><<print setup.colourName(_colour)>></span></span></span></span>&nbsp;<<print '<<radiobutton \"$cosmeticsChoice\" \"'+_colour+'\" ' + ($cosmeticsChoice is _colour ? \"checked\" : \"\") + '>>'>></label> |",
+    "translation": "",
+    "pos": 2446
+  },
+  {
+    "passage": "Cosmetics Store Widgets",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "176_5_3_7|",
+    "original": "<<set _buy = Time.dayState == \"night\" ? \"Steal\" : \"Buy\">>",
+    "translation": "",
+    "pos": 2894
+  },
+  {
+    "passage": "Cosmetics Store Widgets",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "178_5_3_7|",
+    "original": "<<set _usesText = _usesPerBuy > 1 ? \" (\"+_usesPerBuy+\" uses)\" : \"\">>",
+    "translation": "",
+    "pos": 2988
+  },
+  {
+    "passage": "Cosmetics Store Widgets",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "179_5_3_7|",
+    "original": "<<link [[_buy+_usesText|_passageCurrent]]>><<addConsumableCosmetics _itemType $cosmeticsChoice _usesPerBuy>><<if Time.dayState is \"night\">><<crimeUp `_price / 100` \"thievery\">><<else>><<money `-_price `\"cosmetics\">><</if>><</link>><<if Time.dayState is \"night\">><<crime \"thievery\">><</if>>",
+    "translation": "",
+    "pos": 3061
+  },
+  {
+    "passage": "Cosmetics Store Widgets",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "182_5_3_7|",
+    "original": "<<link [[_buy+_usesText+\" and apply\"+(_usesPerBuy > 1 ? \" one\" : \"\")+\" right now\"|_passageCurrent]]>><<addConsumableCosmetics _itemType $cosmeticsChoice _usesPerBuy-1>><<set $makeup[_itemType] = $cosmeticsChoice>><<if Time.dayState is \"night\">><<crimeUp `_price / 100` \"thievery\">><<else>><<money `-_price` \"cosmetics\">><</if>><</link>><<if Time.dayState is \"night\">><<crime \"thievery\">><</if>>",
+    "translation": "",
+    "pos": 3395
+  },
+  {
+    "passage": "Cosmetics Store Widgets",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "186_5_3_7|",
+    "original": "<<link [[_buy+\" and send home\"|_passageCurrent]]>><<set $makeup.owned[_itemType].push($cosmeticsChoice)>><<if Time.dayState is \"night\">><<crimeUp `_price / 100` \"thievery\">><<else>><<money `-_price` \"cosmetics\">><</if>><</link>><<if Time.dayState is \"night\">><<crime \"thievery\">><</if>>",
+    "translation": "",
+    "pos": 3828
+  },
+  {
+    "passage": "Cosmetics Store Widgets",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "189_5_3_7|",
+    "original": "<<link [[_buy+\" and use right now\"|_passageCurrent]]>><<set $makeup.owned[_itemType].push($cosmeticsChoice)>><<set $makeup[_itemType] = $cosmeticsChoice>><<if Time.dayState is \"night\">><<crimeUp `_price / 100` \"thievery\">><<else>><<money `-_price` \"cosmetics\">><</if>><</link>><<if Time.dayState is \"night\">><<crime \"thievery\">><</if>>",
+    "translation": "",
+    "pos": 4159
+  },
+  {
+    "passage": "Cosmetics Store Widgets",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "194_5_3_7|",
+    "original": "<span class=\"purple\">You can't afford the purchase.</span>",
+    "translation": "",
+    "pos": 4542
+  },
+  {
+    "passage": "Cosmetics Store Widgets",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "198_5_3_7|",
+    "original": "<<link [[Go back|Cosmetics Store]]>><<unset $cosmeticsChoice>><</link>>",
+    "translation": "",
+    "pos": 4633
+  },
+  {
+    "passage": "Cosmetics Store Widgets",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "203_5_3_7|",
+    "original": "let _args = T.args;",
+    "translation": "",
+    "pos": 4863
+  },
+  {
+    "passage": "Cosmetics Store Widgets",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "204_5_3_7|",
+    "original": "let $makeup = V.makeup;",
+    "translation": "",
+    "pos": 4884
+  },
+  {
+    "passage": "Cosmetics Store Widgets",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "205_5_3_7|",
+    "original": "let _itemType = _args[0];",
+    "translation": "",
+    "pos": 4909
+  },
+  {
+    "passage": "Cosmetics Store Widgets",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "206_5_3_7|",
+    "original": "let _colour = _args[1];",
+    "translation": "",
+    "pos": 4936
+  },
+  {
+    "passage": "Cosmetics Store Widgets",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "207_5_3_7|",
+    "original": "let _count = _args[2];",
+    "translation": "",
+    "pos": 4961
+  },
+  {
+    "passage": "Cosmetics Store Widgets",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "209_5_3_7|",
+    "original": "let done = false;",
+    "translation": "",
+    "pos": 4986
+  },
+  {
+    "passage": "Cosmetics Store Widgets",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "212_5_3_7|",
+    "original": "$makeup.owned[_itemType][i].count += _count;",
+    "translation": "",
+    "pos": 5123
+  },
+  {
+    "passage": "Cosmetics Store Widgets",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "213_5_3_7|",
+    "original": "done = true;",
+    "translation": "",
+    "pos": 5171
+  },
+  {
+    "passage": "Cosmetics Store Widgets",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "214_5_3_7|",
+    "original": "break;",
+    "translation": "",
+    "pos": 5187
+  },
+  {
+    "passage": "Cosmetics Store Widgets",
+    "filepath": "overworld-town/loc-shop/cosmetics.twee",
+    "key": "218_5_3_7|",
+    "original": "$makeup.owned[_itemType].push({\"colour\": _colour, \"count\": _count});",
+    "translation": "",
+    "pos": 5217
+  }
+]

@@ -1,0 +1,1090 @@
+[
+  {
+    "passage": "Furniture Shop Lock",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "7_5_3_7|",
+    "original": "You think you'd be able to pick the lock, <span class=\"blue\">if your arms weren't bound.</span>",
+    "translation": "",
+    "pos": 158
+  },
+  {
+    "passage": "Furniture Shop Lock",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "11_5_3_7|",
+    "original": "<span class=\"green\">The lock looks easy to pick.</span>",
+    "translation": "",
+    "pos": 303
+  },
+  {
+    "passage": "Furniture Shop Lock",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "14_5_3_7|",
+    "original": "<<lockicon \"pick\">><<link [[Pick it (0:10)|Furniture Shop]]>><<handheldon>><<pass 10>><<crimeUp 5 \"trespassing\">><</link>><<crime \"trespassing\">>",
+    "translation": "",
+    "pos": 373
+  },
+  {
+    "passage": "Furniture Shop Lock",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "18_5_3_7|",
+    "original": "<span class=\"red\">The lock looks beyond your ability to pick.</span>",
+    "translation": "",
+    "pos": 544
+  },
+  {
+    "passage": "Furniture Shop Lock",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "22_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Shopping Centre Top]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 656
+  },
+  {
+    "passage": "Furniture Shop",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "29_5_3_7|",
+    "original": "You are in the furniture shop. Most of its stock is too large for your room.",
+    "translation": "",
+    "pos": 182
+  },
+  {
+    "passage": "Furniture Shop",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "33_5_3_7|",
+    "original": "You are alone in the darkness.",
+    "translation": "",
+    "pos": 302
+  },
+  {
+    "passage": "Furniture Shop",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "36_5_3_7|",
+    "original": "You hide in a cupboard to protect your dignity.",
+    "translation": "",
+    "pos": 370
+  },
+  {
+    "passage": "Furniture Shop",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "44_5_3_7|",
+    "original": "It's closing time. Security is herding everyone outside.",
+    "translation": "",
+    "pos": 519
+  },
+  {
+    "passage": "Furniture Shop",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "46_5_3_7|",
+    "original": "Panic swells within you as you realise how embarrassed you'll be should security find you exposed like this.",
+    "translation": "",
+    "pos": 603
+  },
+  {
+    "passage": "Furniture Shop",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "50_5_3_7|",
+    "original": "<<highicon>><<link [[Go outside|High Street]]>><</link>>",
+    "translation": "",
+    "pos": 760
+  },
+  {
+    "passage": "Furniture Shop",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "53_5_3_7|",
+    "original": "<<ind>><<link [[\"Hide until it's over (1:00)\"|Furniture Shop]]>><<pass 1 hour>><</link>>",
+    "translation": "",
+    "pos": 839
+  },
+  {
+    "passage": "Furniture Shop",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "57_5_3_7|",
+    "original": "<<shopicon \"register\">><<link [[Examine the cash register|Furniture Shop Register]]>><</link>>",
+    "translation": "",
+    "pos": 1041
+  },
+  {
+    "passage": "Furniture Shop",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "60_5_3_7|",
+    "original": "There's a few pieces in the catalogue that would fit.",
+    "translation": "",
+    "pos": 1234
+  },
+  {
+    "passage": "Furniture Shop",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "62_5_3_7|",
+    "original": "<<furnitureicon \"catalogue\">><<link [[Catalogue|Furniture Shop Catalogue]]>><</link>>",
+    "translation": "",
+    "pos": 1299
+  },
+  {
+    "passage": "Furniture Shop",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "66_5_3_7|",
+    "original": "Wallpaper and posters are stacked in a corner.",
+    "translation": "",
+    "pos": 1546
+  },
+  {
+    "passage": "Furniture Shop",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "68_5_3_7|",
+    "original": "<<furnitureicon \"wallpaper\">><<link [[Paperhangings|Furniture Shop Papers]]>><</link>>",
+    "translation": "",
+    "pos": 1604
+  },
+  {
+    "passage": "Furniture Shop",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "71_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Shopping Centre]]>><</link>>",
+    "translation": "",
+    "pos": 1715
+  },
+  {
+    "passage": "Furniture Shop Papers",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "81_5_3_7|",
+    "original": "<<getouticon>><<link [[Back|Furniture Shop]]>><<run delete $chosenFurnitureCategory>><</link>>",
+    "translation": "",
+    "pos": 141
+  },
+  {
+    "passage": "Furniture Shop Catalogue",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "92_5_3_7|",
+    "original": "<<getouticon>><<link [[Back|Furniture Shop]]>>",
+    "translation": "",
+    "pos": 147
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "105_5_3_7|",
+    "original": "You buy the <<= $boughtfurniturename is \"plainwhite\" ? \"plain white wallpaper\" : [\"poster\", \"wallpaper\"].includes($chosenFurnitureCategory) ? $boughtfurniturename.replace(\"_\",\"\") + \" \" + $chosenFurnitureCategory : $boughtfurniturename.replace(\"_\",\"\")>>. It'll be delivered by the time you get home.",
+    "translation": "",
+    "pos": 77
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "109_5_3_7|",
+    "original": "You approach the paperhangings corner. Samples of pre-made posters and wallpaper are on display. For an additional fee, you can have a custom design imprinted instead.",
+    "translation": "",
+    "pos": 521
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "111_5_3_7|",
+    "original": "You skim through the furniture catalogue. \"No Refunds!\" is printed along the top.",
+    "translation": "",
+    "pos": 701
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "117_5_3_7|",
+    "original": "<<case \"bed\">>",
+    "translation": "",
+    "pos": 869
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "118_5_3_7|",
+    "original": "You browse the beds. Some are sold as double beds, but they'd barely pass as single for a middle-aged adult.",
+    "translation": "",
+    "pos": 887
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "120_5_3_7|",
+    "original": "<<case \"table\">>",
+    "translation": "",
+    "pos": 1006
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "121_5_3_7|",
+    "original": "You browse the tables. They're huge, but some of the corner tables might fit in your room.",
+    "translation": "",
+    "pos": 1026
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "123_5_3_7|",
+    "original": "<<case \"chair\">>",
+    "translation": "",
+    "pos": 1127
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "124_5_3_7|",
+    "original": "You browse the chairs. You could replace your desk chair and squeeze a second one in your room, alongside a small table.",
+    "translation": "",
+    "pos": 1147
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "126_5_3_7|",
+    "original": "<<case \"wardrobe\">>",
+    "translation": "",
+    "pos": 1278
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "127_5_3_7|",
+    "original": "You browse the wardrobes. Some are near-identical to your old wardrobe in size.",
+    "translation": "",
+    "pos": 1301
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "129_5_3_7|",
+    "original": "<<case \"decoration\">>",
+    "translation": "",
+    "pos": 1391
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "130_5_3_7|",
+    "original": "You browse the decorations. You struggle to find anything suitable for your room.",
+    "translation": "",
+    "pos": 1416
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "132_5_3_7|",
+    "original": "<<case \"windowsill\">>",
+    "translation": "",
+    "pos": 1508
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "133_5_3_7|",
+    "original": "You browse the miscellaneous goods. Odds and ends of dubious utility line the page.",
+    "translation": "",
+    "pos": 1533
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "135_5_3_7|",
+    "original": "<<case \"desk\">>",
+    "translation": "",
+    "pos": 1627
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "136_5_3_7|",
+    "original": "You browse the desks. A few appear to be small enough to replace your old desk.",
+    "translation": "",
+    "pos": 1646
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "145_5_3_7|",
+    "original": "<div class=\"settingsHeader\">Furniture</div>",
+    "translation": "",
+    "pos": 1833
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "154_5_3_7|",
+    "original": "<div class=\"settingsHeader\">Paperhangings</div>",
+    "translation": "",
+    "pos": 2079
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "164_5_3_7|",
+    "original": "{ id: 'bed', label: 'Bed' },",
+    "translation": "",
+    "pos": 2333
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "165_5_3_7|",
+    "original": "{ id: 'table', label: 'Table' },",
+    "translation": "",
+    "pos": 2364
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "166_5_3_7|",
+    "original": "{ id: 'chair', label: 'Chairs' },",
+    "translation": "",
+    "pos": 2399
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "167_5_3_7|",
+    "original": "{ id: 'desk', label: 'Desks'},",
+    "translation": "",
+    "pos": 2435
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "168_5_3_7|",
+    "original": "{ id: 'wardrobe', label: 'Wardrobe' },",
+    "translation": "",
+    "pos": 2468
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "169_5_3_7|",
+    "original": "{ id: 'decoration', label: 'Decorations' },",
+    "translation": "",
+    "pos": 2509
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "170_5_3_7|",
+    "original": "{ id: 'windowsill', label: 'Miscellaneous' }",
+    "translation": "",
+    "pos": 2555
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "174_5_3_7|",
+    "original": "<div @class=\"$chosenFurnitureCategory is _furniLink.id ? 'furnitureTabSelected' : 'furnitureTab'\">",
+    "translation": "",
+    "pos": 2701
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "175_5_3_7|",
+    "original": "<button",
+    "translation": "",
+    "pos": 2803
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "176_5_3_7|",
+    "original": "@class=\"($chosenFurnitureCategory is _furniLink.id ? 'selected' : '')\"",
+    "translation": "",
+    "pos": 2815
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "177_5_3_7|",
+    "original": "@id=\"Dynamic.eventBinder(_furniLink.id)\"",
+    "translation": "",
+    "pos": 2890
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "178_5_3_7|",
+    "original": "onclick=\"(id) => $chosenFurnitureCategory = id\"",
+    "translation": "",
+    "pos": 2935
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "179_5_3_7|",
+    "original": ">_furniLink.label",
+    "translation": "",
+    "pos": 2986
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "187_5_3_7|",
+    "original": "{ id: 'poster', label: 'Posters' },",
+    "translation": "",
+    "pos": 3103
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "188_5_3_7|",
+    "original": "{ id: 'wallpaper', label: 'Wallpaper' },",
+    "translation": "",
+    "pos": 3141
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "192_5_3_7|",
+    "original": "<div @class=\"$chosenFurnitureCategory is _furniLink.id ? 'furnitureTabSelected' : 'furnitureTab'\">",
+    "translation": "",
+    "pos": 3283
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "193_5_3_7|",
+    "original": "<button",
+    "translation": "",
+    "pos": 3385
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "194_5_3_7|",
+    "original": "@class=\"($chosenFurnitureCategory is _furniLink.id ? 'selected' : '')\"",
+    "translation": "",
+    "pos": 3397
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "195_5_3_7|",
+    "original": "@id=\"Dynamic.eventBinder(_furniLink.id)\"",
+    "translation": "",
+    "pos": 3472
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "196_5_3_7|",
+    "original": "onclick=\"(id) => $chosenFurnitureCategory = id\"",
+    "translation": "",
+    "pos": 3517
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "197_5_3_7|",
+    "original": ">_furniLink.label",
+    "translation": "",
+    "pos": 3568
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "208_5_3_7|",
+    "original": "Currently installed in your bedroom:",
+    "translation": "",
+    "pos": 3874
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "211_5_3_7|",
+    "original": "$currentFurnishing.nameCap",
+    "translation": "",
+    "pos": 3988
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "213_5_3_7|",
+    "original": "<span class=\"description\">$currentFurnishing.description",
+    "translation": "",
+    "pos": 4024
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "217_5_3_7|",
+    "original": "Can hold <span class=\"gold\"><<= _amount>></span> of each item type.",
+    "translation": "",
+    "pos": 4392
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "220_5_3_7|",
+    "original": "<<= $chosenFurnitureCategory is 'bed' ? \"Improves sleep quality.\" : \"Makes working on projects at your desk more effective.\">>",
+    "translation": "",
+    "pos": 4530
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "222_5_3_7|",
+    "original": "<<if $currentFurnishing.type.includes('double')>>Has enough space for a proper sleepover.<</if>>",
+    "translation": "",
+    "pos": 4673
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "226_5_3_7|",
+    "original": "Nothing.",
+    "translation": "",
+    "pos": 4803
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "242_5_3_7|",
+    "original": "Currently installed in your bedroom:",
+    "translation": "",
+    "pos": 5125
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "245_5_3_7|",
+    "original": "<<set _icon to _premade ? $currentFurnishing.id + \"_\" + $currentFurnishing.name : ['dol', 'degrees of lewdity'].some(e => $currentFurnishing.name.toLowerCase().includes(e)) ? $chosenFurnitureCategory + \"_dol\" : $chosenFurnitureCategory is \"poster\" ? \"poster\" : \"wallpaper_custom\">>",
+    "translation": "",
+    "pos": 5378
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "247_5_3_7|",
+    "original": "<<set $_label to $currentFurnishing.nameCap is \"Plainwhite\" ? \"Plain White\" : $currentFurnishing.nameCap.replace(\"_\",\"\").toUpperFirst()>>",
+    "translation": "",
+    "pos": 5688
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "248_5_3_7|",
+    "original": "<<= $_label>>",
+    "translation": "",
+    "pos": 5828
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "250_5_3_7|",
+    "original": "<span class=\"description\">",
+    "translation": "",
+    "pos": 5851
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "253_5_3_7|",
+    "original": "<<case \"vines\">>",
+    "translation": "",
+    "pos": 5972
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "254_5_3_7|",
+    "original": "Lewd green vines writhe on the walls.",
+    "translation": "",
+    "pos": 5995
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "255_5_3_7|",
+    "original": "<<case \"tentacles\">>",
+    "translation": "",
+    "pos": 6038
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "256_5_3_7|",
+    "original": "Purple tentacles slither on the walls.",
+    "translation": "",
+    "pos": 6065
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "257_5_3_7|",
+    "original": "<<case \"plainwhite\">>",
+    "translation": "",
+    "pos": 6109
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "258_5_3_7|",
+    "original": "Plain white wallpaper covers the walls.",
+    "translation": "",
+    "pos": 6137
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "259_5_3_7|",
+    "original": "<<case \"wavywhite\">>",
+    "translation": "",
+    "pos": 6182
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "260_5_3_7|",
+    "original": "The white wallpaper gradients to black in a wavy pattern.",
+    "translation": "",
+    "pos": 6209
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "261_5_3_7|",
+    "original": "<<case \"hearts\">>",
+    "translation": "",
+    "pos": 6272
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "262_5_3_7|",
+    "original": "Pink hearts cover the walls.",
+    "translation": "",
+    "pos": 6296
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "263_5_3_7|",
+    "original": "<<case \"cowgirls\" \"cow_girls\">>",
+    "translation": "",
+    "pos": 6330
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "264_5_3_7|",
+    "original": "Cowgirls dance on the walls.",
+    "translation": "",
+    "pos": 6368
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "265_5_3_7|",
+    "original": "<<case \"trees\">>",
+    "translation": "",
+    "pos": 6402
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "266_5_3_7|",
+    "original": "The green trees bring you a feeling of being in a forest.",
+    "translation": "",
+    "pos": 6425
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "267_5_3_7|",
+    "original": "<<case \"crosses\">>",
+    "translation": "",
+    "pos": 6488
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "268_5_3_7|",
+    "original": "Golden crosses cover the walls.",
+    "translation": "",
+    "pos": 6513
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "270_5_3_7|",
+    "original": "Images of $currentFurnishing.name cover the walls.",
+    "translation": "",
+    "pos": 6582
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "272_5_3_7|",
+    "original": "Somehow, they look familiar.",
+    "translation": "",
+    "pos": 6675
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "274_5_3_7|",
+    "original": "<span class=\"black\">You feel like you got caught cheating.</span>",
+    "translation": "",
+    "pos": 6774
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "279_5_3_7|",
+    "original": "<<case \"cowgirl\" \"cow_girl\">>",
+    "translation": "",
+    "pos": 6926
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "280_5_3_7|",
+    "original": "A cowgirl poster hangs on the wall.",
+    "translation": "",
+    "pos": 6962
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "281_5_3_7|",
+    "original": "<<case \"cat\">>",
+    "translation": "",
+    "pos": 7003
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "282_5_3_7|",
+    "original": "A poster of a cat hangs on the wall. The text below reads, \"Hang in there!\"",
+    "translation": "",
+    "pos": 7024
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "283_5_3_7|",
+    "original": "<<case \"puppy\">>",
+    "translation": "",
+    "pos": 7105
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "284_5_3_7|",
+    "original": "A puppy poster hangs on the wall.",
+    "translation": "",
+    "pos": 7128
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "286_5_3_7|",
+    "original": "A poster of $currentFurnishing.name hangs on the wall.",
+    "translation": "",
+    "pos": 7198
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "288_5_3_7|",
+    "original": "You feel an odd sense of familiarity.",
+    "translation": "",
+    "pos": 7295
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "290_5_3_7|",
+    "original": "<span class=\"black\">You feel like you got caught cheating.</span>",
+    "translation": "",
+    "pos": 7404
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "296_5_3_7|",
+    "original": "Nothing.",
+    "translation": "",
+    "pos": 7533
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "309_5_3_7|",
+    "original": "<span class=\"purple\">You've already stolen from the store.</span> You should wait before taking anything else.",
+    "translation": "",
+    "pos": 7975
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "314_5_3_7|",
+    "original": "<<set $_label to $_key is \"plainwhite\" ? \"Plain White\" : $_key.replace(\"_\",\"\").toUpperFirst()>>",
+    "translation": "",
+    "pos": 8207
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "323_5_3_7|",
+    "original": "<<link [[Steal|Furniture Shop Papers]]>>",
+    "translation": "",
+    "pos": 8717
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "334_5_3_7|",
+    "original": "<<link [[\"£\" + $_cost/100|Furniture Shop Papers]]>>",
+    "translation": "",
+    "pos": 9124
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "345_5_3_7|",
+    "original": "<span class=\"red\"><<print \"£\"+$_cost/100>></span>",
+    "translation": "",
+    "pos": 9519
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "356_5_3_7|",
+    "original": "Custom: <<textbox \"_customHanging\" \"\">> |",
+    "translation": "",
+    "pos": 9881
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "357_5_3_7|",
+    "original": "<<link [['£' + $_cost / 50|Furniture Shop Papers]]>>",
+    "translation": "",
+    "pos": 9929
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "370_5_3_7|",
+    "original": "Custom | <span class=\"red\"><<print \"£\"+$_cost/50>></span>",
+    "translation": "",
+    "pos": 10564
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "389_5_3_7|",
+    "original": "<<if $_furnishing.type.includes('comfy')>> Comfortable | <</if>>",
+    "translation": "",
+    "pos": 11390
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "390_5_3_7|",
+    "original": "<<if $_furnishing.type.includes('single')>> Single | <</if>>",
+    "translation": "",
+    "pos": 11460
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "391_5_3_7|",
+    "original": "<<if $_furnishing.type.includes('double')>> Double | <</if>>",
+    "translation": "",
+    "pos": 11526
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "392_5_3_7|",
+    "original": "<<if $_furnishing.type.includes('spacious')>> Spacious | <</if>>",
+    "translation": "",
+    "pos": 11592
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "393_5_3_7|",
+    "original": "<<if $_furnishing.type.includes('organiser')>> Organiser | <</if>>",
+    "translation": "",
+    "pos": 11662
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "399_5_3_7|",
+    "original": "<mouse class=\"tooltip linkBlue\">(?)<span>",
+    "translation": "",
+    "pos": 11907
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "400_5_3_7|",
+    "original": "$_furnishing.description",
+    "translation": "",
+    "pos": 11956
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "403_5_3_7|",
+    "original": "<<if $_furnishing.type.includes('starter')>><br>Can hold 20 of each item type.<</if>>",
+    "translation": "",
+    "pos": 12118
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "404_5_3_7|",
+    "original": "<<if $_furnishing.type.includes('spacious')>><br>Can hold 30 of each item type.<</if>>",
+    "translation": "",
+    "pos": 12212
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "405_5_3_7|",
+    "original": "<<if $_furnishing.type.includes('organiser')>><br>Can hold 40 of each item type.<</if>>",
+    "translation": "",
+    "pos": 12307
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "408_5_3_7|",
+    "original": "<br>Improves sleep quality.",
+    "translation": "",
+    "pos": 12506
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "410_5_3_7|",
+    "original": "<br>Makes studying at your desk more effective.",
+    "translation": "",
+    "pos": 12562
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "413_5_3_7|",
+    "original": "<<if $_furnishing.type.includes('double')>><br>Has enough space for a proper sleepover.<</if>>",
+    "translation": "",
+    "pos": 12651
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "420_5_3_7|",
+    "original": "<<link [[\"£\" + $_cost/100|Furniture Shop Catalogue]]>>",
+    "translation": "",
+    "pos": 12893
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "425_5_3_7|",
+    "original": "name: $_furnishing.name,",
+    "translation": "",
+    "pos": 13123
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "439_5_3_7|",
+    "original": "<span class=\"red\"><<print \"£\"+$_cost/100>></span>",
+    "translation": "",
+    "pos": 13563
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "446_5_3_7|",
+    "original": "You've purchased the best possible wardrobe.",
+    "translation": "",
+    "pos": 13776
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "452_5_3_7|",
+    "original": "<<print $furnitureDowngrade.nameCap>>",
+    "translation": "",
+    "pos": 13924
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "454_5_3_7|",
+    "original": "<<if $furnitureDowngrade.type.includes('starter')>><br>Can hold 20 of each item type.<</if>>",
+    "translation": "",
+    "pos": 14088
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "455_5_3_7|",
+    "original": "<<if $furnitureDowngrade.type.includes('spacious')>><br>Can hold 30 of each item type.<</if>>",
+    "translation": "",
+    "pos": 14183
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "456_5_3_7|",
+    "original": "<<if $furnitureDowngrade.type.includes('organiser')>><br>Can hold 40 of each item type.<</if>>",
+    "translation": "",
+    "pos": 14279
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "457_5_3_7|",
+    "original": "<<if $furnitureDowngrade.type.includes('comfy')>><br>Improves sleep quality.<</if>>",
+    "translation": "",
+    "pos": 14376
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "458_5_3_7|",
+    "original": "<<if $furnitureDowngrade.type.includes('double')>><br>Has enough space for a proper sleepover.<</if>>",
+    "translation": "",
+    "pos": 14462
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "460_5_3_7|",
+    "original": "| <span class=\"blue\">This may be considered a downgrade to what you currently have.</span>",
+    "translation": "",
+    "pos": 14574
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "462_5_3_7|",
+    "original": "Do you still want to buy it?",
+    "translation": "",
+    "pos": 14672
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "464_5_3_7|",
+    "original": "<<button [[No|Furniture Shop Catalogue]]>>",
+    "translation": "",
+    "pos": 14708
+  },
+  {
+    "passage": "Widgets Furniture",
+    "filepath": "overworld-town/loc-shop/furniture.twee",
+    "key": "467_5_3_7|",
+    "original": "<<button [[Yes|Furniture Shop Catalogue]]>>",
+    "translation": "",
+    "pos": 14797
+  }
+]

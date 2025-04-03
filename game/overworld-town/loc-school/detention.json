@@ -1,0 +1,4346 @@
+[
+  {
+    "passage": "School Leave Stop",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "4_5_3_7|",
+    "original": "<<npc Leighton>><<person1>>As you try to leave, Leighton lays an arm on your shoulder. \"Isn't there something you're forgetting?\" <<He>> tries to steer you back towards the school.",
+    "translation": "",
+    "pos": 80
+  },
+  {
+    "passage": "School Leave Stop",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "7_5_3_7|",
+    "original": "<<link [[Go to detention|School Detention]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 271
+  },
+  {
+    "passage": "School Leave Stop",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "9_5_3_7|",
+    "original": "<<link [[Run away|School Leave Run]]>><<detention 6>><</link>><<ggdelinquency>>",
+    "translation": "",
+    "pos": 343
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "19_5_3_7|",
+    "original": "You enter Leighton's office. <<He>> takes <<his>> seat in front of <<his>> desk and beckons you to sit at a small desk in the corner.",
+    "translation": "",
+    "pos": 207
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "21_5_3_7|",
+    "original": "\"It's only a minor infringement, I won't keep you long.\" <<He>> turns to <<his>> computer and seemingly forgets about you.",
+    "translation": "",
+    "pos": 354
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "23_5_3_7|",
+    "original": "Ten minutes pass, and <<he>> looks at the clock on the wall. \"That should do it.\" <<He>> gestures for you to leave.",
+    "translation": "",
+    "pos": 490
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "27_5_3_7|",
+    "original": "You enter Leighton's office. <<He>> sits at <<his>> desk and looks up at you.",
+    "translation": "",
+    "pos": 643
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "29_5_3_7|",
+    "original": "\"Every day the same faces,\" <<he>> sighs. \"So what now?\"",
+    "translation": "",
+    "pos": 754
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "31_5_3_7|",
+    "original": "\"You? What did you do to end up here?\"",
+    "translation": "",
+    "pos": 825
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "34_5_3_7|",
+    "original": "<<He>> looks at <<his>> computer screen for a moment. Clicks a few times.",
+    "translation": "",
+    "pos": 887
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "36_5_3_7|",
+    "original": "<<if $delinquency gte 400>>\"Looks like only a minor infringement today.\" <<He>> stares you down. \"How kind of you. Well... <<else>>\"Looks like it's only a minor infringement,\" <<he>> says. \"<</if>>Might as well make yourself useful. Deliver these notes to staff and bring back any replies. Shouldn't take 10 minutes.\"",
+    "translation": "",
+    "pos": 974
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "38_5_3_7|",
+    "original": "Sure enough, 10 minutes later you're back in Leighton's office with a couple of replies. Leighton nods and gestures for you to leave.",
+    "translation": "",
+    "pos": 1305
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "43_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1475
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "46_5_3_7|",
+    "original": "You enter Leighton's office. <<He>> takes <<his>> seat in front of <<his>> desk, then points at the whiteboard opposite <<him>>. \"Write 'I will obey the rules,' repeatedly. Don't stop until I say stop.\"",
+    "translation": "",
+    "pos": 1554
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "49_5_3_7|",
+    "original": "You turn to show Leighton your bound <<if $rightarm is \"bound\" or $leftarm is \"bound\">>arms<</if>><<if ($rightarm is \"bound\" or $leftarm is \"bound\") and $feetuse is \"bound\">> and <</if>><<if $feetuse is \"bound\">>legs<</if>>. <<His>> eyes flash. For a moment you think you see lust. \"How did that happen?\" <<he>> asks, walking behind you. \"Actually, never mind. I don't want to know.\"",
+    "translation": "",
+    "pos": 1844
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "51_5_3_7|",
+    "original": "<span class = \"green\">You feel your limbs come loose.</span><<unbind>>",
+    "translation": "",
+    "pos": 2241
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "53_5_3_7|",
+    "original": "\"Now get on with it,\" <<he>> says.",
+    "translation": "",
+    "pos": 2325
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "57_5_3_7|",
+    "original": "<<link [[Work diligently (0:20)|School Detention Lines]]>><<set $phase to 0>><<tiredness 4>><<pass 20>><</link>><<gtiredness>>",
+    "translation": "",
+    "pos": 2382
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "59_5_3_7|",
+    "original": "<<link [[Work slowly (0:40)|School Detention Lines]]>><<set $phase to 1>><<pass 40>><</link>>",
+    "translation": "",
+    "pos": 2516
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "65_5_3_7|",
+    "original": "You enter Leighton's office. A <<person2>><<person>> stands sheepishly in the corner. \"Two of you today.\" <<person1>>Leighton says, taking the seat at <<his>> desk. <<He>> points at the whiteboard opposite <<him>>. \"Write 'I will obey the rules,' repeatedly. Both of you. Don't stop until I say stop.\"",
+    "translation": "",
+    "pos": 2702
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "68_5_3_7|",
+    "original": "You turn to show Leighton your bound <<if $rightarm is \"bound\" or $leftarm is \"bound\">>arms<</if>><<if ($rightarm is \"bound\" or $leftarm is \"bound\") and $feetuse is \"bound\">> and <</if>><<if $feetuse is \"bound\">>legs<</if>>. <<His>> eyes flash. For a moment you think you see lust. \"How did that happen?\" <<he>> asks, walking behind you. \"Actually, never mind. I don't want to know.\"",
+    "translation": "",
+    "pos": 3094
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "70_5_3_7|",
+    "original": "<span class = \"green\">You feel your limbs come loose.</span><<unbind>>",
+    "translation": "",
+    "pos": 3489
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "72_5_3_7|",
+    "original": "\"Now get on with it,\" <<he>> says.",
+    "translation": "",
+    "pos": 3571
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "75_5_3_7|",
+    "original": "Shortly after you start writing on the board, you feel someone groping your butt. The <<person2>><<person>> is clearly a pervert.",
+    "translation": "",
+    "pos": 3630
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "78_5_3_7|",
+    "original": "<<link [[Endure it (0:30)|School Detention Grope]]>><<set $phase to 0>><<pass 30>><<trauma 3>><<stress 3>><<arousal 300 \"bottom\">><</link>><<gtrauma>><<gstress>><<garousal>>",
+    "translation": "",
+    "pos": 3774
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "80_5_3_7|",
+    "original": "<<link [[Tell Leighton|School Detention Grope]]>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 3957
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "83_5_3_7|",
+    "original": "You enter the office to find Leighton sitting at <<his>> desk, a <<person2>><<person>> sitting opposite looking sorry for <<himself>>. Leighton pauses and turns to you as you enter, cutting off an angry lecture. \"Ah, there you are, young <<lady>>. Today you get to see what happens to naughty <<personsimple>>s who break the rules.\" The <<person>> slumps down in <<his>> chair. It seems <<he>> knows what this means. \"<<He>> was caught touching another student inappropriately during <<his>> maths lesson. Isn't that right?\"",
+    "translation": "",
+    "pos": 4054
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "86_5_3_7|",
+    "original": "The <<person>> whimpers quietly in assent.",
+    "translation": "",
+    "pos": 4593
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "89_5_3_7|",
+    "original": "Leighton gets to <<person1>><<his>> feet, gesturing to the <<person2>><<personsimple>> to do the same. \"<<if $pronoun is \"m\">>Pull down those shorts<<else>>Lift up that skirt<</if>>, if you please.\"",
+    "translation": "",
+    "pos": 4650
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "92_5_3_7|",
+    "original": "The <<person>> does as told, still whimpering. <<Hes>> wearing a pair of red <<if $pronoun is \"m\">>briefs<<else>>panties<</if>>. <<He>> tugs at them, obviously uncomfortable with you watching. <<Hes>> looking at everything in the room except for you. Leighton nods at <<him>>, smirking. \"Now, over the desk. You know how this goes.\"",
+    "translation": "",
+    "pos": 4863
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "95_5_3_7|",
+    "original": "The <<person>> bends over the desk, trembling slightly. <<His>> ass is right in your face. Leighton takes a moment to admire the <<personsimple>>'s body before retrieving a large wooden paddle from <<person1>><<his>> desk drawer and thwacking it against <<his>> palm. \"Are you ready?\" <<he>> asks the <<person2>><<person>>, who mumbles in response. Leighton raises the paddle.",
+    "translation": "",
+    "pos": 5210
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "99_5_3_7|",
+    "original": "<<link [[Masturbate|School Detention Paddle Masturbate]]>><<set $masturbationstart to 1>><</link>><<exhibitionist5>>",
+    "translation": "",
+    "pos": 5642
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "102_5_3_7|",
+    "original": "<<link [[Do nothing|School Detention Paddle Watch]]>><<stress 6>><<trauma 6>><<arousal 300>><</link>><<gstress>><<gtrauma>><<garousal>>",
+    "translation": "",
+    "pos": 5779
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "104_5_3_7|",
+    "original": "<<link [[Intervene|School Detention Paddle Intervene]]>><<status 5>><<delinquency 12>><</link>><<gcool>><<ggdelinquency>>",
+    "translation": "",
+    "pos": 5924
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "109_5_3_7|",
+    "original": "You enter Leighton's office. \"I have something special I need you to do today.\" <<He>> points out the window, at <<his>> car. \"It needs a wash. I left everything you'll need out there, I'll keep an eye on you from here. You'll want to strip down to your underwear for this job, no sense getting your clothes wet and dirty.\"",
+    "translation": "",
+    "pos": 6113
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "112_5_3_7|",
+    "original": "You look at <<him>> with incredulity. <<He>> chuckles. \"Don't worry, it's an enclosed area so no one else will see you. Now, hop to it.\"",
+    "translation": "",
+    "pos": 6451
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "115_5_3_7|",
+    "original": "You turn to show Leighton your bound <<if $rightarm is \"bound\" or $leftarm is \"bound\">>arms<</if>><<if ($rightarm is \"bound\" or $leftarm is \"bound\") and $feetuse is \"bound\">> and <</if>><<if $feetuse is \"bound\">>legs<</if>>. <<His>> eyes flash. For a moment you think you see lust. \"How did that happen?\" <<he>> asks, walking behind you. \"Actually, never mind. I don't want to know.\"",
+    "translation": "",
+    "pos": 6678
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "117_5_3_7|",
+    "original": "<span class = \"green\">You feel your limbs come loose.</span><<unbind>>",
+    "translation": "",
+    "pos": 7073
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "119_5_3_7|",
+    "original": "\"You'll need your hands to clean my car,\" <<he>> says.",
+    "translation": "",
+    "pos": 7159
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "122_5_3_7|",
+    "original": "\"There's something else too,\" you say.",
+    "translation": "",
+    "pos": 7281
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "126_5_3_7|",
+    "original": "You avoid looking <<him>> in the eyes. \"I'm n-not wearing any underwear,\" you say.",
+    "translation": "",
+    "pos": 7394
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "128_5_3_7|",
+    "original": "You think you catch a smile start to form on <<his>> face, but it's gone so fast you may have imagined it. \"I'll overlook that rule violation, but you still need to wash my car. Maybe next time you'll dress appropriately for school.\"",
+    "translation": "",
+    "pos": 7492
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "132_5_3_7|",
+    "original": "<<link [[Strip and wash the car (0:40)|School Detention Car]]>><<pass 40>><<trauma 4>><<stress 4>><<arousal 400>><<upperstrip>><<lowerstrip>><</link>><<gtrauma>><<gstress>><<garousal>>",
+    "translation": "",
+    "pos": 7751
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "134_5_3_7|",
+    "original": "<<link [[Refuse|School Detention Refuse]]>><<set $detention += 40>><<detention 6>><</link>><<ggdelinquency>>",
+    "translation": "",
+    "pos": 7945
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "138_5_3_7|",
+    "original": "You enter the office to find Leighton sitting at <<person1>><<his>> desk, a <<person2>><<person>> sitting opposite looking sorry for <<himself>>. Leighton pauses and turns to you as you enter, cutting off an angry lecture.",
+    "translation": "",
+    "pos": 8091
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "140_5_3_7|",
+    "original": "\"Ah, there you are, young <<lady>>. Today you'll be helping me teach this troublemaker a lesson.\" The <<person>> slumps down in <<his>> chair. It seems <<he>> knows what this means. \"<<He>> was caught masturbating in the <<personsimple>>s' changing rooms during <<his>> swimming lesson. Isn't that right?\" The <<person>> whimpers slightly in assent.",
+    "translation": "",
+    "pos": 8328
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "143_5_3_7|",
+    "original": "Leighton stands, gesturing for the <<person>> to do the same. \"<<if $pronoun is \"m\">>Pull down those shorts<<else>>Lift up that skirt<</if>>, if you please.\"",
+    "translation": "",
+    "pos": 8692
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "145_5_3_7|",
+    "original": "The <<person>> does as instructed, still whimpering. <<Hes>> wearing a pair of red <<if $pronoun is \"m\">>briefs<<else>>panties<</if>>.",
+    "translation": "",
+    "pos": 8863
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "148_5_3_7|",
+    "original": "\"Now, let's get started, shall we?\" Leighton grabs the <<person>> and pushes <<him>> over the desk, <<his>> butt quivering in fear. The <<nnpc_title \"Leighton\">> withdraws a large wooden paddle from <<person1>><<his>> desk and hands it to you. It feels heavy in your hands - a blow from this would really hurt!",
+    "translation": "",
+    "pos": 9012
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "152_5_3_7|",
+    "original": "<<link [[Paddle hard|School Detention Paddle Hard]]>><<def 1>><<set $phase to 0>><<npcincr Leighton love 1>><<npcincr Leighton dom 1>><<status -10>><</link>><<if $speech_attitude is \"bratty\" or $sadism_level gte 1>><<garousal>><<else>><<gstress>><</if>><<lcool>>",
+    "translation": "",
+    "pos": 9377
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "154_5_3_7|",
+    "original": "<<link [[Pretend to paddle|School Detention Paddle Gentle]]>><</link>><<skulduggerydifficulty>>",
+    "translation": "",
+    "pos": 9649
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "157_5_3_7|",
+    "original": "<<link [[Pull their underwear down|School Detention Paddle Hard]]>><<set $phase to 1>><<npcincr Leighton love 3>><<npcincr Leighton dom 1>><</link>><<promiscuous3>>",
+    "translation": "",
+    "pos": 9793
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "160_5_3_7|",
+    "original": "<<link [[Refuse|School Detention Paddle Refuse]]>><<npcincr Leighton love -1>><<npcincr Leighton dom -1>><<status 5>><<delinquency 12>><</link>><<ggdelinquency>><<gcool>>",
+    "translation": "",
+    "pos": 9978
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "164_5_3_7|",
+    "original": "You enter the office to find Leighton sitting at <<his>> desk, holding a large wooden paddle. <<He>> taps it against <<his>> palm, looking impatient. \"You've been a very naughty <<girl>>, but I think I know just the way to get through to you.\" <<He>> leers at your $worn.lower.name. \"Take that off.\"",
+    "translation": "",
+    "pos": 10230
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "167_5_3_7|",
+    "original": "You do as told, hands trembling.<<lowerstrip>>",
+    "translation": "",
+    "pos": 10544
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "172_5_3_7|",
+    "original": "Leighton gets to <<his>> feet, eyes wide as <<he>> ogles your <<genitals>>. \"Oh my, you are a naughty<<if $player.gender is \"m\">> boy,<<elseif $player.penisExist and $player.vaginaExist and $player.gender_appearance is \"m\">>... um, boy...<<elseif $player.penisExist and $player.vaginaExist and $player.gender_appearance is \"f\">>... um, girl...<<else>> girl,<</if>> aren't you? Showing off to your <<nnpc_title \"Leighton\">> like this.\"",
+    "translation": "",
+    "pos": 10726
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "175_5_3_7|",
+    "original": "<<He>> licks <<his>> lips hungrily. \"Especially being so... gifted.\"",
+    "translation": "",
+    "pos": 11260
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "184_5_3_7|",
+    "original": "<<He>> stifles a laugh. \"Especially being so... shall we say, under-developed.\"",
+    "translation": "",
+    "pos": 11684
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "198_5_3_7|",
+    "original": "<<He>> smirks and shakes <<his>> head. \"You couldn't be more deserving of this. Now, come here.\"",
+    "translation": "",
+    "pos": 12113
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "200_5_3_7|",
+    "original": "Leighton gets to <<his>> feet, eyes wide as <<he>> ogles your thighs. \"That's it. Now, come here.\"",
+    "translation": "",
+    "pos": 12224
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "204_5_3_7|",
+    "original": "As you approach Leighton, <<he>> grabs you and pushes you over the desk, paddle in hand.",
+    "translation": "",
+    "pos": 12347
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "207_5_3_7|",
+    "original": "<<link [[Next|School Detention Paddle 1]]>><<set $phase to 0>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 12450
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "210_5_3_7|",
+    "original": "You enter Leighton's office. <<He>> sits at <<his>> desk and beckons you over. When you're close, <<he>> grabs you by the arms and bends you over <<his>> knee.",
+    "translation": "",
+    "pos": 12571
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "213_5_3_7|",
+    "original": "<<link [[Next|School Detention Spank]]>><<set $phase to 2>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 12745
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "218_5_3_7|",
+    "original": "You enter the office to find Leighton sitting at <<his>> desk, holding a large wooden paddle. <<He>> taps it against <<his>> palm, looking impatient. \"You've been a very naughty <<girl>>, but I think I know just the way to get through to you.\" <<He>> leers at your $worn.lower.name. \"Take that off.\"",
+    "translation": "",
+    "pos": 12932
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "221_5_3_7|",
+    "original": "You do as told, hands trembling.<<lowerstrip>>",
+    "translation": "",
+    "pos": 13246
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "226_5_3_7|",
+    "original": "Leighton gets to <<his>> feet, eyes wide as <<he>> ogles your <<genitals>>. \"Oh my, you are a naughty<<if $player.gender is \"m\">> boy,<<elseif $player.penisExist and $player.vaginaExist and $player.gender_appearance is \"m\">>... um, boy...<<elseif $player.penisExist and $player.vaginaExist and $player.gender_appearance is \"f\">>... um, girl...<<else>> girl,<</if>> aren't you? Showing off to your <<nnpc_title \"Leighton\">> like this.\"",
+    "translation": "",
+    "pos": 13418
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "229_5_3_7|",
+    "original": "<<He>> licks <<his>> lips hungrily. \"Especially being so... gifted.\"",
+    "translation": "",
+    "pos": 13952
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "238_5_3_7|",
+    "original": "<<He>> stifles a laugh. \"Especially being so... shall we say, under-developed.\"",
+    "translation": "",
+    "pos": 14376
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "252_5_3_7|",
+    "original": "<<He>> smirks and shakes <<his>> head. \"You couldn't be more deserving of this. Now, come here.\"",
+    "translation": "",
+    "pos": 14805
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "254_5_3_7|",
+    "original": "Leighton gets to <<his>> feet, eyes wide as <<he>> ogles your naked thighs. \"That's it. Now, come here.\"",
+    "translation": "",
+    "pos": 14916
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "258_5_3_7|",
+    "original": "As you approach Leighton, <<he>> grabs you and pushes you over the desk, paddle in hand.",
+    "translation": "",
+    "pos": 15045
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "261_5_3_7|",
+    "original": "<<link [[Next|School Detention Paddle 1]]>><<set $phase to 1>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 15148
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "264_5_3_7|",
+    "original": "You enter Leighton's office. <<He>> sits at <<his>> desk and beckons you over. When you're close, <<he>> grabs you by the arms and bends you over <<his>> knee.",
+    "translation": "",
+    "pos": 15269
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "267_5_3_7|",
+    "original": "<<link [[Next|School Detention Spank]]>><<set $phase to 1>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 15443
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "274_5_3_7|",
+    "original": "You enter the office to find Leighton sitting at <<his>> desk, a <<person2>><<person>> sitting opposite, looking sorry for <<himself>>. Leighton pauses and turns to you as you enter, cutting off an angry lecture. \"It's your lucky day, young <<print $pronoun is \"m\" ? \"man\" : \"lady\">>. Today you can observe what happens to naughty <<girls>> who break the rules.\"",
+    "translation": "",
+    "pos": 15707
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "277_5_3_7|",
+    "original": "The <<person>> looks relieved, turning to watch Leighton yell at you. \"What are you waiting for?\" demands Leighton. \"Get your clothes off, <<girl>>.\"",
+    "translation": "",
+    "pos": 16084
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "280_5_3_7|",
+    "original": "You do as you're told, feeling the <<persons>> gaze on you the entire time. When you're finished, your clothes lie in a pile at your feet. Leighton stands up, eyes wandering all over your naked body, then <span class=\"lewd\">pulls a large wooden paddle from <<person1>><<his>> desk drawer.</span><<stress 2>><<gstress>>",
+    "translation": "",
+    "pos": 16248
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "287_5_3_7|",
+    "original": "\"Now get over here.\" As you approach Leighton, <<he>> grabs you and pushes you over the desk.",
+    "translation": "",
+    "pos": 16711
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "299_5_3_7|",
+    "original": "<<link [[Next|School Detention Paddle 2]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 17008
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "302_5_3_7|",
+    "original": "You enter Leighton's office.",
+    "translation": "",
+    "pos": 17110
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "303_5_3_7|",
+    "original": "\"Lock the door,\" <<he>> demands. \"You're in big trouble.\"",
+    "translation": "",
+    "pos": 17141
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "304_5_3_7|",
+    "original": "You comply.",
+    "translation": "",
+    "pos": 17201
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "305_5_3_7|",
+    "original": "\"Give me your clothes. All of them. Now. I'm searching them for drugs. And yes, I'm serious.\"",
+    "translation": "",
+    "pos": 17215
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "309_5_3_7|",
+    "original": "You roll your eyes and turn to show <<him>> your bound <<if $rightarm is \"bound\" or $leftarm is \"bound\">>arms<</if>><<if ($rightarm is \"bound\" or $leftarm is \"bound\") and $feetuse is \"bound\">> and <</if>><<if $feetuse is \"bound\">>legs<</if>>.",
+    "translation": "",
+    "pos": 17400
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "311_5_3_7|",
+    "original": "<<His>> eyes flash. For a moment you think you see lust. \"How did you..? Never mind.\" <<He>> walks over to you. \"I really don't want to know.\"",
+    "translation": "",
+    "pos": 17647
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "314_5_3_7|",
+    "original": "You feel your limbs come loose.<<unbind>>",
+    "translation": "",
+    "pos": 17806
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "316_5_3_7|",
+    "original": "\"Continue,\" <<he>> says. \"Your clothes.\"",
+    "translation": "",
+    "pos": 17863
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "320_5_3_7|",
+    "original": "You remove your $worn.upper.name and your $worn.lower.name and hand them to <<him>>. <<He>> makes a show of searching through them.",
+    "translation": "",
+    "pos": 17969
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "322_5_3_7|",
+    "original": "You remove your $worn.lower.name and hand them to <<him>>. <<He>> makes a show of searching through them.",
+    "translation": "",
+    "pos": 18115
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "327_5_3_7|",
+    "original": "\"I said everything,\" <<he>> states, pointing at your $worn.under_lower.name.",
+    "translation": "",
+    "pos": 18327
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "328_5_3_7|",
+    "original": "\"Hurry up.\"",
+    "translation": "",
+    "pos": 18407
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "330_5_3_7|",
+    "original": "Hiding any feelings, you strip your<<if !$worn.under_upper.type.includes(\"naked\")>> $worn.under_lower.name and $worn.under_upper.name handing <<underlowerit>> to <<him>>.<<else>> $worn.under_lower.name and hand <<underlowerit>> to <<him>>.<</if>> <<He>> examines <<underlowerit>> closely.",
+    "translation": "",
+    "pos": 18430
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "331_5_3_7|",
+    "original": "\"Drugs,\" <<he>> says. \"I smell drugs.\"",
+    "translation": "",
+    "pos": 18722
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "332_5_3_7|",
+    "original": "<<He>> holds your $worn.under_lower.name to <<his>> nose and inhales deeply several times. \"I'm confiscating these for drug testing.\"",
+    "translation": "",
+    "pos": 18764
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "336_5_3_7|",
+    "original": "\"No underwear?\" <<he>> comments. \"That's against the rules,",
+    "translation": "",
+    "pos": 18987
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "339_5_3_7|",
+    "original": "young man.\"",
+    "translation": "",
+    "pos": 19114
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "342_5_3_7|",
+    "original": "young... man?\"",
+    "translation": "",
+    "pos": 19235
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "344_5_3_7|",
+    "original": "young... lady?\"",
+    "translation": "",
+    "pos": 19270
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "347_5_3_7|",
+    "original": "young lady.\"",
+    "translation": "",
+    "pos": 19317
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "351_5_3_7|",
+    "original": "young man.\"",
+    "translation": "",
+    "pos": 19403
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "353_5_3_7|",
+    "original": "young lady.\"",
+    "translation": "",
+    "pos": 19433
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "359_5_3_7|",
+    "original": "<<He>> does a double-take. \"Oh, you're wearing <<if $worn.genitals.name is \"chastity parasite\">>a... parasite?<<else>>a $worn.genitals.name.<</if>>",
+    "translation": "",
+    "pos": 19520
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "360_5_3_7|",
+    "original": "Okay, let me see that.\" <<He>> crouches by you, closely examining and probing around your $worn.genitals.name with <<his>> fingers.<<if $worn.genitals.name is \"chastity parasite\">> It squirms in response to the touch.<<garousal>><<arousal 200 \"genitals\">><br><br><</if>> \"Doesn't feel like you're hiding anything,\" <<he>> says.",
+    "translation": "",
+    "pos": 19671
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "363_5_3_7|",
+    "original": "<<He>> sits back at <<his>> desk and beckons you over. When you're close, <<he>> grabs you by the arms and bends you over <<his>> knee.",
+    "translation": "",
+    "pos": 20023
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "366_5_3_7|",
+    "original": "<<link [[Next|School Detention Spank]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 20173
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "371_5_3_7|",
+    "original": "You enter the office to find Leighton sitting at <<his>> desk. Three students are sitting opposite, looking <<print either (`bored`,`sorry for themselves`,`bitter`)>>.\tLeighton pauses and faces you as you enter, cutting off an angry lecture.",
+    "translation": "",
+    "pos": 20323
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "374_5_3_7|",
+    "original": "\"It's your lucky day,\" Leighton says to the other students, before turning to you with an evil grin.",
+    "translation": "",
+    "pos": 20577
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "377_5_3_7|",
+    "original": "\"Take off your clothes and place your hands on my desk,\" <<he>> demands. You reluctantly do as told, feeling the stares of the other students on you as you strip. <span class=\"lewd\">Leighton pulls a large wooden paddle from <<his>> desk drawer.</span><<stress 2>><<gstress>>",
+    "translation": "",
+    "pos": 20690
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "384_5_3_7|",
+    "original": "<<He>> gets to <<his>> feet, eyes wide as <<he>> ogles your nudity.",
+    "translation": "",
+    "pos": 21103
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "387_5_3_7|",
+    "original": "A moment later they narrow at the sight of your <<if $worn.genitals.name is \"chastity parasite\">>parasite<<else>>$worn.genitals.name<</if>>. The others are similarly surprised.",
+    "translation": "",
+    "pos": 21199
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "389_5_3_7|",
+    "original": "\"<<if $worn.genitals.name is \"chastity parasite\">>Ew, what is that?<<else>><<pShes>> wearing a $worn.genitals.name?<</if>>\" the <<person3>><<person>> says as the other two gawk.",
+    "translation": "",
+    "pos": 21389
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "392_5_3_7|",
+    "original": "\"Let me see that.\" Leighton says as <<person1>><<he>> crouches by you, closely examining and probing around your $worn.genitals.name with <<his>> fingers.<<if $worn.genitals.name is \"chastity parasite\">> It squirms in response to the touch.<<garousal>><<arousal 200 \"genitals\">><br><br><</if>> \"Doesn't feel like you're hiding anything,\" <<he>> says.",
+    "translation": "",
+    "pos": 21629
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "394_5_3_7|",
+    "original": "<<He>> stands up and presses <<his>> hand against your back, shoving you against the desk.",
+    "translation": "",
+    "pos": 21985
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "396_5_3_7|",
+    "original": "<<He>> licks <<his>> lips hungrily at the sight of your <<penis>>. The others are equally enthralled.",
+    "translation": "",
+    "pos": 22137
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "398_5_3_7|",
+    "original": "<<Penisremarkquote>> the <<person3>><<person>> says as the other two giggle.",
+    "translation": "",
+    "pos": 22252
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "408_5_3_7|",
+    "original": "\"That's quite enough,\" Leighton interjects, an amused smile on <<person1>><<his>> lips.",
+    "translation": "",
+    "pos": 22636
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "411_5_3_7|",
+    "original": "<<He>> turns back to you and presses <<his>> hand against your back, shoving you against the desk.",
+    "translation": "",
+    "pos": 22738
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "413_5_3_7|",
+    "original": "<<He>> stifles a laugh as <<his>> gaze falls on your <<penis>>. The others aren't so considerate.",
+    "translation": "",
+    "pos": 22898
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "415_5_3_7|",
+    "original": "<<Penisremarkquote>> the <<person3>><<person>> jeers as the other two giggle.",
+    "translation": "",
+    "pos": 23009
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "425_5_3_7|",
+    "original": "\"That's quite enough,\" Leighton interjects, an amused smile on <<person1>><<his>> lips.",
+    "translation": "",
+    "pos": 23330
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "428_5_3_7|",
+    "original": "<<He>> turns back to you and presses <<his>> hand against your back, shoving you against the desk.",
+    "translation": "",
+    "pos": 23432
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "430_5_3_7|",
+    "original": "Once you're exposed, Leighton presses a hand against your back and shoves you against the desk.",
+    "translation": "",
+    "pos": 23543
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "433_5_3_7|",
+    "original": "\"Today you will observe what happens to those who break the rules,\" <<he>> announces to the other students. <<He>> raises the paddle.",
+    "translation": "",
+    "pos": 23659
+  },
+  {
+    "passage": "School Detention",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "449_5_3_7|",
+    "original": "<<link [[Next|School Detention Paddle 3]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 24204
+  },
+  {
+    "passage": "School Leave Run",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "456_5_3_7|",
+    "original": "You shake off <<his>> hand and run for the exit, escaping onto the street.",
+    "translation": "",
+    "pos": 80
+  },
+  {
+    "passage": "School Leave Run",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "459_5_3_7|",
+    "original": "<<link [[Next|Oxford Street]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 165
+  },
+  {
+    "passage": "School Detention Lines",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "466_5_3_7|",
+    "original": "You get to work, hoping to get out of here quickly. Twenty minutes pass before Leighton speaks again. \"That should do it.\" <<He>> gestures for you to leave.",
+    "translation": "",
+    "pos": 121
+  },
+  {
+    "passage": "School Detention Lines",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "468_5_3_7|",
+    "original": "You start leisurely writing on the board. Leighton looks up at you occasionally, pursing <<his>> lips in annoyance. Eventually, <<he>> looks at <<his>> watch. \"That's enough, I don't have all day. Next time put some work into it and we'll both be out of here sooner.\" <<He>> gestures for you to leave.",
+    "translation": "",
+    "pos": 302
+  },
+  {
+    "passage": "School Detention Lines",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "471_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 621
+  },
+  {
+    "passage": "School Detention Grope",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "478_5_3_7|",
+    "original": "You decide not to make a fuss, and allow the <<person>> to continue groping you while you continue writing on the board. <<He>> is careful not to be too blatant about it, but by the time Leighton lets you out your face is flushed red.",
+    "translation": "",
+    "pos": 100
+  },
+  {
+    "passage": "School Detention Grope",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "480_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 346
+  },
+  {
+    "passage": "School Detention Grope",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "484_5_3_7|",
+    "original": "You yelp and jump away from the <<person>>, clutching your backside and making it clear to Leighton what just happened. <<person1>>Leighton gives you a level stare. \"I'm not going to fall for your tricks.\" <<He>> looks at the <<person2>><<person>>. \"You're done here, leave.\" The <<person>> wastes no time in vacating the room.",
+    "translation": "",
+    "pos": 454
+  },
+  {
+    "passage": "School Detention Grope",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "486_5_3_7|",
+    "original": "<<person1>>Once alone, Leighton grabs you by the arms and bends you over <<his>> knee.",
+    "translation": "",
+    "pos": 795
+  },
+  {
+    "passage": "School Detention Grope",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "489_5_3_7|",
+    "original": "<<link [[Next|School Detention Spank]]>><<handheldon>><<npc Leighton>><<person1>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 910
+  },
+  {
+    "passage": "School Detention Grope",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "492_5_3_7|",
+    "original": "You yelp and jump away from the <<person>>, clutching your backside and making it clear to Leighton what just happened. <<person1>> <<He>> looks at the <<person2>><<person>>, then back at you.<<person1>> \"You're done here, leave.\" Something in <<his>> voice precludes argument, and you scurry from the room. You think you hear a muffled cry behind you as you walk down the hall.",
+    "translation": "",
+    "pos": 1050
+  },
+  {
+    "passage": "School Detention Grope",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "494_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1442
+  },
+  {
+    "passage": "School Detention Spank",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "525_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|School Detention Spank Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 441
+  },
+  {
+    "passage": "School Detention Spank",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "527_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|School Detention Spank]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 543
+  },
+  {
+    "passage": "School Detention Spank Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "536_5_3_7|",
+    "original": "Clarity returns to <<his>> eyes and <<he>> stands abruptly, realising what just happened. \"Don't breathe a word of this to anyone. Leave.\" <<tearful>> you walk from the room.",
+    "translation": "",
+    "pos": 181
+  },
+  {
+    "passage": "School Detention Spank Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "542_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><</link>>",
+    "translation": "",
+    "pos": 435
+  },
+  {
+    "passage": "School Detention Spank Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "545_5_3_7|",
+    "original": "<<He>> recoils in pain and you squirm from <<his>> grip.",
+    "translation": "",
+    "pos": 508
+  },
+  {
+    "passage": "School Detention Spank Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "550_5_3_7|",
+    "original": "<<He>> shouts after you as you flee down the corridor. \"Hey, <<bitch>>, forget something?\"",
+    "translation": "",
+    "pos": 715
+  },
+  {
+    "passage": "School Detention Spank Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "552_5_3_7|",
+    "original": "You were unable to rescue your clothes on the way out. <<tearful>> you keep running.",
+    "translation": "",
+    "pos": 815
+  },
+  {
+    "passage": "School Detention Spank Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "555_5_3_7|",
+    "original": "<<He>> shouts after you as you flee down the corridor. \"You've made things much worse for yourself, <<bitch>>. Mark my words.\" <<tearful>> you keep running.",
+    "translation": "",
+    "pos": 923
+  },
+  {
+    "passage": "School Detention Spank Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "560_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><</link>>",
+    "translation": "",
+    "pos": 1122
+  },
+  {
+    "passage": "School Detention Spank Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "563_5_3_7|",
+    "original": "<<He>> releases you. \"I took no pleasure in that. I hope you've learnt your lesson.\" <<He>> gestures for you to leave. <<tearful>> you do so.",
+    "translation": "",
+    "pos": 1174
+  },
+  {
+    "passage": "School Detention Spank Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "569_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><</link>>",
+    "translation": "",
+    "pos": 1359
+  },
+  {
+    "passage": "School Detention Car",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "577_5_3_7|",
+    "original": "You leave the office and walk to the set of double doors leading outside. You <<nervously>> remove your clothing and leave it lying just inside the doorway. You cover your <<undies>> with a hand before walking over to the car. Leighton watches you as promised, with a blank expression on <<his>> face.",
+    "translation": "",
+    "pos": 102
+  },
+  {
+    "passage": "School Detention Car",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "580_5_3_7|",
+    "original": "You find a bucket of soapy water containing a sponge and get to work, starting with the side opposite Leighton. You wonder if stripping was really necessary, you manage to avoid getting wet without difficulty.",
+    "translation": "",
+    "pos": 414
+  },
+  {
+    "passage": "School Detention Car",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "583_5_3_7|",
+    "original": "You keep your <<lewdness>> covered as best you can as you move round the car. You're close to finishing when Leighton opens the window. \"Good job, but you missed a spot,\" <<he>> says, pointing next to your thighs.",
+    "translation": "",
+    "pos": 634
+  },
+  {
+    "passage": "School Detention Car",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "586_5_3_7|",
+    "original": "<<link [[Crouch|School Detention Car2]]>><<set $phase to 0>><</link>>",
+    "translation": "",
+    "pos": 858
+  },
+  {
+    "passage": "School Detention Car",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "590_5_3_7|",
+    "original": "<<link [[Bend over|School Detention Car2]]>><<set $phase to 2>><</link>><<exhibitionist5>>",
+    "translation": "",
+    "pos": 1022
+  },
+  {
+    "passage": "School Detention Car",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "595_5_3_7|",
+    "original": "<<link [[Bend over|School Detention Car2]]>><<set $phase to 1>><</link>><<exhibitionist3>>",
+    "translation": "",
+    "pos": 1223
+  },
+  {
+    "passage": "School Detention Refuse",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "603_5_3_7|",
+    "original": "You leave the office, but rather than head toward your punishment, you make for the exit. This will have consequences later, but for now you're in the clear.",
+    "translation": "",
+    "pos": 80
+  },
+  {
+    "passage": "School Detention Car2",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "612_5_3_7|",
+    "original": "You crouch to clean off the dirt <<he>> pointed to. \"That'll do it. You can leave now,\" <<he>> says, shutting the blinds. You dress and leave the premises.",
+    "translation": "",
+    "pos": 100
+  },
+  {
+    "passage": "School Detention Car2",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "614_5_3_7|",
+    "original": "<<link [[Next|Oxford Street]]>><<clotheson>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 267
+  },
+  {
+    "passage": "School Detention Car2",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "616_5_3_7|",
+    "original": "You bend over to clean off the dirt, sticking your <<bottom>> out toward Leighton. You feel it wiggle as you rub the car. Leighton's face reddens. \"T-that will be all. You can go now.\" <<He>> stammers, shutting the blinds. You dress and leave the premises.",
+    "translation": "",
+    "pos": 357
+  },
+  {
+    "passage": "School Detention Car2",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "618_5_3_7|",
+    "original": "<<link [[Next|Oxford Street]]>><<clotheson>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 635
+  },
+  {
+    "passage": "School Detention Car2",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "620_5_3_7|",
+    "original": "You bend over to clean off the dirt, sticking your bare <<bottom>> out toward Leighton. You feel it wiggle as you rub the car. Leighton's face reddens. \"M-make sure to get it all.\" <<He>> stammers, shutting the window and retreating out of sight.",
+    "translation": "",
+    "pos": 725
+  },
+  {
+    "passage": "School Detention Car2",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "623_5_3_7|",
+    "original": "Pleased with yourself, you spend another minute polishing the troublesome spot. You make sure to put an extra wiggle in your hips, in case Leighton is still secretly watching.",
+    "translation": "",
+    "pos": 994
+  },
+  {
+    "passage": "School Detention Car2",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "627_5_3_7|",
+    "original": "You get so focused on picturing <<nnpc_his \"Leighton\">> embarrassed face, sounds of soft and rapid steps behind you elude your attention, until there's a sudden weight on your bent back and a growl in your ear.",
+    "translation": "",
+    "pos": 1310
+  },
+  {
+    "passage": "School Detention Car2",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "629_5_3_7|",
+    "original": "<<link [[Next|School Detention Car Surprise Dog]]>><<handheldon>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 1534
+  },
+  {
+    "passage": "School Detention Car2",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "631_5_3_7|",
+    "original": "Eventually done with your task, you dress and leave the premises.",
+    "translation": "",
+    "pos": 1651
+  },
+  {
+    "passage": "School Detention Car2",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "633_5_3_7|",
+    "original": "<<link [[Next|Oxford Street]]>><<clotheson>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1730
+  },
+  {
+    "passage": "School Detention Car Surprise Dog",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "662_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|School Detention Car Surprise Dog Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 551
+  },
+  {
+    "passage": "School Detention Car Surprise Dog",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "664_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|School Detention Car Surprise Dog]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 664
+  },
+  {
+    "passage": "School Detention Car Surprise Dog Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "673_5_3_7|",
+    "original": "The <<beasttype>> grunts in satisfaction, then trots off. You're left lying on the ground. <<tearful>> you dust yourself off.",
+    "translation": "",
+    "pos": 146
+  },
+  {
+    "passage": "School Detention Car Surprise Dog Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "677_5_3_7|",
+    "original": "The <<beasttype>> yelps and flees, <<bhis>> tail between <<bhis>> legs. <<tearful>> you dust yourself off.",
+    "translation": "",
+    "pos": 327
+  },
+  {
+    "passage": "School Detention Car Surprise Dog Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "682_5_3_7|",
+    "original": "A sharp whistle stops the <<beasttype>> in <<bhis>> tracks. \"That'll be enough.\" The window to Leighton's office is open again and <<person2>><<he>> is back, watching you impassively.",
+    "translation": "",
+    "pos": 488
+  },
+  {
+    "passage": "School Detention Car Surprise Dog Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "685_5_3_7|",
+    "original": "\"Unless you'd rather to continue?\" Your face flushes. <<gtrauma>><<gstress>><<trauma 6>><<stress 6>>",
+    "translation": "",
+    "pos": 733
+  },
+  {
+    "passage": "School Detention Car Surprise Dog Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "688_5_3_7|",
+    "original": "Following another whistle from Leighton the <<beasttype>> backs away, then reluctantly trots off towards <<bhis>> owner's office. You're left lying on the ground. <<tearful>> you dust yourself off.",
+    "translation": "",
+    "pos": 854
+  },
+  {
+    "passage": "School Detention Car Surprise Dog Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "693_5_3_7|",
+    "original": "\"I hope this was a valuable lesson for you, young <<lady>>.\" Leighton fixes you with <<his>> stare. \"Do try to remember it next time you think of getting cheeky with your superiors.\"",
+    "translation": "",
+    "pos": 1107
+  },
+  {
+    "passage": "School Detention Car Surprise Dog Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "695_5_3_7|",
+    "original": "<<He>> shuts the blinds before you can answer, leaving you all alone.",
+    "translation": "",
+    "pos": 1299
+  },
+  {
+    "passage": "School Detention Car Surprise Dog Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "698_5_3_7|",
+    "original": "<<link [[Next|Oxford Street]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1384
+  },
+  {
+    "passage": "School Detention Paddle Hard",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "704_5_3_7|",
+    "original": "You hold the paddle in one hand, reaching out with the other to pull down <<person2>><<persons>> <<if $pronoun is \"m\">>briefs<<else>>panties<</if>>. <<He>> yelps in surprise as <<his>> bare butt comes into view. You feel a surge of arousal at the sight. <<promiscuity3>>",
+    "translation": "",
+    "pos": 100
+  },
+  {
+    "passage": "School Detention Paddle Hard",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "706_5_3_7|",
+    "original": "\"Oh my,\" says Leighton, glee evident in <<person1>><<his>> voice. \"This is shaping up to be quite the punishment!\"",
+    "translation": "",
+    "pos": 373
+  },
+  {
+    "passage": "School Detention Paddle Hard",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "710_5_3_7|",
+    "original": "You raise the paddle high and bring it down on the <<person2>><<persons>><<if $phase is 1>> bare<</if>> butt with all your might. <<He>> turns <<his>> head around to look at you, betrayal in <<his>> eyes. You feel a twinge of <<if $submissive lte 500 or $sadism_level gte 1>>arousal,<<arousal 1000>><<else>>guilt,<<stress 12>><</if>> but Leighton forces the <<persons>> head down to the desk, snapping you out of it.",
+    "translation": "",
+    "pos": 507
+  },
+  {
+    "passage": "School Detention Paddle Hard",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "713_5_3_7|",
+    "original": "\"That's it, hit <<him>> harder!\" exclaims Leighton, eyes wide with lust. \"Make <<him>> squirm!\"",
+    "translation": "",
+    "pos": 934
+  },
+  {
+    "passage": "School Detention Paddle Hard",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "722_5_3_7|",
+    "original": "You oblige, bringing the paddle down on the <<personsimple>>'s other cheek this time. <<He>> jerks <<his>> whole body on the desk, but Leighton presses down on the small of <<his>> back, holding <<him>> down.",
+    "translation": "",
+    "pos": 1184
+  },
+  {
+    "passage": "School Detention Paddle Hard",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "726_5_3_7|",
+    "original": "The sensation is overwhelming. You feel your <<penis>> press against your $worn.lower.name, and your <<pussy>> is soaked. Your hands start to tremble and your knees begin to quake.",
+    "translation": "",
+    "pos": 1472
+  },
+  {
+    "passage": "School Detention Paddle Hard",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "728_5_3_7|",
+    "original": "Your <<penis>> is fully erect now, throbbing underneath your $worn.lower.name as you beat your classmate again and again.",
+    "translation": "",
+    "pos": 1686
+  },
+  {
+    "passage": "School Detention Paddle Hard",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "730_5_3_7|",
+    "original": "Your body quivers with excitement as you beat your classmate again and again, your drenched <<pussy>> seeping through your $worn.lower.name and threatening to give you away.",
+    "translation": "",
+    "pos": 1842
+  },
+  {
+    "passage": "School Detention Paddle Hard",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "732_5_3_7|",
+    "original": "Leighton is too focused on the <<person>> to notice, however.",
+    "translation": "",
+    "pos": 2026
+  },
+  {
+    "passage": "School Detention Paddle Hard",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "736_5_3_7|",
+    "original": "The sound of paddle meeting<<if $phase is 1>> bare<</if>> flesh echoes around the room, mixing with the <<personsimple>>'s sobs.",
+    "translation": "",
+    "pos": 2106
+  },
+  {
+    "passage": "School Detention Paddle Hard",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "739_5_3_7|",
+    "original": "<<His>> butt is an angry red colour, nasty welts all along <<his>> buttocks where you hit <<him>>.",
+    "translation": "",
+    "pos": 2256
+  },
+  {
+    "passage": "School Detention Paddle Hard",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "742_5_3_7|",
+    "original": "By the end, the <<person>> is left a sobbing mess, holding onto the desk for support.",
+    "translation": "",
+    "pos": 2364
+  },
+  {
+    "passage": "School Detention Paddle Hard",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "745_5_3_7|",
+    "original": "\"Good <<girl>>,\" Leighton says to you, smiling as <<nnpc_he \"Leighton\">> takes the paddle back. \"I think <<hes>> learnt <<his>> lesson now<<if $fame.scrap gte 400>>. It seems the rumours I heard about you were true, you really don't hold back<</if>>.\"",
+    "translation": "",
+    "pos": 2460
+  },
+  {
+    "passage": "School Detention Paddle Hard",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "748_5_3_7|",
+    "original": "<<link [[Next|School Detention Paddle Other End]]>><</link>>",
+    "translation": "",
+    "pos": 2722
+  },
+  {
+    "passage": "School Detention Paddle Gentle",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "754_5_3_7|",
+    "original": "You lift the paddle a little and swing it down upon <<person2>><<persons>> upturned ass, stopping just shy of <<his>> cheek. <<He>> yelps in surprise, but then turns to you, looking relieved. You do the same to <<his>> other cheek. <<He>> flinches and cries out, but you know <<hes>> not in any real pain.",
+    "translation": "",
+    "pos": 80
+  },
+  {
+    "passage": "School Detention Paddle Gentle",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "761_5_3_7|",
+    "original": "<span class=\"green\">Leighton looks pleased,</span> getting out <<person1>><<his>> camera and snapping pictures as you pretend to beat your classmate. The <<person2>><<person>> makes a show of yelping and wriggling, so you put a hand on the small of <<his>> back, holding <<him>> down to the desk. \"P-please stop!\" <<he>> sobs dramatically.",
+    "translation": "",
+    "pos": 470
+  },
+  {
+    "passage": "School Detention Paddle Gentle",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "764_5_3_7|",
+    "original": "\"Beg all you want,\" snarls Leighton, <<person1>><<his>> camera snapping the whole scene. \"We all know you deserve this. Isn't that right?\" <<He>> turns to you expectantly.",
+    "translation": "",
+    "pos": 822
+  },
+  {
+    "passage": "School Detention Paddle Gentle",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "766_5_3_7|",
+    "original": "\"You've been a very bad <<person2>><<personsimple>>,\" you agree, hitting <<him>> a few more times. The <<person>> cries out with each strike until Leighton is finally satisfied.",
+    "translation": "",
+    "pos": 1001
+  },
+  {
+    "passage": "School Detention Paddle Gentle",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "768_5_3_7|",
+    "original": "\"Good <<girl>>,\" Leighton says to you, smiling as <<nnpc_he \"Leighton\">> takes the paddle back. \"I think <<person2>><<hes>> learnt <<his>> lesson now<<if $fame.scrap gte 400>>. It seems the rumours I heard about you were true, you really don't hold back<</if>>.\"",
+    "translation": "",
+    "pos": 1186
+  },
+  {
+    "passage": "School Detention Paddle Gentle",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "771_5_3_7|",
+    "original": "<<link [[Next|School Detention Paddle Other End]]>><<set $phase to 2>><</link>>",
+    "translation": "",
+    "pos": 1461
+  },
+  {
+    "passage": "School Detention Paddle Gentle",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "774_5_3_7|",
+    "original": "<span class=\"red\">Leighton shakes <<person1>><<his>> head and snatches the paddle back.</span> \"No, no, don't go easy on <<person2>><<him>>,\" <<person1>><<he>> says, concealing a smirk. \"Here, let me show you how it's done.\" The <<nnpc_title \"Leighton\">> pushes you against the desk next to the <<person2>><<person>>, then <<if setup.clothes.lower[clothesIndex('lower', $worn.lower)].skirt is 1>>lifts your skirt<<else>>tugs down your $worn.lower.name<</if>>, baring your <<bottom>>.",
+    "translation": "",
+    "pos": 1557
+  },
+  {
+    "passage": "School Detention Paddle Gentle",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "785_5_3_7|",
+    "original": "<<link [[Next|School Detention Double Paddle]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 2233
+  },
+  {
+    "passage": "School Detention Paddle Refuse",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "793_5_3_7|",
+    "original": "You stare at into the <<persons>> pleading eyes, and you're overcome with guilt. \"N-no,\" you say, gently laying the paddle on the desk. \"This is wrong.\"",
+    "translation": "",
+    "pos": 127
+  },
+  {
+    "passage": "School Detention Paddle Refuse",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "795_5_3_7|",
+    "original": "\"This is fucked up,\" you scoff, shoving the paddle back into Leighton's hands. \"Find someone else to do your dirty work, you old creep.\"",
+    "translation": "",
+    "pos": 321
+  },
+  {
+    "passage": "School Detention Paddle Refuse",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "797_5_3_7|",
+    "original": "\"This is sick,\" you say, handing the paddle back to Leighton. \"I want no part in it.\"",
+    "translation": "",
+    "pos": 468
+  },
+  {
+    "passage": "School Detention Paddle Refuse",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "801_5_3_7|",
+    "original": "The <<person>> relaxes over the desk, looking relieved. Scowling, Leighton rounds on you. \"Fine. If you won't spank <<him>>, you can join <<him>>! Get over the desk, I'll teach you to disobey me.\"",
+    "translation": "",
+    "pos": 572
+  },
+  {
+    "passage": "School Detention Paddle Refuse",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "804_5_3_7|",
+    "original": "<<person1>><<He>> shoves you against the desk next to the <<person2>><<person>>, who trembles beside you, too terrified to move. You hear the sound of Leighton smacking the paddle against <<person1>><<his>> palm behind you.",
+    "translation": "",
+    "pos": 779
+  },
+  {
+    "passage": "School Detention Paddle Refuse",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "815_5_3_7|",
+    "original": "<<link [[Next|School Detention Double Paddle]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 1187
+  },
+  {
+    "passage": "School Detention Paddle Watch",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "821_5_3_7|",
+    "original": "Leighton brings the paddle down on the <<persons>> upturned butt. <<He>> cries out in pain, looking at you with pleading eyes. \"Stop!\" <<he>> exclaims. \"Don't let <<nnpc_him \"Leighton\">> do this to me!\"",
+    "translation": "",
+    "pos": 80
+  },
+  {
+    "passage": "School Detention Paddle Watch",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "824_5_3_7|",
+    "original": "The <<persons>> pleas only serve to encourage Leighton. <<person1>><<He>> brings the paddle down again and again, clearly enjoying the way the <<person2>><<personsimple>> struggles and cries. \"Beg all you want, we all know you deserve this.\"",
+    "translation": "",
+    "pos": 293
+  },
+  {
+    "passage": "School Detention Paddle Watch",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "827_5_3_7|",
+    "original": "The <<personsimple>> tries to respond, but any words are lost in the yelps and cries coming out of <<his>> mouth. <<His>> butt is almost in your face now, every blow from the paddle making it ripple inside <<his>> <<if $pronoun is \"m\">>briefs<<else>>panties<</if>>. Leighton pauses, pulling the <<personsimple>>'s <<if $pronoun is \"m\">>briefs<<else>>panties<</if>> up between <<his>> cheeks to admire <<person1>><<his>> handiwork. An angry red covers the <<person2>><<personsimple>>'s buttocks. If <<hes>> ashamed to let you see <<his>> ass, <<he>> doesn't show it. <<His>> attention is clearly on the pain in <<his>> butt.",
+    "translation": "",
+    "pos": 545
+  },
+  {
+    "passage": "School Detention Paddle Watch",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "830_5_3_7|",
+    "original": "\"I think that should be enough, don't you?\" asks Leighton, giving the <<persons>> bare cheek a light spank.",
+    "translation": "",
+    "pos": 1179
+  },
+  {
+    "passage": "School Detention Paddle Watch",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "833_5_3_7|",
+    "original": "<<link [[Nod|School Detention Paddle Other End]]>><<set $phase to 2>><</link>>",
+    "translation": "",
+    "pos": 1297
+  },
+  {
+    "passage": "School Detention Paddle Watch",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "835_5_3_7|",
+    "original": "<<link [[Harder|School Detention Paddle Harder]]>><<npcincr Leighton love 1>><<control 10>><<status -10>><<arousal 500>><</link>><<gcontrol>><<garousal>><<lcool>>",
+    "translation": "",
+    "pos": 1381
+  },
+  {
+    "passage": "School Detention Paddle Harder",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "841_5_3_7|",
+    "original": "Leighton raises <<person1>><<his>> eyebrows at you. \"You're enjoying this, aren't you?\" <<He>> chuckles and turns to the <<person2>><<person>>. \"You heard <<phim>>, we're going to really make you sorry.\"",
+    "translation": "",
+    "pos": 80
+  },
+  {
+    "passage": "School Detention Paddle Harder",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "844_5_3_7|",
+    "original": "The <<person>> glares at you through <<his>> tears, lying limp over Leighton's desk. <<He>> doesn't speak, but <<he>> doesn't need to. <<Hes>> clearly furious. Leighton raises the paddle, not bothering to fix the <<personsimple>>'s underwear, bringing it down hard on <<his>> exposed buttocks. <<He>> cries out and tries to stand, but Leighton leans <<person1>><<his>> weight against the small of the <<person2>><<personsimple>>'s back. \"You're not getting off that easy. I'm going to give you six more. Count them!\"",
+    "translation": "",
+    "pos": 294
+  },
+  {
+    "passage": "School Detention Paddle Harder",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "847_5_3_7|",
+    "original": "\"O-one!\" cries the <<person>>, trying in vain to push Leighton off <<him>>.",
+    "translation": "",
+    "pos": 821
+  },
+  {
+    "passage": "School Detention Paddle Harder",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "849_5_3_7|",
+    "original": "\"Two! Three! F-four! OW! Five!\" Leighton doesn't go easy on the <<personsimple>>. <<person1>><<He>> glances at you after every hit, trying to gauge your reaction. Finally, <<he>> delivers the final blow. \"FUCK! Six!\" Leighton lets go of the <<person2>><<person>> who lies still, sobbing.",
+    "translation": "",
+    "pos": 902
+  },
+  {
+    "passage": "School Detention Paddle Harder",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "851_5_3_7|",
+    "original": "\"Was that so bad?\" asks Leighton, putting the paddle back in the desk. \"If you're a good <<personsimple>>, it'll be the last paddling you'll have to get.\"",
+    "translation": "",
+    "pos": 1195
+  },
+  {
+    "passage": "School Detention Paddle Harder",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "853_5_3_7|",
+    "original": "The <<person>> nods, but <<hes>> not really listening. <<He>> stands up and fixes <<his>> clothing, not looking at you, before stumbling out of the room.",
+    "translation": "",
+    "pos": 1355
+  },
+  {
+    "passage": "School Detention Paddle Harder",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "856_5_3_7|",
+    "original": "Once <<he>> leaves, Leighton gives you a light slap on the butt.",
+    "translation": "",
+    "pos": 1519
+  },
+  {
+    "passage": "School Detention Paddle Harder",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "859_5_3_7|",
+    "original": "\"Looks like you enjoyed that,\" <<person1>><<he>> says with a pointed glance at the <<if $player.penisExist and calculatePenisBulge()>>bulge<<else>>wet patch<</if>> in your $worn.lower.name.",
+    "translation": "",
+    "pos": 1611
+  },
+  {
+    "passage": "School Detention Paddle Harder",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "861_5_3_7|",
+    "original": "\"Let that be a warning,\" <<person1>><<he>> says with a smirk.",
+    "translation": "",
+    "pos": 1811
+  },
+  {
+    "passage": "School Detention Paddle Harder",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "864_5_3_7|",
+    "original": "\"Now run along. I've work to do. I trust I won't be seeing you here again for a long while.\"",
+    "translation": "",
+    "pos": 1882
+  },
+  {
+    "passage": "School Detention Paddle Harder",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "867_5_3_7|",
+    "original": "<<He>> ushers you out of <<his>> office and back into the hallway.",
+    "translation": "",
+    "pos": 1985
+  },
+  {
+    "passage": "School Detention Paddle Harder",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "870_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 2062
+  },
+  {
+    "passage": "School Detention Paddle Intervene",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "877_5_3_7|",
+    "original": "Leighton raises the paddle to strike,",
+    "translation": "",
+    "pos": 92
+  },
+  {
+    "passage": "School Detention Paddle Intervene",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "879_5_3_7|",
+    "original": "but you throw yourself between <<him>> and the <<person2>><<person>>.",
+    "translation": "",
+    "pos": 165
+  },
+  {
+    "passage": "School Detention Paddle Intervene",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "881_5_3_7|",
+    "original": "\"Just because you're the <<nnpc_title \"Leighton\">> doesn't give you the right to pick on us,\" you say with as much bravery as you can muster.",
+    "translation": "",
+    "pos": 242
+  },
+  {
+    "passage": "School Detention Paddle Intervene",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "883_5_3_7|",
+    "original": "but you grab <<his>> arm, daring <<him>> to try something.",
+    "translation": "",
+    "pos": 425
+  },
+  {
+    "passage": "School Detention Paddle Intervene",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "885_5_3_7|",
+    "original": "\"Do your worst,\" you spit. \"I'll hit back twice as hard.\"",
+    "translation": "",
+    "pos": 491
+  },
+  {
+    "passage": "School Detention Paddle Intervene",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "887_5_3_7|",
+    "original": "but you stand up and put your arm out, stopping <<him>>.",
+    "translation": "",
+    "pos": 559
+  },
+  {
+    "passage": "School Detention Paddle Intervene",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "889_5_3_7|",
+    "original": "\"Stop!\" you shout. \"You can't do this!\"",
+    "translation": "",
+    "pos": 623
+  },
+  {
+    "passage": "School Detention Paddle Intervene",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "893_5_3_7|",
+    "original": "Leighton fixes you with a glare. \"I'm the <<nnpc_title \"Leighton\">>, young <<lady>>. I can do whatever I want. If you don't want to watch, then you can join <<person2>><<him>>.\"",
+    "translation": "",
+    "pos": 681
+  },
+  {
+    "passage": "School Detention Paddle Intervene",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "896_5_3_7|",
+    "original": "The <<person>> gives you a commiserating look, but <<he>> seems grateful that you tried. <<His>> relief is short-lived, however, as Leighton grabs you by the scruff of your neck, pushing you over the desk and raising the paddle over your <<bottom>>.",
+    "translation": "",
+    "pos": 869
+  },
+  {
+    "passage": "School Detention Paddle Intervene",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "907_5_3_7|",
+    "original": "<<link [[Next|School Detention Double Paddle]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 1303
+  },
+  {
+    "passage": "School Detention Paddle Masturbate",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "916_5_3_7|",
+    "original": "You feel a",
+    "translation": "",
+    "pos": 110
+  },
+  {
+    "passage": "School Detention Paddle Masturbate",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "919_5_3_7|",
+    "original": "twisted sense of vindication",
+    "translation": "",
+    "pos": 187
+  },
+  {
+    "passage": "School Detention Paddle Masturbate",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "921_5_3_7|",
+    "original": "sadistic thrill",
+    "translation": "",
+    "pos": 250
+  },
+  {
+    "passage": "School Detention Paddle Masturbate",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "923_5_3_7|",
+    "original": "guilty, yet pleasurable sensation",
+    "translation": "",
+    "pos": 278
+  },
+  {
+    "passage": "School Detention Paddle Masturbate",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "926_5_3_7|",
+    "original": "as Leighton brings the paddle down on the <<person2>><<persons>> upturned ass.",
+    "translation": "",
+    "pos": 323
+  },
+  {
+    "passage": "School Detention Paddle Masturbate",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "929_5_3_7|",
+    "original": "Unable to help yourself, you reach down your $worn.lower.name and squeeze with your $worn.genitals.name, waves of pleasure quickly following<<if $player.vaginaExist>>, your pussy soaking through the fabric of your $worn.lower.name<</if>>. <<arousal 1000>><<ggarousal>>",
+    "translation": "",
+    "pos": 465
+  },
+  {
+    "passage": "School Detention Paddle Masturbate",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "931_5_3_7|",
+    "original": "Unable to help yourself, you reach down your $worn.lower.name and tug on your $worn.genitals.name, frustrated that you're unable to touch your <<penis>>.<<if $player.vaginaExist>>You instead start to rub your vagina, it quickly soaking through the fabric of your $worn.lower.name.<</if>>",
+    "translation": "",
+    "pos": 771
+  },
+  {
+    "passage": "School Detention Paddle Masturbate",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "933_5_3_7|",
+    "original": "Unable to help yourself, you reach down your $worn.lower.name and tug on your $worn.genitals.name, frustrated that you're unable to touch your <<genitals>>.",
+    "translation": "",
+    "pos": 1098
+  },
+  {
+    "passage": "School Detention Paddle Masturbate",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "935_5_3_7|",
+    "original": "Unable to help yourself, you reach down your $worn.lower.name and fumble with your <<genitals>>. You're already",
+    "translation": "",
+    "pos": 1267
+  },
+  {
+    "passage": "School Detention Paddle Masturbate",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "937_5_3_7|",
+    "original": "hard and wet, precum mingling with your juices.",
+    "translation": "",
+    "pos": 1434
+  },
+  {
+    "passage": "School Detention Paddle Masturbate",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "939_5_3_7|",
+    "original": "hard, precum oozing from the tip of your penis.",
+    "translation": "",
+    "pos": 1517
+  },
+  {
+    "passage": "School Detention Paddle Masturbate",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "941_5_3_7|",
+    "original": "wet, your pussy soaking through the fabric of your $worn.lower.name.",
+    "translation": "",
+    "pos": 1579
+  },
+  {
+    "passage": "School Detention Paddle Masturbate",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "943_5_3_7|",
+    "original": "Leaning forward against the desk, you continue, feeling waves of pleasure wash over you in time with the panicked <<personsimple>>'s yelps.",
+    "translation": "",
+    "pos": 1660
+  },
+  {
+    "passage": "School Detention Paddle Masturbate",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "956_5_3_7|",
+    "original": "You can't help but let a moan slip as you climax. Fortunately, the combined sounds of Leighton's lecturing, the <<persons>> sobbing and the paddle against <<his>> ass drown your cries out.",
+    "translation": "",
+    "pos": 1989
+  },
+  {
+    "passage": "School Detention Paddle Masturbate",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "958_5_3_7|",
+    "original": "The sounds of the paddle striking <<persons>> cheeks turn you on as you fondle yourself. You're sure Leighton will notice soon, but that doesn't stop you.<<arousal 100 \"genitals\">><<garousal>>",
+    "translation": "",
+    "pos": 2208
+  },
+  {
+    "passage": "School Detention Paddle Masturbate",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "960_5_3_7|",
+    "original": "The <<person>> cries out, eyes screwed shut as <<his>> ass turns a deeper shade of red. You feel waves of pleasure coursing through you at the sight.<<arousal 100>><<garousal>>",
+    "translation": "",
+    "pos": 2411
+  },
+  {
+    "passage": "School Detention Paddle Masturbate Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "973_5_3_7|",
+    "original": "Leighton sets the paddle down, satisfied with the <<persons>> suffering. \"There. Have you learnt your lesson?\" The <<person>> sniffles and nods.",
+    "translation": "",
+    "pos": 279
+  },
+  {
+    "passage": "School Detention Paddle Masturbate Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "975_5_3_7|",
+    "original": "You hasten to stop touching yourself before either of them notice, <span class=\"pink\">but you can't control your spasms.</span> You end up crying out loudly in pleasure. Leighton and the <<person>> immediately turn their heads towards you.<<stress 6>><<gstress>>",
+    "translation": "",
+    "pos": 426
+  },
+  {
+    "passage": "School Detention Paddle Masturbate Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "978_5_3_7|",
+    "original": "The <<persons>> face is a mixture of shock and disgust, but Leighton gives no reaction. <<person1>><<He>> turns back to the <<person2>><<person>>.",
+    "translation": "",
+    "pos": 701
+  },
+  {
+    "passage": "School Detention Paddle Masturbate Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "980_5_3_7|",
+    "original": "\"You're done here,\" Leighton says. \"Get out of my office.\"",
+    "translation": "",
+    "pos": 855
+  },
+  {
+    "passage": "School Detention Paddle Masturbate Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "983_5_3_7|",
+    "original": "The <<person>> stares vacantly for a moment, still stunned by your display. <<He>> eventually shakes out of <<his>> stupor and scurries out of the room, though not before giving you one last disapproving glare. You're sure you'll be hearing about this for a while yet.<<status -10>><<lcool>>",
+    "translation": "",
+    "pos": 926
+  },
+  {
+    "passage": "School Detention Paddle Masturbate Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "992_5_3_7|",
+    "original": "\"As for you,\" <<he>> says, turning to you, eyes glazed over with lust. \"You're a dirty little slut, touching yourself in front of me like that. You've got me all worked up now. I think you owe me a little release.\" <<He>> pulls you to your feet and shoves you against the desk.",
+    "translation": "",
+    "pos": 1357
+  },
+  {
+    "passage": "School Detention Paddle Masturbate Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "995_5_3_7|",
+    "original": "<<link [[Next|School Detention Paddle Rape]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 1649
+  },
+  {
+    "passage": "School Detention Paddle Masturbate Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "998_5_3_7|",
+    "original": "\"As for you,\" <<nnpc_he \"Leighton\">> says, fixing you with a stern glare. \"Such overt acts of vulgarity are inexcusable. <span class=\"red\">Perhaps another day of detention will help drill that into your thick skull.</span>\"<<detention 6>><<ggdelinquency>>",
+    "translation": "",
+    "pos": 1754
+  },
+  {
+    "passage": "School Detention Paddle Masturbate Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1001_5_3_7|",
+    "original": "<<nnpc_He \"Leighton\">> walks back behind <<nnpc_his \"Leighton\">> desk and motions for you to leave. You comply.",
+    "translation": "",
+    "pos": 2024
+  },
+  {
+    "passage": "School Detention Paddle Masturbate Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1004_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 2150
+  },
+  {
+    "passage": "School Detention Paddle Masturbate Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1008_5_3_7|",
+    "original": "Leighton gives the <<person>> one last spank with <<person1>><<his>> hand before putting the paddle down and taking a breath. <<He>> looks flustered with the effort, face flushed slightly. \"For your sake, I hope you've learnt your lesson,\" <<he>> says to the <<person2>><<person>>. \"I don't want to see you in here again. Now get out of my office.\"",
+    "translation": "",
+    "pos": 2224
+  },
+  {
+    "passage": "School Detention Paddle Masturbate Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1011_5_3_7|",
+    "original": "The <<person>> doesn't need to be told twice. <<He>> <<if $pronoun is \"m\">>pulls up his shorts<<else>>tugs down her skirt<</if>> and runs out of the door, tears falling down <<his>> face.",
+    "translation": "",
+    "pos": 2585
+  },
+  {
+    "passage": "School Detention Paddle Masturbate Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1018_5_3_7|",
+    "original": "\"As for you,\" <<nnpc_he \"Leighton\">> says with a smirk, turning to you. \"I'm glad you enjoyed the show. I know I did.\" <<nnpc_He \"Leighton\">> winks at you knowingly, before showing you out of the office.",
+    "translation": "",
+    "pos": 2837
+  },
+  {
+    "passage": "School Detention Paddle Masturbate Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1021_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><</link>>",
+    "translation": "",
+    "pos": 3053
+  },
+  {
+    "passage": "School Detention Paddle Other End",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1028_5_3_7|",
+    "original": "Leighton puts the paddle down on the desk and gives the <<person2>><<person>> one last spank with the palm of <<person1>><<his>> hand. The slap echoes around the room. \"Fix your clothes, and get out of my office. If I have to see either of you in here again, it'll be much worse for you.\"<<stress 2>><<gstress>>",
+    "translation": "",
+    "pos": 80
+  },
+  {
+    "passage": "School Detention Paddle Other End",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1033_5_3_7|",
+    "original": "The <<person2>><<person>> gives you a scornful glare as <<he>> <<if $pronoun is \"m\">>pulls up <<his>> shorts<<else>>straightens <<his>> skirt<</if>> and staggers out the door, rubbing <<his>> sore behind.",
+    "translation": "",
+    "pos": 434
+  },
+  {
+    "passage": "School Detention Paddle Other End",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1035_5_3_7|",
+    "original": "The <<person2>><<person>> struggles to meet your gaze as <<he>> <<if $pronoun is \"m\">>pulls up <<his>> shorts<<else>>straightens <<his>> skirt<</if>>, <<his>> expression one of utter humiliation. <<He>> staggers out of the office, not uttering a word.",
+    "translation": "",
+    "pos": 653
+  },
+  {
+    "passage": "School Detention Paddle Other End",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1037_5_3_7|",
+    "original": "The <<person2>><<person>> gives you a grateful smile as <<he>> <<if $pronoun is \"m\">>pulls up <<his>> shorts<<else>>straightens <<his>> skirt<</if>> and exits the office.<<stress -6>><<trauma -6>><<lstress>><<ltrauma>>",
+    "translation": "",
+    "pos": 919
+  },
+  {
+    "passage": "School Detention Paddle Other End",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1041_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1160
+  },
+  {
+    "passage": "School Detention Double Paddle",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1062_5_3_7|",
+    "original": "Leighton leans in close and whispers, quietly enough that the <<print $paddle_other_student>> can't hear. \"We both know you're getting off on this, naughty <<girl>>.\" <<He>> punctuates <<his>> remark with a painful smack.<<violence 5>><<combattrauma 10>><<ggstress>><<ggtrauma>><<ggpain>>",
+    "translation": "",
+    "pos": 343
+  },
+  {
+    "passage": "School Detention Double Paddle",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1064_5_3_7|",
+    "original": "Leighton takes a step back, drumming <<his>> fingers against the paddle. \"I think you've learnt your lesson,\" <<he>> says with a smug grin.",
+    "translation": "",
+    "pos": 662
+  },
+  {
+    "passage": "School Detention Double Paddle",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1068_5_3_7|",
+    "original": "The <<print $paddle_other_student>> cries out next to you, face buried against the desk.<<combattrauma 3>><<gtrauma>>",
+    "translation": "",
+    "pos": 853
+  },
+  {
+    "passage": "School Detention Double Paddle",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1070_5_3_7|",
+    "original": "Leighton alternates between spanking you and the <<print $paddle_other_student>>, eyes wide with lust.<<violence 2>><<gstress>><<gtrauma>><<gpain>>",
+    "translation": "",
+    "pos": 987
+  },
+  {
+    "passage": "School Detention Double Paddle",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1072_5_3_7|",
+    "original": "\"You've both been bad, and now you'll both pay the price,\" says Leighton, the paddle coming down hard on the <<print $paddle_other_student>>.<<combattrauma 3>><<gtrauma>>",
+    "translation": "",
+    "pos": 1151
+  },
+  {
+    "passage": "School Detention Double Paddle",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1074_5_3_7|",
+    "original": "Leighton focuses <<his>> attention on the <<print $paddle_other_student>>, giving you a slight reprieve.<<violence -3>><<lpain>>",
+    "translation": "",
+    "pos": 1338
+  },
+  {
+    "passage": "School Detention Double Paddle",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1076_5_3_7|",
+    "original": "Leighton focuses on you, sparing no sympathy as <<he>> paddles you without mercy.<<violence 5>><<combattrauma 5>><<ggstress>><<ggtrauma>><<ggpain>>",
+    "translation": "",
+    "pos": 1483
+  },
+  {
+    "passage": "School Detention Double Paddle",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1079_5_3_7|",
+    "original": "Your bare butt stings more and more with each blow of the paddle, the skin turning an angry shade of red.<<violence 4>><<ggpain>>",
+    "translation": "",
+    "pos": 1690
+  },
+  {
+    "passage": "School Detention Double Paddle",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1081_5_3_7|",
+    "original": "Leighton laughs as the paddle connects with your <<bottom>>. \"Be thankful I'm letting you keep your clothes on.\"<<violence 2>><<gpain>>",
+    "translation": "",
+    "pos": 1836
+  },
+  {
+    "passage": "School Detention Double Paddle",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1085_5_3_7|",
+    "original": "\"This is what brats like you deserve,\" Leighton sneers, bringing the paddle down hard.<<violence 4>><<gpain>>",
+    "translation": "",
+    "pos": 2031
+  },
+  {
+    "passage": "School Detention Double Paddle",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1087_5_3_7|",
+    "original": "Leighton laughs, enjoying your degradation. \"Not so tough now, are you?\"<<combattrauma 4>><<gtrauma>>",
+    "translation": "",
+    "pos": 2194
+  },
+  {
+    "passage": "School Detention Double Paddle",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1089_5_3_7|",
+    "original": "Leighton tuts as <<he>> prepares another strike. \"You'll be a good <<girl>> from now on, won't you?\"<<combattrauma 2>><<gtrauma>>",
+    "translation": "",
+    "pos": 2312
+  },
+  {
+    "passage": "School Detention Double Paddle",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1093_5_3_7|",
+    "original": "Leighton sneers. \"There's no use crying, you'll still get what's coming to you.\"<<combattrauma 2>><<gtrauma>>",
+    "translation": "",
+    "pos": 2494
+  },
+  {
+    "passage": "School Detention Double Paddle",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1095_5_3_7|",
+    "original": "You can't help but squirm pleasurably at the painful sensation. Leighton snickers at the sight. \"You're a filthy little whore, you love this, don't you?\"<<combattrauma 2>><<gtrauma>>",
+    "translation": "",
+    "pos": 2645
+  },
+  {
+    "passage": "School Detention Double Paddle",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1097_5_3_7|",
+    "original": "The pain turns you on, making your",
+    "translation": "",
+    "pos": 2869
+  },
+  {
+    "passage": "School Detention Double Paddle",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1099_5_3_7|",
+    "original": "<<penis>> erect and <<pussy>> wet",
+    "translation": "",
+    "pos": 2963
+  },
+  {
+    "passage": "School Detention Double Paddle",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1101_5_3_7|",
+    "original": "<<penis>> stiffen against the desk",
+    "translation": "",
+    "pos": 3036
+  },
+  {
+    "passage": "School Detention Double Paddle",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1103_5_3_7|",
+    "original": "fluids seep onto the desk",
+    "translation": "",
+    "pos": 3089
+  },
+  {
+    "passage": "School Detention Double Paddle",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1105_5_3_7|",
+    "original": "as Leighton brings the paddle down again.<<violence 2>><<gpain>>",
+    "translation": "",
+    "pos": 3131
+  },
+  {
+    "passage": "School Detention Double Paddle",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1107_5_3_7|",
+    "original": "You wince as Leighton gives your <<bottom>> a painful whack.<<violence 2>><<gpain>>",
+    "translation": "",
+    "pos": 3212
+  },
+  {
+    "passage": "School Detention Double Paddle",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1110_5_3_7|",
+    "original": "Leighton continues to punish you and the <<print $paddle_other_student>>.",
+    "translation": "",
+    "pos": 3332
+  },
+  {
+    "passage": "School Detention Double Paddle",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1120_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|School Detention Double Paddle Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 3515
+  },
+  {
+    "passage": "School Detention Double Paddle",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1122_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|School Detention Double Paddle]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 3625
+  },
+  {
+    "passage": "School Detention Double Paddle Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1133_5_3_7|",
+    "original": "The paddle clatters to the ground as Leighton's orgasm subsides, steadying <<himself>> against the desk. Clarity returns to <<his>> eyes and <<he>> stands abruptly, realising what just happened. <<He>> looks flustered as <<he>> picks the paddle up off the floor.",
+    "translation": "",
+    "pos": 245
+  },
+  {
+    "passage": "School Detention Double Paddle Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1136_5_3_7|",
+    "original": "\"Don't breathe a word of this to anyone,\" <<he>> says through laboured breaths. \"That goes for both of you.\"",
+    "translation": "",
+    "pos": 520
+  },
+  {
+    "passage": "School Detention Double Paddle Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1139_5_3_7|",
+    "original": "<<tearful>> you nod. The <<person2>><<person>> wordlessly sobs beside you, <<his>> face down against the desk. You wonder if <<he>> even noticed what happened.",
+    "translation": "",
+    "pos": 641
+  },
+  {
+    "passage": "School Detention Double Paddle Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1149_5_3_7|",
+    "original": "<<link [[Next|School Detention Paddle Other End]]>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 985
+  },
+  {
+    "passage": "School Detention Double Paddle Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1153_5_3_7|",
+    "original": "Leighton recoils in pain, and you squirm free from <<his>> grip.",
+    "translation": "",
+    "pos": 1140
+  },
+  {
+    "passage": "School Detention Double Paddle Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1156_5_3_7|",
+    "original": "<<He>> shouts after you as you flee down the corridor. \"You've made things much worse for yourself, <<bitch>>. Mark my words.\" <<tearful>> you keep running, leaving the <<person2>><<person>> to <<his>> fate.",
+    "translation": "",
+    "pos": 1217
+  },
+  {
+    "passage": "School Detention Double Paddle Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1163_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><</link>>",
+    "translation": "",
+    "pos": 1505
+  },
+  {
+    "passage": "School Detention Double Paddle Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1167_5_3_7|",
+    "original": "Leighton takes a step back, looking satisfied. \"That's a good <<girl>>. Don't you see how much easier things would be if you just did as you were told?\"",
+    "translation": "",
+    "pos": 1595
+  },
+  {
+    "passage": "School Detention Double Paddle Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1171_5_3_7|",
+    "original": "<<tearful>> you mumble, \"Yes, <<sir>>.\"",
+    "translation": "",
+    "pos": 1792
+  },
+  {
+    "passage": "School Detention Double Paddle Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1173_5_3_7|",
+    "original": "<<tearful>> you grit your teeth.",
+    "translation": "",
+    "pos": 1875
+  },
+  {
+    "passage": "School Detention Double Paddle Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1175_5_3_7|",
+    "original": "<<tearful>> you nod.",
+    "translation": "",
+    "pos": 1920
+  },
+  {
+    "passage": "School Detention Double Paddle Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1179_5_3_7|",
+    "original": "Leighton looks smug. \"And you?\" <<he>> asks the <<person2>><<person>>, who only sobs quietly in response.",
+    "translation": "",
+    "pos": 1962
+  },
+  {
+    "passage": "School Detention Double Paddle Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1186_5_3_7|",
+    "original": "<<link [[Next|School Detention Paddle Other End]]>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 2192
+  },
+  {
+    "passage": "School Detention Paddle 1",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1212_5_3_7|",
+    "original": "Leighton grabs a handful of your hair and yanks your head back, bringing <<his>> lips to your ear. \"We both know you're getting off on this, naughty <<girl>>.\" <<He>> punctuates <<his>> remark with a painful smack.<<violence 5>><<combattrauma 10>><<ggstress>><<ggtrauma>><<ggpain>>",
+    "translation": "",
+    "pos": 412
+  },
+  {
+    "passage": "School Detention Paddle 1",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1214_5_3_7|",
+    "original": "Leighton takes a step back, drumming <<his>> fingers against the paddle. \"I think you've learnt your lesson,\" <<he>> says with a smug grin.",
+    "translation": "",
+    "pos": 724
+  },
+  {
+    "passage": "School Detention Paddle 1",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1218_5_3_7|",
+    "original": "Leighton sets the paddle down for a moment and cups a hand under your chin, forcing your head up. \"Hold that expression,\" <<he>> commands as <<he>> snaps a picture.<<violence -2>><<combattrauma 10>><<gtrauma>><<lpain>>",
+    "translation": "",
+    "pos": 915
+  },
+  {
+    "passage": "School Detention Paddle 1",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1220_5_3_7|",
+    "original": "Leighton takes a short break to catch <<his>> breath, giving you a moment of relief.<<violence -2>><<lpain>>",
+    "translation": "",
+    "pos": 1150
+  },
+  {
+    "passage": "School Detention Paddle 1",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1223_5_3_7|",
+    "original": "That is, until <<his>> palm suddenly smacks against your <<bottom>>. <<He>> smirks. \"No rest for the wicked, I'm afraid.\"<<violence 4>><<gstress>><<gtrauma>><<gpain>>",
+    "translation": "",
+    "pos": 1302
+  },
+  {
+    "passage": "School Detention Paddle 1",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1225_5_3_7|",
+    "original": "\"Don't look so relieved,\" <<he>> laughs. \"I'm not done with you yet.\"",
+    "translation": "",
+    "pos": 1485
+  },
+  {
+    "passage": "School Detention Paddle 1",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1228_5_3_7|",
+    "original": "Leighton reels <<his>> arm back, preparing to deliver a harsh smack.<<set $stress += 12>><<gstress>>",
+    "translation": "",
+    "pos": 1582
+  },
+  {
+    "passage": "School Detention Paddle 1",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1230_5_3_7|",
+    "original": "Leighton's grip falters, and <<he>> drops the paddle on <<his>> foot. You hear <<him>> curse under <<his>> breath.<<set $stress -= 6>><<lstress>>",
+    "translation": "",
+    "pos": 1699
+  },
+  {
+    "passage": "School Detention Paddle 1",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1232_5_3_7|",
+    "original": "Leighton doesn't let up, bullying your <<bottom>> with a vicious barrage of whacks.<<violence 5>><<combattrauma 5>><<ggstress>><<ggtrauma>><<ggpain>>",
+    "translation": "",
+    "pos": 1861
+  },
+  {
+    "passage": "School Detention Paddle 1",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1235_5_3_7|",
+    "original": "Your bare butt stings more and more with each blow of the paddle, the skin turning an angry shade of red.<<violence 4>><<ggpain>>",
+    "translation": "",
+    "pos": 2070
+  },
+  {
+    "passage": "School Detention Paddle 1",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1237_5_3_7|",
+    "original": "Leighton snickers as the paddle connects with your <<bottom>>. \"Be thankful I'm letting you keep your clothes on.\"<<violence 2>><<gpain>>",
+    "translation": "",
+    "pos": 2216
+  },
+  {
+    "passage": "School Detention Paddle 1",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1241_5_3_7|",
+    "original": "\"This is what brats like you deserve,\" Leighton sneers, bringing the paddle down hard.<<violence 4>><<gpain>>",
+    "translation": "",
+    "pos": 2413
+  },
+  {
+    "passage": "School Detention Paddle 1",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1243_5_3_7|",
+    "original": "Leighton laughs, enjoying your degradation. \"Not so tough now, are you?\"<<combattrauma 4>><<gtrauma>>",
+    "translation": "",
+    "pos": 2576
+  },
+  {
+    "passage": "School Detention Paddle 1",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1245_5_3_7|",
+    "original": "Leighton tuts as <<he>> prepares another strike. \"You'll be a good <<girl>> from now on, won't you?\"<<combattrauma 2>><<gtrauma>>",
+    "translation": "",
+    "pos": 2694
+  },
+  {
+    "passage": "School Detention Paddle 1",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1249_5_3_7|",
+    "original": "Leighton sneers. \"There's no use crying, you'll still get what's coming to you.\"<<combattrauma 2>><<gtrauma>>",
+    "translation": "",
+    "pos": 2876
+  },
+  {
+    "passage": "School Detention Paddle 1",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1251_5_3_7|",
+    "original": "You can't help but squirm pleasurably at the painful sensation. Leighton snickers at the sight. \"You're a filthy little whore. You love this, don't you?\"<<combattrauma 2>><<gtrauma>>",
+    "translation": "",
+    "pos": 3027
+  },
+  {
+    "passage": "School Detention Paddle 1",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1253_5_3_7|",
+    "original": "The pain turns you on, making your",
+    "translation": "",
+    "pos": 3251
+  },
+  {
+    "passage": "School Detention Paddle 1",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1255_5_3_7|",
+    "original": "<<penis>> erect and <<pussy>> wet",
+    "translation": "",
+    "pos": 3345
+  },
+  {
+    "passage": "School Detention Paddle 1",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1257_5_3_7|",
+    "original": "<<penis>> stiffen against the desk",
+    "translation": "",
+    "pos": 3418
+  },
+  {
+    "passage": "School Detention Paddle 1",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1259_5_3_7|",
+    "original": "fluids seep onto the desk",
+    "translation": "",
+    "pos": 3471
+  },
+  {
+    "passage": "School Detention Paddle 1",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1261_5_3_7|",
+    "original": "as Leighton brings the paddle down again.<<violence 2>><<gpain>><<garousal>>",
+    "translation": "",
+    "pos": 3513
+  },
+  {
+    "passage": "School Detention Paddle 1",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1263_5_3_7|",
+    "original": "You wince as Leighton gives your <<bottom>> a painful whack.<<violence 2>><<gpain>>",
+    "translation": "",
+    "pos": 3606
+  },
+  {
+    "passage": "School Detention Paddle 1",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1266_5_3_7|",
+    "original": "Leighton continues to punish you.",
+    "translation": "",
+    "pos": 3726
+  },
+  {
+    "passage": "School Detention Paddle 1",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1276_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|School Detention Paddle 1 Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 3869
+  },
+  {
+    "passage": "School Detention Paddle 1",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1278_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|School Detention Paddle 1]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 3974
+  },
+  {
+    "passage": "School Detention Paddle 1 Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1286_5_3_7|",
+    "original": "The paddle clatters to the ground as Leighton's orgasm subsides, steadying <<himself>> against the desk. Clarity returns to <<his>> eyes and <<he>> stands abruptly, realising what just happened.",
+    "translation": "",
+    "pos": 146
+  },
+  {
+    "passage": "School Detention Paddle 1 Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1289_5_3_7|",
+    "original": "\"Don't breathe a word of this to anyone,\" <<he>> pants. \"Leave.\" <<tearful>> you walk from the room.",
+    "translation": "",
+    "pos": 353
+  },
+  {
+    "passage": "School Detention Paddle 1 Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1296_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><</link>>",
+    "translation": "",
+    "pos": 534
+  },
+  {
+    "passage": "School Detention Paddle 1 Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1299_5_3_7|",
+    "original": "<<He>> recoils in pain and you squirm from <<his>> grip.",
+    "translation": "",
+    "pos": 607
+  },
+  {
+    "passage": "School Detention Paddle 1 Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1302_5_3_7|",
+    "original": "<<He>> shouts after you as you flee down the corridor. \"You've made things much worse for yourself, <<bitch>>. Mark my words.\" <<tearful>> you keep running.",
+    "translation": "",
+    "pos": 676
+  },
+  {
+    "passage": "School Detention Paddle 1 Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1308_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><</link>>",
+    "translation": "",
+    "pos": 876
+  },
+  {
+    "passage": "School Detention Paddle 1 Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1311_5_3_7|",
+    "original": "Leighton places the paddle down next to you on the desk. \"That's a good <<girl>>. Don't you see how much easier things would be if you just did as you were told?\"",
+    "translation": "",
+    "pos": 928
+  },
+  {
+    "passage": "School Detention Paddle 1 Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1319_5_3_7|",
+    "original": "You start to push yourself off the desk, but Leighton places a hand on your shoulder, holding you in place. \"Just a moment. I have something for you.\"<<stress 2>><<gstress>>",
+    "translation": "",
+    "pos": 1181
+  },
+  {
+    "passage": "School Detention Paddle 1 Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1322_5_3_7|",
+    "original": "<<He>> walks behind <<his>> desk and fishes around in a drawer, then pulls out a tube of numbing cream. \"If you promise to be a good <<girl>>, I'll make you feel better. How does that sound?\"",
+    "translation": "",
+    "pos": 1369
+  },
+  {
+    "passage": "School Detention Paddle 1 Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1325_5_3_7|",
+    "original": "<<link [[Agree|School Detention Paddle Cream]]>><<set $phase to 0>><<pain -25>><<stress 6>><<arousal 1000 \"bottom\">><</link>><<lllpain>><<gstress>><<ggarousal>>",
+    "translation": "",
+    "pos": 1575
+  },
+  {
+    "passage": "School Detention Paddle 1 Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1327_5_3_7|",
+    "original": "<<link [[Refuse|School Detention Paddle Cream Refuse]]>><<set $phase to 0>><</link>>",
+    "translation": "",
+    "pos": 1745
+  },
+  {
+    "passage": "School Detention Paddle 1 Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1330_5_3_7|",
+    "original": "\"I trust I won't be seeing you in my office again any time soon.\" <<He>> sits at <<his>> desk and motions at the door.",
+    "translation": "",
+    "pos": 1849
+  },
+  {
+    "passage": "School Detention Paddle 1 Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1332_5_3_7|",
+    "original": "<<tearful>> you leave the office.",
+    "translation": "",
+    "pos": 1977
+  },
+  {
+    "passage": "School Detention Paddle 1 Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1335_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 2025
+  },
+  {
+    "passage": "School Detention Paddle 2",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1358_5_3_7|",
+    "original": "Leighton leans in close and whispers, quietly enough that the <<print $paddle_other_student>> can't hear. \"We both know you're getting off on this, naughty <<girl>>.\" <<He>> punctuates <<his>> remark with a painful smack.<<violence 5>><<combattrauma 10>><<ggstress>><<ggtrauma>><<ggpain>>",
+    "translation": "",
+    "pos": 343
+  },
+  {
+    "passage": "School Detention Paddle 2",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1360_5_3_7|",
+    "original": "Leighton takes a step back, drumming <<his>> fingers against the paddle. \"I think you've learnt your lesson,\" <<he>> says with a smug grin.",
+    "translation": "",
+    "pos": 662
+  },
+  {
+    "passage": "School Detention Paddle 2",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1364_5_3_7|",
+    "original": "The <<print $paddle_other_student>> leans closer to get a better view.",
+    "translation": "",
+    "pos": 853
+  },
+  {
+    "passage": "School Detention Paddle 2",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1366_5_3_7|",
+    "original": "\"Beat <<phim>> harder, I want to see <<phim>> scream!\" cries the <<print $paddle_other_student>>. Leighton complies with a smirk, bringing the paddle down hard.<<violence 3>><<gstress>><<gtrauma>><<gpain>>",
+    "translation": "",
+    "pos": 940
+  },
+  {
+    "passage": "School Detention Paddle 2",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1368_5_3_7|",
+    "original": "You see the flash of a camera behind you as the <<print $paddle_other_student>> takes a picture of your humiliation.<<combattrauma 2>><<fameexhibitionism 2 \"pic\">><<gtrauma>>",
+    "translation": "",
+    "pos": 1162
+  },
+  {
+    "passage": "School Detention Paddle 2",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1370_5_3_7|",
+    "original": "Leighton looks over <<his>> shoulder at the <<print $paddle_other_student>>. <<He>> smirks. \"Maybe I'll let our friend have a go with you when I'm done.\"<<set $stress += 6>><<gstress>>",
+    "translation": "",
+    "pos": 1353
+  },
+  {
+    "passage": "School Detention Paddle 2",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1372_5_3_7|",
+    "original": "Leighton doesn't let up, bullying your <<bottom>> with a vicious barrage of whacks. The <<print $paddle_other_student>> watches with excitement.<<violence 5>><<combattrauma 5>><<ggstress>><<ggtrauma>><<ggpain>>",
+    "translation": "",
+    "pos": 1554
+  },
+  {
+    "passage": "School Detention Paddle 2",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1375_5_3_7|",
+    "original": "Your bare butt stings more and more with each blow of the paddle, the skin turning an angry shade of red.<<violence 4>><<ggpain>>",
+    "translation": "",
+    "pos": 1824
+  },
+  {
+    "passage": "School Detention Paddle 2",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1377_5_3_7|",
+    "original": "Leighton laughs as the paddle connects with your <<bottom>>. \"Be thankful I'm letting you keep your clothes on.\"<<violence 2>><<gpain>>",
+    "translation": "",
+    "pos": 1970
+  },
+  {
+    "passage": "School Detention Paddle 2",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1381_5_3_7|",
+    "original": "\"This is what brats like you deserve,\" Leighton sneers, bringing the paddle down hard.<<violence 4>><<gpain>>",
+    "translation": "",
+    "pos": 2165
+  },
+  {
+    "passage": "School Detention Paddle 2",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1383_5_3_7|",
+    "original": "Leighton laughs, enjoying your degradation. \"Not so tough now, are you?\"<<combattrauma 4>><<gtrauma>>",
+    "translation": "",
+    "pos": 2328
+  },
+  {
+    "passage": "School Detention Paddle 2",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1385_5_3_7|",
+    "original": "Leighton tuts as <<he>> prepares another strike. \"You'll be a good <<girl>> from now on, won't you?\"<<combattrauma 2>><<gtrauma>>",
+    "translation": "",
+    "pos": 2446
+  },
+  {
+    "passage": "School Detention Paddle 2",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1389_5_3_7|",
+    "original": "Leighton sneers. \"There's no use crying, you'll still get what's coming to you.\"<<combattrauma 2>><<gtrauma>>",
+    "translation": "",
+    "pos": 2628
+  },
+  {
+    "passage": "School Detention Paddle 2",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1391_5_3_7|",
+    "original": "You can't help but squirm pleasurably at the painful sensation. Leighton snickers at the sight. \"You're a filthy little whore, you love this, don't you?\"<<combattrauma 2>><<gtrauma>>",
+    "translation": "",
+    "pos": 2779
+  },
+  {
+    "passage": "School Detention Paddle 2",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1393_5_3_7|",
+    "original": "The pain turns you on, making your",
+    "translation": "",
+    "pos": 3003
+  },
+  {
+    "passage": "School Detention Paddle 2",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1395_5_3_7|",
+    "original": "<<penis>> erect and <<pussy>> wet",
+    "translation": "",
+    "pos": 3097
+  },
+  {
+    "passage": "School Detention Paddle 2",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1397_5_3_7|",
+    "original": "<<penis>> stiffen against the desk",
+    "translation": "",
+    "pos": 3170
+  },
+  {
+    "passage": "School Detention Paddle 2",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1399_5_3_7|",
+    "original": "fluids seep onto the desk",
+    "translation": "",
+    "pos": 3223
+  },
+  {
+    "passage": "School Detention Paddle 2",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1401_5_3_7|",
+    "original": "as Leighton brings the paddle down again.<<violence 2>><<gpain>>",
+    "translation": "",
+    "pos": 3265
+  },
+  {
+    "passage": "School Detention Paddle 2",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1403_5_3_7|",
+    "original": "You wince as Leighton gives your <<bottom>> a painful whack.<<violence 2>><<gpain>>",
+    "translation": "",
+    "pos": 3346
+  },
+  {
+    "passage": "School Detention Paddle 2",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1406_5_3_7|",
+    "original": "Leighton continues to punish you as the <<print $paddle_other_student>> watches.",
+    "translation": "",
+    "pos": 3466
+  },
+  {
+    "passage": "School Detention Paddle 2",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1416_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|School Detention Paddle 2 Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 3656
+  },
+  {
+    "passage": "School Detention Paddle 2",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1418_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|School Detention Paddle 2]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 3761
+  },
+  {
+    "passage": "School Detention Paddle 2 Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1429_5_3_7|",
+    "original": "Clarity returns to Leighton's eyes and <<he>> stands abruptly, realising what just happened. The <<person2>><<person>> stares slack-jawed at the scene.",
+    "translation": "",
+    "pos": 233
+  },
+  {
+    "passage": "School Detention Paddle 2 Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1432_5_3_7|",
+    "original": "Leighton notices <<his>> gawking and fixes <<him>> with a glare. \"Don't even think about telling anyone about this, or it'll be your ass up here next time. Understood?\" The <<person>> quickly nods.",
+    "translation": "",
+    "pos": 397
+  },
+  {
+    "passage": "School Detention Paddle 2 Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1435_5_3_7|",
+    "original": "\"And you,\" Leighton breathes, turning back to you. \"Get out of my office. I don't want to see you in here again.\"",
+    "translation": "",
+    "pos": 607
+  },
+  {
+    "passage": "School Detention Paddle 2 Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1442_5_3_7|",
+    "original": "<<tearful>> you get dressed and step out into the hallway.",
+    "translation": "",
+    "pos": 823
+  },
+  {
+    "passage": "School Detention Paddle 2 Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1445_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><<clotheson>><</link>>",
+    "translation": "",
+    "pos": 894
+  },
+  {
+    "passage": "School Detention Paddle 2 Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1449_5_3_7|",
+    "original": "You wrench your arms free from Leighton's grip and shove <<him>> away. The <<person2>><<person>> looks shocked and slightly impressed.<<status 2>><<gcool>>",
+    "translation": "",
+    "pos": 1018
+  },
+  {
+    "passage": "School Detention Paddle 2 Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1452_5_3_7|",
+    "original": "You take advantage of the confusion and flee into the corridor, Leighton angrily shouting after you. \"Hey, <<bitch>>, forget something?\"",
+    "translation": "",
+    "pos": 1186
+  },
+  {
+    "passage": "School Detention Paddle 2 Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1454_5_3_7|",
+    "original": "You were unable to rescue your clothes on the way out. <<tearful>> you keep running.",
+    "translation": "",
+    "pos": 1330
+  },
+  {
+    "passage": "School Detention Paddle 2 Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1460_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><<clotheson>><<clothesruined>><</link>>",
+    "translation": "",
+    "pos": 1480
+  },
+  {
+    "passage": "School Detention Paddle 2 Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1463_5_3_7|",
+    "original": "Leighton places the paddle down next to you on the desk. \"That's a good <<girl>>. Don't you see how much easier things would be if you just did as you were told?\"",
+    "translation": "",
+    "pos": 1562
+  },
+  {
+    "passage": "School Detention Paddle 2 Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1470_5_3_7|",
+    "original": "The <<person2>><<person>> looks at you, licking <<his>> lips. \"You sure showed <<phim>>, <<person1>><<sir>>!\"",
+    "translation": "",
+    "pos": 1840
+  },
+  {
+    "passage": "School Detention Paddle 2 Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1474_5_3_7|",
+    "original": "Leighton ignores <<person2>><<him>>, instead fixating on your pained expression. <<person1>><<He>> walks behind <<his>> desk and fishes around in a drawer, then pulls out a tube of numbing cream. \"If you promise to be a good <<girl>>, I'll make you feel better. How does that sound?\"",
+    "translation": "",
+    "pos": 1984
+  },
+  {
+    "passage": "School Detention Paddle 2 Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1477_5_3_7|",
+    "original": "<<link [[Agree|School Detention Paddle Cream]]>><<set $phase to 1>><<pain -25>><<stress 6>><<arousal 1000 \"bottom\">><</link>><<lllpain>><<gstress>><<ggarousal>>",
+    "translation": "",
+    "pos": 2282
+  },
+  {
+    "passage": "School Detention Paddle 2 Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1479_5_3_7|",
+    "original": "<<link [[Refuse|School Detention Paddle Cream Refuse]]>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 2452
+  },
+  {
+    "passage": "School Detention Paddle 2 Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1482_5_3_7|",
+    "original": "\"Quite,\" Leighton concurs with a smirk. \"I'm sure <<pshes>> learnt <<pher>> lesson. At least I hope so, for <<pher>> sake.\"",
+    "translation": "",
+    "pos": 2556
+  },
+  {
+    "passage": "School Detention Paddle 2 Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1485_5_3_7|",
+    "original": "Once you're dressed, <<person1>><<he>> leads you out of <<his>> office. You do your best to ignore the <<person2>><<persons>> smug grin as you step into the hallway.",
+    "translation": "",
+    "pos": 2694
+  },
+  {
+    "passage": "School Detention Paddle 2 Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1488_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><<endevent>><<clotheson>><</link>>",
+    "translation": "",
+    "pos": 2874
+  },
+  {
+    "passage": "School Detention Paddle 3",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1521_5_3_7|",
+    "original": "<<case \"apologise\">>",
+    "translation": "",
+    "pos": 914
+  },
+  {
+    "passage": "School Detention Paddle 3",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1522_5_3_7|",
+    "original": "The <<print $paddle_other_student_A>> mimics your apology in a mocking tone. The other two burst into laughter.<<set $stress += 12>><<combattrauma 5>><<status -10>><<gstress>><<gtrauma>><<lcool>>",
+    "translation": "",
+    "pos": 938
+  },
+  {
+    "passage": "School Detention Paddle 3",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1523_5_3_7|",
+    "original": "<<case \"orgasm\">>",
+    "translation": "",
+    "pos": 1136
+  },
+  {
+    "passage": "School Detention Paddle 3",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1524_5_3_7|",
+    "original": "The students watch, mouths agape, as you shudder in climax. \"Is <<pshe>> seriously cumming from getting <<pher>> ass beaten?\" the <<print $paddle_other_student_B>> gawks.",
+    "translation": "",
+    "pos": 1157
+  },
+  {
+    "passage": "School Detention Paddle 3",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1526_5_3_7|",
+    "original": "\"Fucking perv,\" the <<print $paddle_other_student_C>> snickers.",
+    "translation": "",
+    "pos": 1339
+  },
+  {
+    "passage": "School Detention Paddle 3",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1528_5_3_7|",
+    "original": "They continue to jeer as they raise their phones, taking pictures of your lewd display. Leighton smirks in satisfaction.<<combattrauma 5>><<famesex 12 \"pic\">>",
+    "translation": "",
+    "pos": 1414
+  },
+  {
+    "passage": "School Detention Paddle 3",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1529_5_3_7|",
+    "original": "<<case \"moan\">>",
+    "translation": "",
+    "pos": 1575
+  },
+  {
+    "passage": "School Detention Paddle 3",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1530_5_3_7|",
+    "original": "The <<print $paddle_other_student_A>> nudges the <<print $paddle_other_student_C>>, sporting a wide grin. \"Listen! <<pShes>> getting off on this!\" They all burst into laughter.<<combattrauma 3>><<gtrauma>>",
+    "translation": "",
+    "pos": 1594
+  },
+  {
+    "passage": "School Detention Paddle 3",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1533_5_3_7|",
+    "original": "Leighton leans in close and whispers, quietly enough that the other students can't hear. \"We both know you're getting off on this, naughty <<girl>>.\" <<He>> punctuates <<his>> remark with a painful smack.<<violence 5>><<combattrauma 10>><<ggstress>><<ggtrauma>><<ggpain>>",
+    "translation": "",
+    "pos": 1885
+  },
+  {
+    "passage": "School Detention Paddle 3",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1535_5_3_7|",
+    "original": "Leighton takes a step back, drumming <<his>> fingers against the paddle. \"I think you've learnt your lesson,\" <<he>> says with a smug grin.",
+    "translation": "",
+    "pos": 2187
+  },
+  {
+    "passage": "School Detention Paddle 3",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1539_5_3_7|",
+    "original": "The <<print $paddle_other_student_B>> points at you and whispers something to the <<print $paddle_other_student_C>>. They both giggle.<<combattrauma 3>><<gtrauma>>",
+    "translation": "",
+    "pos": 2378
+  },
+  {
+    "passage": "School Detention Paddle 3",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1541_5_3_7|",
+    "original": "\"Beat <<phim>> harder, I want to see <<phim>> scream!\" cries the <<print $paddle_other_student_A>>, the others eagerly nodding in agreement. Leighton complies with a smirk, bringing the paddle down hard.<<violence 3>><<gstress>><<gtrauma>><<gpain>>",
+    "translation": "",
+    "pos": 2558
+  },
+  {
+    "passage": "School Detention Paddle 3",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1543_5_3_7|",
+    "original": "The three students raise their phones, laughing and snapping pictures.<<combattrauma 3>><<fameexhibitionism 6 \"pic\">><<gtrauma>>",
+    "translation": "",
+    "pos": 2823
+  },
+  {
+    "passage": "School Detention Paddle 3",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1545_5_3_7|",
+    "original": "Leighton peers over <<his>> shoulder at the other students. <<He>> smirks. \"Maybe I'll let them have a turn with you when I'm done. Bet that'd teach you a lesson.\"<<set $stress += 18>><<ggstress>>",
+    "translation": "",
+    "pos": 2968
+  },
+  {
+    "passage": "School Detention Paddle 3",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1547_5_3_7|",
+    "original": "Leighton doesn't let up, bullying your <<bottom>> with a vicious barrage of whacks. The other students cheer as <<he>> finishes with a stinging whack.<<violence 5>><<combattrauma 5>><<ggstress>><<ggtrauma>><<ggpain>>",
+    "translation": "",
+    "pos": 3181
+  },
+  {
+    "passage": "School Detention Paddle 3",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1550_5_3_7|",
+    "original": "Your bare butt stings more and more with each blow of the paddle, the skin turning an angry shade of red.<<violence 4>><<ggpain>>",
+    "translation": "",
+    "pos": 3457
+  },
+  {
+    "passage": "School Detention Paddle 3",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1552_5_3_7|",
+    "original": "Leighton laughs as the paddle connects with your <<bottom>>. \"Be thankful I'm letting you keep your clothes on.\"<<violence 2>><<gpain>>",
+    "translation": "",
+    "pos": 3603
+  },
+  {
+    "passage": "School Detention Paddle 3",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1556_5_3_7|",
+    "original": "\"This is what brats like you deserve,\" Leighton sneers, bringing the paddle down hard.<<violence 4>><<gpain>>",
+    "translation": "",
+    "pos": 3798
+  },
+  {
+    "passage": "School Detention Paddle 3",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1558_5_3_7|",
+    "original": "Leighton laughs, enjoying your degradation. \"Not so tough now, are you?\"<<combattrauma 4>><<gtrauma>>",
+    "translation": "",
+    "pos": 3961
+  },
+  {
+    "passage": "School Detention Paddle 3",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1560_5_3_7|",
+    "original": "Leighton tuts as <<he>> prepares another strike. \"You'll be a good <<girl>> from now on, won't you?\"<<combattrauma 2>><<gtrauma>>",
+    "translation": "",
+    "pos": 4079
+  },
+  {
+    "passage": "School Detention Paddle 3",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1564_5_3_7|",
+    "original": "Leighton sneers. \"There's no use crying, you'll still get what's coming to you.\"<<combattrauma 2>><<gtrauma>>",
+    "translation": "",
+    "pos": 4261
+  },
+  {
+    "passage": "School Detention Paddle 3",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1566_5_3_7|",
+    "original": "You can't help but squirm pleasurably at the painful sensation. Leighton snickers at the sight. \"You're a filthy little whore, you love this, don't you?\"<<combattrauma 2>><<gtrauma>>",
+    "translation": "",
+    "pos": 4412
+  },
+  {
+    "passage": "School Detention Paddle 3",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1568_5_3_7|",
+    "original": "The pain turns you on, making your",
+    "translation": "",
+    "pos": 4636
+  },
+  {
+    "passage": "School Detention Paddle 3",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1570_5_3_7|",
+    "original": "<<penis>> erect and <<pussy>> wet",
+    "translation": "",
+    "pos": 4730
+  },
+  {
+    "passage": "School Detention Paddle 3",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1572_5_3_7|",
+    "original": "<<penis>> stiffen against the desk",
+    "translation": "",
+    "pos": 4803
+  },
+  {
+    "passage": "School Detention Paddle 3",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1574_5_3_7|",
+    "original": "fluids seep onto the desk",
+    "translation": "",
+    "pos": 4856
+  },
+  {
+    "passage": "School Detention Paddle 3",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1576_5_3_7|",
+    "original": "as Leighton brings the paddle down again.<<violence 2>><<gpain>><<garousal>>",
+    "translation": "",
+    "pos": 4898
+  },
+  {
+    "passage": "School Detention Paddle 3",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1578_5_3_7|",
+    "original": "You wince as Leighton gives your <<bottom>> a painful whack.<<violence 2>><<gpain>>",
+    "translation": "",
+    "pos": 4991
+  },
+  {
+    "passage": "School Detention Paddle 3",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1581_5_3_7|",
+    "original": "Leighton continues to punish you as your schoolmates watch.",
+    "translation": "",
+    "pos": 5111
+  },
+  {
+    "passage": "School Detention Paddle 3",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1591_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|School Detention Paddle 3 Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 5280
+  },
+  {
+    "passage": "School Detention Paddle 3",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1593_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|School Detention Paddle 3]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 5385
+  },
+  {
+    "passage": "School Detention Paddle 3 Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1604_5_3_7|",
+    "original": "The students erupt into laughter. You're not sure if it's directed at you or Leighton, but the <<nnpc_title \"Leighton\">> seems unamused regardless. <<He>> smacks the paddle against the desk, promptly shutting them up.",
+    "translation": "",
+    "pos": 300
+  },
+  {
+    "passage": "School Detention Paddle 3 Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1607_5_3_7|",
+    "original": "\"If any of you little shits breathe a word about this to anyone,\" <<he>> growls through laboured breaths, \"It'll be your asses up here next time. Understood?\" They quickly nod in assent.",
+    "translation": "",
+    "pos": 530
+  },
+  {
+    "passage": "School Detention Paddle 3 Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1610_5_3_7|",
+    "original": "\"And you,\" Leighton says, turning <<his>> attention back to you. \"Get out of my office.\" <<tearful>> you get dressed and scurry into the hallway.",
+    "translation": "",
+    "pos": 729
+  },
+  {
+    "passage": "School Detention Paddle 3 Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1618_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><<clotheson>><</link>>",
+    "translation": "",
+    "pos": 1057
+  },
+  {
+    "passage": "School Detention Paddle 3 Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1621_5_3_7|",
+    "original": "You wrench your arms free from Leighton's grip and shove <<him>> away. The other students laugh and cheer at the spectacle, equal parts amused and impressed by your audacity.<<status 5>><<gcool>>",
+    "translation": "",
+    "pos": 1143
+  },
+  {
+    "passage": "School Detention Paddle 3 Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1624_5_3_7|",
+    "original": "You take advantage of the confusion and flee into the corridor, Leighton angrily shouting after you. \"Hey, <<bitch>>, forget something?\"",
+    "translation": "",
+    "pos": 1351
+  },
+  {
+    "passage": "School Detention Paddle 3 Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1626_5_3_7|",
+    "original": "You were unable to rescue your clothes on the way out. <<tearful>> you keep running.",
+    "translation": "",
+    "pos": 1495
+  },
+  {
+    "passage": "School Detention Paddle 3 Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1632_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><<clotheson>><<clothesruined>><</link>>",
+    "translation": "",
+    "pos": 1715
+  },
+  {
+    "passage": "School Detention Paddle 3 Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1635_5_3_7|",
+    "original": "Leighton places the paddle down next to you on the desk. \"That's a good <<girl>>. Don't you see how much easier things would be if you just did as you were told?\"",
+    "translation": "",
+    "pos": 1797
+  },
+  {
+    "passage": "School Detention Paddle 3 Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1644_5_3_7|",
+    "original": "The <<person2>><<person>> looks at you, licking <<his>> lips. \"You sure showed <<phim>>, <<person1>><<sir>>!\" <<person2>><<His>> friends laugh in response.",
+    "translation": "",
+    "pos": 2221
+  },
+  {
+    "passage": "School Detention Paddle 3 Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1648_5_3_7|",
+    "original": "Leighton ignores them, instead fixating on your pained expression. <<person1>><<He>> walks behind <<his>> desk and fishes around in a drawer, then pulls out a tube of numbing cream. \"If you promise to be a good <<girl>>, I'll make you feel better. How does that sound?\"",
+    "translation": "",
+    "pos": 2411
+  },
+  {
+    "passage": "School Detention Paddle 3 Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1651_5_3_7|",
+    "original": "<<link [[Agree|School Detention Paddle Cream]]>><<set $phase to 2>><<pain -25>><<stress 6>><<arousal 1000 \"bottom\">><</link>><<lllpain>><<gstress>><<ggarousal>>",
+    "translation": "",
+    "pos": 2695
+  },
+  {
+    "passage": "School Detention Paddle 3 Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1653_5_3_7|",
+    "original": "<<link [[Refuse|School Detention Paddle Cream Refuse]]>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 2865
+  },
+  {
+    "passage": "School Detention Paddle 3 Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1656_5_3_7|",
+    "original": "\"Quite,\" Leighton concurs with a smirk. \"I'm sure <<pshes>> learnt <<pher>> lesson. At least I hope so, for <<pher>> sake.\"",
+    "translation": "",
+    "pos": 2969
+  },
+  {
+    "passage": "School Detention Paddle 3 Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1659_5_3_7|",
+    "original": "Once you're dressed, <<person1>><<he>> leads you out of <<his>> office. You do your best to ignore the other students' taunting remarks as you step into the hallway.",
+    "translation": "",
+    "pos": 3107
+  },
+  {
+    "passage": "School Detention Paddle 3 Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1662_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><<clotheson>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 3287
+  },
+  {
+    "passage": "School Detention Paddle Cream",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1670_5_3_7|",
+    "original": "You manage to whimper slightly in assent, and Leighton begins<<if $phase is 0>>, <<if setup.clothes.lower[clothesIndex('lower', $worn.lower)].skirt is 1>>flicking up your $worn.lower.name<<else>>tugging down your $worn.lower.name<</if>><<if !$worn.under_lower.type.includes(\"naked\")>> and pulling aside your $worn.under_lower.name<</if>><</if>>. <<He>> starts on your right cheek, massaging the cream into your skin in slow circles. \"That's it, this is much better, isn't it?\"",
+    "translation": "",
+    "pos": 80
+  },
+  {
+    "passage": "School Detention Paddle Cream",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1674_5_3_7|",
+    "original": "\"Yes, <<sir>>,\" you mumble, squirming from the sensation.",
+    "translation": "",
+    "pos": 602
+  },
+  {
+    "passage": "School Detention Paddle Cream",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1676_5_3_7|",
+    "original": "You don't want to admit it, but it is soothing. You give a grunt of acknowledgement.",
+    "translation": "",
+    "pos": 701
+  },
+  {
+    "passage": "School Detention Paddle Cream",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1678_5_3_7|",
+    "original": "You nod, feeling a sense of relief.",
+    "translation": "",
+    "pos": 796
+  },
+  {
+    "passage": "School Detention Paddle Cream",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1681_5_3_7|",
+    "original": "The pain in your <<bottom>> is very much still there, but it lessens the more Leighton touches you. <<He>> moves to your left side, and you gasp as the cold cream makes contact with your hot cheek. Eventually the pain there recedes, too.",
+    "translation": "",
+    "pos": 841
+  },
+  {
+    "passage": "School Detention Paddle Cream",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1686_5_3_7|",
+    "original": "The other students exchange mocking remarks as they leer at your exposed ass,",
+    "translation": "",
+    "pos": 1152
+  },
+  {
+    "passage": "School Detention Paddle Cream",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1689_5_3_7|",
+    "original": "but you grit your teeth and bear it.",
+    "translation": "",
+    "pos": 1269
+  },
+  {
+    "passage": "School Detention Paddle Cream",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1691_5_3_7|",
+    "original": "but you hardly mind.",
+    "translation": "",
+    "pos": 1318
+  },
+  {
+    "passage": "School Detention Paddle Cream",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1694_5_3_7|",
+    "original": "The <<personselect _detentionStudent>><<person>> is noticeably silent, however.",
+    "translation": "",
+    "pos": 1350
+  },
+  {
+    "passage": "School Detention Paddle Cream",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1697_5_3_7|",
+    "original": "You hear a stifled moan behind you. You peer over your shoulder at the <<person2>><<person>>, eyes half-open with a hand shamelessly down <<his>> <<if $pronoun is \"m\">>shorts<<else>>skirt<</if>>.<<stress 2>><<gstress>>",
+    "translation": "",
+    "pos": 1464
+  },
+  {
+    "passage": "School Detention Paddle Cream",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1699_5_3_7|",
+    "original": "If Leighton notices, <<nnpc_he \"Leighton\">> gives no indication.",
+    "translation": "",
+    "pos": 1690
+  },
+  {
+    "passage": "School Detention Paddle Cream",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1704_5_3_7|",
+    "original": "Leighton continues to caress your sore behind, <<person1>><<his>> fingers eventually slipping between your cheeks. <<He>> gives a quiet, curious murmur when <<he>> brushes <<his>> thumb over your anal shield. \"Is this to protect you or keep you under control?\" <<he>> snickers.<<stress 6>><<trauma 6>><<gstress>><<gtrauma>>",
+    "translation": "",
+    "pos": 1805
+  },
+  {
+    "passage": "School Detention Paddle Cream",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1707_5_3_7|",
+    "original": "After a while, Leighton withdraws <<his>> hand and gives your ass one last light pat. \"I hope that teaches you to follow the rules, young <<lady>>.\"",
+    "translation": "",
+    "pos": 2141
+  },
+  {
+    "passage": "School Detention Paddle Cream",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1710_5_3_7|",
+    "original": "With that, you fix your clothing, heading back out into the hallway.",
+    "translation": "",
+    "pos": 2302
+  },
+  {
+    "passage": "School Detention Paddle Cream",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1713_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><<endevent>><<clotheson>><</link>>",
+    "translation": "",
+    "pos": 2383
+  },
+  {
+    "passage": "School Detention Paddle Cream",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1716_5_3_7|",
+    "original": "Leighton seems to be enjoying <<person1>><<himself>> a little too much as <<he>> rubs your sore butt. <<His>> fingers begin to prod against your anus with each pass over.",
+    "translation": "",
+    "pos": 2482
+  },
+  {
+    "passage": "School Detention Paddle Cream",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1720_5_3_7|",
+    "original": "The other students continue to ridicule you as Leighton fondles your <<bottom>>. Except the <<personselect _detentionStudent>><<person>>. <<He>> remains eerily quiet, until suddenly crying out, \"Y-yes! Finger <<pher>> asshole!\"",
+    "translation": "",
+    "pos": 2686
+  },
+  {
+    "passage": "School Detention Paddle Cream",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1723_5_3_7|",
+    "original": "The moment the words leave <<his>> lips, <<his>> face turns red, and <<he>> stares down in shame. The others are only momentarily shocked and soon begin poking fun at <<his>> outburst.",
+    "translation": "",
+    "pos": 2928
+  },
+  {
+    "passage": "School Detention Paddle Cream",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1726_5_3_7|",
+    "original": "Leighton stops massaging you and turns around to face the <<person>>. \"How obscene,\" <<person1>><<he>> tuts before addressing the other two. \"You two may leave. It looks like your friend needs some special discipline.\"",
+    "translation": "",
+    "pos": 3127
+  },
+  {
+    "passage": "School Detention Paddle Cream",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1729_5_3_7|",
+    "original": "The two stop laughing, giving the <<personselect _detentionStudent>><<person>> a worried look before shuffling out of the office. Leighton locks the door behind them.",
+    "translation": "",
+    "pos": 3360
+  },
+  {
+    "passage": "School Detention Paddle Cream",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1737_5_3_7|",
+    "original": "<<link [[Next|School Detention Paddle Cream 2]]>><</link>>",
+    "translation": "",
+    "pos": 3669
+  },
+  {
+    "passage": "School Detention Paddle Cream",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1740_5_3_7|",
+    "original": "The moaning behind you grows louder, until the <<person2>><<person>> finally cries out, \"Y-yes! Finger <<pher>> asshole!\"",
+    "translation": "",
+    "pos": 3761
+  },
+  {
+    "passage": "School Detention Paddle Cream",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1743_5_3_7|",
+    "original": "Immediately realising what <<he>> just said, the <<person>> gasps and covers <<his>> mouth. \"My, my,\" Leighton chuckles. \"Someone's eager.\" The <<person>> stares down in shame.",
+    "translation": "",
+    "pos": 3897
+  },
+  {
+    "passage": "School Detention Paddle Cream",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1751_5_3_7|",
+    "original": "<<link [[Next|School Detention Paddle Cream 2]]>><</link>>",
+    "translation": "",
+    "pos": 4200
+  },
+  {
+    "passage": "School Detention Paddle Cream",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1755_5_3_7|",
+    "original": "<<link [[Enjoy it|School Detention Paddle Cream Leighton]]>><<set $phase to 2>><<arousal 5000 \"genitals\">><<npcincr Leighton love 1>><<npcincr Leighton dom 1>><</link>><<promiscuous3>><<ggarousal>>",
+    "translation": "",
+    "pos": 4317
+  },
+  {
+    "passage": "School Detention Paddle Cream",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1758_5_3_7|",
+    "original": "<<link [[Let it happen|School Detention Paddle Cream Leighton]]>><<set $phase to 1>><<stress 6>><<trauma 6>><<arousal 2000 \"genitals\">><<moleststat>><<npcincr Leighton dom 1>><</link>><<gstress>><<gtrauma>><<garousal>>",
+    "translation": "",
+    "pos": 4535
+  },
+  {
+    "passage": "School Detention Paddle Cream",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1760_5_3_7|",
+    "original": "<<link [[Ask Leighton to stop|School Detention Paddle Cream Leighton]]>><<set $phase to 0>><<stress 6>><<trauma 6>><<arousal 2000 \"genitals\">><<moleststat>><<npcincr Leighton dom -1>><</link>>",
+    "translation": "",
+    "pos": 4763
+  },
+  {
+    "passage": "School Detention Paddle Cream",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1764_5_3_7|",
+    "original": "After a while, Leighton withdraws <<person1>><<his>> hand and gives your ass one last light pat. \"I hope that teaches you to follow the rules, young <<lady>>.\"",
+    "translation": "",
+    "pos": 4982
+  },
+  {
+    "passage": "School Detention Paddle Cream",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1767_5_3_7|",
+    "original": "With that, you fix your clothing, heading back out into the hallway.",
+    "translation": "",
+    "pos": 5154
+  },
+  {
+    "passage": "School Detention Paddle Cream",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1770_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><<endevent>><<clotheson>><</link>>",
+    "translation": "",
+    "pos": 5235
+  },
+  {
+    "passage": "School Detention Paddle Cream 2",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1777_5_3_7|",
+    "original": "You expect Leighton to reprimand the <<person>>, but instead <<nnpc_he \"Leighton\">> holds <<nnpc_his \"Leighton\">> arm out, eyebrow raised as <<nnpc_he \"Leighton\">> offers the tube. \"If you're so eager, perhaps you'd like to help us out?\" <<nnpc_he \"Leighton\">> asks. \"For a little... extra credit?\"",
+    "translation": "",
+    "pos": 80
+  },
+  {
+    "passage": "School Detention Paddle Cream 2",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1780_5_3_7|",
+    "original": "The <<person>> looks just as shocked as you are, but it doesn't take long for <<him>> to come to <<his>> senses. \"Y... yes, of course, <<nnpc_title \"Leighton\">>!\" <<he>> says as <<he>> clambers to <<his>> feet.",
+    "translation": "",
+    "pos": 389
+  },
+  {
+    "passage": "School Detention Paddle Cream 2",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1783_5_3_7|",
+    "original": "<<He>> eagerly snatches the tube of cream and begins rubbing it into <<his>> palms. Leighton disappears from your view for a moment, and you hear the door lock behind you, followed by the sound of <<nnpc_him \"Leighton\">> rummaging through a drawer. When Leighton returns, <<nnpc_hes \"Leighton\">> holding a camera.",
+    "translation": "",
+    "pos": 610
+  },
+  {
+    "passage": "School Detention Paddle Cream 2",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1785_5_3_7|",
+    "original": "You feel the <<persons>> hands hovering above your cheeks, but they don't make contact. It appears <<hes>> lost <<his>> nerve. \"What are you waiting for?\" Leighton demands. \"Get to work.\"",
+    "translation": "",
+    "pos": 929
+  },
+  {
+    "passage": "School Detention Paddle Cream 2",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1787_5_3_7|",
+    "original": "\"I-I don't know if I should do this,\" <<he>> stammers. \"It's just too-\"",
+    "translation": "",
+    "pos": 1122
+  },
+  {
+    "passage": "School Detention Paddle Cream 2",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1789_5_3_7|",
+    "original": "Leighton slams <<nnpc_his \"Leighton\">> palm against the desk, cutting <<him>> off. \"Either do as you're told, or next time, you can take <<pher>> place.\"",
+    "translation": "",
+    "pos": 1199
+  },
+  {
+    "passage": "School Detention Paddle Cream 2",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1792_5_3_7|",
+    "original": "The <<person>> gulps and nods. Suddenly, you feel a pair of hands on your bottom. You gasp at the sensation. <<His>> motions are much clumsier than Leighton's, rubbing around your anus with a lustful fervour.",
+    "translation": "",
+    "pos": 1363
+  },
+  {
+    "passage": "School Detention Paddle Cream 2",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1796_5_3_7|",
+    "original": "<<link [[Enjoy it|School Detention Paddle Cream 3]]>><<set $phase to 2>><<arousal 5000 \"genitals\">><<npcincr Leighton love 1>><<npcincr Leighton dom 1>><</link>><<promiscuous3>><<ggarousal>>",
+    "translation": "",
+    "pos": 1619
+  },
+  {
+    "passage": "School Detention Paddle Cream 2",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1799_5_3_7|",
+    "original": "<<link [[Let it happen|School Detention Paddle Cream 3]]>><<set $phase to 1>><<stress 6>><<trauma 6>><<arousal 2000 \"genitals\">><<npcincr Leighton dom 1>><<moleststat>><</link>><<gstress>><<gtrauma>><<garousal>>",
+    "translation": "",
+    "pos": 1824
+  },
+  {
+    "passage": "School Detention Paddle Cream 2",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1801_5_3_7|",
+    "original": "<<link [[Ask to stop|School Detention Paddle Cream 3]]>><<set $phase to 0>><<stress 6>><<trauma 6>><<arousal 2000 \"genitals\">><<npcincr Leighton dom -1>><<moleststat>><</link>>",
+    "translation": "",
+    "pos": 2041
+  },
+  {
+    "passage": "School Detention Paddle Cream 3",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1808_5_3_7|",
+    "original": "You say that you feel better now and you're ready to leave. The <<person>> sighs, sounding equal parts disappointed and relieved, and steps away from you.",
+    "translation": "",
+    "pos": 100
+  },
+  {
+    "passage": "School Detention Paddle Cream 3",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1811_5_3_7|",
+    "original": "You start to get up, <span class=\"red\">but someone grabs your shoulders and forces you back against the desk.</span> You look up to see Leighton shooting the <<person>> a stern glare.",
+    "translation": "",
+    "pos": 267
+  },
+  {
+    "passage": "School Detention Paddle Cream 3",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1813_5_3_7|",
+    "original": "\"I told you to do as you're told, or else,\" <<nnpc_he \"Leighton\">> growls. \"There are far worse punishments than a paddling, you know.\"",
+    "translation": "",
+    "pos": 458
+  },
+  {
+    "passage": "School Detention Paddle Cream 3",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1815_5_3_7|",
+    "original": "There's a heavy silence in the room. Finally, you hear footsteps, and once more you feel someone grasp your <<bottom>>.",
+    "translation": "",
+    "pos": 601
+  },
+  {
+    "passage": "School Detention Paddle Cream 3",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1817_5_3_7|",
+    "original": "\"Sorry,\" you hear the <<person>> quietly whimper.<<gstress>><<gtrauma>>",
+    "translation": "",
+    "pos": 728
+  },
+  {
+    "passage": "School Detention Paddle Cream 3",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1820_5_3_7|",
+    "original": "Despite your discomfort, you think better of talking back to the <<nnpc_title \"Leighton\">>. You bite your lip and clench your eyes shut as the <<persons>> fingers assault your <<bottom>>.",
+    "translation": "",
+    "pos": 864
+  },
+  {
+    "passage": "School Detention Paddle Cream 3",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1822_5_3_7|",
+    "original": "You sigh in contentment as the <<persons>> fingers trail along your <<bottom>>, and you spread your legs a little to allow <<him>> easier access. <<promiscuity3>>",
+    "translation": "",
+    "pos": 1062
+  },
+  {
+    "passage": "School Detention Paddle Cream 3",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1824_5_3_7|",
+    "original": "You hear a chuckle, and you look up to find Leighton smirking, <<nnpc_his \"Leighton\">> camera raised.",
+    "translation": "",
+    "pos": 1227
+  },
+  {
+    "passage": "School Detention Paddle Cream 3",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1828_5_3_7|",
+    "original": "The <<person>> continues to rub your ass, <<his>> fingers treading dangerously close to your anus. <<He>> seems reluctant to go any further.",
+    "translation": "",
+    "pos": 1347
+  },
+  {
+    "passage": "School Detention Paddle Cream 3",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1831_5_3_7|",
+    "original": "Leighton notices the <<personsimple>>'s hesitation. \"You can do better than that,\" <<nnpc_he \"Leighton\">> tuts. \"I certainly wouldn't want to punish you for your lack of enthusiasm.\"",
+    "translation": "",
+    "pos": 1498
+  },
+  {
+    "passage": "School Detention Paddle Cream 3",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1834_5_3_7|",
+    "original": "The <<person>> pauses, <<if $phase is 0>>sniffles<<else>>takes a deep breath<</if>>, and presses <<his>> hand against your <<bottom>>.",
+    "translation": "",
+    "pos": 1691
+  },
+  {
+    "passage": "School Detention Paddle Cream 3",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1838_5_3_7|",
+    "original": "\"No, no, no,\" Leighton groans, still unsatisfied. \"All the way.\"",
+    "translation": "",
+    "pos": 1875
+  },
+  {
+    "passage": "School Detention Paddle Cream 3",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1842_5_3_7|",
+    "original": "You give <<him>> a little encouragement and press your butt against <<his>> groin. You can feel <<his>> <<print $NPCList[0].penisdesc>> beneath <<his>> <<if $pronoun is \"m\">>shorts<<else>>skirt<</if>> already erect.",
+    "translation": "",
+    "pos": 1974
+  },
+  {
+    "passage": "School Detention Paddle Cream 3",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1845_5_3_7|",
+    "original": "The <<person>> gasps and flinches away. The room is silent for a moment, until you hear the sound of fabric rustling as <<he>> <<if $pronoun is \"m\">>lowers his shorts<<else>>lifts her skirt<</if>>.",
+    "translation": "",
+    "pos": 2204
+  },
+  {
+    "passage": "School Detention Paddle Cream 3",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1847_5_3_7|",
+    "original": "<<He>> takes another deep breath, and you soon feel something prodding your anus.",
+    "translation": "",
+    "pos": 2411
+  },
+  {
+    "passage": "School Detention Paddle Cream 3",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1850_5_3_7|",
+    "original": "<<link [[Next|School Detention Paddle Cream Sex]]>><<set $sexstart to 1>><<set $phase to 0>><</link>>",
+    "translation": "",
+    "pos": 2507
+  },
+  {
+    "passage": "School Detention Paddle Cream 3",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1853_5_3_7|",
+    "original": "After another long period of silence, you hear the sound of fabric rustling as the <<person>> <<if $pronoun is \"m\">>lowers his shorts<<else>>lifts her skirt<</if>>.",
+    "translation": "",
+    "pos": 2628
+  },
+  {
+    "passage": "School Detention Paddle Cream 3",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1856_5_3_7|",
+    "original": "Leighton chuckles darkly as the <<person>> tentatively takes position behind you. You feel <<his>> <<print $NPCList[0].penisdesc>> against your butt.",
+    "translation": "",
+    "pos": 2807
+  },
+  {
+    "passage": "School Detention Paddle Cream 3",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1859_5_3_7|",
+    "original": "<<link [[Next|School Detention Paddle Cream Sex]]>><<set $molestationstart to 1>><<set $phase to 0>><</link>>",
+    "translation": "",
+    "pos": 2971
+  },
+  {
+    "passage": "School Detention Paddle Cream 3",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1863_5_3_7|",
+    "original": "<<link [[Next|School Detention Paddle Cream Sex]]>><<if $phase is 2>><<set $sexstart to 1>><<else>><<set $molestationstart to 1>><</if>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 3107
+  },
+  {
+    "passage": "School Detention Paddle Cream Sex",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1906_5_3_7|",
+    "original": "Leighton sits at <<nnpc_his \"Leighton\">> desk, leaning close to observe your expression.",
+    "translation": "",
+    "pos": 1036
+  },
+  {
+    "passage": "School Detention Paddle Cream Sex",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1908_5_3_7|",
+    "original": "\"You like how that feels, young <<lady>>?\" asks Leighton. <<nnpc_His \"Leighton\">> breath is hot against your face as <<nnpc_he \"Leighton\">> stares into your eyes.",
+    "translation": "",
+    "pos": 1142
+  },
+  {
+    "passage": "School Detention Paddle Cream Sex",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1910_5_3_7|",
+    "original": "<<person1>>\"<<Hes>> good at this, isn't <<he>>?\" says Leighton with a smirk, looking up at the <<person>>.",
+    "translation": "",
+    "pos": 1322
+  },
+  {
+    "passage": "School Detention Paddle Cream Sex",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1912_5_3_7|",
+    "original": "\"Hold that expression,\" Leighton commands, raising <<nnpc_his \"Leighton\">> camera.<<famesex 2 \"pic\">>",
+    "translation": "",
+    "pos": 1443
+  },
+  {
+    "passage": "School Detention Paddle Cream Sex",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1920_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|School Detention Paddle Cream Sex Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 1615
+  },
+  {
+    "passage": "School Detention Paddle Cream Sex",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1922_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|School Detention Paddle Cream Sex]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 1728
+  },
+  {
+    "passage": "School Detention Paddle Cream Sex Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1932_5_3_7|",
+    "original": "Staring down at <<his>> feet, the <<person>> straightens <<his>> clothes and backs away from you. You follow suit, pushing yourself off the desk and getting dressed.",
+    "translation": "",
+    "pos": 173
+  },
+  {
+    "passage": "School Detention Paddle Cream Sex Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1935_5_3_7|",
+    "original": "Leighton smirks, holding <<nnpc_his \"Leighton\">> camera up and tapping it with one finger. \"Let's keep this between us, shall we?\" You both nod wordlessly.",
+    "translation": "",
+    "pos": 353
+  },
+  {
+    "passage": "School Detention Paddle Cream Sex Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1938_5_3_7|",
+    "original": "<<tearful>> you and the <<person>> stagger out of the office, unable to meet each other's gaze.",
+    "translation": "",
+    "pos": 523
+  },
+  {
+    "passage": "School Detention Paddle Cream Sex Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1941_5_3_7|",
+    "original": "\"Th-that was amazing!\" the <<person>> pants, <<his>> nervousness all but gone.",
+    "translation": "",
+    "pos": 642
+  },
+  {
+    "passage": "School Detention Paddle Cream Sex Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1944_5_3_7|",
+    "original": "\"I heard <<pshe>> lets anyone fuck <<phim>>. I've always wanted to have a go!\"",
+    "translation": "",
+    "pos": 752
+  },
+  {
+    "passage": "School Detention Paddle Cream Sex Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1947_5_3_7|",
+    "original": "\"Mind your language,\" Leighton mutters. <<nnpc_He \"Leighton\">> doesn't sound the slightest bit bothered.",
+    "translation": "",
+    "pos": 847
+  },
+  {
+    "passage": "School Detention Paddle Cream Sex Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1949_5_3_7|",
+    "original": "\"I've wanted to do that for a while. I've always had a bit of a crush...\" <<He>> trails off, staring at <<his>> feet and giggling.",
+    "translation": "",
+    "pos": 982
+  },
+  {
+    "passage": "School Detention Paddle Cream Sex Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1952_5_3_7|",
+    "original": "\"How cute,\" Leighton mutters. <<nnpc_He \"Leighton\">> doesn't sound particularly interested.",
+    "translation": "",
+    "pos": 1129
+  },
+  {
+    "passage": "School Detention Paddle Cream Sex Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1954_5_3_7|",
+    "original": "<<He>> gives you a smug look. \"You're welcome, by the way. I doubt your sorry ass gets much attention.\"<<trauma 2>><<gtrauma>>",
+    "translation": "",
+    "pos": 1250
+  },
+  {
+    "passage": "School Detention Paddle Cream Sex Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1957_5_3_7|",
+    "original": "\"Mind your language,\" Leighton mutters. <<nnpc_He \"Leighton\">> doesn't sound the slightest bit bothered.",
+    "translation": "",
+    "pos": 1393
+  },
+  {
+    "passage": "School Detention Paddle Cream Sex Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1959_5_3_7|",
+    "original": "<<He>> stares at you and licks <<his>> lips. \"Bet <<pshe>> enjoyed it, too.\"<<if $consensual isnot 1>><<trauma 6>><<gtrauma>><</if>>",
+    "translation": "",
+    "pos": 1512
+  },
+  {
+    "passage": "School Detention Paddle Cream Sex Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1962_5_3_7|",
+    "original": "\"Mhm. Quite,\" Leighton mutters. <<nnpc_He \"Leighton\">> doesn't sound particularly interested.",
+    "translation": "",
+    "pos": 1661
+  },
+  {
+    "passage": "School Detention Paddle Cream Sex Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1965_5_3_7|",
+    "original": "<<nnpc_He \"Leighton\">> scrolls through the pictures on <<nnpc_his \"Leighton\">> camera, before addressing you.",
+    "translation": "",
+    "pos": 1768
+  },
+  {
+    "passage": "School Detention Paddle Cream Sex Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1968_5_3_7|",
+    "original": "\"I hope you've both learnt a valuable lesson,\" <<nnpc_he \"Leighton\">> says. <<nnpc_He \"Leighton\">> holds up <<nnpc_his \"Leighton\">> camera and smiles. \"A lesson I'd suggest you keep to yourselves.\"",
+    "translation": "",
+    "pos": 1892
+  },
+  {
+    "passage": "School Detention Paddle Cream Sex Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1971_5_3_7|",
+    "original": "<<tearful>> you and the <<person>> are led out of the office. <<He>> winks as <<he>> disappears down the hallway.",
+    "translation": "",
+    "pos": 2104
+  },
+  {
+    "passage": "School Detention Paddle Cream Sex Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1978_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><</link>>",
+    "translation": "",
+    "pos": 2270
+  },
+  {
+    "passage": "School Detention Paddle Cream Sex Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1981_5_3_7|",
+    "original": "You shove the <<person>> off of you and scamper away from the desk.",
+    "translation": "",
+    "pos": 2343
+  },
+  {
+    "passage": "School Detention Paddle Cream Sex Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1984_5_3_7|",
+    "original": "Leighton makes a grab for you, but you're already out the door. <<nnpc_He \"Leighton\">> shouts after you as you flee down the corridor. \"Hey, <<bitch>>, forget something?\"",
+    "translation": "",
+    "pos": 2423
+  },
+  {
+    "passage": "School Detention Paddle Cream Sex Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1986_5_3_7|",
+    "original": "You were unable to rescue your clothes on the way out. <<tearful>> you keep running.",
+    "translation": "",
+    "pos": 2601
+  },
+  {
+    "passage": "School Detention Paddle Cream Sex Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1991_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><<clotheson>><<clothesruined>><</link>>",
+    "translation": "",
+    "pos": 2714
+  },
+  {
+    "passage": "School Detention Paddle Cream Sex Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1994_5_3_7|",
+    "original": "The <<person>> sighs, sounding equal parts disappointed and relieved, and steps away from you.",
+    "translation": "",
+    "pos": 2796
+  },
+  {
+    "passage": "School Detention Paddle Cream Sex Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "1997_5_3_7|",
+    "original": "Leighton frowns, scrolling through the pictures on <<nnpc_his \"Leighton\">> camera. \"Good enough, I suppose,\" <<nnpc_he \"Leighton\">> mutters, before looking up at you. \"Go on, you've wasted enough of my time. Try not to end up here again.\"",
+    "translation": "",
+    "pos": 2903
+  },
+  {
+    "passage": "School Detention Paddle Cream Sex Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "2000_5_3_7|",
+    "original": "<<tearful>> you get dressed and leave the office with the <<person>>. <<He>> shoots an awkward glance in your direction, then blushes and scurries down the hall.",
+    "translation": "",
+    "pos": 3154
+  },
+  {
+    "passage": "School Detention Paddle Cream Sex Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "2006_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><</link>>",
+    "translation": "",
+    "pos": 3359
+  },
+  {
+    "passage": "School Detention Paddle Cream Leighton",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "2015_5_3_7|",
+    "original": "You tell Leighton that you feel better now and you're ready to leave. <span class=\"red\"><<He>> presses a hand against the small of your back, holding you down.</span>",
+    "translation": "",
+    "pos": 100
+  },
+  {
+    "passage": "School Detention Paddle Cream Leighton",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "2017_5_3_7|",
+    "original": "\"Now, now,\" <<he>> tuts. \"As your <<nnpc_title \"Leighton\">>, I know what's best for you. Hold still.\"",
+    "translation": "",
+    "pos": 274
+  },
+  {
+    "passage": "School Detention Paddle Cream Leighton",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "2019_5_3_7|",
+    "original": "Stuck in such a vulnerable position, there's little else you can do besides let Leighton have <<his>> way.<<gstress>><<gtrauma>>",
+    "translation": "",
+    "pos": 383
+  },
+  {
+    "passage": "School Detention Paddle Cream Leighton",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "2022_5_3_7|",
+    "original": "Despite your discomfort, you think better of talking back to the <<nnpc_title \"Leighton\">>. You bite your lip and clench your eyes shut as Leighton's fingers assault your <<bottom>>.",
+    "translation": "",
+    "pos": 546
+  },
+  {
+    "passage": "School Detention Paddle Cream Leighton",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "2025_5_3_7|",
+    "original": "You sigh in contentment as Leighton's fingers brush against your anus, and you spread your legs a little to allow <<him>> easier access. You think you hear <<him>> chuckling behind you. <<promiscuity3>>",
+    "translation": "",
+    "pos": 749
+  },
+  {
+    "passage": "School Detention Paddle Cream Leighton",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "2028_5_3_7|",
+    "original": "<<if $phase is 2>>Taking your invitation<<else>>Without warning<</if>>, Leighton slides <<his>> finger inside you, the soothing cream acting as lubricant. You gasp at the sensation, <<if $phase is 2>>but it isn't unpleasant<<else>>feeling utterly violated<</if>>. <<His>> finger moves in and out, <<if $player.penisExist>>rubbing against your prostate<<else>>causing you to shudder and moan involuntarily<</if>>.",
+    "translation": "",
+    "pos": 961
+  },
+  {
+    "passage": "School Detention Paddle Cream Leighton",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "2033_5_3_7|",
+    "original": "Your penis and pussy both react to the stimulation,",
+    "translation": "",
+    "pos": 1459
+  },
+  {
+    "passage": "School Detention Paddle Cream Leighton",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "2035_5_3_7|",
+    "original": "Your penis is fully erect now,",
+    "translation": "",
+    "pos": 1544
+  },
+  {
+    "passage": "School Detention Paddle Cream Leighton",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "2037_5_3_7|",
+    "original": "Your pussy is practically dripping now,",
+    "translation": "",
+    "pos": 1587
+  },
+  {
+    "passage": "School Detention Paddle Cream Leighton",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "2041_5_3_7|",
+    "original": "but you're enjoying this too much to pull away.",
+    "translation": "",
+    "pos": 1659
+  },
+  {
+    "passage": "School Detention Paddle Cream Leighton",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "2043_5_3_7|",
+    "original": "much to your shame.",
+    "translation": "",
+    "pos": 1719
+  },
+  {
+    "passage": "School Detention Paddle Cream Leighton",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "2045_5_3_7|",
+    "original": "Judging by Leighton's dark laughter behind you, <<he>> notices.<<if $phase isnot 2>><<trauma 6>><<gtrauma>><</if>>",
+    "translation": "",
+    "pos": 1749
+  },
+  {
+    "passage": "School Detention Paddle Cream Leighton",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "2049_5_3_7|",
+    "original": "After a while, Leighton removes <<his>> finger and gives your ass one last light pat. \"I hope that'll teach you to follow the rules, young <<lady>>.\" With that, you fix your clothing, heading back out into the hallway.",
+    "translation": "",
+    "pos": 1882
+  },
+  {
+    "passage": "School Detention Paddle Cream Leighton",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "2052_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><<endevent>><<clotheson>><</link>>",
+    "translation": "",
+    "pos": 2111
+  },
+  {
+    "passage": "School Detention Paddle Cream Refuse",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "2058_5_3_7|",
+    "original": "Leighton sighs and shakes <<his>> head as <<he>> places the tube back in its drawer. \"So ungrateful,\" <<he>> mutters under <<his>> breath, then looks up at you. \"You're done here. Go.\"",
+    "translation": "",
+    "pos": 80
+  },
+  {
+    "passage": "School Detention Paddle Cream Refuse",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "2061_5_3_7|",
+    "original": "<<tearful>> you fix your clothes and leave<<if $phase gte 1>>, doing your best to ignore the <<if $phase is 1>><<person2>><<persons>><<else>>other students'<</if>> taunting remarks<</if>>.",
+    "translation": "",
+    "pos": 275
+  },
+  {
+    "passage": "School Detention Paddle Cream Refuse",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "2064_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><<endevent>><<clotheson>><</link>>",
+    "translation": "",
+    "pos": 474
+  },
+  {
+    "passage": "School Detention Paddle Rape",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "2087_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|School Detention Paddle Rape Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 289
+  },
+  {
+    "passage": "School Detention Paddle Rape",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "2089_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|School Detention Paddle Rape]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 397
+  },
+  {
+    "passage": "School Detention Paddle Rape Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "2098_5_3_7|",
+    "original": "\"Good <<girl>>,\" <<he>> says, sitting at <<his>> desk. \"I trust you'll behave yourself from now on?\"",
+    "translation": "",
+    "pos": 141
+  },
+  {
+    "passage": "School Detention Paddle Rape Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "2104_5_3_7|",
+    "original": "<<tearful>> you leave the office.",
+    "translation": "",
+    "pos": 285
+  },
+  {
+    "passage": "School Detention Paddle Rape Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "2107_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 331
+  },
+  {
+    "passage": "School Detention Paddle Rape Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "2110_5_3_7|",
+    "original": "You knock the <<nnpc_title \"Leighton\">> away from you, who staggers and falls.",
+    "translation": "",
+    "pos": 406
+  },
+  {
+    "passage": "School Detention Paddle Rape Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "2113_5_3_7|",
+    "original": "<<tearful>> you flee the office, hearing <<him>> laugh behind you.",
+    "translation": "",
+    "pos": 497
+  },
+  {
+    "passage": "School Detention Paddle Rape Finish",
+    "filepath": "overworld-town/loc-school/detention.twee",
+    "key": "2119_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 607
+  }
+]

@@ -1,0 +1,4426 @@
+[
+  {
+    "passage": "Maths Project",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "6_5_3_7|",
+    "original": "The maths competition booklet lies on the desk in front of you. The task ahead is daunting. You have <span class=\"red\">no</span> chance of winning the competition.",
+    "translation": "",
+    "pos": 95
+  },
+  {
+    "passage": "Maths Project",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "8_5_3_7|",
+    "original": "The maths competition booklet and the little progress you've made lie on the desk in front of you. You have a <span class=\"pink\">$mathschance%</span> chance of winning the competition.",
+    "translation": "",
+    "pos": 291
+  },
+  {
+    "passage": "Maths Project",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "10_5_3_7|",
+    "original": "Your groundwork for the maths competition lies on the desk in front of you. You have a <span class=\"purple\">$mathschance%</span> chance of winning the competition.",
+    "translation": "",
+    "pos": 508
+  },
+  {
+    "passage": "Maths Project",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "12_5_3_7|",
+    "original": "Your solution for the maths competition lies on the desk in front of you. There's a lot of room for improvement. You have a <span class=\"blue\">$mathschance%</span> chance of winning the competition.",
+    "translation": "",
+    "pos": 704
+  },
+  {
+    "passage": "Maths Project",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "14_5_3_7|",
+    "original": "Your solution for the maths competition lies on the desk in front of you. It's not complete, but it represents an impressive effort. You have a <span class=\"lblue\">$mathschance%</span> chance of winning the competition.",
+    "translation": "",
+    "pos": 935
+  },
+  {
+    "passage": "Maths Project",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "16_5_3_7|",
+    "original": "Your solution for the maths competition lies on the desk in front of you. You know it's wrong, but it's impressive all the same. You have a <span class=\"teal\">$mathschance%</span> chance of winning the competition.",
+    "translation": "",
+    "pos": 1187
+  },
+  {
+    "passage": "Maths Project",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "18_5_3_7|",
+    "original": "Your solution for the maths competition lies on the desk in front of you. You weren't supposed to solve it, but you're confident you have. You have a <span class=\"green\">$mathschance%</span> chance of winning the competition.",
+    "translation": "",
+    "pos": 1412
+  },
+  {
+    "passage": "Maths Project",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "22_5_3_7|",
+    "original": "You have <span class=\"gold\">$mathsinfo</span> insights.",
+    "translation": "",
+    "pos": 1656
+  },
+  {
+    "passage": "Maths Project",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "25_5_3_7|",
+    "original": "You have <span class=\"gold\">$mathsstim</span> stimulants.",
+    "translation": "",
+    "pos": 1747
+  },
+  {
+    "passage": "Maths Project",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "30_5_3_7|",
+    "original": "<<icon \"projectMaths.png\">><<link [[Work on solution (2:00)|Maths Project Work]]>><<if $location is \"home\" and _chair.type.includes(\"comfy\")>><<set $mathschance += 5>><<else>><<set $mathschance += 1>><</if>><<mathsskill 2>><<pass 120>><<stress 12>><</link>><<gstress>><<gmaths>>",
+    "translation": "",
+    "pos": 1865
+  },
+  {
+    "passage": "Maths Project",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "33_5_3_7|",
+    "original": "<span class=\"blue\">You can't bring yourself to take stimulants while you know you're with child.</span>",
+    "translation": "",
+    "pos": 2230
+  },
+  {
+    "passage": "Maths Project",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "36_5_3_7|",
+    "original": "<<pillicon \"stimulant\">><<link [[Use stimulant (2:00)|Maths Project Stim]]>><<if $location is \"home\" and _chair.type.includes(\"comfy\")>><<set $mathschance += 20>><<else>><<set $mathschance += 16>><</if>><<set $mathsstim -= 1>><<set $mathsstimused += 1>><<mathsskill 40>><<pass 120>><</link>><<gggmaths>>",
+    "translation": "",
+    "pos": 2369
+  },
+  {
+    "passage": "Maths Project",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "40_5_3_7|",
+    "original": "<<investigateicon>><<link [[Use a mathematical insight (2:00)|Maths Project Work]]>><<set $mathsinfo -= 1>><<if $location is \"home\" and _chair.type.includes(\"comfy\")>><<set $mathschance += 12>><<else>><<set $mathschance += 8>><</if>><<mathsskill 40>><<pass 120>><</link>><<ggmaths>>",
+    "translation": "",
+    "pos": 2712
+  },
+  {
+    "passage": "Maths Project",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "45_5_3_7|",
+    "original": "<<getouticon>><<link [[Stop|Bedroom]]>><</link>>",
+    "translation": "",
+    "pos": 3042
+  },
+  {
+    "passage": "Maths Project",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "48_5_3_7|",
+    "original": "<<getouticon>><<link [[Stop|School Library]]>><</link>>",
+    "translation": "",
+    "pos": 3107
+  },
+  {
+    "passage": "Maths Project Work",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "55_5_3_7|",
+    "original": "You sit down and get to work.",
+    "translation": "",
+    "pos": 34
+  },
+  {
+    "passage": "Maths Project Work",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "58_5_3_7|",
+    "original": "Your <span class=\"green\">comfortable</span> chair makes it easier to concentrate on the project.",
+    "translation": "",
+    "pos": 167
+  },
+  {
+    "passage": "Maths Project Work",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "60_5_3_7|",
+    "original": "Your <span class=\"red\">uncomfortable</span> chair makes it hard to concentrate, but you muddle through.",
+    "translation": "",
+    "pos": 274
+  },
+  {
+    "passage": "Maths Project Work",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "63_5_3_7|",
+    "original": "You hardly know where to begin - the mathematical symbols are a whole new language. <span class=\"gold\">There must be a way to make things easier.</span>",
+    "translation": "",
+    "pos": 413
+  },
+  {
+    "passage": "Maths Project Work",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "65_5_3_7|",
+    "original": "You have a basic understanding of what you need to do, but the amount of work remaining is daunting.",
+    "translation": "",
+    "pos": 598
+  },
+  {
+    "passage": "Maths Project Work",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "67_5_3_7|",
+    "original": "You've probably done enough to be in with a chance, but the project isn't complete by any means.",
+    "translation": "",
+    "pos": 731
+  },
+  {
+    "passage": "Maths Project Work",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "69_5_3_7|",
+    "original": "The project is definitely passable at this point, and you have a hard time imagining that any other student has worked this hard on it.",
+    "translation": "",
+    "pos": 860
+  },
+  {
+    "passage": "Maths Project Work",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "71_5_3_7|",
+    "original": "It's painstaking work, but you go over the project in detail, catching anything that could be considered a mistake.",
+    "translation": "",
+    "pos": 1006
+  },
+  {
+    "passage": "Maths Project Work",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "75_5_3_7|",
+    "original": "The orphanage is dead silent as you work.",
+    "translation": "",
+    "pos": 1183
+  },
+  {
+    "passage": "Maths Project Work",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "77_5_3_7|",
+    "original": "As you work, the sky slowly brightens and the sun rises above the horizon.",
+    "translation": "",
+    "pos": 1255
+  },
+  {
+    "passage": "Maths Project Work",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "79_5_3_7|",
+    "original": "You do your best to ignore Bailey's knocking and instead keep working while the other residents head off to school.",
+    "translation": "",
+    "pos": 1379
+  },
+  {
+    "passage": "Maths Project Work",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "81_5_3_7|",
+    "original": "You do your best to ignore the sound of the other orphanage residents heading out for the day.",
+    "translation": "",
+    "pos": 1525
+  },
+  {
+    "passage": "Maths Project Work",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "83_5_3_7|",
+    "original": "You may be skipping school, but you aren't having much fun as you work.",
+    "translation": "",
+    "pos": 1670
+  },
+  {
+    "passage": "Maths Project Work",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "85_5_3_7|",
+    "original": "You listen to the sounds of the bustling town outside as you work.",
+    "translation": "",
+    "pos": 1773
+  },
+  {
+    "passage": "Maths Project Work",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "87_5_3_7|",
+    "original": "You work, though your concentration is often broken by the sound of the other residents of the orphanage arriving home from school.",
+    "translation": "",
+    "pos": 1890
+  },
+  {
+    "passage": "Maths Project Work",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "89_5_3_7|",
+    "original": "The orphanage grows noisy as its residents arrive home.",
+    "translation": "",
+    "pos": 2053
+  },
+  {
+    "passage": "Maths Project Work",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "91_5_3_7|",
+    "original": "The orphanage is alive with shouting and footsteps as the afternoon fades into the evening.",
+    "translation": "",
+    "pos": 2140
+  },
+  {
+    "passage": "Maths Project Work",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "93_5_3_7|",
+    "original": "The orphanage grows quiet as the residents wind down for the night.",
+    "translation": "",
+    "pos": 2263
+  },
+  {
+    "passage": "Maths Project Work",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "95_5_3_7|",
+    "original": "The sky grows dark as you work. The sun dips below the horizon.",
+    "translation": "",
+    "pos": 2362
+  },
+  {
+    "passage": "Maths Project Work",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "97_5_3_7|",
+    "original": "The orphanage is quiet at this hour, but you're still startled out of your work by the occasional sound of footsteps past your door.",
+    "translation": "",
+    "pos": 2457
+  },
+  {
+    "passage": "Maths Project Work",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "99_5_3_7|",
+    "original": "The orphanage is dead silent as you work.",
+    "translation": "",
+    "pos": 2621
+  },
+  {
+    "passage": "Maths Project Work",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "101_5_3_7|",
+    "original": "You watch the clock as you work, continuing through midnight and into the next day.",
+    "translation": "",
+    "pos": 2675
+  },
+  {
+    "passage": "Maths Project Work",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "106_5_3_7|",
+    "original": "You work through the night, occasionally ducking below the desk to avoid security.",
+    "translation": "",
+    "pos": 2828
+  },
+  {
+    "passage": "Maths Project Work",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "108_5_3_7|",
+    "original": "Morning light bleeds through the library windows as you work.",
+    "translation": "",
+    "pos": 2943
+  },
+  {
+    "passage": "Maths Project Work",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "110_5_3_7|",
+    "original": "Other students arrive as you work. Some work on their own projects.",
+    "translation": "",
+    "pos": 3037
+  },
+  {
+    "passage": "Maths Project Work",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "112_5_3_7|",
+    "original": "You may be skipping your lessons, but you aren't having much fun as you work.",
+    "translation": "",
+    "pos": 3138
+  },
+  {
+    "passage": "Maths Project Work",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "114_5_3_7|",
+    "original": "You work as the library fills with other students arriving to pursue their own solutions.",
+    "translation": "",
+    "pos": 3249
+  },
+  {
+    "passage": "Maths Project Work",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "116_5_3_7|",
+    "original": "You may be skipping your lessons, but you aren't having much fun as you work.",
+    "translation": "",
+    "pos": 3372
+  },
+  {
+    "passage": "Maths Project Work",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "118_5_3_7|",
+    "original": "You work as the library fills with other students staying late to pursue their own solutions.",
+    "translation": "",
+    "pos": 3483
+  },
+  {
+    "passage": "Maths Project Work",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "120_5_3_7|",
+    "original": "You listen to the sounds of the bustling town outside as you work.",
+    "translation": "",
+    "pos": 3610
+  },
+  {
+    "passage": "Maths Project Work",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "122_5_3_7|",
+    "original": "The remaining daylight dims as you work.",
+    "translation": "",
+    "pos": 3710
+  },
+  {
+    "passage": "Maths Project Work",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "124_5_3_7|",
+    "original": "You work through the night, occasionally ducking below the desk to avoid security.",
+    "translation": "",
+    "pos": 3765
+  },
+  {
+    "passage": "Maths Project Work",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "128_5_3_7|",
+    "original": "You work through the night, occasionally ducking below the desk to avoid security.",
+    "translation": "",
+    "pos": 3896
+  },
+  {
+    "passage": "Maths Project Work",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "130_5_3_7|",
+    "original": "Morning light bleeds through the library windows as you work.",
+    "translation": "",
+    "pos": 4011
+  },
+  {
+    "passage": "Maths Project Work",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "132_5_3_7|",
+    "original": "Morning light bleeds through the library windows as you work.",
+    "translation": "",
+    "pos": 4105
+  },
+  {
+    "passage": "Maths Project Work",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "134_5_3_7|",
+    "original": "You listen to the sounds of the bustling town outside as you work.",
+    "translation": "",
+    "pos": 4200
+  },
+  {
+    "passage": "Maths Project Work",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "136_5_3_7|",
+    "original": "You listen to the sounds of the bustling town outside as you work.",
+    "translation": "",
+    "pos": 4300
+  },
+  {
+    "passage": "Maths Project Work",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "138_5_3_7|",
+    "original": "You listen to the sounds of the bustling town outside as you work.",
+    "translation": "",
+    "pos": 4400
+  },
+  {
+    "passage": "Maths Project Work",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "140_5_3_7|",
+    "original": "You listen to the sounds of the bustling town outside as you work.",
+    "translation": "",
+    "pos": 4500
+  },
+  {
+    "passage": "Maths Project Work",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "142_5_3_7|",
+    "original": "You listen to the sounds of the bustling town outside as you work.",
+    "translation": "",
+    "pos": 4600
+  },
+  {
+    "passage": "Maths Project Work",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "144_5_3_7|",
+    "original": "The remaining daylight dims as you work.",
+    "translation": "",
+    "pos": 4700
+  },
+  {
+    "passage": "Maths Project Work",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "146_5_3_7|",
+    "original": "You work through the night, occasionally ducking below the desk to avoid security.",
+    "translation": "",
+    "pos": 4755
+  },
+  {
+    "passage": "Maths Project Work",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "152_5_3_7|",
+    "original": "<<link [[Next|Maths Project]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 4909
+  },
+  {
+    "passage": "Maths Project Work",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "155_5_3_7|",
+    "original": "You glance at the time. You suddenly realise that <span class=\"red\">the maths competition has already ended.</span>",
+    "translation": "",
+    "pos": 4980
+  },
+  {
+    "passage": "Maths Project Work",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "157_5_3_7|",
+    "original": "It would be silly to continue your work at this point. You dump the now obsolete project in a bin, feeling somewhat bitter over the wasted effort.",
+    "translation": "",
+    "pos": 5107
+  },
+  {
+    "passage": "Maths Project Work",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "161_5_3_7|",
+    "original": "<<link [[Next|Bedroom]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 5295
+  },
+  {
+    "passage": "Maths Project Work",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "163_5_3_7|",
+    "original": "<<link [[Next|School Library]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 5356
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "171_5_3_7|",
+    "original": "You take the stimulant, sit down, and get to work.",
+    "translation": "",
+    "pos": 36
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "174_5_3_7|",
+    "original": "Between the drugs and your <span class=\"green\">comfortable</span> chair, it's easier than ever to concentrate on the project.",
+    "translation": "",
+    "pos": 190
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "176_5_3_7|",
+    "original": "Your focus is heightened, but the minor aches and pains from your <span class=\"red\">uncomfortable</span> chair makes the stimulant marginally less effective.",
+    "translation": "",
+    "pos": 326
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "179_5_3_7|",
+    "original": "The maths is completely new to you, but with the stimulant sharpening your mind, you figure out the basics.",
+    "translation": "",
+    "pos": 519
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "181_5_3_7|",
+    "original": "With the help of the stimulant, you can see all the steps you'll need to complete the project.",
+    "translation": "",
+    "pos": 659
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "183_5_3_7|",
+    "original": "The groundwork of the project has been laid, and now you're ready to fill in the rest.",
+    "translation": "",
+    "pos": 786
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "185_5_3_7|",
+    "original": "Although your project is satisfactory, you can see plenty more to improve.",
+    "translation": "",
+    "pos": 905
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "187_5_3_7|",
+    "original": "At this point, all that's left is to polish out the little flaws until the project is perfect.",
+    "translation": "",
+    "pos": 990
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "191_5_3_7|",
+    "original": "Time speeds by, and you're late to notice that midnight has passed and the next day has begun.",
+    "translation": "",
+    "pos": 1146
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "193_5_3_7|",
+    "original": "The orphanage is silent.",
+    "translation": "",
+    "pos": 1271
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "195_5_3_7|",
+    "original": "You're so focused on your work that the sun catches you by surprise when it rises above the horizon.",
+    "translation": "",
+    "pos": 1326
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "197_5_3_7|",
+    "original": "Your focus on your work is unbreakable, even by Bailey hammering on the door to wake you for school.",
+    "translation": "",
+    "pos": 1476
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "199_5_3_7|",
+    "original": "You can hear the other residents of the orphanage waking up and leaving for the day, but it's easy to ignore them.",
+    "translation": "",
+    "pos": 1607
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "201_5_3_7|",
+    "original": "You may be skipping school, but you're still learning a lot as you work.",
+    "translation": "",
+    "pos": 1772
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "203_5_3_7|",
+    "original": "The day flies by as you work.",
+    "translation": "",
+    "pos": 1876
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "205_5_3_7|",
+    "original": "You hear the other residents of the orphanage arriving home from school, but it doesn't break your concentration.",
+    "translation": "",
+    "pos": 1956
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "207_5_3_7|",
+    "original": "You're aware of the other residents of the orphanage arriving home for the evening, but you keep working regardless.",
+    "translation": "",
+    "pos": 2101
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "209_5_3_7|",
+    "original": "You have no trouble shutting out the sounds of the orphanage's activity as the afternoon fades into evening.",
+    "translation": "",
+    "pos": 2249
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "211_5_3_7|",
+    "original": "The sounds of the orphanage grow quiet as the other residents wind down for the night, but you're still working as quickly as ever.",
+    "translation": "",
+    "pos": 2389
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "213_5_3_7|",
+    "original": "You're so focused on your work that the sun catches you by surprise when it dips below the horizon.",
+    "translation": "",
+    "pos": 2552
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "215_5_3_7|",
+    "original": "The orphanage is silent at this hour. You focus on your work.",
+    "translation": "",
+    "pos": 2664
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "220_5_3_7|",
+    "original": "You work through the night. The occasional need to duck below your desk to avoid security does nothing to break your concentration.",
+    "translation": "",
+    "pos": 2795
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "222_5_3_7|",
+    "original": "You barely notice the morning light creeping through the library windows as you work.",
+    "translation": "",
+    "pos": 2959
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "224_5_3_7|",
+    "original": "Other students arrive as you work. You ignore them.",
+    "translation": "",
+    "pos": 3077
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "226_5_3_7|",
+    "original": "You may be skipping school, but you're still learning a lot as you work.",
+    "translation": "",
+    "pos": 3162
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "228_5_3_7|",
+    "original": "You work as the library fills with other students arriving to pursue their own solutions. You find it easy to ignore them.",
+    "translation": "",
+    "pos": 3268
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "230_5_3_7|",
+    "original": "You may be skipping school, but you're still learning a lot as you work.",
+    "translation": "",
+    "pos": 3424
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "232_5_3_7|",
+    "original": "You are not distracted by the other students staying late to pursue their own solutions.",
+    "translation": "",
+    "pos": 3530
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "234_5_3_7|",
+    "original": "The day flies by as you work.",
+    "translation": "",
+    "pos": 3652
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "236_5_3_7|",
+    "original": "You barely notice the sky darkening as you work.",
+    "translation": "",
+    "pos": 3715
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "238_5_3_7|",
+    "original": "You work through the night. The occasional need to duck below your desk to avoid security does nothing to break your concentration.",
+    "translation": "",
+    "pos": 3778
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "242_5_3_7|",
+    "original": "You work through the night. The occasional need to duck below your desk to avoid security does nothing to break your concentration.",
+    "translation": "",
+    "pos": 3958
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "244_5_3_7|",
+    "original": "You barely notice the morning light creeping through the library windows as you work.",
+    "translation": "",
+    "pos": 4122
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "246_5_3_7|",
+    "original": "You barely notice the morning light creeping through the library windows as you work.",
+    "translation": "",
+    "pos": 4240
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "248_5_3_7|",
+    "original": "The day flies by as you work.",
+    "translation": "",
+    "pos": 4359
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "250_5_3_7|",
+    "original": "The day flies by as you work.",
+    "translation": "",
+    "pos": 4422
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "252_5_3_7|",
+    "original": "The day flies by as you work.",
+    "translation": "",
+    "pos": 4485
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "254_5_3_7|",
+    "original": "The day flies by as you work.",
+    "translation": "",
+    "pos": 4548
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "256_5_3_7|",
+    "original": "The day flies by as you work.",
+    "translation": "",
+    "pos": 4611
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "258_5_3_7|",
+    "original": "You barely notice the dimming light outside the library windows as you work.",
+    "translation": "",
+    "pos": 4674
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "260_5_3_7|",
+    "original": "You work through the night. The occasional need to duck below your desk to avoid security does nothing to break your concentration.",
+    "translation": "",
+    "pos": 4765
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "266_5_3_7|",
+    "original": "You sit back and admire your work. You feel a strange heat just beneath your skin. It grows and spreads through your body, concentrated on your loins. Lewd fantasies force themselves into your mind. Within moments, your cheeks are flushed and you find yourself squirming with desire. That dose must have been contaminated by a concentrated aphrodisiac.",
+    "translation": "",
+    "pos": 5001
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "269_5_3_7|",
+    "original": "Your hands wander between your legs in an instinctive attempt to satisfy your burning desire. But the stimulation from touching yourself is too strong to bear. The pleasure shoots through you, painfully intense. Your hands recoil, and your whole body convulses as your vision whites out. The aftershocks leave you trembling. There's no way you'll be able to use your hands to comfort yourself.",
+    "translation": "",
+    "pos": 5411
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "271_5_3_7|",
+    "original": "You consider leaving your room for some fresh air. But your mind is so overwhelmed by desire. You can only imagine what will happen when someone finds you in your defenceless state. And the alternative, staying here and trying to endure the arousal until it fades, feels like it might be even worse.",
+    "translation": "",
+    "pos": 5816
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "274_5_3_7|",
+    "original": "<<link [[Endure (4:00)|Maths Project Endure Home]]>><<handheldon>><<pass 240>><<stress 24>><</link>><<ggstress>>",
+    "translation": "",
+    "pos": 6156
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "276_5_3_7|",
+    "original": "<<link [[Go outside|Maths Project Outside Home]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 6278
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "279_5_3_7|",
+    "original": "<<link [[Endure (4:00)|Maths Project Endure Library]]>><<handheldon>><<pass 240>><<stress 24>><</link>>",
+    "translation": "",
+    "pos": 6371
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "281_5_3_7|",
+    "original": "<<link [[Go outside|Maths Project Outside Library]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 6484
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "285_5_3_7|",
+    "original": "You sit back and admire your work, but something is wrong. The objects in <<if $location is \"home\">>your room<<else>>the library<</if>> begin to shift and warp, becoming covered in strange patterns. You lose your sense of balance and find yourself wobbling. You almost fall over. That dose must have been contaminated with a concentrated hallucinogen. The knowledge does nothing to make the experience less real.",
+    "translation": "",
+    "pos": 6649
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "288_5_3_7|",
+    "original": "<<if $location is \"home\">>You try to lie down, but before you can make it to your bed<<else>>You decide to go for a walk to clear your head, but the moment you rise from your chair,<</if>> your surroundings become twisted and unfamiliar. Dark, threatening shapes shift around you as you stumble forward in search of something familiar to cling to. Grotesque creatures with giant eyes and countless thrashing tongues watch you from afar, gibbering in guttural sounds that echo across the landscape. The floor begins to liquefy, and you struggle to move through it as you sink to your ankles, then your knees, then your waist. Finally, it gives way all at once and you find yourself falling, tumbling end-over-end through a black void.",
+    "translation": "",
+    "pos": 7095
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "295_5_3_7|",
+    "original": "<<link [[Next|Maths Project Void]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 7950
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "300_5_3_7|",
+    "original": "You sit back and admire your work. You feel a strange heat just beneath your skin. Your vision blurs, and everything fades to black.",
+    "translation": "",
+    "pos": 8232
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "303_5_3_7|",
+    "original": "You awaken to someone shaking your arm. You're still in your room, lying on your bed. Robin sits beside you, frowning.",
+    "translation": "",
+    "pos": 8440
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "305_5_3_7|",
+    "original": "\"You were lying on the floor outside,\" <<he>> says. <<He>> sounds concerned. \"Are you okay?\"",
+    "translation": "",
+    "pos": 8570
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "308_5_3_7|",
+    "original": "That strange heat hasn't left your body. Robin is so close.",
+    "translation": "",
+    "pos": 8702
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "310_5_3_7|",
+    "original": "<<link [[Pull Robin on top of you|Maths Project Robin Sex]]>><<handheldon>><<set $sexstart to 1>><</link>><<promiscuous1>>",
+    "translation": "",
+    "pos": 8775
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "313_5_3_7|",
+    "original": "<<link [[Say you're fine|Maths Project Robin]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 8915
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "316_5_3_7|",
+    "original": "You sit back and admire your work. You feel a strange heat just beneath your skin.",
+    "translation": "",
+    "pos": 9003
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "320_5_3_7|",
+    "original": "<<link [[Next|Maths Project]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 9197
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "323_5_3_7|",
+    "original": "You glance at the time. You suddenly realise that <span class=\"red\">the maths competition has already ended.</span>",
+    "translation": "",
+    "pos": 9271
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "325_5_3_7|",
+    "original": "It would be silly to continue your work at this point. You dump the now obsolete project in a bin, feeling somewhat bitter over the wasted effort.",
+    "translation": "",
+    "pos": 9400
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "329_5_3_7|",
+    "original": "<<link [[Next|Bedroom]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 9591
+  },
+  {
+    "passage": "Maths Project Stim",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "331_5_3_7|",
+    "original": "<<link [[Next|School Library]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 9654
+  },
+  {
+    "passage": "Maths Project Robin",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "340_5_3_7|",
+    "original": "You tell Robin you're fine, and thank <<him>> for bringing you to your bed. <<He>> doesn't look relieved, but <<he>> nods and stands up. <<He>> turns as <<he>> reaches the door. \"Make sure you go to a doctor if you're feeling ill,\" <<he>> says. \"I'll go with you if you like.\"",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Maths Project Robin",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "342_5_3_7|",
+    "original": "<<link [[Next|Bedroom]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 299
+  },
+  {
+    "passage": "Maths Project Robin Sex",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "366_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Maths Project Robin Sex Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 304
+  },
+  {
+    "passage": "Maths Project Robin Sex",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "368_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Maths Project Robin Sex]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 407
+  },
+  {
+    "passage": "Maths Project Robin Sex Finish",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "376_5_3_7|",
+    "original": "Robin clings to you and smiles.",
+    "translation": "",
+    "pos": 120
+  },
+  {
+    "passage": "Maths Project Robin Sex Finish",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "378_5_3_7|",
+    "original": "\"Ow!\" Robin says. <<Hes>> still smiling.",
+    "translation": "",
+    "pos": 183
+  },
+  {
+    "passage": "Maths Project Robin Sex Finish",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "380_5_3_7|",
+    "original": "Robin clings to you and smiles.",
+    "translation": "",
+    "pos": 249
+  },
+  {
+    "passage": "Maths Project Robin Sex Finish",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "383_5_3_7|",
+    "original": "\"Thank you for looking out for me,\" you say. You kiss <<his>> forehead and <<he>> nuzzles your neck. You lie together for a few moments, until <<he>> climbs to <<his>> feet.",
+    "translation": "",
+    "pos": 298
+  },
+  {
+    "passage": "Maths Project Robin Sex Finish",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "385_5_3_7|",
+    "original": "<<He>> turns as <<he>> reaches the door. \"I'm glad you're okay, but make sure you go to a doctor if you're feeling ill,\" <<he>> says. \"I'll go with you if you like.\"",
+    "translation": "",
+    "pos": 481
+  },
+  {
+    "passage": "Maths Project Robin Sex Finish",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "389_5_3_7|",
+    "original": "<<link [[Next|Bedroom]]>><</link>>",
+    "translation": "",
+    "pos": 684
+  },
+  {
+    "passage": "Maths Project Void",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "396_5_3_7|",
+    "original": "The fall abruptly ends as you land against a cold brick wall. You recognise the sky and the surrounding buildings, though they still don't seem quite right. You've somehow ended up outside<<if $exposed gte 1>> - and without getting dressed first!<<else>>.<</if>>",
+    "translation": "",
+    "pos": 38
+  },
+  {
+    "passage": "Maths Project Void",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "398_5_3_7|",
+    "original": "As you try and fail to balance yourself, a <<person>> rounds the corner and notices the difficulty you're having.",
+    "translation": "",
+    "pos": 310
+  },
+  {
+    "passage": "Maths Project Void",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "400_5_3_7|",
+    "original": "\"Poor thing. Here, let me help you walk home.\"",
+    "translation": "",
+    "pos": 433
+  },
+  {
+    "passage": "Maths Project Void",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "402_5_3_7|",
+    "original": "You can't find the words to protest as <<he>> takes you by the shoulder and guides you into a nearby alley. The sounds of the city fade as you arrive at a secluded dead end. Then, <<he>> shoves you against the wall. Your lucidity returns as the <<person>> bears down on you.",
+    "translation": "",
+    "pos": 489
+  },
+  {
+    "passage": "Maths Project Void",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "404_5_3_7|",
+    "original": "<<link [[Next|Maths Project Void Rape]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 773
+  },
+  {
+    "passage": "Maths Project Void Rape",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "426_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Maths Project Void Rape Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 239
+  },
+  {
+    "passage": "Maths Project Void Rape",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "428_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Maths Project Void Rape]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 342
+  },
+  {
+    "passage": "Maths Project Void Rape Finish",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "436_5_3_7|",
+    "original": "<<He>> dumps you on the floor and glances around, before leaving without a word.",
+    "translation": "",
+    "pos": 73
+  },
+  {
+    "passage": "Maths Project Void Rape Finish",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "438_5_3_7|",
+    "original": "<<tearful>> you try to stagger to your feet. You slip back to the ground.",
+    "translation": "",
+    "pos": 165
+  },
+  {
+    "passage": "Maths Project Void Rape Finish",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "440_5_3_7|",
+    "original": "You manage to shove <<him>> against the alley wall and stagger into the open.",
+    "translation": "",
+    "pos": 249
+  },
+  {
+    "passage": "Maths Project Void Rape Finish",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "442_5_3_7|",
+    "original": "<<tearful>> you lean against a street light, but lose your balance and tumble to the ground.",
+    "translation": "",
+    "pos": 338
+  },
+  {
+    "passage": "Maths Project Void Rape Finish",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "447_5_3_7|",
+    "original": "<<generate1>><<person1>>A <<person>> wearing a white coat crouches in front of you. You didn't see <<him>> coming. <<He>> holds a cotton bud in one hand. <<He>> grasps your cheeks with the other, forcing your mouth open. <<He>> pushes the bud into your mouth, and rubs it against the inside of your cheek. <<He>> drops the bud into a small bag, which <<he>> seals shut. <<He>> leaves without a word.",
+    "translation": "",
+    "pos": 476
+  },
+  {
+    "passage": "Maths Project Void Rape Finish",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "450_5_3_7|",
+    "original": "You stagger once more to your feet. You remain stood this time. The world is returning to normal. Mostly.",
+    "translation": "",
+    "pos": 898
+  },
+  {
+    "passage": "Maths Project Endure Home",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "458_5_3_7|",
+    "original": "You lie down on your bed and hope you can endure the experience. Doing anything productive right now is out of the question. It's a struggle to even think straight, but you do your best to distract yourself by counting things. It's going well until you glance at the clock and realise only a couple of minutes have passed.",
+    "translation": "",
+    "pos": 14
+  },
+  {
+    "passage": "Maths Project Endure Home",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "461_5_3_7|",
+    "original": "Your muscles ache from the tension by the time the aches fade. You realise that your teeth have been clenched too. You're still aroused and frustrated. At least you can think straight again.",
+    "translation": "",
+    "pos": 347
+  },
+  {
+    "passage": "Maths Project Endure Home",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "464_5_3_7|",
+    "original": "<<link [[Next|Bedroom]]>><</link>>",
+    "translation": "",
+    "pos": 548
+  },
+  {
+    "passage": "Maths Project Endure Library",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "470_5_3_7|",
+    "original": "You lean back in your chair and hope you can endure the experience. Doing anything productive right now is out of the question. It's a struggle to even think straight, but you do your best to distract yourself by counting things. It's going well until you glance at the clock and realise only a couple of minutes have passed.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Maths Project Endure Library",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "473_5_3_7|",
+    "original": "By the time the drug's effects begin to fade your muscles ache from the tension. You realise that your teeth have been clenched too. You're still aroused and frustrated. At least you can think straight again.",
+    "translation": "",
+    "pos": 349
+  },
+  {
+    "passage": "Maths Project Endure Library",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "476_5_3_7|",
+    "original": "<<link [[Next|School Library]]>><</link>>",
+    "translation": "",
+    "pos": 568
+  },
+  {
+    "passage": "Maths Project Outside Home",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "483_5_3_7|",
+    "original": "You stumble outside, leaning against a wall for support. <<if $exposed gte 1>>The air is cold against your skin. You were in such a hurry that you didn't even get dressed, but you're past the point of caring. If it means that someone notices you sooner, all the better.<<else>>The stimulation of your clothes brushing against your <<genitals_are 1>> almost too much to bear, forcing you to stop every few steps as you convulse with pleasure.<</if>> At first, no one else notices, until a <<person>> walking on the same side of the street spots you and casts a leer up and down your body. You try to speak to <<him>>.",
+    "translation": "",
+    "pos": 67
+  },
+  {
+    "passage": "Maths Project Outside Home",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "485_5_3_7|",
+    "original": "\"P-please...\"",
+    "translation": "",
+    "pos": 693
+  },
+  {
+    "passage": "Maths Project Outside Home",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "487_5_3_7|",
+    "original": "<<He>> doesn't wait for clarification. After glancing around to make sure no one is watching, <<he>> grabs your arm and pulls you down an alleyway. Your reflexive scream of protest comes out as a lewd moan.",
+    "translation": "",
+    "pos": 716
+  },
+  {
+    "passage": "Maths Project Outside Home",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "489_5_3_7|",
+    "original": "<<His>> hand explores between your legs, and the pleasure overwhelms you once more. But this time the spasms don't stop the stimulation. You can only thrash helplessly as <<his>> fingers continue their work.",
+    "translation": "",
+    "pos": 932
+  },
+  {
+    "passage": "Maths Project Outside Home",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "491_5_3_7|",
+    "original": "\"You're a naughty one, aren't you?\" <<he>> says. \"Don't worry. I know just what you need.\"",
+    "translation": "",
+    "pos": 1149
+  },
+  {
+    "passage": "Maths Project Outside Home",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "493_5_3_7|",
+    "original": "<<link [[Next|Maths Project Outside Rape]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 1249
+  },
+  {
+    "passage": "Maths Project Outside Library",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "500_5_3_7|",
+    "original": "You stumble from the library, through the corridors, and outside. <<if Time.schoolDay and Time.hour gte 8 and Time.hour lte 17>>You leave through the front gate, leaning against a wall for support. <<else>>You haul yourself over the fence, then lean against the wall for support.<</if>> <<if $exposed gte 1>>The air is cold against your skin. Your <<lewdness>> is exposed, but you're past the point of caring. If it means that someone notices you sooner, all the better.<<else>>The stimulation of your clothes brushing against your <<genitals_are 1>> almost too much to bear, forcing you to stop every few steps as you convulse with pleasure.<</if>> At first, no one else notices, until a <<person>> walking on the same side of the street spots you and casts a leer up and down your body. You try to speak to <<him>>.",
+    "translation": "",
+    "pos": 66
+  },
+  {
+    "passage": "Maths Project Outside Library",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "503_5_3_7|",
+    "original": "\"P-please...\"",
+    "translation": "",
+    "pos": 894
+  },
+  {
+    "passage": "Maths Project Outside Library",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "506_5_3_7|",
+    "original": "<<He>> doesn't wait for clarification. After glancing around to make sure no one is watching, <<he>> grabs you and pulls you down an alleyway. Your reflexive scream of protest comes out as a lewd moan.",
+    "translation": "",
+    "pos": 918
+  },
+  {
+    "passage": "Maths Project Outside Library",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "509_5_3_7|",
+    "original": "<<His>> hand explores between your legs, and the pleasure overwhelms you once more. But this time the spasms don't stop the stimulation. You can only thrash helplessly as <<his>> fingers continue their work.",
+    "translation": "",
+    "pos": 1130
+  },
+  {
+    "passage": "Maths Project Outside Library",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "512_5_3_7|",
+    "original": "\"You're a naughty one, aren't you?\" <<he>> says. \"Don't worry. I know just what you need.\"",
+    "translation": "",
+    "pos": 1348
+  },
+  {
+    "passage": "Maths Project Outside Library",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "515_5_3_7|",
+    "original": "<<link [[Next|Maths Project Outside Rape]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 1449
+  },
+  {
+    "passage": "Maths Project Outside Rape",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "536_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Maths Project Outside Rape Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 238
+  },
+  {
+    "passage": "Maths Project Outside Rape",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "538_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Maths Project Outside Rape]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 344
+  },
+  {
+    "passage": "Maths Project Outside Rape Finish",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "546_5_3_7|",
+    "original": "<<He>> dumps you on the floor and glances around before leaving without a word.",
+    "translation": "",
+    "pos": 73
+  },
+  {
+    "passage": "Maths Project Outside Rape Finish",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "549_5_3_7|",
+    "original": "<<tearful>> you stagger to your feet.",
+    "translation": "",
+    "pos": 165
+  },
+  {
+    "passage": "Maths Project Outside Rape Finish",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "552_5_3_7|",
+    "original": "You manage to shove <<him>> against the alley wall and stagger into the open.",
+    "translation": "",
+    "pos": 214
+  },
+  {
+    "passage": "Maths Project Outside Rape Finish",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "555_5_3_7|",
+    "original": "<<tearful>> you lean against a street light.",
+    "translation": "",
+    "pos": 304
+  },
+  {
+    "passage": "Maths Project Outside Rape Finish",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "557_5_3_7|",
+    "original": "You still feel sensitive and frustrated, but your thoughts have cleared somewhat.",
+    "translation": "",
+    "pos": 357
+  },
+  {
+    "passage": "Stim Dealer",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "568_5_3_7|",
+    "original": "<<generate1>><<person1>>You approach the figure lurking in the shadows. Now closer, you can see a <<person>> hiding behind the heavy coat.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Stim Dealer",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "571_5_3_7|",
+    "original": "<<link [[Ask to buy stimulant|Stim Dealer Buy]]>><</link>>",
+    "translation": "",
+    "pos": 162
+  },
+  {
+    "passage": "Stim Dealer",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "582_5_3_7|",
+    "original": "<<link [[Steal stimulant|Stim Dealer Steal]]>><</link>><<skulduggerydifficulty>>",
+    "translation": "",
+    "pos": 496
+  },
+  {
+    "passage": "Stim Dealer",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "585_5_3_7|",
+    "original": "<<link [[Get caught stealing on purpose|Stim Dealer Steal]]>><<set $skulduggerydifficulty to 10000>><<trauma -60>><</link>><<dangerousText>><<llltrauma>>",
+    "translation": "",
+    "pos": 614
+  },
+  {
+    "passage": "Stim Dealer",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "588_5_3_7|",
+    "original": "<<link [[Walk away|Oxford Street]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 783
+  },
+  {
+    "passage": "Stim Dealer Buy",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "594_5_3_7|",
+    "original": "The <<person>> looks at you with a wry smile.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Stim Dealer Buy",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "598_5_3_7|",
+    "original": "\"You here for a study aid?\" <<he>> asks. \"£500 for a dose. It'll help, trust me.\"",
+    "translation": "",
+    "pos": 99
+  },
+  {
+    "passage": "Stim Dealer Buy",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "602_5_3_7|",
+    "original": "<<link [[Buy|Stim Dealer Buy 2]]>><<set $mathsstimbought += 1>><<set $mathsstim += 1>><<money -50000 \"schoolStimulant\">><</link>>",
+    "translation": "",
+    "pos": 219
+  },
+  {
+    "passage": "Stim Dealer Buy",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "606_5_3_7|",
+    "original": "\"I'm afraid supplies are running low,\" <<he>> says. \"£2000 per dose.\"",
+    "translation": "",
+    "pos": 399
+  },
+  {
+    "passage": "Stim Dealer Buy",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "610_5_3_7|",
+    "original": "<<link [[Buy|Stim Dealer Buy 2]]>><<set $mathsstimbought += 1>><<set $mathsstim += 1>><<money -200000 \"schoolStimulant\">><</link>>",
+    "translation": "",
+    "pos": 508
+  },
+  {
+    "passage": "Stim Dealer Buy",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "614_5_3_7|",
+    "original": "\"Supplies are scarce,\" <<he>> says. \"Very scarce. £5000 per dose. Don't try to negotiate. There are plenty of rich brats looking to impress mummy and daddy.\"",
+    "translation": "",
+    "pos": 665
+  },
+  {
+    "passage": "Stim Dealer Buy",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "618_5_3_7|",
+    "original": "<<link [[Buy|Stim Dealer Buy 2]]>><<set $mathsstimbought += 1>><<set $mathsstim += 1>><<money -500000 \"schoolStimulant\">><</link>>",
+    "translation": "",
+    "pos": 862
+  },
+  {
+    "passage": "Stim Dealer Buy",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "623_5_3_7|",
+    "original": "<<link [[Walk away|Oxford Street]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1018
+  },
+  {
+    "passage": "Stim Dealer Buy 2",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "629_5_3_7|",
+    "original": "You exchange your money for a small bag of bright coloured pills. \"One dose,\" the <<person>> says. <<He>> turns and walks deeper into the alley, then disappears around a corner.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Stim Dealer Buy 2",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "632_5_3_7|",
+    "original": "<<link [[Next|Oxford Street]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 201
+  },
+  {
+    "passage": "Stim Dealer Steal",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "639_5_3_7|",
+    "original": "You wait for a group of students to approach the dealer, then slip in among them in order to get close. The other students give you a few confused glances, but the dealer is too distracted to notice you're not one of them. While they're doing business together you slip a hand into the dealer's coat.",
+    "translation": "",
+    "pos": 46
+  },
+  {
+    "passage": "Stim Dealer Steal",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "644_5_3_7|",
+    "original": "You grasp a bag of pills, holding your breath as it crinkles softly between your fingers. The dealer remains oblivious. You stick around just long enough to avoid arousing any suspicion with too hasty a departure, then slip away into another passing crowd, your stolen drugs safely tucked away.",
+    "translation": "",
+    "pos": 467
+  },
+  {
+    "passage": "Stim Dealer Steal",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "647_5_3_7|",
+    "original": "The dealer glances at you, then shoves you away. The other students are confused, but the dealer's eyes remain locked on yours, narrowed above a nasty smirk.",
+    "translation": "",
+    "pos": 806
+  },
+  {
+    "passage": "Stim Dealer Steal",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "650_5_3_7|",
+    "original": "\"You just made a big mistake,\" <<he>> says. <<He>> looks at the other students. \"The rest of you listen up. First person to make <<phim>> scream gets a freebie. Hurry, before I change my mind.\"",
+    "translation": "",
+    "pos": 978
+  },
+  {
+    "passage": "Stim Dealer Steal",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "653_5_3_7|",
+    "original": "The other students turn towards you, weighing their options. They hesitate just long enough for you to break into a run and make your escape, but you're certain that this isn't the end of it. The dealers around here will be looking out for you from now on.",
+    "translation": "",
+    "pos": 1186
+  },
+  {
+    "passage": "Stim Dealer Steal",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "660_5_3_7|",
+    "original": "<<link [[Next|Oxford Street]]>><</link>>",
+    "translation": "",
+    "pos": 1499
+  },
+  {
+    "passage": "Stim Dealer Steal",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "663_5_3_7|",
+    "original": "The dealers are on the lookout for you now, so you have to be more careful. You wait for a student to approach the dealer, and watch from a distance. As the dealer leaves, you follow behind. The next time the dealer turns into an alleyway, you hurry after and prepare to make your move.",
+    "translation": "",
+    "pos": 1556
+  },
+  {
+    "passage": "Stim Dealer Steal",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "668_5_3_7|",
+    "original": "You reach into the dealer's coat and grab a bag of pills. Then, you run. You don't stop to check if you were noticed. Any hesitation could go very badly.",
+    "translation": "",
+    "pos": 1963
+  },
+  {
+    "passage": "Stim Dealer Steal",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "674_5_3_7|",
+    "original": "<<link [[Next|Oxford Street]]>><</link>>",
+    "translation": "",
+    "pos": 2168
+  },
+  {
+    "passage": "Stim Dealer Steal",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "678_5_3_7|",
+    "original": "But as soon as you turn the corner you skid to a stop. The dealer is there, facing you, stood shoulder-to-shoulder with hired muscle. You turn to flee, but the way back is blocked by more rough-looking people.",
+    "translation": "",
+    "pos": 2286
+  },
+  {
+    "passage": "Stim Dealer Steal",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "681_5_3_7|",
+    "original": "\"We've heard all about you,\" the dealer sneers. \"Time for a lesson.\"",
+    "translation": "",
+    "pos": 2510
+  },
+  {
+    "passage": "Stim Dealer Steal",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "684_5_3_7|",
+    "original": "The dealer's goons close in.",
+    "translation": "",
+    "pos": 2593
+  },
+  {
+    "passage": "Stim Dealer Steal",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "689_5_3_7|",
+    "original": "<<link [[Go quietly|Maths Abduction]]>><<set $phase to 0>><</link>>",
+    "translation": "",
+    "pos": 2658
+  },
+  {
+    "passage": "Stim Dealer Steal",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "691_5_3_7|",
+    "original": "<<link [[Scream|Maths Abduction]]>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 2735
+  },
+  {
+    "passage": "Stim Dealer Steal",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "694_5_3_7|",
+    "original": "<<link [[Beg|Maths Beg]]>><<sub 1>><</link>><<submissivetext>>",
+    "translation": "",
+    "pos": 2839
+  },
+  {
+    "passage": "Maths Beg",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "704_5_3_7|",
+    "original": "You drop to your knees and rest your forehead on the ground. \"P-please,\" you sob. \"Don't hurt me. I don't have any money and I really need it.\"",
+    "translation": "",
+    "pos": 69
+  },
+  {
+    "passage": "Maths Beg",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "707_5_3_7|",
+    "original": "The goons shift uncomfortably. \"<<pShes>> just a little thing,\" one of them says. \"<<pShe>> worth the fuss?\"",
+    "translation": "",
+    "pos": 225
+  },
+  {
+    "passage": "Maths Beg",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "710_5_3_7|",
+    "original": "\"Don't let us catch you again,\" the dealer says. \"Or all the crying in the world won't save you.\" They depart, leaving you alone in the alley.",
+    "translation": "",
+    "pos": 346
+  },
+  {
+    "passage": "Maths Beg",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "713_5_3_7|",
+    "original": "<<link [[Next|Oxford Street]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 501
+  },
+  {
+    "passage": "Maths Beg",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "716_5_3_7|",
+    "original": "You drop to your knees and rest your forehead on the ground. \"P-please,\" you sob. \"Don't hurt me. I don't have any money and I really need it.\"",
+    "translation": "",
+    "pos": 570
+  },
+  {
+    "passage": "Maths Beg",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "719_5_3_7|",
+    "original": "The dealer barks laughter. \"We're not falling for that,\" <<he>> says, nodding to <<his>> goons. You're grabbed from behind. Your <<bind>>arms are bound, and you are pushed down the alleyway until you come to a black car with an open boot. They shove you in, and slam it shut behind you.",
+    "translation": "",
+    "pos": 726
+  },
+  {
+    "passage": "Maths Beg",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "722_5_3_7|",
+    "original": "<<link [[Next|Maths Boot]]>><</link>>",
+    "translation": "",
+    "pos": 1025
+  },
+  {
+    "passage": "Maths Abduction",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "730_5_3_7|",
+    "original": "Your arms are bound<<print $worn.handheld.name isnot \"naked\" ? \"causing you to drop your $worn.handheld.name\" : \",\">> and you are pushed down the alleyway until you come to a black car with an open boot. They shove you in, and slam it shut behind you.",
+    "translation": "",
+    "pos": 33
+  },
+  {
+    "passage": "Maths Abduction",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "732_5_3_7|",
+    "original": "You scream. One of the goons steps forward and gags your mouth with <<his>> hand. Two more grasp your arms, and bind them behind your back. You are pushed down the alleyway until you come to a black car with an open boot. They shove you in, and slam it shut behind you.",
+    "translation": "",
+    "pos": 295
+  },
+  {
+    "passage": "Maths Abduction",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "736_5_3_7|",
+    "original": "<<link [[Next|Maths Boot]]>><</link>>",
+    "translation": "",
+    "pos": 591
+  },
+  {
+    "passage": "Maths Boot",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "742_5_3_7|",
+    "original": "You're bound in the darkness. The engine roars to life, and you feel the car move.",
+    "translation": "",
+    "pos": 34
+  },
+  {
+    "passage": "Maths Boot",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "745_5_3_7|",
+    "original": "<<link [[Wait (0:30)|Maths Boot Wait]]>><<pass 30>><<stress 6>><<trauma 6>><</link>><<gtrauma>><<gstress>>",
+    "translation": "",
+    "pos": 127
+  },
+  {
+    "passage": "Maths Boot",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "747_5_3_7|",
+    "original": "<<link [[Struggle (0:30)|Maths Boot Struggle]]>><<pass 30>><<tiredness 6>><<stress 18>><<trauma 6>><</link>><<gtrauma>><<ggstress>><<gtiredness>>",
+    "translation": "",
+    "pos": 239
+  },
+  {
+    "passage": "Maths Boot Wait",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "753_5_3_7|",
+    "original": "The sounds of the town diminish and disappear, but the journey continues. It's hard to judge how much time passes, locked away in darkness. The car comes to a stop, and the engine falls silent. You hear many voices. The <<person>> throws the boot open. <<Hes>> not alone. A gang of <<people>> stand beside <<him>>, watching you.",
+    "translation": "",
+    "pos": 40
+  },
+  {
+    "passage": "Maths Boot Wait",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "756_5_3_7|",
+    "original": "\"Nice.\"",
+    "translation": "",
+    "pos": 379
+  },
+  {
+    "passage": "Maths Boot Wait",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "758_5_3_7|",
+    "original": "\"<<pShe>> tried to steal from you? But <<pshe>> looks so sweet.\"",
+    "translation": "",
+    "pos": 392
+  },
+  {
+    "passage": "Maths Boot Wait",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "760_5_3_7|",
+    "original": "\"You're a lucky <<girl>>.\"",
+    "translation": "",
+    "pos": 462
+  },
+  {
+    "passage": "Maths Boot Wait",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "763_5_3_7|",
+    "original": "The <<person>> drags you from the boot. You get a glimpse of your surroundings before the <<people>> close in.",
+    "translation": "",
+    "pos": 499
+  },
+  {
+    "passage": "Maths Boot Wait",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "766_5_3_7|",
+    "original": "You see long grass and wild flowers in the light of a nearby building. It's too dark to make out anything more, but you're somewhere outside town.",
+    "translation": "",
+    "pos": 644
+  },
+  {
+    "passage": "Maths Boot Wait",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "768_5_3_7|",
+    "original": "You're on top of a hill, beside an old building. A rocky plain of grass and wild flowers stretches out in all directions. You're a long way from town.",
+    "translation": "",
+    "pos": 801
+  },
+  {
+    "passage": "Maths Boot Wait",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "772_5_3_7|",
+    "original": "The gang shove you towards the building, and through its doors.",
+    "translation": "",
+    "pos": 970
+  },
+  {
+    "passage": "Maths Boot Wait",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "776_5_3_7|",
+    "original": "They don't notice your arms are free.",
+    "translation": "",
+    "pos": 1102
+  },
+  {
+    "passage": "Maths Boot Wait",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "780_5_3_7|",
+    "original": "<<link [[Next|Maths Abduction 2]]>><</link>>",
+    "translation": "",
+    "pos": 1159
+  },
+  {
+    "passage": "Maths Boot Struggle",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "786_5_3_7|",
+    "original": "You struggle against the bindings wrapped tight around your arms. You're persistent. Something comes loose. You keep struggling until you can pull your arms free.",
+    "translation": "",
+    "pos": 40
+  },
+  {
+    "passage": "Maths Boot Struggle",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "789_5_3_7|",
+    "original": "<<unbind>>You feel the boot of the car, but can find no way to open it.",
+    "translation": "",
+    "pos": 213
+  },
+  {
+    "passage": "Maths Boot Struggle",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "792_5_3_7|",
+    "original": "<<link [[Wait|Maths Boot Wait]]>><</link>>",
+    "translation": "",
+    "pos": 295
+  },
+  {
+    "passage": "Maths Abduction 2",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "798_5_3_7|",
+    "original": "Inside is a table covered with cider cans and playing cards. As if a game were interrupted. They push you past it, and onto a bed next to a pile of stacked crates.",
+    "translation": "",
+    "pos": 40
+  },
+  {
+    "passage": "Maths Abduction 2",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "801_5_3_7|",
+    "original": "\"Three at a time,\" the <<person>> says \"There's enough <<girl>> for all of us. First though.\" <<He>> crouches, and pulls a pair of ankle cuffs out from beneath the bed. They snap shut around your legs. A short chain connects them.<<shackle_feet>>",
+    "translation": "",
+    "pos": 214
+  },
+  {
+    "passage": "Maths Abduction 2",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "804_5_3_7|",
+    "original": "<<He>> tugs the chain to make sure they're on firm, then climbs on top of you.",
+    "translation": "",
+    "pos": 471
+  },
+  {
+    "passage": "Maths Abduction 2",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "807_5_3_7|",
+    "original": "<<link [[Next|Maths Abduction Rape]]>><<set $molestationstart to 1>><<set $mathsab to 0>><</link>>",
+    "translation": "",
+    "pos": 560
+  },
+  {
+    "passage": "Maths Abduction Rape",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "820_5_3_7|",
+    "original": "\"<<pShes>> gonna pass out,\" you hear someone say. \"Give <<phim>> a dose.\" A hand yanks your head back by your hair, and another forces a pink pill into your mouth.",
+    "translation": "",
+    "pos": 160
+  },
+  {
+    "passage": "Maths Abduction Rape",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "828_5_3_7|",
+    "original": "<<alarmstate \"<span class='red'>No one comes to your aid.</span>\">>",
+    "translation": "",
+    "pos": 435
+  },
+  {
+    "passage": "Maths Abduction Rape",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "836_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Maths Abduction Rape Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 581
+  },
+  {
+    "passage": "Maths Abduction Rape",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "838_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Maths Abduction Rape]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 681
+  },
+  {
+    "passage": "Maths Abduction Rape Finish",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "846_5_3_7|",
+    "original": "<<tearful>> you prepare for more abuse.",
+    "translation": "",
+    "pos": 73
+  },
+  {
+    "passage": "Maths Abduction Rape Finish",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "850_5_3_7|",
+    "original": "\"I've got an idea,\" the <<person1>><<person>> says.",
+    "translation": "",
+    "pos": 148
+  },
+  {
+    "passage": "Maths Abduction Rape Finish",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "854_5_3_7|",
+    "original": "You shove them away from you, but your bound legs and the sheer number of <<group>> prevents escape.",
+    "translation": "",
+    "pos": 261
+  },
+  {
+    "passage": "Maths Abduction Rape Finish",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "857_5_3_7|",
+    "original": "You shove them away from you, but the sheer number of <<group>> prevents escape.",
+    "translation": "",
+    "pos": 385
+  },
+  {
+    "passage": "Maths Abduction Rape Finish",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "860_5_3_7|",
+    "original": "<<tearful>> you prepare for more abuse.",
+    "translation": "",
+    "pos": 487
+  },
+  {
+    "passage": "Maths Abduction Rape Finish",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "864_5_3_7|",
+    "original": "\"<<pShe>> has such spirit,\" the <<person1>><<person>> says. \"Can't wait to see <<phim>> broken.\"",
+    "translation": "",
+    "pos": 562
+  },
+  {
+    "passage": "Maths Abduction Rape Finish",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "870_5_3_7|",
+    "original": "<<He>> produces a knife, and slices through the material binding your arms.",
+    "translation": "",
+    "pos": 773
+  },
+  {
+    "passage": "Maths Abduction Rape Finish",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "873_5_3_7|",
+    "original": "\"Everyone get your phones ready,\" <<he>> says, sitting behind you. <<He>> grabs your arms. \"Smile, <<girl>>, if you know what's good for you.\"",
+    "translation": "",
+    "pos": 860
+  },
+  {
+    "passage": "Maths Abduction Rape Finish",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "878_5_3_7|",
+    "original": "<<link [[Smile and make peace signs with your fingers|Maths Abduction Smile]]>><<fameexhibitionism 50 \"pic\">><<trauma 6>><<stress -6>><</link>><<gtrauma>><<lstress>>",
+    "translation": "",
+    "pos": 1031
+  },
+  {
+    "passage": "Maths Abduction Rape Finish",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "880_5_3_7|",
+    "original": "<<link [[Frown and make \"fuck you\" signs with your fingers|Maths Abduction Frown]]>><<fameexhibitionism 50 \"pic\">><<trauma -6>><<stress 6>><</link>><<gstress>><<ltrauma>>",
+    "translation": "",
+    "pos": 1204
+  },
+  {
+    "passage": "Maths Abduction Rape Finish",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "882_5_3_7|",
+    "original": "<<link [[Cover your face|Maths Abduction Cover]]>><<trauma 6>><<stress 6>><<pain 6>><</link>><<gtrauma>><<gstress>><<gpain>>",
+    "translation": "",
+    "pos": 1382
+  },
+  {
+    "passage": "Maths Abduction Rape Finish",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "885_5_3_7|",
+    "original": "\"Someone put an ad up with one of those pictures,\" the <<person>> says. \"We might be able to get something for <<phim>>.\"",
+    "translation": "",
+    "pos": 1560
+  },
+  {
+    "passage": "Maths Abduction Rape Finish",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "891_5_3_7|",
+    "original": "Three more <<people>> climb on the bed, eager for their turn.",
+    "translation": "",
+    "pos": 1751
+  },
+  {
+    "passage": "Maths Abduction Rape Finish",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "894_5_3_7|",
+    "original": "<<link [[Next|Maths Abduction Rape]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 1825
+  },
+  {
+    "passage": "Maths Abduction Rape Finish",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "896_5_3_7|",
+    "original": "The <<person1>><<person>> checks <<his>> phone. \"We got someone interested already,\" <<he>> says. \"Let's make the most of <<phim>> while we can.\"",
+    "translation": "",
+    "pos": 1950
+  },
+  {
+    "passage": "Maths Abduction Rape Finish",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "902_5_3_7|",
+    "original": "Three more <<people>> climb on the bed, eager for their turn.",
+    "translation": "",
+    "pos": 2165
+  },
+  {
+    "passage": "Maths Abduction Rape Finish",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "905_5_3_7|",
+    "original": "<<link [[Next|Maths Abduction Rape]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 2239
+  },
+  {
+    "passage": "Maths Abduction Rape Finish",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "907_5_3_7|",
+    "original": "\"Do we have to sell <<phim>> off?\" the <<person1>><<person>> asks. \"We could keep <<phim>> chained up here. Not like anyone would find out.\"",
+    "translation": "",
+    "pos": 2364
+  },
+  {
+    "passage": "Maths Abduction Rape Finish",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "910_5_3_7|",
+    "original": "\"You'd get bored of <<phim>> within a week,\" the <<person>> responds, checking <<his>> phone. \"The buyer's already on their way. They sound like a nasty piece of work.\"",
+    "translation": "",
+    "pos": 2517
+  },
+  {
+    "passage": "Maths Abduction Rape Finish",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "916_5_3_7|",
+    "original": "Three more <<people>> climb on the bed, eager for their turn.",
+    "translation": "",
+    "pos": 2755
+  },
+  {
+    "passage": "Maths Abduction Rape Finish",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "919_5_3_7|",
+    "original": "<<link [[Next|Maths Abduction Rape]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 2829
+  },
+  {
+    "passage": "Maths Abduction Rape Finish",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "921_5_3_7|",
+    "original": "\"How about you pose for us again?\" the <<person>> says. \"Something for us to remember you by.\"",
+    "translation": "",
+    "pos": 2917
+  },
+  {
+    "passage": "Maths Abduction Rape Finish",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "926_5_3_7|",
+    "original": "<<link [[Smile and make peace signs with your fingers|Maths Abduction Smile 2]]>><<famerape 50 \"pic\">><<trauma 6>><<stress -6>><</link>><<gtrauma>><<lstress>>",
+    "translation": "",
+    "pos": 3040
+  },
+  {
+    "passage": "Maths Abduction Rape Finish",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "928_5_3_7|",
+    "original": "<<link [[Frown and make \"fuck you\" signs with your fingers|Maths Abduction Frown 2]]>><<famerape 50 \"pic\">><<trauma -6>><<stress 6>><</link>><<gstress>><<ltrauma>>",
+    "translation": "",
+    "pos": 3206
+  },
+  {
+    "passage": "Maths Abduction Rape Finish",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "930_5_3_7|",
+    "original": "<<link [[Cover your face|Maths Abduction Cover 2]]>><<trauma 6>><<stress 6>><<pain 6>><</link>><<gtrauma>><<gstress>><<gpain>>",
+    "translation": "",
+    "pos": 3377
+  },
+  {
+    "passage": "Maths Abduction Smile",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "939_5_3_7|",
+    "original": "You smile through your tears, face your palms towards your audience, and make a v sign with your index and middle finger. Everyone starts taking pictures.",
+    "translation": "",
+    "pos": 95
+  },
+  {
+    "passage": "Maths Abduction Smile",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "942_5_3_7|",
+    "original": "\"Such a slut.\"",
+    "translation": "",
+    "pos": 262
+  },
+  {
+    "passage": "Maths Abduction Smile",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "944_5_3_7|",
+    "original": "\"Aww, <<pshes>> crying already.\"",
+    "translation": "",
+    "pos": 284
+  },
+  {
+    "passage": "Maths Abduction Smile",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "946_5_3_7|",
+    "original": "\"I wonder how long <<pshe>> will keep it up.\"",
+    "translation": "",
+    "pos": 324
+  },
+  {
+    "passage": "Maths Abduction Smile",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "950_5_3_7|",
+    "original": "You smile, face your palms towards your audience, and make a v sign with your index and middle finger. Everyone starts taking pictures.",
+    "translation": "",
+    "pos": 416
+  },
+  {
+    "passage": "Maths Abduction Smile",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "953_5_3_7|",
+    "original": "\"Such a slut.\"",
+    "translation": "",
+    "pos": 564
+  },
+  {
+    "passage": "Maths Abduction Smile",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "955_5_3_7|",
+    "original": "\"It's almost like <<pshe>> hasn't just been raped.\"",
+    "translation": "",
+    "pos": 586
+  },
+  {
+    "passage": "Maths Abduction Smile",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "957_5_3_7|",
+    "original": "\"I wonder how long that smile will last.\"",
+    "translation": "",
+    "pos": 645
+  },
+  {
+    "passage": "Maths Abduction Smile",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "963_5_3_7|",
+    "original": "\"That's enough of that,\" a <<person1>><<person>> says. \"It's my turn.\" <<He>> shoves you back on the bed.",
+    "translation": "",
+    "pos": 747
+  },
+  {
+    "passage": "Maths Abduction Smile",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "966_5_3_7|",
+    "original": "<<link [[Next|Maths Abduction Rape]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 863
+  },
+  {
+    "passage": "Maths Abduction Frown",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "974_5_3_7|",
+    "original": "You let your anger show, though you can't stop your tears. You face your palms towards your body, and make a v sign with your index and middle finger. Everyone starts taking pictures.",
+    "translation": "",
+    "pos": 95
+  },
+  {
+    "passage": "Maths Abduction Frown",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "977_5_3_7|",
+    "original": "\"<<pShe>> won't resist for long.\"",
+    "translation": "",
+    "pos": 291
+  },
+  {
+    "passage": "Maths Abduction Frown",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "979_5_3_7|",
+    "original": "\"Aww, <<pshes>> trying to be tough.\"",
+    "translation": "",
+    "pos": 332
+  },
+  {
+    "passage": "Maths Abduction Frown",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "981_5_3_7|",
+    "original": "\"So feisty for someone in <<pher>> position.\"",
+    "translation": "",
+    "pos": 376
+  },
+  {
+    "passage": "Maths Abduction Frown",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "985_5_3_7|",
+    "original": "You let your anger show, face your palms towards your body, and make a v sign with your index and middle finger. Everyone starts taking pictures.",
+    "translation": "",
+    "pos": 468
+  },
+  {
+    "passage": "Maths Abduction Frown",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "988_5_3_7|",
+    "original": "\"<<pShe>> won't resist for long.\"",
+    "translation": "",
+    "pos": 626
+  },
+  {
+    "passage": "Maths Abduction Frown",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "990_5_3_7|",
+    "original": "\"Let's rape <<phim>> until <<pshe>> likes it.\"",
+    "translation": "",
+    "pos": 667
+  },
+  {
+    "passage": "Maths Abduction Frown",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "992_5_3_7|",
+    "original": "\"So feisty.\"",
+    "translation": "",
+    "pos": 721
+  },
+  {
+    "passage": "Maths Abduction Frown",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "998_5_3_7|",
+    "original": "\"That's enough of that,\" a <<person1>><<person>> says. \"It's my turn.\" <<He>> shoves you back on the bed.",
+    "translation": "",
+    "pos": 794
+  },
+  {
+    "passage": "Maths Abduction Frown",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1001_5_3_7|",
+    "original": "<<link [[Next|Maths Abduction Rape]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 910
+  },
+  {
+    "passage": "Maths Abduction Cover",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1009_5_3_7|",
+    "original": "You cover your tearful face with your hands. Someone smacks your head, but everyone starts taking pictures anyway.",
+    "translation": "",
+    "pos": 95
+  },
+  {
+    "passage": "Maths Abduction Cover",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1012_5_3_7|",
+    "original": "\"Aww, <<pshes>> shy.\"",
+    "translation": "",
+    "pos": 222
+  },
+  {
+    "passage": "Maths Abduction Cover",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1014_5_3_7|",
+    "original": "\"<<pShes>> trying to hide.\"",
+    "translation": "",
+    "pos": 251
+  },
+  {
+    "passage": "Maths Abduction Cover",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1016_5_3_7|",
+    "original": "\"Maybe <<pshe>> doesn't want <<pher>> school friends to see <<phim>> crying.\"",
+    "translation": "",
+    "pos": 286
+  },
+  {
+    "passage": "Maths Abduction Cover",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1020_5_3_7|",
+    "original": "You cover your face with your hands. Someone smacks your head, but everyone starts taking pictures anyway.",
+    "translation": "",
+    "pos": 410
+  },
+  {
+    "passage": "Maths Abduction Cover",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1023_5_3_7|",
+    "original": "\"Aww, <<pshes>> shy.\"",
+    "translation": "",
+    "pos": 529
+  },
+  {
+    "passage": "Maths Abduction Cover",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1025_5_3_7|",
+    "original": "\"<<pShes>> trying to hide.\"",
+    "translation": "",
+    "pos": 558
+  },
+  {
+    "passage": "Maths Abduction Cover",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1027_5_3_7|",
+    "original": "\"Maybe <<pshe>> thinks <<pher>> school friends will see the pictures.\"",
+    "translation": "",
+    "pos": 593
+  },
+  {
+    "passage": "Maths Abduction Cover",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1033_5_3_7|",
+    "original": "\"That's enough of that,\" a <<person1>><<person>> says. \"It's my turn.\" <<He>> shoves you back on the bed.",
+    "translation": "",
+    "pos": 724
+  },
+  {
+    "passage": "Maths Abduction Cover",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1036_5_3_7|",
+    "original": "<<link [[Next|Maths Abduction Rape]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 840
+  },
+  {
+    "passage": "Maths Abduction Smile 2",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1044_5_3_7|",
+    "original": "You smile through your tears, face your palms towards your audience, and make a v sign with your index and middle finger. Everyone starts taking pictures.",
+    "translation": "",
+    "pos": 95
+  },
+  {
+    "passage": "Maths Abduction Smile 2",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1047_5_3_7|",
+    "original": "\"<<pShes>> a trooper.\"",
+    "translation": "",
+    "pos": 262
+  },
+  {
+    "passage": "Maths Abduction Smile 2",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1049_5_3_7|",
+    "original": "\"Still putting on a brave face.\"",
+    "translation": "",
+    "pos": 292
+  },
+  {
+    "passage": "Maths Abduction Smile 2",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1051_5_3_7|",
+    "original": "\"It's like <<pshes>> been trained already.\"",
+    "translation": "",
+    "pos": 332
+  },
+  {
+    "passage": "Maths Abduction Smile 2",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1055_5_3_7|",
+    "original": "You smile, face your palms towards your audience, and make a v sign with your index and middle finger. Everyone starts taking pictures.",
+    "translation": "",
+    "pos": 422
+  },
+  {
+    "passage": "Maths Abduction Smile 2",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1058_5_3_7|",
+    "original": "\"<<pShes>> a trooper.\"",
+    "translation": "",
+    "pos": 570
+  },
+  {
+    "passage": "Maths Abduction Smile 2",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1060_5_3_7|",
+    "original": "\"Still putting on a brave face.\"",
+    "translation": "",
+    "pos": 600
+  },
+  {
+    "passage": "Maths Abduction Smile 2",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1062_5_3_7|",
+    "original": "\"<<pShes>> gonna make a fantastic sex slave.\"",
+    "translation": "",
+    "pos": 640
+  },
+  {
+    "passage": "Maths Abduction Smile 2",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1069_5_3_7|",
+    "original": "<<generate1>><<person1>>A <<person>> chains your ankles to the bed. They jeer at you a bit longer, but then lose interest. Seems they're finished with you for now.",
+    "translation": "",
+    "pos": 722
+  },
+  {
+    "passage": "Maths Abduction Smile 2",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1072_5_3_7|",
+    "original": "<<link [[Next|Maths Abduction 3]]>><</link>>",
+    "translation": "",
+    "pos": 908
+  },
+  {
+    "passage": "Maths Abduction Frown 2",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1079_5_3_7|",
+    "original": "You let your anger show, though you can't stop your tears. You face your palms towards your body, and make a v sign with your index and middle finger. Everyone starts taking pictures.",
+    "translation": "",
+    "pos": 93
+  },
+  {
+    "passage": "Maths Abduction Frown 2",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1082_5_3_7|",
+    "original": "\"Gotta hand it to <<phim>>, <<pshes>> tough.\"",
+    "translation": "",
+    "pos": 289
+  },
+  {
+    "passage": "Maths Abduction Frown 2",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1084_5_3_7|",
+    "original": "\"I hope the buyer knows what they're getting into.\"",
+    "translation": "",
+    "pos": 342
+  },
+  {
+    "passage": "Maths Abduction Frown 2",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1086_5_3_7|",
+    "original": "\"I used to break sluts like <<phim>> all the time back in the day.\"",
+    "translation": "",
+    "pos": 401
+  },
+  {
+    "passage": "Maths Abduction Frown 2",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1090_5_3_7|",
+    "original": "You let your anger show, face your palms towards your body, and make a v sign with your index and middle finger. Everyone starts taking pictures.",
+    "translation": "",
+    "pos": 514
+  },
+  {
+    "passage": "Maths Abduction Frown 2",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1093_5_3_7|",
+    "original": "\"Gotta hand it to <<phim>>, <<pshes>> tough.\"",
+    "translation": "",
+    "pos": 672
+  },
+  {
+    "passage": "Maths Abduction Frown 2",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1095_5_3_7|",
+    "original": "\"I hope the buyer knows what they're getting into.\"",
+    "translation": "",
+    "pos": 725
+  },
+  {
+    "passage": "Maths Abduction Frown 2",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1097_5_3_7|",
+    "original": "\"I used to break sluts like <<phim>> all the time back in the day.\"",
+    "translation": "",
+    "pos": 784
+  },
+  {
+    "passage": "Maths Abduction Frown 2",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1104_5_3_7|",
+    "original": "<<generate1>><<person1>>A <<person>> chains your ankles to the bed. They jeer at you a bit longer, but then lose interest. Seems they're finished with you for now.",
+    "translation": "",
+    "pos": 888
+  },
+  {
+    "passage": "Maths Abduction Frown 2",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1107_5_3_7|",
+    "original": "<<link [[Next|Maths Abduction 3]]>><</link>>",
+    "translation": "",
+    "pos": 1074
+  },
+  {
+    "passage": "Maths Abduction Cover 2",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1114_5_3_7|",
+    "original": "You cover your tearful face with your hands. Someone smacks your head, but everyone starts taking pictures anyway.",
+    "translation": "",
+    "pos": 93
+  },
+  {
+    "passage": "Maths Abduction Cover 2",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1117_5_3_7|",
+    "original": "\"Trying to save face after all this.\"",
+    "translation": "",
+    "pos": 220
+  },
+  {
+    "passage": "Maths Abduction Cover 2",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1119_5_3_7|",
+    "original": "\"<<pShes>> trying to be tough.\"",
+    "translation": "",
+    "pos": 265
+  },
+  {
+    "passage": "Maths Abduction Cover 2",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1121_5_3_7|",
+    "original": "\"We've taken so many pictures, I hope <<pshe>> doesn't think no one will recognise <<phim>>.\"",
+    "translation": "",
+    "pos": 304
+  },
+  {
+    "passage": "Maths Abduction Cover 2",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1125_5_3_7|",
+    "original": "You cover your face with your hands. Someone smacks your head, but everyone starts taking pictures anyway.",
+    "translation": "",
+    "pos": 444
+  },
+  {
+    "passage": "Maths Abduction Cover 2",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1128_5_3_7|",
+    "original": "\"Trying to save face after all this.\"",
+    "translation": "",
+    "pos": 563
+  },
+  {
+    "passage": "Maths Abduction Cover 2",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1130_5_3_7|",
+    "original": "\"<<pShes>> trying to be tough.\"",
+    "translation": "",
+    "pos": 608
+  },
+  {
+    "passage": "Maths Abduction Cover 2",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1132_5_3_7|",
+    "original": "\"We've taken so many pictures, I hope <<pshe>> doesn't think no one will recognise <<phim>>.\"",
+    "translation": "",
+    "pos": 647
+  },
+  {
+    "passage": "Maths Abduction Cover 2",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1139_5_3_7|",
+    "original": "<<generate1>><<person1>>A <<person>> chains your ankles to the bed. They jeer at you a bit longer, but then lose interest. Seems they're finished with you for now.",
+    "translation": "",
+    "pos": 777
+  },
+  {
+    "passage": "Maths Abduction Cover 2",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1142_5_3_7|",
+    "original": "<<link [[Next|Maths Abduction 3]]>><</link>>",
+    "translation": "",
+    "pos": 963
+  },
+  {
+    "passage": "Maths Abduction 3",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1148_5_3_7|",
+    "original": "You curl up on the bed as most of the gang return to their game of cards. Others just drink and chat. At one point a van pulls up outside, tall enough that you see its roof through the window. It's not here to pick you up, however. Some of the gang carry boxes off the back, and stack them with the others.",
+    "translation": "",
+    "pos": 77
+  },
+  {
+    "passage": "Maths Abduction 3",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1151_5_3_7|",
+    "original": "\"We're gonna need to push these harder,\" a <<person>> comments. \"Or find someone new to sell to.\"",
+    "translation": "",
+    "pos": 394
+  },
+  {
+    "passage": "Maths Abduction 3",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1154_5_3_7|",
+    "original": "\"I don't like this whole thing,\" a <<person>> responds. \"Don't you ever feel watched while carrying them?\"",
+    "translation": "",
+    "pos": 513
+  },
+  {
+    "passage": "Maths Abduction 3",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1157_5_3_7|",
+    "original": "\"By who?\" the <<person>> scoffs. \"The police would shake us down if they knew. Not just watch.\"",
+    "translation": "",
+    "pos": 641
+  },
+  {
+    "passage": "Maths Abduction 3",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1160_5_3_7|",
+    "original": "\"Not them,\" the <<person>> says. \"That's the trouble.\"",
+    "translation": "",
+    "pos": 758
+  },
+  {
+    "passage": "Maths Abduction 3",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1164_5_3_7|",
+    "original": "No one notices a few bags spill from one of the boxes. <span class=\"gold\">You've gained 3 doses of stimulant.</span>",
+    "translation": "",
+    "pos": 836
+  },
+  {
+    "passage": "Maths Abduction 3",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1168_5_3_7|",
+    "original": "<<link [[Next (0:30)|Maths Abduction 4]]>><<pass 30>><</link>>",
+    "translation": "",
+    "pos": 987
+  },
+  {
+    "passage": "Maths Abduction 4",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1177_5_3_7|",
+    "original": "You hear a car pull up outside. Four doors open and close. <<person2>>\"That'll be the buyer,\" a <<person>> says. They step away from their game of cards and leave the building.",
+    "translation": "",
+    "pos": 165
+  },
+  {
+    "passage": "Maths Abduction 4",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1180_5_3_7|",
+    "original": "\"You came in a hurry,\" you hear <<him>> say. \"We haven't had a chance to clean-\"",
+    "translation": "",
+    "pos": 352
+  },
+  {
+    "passage": "Maths Abduction 4",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1183_5_3_7|",
+    "original": "\"Show me the <<girl>>,\" a familiar voice interrupts. <span class=\"purple\">It's Bailey.</span>",
+    "translation": "",
+    "pos": 443
+  },
+  {
+    "passage": "Maths Abduction 4",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1186_5_3_7|",
+    "original": "<<person2>>Bailey follows the <<person>> into the building. <<person1>>Three rough-looking people enter with <<him>>.",
+    "translation": "",
+    "pos": 547
+  },
+  {
+    "passage": "Maths Abduction 4",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1189_5_3_7|",
+    "original": "<<link [[Next|Maths Abduction 5]]>><</link>>",
+    "translation": "",
+    "pos": 675
+  },
+  {
+    "passage": "Maths Abduction 5",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1195_5_3_7|",
+    "original": "Bailey glances at you, then turns to the <<person2>><<person>>. \"Five thousand.\"",
+    "translation": "",
+    "pos": 40
+  },
+  {
+    "passage": "Maths Abduction 5",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1198_5_3_7|",
+    "original": "\"That's right,\" the <<person>> replies, holding out <<his>> hand. One of Bailey's goons, a <<person3>><<person>>, approaches you, unlocks the chain tying you to the bed, and pulls you to your feet.<<if $worn.feet.name is \"ankle cuffs\">><<remove_shackle>><</if>>",
+    "translation": "",
+    "pos": 131
+  },
+  {
+    "passage": "Maths Abduction 5",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1201_5_3_7|",
+    "original": "\"You misunderstand,\" Bailey says. The goons flanking <<person1>><<him>>, a <<person4>><<person>> and <<person5>><<person>>, pull pistols from their jackets. \"You used my property. You're paying for it.\"",
+    "translation": "",
+    "pos": 403
+  },
+  {
+    "passage": "Maths Abduction 5",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1204_5_3_7|",
+    "original": "The <<person2>><<person>> gapes. \"You're a brave fucker,\" <<he>> spits. <<Hes>> incensed, but <<he>> looks around the room. <<His>> colleagues stand way back, their hands in the air. <<He>> sighs, then gestures where the table stood.",
+    "translation": "",
+    "pos": 616
+  },
+  {
+    "passage": "Maths Abduction 5",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1207_5_3_7|",
+    "original": "<<person1>>Bailey walks over, lifts a decaying rug, and opens the trap door <<he>> finds beneath. <<He>> pulls out a rucksack. Inside are rolls of banknotes. <<He>> counts them, then stuffs about half into <<his>> pockets. <<He>> drops the bag back through the hole.",
+    "translation": "",
+    "pos": 860
+  },
+  {
+    "passage": "Maths Abduction 5",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1210_5_3_7|",
+    "original": "\"Five thousand.\" <<He>> repeats. \"Good doing business with you.\"",
+    "translation": "",
+    "pos": 1137
+  },
+  {
+    "passage": "Maths Abduction 5",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1213_5_3_7|",
+    "original": "<<link [[Next (0:30)|Maths Abduction 6]]>><</link>>",
+    "translation": "",
+    "pos": 1212
+  },
+  {
+    "passage": "Maths Abduction 6",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1219_5_3_7|",
+    "original": "The journey home through the countryside is uneventful. You sit in the middle seat, between the <<person4>><<person>> and <<person5>><<person>>. They don't look at you. Bailey drives, with the <<person3>><<person>> sat beside <<person1>><<him>>.",
+    "translation": "",
+    "pos": 85
+  },
+  {
+    "passage": "Maths Abduction 6",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1222_5_3_7|",
+    "original": "<<link [[Thank for the rescue|Maths Abduction Thank]]>><</link>>",
+    "translation": "",
+    "pos": 341
+  },
+  {
+    "passage": "Maths Abduction 6",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1224_5_3_7|",
+    "original": "<<link [[Get angry you were called property|Maths Abduction Insist]]>><</link>>",
+    "translation": "",
+    "pos": 411
+  },
+  {
+    "passage": "Maths Abduction 6",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1227_5_3_7|",
+    "original": "<<link [[Tease the goons|Maths Abduction Tease]]>><</link>><<promiscuous3>>",
+    "translation": "",
+    "pos": 533
+  },
+  {
+    "passage": "Maths Abduction 6",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1230_5_3_7|",
+    "original": "<<link [[Remain silent|Maths Abduction Silent]]>><</link>>",
+    "translation": "",
+    "pos": 623
+  },
+  {
+    "passage": "Maths Abduction Thank",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1236_5_3_7|",
+    "original": "\"Thanks for rescuing me,\" you say. The <<person5>><<person>> smiles at you. No one else responds.",
+    "translation": "",
+    "pos": 40
+  },
+  {
+    "passage": "Maths Abduction Thank",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1239_5_3_7|",
+    "original": "<<link [[Ask if Bailey is angry with you|Maths Abduction Ask]]>><</link>>",
+    "translation": "",
+    "pos": 148
+  },
+  {
+    "passage": "Maths Abduction Thank",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1241_5_3_7|",
+    "original": "<<link [[Remain silent|Maths Abduction Silent]]>><</link>>",
+    "translation": "",
+    "pos": 227
+  },
+  {
+    "passage": "Maths Abduction Ask",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1247_5_3_7|",
+    "original": "\"Are you upset with me?\" you ask, looking at Bailey through the rearview mirror.",
+    "translation": "",
+    "pos": 51
+  },
+  {
+    "passage": "Maths Abduction Ask",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1250_5_3_7|",
+    "original": "\"No,\" <<he>> says. \"That will change if you don't be quiet.\"",
+    "translation": "",
+    "pos": 142
+  },
+  {
+    "passage": "Maths Abduction Ask",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1253_5_3_7|",
+    "original": "No one says anything else as Bailey drives you into town, and back to the orphanage.",
+    "translation": "",
+    "pos": 213
+  },
+  {
+    "passage": "Maths Abduction Ask",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1256_5_3_7|",
+    "original": "<<link [[Next|Domus Street]]>><<endevent>><<set $eventskip to 1>><<set $stress -= 200>><</link>>",
+    "translation": "",
+    "pos": 308
+  },
+  {
+    "passage": "Maths Abduction Insist",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1262_5_3_7|",
+    "original": "\"I'm not your property,\" you say, glaring at Bailey through the rearview mirror.",
+    "translation": "",
+    "pos": 51
+  },
+  {
+    "passage": "Maths Abduction Insist",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1265_5_3_7|",
+    "original": "\"You are until you pay your debt,\" <<he>> responds, keeping <<his>> eyes on the road. \"As far as anyone cares.\"",
+    "translation": "",
+    "pos": 142
+  },
+  {
+    "passage": "Maths Abduction Insist",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1268_5_3_7|",
+    "original": "No one says anything else as Bailey drives you into town, and back to the orphanage.",
+    "translation": "",
+    "pos": 264
+  },
+  {
+    "passage": "Maths Abduction Insist",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1271_5_3_7|",
+    "original": "<<link [[Next|Domus Street]]>><<endevent>><<set $eventskip to 1>><<set $stress -= 200>><</link>>",
+    "translation": "",
+    "pos": 359
+  },
+  {
+    "passage": "Maths Abduction Tease",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1277_5_3_7|",
+    "original": "You rest your hands on the <<person4>><<person>> and <<person5>><<persons>> thighs, with one finger on their groins. You begin to stroke.",
+    "translation": "",
+    "pos": 40
+  },
+  {
+    "passage": "Maths Abduction Tease",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1280_5_3_7|",
+    "original": "The <<person4>><<person>> blushes, but doesn't react. The <<person5>><<person>> rests <<his>> own hand on your thigh, and mimics your movements.",
+    "translation": "",
+    "pos": 196
+  },
+  {
+    "passage": "Maths Abduction Tease",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1283_5_3_7|",
+    "original": "\"You paying for that?\" Bailey says. <<person1>><<His>> eyes remain locked on the road. The <<person5>><<person>> grasps your arm and pushes it away from <<his>> crotch. <<He>> looks out the window, as if nothing happened.",
+    "translation": "",
+    "pos": 351
+  },
+  {
+    "passage": "Maths Abduction Tease",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1286_5_3_7|",
+    "original": "No one says anything else as Bailey drives you into town, and back to the orphanage.",
+    "translation": "",
+    "pos": 583
+  },
+  {
+    "passage": "Maths Abduction Tease",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1289_5_3_7|",
+    "original": "<<link [[Next|Domus Street]]>><<endevent>><<set $eventskip to 1>><<set $stress -= 200>><</link>>",
+    "translation": "",
+    "pos": 678
+  },
+  {
+    "passage": "Maths Abduction Silent",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1295_5_3_7|",
+    "original": "You remain silent as Bailey drives you into town, and back to the orphanage.",
+    "translation": "",
+    "pos": 40
+  },
+  {
+    "passage": "Maths Abduction Silent",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1298_5_3_7|",
+    "original": "<<link [[Next|Domus Street]]>><<endevent>><<set $eventskip to 1>><<set $stress -= 200>><</link>>",
+    "translation": "",
+    "pos": 127
+  },
+  {
+    "passage": "Maths Library Student",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1304_5_3_7|",
+    "original": "<<generatey1>><<person1>>You approach the student, a <<person>>, working on their solution. <<Hes>> too focused to notice you. You might learn something if you could get close enough to read.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Maths Library Student",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1307_5_3_7|",
+    "original": "<<link [[Distract with your body|Maths Library Student Seduce]]>><<set $mathslibrarystudent to 1>><</link>><<exhibitionist1>>",
+    "translation": "",
+    "pos": 215
+  },
+  {
+    "passage": "Maths Library Student",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1309_5_3_7|",
+    "original": "<<link [[Leave|School Library]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 346
+  },
+  {
+    "passage": "Maths Library Student Seduce",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1315_5_3_7|",
+    "original": "You saunter up to the <<person>>, and lean over <<his>> desk. <<if _shirtless>><<His>> eyes are drawn to your <<= $worn.under_upper.name isnot \"naked\" ? \"$worn.under_upper.name\" : \"bare chest\">><<else>><<He>> gets a good look down your deliberately dishevelled _top.name<</if>>. You <<if _bottomIsSkirt and _skirtExposed>>lift up the side of<<else>>pull down<</if>> your _bottom.name just far enough to <<if $worn.under_lower.type.includes(\"naked\")>>hint at your lack of underwear<<else>>reveal a glimpse of your $worn.under_lower.name<</if>>.",
+    "translation": "",
+    "pos": 29
+  },
+  {
+    "passage": "Maths Library Student Seduce",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1319_5_3_7|",
+    "original": "\"Do you want to keep looking at me?\" you ask. \"I don't mind.\"",
+    "translation": "",
+    "pos": 628
+  },
+  {
+    "passage": "Maths Library Student Seduce",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1321_5_3_7|",
+    "original": "\"I'll let you stare,\" you say. \"This time.\"",
+    "translation": "",
+    "pos": 731
+  },
+  {
+    "passage": "Maths Library Student Seduce",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1323_5_3_7|",
+    "original": "\"It's so hot in here,\" you say.",
+    "translation": "",
+    "pos": 785
+  },
+  {
+    "passage": "Maths Library Student Seduce",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1330_5_3_7|",
+    "original": "<<if $seductionskill lt 1000>><span class=\"gold\">You feel more confident in your powers of seduction.</span><</if>><<seductionskilluse>>",
+    "translation": "",
+    "pos": 900
+  },
+  {
+    "passage": "Maths Library Student Seduce",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1334_5_3_7|",
+    "original": "<<He>> nods as you put on your show. You read over <<his>> project, keeping your eyes on it even as you sway your <<bottom>> around. You lean in so close you're almost touching <<him>>.",
+    "translation": "",
+    "pos": 1149
+  },
+  {
+    "passage": "Maths Library Student Seduce",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1337_5_3_7|",
+    "original": "The <<person>> reaches out to grab you. You glide out from between <<his>> arms. You've memorised everything you'll need. You leave with a playful wave.<<note \"+ Mathematical insight\" \"green\">>",
+    "translation": "",
+    "pos": 1347
+  },
+  {
+    "passage": "Maths Library Student Seduce",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1342_5_3_7|",
+    "original": "<<He>> blushes, picks up <<his>> work, and moves to a different seat.",
+    "translation": "",
+    "pos": 1564
+  },
+  {
+    "passage": "Maths Library Student Seduce",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1346_5_3_7|",
+    "original": "<<link [[Next|School Library]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1653
+  },
+  {
+    "passage": "Maths Drugged Help",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1352_5_3_7|",
+    "original": "You rush to the staff room and knock on the door. Doren answers it. \"Can I help you, <<lass>>?\"",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Maths Drugged Help",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1355_5_3_7|",
+    "original": "\"There's a student lying in the hall,\" you say. \"I think they're on something.\"",
+    "translation": "",
+    "pos": 119
+  },
+  {
+    "passage": "Maths Drugged Help",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1358_5_3_7|",
+    "original": "You show Doren to the student. \"You're right,\" the teacher says. \"I'll take <<him>> to the nurse. Good on you for watching out for your fellows.\"",
+    "translation": "",
+    "pos": 209
+  },
+  {
+    "passage": "Maths Drugged Help",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1361_5_3_7|",
+    "original": "Doren picks up the pen and paper, lifts the <<person>> with ease, and carries <<him>> away.",
+    "translation": "",
+    "pos": 365
+  },
+  {
+    "passage": "Maths Drugged Help",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1366_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 481
+  },
+  {
+    "passage": "Maths Drugged Copy",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1372_5_3_7|",
+    "original": "You read the <<persons>> work, and spot some useful calculations. You finish copying them for yourself just as a librarian rounds the corner. <<generate2>><<person2>><<He>> rushes to the <<person1>><<persons>> side.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Maths Drugged Copy",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1375_5_3_7|",
+    "original": "<<person2>><<He>> eyes you with suspicion as you leave, but doesn't say anything.",
+    "translation": "",
+    "pos": 239
+  },
+  {
+    "passage": "Maths Drugged Copy",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1379_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 344
+  },
+  {
+    "passage": "Maths Drugged Rob",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1385_5_3_7|",
+    "original": "You rifle through the <<person1>><<persons>> pockets. <<He>> mumbles something about tentacles and tries to squirm away, but <<hes>> in no state to stop you. You find a bag of bright-coloured pills just as a librarian rounds the corner. <<generate2>><<person2>><<He>> rushes to the <<person1>><<persons>> side.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Maths Drugged Rob",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1388_5_3_7|",
+    "original": "<<person2>><<He>> eyes you with suspicion as you leave, but doesn't say anything.",
+    "translation": "",
+    "pos": 334
+  },
+  {
+    "passage": "Maths Drugged Rob",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1393_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 440
+  },
+  {
+    "passage": "Maths Competition",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1399_5_3_7|",
+    "original": "You enter the town hall. Rows of chairs face the stage opposite you. There's a projector set up. You recognise others from your class, holding their solutions close to their chests. Leighton and River stand beside the stage, talking with two people wearing suits. You don't recognise them.",
+    "translation": "",
+    "pos": 61
+  },
+  {
+    "passage": "Maths Competition",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1402_5_3_7|",
+    "original": "You can enter your solution, or just watch. Taking part will make the teachers think better of you whether you win or not.",
+    "translation": "",
+    "pos": 361
+  },
+  {
+    "passage": "Maths Competition",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1405_5_3_7|",
+    "original": "<<link [[Enter the competition (3:00)|Maths Competition Enter]]>><<pass 3 hours>><</link>><<note \"$mathschance% chance of winning.\" \"gold\">>",
+    "translation": "",
+    "pos": 549
+  },
+  {
+    "passage": "Maths Competition",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1407_5_3_7|",
+    "original": "<<link [[Just watch (3:00)|Maths Competition Watch]]>><<set $mathschancestart to $mathschance>><<pass 3 hour>><</link>>",
+    "translation": "",
+    "pos": 695
+  },
+  {
+    "passage": "Maths Competition",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1409_5_3_7|",
+    "original": "<<link [[Leave (0:05)|Cliff Street]]>><<pass 5>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 820
+  },
+  {
+    "passage": "Maths Competition Watch",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1415_5_3_7|",
+    "original": "You take a seat. More students arrive, some carrying papers, others here to watch. Leighton instructs the entrants to sit in the front row.",
+    "translation": "",
+    "pos": 61
+  },
+  {
+    "passage": "Maths Competition Watch",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1418_5_3_7|",
+    "original": "The <<nnpc_title \"Leighton\">> climbs the stage and taps the microphone. River stands beside <<him>>. \"Thank you, <<if maleChance() is 100>>boys and gentlemen<<elseif maleChance() is 0>>girls and ladies<<else>>boys and girls, ladies and gentlemen<</if>>, for coming,\" <<he>> says. \"I'll be brief. Myself, River and two guests from outside town will judge. Each contestant will present their solution on stage.\"",
+    "translation": "",
+    "pos": 238
+  },
+  {
+    "passage": "Maths Competition Watch",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1421_5_3_7|",
+    "original": "A nervous murmur erupts from the front row. River frowns. \"Did I forget to mention that part?\"",
+    "translation": "",
+    "pos": 658
+  },
+  {
+    "passage": "Maths Competition Watch",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1424_5_3_7|",
+    "original": "Each student presents their solution in turn. Some are more nervous than others to talk in front of a crowd. One, a <<person>>, tries to flee the room. <<His>> friends stop <<him>>, and convince <<him>> to go through with it.",
+    "translation": "",
+    "pos": 788
+  },
+  {
+    "passage": "Maths Competition Watch",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1427_5_3_7|",
+    "original": "The last student climbs down from the stage. Leighton, River, and the two guests confer for a moment. They award the prize to the <<person>>, who seems almost as nervous to receive the prize as they were to present their work.",
+    "translation": "",
+    "pos": 1024
+  },
+  {
+    "passage": "Maths Competition Watch",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1430_5_3_7|",
+    "original": "Leighton herds you and the other students from the hall. You might have learned something.",
+    "translation": "",
+    "pos": 1261
+  },
+  {
+    "passage": "Maths Competition Watch",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1437_5_3_7|",
+    "original": "<<link [[Next|Cliff Street]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 1445
+  },
+  {
+    "passage": "Maths Competition Enter",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1444_5_3_7|",
+    "original": "Your bindings come loose. \"You can't enter the competition like that,\" River says from behind, before rushing off to help someone else.",
+    "translation": "",
+    "pos": 146
+  },
+  {
+    "passage": "Maths Competition Enter",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1448_5_3_7|",
+    "original": "Leighton instructs you and the other entrants to sit in the front row.",
+    "translation": "",
+    "pos": 301
+  },
+  {
+    "passage": "Maths Competition Enter",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1452_5_3_7|",
+    "original": "<<npc Whitney>><<person1>>Before you can make it however, you feel someone's hand on your <<bottom>>. You turn right to face the culprit, but a hand snakes around your left shoulder and snatches your solution from your grip. It's Whitney.",
+    "translation": "",
+    "pos": 476
+  },
+  {
+    "passage": "Maths Competition Enter",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1455_5_3_7|",
+    "original": "You try to take it back, but <<he>> shoves you away. \"So this is what you've been up to,\" <<he>> says, looking at the paper. \"What a waste of time. Maybe I should tear it up.\"",
+    "translation": "",
+    "pos": 727
+  },
+  {
+    "passage": "Maths Competition Enter",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1459_5_3_7|",
+    "original": "<<link [[Get angry|Maths Competition Angry]]>><<npcincr Whitney dom -1>><</link>><<ldom>>",
+    "translation": "",
+    "pos": 940
+  },
+  {
+    "passage": "Maths Competition Enter",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1461_5_3_7|",
+    "original": "<<link [[Beg|Maths Competition Beg]]>><<npcincr Whitney dom 1>><<sub 1>><</link>><<gdom>>",
+    "translation": "",
+    "pos": 1037
+  },
+  {
+    "passage": "Maths Competition Enter",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1463_5_3_7|",
+    "original": "<<link [[Call for help|Maths Competition Help]]>><<npcincr Whitney love -1>><</link>><<llove>>",
+    "translation": "",
+    "pos": 1134
+  },
+  {
+    "passage": "Maths Competition Enter",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1467_5_3_7|",
+    "original": "You take a seat, and wait as the rest fill.",
+    "translation": "",
+    "pos": 1246
+  },
+  {
+    "passage": "Maths Competition Enter",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1470_5_3_7|",
+    "original": "<<link [[Next|Maths Competition Intro]]>><</link>>",
+    "translation": "",
+    "pos": 1302
+  },
+  {
+    "passage": "Maths Competition Angry",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1478_5_3_7|",
+    "original": "\"That's not fair,\" you say. \"I worked really hard on it.\"",
+    "translation": "",
+    "pos": 96
+  },
+  {
+    "passage": "Maths Competition Angry",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1480_5_3_7|",
+    "original": "\"Don't,\" you say. \"Or else.\"",
+    "translation": "",
+    "pos": 195
+  },
+  {
+    "passage": "Maths Competition Angry",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1482_5_3_7|",
+    "original": "\"Give it back,\" you say. \"Or I'll make you regret it.\"",
+    "translation": "",
+    "pos": 234
+  },
+  {
+    "passage": "Maths Competition Angry",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1485_5_3_7|",
+    "original": "Whitney laughs. \"That mouth is gonna get you in trouble,\" <<he>> says. <<He>> looks thoughtfully at the paper, then hands it to you. \"You'll make it up to me later.\"",
+    "translation": "",
+    "pos": 306
+  },
+  {
+    "passage": "Maths Competition Angry",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1488_5_3_7|",
+    "original": "You continue to the front row and find an empty seat. You glance around, worried that Whitney followed you. You see <<him>> sitting with <<his>> friends on the other side of the hall, in the second row.",
+    "translation": "",
+    "pos": 482
+  },
+  {
+    "passage": "Maths Competition Angry",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1491_5_3_7|",
+    "original": "<<link [[Next|Maths Competition Intro]]>><</link>>",
+    "translation": "",
+    "pos": 707
+  },
+  {
+    "passage": "Maths Competition Beg",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1498_5_3_7|",
+    "original": "\"P-please, no,\" you say. \"I worked so hard on it.\"",
+    "translation": "",
+    "pos": 96
+  },
+  {
+    "passage": "Maths Competition Beg",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1500_5_3_7|",
+    "original": "\"Don't you dare,\" you say. \"I worked really hard on that.\"",
+    "translation": "",
+    "pos": 188
+  },
+  {
+    "passage": "Maths Competition Beg",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1502_5_3_7|",
+    "original": "\"Please don't,\" you say. \"I worked really hard on that.\"",
+    "translation": "",
+    "pos": 257
+  },
+  {
+    "passage": "Maths Competition Beg",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1506_5_3_7|",
+    "original": "Whitney laughs. \"Poor you,\" <<he>> says. <<He>> looks thoughtfully at the paper, then hands it to you. \"You'll make it up to me later.\"",
+    "translation": "",
+    "pos": 332
+  },
+  {
+    "passage": "Maths Competition Beg",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1509_5_3_7|",
+    "original": "You continue to the front row and find an empty seat. You glance around, worried that Whitney followed you. You see <<him>> sitting with <<his>> friends on the other side of the hall, in the second row.",
+    "translation": "",
+    "pos": 478
+  },
+  {
+    "passage": "Maths Competition Beg",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1512_5_3_7|",
+    "original": "<<link [[Next|Maths Competition Intro]]>><</link>>",
+    "translation": "",
+    "pos": 703
+  },
+  {
+    "passage": "Maths Competition Help",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1518_5_3_7|",
+    "original": "You call to River, who pierces Whitney with <<nnpc_his \"River\">> blue eyes.",
+    "translation": "",
+    "pos": 61
+  },
+  {
+    "passage": "Maths Competition Help",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1521_5_3_7|",
+    "original": "\"I'm only joking around,\" Whitney scoffs as <<he>> makes a paper aeroplane from your solution. <<He>> throws it at you. \"You're gonna make it up to me later.\"",
+    "translation": "",
+    "pos": 147
+  },
+  {
+    "passage": "Maths Competition Help",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1524_5_3_7|",
+    "original": "You continue to the front row and find an empty seat. You glance around, worried that Whitney followed you. You see <<him>> sitting with <<his>> friends on the other side of the hall, in the second row.",
+    "translation": "",
+    "pos": 316
+  },
+  {
+    "passage": "Maths Competition Help",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1527_5_3_7|",
+    "original": "<<link [[Next|Maths Competition Intro]]>><</link>>",
+    "translation": "",
+    "pos": 541
+  },
+  {
+    "passage": "Maths Competition Intro",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1533_5_3_7|",
+    "original": "More students arrive, some carrying papers, others here to watch. Leighton instructs the other entrants to sit in the front row.",
+    "translation": "",
+    "pos": 61
+  },
+  {
+    "passage": "Maths Competition Intro",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1536_5_3_7|",
+    "original": "The <<nnpc_title \"Leighton\">> climbs the stage and taps the microphone. River stands beside <<him>>. \"Thank you, <<if maleChance() is 100>>boys and gentlemen<<elseif maleChance() is 0>>girls and ladies<<else>>boys and girls, ladies and gentlemen<</if>>, for coming,\" <<he>> says. \"This is a fuller audience than we expected. I'll be brief. Myself, River and two guests from outside town will judge. Each contestant will present their solution on stage, and use the projector to display their work.\"",
+    "translation": "",
+    "pos": 227
+  },
+  {
+    "passage": "Maths Competition Intro",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1539_5_3_7|",
+    "original": "You feel a little sick.",
+    "translation": "",
+    "pos": 750
+  },
+  {
+    "passage": "Maths Competition Intro",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1542_5_3_7|",
+    "original": "You feel anxious.",
+    "translation": "",
+    "pos": 828
+  },
+  {
+    "passage": "Maths Competition Intro",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1546_5_3_7|",
+    "original": "A nervous murmur erupts from the front row. River frowns. \"Did I forget to mention that part?\"",
+    "translation": "",
+    "pos": 888
+  },
+  {
+    "passage": "Maths Competition Intro",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1549_5_3_7|",
+    "original": "The first student to be called up, a <<person>>, tries to flee the room. <<Hes>> stopped by <<his>> friends and convinced to go through with it. <<He>> trips over <<his>> words and drops <<his>> papers twice, but <<hes>> smiling at the end of it.",
+    "translation": "",
+    "pos": 1018
+  },
+  {
+    "passage": "Maths Competition Intro",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1552_5_3_7|",
+    "original": "The next student is more confident. Leighton calls the entrants up one by one, working down the row. You'll be the last. Not a single student's solution is anything like another's.",
+    "translation": "",
+    "pos": 1275
+  },
+  {
+    "passage": "Maths Competition Intro",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1556_5_3_7|",
+    "original": "Leighton points at you. <<if $anxiety gte 1>>You swallow your nerves and climb the stage.<<else>>You climb the stage.<</if>>",
+    "translation": "",
+    "pos": 1479
+  },
+  {
+    "passage": "Maths Competition Intro",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1559_5_3_7|",
+    "original": "<<link [[Next|Maths Competition Stage]]>><</link>>",
+    "translation": "",
+    "pos": 1614
+  },
+  {
+    "passage": "Maths Competition Stage",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1565_5_3_7|",
+    "original": "You stand beside the projector and look at the audience. There are a mixture of students and older strangers.",
+    "translation": "",
+    "pos": 61
+  },
+  {
+    "passage": "Maths Competition Stage",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1569_5_3_7|",
+    "original": "Whitney sits to one side. <<His>> expression is blank, but <<his>> friends are smirking.",
+    "translation": "",
+    "pos": 234
+  },
+  {
+    "passage": "Maths Competition Stage",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1577_5_3_7|",
+    "original": "\"Don't tarry,\" Leighton says. \"We're pressed for time.\" A photographer sets up their equipment nearby, getting ready to take pictures of the winner.",
+    "translation": "",
+    "pos": 392
+  },
+  {
+    "passage": "Maths Competition Stage",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1580_5_3_7|",
+    "original": "<<link [[Proceed|Maths Competition Proceed]]>><</link>>",
+    "translation": "",
+    "pos": 563
+  },
+  {
+    "passage": "Maths Competition Stage",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1583_5_3_7|",
+    "original": "<<link [[Tease|Maths Competition Flirt]]>><<set $mathschance += 10>><</link>><<exhibitionist3>><<note \"+ Success Chance\" \"gold\">>",
+    "translation": "",
+    "pos": 663
+  },
+  {
+    "passage": "Maths Competition Flirt",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1590_5_3_7|",
+    "original": "You knock your paper on the floor. It slides along, and rests in front of Leighton. \"Oops,\" you say. You saunter to the edge of the stage, turn around, and bend over. You pretend to have difficulty picking it up, and wiggle your <<bottom>> at the audience during your \"attempts.\"",
+    "translation": "",
+    "pos": 61
+  },
+  {
+    "passage": "Maths Competition Flirt",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1592_5_3_7|",
+    "original": "You hear giggling from the crowd. You look between your legs. River and the two guests avert their eyes. River looks pale. Leighton leans forward and stares.",
+    "translation": "",
+    "pos": 360
+  },
+  {
+    "passage": "Maths Competition Flirt",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1594_5_3_7|",
+    "original": "You pick up the paper and return to the microphone.",
+    "translation": "",
+    "pos": 527
+  },
+  {
+    "passage": "Maths Competition Flirt",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1596_5_3_7|",
+    "original": "<<link [[Next|Maths Competition Proceed]]>><</link>>",
+    "translation": "",
+    "pos": 588
+  },
+  {
+    "passage": "Maths Competition Proceed",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1604_5_3_7|",
+    "original": "You do your best to sound smart, using what little you remember from the booklet. Your paper is little more than a collection of doodles, but you show it with the projector regardless. The judges don't seem impressed.",
+    "translation": "",
+    "pos": 117
+  },
+  {
+    "passage": "Maths Competition Proceed",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1606_5_3_7|",
+    "original": "You present your solution. It's more a collection of ideas than anything solid, but people have presented worse.",
+    "translation": "",
+    "pos": 372
+  },
+  {
+    "passage": "Maths Competition Proceed",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1608_5_3_7|",
+    "original": "You present your solution. The judges look bored for the most part, but one of the suited guest raises their eyebrows. You hope that's a good thing.",
+    "translation": "",
+    "pos": 522
+  },
+  {
+    "passage": "Maths Competition Proceed",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1610_5_3_7|",
+    "original": "Your solution for the maths competition lies on the desk in front of you. There's a lot of room for improvement.",
+    "translation": "",
+    "pos": 708
+  },
+  {
+    "passage": "Maths Competition Proceed",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1612_5_3_7|",
+    "original": "Your solution for the maths competition lies on the desk in front of you. It's not complete, but it represents an impressive effort.",
+    "translation": "",
+    "pos": 858
+  },
+  {
+    "passage": "Maths Competition Proceed",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1614_5_3_7|",
+    "original": "You present your solution. The suited guests keep glancing at each other. They look impressed. River looks a little proud.",
+    "translation": "",
+    "pos": 1028
+  },
+  {
+    "passage": "Maths Competition Proceed",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1616_5_3_7|",
+    "original": "You present your solution. The suited guests keep glancing at each other. They look impressed. River looks a little proud. As you continue the suited guests break into a quiet discussion. River looks awed. Leighton seems to be staring at something beneath your waistline.",
+    "translation": "",
+    "pos": 1161
+  },
+  {
+    "passage": "Maths Competition Proceed",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1618_5_3_7|",
+    "original": "River shakes <<his>> head. \"It's a good thing you went last,\" <<he>> says.",
+    "translation": "",
+    "pos": 1444
+  },
+  {
+    "passage": "Maths Competition Proceed",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1624_5_3_7|",
+    "original": "You pass the judges on the way down from the stage. You take your seat and wait for their decision.",
+    "translation": "",
+    "pos": 1736
+  },
+  {
+    "passage": "Maths Competition Proceed",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1626_5_3_7|",
+    "original": "<<link [[Next|Maths Competition End]]>><</link>>",
+    "translation": "",
+    "pos": 1849
+  },
+  {
+    "passage": "Maths Competition Proceed",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1629_5_3_7|",
+    "original": "<<link [[Next|Maths Competition Exposure]]>><</link>>",
+    "translation": "",
+    "pos": 1917
+  },
+  {
+    "passage": "Maths Competition Proceed",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1633_5_3_7|",
+    "original": "You pass the judges on the way down from the stage. You take your seat and wait for their decision.",
+    "translation": "",
+    "pos": 1997
+  },
+  {
+    "passage": "Maths Competition Proceed",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1635_5_3_7|",
+    "original": "<<link [[Next|Maths Competition End]]>><</link>>",
+    "translation": "",
+    "pos": 2108
+  },
+  {
+    "passage": "Maths Competition Exposure",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1643_5_3_7|",
+    "original": "You feel a tug on your $worn.lower.name. You look down just in time to see it flare up, pulled by some invisible force. You push down the front of the hem fast enough to prevent your <<undies>> being revealed, but you feel cool air on your <<bottom>>.",
+    "translation": "",
+    "pos": 136
+  },
+  {
+    "passage": "Maths Competition Exposure",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1645_5_3_7|",
+    "original": "You hear giggles and murmuring from the audience. <<npc River>><<person1>>River puts <<his>> hands over <<his>> eyes. One of the suited guests raises a hand to their mouth. The other looks away, blushing. Leighton is smiling.",
+    "translation": "",
+    "pos": 399
+  },
+  {
+    "passage": "Maths Competition Exposure",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1647_5_3_7|",
+    "original": "You realise how little you managed to keep down. Enough to keep your privates concealed, but everyone can see what you're wearing beneath. You feel blood rush to your face.",
+    "translation": "",
+    "pos": 636
+  },
+  {
+    "passage": "Maths Competition Exposure",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1653_5_3_7|",
+    "original": "\"No underwear,\" Whitney says. \"Perfect.\" <<Hes>> tugging at the air, as if holding something.",
+    "translation": "",
+    "pos": 953
+  },
+  {
+    "passage": "Maths Competition Exposure",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1656_5_3_7|",
+    "original": "\"Nice underwear,\" Whitney says. \"And you're so eager to show it off.\" <<Hes>> tugging at the air, as if holding something.",
+    "translation": "",
+    "pos": 1070
+  },
+  {
+    "passage": "Maths Competition Exposure",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1659_5_3_7|",
+    "original": "You feel around with your free hand and find it. A wire is attached to your skirt. It must be looped around something in the rafters. The tugging at the back and sides suggests there are more than one.",
+    "translation": "",
+    "pos": 1214
+  },
+  {
+    "passage": "Maths Competition Exposure",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1661_5_3_7|",
+    "original": "Whitney's friends line up behind <<him>> and grasp at the air, trying to find the wire. They are preparing for a mighty pull.",
+    "translation": "",
+    "pos": 1427
+  },
+  {
+    "passage": "Maths Competition Exposure",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1663_5_3_7|",
+    "original": "<<link [[Protect your dignity|Maths Competition Protect Skirt]]>><<stress 6>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 1564
+  },
+  {
+    "passage": "Maths Competition Exposure",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1665_5_3_7|",
+    "original": "<<link [[Finish the presentation|Maths Competition Finish Skirt]]>><<stress 12>><<trauma 6>><<set $mathschance += 10>><</link>><<gtrauma>><<ggstress>><<note \"+ Success Chance\" \"gold\">>",
+    "translation": "",
+    "pos": 1669
+  },
+  {
+    "passage": "Maths Competition Exposure",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1668_5_3_7|",
+    "original": "You feel a tug on your $worn.lower.name. You look down just in time to see it lurch down, pulled by some invisible force. You grab the front of the hem fast enough to prevent your <<undies>> being revealed, but you feel cool air on your <<bottom>>.",
+    "translation": "",
+    "pos": 1870
+  },
+  {
+    "passage": "Maths Competition Exposure",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1670_5_3_7|",
+    "original": "You hear giggles and murmuring from the audience. <<npc River>><<person1>>River puts <<his>> hands over <<his>> eyes. One of the suited guests raises a hand to their mouth. The other looks away, blushing. Leighton is smiling.",
+    "translation": "",
+    "pos": 2130
+  },
+  {
+    "passage": "Maths Competition Exposure",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1672_5_3_7|",
+    "original": "You realise how little you managed to keep up. Enough to keep your privates concealed, but everyone can see what you're wearing beneath. You feel blood rush to your face.",
+    "translation": "",
+    "pos": 2367
+  },
+  {
+    "passage": "Maths Competition Exposure",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1678_5_3_7|",
+    "original": "\"No underwear,\" Whitney says. \"Perfect.\" <<Hes>> tugging at the air, as if holding something.",
+    "translation": "",
+    "pos": 2682
+  },
+  {
+    "passage": "Maths Competition Exposure",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1681_5_3_7|",
+    "original": "\"Nice underwear,\" Whitney says. \"And you're so eager to show it off.\" <<Hes>> tugging at the air, as if holding something.",
+    "translation": "",
+    "pos": 2799
+  },
+  {
+    "passage": "Maths Competition Exposure",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1684_5_3_7|",
+    "original": "You feel around with your free hand and find it. A wire is attached to your bottoms. It must be looped around something beneath the stage. The tugging at the back and sides suggests there are more than one.",
+    "translation": "",
+    "pos": 2943
+  },
+  {
+    "passage": "Maths Competition Exposure",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1686_5_3_7|",
+    "original": "Whitney's friends line up behind <<him>> and grasp at the air, trying to find the wire. They are preparing for a mighty pull.",
+    "translation": "",
+    "pos": 3161
+  },
+  {
+    "passage": "Maths Competition Exposure",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1688_5_3_7|",
+    "original": "<<link [[Protect your dignity|Maths Competition Protect Shorts]]>><<stress 6>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 3298
+  },
+  {
+    "passage": "Maths Competition Exposure",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1690_5_3_7|",
+    "original": "<<link [[Finish the presentation|Maths Competition Finish Shorts]]>><<stress 12>><<trauma 6>><<set $mathschance += 10>><</link>><<gtrauma>><<ggstress>><<note \"+ Success Chance\" \"gold\">>",
+    "translation": "",
+    "pos": 3404
+  },
+  {
+    "passage": "Maths Competition Protect Skirt",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1700_5_3_7|",
+    "original": "You grasp the hem of your $worn.lower.name with both hands as Whitney and <<his>> friends tug. You manage to prevent them from revealing your <span class=\"pink\"><<undies>></span> to the audience, but the fabric covering you becomes even tighter.",
+    "translation": "",
+    "pos": 95
+  },
+  {
+    "passage": "Maths Competition Protect Skirt",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1703_5_3_7|",
+    "original": "The audience is alive with excitement. Some look away, but most stare in astonishment, or pull phones from their pockets. Leighton sits on the edge of <<endevent>><<npc Leighton>><<person1>><<his>> seat. <<endevent>><<npc River>><<person1>>River remains completely still, hands covering <<his>> eyes.",
+    "translation": "",
+    "pos": 351
+  },
+  {
+    "passage": "Maths Competition Protect Skirt",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1706_5_3_7|",
+    "original": "The photographer now darts around in front of the stage, taking pictures of the struggle from every angle. Perhaps waiting for the moment you're exposed in front of everyone.",
+    "translation": "",
+    "pos": 662
+  },
+  {
+    "passage": "Maths Competition Protect Skirt",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1709_5_3_7|",
+    "original": "Whitney and friends stop pulling for a moment, but only to reposition in the aisle so they can put their backs into it. The force almost lifts you off the ground.",
+    "translation": "",
+    "pos": 885
+  },
+  {
+    "passage": "Maths Competition Protect Skirt",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1712_5_3_7|",
+    "original": "You feel a slackness as one of the wires snaps, soon followed by the others. Whitney and <<his>> friends fall backwards. You almost fall over yourself. Your skirt floats back where it belongs. You spend a few moments removing the hooks.",
+    "translation": "",
+    "pos": 1058
+  },
+  {
+    "passage": "Maths Competition Protect Skirt",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1715_5_3_7|",
+    "original": "<<endevent>><<npc Leighton>><<person1>>\"That's enough,\" Leighton says. \"Time to wrap up.\"",
+    "translation": "",
+    "pos": 1305
+  },
+  {
+    "passage": "Maths Competition Protect Skirt",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1719_5_3_7|",
+    "original": "\"B-but I haven't finished,\" you say.",
+    "translation": "",
+    "pos": 1440
+  },
+  {
+    "passage": "Maths Competition Protect Skirt",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1721_5_3_7|",
+    "original": "\"I'm not done yet,\" you say.",
+    "translation": "",
+    "pos": 1518
+  },
+  {
+    "passage": "Maths Competition Protect Skirt",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1723_5_3_7|",
+    "original": "\"But I still need to-\" you begin to protest. Leighton interrupts.",
+    "translation": "",
+    "pos": 1557
+  },
+  {
+    "passage": "Maths Competition Protect Skirt",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1727_5_3_7|",
+    "original": "\"I said that's enough,\" <<he>> says. \"I have places to be.\"",
+    "translation": "",
+    "pos": 1641
+  },
+  {
+    "passage": "Maths Competition Protect Skirt",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1730_5_3_7|",
+    "original": "You pass the judges on the way down from the stage. You take your seat and wait for their decision.",
+    "translation": "",
+    "pos": 1711
+  },
+  {
+    "passage": "Maths Competition Protect Skirt",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1733_5_3_7|",
+    "original": "<<link [[Next|Maths Competition End]]>><</link>>",
+    "translation": "",
+    "pos": 1821
+  },
+  {
+    "passage": "Maths Competition Protect Shorts",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1741_5_3_7|",
+    "original": "You grasp the hem of your $worn.lower.name with both hands as Whitney and <<his>> friends tug. You prevent them from revealing your <span class=\"pink\"><<undies>></span> to the audience, but the fabric covering you becomes even tighter.",
+    "translation": "",
+    "pos": 94
+  },
+  {
+    "passage": "Maths Competition Protect Shorts",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1744_5_3_7|",
+    "original": "The audience is alive with excitement. Some look away, but most stare in astonishment, or pull phones from their pockets. Leighton sits on the edge of <<endevent>><<npc Leighton>><<person1>><<his>> seat. <<endevent>><<npc River>><<person1>>River remains completely still, hands covering <<his>> eyes.",
+    "translation": "",
+    "pos": 340
+  },
+  {
+    "passage": "Maths Competition Protect Shorts",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1747_5_3_7|",
+    "original": "The photographer now darts around in front of the stage, taking pictures of the struggle from every angle. Perhaps waiting for the moment you're exposed in front of everyone.",
+    "translation": "",
+    "pos": 651
+  },
+  {
+    "passage": "Maths Competition Protect Shorts",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1750_5_3_7|",
+    "original": "Whitney and friends stop pulling for a moment, but only to reposition in the aisle so they can put their backs into it. The force almost forces you to the ground.",
+    "translation": "",
+    "pos": 874
+  },
+  {
+    "passage": "Maths Competition Protect Shorts",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1753_5_3_7|",
+    "original": "You feel a slackness as one of the wires snaps, soon followed by the others. Whitney and <<his>> friends fall backwards. You almost fall over yourself. You pull your $worn.lower.name back where it belongs. You spend a few moments removing the hooks.",
+    "translation": "",
+    "pos": 1047
+  },
+  {
+    "passage": "Maths Competition Protect Shorts",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1756_5_3_7|",
+    "original": "<<endevent>><<npc Leighton>><<person1>>\"That's enough,\" Leighton says. \"Time to wrap up.\"",
+    "translation": "",
+    "pos": 1307
+  },
+  {
+    "passage": "Maths Competition Protect Shorts",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1760_5_3_7|",
+    "original": "\"B-but I haven't finished,\" you say.",
+    "translation": "",
+    "pos": 1442
+  },
+  {
+    "passage": "Maths Competition Protect Shorts",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1762_5_3_7|",
+    "original": "\"I'm not done yet,\" you say.",
+    "translation": "",
+    "pos": 1520
+  },
+  {
+    "passage": "Maths Competition Protect Shorts",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1764_5_3_7|",
+    "original": "\"But I still need to-\" you begin to protest. Leighton interrupts.",
+    "translation": "",
+    "pos": 1559
+  },
+  {
+    "passage": "Maths Competition Protect Shorts",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1767_5_3_7|",
+    "original": "\"I said that's enough,\" <<he>> says. \"I have places to be.\"",
+    "translation": "",
+    "pos": 1642
+  },
+  {
+    "passage": "Maths Competition Protect Shorts",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1770_5_3_7|",
+    "original": "You pass the judges on the way down from the stage. You take your seat and wait for their decision.",
+    "translation": "",
+    "pos": 1712
+  },
+  {
+    "passage": "Maths Competition Protect Shorts",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1773_5_3_7|",
+    "original": "<<link [[Next|Maths Competition End]]>><</link>>",
+    "translation": "",
+    "pos": 1822
+  },
+  {
+    "passage": "Maths Competition Finish Skirt",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1785_5_3_7|",
+    "original": "You keep your skirt held down with one hand and continue with the presentation. Whitney's friends join in the tugging. Your $worn.lower.name becomes tighter, until just a finger of fabric protects your <<genitals>> from the audience.",
+    "translation": "",
+    "pos": 259
+  },
+  {
+    "passage": "Maths Competition Finish Skirt",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1788_5_3_7|",
+    "original": "Leighton and most of the crowd sit on the edge of their seats. <<endevent>><<npc River>><<person1>>River keeps <<his>> eyes covered, but the guests watch with horrified expressions. With a final tug, your $worn.lower.name <<lowerplural>> torn free from your grip, <span class=\"pink\">exposing you to the crowd.</span>",
+    "translation": "",
+    "pos": 503
+  },
+  {
+    "passage": "Maths Competition Finish Skirt",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1791_5_3_7|",
+    "original": "Gasps and laughter fill the hall. Some look away, but most stare in astonishment, or pull phones from their pockets. River might have fainted.",
+    "translation": "",
+    "pos": 830
+  },
+  {
+    "passage": "Maths Competition Finish Skirt",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1795_5_3_7|",
+    "original": "\"<<pShe>> has both!\" someone shouts.",
+    "translation": "",
+    "pos": 1064
+  },
+  {
+    "passage": "Maths Competition Finish Skirt",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1797_5_3_7|",
+    "original": "\"I can't believe it.\"",
+    "translation": "",
+    "pos": 1108
+  },
+  {
+    "passage": "Maths Competition Finish Skirt",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1799_5_3_7|",
+    "original": "\"Wait, so where does the pussy start and where does the penis end?\"",
+    "translation": "",
+    "pos": 1137
+  },
+  {
+    "passage": "Maths Competition Finish Skirt",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1801_5_3_7|",
+    "original": "\"Quick, take a picture! No one will believe otherwise!\"",
+    "translation": "",
+    "pos": 1212
+  },
+  {
+    "passage": "Maths Competition Finish Skirt",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1803_5_3_7|",
+    "original": "\"Do you think <<pshe>> can fuck <<pherself>>?\"",
+    "translation": "",
+    "pos": 1275
+  },
+  {
+    "passage": "Maths Competition Finish Skirt",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1806_5_3_7|",
+    "original": "\"That belly... did <<pshe>> literally impregnate <<pherself>>?\"",
+    "translation": "",
+    "pos": 1359
+  },
+  {
+    "passage": "Maths Competition Finish Skirt",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1813_5_3_7|",
+    "original": "\"He's a boy!\" someone shouts.",
+    "translation": "",
+    "pos": 1626
+  },
+  {
+    "passage": "Maths Competition Finish Skirt",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1815_5_3_7|",
+    "original": "\"Is he some kind of pervert?\"",
+    "translation": "",
+    "pos": 1665
+  },
+  {
+    "passage": "Maths Competition Finish Skirt",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1817_5_3_7|",
+    "original": "\"I bet he's doing this on purpose.\"",
+    "translation": "",
+    "pos": 1704
+  },
+  {
+    "passage": "Maths Competition Finish Skirt",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1820_5_3_7|",
+    "original": "\"She's a girl!\" someone shouts.",
+    "translation": "",
+    "pos": 1759
+  },
+  {
+    "passage": "Maths Competition Finish Skirt",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1822_5_3_7|",
+    "original": "\"Is she some kind of slut?\"",
+    "translation": "",
+    "pos": 1800
+  },
+  {
+    "passage": "Maths Competition Finish Skirt",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1824_5_3_7|",
+    "original": "\"I bet she's doing this on purpose.\"",
+    "translation": "",
+    "pos": 1837
+  },
+  {
+    "passage": "Maths Competition Finish Skirt",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1830_5_3_7|",
+    "original": "With a shaking voice you try to talk through your solution as if nothing is amiss. <<if $worn.under_lower.type.includes(\"naked\")>> As if your <<genitals>> does not have the attention of everyone in the room. <</if>>The photographer darts around in front of the stage, taking pictures of you from every angle.",
+    "translation": "",
+    "pos": 1930
+  },
+  {
+    "passage": "Maths Competition Finish Skirt",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1833_5_3_7|",
+    "original": "You reach the end of your presentation. The audience cheers and applauds. You feel around for the hooks, and remove them one by one. Your skirt falls back into place, covering your <<undies>>. Whitney leans back and smirks.",
+    "translation": "",
+    "pos": 2249
+  },
+  {
+    "passage": "Maths Competition Finish Skirt",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1836_5_3_7|",
+    "original": "\"Very good,\" Leighton says. <<He>> shakes River awake.",
+    "translation": "",
+    "pos": 2522
+  },
+  {
+    "passage": "Maths Competition Finish Skirt",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1839_5_3_7|",
+    "original": "Heart still thumping, you step down from the stage. You take your seat and wait for judges' decision.",
+    "translation": "",
+    "pos": 2587
+  },
+  {
+    "passage": "Maths Competition Finish Skirt",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1843_5_3_7|",
+    "original": "<<link [[Next|Maths Competition End]]>><</link>>",
+    "translation": "",
+    "pos": 2712
+  },
+  {
+    "passage": "Maths Competition Finish Shorts",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1855_5_3_7|",
+    "original": "You keep your clothes held up with one hand and continue with the presentation. Whitney's friends join in the tugging. Your $worn.lower.name becomes tighter, until just a finger of fabric protects your <<genitals>> from the audience.",
+    "translation": "",
+    "pos": 259
+  },
+  {
+    "passage": "Maths Competition Finish Shorts",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1858_5_3_7|",
+    "original": "Leighton and most of the crowd sit on the edge of their seats. <<endevent>><<npc River>><<person1>>River keeps <<his>> eyes covered, but the guests watch with horrified expressions. With a final tug, your $worn.lower.name <<lowerplural>> torn free from your grip, <span class=\"pink\">exposing you to the crowd.</span>",
+    "translation": "",
+    "pos": 503
+  },
+  {
+    "passage": "Maths Competition Finish Shorts",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1861_5_3_7|",
+    "original": "Gasps and laughter fill the hall. Some look away, but most stare in astonishment, or pull phones from their pockets. River might have fainted.",
+    "translation": "",
+    "pos": 830
+  },
+  {
+    "passage": "Maths Competition Finish Shorts",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1865_5_3_7|",
+    "original": "\"<<pShe>> has both!\" someone shouts.",
+    "translation": "",
+    "pos": 1064
+  },
+  {
+    "passage": "Maths Competition Finish Shorts",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1867_5_3_7|",
+    "original": "\"I can't believe it.\"",
+    "translation": "",
+    "pos": 1108
+  },
+  {
+    "passage": "Maths Competition Finish Shorts",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1869_5_3_7|",
+    "original": "\"Wait, so where does the pussy start and where does the penis end?\"",
+    "translation": "",
+    "pos": 1137
+  },
+  {
+    "passage": "Maths Competition Finish Shorts",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1871_5_3_7|",
+    "original": "\"Quick, take a picture! No one will believe otherwise!\"",
+    "translation": "",
+    "pos": 1212
+  },
+  {
+    "passage": "Maths Competition Finish Shorts",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1873_5_3_7|",
+    "original": "\"Do you think <<pshe>> can fuck <<pherself>>?\"",
+    "translation": "",
+    "pos": 1275
+  },
+  {
+    "passage": "Maths Competition Finish Shorts",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1876_5_3_7|",
+    "original": "\"That belly... did <<pshe>> literally impregnate <<pherself>>?\"",
+    "translation": "",
+    "pos": 1359
+  },
+  {
+    "passage": "Maths Competition Finish Shorts",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1883_5_3_7|",
+    "original": "\"He's a boy!\" someone shouts.",
+    "translation": "",
+    "pos": 1626
+  },
+  {
+    "passage": "Maths Competition Finish Shorts",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1885_5_3_7|",
+    "original": "\"Is he some kind of pervert?\"",
+    "translation": "",
+    "pos": 1665
+  },
+  {
+    "passage": "Maths Competition Finish Shorts",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1887_5_3_7|",
+    "original": "\"I bet he's doing this on purpose.\"",
+    "translation": "",
+    "pos": 1704
+  },
+  {
+    "passage": "Maths Competition Finish Shorts",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1890_5_3_7|",
+    "original": "\"She's a girl!\" someone shouts.",
+    "translation": "",
+    "pos": 1759
+  },
+  {
+    "passage": "Maths Competition Finish Shorts",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1892_5_3_7|",
+    "original": "\"Is she some kind of slut?\"",
+    "translation": "",
+    "pos": 1800
+  },
+  {
+    "passage": "Maths Competition Finish Shorts",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1894_5_3_7|",
+    "original": "\"I bet she's doing this on purpose.\"",
+    "translation": "",
+    "pos": 1837
+  },
+  {
+    "passage": "Maths Competition Finish Shorts",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1900_5_3_7|",
+    "original": "With a shaking voice you try to talk through your solution as if nothing is amiss. <<if $worn.under_lower.type.includes(\"naked\")>> As if your <<if $player.penisExist>><<penis>><<else>><<pussy>><</if>> does not have the attention of everyone in the room. <</if>>The photographer darts around in front of the stage, taking pictures of you from every angle.",
+    "translation": "",
+    "pos": 1931
+  },
+  {
+    "passage": "Maths Competition Finish Shorts",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1903_5_3_7|",
+    "original": "You reach the end of your presentation. The audience cheers and applauds. You crouch to feel around for the hooks, and remove them one by one. You pull your $worn.lower.name into place, covering your <<undies>>. Whitney leans back and smirks.",
+    "translation": "",
+    "pos": 2296
+  },
+  {
+    "passage": "Maths Competition Finish Shorts",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1906_5_3_7|",
+    "original": "\"Very good,\" Leighton says. <<He>> shakes River awake.",
+    "translation": "",
+    "pos": 2588
+  },
+  {
+    "passage": "Maths Competition Finish Shorts",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1909_5_3_7|",
+    "original": "Heart still thumping, you step down from the stage. You take your seat and wait for judges' decision.",
+    "translation": "",
+    "pos": 2653
+  },
+  {
+    "passage": "Maths Competition Finish Shorts",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1913_5_3_7|",
+    "original": "<<link [[Next|Maths Competition End]]>><</link>>",
+    "translation": "",
+    "pos": 2778
+  },
+  {
+    "passage": "Maths Competition End",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1920_5_3_7|",
+    "original": "Leighton, River and the two guests confer on stage for a moment.",
+    "translation": "",
+    "pos": 101
+  },
+  {
+    "passage": "Maths Competition End",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1922_5_3_7|",
+    "original": "Leighton seems to be arguing with the others.",
+    "translation": "",
+    "pos": 220
+  },
+  {
+    "passage": "Maths Competition End",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1924_5_3_7|",
+    "original": "River throws up <<nnpc_his \"River\">> hands in exasperation as Leighton steps up to the microphone and clears <<his>> throat.",
+    "translation": "",
+    "pos": 298
+  },
+  {
+    "passage": "Maths Competition End",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1926_5_3_7|",
+    "original": "<<He>> shakes <<his>> head, then steps up to the microphone and clears <<his>> throat.",
+    "translation": "",
+    "pos": 435
+  },
+  {
+    "passage": "Maths Competition End",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1931_5_3_7|",
+    "original": "\"We've made a decision,\" <<he>> says.",
+    "translation": "",
+    "pos": 551
+  },
+  {
+    "passage": "Maths Competition End",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1934_5_3_7|",
+    "original": "<span class=\"green\">\"The winner is the student with the <<haircolourtext>> hair.\" <<He>> points at you.</span> \"Come on up.\"",
+    "translation": "",
+    "pos": 620
+  },
+  {
+    "passage": "Maths Competition End",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1937_5_3_7|",
+    "original": "You climb the stage and shake Leighton's hand as <<he>> smiles for a waiting photographer. <<He>> hands you the trophy. There's <<printmoney 200000>><<money 200000 \"schoolProject\">> inside.",
+    "translation": "",
+    "pos": 757
+  },
+  {
+    "passage": "Maths Competition End",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1938_5_3_7|",
+    "original": "The audience cheers and applauds.",
+    "translation": "",
+    "pos": 948
+  },
+  {
+    "passage": "Maths Competition End",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1943_5_3_7|",
+    "original": "<<endevent>><<npc River>><<person1>>River struggles to look you in the eye. \"I expect you to get an A* on every exam from now on,\" <<he>> says. \"You've proven capable.\" <<He>> and Leighton herd you and the other students from the building. A few people try to grope you on the way out.",
+    "translation": "",
+    "pos": 1113
+  },
+  {
+    "passage": "Maths Competition End",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1947_5_3_7|",
+    "original": "<<endevent>><<npc River>><<person1>>River smiles. \"I expect you to get an A* on every exam from now on,\" <<he>> says. \"You've proven capable.\" <<He>> and Leighton herd you and the other students from the building.",
+    "translation": "",
+    "pos": 1460
+  },
+  {
+    "passage": "Maths Competition End",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1955_5_3_7|",
+    "original": "<<link [[Next|Cliff Street]]>><<unset $mathsexposed>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 1859
+  },
+  {
+    "passage": "Maths Competition End",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1959_5_3_7|",
+    "original": "<span class=\"red\"><<He>> announces that a <<person2>><<person>> is the winner.</span> <<He>> rushes up to accept <<his>> trophy.",
+    "translation": "",
+    "pos": 1988
+  },
+  {
+    "passage": "Maths Competition End",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1963_5_3_7|",
+    "original": "Leighton herds you and the other students from the hall. \"I appreciate your effort,\" River says to you on the way out. <<nnpc_He \"River\">> struggles to look you in the eye.",
+    "translation": "",
+    "pos": 2168
+  },
+  {
+    "passage": "Maths Competition End",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1966_5_3_7|",
+    "original": "A few people try to grope you on the way out.",
+    "translation": "",
+    "pos": 2391
+  },
+  {
+    "passage": "Maths Competition End",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1969_5_3_7|",
+    "original": "Leighton herds you and the other students from the hall. \"I appreciate your effort,\" River says to you on the way out, before being pulled away by one of the suited guests.",
+    "translation": "",
+    "pos": 2460
+  },
+  {
+    "passage": "Maths Competition End",
+    "filepath": "overworld-town/loc-school/maths-project.twee",
+    "key": "1977_5_3_7|",
+    "original": "<<link [[Next|Cliff Street]]>><<unset $mathsexposed>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 2750
+  }
+]

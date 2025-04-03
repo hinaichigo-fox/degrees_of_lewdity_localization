@@ -1,0 +1,2186 @@
+[
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "6_5_3_7|",
+    "original": "<<link \"Back\">><<unset $clothes_choice>><<updateclotheslist>><<set $retrieveShopCustomColor to {}>><</link>>",
+    "translation": "",
+    "pos": 153
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "8_5_3_7|",
+    "original": "<<link \"Back to shop\">><<unset $clothes_choice>><<updateclothingshop>><<set _shopNameFilter to \"\">><<set $retrieveShopCustomColor to {}>><</link>>",
+    "translation": "",
+    "pos": 276
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "37_5_3_7|",
+    "original": "<span class=\"green\">The filter is currently active!</span>",
+    "translation": "",
+    "pos": 1175
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "38_5_3_7|",
+    "original": "<<link \"Reset it\">>",
+    "translation": "",
+    "pos": 1236
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "57_5_3_7|",
+    "original": "<span class=\"searchButtons\">",
+    "translation": "",
+    "pos": 1689
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "58_5_3_7|",
+    "original": "Search: <<textbox \"_shopNameFilterTextbox\" _shopNameFilter>>",
+    "translation": "",
+    "pos": 1720
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "59_5_3_7|",
+    "original": "<<button Clear>>",
+    "translation": "",
+    "pos": 1783
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "66_5_3_7|",
+    "original": "<label><<checkbox \"$shopClothingFilter.availableOnly\" false true autocheck>> Hide unavailable items</label>",
+    "translation": "",
+    "pos": 2181
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "71_5_3_7|",
+    "original": "var shopTimer = null;",
+    "translation": "",
+    "pos": 2376
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "73_5_3_7|",
+    "original": "T.shopNameFilter = shopSearchReplacer(e.target.value);",
+    "translation": "",
+    "pos": 2466
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "74_5_3_7|",
+    "original": "clearTimeout(shopTimer);",
+    "translation": "",
+    "pos": 2524
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "75_5_3_7|",
+    "original": "shopTimer = setTimeout(updateShop, 300);",
+    "translation": "",
+    "pos": 2552
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "78_5_3_7|",
+    "original": "updateShop();",
+    "translation": "",
+    "pos": 2671
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "81_5_3_7|",
+    "original": "new Wikifier (null, \"<<shopCategoryReplace `clothingSlotToIconName($clothingShopSlot, _outfits)`>>\");",
+    "translation": "",
+    "pos": 2721
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "82_5_3_7|",
+    "original": "$('#textbox--shopnamefiltertextbox').focus();",
+    "translation": "",
+    "pos": 2826
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "88_5_3_7|",
+    "original": "and ($clothingShopSlot === 'all'",
+    "translation": "",
+    "pos": 3038
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "89_5_3_7|",
+    "original": "or",
+    "translation": "",
+    "pos": 3074
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "90_5_3_7|",
+    "original": "(_outfits and x.outfitPrimary isnot undefined and Object.keys(x.outfitPrimary).some(secSlot => secSlot.includes(\"lower\")))",
+    "translation": "",
+    "pos": 3080
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "91_5_3_7|",
+    "original": "or",
+    "translation": "",
+    "pos": 3206
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "92_5_3_7|",
+    "original": "(!_outfits and (x.outfitPrimary is undefined or Object.keys(x.outfitPrimary).every(secSlot => !secSlot.includes(\"lower\")))))",
+    "translation": "",
+    "pos": 3212
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "93_5_3_7|",
+    "original": "and (_shopNameFilter is '' or x.name.includes(_shopNameFilter.toLowerCase()))",
+    "translation": "",
+    "pos": 3339
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "95_5_3_7|",
+    "original": "(setup.clothingLayer.torso.includes(V.clothingShopSlot) and x.reveal < earSlimeCorruptionClothes() and !x.type.includesAny(\"school\", \"event\")) or",
+    "translation": "",
+    "pos": 3469
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "96_5_3_7|",
+    "original": "(V.earSlime.forcedDressing and V.earSlime.forcedDressing.days gt 0 and x.gender isnot V.earSlime.forcedDressing.type and x.gender isnot \"n\" and !x.type.includesAny(\"event\")) or",
+    "translation": "",
+    "pos": 3618
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "97_5_3_7|",
+    "original": "(playerBellySize() >= 12 and x.type.includes(\"constricting\"))",
+    "translation": "",
+    "pos": 3798
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "144_5_3_7|",
+    "original": "<<set _disabled = $shopPage > 0 ? \"\" : \"disabled\">>",
+    "translation": "",
+    "pos": 5369
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "146_5_3_7|",
+    "original": "<<link \"Previous\">>",
+    "translation": "",
+    "pos": 5485
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "147_5_3_7|",
+    "original": "<<if $shopPage > 0>>",
+    "translation": "",
+    "pos": 5509
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "152_5_3_7|",
+    "original": "<div class=\"btn-pagination-arrow\">&lt;</div>",
+    "translation": "",
+    "pos": 5618
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "157_5_3_7|",
+    "original": "<<set _active = _i == $shopPage ? \"active\" : \"\">>",
+    "translation": "",
+    "pos": 5775
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "168_5_3_7|",
+    "original": "<<print ($shopPage + 1) + \" out of \" + _maxPage>>",
+    "translation": "",
+    "pos": 6064
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "170_5_3_7|",
+    "original": "<<set _disabled = $shopPage < _maxPage - 1 ? \"\" : \"disabled\">>",
+    "translation": "",
+    "pos": 6125
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "172_5_3_7|",
+    "original": "<<link \"Next\">>",
+    "translation": "",
+    "pos": 6252
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "173_5_3_7|",
+    "original": "<<if $shopPage < _maxPage - 1>>",
+    "translation": "",
+    "pos": 6272
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "178_5_3_7|",
+    "original": "<div class=\"btn-pagination-arrow\">&gt;</div>",
+    "translation": "",
+    "pos": 6392
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "184_5_3_7|",
+    "original": "let pagination = $('#shop-pagination');",
+    "translation": "",
+    "pos": 6631
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "185_5_3_7|",
+    "original": "let pages = $(pagination).find('.shop-pages');",
+    "translation": "",
+    "pos": 6673
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "186_5_3_7|",
+    "original": "let buttons = $(pagination).find('.btn-pagination');",
+    "translation": "",
+    "pos": 6722
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "187_5_3_7|",
+    "original": "let isEnoughSpace = (pagination.width() - buttons.outerWidth() * 2 - 32) / pages.children().length >= 22;",
+    "translation": "",
+    "pos": 6777
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "189_5_3_7|",
+    "original": "pages.toggleClass('hidden', !isEnoughSpace);",
+    "translation": "",
+    "pos": 6886
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "190_5_3_7|",
+    "original": "pagination.find('.shop-pages-number').toggleClass('hidden', isEnoughSpace);",
+    "translation": "",
+    "pos": 6933
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "196_5_3_7|",
+    "original": "<span class=\"button-icon\"><img src=\"img/misc/icon/filter.png\"></span>",
+    "translation": "",
+    "pos": 7119
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "198_5_3_7|",
+    "original": "Filters",
+    "translation": "",
+    "pos": 7203
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "206_5_3_7|",
+    "original": "<div id=\"filters\" class=\"no-click-overlay no-numberify hidden\" onclick=\"$(this).addClass('hidden')\">",
+    "translation": "",
+    "pos": 7387
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "213_5_3_7|",
+    "original": "<span class=\"button-icon\"><img src=\"img/misc/icon/options.png\"></span>",
+    "translation": "",
+    "pos": 7689
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "215_5_3_7|",
+    "original": "Opt.",
+    "translation": "",
+    "pos": 7774
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "223_5_3_7|",
+    "original": "<div id=\"shop-options\" class=\"no-click-overlay no-numberify hidden\" onclick=\"$(this).addClass('hidden')\">",
+    "translation": "",
+    "pos": 7970
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "231_5_3_7|",
+    "original": "<span class=\"button-icon\"><img src=\"img/misc/icon/help.png\"></span>",
+    "translation": "",
+    "pos": 8314
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "233_5_3_7|",
+    "original": "Help",
+    "translation": "",
+    "pos": 8398
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "247_5_3_7|",
+    "original": "_maxW = Math.max($('.btn-pagination.next').width(), $('.btn-pagination.prev').width());",
+    "translation": "",
+    "pos": 8706
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "248_5_3_7|",
+    "original": "$('.btn-pagination.prev').width(_maxW);",
+    "translation": "",
+    "pos": 8796
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "249_5_3_7|",
+    "original": "$('.btn-pagination.next').width(_maxW);",
+    "translation": "",
+    "pos": 8838
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "270_5_3_7|",
+    "original": "<<replace '#shop-pagination > .shop-pages-number'>><<print ($shopPage + 1) + \" out of \" + _maxPage>><</replace>>",
+    "translation": "",
+    "pos": 9827
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "278_5_3_7|",
+    "original": "<<set _hidden = _page == $shopPage ? \"\" : \" hidden\">>",
+    "translation": "",
+    "pos": 10188
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "279_5_3_7|",
+    "original": "<<set _compact = $shopDefaults.compactMode ? \"compact\" : \"\">>",
+    "translation": "",
+    "pos": 10243
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "330_5_3_7|",
+    "original": "<span class=\"clothing-gender\">",
+    "translation": "",
+    "pos": 12670
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "346_5_3_7|",
+    "original": "<span class=\"male blue bold\">♂</span>",
+    "translation": "",
+    "pos": 13245
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "348_5_3_7|",
+    "original": "<span class=\"female pink bold\">♀</span>",
+    "translation": "",
+    "pos": 13335
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "361_5_3_7|",
+    "original": "<span class=\"clothing-name\">",
+    "translation": "",
+    "pos": 13631
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "363_5_3_7|",
+    "original": "<span class=\"lblue\">_itemData.name_cap</span><span class=\"black\">&nbsp;| Locked</span>",
+    "translation": "",
+    "pos": 13688
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "367_5_3_7|",
+    "original": "<<link _itemData.name_cap>>",
+    "translation": "",
+    "pos": 13900
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "380_5_3_7|",
+    "original": "<span class=\"white\">",
+    "translation": "",
+    "pos": 14572
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "381_5_3_7|",
+    "original": "&nbsp;|",
+    "translation": "",
+    "pos": 14602
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "383_5_3_7|",
+    "original": "Owned:",
+    "translation": "",
+    "pos": 14646
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "385_5_3_7|",
+    "original": "$_count",
+    "translation": "",
+    "pos": 14679
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "389_5_3_7|",
+    "original": "<span class=\"gold\">&nbsp;| Unlocked</span>",
+    "translation": "",
+    "pos": 14750
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "397_5_3_7|",
+    "original": "<<print _specialClothesHint[_item.name.replace(/[- ]/g,\"\")]>>",
+    "translation": "",
+    "pos": 14925
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "401_5_3_7|",
+    "original": "<span class=\"clothing-price\"><<printmoney `getClothingCost(_item, $_realSlot)` true>></span>",
+    "translation": "",
+    "pos": 15045
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "405_5_3_7|",
+    "original": "<<set $_tooltip to `<span class=\"black\">Clothing durability:</span> <i class=\"${$_intInf[1]} normal\">${_item.integrity_max}</i>`>>",
+    "translation": "",
+    "pos": 15304
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "406_5_3_7|",
+    "original": "<div class=\"clothing-integrity\" @tooltip=\"$_tooltip\">",
+    "translation": "",
+    "pos": 15442
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "410_5_3_7|",
+    "original": "<span class=\"clothing-stats-text\">I.</span>",
+    "translation": "",
+    "pos": 15635
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "414_5_3_7|",
+    "original": "<span @class=\"'stats-ball ' + (_i < $_intInf[0] ? 'bg-' + $_intInf[1] : '')\">&nbsp;</span>",
+    "translation": "",
+    "pos": 15743
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "418_5_3_7|",
+    "original": "<<set $_tooltip to `<span class=\"black\">Clothing exposure:</span> <i class=\"${$_revInf[1]} normal\">${_item.reveal}</i>`>>",
+    "translation": "",
+    "pos": 15926
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "419_5_3_7|",
+    "original": "<div class=\"clothing-reveal\" @tooltip=\"$_tooltip\">",
+    "translation": "",
+    "pos": 16055
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "423_5_3_7|",
+    "original": "<span class=\"clothing-stats-text\">R.</span>",
+    "translation": "",
+    "pos": 16242
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "427_5_3_7|",
+    "original": "<span @class=\"'stats-ball ' + (_i < $_revInf[0] ? 'bg-' + $_revInf[1] : '')\">&nbsp;</span>",
+    "translation": "",
+    "pos": 16350
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "432_5_3_7|",
+    "original": "<<set $_tooltip to `<span class=\"black\">Clothing warmth:</span> <i class=\"orange normal\">${$_warmth}</i>`>>",
+    "translation": "",
+    "pos": 16582
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "433_5_3_7|",
+    "original": "<div class=\"clothing-warmth\" @tooltip=\"$_tooltip\">",
+    "translation": "",
+    "pos": 16697
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "437_5_3_7|",
+    "original": "<span class=\"clothing-stats-text\">W.</span>",
+    "translation": "",
+    "pos": 16884
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "440_5_3_7|",
+    "original": "<span class=\"stats-ball\" @style=\"(_i < $_warmth * 0.5 ? $_warInf : '')\">&nbsp;</span>",
+    "translation": "",
+    "pos": 16991
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "483_5_3_7|",
+    "original": "<<set _traitDesc to `<span class=\"black\">` + _traitObj.desc + `</span>`>>",
+    "translation": "",
+    "pos": 18531
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "484_5_3_7|",
+    "original": "<<set _traitDetails to `<i class=\"green normal\">` + (_traitObj.details isnot \"none\" ? \" \" + _traitObj.details : \"\") + `</i>`>>",
+    "translation": "",
+    "pos": 18607
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "485_5_3_7|",
+    "original": "<<set $_tooltip to _traitDesc + \"<br>\" + _traitDetails>>",
+    "translation": "",
+    "pos": 18736
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "486_5_3_7|",
+    "original": "<span @tooltip-title=\"_traitName\" @tooltip=\"$_tooltip\" tooltip-settings=\"{delay: 0}\">",
+    "translation": "",
+    "pos": 18795
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "487_5_3_7|",
+    "original": "<img @src=\"'img/misc/icon/clothes/traits/' + _args[0] + '.png'\" class=\"clothing-trait\">",
+    "translation": "",
+    "pos": 18884
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "492_5_3_7|",
+    "original": "<<if _args[1] is undefined>><span class=\"black\"><<print _traitObj.desc>></span><</if>>",
+    "translation": "",
+    "pos": 19130
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "510_5_3_7|",
+    "original": "<span class=\"gold\">Unlocked | </span><span class=\"grey\"><<print _specialClothesHint[_temp_choice.name.replace(/[- ]/g,\"\")]>></span>",
+    "translation": "",
+    "pos": 19830
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "518_5_3_7|",
+    "original": "A <<integrity $clothes_choice_integrity>>",
+    "translation": "",
+    "pos": 20088
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "520_5_3_7|",
+    "original": "and <<reveal $clothes_choice_reveal>> <<print _temp_choice.name>>.",
+    "translation": "",
+    "pos": 20142
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "522_5_3_7|",
+    "original": "<span class=\"lblue\">For boys.</span>",
+    "translation": "",
+    "pos": 20248
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "524_5_3_7|",
+    "original": "<span class=\"pink\">For girls.</span>",
+    "translation": "",
+    "pos": 20328
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "526_5_3_7|",
+    "original": "<<print _temp_choice.description>> Costs <<printmoney `getClothingCost(_temp_choice,$clothingShopSlot)`>>.",
+    "translation": "",
+    "pos": 20377
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "529_5_3_7|",
+    "original": "<<print setup.WeatherDescriptions.clothingWarmth(_truewarmth)>>",
+    "translation": "",
+    "pos": 20545
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "534_5_3_7|",
+    "original": "<span class=\"red\">The slime in your ear refuses to allow you to try on or buy the _temp_choice.name as it is forcing you to go commando.</span>",
+    "translation": "",
+    "pos": 20936
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "537_5_3_7|",
+    "original": "<span class=\"red\">The slime in your ear refuses to allow you to try on or buy the _temp_choice.name.</span>",
+    "translation": "",
+    "pos": 21252
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "540_5_3_7|",
+    "original": "<span class=\"red\">The slime in your ear refuses to allow you to try on or buy the _temp_choice.name as it is only permitting more <<print $earSlime.forcedDressing.type is \"f\" ? \"feminine\" : \"masculine\">> clothing.</span>",
+    "translation": "",
+    "pos": 21560
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "543_5_3_7|",
+    "original": "<span class=\"red\">The slime in your ear refuses to allow you to try on or wear the _temp_choice.name while not at an appropriate location.</span>",
+    "translation": "",
+    "pos": 22025
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "547_5_3_7|",
+    "original": "<span class=\"red\">The slime in your ear refuses to allow you to try on or wear the _temp_choice.name when you don't have school today.</span>",
+    "translation": "",
+    "pos": 22439
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "554_5_3_7|",
+    "original": "<<set _hiddenMannequin = $options.images is 1 ? \"\" : \"hidden\">>",
+    "translation": "",
+    "pos": 22728
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "560_5_3_7|",
+    "original": "<<set _translate = $options.images is 1 ? \"translate-colours-container\" : \"\">>",
+    "translation": "",
+    "pos": 22953
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "565_5_3_7|",
+    "original": "There's a range of colours to choose from:",
+    "translation": "",
+    "pos": 23276
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "572_5_3_7|",
+    "original": "Secondary colour:",
+    "translation": "",
+    "pos": 23531
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "604_5_3_7|",
+    "original": "<span>Warmth:</span>",
+    "translation": "",
+    "pos": 24511
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "612_5_3_7|",
+    "original": "<<link \"Previous Style\">>",
+    "translation": "",
+    "pos": 24688
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "619_5_3_7|",
+    "original": "<<link \"Next Style\">>",
+    "translation": "",
+    "pos": 25171
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "629_5_3_7|",
+    "original": "<span>Send items to:</span>",
+    "translation": "",
+    "pos": 25652
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "637_5_3_7|",
+    "original": "<<if _spaceLeft < 1>>",
+    "translation": "",
+    "pos": 25853
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "638_5_3_7|",
+    "original": "<span class=\"red\">Your wardrobe is full.</span>",
+    "translation": "",
+    "pos": 25879
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "647_5_3_7|",
+    "original": "<<link \"Steal and wear\">>",
+    "translation": "",
+    "pos": 26222
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "667_5_3_7|",
+    "original": "<<link \"Steal and take home\">>",
+    "translation": "",
+    "pos": 26943
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "680_5_3_7|",
+    "original": "<span class=\"red\">You can't carry any more clothes with you.</span> You should take them to your wardrobe.",
+    "translation": "",
+    "pos": 27445
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "683_5_3_7|",
+    "original": "<<elseif $money >= getClothingCost(_temp_choice,$clothingShopSlot)>>",
+    "translation": "",
+    "pos": 27577
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "691_5_3_7|",
+    "original": "<<set _cantWear = (_cursedPrevent == true || _preggyPrevent == true || _wearingBlocked ? \"disabled\" : \"div-link\")>>",
+    "translation": "",
+    "pos": 27805
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "695_5_3_7|",
+    "original": "Buy and wear",
+    "translation": "",
+    "pos": 28078
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "697_5_3_7|",
+    "original": "<<link \"Buy and wear\">>",
+    "translation": "",
+    "pos": 28115
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "728_5_3_7|",
+    "original": "<span class=\"pink\">You cannot afford this item.</span>",
+    "translation": "",
+    "pos": 29078
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "732_5_3_7|",
+    "original": "<<if _spaceLeft < 1>>",
+    "translation": "",
+    "pos": 29157
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "736_5_3_7|",
+    "original": "<<link \"Try On\">>",
+    "translation": "",
+    "pos": 29359
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "750_5_3_7|",
+    "original": "<<link \"Return\">>",
+    "translation": "",
+    "pos": 29803
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "795_5_3_7|",
+    "original": "<<set _canAfford = ($money >= _clothingCost * $buyMultiple and _spaceLeft >= $buyMultiple) ? \"\" : \"disabled\">>",
+    "translation": "",
+    "pos": 31921
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "798_5_3_7|",
+    "original": "<<link `'Buy and send home × ' + $buyMultiple`>>",
+    "translation": "",
+    "pos": 32133
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "799_5_3_7|",
+    "original": "<<if $money >= _clothingCost * $buyMultiple and _spaceLeft >= $buyMultiple>>",
+    "translation": "",
+    "pos": 32186
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "812_5_3_7|",
+    "original": "<span>(<span class=\"gold\"><<printmoney `_clothingCost * $buyMultiple`>></span>)</span>",
+    "translation": "",
+    "pos": 32650
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "822_5_3_7|",
+    "original": "let cost = getClothingCost(_temp_choice, $clothingShopSlot);",
+    "translation": "",
+    "pos": 33143
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "823_5_3_7|",
+    "original": "let el = $('#buy-send-home > .buy-button > .buy-button-inner > a');",
+    "translation": "",
+    "pos": 33208
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "824_5_3_7|",
+    "original": "let text = el.text().split(' ');",
+    "translation": "",
+    "pos": 33280
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "825_5_3_7|",
+    "original": "text.pop();",
+    "translation": "",
+    "pos": 33317
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "826_5_3_7|",
+    "original": "text.push($buyMultiple);",
+    "translation": "",
+    "pos": 33333
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "827_5_3_7|",
+    "original": "el.text(text.join(' '));",
+    "translation": "",
+    "pos": 33362
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "829_5_3_7|",
+    "original": "$('#buy-send-home > .buy-button > .buy-button-inner > span > span').text('£' + cost * $buyMultiple / 100);",
+    "translation": "",
+    "pos": 33392
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "830_5_3_7|",
+    "original": "$('#buy-send-home > .buy-button > .buy-button-inner').toggleClass('disabled', $money < cost * $buyMultiple || _spaceLeft < $buyMultiple);",
+    "translation": "",
+    "pos": 33503
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "843_5_3_7|",
+    "original": "<<set _colourType = _args[0] == \"secondary\" ? \"accessory_colour_options\" : \"colour_options\">>",
+    "translation": "",
+    "pos": 33890
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "859_5_3_7|",
+    "original": "<<set _acc = _args[0] == \"secondary\" ? \"secondary\" : \"primary\">>",
+    "translation": "",
+    "pos": 34677
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "862_5_3_7|",
+    "original": "<<set _highContrast = $shopDefaults.highContrast ? \"colour-name-span-highcontrast\" : \"colour-name-span\">>",
+    "translation": "",
+    "pos": 34786
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "865_5_3_7|",
+    "original": "<<set _active = (_acc == \"primary\" ? $colouraction : $accessorycolouraction) == _buttonName ? \"active\" : \"\">>",
+    "translation": "",
+    "pos": 35007
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "867_5_3_7|",
+    "original": "<div @class=\"'bg-' + _buttonName.replace(/ /g, '-')\">",
+    "translation": "",
+    "pos": 35175
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "876_5_3_7|",
+    "original": "<span @class=\"'capitalize ' + _highContrast\">_buttonName</span>",
+    "translation": "",
+    "pos": 35470
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "885_5_3_7|",
+    "original": "<<set _colour = (_args[0] == \"secondary\" ? _temp_choice.accessory_colour_options : _temp_choice.colour_options).filter(x => x !== \"random\").pluck()>>",
+    "translation": "",
+    "pos": 35939
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "922_5_3_7|",
+    "original": "<<set _hidden = $accessorycolouraction == \"custom\" ? \"\" : \" hidden\">>",
+    "translation": "",
+    "pos": 37530
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "924_5_3_7|",
+    "original": "<<set _hidden = $colouraction == \"custom\" ? \"\" : \" hidden\">>",
+    "translation": "",
+    "pos": 37612
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "940_5_3_7|",
+    "original": "<div class=\"colour-slider text-align-center elem-fill-available\"><span class=\"colour-slider-caption\">Contrast</span><<numberslider _varCon $customColors.contrast[_acc] 0 4 0.01>></div>",
+    "translation": "",
+    "pos": 38786
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "945_5_3_7|",
+    "original": "<<listbox \"_preset_choice[_acc]\" autoselect>>",
+    "translation": "",
+    "pos": 39169
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "947_5_3_7|",
+    "original": "<<optionsfrom {...{'---': '---'}, ...Object.keys($customColors.presets).reduce((acc, val) => ({...acc, [($customColors.presets[val].ver >= 2 ? '' : '[L] ') + val]: val }), {})}>>",
+    "translation": "",
+    "pos": 39341
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "949_5_3_7|",
+    "original": "<<set _delDisabled = Object.keys($customColors.presets).includes(_preset_choice[_acc]) ? \"\" : \"disabled\">>",
+    "translation": "",
+    "pos": 39543
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "951_5_3_7|",
+    "original": "<<if $options.images is 1>><img src=\"img/misc/icon/delete.png\"><<else>>Del<</if>>",
+    "translation": "",
+    "pos": 39717
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "953_5_3_7|",
+    "original": "<<if _preset_choice[_acc] and $customColors.presets[_preset_choice[_acc]] and confirm('Delete preset \"' + _preset_choice[_acc] + '\"?')>>",
+    "translation": "",
+    "pos": 39824
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "962_5_3_7|",
+    "original": "<<if $options.images is 1>><img src=\"img/misc/icon/save.png\"><<else>>Save<</if>>",
+    "translation": "",
+    "pos": 40187
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "974_5_3_7|",
+    "original": "<span class=\"capitalize colour-name-span\">import</span>",
+    "translation": "",
+    "pos": 40610
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "984_5_3_7|",
+    "original": "<span class=\"capitalize colour-name-span\">export</span>",
+    "translation": "",
+    "pos": 40944
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1011_5_3_7|",
+    "original": "<span class=\"blue\">You can't wear this item without first removing your",
+    "translation": "",
+    "pos": 41666
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1012_5_3_7|",
+    "original": "<<set _preventClothes = _preventSlots.map(x => $worn[x].name)>>",
+    "translation": "",
+    "pos": 41739
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1013_5_3_7|",
+    "original": "<<print formatList(_preventClothes)>>.</span>",
+    "translation": "",
+    "pos": 41804
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1022_5_3_7|",
+    "original": "<span class=\"red\">Your pregnant body is too sensitive to wear _blockedItemWord _blockedItem.name.</span>",
+    "translation": "",
+    "pos": 42084
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1024_5_3_7|",
+    "original": "<span class=\"red\">Your <<bellyDescription \"pc\">> is too large to wear _blockedItemWord _blockedItem.name.</span>",
+    "translation": "",
+    "pos": 42203
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1027_5_3_7|",
+    "original": "<span class=\"red\">ERROR: No argument provided for widget printpreggy</span>",
+    "translation": "",
+    "pos": 42338
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1055_5_3_7|",
+    "original": "You _action the <<print setup.clothes[_slot][_choice_index].name>>.",
+    "translation": "",
+    "pos": 43114
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1099_5_3_7|",
+    "original": "<<if _item.colour_options.length > 0>>",
+    "translation": "",
+    "pos": 44467
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1104_5_3_7|",
+    "original": "<<if _item.accessory_colour_options.length > 0>>",
+    "translation": "",
+    "pos": 44698
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1121_5_3_7|",
+    "original": "<<set _mannequinGender to ($player.gender is \"f\" ? \"m\" : \"f\")>>",
+    "translation": "",
+    "pos": 45442
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1134_5_3_7|",
+    "original": "<<set _clothed = (((_slot != \"under_upper\" and $options.neverNudeMenus) or (_slot == \"under_upper\" and !_item.type.includes(\"naked\"))) and _breastImg >= 2) ? \"_clothed\" : \"\">>",
+    "translation": "",
+    "pos": 45912
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1146_5_3_7|",
+    "original": "<<set _modeloptions.breasts to _breastImg ? (_clothed ? \"cleavage\" : \"default\") : \"\">>",
+    "translation": "",
+    "pos": 46530
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1167_5_3_7|",
+    "original": "<<set _items_list = _items_list.concat(Object.keys(_item.outfitPrimary).map(s => { return {slot: s, item: setup.clothes[s].find(x => x.name == _item.outfitPrimary[s])} }))>>",
+    "translation": "",
+    "pos": 47516
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1178_5_3_7|",
+    "original": "getCustomClothesColourCanvasFilter($customColors.color.primary,",
+    "translation": "",
+    "pos": 48122
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1179_5_3_7|",
+    "original": "$customColors.saturation.primary,",
+    "translation": "",
+    "pos": 48197
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1180_5_3_7|",
+    "original": "$customColors.brightness.primary,",
+    "translation": "",
+    "pos": 48242
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1181_5_3_7|",
+    "original": "$customColors.contrast.primary);>>",
+    "translation": "",
+    "pos": 48287
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1188_5_3_7|",
+    "original": "getCustomClothesColourCanvasFilter($customColors.color.secondary,",
+    "translation": "",
+    "pos": 48552
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1189_5_3_7|",
+    "original": "$customColors.saturation.secondary,",
+    "translation": "",
+    "pos": 48629
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1190_5_3_7|",
+    "original": "$customColors.brightness.secondary,",
+    "translation": "",
+    "pos": 48676
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1191_5_3_7|",
+    "original": "$customColors.contrast.secondary);>>",
+    "translation": "",
+    "pos": 48723
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1197_5_3_7|",
+    "original": "<<set _modeloptions.arm_right to _position is \"right_cover\" ? \"cover\" : _position is \"idle\" ? \"idle\" : \"hold\">>",
+    "translation": "",
+    "pos": 48940
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1206_5_3_7|",
+    "original": "<<set _genderIcon = (_mannequinGender == \"m\" ? \"male\" : (_mannequinGender == \"f\" ? \"female\" : \"unisex\"))>>",
+    "translation": "",
+    "pos": 49292
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1209_5_3_7|",
+    "original": "<span class=\"capitalize\">_mannequinGender[0]</span>",
+    "translation": "",
+    "pos": 49481
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1221_5_3_7|",
+    "original": "<<link \"<span class='fa-icon fa-left-arrow'></span>\">>",
+    "translation": "",
+    "pos": 50014
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1230_5_3_7|",
+    "original": "_groupIndex",
+    "translation": "",
+    "pos": 50658
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1231_5_3_7|",
+    "original": "<<link \"<span class='fa-icon fa-right-arrow'></span>\">>",
+    "translation": "",
+    "pos": 50676
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1243_5_3_7|",
+    "original": "Toggle gender",
+    "translation": "",
+    "pos": 51363
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1281_5_3_7|",
+    "original": "<<replace #money-noimg>>You have <<printmoney $money true>><br><</replace>>",
+    "translation": "",
+    "pos": 52399
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1286_5_3_7|",
+    "original": "<div class=\"filters-div\" onclick=\"event.stopPropagation()\">",
+    "translation": "",
+    "pos": 52527
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1289_5_3_7|",
+    "original": "<<link \"Apply and Close\">>",
+    "translation": "",
+    "pos": 52699
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1298_5_3_7|",
+    "original": "<<link \"Reset All and Close\">>",
+    "translation": "",
+    "pos": 52975
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1305_5_3_7|",
+    "original": "<<link \"Select / Deselect All Traits\">>",
+    "translation": "",
+    "pos": 53183
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1316_5_3_7|",
+    "original": "<span class=\"bold gold\">Gender</span>",
+    "translation": "",
+    "pos": 53529
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1317_5_3_7|",
+    "original": "<label><<checkbox \"$shopClothingFilter.gender.female\" false true autocheck>> Female</label>",
+    "translation": "",
+    "pos": 53571
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1318_5_3_7|",
+    "original": "<label><<checkbox \"$shopClothingFilter.gender.neutral\" false true autocheck>> Unisex</label>",
+    "translation": "",
+    "pos": 53667
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1319_5_3_7|",
+    "original": "<label><<checkbox \"$shopClothingFilter.gender.male\" false true autocheck>> Male</label>",
+    "translation": "",
+    "pos": 53764
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1331_5_3_7|",
+    "original": "<span class=\"bold gold\">Warmth</span>",
+    "translation": "",
+    "pos": 54123
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1333_5_3_7|",
+    "original": "<label>from <<numberbox \"$shopClothingFilter.warmth.from\" $shopClothingFilter.warmth.from>></label>",
+    "translation": "",
+    "pos": 54205
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1334_5_3_7|",
+    "original": "<label>to <<numberbox \"$shopClothingFilter.warmth.to\" $shopClothingFilter.warmth.to>></label>",
+    "translation": "",
+    "pos": 54310
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1343_5_3_7|",
+    "original": "<span class=\"bold gold\">Sorting</span>",
+    "translation": "",
+    "pos": 54633
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1346_5_3_7|",
+    "original": "by",
+    "translation": "",
+    "pos": 54724
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1347_5_3_7|",
+    "original": "<<listbox \"$shopClothingFilter.sorting.prop\" autoselect>>",
+    "translation": "",
+    "pos": 54733
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1348_5_3_7|",
+    "original": "<<option \"Price\" \"price\">>",
+    "translation": "",
+    "pos": 54798
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1349_5_3_7|",
+    "original": "<<option \"Protection\" \"protection\">>",
+    "translation": "",
+    "pos": 54832
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1350_5_3_7|",
+    "original": "<<option \"Reveal\" \"reveal\">>",
+    "translation": "",
+    "pos": 54876
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1351_5_3_7|",
+    "original": "<<option \"Warmth\" \"warmth\">>",
+    "translation": "",
+    "pos": 54912
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1355_5_3_7|",
+    "original": "order",
+    "translation": "",
+    "pos": 54993
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1356_5_3_7|",
+    "original": "<<listbox \"$shopClothingFilter.sorting.order\" autoselect>>",
+    "translation": "",
+    "pos": 55005
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1357_5_3_7|",
+    "original": "<<option \"Ascending\" \"asc\">>",
+    "translation": "",
+    "pos": 55071
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1358_5_3_7|",
+    "original": "<<option \"Descending\" \"desc\">>",
+    "translation": "",
+    "pos": 55107
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1363_5_3_7|",
+    "original": "Enable",
+    "translation": "",
+    "pos": 55268
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1377_5_3_7|",
+    "original": "<span class=\"bold gold\">Filter outfit</span>",
+    "translation": "",
+    "pos": 55815
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1380_5_3_7|",
+    "original": "Outfit:",
+    "translation": "",
+    "pos": 55910
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1381_5_3_7|",
+    "original": "<<listbox \"$shopClothingFilter.outfit.index\" autoselect>>",
+    "translation": "",
+    "pos": 55923
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1382_5_3_7|",
+    "original": "<<optionsfrom getFilterOutfitOptions()>>",
+    "translation": "",
+    "pos": 55987
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1389_5_3_7|",
+    "original": "<span class=\"bold gold\">Traits</span>",
+    "translation": "",
+    "pos": 56135
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1391_5_3_7|",
+    "original": "<<set _traitsInThisShop = [...new Set(Object.keys(setup.clothes).flatMap(x => setup.clothes[x]).filter(x => x.shop.includes(_shopLocation)).flatMap(x => x.type))]>>",
+    "translation": "",
+    "pos": 56208
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1398_5_3_7|",
+    "original": "<<print '<input type=\"checkbox\" @id=\"_trait\" @value=\"_trait\" ' + _checked + ' onclick=\"window.shopClothingFilterToggleTrait(this.value)\">'>>",
+    "translation": "",
+    "pos": 56686
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1400_5_3_7|",
+    "original": "<<print _traitObj.name>>",
+    "translation": "",
+    "pos": 56867
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1402_5_3_7|",
+    "original": "<<set _traitDesc to `<span class=\"black\">` + _traitObj.desc + `</span>`>>",
+    "translation": "",
+    "pos": 56918
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1403_5_3_7|",
+    "original": "<<set _traitDetails to `<i class=\"green normal\">` + (_traitObj.details isnot \"none\" ? \" \" + _traitObj.details : \"\") + `</i>`>>",
+    "translation": "",
+    "pos": 57001
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1404_5_3_7|",
+    "original": "<<set $_tooltip to _traitDesc + \"<br>\" + _traitDetails>>",
+    "translation": "",
+    "pos": 57137
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1405_5_3_7|",
+    "original": "<div class=\"tooltip-anchor\" @tooltip=\"$_tooltip\">",
+    "translation": "",
+    "pos": 57203
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1406_5_3_7|",
+    "original": "_traitObj.name",
+    "translation": "",
+    "pos": 57263
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1426_5_3_7|",
+    "original": "<span class=\"bold gold\">Reveal</span>",
+    "translation": "",
+    "pos": 57676
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1428_5_3_7|",
+    "original": "<label>from <<listbox \"$shopClothingFilter.reveal.from\" autoselect>><<optionsfrom getFilterRevealOptions('from')>><</listbox>></label>",
+    "translation": "",
+    "pos": 57752
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1429_5_3_7|",
+    "original": "<label>to <<listbox \"$shopClothingFilter.reveal.to\" autoselect>><<optionsfrom getFilterRevealOptions('to')>><</listbox>></label>",
+    "translation": "",
+    "pos": 57889
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1436_5_3_7|",
+    "original": "<div class=\"options-div\" onclick=\"event.stopPropagation()\">",
+    "translation": "",
+    "pos": 58224
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1439_5_3_7|",
+    "original": "<<link \"Save and Close\">>",
+    "translation": "",
+    "pos": 58399
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1450_5_3_7|",
+    "original": "Default primary colour:",
+    "translation": "",
+    "pos": 58774
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1455_5_3_7|",
+    "original": "<span @class=\"_col\">_col</span>",
+    "translation": "",
+    "pos": 58917
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1460_5_3_7|",
+    "original": "Default secondary colour:",
+    "translation": "",
+    "pos": 58995
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1465_5_3_7|",
+    "original": "<span @class=\"_col\">_col</span>",
+    "translation": "",
+    "pos": 59143
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1473_5_3_7|",
+    "original": "Don't return to catalogue after buying an item.",
+    "translation": "",
+    "pos": 59302
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1479_5_3_7|",
+    "original": "Always show \"Back to shop\" button.",
+    "translation": "",
+    "pos": 59467
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1487_5_3_7|",
+    "original": "Colour items in catalogue:",
+    "translation": "",
+    "pos": 59651
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1488_5_3_7|",
+    "original": "<<listbox \"$shopDefaults.colourItems\" autoselect>>",
+    "translation": "",
+    "pos": 59682
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1489_5_3_7|",
+    "original": "<<option \"Disable\" \"disable\">>",
+    "translation": "",
+    "pos": 59738
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1490_5_3_7|",
+    "original": "<<option \"Use random colours\" \"random\">>",
+    "translation": "",
+    "pos": 59774
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1491_5_3_7|",
+    "original": "<<option \"Use default colour\" \"default\">>",
+    "translation": "",
+    "pos": 59820
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1497_5_3_7|",
+    "original": "Amount of items on each page of catalogue:",
+    "translation": "",
+    "pos": 59919
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1498_5_3_7|",
+    "original": "<<listbox \"$shopItemsPerPage\" autoselect>>",
+    "translation": "",
+    "pos": 59966
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1499_5_3_7|",
+    "original": "<<optionsfrom [4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32]>>",
+    "translation": "",
+    "pos": 60014
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1507_5_3_7|",
+    "original": "Use high contrast text on colour buttons.",
+    "translation": "",
+    "pos": 60254
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1509_5_3_7|",
+    "original": "&nbsp;&nbsp;Example:&nbsp;&nbsp;",
+    "translation": "",
+    "pos": 60313
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1510_5_3_7|",
+    "original": "<div class=\"colour-button\"><div class=\"bg-pink\"><span class=\"capitalize colour-name-span\">pink</span></div></div>",
+    "translation": "",
+    "pos": 60350
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1511_5_3_7|",
+    "original": "&nbsp;<span style=\"margin-right:0.25em\">vs</span>&nbsp;",
+    "translation": "",
+    "pos": 60468
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1512_5_3_7|",
+    "original": "<div class=\"colour-button\"><div class=\"bg-pink\"><span class=\"capitalize colour-name-span-highcontrast\">pink</span></div></div>",
+    "translation": "",
+    "pos": 60528
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1518_5_3_7|",
+    "original": "Set mannequin's gender to that of a clothing item (fallback to setting below for unisex).",
+    "translation": "",
+    "pos": 60770
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1522_5_3_7|",
+    "original": "Gender of the mannequin:",
+    "translation": "",
+    "pos": 60895
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1523_5_3_7|",
+    "original": "<<listbox \"$shopDefaults.mannequinGender\" autoselect>>",
+    "translation": "",
+    "pos": 60924
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1524_5_3_7|",
+    "original": "<<option \"Same as player\" \"same\">>",
+    "translation": "",
+    "pos": 60984
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1525_5_3_7|",
+    "original": "<<option \"Opposite of player\" \"opposite\">>",
+    "translation": "",
+    "pos": 61024
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1526_5_3_7|",
+    "original": "<<option \"Always male\" \"male\">>",
+    "translation": "",
+    "pos": 61072
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1527_5_3_7|",
+    "original": "<<option \"Always female\" \"female\">>",
+    "translation": "",
+    "pos": 61109
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1532_5_3_7|",
+    "original": "Mannequin chest size:",
+    "translation": "",
+    "pos": 61197
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1533_5_3_7|",
+    "original": "<<listbox \"$mannequinBreastsSize\" autoselect>>",
+    "translation": "",
+    "pos": 61223
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1534_5_3_7|",
+    "original": "<<optionsfrom {\"Flat\": 0 , \"Tiny\": 1, \"Small\": 2, \"Full\": 3, \"Large\": 4, \"Huge\": 5}>>",
+    "translation": "",
+    "pos": 61275
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1541_5_3_7|",
+    "original": "Display less information to make catalogue more compact.",
+    "translation": "",
+    "pos": 61484
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1546_5_3_7|",
+    "original": "Hide clothing trait icons.",
+    "translation": "",
+    "pos": 61639
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1551_5_3_7|",
+    "original": "Don't show help / legend button in catalogue.",
+    "translation": "",
+    "pos": 61762
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1559_5_3_7|",
+    "original": "<div class=\"legend-caption bold gold\">Legend</div>",
+    "translation": "",
+    "pos": 61935
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1565_5_3_7|",
+    "original": "Integrity rating. How hard it is to tear clothing into scraps.",
+    "translation": "",
+    "pos": 62081
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1569_5_3_7|",
+    "original": "Reveal rating. How alluring clothing makes you.",
+    "translation": "",
+    "pos": 62208
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1573_5_3_7|",
+    "original": "Warmth rating. How good clothing protects you from cold.",
+    "translation": "",
+    "pos": 62320
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1579_5_3_7|",
+    "original": "Clothing shop options.",
+    "translation": "",
+    "pos": 62470
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1583_5_3_7|",
+    "original": "Clothing shop filters.",
+    "translation": "",
+    "pos": 62576
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1587_5_3_7|",
+    "original": "I - Integrity rating. How hard it is to tear clothing into scraps.",
+    "translation": "",
+    "pos": 62631
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1589_5_3_7|",
+    "original": "R - Reveal rating. How alluring clothing makes you.",
+    "translation": "",
+    "pos": 62709
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1591_5_3_7|",
+    "original": "W - Warmth rating. How good clothing protects you from cold.",
+    "translation": "",
+    "pos": 62772
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1595_5_3_7|",
+    "original": "Warmth indicator:",
+    "translation": "",
+    "pos": 62877
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1601_5_3_7|",
+    "original": "Displays comfortable temperature range, depends on weather.",
+    "translation": "",
+    "pos": 62979
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1603_5_3_7|",
+    "original": "<div class=\"legend-colour-sample\" style=\"background-color: dodgerblue\"></div> - you will be too cold at this temperature",
+    "translation": "",
+    "pos": 63050
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1605_5_3_7|",
+    "original": "<div class=\"legend-colour-sample\" style=\"background-color: lightskyblue\"></div> - you will be a bit chilly at this temperature",
+    "translation": "",
+    "pos": 63182
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1607_5_3_7|",
+    "original": "<div class=\"legend-colour-sample\" style=\"background-color: lemonchiffon\"></div> - perfect temperature",
+    "translation": "",
+    "pos": 63320
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1609_5_3_7|",
+    "original": "<div class=\"legend-colour-sample\" style=\"background-color: orange\"></div> - you will be a bit too warm at this temperature",
+    "translation": "",
+    "pos": 63433
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1611_5_3_7|",
+    "original": "<div class=\"legend-colour-sample\" style=\"background-color: orangered\"></div> - you will be way too hot at this temperature",
+    "translation": "",
+    "pos": 63567
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1613_5_3_7|",
+    "original": "<div class=\"legend-icon\"><img src=\"img/misc/icon/warmth_indicator.png\"></div> - your warmth with your current clothes on",
+    "translation": "",
+    "pos": 63701
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1615_5_3_7|",
+    "original": "<div class=\"legend-icon\"><img src=\"img/misc/icon/small_uarrow.png\"></div> - warmth you'd have would you put other clothing on instead",
+    "translation": "",
+    "pos": 63833
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1639_5_3_7|",
+    "original": "<span class=\"gold\"><<print _value.name>></span>",
+    "translation": "",
+    "pos": 64704
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1644_5_3_7|",
+    "original": "<<link _value.name>>",
+    "translation": "",
+    "pos": 64848
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1662_5_3_7|",
+    "original": "<label>Send to:",
+    "translation": "",
+    "pos": 65255
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1669_5_3_7|",
+    "original": "<<listbox '$wardrobes.shopReturn' autoselect>>",
+    "translation": "",
+    "pos": 65465
+  },
+  {
+    "passage": "Clothing Shop v2 Widgets",
+    "filepath": "overworld-town/loc-shop/clothing-v2.twee",
+    "key": "1670_5_3_7|",
+    "original": "<<optionsfrom _options>>",
+    "translation": "",
+    "pos": 65515
+  }
+]

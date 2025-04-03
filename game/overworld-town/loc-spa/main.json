@@ -1,0 +1,1522 @@
+[
+  {
+    "passage": "Spa",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "8_5_3_7|",
+    "original": "<<case \"summer\">>",
+    "translation": "",
+    "pos": 138
+  },
+  {
+    "passage": "Spa",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "10_5_3_7|",
+    "original": "<<case \"winter\">>",
+    "translation": "",
+    "pos": 182
+  },
+  {
+    "passage": "Spa",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "16_5_3_7|",
+    "original": "You are in the spa on Danube Street. Large windows open onto a natural spring, and a corridor to the side leads to other facilities.",
+    "translation": "",
+    "pos": 276
+  },
+  {
+    "passage": "Spa",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "17_5_3_7|",
+    "original": "A sign reads: \"Tanning beds available. <<printmoney _price>> per session. Price may change with the season.\"",
+    "translation": "",
+    "pos": 409
+  },
+  {
+    "passage": "Spa",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "21_5_3_7|",
+    "original": "<span class=\"purple\">The spring is packed with bodies, and loud music plays.</span> Someone's hired the venue for a party.",
+    "translation": "",
+    "pos": 590
+  },
+  {
+    "passage": "Spa",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "23_5_3_7|",
+    "original": "Patrons relax in and around the many pools.",
+    "translation": "",
+    "pos": 725
+  },
+  {
+    "passage": "Spa",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "26_5_3_7|",
+    "original": "You can hear running water, but the establishment is otherwise quiet.",
+    "translation": "",
+    "pos": 788
+  },
+  {
+    "passage": "Spa",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "38_5_3_7|",
+    "original": "It's closing time. The receptionist is herding everyone outside.<<if $exposed gte 1>>Panic swells within you as you realise how exposed you'll be should you be found in this state of dress.<</if>>",
+    "translation": "",
+    "pos": 1038
+  },
+  {
+    "passage": "Spa",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "41_5_3_7|",
+    "original": "You are alone in the darkness.",
+    "translation": "",
+    "pos": 1275
+  },
+  {
+    "passage": "Spa",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "45_5_3_7|",
+    "original": "You hide in a cupboard. The thought of being caught is thrilling, but you decide it would be wiser to stay put.",
+    "translation": "",
+    "pos": 1384
+  },
+  {
+    "passage": "Spa",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "47_5_3_7|",
+    "original": "You hide in a cupboard to protect your dignity.",
+    "translation": "",
+    "pos": 1509
+  },
+  {
+    "passage": "Spa",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "54_5_3_7|",
+    "original": "<<ind>><<link [[Work as a masseur (0:50)|Spa Work Start]]>><<endevent>><<money 1000 \"spa\">><</link>>",
+    "translation": "",
+    "pos": 1686
+  },
+  {
+    "passage": "Spa",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "57_5_3_7|",
+    "original": "The receptionist, a <<person>>, looks up from <<his>> desk, and curls <<his>> nose. \"Make it quick,\" <<he>> says. \"Our clientele don't mix with riff-raff off the street.\"",
+    "translation": "",
+    "pos": 1809
+  },
+  {
+    "passage": "Spa",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "59_5_3_7|",
+    "original": "<<socialiseicon \"ask\">><<link [[Ask for work|Spa Work Ask]]>><</link>>",
+    "translation": "",
+    "pos": 1995
+  },
+  {
+    "passage": "Spa",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "64_5_3_7|",
+    "original": "<<ind>><<link [[Tanning salon (<<printmoney _price>> 1:00)|Spa Tan]]>><<money `-_price` \"spa\">><</link>><<lstress>><<tanningGainOutput _tanning.result 60>>",
+    "translation": "",
+    "pos": 2165
+  },
+  {
+    "passage": "Spa",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "66_5_3_7|",
+    "original": "<<ind>><span class=\"purple\">You cannot afford the <<printmoney _price>> for tanning.</span>",
+    "translation": "",
+    "pos": 2335
+  },
+  {
+    "passage": "Spa",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "71_5_3_7|",
+    "original": "<<shopicon \"register\">><<link [[Examine the cash register|Spa Register]]>><</link>>",
+    "translation": "",
+    "pos": 2538
+  },
+  {
+    "passage": "Spa",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "75_5_3_7|",
+    "original": "<<danubeicon>><<link [[Leave|Danube Street]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 2645
+  },
+  {
+    "passage": "Spa Tan",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "82_5_3_7|",
+    "original": "The <<person1>><<person>> sniffs, but takes your money without complaint.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Spa Tan",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "85_5_3_7|",
+    "original": "You enter a small room dominated by a tanning bed. There's a large window, but it's already covered by a curtain.",
+    "translation": "",
+    "pos": 109
+  },
+  {
+    "passage": "Spa Tan",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "89_5_3_7|",
+    "original": "<<link [[Strip to your underwear (1:00)|Spa Tan Underwear]]>><<stress -6>><</link>>",
+    "translation": "",
+    "pos": 278
+  },
+  {
+    "passage": "Spa Tan",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "92_5_3_7|",
+    "original": "<<link [[Strip naked (1:00)|Spa Tan Naked]]>><<stress -6>><</link>><<exhibitionist1>>",
+    "translation": "",
+    "pos": 376
+  },
+  {
+    "passage": "Spa Tan",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "95_5_3_7|",
+    "original": "<<link [[Strip naked, and open the curtains (1:00)|Spa Tan Curtains]]>><<stress -6>><</link>><<exhibitionist5>>",
+    "translation": "",
+    "pos": 506
+  },
+  {
+    "passage": "Spa Tan Underwear",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "113_5_3_7|",
+    "original": "You leave your clothes in a neat pile, and climb onto the tanning bed, closing it after you.",
+    "translation": "",
+    "pos": 195
+  },
+  {
+    "passage": "Spa Tan Underwear",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "116_5_3_7|",
+    "original": "Surrounded by a blue glow, you close your eyes and relax as the warmth seeps into your skin.",
+    "translation": "",
+    "pos": 298
+  },
+  {
+    "passage": "Spa Tan Underwear",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "125_5_3_7|",
+    "original": "Your session ends before you know it, and the lights fade. You dozed off.<<ltiredness>><<tiredness -6>>",
+    "translation": "",
+    "pos": 578
+  },
+  {
+    "passage": "Spa Tan Underwear",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "127_5_3_7|",
+    "original": "<<link [[Next|Spa]]>><<clotheson>><</link>>",
+    "translation": "",
+    "pos": 693
+  },
+  {
+    "passage": "Spa Tan Underwear",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "130_5_3_7|",
+    "original": "You relax until the session ends, and the lights fade.",
+    "translation": "",
+    "pos": 753
+  },
+  {
+    "passage": "Spa Tan Underwear",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "132_5_3_7|",
+    "original": "<<link [[Next|Spa]]>><<clotheson>><</link>>",
+    "translation": "",
+    "pos": 819
+  },
+  {
+    "passage": "Spa Tan Naked",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "141_5_3_7|",
+    "original": "You strip naked, and leave your clothes in a neat pile.",
+    "translation": "",
+    "pos": 85
+  },
+  {
+    "passage": "Spa Tan Naked",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "144_5_3_7|",
+    "original": "Suitably unburdened, you climb onto the tanning bed, and close it after you.",
+    "translation": "",
+    "pos": 161
+  },
+  {
+    "passage": "Spa Tan Naked",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "147_5_3_7|",
+    "original": "Surrounded by a blue glow, you close your eyes and relax as the warmth seeps into your skin.",
+    "translation": "",
+    "pos": 248
+  },
+  {
+    "passage": "Spa Tan Naked",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "156_5_3_7|",
+    "original": "Your session ends before you know it, and the lights fade. You dozed off.<<ltiredness>><<tiredness -6>>",
+    "translation": "",
+    "pos": 528
+  },
+  {
+    "passage": "Spa Tan Naked",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "158_5_3_7|",
+    "original": "<<link [[Next|Spa]]>><<clotheson>><</link>>",
+    "translation": "",
+    "pos": 643
+  },
+  {
+    "passage": "Spa Tan Naked",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "161_5_3_7|",
+    "original": "You relax until the session ends, and the lights fade.",
+    "translation": "",
+    "pos": 703
+  },
+  {
+    "passage": "Spa Tan Naked",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "163_5_3_7|",
+    "original": "<<link [[Next|Spa]]>><<clotheson>><</link>>",
+    "translation": "",
+    "pos": 769
+  },
+  {
+    "passage": "Spa Tan Curtains",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "175_5_3_7|",
+    "original": "You pull open the curtains, revealing the party outside. The partiers are too busy dancing and drinking to pay you any attention. For now.",
+    "translation": "",
+    "pos": 146
+  },
+  {
+    "passage": "Spa Tan Curtains",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "178_5_3_7|",
+    "original": "<<flaunting>> you remove your clothes in plain view of anyone who cares to look. You hear an excited shout. A <<person>> in swimwear points at you, and you're soon the centre of attention. You climb onto the tanning bed, closing it after you.",
+    "translation": "",
+    "pos": 297
+  },
+  {
+    "passage": "Spa Tan Curtains",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "180_5_3_7|",
+    "original": "You pull open the curtains, revealing a couple of dozen patrons lounging in the pools outside. A <<person>> glances over, but that's all the attention you get. For now.",
+    "translation": "",
+    "pos": 550
+  },
+  {
+    "passage": "Spa Tan Curtains",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "183_5_3_7|",
+    "original": "<<flaunting>> you remove your clothes in plain view of anyone who cares to look. You feel eyes on you as you climb onto the tanning bed, closing it after you.",
+    "translation": "",
+    "pos": 731
+  },
+  {
+    "passage": "Spa Tan Curtains",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "187_5_3_7|",
+    "original": "Surrounded by a blue glow, you feel your heart pump as the warmth seeps into your skin.",
+    "translation": "",
+    "pos": 918
+  },
+  {
+    "passage": "Spa Tan Curtains",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "197_5_3_7|",
+    "original": "Your session ends before you know it, and the lights fade. You dozed off.<<ltiredness>><<tiredness -6>>",
+    "translation": "",
+    "pos": 1206
+  },
+  {
+    "passage": "Spa Tan Curtains",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "199_5_3_7|",
+    "original": "<<link [[Next|Spa]]>><<clotheson>><</link>>",
+    "translation": "",
+    "pos": 1321
+  },
+  {
+    "passage": "Spa Tan Curtains",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "202_5_3_7|",
+    "original": "You relax until the session ends, and the lights fade.",
+    "translation": "",
+    "pos": 1381
+  },
+  {
+    "passage": "Spa Tan Curtains",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "204_5_3_7|",
+    "original": "<<link [[Next|Spa]]>><<clotheson>><</link>>",
+    "translation": "",
+    "pos": 1447
+  },
+  {
+    "passage": "Spa Lock",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "213_5_3_7|",
+    "original": "You think you'd be able to pick the lock, <span class=\"blue\">if your arms weren't bound.</span>",
+    "translation": "",
+    "pos": 176
+  },
+  {
+    "passage": "Spa Lock",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "217_5_3_7|",
+    "original": "<span class=\"green\">The lock looks easy to pick.</span>",
+    "translation": "",
+    "pos": 321
+  },
+  {
+    "passage": "Spa Lock",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "219_5_3_7|",
+    "original": "<<lockicon \"pick\">><<link [[Pick it (0:10)|Spa]]>><<handheldon>><<pass 10>><<crimeUp 20 \"trespassing\">><</link>><<crime \"trespassing\">>",
+    "translation": "",
+    "pos": 390
+  },
+  {
+    "passage": "Spa Lock",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "223_5_3_7|",
+    "original": "<span class=\"red\">The lock looks beyond your ability to pick.</span><<skulduggeryrequired>>",
+    "translation": "",
+    "pos": 552
+  },
+  {
+    "passage": "Spa Lock",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "226_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Danube Street]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 662
+  },
+  {
+    "passage": "Spa Work Ask",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "231_5_3_7|",
+    "original": "The <<person>> scoffs. \"Let me make this clear,\" <<he>> says, pushing <<his>> spectacles up <<his>> nose.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Spa Work Ask",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "234_5_3_7|",
+    "original": "\"Our clientele expect-\"",
+    "translation": "",
+    "pos": 178
+  },
+  {
+    "passage": "Spa Work Ask",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "236_5_3_7|",
+    "original": "<<He>> cuts off as <<he>> regards you, <span class=\"green\">surprised by your beauty.</span> \"Well,\" <<he>> continues. \"Exceptions can be made for particularly... talented individuals. We might have a place for you.\"",
+    "translation": "",
+    "pos": 213
+  },
+  {
+    "passage": "Spa Work Ask",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "239_5_3_7|",
+    "original": "<<He>> clears <<his>> throat. \"Just do as the clients tell you. It's 50 minutes per session, but allow an hour. Pay is <span class=\"gold\">£10</span> per hour. Plus tips. You can work when you like. Any questions?\"",
+    "translation": "",
+    "pos": 441
+  },
+  {
+    "passage": "Spa Work Ask",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "242_5_3_7|",
+    "original": "<<link [[Ask for advice|Spa Work Advice]]>><</link>>",
+    "translation": "",
+    "pos": 667
+  },
+  {
+    "passage": "Spa Work Ask",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "244_5_3_7|",
+    "original": "<<link [[No|Spa Work No]]>><</link>>",
+    "translation": "",
+    "pos": 727
+  },
+  {
+    "passage": "Spa Work Ask",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "247_5_3_7|",
+    "original": "\"Our clientele expect a certain...\" <<He>> pauses. \"Standard. <span class=\"red\">You don't meet them.</span> Good day.\"",
+    "translation": "",
+    "pos": 780
+  },
+  {
+    "passage": "Spa Work Ask",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "250_5_3_7|",
+    "original": "<i><<He>> might feel differently were you particularly beautiful.</i>",
+    "translation": "",
+    "pos": 911
+  },
+  {
+    "passage": "Spa Work Ask",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "254_5_3_7|",
+    "original": "<<link [[Say you have skilled hands|Spa Work Hands]]>><</link>>",
+    "translation": "",
+    "pos": 994
+  },
+  {
+    "passage": "Spa Work Ask",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "256_5_3_7|",
+    "original": "<<link [[Leave|Danube Street]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1065
+  },
+  {
+    "passage": "Spa Work Advice",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "263_5_3_7|",
+    "original": "\"C-can you give advice about how to be a masseur?\" you ask.",
+    "translation": "",
+    "pos": 48
+  },
+  {
+    "passage": "Spa Work Advice",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "265_5_3_7|",
+    "original": "\"Do I get any training?\" you ask. \"You haven't asked about my experience.\"",
+    "translation": "",
+    "pos": 149
+  },
+  {
+    "passage": "Spa Work Advice",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "267_5_3_7|",
+    "original": "\"Do you have any tips for me?\" you ask.",
+    "translation": "",
+    "pos": 234
+  },
+  {
+    "passage": "Spa Work Advice",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "270_5_3_7|",
+    "original": "The <<person>> laughs. \"No. As I said, just do as the client asks. You can start when you like.\" <<He>> turns back to <<his>> desk.",
+    "translation": "",
+    "pos": 291
+  },
+  {
+    "passage": "Spa Work Advice",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "273_5_3_7|",
+    "original": "<<link [[Next|Spa]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 433
+  },
+  {
+    "passage": "Spa Work No",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "278_5_3_7|",
+    "original": "You shake your head. \"Good,\" the <<person>> says. \"You can start when you like.\" <<He>> turns back to <<his>> desk.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Spa Work No",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "281_5_3_7|",
+    "original": "<<link [[Next|Spa]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 139
+  },
+  {
+    "passage": "Spa Work Hands",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "288_5_3_7|",
+    "original": "\"Skilled hands?\" the <<person>> asks. \"We'll see.\" <<He>> reaches over the desk, grasps your hands in <<his>> own, and leans forward to observe them.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Spa Work Hands",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "292_5_3_7|",
+    "original": "<<He>> frowns. \"Unexpected. <span class=\"green\">Maybe there is a place for you.</span>\" <<He>> pulls away.",
+    "translation": "",
+    "pos": 229
+  },
+  {
+    "passage": "Spa Work Hands",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "295_5_3_7|",
+    "original": "<<He>> clears <<his>> throat. \"Just do as the clients tell you. It's 50 minutes per session, but allow an hour. Pay is <span class=\"gold\">£10</span> per hour. Plus tips. You can work when you like. Any questions?\"",
+    "translation": "",
+    "pos": 348
+  },
+  {
+    "passage": "Spa Work Hands",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "298_5_3_7|",
+    "original": "<<link [[Ask for advice|Spa Work Advice]]>><</link>>",
+    "translation": "",
+    "pos": 574
+  },
+  {
+    "passage": "Spa Work Hands",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "300_5_3_7|",
+    "original": "<<link [[No|Spa Work No]]>><</link>>",
+    "translation": "",
+    "pos": 634
+  },
+  {
+    "passage": "Spa Work Hands",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "303_5_3_7|",
+    "original": "<<He>> releases <<his>> grasp with a disdainful sneer. \"You're not suitable. Good day.\" <<He>> turns back to <<his>> desk.",
+    "translation": "",
+    "pos": 687
+  },
+  {
+    "passage": "Spa Work Hands",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "306_5_3_7|",
+    "original": "<i><span class=\"blue\">C</span> Hand Skill or higher required.</i>",
+    "translation": "",
+    "pos": 822
+  },
+  {
+    "passage": "Spa Work Hands",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "309_5_3_7|",
+    "original": "<<link [[Next|Spa]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 900
+  },
+  {
+    "passage": "Spa Tan Chase",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "318_5_3_7|",
+    "original": "You tear around the corner, and see the culprit, a <<person>>, up ahead. You rush after <<him>>,",
+    "translation": "",
+    "pos": 38
+  },
+  {
+    "passage": "Spa Tan Chase",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "321_5_3_7|",
+    "original": "<span class=\"green\">and manage to catch up.</span> You dive and throw your arms around <<his>> waist, dragging <<him>> to the ground.",
+    "translation": "",
+    "pos": 162
+  },
+  {
+    "passage": "Spa Tan Chase",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "324_5_3_7|",
+    "original": "It would seem <<he>> finds the situation awfully funny.",
+    "translation": "",
+    "pos": 308
+  },
+  {
+    "passage": "Spa Tan Chase",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "328_5_3_7|",
+    "original": "<<link [[Slap|Spa Tan Slap]]>><<def 1>><<trauma -6>><</link>><<ltrauma>>",
+    "translation": "",
+    "pos": 435
+  },
+  {
+    "passage": "Spa Tan Chase",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "331_5_3_7|",
+    "original": "<<link [[Turn the other cheek|Spa Tan Turn]]>><</link>>",
+    "translation": "",
+    "pos": 525
+  },
+  {
+    "passage": "Spa Tan Chase",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "334_5_3_7|",
+    "original": "<span class=\"red\">but <<he>> has too great a lead.</span> <<He>> pushes through a pair of doors leading outside, and keeps going, hauling <<himself>> over the exterior wall.",
+    "translation": "",
+    "pos": 597
+  },
+  {
+    "passage": "Spa Tan Chase",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "337_5_3_7|",
+    "original": "You come to a stop beside the doors. The pools are around a corner, so you don't think anyone would see you. The spa is raised above the surrounding terrain however, and following would be a one-way trip. This wall faces the forest.",
+    "translation": "",
+    "pos": 783
+  },
+  {
+    "passage": "Spa Tan Chase",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "340_5_3_7|",
+    "original": "<<link [[Follow|Spa Tan Follow]]>><</link>>",
+    "translation": "",
+    "pos": 1028
+  },
+  {
+    "passage": "Spa Tan Chase",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "342_5_3_7|",
+    "original": "<<link [[Ask someone for help instead|Spa Tan Help]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1079
+  },
+  {
+    "passage": "Spa Tan Chase",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "345_5_3_7|",
+    "original": "<<link [[Search for towels instead|Spa Tan Sneak]]>><<endevent>><</link>><<skulduggerydifficulty>>",
+    "translation": "",
+    "pos": 1201
+  },
+  {
+    "passage": "Spa Tan Follow",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "351_5_3_7|",
+    "original": "<<covered>> You glance left and right. You don't see anyone. You dart outside, and haul yourself over the wall. You land on grass, surrounded by trees.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Spa Tan Follow",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "354_5_3_7|",
+    "original": "You hear the snap of twigs straight ahead, and you follow. The trees grow dense. You can't run, but neither can your quarry.",
+    "translation": "",
+    "pos": 175
+  },
+  {
+    "passage": "Spa Tan Follow",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "357_5_3_7|",
+    "original": "<span class=\"red\">You hear a scream.</span> It came from up ahead.",
+    "translation": "",
+    "pos": 310
+  },
+  {
+    "passage": "Spa Tan Follow",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "361_5_3_7|",
+    "original": "You emerge in a clearing, and find the <<person>> dangling limp in the air. A green tendril curls around <<his>> leg. A monstrous plant, oozing thick slime and standing almost as tall as the surrounding trees holds <<him>>. Other tentacles rise from the undergrowth. Your clothes lie discarded on the ground.",
+    "translation": "",
+    "pos": 413
+  },
+  {
+    "passage": "Spa Tan Follow",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "368_5_3_7|",
+    "original": "<<link [[Grab your clothes and run|Spa Tan Grab]]>><</link>><<athleticsdifficulty 1 400>>",
+    "translation": "",
+    "pos": 826
+  },
+  {
+    "passage": "Spa Tan Follow",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "370_5_3_7|",
+    "original": "<<link [[Leave your clothes and run|Spa Tan Leave]]>><</link>>",
+    "translation": "",
+    "pos": 923
+  },
+  {
+    "passage": "Spa Tan Follow",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "372_5_3_7|",
+    "original": "<<link [[Rescue the thief|Spa Tan Rescue]]>><</link>><<athleticsdifficulty 300 1500>>",
+    "translation": "",
+    "pos": 993
+  },
+  {
+    "passage": "Spa Tan Follow",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "375_5_3_7|",
+    "original": "You emerge in a clearing, and find the <<person>> lying on the dirt. <<Hes>> unconscious. Maybe <<he>> tripped.",
+    "translation": "",
+    "pos": 1095
+  },
+  {
+    "passage": "Spa Tan Follow",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "378_5_3_7|",
+    "original": "<<link [[Rob|Spa Tan Rob]]>><</link>><<crime \"thievery\">>",
+    "translation": "",
+    "pos": 1219
+  },
+  {
+    "passage": "Spa Tan Follow",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "380_5_3_7|",
+    "original": "<<link [[Just take your clothes|Spa Tan Clothes]]>><</link>>",
+    "translation": "",
+    "pos": 1284
+  },
+  {
+    "passage": "Spa Tan Grab",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "388_5_3_7|",
+    "original": "You retrieve your clothes, <span class=\"green\">and escape between the trees before the monster reacts to you.</span>",
+    "translation": "",
+    "pos": 73
+  },
+  {
+    "passage": "Spa Tan Grab",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "392_5_3_7|",
+    "original": "You run until you reach the spa. The wall is too high to climb from this side. You walk around the perimeter. The trees thin, and you emerge on Danube Street.",
+    "translation": "",
+    "pos": 217
+  },
+  {
+    "passage": "Spa Tan Grab",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "397_5_3_7|",
+    "original": "<<link [[Next|Danube Street]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 403
+  },
+  {
+    "passage": "Spa Tan Grab",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "401_5_3_7|",
+    "original": "You try to retrieve your clothes, <span class=\"red\">but trip when a hidden tentacle rises from the grass.</span> It curls around your leg before you can recover, and hoists you into the air.<<gtrauma>><<gstress>><<gpain>><<trauma 6>><<stress 6>><<pain 4>>",
+    "translation": "",
+    "pos": 484
+  },
+  {
+    "passage": "Spa Tan Grab",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "404_5_3_7|",
+    "original": "The monster carries you and the <<person>> closer. A maw tears through its side. It means to eat you.<<gtrauma>><<gstress>><<trauma 6>><<stress 6>>",
+    "translation": "",
+    "pos": 752
+  },
+  {
+    "passage": "Spa Tan Grab",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "407_5_3_7|",
+    "original": "<<link [[Next|Spa Tan Monks]]>><</link>>",
+    "translation": "",
+    "pos": 912
+  },
+  {
+    "passage": "Spa Tan Leave",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "418_5_3_7|",
+    "original": "You turn and run. You keep running, until you arrive at the spa.",
+    "translation": "",
+    "pos": 69
+  },
+  {
+    "passage": "Spa Tan Leave",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "420_5_3_7|",
+    "original": "The wall is too high to climb from this side. You walk around the perimeter. The trees thin, and you emerge on Danube Street.",
+    "translation": "",
+    "pos": 143
+  },
+  {
+    "passage": "Spa Tan Leave",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "425_5_3_7|",
+    "original": "<<link [[Next|Danube Street]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 293
+  },
+  {
+    "passage": "Spa Tan Rescue",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "433_5_3_7|",
+    "original": "You run toward the <<person>>, and jump. <span class=\"green\">You grasp <<his>> limp arm just before the monster pulls it out of reach.</span> The monster pulls you and the thief closer, and higher, until you're right above.",
+    "translation": "",
+    "pos": 75
+  },
+  {
+    "passage": "Spa Tan Rescue",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "436_5_3_7|",
+    "original": "You use your legs and one arm for purchase as you try to prise the <<person>> free. The tentacle's grip is firm, but not unyielding. You hear a rip. A maw tears open below. The monster means to eat you.",
+    "translation": "",
+    "pos": 311
+  },
+  {
+    "passage": "Spa Tan Rescue",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "439_5_3_7|",
+    "original": "<<link [[Next|Spa Tan Monks Success]]>><</link>>",
+    "translation": "",
+    "pos": 526
+  },
+  {
+    "passage": "Spa Tan Rescue",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "442_5_3_7|",
+    "original": "You run toward the <<person>>, and jump. <span class=\"red\">The monster pulls the limp body out of reach.</span> Your fingers brush <<his>> hand, and then you fall.<<gtrauma>><<gstress>><<gpain>><<trauma 6>><<stress 6>><<pain 4>>",
+    "translation": "",
+    "pos": 591
+  },
+  {
+    "passage": "Spa Tan Rescue",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "445_5_3_7|",
+    "original": "Another tentacle lies in wait beneath the grass. It curls around your ankle before you can recover, and hoists you into the air.",
+    "translation": "",
+    "pos": 832
+  },
+  {
+    "passage": "Spa Tan Rescue",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "447_5_3_7|",
+    "original": "The monster carries you and the <<person>> closer. A maw tears through its side. It means to eat you.<<gtrauma>><<gstress>><<trauma 6>><<stress 6>>",
+    "translation": "",
+    "pos": 963
+  },
+  {
+    "passage": "Spa Tan Rescue",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "450_5_3_7|",
+    "original": "<<link [[Next|Spa Tan Monks]]>><</link>>",
+    "translation": "",
+    "pos": 1123
+  },
+  {
+    "passage": "Spa Tan Monks",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "458_5_3_7|",
+    "original": "<span class=\"green\">You hear a sharp crack.</span> Then another. Thin, black tendrils emerge from the trees, wrapping around the monster's tentacles. Figures emerge from the forest. They're dressed as <<monks_and_nuns>>, and each holds a whip in hand, now tensed against the creature's limbs.",
+    "translation": "",
+    "pos": 79
+  },
+  {
+    "passage": "Spa Tan Monks",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "461_5_3_7|",
+    "original": "You and the <<person>> are pulled closer to the ground by the newcomers' heaving. A <<person2>><<monk>> rushes forward, and strikes the tentacle with a staff. It releases your ankle, and you tumble to the ground.<<lstress>><<stress -6>>",
+    "translation": "",
+    "pos": 382
+  },
+  {
+    "passage": "Spa Tan Monks",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "464_5_3_7|",
+    "original": "With a frightening speed, the monster squirms away, disappearing between the trees. The <<monks_and_nuns>> give chase, aside from one, who kneels beside you.",
+    "translation": "",
+    "pos": 629
+  },
+  {
+    "passage": "Spa Tan Monks",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "468_5_3_7|",
+    "original": "\"You should know better than to take on a beast like that alone,\" <<he>> says. <<He>> glances at the <<person1>><<person>>. \"I'll see to <<him>>. Get dressed, and return to town.\" You'd forgotten how exposed you are. <<covered>>",
+    "translation": "",
+    "pos": 867
+  },
+  {
+    "passage": "Spa Tan Monks",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "471_5_3_7|",
+    "original": "\"You're a bit green to be witnessing this,\" <<he>> says. \"Best not mention it to anyone.\" <<He>> glances at the <<person1>><<person>>. \"I'll see to <<him>>. Get dressed, and return to town.\" You'd forgotten how exposed you are. <<covered>>",
+    "translation": "",
+    "pos": 1145
+  },
+  {
+    "passage": "Spa Tan Monks",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "474_5_3_7|",
+    "original": "\"It would be best if you kept what you saw here to yourself,\" <<he>> says. <<He>> glances at the <<person1>><<person>>. \"I'll see to <<him>>. Get dressed, and return to town.\" You'd forgotten how exposed you are. <<covered>>",
+    "translation": "",
+    "pos": 1405
+  },
+  {
+    "passage": "Spa Tan Monks",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "480_5_3_7|",
+    "original": "You return to the spa. The wall is too high to climb from this side. You walk around the perimeter. The trees thin, and you emerge on Danube Street.",
+    "translation": "",
+    "pos": 1664
+  },
+  {
+    "passage": "Spa Tan Monks",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "485_5_3_7|",
+    "original": "<<link [[Next|Danube Street]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 1837
+  },
+  {
+    "passage": "Spa Tan Monks Success",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "492_5_3_7|",
+    "original": "<span class=\"green\">You hear a sharp crack.</span> Then another. Thin, black tendrils emerge from the trees, wrapping around the monster's tentacles. Figures emerge from the forest. They're dressed as <<monks_and_nuns>>, and each holds a whip in hand, now tensed against the creature's limbs.",
+    "translation": "",
+    "pos": 79
+  },
+  {
+    "passage": "Spa Tan Monks Success",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "495_5_3_7|",
+    "original": "The tentacle holding the <<person>> loosens, and you're able to pry <<him>> free. A <<person2>><<monk>> rushes forward and catches <<person1>><<him>> while you make a deft landing on the grass.<<gcontrol>><<control 10>><<lstress>><<stress -6>>",
+    "translation": "",
+    "pos": 382
+  },
+  {
+    "passage": "Spa Tan Monks Success",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "498_5_3_7|",
+    "original": "Another <<person2>><<monk>> rushes by, a staff in both hands, and strikes the main body of the monster. It squirms away with a frightening speed, disappearing between the trees. The <<monks_and_nuns>> give chase, aside from the <<monk>> holding the <<person1>><<person>>.",
+    "translation": "",
+    "pos": 636
+  },
+  {
+    "passage": "Spa Tan Monks Success",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "502_5_3_7|",
+    "original": "\"That was daring of you,\" the <<person2>><<monk>> says. \"But you shouldn't try to take on a beast like this alone. I'll see to the civilian. You get dressed, and return to town.\" You'd forgotten how exposed you are. <<covered>>",
+    "translation": "",
+    "pos": 977
+  },
+  {
+    "passage": "Spa Tan Monks Success",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "505_5_3_7|",
+    "original": "\"You're not ready for this,\" the <<person2>><<monk>> says. \"But you handled yourself well. You might be ready soon. Still, best not mention it to anyone.\" <<He>> lays the <<person1>><<person>> on the grass. \"I'll see to this one. You get dressed, and return to town.\" You'd forgotten how exposed you are. <<covered>>",
+    "translation": "",
+    "pos": 1254
+  },
+  {
+    "passage": "Spa Tan Monks Success",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "508_5_3_7|",
+    "original": "\"You weren't meant to see this,\" the <<person2>><<monk>> says. \"But you handled yourself well. Have you considered joining the temple? We could use someone like you. Either way, keep what you saw here to yourself.\" <<He>> lays the <<person2>><<person>> on the grass. \"I'll see to this one. Get dressed, and return to town.\" You'd forgotten how exposed you are. <<covered>>",
+    "translation": "",
+    "pos": 1591
+  },
+  {
+    "passage": "Spa Tan Monks Success",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "514_5_3_7|",
+    "original": "You return to the spa. The wall is too high to climb from this side. You walk around the perimeter. The trees thin, and you emerge on Danube Street.",
+    "translation": "",
+    "pos": 1998
+  },
+  {
+    "passage": "Spa Tan Monks Success",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "519_5_3_7|",
+    "original": "<<link [[Next|Danube Street]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 2171
+  },
+  {
+    "passage": "Spa Tan Rob",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "527_5_3_7|",
+    "original": "You get dressed, then rifle through the <<persons>> pockets.",
+    "translation": "",
+    "pos": 28
+  },
+  {
+    "passage": "Spa Tan Rob",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "530_5_3_7|",
+    "original": "They're empty, but <<his>> watch looks valuable, if you could find a buyer.<<crimeUp 1000 \"thievery\">><<set $blackmoney += 1000>>",
+    "translation": "",
+    "pos": 110
+  },
+  {
+    "passage": "Spa Tan Rob",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "532_5_3_7|",
+    "original": "You find <<moneyGain 100 true true \"spa\">> in cash.",
+    "translation": "",
+    "pos": 264
+  },
+  {
+    "passage": "Spa Tan Rob",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "534_5_3_7|",
+    "original": "You find <<moneyGain 50 true true \"spa\">> in cash.",
+    "translation": "",
+    "pos": 340
+  },
+  {
+    "passage": "Spa Tan Rob",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "536_5_3_7|",
+    "original": "You find <<moneyGain 20 true true \"spa\">> in cash.",
+    "translation": "",
+    "pos": 415
+  },
+  {
+    "passage": "Spa Tan Rob",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "538_5_3_7|",
+    "original": "You find <<moneyGain 10 true true \"spa\">> in cash.",
+    "translation": "",
+    "pos": 490
+  },
+  {
+    "passage": "Spa Tan Rob",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "540_5_3_7|",
+    "original": "You find <<moneyGain 5 true true \"spa\">> in cash.",
+    "translation": "",
+    "pos": 551
+  },
+  {
+    "passage": "Spa Tan Rob",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "543_5_3_7|",
+    "original": "You return to the spa. The wall is too high to climb from this side. You walk around the perimeter. The trees thin, and you emerge on Danube Street.",
+    "translation": "",
+    "pos": 618
+  },
+  {
+    "passage": "Spa Tan Rob",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "548_5_3_7|",
+    "original": "<<link [[Next|Danube Street]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 791
+  },
+  {
+    "passage": "Spa Tan Clothes",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "554_5_3_7|",
+    "original": "You get dressed, and return to the spa. The wall is too high to climb from this side. You walk around the perimeter. The trees thin, and you emerge on Danube Street.",
+    "translation": "",
+    "pos": 27
+  },
+  {
+    "passage": "Spa Tan Clothes",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "559_5_3_7|",
+    "original": "<<link [[Next|Danube Street]]>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 217
+  },
+  {
+    "passage": "Spa Tan Slap",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "564_5_3_7|",
+    "original": "You wipe away the <<persons>> smirk with a firm slap, then return to your room, covering your <<bottom>> with a hand.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Spa Tan Slap",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "570_5_3_7|",
+    "original": "<<link [[Next|Spa]]>><</link>>",
+    "translation": "",
+    "pos": 169
+  },
+  {
+    "passage": "Spa Tan Turn",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "575_5_3_7|",
+    "original": "You leave the <<person>> to <<his>> mirth, and return to your room, covering your <<bottom>> with a hand.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Spa Tan Turn",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "581_5_3_7|",
+    "original": "<<link [[Next|Spa]]>><</link>>",
+    "translation": "",
+    "pos": 157
+  },
+  {
+    "passage": "Spa Tan Help",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "591_5_3_7|",
+    "original": "<<covered>> You crouch and peek around the corner. There's no one around. <<tearful>> you creep down the hall. You hear voices up ahead.",
+    "translation": "",
+    "pos": 69
+  },
+  {
+    "passage": "Spa Tan Help",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "593_5_3_7|",
+    "original": "Two members of staff, a <<fullGroup>>, chat in a staff room.",
+    "translation": "",
+    "pos": 233
+  },
+  {
+    "passage": "Spa Tan Help",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "597_5_3_7|",
+    "original": "\"E-excuse me,\" you say, interrupting their conversation. \"Someone took my clothes. Could you help?\"",
+    "translation": "",
+    "pos": 339
+  },
+  {
+    "passage": "Spa Tan Help",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "599_5_3_7|",
+    "original": "\"Hey,\" you say, interrupting their conversation. \"A thief ran off with my clothes. Could you give me a hand?\"",
+    "translation": "",
+    "pos": 480
+  },
+  {
+    "passage": "Spa Tan Help",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "601_5_3_7|",
+    "original": "\"Hello,\" you say, interrupting their conversation. \"Someone stole my clothes. Could you give me a hand?\"",
+    "translation": "",
+    "pos": 600
+  },
+  {
+    "passage": "Spa Tan Help",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "606_5_3_7|",
+    "original": "The pair pause for a moment, then laugh. \"Hold tight,\" the <<person>> says. <<He>> doesn't even pretend <<hes>> not ogling as <<he>> passes by, returning a moment later with some towels. \"All we got, sorry. We don't have a staff uniform or anything.\"",
+    "translation": "",
+    "pos": 743
+  },
+  {
+    "passage": "Spa Tan Help",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "609_5_3_7|",
+    "original": "You slip back to the tanning room, and tie a towel around your body.",
+    "translation": "",
+    "pos": 1006
+  },
+  {
+    "passage": "Spa Tan Help",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "614_5_3_7|",
+    "original": "<<link [[Next|Spa]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1101
+  },
+  {
+    "passage": "Spa Tan Help",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "617_5_3_7|",
+    "original": "The pair pause for a moment, then share a look. \"Sure thing,\" the <<person>> says. \"I'll just get you something.\" <<He>> looks away as <<he>> approaches, but as <<he>> passes, <span class=\"red\"> wraps a hand around your mouth.</span>",
+    "translation": "",
+    "pos": 1160
+  },
+  {
+    "passage": "Spa Tan Help",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "619_5_3_7|",
+    "original": "<<link [[Next|Spa Tan Rape]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 1405
+  },
+  {
+    "passage": "Spa Tan Rape",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "644_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Spa Tan Rape Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 392
+  },
+  {
+    "passage": "Spa Tan Rape",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "646_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Spa Tan Rape]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 484
+  },
+  {
+    "passage": "Spa Tan Rape Finish",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "653_5_3_7|",
+    "original": "You're shoved to the ground. A moment later a towel lands on top of you. The staff room door clicks shut.",
+    "translation": "",
+    "pos": 72
+  },
+  {
+    "passage": "Spa Tan Rape Finish",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "655_5_3_7|",
+    "original": "<<tearful>> you tie the towel around your body.",
+    "translation": "",
+    "pos": 189
+  },
+  {
+    "passage": "Spa Tan Rape Finish",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "659_5_3_7|",
+    "original": "<<link [[Next|Spa]]>><</link>>",
+    "translation": "",
+    "pos": 283
+  },
+  {
+    "passage": "Spa Tan Rape Finish",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "662_5_3_7|",
+    "original": "The <<person1>><<person>> staggers backwards, loses <<his>> footing, and smashes through a glass table. The noise attracts attention. <<generate3>>A <<person3>><<person>> arrives on the scene, <<his>> eyes flicking over the <<person1>><<personsimple>> lying on the floor, then over your <<nudity>>.",
+    "translation": "",
+    "pos": 346
+  },
+  {
+    "passage": "Spa Tan Rape Finish",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "664_5_3_7|",
+    "original": "<<person3>><<He>> seems lost for words.",
+    "translation": "",
+    "pos": 656
+  },
+  {
+    "passage": "Spa Tan Rape Finish",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "667_5_3_7|",
+    "original": "<<link [[Say you were attacked|Spa Tan Rape Attacked]]>><<stress 6>><<trauma -6>><</link>><<gstress>><<ltrauma>>",
+    "translation": "",
+    "pos": 708
+  },
+  {
+    "passage": "Spa Tan Rape Finish",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "669_5_3_7|",
+    "original": "<<link [[Say the staff were helping you get a towel, but tripped|Spa Tan Rape Tripped]]>><<sub 1>><</link>>",
+    "translation": "",
+    "pos": 828
+  },
+  {
+    "passage": "Spa Tan Rape Finish",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "673_5_3_7|",
+    "original": "Your cry attracts attention. <<generate3>>A <<person3>><<person>> arrives on the scene, <<his>> eyes flicking over the <<group>>, then over your <<nudity>>.",
+    "translation": "",
+    "pos": 975
+  },
+  {
+    "passage": "Spa Tan Rape Finish",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "675_5_3_7|",
+    "original": "<<person3>><<He>> seems lost for words.",
+    "translation": "",
+    "pos": 1143
+  },
+  {
+    "passage": "Spa Tan Rape Finish",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "678_5_3_7|",
+    "original": "<<link [[Say you were attacked|Spa Tan Rape Attacked]]>><<stress 6>><<trauma -6>><</link>><<gstress>><<ltrauma>>",
+    "translation": "",
+    "pos": 1195
+  },
+  {
+    "passage": "Spa Tan Rape Finish",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "680_5_3_7|",
+    "original": "<<link [[Say the staff were helping you get a towel, but tripped|Spa Tan Rape Tripped]]>><<sub 1>><</link>>",
+    "translation": "",
+    "pos": 1315
+  },
+  {
+    "passage": "Spa Tan Rape Attacked",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "687_5_3_7|",
+    "original": "You tell the <<person3>><<person>> what happened. Turns out <<hes>> the pair's superior. They deny any wrongdoing, but the <<person>> doesn't believe it. This is not, apparently, the first incident.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Spa Tan Rape Attacked",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "690_5_3_7|",
+    "original": "You walk away with a new set of clothes, a refund, and a fearful request that you don't tell anyone what happened here.",
+    "translation": "",
+    "pos": 222
+  },
+  {
+    "passage": "Spa Tan Rape Attacked",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "732_5_3_7|",
+    "original": "<<link [[Next|Spa]]>><</link>>",
+    "translation": "",
+    "pos": 1068
+  },
+  {
+    "passage": "Spa Tan Rape Tripped",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "738_5_3_7|",
+    "original": "The <<person3>><<person>> seems relieved, though not entirely convinced. <<He>> apologises for your lost clothing, and gives you some spares.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Spa Tan Rape Tripped",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "772_5_3_7|",
+    "original": "<<link [[Next|Spa]]>><</link>>",
+    "translation": "",
+    "pos": 731
+  },
+  {
+    "passage": "Spa Tan Sneak",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "782_5_3_7|",
+    "original": "You crouch and peek around the door. There's no one around. You sneak through the building. The other rooms are occupied, but one of the doors is ajar. You enter. You see a shape lying in the tanning bed. There's a towel on a rack beside it.",
+    "translation": "",
+    "pos": 69
+  },
+  {
+    "passage": "Spa Tan Sneak",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "788_5_3_7|",
+    "original": "You lift the towel from the rack, <span class=\"green\">and sneak away without being noticed.</span>",
+    "translation": "",
+    "pos": 376
+  },
+  {
+    "passage": "Spa Tan Sneak",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "793_5_3_7|",
+    "original": "<<link [[Next|Spa]]>><<towelup>><</link>>",
+    "translation": "",
+    "pos": 508
+  },
+  {
+    "passage": "Spa Tan Sneak",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "797_5_3_7|",
+    "original": "<<generate1>><<person1>>As you lift the towel, <span class=\"red\">a hand emerges from the bed and grasps your mouth.</span> \"Trying to steal from me?\" the <<person>> says as <<he>> climbs naked from the bed. \"I'll teach you a lesson.\"",
+    "translation": "",
+    "pos": 567
+  },
+  {
+    "passage": "Spa Tan Sneak",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "800_5_3_7|",
+    "original": "<<He>> bends you over <<his>> knees.",
+    "translation": "",
+    "pos": 813
+  },
+  {
+    "passage": "Spa Tan Sneak",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "805_5_3_7|",
+    "original": "<<link [[Next|Spa Tan Spank]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 883
+  },
+  {
+    "passage": "Spa Tan Spank",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "831_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Spa Tan Spank Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 348
+  },
+  {
+    "passage": "Spa Tan Spank",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "833_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Spa Tan Spank]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 441
+  },
+  {
+    "passage": "Spa Tan Spank Finish",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "840_5_3_7|",
+    "original": "The <<person>> lies back on the bed, exhausted. You snatch the towel. <<tearful>> you run.",
+    "translation": "",
+    "pos": 72
+  },
+  {
+    "passage": "Spa Tan Spank Finish",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "844_5_3_7|",
+    "original": "<<link [[Next|Spa]]>><</link>>",
+    "translation": "",
+    "pos": 209
+  },
+  {
+    "passage": "Spa Tan Spank Finish",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "847_5_3_7|",
+    "original": "You shove the <<person>> back on <<his>> bed. You snatch the towel. <<tearful>> you run.",
+    "translation": "",
+    "pos": 272
+  },
+  {
+    "passage": "Spa Tan Spank Finish",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "851_5_3_7|",
+    "original": "<<link [[Next|Spa]]>><</link>>",
+    "translation": "",
+    "pos": 407
+  },
+  {
+    "passage": "Spa Tan Spank Finish",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "854_5_3_7|",
+    "original": "\"Let that be a lesson to you,\" the <<person>> says, giving your <<bottom>> a final smack before grasping your arm and pushing you to the door.",
+    "translation": "",
+    "pos": 489
+  },
+  {
+    "passage": "Spa Tan Spank Finish",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "856_5_3_7|",
+    "original": "<<He>> keeps going, marching your exposed body down the hall. You're too hurt to resist.",
+    "translation": "",
+    "pos": 643
+  },
+  {
+    "passage": "Spa Tan Spank Finish",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "859_5_3_7|",
+    "original": "<<He>> shoves you through another door, this one leading outside. There's no one around, but the pools are just around the corner. <<He>> doesn't take you that way however. Instead, <<he>> grasps your thighs, and hauls you up and over the exterior wall.",
+    "translation": "",
+    "pos": 744
+  },
+  {
+    "passage": "Spa Tan Spank Finish",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "862_5_3_7|",
+    "original": "You land on grass, surrounded by trees. You look up. The wall is too high to climb from this side. \"Good luck getting home,\" the <<person1>><<person>> laughs.<<gpain>><<pain 4>>",
+    "translation": "",
+    "pos": 1010
+  },
+  {
+    "passage": "Spa Tan Spank Finish",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "868_5_3_7|",
+    "original": "<<link [[Next|Forest]]>><<set $forest to 0>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 1231
+  },
+  {
+    "passage": "Spa Tan Spank Finish",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "871_5_3_7|",
+    "original": "Your cry attracts attention. <<generate2>>A <<person2>><<person>> arrives on the scene, <<his>> eyes taking in the <<person1>><<person>>, and your pained expression.",
+    "translation": "",
+    "pos": 1341
+  },
+  {
+    "passage": "Spa Tan Spank Finish",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "873_5_3_7|",
+    "original": "<<person2>><<He>> seems lost for words. The <<person1>><<person>> releases you, and tries to stammer an explanation. <<He>> doesn't stop you covering with the towel, or leaving the room.",
+    "translation": "",
+    "pos": 1518
+  },
+  {
+    "passage": "Spa Tan Spank Finish",
+    "filepath": "overworld-town/loc-spa/main.twee",
+    "key": "879_5_3_7|",
+    "original": "<<link [[Next|Spa]]>><</link>>",
+    "translation": "",
+    "pos": 1753
+  }
+]

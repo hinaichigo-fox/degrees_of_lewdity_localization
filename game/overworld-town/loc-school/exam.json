@@ -1,0 +1,1298 @@
+[
+  {
+    "passage": "Widgets Exams",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "4_5_3_7|",
+    "original": "<<case \"science\">>",
+    "translation": "",
+    "pos": 41
+  },
+  {
+    "passage": "Widgets Exams",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "6_5_3_7|",
+    "original": "<<case \"maths\">>",
+    "translation": "",
+    "pos": 137
+  },
+  {
+    "passage": "Widgets Exams",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "8_5_3_7|",
+    "original": "<<case \"english\">>",
+    "translation": "",
+    "pos": 228
+  },
+  {
+    "passage": "Widgets Exams",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "10_5_3_7|",
+    "original": "<<case \"history\">>",
+    "translation": "",
+    "pos": 323
+  },
+  {
+    "passage": "Widgets Exams",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "12_5_3_7|",
+    "original": "<<case \"housekeeping\">>",
+    "translation": "",
+    "pos": 419
+  },
+  {
+    "passage": "Widgets Exams",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "18_5_3_7|",
+    "original": "Understanding: <span class=\"black\"><<print Math.trunc($exam_chance)>>%</span>",
+    "translation": "",
+    "pos": 680
+  },
+  {
+    "passage": "Widgets Exams",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "22_5_3_7|",
+    "original": "<span class=\"green\">$_teacher_name's love:</span> <span class=\"black\">+5%</span>",
+    "translation": "",
+    "pos": 836
+  },
+  {
+    "passage": "Widgets Exams",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "27_5_3_7|",
+    "original": "<span class=\"green\">Model student:</span> <span class=\"black\">+5%</span>",
+    "translation": "",
+    "pos": 992
+  },
+  {
+    "passage": "Widgets Exams",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "30_5_3_7|",
+    "original": "<<if _args[0] is \"maths\">>",
+    "translation": "",
+    "pos": 1082
+  },
+  {
+    "passage": "Widgets Exams",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "33_5_3_7|",
+    "original": "<span class=\"pink\">Whitney's distractions:</span> <span class=\"black\">-5%</span>",
+    "translation": "",
+    "pos": 1176
+  },
+  {
+    "passage": "Widgets Exams",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "37_5_3_7|",
+    "original": "<span class=\"red\">Whitney's distractions:</span> <span class=\"black\">-10%</span>",
+    "translation": "",
+    "pos": 1335
+  },
+  {
+    "passage": "Widgets Exams",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "44_5_3_7|",
+    "original": "<span class=\"purple\">Drunk:</span> <span class=\"black\">-_drunk%</span>",
+    "translation": "",
+    "pos": 1542
+  },
+  {
+    "passage": "Widgets Exams",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "49_5_3_7|",
+    "original": "<span class=\"red\">Very anxious:</span> <span class=\"black\">-20%</span>",
+    "translation": "",
+    "pos": 1683
+  },
+  {
+    "passage": "Widgets Exams",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "53_5_3_7|",
+    "original": "<span class=\"red\">Anxious:</span> <span class=\"black\">-10%</span>",
+    "translation": "",
+    "pos": 1819
+  },
+  {
+    "passage": "Widgets Exams",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "58_5_3_7|",
+    "original": "<span class=\"lewd\">Horny:</span> <span class=\"black\">-10%</span>",
+    "translation": "",
+    "pos": 1958
+  },
+  {
+    "passage": "Widgets Exams",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "62_5_3_7|",
+    "original": "<span class=\"lewd\">Aroused:</span> <span class=\"black\">-5%</span>",
+    "translation": "",
+    "pos": 2090
+  },
+  {
+    "passage": "Widgets Exams",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "66_5_3_7|",
+    "original": "Pass chance: <<print Math.trunc($exam_chance)>>%",
+    "translation": "",
+    "pos": 2174
+  },
+  {
+    "passage": "Widgets Exams",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "74_5_3_7|",
+    "original": "<<school_mark $_subject>> printed and circled on the front, with <span class=\"green\">\"Distinction\"</span> written beside it in green ink.<<ggcontrol>><<control 25>><<ldelinquency>><<detention -6>>",
+    "translation": "",
+    "pos": 2425
+  },
+  {
+    "passage": "Widgets Exams",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "78_5_3_7|",
+    "original": "<<school_mark $_subject>> printed and circled on the front. <span class=\"green\">You've improved your mark!</span>",
+    "translation": "",
+    "pos": 2693
+  },
+  {
+    "passage": "Widgets Exams",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "83_5_3_7|",
+    "original": "<<school_mark $_subject>> printed and circled on the front. The expected mark.",
+    "translation": "",
+    "pos": 2875
+  },
+  {
+    "passage": "Widgets Exams",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "98_5_3_7|",
+    "original": "<<case 4>> an <span class=\"green\">A*</span>",
+    "translation": "",
+    "pos": 3354
+  },
+  {
+    "passage": "Widgets Exams",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "99_5_3_7|",
+    "original": "<<case 3>> an <span class=\"teal\">A</span>",
+    "translation": "",
+    "pos": 3400
+  },
+  {
+    "passage": "Widgets Exams",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "100_5_3_7|",
+    "original": "<<case 2>> a <span class=\"lblue\">B</span>",
+    "translation": "",
+    "pos": 3444
+  },
+  {
+    "passage": "Widgets Exams",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "101_5_3_7|",
+    "original": "<<case 1>> a <span class=\"blue\">C</span>",
+    "translation": "",
+    "pos": 3488
+  },
+  {
+    "passage": "Widgets Exams",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "102_5_3_7|",
+    "original": "<<case 0>> a <span class=\"purple\">D</span>",
+    "translation": "",
+    "pos": 3531
+  },
+  {
+    "passage": "Widgets Exams",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "103_5_3_7|",
+    "original": "<<default>> a <span class=\"red\">F</span>",
+    "translation": "",
+    "pos": 3576
+  },
+  {
+    "passage": "Widgets Exams",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "152_5_3_7|",
+    "original": "Keep at it, and you're sure to benefit.",
+    "translation": "",
+    "pos": 4849
+  },
+  {
+    "passage": "Widgets Exams",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "156_5_3_7|",
+    "original": "<span class=\"gold\">",
+    "translation": "",
+    "pos": 5070
+  },
+  {
+    "passage": "Widgets Exams",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "157_5_3_7|",
+    "original": "You've gained the <span @class=\"$_colour\">$_traitname</span> trait,",
+    "translation": "",
+    "pos": 5093
+  },
+  {
+    "passage": "Widgets Exams",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "160_5_3_7|",
+    "original": "<<case \"science\">>",
+    "translation": "",
+    "pos": 5196
+  },
+  {
+    "passage": "Widgets Exams",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "162_5_3_7|",
+    "original": "<<case 4>> making pain much easier to cope with. <!-- Excellent Science -->",
+    "translation": "",
+    "pos": 5243
+  },
+  {
+    "passage": "Widgets Exams",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "163_5_3_7|",
+    "original": "<<case 3>> making pain easier to cope with. <!-- Good Science -->",
+    "translation": "",
+    "pos": 5324
+  },
+  {
+    "passage": "Widgets Exams",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "164_5_3_7|",
+    "original": "<<case 2>> making pain moderately easier to cope with. <!-- Decent Science -->",
+    "translation": "",
+    "pos": 5395
+  },
+  {
+    "passage": "Widgets Exams",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "165_5_3_7|",
+    "original": "<<case 1>> making pain slightly easier to cope with. <!-- Passable Science -->",
+    "translation": "",
+    "pos": 5479
+  },
+  {
+    "passage": "Widgets Exams",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "167_5_3_7|",
+    "original": "<<case \"maths\">>",
+    "translation": "",
+    "pos": 5577
+  },
+  {
+    "passage": "Widgets Exams",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "169_5_3_7|",
+    "original": "<<case 4>> letting you make 100% more from tips and negotiated fees. <!-- Excellent Maths -->",
+    "translation": "",
+    "pos": 5622
+  },
+  {
+    "passage": "Widgets Exams",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "170_5_3_7|",
+    "original": "<<case 3>> letting you make 75% more from tips and negotiated fees. <!-- Good Maths -->",
+    "translation": "",
+    "pos": 5721
+  },
+  {
+    "passage": "Widgets Exams",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "171_5_3_7|",
+    "original": "<<case 2>> letting you make 50% more from tips and negotiated fees. <!-- Decent Maths -->",
+    "translation": "",
+    "pos": 5814
+  },
+  {
+    "passage": "Widgets Exams",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "172_5_3_7|",
+    "original": "<<case 1>> letting you make 25% more from tips and negotiated fees. <!-- Passable Maths -->",
+    "translation": "",
+    "pos": 5909
+  },
+  {
+    "passage": "Widgets Exams",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "174_5_3_7|",
+    "original": "<<case \"english\">>",
+    "translation": "",
+    "pos": 6020
+  },
+  {
+    "passage": "Widgets Exams",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "176_5_3_7|",
+    "original": "<<case 4>> making speech actions five times as effective. <!-- Excellent English -->",
+    "translation": "",
+    "pos": 6067
+  },
+  {
+    "passage": "Widgets Exams",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "177_5_3_7|",
+    "original": "<<case 3>> making speech actions four times as effective. <!-- Good English -->",
+    "translation": "",
+    "pos": 6157
+  },
+  {
+    "passage": "Widgets Exams",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "178_5_3_7|",
+    "original": "<<case 2>> making speech actions three times as effective. <!-- Decent English -->",
+    "translation": "",
+    "pos": 6242
+  },
+  {
+    "passage": "Widgets Exams",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "179_5_3_7|",
+    "original": "<<case 1>> making speech actions (plead, moan, demand, apologise, mock, tease) twice as effective. <!-- Passable English -->",
+    "translation": "",
+    "pos": 6330
+  },
+  {
+    "passage": "Widgets Exams",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "181_5_3_7|",
+    "original": "<<case \"history\">>",
+    "translation": "",
+    "pos": 6474
+  },
+  {
+    "passage": "Widgets Exams",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "183_5_3_7|",
+    "original": "<<case 4>> teaching you more secret paths around town. <!-- Excellent History -->",
+    "translation": "",
+    "pos": 6521
+  },
+  {
+    "passage": "Widgets Exams",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "184_5_3_7|",
+    "original": "<<case 3>> teaching you more secret paths around town. <!-- Good History -->",
+    "translation": "",
+    "pos": 6608
+  },
+  {
+    "passage": "Widgets Exams",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "185_5_3_7|",
+    "original": "<<case 2>> teaching you more secret paths around town. <!-- Decent History -->",
+    "translation": "",
+    "pos": 6690
+  },
+  {
+    "passage": "Widgets Exams",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "186_5_3_7|",
+    "original": "<<case 1>> teaching you secret paths around town. <!-- Passable History -->",
+    "translation": "",
+    "pos": 6774
+  },
+  {
+    "passage": "Widgets Exams",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "191_5_3_7|",
+    "original": "However, the next exam will be harder.",
+    "translation": "",
+    "pos": 6912
+  },
+  {
+    "passage": "Science Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "206_5_3_7|",
+    "original": "You focus on the exam, doing your best to tune out the scribbling and groans of other students.",
+    "translation": "",
+    "pos": 169
+  },
+  {
+    "passage": "Science Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "208_5_3_7|",
+    "original": "You take a deep breath, and try not to let the pressure get to you.",
+    "translation": "",
+    "pos": 279
+  },
+  {
+    "passage": "Science Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "213_5_3_7|",
+    "original": "The slime tries to assert control. <span class=\"red\">It overpowers your will,</span> forcing you to look for ways to cheat in the exam.",
+    "translation": "",
+    "pos": 511
+  },
+  {
+    "passage": "Science Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "215_5_3_7|",
+    "original": "You attempt to ignore the command from the slime and focus on the exam. You feel it try, <span class=\"green\">but fail,</span> to force you to cheat, however, it is still a distraction. <<set $exam_chance -= 5>><<passPercent -5>>",
+    "translation": "",
+    "pos": 663
+  },
+  {
+    "passage": "Science Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "219_5_3_7|",
+    "original": "<<if $phase is 3>>You follow the <<= numberOfEarSlime() gte 2 ? \"slimes'\" : \"slime's\">> command and look for ways to cheat in the exam.<</if>>",
+    "translation": "",
+    "pos": 966
+  },
+  {
+    "passage": "Science Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "223_5_3_7|",
+    "original": "You watch Sirris. <<Hes>> supposed to keep an eye on the room, but spends more time looking out the window. You should be able to copy your neighbours if you're",
+    "translation": "",
+    "pos": 1142
+  },
+  {
+    "passage": "Science Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "225_5_3_7|",
+    "original": "careful. <span class=\"green\">You manage to glean a few answers to some of the tougher questions.</span>",
+    "translation": "",
+    "pos": 1342
+  },
+  {
+    "passage": "Science Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "228_5_3_7|",
+    "original": "care-",
+    "translation": "",
+    "pos": 1511
+  },
+  {
+    "passage": "Science Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "230_5_3_7|",
+    "original": "<span class=\"red\">\"Focus on your own paper,\"</span> Sirris says, looking right at you. <<He>> wasn't as distracted as <<he>> appeared.",
+    "translation": "",
+    "pos": 1534
+  },
+  {
+    "passage": "Science Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "238_5_3_7|",
+    "original": "You ignore the <<= numberOfEarSlime() gte 2 ? \"slimes'\" : \"slime's\">> command, and focus on doing your best to tune out the scribbling and groans of other students.",
+    "translation": "",
+    "pos": 1849
+  },
+  {
+    "passage": "Science Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "242_5_3_7|",
+    "original": "Sirris looks at <<his>> watch now and then. \"And done,\" <<he>> says. \"I hope that wasn't too bad.\" Some students continue to scribble, but Sirris zips around the room in <<his>> haste to retrieve the booklets.",
+    "translation": "",
+    "pos": 2036
+  },
+  {
+    "passage": "Science Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "245_5_3_7|",
+    "original": "The class are allowed to chat while Sirris marks the papers. They make up for the period of silence with more noise than usual, though some are too nervous to talk.",
+    "translation": "",
+    "pos": 2256
+  },
+  {
+    "passage": "Science Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "248_5_3_7|",
+    "original": "The bell rings. Sirris stands by the door, smiling as <<he>> hands the booklets back to passing students. <<He>> holds out yours,",
+    "translation": "",
+    "pos": 2431
+  },
+  {
+    "passage": "Science Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "252_5_3_7|",
+    "original": "You join the throng of students in the hallway.",
+    "translation": "",
+    "pos": 2597
+  },
+  {
+    "passage": "Science Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "255_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 2655
+  },
+  {
+    "passage": "Maths Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "270_5_3_7|",
+    "original": "<<if $phase is 7>>You ignore the <<= numberOfEarSlime() gte 2 ? \"slimes'\" : \"slime's\">> command, and<<else>>You<</if>>",
+    "translation": "",
+    "pos": 254
+  },
+  {
+    "passage": "Maths Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "272_5_3_7|",
+    "original": "try to focus on the exam, but Whitney's frequent distractions make it difficult to concentrate.",
+    "translation": "",
+    "pos": 411
+  },
+  {
+    "passage": "Maths Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "274_5_3_7|",
+    "original": "try to focus on the exam, but Whitney's sporadic groping makes it difficult to concentrate. <<garousal>><<arousal 300 \"genitals\">><<arousal 300 \"bottom\">>",
+    "translation": "",
+    "pos": 547
+  },
+  {
+    "passage": "Maths Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "276_5_3_7|",
+    "original": "focus on the exam, doing your best to tune out the scribbling and groans of other students.",
+    "translation": "",
+    "pos": 716
+  },
+  {
+    "passage": "Maths Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "280_5_3_7|",
+    "original": "You take a deep breath, and try not to let Whitney's frequent distractions bother you.",
+    "translation": "",
+    "pos": 868
+  },
+  {
+    "passage": "Maths Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "282_5_3_7|",
+    "original": "You take a deep breath, and try not to let Whitney's sporadic groping bother you. <<garousal>><<arousal 150 \"genitals\">><<arousal 150 \"bottom\">>",
+    "translation": "",
+    "pos": 995
+  },
+  {
+    "passage": "Maths Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "284_5_3_7|",
+    "original": "You take a deep breath, and try not to let the pressure get to you.",
+    "translation": "",
+    "pos": 1154
+  },
+  {
+    "passage": "Maths Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "290_5_3_7|",
+    "original": "The slime tries to assert control. <span class=\"red\">It overpowers your will,</span> forcing you to look for ways to cheat in the exam.",
+    "translation": "",
+    "pos": 1396
+  },
+  {
+    "passage": "Maths Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "292_5_3_7|",
+    "original": "You attempt to ignore the command from the slime and focus on the exam. You feel it try, <span class=\"green\">but fail,</span> to force you to cheat, however, it is still a distraction. <<set $exam_chance -= 5>><<passPercent -5>>",
+    "translation": "",
+    "pos": 1548
+  },
+  {
+    "passage": "Maths Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "296_5_3_7|",
+    "original": "<<if $phase is 6>>You follow the <<= numberOfEarSlime() gte 2 ? \"slimes'\" : \"slime's\">> command and look for ways to cheat in the exam.<</if>>",
+    "translation": "",
+    "pos": 1851
+  },
+  {
+    "passage": "Maths Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "301_5_3_7|",
+    "original": "You glance sideways. The <<person>> beside you seems confident. You cover your glances with innocuous movements,",
+    "translation": "",
+    "pos": 2055
+  },
+  {
+    "passage": "Maths Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "303_5_3_7|",
+    "original": "hoping to avoid River's gaze. <span class=\"green\">You manage to glean a few answers to some of the tougher questions.</span>",
+    "translation": "",
+    "pos": 2207
+  },
+  {
+    "passage": "Maths Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "306_5_3_7|",
+    "original": "hoping to-",
+    "translation": "",
+    "pos": 2397
+  },
+  {
+    "passage": "Maths Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "308_5_3_7|",
+    "original": "<span class=\"red\">\"Eyes in front,\"</span> River says, piercing you with <<person1>><<his>> gaze. <<He>> doesn't say another word on the matter, but you know your paper will be under thorough scrutiny.",
+    "translation": "",
+    "pos": 2425
+  },
+  {
+    "passage": "Maths Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "318_5_3_7|",
+    "original": "You glance behind you as Whitney throws, <span class=\"green\">and manage to snatch the rubber from the air.</span>",
+    "translation": "",
+    "pos": 2850
+  },
+  {
+    "passage": "Maths Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "319_5_3_7|",
+    "original": "Deprived of <<person3>><<his>> projectile, Whitney can only glower.",
+    "translation": "",
+    "pos": 2967
+  },
+  {
+    "passage": "Maths Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "322_5_3_7|",
+    "original": "You glance behind you as Whitney throws, hoping to snatch the rubber from the air.",
+    "translation": "",
+    "pos": 3095
+  },
+  {
+    "passage": "Maths Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "325_5_3_7|",
+    "original": "<span class=\"red\">\"Eyes in front,\"</span> River says, piercing you with <<person1>><<his>> gaze. <<He>> doesn't say another word on the matter, but you know your paper will be under thorough scrutiny.",
+    "translation": "",
+    "pos": 3194
+  },
+  {
+    "passage": "Maths Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "329_5_3_7|",
+    "original": "Whitney stops harassing you, but you just know <<person3>><<hes>> smirking.",
+    "translation": "",
+    "pos": 3483
+  },
+  {
+    "passage": "Maths Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "334_5_3_7|",
+    "original": "You <<npcUndressText `C.npc.Whitney` \"lower\">>,",
+    "translation": "",
+    "pos": 3653
+  },
+  {
+    "passage": "Maths Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "336_5_3_7|",
+    "original": "and wrap your fingers around <<his>> <<print C.npc.Whitney.penisdesc>>.",
+    "translation": "",
+    "pos": 3727
+  },
+  {
+    "passage": "Maths Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "338_5_3_7|",
+    "original": "and press your fingers against <<his>> clit.",
+    "translation": "",
+    "pos": 3815
+  },
+  {
+    "passage": "Maths Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "340_5_3_7|",
+    "original": "You <<handtext>> stroke <<him>>.",
+    "translation": "",
+    "pos": 3874
+  },
+  {
+    "passage": "Maths Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "343_5_3_7|",
+    "original": "You need to finish <<him>> quick, before River notices.",
+    "translation": "",
+    "pos": 3984
+  },
+  {
+    "passage": "Maths Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "345_5_3_7|",
+    "original": "<<He>> has the sense not to make a noise, but shudders as <<he>> <span class=\"green\">climaxes over your hand.</span><<bodyliquid \"leftarm\" \"semen\">>",
+    "translation": "",
+    "pos": 4068
+  },
+  {
+    "passage": "Maths Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "347_5_3_7|",
+    "original": "<<He>> has the sense not to make a noise, but shudders as <<he>> <span class=\"green\">climaxes.</span>",
+    "translation": "",
+    "pos": 4235
+  },
+  {
+    "passage": "Maths Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "352_5_3_7|",
+    "original": "<<He>> leans back, content, allowing you to work through the booklet.",
+    "translation": "",
+    "pos": 4414
+  },
+  {
+    "passage": "Maths Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "354_5_3_7|",
+    "original": "You know you need to finish <<him>> quick, before River notices, but it's difficult with such limited movement.",
+    "translation": "",
+    "pos": 4500
+  },
+  {
+    "passage": "Maths Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "357_5_3_7|",
+    "original": "<span class=\"red\">\"Stop fidgeting,\"</span> River says, piercing you with <<person1>><<his>> gaze. You pull your hand away, leaving you to endure Whitney's sporadic groping. <<garousal>><<arousal 300 \"genitals\">><<arousal 300 \"bottom\">>",
+    "translation": "",
+    "pos": 4630
+  },
+  {
+    "passage": "Maths Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "363_5_3_7|",
+    "original": "River watches throughout, casting an occasional glance at the clock on the wall. \"Put down your pens,\" <<person1>><<he>> says. A <<person2>><<person>> keeps writing, until River shoots <<him>> a sharp look.",
+    "translation": "",
+    "pos": 4909
+  },
+  {
+    "passage": "Maths Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "366_5_3_7|",
+    "original": "River directs the class to solve some \"fun\" puzzles at the back of your textbooks while <<person1>><<he>> marks the exam. It only takes a few minutes.",
+    "translation": "",
+    "pos": 5126
+  },
+  {
+    "passage": "Maths Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "369_5_3_7|",
+    "original": "The marked booklet lands on your desk,",
+    "translation": "",
+    "pos": 5287
+  },
+  {
+    "passage": "Maths Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "374_5_3_7|",
+    "original": "The bell rings. You shuffle with the other students into the throng of the hallway.",
+    "translation": "",
+    "pos": 5434
+  },
+  {
+    "passage": "Maths Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "377_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><<if $whitneymaths>><<set $whitneymaths to \"absent\">><</if>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 5528
+  },
+  {
+    "passage": "English Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "391_5_3_7|",
+    "original": "You focus on the exam, doing your best to tune out the scribbling and groans of other students.",
+    "translation": "",
+    "pos": 168
+  },
+  {
+    "passage": "English Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "393_5_3_7|",
+    "original": "You take a deep breath, and try not to let the pressure get to you.",
+    "translation": "",
+    "pos": 278
+  },
+  {
+    "passage": "English Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "398_5_3_7|",
+    "original": "The slime tries to assert control. <span class=\"red\">It overpowers your will,</span> forcing you to look for ways to cheat in the exam.",
+    "translation": "",
+    "pos": 510
+  },
+  {
+    "passage": "English Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "400_5_3_7|",
+    "original": "You attempt to ignore the command from the slime and focus on the exam. You feel it try, <span class=\"green\">but fail,</span> to force you to cheat, however, it is still a distraction. <<set $exam_chance -= 5>><<passPercent -5>>",
+    "translation": "",
+    "pos": 662
+  },
+  {
+    "passage": "English Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "404_5_3_7|",
+    "original": "<<if $phase is 4>>You follow the <<= numberOfEarSlime() gte 2 ? \"slimes'\" : \"slime's\">> command and look for ways to cheat in the exam.<</if>>",
+    "translation": "",
+    "pos": 965
+  },
+  {
+    "passage": "English Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "408_5_3_7|",
+    "original": "Doren's back is often turned to you, but <<his>> path is unpredictable.",
+    "translation": "",
+    "pos": 1141
+  },
+  {
+    "passage": "English Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "410_5_3_7|",
+    "original": "<<He>> could turn at any moment, <span class=\"green\">but you manage to read your neighbour's papers with daring glances.</span>",
+    "translation": "",
+    "pos": 1252
+  },
+  {
+    "passage": "English Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "413_5_3_7|",
+    "original": "You wait until <<he>> passes, then sneak a glance at your neighbour. Doren spins, <span class=\"red\">and smacks <<his>> hand against your desk.</span>",
+    "translation": "",
+    "pos": 1445
+  },
+  {
+    "passage": "English Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "416_5_3_7|",
+    "original": "\"Got the fly,\" <<he>> says. <<Hes>> sparing you the embarrassment of being caught cheating, but your paper will be under extra scrutiny.<<gstress>><<stress 6>><<set $exam_chance -= 10>><<passPercent -10>><<ggdelinquency>><<detention 5>>",
+    "translation": "",
+    "pos": 1613
+  },
+  {
+    "passage": "English Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "424_5_3_7|",
+    "original": "You glance at Kylar's booklet. <<He>> notices and, eager to please, keeps <<his>> arm from obscuring your view as <<he>> writes. <<He>> has creative answers to the tougher questions.",
+    "translation": "",
+    "pos": 1954
+  },
+  {
+    "passage": "English Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "426_5_3_7|",
+    "original": "You ignore the <<= numberOfEarSlime() gte 2 ? \"slimes'\" : \"slime's\">> command, and focus on doing your best to tune out the scribbling and groans of other students.",
+    "translation": "",
+    "pos": 2151
+  },
+  {
+    "passage": "English Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "430_5_3_7|",
+    "original": "Doren prowls throughout, then lifts the tray on <<person1>><<his>> desk. <<He>> walks around the room, gathering the booklets.",
+    "translation": "",
+    "pos": 2338
+  },
+  {
+    "passage": "English Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "433_5_3_7|",
+    "original": "\"Won't be long,\" <<he>> says, tearing through the first paper with a red pen. <<Hes>> unbothered by the chatter that erupts. <<Hes>> soon finished.",
+    "translation": "",
+    "pos": 2475
+  },
+  {
+    "passage": "English Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "436_5_3_7|",
+    "original": "Your marked booklet skids in front of you,",
+    "translation": "",
+    "pos": 2633
+  },
+  {
+    "passage": "English Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "441_5_3_7|",
+    "original": "The bell rings. You shuffle with the other students into the throng of the hallway.",
+    "translation": "",
+    "pos": 2784
+  },
+  {
+    "passage": "English Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "444_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 2878
+  },
+  {
+    "passage": "History Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "458_5_3_7|",
+    "original": "You focus on the exam, doing your best to tune out the scribbling and groans of other students.",
+    "translation": "",
+    "pos": 169
+  },
+  {
+    "passage": "History Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "460_5_3_7|",
+    "original": "You take a deep breath, and try not to let the pressure get to you.",
+    "translation": "",
+    "pos": 279
+  },
+  {
+    "passage": "History Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "465_5_3_7|",
+    "original": "The slime tries to assert control. <span class=\"red\">It overpowers your will,</span> forcing you to look for ways to cheat in the exam.",
+    "translation": "",
+    "pos": 511
+  },
+  {
+    "passage": "History Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "467_5_3_7|",
+    "original": "You attempt to ignore the command from the slime and focus on the exam. You feel it try, <span class=\"green\">but fail,</span> to force you to cheat, however, it is still a distraction. <<set $exam_chance -= 5>><<passPercent -5>>",
+    "translation": "",
+    "pos": 663
+  },
+  {
+    "passage": "History Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "471_5_3_7|",
+    "original": "<<if $phase is 3>>You follow the <<= numberOfEarSlime() gte 2 ? \"slimes'\" : \"slime's\">> command and look for ways to cheat in the exam.<</if>>",
+    "translation": "",
+    "pos": 966
+  },
+  {
+    "passage": "History Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "475_5_3_7|",
+    "original": "Winter occupies <<himself>> with a book, and doesn't seem to be paying attention.",
+    "translation": "",
+    "pos": 1142
+  },
+  {
+    "passage": "History Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "477_5_3_7|",
+    "original": "You know that isn't true. There are moments, here and there, where the teacher's attention is taken. You glance at your neighbours during those moments, <span class=\"green\">and manage to glean a few answers to the tougher questions.</span>",
+    "translation": "",
+    "pos": 1263
+  },
+  {
+    "passage": "History Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "480_5_3_7|",
+    "original": "You take the chance, and look at your neighbour's paper.",
+    "translation": "",
+    "pos": 1568
+  },
+  {
+    "passage": "History Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "483_5_3_7|",
+    "original": "<span class=\"red\">Robin nudges you.</span> \"You shouldn't cheat!\"",
+    "translation": "",
+    "pos": 1678
+  },
+  {
+    "passage": "History Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "486_5_3_7|",
+    "original": "Winter glances up. \"No talking.\" You won't be able to get away with it now.<<gstress>><<stress 6>><<set $exam_chance -= 10>><<passPercent -10>>",
+    "translation": "",
+    "pos": 1764
+  },
+  {
+    "passage": "History Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "488_5_3_7|",
+    "original": "<span class=\"red\">\"No cheating,\"</span> Winter says without looking up. You know <<he>> was referring to you, though <<he>> gives no indication.<<gstress>><<stress 6>><<set $exam_chance -= 10>><<passPercent -10>><<ggdelinquency>><<detention 5>>",
+    "translation": "",
+    "pos": 1926
+  },
+  {
+    "passage": "History Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "496_5_3_7|",
+    "original": "You ignore the <<= numberOfEarSlime() gte 2 ? \"slimes'\" : \"slime's\">> command, and focus on doing your best to tune out the scribbling and groans of other students.",
+    "translation": "",
+    "pos": 2258
+  },
+  {
+    "passage": "History Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "500_5_3_7|",
+    "original": "Winter thumbs through the pages of <<person1>><<his>> book while the students work. <<He>> thuds it shut. \"Done,\" <<he>> announces.",
+    "translation": "",
+    "pos": 2445
+  },
+  {
+    "passage": "History Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "503_5_3_7|",
+    "original": "You form into another orderly queue. Winter marks each booklet as <<he>> receives them, <<his>> red pen ablur. Yours is no different. <<He>> hands it back to you,",
+    "translation": "",
+    "pos": 2587
+  },
+  {
+    "passage": "History Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "508_5_3_7|",
+    "original": "The bell rings, and you join the throng of students in the hallway.",
+    "translation": "",
+    "pos": 2858
+  },
+  {
+    "passage": "History Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "511_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 2936
+  },
+  {
+    "passage": "Housekeeping Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "525_5_3_7|",
+    "original": "You focus on following the recipe, putting all you've learned to the test.",
+    "translation": "",
+    "pos": 231
+  },
+  {
+    "passage": "Housekeeping Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "527_5_3_7|",
+    "original": "You try to relax as you work on the recipe, putting you at odds with the frantic rushing of the other students.",
+    "translation": "",
+    "pos": 320
+  },
+  {
+    "passage": "Housekeeping Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "530_5_3_7|",
+    "original": "Your creation comes together into <span class=\"green\">something edible.</span>",
+    "translation": "",
+    "pos": 484
+  },
+  {
+    "passage": "Housekeeping Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "533_5_3_7|",
+    "original": "<span class=\"red\">Something goes wrong however,</span> and your ingredients transform into unrecognisable slop.",
+    "translation": "",
+    "pos": 601
+  },
+  {
+    "passage": "Housekeeping Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "538_5_3_7|",
+    "original": "River roams the room, giving sharp corrections to anyone misusing ingredients, or making a mess. \"One minute,\" <<he>> warns, propelling a final spur of activity from the students. \"Stop.\" A <<person2>><<person>> keeps working, until <<he>> notices the teacher's glare.",
+    "translation": "",
+    "pos": 760
+  },
+  {
+    "passage": "Housekeeping Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "541_5_3_7|",
+    "original": "<<person1>>River strides down the length of the room, <<his>> eyes consuming each student's creation in turn. <<He>> stops at the far end, turns around, then walks the way <<he>> came. This time, <<he>> announces whether each student passed, or failed.",
+    "translation": "",
+    "pos": 1039
+  },
+  {
+    "passage": "Housekeeping Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "545_5_3_7|",
+    "original": "<<He>> pauses before you, scrutinising your <<recipe_name $chosen_recipe>>, before making <<his>> announcement. <span class=\"green\">\"Pass.\"</span>",
+    "translation": "",
+    "pos": 1329
+  },
+  {
+    "passage": "Housekeeping Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "551_5_3_7|",
+    "original": "You know the result before River announces it. <span class=\"red\">\"Fail,\"</span> <<he>> says without slowing. There'll be another chance to learn the recipe.<<ghousekeeping>><<housekeeping 1>>",
+    "translation": "",
+    "pos": 1605
+  },
+  {
+    "passage": "Housekeeping Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "559_5_3_7|",
+    "original": "The bell rings. You shuffle with the other students into the throng of the hallway.",
+    "translation": "",
+    "pos": 1904
+  },
+  {
+    "passage": "Housekeeping Exam",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "562_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><<unset $exam_chance>><<unset $chosen_recipe>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1998
+  },
+  {
+    "passage": "Housekeeping Exam Assistant Sweet",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "569_5_3_7|",
+    "original": "You choose a sweet recipe for the exam projector. River looks at it, and nods. You trail behind <<him>> as <<he>> roams the room, giving sharp corrections to anyone misusing ingredients, or making a mess.<<gcontrol>><<control 10>>",
+    "translation": "",
+    "pos": 92
+  },
+  {
+    "passage": "Housekeeping Exam Assistant Sweet",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "572_5_3_7|",
+    "original": "\"One minute,\" River warns, propelling a final spur of activity from the students. \"Stop.\" A <<person2>><<person>> keeps working, until <<he>> notices the teacher's glare.",
+    "translation": "",
+    "pos": 333
+  },
+  {
+    "passage": "Housekeeping Exam Assistant Sweet",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "575_5_3_7|",
+    "original": "<<person1>>You follow River as <<he>> strides down the room, <<his>> eyes consuming each student's creation in turn. <<He>> stops at the far end, and turns to you to confer. <<Hes>> undecided on a few of the dishes, and wants your opinion.",
+    "translation": "",
+    "pos": 514
+  },
+  {
+    "passage": "Housekeeping Exam Assistant Sweet",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "578_5_3_7|",
+    "original": "<<link [[Be lenient|Housekeeping Exam Assistant Lenient]]>><</link>>",
+    "translation": "",
+    "pos": 764
+  },
+  {
+    "passage": "Housekeeping Exam Assistant Sweet",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "580_5_3_7|",
+    "original": "<<link [[Be strict|Housekeeping Exam Assistant Strict]]>><</link>>",
+    "translation": "",
+    "pos": 838
+  },
+  {
+    "passage": "Housekeeping Exam Assistant Savoury",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "587_5_3_7|",
+    "original": "You choose a savoury recipe for the exam projector. River looks at it, and nods. You trail behind <<him>> as <<he>> roams the room, giving sharp corrections to anyone misusing ingredients, or making a mess.<<gcontrol>><<control 10>>",
+    "translation": "",
+    "pos": 92
+  },
+  {
+    "passage": "Housekeeping Exam Assistant Savoury",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "590_5_3_7|",
+    "original": "\"One minute,\" River warns, propelling a final spur of activity from the students. \"Stop.\" A <<person2>><<person>> keeps working, until <<he>> notices the teacher's glare.",
+    "translation": "",
+    "pos": 335
+  },
+  {
+    "passage": "Housekeeping Exam Assistant Savoury",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "593_5_3_7|",
+    "original": "<<person1>>You follow River as <<he>> strides down the room, <<his>> eyes consuming each student's creation in turn. <<He>> stops at the far end, and turns to you to confer. <<Hes>> undecided on a few of the dishes, and wants your opinion.",
+    "translation": "",
+    "pos": 516
+  },
+  {
+    "passage": "Housekeeping Exam Assistant Savoury",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "596_5_3_7|",
+    "original": "<<link [[Be lenient|Housekeeping Exam Assistant Lenient]]>><</link>>",
+    "translation": "",
+    "pos": 766
+  },
+  {
+    "passage": "Housekeeping Exam Assistant Savoury",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "598_5_3_7|",
+    "original": "<<link [[Be strict|Housekeeping Exam Assistant Strict]]>><</link>>",
+    "translation": "",
+    "pos": 840
+  },
+  {
+    "passage": "Housekeeping Exam Assistant Spicy",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "605_5_3_7|",
+    "original": "You choose a spicy recipe for the exam projector. River looks at it, and nods. You trail behind <<him>> as <<he>> roams the room, giving sharp corrections to anyone misusing ingredients, or making a mess.<<gcontrol>><<control 10>>",
+    "translation": "",
+    "pos": 92
+  },
+  {
+    "passage": "Housekeeping Exam Assistant Spicy",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "608_5_3_7|",
+    "original": "\"One minute,\" River warns, propelling a final spur of activity from the students. \"Stop.\" A <<person2>><<person>> keeps working, until <<he>> notices the teacher's glare.",
+    "translation": "",
+    "pos": 333
+  },
+  {
+    "passage": "Housekeeping Exam Assistant Spicy",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "611_5_3_7|",
+    "original": "<<person1>>You follow River as <<he>> strides down the room, <<his>> eyes consuming each student's creation in turn. <<He>> stops at the far end, and turns to you to confer. <<Hes>> undecided on a few of the dishes, and wants your opinion.",
+    "translation": "",
+    "pos": 514
+  },
+  {
+    "passage": "Housekeeping Exam Assistant Spicy",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "614_5_3_7|",
+    "original": "<<link [[Be lenient|Housekeeping Exam Assistant Lenient]]>><</link>>",
+    "translation": "",
+    "pos": 764
+  },
+  {
+    "passage": "Housekeeping Exam Assistant Spicy",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "616_5_3_7|",
+    "original": "<<link [[Be strict|Housekeeping Exam Assistant Strict]]>><</link>>",
+    "translation": "",
+    "pos": 838
+  },
+  {
+    "passage": "Housekeeping Exam Assistant Lenient",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "625_5_3_7|",
+    "original": "You emphasise the strong aspects of the student's work, and portray the mistakes as a consequence of healthy experimentation. River appears unconvinced, but gives the students in question a <span class=\"green\">pass</span> as <<he>> strides by.",
+    "translation": "",
+    "pos": 75
+  },
+  {
+    "passage": "Housekeeping Exam Assistant Lenient",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "628_5_3_7|",
+    "original": "The bell rings. You shuffle with the other students into the throng of the hallway.",
+    "translation": "",
+    "pos": 329
+  },
+  {
+    "passage": "Housekeeping Exam Assistant Lenient",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "631_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><<unset $exam_chance>><<unset $chosen_recipe>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 423
+  },
+  {
+    "passage": "Housekeeping Exam Assistant Strict",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "640_5_3_7|",
+    "original": "You argue that River should keep standards high, and that anything else would be doing the students a disservice. <<He>> nods, and gives the students in question a curt <span class=\"red\">fail</span> as <<he>> passes them by.",
+    "translation": "",
+    "pos": 75
+  },
+  {
+    "passage": "Housekeeping Exam Assistant Strict",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "643_5_3_7|",
+    "original": "The bell rings. You shuffle with the other students into the throng of the hallway.",
+    "translation": "",
+    "pos": 310
+  },
+  {
+    "passage": "Housekeeping Exam Assistant Strict",
+    "filepath": "overworld-town/loc-school/exam.twee",
+    "key": "646_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><<unset $exam_chance>><<unset $chosen_recipe>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 404
+  }
+]

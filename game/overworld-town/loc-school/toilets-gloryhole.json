@@ -1,0 +1,810 @@
+[
+  {
+    "passage": "School Gloryhole Start",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "15_5_3_7|",
+    "original": "You noticed before a large area of missing tile from the wall at waist level, with a gap large enough behind for someone to stand in. You realise you can access the gap through an unused closet in the bathroom. <span class=\"green\">This gives you an idea.</span>",
+    "translation": "",
+    "pos": 1059
+  },
+  {
+    "passage": "School Gloryhole Start",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "17_5_3_7|",
+    "original": "<<link [[Next|School Gloryhole Start]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1332
+  },
+  {
+    "passage": "School Gloryhole Start",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "20_5_3_7|",
+    "original": "You wait until no one else is around. Now is your chance to set up.",
+    "translation": "",
+    "pos": 1410
+  },
+  {
+    "passage": "School Gloryhole Start",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "22_5_3_7|",
+    "original": "You think about how much you should charge for your services, <span class=\"green\">given your skills and reputation.</span>",
+    "translation": "",
+    "pos": 1489
+  },
+  {
+    "passage": "School Gloryhole Start",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "24_5_3_7|",
+    "original": "<<link [[Set up shop and charge £5 (0:10)|School Gloryhole]]>><<pass 10>><<set $school_gloryhole_price to 500>><<set $phase to 1>><</link>><<promiscuous4>>",
+    "translation": "",
+    "pos": 1623
+  },
+  {
+    "passage": "School Gloryhole Start",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "26_5_3_7|",
+    "original": "<<link [[Set up shop and charge £10 (0:10)|School Gloryhole]]>><<pass 10>><<set $school_gloryhole_price to 1000>><<set $phase to 1>><</link>><<promiscuous4>>",
+    "translation": "",
+    "pos": 1786
+  },
+  {
+    "passage": "School Gloryhole Start",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "28_5_3_7|",
+    "original": "<<link [[Set up shop and charge £20 (0:10)|School Gloryhole]]>><<pass 10>><<set $school_gloryhole_price to 2000>><<set $phase to 1>><</link>><<promiscuous4>>",
+    "translation": "",
+    "pos": 1951
+  },
+  {
+    "passage": "School Gloryhole Start",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "31_5_3_7|",
+    "original": "<span class=\"blue\">",
+    "translation": "",
+    "pos": 2152
+  },
+  {
+    "passage": "School Gloryhole Start",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "34_5_3_7|",
+    "original": "The janitor is nowhere in sight.",
+    "translation": "",
+    "pos": 2217
+  },
+  {
+    "passage": "School Gloryhole Start",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "36_5_3_7|",
+    "original": "The janitor is busy.",
+    "translation": "",
+    "pos": 2267
+  },
+  {
+    "passage": "School Gloryhole Start",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "38_5_3_7|",
+    "original": "The janitor is headed your way.",
+    "translation": "",
+    "pos": 2306
+  },
+  {
+    "passage": "School Gloryhole Start",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "42_5_3_7|",
+    "original": "<<link [[Check for the janitor first|School Gloryhole Check]]>><<pass 10>><<set $skulduggerydifficulty to 0>><</link>><<skulduggerydifficulty>>",
+    "translation": "",
+    "pos": 2397
+  },
+  {
+    "passage": "School Gloryhole Start",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "45_5_3_7|",
+    "original": "<<link [[Changed my mind; leave the toilets (0:01)|Hallways]]>><<pass 1>><<set $janitor_check_decay to 0>><</link>>",
+    "translation": "",
+    "pos": 2557
+  },
+  {
+    "passage": "School Gloryhole",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "54_5_3_7|",
+    "original": "You scrawl out a sign \"Oral Servicing, <<printmoney $school_gloryhole_price true>>\" and tape it to the wall above the hole. You crawl into the space behind and wait.",
+    "translation": "",
+    "pos": 119
+  },
+  {
+    "passage": "School Gloryhole",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "56_5_3_7|",
+    "original": "You adjust your position in the gap behind the wall and wait for your next customer.",
+    "translation": "",
+    "pos": 295
+  },
+  {
+    "passage": "School Gloryhole",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "61_5_3_7|",
+    "original": "<<case \"morning\" \"lunch\" \"afternoon\">>",
+    "translation": "",
+    "pos": 422
+  },
+  {
+    "passage": "School Gloryhole",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "62_5_3_7|",
+    "original": "<span class=\"green\">Students mill around in the hallways outside. </span>",
+    "translation": "",
+    "pos": 462
+  },
+  {
+    "passage": "School Gloryhole",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "64_5_3_7|",
+    "original": "<<case \"first\" \"second\" \"third\" \"fourth\" \"fifth\">>",
+    "translation": "",
+    "pos": 557
+  },
+  {
+    "passage": "School Gloryhole",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "65_5_3_7|",
+    "original": "A few students walk around the halls with hall passes.",
+    "translation": "",
+    "pos": 609
+  },
+  {
+    "passage": "School Gloryhole",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "68_5_3_7|",
+    "original": "<span class=\"red\">The hallway is silent. </span>",
+    "translation": "",
+    "pos": 697
+  },
+  {
+    "passage": "School Gloryhole",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "80_5_3_7|",
+    "original": "You hear a lot of jostling outside; there are several people in the antechamber talking excitedly. <span class=\"green\">Perhaps you should raise your prices...</span>",
+    "translation": "",
+    "pos": 1127
+  },
+  {
+    "passage": "School Gloryhole",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "84_5_3_7|",
+    "original": "It's quiet in the antechamber. <span class=\"red\">Perhaps you should set up at another time...</span>",
+    "translation": "",
+    "pos": 1349
+  },
+  {
+    "passage": "School Gloryhole",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "87_5_3_7|",
+    "original": "You hear a lot of incredulous snickering outside. <span class=\"red\">Perhaps your price is too high...</span>",
+    "translation": "",
+    "pos": 1473
+  },
+  {
+    "passage": "School Gloryhole",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "105_5_3_7|",
+    "original": "<<generateRole 0 0 \"janitor\">><<npcClothesType $NPCList[0] \"worker\">><<person1>>",
+    "translation": "",
+    "pos": 2037
+  },
+  {
+    "passage": "School Gloryhole",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "107_5_3_7|",
+    "original": "You hear a sudden commotion outside, then a voice, \"What's going on in here?\" <span class=\"pink\">The janitor reaches in to haul you out of your spot.</span>",
+    "translation": "",
+    "pos": 2130
+  },
+  {
+    "passage": "School Gloryhole",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "110_5_3_7|",
+    "original": "<<link [[Escape through the drain system! (0:02)|School Drain]]>><<pass 2>><</link>>",
+    "translation": "",
+    "pos": 2357
+  },
+  {
+    "passage": "School Gloryhole",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "113_5_3_7|",
+    "original": "<<link [[Caught!|School Gloryhole Janitor Catch]]>><<stress 1>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 2462
+  },
+  {
+    "passage": "School Gloryhole",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "115_5_3_7|",
+    "original": "<<link [[Grope the janitor!|School Gloryhole Janitor Seduce]]>><</link>><<promiscuous2>>",
+    "translation": "",
+    "pos": 2555
+  },
+  {
+    "passage": "School Gloryhole",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "119_5_3_7|",
+    "original": "You hear footsteps approach, then giggling. A",
+    "translation": "",
+    "pos": 2710
+  },
+  {
+    "passage": "School Gloryhole",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "121_5_3_7|",
+    "original": "$NPCList[0].penisdesc pokes through the hole.",
+    "translation": "",
+    "pos": 2800
+  },
+  {
+    "passage": "School Gloryhole",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "123_5_3_7|",
+    "original": "pussy appears at the hole.",
+    "translation": "",
+    "pos": 2861
+  },
+  {
+    "passage": "School Gloryhole",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "126_5_3_7|",
+    "original": "<<link [[Engage|School Gloryhole Sex]]>><<pass 5>><<set $sexstart to 1>><<tiredness 3>><</link>><<gtiredness>>",
+    "translation": "",
+    "pos": 2914
+  },
+  {
+    "passage": "School Gloryhole",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "128_5_3_7|",
+    "original": "<<link [[Sneak out (0:05)|Hallways]]>><<pass 5>><<unset $desperateaction>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 3036
+  },
+  {
+    "passage": "School Gloryhole",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "131_5_3_7|",
+    "original": "You hear footsteps outside, and chatter, but no one approaches the hole.",
+    "translation": "",
+    "pos": 3154
+  },
+  {
+    "passage": "School Gloryhole",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "133_5_3_7|",
+    "original": "<<link [[Wait (0:10)|School Gloryhole]]>><<pass 10>><</link>>",
+    "translation": "",
+    "pos": 3242
+  },
+  {
+    "passage": "School Gloryhole",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "135_5_3_7|",
+    "original": "<<link [[Sneak out (0:05)|Hallways]]>><<pass 5>><<unset $desperateaction>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 3315
+  },
+  {
+    "passage": "School Gloryhole",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "140_5_3_7|",
+    "original": "It is dead silent as you sit behind the hole.",
+    "translation": "",
+    "pos": 3448
+  },
+  {
+    "passage": "School Gloryhole",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "142_5_3_7|",
+    "original": "<<link [[Wait (0:10)|School Gloryhole]]>><<pass 10>><</link>>",
+    "translation": "",
+    "pos": 3505
+  },
+  {
+    "passage": "School Gloryhole",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "144_5_3_7|",
+    "original": "<<link [[Sneak out (0:05)|Hallways]]>><<pass 5>><<unset $desperateaction>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 3574
+  },
+  {
+    "passage": "School Gloryhole Sex",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "167_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|School Gloryhole Sex Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 236
+  },
+  {
+    "passage": "School Gloryhole Sex",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "169_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|School Gloryhole Sex]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 336
+  },
+  {
+    "passage": "School Gloryhole Sex Finish",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "178_5_3_7|",
+    "original": "<<tearful>> you count the money <<he>> pushes through the hole. You've gained <<printmoney $school_gloryhole_price>>.",
+    "translation": "",
+    "pos": 201
+  },
+  {
+    "passage": "School Gloryhole Sex Finish",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "185_5_3_7|",
+    "original": "You hear a shout of pain from behind the wall, and the",
+    "translation": "",
+    "pos": 444
+  },
+  {
+    "passage": "School Gloryhole Sex Finish",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "187_5_3_7|",
+    "original": "$NPCList[0].penisdesc disappears.",
+    "translation": "",
+    "pos": 539
+  },
+  {
+    "passage": "School Gloryhole Sex Finish",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "189_5_3_7|",
+    "original": "pussy disappears.",
+    "translation": "",
+    "pos": 584
+  },
+  {
+    "passage": "School Gloryhole Sex Finish",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "192_5_3_7|",
+    "original": "<<tearful>> you adjust your position behind the hole.",
+    "translation": "",
+    "pos": 622
+  },
+  {
+    "passage": "School Gloryhole Sex Finish",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "198_5_3_7|",
+    "original": "You hear the <<person>> whining on the other side of the wall.",
+    "translation": "",
+    "pos": 727
+  },
+  {
+    "passage": "School Gloryhole Sex Finish",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "200_5_3_7|",
+    "original": "<<tearful>> you adjust your position behind the hole.",
+    "translation": "",
+    "pos": 801
+  },
+  {
+    "passage": "School Gloryhole Sex Finish",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "207_5_3_7|",
+    "original": "<<link [[Wait for another customer|School Gloryhole]]>><</link>>",
+    "translation": "",
+    "pos": 905
+  },
+  {
+    "passage": "School Gloryhole Sex Finish",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "209_5_3_7|",
+    "original": "<<link [[Sneak out (0:05)|Hallways]]>><<pass 5>><<unset $desperateaction>><</link>>",
+    "translation": "",
+    "pos": 975
+  },
+  {
+    "passage": "School Gloryhole Janitor Catch",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "214_5_3_7|",
+    "original": "The <<person>> glares at you. \"Look at the mess you're making in my bathrooms, <<girl>>! Do you know how long this will take to clean up all this spunk?\"",
+    "translation": "",
+    "pos": 79
+  },
+  {
+    "passage": "School Gloryhole Janitor Catch",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "218_5_3_7|",
+    "original": "<span class=\"red\"><<He>> grabs you by the ear and trots you into a nearby janitors' closest.</span> \"I've heard about what a hassle you are in class from the teachers; since you seem to enjoy selling your body and making a mess of the school, you can share a piece with me.\"",
+    "translation": "",
+    "pos": 272
+  },
+  {
+    "passage": "School Gloryhole Janitor Catch",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "220_5_3_7|",
+    "original": "<<He>> lunges at you.",
+    "translation": "",
+    "pos": 558
+  },
+  {
+    "passage": "School Gloryhole Janitor Catch",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "222_5_3_7|",
+    "original": "<<link [[Next|Janitor Closet Rape]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 591
+  },
+  {
+    "passage": "School Gloryhole Janitor Catch",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "224_5_3_7|",
+    "original": "<span class=\"red\"><<He>> grabs you by the hair and marches you into a nearby janitors' closest.</span> \"I've seen pictures of you from my friends; since you seem to like slutting it up and making a mess of the school, you can pay me back with your ass.\"",
+    "translation": "",
+    "pos": 699
+  },
+  {
+    "passage": "School Gloryhole Janitor Catch",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "226_5_3_7|",
+    "original": "<<He>> lunges at you.",
+    "translation": "",
+    "pos": 964
+  },
+  {
+    "passage": "School Gloryhole Janitor Catch",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "228_5_3_7|",
+    "original": "<<link [[Next|Janitor Closet Rape]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 997
+  },
+  {
+    "passage": "School Gloryhole Janitor Catch",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "232_5_3_7|",
+    "original": "<span class=\"red\"><<He>> grabs you by the arm and pulls you into a nearby janitors' closest.</span> \"Since you like selling your body and messing up my school, you can share a piece with me.\"",
+    "translation": "",
+    "pos": 1123
+  },
+  {
+    "passage": "School Gloryhole Janitor Catch",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "234_5_3_7|",
+    "original": "<<He>> lunges at you.",
+    "translation": "",
+    "pos": 1328
+  },
+  {
+    "passage": "School Gloryhole Janitor Catch",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "236_5_3_7|",
+    "original": "<<link [[Next|Janitor Closet Rape]]>><<set $molestationstart to 1>><</link>>",
+    "translation": "",
+    "pos": 1363
+  },
+  {
+    "passage": "School Gloryhole Janitor Catch",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "238_5_3_7|",
+    "original": "<<He>> shakes <<his>> head. \"You're getting detention for this. Now get out of here.\"",
+    "translation": "",
+    "pos": 1455
+  },
+  {
+    "passage": "School Gloryhole Janitor Catch",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "242_5_3_7|",
+    "original": "<<tearful>> you run out of the bathroom.",
+    "translation": "",
+    "pos": 1591
+  },
+  {
+    "passage": "School Gloryhole Janitor Catch",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "244_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1645
+  },
+  {
+    "passage": "School Gloryhole Janitor Seduce",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "253_5_3_7|",
+    "original": "<span class=\"gold\">You feel more confident in your powers of seduction.</span>",
+    "translation": "",
+    "pos": 97
+  },
+  {
+    "passage": "School Gloryhole Janitor Seduce",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "256_5_3_7|",
+    "original": "Before the janitor grabs you, you reach out and place a firm hand on <<his>> <<if $pronoun is \"m\">>crotch<<else>>breasts<</if>>. <<promiscuity2>>",
+    "translation": "",
+    "pos": 206
+  },
+  {
+    "passage": "School Gloryhole Janitor Seduce",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "258_5_3_7|",
+    "original": "The janitor takes a sharp breath of surprise as you grope <<him>>. You whisper in <<his>> ear, \"I'm sorry, I've been a bad <<girl>>. Am I going to be punished?\"",
+    "translation": "",
+    "pos": 400
+  },
+  {
+    "passage": "School Gloryhole Janitor Seduce",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "260_5_3_7|",
+    "original": "<<He>> hesitates for just a moment before <<he>> is on top of you.",
+    "translation": "",
+    "pos": 572
+  },
+  {
+    "passage": "School Gloryhole Janitor Seduce",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "262_5_3_7|",
+    "original": "<<link [[Next|Janitor Closet Sex]]>><<set $sexstart to 1>><</link>>",
+    "translation": "",
+    "pos": 650
+  },
+  {
+    "passage": "School Gloryhole Janitor Seduce",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "265_5_3_7|",
+    "original": "The janitor takes a sharp breath of surprise as you grope <<him>>. \"Why are you so angry?\" you ask. \"I can show you a good time.\"",
+    "translation": "",
+    "pos": 734
+  },
+  {
+    "passage": "School Gloryhole Janitor Seduce",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "267_5_3_7|",
+    "original": "<<He>> clears <<his>> throat before glaring at you. \"You've made a big enough mess already. Don't make things worse.\" <<He>> grabs you by the arm and drags you out. <span class=\"green\">At least you are not in too much trouble this time.</span>",
+    "translation": "",
+    "pos": 875
+  },
+  {
+    "passage": "School Gloryhole Janitor Seduce",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "272_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1175
+  },
+  {
+    "passage": "School Gloryhole Check",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "278_5_3_7|",
+    "original": "Before you write up your sign for service, you remember what happened last time. You take a moment to step outside the bathroom and casually cast your eyes up and down the hall looking for the janitor.",
+    "translation": "",
+    "pos": 1
+  },
+  {
+    "passage": "School Gloryhole Check",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "280_5_3_7|",
+    "original": "<<generateRole 0 0 \"janitor\">><<npcClothesType $NPCList[0] \"worker\">><<person1>>",
+    "translation": "",
+    "pos": 212
+  },
+  {
+    "passage": "School Gloryhole Check",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "302_5_3_7|",
+    "original": "You look up and down the hall a few times, but the janitor is nowhere in sight. You have no idea when <<he>> might return, but for the moment, the coast is clear. <<skulduggeryuse>>",
+    "translation": "",
+    "pos": 846
+  },
+  {
+    "passage": "School Gloryhole Check",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "305_5_3_7|",
+    "original": "You see the janitor at the end of the hall. <<He>> appears to be grumbling to <<himself>> as <<he>> scrubs the floor. Apparently something was spilled, keeping <<him>> busy for a while. <<skulduggeryuse>>",
+    "translation": "",
+    "pos": 1070
+  },
+  {
+    "passage": "School Gloryhole Check",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "308_5_3_7|",
+    "original": "You see the janitor pushing a small cart with various cleaners on it. <<He>> is headed in your direction. It is likely <<he>> will notice you, but you could get lucky. <<skulduggeryuse>>",
+    "translation": "",
+    "pos": 1318
+  },
+  {
+    "passage": "School Gloryhole Check",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "312_5_3_7|",
+    "original": "<<link [[Next|School Gloryhole Start]]>><</link>>",
+    "translation": "",
+    "pos": 1527
+  },
+  {
+    "passage": "Janitor Closet Rape",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "334_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Janitor Closet Rape Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 288
+  },
+  {
+    "passage": "Janitor Closet Rape",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "336_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Janitor Closet Rape]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 387
+  },
+  {
+    "passage": "Janitor Closet Rape Finish",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "344_5_3_7|",
+    "original": "\"Don't go whining to no one,\" the <<person1>><<person>> says.",
+    "translation": "",
+    "pos": 90
+  },
+  {
+    "passage": "Janitor Closet Rape Finish",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "346_5_3_7|",
+    "original": "\"Not that they'll believe a <span class=\"red\">delinquent</span> like you.\"",
+    "translation": "",
+    "pos": 183
+  },
+  {
+    "passage": "Janitor Closet Rape Finish",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "348_5_3_7|",
+    "original": "\"Not that they'll believe a <span class=\"red\">whore</span> like you.\"",
+    "translation": "",
+    "pos": 291
+  },
+  {
+    "passage": "Janitor Closet Rape Finish",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "350_5_3_7|",
+    "original": "\"Not that they'll believe you anyway.\"",
+    "translation": "",
+    "pos": 373
+  },
+  {
+    "passage": "Janitor Closet Rape Finish",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "352_5_3_7|",
+    "original": "<<He>> laughs as <<he>> shoves you out of the closet. <<tearful>> you stumble out into the hall.",
+    "translation": "",
+    "pos": 422
+  },
+  {
+    "passage": "Janitor Closet Rape Finish",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "356_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><</link>>",
+    "translation": "",
+    "pos": 560
+  },
+  {
+    "passage": "Janitor Closet Rape Finish",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "358_5_3_7|",
+    "original": "<<person1>><<He>> recoils in pain, <span class=\"green\">falling back into a pile of mop buckets and brooms.</span> <<tearful>> you use this as your chance to escape, slamming the door behind you.",
+    "translation": "",
+    "pos": 627
+  },
+  {
+    "passage": "Janitor Closet Rape Finish",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "362_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><</link>>",
+    "translation": "",
+    "pos": 863
+  },
+  {
+    "passage": "Janitor Closet Rape Finish",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "365_5_3_7|",
+    "original": "The door flies open. The <<persons>> eyes widen in panic. \"Shit! I-I can explain!\" <<His>> shock subsides, however, when <<he>> sees Whitney stood in the doorway, flanked by <<nnpc_his \"Whitney\">> friends. \"That's a relief. Just some brats.\"",
+    "translation": "",
+    "pos": 932
+  },
+  {
+    "passage": "Janitor Closet Rape Finish",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "368_5_3_7|",
+    "original": "Whitney responds with a swing at <<his>> face, knocking <<him>> into a shelf. <<nnpc_He \"Whitney\">> grabs you before the janitor can recover. You're dragged through the halls until <<nnpc_he \"Whitney\">> finally comes to a stop, panting.",
+    "translation": "",
+    "pos": 1186
+  },
+  {
+    "passage": "Janitor Closet Rape Finish",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "375_5_3_7|",
+    "original": "<<link [[Next|Whitney Rescue 2]]>><<set $whitneyRescueExit to \"hallways\">><</link>>",
+    "translation": "",
+    "pos": 1494
+  },
+  {
+    "passage": "Janitor Closet Sex",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "401_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Janitor Closet Sex Finish]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 327
+  },
+  {
+    "passage": "Janitor Closet Sex",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "403_5_3_7|",
+    "original": "<span id=\"next\"><<link [[Next|Janitor Closet Sex]]>><</link>></span><<nexttext>>",
+    "translation": "",
+    "pos": 428
+  },
+  {
+    "passage": "Janitor Closet Sex Finish",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "411_5_3_7|",
+    "original": "The janitor straightens <<his>> clothes and clears <<his>> throat. <<He>> tries to give you a stern look as <<he>> escorts you out. \"You've made a big mess, and I don't have time to deal with you, so I'll let you off this time with a warning.\"",
+    "translation": "",
+    "pos": 79
+  },
+  {
+    "passage": "Janitor Closet Sex Finish",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "415_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><</link>>",
+    "translation": "",
+    "pos": 361
+  },
+  {
+    "passage": "Janitor Closet Sex Finish",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "417_5_3_7|",
+    "original": "<<person1>><<He>> recoils in pain, <span class=\"green\">falling back into a pile of mop buckets and brooms.</span> <<tearful>> you use this as your chance to escape, slamming the door behind you.",
+    "translation": "",
+    "pos": 428
+  },
+  {
+    "passage": "Janitor Closet Sex Finish",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "421_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><</link>>",
+    "translation": "",
+    "pos": 664
+  },
+  {
+    "passage": "Janitor Closet Sex Finish",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "424_5_3_7|",
+    "original": "The janitor looks dejected as <<he>> straightens <<his>> clothes and clears <<his>> throat. <<He>> tries to give you a stern look as <<he>> escorts you out. \"You've made a big mess, and I don't have time to deal with you, so I'll let you off this time with a warning.\"",
+    "translation": "",
+    "pos": 729
+  },
+  {
+    "passage": "Janitor Closet Sex Finish",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "430_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><</link>>",
+    "translation": "",
+    "pos": 1050
+  },
+  {
+    "passage": "Janitor Closet Sex Finish",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "433_5_3_7|",
+    "original": "The door flies open. The <<persons>> eyes widen in panic. \"Shit! I-I can explain!\" <<His>> shock subsides, however, when <<he>> sees Whitney stood in the doorway, flanked by <<nnpc_his \"Whitney\">> friends. \"That's a relief. Just some brats.\"",
+    "translation": "",
+    "pos": 1150
+  },
+  {
+    "passage": "Janitor Closet Sex Finish",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "436_5_3_7|",
+    "original": "Whitney responds with a swing at <<his>> face, knocking <<him>> into a shelf. <<nnpc_He \"Whitney\">> grabs you before the janitor can recover. You're dragged through the halls until <<nnpc_he \"Whitney\">> finally comes to a stop, panting.",
+    "translation": "",
+    "pos": 1404
+  },
+  {
+    "passage": "Janitor Closet Sex Finish",
+    "filepath": "overworld-town/loc-school/toilets-gloryhole.twee",
+    "key": "443_5_3_7|",
+    "original": "<<link [[Next|Whitney Rescue 2]]>><<set $whitneyRescueExit to \"hallways\">><</link>>",
+    "translation": "",
+    "pos": 1712
+  }
+]

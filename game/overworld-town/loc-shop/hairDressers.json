@@ -1,0 +1,914 @@
+[
+  {
+    "passage": "Hairdressers Lock",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "6_5_3_7|",
+    "original": "You think you'd be able to pick the lock, <span class=\"blue\">if your arms weren't bound.</span>",
+    "translation": "",
+    "pos": 157
+  },
+  {
+    "passage": "Hairdressers Lock",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "10_5_3_7|",
+    "original": "<span class=\"green\">The lock looks easy to pick.</span>",
+    "translation": "",
+    "pos": 302
+  },
+  {
+    "passage": "Hairdressers Lock",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "12_5_3_7|",
+    "original": "<<lockicon \"pick\">><<link [[Pick it (0:10)|Hairdressers]]>><<handheldon>><<pass 10>><<crimeUp 5 \"trespassing\">><</link>><<crime \"trespassing\">>",
+    "translation": "",
+    "pos": 371
+  },
+  {
+    "passage": "Hairdressers Lock",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "16_5_3_7|",
+    "original": "<span class=\"red\">The lock looks beyond your ability to pick.</span>",
+    "translation": "",
+    "pos": 541
+  },
+  {
+    "passage": "Hairdressers Lock",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "20_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Shopping Centre]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 653
+  },
+  {
+    "passage": "Hairdressers",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "25_5_3_7|",
+    "original": "You are in the hairdressers. Various hair products are available for sale. You can also have your hair cut or dyed.",
+    "translation": "",
+    "pos": 72
+  },
+  {
+    "passage": "Hairdressers",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "27_5_3_7|",
+    "original": "You are alone in the darkness.",
+    "translation": "",
+    "pos": 221
+  },
+  {
+    "passage": "Hairdressers",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "29_5_3_7|",
+    "original": "You hide in a cupboard to protect your dignity.",
+    "translation": "",
+    "pos": 279
+  },
+  {
+    "passage": "Hairdressers",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "31_5_3_7|",
+    "original": "There's a seat available.",
+    "translation": "",
+    "pos": 337
+  },
+  {
+    "passage": "Hairdressers",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "41_5_3_7|",
+    "original": "It's closing time. Security is herding everyone outside.",
+    "translation": "",
+    "pos": 536
+  },
+  {
+    "passage": "Hairdressers",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "43_5_3_7|",
+    "original": "Panic swells within you as you realise how exposed you'll be should security find you in this state of dress.",
+    "translation": "",
+    "pos": 620
+  },
+  {
+    "passage": "Hairdressers",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "47_5_3_7|",
+    "original": "<<highicon>><<link [[Go outside|High Street]]>><</link>>",
+    "translation": "",
+    "pos": 778
+  },
+  {
+    "passage": "Hairdressers",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "50_5_3_7|",
+    "original": "<<ind>><<link [[\"Hide until it's over (1:00)\"|Hairdressers]]>><<pass 1 hour>><</link>>",
+    "translation": "",
+    "pos": 857
+  },
+  {
+    "passage": "Hairdressers",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "54_5_3_7|",
+    "original": "<<hairdressericon \"gel\">><<link [[Steal a bottle of hair gel|$passage]]>><<crimeUp `8 / 100` \"petty\">><<set $hairgelBottles += 1>><</link>><<crime \"petty\">>",
+    "translation": "",
+    "pos": 1034
+  },
+  {
+    "passage": "Hairdressers",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "56_5_3_7|",
+    "original": "<<hairdressericon \"hairspray\">><<link [[Steal a bottle of hair growth formula|$passage]]>><<crimeUp `50 / 100` \"petty\">><<set $sexStats.pills.pills[\"Hair Growth Formula\"].owned++>><<set $sexStats.pills.boughtOnce to true>><</link>><<crime \"petty\">>",
+    "translation": "",
+    "pos": 1202
+  },
+  {
+    "passage": "Hairdressers",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "59_5_3_7|",
+    "original": "<<shopicon \"register\">><<link [[Examine the cash register|Hairdressers Register]]>><</link>>",
+    "translation": "",
+    "pos": 1501
+  },
+  {
+    "passage": "Hairdressers",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "65_5_3_7|",
+    "original": "<<hairdressericon \"gel\">> <<link [[Purchase hair gel (£8)|Hairdressers Gel]]>><<money -800 \"hairdressers\">><<set $hairgelBottles += 1>><</link>> Owned: <span class=\"gold\"><<= $hairgelBottles || 0>></span>",
+    "translation": "",
+    "pos": 1736
+  },
+  {
+    "passage": "Hairdressers",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "68_5_3_7|",
+    "original": "<<hairdressericon \"gel\">> <span class=\"blue\">You can't afford any hair gel or growth formula.</span>",
+    "translation": "",
+    "pos": 1966
+  },
+  {
+    "passage": "Hairdressers",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "72_5_3_7|",
+    "original": "<<hairdressericon \"hairspray\">> <<link [[Purchase hair growth formula (£50)|Hairdressers Gel]]>><<money -5000 \"hairdressers\">><<set $sexStats.pills.pills[\"Hair Growth Formula\"].owned += 3>><<set $sexStats.pills.boughtOnce to true>><<set $phase to 1>><</link>> | Owned: <span class=\"gold\"><<=  $sexStats.pills.pills[\"Hair Growth Formula\"].owned>></span>",
+    "translation": "",
+    "pos": 2117
+  },
+  {
+    "passage": "Hairdressers",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "75_5_3_7|",
+    "original": "<<hairdressericon \"hairspray\">> <span class=\"blue\">You can't afford any hair growth formula.</span>",
+    "translation": "",
+    "pos": 2512
+  },
+  {
+    "passage": "Hairdressers",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "78_5_3_7|",
+    "original": "<<hairdressericon \"chair\">><<link [[Take a seat|Hairdressers Seat]]>><</link>>",
+    "translation": "",
+    "pos": 2635
+  },
+  {
+    "passage": "Hairdressers",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "81_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Shopping Centre]]>><</link>>",
+    "translation": "",
+    "pos": 2738
+  },
+  {
+    "passage": "Hairdressers Gel",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "87_5_3_7|",
+    "original": "<<generate1>><<person1>>You browse the hair products for sale. You decide on a tiny <<if $phase is 1>>canister<<else>>bottle<</if>> labelled \"No muss, no fuss!\"",
+    "translation": "",
+    "pos": 1
+  },
+  {
+    "passage": "Hairdressers Gel",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "89_5_3_7|",
+    "original": "The hairdresser makes small talk as <<he>> rings up your purchase. \"That stuff's great,\" <<he>> says.",
+    "translation": "",
+    "pos": 171
+  },
+  {
+    "passage": "Hairdressers Gel",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "92_5_3_7|",
+    "original": "\"The canister's small, so you'll only get <span class=\"teal\">a small number of uses</span> out it, but you won't need to use it every day. You won't have to worry about your hair staying short. Not until you decide to get it cut again.\"",
+    "translation": "",
+    "pos": 294
+  },
+  {
+    "passage": "Hairdressers Gel",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "94_5_3_7|",
+    "original": "\"The bottle's small, so you'll only get <span class=\"teal\">one use</span> out it, of but it's got a rock-solid hold. You won't have to worry about your hair getting mussed up. Not until you decide to change up your 'do, at least.\"",
+    "translation": "",
+    "pos": 541
+  },
+  {
+    "passage": "Hairdressers Gel",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "97_5_3_7|",
+    "original": "<<He>> hands you your bag with a smile. \"<<print either(\"Thanks for shopping with us!\",\"Have a great day.\",\"Take care.\",\"Pleasure doing business with ya.\",\"Come back soon!\")>>\"",
+    "translation": "",
+    "pos": 789
+  },
+  {
+    "passage": "Hairdressers Gel",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "100_5_3_7|",
+    "original": "You have <span class=\"gold\"><<print $sexStats.pills.pills[\"Hair Growth Formula\"].owned>></span> applications of hair growth formula left.",
+    "translation": "",
+    "pos": 995
+  },
+  {
+    "passage": "Hairdressers Gel",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "102_5_3_7|",
+    "original": "You have <span class=\"gold\">$hairgelBottles</span> <<print ($hairgelBottles is 1) ? \"bottle\" : \"bottles\">> of hair gel.",
+    "translation": "",
+    "pos": 1143
+  },
+  {
+    "passage": "Hairdressers Gel",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "106_5_3_7|",
+    "original": "<<link [[Next|Hairdressers]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1281
+  },
+  {
+    "passage": "Hairdressers Seat",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "110_5_3_7|",
+    "original": "<<generate1>><<person1>>You take a seat, and a hairdresser soon appears behind you. \"What'll it be, hun?\" <<hairdressersPricelist>>",
+    "translation": "",
+    "pos": 1
+  },
+  {
+    "passage": "Hairdressers Seat",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "120_5_3_7|",
+    "original": "To pay: £0",
+    "translation": "",
+    "pos": 481
+  },
+  {
+    "passage": "Hairdressers Session",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "129_5_3_7|",
+    "original": "<<link [[Leave|Hairdressers]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 24
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "134_5_3_7|",
+    "original": "<div @class=\"'hair-'+_args[0]\">",
+    "translation": "",
+    "pos": 61
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "135_5_3_7|",
+    "original": "<div style=\"height: 25px; width: 100px; margin-top:5px; background-color: #fd6064; border:1px solid #ccc;\" class=\"colour-hair\"></div>",
+    "translation": "",
+    "pos": 95
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "140_5_3_7|",
+    "original": "A sign by the mirror reads:",
+    "translation": "",
+    "pos": 286
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "142_5_3_7|",
+    "original": "\"Haircut: £30",
+    "translation": "",
+    "pos": 321
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "144_5_3_7|",
+    "original": "Fringe trim: £30",
+    "translation": "",
+    "pos": 342
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "146_5_3_7|",
+    "original": "Full head colouring: £60",
+    "translation": "",
+    "pos": 366
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "148_5_3_7|",
+    "original": "Fringe or sides colouring: £50",
+    "translation": "",
+    "pos": 398
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "150_5_3_7|",
+    "original": "Two-tone hair colouring: £250",
+    "translation": "",
+    "pos": 436
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "152_5_3_7|",
+    "original": "Eyebrows colouring: £20\"",
+    "translation": "",
+    "pos": 473
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "174_5_3_7|",
+    "original": "<<set _hiddenMannequin = $options.images is 1 ? \"\" : \"hidden\">>",
+    "translation": "",
+    "pos": 970
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "176_5_3_7|",
+    "original": "<div id=\"mannequin\" @class=\"'mannequin ' + _hiddenMannequin\" style=\"height:unset\">",
+    "translation": "",
+    "pos": 1063
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "184_5_3_7|",
+    "original": "Have your sides cut to your:",
+    "translation": "",
+    "pos": 1381
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "194_5_3_7|",
+    "original": "<<listbox \"$hairOption\" autoselect>>",
+    "translation": "",
+    "pos": 1862
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "195_5_3_7|",
+    "original": "<<optionsfrom _hairOptions>>",
+    "translation": "",
+    "pos": 1904
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "199_5_3_7|",
+    "original": "You don't have enough money to cut your hair.",
+    "translation": "",
+    "pos": 2000
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "207_5_3_7|",
+    "original": "Have your fringe cut until it's:",
+    "translation": "",
+    "pos": 2272
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "217_5_3_7|",
+    "original": "<<listbox \"$fringeOption\" autoselect>>",
+    "translation": "",
+    "pos": 2697
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "218_5_3_7|",
+    "original": "<<optionsfrom _fringeOptions>>",
+    "translation": "",
+    "pos": 2741
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "222_5_3_7|",
+    "original": "You don't have enough money to cut your fringe.",
+    "translation": "",
+    "pos": 2842
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "241_5_3_7|",
+    "original": "Have your hair dyed<<if $haircolour isnot $naturalhaircolour or $hairfringecolour is not $naturalhaircolour>> or cleared of hair dye<</if>>:",
+    "translation": "",
+    "pos": 4228
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "243_5_3_7|",
+    "original": "<label><<radiobutton \"$dyedHairPart\" \"hair\" autocheck>> Full head</label> |",
+    "translation": "",
+    "pos": 4382
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "244_5_3_7|",
+    "original": "<label><<radiobutton \"$dyedHairPart\" \"fringe\" autocheck>> Fringe</label> |",
+    "translation": "",
+    "pos": 4462
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "245_5_3_7|",
+    "original": "<label><<radiobutton \"$dyedHairPart\" \"sides\" autocheck>> Sides</label> |",
+    "translation": "",
+    "pos": 4541
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "247_5_3_7|",
+    "original": "<label><<checkbox \"$twoToneHairDye\" false true autocheck>> Request a two-tone colouring</label>",
+    "translation": "",
+    "pos": 4627
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "267_5_3_7|",
+    "original": "<<listbox \"$dyeOption\" autoselect>>",
+    "translation": "",
+    "pos": 5549
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "268_5_3_7|",
+    "original": "<<optionsfrom _dyeOptions>>",
+    "translation": "",
+    "pos": 5591
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "277_5_3_7|",
+    "original": "Style: <<listbox \"$twoToneStyle\" autoselect>>",
+    "translation": "",
+    "pos": 5811
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "278_5_3_7|",
+    "original": "<<option \"Low Ombré\" \"low-ombre\">>",
+    "translation": "",
+    "pos": 5863
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "279_5_3_7|",
+    "original": "<<option \"High Ombré\" \"high-ombre\">>",
+    "translation": "",
+    "pos": 5904
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "280_5_3_7|",
+    "original": "<<option \"Split\" \"split\">>",
+    "translation": "",
+    "pos": 5947
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "281_5_3_7|",
+    "original": "<<option \"Face-framing highlights\" \"face-frame\">>",
+    "translation": "",
+    "pos": 5980
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "284_5_3_7|",
+    "original": "First colour: <<listbox \"$twoToneDyeOption1\" autoselect>>",
+    "translation": "",
+    "pos": 6063
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "285_5_3_7|",
+    "original": "<<optionsfrom _twotoneDyeOptions>>",
+    "translation": "",
+    "pos": 6127
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "289_5_3_7|",
+    "original": "Second colour: <<listbox \"$twoToneDyeOption2\" autoselect>>",
+    "translation": "",
+    "pos": 6233
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "290_5_3_7|",
+    "original": "<<optionsfrom _twotoneDyeOptions>>",
+    "translation": "",
+    "pos": 6298
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "297_5_3_7|",
+    "original": "You don't have enough money to dye your <<print $dyedHairPart>>.",
+    "translation": "",
+    "pos": 6437
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "307_5_3_7|",
+    "original": "Have your eyebrows dyed<<if $makeup.browscolour isnot $naturalhaircolour>> or cleared of hair dye<</if>>:",
+    "translation": "",
+    "pos": 6778
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "322_5_3_7|",
+    "original": "<<listbox \"$browsDyeOption\" autoselect>>",
+    "translation": "",
+    "pos": 7505
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "323_5_3_7|",
+    "original": "<<optionsfrom _browsDyeOptions>>",
+    "translation": "",
+    "pos": 7551
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "332_5_3_7|",
+    "original": "You don't have enough money to dye your brow.",
+    "translation": "",
+    "pos": 7782
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "340_5_3_7|",
+    "original": "<<link [[Continue|Sydney Hairdressers Session]]>>",
+    "translation": "",
+    "pos": 7965
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "344_5_3_7|",
+    "original": "You don't have enough money to pay the hairdresser.",
+    "translation": "",
+    "pos": 8112
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "346_5_3_7|",
+    "original": "<<link [[Continue|Sydney Hairdressers Session]]>><</link>>",
+    "translation": "",
+    "pos": 8179
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "351_5_3_7|",
+    "original": "<<link [[Leave|Sydney Hairdressers Cancel]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 8288
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "356_5_3_7|",
+    "original": "You don't have enough money to pay the hairdresser.",
+    "translation": "",
+    "pos": 8411
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "358_5_3_7|",
+    "original": "You need to select two different colours for two-tone hair colouring.",
+    "translation": "",
+    "pos": 8542
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "360_5_3_7|",
+    "original": "<<link [[Pay hairdresser|Hairdressers Session]]>>",
+    "translation": "",
+    "pos": 8646
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "365_5_3_7|",
+    "original": "<<link [[Leave|Hairdressers]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 8777
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "370_5_3_7|",
+    "original": "You hand over the money and <<he>> gets to work.",
+    "translation": "",
+    "pos": 8886
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "374_5_3_7|",
+    "original": "The hairdresser starts snipping away, locks floating to the ground all around you. After a short while, <<he>> stands back while brandishing a mirror for you to examine <<his>> handiwork.",
+    "translation": "",
+    "pos": 9005
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "383_5_3_7|",
+    "original": "<<He>> continues snipping away, and locks continue floating to the ground all around you. After a short while, <<he>> again stands back while brandishing a mirror for you to examine <<his>> handiwork further.",
+    "translation": "",
+    "pos": 9369
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "385_5_3_7|",
+    "original": "The hairdresser starts snipping away, locks floating to the ground all around you. After a short while, <<he>> stands back while brandishing a mirror for you to examine <<his>> handiwork.",
+    "translation": "",
+    "pos": 9592
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "395_5_3_7|",
+    "original": "Then <<he>> asks you to tilt your head back. <<He>> applies a liquid smelling of artificial chemicals to your eyebrows. The hairdresser finishes the procedure by wiping your brows with soapy tissue and washing your face.",
+    "translation": "",
+    "pos": 9969
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "396_5_3_7|",
+    "original": "<<He>> brings up a mirror for you to see your eyebrows back in their natural $naturalhaircolour colour.",
+    "translation": "",
+    "pos": 10193
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "398_5_3_7|",
+    "original": "<<He>> applies a liquid smelling of artificial chemicals to your eyebrows. The hairdresser finishes the procedure by wiping your brows with soapy tissue and washing your face.",
+    "translation": "",
+    "pos": 10311
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "399_5_3_7|",
+    "original": "<<He>> brings up a mirror for you to see your eyebrows back in their natural $naturalhaircolour colour.",
+    "translation": "",
+    "pos": 10490
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "408_5_3_7|",
+    "original": "Then <<he>> asks you to tilt your head back. <<He>> applies selected eyebrow tint to a small brush and then brushes your eyebrows for a few minutes.",
+    "translation": "",
+    "pos": 10848
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "409_5_3_7|",
+    "original": "Soon <<he>> brings up a mirror for you to see your newly <<hairmapcolourtext $makeup.browscolour>> eyebrows.",
+    "translation": "",
+    "pos": 11000
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "411_5_3_7|",
+    "original": "The hairdresser begins to apply selected eyebrow tint to a small brush and then brushes your eyebrows for a few minutes.",
+    "translation": "",
+    "pos": 11123
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "412_5_3_7|",
+    "original": "Soon <<he>> brings up a mirror for you to see your newly <<hairmapcolourtext $makeup.browscolour>> eyebrows.",
+    "translation": "",
+    "pos": 11247
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "421_5_3_7|",
+    "original": "<<He>> finishes your requests by asking you to tilt your head back. <<He>> applies a liquid smelling of artificial chemicals to your <<print $dyedHairPart>>, then begins rinsing it out in a small basin.",
+    "translation": "",
+    "pos": 11494
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "422_5_3_7|",
+    "original": "<<He>> is soon blowing you dry and brandishing a mirror for you to see your <<print $dyedHairPart>> back in its natural $naturalhaircolour colour.",
+    "translation": "",
+    "pos": 11700
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "424_5_3_7|",
+    "original": "The hairdresser asks you to tilt your head back. <<He>> applies a liquid smelling of artificial chemicals to your <<print $dyedHairPart>>, then begins rinsing it out in a small basin.",
+    "translation": "",
+    "pos": 11861
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "425_5_3_7|",
+    "original": "<<He>> is soon blowing you dry and brandishing a mirror for you to see your <<print $dyedHairPart>> back in its natural $naturalhaircolour colour.",
+    "translation": "",
+    "pos": 12048
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "450_5_3_7|",
+    "original": "<<He>> finishes your requests by carefully applying your chosen colour. It's not long before <<he>> brandishes a mirror for you to see your newly <<if $dyedHairPart is \"fringe\">><<hairfringecolourtext>><<else>><<haircolourtext>><</if>> <<print $dyedHairPart>> from all angles.",
+    "translation": "",
+    "pos": 13037
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "452_5_3_7|",
+    "original": "The hairdresser begins carefully applying your chosen colour. It's not long before <<he>> brandishes a mirror for you to see your newly <<if $dyedHairPart is \"fringe\">><<hairfringecolourtext>><<else>><<haircolourtext>><</if>> <<print $dyedHairPart>> from all angles.",
+    "translation": "",
+    "pos": 13328
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "475_5_3_7|",
+    "original": "Finally, the",
+    "translation": "",
+    "pos": 14417
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "477_5_3_7|",
+    "original": "The",
+    "translation": "",
+    "pos": 14444
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "479_5_3_7|",
+    "original": "hairdresser mixes the dyes in two separate bowls until they foam up. <<Hes>> left with bowls of gooey-looking liquids.",
+    "translation": "",
+    "pos": 14460
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "481_5_3_7|",
+    "original": "<<He>> partitions your hair into sections with an array of clips. Then, starting with the lighter colour, <<he>> applies the goo to your hair, coating each section individually.",
+    "translation": "",
+    "pos": 14588
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "483_5_3_7|",
+    "original": "You make small talk as you wait for the dyes to set. It's not too long before the hairdresser brandishes a mirror for you to see your newly <<haircolourtext>> <<print $dyedHairPart>> from all angles.",
+    "translation": "",
+    "pos": 14779
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "502_5_3_7|",
+    "original": "Encourage Sydney to have <<his>> hair styled:",
+    "translation": "",
+    "pos": 15488
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "511_5_3_7|",
+    "original": "<<optionsfrom _hairOptions>>",
+    "translation": "",
+    "pos": 15795
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "513_5_3_7|",
+    "original": "<span class=\"grey\">(Click to change)",
+    "translation": "",
+    "pos": 15839
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "515_5_3_7|",
+    "original": "Current style: $sydney.hair</span>",
+    "translation": "",
+    "pos": 15885
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "517_5_3_7|",
+    "original": "You don't have enough money to change Sydney's hair.",
+    "translation": "",
+    "pos": 15932
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "522_5_3_7|",
+    "original": "Encourage Sydney to dye <<his>> hair<<if $_sydney.hairColour isnot \"strawberryblond\">> or cleared of hair dye<</if>>:",
+    "translation": "",
+    "pos": 16132
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "531_5_3_7|",
+    "original": "<<optionsfrom _dyeOptions>>",
+    "translation": "",
+    "pos": 16515
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "533_5_3_7|",
+    "original": "<span class=\"grey\">(Click to change)",
+    "translation": "",
+    "pos": 16558
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "535_5_3_7|",
+    "original": "Current Colour: <<npcHairColour \"Sydney\">><<if _text_output is \"strawberry blond\">> (natural)<</if>></span>",
+    "translation": "",
+    "pos": 16604
+  },
+  {
+    "passage": "Hairdressers Widgets",
+    "filepath": "overworld-town/loc-shop/hairDressers.twee",
+    "key": "537_5_3_7|",
+    "original": "You don't have enough money to dye Sydney's hair.",
+    "translation": "",
+    "pos": 16724
+  }
+]

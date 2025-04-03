@@ -1,0 +1,626 @@
+[
+  {
+    "passage": "Tailor Shop",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "4_5_3_7|",
+    "original": "You are in the tailor shop. It has cloth of various colours hanging on racks.",
+    "translation": "",
+    "pos": 72
+  },
+  {
+    "passage": "Tailor Shop",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "8_5_3_7|",
+    "original": "Looks like the shop has a new machine for sale in the display.",
+    "translation": "",
+    "pos": 203
+  },
+  {
+    "passage": "Tailor Shop",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "12_5_3_7|",
+    "original": "\"Thank you for your purchase. I'll have this delivered to your room by the time you get back.\"",
+    "translation": "",
+    "pos": 311
+  },
+  {
+    "passage": "Tailor Shop",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "52_5_3_7|",
+    "original": "It's closing time. Security is herding everyone outside. <<if $exposed gte 1>>Panic swells within you as you realise how exposed you'll be should security find you in this state of dress.<</if>>",
+    "translation": "",
+    "pos": 1718
+  },
+  {
+    "passage": "Tailor Shop",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "56_5_3_7|",
+    "original": "<<highicon>><<link [[Go outside|High Street]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1952
+  },
+  {
+    "passage": "Tailor Shop",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "59_5_3_7|",
+    "original": "<<ind>><<link [[\"Hide until it's over (1:00)\"|Tailor Shop]]>><<pass 1 hour>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 2043
+  },
+  {
+    "passage": "Tailor Shop",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "63_5_3_7|",
+    "original": "You are alone in the darkness.",
+    "translation": "",
+    "pos": 2198
+  },
+  {
+    "passage": "Tailor Shop",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "67_5_3_7|",
+    "original": "<<shopicon \"register\">><<link [[Examine the cash register|Tailor Register]]>><</link>>",
+    "translation": "",
+    "pos": 2310
+  },
+  {
+    "passage": "Tailor Shop",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "73_5_3_7|",
+    "original": "You are hiding behind bolts of cloth to protect your dignity.",
+    "translation": "",
+    "pos": 2449
+  },
+  {
+    "passage": "Tailor Shop",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "77_5_3_7|",
+    "original": "<<generate1>><<person1>>You get the attention of the <<person>> working behind the counter and <<he>> tells you that <<he>> can help.",
+    "translation": "",
+    "pos": 2585
+  },
+  {
+    "passage": "Tailor Shop",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "85_5_3_7|",
+    "original": "<<He>> tells you that your <<print _brokenOutfit[_i].name>> will take a little more time and effort if you're willing to take the risk. The repair will cost <<printmoney `Math.trunc(_brokenOutfit[_i].cost * _tailorCostMod)`>>.",
+    "translation": "",
+    "pos": 3151
+  },
+  {
+    "passage": "Tailor Shop",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "87_5_3_7|",
+    "original": "<<He>> can repair your missing <<print _brokenOutfit[_i].name>> for <<printmoney `Math.trunc(_brokenOutfit[_i].cost * _tailorCostMod)`>>.",
+    "translation": "",
+    "pos": 3398
+  },
+  {
+    "passage": "Tailor Shop",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "91_5_3_7|",
+    "original": "<<set _tempText to `Repair ` + _brokenOutfit[_i].name + ` (0:` + (_brokenOutfitTime lt 10 ? \"0\":\"\") + _brokenOutfitTime + `)`>>",
+    "translation": "",
+    "pos": 3565
+  },
+  {
+    "passage": "Tailor Shop",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "94_5_3_7|",
+    "original": "<<link [[_tempText|Fix Outfit]]>> <<set $outfitRepair to _brokenOutfit[_i]>><<pass _brokenOutfitTime>><<money `-Math.trunc(_brokenOutfit[_i].cost * _tailorCostMod)` \"tailor\">> <</link>>",
+    "translation": "",
+    "pos": 3720
+  },
+  {
+    "passage": "Tailor Shop",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "103_5_3_7|",
+    "original": "<<generate1>><<person1>>\"Welcome,\" the tailor says. \"What services are you looking for today?",
+    "translation": "",
+    "pos": 4002
+  },
+  {
+    "passage": "Tailor Shop",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "104_5_3_7|",
+    "original": "We offer repairs on clothes. We also offer a monthly service to repair by delivery.\"",
+    "translation": "",
+    "pos": 4099
+  },
+  {
+    "passage": "Tailor Shop",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "107_5_3_7|",
+    "original": "<<He>> offers to fix what you're currently wearing for <<printmoney `Math.trunc($tailor_cost)`>>.",
+    "translation": "",
+    "pos": 4257
+  },
+  {
+    "passage": "Tailor Shop",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "109_5_3_7|",
+    "original": "<<shopicon \"tailor\">><<print '<<link [[Fix clothes (0:'+(_time lt 10 ? \"0\":\"\")+_time+')|Fix Clothes]]>><<money '+ -$tailor_cost + ' \"tailor\">><<pass _time>><</link>>'>>",
+    "translation": "",
+    "pos": 4368
+  },
+  {
+    "passage": "Tailor Shop",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "113_5_3_7|",
+    "original": "You don't have enough cash to repair your current clothes. (<<printmoney `Math.trunc($tailor_cost)` \"red\">>.)",
+    "translation": "",
+    "pos": 4620
+  },
+  {
+    "passage": "Tailor Shop",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "119_5_3_7|",
+    "original": "The tailor will repair the lower halves of outfits for free.",
+    "translation": "",
+    "pos": 5063
+  },
+  {
+    "passage": "Tailor Shop",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "121_5_3_7|",
+    "original": "<<shopicon \"tailor\">><<print '<<link [[Fix clothes (0:'+(_outfitTime lt 10 ? \"0\":\"\")+_outfitTime+')|Fix Lower]]>><<pass _outfitTime>><</link>>'>>",
+    "translation": "",
+    "pos": 5137
+  },
+  {
+    "passage": "Tailor Shop",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "128_5_3_7|",
+    "original": "<<He>> notices that your <<print _brokenOutfit[random(0,_brokenOutfit.length -1)].name>> is destroyed.",
+    "translation": "",
+    "pos": 5399
+  },
+  {
+    "passage": "Tailor Shop",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "129_5_3_7|",
+    "original": "\"It'll take a while but I can fit those to another half to make them whole.\" <<He>> pauses for a second to gauge your reaction. \"Interested?\"",
+    "translation": "",
+    "pos": 5506
+  },
+  {
+    "passage": "Tailor Shop",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "145_5_3_7|",
+    "original": "\"Ah, things like your <<print _brokenOutfit[_i].name>> take a little more time and effort to fix than other items.\" <<He>> stops to show you some specialised fabric <<he>> would need to use.",
+    "translation": "",
+    "pos": 6340
+  },
+  {
+    "passage": "Tailor Shop",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "146_5_3_7|",
+    "original": "\"If you're fine with that, I can replace it for <<printmoney `Math.trunc(_brokenOutfit[_i].cost * _tailorCostMod)`>>.\"",
+    "translation": "",
+    "pos": 6538
+  },
+  {
+    "passage": "Tailor Shop",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "148_5_3_7|",
+    "original": "<<He>> can fix your <<print _brokenOutfit[_i].name>> for <<printmoney `Math.trunc(_brokenOutfit[_i].cost * _tailorCostMod)`>>.",
+    "translation": "",
+    "pos": 6679
+  },
+  {
+    "passage": "Tailor Shop",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "156_5_3_7|",
+    "original": "\"Repairs on <<print _brokenOutfit[_i].name>> are fairly simple for someone of my skill.\" <<He>> points to a few of the more complex items in the store as proof.",
+    "translation": "",
+    "pos": 7036
+  },
+  {
+    "passage": "Tailor Shop",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "157_5_3_7|",
+    "original": "\"This repair is relatively easy, so I can do it for <<printmoney `Math.trunc(_brokenOutfit.over.outfitCost * _tailorCostMod)`>>. Deal?\"",
+    "translation": "",
+    "pos": 7204
+  },
+  {
+    "passage": "Tailor Shop",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "159_5_3_7|",
+    "original": "The ease of the repair means <<he>> can patch up your <<print _brokenOutfit[_i].name>> for <<printmoney `Math.trunc(_brokenOutfit[_i].cost * _tailorCostMod)`>>.",
+    "translation": "",
+    "pos": 7362
+  },
+  {
+    "passage": "Tailor Shop",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "163_5_3_7|",
+    "original": "<<He>> offers to replace your missing <<print _brokenOutfit[_i].name>> for <<printmoney `Math.trunc(_brokenOutfit[_i].cost * _tailorCostMod)`>>.",
+    "translation": "",
+    "pos": 7558
+  },
+  {
+    "passage": "Tailor Shop",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "167_5_3_7|",
+    "original": "<<set _tempText to `Repair ` + _brokenOutfit[_i].name + ` (0:` + (_brokenOutfitTime lt 10 ? \"0\":\"\") + _brokenOutfitTime + `)`>>",
+    "translation": "",
+    "pos": 7732
+  },
+  {
+    "passage": "Tailor Shop",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "169_5_3_7|",
+    "original": "<<link [[_tempText|Fix Outfit]]>> <<set $outfitRepair to _brokenOutfit[_i]>><<pass _brokenOutfitTime>><<money `-Math.trunc(_brokenOutfit[_i].cost * _tailorCostMod)` \"tailor\">> <</link>>",
+    "translation": "",
+    "pos": 7886
+  },
+  {
+    "passage": "Tailor Shop",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "179_5_3_7|",
+    "original": "Your currently worn clothes are fully repaired already.",
+    "translation": "",
+    "pos": 8268
+  },
+  {
+    "passage": "Tailor Shop",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "184_5_3_7|",
+    "original": "You need to visit your wardrobe to collect your repaired clothes.",
+    "translation": "",
+    "pos": 8395
+  },
+  {
+    "passage": "Tailor Shop",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "186_5_3_7|",
+    "original": "The tailor catches you looking at the small crate beside <<him>>. \"Ah, you're in luck if you need our monthly service. We have a spot free as long as it's somewhere local.\"",
+    "translation": "",
+    "pos": 8514
+  },
+  {
+    "passage": "Tailor Shop",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "190_5_3_7|",
+    "original": "<<socialiseicon \"ask\">><<link [[Ask how much they charge to repair all clothes|Tailor Monthly Repair]]>><</link>>",
+    "translation": "",
+    "pos": 8802
+  },
+  {
+    "passage": "Tailor Shop",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "192_5_3_7|",
+    "original": "You have a crate waiting to receive clothing for repair.",
+    "translation": "",
+    "pos": 8968
+  },
+  {
+    "passage": "Tailor Shop",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "194_5_3_7|",
+    "original": "You have a crate waiting to receive clothing you want to sell.",
+    "translation": "",
+    "pos": 9078
+  },
+  {
+    "passage": "Tailor Shop",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "196_5_3_7|",
+    "original": "You recently made use of this service and have to wait $tailorMonthlyService days before you can do so again.",
+    "translation": "",
+    "pos": 9186
+  },
+  {
+    "passage": "Tailor Shop",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "201_5_3_7|",
+    "original": "<<ind>><<link [[Approach the display cabinet|Tailor Shop Sewing Machine]]>><</link>>",
+    "translation": "",
+    "pos": 9369
+  },
+  {
+    "passage": "Tailor Shop",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "205_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Shopping Centre Top]]>><<endevent>><<unset $outfitRepair>><</link>>",
+    "translation": "",
+    "pos": 9490
+  },
+  {
+    "passage": "Fix Clothes",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "211_5_3_7|",
+    "original": "Your clothes have been fixed.",
+    "translation": "",
+    "pos": 1
+  },
+  {
+    "passage": "Fix Clothes",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "218_5_3_7|",
+    "original": "<<link [[Back|Tailor Shop]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 233
+  },
+  {
+    "passage": "Fix Lower",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "222_5_3_7|",
+    "original": "Your lower clothes have been fixed.",
+    "translation": "",
+    "pos": 1
+  },
+  {
+    "passage": "Fix Lower",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "232_5_3_7|",
+    "original": "<<link [[Back|Tailor Shop]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 352
+  },
+  {
+    "passage": "Tailor Shop Sneak",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "239_5_3_7|",
+    "original": "You think you'd be able to pick the lock, <span class=\"blue\">if your arms weren't bound.</span>",
+    "translation": "",
+    "pos": 157
+  },
+  {
+    "passage": "Tailor Shop Sneak",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "243_5_3_7|",
+    "original": "<span class=\"green\">The lock looks easy to pick.</span>",
+    "translation": "",
+    "pos": 302
+  },
+  {
+    "passage": "Tailor Shop Sneak",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "245_5_3_7|",
+    "original": "<<lockicon \"pick\">><<link [[Pick it (0:10)|Tailor Shop]]>><<handheldon>><<pass 10>><<crimeUp 10 \"trespassing\">><</link>><<crime \"trespassing\">>",
+    "translation": "",
+    "pos": 371
+  },
+  {
+    "passage": "Tailor Shop Sneak",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "249_5_3_7|",
+    "original": "<span class=\"red\">The lock looks beyond your ability to pick.</span>",
+    "translation": "",
+    "pos": 541
+  },
+  {
+    "passage": "Tailor Shop Sneak",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "254_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Shopping Centre Top]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 654
+  },
+  {
+    "passage": "Tailor Shop Sewing Machine",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "259_5_3_7|",
+    "original": "You approach the display, inside it lies a sewing machine. An advertisement poster hangs beside the display, it reads:",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Tailor Shop Sewing Machine",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "262_5_3_7|",
+    "original": "THE SEWINATOR-9000 <sup>tm</sup>",
+    "translation": "",
+    "pos": 144
+  },
+  {
+    "passage": "Tailor Shop Sewing Machine",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "264_5_3_7|",
+    "original": "- Dog Chewed Your Undies? <span class=\"pink\">~Tentacles~</span> Tore Your Clothes? No Problem!",
+    "translation": "",
+    "pos": 188
+  },
+  {
+    "passage": "Tailor Shop Sewing Machine",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "266_5_3_7|",
+    "original": "- Can Fix Any Piece of Clothing in One minute!",
+    "translation": "",
+    "pos": 294
+  },
+  {
+    "passage": "Tailor Shop Sewing Machine",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "268_5_3_7|",
+    "original": "- Requires <span class=\"green\">No Skill</span>! Even Bailey Could Use It!",
+    "translation": "",
+    "pos": 352
+  },
+  {
+    "passage": "Tailor Shop Sewing Machine",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "270_5_3_7|",
+    "original": "- Comes With a Lifetime Supply of Cloth For Repairs!",
+    "translation": "",
+    "pos": 437
+  },
+  {
+    "passage": "Tailor Shop Sewing Machine",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "272_5_3_7|",
+    "original": "- Only <span class =\"gold\">£1000.00!</span>",
+    "translation": "",
+    "pos": 501
+  },
+  {
+    "passage": "Tailor Shop Sewing Machine",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "276_5_3_7|",
+    "original": "<<link [[Purchase sewing machine - Repair your clothes in your room! £1000|Tailor Shop]]>><<money -100000 \"tailor\">><<set $sewingKit to 1>><<set $sewingBought to 1>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 584
+  },
+  {
+    "passage": "Tailor Shop Sewing Machine",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "279_5_3_7|",
+    "original": "<<link [[Go back|Tailor Shop]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 788
+  },
+  {
+    "passage": "Tailor Monthly Discard",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "282_5_3_7|",
+    "original": "\"Certainly <<if $player.gender_appearance is \"m\">>sir<<else>>madam<</if>>. We'll have the crate delivered. Fill it as soon as you're ready to sell them. Please bear in mind that we are not allowed to return any items. We will also only take items we can repair and resell.\"",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Tailor Monthly Discard",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "297_5_3_7|",
+    "original": "You think it will earn you <<printmoney `_value + 5000`>> currently after getting the deposit back.",
+    "translation": "",
+    "pos": 737
+  },
+  {
+    "passage": "Tailor Monthly Discard",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "301_5_3_7|",
+    "original": "<<shopicon \"tailor\">><<link [[Confirm the sale and pay the £50 deposit|Tailor Monthly Driver]]>>",
+    "translation": "",
+    "pos": 871
+  },
+  {
+    "passage": "Tailor Monthly Discard",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "306_5_3_7|",
+    "original": "You can't afford the deposit.",
+    "translation": "",
+    "pos": 1061
+  },
+  {
+    "passage": "Tailor Monthly Discard",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "310_5_3_7|",
+    "original": "<<getouticon>><<link [[Back out of the sale|Tailor Shop]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1110
+  },
+  {
+    "passage": "Tailor Monthly Repair",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "313_5_3_7|",
+    "original": "\"Certainly, <<if $player.gender_appearance is \"m\">>sir<<else>>madam<</if>>. We'll have the crate delivered. Fill it as soon as you're ready for repairs. Please bear in mind that it will take <span class=\"gold\">a day</span> before we get them back to you.",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Tailor Monthly Repair",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "314_5_3_7|",
+    "original": "Please make sure you don't buy too many new clothes once you send them to us, or our driver will have to take them back as a donation.\"",
+    "translation": "",
+    "pos": 255
+  },
+  {
+    "passage": "Tailor Monthly Repair",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "323_5_3_7|",
+    "original": "You think it will cost you",
+    "translation": "",
+    "pos": 688
+  },
+  {
+    "passage": "Tailor Monthly Repair",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "327_5_3_7|",
+    "original": "nothing",
+    "translation": "",
+    "pos": 779
+  },
+  {
+    "passage": "Tailor Monthly Repair",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "329_5_3_7|",
+    "original": "currently with the deposit reducing the cost.",
+    "translation": "",
+    "pos": 795
+  },
+  {
+    "passage": "Tailor Monthly Repair",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "333_5_3_7|",
+    "original": "<<shopicon \"tailor\">><<link [[Confirm the repair and pay the £50 deposit|Tailor Monthly Driver]]>>",
+    "translation": "",
+    "pos": 875
+  },
+  {
+    "passage": "Tailor Monthly Repair",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "338_5_3_7|",
+    "original": "You can't afford the deposit.",
+    "translation": "",
+    "pos": 1066
+  },
+  {
+    "passage": "Tailor Monthly Repair",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "341_5_3_7|",
+    "original": "<<getouticon>><<link [[Back out of the repair|Tailor Shop]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1109
+  },
+  {
+    "passage": "Tailor Monthly Driver",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "344_5_3_7|",
+    "original": "The tailor picks up the crate and carries it into the back of the shop.",
+    "translation": "",
+    "pos": 0
+  },
+  {
+    "passage": "Tailor Monthly Driver",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "346_5_3_7|",
+    "original": "<<link [[Next|Tailor Shop]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 81
+  },
+  {
+    "passage": "Fix Outfit",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "350_5_3_7|",
+    "original": "You continue to hide while the tailor makes the needed repairs. After what feels like an eternity, <<he>> passed you back your <<print $outfitRepair.name>> and you slip it on.",
+    "translation": "",
+    "pos": 25
+  },
+  {
+    "passage": "Fix Outfit",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "353_5_3_7|",
+    "original": "You loiter around the shop until the tailor calls you over for a few minor adjustments.",
+    "translation": "",
+    "pos": 224
+  },
+  {
+    "passage": "Fix Outfit",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "354_5_3_7|",
+    "original": "Just like that, your <<print $outfitRepair.name>> is as good as new.",
+    "translation": "",
+    "pos": 314
+  },
+  {
+    "passage": "Fix Outfit",
+    "filepath": "overworld-town/loc-shop/tailor.twee",
+    "key": "362_5_3_7|",
+    "original": "<<link [[Back|Tailor Shop]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 606
+  }
+]

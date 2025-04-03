@@ -1,0 +1,578 @@
+[
+  {
+    "passage": "Pet Shop Lock",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "6_5_3_7|",
+    "original": "You think you'd be able to pick the lock, <span class=\"blue\">if your arms weren't bound.</span>",
+    "translation": "",
+    "pos": 197
+  },
+  {
+    "passage": "Pet Shop Lock",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "10_5_3_7|",
+    "original": "<span class=\"green\">The lock looks easy to pick.</span>",
+    "translation": "",
+    "pos": 342
+  },
+  {
+    "passage": "Pet Shop Lock",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "12_5_3_7|",
+    "original": "<<lockicon \"pick\">><<link [[Pick it (0:10)|Pet Shop]]>><<handheldon>><<pass 10>><<crimeUp 10 \"trespassing\">><</link>><<crime \"trespassing\">>",
+    "translation": "",
+    "pos": 411
+  },
+  {
+    "passage": "Pet Shop Lock",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "16_5_3_7|",
+    "original": "<span class=\"red\">The lock looks beyond your ability to pick.</span>",
+    "translation": "",
+    "pos": 578
+  },
+  {
+    "passage": "Pet Shop Lock",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "20_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Shopping Centre]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 690
+  },
+  {
+    "passage": "Pet Shop",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "26_5_3_7|",
+    "original": "You are in the pet shop. <<if Time.dayState is \"night\">>Most of the animals are sleeping at the moment<<else>>A handful of the small animals turn to look in your direction<</if>>. They all look cute, but you doubt Bailey will let you keep any.",
+    "translation": "",
+    "pos": 72
+  },
+  {
+    "passage": "Pet Shop",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "32_5_3_7|",
+    "original": "A <<person>> confronts you as you walk into the store. <<Hes>> wearing a nametag and the uniform of the place. <<His>> tone is polite, but firm.",
+    "translation": "",
+    "pos": 605
+  },
+  {
+    "passage": "Pet Shop",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "33_5_3_7|",
+    "original": "\"Those animals are under my responsibility, and I don't want you to touch them in any way. If you're not here to buy something, please leave.\" <<stress 12>><<ggstress>>",
+    "translation": "",
+    "pos": 752
+  },
+  {
+    "passage": "Pet Shop",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "36_5_3_7|",
+    "original": "One of the workers has taken to following your every step. You can't evade <<his>> wary gaze. <<stress 6>><<gstress>>",
+    "translation": "",
+    "pos": 971
+  },
+  {
+    "passage": "Pet Shop",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "39_5_3_7|",
+    "original": "The shopkeepers keep a close eye on you every time you get close to the animals. You're not sure why.",
+    "translation": "",
+    "pos": 1112
+  },
+  {
+    "passage": "Pet Shop",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "46_5_3_7|",
+    "original": "You have a look around the shop, and pet some of the cats and dogs.",
+    "translation": "",
+    "pos": 1372
+  },
+  {
+    "passage": "Pet Shop",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "51_5_3_7|",
+    "original": "<<shopicon \"register\">><<link [[Examine the cash register|Pet Shop Register]]>><</link>>",
+    "translation": "",
+    "pos": 1562
+  },
+  {
+    "passage": "Pet Shop",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "61_5_3_7|",
+    "original": "<<petshopicon \"chew\">> <<link [[Wolf Chew Toys|Pet Shop Item]]>><<set $selectedToy to clone(_toySelection[\"chewToy\"])>><</link>>",
+    "translation": "",
+    "pos": 1939
+  },
+  {
+    "passage": "Pet Shop",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "65_5_3_7|",
+    "original": "<<petshopicon \"treat\">><<link [[Dog treats (£1 each)|Pet Shop Treats]]>><</link>> | Owned: <span class=\"gold\"><<= $kennel_treats || 0>></span>",
+    "translation": "",
+    "pos": 2140
+  },
+  {
+    "passage": "Pet Shop",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "72_5_3_7|",
+    "original": "<<generate1>><<person1>>You ask the shop owner for the <span class=\"gold\"><<print $boughtItem>>.</span> \"Certainly, <<if $player.gender_appearance is \"m\">>sir<<else>>madam<</if>>,\" <<he>> says with a smile. \"I will have it delivered to your home as soon as I can.\"<<endevent>>",
+    "translation": "",
+    "pos": 2562
+  },
+  {
+    "passage": "Pet Shop",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "77_5_3_7|",
+    "original": "__Capacity upgrades:__",
+    "translation": "",
+    "pos": 2886
+  },
+  {
+    "passage": "Pet Shop",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "82_5_3_7|",
+    "original": "<<petshopicon \"tank small\">><<link [[Buy small fish tank £200|$passage]]>><<set $boughtItem to \"Small Fish Tank\">><</link>>",
+    "translation": "",
+    "pos": 3142
+  },
+  {
+    "passage": "Pet Shop",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "85_5_3_7|",
+    "original": "You don't have £200 for the Small Fish Tank.",
+    "translation": "",
+    "pos": 3327
+  },
+  {
+    "passage": "Pet Shop",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "91_5_3_7|",
+    "original": "<<petshopicon \"tank medium\">><<link [[Buy fish tank £500|$passage]]>><<set $boughtItem to \"Fish Tank\">><</link>>",
+    "translation": "",
+    "pos": 3500
+  },
+  {
+    "passage": "Pet Shop",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "94_5_3_7|",
+    "original": "You don't have £500 for the Fish Tank.",
+    "translation": "",
+    "pos": 3674
+  },
+  {
+    "passage": "Pet Shop",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "98_5_3_7|",
+    "original": "<<petshopicon \"tank large\">><<link [[Buy large fish tank £1,000|$passage]]>><<set $boughtItem to \"Large Fish Tank\">><</link>>",
+    "translation": "",
+    "pos": 3803
+  },
+  {
+    "passage": "Pet Shop",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "101_5_3_7|",
+    "original": "You don't have £1,000 for the Large Fish Tank.",
+    "translation": "",
+    "pos": 3990
+  },
+  {
+    "passage": "Pet Shop",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "105_5_3_7|",
+    "original": "<<petshopicon \"tank huge\">><<link [[Buy huge fish tank £5,000|$passage]]>><<set $boughtItem to \"Huge Fish Tank\">><</link>>",
+    "translation": "",
+    "pos": 4127
+  },
+  {
+    "passage": "Pet Shop",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "108_5_3_7|",
+    "original": "You don't have £5,000 for the Huge Fish Tank.",
+    "translation": "",
+    "pos": 4311
+  },
+  {
+    "passage": "Pet Shop",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "113_5_3_7|",
+    "original": "You have the best tank available.",
+    "translation": "",
+    "pos": 4399
+  },
+  {
+    "passage": "Pet Shop",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "118_5_3_7|",
+    "original": "__Food upgrades:__",
+    "translation": "",
+    "pos": 4524
+  },
+  {
+    "passage": "Pet Shop",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "122_5_3_7|",
+    "original": "<<petshopicon \"feeder\">><<link [[Buy small automatic feeder £500|$passage]]>><<set $boughtItem to \"Small Automatic Feeder\">><</link>>",
+    "translation": "",
+    "pos": 4668
+  },
+  {
+    "passage": "Pet Shop",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "125_5_3_7|",
+    "original": "You don't have £500 for the Small Automatic Feeder.",
+    "translation": "",
+    "pos": 4866
+  },
+  {
+    "passage": "Pet Shop",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "129_5_3_7|",
+    "original": "<<petshopicon \"feeder\">><<link [[Buy automatic feeder £1,500|$passage]]>><<set $boughtItem to \"Automatic Feeder\">><</link>>",
+    "translation": "",
+    "pos": 5011
+  },
+  {
+    "passage": "Pet Shop",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "132_5_3_7|",
+    "original": "You don't have £1,500 for the Automatic Feeder.",
+    "translation": "",
+    "pos": 5199
+  },
+  {
+    "passage": "Pet Shop",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "136_5_3_7|",
+    "original": "<<petshopicon \"feeder\">><<link [[Buy large automatic feeder £7,500|$passage]]>><<set $boughtItem to \"Large Automatic Feeder\">><</link>>",
+    "translation": "",
+    "pos": 5340
+  },
+  {
+    "passage": "Pet Shop",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "139_5_3_7|",
+    "original": "You don't have £7,500 for the Large Automatic Feeder.",
+    "translation": "",
+    "pos": 5540
+  },
+  {
+    "passage": "Pet Shop",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "143_5_3_7|",
+    "original": "You have the best automatic feeder available.",
+    "translation": "",
+    "pos": 5650
+  },
+  {
+    "passage": "Pet Shop",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "149_5_3_7|",
+    "original": "__Decoration upgrades:__",
+    "translation": "",
+    "pos": 5774
+  },
+  {
+    "passage": "Pet Shop",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "153_5_3_7|",
+    "original": "<<petshopicon \"decor\">><<link [[Buy standard decorations £5,000|$passage]]>><<set $boughtItem to \"Standard Decorations\">><</link>>",
+    "translation": "",
+    "pos": 5990
+  },
+  {
+    "passage": "Pet Shop",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "156_5_3_7|",
+    "original": "You don't have £5,000 for the Standard Tank Decorations.",
+    "translation": "",
+    "pos": 6180
+  },
+  {
+    "passage": "Pet Shop",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "160_5_3_7|",
+    "original": "<<petshopicon \"decor exotic\">><<link [[Buy exotic decorations £15,000|$passage]]>><<set $boughtItem to \"Exotic Decorations\">><</link>>",
+    "translation": "",
+    "pos": 6364
+  },
+  {
+    "passage": "Pet Shop",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "163_5_3_7|",
+    "original": "You don't have £15,000 for the Exotic Tank Decorations.",
+    "translation": "",
+    "pos": 6596
+  },
+  {
+    "passage": "Pet Shop",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "167_5_3_7|",
+    "original": "You have the best tank decorations available.",
+    "translation": "",
+    "pos": 6686
+  },
+  {
+    "passage": "Pet Shop",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "174_5_3_7|",
+    "original": "<<assignmenticon>><<link [[Buy notebook (£20)|Pet Shop Book]]>><<money -2000 \"petShop\">><</link>>",
+    "translation": "",
+    "pos": 6836
+  },
+  {
+    "passage": "Pet Shop",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "176_5_3_7|",
+    "original": "You see a notebook available that you could use to collect info on your parasites. It costs £20. You can't afford it.",
+    "translation": "",
+    "pos": 6948
+  },
+  {
+    "passage": "Pet Shop",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "182_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Shopping Centre]]>><</link>>",
+    "translation": "",
+    "pos": 7105
+  },
+  {
+    "passage": "Pet Shop Treats",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "188_5_3_7|",
+    "original": "You examine the range of dog treats on display.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "Pet Shop Treats",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "196_5_3_7|",
+    "original": "<<petshopicon \"treat\">><<link [[Buy 1 (£1)|Pet Shop Treats Buy]]>><<money -100 \"petShop\">><<set $kennel_treats += 1>><</link>>",
+    "translation": "",
+    "pos": 167
+  },
+  {
+    "passage": "Pet Shop Treats",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "199_5_3_7|",
+    "original": "<span class=\"blue\">You can't afford any.</span>",
+    "translation": "",
+    "pos": 310
+  },
+  {
+    "passage": "Pet Shop Treats",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "203_5_3_7|",
+    "original": "<<petshopicon \"treat\">><<link [[Buy 10 (£10)|Pet Shop Treats Buy]]>><<money -1000 \"petShop\">><<set $kennel_treats += 10>><</link>>",
+    "translation": "",
+    "pos": 396
+  },
+  {
+    "passage": "Pet Shop Treats",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "207_5_3_7|",
+    "original": "<<petshopicon \"treat\">><<link [[Buy 50 (£50)|Pet Shop Treats Buy]]>><<money -5000 \"petShop\">><<set $kennel_treats += 50>><</link>>",
+    "translation": "",
+    "pos": 565
+  },
+  {
+    "passage": "Pet Shop Treats",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "211_5_3_7|",
+    "original": "<<petshopicon \"treat\">><<link [[Buy 100 (£100)|Pet Shop Treats Buy]]>><<money -10000 \"petShop\">><<set $kennel_treats += 100>><</link>>",
+    "translation": "",
+    "pos": 735
+  },
+  {
+    "passage": "Pet Shop Treats",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "215_5_3_7|",
+    "original": "<<petshopicon \"treat\">><<link [[Buy 200 (£200)|Pet Shop Treats Buy]]>><<money -20000 \"petShop\">><<set $kennel_treats += 200>><</link>>",
+    "translation": "",
+    "pos": 909
+  },
+  {
+    "passage": "Pet Shop Treats",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "219_5_3_7|",
+    "original": "<<petshopicon \"treat\">><<link [[Buy 500 (£500)|Pet Shop Treats Buy]]>><<money -50000 \"petShop\">><<set $kennel_treats += 500>><</link>>",
+    "translation": "",
+    "pos": 1083
+  },
+  {
+    "passage": "Pet Shop Treats",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "223_5_3_7|",
+    "original": "<<petshopicon \"treat\">><<link [[Buy 1000 (£1000)|Pet Shop Treats Buy]]>><<money -100000 \"petShop\">><<set $kennel_treats += 1000>><</link>>",
+    "translation": "",
+    "pos": 1258
+  },
+  {
+    "passage": "Pet Shop Treats",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "228_5_3_7|",
+    "original": "<<getouticon>><<link [[Don't buy any|Pet Shop]]>><</link>>",
+    "translation": "",
+    "pos": 1417
+  },
+  {
+    "passage": "Pet Shop Treats Buy",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "233_5_3_7|",
+    "original": "You buy the treats, and have them sent to the farm. You have <span class=\"gold\">$kennel_treats</span> in total.",
+    "translation": "",
+    "pos": 37
+  },
+  {
+    "passage": "Pet Shop Treats Buy",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "236_5_3_7|",
+    "original": "<<link [[Next|Pet Shop]]>><</link>>",
+    "translation": "",
+    "pos": 159
+  },
+  {
+    "passage": "Pet Shop Book",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "242_5_3_7|",
+    "original": "You find a high-quality notebook available that you could use to collect info on your parasites. It has individual pages to fill out for scientific study on animal species in the wild, but it would work just fine for parasites, you think. You purchase it.",
+    "translation": "",
+    "pos": 77
+  },
+  {
+    "passage": "Pet Shop Book",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "245_5_3_7|",
+    "original": "<i>You can now view info about the parasites you've birthed, at any location where you look after them.</i>",
+    "translation": "",
+    "pos": 343
+  },
+  {
+    "passage": "Pet Shop Book",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "248_5_3_7|",
+    "original": "<<link [[Next|Pet Shop]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 461
+  },
+  {
+    "passage": "Widgets PetShopBoughtItem",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "257_5_3_7|",
+    "original": "<<case \"Small Fish Tank\">>",
+    "translation": "",
+    "pos": 135
+  },
+  {
+    "passage": "Widgets PetShopBoughtItem",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "259_5_3_7|",
+    "original": "<<case \"Fish Tank\">>",
+    "translation": "",
+    "pos": 311
+  },
+  {
+    "passage": "Widgets PetShopBoughtItem",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "261_5_3_7|",
+    "original": "<<case \"Large Fish Tank\">>",
+    "translation": "",
+    "pos": 475
+  },
+  {
+    "passage": "Widgets PetShopBoughtItem",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "263_5_3_7|",
+    "original": "<<case \"Huge Fish Tank\">>",
+    "translation": "",
+    "pos": 652
+  },
+  {
+    "passage": "Widgets PetShopBoughtItem",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "265_5_3_7|",
+    "original": "<<case \"Small Automatic Feeder\">>",
+    "translation": "",
+    "pos": 827
+  },
+  {
+    "passage": "Widgets PetShopBoughtItem",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "267_5_3_7|",
+    "original": "<<case \"Automatic Feeder\">>",
+    "translation": "",
+    "pos": 1036
+  },
+  {
+    "passage": "Widgets PetShopBoughtItem",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "269_5_3_7|",
+    "original": "<<case \"Large Automatic Feeder\">>",
+    "translation": "",
+    "pos": 1235
+  },
+  {
+    "passage": "Widgets PetShopBoughtItem",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "271_5_3_7|",
+    "original": "<<case \"Standard Decorations\">>",
+    "translation": "",
+    "pos": 1446
+  },
+  {
+    "passage": "Widgets PetShopBoughtItem",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "273_5_3_7|",
+    "original": "<<case \"Exotic Decorations\">>",
+    "translation": "",
+    "pos": 1606
+  },
+  {
+    "passage": "Pet Shop Item",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "282_5_3_7|",
+    "original": "You take a look at the collection of <<print $selectedToy.set>>. They cost <span class=\"gold\"><<print $selectedToy.costDisplay>></span> each.",
+    "translation": "",
+    "pos": 1
+  },
+  {
+    "passage": "Pet Shop Item",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "288_5_3_7|",
+    "original": "<span @class=\"$selectedToy.options[_i].colour\"><<print $selectedToy.options[_i].optionsName>></span>",
+    "translation": "",
+    "pos": 313
+  },
+  {
+    "passage": "Pet Shop Item",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "295_5_3_7|",
+    "original": "You can't have more than 5 toys with you at a time.",
+    "translation": "",
+    "pos": 508
+  },
+  {
+    "passage": "Pet Shop Item",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "298_5_3_7|",
+    "original": "<<link [[Buy|Pet Shop]]>><<buyToy>><</link>>",
+    "translation": "",
+    "pos": 611
+  },
+  {
+    "passage": "Pet Shop Item",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "301_5_3_7|",
+    "original": "You can't afford this toy.",
+    "translation": "",
+    "pos": 672
+  },
+  {
+    "passage": "Pet Shop Item",
+    "filepath": "overworld-town/loc-shop/petShop.twee",
+    "key": "305_5_3_7|",
+    "original": "<<link [[Don't buy|Pet Shop]]>><<unset $selectedToy>><</link>>",
+    "translation": "",
+    "pos": 714
+  }
+]

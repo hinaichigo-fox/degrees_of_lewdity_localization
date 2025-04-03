@@ -1,0 +1,810 @@
+[
+  {
+    "passage": "School Swimming Late",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "18_5_3_7|",
+    "original": "<<elseif ($worn.under_lower.type.includes(\"swim\") or $worn.lower.type.includes(\"swim\"))",
+    "translation": "",
+    "pos": 396
+  },
+  {
+    "passage": "School Swimming Late",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "19_5_3_7|",
+    "original": "and ($worn.under_upper.type.includes(\"swim\") or $worn.upper.type.includes(\"swim\") or ($worn.under_upper.type.includes(\"naked\") and $worn.upper.type.includes(\"naked\") and ($player.gender_appearance is \"m\" or $daily.swimCrossdressPermission)))",
+    "translation": "",
+    "pos": 484
+  },
+  {
+    "passage": "School Swimming Late",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "20_5_3_7|",
+    "original": "and (($worn.upper.type.includes(\"naked\") or $worn.upper.type.includes(\"swim\")) and ($worn.lower.type.includes(\"naked\") or $worn.lower.type.includes(\"swim\")))>>",
+    "translation": "",
+    "pos": 726
+  },
+  {
+    "passage": "School Swimming Late",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "33_5_3_7|",
+    "original": "<<npc Mason>><<person1>>You enter the swimming pool room.",
+    "translation": "",
+    "pos": 1149
+  },
+  {
+    "passage": "School Swimming Late",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "36_5_3_7|",
+    "original": "Mason and the class are in the water.",
+    "translation": "",
+    "pos": 1239
+  },
+  {
+    "passage": "School Swimming Late",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "38_5_3_7|",
+    "original": "Mason stands by the pool explaining something to the class.",
+    "translation": "",
+    "pos": 1303
+  },
+  {
+    "passage": "School Swimming Late",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "40_5_3_7|",
+    "original": "Mason is demonstrating a swimming technique by the poolside.",
+    "translation": "",
+    "pos": 1405
+  },
+  {
+    "passage": "School Swimming Late",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "42_5_3_7|",
+    "original": "The class is in the pool but Mason is nowhere to be seen. After a moment <<he>> enters through a side door with a",
+    "translation": "",
+    "pos": 1478
+  },
+  {
+    "passage": "School Swimming Late",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "43_5_3_7|",
+    "original": "<<print either(\"swimsuit\", \"pair of swim shorts\")>> in <<his>> hand. <<He>> hands it to a <<generatey2>><<person2>><<person>><<person1>> in the water before",
+    "translation": "",
+    "pos": 1594
+  },
+  {
+    "passage": "School Swimming Late",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "44_5_3_7|",
+    "original": "<<he>> turns to you.",
+    "translation": "",
+    "pos": 1753
+  },
+  {
+    "passage": "School Swimming Late",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "50_5_3_7|",
+    "original": "\"There you are,\" <<he>> says. \"You've been excused, but you're a bit too late to join in.\"",
+    "translation": "",
+    "pos": 1880
+  },
+  {
+    "passage": "School Swimming Late",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "53_5_3_7|",
+    "original": "<<He>> nods to a seat in the corner. \"Why don't you take a seat over there?\"",
+    "translation": "",
+    "pos": 1985
+  },
+  {
+    "passage": "School Swimming Late",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "56_5_3_7|",
+    "original": "<<link [[Sit and wait|School Swimming Late Wait]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 2076
+  },
+  {
+    "passage": "School Swimming Late",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "59_5_3_7|",
+    "original": "<<maleicon>><<link [[Boys' changing room|School Boy Changing Room]]>><<detention 1>><<endevent>><</link>><<gdelinquency>>",
+    "translation": "",
+    "pos": 2183
+  },
+  {
+    "passage": "School Swimming Late",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "61_5_3_7|",
+    "original": "<<femaleicon>><<link [[Girls' changing room|School Girl Changing Room]]>><<detention 1>><<endevent>><</link>><<gdelinquency>>",
+    "translation": "",
+    "pos": 2316
+  },
+  {
+    "passage": "School Swimming Late",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "63_5_3_7|",
+    "original": "<<maleicon>><<link [[Grab some towels and enter the boys' changing room|School Boy Changing Room]]>><<towelupm>><<detention 1>><<endevent>><</link>><<gdelinquency>>",
+    "translation": "",
+    "pos": 2473
+  },
+  {
+    "passage": "School Swimming Late",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "65_5_3_7|",
+    "original": "<<femaleicon>><<link [[Grab some towels and enter the girls' changing room|School Girl Changing Room]]>><<towelup>><<detention 1>><<endevent>><</link>><<gdelinquency>>",
+    "translation": "",
+    "pos": 2649
+  },
+  {
+    "passage": "School Swimming Late",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "69_5_3_7|",
+    "original": "\"You again,\" <<he>> says. \"I've had enough. You're Leighton's problem. Class dismissed.\"<<detention 2>>",
+    "translation": "",
+    "pos": 3044
+  },
+  {
+    "passage": "School Swimming Late",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "70_5_3_7|",
+    "original": "<<He>> grabs your arm and guides you toward the exit<<if $exposed is 1>> without regard for your modesty<</if>>.",
+    "translation": "",
+    "pos": 3150
+  },
+  {
+    "passage": "School Swimming Late",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "72_5_3_7|",
+    "original": "On the way out <<he>> picks up a towel from the rack and puts it around your waist.",
+    "translation": "",
+    "pos": 3340
+  },
+  {
+    "passage": "School Swimming Late",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "74_5_3_7|",
+    "original": "\"I don't even want to know how you got yourself bound up,\" <<he>> exclaims, \"you can explain that to Leighton, too.\"<<detention 1>>",
+    "translation": "",
+    "pos": 3501
+  },
+  {
+    "passage": "School Swimming Late",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "77_5_3_7|",
+    "original": "<<link [[Next|School Swimming Late Detention]]>><<endevent>><<pass 2>><<towelupm>><</link>>",
+    "translation": "",
+    "pos": 3649
+  },
+  {
+    "passage": "School Swimming Late",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "79_5_3_7|",
+    "original": "On the way out <<he>> picks up a towel from the rack. \"Put this on,\" <<he>> says.",
+    "translation": "",
+    "pos": 3772
+  },
+  {
+    "passage": "School Swimming Late",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "82_5_3_7|",
+    "original": "<<link [[Put on the towel (0:02)|School Swimming Late Detention]]>><<endevent>><<pass 2>><<towelup>><</link>>",
+    "translation": "",
+    "pos": 3870
+  },
+  {
+    "passage": "School Swimming Late",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "87_5_3_7|",
+    "original": "<<link [[Next|School Swimming Late Detention]]>><<endevent>><<pass 2>><</link>>",
+    "translation": "",
+    "pos": 4032
+  },
+  {
+    "passage": "School Swimming Late",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "90_5_3_7|",
+    "original": "\"Glad you could join us,\" <<he>> says. \"I'm afraid you are too late to",
+    "translation": "",
+    "pos": 4148
+  },
+  {
+    "passage": "School Swimming Late",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "91_5_3_7|",
+    "original": "participate.<<if $cstate isnot \"fine\">> And you are not even dressed",
+    "translation": "",
+    "pos": 4221
+  },
+  {
+    "passage": "School Swimming Late",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "92_5_3_7|",
+    "original": "<<if $swimall is 1>><<detention 5>>'properly'<!-- Mason may be a bit miffed having to teach naked because of you --><<else>><<detention 1>>properly<</if>>.<</if>>\"",
+    "translation": "",
+    "pos": 4292
+  },
+  {
+    "passage": "School Swimming Late",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "94_5_3_7|",
+    "original": "<<He>> points to a chair in the corner. \"Sit there and be still.\"<<detention 1>><<gdelinquency>>",
+    "translation": "",
+    "pos": 4459
+  },
+  {
+    "passage": "School Swimming Late",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "97_5_3_7|",
+    "original": "<<link [[Sit and wait|School Swimming Late Wait]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 4570
+  },
+  {
+    "passage": "School Swimming Late",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "100_5_3_7|",
+    "original": "<<maleicon>><<link [[Boys' changing room|School Boy Changing Room]]>><<detention 1>><<endevent>><</link>><<gdelinquency>>",
+    "translation": "",
+    "pos": 4677
+  },
+  {
+    "passage": "School Swimming Late",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "102_5_3_7|",
+    "original": "<<femaleicon>><<link [[Girls' changing room|School Girl Changing Room]]>><<detention 1>><<endevent>><</link>><<gdelinquency>>",
+    "translation": "",
+    "pos": 4810
+  },
+  {
+    "passage": "School Swimming Late",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "104_5_3_7|",
+    "original": "<<maleicon>><<link [[Grab some towels and enter the boys' changing room|School Boy Changing Room]]>><<towelupm>><<detention 1>><<endevent>><</link>><<gdelinquency>>",
+    "translation": "",
+    "pos": 4967
+  },
+  {
+    "passage": "School Swimming Late",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "106_5_3_7|",
+    "original": "<<femaleicon>><<link [[Grab some towels and enter the girls' changing room|School Girl Changing Room]]>><<towelup>><<detention 1>><<endevent>><</link>><<gdelinquency>>",
+    "translation": "",
+    "pos": 5143
+  },
+  {
+    "passage": "School Swimming Late",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "109_5_3_7|",
+    "original": "\"I'm glad you could join as after all,\" <<he>> says. \"The <<nnpc_title \"Leighton\">> will want a word with you.\"",
+    "translation": "",
+    "pos": 5347
+  },
+  {
+    "passage": "School Swimming Late",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "111_5_3_7|",
+    "original": "<<He>> points to the exit door.<<detention 1>><<gdelinquency>>",
+    "translation": "",
+    "pos": 5472
+  },
+  {
+    "passage": "School Swimming Late",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "114_5_3_7|",
+    "original": "<<link [[Leave (0:02)|School Pool Entrance]]>><<pass 2>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 5549
+  },
+  {
+    "passage": "School Swimming Late",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "117_5_3_7|",
+    "original": "<<maleicon>><<link [[Grab some towels and enter the boys' changing room|School Boy Changing Room]]>><<towelupm>><<detention 1>><<endevent>><</link>><<gdelinquency>>",
+    "translation": "",
+    "pos": 5661
+  },
+  {
+    "passage": "School Swimming Late",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "119_5_3_7|",
+    "original": "<<femaleicon>><<link [[Grab some towels and enter the girls' changing room|School Girl Changing Room]]>><<towelup>><<detention 1>><<endevent>><</link>><<gdelinquency>>",
+    "translation": "",
+    "pos": 5837
+  },
+  {
+    "passage": "School Swimming Late",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "122_5_3_7|",
+    "original": "<<He>> shakes <<his>> head <<print either(\"tiredly\", \"with resignation\")>>. \"Not sure why you bothered to show this late.\" <<He>> points towards the changing rooms.<<detention 1>>",
+    "translation": "",
+    "pos": 6027
+  },
+  {
+    "passage": "School Swimming Late",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "126_5_3_7|",
+    "original": "<<maleicon>><<link [[Boys' changing room|School Boy Changing Room]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 6246
+  },
+  {
+    "passage": "School Swimming Late",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "128_5_3_7|",
+    "original": "<<femaleicon>><<link [[Girls' changing room|School Girl Changing Room]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 6348
+  },
+  {
+    "passage": "School Swimming Late",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "130_5_3_7|",
+    "original": "<<maleicon>><<link [[Grab some towels and enter the boys' changing room|School Boy Changing Room]]>><<towelupm>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 6474
+  },
+  {
+    "passage": "School Swimming Late",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "132_5_3_7|",
+    "original": "<<femaleicon>><<link [[Grab some towels and enter the girls' changing room|School Girl Changing Room]]>><<towelup>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 6619
+  },
+  {
+    "passage": "School Swimming Late Wait",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "141_5_3_7|",
+    "original": "You sit down on the chair.",
+    "translation": "",
+    "pos": 78
+  },
+  {
+    "passage": "School Swimming Late Wait",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "145_5_3_7|",
+    "original": "Your exposed <<genitalsandbreasts is are>> on display for the whole class.<<arousal 600>>",
+    "translation": "",
+    "pos": 195
+  },
+  {
+    "passage": "School Swimming Late Wait",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "147_5_3_7|",
+    "original": "You cover your exposed <<genitalsandbreasts>> with your hands.<<arousal 300>><<stress 1>>",
+    "translation": "",
+    "pos": 299
+  },
+  {
+    "passage": "School Swimming Late Wait",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "150_5_3_7|",
+    "original": "While your exposed <<genitalsandbreasts is are>> on display for the whole class, the same",
+    "translation": "",
+    "pos": 411
+  },
+  {
+    "passage": "School Swimming Late Wait",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "151_5_3_7|",
+    "original": "is true for everyone else here.<<arousal 100>>",
+    "translation": "",
+    "pos": 503
+  },
+  {
+    "passage": "School Swimming Late Wait",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "154_5_3_7|",
+    "original": "You feel the stares of your classmates.<<stress 1>><<status 1>><<gcool>><!-- rulebreaker bonus -->",
+    "translation": "",
+    "pos": 567
+  },
+  {
+    "passage": "School Swimming Late Wait",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "158_5_3_7|",
+    "original": "<<link [[Everything fades to black...|School Passout]]>><</link>>",
+    "translation": "",
+    "pos": 707
+  },
+  {
+    "passage": "School Swimming Late Wait",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "160_5_3_7|",
+    "original": "<<link [[Wait|School Swimming Late Wait End]]>><<stress 1>><<advancetohour>><</link>><<gstress>>",
+    "translation": "",
+    "pos": 783
+  },
+  {
+    "passage": "School Swimming Late Wait",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "163_5_3_7|",
+    "original": "<<maleicon>><<link [[Boys' changing room|School Boy Changing Room]]>><<detention 1>><</link>><<gdelinquency>>",
+    "translation": "",
+    "pos": 911
+  },
+  {
+    "passage": "School Swimming Late Wait",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "165_5_3_7|",
+    "original": "<<femaleicon>><<link [[Girls' changing room|School Girl Changing Room]]>><<detention 1>><</link>><<gdelinquency>>",
+    "translation": "",
+    "pos": 1030
+  },
+  {
+    "passage": "School Swimming Late Wait",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "167_5_3_7|",
+    "original": "<<maleicon>><<link [[Grab some towels and enter the boys' changing room|School Boy Changing Room]]>><<towelupm>><<detention 1>><</link>><<gdelinquency>>",
+    "translation": "",
+    "pos": 1173
+  },
+  {
+    "passage": "School Swimming Late Wait",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "169_5_3_7|",
+    "original": "<<femaleicon>><<link [[Grab some towels and enter the girls' changing room|School Girl Changing Room]]>><<towelup>><<detention 1>><</link>><<gdelinquency>>",
+    "translation": "",
+    "pos": 1335
+  },
+  {
+    "passage": "School Swimming Late Wait End",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "177_5_3_7|",
+    "original": "The bell rings, signifying the end of the lesson.<<if $swimall is 1>> Mason hands out towels to each student as they pass, trying to avoid eye contact.<</if>>",
+    "translation": "",
+    "pos": 78
+  },
+  {
+    "passage": "School Swimming Late Wait End",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "181_5_3_7|",
+    "original": "<<maleicon>><<link [[Boys' changing room|School Boy Changing Room]]>><</link>>",
+    "translation": "",
+    "pos": 270
+  },
+  {
+    "passage": "School Swimming Late Wait End",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "183_5_3_7|",
+    "original": "<<femaleicon>><<link [[Girls' changing room|School Girl Changing Room]]>><</link>>",
+    "translation": "",
+    "pos": 356
+  },
+  {
+    "passage": "School Swimming Late Wait End",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "185_5_3_7|",
+    "original": "<<maleicon>><<link [[Grab some towels and enter the boys' changing room|School Boy Changing Room]]>><<towelupm>><</link>>",
+    "translation": "",
+    "pos": 466
+  },
+  {
+    "passage": "School Swimming Late Wait End",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "187_5_3_7|",
+    "original": "<<femaleicon>><<link [[Grab some towels and enter the girls' changing room|School Girl Changing Room]]>><<towelup>><</link>>",
+    "translation": "",
+    "pos": 595
+  },
+  {
+    "passage": "School Swimming Late Detention",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "194_5_3_7|",
+    "original": "You are in the school hallways.<<pass 2>>",
+    "translation": "",
+    "pos": 80
+  },
+  {
+    "passage": "School Swimming Late Detention",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "197_5_3_7|",
+    "original": "Classes have just ended and the hallways are full of students on their way out.",
+    "translation": "",
+    "pos": 148
+  },
+  {
+    "passage": "School Swimming Late Detention",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "199_5_3_7|",
+    "original": "You hear speaking behind the various classroom doors, but some classes have just ended and students are streaming out.",
+    "translation": "",
+    "pos": 238
+  },
+  {
+    "passage": "School Swimming Late Detention",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "202_5_3_7|",
+    "original": "Mason holds you fast and drags you towards Leighton's office.",
+    "translation": "",
+    "pos": 374
+  },
+  {
+    "passage": "School Swimming Late Detention",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "206_5_3_7|",
+    "original": "You're steered round a corner and into a corridor full of <<peopley>>. <<covered>>",
+    "translation": "",
+    "pos": 469
+  },
+  {
+    "passage": "School Swimming Late Detention",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "207_5_3_7|",
+    "original": "A nearby <<persony>> looks at you and <<if $exposed gte 2>>gasps in shock<<else>>snickers<</if>>.<<stress 1>>",
+    "translation": "",
+    "pos": 553
+  },
+  {
+    "passage": "School Swimming Late Detention",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "208_5_3_7|",
+    "original": "Others have a similar reaction. As the noise grows more turn to look, until everyone is watching you.",
+    "translation": "",
+    "pos": 664
+  },
+  {
+    "passage": "School Swimming Late Detention",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "211_5_3_7|",
+    "original": "Most students ignore you, but a <<generatey1>><<person1>><<person>> points at you. \"Someone's visiting Leighton,\" <<he>> stage whispers",
+    "translation": "",
+    "pos": 786
+  },
+  {
+    "passage": "School Swimming Late Detention",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "212_5_3_7|",
+    "original": "to <<his>> friends.<<stress 1>>",
+    "translation": "",
+    "pos": 923
+  },
+  {
+    "passage": "School Swimming Late Detention",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "217_5_3_7|",
+    "original": "<<link [[Everything fades to black...|School Passout]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1005
+  },
+  {
+    "passage": "School Swimming Late Detention",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "219_5_3_7|",
+    "original": "<<link [[Walk|School Swimming Late Detention 2]]>><<endevent>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 1093
+  },
+  {
+    "passage": "School Swimming Late Detention",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "222_5_3_7|",
+    "original": "<<link [[Flaunt|School Swimming Late Detention Flaunt]]>><<endevent>><</link>><<exhibitionist5>>",
+    "translation": "",
+    "pos": 1250
+  },
+  {
+    "passage": "School Swimming Late Detention",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "225_5_3_7|",
+    "original": "<<link [[Flaunt|School Swimming Late Detention Flaunt]]>><<endevent>><</link>><<exhibitionist4>>",
+    "translation": "",
+    "pos": 1418
+  },
+  {
+    "passage": "School Swimming Late Detention",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "231_5_3_7|",
+    "original": "<<link [[Drop the towel and flaunt|School Swimming Late Detention Flaunt]]>><<droptowel>><<endevent>><</link>><<exhibitionist5>>",
+    "translation": "",
+    "pos": 1692
+  },
+  {
+    "passage": "School Swimming Late Detention",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "234_5_3_7|",
+    "original": "<<link [[Drop the towel and flaunt|School Swimming Late Detention Flaunt]]>><<droptowel>><<endevent>><</link>><<exhibitionist4>>",
+    "translation": "",
+    "pos": 1854
+  },
+  {
+    "passage": "School Swimming Late Detention",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "239_5_3_7|",
+    "original": "<<link [[Run away|School Swimming Late Detention 2]]>><<endevent>><<set $phase to 2>><</link>><<athleticsdifficulty 100 600>>",
+    "translation": "",
+    "pos": 2043
+  },
+  {
+    "passage": "School Swimming Late Detention Flaunt",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "247_5_3_7|",
+    "original": "<<flaunting>> you march down the corridor like it was a catwalk. Some look away, going red in the face.",
+    "translation": "",
+    "pos": 80
+  },
+  {
+    "passage": "School Swimming Late Detention Flaunt",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "248_5_3_7|",
+    "original": "Most though are keen to take in the sight of the <<if $worn.lower.type.includes(\"naked\") and $worn.under_lower.type.includes(\"naked\")>>naked<<else>>nearly naked<</if>> <<girl>> marching down the centre.",
+    "translation": "",
+    "pos": 184
+  },
+  {
+    "passage": "School Swimming Late Detention Flaunt",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "251_5_3_7|",
+    "original": "\"Feel free to look,\" you announce. \"There's no shame in it.\"<<status 5>><<arousal 50>>",
+    "translation": "",
+    "pos": 397
+  },
+  {
+    "passage": "School Swimming Late Detention Flaunt",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "257_5_3_7|",
+    "original": "<<npc Mason>><<person1>>Mason is trying <<his>> best to shield your body with <<hers>>.",
+    "translation": "",
+    "pos": 563
+  },
+  {
+    "passage": "School Swimming Late Detention Flaunt",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "260_5_3_7|",
+    "original": "<<link [[Walk|School Swimming Late Detention 2]]>><<endevent>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 663
+  },
+  {
+    "passage": "School Swimming Late Detention Flaunt",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "263_5_3_7|",
+    "original": "<<link [[Try to bolt|School Swimming Late Detention 2]]>><<endevent>><<set $phase to 2>><</link>><<athleticsdifficulty 1 400>>",
+    "translation": "",
+    "pos": 793
+  },
+  {
+    "passage": "School Swimming Late Detention Flaunt",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "265_5_3_7|",
+    "original": "<<link [[Try to duck|School Swimming Late Detention 2]]>><<endevent>><<set $phase to 2>><</link>><<dancedifficulty 100 600>>",
+    "translation": "",
+    "pos": 929
+  },
+  {
+    "passage": "School Swimming Late Detention Flaunt",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "270_5_3_7|",
+    "original": "<<npc Mason>><<person1>>Mason tightens <<his>> grip and pushes you along, trying <<his>> best to shield your body with <<hers>>.",
+    "translation": "",
+    "pos": 1119
+  },
+  {
+    "passage": "School Swimming Late Detention Flaunt",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "273_5_3_7|",
+    "original": "<<link [[Walk|School Swimming Late Detention 2]]>><<endevent>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 1260
+  },
+  {
+    "passage": "School Swimming Late Detention Flaunt",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "276_5_3_7|",
+    "original": "<<link [[Try to bolt|School Swimming Late Detention 2]]>><<endevent>><<set $phase to 2>><</link>><<athleticsdifficulty 200 1000>>",
+    "translation": "",
+    "pos": 1390
+  },
+  {
+    "passage": "School Swimming Late Detention 2",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "285_5_3_7|",
+    "original": "With quick feet you duck out of Mason's grip and weave your way between the other students. Mason gives chase, but you",
+    "translation": "",
+    "pos": 118
+  },
+  {
+    "passage": "School Swimming Late Detention 2",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "286_5_3_7|",
+    "original": "manage to hide in a nearby maintenance cupboard.",
+    "translation": "",
+    "pos": 238
+  },
+  {
+    "passage": "School Swimming Late Detention 2",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "289_5_3_7|",
+    "original": "<<link [[Next (0:10)|Hallways]]>><<pass 10>><</link>>",
+    "translation": "",
+    "pos": 299
+  },
+  {
+    "passage": "School Swimming Late Detention 2",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "291_5_3_7|",
+    "original": "With a sudden jolt you escape Mason's grip and dive between the other students. Mason gives chase, but you",
+    "translation": "",
+    "pos": 399
+  },
+  {
+    "passage": "School Swimming Late Detention 2",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "292_5_3_7|",
+    "original": "manage to hide in a nearby maintenance cupboard.",
+    "translation": "",
+    "pos": 507
+  },
+  {
+    "passage": "School Swimming Late Detention 2",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "295_5_3_7|",
+    "original": "<<link [[Next (0:10)|Hallways]]>><<pass 10>><</link>>",
+    "translation": "",
+    "pos": 568
+  },
+  {
+    "passage": "School Swimming Late Detention 2",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "298_5_3_7|",
+    "original": "You try to break free, but Mason's grip is too firm.<<gpain>><<pain 4>>",
+    "translation": "",
+    "pos": 653
+  },
+  {
+    "passage": "School Swimming Late Detention 2",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "302_5_3_7|",
+    "original": "You are in the school hallways in front of Leighton's Office.<<pass 2>>",
+    "translation": "",
+    "pos": 747
+  },
+  {
+    "passage": "School Swimming Late Detention 2",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "305_5_3_7|",
+    "original": "Classes have just ended and the hallway is full of students.",
+    "translation": "",
+    "pos": 847
+  },
+  {
+    "passage": "School Swimming Late Detention 2",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "307_5_3_7|",
+    "original": "You hear speaking behind the various classroom doors, but some classes have just ended and students are streaming out.",
+    "translation": "",
+    "pos": 920
+  },
+  {
+    "passage": "School Swimming Late Detention 2",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "312_5_3_7|",
+    "original": "You put your towel back on just before",
+    "translation": "",
+    "pos": 1283
+  },
+  {
+    "passage": "School Swimming Late Detention 2",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "315_5_3_7|",
+    "original": "Mason opens the Head's Office's door and pushes you in.<!-- Mason would accompany you but \"School Detention\" assumes you're alone -->",
+    "translation": "",
+    "pos": 1373
+  },
+  {
+    "passage": "School Swimming Late Detention 2",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "318_5_3_7|",
+    "original": "<<link [[Enter|School Detention]]>><</link>>",
+    "translation": "",
+    "pos": 1519
+  },
+  {
+    "passage": "School Swimming Late Detention 2",
+    "filepath": "overworld-town/loc-school/classes/swimming-late.twee",
+    "key": "321_5_3_7|",
+    "original": "<<link [[Run away|School Swimming Late Detention 2]]>><<endevent>><<set $phase to 2>><</link>><<athleticsdifficulty 200 800>>",
+    "translation": "",
+    "pos": 1619
+  }
+]

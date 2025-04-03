@@ -1,0 +1,1090 @@
+[
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "15_5_3_7|",
+    "original": "<<set _naked to ($worn.under_upper.type.includes(\"swim\") or $worn.under_lower.type.includes(\"swim\")) ? \"only wearing swimwear\" : \"only wearing underwear\">>",
+    "translation": "",
+    "pos": 553
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "17_5_3_7|",
+    "original": "<<set _naked to \"not wearing anything\">>",
+    "translation": "",
+    "pos": 723
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "20_5_3_7|",
+    "original": "As you go to hang your <<print _middleOutfit ? \"$worn.over_upper.name\" : \"$worn.over_upper.name and $worn.over_lower.name\">>, you remember that you're _naked underneath.",
+    "translation": "",
+    "pos": 862
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "24_5_3_7|",
+    "original": "Winter speaks during your brief hesitation. \"You can't have believed I wouldn't notice. Go see the head.\"",
+    "translation": "",
+    "pos": 1083
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "28_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1325
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "32_5_3_7|",
+    "original": "You rejoin the history lesson,",
+    "translation": "",
+    "pos": 1543
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "34_5_3_7|",
+    "original": "hang your coat at the back of the class",
+    "translation": "",
+    "pos": 1701
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "37_5_3_7|",
+    "original": "and take your seat.",
+    "translation": "",
+    "pos": 1801
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "39_5_3_7|",
+    "original": "<<link [[Next|History Lesson]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1836
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "42_5_3_7|",
+    "original": "You enter the history classroom.",
+    "translation": "",
+    "pos": 1932
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "44_5_3_7|",
+    "original": "Winter is preparing at the front of the room while the seats fill.",
+    "translation": "",
+    "pos": 1997
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "47_5_3_7|",
+    "original": "You hang your coat at the back of the class.",
+    "translation": "",
+    "pos": 2237
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "52_5_3_7|",
+    "original": "Robin hurries to sit down, pointing at the empty seat beside <<nnpc_him Robin>>.",
+    "translation": "",
+    "pos": 2384
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "54_5_3_7|",
+    "original": "Robin waves you over, and points at an empty seat beside <<nnpc_him Robin>>.",
+    "translation": "",
+    "pos": 2483
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "60_5_3_7|",
+    "original": "You approach, but a <<person>> sits there before you arrive.",
+    "translation": "",
+    "pos": 2681
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "63_5_3_7|",
+    "original": "\"Excuse me,\" Robin says. \"My <<friend>> was going to sit there.\"",
+    "translation": "",
+    "pos": 2797
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "66_5_3_7|",
+    "original": "\"I got here first,\" the <<person2>><<person>> replies, refusing to budge.",
+    "translation": "",
+    "pos": 2915
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "69_5_3_7|",
+    "original": "<<link [[Ask the student to move|History Robin Move]]>><</link>>",
+    "translation": "",
+    "pos": 3013
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "71_5_3_7|",
+    "original": "<<link [[Find a new seat|History Robin New]]>><</link>>",
+    "translation": "",
+    "pos": 3097
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "74_5_3_7|",
+    "original": "\"Fine,\" the <<person2>><<person>> replies. <<He>> grabs <<his>> bag and stands. You sit beside Robin.",
+    "translation": "",
+    "pos": 3187
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "76_5_3_7|",
+    "original": "<<link [[Next|History Lesson]]>><<endevent>><<set $robinhistory to \"seat\">><</link>>",
+    "translation": "",
+    "pos": 3312
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "81_5_3_7|",
+    "original": "Robin lowers <<his>> head.",
+    "translation": "",
+    "pos": 3461
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "84_5_3_7|",
+    "original": "<<link [[Ask the student to move|History Robin Move]]>><</link>>",
+    "translation": "",
+    "pos": 3510
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "86_5_3_7|",
+    "original": "<<link [[Find a new seat|History Robin New]]>><</link>>",
+    "translation": "",
+    "pos": 3592
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "90_5_3_7|",
+    "original": "<<link [[Next|History Lesson]]>><<endevent>><<set $robinhistory to \"seat\">><</link>>",
+    "translation": "",
+    "pos": 3690
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "96_5_3_7|",
+    "original": "<<link [[Next|History Lesson]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 3827
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "100_5_3_7|",
+    "original": "<<print $withRobin ? \"You and Robin\" : \"You\">> enter the history classroom.",
+    "translation": "",
+    "pos": 3915
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "102_5_3_7|",
+    "original": "Winter cuts off mid-sentence and looks at you.",
+    "translation": "",
+    "pos": 4023
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "105_5_3_7|",
+    "original": "\"Excused tardiness,\" <<he>> says simply, pointing to your seat.",
+    "translation": "",
+    "pos": 4161
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "107_5_3_7|",
+    "original": "<<He>> taps <<his>> watch and points to your seat.",
+    "translation": "",
+    "pos": 4241
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "114_5_3_7|",
+    "original": "Robin looks mortified and quickly sits down.",
+    "translation": "",
+    "pos": 4418
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "117_5_3_7|",
+    "original": "You",
+    "translation": "",
+    "pos": 4478
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "119_5_3_7|",
+    "original": "hang your coat at the back of the class and",
+    "translation": "",
+    "pos": 4609
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "122_5_3_7|",
+    "original": "take your seat as Winter continues.",
+    "translation": "",
+    "pos": 4713
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "125_5_3_7|",
+    "original": "<<link [[Next|History Lesson]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 4765
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "130_5_3_7|",
+    "original": "Winter looks at your bindings. \"Whatever that's about you need to sort it out before you enter my class. <<print $withRobin ? \"You, help your friend out\" : \"Go see the head\">>.\"",
+    "translation": "",
+    "pos": 4919
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "132_5_3_7|",
+    "original": "Robin hastens to undo your bindings for you.<<unbind>><<unset $withRobin>>",
+    "translation": "",
+    "pos": 5120
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "134_5_3_7|",
+    "original": "<<link [[Next|History Lesson]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 5210
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "137_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 5290
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "142_5_3_7|",
+    "original": "Winter looks at your clothing. \"You can't have believed I wouldn't notice. Go see the head.\"",
+    "translation": "",
+    "pos": 5399
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "143_5_3_7|",
+    "original": "<<if $withRobin>><<unset $withRobin>>Robin gives you a mournful look as you leave.<</if>>",
+    "translation": "",
+    "pos": 5494
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "146_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 5598
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "151_5_3_7|",
+    "original": "<<print $withRobin ? \"You and Robin\" : \"You\">> enter the history classroom.",
+    "translation": "",
+    "pos": 5735
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "154_5_3_7|",
+    "original": "You find Robin sitting at <<his>> desk, <<his>> head buried in <<his>> hands. <<He>> raises <<his>> head to look at you. It looks like <<hes>> been crying. \"I don't wanna talk about it,\" <<he>> whispers. \"You can kiss who you like. I just- I thought we-\" <<He>> shakes <<his>> head. \"Never mind. I'm just going to study. You should too.\"",
+    "translation": "",
+    "pos": 5869
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "156_5_3_7|",
+    "original": "<<He>> opens <<his>> history textbook, refusing to engage further. You give up trying to talk to <<him>>.",
+    "translation": "",
+    "pos": 6220
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "162_5_3_7|",
+    "original": "Robin glances at your clothes. \"I don't think Winter will let you attend class like that... do you have a spare uniform in your pool locker? If not, the <<nnpc_title \"Leighton\">> might have one!\" Robin sits down at <<his>> desk and pulls <<his>> textbook out of <<his>> bookbag.",
+    "translation": "",
+    "pos": 6521
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "164_5_3_7|",
+    "original": "Robin sits down at <<his>> desk and pulls <<his>> textbook out of <<his>> bookbag. <<He>> glances over at you. \"Oh, did you forget your bookbag in your locker? You should go grab it! I think the school library sells backpacks too, if you don't have anything to carry your books in.\"",
+    "translation": "",
+    "pos": 6857
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "166_5_3_7|",
+    "original": "\"I wonder what we'll learn in class today?\" Robin muses. <<He>> sits down at <<his>> desk and pulls <<his>> textbook out of <<his>> bookbag. \"I'm going to get a head start on the material now.\"",
+    "translation": "",
+    "pos": 7154
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "170_5_3_7|",
+    "original": "Robin is already here.",
+    "translation": "",
+    "pos": 7500
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "172_5_3_7|",
+    "original": "<<nnpc_He Robin>> avoids looking at you.",
+    "translation": "",
+    "pos": 7559
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "174_5_3_7|",
+    "original": "<<nnpc_He Robin>> stares out the window.",
+    "translation": "",
+    "pos": 7642
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "176_5_3_7|",
+    "original": "<<nnpc_He Robin>> smiles and waves you over.",
+    "translation": "",
+    "pos": 7718
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "178_5_3_7|",
+    "original": "<<nnpc_He Robin>> smiles and waves.",
+    "translation": "",
+    "pos": 7777
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "182_5_3_7|",
+    "original": "No one else has arrived yet.",
+    "translation": "",
+    "pos": 7869
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "185_5_3_7|",
+    "original": "You could use the extra time to study.",
+    "translation": "",
+    "pos": 7918
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "192_5_3_7|",
+    "original": "You don't think you should study while not being properly dressed.",
+    "translation": "",
+    "pos": 8113
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "195_5_3_7|",
+    "original": "<span class=\"blue\">You can't study without your bookbag.</span>",
+    "translation": "",
+    "pos": 8242
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "198_5_3_7|",
+    "original": "<<historyicon>><<link [[Study history|History Classroom Study]]>><</link>><<gstress>><<ghistory>>",
+    "translation": "",
+    "pos": 8325
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "201_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|Hallways]]>><</link>>",
+    "translation": "",
+    "pos": 8439
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "205_5_3_7|",
+    "original": "<<npc Winter>><<person1>>You enter the history classroom. Winter stops speaking abruptly and looks your way. \"Every time you interrupt me, you damage your fellow student's chances. I'll mark you down for detention.\" <<He>> guides you to the door.",
+    "translation": "",
+    "pos": 8574
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "210_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 8872
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "212_5_3_7|",
+    "original": "<<npc Winter>><<person1>>You enter the history classroom. Winter stops speaking abruptly and looks your way. \"And what can I do for you?\" It seems you've interrupted the lesson.",
+    "translation": "",
+    "pos": 8932
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "216_5_3_7|",
+    "original": "<<link [[Apologise|History Classroom Apology]]>><<trauma 1>><<stress 1>><</link>><<gstress>><<gtrauma>>",
+    "translation": "",
+    "pos": 9172
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "219_5_3_7|",
+    "original": "<<link [[Mock|History Classroom Mock]]>><<status 1>><<stress -12>><</link>><<lstress>><<gcool>><<gdelinquency>>",
+    "translation": "",
+    "pos": 9309
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "224_5_3_7|",
+    "original": "You are in the History classroom. It has a stuffy atmosphere.",
+    "translation": "",
+    "pos": 9458
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "232_5_3_7|",
+    "original": "You take your coat at the back of the class.",
+    "translation": "",
+    "pos": 9711
+  },
+  {
+    "passage": "History Classroom",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "238_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave the room (0:01)|Hallways]]>><<pass 1>><</link>>",
+    "translation": "",
+    "pos": 9840
+  },
+  {
+    "passage": "History Lesson",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "248_5_3_7|",
+    "original": "\"Time to prove you've been paying attention,\" Winter says, placing a stack of booklets on <<his>> desk. \"Form an orderly queue. Anyone who begins before I give the go ahead will be disciplined.\"<<gstress>><<stress 6>>",
+    "translation": "",
+    "pos": 203
+  },
+  {
+    "passage": "History Lesson",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "257_5_3_7|",
+    "original": "You return to your desk, and await Winter's signal. \"Begin.\"",
+    "translation": "",
+    "pos": 567
+  },
+  {
+    "passage": "History Lesson",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "264_5_3_7|",
+    "original": "<span @class=\"$earSlime.startedThreats ? 'lewd' : 'lblue'\">You feel the slime in your head command you to cheat in the exam.</span> It promises rewards if you comply<<if $earSlime.startedThreats>>, and threatens consequences if you do not<</if>>.",
+    "translation": "",
+    "pos": 864
+  },
+  {
+    "passage": "History Lesson",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "266_5_3_7|",
+    "original": "<<link [[Obey|History Exam]]>><<set $phase to 3>><<corruption 1>><<pain -4>><<stress -6>><<trauma -12>><<sub 2>><</link>><<gcorruption>><<lpain>><<lltrauma>><<lstress>>",
+    "translation": "",
+    "pos": 1124
+  },
+  {
+    "passage": "History Lesson",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "269_5_3_7|",
+    "original": "<<link [[Defy|History Exam]]>><<set $phase to 5>><<corruption -1>><<pain 8>><<stress 6>><<trauma 6>><<def 1>><</link>><<lcorruption>><<ggpain>><<ggtrauma>><<ggstress>>",
+    "translation": "",
+    "pos": 1337
+  },
+  {
+    "passage": "History Lesson",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "271_5_3_7|",
+    "original": "<<link [[Ignore|History Exam]]>><<set $phase to 4>><</link>>",
+    "translation": "",
+    "pos": 1519
+  },
+  {
+    "passage": "History Lesson",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "275_5_3_7|",
+    "original": "<<link [[Focus|History Exam]]>><<stress 6>><<set $phase to 0>><<set $exam_chance += 5>><</link>><<gstress>><<passPercent 5>>",
+    "translation": "",
+    "pos": 1609
+  },
+  {
+    "passage": "History Lesson",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "277_5_3_7|",
+    "original": "<<link [[Try to relax|History Exam]]>><<set $phase to 1>><</link>>",
+    "translation": "",
+    "pos": 1743
+  },
+  {
+    "passage": "History Lesson",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "279_5_3_7|",
+    "original": "<<link [[Cheat|History Exam]]>><<set $phase to 2>><</link>><<skulduggerydifficulty>>",
+    "translation": "",
+    "pos": 1819
+  },
+  {
+    "passage": "History Lesson",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "284_5_3_7|",
+    "original": "The history lesson begins. How do you want to conduct yourself?",
+    "translation": "",
+    "pos": 1956
+  },
+  {
+    "passage": "History Lesson",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "288_5_3_7|",
+    "original": "The history lesson continues. How do you want to conduct yourself?",
+    "translation": "",
+    "pos": 2061
+  },
+  {
+    "passage": "History Lesson",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "296_5_3_7|",
+    "original": "<<historyicon>><<link [[Focus on the lesson|History Lesson Focus]]>><</link>><<gstress>><<ghistory>>",
+    "translation": "",
+    "pos": 2256
+  },
+  {
+    "passage": "History Lesson",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "298_5_3_7|",
+    "original": "<<socialiseicon>><<link [[Socialise with classmates|History Lesson Socialise]]>><</link>><<gcool>><<ltrauma>><<lstress>><<gharass>>",
+    "translation": "",
+    "pos": 2364
+  },
+  {
+    "passage": "History Lesson",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "300_5_3_7|",
+    "original": "<<daydreamicon>><<link [[Daydream|History Lesson Daydream]]>><</link>><<lstress>> <<lharass>>",
+    "translation": "",
+    "pos": 2503
+  },
+  {
+    "passage": "History Lesson",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "303_5_3_7|",
+    "original": "<<bedicon \"zzz\">><<link [[Sleep at your desk|History Lesson Sleep]]>><</link>><<ltiredness>>",
+    "translation": "",
+    "pos": 2654
+  },
+  {
+    "passage": "History Lesson",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "309_5_3_7|",
+    "original": "<<skinicon \"masturbate\">><<link [[Masturbate|History Lesson Masturbate Robin]]>><</link>>",
+    "translation": "",
+    "pos": 2872
+  },
+  {
+    "passage": "History Lesson",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "312_5_3_7|",
+    "original": "<<skinicon \"masturbate\">><<link [[Masturbate|History Lesson Masturbate]]>><<set $masturbationstart to 1>><</link>><<exhibitionist5>>",
+    "translation": "",
+    "pos": 2987
+  },
+  {
+    "passage": "History Lesson",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "316_5_3_7|",
+    "original": "<<skinicon \"masturbate\">><<link [[Masturbate|History Lesson Masturbate]]>><<set $masturbationstart to 1>><</link>><<exhibitionist4>>",
+    "translation": "",
+    "pos": 3154
+  },
+  {
+    "passage": "History Classroom Apology",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "325_5_3_7|",
+    "original": "Embarrassed, you apologise and leave.",
+    "translation": "",
+    "pos": 80
+  },
+  {
+    "passage": "History Classroom Apology",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "328_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 128
+  },
+  {
+    "passage": "History Classroom Mock",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "333_5_3_7|",
+    "original": "You mock the teacher. \"Sorry for interrupting <<sir>>, I got you muddled with the skeleton in the science room.\" Laughter erupts among the seated students.",
+    "translation": "",
+    "pos": 80
+  },
+  {
+    "passage": "History Classroom Mock",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "336_5_3_7|",
+    "original": "Winter sighs. \"Is this really what passes for humour today?\" <<He>> guides you to the exit and shuts the door behind you.",
+    "translation": "",
+    "pos": 246
+  },
+  {
+    "passage": "History Classroom Mock",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "340_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 436
+  },
+  {
+    "passage": "History Lesson Focus",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "345_5_3_7|",
+    "original": "You focus on listening to the teacher and studying the material.",
+    "translation": "",
+    "pos": 80
+  },
+  {
+    "passage": "History Lesson Focus",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "347_5_3_7|",
+    "original": "Robin is eager to help.",
+    "translation": "",
+    "pos": 177
+  },
+  {
+    "passage": "History Lesson Focus",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "349_5_3_7|",
+    "original": "It's hard going, but you think you're making progress.",
+    "translation": "",
+    "pos": 209
+  },
+  {
+    "passage": "History Lesson Socialise",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "373_5_3_7|",
+    "original": "You try to strike up a conversation, but <<hes>> busy struggling to focus on the lesson instead.",
+    "translation": "",
+    "pos": 262
+  },
+  {
+    "passage": "History Lesson Socialise",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "375_5_3_7|",
+    "original": "You try to strike up a conversation with Robin, but <<hes>> trying <<his>> best not to fall asleep.",
+    "translation": "",
+    "pos": 392
+  },
+  {
+    "passage": "History Lesson Socialise",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "377_5_3_7|",
+    "original": "You try to strike up a conversation with Robin. <<He>> stays focused on the lesson, but nudges your hand beneath the desk. You wrap your fingers around <<his>>, and <<he>> squeezes.",
+    "translation": "",
+    "pos": 525
+  },
+  {
+    "passage": "History Lesson Socialise",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "379_5_3_7|",
+    "original": "You try to strike up a conversation with Robin. <<He>> nods and occasionally smiles at you, but <<hes>> more focused on the lesson.",
+    "translation": "",
+    "pos": 745
+  },
+  {
+    "passage": "History Lesson Socialise",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "381_5_3_7|",
+    "original": "You try to strike up a conversation with Robin. <<He>> nods as you speak, but <<hes>> more focused on the lesson.",
+    "translation": "",
+    "pos": 889
+  },
+  {
+    "passage": "History Lesson Socialise",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "386_5_3_7|",
+    "original": "You do the bare minimum of work, focusing instead on trying to endear yourself to your classmates. You soon become the centre of attention.",
+    "translation": "",
+    "pos": 1074
+  },
+  {
+    "passage": "History Lesson Socialise",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "388_5_3_7|",
+    "original": "You do the bare minimum of work, focusing instead on trying to endear yourself to your classmates.",
+    "translation": "",
+    "pos": 1253
+  },
+  {
+    "passage": "History Lesson Socialise",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "390_5_3_7|",
+    "original": "You do the bare minimum of work, focusing instead on trying to endear yourself to your classmates. Most avoid interacting with you.",
+    "translation": "",
+    "pos": 1364
+  },
+  {
+    "passage": "History Lesson Daydream",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "415_5_3_7|",
+    "original": "You keep to yourself, afraid that one wrong move will result in the whole class molesting you.",
+    "translation": "",
+    "pos": 137
+  },
+  {
+    "passage": "History Lesson Daydream",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "417_5_3_7|",
+    "original": "You focus on your own thoughts, trying to keep the creeping anxiety at bay.",
+    "translation": "",
+    "pos": 280
+  },
+  {
+    "passage": "History Lesson Daydream",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "419_5_3_7|",
+    "original": "You don't really pay attention to the lesson, instead idly staring out the window and thinking about what you'll do after school.",
+    "translation": "",
+    "pos": 366
+  },
+  {
+    "passage": "History Lesson Sleep",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "436_5_3_7|",
+    "original": "You rest your head on the desk while Winter <<print either(\"elaborates on the significance of 1912\", \"drones on about something\", \"talks about the history of the town\", \"goes into detail on periodic garb\", \"lectures at the front of the room\")>>. Your eyes soon close, just for a moment, before you open them again. You struggle to stay awake, but the desk is just too comfy.",
+    "translation": "",
+    "pos": 80
+  },
+  {
+    "passage": "History Classroom Study",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "453_5_3_7|",
+    "original": "You sit beside Robin and read a history textbook.",
+    "translation": "",
+    "pos": 188
+  },
+  {
+    "passage": "History Classroom Study",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "455_5_3_7|",
+    "original": "You take a seat and read a history textbook.",
+    "translation": "",
+    "pos": 248
+  },
+  {
+    "passage": "History Classroom Study",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "457_5_3_7|",
+    "original": "Robin is the next to arrive, and takes the seat beside you.",
+    "translation": "",
+    "pos": 368
+  },
+  {
+    "passage": "History Classroom Study",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "463_5_3_7|",
+    "original": "<<npc Winter>><<person1>>The classroom soon fills and Winter arrives to begin the lesson.",
+    "translation": "",
+    "pos": 489
+  },
+  {
+    "passage": "History Classroom Study",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "467_5_3_7|",
+    "original": "<<link [[Next|History Lesson]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 755
+  },
+  {
+    "passage": "History Classroom Study",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "470_5_3_7|",
+    "original": "Winter looks at your bound limbs. \"You need to sort that out before attending my class. Go see the head.\"",
+    "translation": "",
+    "pos": 894
+  },
+  {
+    "passage": "History Classroom Study",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "473_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1012
+  },
+  {
+    "passage": "History Classroom Study",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "476_5_3_7|",
+    "original": "Winter looks at your clothing. \"You can't have believed I wouldn't notice. Go see the head.\"",
+    "translation": "",
+    "pos": 1080
+  },
+  {
+    "passage": "History Classroom Study",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "479_5_3_7|",
+    "original": "<<link [[Next|Hallways]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1185
+  },
+  {
+    "passage": "History Robin Move",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "498_5_3_7|",
+    "original": "\"E-excuse me,\" you say. \"I was going to sit there. C-can you move?\"",
+    "translation": "",
+    "pos": 48
+  },
+  {
+    "passage": "History Robin Move",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "500_5_3_7|",
+    "original": "\"I'm sitting there,\" you say.",
+    "translation": "",
+    "pos": 157
+  },
+  {
+    "passage": "History Robin Move",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "502_5_3_7|",
+    "original": "\"I was going to sit there,\" you say. \"Do you mind moving?\"",
+    "translation": "",
+    "pos": 197
+  },
+  {
+    "passage": "History Robin Move",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "507_5_3_7|",
+    "original": "\"Nope,\" the <<person2>><<person>> sneers. \"What you gonna do about it?\"",
+    "translation": "",
+    "pos": 311
+  },
+  {
+    "passage": "History Robin Move",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "509_5_3_7|",
+    "original": "Your fists clench.",
+    "translation": "",
+    "pos": 413
+  },
+  {
+    "passage": "History Robin Move",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "511_5_3_7|",
+    "original": "Other students turn to watch.",
+    "translation": "",
+    "pos": 442
+  },
+  {
+    "passage": "History Robin Move",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "514_5_3_7|",
+    "original": "<<link [[Find another seat|History Robin New]]>><</link>>",
+    "translation": "",
+    "pos": 484
+  },
+  {
+    "passage": "History Robin Move",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "517_5_3_7|",
+    "original": "<<link [[Beg|History Robin Beg]]>><<sub 1>><</link>><<submissivetext>>",
+    "translation": "",
+    "pos": 579
+  },
+  {
+    "passage": "History Robin Move",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "521_5_3_7|",
+    "original": "<<link [[Get physical|History Robin Fight]]>><<def 1>><</link>><<defianttext>>",
+    "translation": "",
+    "pos": 696
+  },
+  {
+    "passage": "History Robin Move",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "525_5_3_7|",
+    "original": "The <<person2>><<person>> nods. \"Sure.\" <<He>> grabs <<his>> bag and looks for another seat.",
+    "translation": "",
+    "pos": 801
+  },
+  {
+    "passage": "History Robin Move",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "527_5_3_7|",
+    "original": "<<link [[Next|History Lesson]]>><<set $robinhistory to \"seat\">><<endevent>><</link>>",
+    "translation": "",
+    "pos": 905
+  },
+  {
+    "passage": "History Robin New",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "534_5_3_7|",
+    "original": "You find another seat. Robin gives you a sad wave from the other side of the room once you're settled.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "History Robin New",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "537_5_3_7|",
+    "original": "<<link [[Next|History Lesson]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 126
+  },
+  {
+    "passage": "History Robin Beg",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "543_5_3_7|",
+    "original": "You grasp the <<person2>><<persons>> shirt and nearly drop to your knees. \"P-please,\" you say, pouring everything into your words and stance. \"I have to sit by Robin.\"",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "History Robin Beg",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "546_5_3_7|",
+    "original": "The <<person>> shifts in discomfort. \"Fine,\" <<he>> says. \"Get off me.\" <<He>> grabs <<his>> bag and finds another seat.",
+    "translation": "",
+    "pos": 191
+  },
+  {
+    "passage": "History Robin Beg",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "549_5_3_7|",
+    "original": "Robin looks concerned as you sit.",
+    "translation": "",
+    "pos": 322
+  },
+  {
+    "passage": "History Robin Beg",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "552_5_3_7|",
+    "original": "<<link [[Next|History Lesson]]>><<set $robinhistory to \"seat\">><<endevent>><</link>>",
+    "translation": "",
+    "pos": 366
+  },
+  {
+    "passage": "History Robin Fight",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "558_5_3_7|",
+    "original": "You grasp the <<persons>> collar, and pull <<him>> closer. <<He>> tries to steady <<himself>> against <<his>> desk, but loses <<his>> grip.",
+    "translation": "",
+    "pos": 13
+  },
+  {
+    "passage": "History Robin Fight",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "560_5_3_7|",
+    "original": "\"Get off my seat,\" you say. You release <<him>>, and <<he>> almost falls to the carpet.",
+    "translation": "",
+    "pos": 162
+  },
+  {
+    "passage": "History Robin Fight",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "562_5_3_7|",
+    "original": "\"F-fine,\" <<he>> says while grabbing <<his>> bag. \"You're crazy.\"",
+    "translation": "",
+    "pos": 259
+  },
+  {
+    "passage": "History Robin Fight",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "564_5_3_7|",
+    "original": "<<person1>>Robin gives you a concerned look as you sit beside <<him>>.",
+    "translation": "",
+    "pos": 334
+  },
+  {
+    "passage": "History Robin Fight",
+    "filepath": "overworld-town/loc-school/classes/history.twee",
+    "key": "567_5_3_7|",
+    "original": "<<link [[Next|History Lesson]]>><<set $robinhistory to \"seat\">><<endevent>><</link>>",
+    "translation": "",
+    "pos": 415
+  }
+]

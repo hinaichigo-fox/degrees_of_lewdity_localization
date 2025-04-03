@@ -1,0 +1,1050 @@
+[
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "11_5_3_7|",
+    "original": "const previousItem = $previousClothes[slot];",
+    "translation": "",
+    "pos": 357
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "13_5_3_7|",
+    "original": "if ([\"upper\", \"under_upper\"].includes(slot)) _justChangedUpperClothes to true;",
+    "translation": "",
+    "pos": 552
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "14_5_3_7|",
+    "original": "if ([\"lower\", \"under_lower\"].includes(slot)) _justChangedLowerClothes to true;",
+    "translation": "",
+    "pos": 635
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "15_5_3_7|",
+    "original": "_justChangedClothes to true;",
+    "translation": "",
+    "pos": 718
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "28_5_3_7|",
+    "original": "<<if _args[0] is \"f\">>",
+    "translation": "",
+    "pos": 1271
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "53_5_3_7|",
+    "original": "It's currently empty, though you can hear activity in the pool proper. <<if $poolroomstate is \"own\">>Your lesson is in session.<</if>>",
+    "translation": "",
+    "pos": 2653
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "60_5_3_7|",
+    "original": "It's empty.",
+    "translation": "",
+    "pos": 2941
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "64_5_3_7|",
+    "original": "<span class=\"blue\">You can hear the sounds of people talking and water splashing coming from the pool.</span>",
+    "translation": "",
+    "pos": 3107
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "67_5_3_7|",
+    "original": "<<ind>><<link [[Peek inside|School Night Pool Party Peek]]>><</link>>",
+    "translation": "",
+    "pos": 3287
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "77_5_3_7|",
+    "original": "<<swimmingicon>><<link [[Enter the pool room|School Pool]]>><<set $lastChangingRoom to $passage>><<set $justEntered to true>><<unset $previousClothes>><</link>><<if $swimall isnot 1>><<gdelinquency>><</if>>",
+    "translation": "",
+    "pos": 3572
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "79_5_3_7|",
+    "original": "<span class=\"pink\">You can't enter the pool while so exposed!</span>",
+    "translation": "",
+    "pos": 3862
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "81_5_3_7|",
+    "original": "<span class=\"purple\">You shouldn't provoke them further.</span>",
+    "translation": "",
+    "pos": 4013
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "83_5_3_7|",
+    "original": "<<swimmingicon>><<link [[Enter the pool room|School Pool]]>><<set $lastChangingRoom to $passage>><<set $justEntered to true>><<unset $previousClothes>><</link>>",
+    "translation": "",
+    "pos": 4089
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "87_5_3_7|",
+    "original": "<span class=\"red\">The slime in your ear refuses to allow you to leave with <<underwearTypeText>> on.</span>",
+    "translation": "",
+    "pos": 4362
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "89_5_3_7|",
+    "original": "<span class=\"pink\">You can't go out while so exposed!</span>",
+    "translation": "",
+    "pos": 4525
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "91_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|School Pool Entrance Exhibitionism]]>><<unset $previousClothes>><</link>>",
+    "translation": "",
+    "pos": 4615
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "93_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|School Pool Entrance]]>>",
+    "translation": "",
+    "pos": 4730
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "98_5_3_7|",
+    "original": "<<lockericon>><<link [[Locker|School Pool Wardrobe]]>><</link>>",
+    "translation": "",
+    "pos": 5013
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "104_5_3_7|",
+    "original": "<<link [[Next|School Boy Changing Room]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 5173
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "106_5_3_7|",
+    "original": "<<link [[Next|School Girl Changing Room]]>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 5249
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "114_5_3_7|",
+    "original": "<span class=\"green\">You feel good about that.</span><<lstress>><<stress -3>><<set $daily.school.changingRoomStressRelief to true>>",
+    "translation": "",
+    "pos": 5586
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "116_5_3_7|",
+    "original": "You feel good about that.",
+    "translation": "",
+    "pos": 5732
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "119_5_3_7|",
+    "original": "You feel naughty.",
+    "translation": "",
+    "pos": 5828
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "124_5_3_7|",
+    "original": "<<case 1>>Even alone, being in the $changingRoomGender' changing room makes you <span class=\"red\">uncomfortable.</span>",
+    "translation": "",
+    "pos": 5919
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "125_5_3_7|",
+    "original": "<<case 2>>Even so, being in the $changingRoomGender' changing room makes you <span class=\"red\">uncomfortable.</span>",
+    "translation": "",
+    "pos": 6042
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "126_5_3_7|",
+    "original": "<<default>>Being in the $changingRoomGender' changing room makes you <span class=\"red\">uncomfortable.</span>",
+    "translation": "",
+    "pos": 6162
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "131_5_3_7|",
+    "original": "<<case 1>>Even alone, being here makes you feel naughty, as well as worried you'll be caught.",
+    "translation": "",
+    "pos": 6420
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "132_5_3_7|",
+    "original": "<<case 2>>Even so, being here makes you feel naughty.",
+    "translation": "",
+    "pos": 6517
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "142_5_3_7|",
+    "original": "<<if $poolroomstate is \"own\" and $worn.under_lower.name is \"naked\" and ($worn.lower.name is \"naked\" or $worn.lower.name.includes(\"towel\"))>>",
+    "translation": "",
+    "pos": 6972
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "143_5_3_7|",
+    "original": "<<if $worn.lower.name.includes(\"towel\")>>",
+    "translation": "",
+    "pos": 7115
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "153_5_3_7|",
+    "original": "One of your classmates yanks your towel off your hips while your hands are out of the way, exposing your <<genitals>> in front of your classmates.",
+    "translation": "",
+    "pos": 7584
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "156_5_3_7|",
+    "original": "The changing room erupts into laughter and a few students make crude comments about your <<EZbig>><<if _chastity>> but _chastity<</if>> <<EZpenis>> as you rush to cover yourself.",
+    "translation": "",
+    "pos": 7792
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "158_5_3_7|",
+    "original": "The changing room erupts into laughter at your newly exposed <<EZsmall>><<if _chastity>> and _chastity<</if>> <<genitals>>. <<Penisremarkquote>> says one of the boys as you clasp your hands over your <<EZsmall>> <<EZpenis>> in shame.",
+    "translation": "",
+    "pos": 8017
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "161_5_3_7|",
+    "original": "The changing room erupts into laughter and a few students make crude comments about your<<if _chastity>> _chastity<</if>> <<EZpenis>> as you rush to cover yourself.",
+    "translation": "",
+    "pos": 8300
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "176_5_3_7|",
+    "original": "One of your classmates grabs both of your arms and tugs them behind your back as he yells for everyone to look.",
+    "translation": "",
+    "pos": 9063
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "178_5_3_7|",
+    "original": "The changing room erupts into laughter and a few students make crude comments about your <<EZbig>><<if _chastity>> but _chastity<</if>> <<genitals>>.",
+    "translation": "",
+    "pos": 9216
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "181_5_3_7|",
+    "original": "Having had their fun, the boy lets you go, and the room goes back to how it was. You still hear the odd whisper about your unusual size mixed in with the general murmuring between students.",
+    "translation": "",
+    "pos": 9388
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "183_5_3_7|",
+    "original": "The changing room erupts into laughter at your newly exposed <<EZsmall>> <<genitals>>.",
+    "translation": "",
+    "pos": 9624
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "186_5_3_7|",
+    "original": "<<Penisremarkquote>> says one of the boys, before your arms are released and you quickly clasp your hands over your <<EZsmall>><<if _chastity>> and _chastity<</if>> <<EZpenis>> in shame.",
+    "translation": "",
+    "pos": 9733
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "189_5_3_7|",
+    "original": "The changing room erupts into laughter and a few students make crude comments about your <<genitals>>.",
+    "translation": "",
+    "pos": 9969
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "192_5_3_7|",
+    "original": "Having had their fun, the boy lets you go, and the room goes back to how it was.",
+    "translation": "",
+    "pos": 10094
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "197_5_3_7|",
+    "original": "One of the boys whips your naked backside with a towel, and the changing room erupts into laughter. \"If you don't want us using your butt for target practise you should <<print [\"cover it\", \"get dressed\", \"put something over it\", \"put something on\", \"put your clothes on\"].pluck()>>\" says the boy.",
+    "translation": "",
+    "pos": 10272
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "204_5_3_7|",
+    "original": "A couple of the more confident boys are comparing their penis sizes. No one pays you any mind.",
+    "translation": "",
+    "pos": 10701
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "206_5_3_7|",
+    "original": "\"Dude, nice cock!\" You hear one of the boys across the room compliment a peer. \"Who do you think is bigger?\" He and his friend <<= either(\"hold their shafts next to each other and compare lengths\", \"boast about who's bigger\", \"brag about how they can satisfy their partners\")>>. Eventually they put on their <<if Time.minute gte 45>>clothes and leave the changing room<<else>>swim trunks and head into the pool room<</if>>.",
+    "translation": "",
+    "pos": 10809
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "211_5_3_7|",
+    "original": "One of the guys asks around the room to see if anyone has an extra pair of underwear. He claims that someone broke into his locker and took his. No one offers to help, leaving him to nervously put his shorts on and leave the locker room.",
+    "translation": "",
+    "pos": 11366
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "215_5_3_7|",
+    "original": "One of the larger boys rips a towel away from one of your smaller classmates. The bully <<= either(\"twists it into a rattail and whips it at the boy's naked body\", \"holds the towel over his head as he mocks the boy's size\")>>. The smaller guy's almost in tears by the time he returns the towel. Thankfully, no one interrupts you as you get changed.",
+    "translation": "",
+    "pos": 11691
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "219_5_3_7|",
+    "original": "On the other side of the room, a group of popular boys start picking on a nerdy boy. They give him a massive wedgie, lifting him off the ground by his underwear. The fabric eventually tears, leaving the nerdy boy mortified and naked on the cold floor as the others leave the locker room. Thankfully, they leave you alone.",
+    "translation": "",
+    "pos": 12145
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "225_5_3_7|",
+    "original": "One of the boys changing nearby looks you over and teases, \"If your pecs get any bigger, we may need to make you use the girls' locker room.\" The others chuckle and smirk.",
+    "translation": "",
+    "pos": 12596
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "227_5_3_7|",
+    "original": "They do not know you are actually a girl. <<if _uncomfortable>><<gstress>><<stress 1>><</if>>",
+    "translation": "",
+    "pos": 12847
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "235_5_3_7|",
+    "original": "You feel a hand grope your <<breasts>> from behind. Spinning in place, you see a <<person>> with a grin on his face.",
+    "translation": "",
+    "pos": 13129
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "238_5_3_7|",
+    "original": "\"Damn, you're huge! I'd love to make those boobs jiggle some time.\"",
+    "translation": "",
+    "pos": 13304
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "240_5_3_7|",
+    "original": "\"Wow, you have a big breasts! I'd love to see how you work it some time.\"",
+    "translation": "",
+    "pos": 13417
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "242_5_3_7|",
+    "original": "\"Nice breasts. I'd love to try them out some time!\"",
+    "translation": "",
+    "pos": 13509
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "244_5_3_7|",
+    "original": "He gives you a wink",
+    "translation": "",
+    "pos": 13577
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "247_5_3_7|",
+    "original": "just as you're pushed over the edge.",
+    "translation": "",
+    "pos": 13667
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "251_5_3_7|",
+    "original": "\"Someone's clearly pent up,\" he laughs.",
+    "translation": "",
+    "pos": 13757
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "253_5_3_7|",
+    "original": "\"You should get yourself a stroker from the adult shop, those are fun.\"",
+    "translation": "",
+    "pos": 13848
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "255_5_3_7|",
+    "original": "\"I'm sure you could find others to help you out.\"",
+    "translation": "",
+    "pos": 13940
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "258_5_3_7|",
+    "original": "and walks away, leaving you feeling aroused. <<garousal>>",
+    "translation": "",
+    "pos": 14052
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "260_5_3_7|",
+    "original": "and walks away, leaving you feeling flustered. <<garousal>>",
+    "translation": "",
+    "pos": 14128
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "267_5_3_7|",
+    "original": "While changing one of your nearby classmates gestures towards <<if _bottomless>>your penis<<else>>the bulge in your <<exposedlower>><</if>>.",
+    "translation": "",
+    "pos": 14325
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "270_5_3_7|",
+    "original": "\"I bet you get all the attention!\"",
+    "translation": "",
+    "pos": 14505
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "272_5_3_7|",
+    "original": "\"Looks like you've got a decent package. Does it get a lot of action?\"",
+    "translation": "",
+    "pos": 14582
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "274_5_3_7|",
+    "original": "\"I don't think you're going to impress anyone with that little thing.\"",
+    "translation": "",
+    "pos": 14669
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "278_5_3_7|",
+    "original": "You give a sheepish response and do your best to end the conversation as quickly as possible. <<stress 5>><<gstress>>",
+    "translation": "",
+    "pos": 14792
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "280_5_3_7|",
+    "original": "You give a polite response and make some casual small talk while you finish getting changed.",
+    "translation": "",
+    "pos": 14926
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "289_5_3_7|",
+    "original": "As you walk around the changing room, a <<person>> just in front of you suddenly stops and bends over, causing you to bump into his ass.",
+    "translation": "",
+    "pos": 15225
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "291_5_3_7|",
+    "original": "While bending down towards your locker, a <<person>> approaches you from behind and grabs your hips. He grinds his crotch against your ass for a moment before letting go.",
+    "translation": "",
+    "pos": 15378
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "296_5_3_7|",
+    "original": "Before he can say anything, you're pushed over the edge. <<garousal>>",
+    "translation": "",
+    "pos": 15645
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "299_5_3_7|",
+    "original": "He stares at you for a moment before walking away.",
+    "translation": "",
+    "pos": 15747
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "301_5_3_7|",
+    "original": "\"Oops, sorry!\" He pauses, grinding his ass against your crotch. \"Hey, <<print either(\"are you all locked up under there\", \"you got a tiny dick or what\")>>?\" he says playfully. He gives you a wink, then walks away. <<garousal>>",
+    "translation": "",
+    "pos": 15905
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "303_5_3_7|",
+    "original": "\"Oops, sorry, I didn't see you there. I'm so clumsy,\" he says playfully. You suspect it wasn't an accident. <<garousal>>",
+    "translation": "",
+    "pos": 16148
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "322_5_3_7|",
+    "original": "A couple of the more confident girls are comparing their breast sizes. No one pays you any mind.",
+    "translation": "",
+    "pos": 16842
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "324_5_3_7|",
+    "original": "\"Dang, you've got a nice pair!\" You hear one of the girls across the room compliment a peer. \"How do you think they compare to mine?\" She cups her breasts, pushing them up. She and her friend <<= either(\"squish their chests together and giggle\", \"argue good-naturedly over who's bigger\", \"admire each other's breasts\")>>. Eventually, they put on their <<if Time.minute gte 45>>clothes and leave the changing room<<else>>swimsuits and head into the pool room<</if>>.",
+    "translation": "",
+    "pos": 16942
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "329_5_3_7|",
+    "original": "One of the girls asks around the room to see if anyone has an extra pair of panties. She claims that someone broke into her locker and took hers. No one offers to help, leaving her to nervously put her skirt on and leave the locker room.",
+    "translation": "",
+    "pos": 17544
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "334_5_3_7|",
+    "original": "On the other side of the room, a group of popular girls giggles as they cut holes in a nerdy girl's swimsuit. Their unaware victim pulls on her swimsuit, only to squeak in embarrassment when she realises that her nipples are exposed. The popular girls burst into laughter and exit the locker room, leaving the mortified girl covering her breasts. Thankfully, they leave you alone.",
+    "translation": "",
+    "pos": 17899
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "340_5_3_7|",
+    "original": "\"Ooh, those are pretty,\" one of your classmates says, running a finger along the waistband. \"<<= either(\"I'll have to pick some up myself\", \"I bet they'd look even better on my bedroom floor\", \"I bet what's underneath is even nicer\")>>.\" She gives you a suggestive look, but leaves you alone to get changed. <<arousal 100>><<garousal>><<if _uncomfortable>><<stress 5>><</if>>",
+    "translation": "",
+    "pos": 18528
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "345_5_3_7|",
+    "original": "One of the girls changing nearby looks you over and teases, \"If your breasts get any smaller, we may need to make you use the boys' locker room.\" The others giggle and smirk.",
+    "translation": "",
+    "pos": 19023
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "347_5_3_7|",
+    "original": "They do not know you are actually a boy. <<if _uncomfortable>><<gstress>><<stress 1>><</if>>",
+    "translation": "",
+    "pos": 19277
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "353_5_3_7|",
+    "original": "<<if $player.breastsize lte 2 and $worn.over_upper.name is \"naked\" and $worn.upper.name is \"naked\" and $worn.under_upper.name.includes(\"bra\")>>",
+    "translation": "",
+    "pos": 19453
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "355_5_3_7|",
+    "original": "One of the girls changing nearby pulls and snaps your bra strap. \"Do you even need one of these with your small boobs?\" She laughs as she leaves to get changed.",
+    "translation": "",
+    "pos": 19652
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "357_5_3_7|",
+    "original": "They do not know you are actually a boy. <<if _uncomfortable>><<gstress>><<stress 1>><</if>>",
+    "translation": "",
+    "pos": 19892
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "366_5_3_7|",
+    "original": "You feel a hand grope your <<bottom>> from behind. Spinning in place, you see a <<person>> with a grin on her face.",
+    "translation": "",
+    "pos": 20179
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "369_5_3_7|",
+    "original": "\"Damn, you're thick! I'd love to make that ass jiggle some time.\"",
+    "translation": "",
+    "pos": 20350
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "371_5_3_7|",
+    "original": "\"Wow, you have a tight ass! I'd love to see how you work it some time.\"",
+    "translation": "",
+    "pos": 20459
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "373_5_3_7|",
+    "original": "\"Nice ass. I'd love to try it out some time!\"",
+    "translation": "",
+    "pos": 20547
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "375_5_3_7|",
+    "original": "She gives you a wink",
+    "translation": "",
+    "pos": 20607
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "378_5_3_7|",
+    "original": "just as you're pushed over the edge.",
+    "translation": "",
+    "pos": 20695
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "382_5_3_7|",
+    "original": "\"Someone's clearly pent up,\" she laughs.",
+    "translation": "",
+    "pos": 20781
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "384_5_3_7|",
+    "original": "\"You should get yourself a dildo from the adult shop, those are fun.\"",
+    "translation": "",
+    "pos": 20871
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "386_5_3_7|",
+    "original": "\"I'm sure you could find others to help you out.\"",
+    "translation": "",
+    "pos": 20959
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "389_5_3_7|",
+    "original": "and walks away, leaving you feeling aroused. <<garousal>>",
+    "translation": "",
+    "pos": 21068
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "391_5_3_7|",
+    "original": "and walks away, leaving you feeling flustered. <<garousal>>",
+    "translation": "",
+    "pos": 21142
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "398_5_3_7|",
+    "original": "As you walk around the changing room, a <<person>> walking just a few paces in front of you suddenly stops and bends over, causing you to bump into her ass.",
+    "translation": "",
+    "pos": 21356
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "402_5_3_7|",
+    "original": "Before she can say anything, you're pushed over the edge. <<garousal>>",
+    "translation": "",
+    "pos": 21598
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "405_5_3_7|",
+    "original": "She stares at you for a moment before walking away.",
+    "translation": "",
+    "pos": 21701
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "407_5_3_7|",
+    "original": "\"Oops, sorry!\" She pauses, grinding her ass against your crotch. \"Hey, what are you hiding under there?\" she says playfully. She gives you a wink, then walks away. <<garousal>>",
+    "translation": "",
+    "pos": 21871
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "409_5_3_7|",
+    "original": "\"Oops, sorry, I didn't see you there. I'm so clumsy,\" she says playfully. You suspect it wasn't an accident. <<garousal>>",
+    "translation": "",
+    "pos": 22064
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "426_5_3_7|",
+    "original": "<span class=\"lblue\">An idea strikes you.</span> Perhaps you could distract from your reputation as a crossdresser.",
+    "translation": "",
+    "pos": 22593
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "428_5_3_7|",
+    "original": "<<link [[Swap the boys' and girls' clothes (0:20)|School Changing Swap]]>><<schoolrep crossdress -1>><<pass 20>><<detention 12>><<set $weekly.schoolPoolSwap to true>><</link>><<ggdelinquency>>",
+    "translation": "",
+    "pos": 22719
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "431_5_3_7|",
+    "original": "<span class=\"lblue\">An idea strikes you.</span> Perhaps you could distract from your reputation as a crossdresser.",
+    "translation": "",
+    "pos": 22934
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "433_5_3_7|",
+    "original": "You peek into the pool. The lesson will end soon. You'd need more time to prepare.",
+    "translation": "",
+    "pos": 23060
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "442_5_3_7|",
+    "original": "<span class=\"blue\">Mason keeps poking <<nnpc_his Mason>> head in. You won't be able to raid any more lockers today.</span>",
+    "translation": "",
+    "pos": 23271
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "445_5_3_7|",
+    "original": "<span class=\"clothes-white\"><<icon \"clothes/thong.png\">></span><<link [[Raid a locker (0:10)|School Changing Room Locker]]>><<pass 10>><<arousal 600>><</link>><<garousal>>",
+    "translation": "",
+    "pos": 23437
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "448_5_3_7|",
+    "original": "<span class=\"blue\">The lesson will be over soon. There's no time to raid a locker.</span>",
+    "translation": "",
+    "pos": 23631
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "463_5_3_7|",
+    "original": "<span class=\"purple\">",
+    "translation": "",
+    "pos": 23964
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "466_5_3_7|",
+    "original": "You gather your clothing from the bench and carefully put them on.",
+    "translation": "",
+    "pos": 24033
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "468_5_3_7|",
+    "original": "You put away the clothing into your locker.",
+    "translation": "",
+    "pos": 24118
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "470_5_3_7|",
+    "original": "You change into your <<print $wearoutfittext.toLowerCase()>>.",
+    "translation": "",
+    "pos": 24181
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "481_5_3_7|",
+    "original": "Your clothes are gathered in a neat pile next to the lockers.",
+    "translation": "",
+    "pos": 24487
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "484_5_3_7|",
+    "original": "Your _clothes[0].name and _clothes[1].name are lying on the bench next to the lockers.",
+    "translation": "",
+    "pos": 24597
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "487_5_3_7|",
+    "original": "Your _clothes[0].name is lying on the bench next to the lockers.",
+    "translation": "",
+    "pos": 24709
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "490_5_3_7|",
+    "original": "<<clothingicon _clothes[0] _clothes[0].slot>><<link [[Put on|$passage]]>><<storeload _args[0]>><<set $eventskip to 1>><<set $wearoutfittext to 1>><</link>>",
+    "translation": "",
+    "pos": 24797
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "492_5_3_7|",
+    "original": "<<lockericon \"put in\">><<link [[Put away|$passage]]>><<storeon _args[0] \"return\">><<set $eventskip to 1>><<set $wearoutfittext to 2>><</link>>",
+    "translation": "",
+    "pos": 24964
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "496_5_3_7|",
+    "original": "//Swimming sets://",
+    "translation": "",
+    "pos": 25137
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "500_5_3_7|",
+    "original": "//Normal sets://",
+    "translation": "",
+    "pos": 25223
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "530_5_3_7|",
+    "original": "You peek around the corner. You see $changingRoomGender in various states of undress. They'd spot you if you tried to enter.",
+    "translation": "",
+    "pos": 25971
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "532_5_3_7|",
+    "original": "<<ind>><<link [[Watch (0:05)|School Changing Room Watch]]>><<pass 5>><</link>><<promiscuous1>>",
+    "translation": "",
+    "pos": 26107
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "535_5_3_7|",
+    "original": "<<skinicon \"masturbate\">><<link [[Masturbate (0:01)|School Changing Room Masturbation]]>><<pass 1>><<set $masturbationstart to 1>><</link>><<exhibitionist3>>",
+    "translation": "",
+    "pos": 26249
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "539_5_3_7|",
+    "original": "<<ind>><<link [[Enter (0:05)|School Changing Room Exhibitionism]]>><<pass 5>><<detention 3>><</link>><<gdelinquency>><<exhibitionist5>>",
+    "translation": "",
+    "pos": 26464
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "542_5_3_7|",
+    "original": "<<getouticon>><<link [[Leave|School Pool Entrance]]>><</link>>",
+    "translation": "",
+    "pos": 26617
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "548_5_3_7|",
+    "original": "It's full of $changingRoomGender in various states of undress who, thinking you're a <<girl>>, hastily cover up as you enter.",
+    "translation": "",
+    "pos": 26881
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "550_5_3_7|",
+    "original": "It's full of $changingRoomGender in various states of undress who hastily cover up as you enter.",
+    "translation": "",
+    "pos": 27019
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "552_5_3_7|",
+    "original": "Many look about to die from embarrassment, but some are angry and shoo you out.",
+    "translation": "",
+    "pos": 27126
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "555_5_3_7|",
+    "original": "<<link [[Next|School Pool Entrance]]>><</link>>",
+    "translation": "",
+    "pos": 27250
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "561_5_3_7|",
+    "original": "It's full of $changingRoomGender in various states of undress who, thinking you're a <<girl>>, hastily cover up as you enter.",
+    "translation": "",
+    "pos": 27536
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "563_5_3_7|",
+    "original": "It's full of $changingRoomGender in various states of undress who hastily cover up as you enter.",
+    "translation": "",
+    "pos": 27674
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "565_5_3_7|",
+    "original": "Many look angry. A <<person>> drops <<his>> bag and steps forward. \"You pervert,\" <<he>> says. \"You can't keep barging in here.\" <<He>> grabs your arm.",
+    "translation": "",
+    "pos": 27781
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "568_5_3_7|",
+    "original": "<<link [[Try to escape|School Changing Room Escape]]>><</link>><<physiquedifficulty 4000 14000>>",
+    "translation": "",
+    "pos": 27977
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "570_5_3_7|",
+    "original": "<<link [[Flirt|School Changing Room Flirt]]>><</link>><<promiscuous1>>",
+    "translation": "",
+    "pos": 28081
+  },
+  {
+    "passage": "Widgets Changing Room",
+    "filepath": "overworld-town/loc-school/changing-rooms-widgets.twee",
+    "key": "572_5_3_7|",
+    "original": "<<link [[Apologise|School Changing Room Apologise]]>><</link>>",
+    "translation": "",
+    "pos": 28159
+  }
+]

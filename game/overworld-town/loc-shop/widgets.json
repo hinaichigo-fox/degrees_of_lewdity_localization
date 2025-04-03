@@ -1,0 +1,1458 @@
+[
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "3_5_3_7|",
+    "original": "Traits:",
+    "translation": "",
+    "pos": 25
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "14_5_3_7|",
+    "original": "<<print _traitObj.name>>",
+    "translation": "",
+    "pos": 344
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "16_5_3_7|",
+    "original": "<div><<print _traitObj.name>> - <<print _traitObj.desc>></div>",
+    "translation": "",
+    "pos": 419
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "19_5_3_7|",
+    "original": "<<set _traitDetails to `<i class=\"green normal\">` + _traitObj.details + `</i>`>>",
+    "translation": "",
+    "pos": 517
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "20_5_3_7|",
+    "original": "<<print _traitObj.name>><<print \"&nbsp;\"+\"-\"+\"&nbsp;\">>",
+    "translation": "",
+    "pos": 606
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "21_5_3_7|",
+    "original": "<span class=\"tooltip-anchor\" @tooltip=\"_traitDetails\">",
+    "translation": "",
+    "pos": 670
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "22_5_3_7|",
+    "original": "_traitObj.desc",
+    "translation": "",
+    "pos": 734
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "111_5_3_7|",
+    "original": "Wardrobe <<print (_args[0][_i]).replace(\"_\",\" \")>> slots used: <<print _returnWardrobe[_args[0][_i]].length>> / _space.",
+    "translation": "",
+    "pos": 3327
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "115_5_3_7|",
+    "original": "You own _undamagedCount of this item<<if _damagedCount gte 0>> unbroken<</if>>.",
+    "translation": "",
+    "pos": 3499
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "119_5_3_7|",
+    "original": "You own _damagedCount of this item that have been broken in some way.",
+    "translation": "",
+    "pos": 3628
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "129_5_3_7|",
+    "original": "<a value=\"Refresh\" onclick=\"Wikifier.wikifyEval('<<replace #shopFullImage>><<shopFullImage $clothingShopSlot $clothes_choice>><</replace>>');\">Refresh</a>",
+    "translation": "",
+    "pos": 3898
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "194_5_3_7|",
+    "original": "<img @class=\"'clothes-'+ (typeof(_args[3]) == 'string' ? _args[3].replace(/ /g, '-') : '') + ' layer-' + _args[0]\" @src=\"'img/clothes/' + _args[0] + '/' + setup.clothes[_args[0]][_args[1]].variable + '/' + _args[2] + '.png'\" @style=\"(_args[3] is 'custom'? _args[4]:'')\">",
+    "translation": "",
+    "pos": 6566
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "204_5_3_7|",
+    "original": "\"witchdress\":\"locked\",",
+    "translation": "",
+    "pos": 7039
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "205_5_3_7|",
+    "original": "\"christmasdress\":\"locked\",",
+    "translation": "",
+    "pos": 7065
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "206_5_3_7|",
+    "original": "\"jinglebelldress\":\"locked\",",
+    "translation": "",
+    "pos": 7095
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "207_5_3_7|",
+    "original": "\"sleevelessjinglebelldress\":\"locked\",",
+    "translation": "",
+    "pos": 7126
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "208_5_3_7|",
+    "original": "\"serafuku\":\"locked\",",
+    "translation": "",
+    "pos": 7167
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "209_5_3_7|",
+    "original": "\"vampirejacket\":\"locked\",",
+    "translation": "",
+    "pos": 7191
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "210_5_3_7|",
+    "original": "\"slutshirt\":\"locked\",",
+    "translation": "",
+    "pos": 7220
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "211_5_3_7|",
+    "original": "\"christmasshirt\":\"locked\",",
+    "translation": "",
+    "pos": 7245
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "212_5_3_7|",
+    "original": "\"bellydancer'stop\":\"locked\",",
+    "translation": "",
+    "pos": 7275
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "213_5_3_7|",
+    "original": "\"christmastrousers\":\"locked\",",
+    "translation": "",
+    "pos": 7307
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "214_5_3_7|",
+    "original": "\"bellydancer'sbottoms\":\"locked\",",
+    "translation": "",
+    "pos": 7340
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "215_5_3_7|",
+    "original": "\"haremvest\":\"locked\",",
+    "translation": "",
+    "pos": 7376
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "216_5_3_7|",
+    "original": "\"harempants\":\"locked\",",
+    "translation": "",
+    "pos": 7401
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "217_5_3_7|",
+    "original": "\"loincloth\":\"locked\",",
+    "translation": "",
+    "pos": 7427
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "218_5_3_7|",
+    "original": "\"witchhat\":\"locked\",",
+    "translation": "",
+    "pos": 7452
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "219_5_3_7|",
+    "original": "\"broomstick\":\"locked\",",
+    "translation": "",
+    "pos": 7476
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "220_5_3_7|",
+    "original": "\"christmashat\":\"locked\",",
+    "translation": "",
+    "pos": 7502
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "221_5_3_7|",
+    "original": "\"chefhat\":\"locked\",",
+    "translation": "",
+    "pos": 7530
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "222_5_3_7|",
+    "original": "\"fedora\":\"locked\",",
+    "translation": "",
+    "pos": 7553
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "223_5_3_7|",
+    "original": "\"holypendant\":\"locked\",",
+    "translation": "",
+    "pos": 7575
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "224_5_3_7|",
+    "original": "\"darkpendant\":\"locked\",",
+    "translation": "",
+    "pos": 7602
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "225_5_3_7|",
+    "original": "\"stonependant\":\"locked\",",
+    "translation": "",
+    "pos": 7629
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "226_5_3_7|",
+    "original": "\"christmaslegwarmers\":\"locked\",",
+    "translation": "",
+    "pos": 7657
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "227_5_3_7|",
+    "original": "\"witchshoes\":\"locked\",",
+    "translation": "",
+    "pos": 7692
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "228_5_3_7|",
+    "original": "\"mummyfacewrap\":\"locked\",",
+    "translation": "",
+    "pos": 7718
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "229_5_3_7|",
+    "original": "\"mummytop\":\"locked\",",
+    "translation": "",
+    "pos": 7747
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "230_5_3_7|",
+    "original": "\"mummyskirt\":\"locked\",",
+    "translation": "",
+    "pos": 7771
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "231_5_3_7|",
+    "original": "\"cowbell\":\"locked\",",
+    "translation": "",
+    "pos": 7797
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "232_5_3_7|",
+    "original": "\"featheredhairclip\":\"locked\",",
+    "translation": "",
+    "pos": 7820
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "233_5_3_7|",
+    "original": "\"catsuit\":\"locked\",",
+    "translation": "",
+    "pos": 7853
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "234_5_3_7|",
+    "original": "\"holystole\":\"locked\",",
+    "translation": "",
+    "pos": 7876
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "235_5_3_7|",
+    "original": "\"minisnowman\":\"locked\",",
+    "translation": "",
+    "pos": 7901
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "236_5_3_7|",
+    "original": "\"cowbra\":\"locked\",",
+    "translation": "",
+    "pos": 7928
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "237_5_3_7|",
+    "original": "\"cowpanties\":\"locked\",",
+    "translation": "",
+    "pos": 7950
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "238_5_3_7|",
+    "original": "\"cowsocks\":\"locked\",",
+    "translation": "",
+    "pos": 7976
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "239_5_3_7|",
+    "original": "\"cowsleeves\":\"locked\",",
+    "translation": "",
+    "pos": 8000
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "240_5_3_7|",
+    "original": "\"bellydancer'sveil\":\"locked\",",
+    "translation": "",
+    "pos": 8026
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "241_5_3_7|",
+    "original": "\"rose\":\"locked\",",
+    "translation": "",
+    "pos": 8059
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "242_5_3_7|",
+    "original": "\"scarecrowshirt\":\"locked\",",
+    "translation": "",
+    "pos": 8079
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "243_5_3_7|",
+    "original": "\"scarecrowhat\":\"locked\",",
+    "translation": "",
+    "pos": 8109
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "244_5_3_7|",
+    "original": "\"skeletonmask\":\"locked\",",
+    "translation": "",
+    "pos": 8137
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "245_5_3_7|",
+    "original": "\"skeletonoutfit\":\"locked\",",
+    "translation": "",
+    "pos": 8165
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "246_5_3_7|",
+    "original": "\"classyvampirejacket\":\"locked\",",
+    "translation": "",
+    "pos": 8195
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "247_5_3_7|",
+    "original": "\"bellydancer'sshoes\":\"locked\",",
+    "translation": "",
+    "pos": 8230
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "248_5_3_7|",
+    "original": "\"futuristicbodysuit\":\"locked\",",
+    "translation": "",
+    "pos": 8264
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "249_5_3_7|",
+    "original": "\"daisy\":\"locked\",",
+    "translation": "",
+    "pos": 8298
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "250_5_3_7|",
+    "original": "\"esotericspectacles\":\"locked\",",
+    "translation": "",
+    "pos": 8319
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "251_5_3_7|",
+    "original": "\"spiritmask\":\"locked\",",
+    "translation": "",
+    "pos": 8353
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "252_5_3_7|",
+    "original": "\"ragtop\":\"locked\",",
+    "translation": "",
+    "pos": 8379
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "253_5_3_7|",
+    "original": "\"ragskirt\":\"locked\",",
+    "translation": "",
+    "pos": 8401
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "254_5_3_7|",
+    "original": "\"minipumpkin\":\"locked\",",
+    "translation": "",
+    "pos": 8425
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "255_5_3_7|",
+    "original": "\"gakuran\":\"locked\",",
+    "translation": "",
+    "pos": 8452
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "256_5_3_7|",
+    "original": "\"classicserafuku\":\"locked\",",
+    "translation": "",
+    "pos": 8475
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "257_5_3_7|",
+    "original": "\"sailorribbon\":\"locked\",",
+    "translation": "",
+    "pos": 8506
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "258_5_3_7|",
+    "original": "\"islandermask\":\"locked\",",
+    "translation": "",
+    "pos": 8534
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "259_5_3_7|",
+    "original": "\"sexynun'shabit\":\"locked\",",
+    "translation": "",
+    "pos": 8562
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "260_5_3_7|",
+    "original": "\"sexynun'sgloves\":\"locked\",",
+    "translation": "",
+    "pos": 8592
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "261_5_3_7|",
+    "original": "\"sexynun'sstockings\":\"locked\",",
+    "translation": "",
+    "pos": 8623
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "262_5_3_7|",
+    "original": "\"sexynun'sveil\":\"locked\",",
+    "translation": "",
+    "pos": 8657
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "263_5_3_7|",
+    "original": "\"sexynun'sornateveil\":\"locked\",",
+    "translation": "",
+    "pos": 8686
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "264_5_3_7|",
+    "original": "\"sexypriest'svestments\":\"locked\",",
+    "translation": "",
+    "pos": 8721
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "265_5_3_7|",
+    "original": "\"foxmask\":\"locked\",",
+    "translation": "",
+    "pos": 8758
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "342_5_3_7|",
+    "original": "<<set $specialClothes.sailorribbon to $specialClothes.serafuku is \"unlocked\" ? \"unlocked\" : \"locked\">>",
+    "translation": "",
+    "pos": 11737
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "343_5_3_7|",
+    "original": "<<set $specialClothes.classicserafuku to $specialClothes.serafuku is \"unlocked\" ? \"unlocked\" : \"locked\">>",
+    "translation": "",
+    "pos": 11842
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "480_5_3_7|",
+    "original": "<<if Object.values($specialClothes).every(item => item is \"unlocked\")>>",
+    "translation": "",
+    "pos": 17469
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "488_5_3_7|",
+    "original": "\"witchdress\":\"In stock from the 21st of October.\",",
+    "translation": "",
+    "pos": 17704
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "489_5_3_7|",
+    "original": "\"christmasdress\":\"In stock from the 18th of December.\",",
+    "translation": "",
+    "pos": 17758
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "490_5_3_7|",
+    "original": "\"jinglebelldress\":\"In stock from the 18th of December.\",",
+    "translation": "",
+    "pos": 17817
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "491_5_3_7|",
+    "original": "\"sleevelessjinglebelldress\":\"In stock from the 18th of December.\",",
+    "translation": "",
+    "pos": 17877
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "492_5_3_7|",
+    "original": "\"serafuku\":\"Discover the headteacher's secret.\",",
+    "translation": "",
+    "pos": 17947
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "493_5_3_7|",
+    "original": "\"vampirejacket\":\"In stock from the 21st of October.\",",
+    "translation": "",
+    "pos": 17999
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "494_5_3_7|",
+    "original": "\"slutshirt\":\"Survive slavery in an underground brothel.\",",
+    "translation": "",
+    "pos": 18056
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "495_5_3_7|",
+    "original": "\"christmasshirt\":\"In stock from the 18th of December.\",",
+    "translation": "",
+    "pos": 18117
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "496_5_3_7|",
+    "original": "\"bellydancer'stop\":\"Be offered the star role in a show at the brothel.\",",
+    "translation": "",
+    "pos": 18176
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "497_5_3_7|",
+    "original": "\"christmastrousers\":\"In stock from the 18th of December.\",",
+    "translation": "",
+    "pos": 18252
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "498_5_3_7|",
+    "original": "\"bellydancer'sbottoms\":\"Be offered the star role in a show at the brothel.\",",
+    "translation": "",
+    "pos": 18314
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "499_5_3_7|",
+    "original": "\"bellydancer'sveil\":\"Be offered the star role in a show at the brothel.\",",
+    "translation": "",
+    "pos": 18394
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "500_5_3_7|",
+    "original": "\"bellydancer'sshoes\":\"Be offered the star role in a show at the brothel.\",",
+    "translation": "",
+    "pos": 18471
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "501_5_3_7|",
+    "original": "\"haremvest\":\"Be offered the star role in a show at the brothel.\",",
+    "translation": "",
+    "pos": 18549
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "502_5_3_7|",
+    "original": "\"harempants\":\"Be offered the star role in a show at the brothel.\",",
+    "translation": "",
+    "pos": 18618
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "503_5_3_7|",
+    "original": "\"loincloth\":\"Befriend a lonely hunter, or join a pack of wolves.\",",
+    "translation": "",
+    "pos": 18688
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "504_5_3_7|",
+    "original": "\"witchhat\":\"In stock from the 21st of October.\",",
+    "translation": "",
+    "pos": 18758
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "505_5_3_7|",
+    "original": "\"broomstick\":\"In stock from the 21st of October.\",",
+    "translation": "",
+    "pos": 18810
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "506_5_3_7|",
+    "original": "\"christmashat\":\"In stock from the 18th of December.\",",
+    "translation": "",
+    "pos": 18864
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "507_5_3_7|",
+    "original": "\"chefhat\":\"Become famous for your cream buns.\",",
+    "translation": "",
+    "pos": 18921
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "508_5_3_7|",
+    "original": "\"fedora\":\"Eavesdrop as a bartender and learn about a criminal undertaking.\",",
+    "translation": "",
+    "pos": 18972
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "509_5_3_7|",
+    "original": "\"holypendant\":\"Discover the soup kitchen.\",",
+    "translation": "",
+    "pos": 19052
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "510_5_3_7|",
+    "original": "\"darkpendant\":\"Discover Bailey's fear.\",",
+    "translation": "",
+    "pos": 19099
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "511_5_3_7|",
+    "original": "\"stonependant\":\"Find beneath a loose stone at the temple.\",",
+    "translation": "",
+    "pos": 19143
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "512_5_3_7|",
+    "original": "\"cowbell\":\"Become livestock.\",",
+    "translation": "",
+    "pos": 19206
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "513_5_3_7|",
+    "original": "\"cowbra\":\"Become livestock.\",",
+    "translation": "",
+    "pos": 19240
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "514_5_3_7|",
+    "original": "\"cowpanties\":\"Become livestock.\",",
+    "translation": "",
+    "pos": 19273
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "515_5_3_7|",
+    "original": "\"cowsocks\":\"Become livestock.\",",
+    "translation": "",
+    "pos": 19310
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "516_5_3_7|",
+    "original": "\"cowsleeves\":\"Become livestock.\",",
+    "translation": "",
+    "pos": 19345
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "517_5_3_7|",
+    "original": "\"christmaslegwarmers\":\"In stock from the 18th of December.\",",
+    "translation": "",
+    "pos": 19382
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "518_5_3_7|",
+    "original": "\"witchshoes\":\"In stock from the 21st of October.\",",
+    "translation": "",
+    "pos": 19446
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "519_5_3_7|",
+    "original": "\"mummyfacewrap\":\"In stock from the 21st of October.\",",
+    "translation": "",
+    "pos": 19500
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "520_5_3_7|",
+    "original": "\"mummytop\":\"In stock from the 21st of October.\",",
+    "translation": "",
+    "pos": 19557
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "521_5_3_7|",
+    "original": "\"mummyskirt\":\"In stock from the 21st of October.\",",
+    "translation": "",
+    "pos": 19609
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "522_5_3_7|",
+    "original": "\"featheredhairclip\":\"Romance an avian.\",",
+    "translation": "",
+    "pos": 19663
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "523_5_3_7|",
+    "original": "\"catsuit\":\"Pillage a shipment.\",",
+    "translation": "",
+    "pos": 19707
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "524_5_3_7|",
+    "original": "\"holystole\":\"Requires sufficient devotion.\",",
+    "translation": "",
+    "pos": 19743
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "525_5_3_7|",
+    "original": "\"minisnowman\":\"In stock from the 18th of December.\",",
+    "translation": "",
+    "pos": 19791
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "526_5_3_7|",
+    "original": "\"rose\":\"In stock from the 7th of February.\",",
+    "translation": "",
+    "pos": 19847
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "527_5_3_7|",
+    "original": "\"scarecrowshirt\":\"In stock from the 21st of October.\",",
+    "translation": "",
+    "pos": 19895
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "528_5_3_7|",
+    "original": "\"scarecrowhat\":\"In stock from the 21st of October.\",",
+    "translation": "",
+    "pos": 19953
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "529_5_3_7|",
+    "original": "\"skeletonoutfit\":\"In stock from the 21st of October.\",",
+    "translation": "",
+    "pos": 20009
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "530_5_3_7|",
+    "original": "\"skeletonmask\":\"In stock from the 21st of October.\",",
+    "translation": "",
+    "pos": 20067
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "531_5_3_7|",
+    "original": "\"classyvampirejacket\":\"In stock from the 21st of October.\",",
+    "translation": "",
+    "pos": 20123
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "532_5_3_7|",
+    "original": "\"futuristicbodysuit\":\"In stock from the 21st of October.\",",
+    "translation": "",
+    "pos": 20186
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "533_5_3_7|",
+    "original": "\"daisy\":\"Find daisy seeds.\",",
+    "translation": "",
+    "pos": 20248
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "534_5_3_7|",
+    "original": "\"esotericspectacles\":\"Succeed a master.\",",
+    "translation": "",
+    "pos": 20280
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "535_5_3_7|",
+    "original": "\"spiritmask\":\"Become sufficiently foxy.\",",
+    "translation": "",
+    "pos": 20325
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "536_5_3_7|",
+    "original": "\"ragtop\":\"Demonstrate historical torture devices to completion.\",",
+    "translation": "",
+    "pos": 20370
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "537_5_3_7|",
+    "original": "\"ragskirt\":\"Demonstrate historical torture devices to completion.\",",
+    "translation": "",
+    "pos": 20439
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "538_5_3_7|",
+    "original": "\"minipumpkin\":\"In stock from the 21st of October.\",",
+    "translation": "",
+    "pos": 20510
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "539_5_3_7|",
+    "original": "\"gakuran\":\"Discover the headteacher's secret.\",",
+    "translation": "",
+    "pos": 20565
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "540_5_3_7|",
+    "original": "\"classicserafuku\":\"Discover the headteacher's secret.\",",
+    "translation": "",
+    "pos": 20616
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "541_5_3_7|",
+    "original": "\"sailorribbon\":\"Discover the headteacher's secret.\",",
+    "translation": "",
+    "pos": 20675
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "542_5_3_7|",
+    "original": "\"islandermask\":\"Build with foreign wood.\",",
+    "translation": "",
+    "pos": 20731
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "543_5_3_7|",
+    "original": "\"sexynun'shabit\":\"Progress through the temple's ranks.\",",
+    "translation": "",
+    "pos": 20777
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "544_5_3_7|",
+    "original": "\"sexynun'sgloves\":\"Progress through the temple's ranks.\",",
+    "translation": "",
+    "pos": 20837
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "545_5_3_7|",
+    "original": "\"sexynun'sstockings\":\"Progress through the temple's ranks.\",",
+    "translation": "",
+    "pos": 20898
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "546_5_3_7|",
+    "original": "\"sexynun'sveil\":\"Progress through the temple's ranks.\",",
+    "translation": "",
+    "pos": 20962
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "547_5_3_7|",
+    "original": "\"sexynun'sornateveil\":\"Progress through the temple's ranks.\",",
+    "translation": "",
+    "pos": 21021
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "548_5_3_7|",
+    "original": "\"sexypriest'svestments\":\"Progress through the temple's ranks.\",",
+    "translation": "",
+    "pos": 21086
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "549_5_3_7|",
+    "original": "\"foxmask\":\"Attend an exclusive party.\",",
+    "translation": "",
+    "pos": 21153
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "573_5_3_7|",
+    "original": "<span class=\"lewd\">You feel the slime in your head command you to expose yourself to the whole mall.</span> It doesn't promise anything now. It imposes its will, and expects you to obey.",
+    "translation": "",
+    "pos": 21804
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "577_5_3_7|",
+    "original": "<<link [[Submit willingly|Shopping Centre Slime Exhibitionism Obey]]>><<corruption 5>><<pain -8>><<stress -12>><<trauma -24>><<sub 2>><<set $phase to 1>><</link>><<promiscuous5>><<ggcorruption>><<llpain>><<llltrauma>><<llstress>>",
+    "translation": "",
+    "pos": 22068
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "580_5_3_7|",
+    "original": "<<link [[Obey|Shopping Centre Slime Exhibitionism Obey]]>><<corruption 1>><<pain -4>><<stress -6>><<trauma -12>><<sub 1>><</link>><<gcorruption>><<lpain>><<lltrauma>><<lstress>>",
+    "translation": "",
+    "pos": 22315
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "583_5_3_7|",
+    "original": "<<link [[Defy|Shopping Centre Slime Exhibitionism Defy]]>><<corruption -1>><<pain 35>><<stress 18>><<trauma 12>><<def 1>><</link>><<llcorruption>><<ggpain>><<ggtrauma>><<ggstress>>",
+    "translation": "",
+    "pos": 22588
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "594_5_3_7|",
+    "original": "<<print setup.plants[_food_keys[_i]].plural.toLocaleUpperFirst()>>",
+    "translation": "",
+    "pos": 23165
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "596_5_3_7|",
+    "original": "Owned: <span class=\"gold\"><<print $plants[_type].amount>></span>",
+    "translation": "",
+    "pos": 23241
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "598_5_3_7|",
+    "original": "Supermarket stock: <span class=\"gold\"><<print $plants[_type].supermarket>></span>",
+    "translation": "",
+    "pos": 23312
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "600_5_3_7|",
+    "original": "Price: <span class=\"gold\">£<<print (setup.plants[_food_keys[_i]].plant_cost * 2 / 100).toFixed(2)>></span>",
+    "translation": "",
+    "pos": 23400
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "604_5_3_7|",
+    "original": "<span class=\"no-numberify\">",
+    "translation": "",
+    "pos": 23614
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "607_5_3_7|",
+    "original": "<<link [[Steal one|$passage]]>><<tending_give $plants[_type].name 1>><<crimeUp 1 \"thievery\">><<set $plants[_type].supermarket -= 1>><</link>>",
+    "translation": "",
+    "pos": 23729
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "610_5_3_7|",
+    "original": "| <<link [[Steal five|$passage]]>><<tending_give $plants[_type].name 5>><<crimeUp 5 \"thievery\">><<set $plants[_type].supermarket -= 5>><</link>>",
+    "translation": "",
+    "pos": 23935
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "613_5_3_7|",
+    "original": "| <<link [[Steal ten|$passage]]>><<tending_give $plants[_type].name 10>><<crimeUp 10 \"thievery\">><<set $plants[_type].supermarket -= 10>><</link>>",
+    "translation": "",
+    "pos": 24145
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "616_5_3_7|",
+    "original": "| <<link [[Steal one hundred|$passage]]>><<tending_give $plants[_type].name 100>><<crimeUp 100 \"thievery\">><<set $plants[_type].supermarket -= 100>><</link>>",
+    "translation": "",
+    "pos": 24358
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "623_5_3_7|",
+    "original": "<<link [[Buy one|$passage]]>><<tending_give $plants[_type].name 1>><<money `-(_plant_cost * 2)` \"supermarket\">><<set $plants[_type].supermarket -= 1>><</link>>",
+    "translation": "",
+    "pos": 24709
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "626_5_3_7|",
+    "original": "| <<link [[Buy five|$passage]]>><<tending_give $plants[_type].name 5>><<money `-(_plant_cost * 10)` \"supermarket\">><<set $plants[_type].supermarket -= 5>><</link>>",
+    "translation": "",
+    "pos": 24965
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "629_5_3_7|",
+    "original": "| <<link [[Buy ten|$passage]]>><<tending_give $plants[_type].name 10>><<money `-(_plant_cost * 20)` \"supermarket\">><<set $plants[_type].supermarket -= 10>><</link>>",
+    "translation": "",
+    "pos": 25226
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "632_5_3_7|",
+    "original": "| <<link [[Buy one hundred|$passage]]>><<tending_give $plants[_type].name 100>><<money `-(_plant_cost * 200)` \"supermarket\">><<set $plants[_type].supermarket -= 100>><</link>>",
+    "translation": "",
+    "pos": 25490
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "645_5_3_7|",
+    "original": "<<print setup.plants[_food_keys[_i]].plural.toLocaleUpperFirst()>>",
+    "translation": "",
+    "pos": 25946
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "647_5_3_7|",
+    "original": "Owned: <span class=\"gold\"><<print $plants[_type].amount>></span>",
+    "translation": "",
+    "pos": 26022
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "649_5_3_7|",
+    "original": "Supermarket stock: <span class=\"gold\"><<print $plants[_type].supermarket>></span>",
+    "translation": "",
+    "pos": 26093
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "651_5_3_7|",
+    "original": "Price: <span class=\"gold\">£<<print (setup.plants[_food_keys[_i]].plant_cost * 2 / 100).toFixed(2)>></span>",
+    "translation": "",
+    "pos": 26181
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "656_5_3_7|",
+    "original": "<span class=\"no-numberify\">",
+    "translation": "",
+    "pos": 26485
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "659_5_3_7|",
+    "original": "<<link [[Steal one|$passage]]>><<tending_give $plants[_type].name 1>><<crimeUp 1 \"thievery\">><<set $plants[_type].supermarket -= 1>><</link>>",
+    "translation": "",
+    "pos": 26600
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "662_5_3_7|",
+    "original": "| <<link [[Steal five|$passage]]>><<tending_give $plants[_type].name 5>><<crimeUp 5 \"thievery\">><<set $plants[_type].supermarket -= 5>><</link>>",
+    "translation": "",
+    "pos": 26806
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "665_5_3_7|",
+    "original": "| <<link [[Steal ten|$passage]]>><<tending_give $plants[_type].name 10>><<crimeUp 10 \"thievery\">><<set $plants[_type].supermarket -= 10>><</link>>",
+    "translation": "",
+    "pos": 27016
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "668_5_3_7|",
+    "original": "| <<link [[Steal one hundred|$passage]]>><<tending_give $plants[_type].name 100>><<crimeUp 100 \"thievery\">><<set $plants[_type].supermarket -= 100>><</link>>",
+    "translation": "",
+    "pos": 27229
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "675_5_3_7|",
+    "original": "<<link [[Buy one|$passage]]>><<tending_give $plants[_type].name 1>><<money `-(_plant_cost * 2)` \"supermarket\">><<set $plants[_type].supermarket -= 1>><</link>>",
+    "translation": "",
+    "pos": 27580
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "678_5_3_7|",
+    "original": "| <<link [[Buy five|$passage]]>><<tending_give $plants[_type].name 5>><<money `-(_plant_cost * 10)` \"supermarket\">><<set $plants[_type].supermarket -= 5>><</link>>",
+    "translation": "",
+    "pos": 27836
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "681_5_3_7|",
+    "original": "| <<link [[Buy ten|$passage]]>><<tending_give $plants[_type].name 10>><<money `-(_plant_cost * 20)` \"supermarket\">><<set $plants[_type].supermarket -= 10>><</link>>",
+    "translation": "",
+    "pos": 28097
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "684_5_3_7|",
+    "original": "| <<link [[Buy one hundred|$passage]]>><<tending_give $plants[_type].name 100>><<money `-(_plant_cost * 200)` \"supermarket\">><<set $plants[_type].supermarket -= 100>><</link>>",
+    "translation": "",
+    "pos": 28361
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "697_5_3_7|",
+    "original": "<<print setup.plants[_food_keys[_i]].plural.toLocaleUpperFirst()>>",
+    "translation": "",
+    "pos": 28841
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "699_5_3_7|",
+    "original": "Owned: <span class=\"gold\"><<print $plants[_type].amount>></span>",
+    "translation": "",
+    "pos": 28917
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "701_5_3_7|",
+    "original": "Supermarket stock: <span class=\"gold\"><<print $plants[_type].supermarket>></span>",
+    "translation": "",
+    "pos": 28988
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "703_5_3_7|",
+    "original": "Price: <span class=\"gold\">£<<print (setup.plants[_food_keys[_i]].plant_cost * 2 / 100).toFixed(2)>></span>",
+    "translation": "",
+    "pos": 29076
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "708_5_3_7|",
+    "original": "<span class=\"no-numberify\">",
+    "translation": "",
+    "pos": 29380
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "711_5_3_7|",
+    "original": "<<link [[Steal one|$passage]]>><<tending_give $plants[_type].name 1>><<crimeUp 1 \"thievery\">><<set $plants[_type].supermarket -= 1>><</link>>",
+    "translation": "",
+    "pos": 29495
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "714_5_3_7|",
+    "original": "| <<link [[Steal five|$passage]]>><<tending_give $plants[_type].name 5>><<crimeUp 5 \"thievery\">><<set $plants[_type].supermarket -= 5>><</link>>",
+    "translation": "",
+    "pos": 29701
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "717_5_3_7|",
+    "original": "| <<link [[Steal ten|$passage]]>><<tending_give $plants[_type].name 10>><<crimeUp 10 \"thievery\">><<set $plants[_type].supermarket -= 10>><</link>>",
+    "translation": "",
+    "pos": 29911
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "720_5_3_7|",
+    "original": "| <<link [[Steal one hundred|$passage]]>><<tending_give $plants[_type].name 100>><<crimeUp 100 \"thievery\">><<set $plants[_type].supermarket -= 100>><</link>>",
+    "translation": "",
+    "pos": 30124
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "727_5_3_7|",
+    "original": "<<link [[Buy one|$passage]]>><<tending_give $plants[_type].name 1>><<money `-(_plant_cost * 2)` \"supermarket\">><<set $plants[_type].supermarket -= 1>><</link>>",
+    "translation": "",
+    "pos": 30475
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "730_5_3_7|",
+    "original": "| <<link [[Buy five|$passage]]>><<tending_give $plants[_type].name 5>><<money `-(_plant_cost * 10)` \"supermarket\">><<set $plants[_type].supermarket -= 5>><</link>>",
+    "translation": "",
+    "pos": 30731
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "733_5_3_7|",
+    "original": "| <<link [[Buy ten|$passage]]>><<tending_give $plants[_type].name 10>><<money `-(_plant_cost * 20)` \"supermarket\">><<set $plants[_type].supermarket -= 10>><</link>>",
+    "translation": "",
+    "pos": 30992
+  },
+  {
+    "passage": "Widgets Shop",
+    "filepath": "overworld-town/loc-shop/widgets.twee",
+    "key": "736_5_3_7|",
+    "original": "| <<link [[Buy one hundred|$passage]]>><<tending_give $plants[_type].name 100>><<money `-(_plant_cost * 200)` \"supermarket\">><<set $plants[_type].supermarket -= 100>><</link>>",
+    "translation": "",
+    "pos": 31256
+  }
+]

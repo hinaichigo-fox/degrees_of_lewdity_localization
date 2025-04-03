@@ -1,0 +1,1130 @@
+[
+  {
+    "passage": "Science Project",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "5_5_3_7|",
+    "original": "You have an ongoing project on lichen. It has a <<print ($sciencelichenparkready * 25 + $sciencelichenlakeready * 25 + $sciencelichendrainready * 25 + $sciencelichentempleready * 25)>>% chance of winning the fair.",
+    "translation": "",
+    "pos": 46
+  },
+  {
+    "passage": "Science Project",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "9_5_3_7|",
+    "original": "<<scienceicon \"pink lichen\">><<link [[Add pink lichen (3:00)|Science Project Lichen]]>><<set $phase to 0>><<pass 3 hours>><<scienceskill 18>><</link>><<gggscience>>",
+    "translation": "",
+    "pos": 343
+  },
+  {
+    "passage": "Science Project",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "13_5_3_7|",
+    "original": "<<scienceicon \"white lichen\">><<link [[Add white lichen (3:00)|Science Project Lichen]]>><<set $phase to 1>><<pass 3 hours>><<scienceskill 18>><</link>><<gggscience>>",
+    "translation": "",
+    "pos": 587
+  },
+  {
+    "passage": "Science Project",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "17_5_3_7|",
+    "original": "<<scienceicon \"violet lichen\">><<link [[Add violet lichen (3:00)|Science Project Lichen]]>><<set $phase to 2>><<pass 3 hours>><<scienceskill 18>><</link>><<gggscience>>",
+    "translation": "",
+    "pos": 835
+  },
+  {
+    "passage": "Science Project",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "21_5_3_7|",
+    "original": "<<scienceicon \"purple lichen\">><<link [[Add purple lichen (3:00)|Science Project Lichen]]>><<set $phase to 3>><<pass 3 hours>><<scienceskill 18>><</link>><<gggscience>>",
+    "translation": "",
+    "pos": 1083
+  },
+  {
+    "passage": "Science Project",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "26_5_3_7|",
+    "original": "You have an ongoing project on mushrooms. It has a <<print ($scienceshroomwolfready * 10 + $scienceshroomheartready * 10)>>% chance of winning the fair.",
+    "translation": "",
+    "pos": 1305
+  },
+  {
+    "passage": "Science Project",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "28_5_3_7|",
+    "original": "You've measured $scienceshroomheartready/5 heartshrooms.",
+    "translation": "",
+    "pos": 1465
+  },
+  {
+    "passage": "Science Project",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "30_5_3_7|",
+    "original": "You've measured $scienceshroomwolfready/5 wolfshrooms.",
+    "translation": "",
+    "pos": 1529
+  },
+  {
+    "passage": "Science Project",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "34_5_3_7|",
+    "original": "<<tendingicon \"mushroom\">><<link [[Add heart shroom (1:00)|Science Project Shroom]]>><<set $phase to 0>><<pass 1 hour>><<scienceskill 6>><</link>><<ggscience>>",
+    "translation": "",
+    "pos": 1654
+  },
+  {
+    "passage": "Science Project",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "38_5_3_7|",
+    "original": "<<tendingicon \"wolfshroom\">><<link [[Add wolf shroom (1:00)|Science Project Shroom]]>><<set $phase to 1>><<pass 1 hour>><<scienceskill 6>><</link>><<ggscience>>",
+    "translation": "",
+    "pos": 1882
+  },
+  {
+    "passage": "Science Project",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "43_5_3_7|",
+    "original": "You have an ongoing project on phallus size. It has a <<print ($sciencephallusready * 10)>>% chance of winning the fair.",
+    "translation": "",
+    "pos": 2097
+  },
+  {
+    "passage": "Science Project",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "46_5_3_7|",
+    "original": "<<icon \"projectScience.png\">><<link [[Add phallus (1:00)|Science Project Phallus]]>><<set $phase to 0>><<pass 1 hour>><<scienceskill 6>><</link>><<ggscience>>",
+    "translation": "",
+    "pos": 2274
+  },
+  {
+    "passage": "Science Project",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "51_5_3_7|",
+    "original": "You can only submit one project to the fair.",
+    "translation": "",
+    "pos": 2462
+  },
+  {
+    "passage": "Science Project",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "55_5_3_7|",
+    "original": "<<getouticon>><<link [[Stop|Bedroom]]>><</link>>",
+    "translation": "",
+    "pos": 2545
+  },
+  {
+    "passage": "Science Project",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "58_5_3_7|",
+    "original": "<<getouticon>><<link [[Stop|School Library]]>><</link>>",
+    "translation": "",
+    "pos": 2610
+  },
+  {
+    "passage": "Science Project Lichen",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "68_5_3_7|",
+    "original": "You measure the pink lichen. You note down its weight, its volume, where you found it and describe what it looks like. You note that it smells of strawberries. You feel warm.",
+    "translation": "",
+    "pos": 109
+  },
+  {
+    "passage": "Science Project Lichen",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "73_5_3_7|",
+    "original": "You measure the white lichen. You note down its weight, its volume, where you found it and describe what it looks like. You note that it smells of soot. You sneeze.",
+    "translation": "",
+    "pos": 406
+  },
+  {
+    "passage": "Science Project Lichen",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "77_5_3_7|",
+    "original": "You measure the violet lichen. You note down its weight, its volume, where you found it and describe what it looks like. You note that it smells of the sea. You feel strange and agitated.",
+    "translation": "",
+    "pos": 666
+  },
+  {
+    "passage": "Science Project Lichen",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "82_5_3_7|",
+    "original": "You measure the purple lichen. You note down its weight, its volume, where you found it and describe what it looks like. You note that it smells sweet. Your hand is shaking by the end.",
+    "translation": "",
+    "pos": 965
+  },
+  {
+    "passage": "Science Project Lichen",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "88_5_3_7|",
+    "original": "<<link [[Next|Science Project]]>><<handheldon>><<set $phase to 0>><</link>>",
+    "translation": "",
+    "pos": 1220
+  },
+  {
+    "passage": "Science Project Lichen",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "91_5_3_7|",
+    "original": "You glance at the time. You suddenly realise that <span class=\"red\">the science competition has already ended.</span>",
+    "translation": "",
+    "pos": 1312
+  },
+  {
+    "passage": "Science Project Lichen",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "93_5_3_7|",
+    "original": "It would be silly to continue your work at this point. You dump the now obsolete project in a bin, feeling somewhat bitter over the wasted effort.",
+    "translation": "",
+    "pos": 1441
+  },
+  {
+    "passage": "Science Project Lichen",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "97_5_3_7|",
+    "original": "<<link [[Next|Bedroom]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 1629
+  },
+  {
+    "passage": "Science Project Lichen",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "99_5_3_7|",
+    "original": "<<link [[Next|School Library]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 1690
+  },
+  {
+    "passage": "Science Project Shroom",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "110_5_3_7|",
+    "original": "You measure the heartshrooms. You note down the weight, volume, where you found them and describe what they look like. You note that they smell refreshing. You feel more energetic by the end.",
+    "translation": "",
+    "pos": 97
+  },
+  {
+    "passage": "Science Project Shroom",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "115_5_3_7|",
+    "original": "You measure the wolfshroom. You note down the weight, volume, where you found them and describe what they look like. You note that they smell sweet. Your hand is shaking by the end.",
+    "translation": "",
+    "pos": 396
+  },
+  {
+    "passage": "Science Project Shroom",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "121_5_3_7|",
+    "original": "<<link [[Next|Science Project]]>><<handheldon>><<set $phase to 0>><</link>>",
+    "translation": "",
+    "pos": 664
+  },
+  {
+    "passage": "Science Project Shroom",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "124_5_3_7|",
+    "original": "You glance at the time. You suddenly realise that <span class=\"red\">the science competition has already ended.</span>",
+    "translation": "",
+    "pos": 756
+  },
+  {
+    "passage": "Science Project Shroom",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "126_5_3_7|",
+    "original": "It would be silly to continue your work at this point. You dump the now obsolete project in a bin, feeling somewhat bitter over the wasted effort.",
+    "translation": "",
+    "pos": 885
+  },
+  {
+    "passage": "Science Project Shroom",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "130_5_3_7|",
+    "original": "<<link [[Next|Bedroom]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 1073
+  },
+  {
+    "passage": "Science Project Shroom",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "132_5_3_7|",
+    "original": "<<link [[Next|School Library]]>><<handheldon>><</link>>",
+    "translation": "",
+    "pos": 1134
+  },
+  {
+    "passage": "Science Project Phallus",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "140_5_3_7|",
+    "original": "You add the phallus measurements to your project. You incorporate the answers the owner gave you about their lifestyle.",
+    "translation": "",
+    "pos": 46
+  },
+  {
+    "passage": "Science Project Phallus",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "143_5_3_7|",
+    "original": "The things you do for school.",
+    "translation": "",
+    "pos": 176
+  },
+  {
+    "passage": "Science Project Phallus",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "147_5_3_7|",
+    "original": "<<link [[Next|Science Project]]>><<set $phase to 0>><</link>>",
+    "translation": "",
+    "pos": 253
+  },
+  {
+    "passage": "Science Project Phallus",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "150_5_3_7|",
+    "original": "You glance at the time. You suddenly realise that <span class=\"red\">the science competition has already ended.</span>",
+    "translation": "",
+    "pos": 331
+  },
+  {
+    "passage": "Science Project Phallus",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "152_5_3_7|",
+    "original": "It would be silly to continue your work at this point. You dump the now obsolete project in a bin, feeling somewhat bitter over the wasted effort.",
+    "translation": "",
+    "pos": 460
+  },
+  {
+    "passage": "Science Project Phallus",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "156_5_3_7|",
+    "original": "<<link [[Next|Bedroom]]>><</link>>",
+    "translation": "",
+    "pos": 648
+  },
+  {
+    "passage": "Science Project Phallus",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "158_5_3_7|",
+    "original": "<<link [[Next|School Library]]>><</link>>",
+    "translation": "",
+    "pos": 695
+  },
+  {
+    "passage": "Science Fair",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "166_5_3_7|",
+    "original": "You enter the town hall. It's full of other students setting up their projects. You recognise others from your class. Most have investigated plants, and the room almost feels like a garden. You can enter a project, or just watch. Taking part will make the teachers think better of you whether you win or not.",
+    "translation": "",
+    "pos": 126
+  },
+  {
+    "passage": "Science Fair",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "170_5_3_7|",
+    "original": "<<link [[Enter lichen project (3:00)|Science Fair Lichen]]>><<pass 3 hour>><</link>><<note \"$sciencelichenchance% chance of winning\" \"gold\">>",
+    "translation": "",
+    "pos": 478
+  },
+  {
+    "passage": "Science Fair",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "174_5_3_7|",
+    "original": "<<link [[Enter mushroom project (3:00)|Science Fair Mushroom]]>><<pass 3 hour>><</link>><<note \"$scienceshroomchance% chance of winning\" \"gold\">>",
+    "translation": "",
+    "pos": 667
+  },
+  {
+    "passage": "Science Fair",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "178_5_3_7|",
+    "original": "<<link [[Enter phallus project (3:00)|Science Fair Phallus]]>><<pass 3 hour>><</link>><<note \"$sciencephalluschance% chance of winning\" \"gold\">>",
+    "translation": "",
+    "pos": 861
+  },
+  {
+    "passage": "Science Fair",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "181_5_3_7|",
+    "original": "<<link [[Don't enter (3:00)|Science Fair Watch]]>><<pass 3 hour>><</link>>",
+    "translation": "",
+    "pos": 1020
+  },
+  {
+    "passage": "Science Fair",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "183_5_3_7|",
+    "original": "<<link [[Leave (0:05)|Cliff Street]]>><<pass 5>><<endevent>><</link>>",
+    "translation": "",
+    "pos": 1100
+  },
+  {
+    "passage": "Science Fair Lichen",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "190_5_3_7|",
+    "original": "You don't have a lichen project. You draw some lichen and write down everything you know about the subject. That will have to do. A <<person2>><<person>> with a flower display beside yours looks over and smirks.",
+    "translation": "",
+    "pos": 114
+  },
+  {
+    "passage": "Science Fair Lichen",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "192_5_3_7|",
+    "original": "You set up your lichen display and step back to admire it. It could be better, but it's not the worst in the room. A <<person2>><<person>> with a flower display beside yours looks over and smirks.",
+    "translation": "",
+    "pos": 366
+  },
+  {
+    "passage": "Science Fair Lichen",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "194_5_3_7|",
+    "original": "You set up your lichen display and step back to admire it. It couldn't be better. A <<person2>><<person>> with a flower display beside yours looks irritated.",
+    "translation": "",
+    "pos": 573
+  },
+  {
+    "passage": "Science Fair Lichen",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "197_5_3_7|",
+    "original": "Leighton walks on stage and taps the microphone. Sirris stands beside <<person1>><<him>>. \"Thank you, <<peopley>>, for coming,\" <<he>> says. \"I've seen some fine work already. Sirris and I will judge. Be patient.\"",
+    "translation": "",
+    "pos": 748
+  },
+  {
+    "passage": "Science Fair Lichen",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "200_5_3_7|",
+    "original": "Leighton and Sirris leave the stage and circle around the room. Leighton criticises the projects. Sirris observes, but gives words of encouragement if Leighton was particularly scathing. Still, some students are left tearful by the headteacher's remarks.",
+    "translation": "",
+    "pos": 973
+  },
+  {
+    "passage": "Science Fair Lichen",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "203_5_3_7|",
+    "original": "The teachers draw closer. The <<person2>><<person>> with the flower display bobs on <<his>> heels, brimming with confidence.",
+    "translation": "",
+    "pos": 1238
+  },
+  {
+    "passage": "Science Fair Lichen",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "207_5_3_7|",
+    "original": "<<link [[Sabotage <<him>>|Science Fair Sabotage]]>><</link>><<skulduggerydifficulty>><<note \"$sciencelichenchance% chance of winning\" \"gold\">>",
+    "translation": "",
+    "pos": 1411
+  },
+  {
+    "passage": "Science Fair Lichen",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "209_5_3_7|",
+    "original": "<<link [[Play fair|Science Fair Fair]]>><</link>>",
+    "translation": "",
+    "pos": 1559
+  },
+  {
+    "passage": "Science Fair Mushroom",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "216_5_3_7|",
+    "original": "You don't have a mushroom project. You draw some mushrooms and write down everything you know about them. That will have to do. A <<person2>><<person>> with a flower display beside yours looks over and smirks.",
+    "translation": "",
+    "pos": 114
+  },
+  {
+    "passage": "Science Fair Mushroom",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "218_5_3_7|",
+    "original": "You set up your mushroom display and step back to admire it. It could be better, but it's not the worst in the room. A <<person2>><<person>> with a flower display beside yours looks over and smirks.",
+    "translation": "",
+    "pos": 364
+  },
+  {
+    "passage": "Science Fair Mushroom",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "220_5_3_7|",
+    "original": "You set up your mushroom display and step back to admire it. It couldn't be better. A <<person2>><<person>> with a flower display beside yours looks irritated.",
+    "translation": "",
+    "pos": 573
+  },
+  {
+    "passage": "Science Fair Mushroom",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "223_5_3_7|",
+    "original": "Leighton walks on stage and taps the microphone. Sirris stands beside <<person1>><<him>>. \"Thank you, <<peopley>>, for coming,\" <<he>> says. \"I've seen some fine work already. Sirris and I will judge. Be patient.\"",
+    "translation": "",
+    "pos": 750
+  },
+  {
+    "passage": "Science Fair Mushroom",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "226_5_3_7|",
+    "original": "Leighton and Sirris leave the stage and circle around the room. Leighton criticises the projects. Sirris observes, but gives words of encouragement if the headteacher was particularly scathing. Still, some students are left tearful by the headteacher's remarks.",
+    "translation": "",
+    "pos": 974
+  },
+  {
+    "passage": "Science Fair Mushroom",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "229_5_3_7|",
+    "original": "The teachers draw closer. The <<person2>><<person>> with the flower display bobs on <<his>> heels, brimming with confidence.",
+    "translation": "",
+    "pos": 1246
+  },
+  {
+    "passage": "Science Fair Mushroom",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "233_5_3_7|",
+    "original": "<<link [[Sabotage <<him>>|Science Fair Sabotage]]>><</link>><<skulduggerydifficulty>><<note \"+ Success Chance\" \"gold\">>",
+    "translation": "",
+    "pos": 1419
+  },
+  {
+    "passage": "Science Fair Mushroom",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "235_5_3_7|",
+    "original": "<<link [[Play fair|Science Fair Fair]]>><</link>>",
+    "translation": "",
+    "pos": 1544
+  },
+  {
+    "passage": "Science Fair Phallus",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "242_5_3_7|",
+    "original": "You don't have a phallus project. You decide to draw some cocks on a piece of paper. That will have to do. A <<person2>><<person>> with a flower display beside yours looks over and snickers.",
+    "translation": "",
+    "pos": 115
+  },
+  {
+    "passage": "Science Fair Phallus",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "245_5_3_7|",
+    "original": "You set up your phallus display and step back to admire it. It could be better, but it's not the worst in the room. A <<person2>><<person>> with a flower display beside yours looks over and gapes.",
+    "translation": "",
+    "pos": 347
+  },
+  {
+    "passage": "Science Fair Phallus",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "247_5_3_7|",
+    "original": "You set up your phallus display and step back to admire it. It couldn't be better. A <<person2>><<person>> with a flower display beside yours looks horrified. You're not sure if it's the subject matter or quality that upsets them.",
+    "translation": "",
+    "pos": 554
+  },
+  {
+    "passage": "Science Fair Phallus",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "250_5_3_7|",
+    "original": "Leighton walks on stage and taps the microphone. Sirris stands beside <<person1>><<him>>. \"Thank you, <<peopley>>, for coming,\" <<he>> says. \"I've seen some fine work already. Sirris and I will judge. Be patient.\"",
+    "translation": "",
+    "pos": 802
+  },
+  {
+    "passage": "Science Fair Phallus",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "253_5_3_7|",
+    "original": "Leighton and Sirris leave the stage and circle around the room. Leighton criticises the projects. Sirris observes, but gives words of encouragement if the headteacher was particularly scathing. Still, some students are left tearful by the headteacher's remarks.",
+    "translation": "",
+    "pos": 1026
+  },
+  {
+    "passage": "Science Fair Phallus",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "256_5_3_7|",
+    "original": "The teachers draw closer. The <<person2>><<person>> with the flower display bobs on <<his>> heels, brimming with confidence.",
+    "translation": "",
+    "pos": 1298
+  },
+  {
+    "passage": "Science Fair Phallus",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "260_5_3_7|",
+    "original": "<<link [[Sabotage <<him>>|Science Fair Sabotage]]>><</link>><<skulduggerydifficulty>><<note \"+ Success Chance\" \"gold\">>",
+    "translation": "",
+    "pos": 1471
+  },
+  {
+    "passage": "Science Fair Phallus",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "262_5_3_7|",
+    "original": "<<link [[Play fair|Science Fair Fair]]>><</link>>",
+    "translation": "",
+    "pos": 1596
+  },
+  {
+    "passage": "Science Fair Sabotage",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "267_5_3_7|",
+    "original": "You find a spare display board and drag it behind your own. You pin blank pieces of paper to it and write \"Pretty flowers!\" on each of them. Then you wait for your chance.",
+    "translation": "",
+    "pos": 60
+  },
+  {
+    "passage": "Science Fair Sabotage",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "270_5_3_7|",
+    "original": "The <<person2>><<person>> starts chatting with the display owner to their other side. You creep over with the new display board and try to place it in front of <<his>> own.",
+    "translation": "",
+    "pos": 242
+  },
+  {
+    "passage": "Science Fair Sabotage",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "275_5_3_7|",
+    "original": "<span class=\"green\"><<He>> doesn't notice.</span> And <<he>> doesn't look behind when <<he>> stops chatting.",
+    "translation": "",
+    "pos": 503
+  },
+  {
+    "passage": "Science Fair Sabotage",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "280_5_3_7|",
+    "original": "<<person1>>Leighton and Sirris arrive to find the display pretty, but vacuous. Leighton comments as much before moving on. The <<person2>><<person>> looks confused and angry, until <<he>> turns. <<His>> face turns white. In <<his>> haste to move the fake board <<he>> trips and tumbles to the ground. <<He>> scrambles to <<his>> feet and tries to plead <<his>> case to Sirris, who seems sympathetic. Leighton doesn't care.",
+    "translation": "",
+    "pos": 645
+  },
+  {
+    "passage": "Science Fair Sabotage",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "283_5_3_7|",
+    "original": "<span class=\"red\">You bump the display, jostling <<his>> project and drawing <<his>> attention.</span> <<His>> mouth gapes when <<he>> sees you. <<He>> guards <<his>> display more vigilantly from then on.",
+    "translation": "",
+    "pos": 1079
+  },
+  {
+    "passage": "Science Fair Sabotage",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "289_5_3_7|",
+    "original": "<<person2>>Leighton and Sirris arrive to examine the <<persons>> project. Not even Leighton can find much wrong with it. <<person1>><<He>> comments as much before moving on. The <<person2>><<person>> looks relieved as the teachers approach yours.",
+    "translation": "",
+    "pos": 1342
+  },
+  {
+    "passage": "Science Fair Sabotage",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "294_5_3_7|",
+    "original": "<<link [[Next|Science Fair Display]]>><</link>>",
+    "translation": "",
+    "pos": 1608
+  },
+  {
+    "passage": "Science Fair Fair",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "300_5_3_7|",
+    "original": "<<person2>>Leighton and Sirris arrive to examine the <<persons>> project. Not even Leighton can find much wrong with it. <<person1>><<He>> comments as much before moving on. The <<person2>><<person>> looks relieved as the teachers approach yours.",
+    "translation": "",
+    "pos": 61
+  },
+  {
+    "passage": "Science Fair Fair",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "303_5_3_7|",
+    "original": "<<link [[Next|Science Fair Display]]>><</link>>",
+    "translation": "",
+    "pos": 318
+  },
+  {
+    "passage": "Science Fair Display",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "309_5_3_7|",
+    "original": "Leighton and Sirris examine your project.",
+    "translation": "",
+    "pos": 72
+  },
+  {
+    "passage": "Science Fair Display",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "313_5_3_7|",
+    "original": "Even Leighton seems impressed. \"I've never seen colours like this in lichen,\" <<he>> says. Sirris beams at you.",
+    "translation": "",
+    "pos": 173
+  },
+  {
+    "passage": "Science Fair Display",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "315_5_3_7|",
+    "original": "Leighton yawns. \"Lichen? How boring,\" <<he>> says. Sirris seems happier with it.",
+    "translation": "",
+    "pos": 327
+  },
+  {
+    "passage": "Science Fair Display",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "317_5_3_7|",
+    "original": "They don't seem impressed. \"It's like you made it just now,\" Leighton says. \"You didn't even collect any lichen. What a waste of time.\"",
+    "translation": "",
+    "pos": 420
+  },
+  {
+    "passage": "Science Fair Display",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "321_5_3_7|",
+    "original": "Even Leighton seems impressed. \"You've been thorough,\" <<he>> says. \"Must have been a lot of work, finding these mushroom samples.\" Sirris beams at you.",
+    "translation": "",
+    "pos": 627
+  },
+  {
+    "passage": "Science Fair Display",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "323_5_3_7|",
+    "original": "Leighton yawns. \"Mushrooms grow in the forest,\" <<he>> says. \"Who knew.\" Sirris seems more impressed.",
+    "translation": "",
+    "pos": 822
+  },
+  {
+    "passage": "Science Fair Display",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "325_5_3_7|",
+    "original": "They don't seem impressed. \"I think the mushrooms went to your head,\" Leighton says. \"What a waste of time.\"",
+    "translation": "",
+    "pos": 936
+  },
+  {
+    "passage": "Science Fair Display",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "329_5_3_7|",
+    "original": "\"This is... different,\" Leighton says.",
+    "translation": "",
+    "pos": 1117
+  },
+  {
+    "passage": "Science Fair Display",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "332_5_3_7|",
+    "original": "\"It's for science,\" Sirris says. \"<<pShe>> should be commended for originality.\"",
+    "translation": "",
+    "pos": 1170
+  },
+  {
+    "passage": "Science Fair Display",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "335_5_3_7|",
+    "original": "Leighton nods, and reads one of the papers stuck to your board. \"I can get behind this. Though I'm not sure people count as wildlife.\"",
+    "translation": "",
+    "pos": 1265
+  },
+  {
+    "passage": "Science Fair Display",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "337_5_3_7|",
+    "original": "\"This is... different,\" Leighton says.",
+    "translation": "",
+    "pos": 1443
+  },
+  {
+    "passage": "Science Fair Display",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "339_5_3_7|",
+    "original": "\"It's for science,\" Sirris says. \"<<pShe>> should be commended for originality.\"",
+    "translation": "",
+    "pos": 1485
+  },
+  {
+    "passage": "Science Fair Display",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "341_5_3_7|",
+    "original": "Leighton nods, and reads one of the papers stuck to your board. \"I can get behind this. Though I'm not sure people count as wildlife.\"",
+    "translation": "",
+    "pos": 1569
+  },
+  {
+    "passage": "Science Fair Display",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "344_5_3_7|",
+    "original": "They stand and stare for a few moments. \"So,\" Leighton says. \"You decided to submit crudely drawn cocks to the science fair?\" You nod. Sirris looks embarrassed.",
+    "translation": "",
+    "pos": 1727
+  },
+  {
+    "passage": "Science Fair Display",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "351_5_3_7|",
+    "original": "<<link [[Flirt|Science Fair Flirt]]>><</link>><<note \"+ Success Chance\" \"gold\">>",
+    "translation": "",
+    "pos": 1927
+  },
+  {
+    "passage": "Science Fair Display",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "353_5_3_7|",
+    "original": "<<link [[Explain your project|Science Fair Explain]]>><</link>>",
+    "translation": "",
+    "pos": 2013
+  },
+  {
+    "passage": "Science Fair Flirt",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "362_5_3_7|",
+    "original": "<<if $seductionskill lt 1000>><span class=\"gold\">You feel more confident in your powers of seduction.</span><</if>><<seductionskilluse>>",
+    "translation": "",
+    "pos": 126
+  },
+  {
+    "passage": "Science Fair Flirt",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "365_5_3_7|",
+    "original": "You look Leighton in the eyes. \"You must know much more about it than me,\" you whisper. \"Maybe you can teach me in private?\" Sirris looks away and blushes.",
+    "translation": "",
+    "pos": 273
+  },
+  {
+    "passage": "Science Fair Flirt",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "370_5_3_7|",
+    "original": "<span class=\"green\">Leighton leans close.</span> \"Maybe you could use some-\" <<He>> pauses. \"Personal tuition.\" <<He>> glances around as if remembering where <<he>> is and coughs. \"That's enough,\" <<he>> says. They move on to the next project.",
+    "translation": "",
+    "pos": 520
+  },
+  {
+    "passage": "Science Fair Flirt",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "374_5_3_7|",
+    "original": "<span class=\"red\">Leighton laughs.</span> \"Nice try,\" <<he>> says. They move on to the next project.",
+    "translation": "",
+    "pos": 785
+  },
+  {
+    "passage": "Science Fair Flirt",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "379_5_3_7|",
+    "original": "<<link [[Next|Science Fair Finish]]>><</link>>",
+    "translation": "",
+    "pos": 906
+  },
+  {
+    "passage": "Science Fair Explain",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "385_5_3_7|",
+    "original": "You explain your project. Sirris listens and reads, while Leighton stares at you. \"That's enough,\" <<he>> interrupts. They move on to the next project.",
+    "translation": "",
+    "pos": 61
+  },
+  {
+    "passage": "Science Fair Explain",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "388_5_3_7|",
+    "original": "<<link [[Next|Science Fair Finish]]>><</link>>",
+    "translation": "",
+    "pos": 223
+  },
+  {
+    "passage": "Science Fair Finish",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "394_5_3_7|",
+    "original": "Leighton and Sirris examine the remaining projects. One is just an essay taped to a board. Another looks more like an art project.",
+    "translation": "",
+    "pos": 72
+  },
+  {
+    "passage": "Science Fair Finish",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "397_5_3_7|",
+    "original": "The public roam between the displays, asking questions and flirting inappropriately with students.",
+    "translation": "",
+    "pos": 213
+  },
+  {
+    "passage": "Science Fair Finish",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "400_5_3_7|",
+    "original": "Yours attracts a lot of attention for its subject. A lot of inappropriate flirting too.",
+    "translation": "",
+    "pos": 333
+  },
+  {
+    "passage": "Science Fair Finish",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "405_5_3_7|",
+    "original": "The teachers confer on the stage, then Leighton steps up to the microphone. \"We've made a decision,\" <<he>> says.",
+    "translation": "",
+    "pos": 440
+  },
+  {
+    "passage": "Science Fair Finish",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "408_5_3_7|",
+    "original": "\"The trophy goes to the <span class=\"green\">student with the lichen project.</span>\" Sirris waves at you. \"Come on up.\"",
+    "translation": "",
+    "pos": 629
+  },
+  {
+    "passage": "Science Fair Finish",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "411_5_3_7|",
+    "original": "You climb the stage and shake Leighton's hand as <<he>> smiles at a waiting photographer. <<He>> hands you the trophy. There's <<printmoney 50000>><<money 50000 \"schoolProject\">> inside.",
+    "translation": "",
+    "pos": 761
+  },
+  {
+    "passage": "Science Fair Finish",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "412_5_3_7|",
+    "original": "The audience cheers and applauds. The <<person2>><<person>> looks upset, but claps along.",
+    "translation": "",
+    "pos": 949
+  },
+  {
+    "passage": "Science Fair Finish",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "416_5_3_7|",
+    "original": "<<endevent>><<npc Sirris>><<person1>>Sirris follows you off the stage. \"I'm so happy you took to the project with such enthusiasm,\" <<he>> says. <<He>> and Leighton herd you and the other students from the building.",
+    "translation": "",
+    "pos": 1132
+  },
+  {
+    "passage": "Science Fair Finish",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "423_5_3_7|",
+    "original": "<<link [[Next|Cliff Street]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 1523
+  },
+  {
+    "passage": "Science Fair Finish",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "427_5_3_7|",
+    "original": "\"The trophy goes to the <span class=\"green\">student with the mushroom project.</span>\" Sirris waves at you. \"Come on up.\"",
+    "translation": "",
+    "pos": 1683
+  },
+  {
+    "passage": "Science Fair Finish",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "430_5_3_7|",
+    "original": "You climb the stage and shake Leighton's hand as <<he>> smiles at a waiting photographer. <<He>> hands you the trophy. There's <<printmoney 50000>><<money 50000 \"schoolProject\">> inside.",
+    "translation": "",
+    "pos": 1817
+  },
+  {
+    "passage": "Science Fair Finish",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "431_5_3_7|",
+    "original": "The audience cheers and applauds. The <<person2>><<person>> looks upset, but claps along.",
+    "translation": "",
+    "pos": 2005
+  },
+  {
+    "passage": "Science Fair Finish",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "435_5_3_7|",
+    "original": "A group of students surround you as you climb down from the stage. They want to hear the story of how you collected the mushrooms that only grow deep in the woods, deeper than the bravest of them have ventured. Leighton herds you and the other students from the hall.",
+    "translation": "",
+    "pos": 2188
+  },
+  {
+    "passage": "Science Fair Finish",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "442_5_3_7|",
+    "original": "<<link [[Next|Cliff Street]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 2653
+  },
+  {
+    "passage": "Science Fair Finish",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "446_5_3_7|",
+    "original": "\"The trophy goes to the <span class=\"green\">student with the phallus project.</span>\" Murmuring fills the hall. Sirris waves at you. \"Come on up.\"",
+    "translation": "",
+    "pos": 2814
+  },
+  {
+    "passage": "Science Fair Finish",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "449_5_3_7|",
+    "original": "You climb the stage and shake Leighton's hand as <<he>> smiles at a waiting photographer. <<He>> hands you the trophy. There's <span class=\"gold\">£500</span> inside. The audience cheers and applauds.",
+    "translation": "",
+    "pos": 2973
+  },
+  {
+    "passage": "Science Fair Finish",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "452_5_3_7|",
+    "original": "The <<person2>><<person>> looks upset. <<His>> fists clench. \"No,\" <<he>> shouts. \"I won't accept this. All <<pshe>> did was draw some privates.\" <<He>> marches up the stage. \"Give me that trophy!\" <<He>> tries to wrestle it from your grip.",
+    "translation": "",
+    "pos": 3211
+  },
+  {
+    "passage": "Science Fair Finish",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "455_5_3_7|",
+    "original": "<<link [[Let <<him>> take it|Science Fair Take]]>><</link>>",
+    "translation": "",
+    "pos": 3466
+  },
+  {
+    "passage": "Science Fair Finish",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "457_5_3_7|",
+    "original": "<<link [[Wrestle|Science Fair Wrestle]]>><</link>><<physiquedifficulty 4000 14000>>",
+    "translation": "",
+    "pos": 3535
+  },
+  {
+    "passage": "Science Fair Finish",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "461_5_3_7|",
+    "original": "The <<person2>><<person>> looks upset, but claps along.",
+    "translation": "",
+    "pos": 3639
+  },
+  {
+    "passage": "Science Fair Finish",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "465_5_3_7|",
+    "original": "The photographer accosts you as you leave the stage, wanting to know more about how you acquired your data. Leighton herds you and the other students from the hall.",
+    "translation": "",
+    "pos": 3843
+  },
+  {
+    "passage": "Science Fair Finish",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "472_5_3_7|",
+    "original": "<<link [[Next|Cliff Street]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 4187
+  },
+  {
+    "passage": "Science Fair Finish",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "477_5_3_7|",
+    "original": "<span class=\"red\"><<He>> announces that the <<person2>><<person>> with a flower display is the winner.</span> <<He>> rushes up to accept <<his>> trophy.",
+    "translation": "",
+    "pos": 4289
+  },
+  {
+    "passage": "Science Fair Finish",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "480_5_3_7|",
+    "original": "Leighton herds you and the other students from the hall. \"Thank you for taking part,\" Sirris says to you on the way out. \"It's good practice.\"",
+    "translation": "",
+    "pos": 4454
+  },
+  {
+    "passage": "Science Fair Finish",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "487_5_3_7|",
+    "original": "<<link [[Next|Cliff Street]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 4707
+  },
+  {
+    "passage": "Science Fair Take",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "496_5_3_7|",
+    "original": "The <<person>> snatches the trophy and runs from the hall. The audience boos, probably unaware of why you won.",
+    "translation": "",
+    "pos": 62
+  },
+  {
+    "passage": "Science Fair Take",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "500_5_3_7|",
+    "original": "The photographer accosts you as you leave the stage, wanting to know more about how you acquired your data. Leighton herds you and the other students from the hall.",
+    "translation": "",
+    "pos": 284
+  },
+  {
+    "passage": "Science Fair Take",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "507_5_3_7|",
+    "original": "<<link [[Next|Cliff Street]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 618
+  },
+  {
+    "passage": "Science Fair Wrestle",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "515_5_3_7|",
+    "original": "You try to keep hold of the trophy, and manage to <span class=\"green\">push the <<person>> to the ground.</span> \"It's not fair!\" <<he>> shouts. <<He>> scrambles to <<his>> feet and runs from the hall.",
+    "translation": "",
+    "pos": 90
+  },
+  {
+    "passage": "Science Fair Wrestle",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "519_5_3_7|",
+    "original": "The photographer accosts you as you leave the stage, wanting to know more about how you acquired your data. Leighton herds you and the other students from the hall.",
+    "translation": "",
+    "pos": 445
+  },
+  {
+    "passage": "Science Fair Wrestle",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "526_5_3_7|",
+    "original": "<<link [[Next|Cliff Street]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 799
+  },
+  {
+    "passage": "Science Fair Wrestle",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "531_5_3_7|",
+    "original": "You try to keep hold of the trophy, <span class=\"red\">but the <<person>> is stronger.</span> <<He>> twists it from your grip and run from the hall. The audience boos, probably unaware of why you won.",
+    "translation": "",
+    "pos": 898
+  },
+  {
+    "passage": "Science Fair Wrestle",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "535_5_3_7|",
+    "original": "The photographer accosts you as you leave the stage, wanting to know more about how you acquired your data. Leighton herds you and the other students from the hall.",
+    "translation": "",
+    "pos": 1196
+  },
+  {
+    "passage": "Science Fair Wrestle",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "542_5_3_7|",
+    "original": "<<link [[Next|Cliff Street]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 1550
+  },
+  {
+    "passage": "Science Fair Watch",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "550_5_3_7|",
+    "original": "You walk among the students and examine their projects. Some are more impressive than others. One is just an essay taped to a board. Another looks more like an art project.",
+    "translation": "",
+    "pos": 61
+  },
+  {
+    "passage": "Science Fair Watch",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "553_5_3_7|",
+    "original": "The public are allowed in. They roam between the displays, asking questions and flirting inappropriately with students.",
+    "translation": "",
+    "pos": 244
+  },
+  {
+    "passage": "Science Fair Watch",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "556_5_3_7|",
+    "original": "Leighton walks on stage and taps the microphone. Sirris stands beside <<him>>. \"Thank you, <<if maleChance() is 100>>boys and gentlemen<<elseif maleChance() is 0>>girls and ladies<<else>>boys and girls, ladies and gentlemen<</if>>, for coming,\" <<he>> says. \"I've seen some fine work already. Sirris and I will judge. Be patient.\"",
+    "translation": "",
+    "pos": 374
+  },
+  {
+    "passage": "Science Fair Watch",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "559_5_3_7|",
+    "original": "Leighton and Sirris leave the stage and begin to circle around the room. Leighton criticises the projects. Sirris observes, but gives words of encouragement if Leighton was particularly scathing. Still, some students are left tearful by the headteacher's remarks.",
+    "translation": "",
+    "pos": 715
+  },
+  {
+    "passage": "Science Fair Watch",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "562_5_3_7|",
+    "original": "After conferring they announce that a <<person2>><<person>> with a flower display is the winner.",
+    "translation": "",
+    "pos": 989
+  },
+  {
+    "passage": "Science Fair Watch",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "565_5_3_7|",
+    "original": "Leighton herds you and the other students from the hall. You might have learned something.",
+    "translation": "",
+    "pos": 1096
+  },
+  {
+    "passage": "Science Fair Watch",
+    "filepath": "overworld-town/loc-school/science-project.twee",
+    "key": "572_5_3_7|",
+    "original": "<<link [[Next|Cliff Street]]>><<endevent>><<set $eventskip to 1>><</link>>",
+    "translation": "",
+    "pos": 1288
+  }
+]
